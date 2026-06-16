@@ -1,0 +1,2396 @@
+[
+  {
+    "source": "Arkenforge-main/Arkenforge-main",
+    "file_count": 223,
+    "sample_files": [
+      {
+        "path": ".gitignore",
+        "size": 16
+      },
+      {
+        "path": "AmbiencePresets/heartbeat.rwamb",
+        "size": 3084
+      },
+      {
+        "path": "AmbiencePresets/heartbeat.rwmeta",
+        "size": 1799
+      },
+      {
+        "path": "Audio/ReverbPresets.rwreverb",
+        "size": 331
+      },
+      {
+        "path": "Maps/Courthouse.rwmap",
+        "size": 1057403
+      },
+      {
+        "path": "Maps/Courthouse.rwmeta",
+        "size": 19740
+      },
+      {
+        "path": "Maps/New Map.rwmap",
+        "size": 1055398
+      },
+      {
+        "path": "Maps/New Map.rwmeta",
+        "size": 2257
+      },
+      {
+        "path": "Maps/Tower of the Mad Mage.rwmap",
+        "size": 2221188
+      },
+      {
+        "path": "Maps/Tower of the Mad Mage.rwmeta",
+        "size": 6951
+      },
+      {
+        "path": "Maps/cave.rwmap",
+        "size": 12667671
+      },
+      {
+        "path": "Maps/cave.rwmeta",
+        "size": 8826
+      },
+      {
+        "path": "Maps/some random arena.rwmap",
+        "size": 3465881
+      },
+      {
+        "path": "Maps/some random arena.rwmeta",
+        "size": 6983
+      },
+      {
+        "path": "Misc/ArkenBar.rwbar",
+        "size": 2549
+      },
+      {
+        "path": "Misc/CLShortcuts.rwfile",
+        "size": 823
+      },
+      {
+        "path": "Misc/ColourPresets.rwfile",
+        "size": 357
+      },
+      {
+        "path": "Misc/Default.rwhk",
+        "size": 29852
+      },
+      {
+        "path": "Misc/FileIndex.rwindex",
+        "size": 2485856
+      },
+      {
+        "path": "Misc/Profile1.rwhk",
+        "size": 14229
+      },
+      {
+        "path": "Misc/Profile2.rwhk",
+        "size": 10586
+      },
+      {
+        "path": "Misc/QuickAccess.rwfile",
+        "size": 2519
+      },
+      {
+        "path": "Misc/T2Shortcuts.rwbar",
+        "size": 1391
+      },
+      {
+        "path": "Media/Cartographer/dungeon lvl 3jpg.rwfile",
+        "size": 4143303
+      },
+      {
+        "path": "Media/Cartographer/dungeon lvl 3jpg.rwmeta",
+        "size": 24849
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/011-map-1.01-spelljammer-academy-player.rwfile",
+        "size": 2216539
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/011-map-1.01-spelljammer-academy-player.rwmeta",
+        "size": 39695
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/1023x550-mad-mage.rwfile",
+        "size": 159443
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/1023x550-mad-mage.rwmeta",
+        "size": 26917
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/SpelljammerAcademy-cover-art-test.rwfile",
+        "size": 3270910
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/SpelljammerAcademy-cover-art-test.rwmeta",
+        "size": 31733
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/SpelljammerAcademy-cover-art.rwfile",
+        "size": 3259630
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/SpelljammerAcademy-cover-art.rwmeta",
+        "size": 38813
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/code legal.rwfile",
+        "size": 1914227
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/code legal.rwmeta",
+        "size": 33008
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/map-sword-coast-pc.rwfile",
+        "size": 1618219
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/map-sword-coast-pc.rwmeta",
+        "size": 34114
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/original.rwfile",
+        "size": 746763
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/original.rwmeta",
+        "size": 30360
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/sja-orientation-splash.rwfile",
+        "size": 489526
+      },
+      {
+        "path": "Media/Encyclopedia/Player Splash/sja-orientation-splash.rwmeta",
+        "size": 34629
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/Demon Reliefs/carvings.rwfile",
+        "size": 337082
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/Demon Reliefs/carvings.rwmeta",
+        "size": 12094
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/Demon Reliefs/carvings2.rwfile",
+        "size": 594961
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/Demon Reliefs/carvings2.rwmeta",
+        "size": 13610
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/art/skullport.rwfile",
+        "size": 59595
+      },
+      {
+        "path": "Media/Encyclopedia/Quick Import/art/skullport.rwmeta",
+        "size": 24601
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Academy/011-map-1.01-spelljammer-academy-player.rwfile",
+        "size": 2216539
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Academy/011-map-1.01-spelljammer-academy-player.rwmeta",
+        "size": 39097
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Alley/alley.rwfile",
+        "size": 1126653
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Alley/alley.rwmeta",
+        "size": 30823
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Axeholm/map-axeholm-pc.rwfile",
+        "size": 943814
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Axeholm/map-axeholm-pc.rwmeta",
+        "size": 29121
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Butterskull Ranch/map-br-pc.rwfile",
+        "size": 957233
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Butterskull Ranch/map-br-pc.rwmeta",
+        "size": 28904
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Cellar Complex/cellar.rwfile",
+        "size": 768228
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Cellar Complex/cellar.rwmeta",
+        "size": 27651
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Converted Windmill/273480705_444836880720849_8229261303142153111_n.rwfile",
+        "size": 174618
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Converted Windmill/273480705_444836880720849_8229261303142153111_n.rwmeta",
+        "size": 42845
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Courthouse/courthouse.rwfile",
+        "size": 508245
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Courthouse/courthouse.rwmeta",
+        "size": 17309
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Dragon BArrow/map-db-pc.rwfile",
+        "size": 948362
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Dragon BArrow/map-db-pc.rwmeta",
+        "size": 28356
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Dwarven Excavation/dwarven-excavation-pc-hidden.rwfile",
+        "size": 1321018
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Dwarven Excavation/dwarven-excavation-pc-hidden.rwmeta",
+        "size": 28062
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Falcon's Hunting Lodge/map-fhl-pc.rwfile",
+        "size": 970429
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Falcon's Hunting Lodge/map-fhl-pc.rwmeta",
+        "size": 29760
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Forecastle/001-01-009.o-forecastle.rwfile",
+        "size": 172311
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Forecastle/001-01-009.o-forecastle.rwmeta",
+        "size": 24994
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Gnomengarde/map-gnomegarde-pc.rwfile",
+        "size": 899950
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Gnomengarde/map-gnomegarde-pc.rwmeta",
+        "size": 28243
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Icespire Hold/icespire hold.rwfile",
+        "size": 971378
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Icespire Hold/icespire hold.rwmeta",
+        "size": 30150
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Icespire hold correct scale/icespire hold.rwfile",
+        "size": 971378
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Icespire hold correct scale/icespire hold.rwmeta",
+        "size": 30154
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 1 Dungeon level/DragonSkeleton.rwfile",
+        "size": 392892
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 1 Dungeon level/DragonSkeleton.rwmeta",
+        "size": 17399
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 12- Maze Level/kKXFKj0.rwfile",
+        "size": 950800
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 12- Maze Level/kKXFKj0.rwmeta",
+        "size": 33952
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 3 Sargauth Level/skullport.rwfile",
+        "size": 957658
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 3 Sargauth Level/skullport.rwmeta",
+        "size": 22765
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/Tongue of Madness.rwfile",
+        "size": 7945
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/Tongue of Madness.rwmeta",
+        "size": 28809
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/lvl 4.rwfile",
+        "size": 989795
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/lvl 4.rwmeta",
+        "size": 29850
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/pngimg.com - tongue_PNG29.rwfile",
+        "size": 132297
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 4- Twisted Caverns/pngimg.com - tongue_PNG29.rwmeta",
+        "size": 29011
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 6- Lost Level/lost level.rwfile",
+        "size": 899755
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 6- Lost Level/lost level.rwmeta",
+        "size": 28539
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 7- Maddgoth's Castle/maddgoth's castle.rwfile",
+        "size": 748445
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Level 7- Maddgoth's Castle/maddgoth's castle.rwmeta",
+        "size": 33717
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Loggers Camp/map-lc-pc.rwfile",
+        "size": 958830
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Loggers Camp/map-lc-pc.rwmeta",
+        "size": 30577
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Mirt's Quarters/008-01-010.o-mirts-quarters.rwfile",
+        "size": 298332
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Mirt's Quarters/008-01-010.o-mirts-quarters.rwmeta",
+        "size": 22699
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Mirt's Quarters/maps-on-fire-swordcoast-starterset-map-notext.rwfile",
+        "size": 1000153
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Mirt's Quarters/maps-on-fire-swordcoast-starterset-map-notext.rwmeta",
+        "size": 32992
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/New Map/theater.rwfile",
+        "size": 1033045
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/New Map/theater.rwmeta",
+        "size": 31111
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Phandalin/map-phandalin-pc.rwfile",
+        "size": 1566868
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Phandalin/map-phandalin-pc.rwmeta",
+        "size": 33326
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Sword Coast/map-sword-coast-pc.rwfile",
+        "size": 1618219
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Sword Coast/map-sword-coast-pc.rwmeta",
+        "size": 33761
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Tower of Storms/map-tos-pc.rwfile",
+        "size": 1032082
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Tower of Storms/map-tos-pc.rwmeta",
+        "size": 29833
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Trollskull Alley/Trollskull Alley.rwfile",
+        "size": 3706388
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Trollskull Alley/Trollskull Alley.rwmeta",
+        "size": 30032
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Umbrage Hill/map-umbrage-hill-pc.rwfile",
+        "size": 868088
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Umbrage Hill/map-umbrage-hill-pc.rwmeta",
+        "size": 27328
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Waterdeep/waterdeep-3560-7256.rwfile",
+        "size": 12039742
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/Waterdeep/waterdeep-3560-7256.rwmeta",
+        "size": 24459
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/WillowWood/willowwood.rwfile",
+        "size": 830582
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/WillowWood/willowwood.rwmeta",
+        "size": 30325
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/`Woodland Manse/map-wm-pc.rwfile",
+        "size": 1012427
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/`Woodland Manse/map-wm-pc.rwmeta",
+        "size": 31214
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/some random arena/shrine.rwfile",
+        "size": 1000997
+      },
+      {
+        "path": "Media/Cartographer/Quick Import/some random arena/shrine.rwmeta",
+        "size": 29370
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Axeholm.rwmap",
+        "size": 7087869
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Axeholm.rwmeta",
+        "size": 9660
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Butterskull Ranch.rwmap",
+        "size": 2106191
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Butterskull Ranch.rwmeta",
+        "size": 16380
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Dragon BArrow.rwmap",
+        "size": 2894013
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Dragon BArrow.rwmeta",
+        "size": 18782
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Dwarven Excavation.rwmap",
+        "size": 2633472
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Dwarven Excavation.rwmeta",
+        "size": 6134
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Falcon's Hunting Lodge.rwmap",
+        "size": 2106829
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Falcon's Hunting Lodge.rwmeta",
+        "size": 17047
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Gnomengarde.rwmap",
+        "size": 3178582
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Gnomengarde.rwmeta",
+        "size": 18978
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Icespire Hold.rwmap",
+        "size": 3515721
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Icespire Hold.rwmeta",
+        "size": 12116
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Icespire hold correct scale.rwmap",
+        "size": 4729407
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Icespire hold correct scale.rwmeta",
+        "size": 17139
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Loggers Camp.rwmap",
+        "size": 2107766
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Loggers Camp.rwmeta",
+        "size": 10476
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Phandalin.rwmap",
+        "size": 4990325
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Phandalin.rwmeta",
+        "size": 20189
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Sword Coast.rwmap",
+        "size": 1066752
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Sword Coast.rwmeta",
+        "size": 21993
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Tower of Storms.rwmap",
+        "size": 24658697
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Tower of Storms.rwmeta",
+        "size": 7596
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Umbrage Hill.rwmap",
+        "size": 3154979
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/Umbrage Hill.rwmeta",
+        "size": 9322
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/`Woodland Manse.rwmap",
+        "size": 4309790
+      },
+      {
+        "path": "Maps/Dragon of Icespire Peak/`Woodland Manse.rwmeta",
+        "size": 17848
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Academy.rwmap",
+        "size": 1059805
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Academy.rwmeta",
+        "size": 12206
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Alley.rwmap",
+        "size": 2106203
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Alley.rwmeta",
+        "size": 10143
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Manor - HYB.rwmap",
+        "size": 17274637
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Manor - HYB.rwmeta",
+        "size": 14277
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Manor - PV.rwmap",
+        "size": 16536167
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Trollskull Manor - PV.rwmeta",
+        "size": 8810
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Waterdeep-hybriddnd.rwmap",
+        "size": 6313349
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Waterdeep-hybriddnd.rwmeta",
+        "size": 10266
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Waterdeep-parovita.rwmap",
+        "size": 7367632
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Waterdeep-parovita.rwmeta",
+        "size": 7736
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Yawning Portal.rwmap",
+        "size": 1637825
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Yawning Portal.rwmeta",
+        "size": 12188
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 1 Dungeon level.rwmap",
+        "size": 12139513
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 1 Dungeon level.rwmeta",
+        "size": 10334
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 12- Maze Level.rwmap",
+        "size": 5802305
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 12- Maze Level.rwmeta",
+        "size": 19190
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers-2.rwmap",
+        "size": 14858167
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers-2.rwmeta",
+        "size": 9064
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers-hidden.rwmap",
+        "size": 14867795
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers-hidden.rwmeta",
+        "size": 10789
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers].rwmap",
+        "size": 14857588
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 2 Arcane Chambers].rwmeta",
+        "size": 11906
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 3 Sargauth Level.rwmap",
+        "size": 43818809
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 3 Sargauth Level.rwmeta",
+        "size": 11932
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 4- Twisted Caverns.rwmap",
+        "size": 11375887
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 4- Twisted Caverns.rwmeta",
+        "size": 10451
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 5- WillowWood.rwmap",
+        "size": 12623047
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 5- WillowWood.rwmeta",
+        "size": 19447
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 6- Lost Level.rwmap",
+        "size": 8675543
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 6- Lost Level.rwmeta",
+        "size": 12354
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 7- Maddgoth's Castle.rwmap",
+        "size": 7683871
+      },
+      {
+        "path": "Maps/Waterdeep Dungeon of the Mad Mage/Level 7- Maddgoth's Castle.rwmeta",
+        "size": 19135
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 1/Sewers.rwmap",
+        "size": 1054647
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 1/Sewers.rwmeta",
+        "size": 2201
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 1/Zhentarim Hideout.rwmap",
+        "size": 2192688
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 1/Zhentarim Hideout.rwmeta",
+        "size": 11150
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 3/Gralhund Villa.rwmap",
+        "size": 7477104
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 3/Gralhund Villa.rwmeta",
+        "size": 10056
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Alley.rwmap",
+        "size": 4204592
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Alley.rwmeta",
+        "size": 9095
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Cellar Complex.rwmap",
+        "size": 4203731
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Cellar Complex.rwmeta",
+        "size": 13544
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Converted Windmill.rwmap",
+        "size": 3957833
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Converted Windmill.rwmeta",
+        "size": 17054
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Mausoleum.rwmap",
+        "size": 2900625
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Mausoleum.rwmeta",
+        "size": 11782
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Theater.rwmap",
+        "size": 3942407
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Theater.rwmeta",
+        "size": 17040
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Vault of Dragons.rwmap",
+        "size": 16476253
+      },
+      {
+        "path": "Maps/Waterdeep Dragon Heist/Chapter 4/Vault of Dragons.rwmeta",
+        "size": 11713
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Orientation/Forecastle.rwmap",
+        "size": 3966706
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Orientation/Forecastle.rwmeta",
+        "size": 7463
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Orientation/Mirt's Quarters.rwmap",
+        "size": 1619340
+      },
+      {
+        "path": "Maps/Spelljammer Academy/Orientation/Mirt's Quarters.rwmeta",
+        "size": 12959
+      },
+      {
+        "path": "Encyclopedia/Notes/Waterdeep Dungeon of the Mad Mage/Level 1 - Dungeon Level/1. Entry Well.rwmeta",
+        "size": 2099
+      },
+      {
+        "path": "Encyclopedia/Notes/Waterdeep Dungeon of the Mad Mage/Level 1 - Dungeon Level/1. Entry Well.rwnote",
+        "size": 35974
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Demon Reliefs.rwmeta",
+        "size": 2099
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Demon Reliefs.rwnote",
+        "size": 4410
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Echoes.rwmeta",
+        "size": 2092
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Echoes.rwnote",
+        "size": 6492
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Pit!.rwmeta",
+        "size": 2090
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Pit!.rwnote",
+        "size": 3030
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Snake skeleton.rwmeta",
+        "size": 2100
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Snake skeleton.rwnote",
+        "size": 7871
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Warning.rwmeta",
+        "size": 2093
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/Warning.rwnote",
+        "size": 6052
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/secret.rwmeta",
+        "size": 2092
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/secret.rwnote",
+        "size": 6051
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/trap spot.rwmeta",
+        "size": 2095
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 1 Dungeon level/trap spot.rwnote",
+        "size": 3035
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 3 Sargauth Level/art.rwmeta",
+        "size": 2089
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Level 3 Sargauth Level/art.rwnote",
+        "size": 4169
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Waterdeep/Yawning Portal.rwmeta",
+        "size": 2115
+      },
+      {
+        "path": "Encyclopedia/Notes/Map Notes/Waterdeep/Yawning Portal.rwnote",
+        "size": 3299
+      },
+      {
+        "path": "Audio/SFX/mixkit-slow-heartbeat-494.rwfile",
+        "size": 7999340
+      },
+      {
+        "path": "Audio/SFX/mixkit-slow-heartbeat-494.rwmeta",
+        "size": 1981
+      }
+    ]
+  },
+  {
+    "source": "rustforged-main/rustforged-main",
+    "file_count": 121,
+    "sample_files": [
+      {
+        "path": ".gitignore",
+        "size": 45
+      },
+      {
+        "path": "Cargo.lock",
+        "size": 166954
+      },
+      {
+        "path": "Cargo.toml",
+        "size": 1485
+      },
+      {
+        "path": "LICENSE-APACHE",
+        "size": 10850
+      },
+      {
+        "path": "LICENSE-MIT",
+        "size": 1080
+      },
+      {
+        "path": "README.md",
+        "size": 3776
+      },
+      {
+        "path": "packager.toml",
+        "size": 610
+      },
+      {
+        "path": ".cargo/config.toml",
+        "size": 196
+      },
+      {
+        "path": "dist/README.md",
+        "size": 1037
+      },
+      {
+        "path": "packaging/README.md",
+        "size": 6236
+      },
+      {
+        "path": "scripts/build-installers.sh",
+        "size": 1902
+      },
+      {
+        "path": "scripts/build-macos.sh",
+        "size": 1949
+      },
+      {
+        "path": "scripts/build-windows.ps1",
+        "size": 3328
+      },
+      {
+        "path": "src/common.rs",
+        "size": 2728
+      },
+      {
+        "path": "src/constants.rs",
+        "size": 718
+      },
+      {
+        "path": "src/main.rs",
+        "size": 3966
+      },
+      {
+        "path": "src/paths.rs",
+        "size": 5343
+      },
+      {
+        "path": "src/theme.rs",
+        "size": 7646
+      },
+      {
+        "path": "src/assets/library.rs",
+        "size": 15216
+      },
+      {
+        "path": "src/assets/mod.rs",
+        "size": 4150
+      },
+      {
+        "path": "src/assets/placeholder.rs",
+        "size": 1928
+      },
+      {
+        "path": "src/assets/validation.rs",
+        "size": 3697
+      },
+      {
+        "path": "src/config/mod.rs",
+        "size": 9521
+      },
+      {
+        "path": "src/editor/brush.rs",
+        "size": 6187
+      },
+      {
+        "path": "src/editor/camera.rs",
+        "size": 2128
+      },
+      {
+        "path": "src/editor/conditions.rs",
+        "size": 1127
+      },
+      {
+        "path": "src/editor/fog.rs",
+        "size": 14995
+      },
+      {
+        "path": "src/editor/grid.rs",
+        "size": 5410
+      },
+      {
+        "path": "src/editor/mod.rs",
+        "size": 7566
+      },
+      {
+        "path": "src/editor/params.rs",
+        "size": 4129
+      },
+      {
+        "path": "src/editor/placement.rs",
+        "size": 2125
+      },
+      {
+        "path": "src/editor/tools.rs",
+        "size": 8913
+      },
+      {
+        "path": "src/map/fog.rs",
+        "size": 8634
+      },
+      {
+        "path": "src/map/layer.rs",
+        "size": 6241
+      },
+      {
+        "path": "src/map/map_data.rs",
+        "size": 16008
+      },
+      {
+        "path": "src/map/mod.rs",
+        "size": 2333
+      },
+      {
+        "path": "src/map/placed_item.rs",
+        "size": 673
+      },
+      {
+        "path": "src/session/mod.rs",
+        "size": 1449
+      },
+      {
+        "path": "src/session/player_window.rs",
+        "size": 7625
+      },
+      {
+        "path": "src/session/state.rs",
+        "size": 9593
+      },
+      {
+        "path": "src/session/viewport.rs",
+        "size": 11686
+      },
+      {
+        "path": "src/ui/asset_import.rs",
+        "size": 12582
+      },
+      {
+        "path": "src/ui/file_menu.rs",
+        "size": 16635
+      },
+      {
+        "path": "src/ui/mod.rs",
+        "size": 5117
+      },
+      {
+        "path": "src/ui/session_controls.rs",
+        "size": 4093
+      },
+      {
+        "path": "src/ui/settings_dialog.rs",
+        "size": 7918
+      },
+      {
+        "path": "src/ui/toolbar.rs",
+        "size": 12203
+      },
+      {
+        "path": "src/update/manifest.rs",
+        "size": 2686
+      },
+      {
+        "path": "src/update/mod.rs",
+        "size": 2145
+      },
+      {
+        "path": "src/update/operations.rs",
+        "size": 4205
+      },
+      {
+        "path": "src/update/state.rs",
+        "size": 2409
+      },
+      {
+        "path": "src/update/systems.rs",
+        "size": 2069
+      },
+      {
+        "path": "src/update/tests.rs",
+        "size": 3683
+      },
+      {
+        "path": "src/update/ui.rs",
+        "size": 7725
+      },
+      {
+        "path": "src/ui/asset_browser/asset_ops.rs",
+        "size": 7627
+      },
+      {
+        "path": "src/ui/asset_browser/dialogs.rs",
+        "size": 17444
+      },
+      {
+        "path": "src/ui/asset_browser/helpers.rs",
+        "size": 2876
+      },
+      {
+        "path": "src/ui/asset_browser/library_ops.rs",
+        "size": 5910
+      },
+      {
+        "path": "src/ui/asset_browser/main_panel.rs",
+        "size": 27664
+      },
+      {
+        "path": "src/ui/asset_browser/mod.rs",
+        "size": 1477
+      },
+      {
+        "path": "src/ui/asset_browser/state.rs",
+        "size": 4527
+      },
+      {
+        "path": "src/ui/asset_browser/thumbnails.rs",
+        "size": 1847
+      },
+      {
+        "path": "src/ui/layers_panel/fog.rs",
+        "size": 1857
+      },
+      {
+        "path": "src/ui/layers_panel/help.rs",
+        "size": 8038
+      },
+      {
+        "path": "src/ui/layers_panel/layers.rs",
+        "size": 2354
+      },
+      {
+        "path": "src/ui/layers_panel/main_panel.rs",
+        "size": 1893
+      },
+      {
+        "path": "src/ui/layers_panel/mod.rs",
+        "size": 1171
+      },
+      {
+        "path": "src/ui/layers_panel/properties.rs",
+        "size": 9819
+      },
+      {
+        "path": "src/ui/layers_panel/session.rs",
+        "size": 3134
+      },
+      {
+        "path": "src/map/persistence/dirty.rs",
+        "size": 1838
+      },
+      {
+        "path": "src/map/persistence/helpers.rs",
+        "size": 569
+      },
+      {
+        "path": "src/map/persistence/load.rs",
+        "size": 10571
+      },
+      {
+        "path": "src/map/persistence/map_state.rs",
+        "size": 9942
+      },
+      {
+        "path": "src/map/persistence/messages.rs",
+        "size": 484
+      },
+      {
+        "path": "src/map/persistence/mod.rs",
+        "size": 2031
+      },
+      {
+        "path": "src/map/persistence/resources.rs",
+        "size": 4586
+      },
+      {
+        "path": "src/map/persistence/results.rs",
+        "size": 393
+      },
+      {
+        "path": "src/map/persistence/save.rs",
+        "size": 6672
+      },
+      {
+        "path": "src/map/persistence/tests.rs",
+        "size": 3978
+      },
+      {
+        "path": "src/editor/annotations/components.rs",
+        "size": 763
+      },
+      {
+        "path": "src/editor/annotations/draw_tool.rs",
+        "size": 3007
+      },
+      {
+        "path": "src/editor/annotations/gizmo.rs",
+        "size": 701
+      },
+      {
+        "path": "src/editor/annotations/hit_testing.rs",
+        "size": 4052
+      },
+      {
+        "path": "src/editor/annotations/layer_helpers.rs",
+        "size": 635
+      },
+      {
+        "path": "src/editor/annotations/line_tool.rs",
+        "size": 2013
+      },
+      {
+        "path": "src/editor/annotations/mod.rs",
+        "size": 2502
+      },
+      {
+        "path": "src/editor/annotations/rendering.rs",
+        "size": 4617
+      },
+      {
+        "path": "src/editor/annotations/state.rs",
+        "size": 1259
+      },
+      {
+        "path": "src/editor/annotations/text_tool.rs",
+        "size": 7373
+      },
+      {
+        "path": "src/editor/clipboard/copy.rs",
+        "size": 3455
+      },
+      {
+        "path": "src/editor/clipboard/cut.rs",
+        "size": 3916
+      },
+      {
+        "path": "src/editor/clipboard/helpers.rs",
+        "size": 2223
+      },
+      {
+        "path": "src/editor/clipboard/mod.rs",
+        "size": 1549
+      },
+      {
+        "path": "src/editor/clipboard/paste.rs",
+        "size": 5196
+      },
+      {
+        "path": "src/editor/clipboard/tests.rs",
+        "size": 11593
+      },
+      {
+        "path": "src/editor/clipboard/types.rs",
+        "size": 1458
+      },
+      {
+        "path": "src/editor/history/command_history.rs",
+        "size": 2101
+      },
+      {
+        "path": "src/editor/history/commands.rs",
+        "size": 1086
+      },
+      {
+        "path": "src/editor/history/data_types.rs",
+        "size": 1968
+      },
+      {
+        "path": "src/editor/history/execute.rs",
+        "size": 8055
+      },
+      {
+        "path": "src/editor/history/mod.rs",
+        "size": 1340
+      },
+      {
+        "path": "src/editor/history/spawn_helpers.rs",
+        "size": 2339
+      },
+      {
+        "path": "src/editor/history/systems.rs",
+        "size": 2901
+      },
+      {
+        "path": "src/editor/history/tests.rs",
+        "size": 1825
+      },
+      {
+        "path": "src/editor/selection/box_select.rs",
+        "size": 4994
+      },
+      {
+        "path": "src/editor/selection/cursor.rs",
+        "size": 2857
+      },
+      {
+        "path": "src/editor/selection/drag.rs",
+        "size": 13053
+      },
+      {
+        "path": "src/editor/selection/gizmos.rs",
+        "size": 7800
+      },
+      {
+        "path": "src/editor/selection/handle.rs",
+        "size": 13849
+      },
+      {
+        "path": "src/editor/selection/hit_detection.rs",
+        "size": 7905
+      },
+      {
+        "path": "src/editor/selection/mod.rs",
+        "size": 3051
+      },
+      {
+        "path": "src/editor/selection/shortcuts.rs",
+        "size": 5504
+      },
+      {
+        "path": "packaging/icons/README.md",
+        "size": 1148
+      },
+      {
+        "path": "packaging/icons/Rustforged.png",
+        "size": 1366933
+      },
+      {
+        "path": "packaging/icons/icon.icns",
+        "size": 2601355
+      },
+      {
+        "path": "packaging/icons/icon.ico",
+        "size": 225588
+      },
+      {
+        "path": "dist/linux/rustforged.desktop",
+        "size": 233
+      },
+      {
+        "path": "dist/macos/Info.plist",
+        "size": 1051
+      },
+      {
+        "path": "assets/fonts/OpenSans-Regular.ttf",
+        "size": 532636
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "size": 1418
+      },
+      {
+        "path": ".github/workflows/release.yml",
+        "size": 7535
+      }
+    ]
+  },
+  {
+    "source": "Life_Simulator/Life_Simulator",
+    "file_count": 601,
+    "sample_files": [
+      {
+        "path": "README.md",
+        "size": 1899
+      },
+      {
+        "path": "TEST_REPORT.md",
+        "size": 502
+      },
+      {
+        "path": "index.html",
+        "size": 20448
+      },
+      {
+        "path": "activity-assets/addedstates__vacationing.svg",
+        "size": 434
+      },
+      {
+        "path": "activity-assets/afternoonroutine__attending_council_meetings.svg",
+        "size": 453
+      },
+      {
+        "path": "activity-assets/afternoonroutine__banking_money.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/afternoonroutine__conducting_research.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/afternoonroutine__continuing_work.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/afternoonroutine__doing_repairs.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/afternoonroutine__escorting_goods.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/afternoonroutine__exercising.svg",
+        "size": 430
+      },
+      {
+        "path": "activity-assets/afternoonroutine__making_deliveries.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/afternoonroutine__meeting_with_a_faction.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/afternoonroutine__meeting_with_clients.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/afternoonroutine__patrolling.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/afternoonroutine__preparing_dinner_ingredients.svg",
+        "size": 452
+      },
+      {
+        "path": "activity-assets/afternoonroutine__restocking_shelves.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/afternoonroutine__running_family_errands.svg",
+        "size": 467
+      },
+      {
+        "path": "activity-assets/afternoonroutine__studying.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/afternoonroutine__taking_children_home.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/afternoonroutine__training.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/afternoonroutine__visiting_a_second_job.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/afternoonroutine__visiting_a_tavern.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__breaking_into_buildings.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__bribing_officials.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__forging_documents.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__hiding_evidence.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__interrogating_someone.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__laundering_money.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__lying_low.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__making_escape_plans.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__meeting_an_accomplice.svg",
+        "size": 448
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__pickpocketing.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__running_a_black_market.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__selling_contraband.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__smuggling.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__spying.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__tailing_targets.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/criminalsecretactivities__threatening_witnesses.svg",
+        "size": 450
+      },
+      {
+        "path": "activity-assets/daysoffleisure__attending_festivals.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/daysoffleisure__attending_performances.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/daysoffleisure__crafting_personal_items.svg",
+        "size": 450
+      },
+      {
+        "path": "activity-assets/daysoffleisure__drinking.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/daysoffleisure__exercising.svg",
+        "size": 430
+      },
+      {
+        "path": "activity-assets/daysoffleisure__fishing_for_fun.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/daysoffleisure__gambling.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/daysoffleisure__gardening.svg",
+        "size": 429
+      },
+      {
+        "path": "activity-assets/daysoffleisure__going_to_the_market.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/daysoffleisure__hunting_for_fun.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/daysoffleisure__playing_games.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/daysoffleisure__practicing_a_hobby.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/daysoffleisure__reading.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/daysoffleisure__shopping.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/daysoffleisure__sleeping_in.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/daysoffleisure__studying.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/daysoffleisure__traveling.svg",
+        "size": 429
+      },
+      {
+        "path": "activity-assets/daysoffleisure__visiting_family.svg",
+        "size": 460
+      },
+      {
+        "path": "activity-assets/daysoffleisure__visiting_friends.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/daysoffleisure__visiting_scenic_spots.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/daysoffleisure__walking.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/emergencycrisis__defending_others.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/emergencycrisis__evacuating_civilians.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/emergencycrisis__fighting.svg",
+        "size": 430
+      },
+      {
+        "path": "activity-assets/emergencycrisis__fleeing.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/emergencycrisis__hiding.svg",
+        "size": 426
+      },
+      {
+        "path": "activity-assets/emergencycrisis__investigating_damage.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/emergencycrisis__locking_down_a_building.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/emergencycrisis__looting.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/emergencycrisis__loot_recovery.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/emergencycrisis__mourning.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/emergencycrisis__protecting_valuables.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/emergencycrisis__putting_out_fires.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/emergencycrisis__rebuilding.svg",
+        "size": 434
+      },
+      {
+        "path": "activity-assets/emergencycrisis__reporting_danger.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/emergencycrisis__rescuing_animals.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/emergencycrisis__searching_for_someone.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/emergencycrisis__sounding_an_alarm.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/emergencycrisis__treating_injuries.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/eveningroutine__attending_a_lecture_or_performance.svg",
+        "size": 458
+      },
+      {
+        "path": "activity-assets/eveningroutine__attending_dinner_gatherings.svg",
+        "size": 454
+      },
+      {
+        "path": "activity-assets/eveningroutine__attending_social_events.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/eveningroutine__checking_on_livestock.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/eveningroutine__closing_stalls.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/eveningroutine__cooking_dinner.svg",
+        "size": 434
+      },
+      {
+        "path": "activity-assets/eveningroutine__dancing.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/eveningroutine__drinking.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/eveningroutine__eating_dinner.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/eveningroutine__gambling.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/eveningroutine__going_to_church_or_temple.svg",
+        "size": 449
+      },
+      {
+        "path": "activity-assets/eveningroutine__locking_up_shops.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/eveningroutine__patrolling_streets.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/eveningroutine__playing_games.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/eveningroutine__preparing_for_bed.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/eveningroutine__reading.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/eveningroutine__relaxing.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/eveningroutine__returning_home.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/eveningroutine__singing.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/eveningroutine__spending_time_with_family.svg",
+        "size": 466
+      },
+      {
+        "path": "activity-assets/eveningroutine__starting_night_shift.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/eveningroutine__talking_with_neighbors.svg",
+        "size": 452
+      },
+      {
+        "path": "activity-assets/eveningroutine__visiting_the_tavern.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/eveningroutine__walking_pets.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__attending_meetings.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__collecting_bribes.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__covering_up_crimes.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__debating_policy.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__delivering_speeches.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__enforcing_laws.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__forming_alliances.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__holding_court.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__investigating_crimes.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__issuing_orders.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__lobbying_support.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__making_threats.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__negotiating_treaties.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__organizing_protests.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__planning_raids.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__recruiting_members.svg",
+        "size": 456
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__spreading_propaganda.svg",
+        "size": 444
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__spying.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__voting.svg",
+        "size": 429
+      },
+      {
+        "path": "activity-assets/factionpoliticalactivities__writing_decrees.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__attending_a_chapel.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__attending_ceremonies.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__blessing_others.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__brewing_potions.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__casting_spells.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__consulting_prophecy.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__divining_omens.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__enchanting_items.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__exorcising_spirits.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__leading_worship.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__making_offerings.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__performing_rituals.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__praying.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__protecting_sacred_spaces.svg",
+        "size": 451
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__studying_spellbooks.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__training_apprentices.svg",
+        "size": 450
+      },
+      {
+        "path": "activity-assets/magicreligiousactivities__visiting_their_deity.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__caring_for_animals.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__cleaning.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__collecting_firewood.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__cooking.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__fetching_water.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__fixing_furniture.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__gardening.svg",
+        "size": 429
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__laundry.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__mending_tools.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__organizing_storage.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__painting_walls.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__renovating_rooms.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__repairing_clothing.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__restocking_supplies.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__sweeping.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/maintenancedomesticactivities__tending_the_hearth.svg",
+        "size": 442
+      },
+      {
+        "path": "activity-assets/middayactivehours__attending_appointments.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/middayactivehours__attending_school.svg",
+        "size": 440
+      },
+      {
+        "path": "activity-assets/middayactivehours__checking_on_animals.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/middayactivehours__collecting_supplies.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/middayactivehours__delivering_messages.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/middayactivehours__eating_lunch.svg",
+        "size": 432
+      },
+      {
+        "path": "activity-assets/middayactivehours__gambling.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/middayactivehours__gossiping.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/middayactivehours__inspecting_property.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/middayactivehours__meeting_friends.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/middayactivehours__negotiating_deals.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/middayactivehours__people_watching.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/middayactivehours__performing_street_work.svg",
+        "size": 449
+      },
+      {
+        "path": "activity-assets/middayactivehours__practicing_a_trade.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/middayactivehours__practicing_combat.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/middayactivehours__practicing_magic.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/middayactivehours__practicing_music.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/middayactivehours__praying.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/middayactivehours__running_errands.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/middayactivehours__shopping.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/middayactivehours__socializing.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/middayactivehours__taking_a_break.svg",
+        "size": 433
+      },
+      {
+        "path": "activity-assets/middayactivehours__visiting_family.svg",
+        "size": 460
+      },
+      {
+        "path": "activity-assets/middayactivehours__visiting_public_places.svg",
+        "size": 449
+      },
+      {
+        "path": "activity-assets/morningroutine__bathing.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/morningroutine__brushing_hair.svg",
+        "size": 433
+      },
+      {
+        "path": "activity-assets/morningroutine__checking_messages.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/morningroutine__dressing.svg",
+        "size": 428
+      },
+      {
+        "path": "activity-assets/morningroutine__feeding_pets.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/morningroutine__leaving_home.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/morningroutine__locking_or_unlocking_doors.svg",
+        "size": 450
+      },
+      {
+        "path": "activity-assets/morningroutine__making_breakfast.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/morningroutine__opening_a_shop.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/morningroutine__preparing_tools_or_supplies.svg",
+        "size": 454
+      },
+      {
+        "path": "activity-assets/morningroutine__shaving.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/morningroutine__taking_a_morning_walk.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/morningroutine__waking_late_or_early.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/morningroutine__washing_up.svg",
+        "size": 434
+      },
+      {
+        "path": "activity-assets/nightroutine__guard_duty.svg",
+        "size": 433
+      },
+      {
+        "path": "activity-assets/nightroutine__hunting.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/nightroutine__illegal_dealings.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/nightroutine__keeping_watch.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/nightroutine__night_patrol.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/nightroutine__performing_rituals.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/nightroutine__researching.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/nightroutine__restless_wandering.svg",
+        "size": 449
+      },
+      {
+        "path": "activity-assets/nightroutine__secret_meetings.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/nightroutine__shadowing_someone.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/nightroutine__sleeping.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/nightroutine__smuggling.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/nightroutine__sneaking_around.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/nightroutine__spying.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/nightroutine__stargazing.svg",
+        "size": 433
+      },
+      {
+        "path": "activity-assets/nightroutine__stealing.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/nightroutine__tending_a_sick_person.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/nightroutine__traveling_under_cover_of_darkness.svg",
+        "size": 457
+      },
+      {
+        "path": "activity-assets/nightroutine__visiting_hidden_contacts.svg",
+        "size": 451
+      },
+      {
+        "path": "activity-assets/nightroutine__watching_over_property.svg",
+        "size": 446
+      },
+      {
+        "path": "activity-assets/nightroutine__working_late.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/sleeprest__daydreaming.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/sleeprest__going_to_sleep.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/sleeprest__meditating.svg",
+        "size": 430
+      },
+      {
+        "path": "activity-assets/sleeprest__napping.svg",
+        "size": 427
+      },
+      {
+        "path": "activity-assets/sleeprest__reading_before_bed.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/sleeprest__recovering_from_illness.svg",
+        "size": 450
+      },
+      {
+        "path": "activity-assets/sleeprest__recuperating_from_injury.svg",
+        "size": 451
+      },
+      {
+        "path": "activity-assets/sleeprest__resting_in_bed.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/sleeprest__sitting_quietly.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/sleeprest__sleeping.svg",
+        "size": 435
+      },
+      {
+        "path": "activity-assets/sleeprest__waking_up.svg",
+        "size": 433
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__apprenticing.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__arguing.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__attending_funerals.svg",
+        "size": 447
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__attending_weddings.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__babysitting.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__breaking_up.svg",
+        "size": 431
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__caring_for_children.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__celebrating_birthdays.svg",
+        "size": 445
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__courting.svg",
+        "size": 432
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__dating.svg",
+        "size": 426
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__exchanging_gifts.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__having_meals_together.svg",
+        "size": 448
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__hosting_guests.svg",
+        "size": 438
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__making_apologies.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__meeting_a_partner.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__mentoring.svg",
+        "size": 436
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__reconciliation.svg",
+        "size": 434
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__secret_affairs.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__sending_letters.svg",
+        "size": 437
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__settling_disputes.svg",
+        "size": 443
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__spending_time_with_spouse.svg",
+        "size": 449
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__supporting_a_friend.svg",
+        "size": 439
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__visiting_family.svg",
+        "size": 460
+      },
+      {
+        "path": "activity-assets/socialrelationshipactivities__visiting_the_sick.svg",
+        "size": 441
+      },
+      {
+        "path": "activity-assets/specialstates__angry.svg",
+        "size": 425
+      }
+    ]
+  }
+]

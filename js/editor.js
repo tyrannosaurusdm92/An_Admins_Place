@@ -10,6 +10,7 @@
   const RPG_ADAPTERS_PATH = 'data/rpg-tool-module-adapters.json';
   const SCANNER_ADAPTERS_PATH = 'data/scanner-generator-module-adapters.json';
   const SETTLEMENT_ADAPTERS_PATH = 'data/settlement-location-module-adapters.json';
+  const EXPANDED_ADAPTERS_PATH = 'data/expanded-site-builder-module-adapters.json';
 
   const state = {
     catalog: null,
@@ -18,11 +19,13 @@
     rpgAdapters: null,
     scannerAdapters: null,
     settlementAdapters: null,
+    expandedAdapters: null,
     modules: [],
     selectedId: null,
     zoom: 1,
-    grid: true,
+    grid: false,
     snap: true,
+    activePageId: 'home',
     project: {
       name: 'My Admin Place Project',
       slug: 'my-admin-place-project',
@@ -33,7 +36,8 @@
       backendUrl: '',
       themeColor: '#6ff7ff',
       accentColor: '#ff8fe7',
-      globalCss: 'body{font-family:system-ui,sans-serif;}'
+      globalCss: 'body{font-family:system-ui,sans-serif;}',
+      pages: [{id:'home', title:'Home', slug:'index'}]
     }
   };
 
@@ -53,7 +57,9 @@
     cacheEls();
     await loadCatalogs();
     bindUI();
+    normalizePages();
     hydrateProjectForm();
+    renderPageControls();
     applyCanvasSize();
     renderPalette();
     renderRepoList();
@@ -70,7 +76,7 @@
       noSelection: $('#noSelection'), inspectorForm: $('#inspectorForm'), inspectorStatus: $('#inspectorStatus'),
       propLabel: $('#propLabel'), propX: $('#propX'), propY: $('#propY'), propW: $('#propW'), propH: $('#propH'), propFont: $('#propFont'), propRadius: $('#propRadius'), propColor: $('#propColor'), propBg: $('#propBg'), propBgImage: $('#propBgImage'), propHref: $('#propHref'), propHtml: $('#propHtml'), propCss: $('#propCss'), propJs: $('#propJs'), propJson: $('#propJson'), propRunJs: $('#propRunJs'),
       duplicateBtn: $('#duplicateBtn'), removeModuleBtn: $('#removeModuleBtn'), applyHtmlBtn: $('#applyHtmlBtn'), codeFileInput: $('#codeFileInput'),
-      projectName: $('#projectName'), projectSlug: $('#projectSlug'), pageTitle: $('#pageTitle'), canvasWidth: $('#canvasWidth'), canvasHeight: $('#canvasHeight'), projectDescription: $('#projectDescription'), backendUrl: $('#backendUrl'), themeColor: $('#themeColor'), accentColor: $('#accentColor'), globalCss: $('#globalCss'),
+      projectName: $('#projectName'), projectSlug: $('#projectSlug'), pageTitle: $('#pageTitle'), canvasWidth: $('#canvasWidth'), canvasHeight: $('#canvasHeight'), pageSelect: $('#pageSelect'), addPageBtn: $('#addPageBtn'), deletePageBtn: $('#deletePageBtn'), pageTitleEdit: $('#pageTitleEdit'), renamePageBtn: $('#renamePageBtn'), pageStatus: $('#pageStatus'), projectDescription: $('#projectDescription'), backendUrl: $('#backendUrl'), themeColor: $('#themeColor'), accentColor: $('#accentColor'), globalCss: $('#globalCss'),
       includeBackend: $('#includeBackend'), includeEditorData: $('#includeEditorData'), includeAdminNotes: $('#includeAdminNotes'), exportStatus: $('#exportStatus'), projectStatus: $('#projectStatus'), repoList: $('#repoList'), modalRoot: $('#modalRoot')
     });
   }
@@ -103,6 +109,10 @@
       const res = await fetch(SETTLEMENT_ADAPTERS_PATH, {cache:'no-store'});
       state.settlementAdapters = res.ok ? await res.json() : {added_modules:[], repositories:[]};
     }catch(err){ state.settlementAdapters = {added_modules:[], repositories:[]}; }
+    try{
+      const res = await fetch(EXPANDED_ADAPTERS_PATH, {cache:'no-store'});
+      state.expandedAdapters = res.ok ? await res.json() : {added_modules:[], repositories:[]};
+    }catch(err){ state.expandedAdapters = {added_modules:[], repositories:[]}; }
   }
 
   function bindUI(){
@@ -121,6 +131,10 @@
     els.zoomOutBtn.addEventListener('click', ()=>setZoom(state.zoom - .1));
     els.zoomInBtn.addEventListener('click', ()=>setZoom(state.zoom + .1));
     els.deleteBtn.addEventListener('click', deleteSelected);
+    els.pageSelect?.addEventListener('change', ()=>setActivePage(els.pageSelect.value));
+    els.addPageBtn?.addEventListener('click', addPageFromPrompt);
+    els.deletePageBtn?.addEventListener('click', deleteActivePage);
+    els.renamePageBtn?.addEventListener('click', renameActivePage);
     els.duplicateBtn.addEventListener('click', duplicateSelected);
     els.removeModuleBtn.addEventListener('click', deleteSelected);
     els.applyHtmlBtn.addEventListener('click', applyHtmlToSelected);
@@ -181,7 +195,8 @@
       ['Wix source adapters', state.wixAdapters?.repositories || []],
       ['RPG / VTT / audio adapters', state.rpgAdapters?.repositories || []],
       ['Scanner / generator / randomizer adapters', state.scannerAdapters?.repositories || []],
-      ['Settlement / DungeonFog / VTT adapters', state.settlementAdapters?.repositories || []]
+      ['Settlement / DungeonFog / VTT adapters', state.settlementAdapters?.repositories || []],
+      ['Expanded site builder / simulator / messenger adapters', state.expandedAdapters?.repositories || []]
     ];
     els.repoList.innerHTML = groups.map(([title,repos]) => {
       if(!repos.length) return '';
@@ -213,7 +228,9 @@
     state.project = {
       name: 'Untitled Admin Place Project', slug: 'untitled-admin-place-project', pageTitle: 'Untitled Project', description: 'A project made in An Admin\'s Place.', canvasWidth: 1200, canvasHeight: 820, backendUrl: '', themeColor: '#6ff7ff', accentColor: '#ff8fe7', globalCss: 'body{font-family:system-ui,sans-serif;}'
     };
+    normalizePages();
     hydrateProjectForm();
+    renderPageControls();
     applyCanvasSize();
     renderModules();
     selectModule(null);
@@ -249,10 +266,10 @@
     const w = Number(t.defaultSize?.w || 360);
     const h = Number(t.defaultSize?.h || 240);
     const mod = {
-      id, type: t.type, label: t.label || type,
+      id, type: t.type, label: t.label || type, pageId: state.activePageId || 'home',
       x: snap(pos.x || 80), y: snap(pos.y || 80), w, h,
       fontSize: 16, radius: 18,
-      color: '#f7fbff', bg: '#101522', bgImage: '', href: '',
+      color: '#f7fbff', bg: '#101522', bgImage: '', href: '', collapsed: false, bubbleX: null, bubbleY: null, savedW: w, savedH: h, assets: [],
       html: t.html || '<div contenteditable="true">New module</div>',
       css: t.css || '', js: t.js || '', json: t.json || '{}', runJs: Boolean(t.js),
       repoSource: t.repoSource || 'native editor'
@@ -265,13 +282,19 @@
 
   function renderModules(){
     $$('.ap-module', els.canvas).forEach(el => el.remove());
-    els.emptyState.classList.toggle('hidden', state.modules.length > 0);
-    for(const mod of state.modules){
+    const visibleModules = state.modules.filter(m => (m.pageId || 'home') === (state.activePageId || 'home'));
+    els.emptyState.classList.toggle('hidden', visibleModules.length > 0);
+    for(const mod of visibleModules){
       const el = document.createElement('div');
       el.className = 'ap-module show-toolbar-padding';
       el.dataset.id = mod.id;
-      el.style.left = `${mod.x}px`; el.style.top = `${mod.y}px`;
-      el.style.width = `${mod.w}px`; el.style.height = `${mod.h}px`;
+      const viewX = mod.collapsed ? (mod.bubbleX ?? mod.x) : mod.x;
+      const viewY = mod.collapsed ? (mod.bubbleY ?? mod.y) : mod.y;
+      const viewW = mod.collapsed ? 75 : mod.w;
+      const viewH = mod.collapsed ? 75 : mod.h;
+      el.style.left = `${viewX}px`; el.style.top = `${viewY}px`;
+      el.style.width = `${viewW}px`; el.style.height = `${viewH}px`;
+      el.classList.toggle('collapsed-bubble', !!mod.collapsed);
       el.style.borderRadius = `${mod.radius}px`;
       el.style.color = mod.color || '#f7fbff';
       el.style.backgroundColor = mod.bg || 'transparent';
@@ -284,21 +307,26 @@
       if(mod.id === state.selectedId) el.classList.add('selected');
       const toolbar = document.createElement('div');
       toolbar.className = 'module-toolbar';
-      toolbar.innerHTML = `<span class="move-handle" title="Drag to move">↕ ${escapeHtml(mod.label)}</span><button type="button" data-select>edit</button>`;
+      toolbar.innerHTML = `<span class="move-handle" title="Drag to move">↕ ${escapeHtml(mod.label)}</span><button type="button" data-collapse>${mod.collapsed ? 'open' : '☰'}</button><button type="button" data-select>edit</button>`;
       const content = document.createElement('div');
       content.className = 'module-content';
-      content.innerHTML = mod.href ? `<a class="module-link-shell" href="${escapeAttr(mod.href)}">${mod.html}</a>` : mod.html;
+      content.innerHTML = mod.collapsed ? `<button class="bubble-open" type="button" title="Open ${escapeAttr(mod.label)}">☰</button>` : (mod.href ? `<a class="module-link-shell" href="${escapeAttr(mod.href)}">${mod.html}</a>` : mod.html);
       const handle = document.createElement('div');
       handle.className = 'resize-handle';
       el.append(toolbar, content, handle);
       els.canvas.appendChild(el);
       el.addEventListener('pointerdown', e=>{
-        if(e.target.closest('.resize-handle') || e.target.closest('.move-handle') || e.target.closest('[data-select]')) return;
+        if(e.target.closest('.resize-handle') || e.target.closest('.move-handle') || e.target.closest('[data-select]') || e.target.closest('[data-collapse]') || e.target.closest('.bubble-open')) return;
         selectModule(mod.id);
       });
       toolbar.querySelector('[data-select]').addEventListener('click', () => selectModule(mod.id));
+      toolbar.querySelector('[data-collapse]').addEventListener('click', () => toggleModuleCollapse(mod.id));
+      const bubbleButton = content.querySelector('.bubble-open');
+      if(bubbleButton) bubbleButton.addEventListener('click', () => toggleModuleCollapse(mod.id));
       toolbar.querySelector('.move-handle').addEventListener('pointerdown', e => startMove(e, mod.id));
       handle.addEventListener('pointerdown', e => startResize(e, mod.id));
+      const gameInput = content.querySelector('[data-ap-game-upload]');
+      if(gameInput) gameInput.addEventListener('change', e => importGameFilesToModule(mod, Array.from(e.target.files || [])));
       content.addEventListener('input', () => {
         // Direct text edits update the module HTML. If a link shell was generated, store inner HTML of the shell.
         const shell = content.querySelector('.module-link-shell');
@@ -390,17 +418,18 @@
     e.preventDefault();
     const mod = state.modules.find(m=>m.id===id); if(!mod) return;
     selectModule(id);
-    const start = {x:e.clientX, y:e.clientY, mx:mod.x, my:mod.y};
+    const start = {x:e.clientX, y:e.clientY, mx:mod.collapsed ? (mod.bubbleX ?? mod.x) : mod.x, my:mod.collapsed ? (mod.bubbleY ?? mod.y) : mod.y};
     const target = e.currentTarget.closest('.ap-module');
     target.setPointerCapture(e.pointerId);
     target.classList.add('dragging');
     function move(ev){
       const dx = (ev.clientX - start.x)/state.zoom;
       const dy = (ev.clientY - start.y)/state.zoom;
-      mod.x = clamp(snap(start.mx + dx), 0, state.project.canvasWidth - 30);
-      mod.y = clamp(snap(start.my + dy), 0, state.project.canvasHeight - 30);
-      target.style.left = `${mod.x}px`; target.style.top = `${mod.y}px`;
-      els.propX.value = Math.round(mod.x); els.propY.value = Math.round(mod.y);
+      const nextX = clamp(snap(start.mx + dx), 0, state.project.canvasWidth - 30);
+      const nextY = clamp(snap(start.my + dy), 0, state.project.canvasHeight - 30);
+      if(mod.collapsed){ mod.bubbleX = nextX; mod.bubbleY = nextY; } else { mod.x = nextX; mod.y = nextY; }
+      target.style.left = `${nextX}px`; target.style.top = `${nextY}px`;
+      els.propX.value = Math.round(mod.collapsed ? (mod.bubbleX ?? mod.x) : mod.x); els.propY.value = Math.round(mod.collapsed ? (mod.bubbleY ?? mod.y) : mod.y);
     }
     function up(ev){
       target.releasePointerCapture(ev.pointerId);
@@ -417,6 +446,7 @@
   function startResize(e, id){
     e.preventDefault();
     const mod = state.modules.find(m=>m.id===id); if(!mod) return;
+    if(mod.collapsed) return;
     selectModule(id);
     const start = {x:e.clientX, y:e.clientY, w:mod.w, h:mod.h};
     const target = e.currentTarget.closest('.ap-module');
@@ -475,6 +505,130 @@
     els.scroller.scrollTo({left:maxX/2, top:maxY/2, behavior:'smooth'});
   }
 
+
+  function normalizePages(){
+    if(!Array.isArray(state.project.pages) || !state.project.pages.length){
+      state.project.pages = [{id:'home', title:'Home', slug:'index'}];
+    }
+    state.project.pages = state.project.pages.map((p, i) => ({
+      id: p.id || (i === 0 ? 'home' : makeId('page')),
+      title: p.title || (i === 0 ? 'Home' : `Page ${i+1}`),
+      slug: i === 0 ? 'index' : slugify(p.slug || p.title || `page-${i+1}`)
+    }));
+    if(!state.project.pages.find(p => p.id === state.activePageId)) state.activePageId = state.project.pages[0].id;
+  }
+
+  function normalizePagesForExport(pages){
+    const list = Array.isArray(pages) && pages.length ? pages : [{id:'home', title:'Home', slug:'index'}];
+    return list.map((p,i)=>({id:p.id || (i===0?'home':`page-${i+1}`), title:p.title || (i===0?'Home':`Page ${i+1}`), slug:i===0?'index':slugify(p.slug || p.title || `page-${i+1}`)}));
+  }
+
+  function renderPageControls(){
+    normalizePages();
+    if(!els.pageSelect) return;
+    els.pageSelect.innerHTML = state.project.pages.map(p => `<option value="${escapeAttr(p.id)}">${escapeHtml(p.title)} (${escapeHtml(p.slug)})</option>`).join('');
+    els.pageSelect.value = state.activePageId;
+    const page = activePage();
+    if(els.pageTitleEdit) els.pageTitleEdit.value = page?.title || '';
+    applyCanvasSize();
+  }
+
+  function activePage(){ return state.project.pages.find(p=>p.id===state.activePageId) || state.project.pages[0]; }
+
+  function setActivePage(id){
+    normalizePages();
+    state.activePageId = id || state.project.pages[0].id;
+    state.selectedId = null;
+    renderPageControls();
+    renderModules();
+    selectModule(null);
+    setStatus('pageStatus', `Editing ${activePage()?.title || 'page'}.`, 'good');
+  }
+
+  function addPageFromPrompt(){
+    const title = prompt('New page name?', 'New Page');
+    if(!title) return;
+    normalizePages();
+    const page = {id: makeId('page'), title: title.trim(), slug: slugify(title)};
+    state.project.pages.push(page);
+    state.activePageId = page.id;
+    renderPageControls(); renderModules(); selectModule(null);
+    setStatus('pageStatus', `Added ${page.title}.`, 'good');
+  }
+
+  function deleteActivePage(){
+    normalizePages();
+    if(state.project.pages.length <= 1){ setStatus('pageStatus','Keep at least one page.', 'warn'); return; }
+    const page = activePage();
+    if(!confirm(`Delete page ${page.title} and its modules?`)) return;
+    state.modules = state.modules.filter(m => (m.pageId || 'home') !== page.id);
+    state.project.pages = state.project.pages.filter(p => p.id !== page.id);
+    state.activePageId = state.project.pages[0].id;
+    renderPageControls(); renderModules(); selectModule(null);
+    setStatus('pageStatus', 'Page deleted.', 'good');
+  }
+
+  function renameActivePage(){
+    const page = activePage(); if(!page) return;
+    const title = (els.pageTitleEdit?.value || '').trim();
+    if(!title){ setStatus('pageStatus','Type a page name first.', 'warn'); return; }
+    page.title = title;
+    page.slug = page.id === 'home' ? 'index' : slugify(title);
+    if(page.id === 'home') state.project.pageTitle = title;
+    hydrateProjectForm(); renderPageControls();
+    setStatus('pageStatus', `Renamed page to ${title}.`, 'good');
+  }
+
+  function toggleModuleCollapse(id){
+    const mod = state.modules.find(m=>m.id===id); if(!mod) return;
+    if(!mod.collapsed){
+      mod.savedW = mod.w; mod.savedH = mod.h; mod.bubbleX = mod.bubbleX ?? mod.x; mod.bubbleY = mod.bubbleY ?? mod.y;
+      mod.collapsed = true;
+    }else{
+      mod.collapsed = false;
+      mod.w = mod.savedW || mod.w || 360; mod.h = mod.savedH || mod.h || 240;
+    }
+    renderModules(); selectModule(id);
+  }
+
+  async function importGameFilesToModule(mod, files){
+    if(!mod || !files.length) return;
+    mod.assets = Array.isArray(mod.assets) ? mod.assets : [];
+    const root = `games/${cssIdent(mod.id)}/`;
+    for(const file of files){
+      const dataUrl = await readFileAsDataURL(file);
+      const safeName = file.name.replace(/[^a-z0-9._-]+/gi,'_');
+      mod.assets.push({name:file.name, path:root + safeName, mime:file.type || 'application/octet-stream', dataUrl});
+    }
+    const indexAsset = mod.assets.find(a => /index\.html?$/i.test(a.name)) || mod.assets.find(a => /\.html?$/i.test(a.name));
+    const buttons = mod.assets.map(a=>`<button type="button" data-game-src="${escapeAttr(a.path)}">${escapeHtml(a.name)}</button>`).join(' ');
+    mod.html = `<section class="ap-game-upload" data-ap-game-module><h3 contenteditable="true">HTML Mobile Games</h3><p contenteditable="true">Imported games export into ${root}</p><input data-ap-game-upload type="file" webkitdirectory multiple><div data-ap-game-list>${buttons}</div><iframe class="ap-game-frame" src="${escapeAttr(indexAsset?.path || '')}" title="Game player"></iframe></section>`;
+    mod.json = JSON.stringify({assets: mod.assets.map(({dataUrl, ...rest}) => rest), exportFolder: root}, null, 2);
+    renderModules(); selectModule(mod.id);
+    setStatus('inspectorStatus', `Added ${files.length} game file(s) to ${mod.label}.`, 'good');
+  }
+
+  function readFileAsDataURL(file){
+    return new Promise((resolve, reject)=>{ const reader=new FileReader(); reader.onload=()=>resolve(reader.result); reader.onerror=()=>reject(reader.error); reader.readAsDataURL(file); });
+  }
+
+  function addModuleAssetsToExport(files, data){
+    for(const mod of data.modules){
+      for(const asset of (mod.assets || [])){
+        if(!asset.path || !asset.dataUrl) continue;
+        files[asset.path] = dataUrlToBytes(asset.dataUrl);
+      }
+    }
+  }
+
+  function dataUrlToBytes(dataUrl){
+    const b64 = String(dataUrl).split(',')[1] || '';
+    const raw = atob(b64);
+    const bytes = new Uint8Array(raw.length);
+    for(let i=0;i<raw.length;i++) bytes[i] = raw.charCodeAt(i);
+    return bytes;
+  }
+
   function activateTab(name){
     $$('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab === name));
     $$('.tab-panel').forEach(p=>p.classList.toggle('active', p.id === `tab-${name}`));
@@ -504,12 +658,13 @@
     state.project.themeColor = els.themeColor.value || '#6ff7ff';
     state.project.accentColor = els.accentColor.value || '#ff8fe7';
     state.project.globalCss = els.globalCss.value || '';
+    normalizePages();
     applyCanvasSize();
   }
   function applyCanvasSize(){
     els.canvas.style.width = `${state.project.canvasWidth}px`;
     els.canvas.style.height = `${state.project.canvasHeight}px`;
-    els.pageLabel.textContent = `${state.project.pageTitle || 'Home'} • ${state.project.canvasWidth} × ${state.project.canvasHeight}`;
+    els.pageLabel.textContent = `${activePage()?.title || state.project.pageTitle || 'Home'} • ${state.project.canvasWidth} × ${state.project.canvasHeight}`;
   }
 
   function saveLocal(){
@@ -537,9 +692,11 @@
   }
   function importProjectData(data){
     state.project = {...state.project, ...(data.project || data.settings || {})};
-    state.modules = Array.isArray(data.modules) ? data.modules : [];
+    state.modules = Array.isArray(data.modules) ? data.modules.map(m => ({pageId:'home', assets:[], ...m})) : [];
+    normalizePages();
+    state.activePageId = state.project.pages[0]?.id || 'home';
     state.selectedId = null;
-    hydrateProjectForm(); applyCanvasSize(); renderModules(); selectModule(null);
+    hydrateProjectForm(); renderPageControls(); applyCanvasSize(); renderModules(); selectModule(null);
   }
 
   function openPreview(){
@@ -559,7 +716,7 @@
     return {
       createdWith: "An Admin's Place",
       exportedAt: new Date().toISOString(),
-      project: {...state.project},
+      project: {...state.project, pages: normalizePagesForExport(state.project.pages)},
       modules: state.modules.map(m=>({...m}))
     };
   }
@@ -591,15 +748,19 @@
     const data = exportableProjectData();
     const css = generateProjectCss(data);
     const js = generateProjectJs(data);
-    const html = generateProjectHtml(data);
+    const pages = normalizePagesForExport(data.project.pages);
     const readme = generateReadme(data);
     const files = {
-      'index.html': html,
       'css/styles.css': css,
       'js/app.js': js,
       'data/project.json': JSON.stringify(data, null, 2),
       'README_DEPLOY.md': readme
     };
+    pages.forEach((page, index) => {
+      const path = index === 0 || page.slug === 'index' ? 'index.html' : `pages/${slugify(page.slug || page.title)}.html`;
+      files[path] = generateProjectHtml(data, page, path);
+    });
+    addModuleAssetsToExport(files, data);
     if(els.includeBackend?.checked){
       files['backend/Code.gs'] = generateCodeGs(data);
     }
@@ -610,6 +771,7 @@
       files['data/rpg-tool-module-adapters.json'] = JSON.stringify(state.rpgAdapters || {}, null, 2);
       files['data/scanner-generator-module-adapters.json'] = JSON.stringify(state.scannerAdapters || {}, null, 2);
       files['data/settlement-location-module-adapters.json'] = JSON.stringify(state.settlementAdapters || {}, null, 2);
+      files['data/expanded-site-builder-module-adapters.json'] = JSON.stringify(state.expandedAdapters || {}, null, 2);
       // Full immersive settlement records live in the editor package; exported project modules also carry their own selected JSON.
       files['data/immersive-settlement-records.README.txt'] = 'Full settlement source records are included in the An Admins Place editor package under data/immersive-settlement-records.json. Individual dragged settlement modules export their own module JSON inside data/project.json.';
     }
@@ -619,11 +781,13 @@
     return files;
   }
 
-  function generateProjectHtml(data){
+  function generateProjectHtml(data, page=null, currentPath='index.html'){
     const p = data.project;
-    const moduleHtml = data.modules.map(m => {
-      const inner = m.href ? `<a class="module-link-shell" href="${escapeAttr(m.href)}">${m.html}</a>` : m.html;
-      return `<div class="ap-export-module module-${escapeAttr(m.id)}" data-module-id="${escapeAttr(m.id)}" data-module-type="${escapeAttr(m.type)}">${inner}</div>`;
+    const activePage = page || normalizePagesForExport(p.pages)[0];
+    const assetPrefix = currentPath.startsWith('pages/') ? '../' : '';
+    const moduleHtml = data.modules.filter(m => (m.pageId || 'home') === (activePage.id || 'home')).map(m => {
+      const inner = m.collapsed ? `<button class="ap-export-bubble" type="button" aria-label="Open ${escapeAttr(m.label)}">☰</button><div class="ap-export-collapsed-content">${m.href ? `<a class=\"module-link-shell\" href=\"${escapeAttr(m.href)}\">${m.html}</a>` : m.html}</div>` : (m.href ? `<a class="module-link-shell" href="${escapeAttr(m.href)}">${m.html}</a>` : m.html);
+      return `<div class="ap-export-module module-${escapeAttr(m.id)} ${m.collapsed ? 'is-collapsed' : ''}" data-module-id="${escapeAttr(m.id)}" data-module-type="${escapeAttr(m.type)}" data-page-id="${escapeAttr(m.pageId || 'home')}">${inner}</div>`;
     }).join('\n      ');
     return `<!doctype html>
 <html lang="en">
@@ -632,15 +796,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="${escapeAttr(p.themeColor)}">
   <meta name="description" content="${escapeAttr(p.description)}">
-  <title>${escapeHtml(p.pageTitle)}</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>${escapeHtml(activePage.title || p.pageTitle)} — ${escapeHtml(p.name || '')}</title>
+  <link rel="stylesheet" href="${assetPrefix}css/styles.css">
 </head>
 <body>
-  <main class="ap-export-page" id="app">
+  <main class="ap-export-page" id="app" data-page-id="${escapeAttr(activePage.id)}" data-current-path="${escapeAttr(currentPath)}">
       ${moduleHtml}
   </main>
   <script>window.ADMIN_PLACE_BACKEND_URL=${JSON.stringify(p.backendUrl || '')};</script>
-  <script src="js/app.js"></script>
+  <script src="${assetPrefix}js/app.js"></script>
 </body>
 </html>
 `;
@@ -648,12 +812,16 @@
 
   function generateProjectCss(data){
     const p = data.project;
-    const base = `:root{--theme:${p.themeColor};--accent:${p.accentColor};--ink:#f7fbff;--bg:#070912}*{box-sizing:border-box}html,body{margin:0;min-height:100%;}body{background:radial-gradient(circle at top left, color-mix(in srgb, var(--theme) 20%, transparent), transparent 34%),linear-gradient(135deg,#070912,#111827);color:var(--ink);font-family:Inter,system-ui,sans-serif}.ap-export-page{position:relative;width:min(100%, ${p.canvasWidth}px);height:${p.canvasHeight}px;margin:0 auto;overflow:hidden;background:linear-gradient(135deg,rgba(14,25,42,.92),rgba(14,12,28,.92));box-shadow:0 20px 80px rgba(0,0,0,.35)}.ap-export-module{position:absolute;overflow:hidden}.module-link-shell{display:block;height:100%;color:inherit;text-decoration:none}.module-link-shell:focus{outline:3px solid var(--theme);outline-offset:3px}@media(max-width:${p.canvasWidth}px){.ap-export-page{width:100vw;transform-origin:top left;}}@media print{body{background:#fff;color:#000}.ap-export-page{box-shadow:none}}
+    const base = `:root{--theme:${p.themeColor};--accent:${p.accentColor};--ink:#f7fbff;--bg:#070912}*{box-sizing:border-box}html,body{margin:0;min-height:100%;}body{background:radial-gradient(circle at top left, color-mix(in srgb, var(--theme) 20%, transparent), transparent 34%),linear-gradient(135deg,#070912,#111827);color:var(--ink);font-family:Inter,system-ui,sans-serif}.ap-export-page{position:relative;width:min(100%, ${p.canvasWidth}px);min-height:${p.canvasHeight}px;margin:0 auto;overflow:hidden;background:linear-gradient(135deg,rgba(14,25,42,.92),rgba(14,12,28,.92));box-shadow:0 20px 80px rgba(0,0,0,.35)}.ap-export-module{position:absolute;overflow:hidden;touch-action:none}.ap-export-module.is-collapsed{width:75px!important;height:75px!important;border-radius:24px!important}.ap-export-bubble{width:100%;height:100%;border:1px solid rgba(255,255,255,.22);border-radius:24px;background:rgba(0,0,0,.58);color:#fff;font-size:2rem}.ap-export-module.is-collapsed .ap-export-collapsed-content{display:none}.ap-export-module:not(.is-collapsed) .ap-export-bubble{display:none}.module-link-shell{display:block;height:100%;color:inherit;text-decoration:none}.module-link-shell:focus{outline:3px solid var(--theme);outline-offset:3px}.ap-page-nav a{color:inherit}.ap-social-frame,.ap-game-frame{width:100%;height:70%;border:1px solid rgba(255,255,255,.18);border-radius:14px;background:#fff}@media(max-width:760px){.ap-export-page{width:100%;height:auto;min-height:100vh;padding:.75rem;display:flex;flex-direction:column;gap:.75rem;overflow:visible}.ap-export-module{position:relative!important;left:auto!important;top:auto!important;width:100%!important;max-width:100%!important;min-height:min(65vh,420px);height:auto!important}.ap-export-module.is-collapsed{width:75px!important;min-height:75px!important;height:75px!important;align-self:flex-start}}@media print{body{background:#fff;color:#000}.ap-export-page{box-shadow:none}.ap-export-bubble{display:none}}
 ${p.globalCss || ''}
 `;
     const moduleCss = data.modules.map(m => {
       const bgImage = m.bgImage ? `background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("${cssUrl(m.bgImage)}");background-size:cover;background-position:center;` : '';
-      return `.module-${cssIdent(m.id)}{left:${m.x}px;top:${m.y}px;width:${m.w}px;height:${m.h}px;color:${m.color || '#f7fbff'};background-color:${m.bg || 'transparent'};border-radius:${m.radius || 0}px;font-size:${m.fontSize || 16}px;${bgImage}}
+      const cssX = m.collapsed ? (m.bubbleX ?? m.x) : m.x;
+      const cssY = m.collapsed ? (m.bubbleY ?? m.y) : m.y;
+      const cssW = m.collapsed ? 75 : m.w;
+      const cssH = m.collapsed ? 75 : m.h;
+      return `.module-${cssIdent(m.id)}{left:${cssX}px;top:${cssY}px;width:${cssW}px;height:${cssH}px;color:${m.color || '#f7fbff'};background-color:${m.bg || 'transparent'};border-radius:${m.radius || 0}px;font-size:${m.fontSize || 16}px;${bgImage}}
 ${m.css || ''}`;
     }).join('\n\n');
     return base + '\n' + moduleCss;
@@ -675,6 +843,35 @@ window.ADMIN_PLACE_PROJECT = ${safeData};
     return fetch(endpoint,{method:'POST',mode:'no-cors',body:JSON.stringify(payload)});
   }
   window.AdminPlace = { project: window.ADMIN_PLACE_PROJECT, postToBackend };
+  function pageHref(page){ const inPages=(document.getElementById('app')?.dataset.currentPath||'').startsWith('pages/'); if(page.slug === 'index' || page.id === 'home') return inPages ? '../index.html' : 'index.html'; return inPages ? (page.slug || page.id) + '.html' : 'pages/' + (page.slug || page.id) + '.html'; }
+  document.querySelectorAll('[data-ap-page-nav]').forEach(nav=>{
+    const pages=(window.ADMIN_PLACE_PROJECT.project.pages||[]);
+    nav.innerHTML = pages.map(p=>'<a href="'+pageHref(p)+'">'+(p.title||p.slug||p.id)+'</a>').join(' ');
+  });
+  document.querySelectorAll('.ap-export-module').forEach(module=>{
+    let drag=null;
+    const bubble=module.querySelector('.ap-export-bubble');
+    if(bubble) bubble.addEventListener('click', ()=>{ module.classList.toggle('is-collapsed'); });
+    module.addEventListener('pointerdown', e=>{ if(!e.target.closest('.ap-export-bubble')) return; drag={x:e.clientX,y:e.clientY,left:module.offsetLeft,top:module.offsetTop}; module.setPointerCapture(e.pointerId); });
+    module.addEventListener('pointermove', e=>{ if(!drag) return; module.style.left=(drag.left+e.clientX-drag.x)+'px'; module.style.top=(drag.top+e.clientY-drag.y)+'px'; });
+    module.addEventListener('pointerup', ()=>{ drag=null; });
+  });
+  document.querySelectorAll('[data-ap-social-link]').forEach(link=>{
+    link.addEventListener('click', e=>{
+      const frame=document.querySelector(link.getAttribute('data-ap-social-target') || '.ap-social-frame');
+      if(frame){ e.preventDefault(); frame.src=link.href; }
+    });
+  });
+  document.querySelectorAll('[data-ap-game-list]').forEach(list=>{
+    list.addEventListener('click', e=>{ const btn=e.target.closest('[data-game-src]'); if(!btn) return; const frame=list.closest('[data-ap-game-module]')?.querySelector('.ap-game-frame'); if(frame){ const inPages=(document.getElementById('app')?.dataset.currentPath||'').startsWith('pages/'); frame.src=(inPages && !/^https?:|^\.\.|^\//.test(btn.dataset.gameSrc) ? '../' : '') + btn.dataset.gameSrc; } });
+  });
+  document.querySelectorAll('[data-ap-messenger]').forEach(root=>{
+    const log=root.querySelector('[data-msg-log]'); const form=root.querySelector('form');
+    const key='ap-messenger-'+(root.dataset.room||'main');
+    const draw=()=>{ const msgs=JSON.parse(localStorage.getItem(key)||'[]'); if(log) log.innerHTML=msgs.slice(-50).map(m=>'<p><b>'+m.name+'</b>: '+m.text+'</p>').join(''); };
+    draw();
+    form?.addEventListener('submit', async e=>{ e.preventDefault(); const fd=Object.fromEntries(new FormData(form).entries()); if(!fd.text) return; const msgs=JSON.parse(localStorage.getItem(key)||'[]'); msgs.push({name:fd.name||'Member', text:fd.text, at:new Date().toISOString()}); localStorage.setItem(key,JSON.stringify(msgs)); form.reset(); draw(); try{ await postToBackend({action:'saveSiteMessage', data:{room:root.dataset.room||'main', ...fd}}); }catch(err){} });
+  });
   document.querySelectorAll('[data-gas-form]').forEach(form=>{
     form.addEventListener('submit', async e=>{
       e.preventDefault();
@@ -722,7 +919,7 @@ Generated with **An Admin's Place**.
 
 ## Source adapters included
 
-${[...(state.adapters?.repositories || []), ...(state.wixAdapters?.repositories || []), ...(state.rpgAdapters?.repositories || []), ...(state.scannerAdapters?.repositories || []), ...(state.settlementAdapters?.repositories || [])].map(r=>`- ${r.archive || r.repoSource || 'source'}: ${r.adapter || r.label || r.runtime || ''}`).join('\n')}
+${[...(state.adapters?.repositories || []), ...(state.wixAdapters?.repositories || []), ...(state.rpgAdapters?.repositories || []), ...(state.scannerAdapters?.repositories || []), ...(state.settlementAdapters?.repositories || []), ...(state.expandedAdapters?.repositories || [])].map(r=>`- ${r.archive || r.repoSource || 'source'}: ${r.adapter || r.label || r.runtime || ''}`).join('\n')}
 `;
   }
 
@@ -854,6 +1051,34 @@ function doPost(e) {
     appendRecord_('loginEvents', payload.data || payload);
     return json_({ ok: true, action: action });
   }
+  if (action === 'saveSiteMessage') {
+    appendRecord_('siteMessages', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveLifeSimulatorState') {
+    appendRecord_('lifeSimulatorStates', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveCalendarEvent') {
+    appendRecord_('calendarEvents', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveGameUploadManifest') {
+    appendRecord_('gameUploadManifests', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveVideoMeetingRoom') {
+    appendRecord_('videoMeetingRooms', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveArkenforgeMapRecord') {
+    appendRecord_('arkenforgeMapRecords', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveRustforgedPackage') {
+    appendRecord_('rustforgedPackages', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
   appendRecord_('events', payload);
   return json_({ ok: true, action: action });
 }
@@ -894,6 +1119,7 @@ function json_(obj) {
       'data/rpg-tool-module-adapters.json': JSON.stringify(state.rpgAdapters || {}, null, 2),
       'data/scanner-generator-module-adapters.json': JSON.stringify(state.scannerAdapters || {}, null, 2),
       'data/settlement-location-module-adapters.json': JSON.stringify(state.settlementAdapters || {}, null, 2),
+      'data/expanded-site-builder-module-adapters.json': JSON.stringify(state.expandedAdapters || {}, null, 2),
       'README.md': '# An Admin\'s Place editor backup\n\nThis backup includes the current project data. Use the full editor ZIP for source files.\n'
     };
   }

@@ -127,3 +127,18 @@ The latest uploaded archives were added as draggable modules and tool adapters:
 - **DungeonFog Tile Assembler** → tile filename manifest planner module.
 
 See `docs/settlement-location-source-inspection.md`, `docs/settlement-location-source-inspection.json`, `data/settlement-location-module-adapters.json`, and `data/immersive-settlement-records.json` for the source-to-module conversion notes.
+
+## Expanded builder pass
+
+This build adds the larger site-builder layer requested for **An Admin's Place**:
+
+- Invisible snap grid by default, with optional visible grid toggle.
+- Draggable/resizable modules on the workspace.
+- Workspace zoom controls for editing larger layouts.
+- Every module can collapse into a movable 75x75 hamburger bubble and open again.
+- Multi-page project manager with per-page modules and export to `index.html` plus `pages/<slug>.html`.
+- Mobile and desktop responsive export behavior.
+- Retro MySpace-style page kits, guestbook, gallery, button/image link modules, calendar modules, MP3/social modules, game launcher modules, 10-person messenger, video room launcher, Arkenforge/Rustforged manifest tools, and split Life Simulator player/DM modules.
+- HTML mobile games module can import a folder through the browser file picker and exports imported files into `games/<module-id>/`.
+
+Some attached repos contain native, server, binary, or Docker pieces that cannot run directly on GitHub Pages. Those pieces are represented as editable modules, launchers, manifests, and Apps Script-backed records so they can still be used inside the static editor/export workflow.

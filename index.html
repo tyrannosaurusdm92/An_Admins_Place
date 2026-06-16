@@ -44,7 +44,7 @@
 
       <section class="workspace-wrap" id="workspace" aria-label="Editor workspace">
         <div class="workspace-toolbar" role="toolbar" aria-label="Workspace controls">
-          <button class="btn" id="gridToggleBtn" type="button">Grid: visible</button>
+          <button class="btn" id="gridToggleBtn" type="button">Grid: transparent</button>
           <button class="btn" id="snapToggleBtn" type="button">Snap: on</button>
           <button class="btn" id="centerBtn" type="button">Center</button>
           <button class="btn" id="zoomOutBtn" type="button">−</button>
@@ -54,7 +54,7 @@
         </div>
         <div class="workspace-scroller" id="workspaceScroller">
           <div class="canvas-frame">
-            <div id="canvas" class="canvas grid-on" tabindex="0" aria-label="Page canvas">
+            <div id="canvas" class="canvas grid-hidden" tabindex="0" aria-label="Page canvas">
               <div class="empty-state" id="emptyState">
                 <div><strong>Drag modules here</strong><span>Everything on the canvas can be moved, resized, edited, styled, saved, and exported.</span></div>
               </div>
@@ -123,6 +123,18 @@
             <div class="split">
               <label class="field"><span>Canvas width</span><input id="canvasWidth" type="number" value="1200"></label>
               <label class="field"><span>Canvas height</span><input id="canvasHeight" type="number" value="820"></label>
+            </div>
+            <div class="help-card page-manager">
+              <h3>Pages</h3>
+              <p>Build a multi-page site. Each page has its own placed modules and exports as index.html or pages/page-slug.html.</p>
+              <label class="field"><span>Active page</span><select id="pageSelect"></select></label>
+              <div class="split">
+                <button class="btn" id="addPageBtn" type="button">Add page</button>
+                <button class="btn bad" id="deletePageBtn" type="button">Delete page</button>
+              </div>
+              <label class="field"><span>Rename active page</span><input id="pageTitleEdit" type="text" placeholder="Page title"></label>
+              <button class="btn" id="renamePageBtn" type="button">Apply page name</button>
+              <p class="status-line" id="pageStatus"></p>
             </div>
             <label class="field"><span>Project description</span><textarea id="projectDescription">A project made in An Admin's Place.</textarea></label>
             <label class="field"><span>Default backend URL placeholder</span><input id="backendUrl" placeholder="https://script.google.com/macros/s/.../exec"></label>
