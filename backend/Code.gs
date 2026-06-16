@@ -123,6 +123,34 @@ function doPost(e) {
     appendRecord_('loginEvents', payload.data || payload);
     return json_({ ok: true, action: action });
   }
+  if (action === 'saveSiteMessage') {
+    appendRecord_('siteMessages', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveLifeSimulatorState') {
+    appendRecord_('lifeSimulatorStates', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveCalendarEvent') {
+    appendRecord_('calendarEvents', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveGameUploadManifest') {
+    appendRecord_('gameUploadManifests', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveVideoMeetingRoom') {
+    appendRecord_('videoMeetingRooms', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveArkenforgeMapRecord') {
+    appendRecord_('arkenforgeMapRecords', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
+  if (action === 'saveRustforgedPackage') {
+    appendRecord_('rustforgedPackages', payload.data || payload);
+    return json_({ ok: true, action: action });
+  }
   appendRecord_('events', payload);
   return json_({ ok: true, action: action });
 }
