@@ -1,0 +1,16 @@
+{
+  "createdWith": "An Admin's Place",
+  "project": {
+    "name": "Starter Imported Project",
+    "slug": "starter-imported-project",
+    "pageTitle": "Starter Imported Project",
+    "description": "Example project JSON that can be imported into the editor.",
+    "canvasWidth": 1200,
+    "canvasHeight": 820,
+    "backendUrl": "",
+    "themeColor": "#6ff7ff",
+    "accentColor": "#ff8fe7",
+    "globalCss": "body{font-family:system-ui,sans-serif;}"
+  },
+  "modules": []
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "scannerConfig": {
+    "extraStopWords": ["would", "could", "really", "thing", "things"],
+    "moods": {
+      "grateful": ["thanks", "thank you", "appreciate"],
+      "confused": ["confused", "lost", "unclear", "not sure"],
+      "frustrated": ["annoyed", "mad", "frustrated", "angry"],
+      "tired": ["tired", "exhausted", "drained", "sleepy"]
+    },
+    "needs": {
+      "summary": ["summarize", "recap", "shorten", "brief"],
+      "rewrite": ["rewrite", "reword", "revise", "polish"],
+      "planning": ["plan", "schedule", "steps", "organize"]
+    },
+    "taskSignals": ["please", "make", "create", "fix", "change", "add", "remove", "convert", "build", "merge", "scan", "write", "draft"],
+    "answerKeys": ["answer", "answers", "response", "responses", "reply", "replies", "message", "messages", "text", "content", "body", "line", "lines", "template", "templates", "variant", "variants", "phrase", "phrases", "output", "fallback"],
+    "signalKeys": ["keyword", "keywords", "trigger", "triggers", "topic", "topics", "mood", "moods", "need", "needs", "task", "tasks", "ask", "asks", "question", "questions", "intent", "intents", "tag", "tags", "category", "categories", "title", "name", "summary", "description", "locale", "tone"]
+  }
+}

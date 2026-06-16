@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversation Scanner Randomizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <h1>Conversation Scanner Randomizer</h1>
+      <p>Loads local JSON, scans incoming conversation text, finds relevant answers or responses, and randomizes the final wording to reduce exact repeats.</p>
+      <p id="stats" class="stats"></p>
+    </header>
+
+    <section class="panel">
+      <h2>1. Load local JSON</h2>
+      <p>Select your <code>json</code> directory to scan every JSON file in it. Hosted pages can also load the starter manifest.</p>
+      <label class="fileBox">
+        Select json directory
+        <input id="jsonDirectory" type="file" webkitdirectory directory multiple accept=".json,application/json">
+      </label>
+      <button id="loadHosted" type="button">Load starter JSON manifest</button>
+      <p id="status" class="status">Ready.</p>
+    </section>
+
+    <section class="panel grid">
+      <div>
+        <h2>2. Incoming conversation</h2>
+        <label>Name or profile label <input id="userName" value="Friend"></label>
+        <label>Tone <input id="tone" value="warm"></label>
+        <label>Locale key <input id="locale" value="default"></label>
+        <label>Conversation text
+          <textarea id="conversation" rows="10">please help me rewrite this so my chatbot answers questions without sounding repetitive</textarea>
+        </label>
+        <div class="buttons">
+          <button id="scan" type="button">Scan only</button>
+          <button id="generate" type="button">Generate response</button>
+          <button id="resetHistory" type="button">Reset recent replies</button>
+        </div>
+      </div>
+      <div>
+        <h2>Response</h2>
+        <pre id="response"></pre>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Detected signals</h2>
+      <div id="signals" class="signals"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Top local JSON candidates</h2>
+      <div id="candidates" class="candidates"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Safe JSON packet</h2>
+      <pre id="packet"></pre>
+    </section>
+  </main>
+
+  <script src="conversation_scanner_randomizer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

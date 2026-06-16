@@ -1,0 +1,22 @@
+{
+  "name": "conversation-scanner-randomizer",
+  "version": "2.0.0",
+  "description": "Static chatbot helper that scans local JSON for relevant answers and randomizes responses to reduce exact repeats.",
+  "main": "conversation_scanner_randomizer.js",
+  "browserGlobal": "ConversationScannerRandomizer",
+  "requiresBackend": false,
+  "safeJsonResponses": true,
+  "files": [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "conversation_scanner_randomizer.js",
+    "README.md",
+    "manifest.json",
+    "json/manifest.json",
+    "json/response_catalog.json",
+    "json/scanner_rules.json",
+    "json/localized_responses.json",
+    "docs/audit.md"
+  ]
+}
