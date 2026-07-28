@@ -1,8 +1,6 @@
 /**
  * TTRPG Messenger Backend — Google Apps Script (single-file deployment)
  * File name: ttrpgmessenger.gs
- * Configured web app: https://script.google.com/macros/s/AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ/exec
- * Apps Script library: 18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr (version 2)
  *
  * MERGED FEATURE SET
  * - Invite-only campaign servers with creator, moderator, and player roles
@@ -15,6 +13,7 @@
  *   push-to-talk state, and whisper signaling
  * - TTRPG character personas and auditable server-side dice rolls
  * - Polling event gateway as an Apps Script-compatible Socket.io fallback
+ * - Authenticated AI chat/request proxy to the configured AI Apps Script backend
  *
  * IMPORTANT VOICE NOTE
  * Apps Script cannot host WebSockets or relay live audio/video media. The browser
@@ -22,6 +21,11 @@
  * and exchanges WebRTC signals through sendRtcSignal/pollRtcSignals or pollEvents.
  * For reliable connections across strict NAT/firewalls, set RTC_ICE_SERVERS_JSON
  * to include a TURN server. The default contains public STUN only.
+ *
+ * AI BACKEND
+ * Web app: https://script.google.com/macros/s/AKfycbzko-wf92rlr5M6MOSVZQRH0xTL_K8Jhk-qvGSX85IWFcWCFGzcWby9CJriCdlHBRM/exec
+ * Library: 1YSRVPzfI1eq2WvlxR3q3ptoBlBJyWJNkgv1UEr3BLv9NgDs0MNxYEn76 (version 1)
+ * Add the library manually in Apps Script Project Settings if direct library calls are needed.
  *
  * FIRST-TIME SETUP
  * 1. Create a standalone Apps Script project.
@@ -48,8 +52,8 @@
  */
 
 var TTRPG = Object.freeze({
-  API_VERSION: '2.0.0',
-  SCHEMA_VERSION: '2026-07-28.3',
+  API_VERSION: '1.1.0',
+  SCHEMA_VERSION: '2026-07-28.2',
   DB_PROPERTY: 'TTRPG_DB_ID',
   UPLOAD_FOLDER_PROPERTY: 'TTRPG_UPLOAD_FOLDER_ID',
   PEPPER_PROPERTY: 'TTRPG_PASSWORD_PEPPER',
@@ -57,6 +61,12 @@ var TTRPG = Object.freeze({
   SESSION_DAYS_PROPERTY: 'TTRPG_SESSION_DAYS',
   MAX_UPLOAD_PROPERTY: 'TTRPG_MAX_UPLOAD_BYTES',
   RTC_ICE_PROPERTY: 'RTC_ICE_SERVERS_JSON',
+  AI_BACKEND_URL_PROPERTY: 'TTRPG_AI_BACKEND_URL',
+  AI_TIMEOUT_MS_PROPERTY: 'TTRPG_AI_TIMEOUT_MS',
+  AI_LIBRARY_ID: '1YSRVPzfI1eq2WvlxR3q3ptoBlBJyWJNkgv1UEr3BLv9NgDs0MNxYEn76',
+  AI_LIBRARY_VERSION: '1',
+  DEFAULT_AI_BACKEND_URL: 'https://script.google.com/macros/s/AKfycbzko-wf92rlr5M6MOSVZQRH0xTL_K8Jhk-qvGSX85IWFcWCFGzcWby9CJriCdlHBRM/exec',
+  DEFAULT_AI_TIMEOUT_MS: 30000,
   DEFAULT_SESSION_DAYS: 30,
   DEFAULT_MAX_UPLOAD_BYTES: 5 * 1024 * 1024,
   PASSWORD_ROUNDS: 6000,
@@ -100,13 +110,7 @@ var PERMISSIONS = Object.freeze({
   USE_PERSONAS: 131072,
   ROLL_DICE: 262144,
   MANAGE_HANDOUTS: 524288,
-  MANAGE_ORGANIZER: 1048576,
-  APPROVE_CALENDAR: 2097152,
-  UPLOAD_SYSTEM_FILES: 4194304,
-  MANAGE_SYSTEM_LIBRARY: 8388608,
-  VIEW_PRIVATE_AVAILABILITY: 16777216,
-  USE_RULES_ASSISTANT: 33554432,
-  ALL: 67108863
+  ALL: 1048575
 });
 
 var PLAYER_PERMISSIONS =
@@ -117,8 +121,7 @@ var PLAYER_PERMISSIONS =
   PERMISSIONS.ATTACH_FILES |
   PERMISSIONS.STREAM |
   PERMISSIONS.USE_PERSONAS |
-  PERMISSIONS.ROLL_DICE |
-  PERMISSIONS.USE_RULES_ASSISTANT;
+  PERMISSIONS.ROLL_DICE;
 
 var MODERATOR_PERMISSIONS =
   PLAYER_PERMISSIONS |
@@ -129,13 +132,7 @@ var MODERATOR_PERMISSIONS =
   PERMISSIONS.CREATE_INVITE |
   PERMISSIONS.MANAGE_NICKNAMES |
   PERMISSIONS.VIEW_AUDIT_LOG |
-  PERMISSIONS.MANAGE_HANDOUTS |
-  PERMISSIONS.MANAGE_ORGANIZER |
-  PERMISSIONS.APPROVE_CALENDAR |
-  PERMISSIONS.UPLOAD_SYSTEM_FILES |
-  PERMISSIONS.MANAGE_SYSTEM_LIBRARY |
-  PERMISSIONS.VIEW_PRIVATE_AVAILABILITY |
-  PERMISSIONS.USE_RULES_ASSISTANT;
+  PERMISSIONS.MANAGE_HANDOUTS;
 
 var TABLES = Object.freeze({
   Users: ['id','email','username','discriminator','passwordSalt','passwordHash','avatarAttachmentId','bannerAttachmentId','bio','status','customStatus','createdAt','updatedAt','lastSeenAt','disabled','discoverable'],
@@ -164,10 +161,6 @@ var TABLES = Object.freeze({
   Attachments: ['id','ownerId','serverId','dmId','scopeType','scopeId','messageId','fileId','originalName','storedName','mimeType','sizeBytes','sha256','createdAt','deletedAt'],
   Personas: ['id','serverId','userId','name','avatarAttachmentId','color','description','isDefault','createdAt','updatedAt','deletedAt'],
   DiceRolls: ['id','serverId','channelId','userId','personaId','expression','label','total','detailJson','messageId','createdAt'],
-  OrganizerTasks: ['id','serverId','title','description','status','priority','assigneeUserId','createdBy','dueDate','dueTime','recurrenceJson','tagsJson','createdAt','updatedAt','completedAt','deletedAt'],
-  CalendarItems: ['id','serverId','title','description','itemType','startAt','endAt','allDay','recurrenceJson','visibility','submittedBy','approvalStatus','approvedBy','approvedAt','rejectionReason','createdAt','updatedAt','deletedAt'],
-  SystemDocuments: ['id','serverId','systemName','title','attachmentId','fileType','mimeType','tagsJson','versionLabel','sourceNote','uploadedBy','status','extractedText','extractionStatus','textLength','createdAt','updatedAt','deletedAt'],
-  RuleNotes: ['id','serverId','documentId','title','systemName','pageRef','text','tagsJson','createdBy','createdAt','updatedAt','deletedAt'],
   Notifications: ['id','userId','type','actorId','scopeType','scopeId','messageId','payloadJson','readAt','createdAt'],
   Events: ['id','audienceType','audienceId','eventType','entityType','entityId','payloadJson','createdAt','expiresAt'],
   AuditLog: ['id','serverId','actorId','action','targetType','targetId','detailsJson','createdAt']
@@ -235,6 +228,12 @@ function setupTtrpgMessenger() {
       {urls: ['stun:stun.l.google.com:19302', 'stun:stun1.l.google.com:19302']}
     ]));
   }
+  if (!props.getProperty(TTRPG.AI_BACKEND_URL_PROPERTY)) {
+    props.setProperty(TTRPG.AI_BACKEND_URL_PROPERTY, TTRPG.DEFAULT_AI_BACKEND_URL);
+  }
+  if (!props.getProperty(TTRPG.AI_TIMEOUT_MS_PROPERTY)) {
+    props.setProperty(TTRPG.AI_TIMEOUT_MS_PROPERTY, String(TTRPG.DEFAULT_AI_TIMEOUT_MS));
+  }
   props.setProperty('TTRPG_SCHEMA_VERSION', TTRPG.SCHEMA_VERSION);
 
   var result = {
@@ -245,6 +244,9 @@ function setupTtrpgMessenger() {
     spreadsheetUrl: ss.getUrl(),
     uploadFolderId: uploadFolderId,
     registrationMode: props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY),
+    aiBackendUrl: props.getProperty(TTRPG.AI_BACKEND_URL_PROPERTY),
+    aiLibraryId: TTRPG.AI_LIBRARY_ID,
+    aiLibraryVersion: TTRPG.AI_LIBRARY_VERSION,
     nextStep: 'Deploy this script as a web app executing as you, with access set to Anyone.'
   };
   console.log(JSON.stringify(result, null, 2));
@@ -658,8 +660,14 @@ function routeHealth_() {
     features: [
       'invite-only servers','roles and permissions','text chat','direct messages','group DMs',
       'attachments','reactions','pins','presence','voice state','WebRTC signaling','screen sharing',
-      'push-to-talk','whispers','friends and blocks','personas','dice rolls','audit log','polling events'
-    ]
+      'push-to-talk','whispers','friends and blocks','personas','dice rolls','audit log','polling events',
+      'authenticated AI backend proxy'
+    ],
+    ai: {
+      configured: !!props.getProperty(TTRPG.AI_BACKEND_URL_PROPERTY),
+      libraryId: TTRPG.AI_LIBRARY_ID,
+      libraryVersion: TTRPG.AI_LIBRARY_VERSION
+    }
   };
 }
 
@@ -1508,7 +1516,7 @@ function routeUploadAttachment_(ctx){
   var p=ctx.params,name=safeFileName_(p.fileName||p.name),mime=nullableText_(p.mimeType,150)||'application/octet-stream',b64=String(p.base64||p.data||'').replace(/^data:[^;]+;base64,/,'');if(!b64)throw new ApiError_('FILE_REQUIRED','Base64 file data is required.');
   var bytes;try{bytes=Utilities.base64Decode(b64);}catch(e){throw new ApiError_('INVALID_FILE','Attachment data is not valid base64.');}
   var max=int_(PropertiesService.getScriptProperties().getProperty(TTRPG.MAX_UPLOAD_PROPERTY),TTRPG.DEFAULT_MAX_UPLOAD_BYTES,1024,20*1024*1024);if(bytes.length>max)throw new ApiError_('FILE_TOO_LARGE','Maximum attachment size is '+max+' bytes.');
-  var serverId=String(p.serverId||''),dmId=String(p.dmId||'');if(serverId){requireMember_(serverId,ctx.user.id);if(bool_(p.systemUpload))requirePermission_(serverId,ctx.user.id,PERMISSIONS.UPLOAD_SYSTEM_FILES,'Your role does not allow TTRPG system uploads.');else requirePermission_(serverId,ctx.user.id,PERMISSIONS.ATTACH_FILES);}if(dmId)requireDm_(dmId,ctx.user.id);
+  var serverId=String(p.serverId||''),dmId=String(p.dmId||'');if(serverId){requireMember_(serverId,ctx.user.id);requirePermission_(serverId,ctx.user.id,PERMISSIONS.ATTACH_FILES);}if(dmId)requireDm_(dmId,ctx.user.id);
   var aid=id_('att'),stored=aid+'_'+name,blob=Utilities.newBlob(bytes,mime,stored),file=uploadFolder_().createFile(blob);var now=nowIso_();
   var a=insert_('Attachments',{id:aid,ownerId:ctx.user.id,serverId:serverId,dmId:dmId,scopeType:'',scopeId:'',messageId:'',fileId:file.getId(),originalName:name,storedName:stored,mimeType:mime,sizeBytes:bytes.length,sha256:sha256Hex_(Utilities.base64Encode(bytes)),createdAt:now,deletedAt:''});return publicAttachment_(a);
 }
@@ -1655,6 +1663,100 @@ function routeRollDice_(ctx){
 }
 function routeListDiceRolls_(ctx){var channel=requireChannel_(ctx.params.channelId,ctx.user.id),limit=int_(ctx.params.limit,50,1,100);return filter_('DiceRolls',function(r){return r.channelId===channel.id;}).sort(function(a,b){return new Date(b.createdAt)-new Date(a.createdAt);}).slice(0,limit).map(function(r){return {id:r.id,serverId:r.serverId,channelId:r.channelId,userId:r.userId,personaId:r.personaId||'',expression:r.expression,label:r.label||'',total:num_(r.total,0),detail:parseJsonCell_(r.detailJson,[]),messageId:r.messageId||'',createdAt:r.createdAt};});}
 
+
+/* =============================
+ * AI BACKEND INTEGRATION
+ * =============================
+ * The deployed web-app endpoint is used at runtime. The Apps Script library
+ * metadata is exposed for project setup/documentation; Apps Script libraries
+ * themselves must still be added in Project Settings > Libraries.
+ */
+
+function getAiBackendUrl_() {
+  var url = String(PropertiesService.getScriptProperties().getProperty(TTRPG.AI_BACKEND_URL_PROPERTY) || TTRPG.DEFAULT_AI_BACKEND_URL).trim();
+  if (!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec(?:\?.*)?$/.test(url)) {
+    throw new ApiError_('AI_NOT_CONFIGURED', 'The AI backend URL is missing or invalid.');
+  }
+  return url;
+}
+
+function sanitizeAiPayload_(params) {
+  var blocked = {token:true, password:true, currentPassword:true, newPassword:true, base64:true, data:true};
+  var payload = {};
+  Object.keys(params || {}).forEach(function(key) {
+    if (key === 'action' || blocked[key]) return;
+    payload[key] = params[key];
+  });
+  return payload;
+}
+
+function callAiBackend_(ctx, aiAction, payload) {
+  var timeout = int_(PropertiesService.getScriptProperties().getProperty(TTRPG.AI_TIMEOUT_MS_PROPERTY), TTRPG.DEFAULT_AI_TIMEOUT_MS, 1000, 30000);
+  var requestBody = {
+    action: String(aiAction || 'chat'),
+    payload: payload || {},
+    messengerContext: {
+      user: publicUser_(ctx.user),
+      serverId: String(ctx.params.serverId || ''),
+      channelId: String(ctx.params.channelId || ''),
+      dmId: String(ctx.params.dmId || ''),
+      personaId: String(ctx.params.personaId || ''),
+      requestId: id_('air'),
+      requestedAt: nowIso_(),
+      source: 'TTRPG_MESSENGER'
+    }
+  };
+
+  if (requestBody.messengerContext.serverId) requireMember_(requestBody.messengerContext.serverId, ctx.user.id);
+  if (requestBody.messengerContext.channelId) requireChannel_(requestBody.messengerContext.channelId, ctx.user.id);
+  if (requestBody.messengerContext.dmId) requireDm_(requestBody.messengerContext.dmId, ctx.user.id);
+
+  var response;
+  try {
+    response = UrlFetchApp.fetch(getAiBackendUrl_(), {
+      method: 'post',
+      contentType: 'text/plain; charset=utf-8',
+      payload: JSON.stringify(requestBody),
+      muteHttpExceptions: true,
+      followRedirects: true
+    });
+  } catch (err) {
+    throw new ApiError_('AI_BACKEND_UNREACHABLE', 'The AI backend could not be reached.', String(err && err.message ? err.message : err));
+  }
+
+  var status = response.getResponseCode();
+  var text = response.getContentText();
+  var parsed;
+  try { parsed = JSON.parse(text); } catch (e) { parsed = {ok: status >= 200 && status < 300, text: text}; }
+  if (status < 200 || status >= 300 || parsed.ok === false) {
+    throw new ApiError_('AI_BACKEND_ERROR', 'The AI backend returned an error.', {status:status,response:parsed,timeoutMs:timeout});
+  }
+  return {backend: parsed, status: status, requestId: requestBody.messengerContext.requestId};
+}
+
+function routeAiRequest_(ctx) {
+  var aiAction = nullableText_(ctx.params.aiAction || ctx.params.operation || 'chat', 80) || 'chat';
+  var payload = ctx.params.payload !== undefined ? parseJsonCell_(ctx.params.payload, ctx.params.payload) : sanitizeAiPayload_(ctx.params);
+  return callAiBackend_(ctx, aiAction, payload);
+}
+
+function routeAiChat_(ctx) {
+  var message = text_(ctx.params.message || ctx.params.prompt, TTRPG.MAX_MESSAGE_LENGTH);
+  var history = ctx.params.history !== undefined ? parseJsonCell_(ctx.params.history, []) : [];
+  if (!Array.isArray(history)) throw new ApiError_('VALIDATION_ERROR', 'AI chat history must be an array.');
+  return callAiBackend_(ctx, 'chat', {
+    message: message,
+    history: history.slice(-50),
+    systemPrompt: nullableText_(ctx.params.systemPrompt, 12000),
+    character: ctx.params.character !== undefined ? parseJsonCell_(ctx.params.character, ctx.params.character) : null,
+    metadata: ctx.params.metadata !== undefined ? parseJsonCell_(ctx.params.metadata, ctx.params.metadata) : {}
+  });
+}
+
+function routeAiHealth_(ctx) {
+  return callAiBackend_(ctx, 'health', {});
+}
+
 /* =============================
  * AUDIT, CONFIGURATION, MAINTENANCE
  * ============================= */
@@ -1662,7 +1764,7 @@ function routeListDiceRolls_(ctx){var channel=requireChannel_(ctx.params.channel
 function audit_(serverId,actorId,action,targetType,targetId,details){return insert_('AuditLog',{id:id_('aud'),serverId:serverId,actorId:actorId,action:action,targetType:targetType,targetId:targetId,detailsJson:JSON.stringify(details||{}),createdAt:nowIso_()});}
 function routeListAuditLog_(ctx){var serverId=String(ctx.params.serverId||'');requirePermission_(serverId,ctx.user.id,PERMISSIONS.VIEW_AUDIT_LOG);var limit=int_(ctx.params.limit,100,1,200),before=String(ctx.params.before||'');var list=filter_('AuditLog',function(a){return a.serverId===serverId;}).sort(function(a,b){return new Date(b.createdAt)-new Date(a.createdAt);});if(before){var t=new Date(before).getTime();if(isFinite(t))list=list.filter(function(a){return new Date(a.createdAt).getTime()<t;});}return list.slice(0,limit).map(function(a){return {id:a.id,serverId:a.serverId,actorId:a.actorId,action:a.action,targetType:a.targetType,targetId:a.targetId,details:parseJsonCell_(a.detailsJson,{}),createdAt:a.createdAt};});}
 
-function routeGetClientConfig_(ctx){var props=PropertiesService.getScriptProperties();return {apiVersion:TTRPG.API_VERSION,schemaVersion:props.getProperty('TTRPG_SCHEMA_VERSION')||TTRPG.SCHEMA_VERSION,maxUploadBytes:int_(props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),TTRPG.DEFAULT_MAX_UPLOAD_BYTES),sessionDays:int_(props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),TTRPG.DEFAULT_SESSION_DAYS),registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY)||'INVITE_OR_FIRST_USER',iceServers:getIceServers_(),polling:{eventsMs:1500,presenceHeartbeatMs:45000,typingRefreshMs:6000,rtcSignalsMs:800}};}
+function routeGetClientConfig_(ctx){var props=PropertiesService.getScriptProperties();return {apiVersion:TTRPG.API_VERSION,schemaVersion:props.getProperty('TTRPG_SCHEMA_VERSION')||TTRPG.SCHEMA_VERSION,maxUploadBytes:int_(props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),TTRPG.DEFAULT_MAX_UPLOAD_BYTES),sessionDays:int_(props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),TTRPG.DEFAULT_SESSION_DAYS),registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY)||'INVITE_OR_FIRST_USER',iceServers:getIceServers_(),ai:{enabled:!!props.getProperty(TTRPG.AI_BACKEND_URL_PROPERTY),actions:['aiChat','aiRequest','aiHealth'],libraryId:TTRPG.AI_LIBRARY_ID,libraryVersion:TTRPG.AI_LIBRARY_VERSION},polling:{eventsMs:1500,presenceHeartbeatMs:45000,typingRefreshMs:6000,rtcSignalsMs:800}};}
 
 function configureTtrpgMessenger(options){
   options=options||{};var props=PropertiesService.getScriptProperties();
@@ -1670,7 +1772,9 @@ function configureTtrpgMessenger(options){
   if(options.sessionDays!==undefined)props.setProperty(TTRPG.SESSION_DAYS_PROPERTY,String(int_(options.sessionDays,30,1,365)));
   if(options.maxUploadBytes!==undefined)props.setProperty(TTRPG.MAX_UPLOAD_PROPERTY,String(int_(options.maxUploadBytes,TTRPG.DEFAULT_MAX_UPLOAD_BYTES,1024,20*1024*1024)));
   if(options.iceServers!==undefined){if(!Array.isArray(options.iceServers))throw new Error('iceServers must be an array.');props.setProperty(TTRPG.RTC_ICE_PROPERTY,JSON.stringify(options.iceServers));}
-  var result={registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY),sessionDays:props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),maxUploadBytes:props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),iceServers:getIceServers_()};console.log(JSON.stringify(result,null,2));return result;
+  if(options.aiBackendUrl!==undefined){var aiUrl=String(options.aiBackendUrl||'').trim();if(aiUrl&&!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec(?:\?.*)?$/.test(aiUrl))throw new Error('Invalid aiBackendUrl.');props.setProperty(TTRPG.AI_BACKEND_URL_PROPERTY,aiUrl||TTRPG.DEFAULT_AI_BACKEND_URL);}
+  if(options.aiTimeoutMs!==undefined)props.setProperty(TTRPG.AI_TIMEOUT_MS_PROPERTY,String(int_(options.aiTimeoutMs,TTRPG.DEFAULT_AI_TIMEOUT_MS,1000,30000)));
+  var result={registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY),sessionDays:props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),maxUploadBytes:props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),iceServers:getIceServers_(),aiBackendUrl:props.getProperty(TTRPG.AI_BACKEND_URL_PROPERTY),aiTimeoutMs:props.getProperty(TTRPG.AI_TIMEOUT_MS_PROPERTY),aiLibraryId:TTRPG.AI_LIBRARY_ID,aiLibraryVersion:TTRPG.AI_LIBRARY_VERSION};console.log(JSON.stringify(result,null,2));return result;
 }
 
 function runTtrpgMaintenance(){
@@ -1689,54 +1793,9 @@ function createHourlyMaintenanceTrigger(){ScriptApp.getProjectTriggers().filter(
  * ROUTE TABLE
  * ============================= */
 
-/* =============================
- * CAMPAIGN ORGANIZER, CALENDAR, AVAILABILITY, AND RULES LIBRARY
- * ============================= */
-
-function publicOrganizerTask_(t){return {id:t.id,serverId:t.serverId,title:t.title,description:t.description||'',status:t.status||'TODO',priority:t.priority||'MEDIUM',assigneeUserId:t.assigneeUserId||'',createdBy:t.createdBy,dueDate:t.dueDate||'',dueTime:t.dueTime||'',recurrence:parseJsonCell_(t.recurrenceJson,{}),tags:parseJsonCell_(t.tagsJson,[]),createdAt:t.createdAt,updatedAt:t.updatedAt,completedAt:t.completedAt||''};}
-function requireOrganizerTask_(id,userId){var t=byId_('OrganizerTasks',String(id||''));if(!t)throw new ApiError_('TASK_NOT_FOUND','Campaign task not found.');requireMember_(t.serverId,userId);return t;}
-function routeListOrganizerTasks_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);return filter_('OrganizerTasks',function(t){return t.serverId===serverId&&!t.deletedAt;}).sort(function(a,b){return String(a.dueDate||'9999').localeCompare(String(b.dueDate||'9999'))||new Date(b.createdAt)-new Date(a.createdAt);}).map(publicOrganizerTask_);}
-function routeCreateOrganizerTask_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var assignee=String(ctx.params.assigneeUserId||'');if(assignee)requireMember_(serverId,assignee);var now=nowIso_(),status=String(ctx.params.status||'TODO').toUpperCase(),priority=String(ctx.params.priority||'MEDIUM').toUpperCase();if(['TODO','IN_PROGRESS','DONE','CANCELLED'].indexOf(status)===-1)status='TODO';if(['LOW','MEDIUM','HIGH'].indexOf(priority)===-1)priority='MEDIUM';var t=insert_('OrganizerTasks',{id:id_('tsk'),serverId:serverId,title:text_(ctx.params.title,160),description:nullableText_(ctx.params.description,4000),status:status,priority:priority,assigneeUserId:assignee,createdBy:ctx.user.id,dueDate:nullableText_(ctx.params.dueDate,20),dueTime:nullableText_(ctx.params.dueTime,20),recurrenceJson:JSON.stringify(ctx.params.recurrence||{}),tagsJson:JSON.stringify(array_(ctx.params.tags).slice(0,20)),createdAt:now,updatedAt:now,completedAt:status==='DONE'?now:'',deletedAt:''});audit_(serverId,ctx.user.id,'ORGANIZER_TASK_CREATED','ORGANIZER_TASK',t.id,{title:t.title});emitServerEvent_(serverId,'ORGANIZER_TASK_CREATED','ORGANIZER_TASK',t.id,{task:publicOrganizerTask_(t)});return publicOrganizerTask_(t);}
-function routeUpdateOrganizerTask_(ctx){var t=requireOrganizerTask_(ctx.params.taskId,ctx.user.id);if(t.createdBy!==ctx.user.id&&!hasPermission_(t.serverId,ctx.user.id,PERMISSIONS.MANAGE_ORGANIZER))throw new ApiError_('FORBIDDEN','You can edit only tasks you created unless you have manage organizer permission.');var p=ctx.params,patch={updatedAt:nowIso_()};if(p.title!==undefined)patch.title=text_(p.title,160);if(p.description!==undefined)patch.description=nullableText_(p.description,4000);if(p.status!==undefined){var status=String(p.status).toUpperCase();if(['TODO','IN_PROGRESS','DONE','CANCELLED'].indexOf(status)===-1)throw new ApiError_('INVALID_STATUS','Invalid task status.');patch.status=status;patch.completedAt=status==='DONE'?(t.completedAt||nowIso_()):'';}if(p.priority!==undefined){var priority=String(p.priority).toUpperCase();if(['LOW','MEDIUM','HIGH'].indexOf(priority)===-1)throw new ApiError_('INVALID_PRIORITY','Invalid task priority.');patch.priority=priority;}if(p.assigneeUserId!==undefined){var assignee=String(p.assigneeUserId||'');if(assignee)requireMember_(t.serverId,assignee);patch.assigneeUserId=assignee;}if(p.dueDate!==undefined)patch.dueDate=nullableText_(p.dueDate,20);if(p.dueTime!==undefined)patch.dueTime=nullableText_(p.dueTime,20);if(p.recurrence!==undefined)patch.recurrenceJson=JSON.stringify(p.recurrence||{});if(p.tags!==undefined)patch.tagsJson=JSON.stringify(array_(p.tags).slice(0,20));updateRow_('OrganizerTasks',t._row,patch);var out=byId_('OrganizerTasks',t.id);audit_(t.serverId,ctx.user.id,'ORGANIZER_TASK_UPDATED','ORGANIZER_TASK',t.id,patch);emitServerEvent_(t.serverId,'ORGANIZER_TASK_UPDATED','ORGANIZER_TASK',t.id,{task:publicOrganizerTask_(out)});return publicOrganizerTask_(out);}
-function routeCompleteOrganizerTask_(ctx){var t=requireOrganizerTask_(ctx.params.taskId,ctx.user.id),done=ctx.params.completed===undefined?true:bool_(ctx.params.completed),now=nowIso_();updateRow_('OrganizerTasks',t._row,{status:done?'DONE':'TODO',completedAt:done?now:'',updatedAt:now});var out=byId_('OrganizerTasks',t.id);emitServerEvent_(t.serverId,'ORGANIZER_TASK_UPDATED','ORGANIZER_TASK',t.id,{task:publicOrganizerTask_(out)});return publicOrganizerTask_(out);}
-function routeDeleteOrganizerTask_(ctx){var t=requireOrganizerTask_(ctx.params.taskId,ctx.user.id);if(t.createdBy!==ctx.user.id&&!hasPermission_(t.serverId,ctx.user.id,PERMISSIONS.MANAGE_ORGANIZER))throw new ApiError_('FORBIDDEN','You cannot delete this campaign task.');updateRow_('OrganizerTasks',t._row,{deletedAt:nowIso_(),updatedAt:nowIso_()});audit_(t.serverId,ctx.user.id,'ORGANIZER_TASK_DELETED','ORGANIZER_TASK',t.id,{});return {deleted:true};}
-
-function publicCalendarItem_(i,viewerId,canViewPrivate){var hide=i.visibility==='RUNNER_ONLY'&&!canViewPrivate&&i.submittedBy!==viewerId;return {id:i.id,serverId:i.serverId,title:hide?'Unavailable':i.title,description:hide?'':(i.description||''),itemType:i.itemType||'OTHER',startAt:i.startAt,endAt:i.endAt||'',allDay:bool_(i.allDay),recurrence:parseJsonCell_(i.recurrenceJson,{}),visibility:i.visibility||'SERVER',submittedBy:i.submittedBy,approvalStatus:i.approvalStatus||'PENDING',approvedBy:i.approvedBy||'',approvedAt:i.approvedAt||'',rejectionReason:i.submittedBy===viewerId||canViewPrivate?(i.rejectionReason||''):'',createdAt:i.createdAt,updatedAt:i.updatedAt};}
-function requireCalendarItem_(id,userId){var i=byId_('CalendarItems',String(id||''));if(!i)throw new ApiError_('CALENDAR_ITEM_NOT_FOUND','Calendar item not found.');requireMember_(i.serverId,userId);return i;}
-function canApproveCalendar_(serverId,userId){return hasPermission_(serverId,userId,PERMISSIONS.APPROVE_CALENDAR)||hasPermission_(serverId,userId,PERMISSIONS.ADMIN);}
-function canViewPrivateAvailability_(serverId,userId){return canApproveCalendar_(serverId,userId)||hasPermission_(serverId,userId,PERMISSIONS.VIEW_PRIVATE_AVAILABILITY)||hasPermission_(serverId,userId,PERMISSIONS.MANAGE_SERVER);}
-function routeListCalendarItems_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var privateView=canViewPrivateAvailability_(serverId,ctx.user.id),includePending=bool_(ctx.params.includePending);return filter_('CalendarItems',function(i){if(i.serverId!==serverId||i.deletedAt)return false;if(i.submittedBy===ctx.user.id||privateView)return includePending||i.approvalStatus==='APPROVED';if(i.approvalStatus!=='APPROVED')return false;if(i.visibility==='PRIVATE'||i.visibility==='RUNNER_ONLY')return false;return true;}).sort(function(a,b){return new Date(a.startAt)-new Date(b.startAt);}).map(function(i){return publicCalendarItem_(i,ctx.user.id,privateView);});}
-function routeSubmitCalendarItem_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var type=String(ctx.params.itemType||'OTHER').toUpperCase(),visibility=String(ctx.params.visibility||'SERVER').toUpperCase();if(['SESSION','AVAILABILITY','DOCTOR','BIRTHDAY','PERSONAL','DEADLINE','OTHER'].indexOf(type)===-1)type='OTHER';if(['SERVER','RUNNER_ONLY','PRIVATE'].indexOf(visibility)===-1)visibility='SERVER';var startAt=String(ctx.params.startAt||'');if(!startAt||!isFinite(new Date(startAt).getTime()))throw new ApiError_('INVALID_START','A valid calendar start date is required.');var endAt=String(ctx.params.endAt||'');if(endAt&&!isFinite(new Date(endAt).getTime()))throw new ApiError_('INVALID_END','Calendar end date is invalid.');var now=nowIso_(),i=insert_('CalendarItems',{id:id_('cai'),serverId:serverId,title:text_(ctx.params.title,180),description:nullableText_(ctx.params.description,4000),itemType:type,startAt:new Date(startAt).toISOString(),endAt:endAt?new Date(endAt).toISOString():'',allDay:bool_(ctx.params.allDay),recurrenceJson:JSON.stringify(ctx.params.recurrence||{}),visibility:visibility,submittedBy:ctx.user.id,approvalStatus:'PENDING',approvedBy:'',approvedAt:'',rejectionReason:'',createdAt:now,updatedAt:now,deletedAt:''});audit_(serverId,ctx.user.id,'CALENDAR_ITEM_SUBMITTED','CALENDAR_ITEM',i.id,{itemType:type,approvalStatus:i.approvalStatus});emitServerEvent_(serverId,'CALENDAR_ITEM_SUBMITTED','CALENDAR_ITEM',i.id,{item:publicCalendarItem_(i,ctx.user.id,true)});return publicCalendarItem_(i,ctx.user.id,true);}
-function routeApproveCalendarItem_(ctx){var i=requireCalendarItem_(ctx.params.calendarItemId,ctx.user.id);requirePermission_(i.serverId,ctx.user.id,PERMISSIONS.APPROVE_CALENDAR);var now=nowIso_();updateRow_('CalendarItems',i._row,{approvalStatus:'APPROVED',approvedBy:ctx.user.id,approvedAt:now,rejectionReason:'',updatedAt:now});var out=byId_('CalendarItems',i.id);audit_(i.serverId,ctx.user.id,'CALENDAR_ITEM_APPROVED','CALENDAR_ITEM',i.id,{});emitServerEvent_(i.serverId,'CALENDAR_ITEM_APPROVED','CALENDAR_ITEM',i.id,{item:publicCalendarItem_(out,ctx.user.id,true)});return publicCalendarItem_(out,ctx.user.id,true);}
-function routeRejectCalendarItem_(ctx){var i=requireCalendarItem_(ctx.params.calendarItemId,ctx.user.id);requirePermission_(i.serverId,ctx.user.id,PERMISSIONS.APPROVE_CALENDAR);var now=nowIso_();updateRow_('CalendarItems',i._row,{approvalStatus:'REJECTED',approvedBy:ctx.user.id,approvedAt:now,rejectionReason:nullableText_(ctx.params.reason,1000),updatedAt:now});var out=byId_('CalendarItems',i.id);audit_(i.serverId,ctx.user.id,'CALENDAR_ITEM_REJECTED','CALENDAR_ITEM',i.id,{reason:out.rejectionReason});emitUserEvent_(i.submittedBy,'CALENDAR_ITEM_REJECTED','CALENDAR_ITEM',i.id,{item:publicCalendarItem_(out,i.submittedBy,true)});return publicCalendarItem_(out,ctx.user.id,true);}
-function routeUpdateCalendarItem_(ctx){var i=requireCalendarItem_(ctx.params.calendarItemId,ctx.user.id),manager=canApproveCalendar_(i.serverId,ctx.user.id);if(i.submittedBy!==ctx.user.id&&!manager)throw new ApiError_('FORBIDDEN','You cannot edit this calendar item.');var p=ctx.params,patch={updatedAt:nowIso_()};if(p.title!==undefined)patch.title=text_(p.title,180);if(p.description!==undefined)patch.description=nullableText_(p.description,4000);if(p.itemType!==undefined){var type=String(p.itemType).toUpperCase();if(['SESSION','AVAILABILITY','DOCTOR','BIRTHDAY','PERSONAL','DEADLINE','OTHER'].indexOf(type)===-1)throw new ApiError_('INVALID_TYPE','Invalid calendar item type.');patch.itemType=type;}if(p.startAt!==undefined){if(!isFinite(new Date(p.startAt).getTime()))throw new ApiError_('INVALID_START','Invalid start date.');patch.startAt=new Date(p.startAt).toISOString();}if(p.endAt!==undefined)patch.endAt=p.endAt?new Date(p.endAt).toISOString():'';if(p.allDay!==undefined)patch.allDay=bool_(p.allDay);if(p.visibility!==undefined){var visibility=String(p.visibility).toUpperCase();if(['SERVER','RUNNER_ONLY','PRIVATE'].indexOf(visibility)===-1)throw new ApiError_('INVALID_VISIBILITY','Invalid visibility.');patch.visibility=visibility;}if(p.recurrence!==undefined)patch.recurrenceJson=JSON.stringify(p.recurrence||{});if(!manager){patch.approvalStatus='PENDING';patch.approvedBy='';patch.approvedAt='';patch.rejectionReason='';}updateRow_('CalendarItems',i._row,patch);var out=byId_('CalendarItems',i.id);audit_(i.serverId,ctx.user.id,'CALENDAR_ITEM_UPDATED','CALENDAR_ITEM',i.id,patch);return publicCalendarItem_(out,ctx.user.id,true);}
-function routeDeleteCalendarItem_(ctx){var i=requireCalendarItem_(ctx.params.calendarItemId,ctx.user.id);if(i.submittedBy!==ctx.user.id&&!canApproveCalendar_(i.serverId,ctx.user.id))throw new ApiError_('FORBIDDEN','You cannot delete this calendar item.');updateRow_('CalendarItems',i._row,{deletedAt:nowIso_(),updatedAt:nowIso_()});audit_(i.serverId,ctx.user.id,'CALENDAR_ITEM_DELETED','CALENDAR_ITEM',i.id,{});return {deleted:true};}
-
-function publicSystemDocument_(d){return {id:d.id,serverId:d.serverId,systemName:d.systemName,title:d.title,attachmentId:d.attachmentId,fileType:d.fileType,mimeType:d.mimeType,tags:parseJsonCell_(d.tagsJson,[]),versionLabel:d.versionLabel||'',sourceNote:d.sourceNote||'',uploadedBy:d.uploadedBy,status:d.status||'ACTIVE',extractionStatus:d.extractionStatus||'STORED_ONLY',textLength:int_(d.textLength,0),createdAt:d.createdAt,updatedAt:d.updatedAt};}
-function requireSystemDocument_(id,userId){var d=byId_('SystemDocuments',String(id||''));if(!d)throw new ApiError_('SYSTEM_DOCUMENT_NOT_FOUND','System document not found.');requireMember_(d.serverId,userId);return d;}
-function extractDocxText_(blob){var entries=Utilities.unzip(blob),xml='';for(var i=0;i<entries.length;i++){if(entries[i].getName()==='word/document.xml'){xml=entries[i].getDataAsString('UTF-8');break;}}if(!xml)return '';return xml.replace(/<w:tab\/?\s*>/g,'\t').replace(/<w:br\/?\s*>/g,'\n').replace(/<\/w:p>/g,'\n').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/[ \t]+/g,' ').replace(/\n\s+/g,'\n').trim();}
-function extractPdfText_(blob,title){if(typeof Drive==='undefined'||!Drive.Files||!Drive.Files.insert)return '';var converted=null;try{converted=Drive.Files.insert({title:'Tablegate index '+String(title||'PDF'),mimeType:'application/vnd.google-apps.document'},blob,{convert:true});var text=DocumentApp.openById(converted.id).getBody().getText();return text||'';}finally{if(converted&&converted.id)try{DriveApp.getFileById(converted.id).setTrashed(true);}catch(ignore){}}}
-function extractSystemText_(attachment,fileType){var file=DriveApp.getFileById(attachment.fileId),blob=file.getBlob(),type=String(fileType||attachment.mimeType||'').toLowerCase(),text='';if(type.indexOf('json')!==-1||/\.json$/i.test(attachment.originalName)){text=blob.getDataAsString('UTF-8');try{text=JSON.stringify(JSON.parse(text),null,2);}catch(ignore){}}else if(type.indexOf('text')!==-1||/\.txt$/i.test(attachment.originalName))text=blob.getDataAsString('UTF-8');else if(type.indexOf('docx')!==-1||/\.docx$/i.test(attachment.originalName))text=extractDocxText_(blob);else if(type.indexOf('pdf')!==-1||/\.pdf$/i.test(attachment.originalName))text=extractPdfText_(blob,attachment.originalName);text=String(text||'').replace(/\u0000/g,'').trim();return text.slice(0,250000);}
-function routeListSystemDocuments_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);return filter_('SystemDocuments',function(d){return d.serverId===serverId&&!d.deletedAt&&d.status!=='DELETED';}).sort(function(a,b){return String(a.systemName).localeCompare(String(b.systemName))||new Date(b.createdAt)-new Date(a.createdAt);}).map(publicSystemDocument_);}
-function routeCreateSystemDocument_(ctx){var serverId=String(ctx.params.serverId||'');requirePermission_(serverId,ctx.user.id,PERMISSIONS.UPLOAD_SYSTEM_FILES,'Your role does not allow TTRPG system uploads.');var attachment=requireAttachmentAccess_(String(ctx.params.attachmentId||''),ctx.user.id,serverId,'');var now=nowIso_(),text='',status='STORED_ONLY';try{text=extractSystemText_(attachment,ctx.params.fileType||ctx.params.mimeType);status=text?'INDEXED':'STORED_ONLY';}catch(err){status='FAILED';console.warn('System document extraction failed: '+err);}var d=insert_('SystemDocuments',{id:id_('sysdoc'),serverId:serverId,systemName:text_(ctx.params.systemName,120),title:text_(ctx.params.title||attachment.originalName,200),attachmentId:attachment.id,fileType:nullableText_(ctx.params.fileType,40),mimeType:nullableText_(ctx.params.mimeType,150)||attachment.mimeType,tagsJson:JSON.stringify(array_(ctx.params.tags).slice(0,30)),versionLabel:nullableText_(ctx.params.versionLabel,100),sourceNote:nullableText_(ctx.params.sourceNote,1000),uploadedBy:ctx.user.id,status:'ACTIVE',extractedText:text,extractionStatus:status,textLength:text.length,createdAt:now,updatedAt:now,deletedAt:''});audit_(serverId,ctx.user.id,'SYSTEM_DOCUMENT_CREATED','SYSTEM_DOCUMENT',d.id,{systemName:d.systemName,title:d.title,extractionStatus:status});emitServerEvent_(serverId,'SYSTEM_DOCUMENT_CREATED','SYSTEM_DOCUMENT',d.id,{document:publicSystemDocument_(d)});return publicSystemDocument_(d);}
-function routeReindexSystemDocument_(ctx){var d=requireSystemDocument_(ctx.params.documentId,ctx.user.id);requirePermission_(d.serverId,ctx.user.id,PERMISSIONS.MANAGE_SYSTEM_LIBRARY);var attachment=requireAttachmentAccess_(d.attachmentId,ctx.user.id,d.serverId,''),text='',status='STORED_ONLY';try{text=extractSystemText_(attachment,d.fileType||d.mimeType);status=text?'INDEXED':'STORED_ONLY';}catch(err){status='FAILED';console.warn(err);}updateRow_('SystemDocuments',d._row,{extractedText:text,extractionStatus:status,textLength:text.length,updatedAt:nowIso_()});var out=byId_('SystemDocuments',d.id);audit_(d.serverId,ctx.user.id,'SYSTEM_DOCUMENT_REINDEXED','SYSTEM_DOCUMENT',d.id,{extractionStatus:status,textLength:text.length});return publicSystemDocument_(out);}
-function routeDeleteSystemDocument_(ctx){var d=requireSystemDocument_(ctx.params.documentId,ctx.user.id);requirePermission_(d.serverId,ctx.user.id,PERMISSIONS.MANAGE_SYSTEM_LIBRARY);updateRow_('SystemDocuments',d._row,{status:'DELETED',deletedAt:nowIso_(),updatedAt:nowIso_()});audit_(d.serverId,ctx.user.id,'SYSTEM_DOCUMENT_DELETED','SYSTEM_DOCUMENT',d.id,{});return {deleted:true};}
-
-function publicRuleNote_(n){return {id:n.id,serverId:n.serverId,documentId:n.documentId||'',title:n.title,systemName:n.systemName||'',pageRef:n.pageRef||'',text:n.text,tags:parseJsonCell_(n.tagsJson,[]),createdBy:n.createdBy,createdAt:n.createdAt,updatedAt:n.updatedAt};}
-function routeListRuleNotes_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);return filter_('RuleNotes',function(n){return n.serverId===serverId&&!n.deletedAt;}).map(publicRuleNote_);}
-function routeCreateRuleNote_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var documentId=String(ctx.params.documentId||'');if(documentId){var d=requireSystemDocument_(documentId,ctx.user.id);if(d.serverId!==serverId)throw new ApiError_('INVALID_DOCUMENT','Rule note document belongs to another server.');}var now=nowIso_(),n=insert_('RuleNotes',{id:id_('rnote'),serverId:serverId,documentId:documentId,title:text_(ctx.params.title,180),systemName:nullableText_(ctx.params.systemName,120),pageRef:nullableText_(ctx.params.pageRef,120),text:text_(ctx.params.text,12000),tagsJson:JSON.stringify(array_(ctx.params.tags).slice(0,30)),createdBy:ctx.user.id,createdAt:now,updatedAt:now,deletedAt:''});audit_(serverId,ctx.user.id,'RULE_NOTE_CREATED','RULE_NOTE',n.id,{documentId:documentId});return publicRuleNote_(n);}
-function routeDeleteRuleNote_(ctx){var n=byId_('RuleNotes',String(ctx.params.ruleNoteId||''));if(!n)throw new ApiError_('RULE_NOTE_NOT_FOUND','Rule note not found.');requireMember_(n.serverId,ctx.user.id);if(n.createdBy!==ctx.user.id&&!hasPermission_(n.serverId,ctx.user.id,PERMISSIONS.MANAGE_SYSTEM_LIBRARY))throw new ApiError_('FORBIDDEN','You cannot delete this rule note.');updateRow_('RuleNotes',n._row,{deletedAt:nowIso_(),updatedAt:nowIso_()});return {deleted:true};}
-
-function ruleTokens_(query){var stop={the:1,and:1,for:1,with:1,that:1,this:1,from:1,what:1,when:1,where:1,which:1,does:1,into:1,roll:1,rules:1};var found={},out=[];String(query||'').toLowerCase().split(/[^a-z0-9]+/).forEach(function(t){if(t.length>2&&!stop[t]&&!found[t]){found[t]=true;out.push(t);}});return out.slice(0,30);}
-function excerptAround_(text,tokens){var lower=text.toLowerCase(),pos=-1;for(var i=0;i<tokens.length;i++){var p=lower.indexOf(tokens[i]);if(p!==-1&&(pos===-1||p<pos))pos=p;}if(pos<0)pos=0;var start=Math.max(0,pos-220),end=Math.min(text.length,start+900);return (start>0?'…':'')+text.slice(start,end).replace(/\s+/g,' ').trim()+(end<text.length?'…':'');}
-function suggestedRollFor_(query,system){var direct=String(query||'').match(/\b\d*d\d+(?:\s*[+\-]\s*\d+)?\b/i);if(direct)return direct[0].replace(/\s+/g,'');system=String(system||'').toLowerCase();if(system.indexOf('gurps')!==-1)return '3d6';if(system.indexOf('cthulhu')!==-1)return '1d100';if(system.indexOf('pathfinder')!==-1||system.indexOf('dungeons')!==-1||system.indexOf('starfinder')!==-1)return '1d20';return '';}
-function routeAskRulesAssistant_(ctx){var serverId=String(ctx.params.serverId||'');requirePermission_(serverId,ctx.user.id,PERMISSIONS.USE_RULES_ASSISTANT);var query=text_(ctx.params.query,2000),tokens=ruleTokens_(query),limit=int_(ctx.params.limit,6,1,12),matches=[];filter_('SystemDocuments',function(d){return d.serverId===serverId&&!d.deletedAt&&d.status==='ACTIVE'&&d.extractedText;}).forEach(function(d){var text=String(d.extractedText||''),lower=text.toLowerCase(),score=0;tokens.forEach(function(t){var pos=0,count=0;while((pos=lower.indexOf(t,pos))!==-1&&count<50){count++;pos+=t.length;}score+=count;} );tokens.forEach(function(t){if(lower_(d.title).indexOf(t)!==-1)score+=5;if(lower_(d.systemName).indexOf(t)!==-1)score+=4;});if(score>0)matches.push({score:score,title:d.title,systemName:d.systemName,pageRef:'',excerpt:excerptAround_(text,tokens),documentId:d.id});});filter_('RuleNotes',function(n){return n.serverId===serverId&&!n.deletedAt;}).forEach(function(n){var text=String(n.text||''),lower=text.toLowerCase(),score=0;tokens.forEach(function(t){if(lower.indexOf(t)!==-1)score+=3;});if(score>0)matches.push({score:score,title:n.title,systemName:n.systemName,pageRef:n.pageRef,excerpt:excerptAround_(text,tokens),ruleNoteId:n.id});});matches.sort(function(a,b){return b.score-a.score;});matches=matches.slice(0,limit);var system=matches.length?matches[0].systemName:'',roll=suggestedRollFor_(query,system),answer=matches.length?'Found '+matches.length+' grounded match'+(matches.length===1?'':'es')+' in the campaign rules library. Verify the cited passage before applying a ruling.':'No indexed passage matched. Upload an indexable text, JSON, or DOCX file, enable the Advanced Drive service for PDF conversion, or add a manual rule note.';audit_(serverId,ctx.user.id,'RULES_ASSISTANT_QUERIED','SERVER',serverId,{query:query,matchCount:matches.length});return {answer:answer,suggestedRoll:roll,sources:matches};}
-
-function routeGetOrganizerSummary_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var now=Date.now(),tasks=filter_('OrganizerTasks',function(t){return t.serverId===serverId&&!t.deletedAt&&t.status!=='DONE'&&t.status!=='CANCELLED';}),pending=filter_('CalendarItems',function(i){return i.serverId===serverId&&!i.deletedAt&&i.approvalStatus==='PENDING';}),next=filter_('CalendarItems',function(i){return i.serverId===serverId&&!i.deletedAt&&i.approvalStatus==='APPROVED'&&i.itemType==='SESSION'&&new Date(i.startAt).getTime()>=now;}).sort(function(a,b){return new Date(a.startAt)-new Date(b.startAt);})[0]||null;return {openTasks:tasks.length,pendingCalendar:pending.length,systemDocuments:filter_('SystemDocuments',function(d){return d.serverId===serverId&&!d.deletedAt&&d.status==='ACTIVE';}).length,nextSession:next?publicCalendarItem_(next,ctx.user.id,canViewPrivateAvailability_(serverId,ctx.user.id)):null};}
-
-
 var ROUTES_ = Object.freeze({
   health:{fn:routeHealth_,auth:false,write:false},
+  aiHealth:{fn:routeAiHealth_,write:false},aiChat:{fn:routeAiChat_,write:false},aiRequest:{fn:routeAiRequest_,write:false},
   previewInvite:{fn:routePreviewInvite_,auth:false,write:false},
   register:{fn:routeRegister_,auth:false,write:true},
   login:{fn:routeLogin_,auth:false,write:true},
@@ -1755,10 +1814,5 @@ var ROUTES_ = Object.freeze({
   joinVoice:{fn:routeJoinVoice_,write:true},updateVoice:{fn:routeUpdateVoice_,write:true},leaveVoice:{fn:routeLeaveVoice_,write:true},listVoiceStates:{fn:routeListVoiceStates_,write:false},
   getActiveCall:{fn:routeGetActiveCall_,write:false},startCall:{fn:routeStartCall_,write:true},acceptCall:{fn:routeAcceptCall_,write:true},joinCall:{fn:routeJoinCall_,write:true},declineCall:{fn:routeDeclineCall_,write:true},leaveCall:{fn:routeLeaveCall_,write:true},
   sendRtcSignal:{fn:routeSendRtcSignal_,write:true},pollRtcSignals:{fn:routePollRtcSignals_,write:false},ackRtcSignals:{fn:routeAckRtcSignals_,write:true},
-  listPersonas:{fn:routeListPersonas_,write:false},createPersona:{fn:routeCreatePersona_,write:true},updatePersona:{fn:routeUpdatePersona_,write:true},deletePersona:{fn:routeDeletePersona_,write:true},rollDice:{fn:routeRollDice_,write:true},listDiceRolls:{fn:routeListDiceRolls_,write:false},
-  listOrganizerTasks:{fn:routeListOrganizerTasks_,write:false},createOrganizerTask:{fn:routeCreateOrganizerTask_,write:true},updateOrganizerTask:{fn:routeUpdateOrganizerTask_,write:true},completeOrganizerTask:{fn:routeCompleteOrganizerTask_,write:true},deleteOrganizerTask:{fn:routeDeleteOrganizerTask_,write:true},
-  listCalendarItems:{fn:routeListCalendarItems_,write:false},submitCalendarItem:{fn:routeSubmitCalendarItem_,write:true},approveCalendarItem:{fn:routeApproveCalendarItem_,write:true},rejectCalendarItem:{fn:routeRejectCalendarItem_,write:true},updateCalendarItem:{fn:routeUpdateCalendarItem_,write:true},deleteCalendarItem:{fn:routeDeleteCalendarItem_,write:true},
-  listSystemDocuments:{fn:routeListSystemDocuments_,write:false},createSystemDocument:{fn:routeCreateSystemDocument_,write:true},reindexSystemDocument:{fn:routeReindexSystemDocument_,write:true},deleteSystemDocument:{fn:routeDeleteSystemDocument_,write:true},
-  listRuleNotes:{fn:routeListRuleNotes_,write:false},createRuleNote:{fn:routeCreateRuleNote_,write:true},deleteRuleNote:{fn:routeDeleteRuleNote_,write:true},askRulesAssistant:{fn:routeAskRulesAssistant_,write:false},getOrganizerSummary:{fn:routeGetOrganizerSummary_,write:false},
-  listAuditLog:{fn:routeListAuditLog_,write:false}
+  listPersonas:{fn:routeListPersonas_,write:false},createPersona:{fn:routeCreatePersona_,write:true},updatePersona:{fn:routeUpdatePersona_,write:true},deletePersona:{fn:routeDeletePersona_,write:true},rollDice:{fn:routeRollDice_,write:true},listDiceRolls:{fn:routeListDiceRolls_,write:false},listAuditLog:{fn:routeListAuditLog_,write:false}
 });
