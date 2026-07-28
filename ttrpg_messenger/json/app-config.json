@@ -1,0 +1,13 @@
+{
+  "appName": "Tablegate",
+  "version": "2.0.0",
+  "backend": {
+    "webApp": "https://script.google.com/macros/s/AKfycbzS0tWjPKzKV6grrQ0Offg8kCYxVUhmji7QMJEDTwTWwL7Rl3cQWhFOANxyfTTbs6PkTQ/exec",
+    "libraryId": "18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr",
+    "libraryVersion": "1"
+  },
+  "entryFile": "messenger.html",
+  "installable": true,
+  "acceptedSystemFiles": ["json", "pdf", "docx", "txt"],
+  "topLevelFolders": ["js", "css", "json", "docs", "backend", "data", "assets"]
+}

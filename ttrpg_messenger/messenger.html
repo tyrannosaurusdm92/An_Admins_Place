@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171a18">
+<meta name="description" content="Invite-only TTRPG messenger with chat, voice, campaign tasks, scheduling, availability, and a rules library.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<title>Tablegate — TTRPG Messenger & Organizer</title>
+<link rel="stylesheet" href="css/messenger.css">
+<link rel="stylesheet" href="css/organizer.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div id="boot"><div class="boot-card"><div class="sigil">⚔</div><h1>Tablegate</h1><div class="loader"></div><p>Opening the campaign table…</p></div></div>
+<div id="auth" class="hidden">
+  <section class="auth-panel">
+    <div class="brand"><div class="brand-mark">🎲</div><div><h1>Tablegate</h1><small>Invite-only TTRPG messenger</small></div></div>
+    <h2 id="auth-title">Return to the table</h2><p id="auth-subtitle">Sign in to your campaign servers, messages, and voice rooms.</p>
+    <div class="auth-tabs"><button id="tab-login" class="active">Sign in</button><button id="tab-register">Create account</button></div>
+    <div id="auth-error" class="error-box hidden"></div><div id="invite-preview" class="info-box hidden"></div>
+    <form id="login-form">
+      <div class="field"><label>Email</label><input id="login-email" type="email" autocomplete="email" required></div>
+      <div class="field"><label>Password</label><input id="login-password" type="password" autocomplete="current-password" required></div>
+      <button class="primary wide" type="submit">Enter Tablegate</button>
+    </form>
+    <form id="register-form" class="hidden">
+      <div class="field"><label>Display name</label><input id="register-name" minlength="2" maxlength="32" autocomplete="nickname" required></div>
+      <div class="field"><label>Email</label><input id="register-email" type="email" autocomplete="email" required></div>
+      <div class="field"><label>Password</label><input id="register-password" type="password" minlength="10" maxlength="128" autocomplete="new-password" required><small>10–128 characters.</small></div>
+      <div class="field"><label>Campaign invite code</label><input id="register-invite" autocomplete="off"><small>Required after the first account unless registration was opened by the backend owner.</small></div>
+      <button class="primary wide" type="submit">Create account</button>
+    </form>
+    <p style="font-size:12px;color:var(--muted);margin-top:22px">Messages and campaign data use the connected Google Apps Script backend. Voice and video travel peer-to-peer through WebRTC.</p>
+  </section>
+  <aside class="auth-art"><div class="art-card"><h2>Your private campaign table, online.</h2><p>Built for invited players and the campaign creator—not a public social network.</p><div class="art-list"><div class="art-item"><b>Campaign channels</b><span>In-character scenes, table talk, handouts, announcements, and dice logs.</span></div><div class="art-item"><b>Live table</b><span>Voice, optional video, screen sharing, push-to-talk, mute, and deafen.</span></div><div class="art-item"><b>Character personas</b><span>Speak as a character while keeping your player account intact.</span></div><div class="art-item"><b>Creator controls</b><span>Invites, roles, channels, moderation, ownership, and audit history.</span></div></div></div></aside>
+</div>
+<div id="app" class="hidden">
+  <nav class="server-rail" id="server-rail" aria-label="Campaign servers"></nav>
+  <aside class="sidebar" id="sidebar"><header class="server-head" id="server-head"></header><div class="channel-scroll" id="channel-scroll"></div><div id="side-bottom"></div></aside>
+  <main class="main"><header class="topbar" id="topbar"></header><section class="message-area" id="message-area"></section><div id="composer-area"></div></main>
+  <aside class="members" id="members"><header class="members-head">Players</header><div class="members-list" id="members-list"></div></aside>
+  <section id="workspace-shell" class="workspace-shell hidden" aria-live="polite"></section>
+</div>
+<div id="modal-root"></div><div id="context-root"></div><div class="toast-stack" id="toasts"></div><div id="remote-media" hidden></div>
+<script src="js/vendor-jszip.min.js"></script>
+<script src="js/messenger-core.js"></script>
+<script src="js/organizer.js"></script>
+<script src="js/pwa.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
