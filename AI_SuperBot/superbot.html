@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11151c">
+  <meta name="description" content="Superbot Intelligence: secure browser agent shell with Apps Script backend, persistent memory, local tools, and offline retrieval.">
+  <title>Superbot Intelligence</title>
+  <link rel="stylesheet" href="bot.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Conversations">
+      <div class="brand-block">
+        <div class="brand-mark">SB</div>
+        <div><span class="eyebrow">SUPERBOT</span><h1>Intelligence</h1></div>
+        <button id="sidebarToggle" class="icon-button" type="button" title="Collapse sidebar">☰</button>
+      </div>
+      <button id="newConversation" class="new-chat" type="button"><span>＋</span> New conversation</button>
+      <label class="search-box"><span>⌕</span><input id="conversationSearch" type="search" placeholder="Search conversations"></label>
+      <div id="conversationList" class="conversation-list"></div>
+      <div class="sidebar-footer">
+        <button id="importButton" type="button">Import</button>
+        <button id="exportButton" type="button">Export</button>
+        <input id="importInput" type="file" accept="application/json,.json" hidden>
+      </div>
+    </aside>
+
+    <main class="chat-column">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">ACTIVE CONVERSATION</span>
+          <h2 id="conversationTitle">New conversation</h2>
+        </div>
+        <div class="topbar-actions">
+          <button id="healthButton" class="ghost-button" type="button">Test backend</button>
+          <span id="backendStatus" class="status-pill checking">Checking backend…</span>
+          <button id="clearConversation" class="icon-button" type="button" title="Clear conversation">⌫</button>
+          <button id="inspectorToggle" class="icon-button" type="button" title="Toggle inspector">◫</button>
+        </div>
+      </header>
+
+      <section id="messageList" class="message-list" aria-live="polite"></section>
+
+      <section class="composer-wrap">
+        <div id="attachmentTray" class="attachment-tray"></div>
+        <div class="composer">
+          <button id="attachButton" class="composer-icon" type="button" title="Attach text or image files">＋</button>
+          <input id="fileInput" type="file" multiple hidden>
+          <textarea id="messageInput" rows="1" placeholder="Message Superbot…  Shift+Enter for a new line"></textarea>
+          <button id="voiceButton" class="composer-icon" type="button" title="Voice input">◉</button>
+          <select id="modeSelect" title="Response mode">
+            <option value="chat">Chat</option>
+            <option value="document">Document</option>
+            <option value="workflow">Workflow</option>
+            <option value="component">Component</option>
+            <option value="schema">Schema</option>
+            <option value="checklist">Checklist</option>
+            <option value="image">Image</option>
+            <option value="3d">3D</option>
+          </select>
+          <button id="sendButton" class="send-button" type="button">Send</button>
+          <button id="stopButton" class="stop-button" type="button" hidden>Stop</button>
+        </div>
+        <div class="composer-note">Cloud quality depends on the model and keys configured in the Apps Script backend. Local fallback is retrieval and utility tooling, not an embedded frontier model.</div>
+      </section>
+    </main>
+
+    <aside class="inspector" aria-label="Superbot controls">
+      <div class="inspector-tabs">
+        <button class="inspector-tab active" data-tab="settings" type="button">Settings</button>
+        <button class="inspector-tab" data-tab="memory" type="button">Memory</button>
+        <button class="inspector-tab" data-tab="skills" type="button">Skills</button>
+        <button class="inspector-tab" data-tab="tools" type="button">Tools</button>
+      </div>
+
+      <section class="inspector-panel active" data-panel="settings">
+        <div class="panel-heading"><div><span class="eyebrow">CONNECTION</span><h3>Backend settings</h3></div></div>
+        <label>Apps Script web app URL<input id="settingBackendUrl" type="url" spellcheck="false"></label>
+        <label>Apps Script library reference<input id="settingLibrary" type="url" spellcheck="false"></label>
+        <label>Registered GitHub repository<input id="settingRepository" placeholder="owner/repository" spellcheck="false"></label>
+        <label>Project token<input id="settingToken" type="password" autocomplete="off" placeholder="Credential returned by registerRepository"></label>
+        <label>Project ID<input id="settingProjectId" spellcheck="false"></label>
+        <label>User ID<input id="settingUserId" spellcheck="false"></label>
+        <label>Additional system instructions<textarea id="settingSystem" rows="5" placeholder="Project-specific behavioral rules"></textarea></label>
+        <label>Project context<textarea id="projectContext" rows="8" placeholder="Paste stable project requirements, architecture, or constraints here."></textarea></label>
+        <label class="check-row"><input id="settingContext" type="checkbox"><span>Include project context in chat</span></label>
+        <label class="check-row"><input id="settingFallback" type="checkbox"><span>Use local retrieval when cloud chat fails</span></label>
+        <label class="check-row"><input id="settingReadAloud" type="checkbox"><span>Read cloud replies aloud</span></label>
+        <div class="button-row"><button id="saveSettings" class="primary-button" type="button">Save</button><button id="testSettings" type="button">Save & test</button></div>
+        <div class="security-note"><b>Security:</b> the project token is stored only in this browser’s local storage. Do not publish a prefilled token in the HTML or commit one to a repository.</div>
+      </section>
+
+      <section class="inspector-panel" data-panel="memory">
+        <div class="panel-heading"><div><span class="eyebrow">LOCAL MEMORY</span><h3>Durable facts</h3></div><span id="memoryCount"></span></div>
+        <label>Memory text<textarea id="memoryText" rows="4" placeholder="A durable preference, project rule, decision, goal, or fact"></textarea></label>
+        <div class="two-column">
+          <label>Kind<select id="memoryKind"><option>fact</option><option>preference</option><option>decision</option><option>project-rule</option><option>goal</option></select></label>
+          <label>Importance<input id="memoryImportance" type="number" min="0" max="1" step="0.05" value="0.7"></label>
+        </div>
+        <button id="saveMemory" class="primary-button wide" type="button">Save local memory</button>
+        <div id="memoryList" class="card-list"></div>
+      </section>
+
+      <section class="inspector-panel" data-panel="skills">
+        <div class="panel-heading"><div><span class="eyebrow">REUSABLE RULES</span><h3>Local skills</h3></div><span id="skillCount"></span></div>
+        <label>Skill name<input id="skillName" placeholder="Example: Preserve existing structure"></label>
+        <label>Instructions<textarea id="skillInstructions" rows="5" placeholder="Detailed instruction automatically included when enabled"></textarea></label>
+        <button id="saveSkill" class="primary-button wide" type="button">Save skill</button>
+        <div id="skillList" class="card-list"></div>
+      </section>
+
+      <section class="inspector-panel" data-panel="tools">
+        <div class="panel-heading"><div><span class="eyebrow">LOCAL + CLOUD</span><h3>Capabilities</h3></div></div>
+        <div class="corpus-stat"><strong id="corpusCount">0</strong><span>searchable skill records</span></div>
+        <ul id="capabilityList" class="capability-list"></ul>
+        <div class="panel-heading compact"><div><span class="eyebrow">QUICK COMMANDS</span><h3>Insert a command</h3></div></div>
+        <div id="quickCommands" class="quick-grid">
+          <button data-command="/help">Help</button>
+          <button data-command="/health">Health</button>
+          <button data-command="/calc ">Calculator</button>
+          <button data-command="/json ">JSON</button>
+          <button data-command="/text ">Text stats</button>
+          <button data-command="/search ">Corpus search</button>
+          <button data-command="/memory ">Memory search</button>
+          <button data-command="/remember ">Remember</button>
+          <button data-command="/document ">Document</button>
+          <button data-command="/workflow ">Workflow</button>
+          <button data-command="/image ">Image</button>
+          <button data-command="/3d ">3D</button>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <div id="toastHost" class="toast-host"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/memory.js"></script>
+  <script src="js/intelligence-corpus-part-1.js"></script>
+  <script src="js/intelligence-corpus-part-2.js"></script>
+  <script src="js/intelligence-corpus-part-3.js"></script>
+  <script src="js/retrieval.js"></script>
+  <script src="js/tools.js"></script>
+  <script src="js/llm-client.js"></script>
+  <script src="js/orchestrator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
