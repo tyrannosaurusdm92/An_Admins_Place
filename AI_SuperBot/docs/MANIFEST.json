@@ -1,0 +1,165 @@
+{
+  "schema": "superbot-package-manifest/v1",
+  "package": "Superbot_Intelligence_LLM_v1.0.0",
+  "generatedAt": "2026-07-28T11:37:19.910793+00:00",
+  "fileCount": 28,
+  "javascriptFileCount": 12,
+  "corpusRecords": 16264,
+  "corpusParts": [
+    {
+      "path": "js/intelligence-corpus-part-1.js",
+      "records": 5506,
+      "bytes": 16380824,
+      "sha256": "e24f5f8d999edc941cae8cae95d7b3a1a628690fecc779022529bf65d384296a"
+    },
+    {
+      "path": "js/intelligence-corpus-part-2.js",
+      "records": 5612,
+      "bytes": 16385165,
+      "sha256": "5f23f09d4a6b106b1b9a0e40fb14a227465cff7ee372291bd0c81b5575eb602c"
+    },
+    {
+      "path": "js/intelligence-corpus-part-3.js",
+      "records": 5146,
+      "bytes": 16391619,
+      "sha256": "3e2297a37aaa4644e61d12ddb21f65f7d856e29dd0df7a2244b3f5a90d3c0966"
+    }
+  ],
+  "files": [
+    {
+      "path": "backend/Code.gs",
+      "bytes": 110661,
+      "sha256": "09b43441d82016fc20b2606ae88e658160d92d5bfde667c3618015b0faec937b"
+    },
+    {
+      "path": "backend/backend-config.json",
+      "bytes": 462,
+      "sha256": "254b98ad3169e69e9ed5aef12038d02fd0c004218712d61c5ada79bcd2da3d0f"
+    },
+    {
+      "path": "bot.css",
+      "bytes": 16161,
+      "sha256": "8f50da0123c682166bd202ca463649e5019d7dc06b0f7ec1f1f365c5674ac6c1"
+    },
+    {
+      "path": "docs/CAPABILITIES.md",
+      "bytes": 1911,
+      "sha256": "7a3f5f299985776317445d72402c411f42512465b6b5d564ad90b2bdaa04fa66"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 2302,
+      "sha256": "875ba9aa69bc85f38c744ccd53cc04f8a1971a252cf795f4677268b4c0b1da7a"
+    },
+    {
+      "path": "docs/FILES.md",
+      "bytes": 1566,
+      "sha256": "fbf50fb70a1f3902081262bc95cfb595e098438ed41b0a6b1ac6be48ace053f8"
+    },
+    {
+      "path": "docs/LICENSE.md",
+      "bytes": 789,
+      "sha256": "ee3cad459a45e04976572bfca59f0889be44b2c9f53099e8ba92ebff91d757f5"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 1362,
+      "sha256": "59f42e4ab5ff2706dc993d92e7731359d24a37da73622d83e5ed64bc592bec90"
+    },
+    {
+      "path": "docs/LOCAL_CORPUS.md",
+      "bytes": 1502,
+      "sha256": "aea59e27a902e4bdcf2fe8f697a3906382e36e1b274f97d2cf469b484d1907ed"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 2766,
+      "sha256": "c8c802eb9f4748fd65dfc4476733f372c288eccc9545a1bc83e0257f1b8ac502"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 1187,
+      "sha256": "1fd88dc7ef78330555fd5b3678efd3f4eb0994dbd9020ed19f551b435b5c83b3"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 1438,
+      "sha256": "3ad12a75685f7d0a06c63a444de142dbdd86c08848f894a0e047468ee5fa4e10"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "bytes": 2180,
+      "sha256": "dbf3af81de29747bcd4403cc2a7b1186b7788673c479fec6dc7ca66566839618"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 18715,
+      "sha256": "fd1da86d2b5b9deee82209bd29285b158006e60503a43f21c8fbb3e0cf63b506"
+    },
+    {
+      "path": "js/config.js",
+      "bytes": 3531,
+      "sha256": "040c8ca362bff8dbf2b2b433f4ad8b59c2a02255dfc977e2e1273331f5b8754c"
+    },
+    {
+      "path": "js/intelligence-corpus-part-1.js",
+      "bytes": 16380824,
+      "sha256": "e24f5f8d999edc941cae8cae95d7b3a1a628690fecc779022529bf65d384296a"
+    },
+    {
+      "path": "js/intelligence-corpus-part-2.js",
+      "bytes": 16385165,
+      "sha256": "5f23f09d4a6b106b1b9a0e40fb14a227465cff7ee372291bd0c81b5575eb602c"
+    },
+    {
+      "path": "js/intelligence-corpus-part-3.js",
+      "bytes": 16391619,
+      "sha256": "3e2297a37aaa4644e61d12ddb21f65f7d856e29dd0df7a2244b3f5a90d3c0966"
+    },
+    {
+      "path": "js/llm-client.js",
+      "bytes": 6222,
+      "sha256": "0f1f6787bccbd299be92e62a4227572cd5f7e3a7d9e05a53b49c0dc77f52dcda"
+    },
+    {
+      "path": "js/memory.js",
+      "bytes": 5293,
+      "sha256": "a87da47a000913d7f1dfd4a9b288e3203f80e178240aa62faedc03dcf6ef2e5f"
+    },
+    {
+      "path": "js/orchestrator.js",
+      "bytes": 10032,
+      "sha256": "5ea110d9501ba891ac7fcb925f775d997409da4203946165f688120a83dafcd5"
+    },
+    {
+      "path": "js/retrieval.js",
+      "bytes": 4519,
+      "sha256": "5ccacdc877e9bdd9b8adb126a850e227dbe4ca2562e07c455dd2869be4f9480c"
+    },
+    {
+      "path": "js/storage.js",
+      "bytes": 8772,
+      "sha256": "8e95e0fcd055ce5b79c50e6ab26e46dc8c42fe64b088ce69a3c9de08bac3c7d3"
+    },
+    {
+      "path": "js/tools.js",
+      "bytes": 7986,
+      "sha256": "2eff96dba8bc43b2deb83f14970a45be8308fe4b1aaa1204316b4e00475755df"
+    },
+    {
+      "path": "js/utils.js",
+      "bytes": 8692,
+      "sha256": "91f7e888e0ad974195075dc8cb5114c97a28d267fac6e10d6e6db8e07ded294b"
+    },
+    {
+      "path": "service-worker.js",
+      "bytes": 1357,
+      "sha256": "19c666e63ca990ed22cdeb5b800a15a0bc61b67df62944bf9b7ac5b6596fd7ec"
+    },
+    {
+      "path": "superbot.html",
+      "bytes": 9464,
+      "sha256": "8d2a17bb8ba61722da326b2b240993825cc2292e67559efd74b7fcd12c603eb3"
+    }
+  ]
+}
