@@ -31,16 +31,22 @@ function statusClass(v){return String(v||'').toLowerCase().replace(/[^a-z0-9]+/g
 function safeJson(v,fallback=[]){if(Array.isArray(v)||typeof v==='object'&&v)return v;try{return JSON.parse(v)}catch{return fallback}}
 
 async function campaignCall(action,payload={},localFallback){
-  try{return await API.call(action,{serverId:State.server.id,...payload})}
-  catch(err){
-    if(['UNKNOWN_ACTION','NOT_CONFIGURED','NETWORK_ERROR','INTERNAL_ERROR'].includes(err.code)){
+  try{
+    const data=await API.call(action,{serverId:State.server.id,...payload});
+    CampaignData.backendExtended=true;
+    return data;
+  }catch(err){
+    // Only a genuinely older backend (one that does not know the organizer route)
+    // may use the browser mirror. Network, setup, permission, and server errors must
+    // stay visible instead of permanently mislabeling a working deployment as local.
+    if(err.code==='UNKNOWN_ACTION'&&localFallback){
       CampaignData.backendExtended=false;
-      if(localFallback)return localFallback();
+      return localFallback();
     }
     throw err;
   }
 }
-function backendNotice(){return CampaignData.backendExtended?'':`<div class="backend-warning"><b>Organizer backend extension is not active yet.</b> This browser is using a local preview. Replace the Apps Script code with <span class="source-code-badge">backend/ttrpgmessenger.gs</span>, run setupTtrpgMessenger(), and redeploy the same web-app deployment to make tasks, calendar approvals, and the rules library shared.</div>`}
+function backendNotice(){return ''}
 
 async function loadCampaignData(force=false){
   if(!State.server)return;

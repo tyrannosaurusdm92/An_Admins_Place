@@ -29,3 +29,8 @@ The Admins Place copy is only a testing/storage copy. It is not canonical and is
 Copy the complete package into any campaign folder while preserving the relative folder structure. The manifest, service worker, CSS, JavaScript, icons, and generated invite links are relative to the folder containing that copy of `messenger.html`. An invite copied from one campaign installation therefore points back to that campaign installation, not to Admins Place.
 
 No Windows batch file, PowerShell launcher, Node server, or secondary HTML page is included or required.
+
+
+## Organizer detection correction (build 2026-07-28.4)
+
+The persistent local-preview warning was removed. The client no longer labels the shared organizer inactive because of a temporary network or internal request error. Only an actual `UNKNOWN_ACTION` response from an older backend may use the browser mirror. Installed copies force a service-worker update and load versioned JavaScript assets.

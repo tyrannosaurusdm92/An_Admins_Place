@@ -30,3 +30,12 @@ Live microphone/camera, Google Drive persistence, PDF conversion, and multi-user
 - Service-worker cache version changed so installed copies refresh the locked endpoint.
 - Older endpoint references inside the preserved previous-build source archive were replaced to prevent accidental reuse.
 - JavaScript syntax, JSON parsing, folder constraints, one-active-HTML constraint, backend route presence, and archive integrity revalidated.
+
+
+## Organizer warning correction
+
+- Persistent `Organizer backend extension is not active yet` banner removed from the active client.
+- Temporary `NETWORK_ERROR`, `INTERNAL_ERROR`, configuration, and permission failures no longer switch the entire organizer into local-preview mode.
+- Browser mirror fallback is limited to `UNKNOWN_ACTION`, which indicates a genuinely older backend route table.
+- Asset URLs are versioned as `20260728.4`.
+- Service-worker cache is `tablegate-v2-2026-07-28-organizer-detection-fix-v4`.

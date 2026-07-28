@@ -1,6 +1,6 @@
 {
   "appName": "Tablegate",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "backend": {
     "webApp": "https://script.google.com/macros/s/AKfycbxxcMVPpAaa8bbVguBVwdRu7B1QkvGxgf5Gq2D-lLQUFoaAsBM3hhS6IDBsK9bdDbmdlA/exec",
     "libraryId": "18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr",
@@ -30,5 +30,10 @@
     "fixedCanonicalUrl": null,
     "inviteLinks": "generated from the currently opened messenger.html URL",
     "testStorageLocationIsNotCanonical": true
+  },
+  "organizerBackendDetection": {
+    "persistentWarningRemoved": true,
+    "fallbackOnlyOn": "UNKNOWN_ACTION",
+    "assetBuild": "20260728.4"
   }
 }

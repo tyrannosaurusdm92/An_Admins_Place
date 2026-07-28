@@ -48,8 +48,8 @@
  */
 
 var TTRPG = Object.freeze({
-  API_VERSION: '2.0.0',
-  SCHEMA_VERSION: '2026-07-28.3',
+  API_VERSION: '2.0.1',
+  SCHEMA_VERSION: '2026-07-28.4',
   DB_PROPERTY: 'TTRPG_DB_ID',
   UPLOAD_FOLDER_PROPERTY: 'TTRPG_UPLOAD_FOLDER_ID',
   PEPPER_PROPERTY: 'TTRPG_PASSWORD_PEPPER',
@@ -658,8 +658,10 @@ function routeHealth_() {
     features: [
       'invite-only servers','roles and permissions','text chat','direct messages','group DMs',
       'attachments','reactions','pins','presence','voice state','WebRTC signaling','screen sharing',
-      'push-to-talk','whispers','friends and blocks','personas','dice rolls','audit log','polling events'
-    ]
+      'push-to-talk','whispers','friends and blocks','personas','dice rolls','audit log','polling events',
+      'shared organizer','campaign tasks','calendar approvals','availability planning','TTRPG system library','rules assistant'
+    ],
+    organizerExtension: {active: true, version: '1.1.0', shared: true}
   };
 }
 
@@ -1662,7 +1664,7 @@ function routeListDiceRolls_(ctx){var channel=requireChannel_(ctx.params.channel
 function audit_(serverId,actorId,action,targetType,targetId,details){return insert_('AuditLog',{id:id_('aud'),serverId:serverId,actorId:actorId,action:action,targetType:targetType,targetId:targetId,detailsJson:JSON.stringify(details||{}),createdAt:nowIso_()});}
 function routeListAuditLog_(ctx){var serverId=String(ctx.params.serverId||'');requirePermission_(serverId,ctx.user.id,PERMISSIONS.VIEW_AUDIT_LOG);var limit=int_(ctx.params.limit,100,1,200),before=String(ctx.params.before||'');var list=filter_('AuditLog',function(a){return a.serverId===serverId;}).sort(function(a,b){return new Date(b.createdAt)-new Date(a.createdAt);});if(before){var t=new Date(before).getTime();if(isFinite(t))list=list.filter(function(a){return new Date(a.createdAt).getTime()<t;});}return list.slice(0,limit).map(function(a){return {id:a.id,serverId:a.serverId,actorId:a.actorId,action:a.action,targetType:a.targetType,targetId:a.targetId,details:parseJsonCell_(a.detailsJson,{}),createdAt:a.createdAt};});}
 
-function routeGetClientConfig_(ctx){var props=PropertiesService.getScriptProperties();return {apiVersion:TTRPG.API_VERSION,schemaVersion:props.getProperty('TTRPG_SCHEMA_VERSION')||TTRPG.SCHEMA_VERSION,maxUploadBytes:int_(props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),TTRPG.DEFAULT_MAX_UPLOAD_BYTES),sessionDays:int_(props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),TTRPG.DEFAULT_SESSION_DAYS),registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY)||'INVITE_OR_FIRST_USER',iceServers:getIceServers_(),polling:{eventsMs:1500,presenceHeartbeatMs:45000,typingRefreshMs:6000,rtcSignalsMs:800}};}
+function routeGetClientConfig_(ctx){var props=PropertiesService.getScriptProperties();return {apiVersion:TTRPG.API_VERSION,schemaVersion:props.getProperty('TTRPG_SCHEMA_VERSION')||TTRPG.SCHEMA_VERSION,maxUploadBytes:int_(props.getProperty(TTRPG.MAX_UPLOAD_PROPERTY),TTRPG.DEFAULT_MAX_UPLOAD_BYTES),sessionDays:int_(props.getProperty(TTRPG.SESSION_DAYS_PROPERTY),TTRPG.DEFAULT_SESSION_DAYS),registrationMode:props.getProperty(TTRPG.REGISTRATION_MODE_PROPERTY)||'INVITE_OR_FIRST_USER',features:{organizerExtension:true,organizerVersion:'1.1.0',sharedOrganizer:true},iceServers:getIceServers_(),polling:{eventsMs:1500,presenceHeartbeatMs:45000,typingRefreshMs:6000,rtcSignalsMs:800}};}
 
 function configureTtrpgMessenger(options){
   options=options||{};var props=PropertiesService.getScriptProperties();
@@ -1734,6 +1736,8 @@ function routeAskRulesAssistant_(ctx){var serverId=String(ctx.params.serverId||'
 
 function routeGetOrganizerSummary_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);var now=Date.now(),tasks=filter_('OrganizerTasks',function(t){return t.serverId===serverId&&!t.deletedAt&&t.status!=='DONE'&&t.status!=='CANCELLED';}),pending=filter_('CalendarItems',function(i){return i.serverId===serverId&&!i.deletedAt&&i.approvalStatus==='PENDING';}),next=filter_('CalendarItems',function(i){return i.serverId===serverId&&!i.deletedAt&&i.approvalStatus==='APPROVED'&&i.itemType==='SESSION'&&new Date(i.startAt).getTime()>=now;}).sort(function(a,b){return new Date(a.startAt)-new Date(b.startAt);})[0]||null;return {openTasks:tasks.length,pendingCalendar:pending.length,systemDocuments:filter_('SystemDocuments',function(d){return d.serverId===serverId&&!d.deletedAt&&d.status==='ACTIVE';}).length,nextSession:next?publicCalendarItem_(next,ctx.user.id,canViewPrivateAvailability_(serverId,ctx.user.id)):null};}
 
+function routeOrganizerHealth_(ctx){var serverId=String(ctx.params.serverId||'');requireMember_(serverId,ctx.user.id);return {active:true,shared:true,version:'1.1.0',apiVersion:TTRPG.API_VERSION,schemaVersion:PropertiesService.getScriptProperties().getProperty('TTRPG_SCHEMA_VERSION')||TTRPG.SCHEMA_VERSION,tables:{tasks:true,calendar:true,systemDocuments:true,ruleNotes:true}};}
+
 
 var ROUTES_ = Object.freeze({
   health:{fn:routeHealth_,auth:false,write:false},
@@ -1759,6 +1763,6 @@ var ROUTES_ = Object.freeze({
   listOrganizerTasks:{fn:routeListOrganizerTasks_,write:false},createOrganizerTask:{fn:routeCreateOrganizerTask_,write:true},updateOrganizerTask:{fn:routeUpdateOrganizerTask_,write:true},completeOrganizerTask:{fn:routeCompleteOrganizerTask_,write:true},deleteOrganizerTask:{fn:routeDeleteOrganizerTask_,write:true},
   listCalendarItems:{fn:routeListCalendarItems_,write:false},submitCalendarItem:{fn:routeSubmitCalendarItem_,write:true},approveCalendarItem:{fn:routeApproveCalendarItem_,write:true},rejectCalendarItem:{fn:routeRejectCalendarItem_,write:true},updateCalendarItem:{fn:routeUpdateCalendarItem_,write:true},deleteCalendarItem:{fn:routeDeleteCalendarItem_,write:true},
   listSystemDocuments:{fn:routeListSystemDocuments_,write:false},createSystemDocument:{fn:routeCreateSystemDocument_,write:true},reindexSystemDocument:{fn:routeReindexSystemDocument_,write:true},deleteSystemDocument:{fn:routeDeleteSystemDocument_,write:true},
-  listRuleNotes:{fn:routeListRuleNotes_,write:false},createRuleNote:{fn:routeCreateRuleNote_,write:true},deleteRuleNote:{fn:routeDeleteRuleNote_,write:true},askRulesAssistant:{fn:routeAskRulesAssistant_,write:false},getOrganizerSummary:{fn:routeGetOrganizerSummary_,write:false},
+  listRuleNotes:{fn:routeListRuleNotes_,write:false},createRuleNote:{fn:routeCreateRuleNote_,write:true},deleteRuleNote:{fn:routeDeleteRuleNote_,write:true},askRulesAssistant:{fn:routeAskRulesAssistant_,write:false},getOrganizerSummary:{fn:routeGetOrganizerSummary_,write:false},organizerHealth:{fn:routeOrganizerHealth_,write:false},
   listAuditLog:{fn:routeListAuditLog_,write:false}
 });
