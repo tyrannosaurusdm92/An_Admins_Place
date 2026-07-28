@@ -1,8 +1,9 @@
 'use strict';
 const CONFIG=Object.freeze({
-  backendUrl:'https://script.google.com/macros/s/AKfycbzS0tWjPKzKV6grrQ0Offg8kCYxVUhmji7QMJEDTwTWwL7Rl3cQWhFOANxyfTTbs6PkTQ/exec',
-  libraryUrl:'https://script.google.com/macros/library/d/18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr/1',
-  libraryId:'18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr',libraryVersion:'1',
+  backendUrl:'https://script.google.com/macros/s/AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ/exec',
+  libraryUrl:'https://script.google.com/macros/library/d/18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr/2',
+  libraryId:'18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr',libraryVersion:'2',
+  publicUrl:'https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html',
   storagePrefix:'tablegate.v2',defaultPollMs:1500,defaultRtcPollMs:800
 });
 const PERM={ADMIN:1,MANAGE_SERVER:2,MANAGE_CHANNELS:4,MANAGE_MESSAGES:8,KICK_MEMBERS:16,BAN_MEMBERS:32,SEND_MESSAGES:64,READ_MESSAGES:128,CONNECT_VOICE:256,SPEAK:512,CREATE_INVITE:1024,MANAGE_ROLES:2048,ATTACH_FILES:4096,MENTION_EVERYONE:8192,MANAGE_NICKNAMES:16384,VIEW_AUDIT_LOG:32768,STREAM:65536,USE_PERSONAS:131072,ROLL_DICE:262144,MANAGE_HANDOUTS:524288,MANAGE_ORGANIZER:1048576,APPROVE_CALENDAR:2097152,UPLOAD_SYSTEM_FILES:4194304,MANAGE_SYSTEM_LIBRARY:8388608,VIEW_PRIVATE_AVAILABILITY:16777216,USE_RULES_ASSISTANT:33554432};

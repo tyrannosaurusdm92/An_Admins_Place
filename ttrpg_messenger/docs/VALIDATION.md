@@ -19,3 +19,11 @@ The packaged build was checked for:
 - Source archive preservation and third-party notice inclusion
 
 Live microphone/camera, Google Drive persistence, PDF conversion, and multi-user WebRTC testing require HTTPS plus the included Apps Script backend deployed as a new version. A TURN service may still be required for peers behind strict NAT or firewalls.
+
+## Backend endpoint revision — 2026-07-28
+
+- Active frontend web-app URL updated to `AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ`.
+- Apps Script library version updated from 1 to 2.
+- GitHub Pages canonical installation recorded as `https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html`.
+- Service-worker cache version changed so existing installed copies refresh `js/messenger-core.js`.
+- JavaScript syntax, JSON parsing, folder constraints, one-HTML constraint, backend route presence, and archive integrity revalidated.

@@ -15,6 +15,6 @@ Tablegate combines an invite-only campaign messenger with a shared organizer:
 
 ## Important deployment note
 
-The included frontend still points to the supplied Apps Script deployment URL. The new organizer and rules actions require the included `backend/ttrpgmessenger.gs` to be deployed as a new version of that same web-app deployment. Until then, the organizer opens in a clearly marked local-preview mode.
+The frontend is configured for the current Apps Script web app and library version 2. The public installation is `https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html`. Upload the revised package contents to that same GitHub Pages folder so the new JavaScript and service-worker cache replace the base messenger files. The organizer and rules actions require the included `backend/ttrpgmessenger.gs` to be present in the configured Apps Script project.
 
 No Windows batch file, PowerShell launcher, Node server, or secondary HTML page is included or required.

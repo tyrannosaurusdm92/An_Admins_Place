@@ -1,13 +1,27 @@
 {
   "appName": "Tablegate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "backend": {
-    "webApp": "https://script.google.com/macros/s/AKfycbzS0tWjPKzKV6grrQ0Offg8kCYxVUhmji7QMJEDTwTWwL7Rl3cQWhFOANxyfTTbs6PkTQ/exec",
+    "webApp": "https://script.google.com/macros/s/AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ/exec",
     "libraryId": "18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr",
-    "libraryVersion": "1"
+    "libraryVersion": "2"
   },
   "entryFile": "messenger.html",
   "installable": true,
-  "acceptedSystemFiles": ["json", "pdf", "docx", "txt"],
-  "topLevelFolders": ["js", "css", "json", "docs", "backend", "data", "assets"]
+  "acceptedSystemFiles": [
+    "json",
+    "pdf",
+    "docx",
+    "txt"
+  ],
+  "topLevelFolders": [
+    "js",
+    "css",
+    "json",
+    "docs",
+    "backend",
+    "data",
+    "assets"
+  ],
+  "publicUrl": "https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html"
 }

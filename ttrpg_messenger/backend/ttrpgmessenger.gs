@@ -1,6 +1,8 @@
 /**
  * TTRPG Messenger Backend — Google Apps Script (single-file deployment)
  * File name: ttrpgmessenger.gs
+ * Configured web app: https://script.google.com/macros/s/AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ/exec
+ * Apps Script library: 18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr (version 2)
  *
  * MERGED FEATURE SET
  * - Invite-only campaign servers with creator, moderator, and player roles
