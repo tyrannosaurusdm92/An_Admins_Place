@@ -20,10 +20,13 @@ The packaged build was checked for:
 
 Live microphone/camera, Google Drive persistence, PDF conversion, and multi-user WebRTC testing require HTTPS plus the included Apps Script backend deployed as a new version. A TURN service may still be required for peers behind strict NAT or firewalls.
 
-## Backend endpoint revision — 2026-07-28
+## Locked portable deployment revision — 2026-07-28
 
-- Active frontend web-app URL updated to `AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ`.
-- Apps Script library version updated from 1 to 2.
-- GitHub Pages canonical installation recorded as `https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html`.
-- Service-worker cache version changed so existing installed copies refresh `js/messenger-core.js`.
-- JavaScript syntax, JSON parsing, folder constraints, one-HTML constraint, backend route presence, and archive integrity revalidated.
+- Active frontend web-app URL locked to `https://script.google.com/macros/s/AKfycbxxcMVPpAaa8bbVguBVwdRu7B1QkvGxgf5Gq2D-lLQUFoaAsBM3hhS6IDBsK9bdDbmdlA/exec`.
+- Apps Script library locked to version `3`.
+- Fixed Admins Place canonical/public URL removed from HTML, JavaScript, JSON, and documentation.
+- Hosting mode changed to portable current-folder operation.
+- Invite links continue to derive from the currently opened `messenger.html` address.
+- Service-worker cache version changed so installed copies refresh the locked endpoint.
+- Older endpoint references inside the preserved previous-build source archive were replaced to prevent accidental reuse.
+- JavaScript syntax, JSON parsing, folder constraints, one-active-HTML constraint, backend route presence, and archive integrity revalidated.

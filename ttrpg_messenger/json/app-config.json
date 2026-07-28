@@ -1,10 +1,12 @@
 {
   "appName": "Tablegate",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "backend": {
-    "webApp": "https://script.google.com/macros/s/AKfycbyKVcu3ZpCFz-VWNGq0PZaaVjzbsUj16R2i433c3YsvVxQVnfAgdzvPwEwsV1qeGhL8GQ/exec",
+    "webApp": "https://script.google.com/macros/s/AKfycbxxcMVPpAaa8bbVguBVwdRu7B1QkvGxgf5Gq2D-lLQUFoaAsBM3hhS6IDBsK9bdDbmdlA/exec",
     "libraryId": "18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr",
-    "libraryVersion": "2"
+    "libraryVersion": "3",
+    "libraryUrl": "https://script.google.com/macros/library/d/18ET55A9uVNx3IUzoAM_eRj8v7jqagPgjVdxil3P1SoUqrFnnAJp6CjVr/3",
+    "locked": true
   },
   "entryFile": "messenger.html",
   "installable": true,
@@ -23,5 +25,10 @@
     "data",
     "assets"
   ],
-  "publicUrl": "https://tyrannosaurusdm92.github.io/An_Admins_Place/ttrpg_messenger/messenger.html"
+  "hosting": {
+    "mode": "portable-current-folder",
+    "fixedCanonicalUrl": null,
+    "inviteLinks": "generated from the currently opened messenger.html URL",
+    "testStorageLocationIsNotCanonical": true
+  }
 }
