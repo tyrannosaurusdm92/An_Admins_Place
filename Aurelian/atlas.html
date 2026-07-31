@@ -251,6 +251,25 @@ body{background-attachment:fixed;text-align:center;}
 }
 
 </style>
+
+<style id="atlasResponsiveEffectParity">
+/* Keep the full desktop steampunk / Matrix treatment active at every orientation. */
+html,body{min-width:0;max-width:100%;overflow-x:clip}.shell,.rivet-frame,.panel,.portal,.logo-stage{min-width:0;max-width:100%}
+.logo-frame{max-width:100%;max-height:100%}canvas#matrix-rain,.matrix-fade,.pipe,.gear,.corruption-flash{display:block!important}
+@media (prefers-reduced-motion:no-preference){canvas#matrix-rain{display:block!important}.gear,.pipe,.top-console h1,.alert-line,.portal-sigil::before,.portal-sigil::after{animation-play-state:running!important}}
+@media (orientation:landscape) and (min-width:640px) and (max-width:1366px){
+ .shell{width:min(1280px,calc(100% - 30px));padding:16px 0 36px}.logo-stage{height:min(72dvh,520px);min-height:285px}.top-console{padding:clamp(20px,3vw,42px)}.deck{margin-inline:auto}
+ .status-rail{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-two{grid-template-columns:1.08fr .92fr}.portals{grid-template-columns:repeat(3,minmax(0,1fr))}.portal{min-height:220px}.portal-section,.system-console{padding:clamp(20px,3vw,38px)}
+ .pipe.left{left:7px}.pipe.right{right:7px}.pipe{width:12px;opacity:.42}.gear{opacity:.12}.footer{margin-top:18px}
+}
+@media (orientation:portrait) and (min-width:700px) and (max-width:1100px){
+ .shell{width:calc(100% - 34px)}.logo-stage{height:clamp(440px,58vw,620px)}.status-rail{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-two{grid-template-columns:1fr}.portals{grid-template-columns:repeat(2,minmax(0,1fr))}.portal:last-child{grid-column:1/-1;max-width:52%;width:100%;justify-self:center}.pipe{opacity:.34}.gear{opacity:.11}
+}
+@media (orientation:portrait) and (max-width:699px){
+ body{background-attachment:scroll}.shell{width:calc(100% - 18px);padding:10px 0 28px}.logo-stage{height:clamp(300px,82vw,430px);min-height:0}.top-console,.system-console,.portal-section{padding:18px 14px}.status-rail{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-two,.portals{grid-template-columns:1fr}.portal{min-height:215px}.portal:last-child{grid-column:auto;max-width:none}.pipe{width:8px;opacity:.28}.pipe.left{left:1px}.pipe.right{right:1px}.pipe::before,.pipe::after{transform:scale(.72);transform-origin:center}.gear{opacity:.10;transform:scale(.72)}.gear.g1{left:-72px}.gear.g2{right:-88px}.panel{padding:17px}.mission-list li{grid-template-columns:1fr;text-align:center}.mission-list li::before{margin-inline:auto}.glitch-list li{padding:12px 10px;border-left:0;border-top:2px solid var(--red)}.glitch-list li::before{position:static;display:block;margin-bottom:4px}.portal-head{grid-template-columns:1fr}.section-number{margin-inline:auto}.alert-line{width:auto}.footer{padding-inline:12px}
+}
+@media (orientation:landscape) and (max-height:520px){.logo-stage{height:300px;min-height:260px}.top-console{padding-top:18px;padding-bottom:18px}.section{margin-top:18px}.portal{min-height:190px}.shell{padding-top:8px}}
+</style>
 </head>
 <body>
 <canvas id="matrix-rain" aria-hidden="true"></canvas>
