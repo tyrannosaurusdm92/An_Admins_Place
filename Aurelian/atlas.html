@@ -270,6 +270,19 @@ html,body{min-width:0;max-width:100%;overflow-x:clip}.shell,.rivet-frame,.panel,
 }
 @media (orientation:landscape) and (max-height:520px){.logo-stage{height:300px;min-height:260px}.top-console{padding-top:18px;padding-bottom:18px}.section{margin-top:18px}.portal{min-height:190px}.shell{padding-top:8px}}
 </style>
+
+<style id="forceMobileAtlasGlitch">
+/* The campaign explicitly requires the full corruption effect on mobile/tablet, even when the device reports reduced motion. */
+@media (prefers-reduced-motion:reduce){
+ canvas#matrix-rain{display:block!important;opacity:.46!important}
+ body::after{animation:noiseShift .17s steps(2) infinite!important}
+ .gear{animation:spin 25s linear infinite!important}.gear.g2{animation-direction:reverse!important;animation-duration:34s!important}
+ .system-console::before,.system-console::after{animation:worldScan 5.8s linear infinite!important}
+ .alert-line{animation:alertBreak 3.8s steps(1,end) infinite!important}.alert-line::before{animation:alertSlice1 1.6s steps(2,end) infinite!important}.alert-line::after{animation:alertSlice2 2.3s steps(2,end) infinite!important}
+ .cursor::after{animation:blink .78s steps(1,end) infinite!important}.portal-sigil::before{animation:spin 17s linear infinite!important}.portal-sigil::after{animation:spin 9s linear infinite reverse!important}
+}
+@media(max-width:699px){canvas#matrix-rain{opacity:.52!important}.corruption-flash.fire{animation:flash .28s steps(2)!important}.gear{opacity:.16!important}.pipe{opacity:.38!important}.alert-line{text-shadow:4px 0 var(--red),-4px 0 var(--cyan),0 0 20px var(--green-hot)!important}}
+</style>
 </head>
 <body>
 <canvas id="matrix-rain" aria-hidden="true"></canvas>
@@ -370,9 +383,10 @@ html,body{min-width:0;max-width:100%;overflow-x:clip}.shell,.rivet-frame,.panel,
   const binary = atob(payload.textContent.trim());
   const bytes = new Uint8Array(binary.length);
   for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-  const objectUrl = URL.createObjectURL(new Blob([bytes], { type: "text/html" }));
-  frame.src = objectUrl;
-  frame.addEventListener("load", () => URL.revokeObjectURL(objectUrl), { once: true });
+  let source = new TextDecoder("utf-8").decode(bytes);
+  source = source.replace('const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;', 'const reduced = false;');
+  source = source.replace('</head>', '<style id="forceMobileGlitch">@media (prefers-reduced-motion:reduce){.turn-cw{animation:turnClockwise var(--speed,18s) linear infinite!important}.turn-ccw{animation:turnCounterClockwise var(--speed,20s) linear infinite!important}.sputter-turn{animation:sputterTurn var(--speed,8s) steps(12,end) infinite!important}.cloud-roll-a,.cloud-roll-b,.lightning-strike,.thruster-layer,.engine-core,.thruster-line,.spark-mote,.scanline-field,.scanline-field::before,.scanline-field::after,.signal-tear,.diagnostic-layer span,.world-title,.world-title::before,.world-title::after,.campaign-credit,.system-alert,.system-alert::before,.system-alert::after,.fault-vignette,.title-wrap::before,.title-wrap::after{animation-play-state:running!important}}</style></head>');
+  frame.srcdoc = source;
 })();
 </script>
 <script>
@@ -412,7 +426,7 @@ html,body{min-width:0;max-width:100%;overflow-x:clip}.shell,.rivet-frame,.panel,
 
   resize();
   addEventListener("resize", resize, { passive: true });
-  if (!matchMedia("(prefers-reduced-motion: reduce)").matches) drawMatrix();
+  drawMatrix();
 
   const integrity = document.getElementById("integrityValue");
   const flash = document.getElementById("corruptionFlash");
