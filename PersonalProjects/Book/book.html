@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#21150d">
+  <title>William Saville — Poetry & Short Stories</title>
+  <link rel="stylesheet" href="css/book.css">
+</head>
+<body>
+  <main class="app-shell" id="appShell">
+    <header class="topbar" aria-label="Book controls">
+      <div class="brand-block">
+        <div class="sigil" aria-hidden="true">✦</div>
+        <div>
+          <h1>William Saville</h1>
+          <p>Poetry &amp; Short Stories</p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <label class="search-wrap"><span>Search</span><input id="searchInput" type="search" placeholder="title, date, phrase..." autocomplete="off"></label>
+        <button id="soundBtn" type="button" aria-pressed="true" title="Toggle page-turn sound">Sound: On</button>
+        <div class="zoom-controls" role="group" aria-label="Book zoom">
+          <button id="zoomOutBtn" type="button" aria-label="Zoom out">−</button><span id="zoomLabel">100%</span><button id="zoomInBtn" type="button" aria-label="Zoom in">+</button><button id="zoomFitBtn" type="button">Fit</button>
+        </div>
+        <button id="coverBtn" type="button">Cover</button>
+        <button id="contentsBtn" type="button">Contents</button>
+        <button id="prevBtn" type="button">‹ Prev</button>
+        <button id="nextBtn" type="button">Next ›</button>
+      </div>
+    </header>
+
+    <section class="book-stage" aria-label="Poetry and short stories book viewer">
+      <aside class="side-panel" id="sidePanel" aria-label="Writing index">
+        <h2>Contents</h2>
+        <div class="index-count" id="indexCount"></div>
+        <nav id="miniIndex" aria-label="Poems and short stories"></nav>
+      </aside>
+
+      <section class="book-outer" id="bookOuter">
+        <article class="closed-cover" id="closedCover" aria-label="Closed book cover">
+          <button class="cover-open-hitbox" id="openBookBtn" type="button" aria-label="Open William Saville Poetry and Short Stories">
+            <img src="assets/book-cover.png" alt="William Saville Poetry and Short Stories book cover">
+            <span class="open-hint">Click to open</span>
+          </button>
+        </article>
+
+        <article class="book" id="book" aria-live="polite" aria-label="Open book">
+          <div class="page-stack page-stack-left" aria-hidden="true"></div>
+          <div class="page-stack page-stack-right" aria-hidden="true"></div>
+          <div class="binding-shadow" aria-hidden="true"></div>
+          <section class="page left-page" id="leftPage" data-side="left"></section>
+          <section class="page right-page" id="rightPage" data-side="right"></section>
+          <div class="turn-sheet" id="turnSheet" aria-hidden="true">
+            <div class="sheet-face sheet-front"></div>
+            <div class="sheet-face sheet-back"></div>
+            <div class="fold-ridge ridge-a"></div>
+            <div class="fold-ridge ridge-b"></div>
+            <div class="curl-edge"></div>
+          </div>
+        </article>
+
+        <footer class="page-footer" aria-label="Page status">
+          <button class="round" id="prevBottomBtn" type="button" aria-label="Previous pages">‹</button>
+          <span id="pageStatus">Closed cover</span>
+          <button class="round" id="nextBottomBtn" type="button" aria-label="Next pages">›</button>
+        </footer>
+      </section>
+    </section>
+    <audio id="pageFlipAudio" src="assets/page-flip.wav" preload="auto"></audio>
+  </main>
+
+  <script src="js/library-data.js"></script>
+  <script src="js/book.js"></script>
+</body>
+</html>
