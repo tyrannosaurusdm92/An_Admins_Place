@@ -1,0 +1,5 @@
+# Knowledge Audit
+
+The final corpus preserves and makes retrievable substantial source knowledge across general conversation/planning/reasoning support; memory and project continuity; personas/agents/NPCs; creative writing, publishing, story continuity and conlangs; worldbuilding from individuals through galaxies; game/TTRPG/MMORPG/VTT systems; maps, simulation, schedules and strategy; art/design/studio operations such as brushes, palettes, textures, selections, crops, layers, masks, typography and effects; 3D mesh/scene/parametric modeling and repair; software/web/mobile/PWA/auth/data-schema/debugging/testing knowledge; file classification/deduplication/version consolidation; organization/project management; social/community/safety/accessibility patterns; and the supplied large general healthcare, psychiatry, mental-health, neurodevelopment, trauma, disability, life-event, injury, neurological and oncology knowledge corpora.
+
+Person-specific health facts are not made global by this corpus. General health/support knowledge remains distinct from project-private records.

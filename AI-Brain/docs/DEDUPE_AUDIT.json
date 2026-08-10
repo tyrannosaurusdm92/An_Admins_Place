@@ -1,0 +1,126 @@
+{
+  "exactFilesRemoved": 0,
+  "nearDuplicateJsRemoved": 20,
+  "nearDuplicateJs": [
+    {
+      "base": "studio-tools--app.js",
+      "similarity": 99.94974621840294,
+      "kept": "js/studio-tools--app--variant-b52f31af.js",
+      "removed": "js/studio-tools--app.js"
+    },
+    {
+      "base": "worldbuilding--simulation.js",
+      "similarity": 94.99177051493064,
+      "kept": "js/worldbuilding--simulation--variant-79fda66b.js",
+      "removed": "js/worldbuilding--simulation.js"
+    },
+    {
+      "base": "simulation--config.js",
+      "similarity": 91.33713819812475,
+      "kept": "js/simulation--config--variant-82c0a48b.js",
+      "removed": "js/simulation--config.js"
+    },
+    {
+      "base": "worldbuilding--backend_service.js",
+      "similarity": 99.35620052770449,
+      "kept": "js/worldbuilding--backend_service.js",
+      "removed": "js/worldbuilding--backend_service--variant-675c7d99.js"
+    },
+    {
+      "base": "persona-agents--reactions.js",
+      "similarity": 95.49508346672765,
+      "kept": "js/persona-agents--reactions.js",
+      "removed": "js/persona-agents--reactions--variant-89b539a1.js"
+    },
+    {
+      "base": "worldbuilding--galaxy_simulator.js",
+      "similarity": 98.83644974279416,
+      "kept": "js/worldbuilding--galaxy_simulator.js",
+      "removed": "js/worldbuilding--galaxy_simulator--variant-663ad583.js"
+    },
+    {
+      "base": "art-design--asset-index.js",
+      "similarity": 75.56632401025617,
+      "kept": "js/art-design--asset-index.js",
+      "removed": "js/art-design--asset-index--variant-61efca9a.js"
+    },
+    {
+      "base": "worldbuilding--worldbuilder_lifesimulation_bridge.js",
+      "similarity": 99.00423728813558,
+      "kept": "js/worldbuilding--worldbuilder_lifesimulation_bridge--variant-ec65ae63.js",
+      "removed": "js/worldbuilding--worldbuilder_lifesimulation_bridge.js"
+    },
+    {
+      "base": "worldbuilding--era-engine.js",
+      "similarity": 90.90556337003444,
+      "kept": "js/worldbuilding--era-engine.js",
+      "removed": "js/worldbuilding--era-engine--variant-b904c216.js"
+    },
+    {
+      "base": "worldbuilding--activeworkspace-adapter.js",
+      "similarity": 99.69170614331905,
+      "kept": "js/worldbuilding--activeworkspace-adapter--variant-96a95fb5.js",
+      "removed": "js/worldbuilding--activeworkspace-adapter.js"
+    },
+    {
+      "base": "ttrpg--app.js",
+      "similarity": 92.76658957781191,
+      "kept": "js/ttrpg--app--variant-596000a4.js",
+      "removed": "js/ttrpg--app.js"
+    },
+    {
+      "base": "vtt-maps--workspace_shell.js",
+      "similarity": 99.931748379024,
+      "kept": "js/vtt-maps--workspace_shell.js",
+      "removed": "js/vtt-maps--workspace_shell--variant-2e4221e3.js"
+    },
+    {
+      "base": "art-design--encounter-generator.js",
+      "similarity": 97.57293193019848,
+      "kept": "js/art-design--encounter-generator.js",
+      "removed": "js/art-design--encounter-generator--variant-3503098e.js"
+    },
+    {
+      "base": "worldbuilding--catalogs.js",
+      "similarity": 97.1462125660599,
+      "kept": "js/worldbuilding--catalogs--variant-f6639470.js",
+      "removed": "js/worldbuilding--catalogs.js"
+    },
+    {
+      "base": "art-design--race-creator.js",
+      "similarity": 99.94571609517779,
+      "kept": "js/art-design--race-creator.js",
+      "removed": "js/art-design--race-creator--variant-7f2d8088.js"
+    },
+    {
+      "base": "file-intelligence--world-generator.js",
+      "similarity": 99.94237639737237,
+      "kept": "js/file-intelligence--world-generator.js",
+      "removed": "js/file-intelligence--world-generator--variant-22fefdcc.js"
+    },
+    {
+      "base": "worldbuilding--upload_router.js",
+      "similarity": 98.4561480345998,
+      "kept": "js/worldbuilding--upload_router--variant-f759002d.js",
+      "removed": "js/worldbuilding--upload_router.js"
+    },
+    {
+      "base": "persona-agents--reactions_bootstrap.js",
+      "similarity": 99.99633333333333,
+      "kept": "js/persona-agents--reactions_bootstrap.js",
+      "removed": "js/persona-agents--reactions_bootstrap--variant-9cbea14e.js"
+    },
+    {
+      "base": "worldbuilding--superbot_brain.js",
+      "similarity": 99.84288600053051,
+      "kept": "js/worldbuilding--superbot_brain.js",
+      "removed": "js/worldbuilding--superbot_brain--variant-a514ad36.js"
+    },
+    {
+      "base": "worldbuilding--forge_runtime.js",
+      "similarity": 97.06666666666666,
+      "kept": "js/worldbuilding--forge_runtime--variant-f573d00e.js",
+      "removed": "js/worldbuilding--forge_runtime.js"
+    }
+  ]
+}

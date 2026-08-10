@@ -1,0 +1,66 @@
+# Manifest
+
+## Root
+- `index.html` — exact user-supplied public index.
+- `js/` — reusable intelligence, routing, selection, validation, project/file/studio/3D helpers.
+- `json/` — primary structured knowledge library in shallow domain folders.
+- `docs/` — READMEs, manifests, licenses and audits only.
+- `assets/` — studio and 3D user-facing HTML/CSS/JS/WASM resources; visual/audio/model files are excluded.
+
+## JSON domain inventory
+- `3d-modeling/` — 4 files
+- `accessibility/` — 2 files
+- `adhd/` — 29 files
+- `art-design/` — 71 files
+- `auth-security/` — 38 files
+- `autism/` — 4 files
+- `books-publishing/` — 5 files
+- `cancer-oncology/` — 1,726 files
+- `cbt/` — 2 files
+- `clinical-scenarios/` — 908 files
+- `code/` — 62 files
+- `core/` — 321 files
+- `creation/` — 1 files
+- `creative-writing/` — 1 files
+- `cross-cutting-support/` — 580 files
+- `data-schemas/` — 1 files
+- `dbt/` — 791 files
+- `disability-access-caregiving/` — 398 files
+- `education/` — 1 files
+- `evidence-library/` — 93 files
+- `file-intelligence/` — 66 files
+- `game-design/` — 12 files
+- `housing-economic-work-education/` — 428 files
+- `identity-discrimination/` — 300 files
+- `injury-medical-trauma/` — 576 files
+- `language/` — 1 files
+- `legal-system-involvement/` — 259 files
+- `media/` — 5 files
+- `mental-health/` — 3 files
+- `migration-disaster-war/` — 320 files
+- `mmorpg/` — 1 files
+- `mobile-apps/` — 1 files
+- `neurodevelopment/` — 409 files
+- `neurological-cognitive/` — 509 files
+- `organization/` — 11 files
+- `persona-agents/` — 19 files
+- `psychiatry/` — 584 files
+- `reference/` — 2 files
+- `reference-patterns/` — 22 files
+- `relationships-family-attachment/` — 327 files
+- `routing/` — 2 files
+- `safety-moderation/` — 2 files
+- `science/` — 1 files
+- `simulation/` — 18 files
+- `social-community/` — 1 files
+- `software/` — 4 files
+- `story-intelligence/` — 24 files
+- `strategy/` — 1 files
+- `studio-tools/` — 156 files
+- `trauma/` — 1 files
+- `ttrpg/` — 584 files
+- `violence-abuse-victimization/` — 467 files
+- `voice-audio/` — 366 files
+- `vtt-maps/` — 19 files
+- `web-apps/` — 1 files
+- `worldbuilding/` — 124 files
