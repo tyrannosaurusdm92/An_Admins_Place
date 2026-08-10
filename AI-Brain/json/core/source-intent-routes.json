@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "routing_rule": "Select every materially relevant capability; do not force a single intent.",
+  "examples": [
+    {
+      "request": "I want to create a book cover for my book",
+      "capabilities": [
+        "art",
+        "writing",
+        "organization",
+        "research"
+      ],
+      "tags": [
+        "book",
+        "cover",
+        "art",
+        "image",
+        "typography",
+        "layout"
+      ]
+    },
+    {
+      "request": "I want to create a TTRPG system with rules, sheets, maps and templates",
+      "capabilities": [
+        "ttrpg",
+        "organization",
+        "strategy",
+        "art",
+        "writing",
+        "world_model"
+      ],
+      "tags": [
+        "ttrpg",
+        "rules",
+        "maps",
+        "art",
+        "strategy",
+        "worldbuilding",
+        "character",
+        "templates",
+        "balance"
+      ]
+    },
+    {
+      "request": "I want to create a social media site for me and my friends",
+      "capabilities": [
+        "code",
+        "organization",
+        "art",
+        "social",
+        "safety",
+        "strategy"
+      ],
+      "tags": [
+        "code",
+        "authorization",
+        "authentication",
+        "messaging",
+        "privacy",
+        "moderation",
+        "storage",
+        "accessibility",
+        "organize"
+      ]
+    },
+    {
+      "request": "Help me write and maintain a huge fantasy galaxy",
+      "capabilities": [
+        "writing",
+        "world_model",
+        "memory",
+        "organization",
+        "research"
+      ],
+      "tags": [
+        "galaxy",
+        "worldbuilding",
+        "character",
+        "npc",
+        "continuity",
+        "timeline",
+        "lore"
+      ]
+    },
+    {
+      "request": "Help me repair and maintain a video game",
+      "capabilities": [
+        "games",
+        "code",
+        "strategy",
+        "organization",
+        "memory"
+      ],
+      "tags": [
+        "game",
+        "code",
+        "debugging",
+        "testing",
+        "npc",
+        "systems_design",
+        "qa"
+      ]
+    },
+    {
+      "request": "Help me with DBT skills and track what is helping",
+      "capabilities": [
+        "mental_health",
+        "memory",
+        "safety",
+        "organization"
+      ],
+      "tags": [
+        "dbt",
+        "therapy",
+        "skills",
+        "tracking",
+        "mental_health"
+      ]
+    },
+    {
+      "request": "Sort a huge pile of files and categorize them",
+      "capabilities": [
+        "organization",
+        "code",
+        "strategy"
+      ],
+      "tags": [
+        "files",
+        "taxonomy",
+        "deduplication",
+        "metadata",
+        "folders",
+        "organize"
+      ]
+    },
+    {
+      "request": "Make a 3D visual concept",
+      "capabilities": [
+        "art",
+        "strategy"
+      ],
+      "tags": [
+        "3d",
+        "image",
+        "rendering",
+        "visual_prompting"
+      ]
+    },
+    {
+      "request": "Build playlists and folders around a mood or project",
+      "capabilities": [
+        "media",
+        "organization",
+        "memory"
+      ],
+      "tags": [
+        "playlist",
+        "music",
+        "folders",
+        "metadata"
+      ]
+    }
+  ],
+  "keyword_expansions": {
+    "book": [
+      "writing",
+      "art",
+      "organization",
+      "memory",
+      "research"
+    ],
+    "cover": [
+      "art",
+      "writing",
+      "image",
+      "typography",
+      "layout"
+    ],
+    "ttrpg": [
+      "ttrpg",
+      "writing",
+      "art",
+      "organization",
+      "strategy",
+      "world_model",
+      "memory"
+    ],
+    "dnd": [
+      "ttrpg",
+      "rules",
+      "character",
+      "maps",
+      "balance",
+      "world_model"
+    ],
+    "social media": [
+      "social",
+      "code",
+      "authorization",
+      "safety",
+      "messaging",
+      "privacy",
+      "moderation",
+      "organization",
+      "art"
+    ],
+    "game": [
+      "games",
+      "code",
+      "art",
+      "writing",
+      "world_model",
+      "strategy",
+      "memory"
+    ],
+    "therapy": [
+      "mental_health",
+      "safety",
+      "memory",
+      "conversation"
+    ],
+    "psychiatry": [
+      "mental_health",
+      "physical_health",
+      "safety",
+      "research"
+    ],
+    "files": [
+      "organization",
+      "deduplication",
+      "taxonomy",
+      "metadata"
+    ],
+    "image": [
+      "art",
+      "image_generation",
+      "visual_prompting"
+    ],
+    "3d": [
+      "art",
+      "3d",
+      "rendering"
+    ],
+    "playlist": [
+      "media",
+      "organization",
+      "memory"
+    ],
+    "character": [
+      "world_model",
+      "writing",
+      "memory",
+      "organization"
+    ],
+    "npc": [
+      "world_model",
+      "games",
+      "ttrpg",
+      "memory"
+    ],
+    "galaxy": [
+      "world_model",
+      "writing",
+      "organization",
+      "memory",
+      "research"
+    ]
+  }
+}
