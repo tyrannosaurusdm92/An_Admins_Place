@@ -1,0 +1,146 @@
+/* Native painterly settlement and interior authoring; no programmed 3D settlement meshes. */
+#painterly-native{
+  color-scheme:dark;
+  --bg:#111714;
+  --panel:#1a221e;
+  --panel-2:#202b26;
+  --panel-3:#26342e;
+  --ink:#f1eee5;
+  --muted:#aeb9b1;
+  --faint:#748078;
+  --line:rgba(235,241,235,.13);
+  --line-strong:rgba(235,241,235,.24);
+  --accent:#d69a63;
+  --accent-2:#8bb39b;
+  --danger:#d8746e;
+  --ok:#86c995;
+  --shadow:0 18px 60px rgba(0,0,0,.32);
+  --radius:15px;
+  --top:78px;
+  --left:330px;
+  --right:320px;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+#painterly-native *{box-sizing:border-box}
+#painterly-native, #painterly-native{width:100%;height:100%;margin:0;overflow:hidden;background:var(--bg);color:var(--ink)}
+#painterly-native button, #painterly-native input, #painterly-native select, #painterly-native textarea{font:inherit;color:inherit}
+#painterly-native button{cursor:pointer}
+#painterly-native button:focus-visible, #painterly-native input:focus-visible, #painterly-native select:focus-visible, #painterly-native textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#painterly-native button:disabled{opacity:.45;cursor:not-allowed}
+#painterly-native input[type="range"]{accent-color:var(--accent)}
+#painterly-native select, #painterly-native .text-input, #painterly-native textarea{width:100%;border:1px solid var(--line);border-radius:9px;background:#101713;padding:9px 10px;color:var(--ink)}
+#painterly-native textarea{resize:vertical;min-height:68px}
+#painterly-native select{appearance:auto}
+#painterly-native .app-shell{position:fixed;inset:0;background:var(--bg)}
+#painterly-native .topbar{position:fixed;z-index:40;left:0;right:0;top:0;height:var(--top);display:flex;align-items:center;gap:18px;padding:10px 16px;border-bottom:1px solid var(--line);background:linear-gradient(100deg,#18221d,#131a17 62%,#17211d);box-shadow:0 7px 22px rgba(0,0,0,.24)}
+#painterly-native .brand{display:flex;align-items:center;gap:12px;min-width:380px}
+#painterly-native .brand-mark{width:46px;height:46px;border:1px solid rgba(224,205,174,.45);border-radius:13px;display:grid;place-items:center;background:radial-gradient(circle at 35% 28%,rgba(255,255,255,.15),transparent 40%),linear-gradient(145deg,#5a725f,#25372e);box-shadow:inset 0 0 0 3px rgba(0,0,0,.18)}
+#painterly-native .brand-mark span{font:700 13px/1 Georgia,serif;letter-spacing:.12em;color:#f0d6b8}
+#painterly-native .brand h1{font:600 18px/1.1 Georgia,serif;margin:0 0 4px;letter-spacing:.015em}
+#painterly-native .brand p{margin:0;color:var(--muted);font-size:11px;letter-spacing:.03em}
+#painterly-native .scope-badge{display:flex;flex-direction:column;gap:2px;padding:7px 11px;border:1px solid rgba(139,179,155,.28);border-radius:10px;background:rgba(139,179,155,.08)}
+#painterly-native .scope-badge strong{text-transform:uppercase;letter-spacing:.12em;font-size:9px;color:#b6d5c1}
+#painterly-native .scope-badge span{font-size:10px;color:var(--muted)}
+#painterly-native .top-actions{margin-left:auto;display:flex;align-items:center;gap:7px}
+#painterly-native .quiet-btn, #painterly-native .primary-btn, #painterly-native .wide-btn, #painterly-native .generate-btn, #painterly-native .danger-btn, #painterly-native .mini-btn, #painterly-native .icon-btn, #painterly-native .hud-btn, #painterly-native .tool-btn, #painterly-native .segmented-btn{border:1px solid var(--line);background:rgba(255,255,255,.045);border-radius:9px;transition:.18s ease}
+#painterly-native .quiet-btn:hover, #painterly-native .wide-btn:hover, #painterly-native .icon-btn:hover, #painterly-native .hud-btn:hover, #painterly-native .tool-btn:hover, #painterly-native .segmented-btn:hover, #painterly-native .mini-btn:hover{background:rgba(255,255,255,.1);border-color:var(--line-strong)}
+#painterly-native .quiet-btn{padding:8px 11px;font-size:11px}
+#painterly-native .primary-btn{padding:9px 13px;background:linear-gradient(140deg,#b56f45,#8d5637);border-color:#c58156;color:#fff3e8;font-weight:700}
+#painterly-native .primary-btn:hover{filter:brightness(1.1)}
+#painterly-native .menu-wrap{position:relative}
+#painterly-native .popover-menu{position:absolute;right:0;top:calc(100% + 7px);min-width:230px;padding:6px;border:1px solid var(--line);border-radius:10px;background:#111914;box-shadow:var(--shadow)}
+#painterly-native .popover-menu button{display:block;width:100%;border:0;border-radius:7px;background:transparent;color:var(--ink);padding:10px;text-align:left;font-size:12px}
+#painterly-native .popover-menu button:hover{background:rgba(255,255,255,.08)}
+#painterly-native .panel{background:var(--panel);border-color:var(--line)}
+#painterly-native .left-panel{position:fixed;z-index:25;left:0;top:var(--top);bottom:0;width:var(--left);border-right:1px solid var(--line);box-shadow:12px 0 35px rgba(0,0,0,.16)}
+#painterly-native .right-panel{position:fixed;z-index:25;right:0;top:var(--top);bottom:0;width:var(--right);border-left:1px solid var(--line);box-shadow:-12px 0 35px rgba(0,0,0,.16)}
+#painterly-native .left-panel.collapsed{transform:translateX(calc(-100% + 42px))}
+#painterly-native .right-panel.collapsed{transform:translateX(calc(100% - 42px))}
+#painterly-native .left-panel, #painterly-native .right-panel{transition:transform .25s ease}
+#painterly-native .panel-scroll, #painterly-native .inspector-body{height:100%;overflow:auto;scrollbar-width:thin;scrollbar-color:#52645a transparent}
+#painterly-native .control-section{padding:18px;border-bottom:1px solid var(--line)}
+#painterly-native .control-section h2{font:600 16px/1.2 Georgia,serif;margin:2px 0 12px}
+#painterly-native .eyebrow{text-transform:uppercase;letter-spacing:.16em;color:var(--accent-2);font-size:8px;font-weight:800}
+#painterly-native .section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+#painterly-native .section-heading.compact{align-items:center}
+#painterly-native .field-label{display:block;margin:10px 0 5px;color:var(--muted);font-size:10px;letter-spacing:.03em}
+#painterly-native .two-col{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+#painterly-native .inline-field{display:grid;grid-template-columns:1fr 36px;gap:6px}
+#painterly-native .icon-btn{width:34px;height:34px;display:grid;place-items:center;padding:0}
+#painterly-native .count-pill{padding:4px 7px;border-radius:999px;background:rgba(214,154,99,.12);border:1px solid rgba(214,154,99,.24);font-size:9px;color:#e6b88f}
+#painterly-native .biome-selectors{display:grid;gap:8px;margin-top:9px}
+#painterly-native .biome-row{display:grid;grid-template-columns:23px 1fr;gap:8px;align-items:center}
+#painterly-native .biome-index{width:23px;height:23px;display:grid;place-items:center;border-radius:50%;background:var(--panel-3);border:1px solid var(--line);font-size:9px;color:var(--muted)}
+#painterly-native .chip-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+#painterly-native .chip{display:inline-flex;align-items:center;gap:5px;padding:5px 7px;border:1px solid var(--line);border-radius:999px;font-size:9px;background:rgba(255,255,255,.04)}
+#painterly-native .chip i{width:8px;height:8px;border-radius:50%;display:block}
+#painterly-native .segmented{display:grid;grid-template-columns:1fr 1fr 1fr;padding:3px;background:#111713;border:1px solid var(--line);border-radius:10px}
+#painterly-native .segmented-btn{border:0;border-radius:7px;padding:8px 4px;font-size:10px;background:transparent}
+#painterly-native .segmented-btn.active{background:#2b3a32;color:#f3ddc4;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+#painterly-native .sub-controls{margin-top:10px}
+#painterly-native .wide-btn{width:100%;padding:10px 11px;text-align:left}
+#painterly-native .wide-btn span, #painterly-native .wide-btn strong{display:block;font-size:11px}
+#painterly-native .wide-btn small{display:block;margin-top:3px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#painterly-native .drop-zone{display:grid;place-items:center;min-height:92px;border:1px dashed rgba(214,154,99,.5);border-radius:11px;background:rgba(214,154,99,.055);text-align:center;padding:12px;cursor:pointer}
+#painterly-native .drop-zone.dragover{background:rgba(214,154,99,.16)}
+#painterly-native .drop-zone strong{font-size:11px}#painterly-native .drop-zone span{font-size:10px;color:var(--muted)}
+#painterly-native .toggle-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}
+#painterly-native .check-row{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:10px}
+#painterly-native .check-row input{margin:0}
+#painterly-native .template-controls{margin-top:12px;padding:11px;border:1px solid rgba(139,179,155,.24);border-radius:11px;background:rgba(139,179,155,.055)}
+#painterly-native .template-controls h3{font:600 12px/1.2 Georgia,serif;margin:2px 0 0}#painterly-native .template-controls output{font-size:10px;color:#d7bd98}#painterly-native .template-controls .range-label{margin-top:10px}#painterly-native .template-controls .range-label small{display:block;margin-top:2px;color:var(--faint);font-size:8px;font-weight:400}#painterly-native .template-controls input[type="range"]{width:100%;margin:7px 0 9px}#painterly-native .template-reflow-btn{text-align:center;padding:8px}
+#painterly-native .generate-btn{width:100%;margin-top:12px;padding:12px;background:linear-gradient(140deg,#bd7549,#78583d);border-color:#c78358;color:white;font-weight:800}
+#painterly-native .help-copy{margin:0 0 8px;color:var(--muted);font-size:10px;line-height:1.45}
+#painterly-native .command-output{display:block;min-height:18px;margin-top:8px;color:#c2d7ca;font-size:10px;line-height:1.4}
+#painterly-native .workspace{position:fixed;z-index:1;left:var(--left);right:var(--right);top:var(--top);bottom:0;overflow:hidden;background:#0d120f;transition:left .25s ease,right .25s ease}
+#painterly-native .app-shell.left-collapsed .workspace{left:42px}#painterly-native .app-shell.right-collapsed .workspace{right:42px}
+#painterly-native .canvas-wrap{position:absolute;inset:0 0 86px 0;overflow:hidden;background:radial-gradient(circle at 50% 45%,#304239,#101712 72%)}
+#painterly-native #map-canvas{display:block;width:100%;height:100%;touch-action:none;cursor:default}
+#painterly-native .canvas-wrap.tool-pan #map-canvas{cursor:grab}#painterly-native .canvas-wrap.tool-pan.dragging #map-canvas{cursor:grabbing}
+#painterly-native .canvas-wrap.tool-location #map-canvas, #painterly-native .canvas-wrap.tool-route #map-canvas, #painterly-native .canvas-wrap.tool-paint #map-canvas, #painterly-native .canvas-wrap.tool-erase #map-canvas{cursor:crosshair}
+#painterly-native .empty-state{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(520px,82%);padding:34px;text-align:center;border:1px solid var(--line);border-radius:18px;background:rgba(18,26,21,.88);box-shadow:var(--shadow);backdrop-filter:blur(14px)}
+#painterly-native .empty-state h2{font:600 24px/1.2 Georgia,serif;margin:14px 0 8px}#painterly-native .empty-state p{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 18px}
+#painterly-native .empty-art{height:86px;display:flex;align-items:flex-end;justify-content:center;gap:8px}
+#painterly-native .empty-art span{width:70px;border-radius:50% 50% 10px 10px;background:linear-gradient(#60856f,#263d31);box-shadow:0 7px 0 #8a6e4f}
+#painterly-native .empty-art span:nth-child(1){height:42px}#painterly-native .empty-art span:nth-child(2){height:77px}#painterly-native .empty-art span:nth-child(3){height:55px}
+#painterly-native .canvas-hud{position:absolute;z-index:5;display:flex;align-items:center;gap:5px;padding:5px;border:1px solid var(--line);border-radius:10px;background:rgba(15,22,18,.76);box-shadow:0 7px 20px rgba(0,0,0,.18);backdrop-filter:blur(9px)}
+#painterly-native .top-left{left:14px;top:14px}#painterly-native .top-right{right:14px;top:14px}#painterly-native .bottom-left{left:14px;bottom:14px;max-width:60%;flex-wrap:wrap}
+#painterly-native .hud-btn{min-width:32px;height:29px;padding:0 8px;font-size:10px}#painterly-native .hud-readout{min-width:46px;text-align:center;color:var(--muted);font-size:9px}
+#painterly-native .hud-check{display:flex;align-items:center;gap:4px;padding:0 5px;color:var(--muted);font-size:9px}#painterly-native .hud-check input{margin:0}
+#painterly-native .legend-chip{display:inline-flex;align-items:center;gap:5px;font-size:8px;color:var(--muted)}#painterly-native .legend-chip i{width:9px;height:9px;border-radius:2px}
+#painterly-native .map-tooltip{position:absolute;z-index:20;pointer-events:none;max-width:260px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(10,15,12,.92);box-shadow:0 10px 30px rgba(0,0,0,.3);font-size:10px}
+#painterly-native .map-tooltip strong{display:block;margin-bottom:2px;color:#f4ddc4}#painterly-native .map-tooltip span{color:var(--muted)}
+#painterly-native .tool-dock{position:absolute;z-index:15;left:50%;bottom:96px;transform:translateX(-50%);display:flex;align-items:center;gap:4px;padding:5px;border:1px solid var(--line);border-radius:12px;background:rgba(16,23,19,.9);box-shadow:var(--shadow);backdrop-filter:blur(11px)}
+#painterly-native .tool-btn{width:53px;height:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:0}
+#painterly-native .tool-btn span{font-size:17px}#painterly-native .tool-btn small{font-size:8px;color:var(--muted)}#painterly-native .tool-btn.active{background:#34473c;border-color:#6c8f7a}#painterly-native .tool-btn.active small{color:#e8efe9}
+#painterly-native .tool-separator{width:1px;height:33px;background:var(--line);margin:0 2px}
+#painterly-native .timeline{position:absolute;z-index:20;left:0;right:0;bottom:0;height:86px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;padding:12px 16px;background:rgba(23,31,26,.96)}
+#painterly-native .timeline-main{display:grid;grid-template-columns:38px 78px 1fr auto;align-items:center;gap:10px}
+#painterly-native .play-btn{width:38px;height:38px;border-radius:50%;border:1px solid #836347;background:#b17048;color:white}#painterly-native .time-copy strong{display:block;font:600 14px Georgia,serif}#painterly-native .time-copy span{display:block;color:var(--muted);font-size:9px;margin-top:2px}#painterly-native .time-slider{width:100%}
+#painterly-native .speed-control, #painterly-native .weather-controls label{display:flex;align-items:center;gap:6px}#painterly-native .speed-control span, #painterly-native .weather-controls label>span{color:var(--muted);font-size:9px}#painterly-native .speed-control select, #painterly-native .weather-controls select{width:auto;padding:6px 8px;font-size:10px}
+#painterly-native .weather-controls{display:flex;align-items:center;gap:10px}#painterly-native .compact-check{white-space:nowrap}
+#painterly-native .inspector-tabs{height:49px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 36px;align-items:center;border-bottom:1px solid var(--line);padding:6px}
+#painterly-native .inspector-tab{height:34px;border:0;border-radius:7px;background:transparent;color:var(--muted);font-size:9px}#painterly-native .inspector-tab.active{background:var(--panel-3);color:var(--ink)}
+#painterly-native .inspector-body{height:calc(100% - 49px)}
+#painterly-native .tab-panel{display:none;padding:17px}#painterly-native .tab-panel.active{display:block}
+#painterly-native .tab-panel h3{font:600 15px Georgia,serif;margin:0 0 10px}
+#painterly-native .inspector-empty{text-align:center;padding:60px 20px;color:var(--muted)}#painterly-native .inspector-empty>span{font-size:34px;color:var(--faint)}#painterly-native .inspector-empty h3{color:var(--ink);margin:12px 0 6px}#painterly-native .inspector-empty p{font-size:10px;line-height:1.5;margin:0}
+#painterly-native .selection-title{display:flex;align-items:center;gap:10px;padding:10px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035);margin-bottom:10px}#painterly-native .selection-title>span{width:35px;height:35px;display:grid;place-items:center;border-radius:50%;background:#2d4337}#painterly-native .selection-title small{color:var(--muted);font-size:8px}#painterly-native .selection-title h3{margin:2px 0 0}
+#painterly-native .form-actions{display:flex;justify-content:space-between;gap:8px;margin-top:14px}#painterly-native .danger-btn{padding:9px 11px;background:rgba(216,116,110,.1);border-color:rgba(216,116,110,.35);color:#f0a5a1}
+#painterly-native .layer-list{display:grid;gap:7px}#painterly-native .layer-row{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;padding:9px;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.025)}#painterly-native .layer-row strong{display:block;font-size:10px}#painterly-native .layer-row small{color:var(--muted);font-size:8px}#painterly-native .layer-swatch{width:17px;height:17px;border-radius:4px;border:1px solid rgba(255,255,255,.2)}
+#painterly-native .brush-settings{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}#painterly-native .range-label{display:flex;justify-content:space-between;margin:10px 0 4px;color:var(--muted);font-size:9px}#painterly-native .brush-settings input[type="range"]{width:100%}
+#painterly-native .mini-btn{padding:6px 8px;font-size:9px}#painterly-native .npc-list{display:grid;gap:7px;margin-top:12px}#painterly-native .npc-card{display:grid;grid-template-columns:40px 1fr auto;gap:8px;align-items:center;padding:8px;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.03);cursor:pointer}#painterly-native .npc-token-preview{position:relative;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;overflow:visible;background:#3d5145;border:3px solid var(--token-border,#e0a15b);font:700 10px Georgia,serif}#painterly-native .npc-token-preview>img{width:100%;height:100%;display:block;object-fit:cover;border-radius:50%}#painterly-native .npc-token-preview>i{position:absolute;left:50%;top:-5px;transform:translateX(-50%);width:16px;height:16px;display:grid;place-items:center;border:2px solid var(--token-border,#e0a15b);border-radius:50%;background:#111a16;color:#fff6de;font:normal 9px/1 system-ui,sans-serif}#painterly-native .npc-card strong{display:block;font-size:10px}#painterly-native .npc-card small{display:block;color:var(--muted);font-size:8px;margin-top:2px}#painterly-native .npc-state{max-width:72px;text-align:right;font-size:8px;color:#b5d0bf}
+#painterly-native .audit-list{display:grid;gap:7px}#painterly-native .audit-item{display:grid;grid-template-columns:23px 1fr;gap:7px;align-items:start;padding:8px;border:1px solid var(--line);border-radius:8px}#painterly-native .audit-icon{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:10px}#painterly-native .audit-item.pass .audit-icon{background:rgba(134,201,149,.14);color:var(--ok)}#painterly-native .audit-item.warn .audit-icon{background:rgba(214,154,99,.14);color:var(--accent)}#painterly-native .audit-item strong{display:block;font-size:9px}#painterly-native .audit-item span{display:block;color:var(--muted);font-size:8px;line-height:1.4;margin-top:2px}#painterly-native .pivot-note{margin-top:14px;border:1px solid var(--line);border-radius:9px;padding:9px}#painterly-native .pivot-note summary{cursor:pointer;font-size:9px;color:#e4c4a3}#painterly-native .pivot-note p{color:var(--muted);font-size:9px;line-height:1.5}
+#painterly-native dialog{border:0;padding:0;color:var(--ink);background:transparent}#painterly-native dialog::backdrop{background:rgba(3,6,4,.76);backdrop-filter:blur(5px)}
+#painterly-native .dialog-shell{width:min(1080px,92vw);max-height:88vh;display:grid;grid-template-rows:auto auto 1fr auto;border:1px solid var(--line);border-radius:16px;background:#151d19;box-shadow:var(--shadow);overflow:hidden}#painterly-native .dialog-shell.narrow{width:min(650px,90vw);grid-template-rows:auto 1fr}
+#painterly-native .dialog-shell>header, #painterly-native .dialog-shell>footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;border-bottom:1px solid var(--line);background:#1b2520}#painterly-native .dialog-shell>footer{border-bottom:0;border-top:1px solid var(--line)}
+#painterly-native .dialog-shell header h2{font:600 19px Georgia,serif;margin:2px 0}#painterly-native .dialog-shell header p{margin:0;color:var(--muted);font-size:10px}#painterly-native .dialog-shell footer span{color:var(--muted);font-size:10px}
+#painterly-native .reference-filters{display:grid;grid-template-columns:1fr 230px 190px;gap:8px;padding:11px 18px;border-bottom:1px solid var(--line)}
+#painterly-native .reference-grid{overflow:auto;padding:13px 18px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;background:#101613}#painterly-native .reference-card{position:relative;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#202a25;cursor:pointer;min-height:190px}#painterly-native .reference-card.selected{border-color:#e1a977;box-shadow:0 0 0 2px rgba(225,169,119,.25)}#painterly-native .reference-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#0b100d}#painterly-native .reference-card .card-copy{padding:8px}#painterly-native .reference-card strong{display:block;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#painterly-native .reference-card small{display:block;color:var(--muted);font-size:8px;margin-top:2px}#painterly-native .reference-card .ref-badge{position:absolute;left:7px;top:7px;padding:4px 6px;border-radius:999px;background:rgba(8,12,9,.76);font-size:7px;border:1px solid rgba(255,255,255,.16)}
+#painterly-native .import-options{padding:16px;display:grid;gap:9px}#painterly-native .import-card{display:block;padding:14px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035);cursor:pointer}#painterly-native .import-card:hover{border-color:var(--line-strong);background:rgba(255,255,255,.07)}#painterly-native .import-card input{display:none}#painterly-native .import-card strong{display:block;font-size:11px}#painterly-native .import-card span{display:block;color:var(--muted);font-size:9px;margin-top:3px}
+#painterly-native .toast-stack{position:fixed;z-index:100;right:18px;bottom:18px;display:grid;gap:8px;pointer-events:none}#painterly-native .toast{min-width:240px;max-width:380px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;background:#17211c;box-shadow:var(--shadow);font-size:10px;animation:toast-in .2s ease}#painterly-native .toast.success{border-color:rgba(134,201,149,.35)}#painterly-native .toast.error{border-color:rgba(216,116,110,.4)}
+@keyframes toast-in{from{transform:translateY(7px);opacity:0}to{transform:none;opacity:1}}
+@media (max-width:1280px){#painterly-native{--left:290px;--right:285px}#painterly-native .scope-badge{display:none}#painterly-native .brand{min-width:330px}#painterly-native .reference-grid{grid-template-columns:repeat(3,minmax(0,1fr))}#painterly-native .weather-controls label span{display:none}}
+@media (max-width:980px){#painterly-native{--left:260px;--right:0px}#painterly-native .right-panel{display:none}#painterly-native .workspace{right:0}#painterly-native .brand p{display:none}#painterly-native .brand{min-width:auto}#painterly-native .top-actions .quiet-btn:nth-child(-n/**/+2){display:none}#painterly-native .timeline{grid-template-columns:1fr}#painterly-native .weather-controls{display:none}#painterly-native .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:720px){#painterly-native{--top:66px;--left:0px}#painterly-native .left-panel{width:min(330px,90vw);transform:translateX(-100%)}#painterly-native .left-panel.mobile-open{transform:none}#painterly-native .workspace{left:0}#painterly-native .topbar{height:var(--top);padding:8px}#painterly-native .brand-mark{width:38px;height:38px}#painterly-native .brand h1{font-size:14px}#painterly-native .top-actions{gap:4px}#painterly-native .top-actions .quiet-btn{display:none}#painterly-native .tool-dock{bottom:88px;max-width:94vw;overflow-x:auto}#painterly-native .tool-btn{min-width:48px}#painterly-native .timeline{height:78px;padding:9px}#painterly-native .canvas-wrap{bottom:78px}#painterly-native .timeline-main{grid-template-columns:34px 66px 1fr}#painterly-native .speed-control{display:none}#painterly-native .reference-filters{grid-template-columns:1fr}#painterly-native .reference-grid{grid-template-columns:1fr 1fr}#painterly-native .dialog-shell{max-height:94vh}#painterly-native .bottom-left{max-width:88%}}
+@media (prefers-reduced-motion:reduce){#painterly-native *, #painterly-native *::before, #painterly-native *::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

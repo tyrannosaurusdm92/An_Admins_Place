@@ -1,0 +1,7 @@
+/* Generator visual contract. Companion to js/painterly/generator.js. */
+:root{--wf-generator-surface:var(--panel,rgba(13,24,38,.92));--wf-generator-gap:.75rem;}
+[data-module="generator"], .module-generator{position:relative;display:grid;gap:var(--wf-generator-gap);min-width:0;}
+[data-module="generator"] .module-status, .module-generator .module-status{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;opacity:.78;}
+[data-module="generator"][data-state="busy"]::after{content:"Working…";position:absolute;inset:.35rem .35rem auto auto;padding:.25rem .45rem;border-radius:999px;background:var(--wf-generator-surface);}
+@media (max-width:760px){[data-module="generator"],.module-generator{grid-template-columns:1fr;}}
+@media (prefers-reduced-motion:reduce){[data-module="generator"] *, .module-generator *{animation-duration:.01ms!important;transition-duration:.01ms!important;}}

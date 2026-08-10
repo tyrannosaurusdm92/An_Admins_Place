@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f4f4">
+  <meta name="description" content="Import-only 3D surface editor with a Microsoft Paint and AddText inspired shell.">
+  <title>3D_Visual_Studio</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/studio.css">
+</head>
+<body>
+<noscript>This editor requires JavaScript for 3D import, painting, text, effects, and export.</noscript>
+<div id="app" class="app-shell">
+  <section id="welcomeScreen" class="welcome-screen">
+    <header class="welcome-topbar">
+      <label class="dark-toggle"><span>Dark mode</span><input id="darkModeToggle" type="checkbox"><span class="switch"></span></label>
+      <button id="welcomeSettings" class="icon-button big" aria-label="Settings">⚙</button>
+    </header>
+    <main class="welcome-grid">
+      <section class="welcome-main">
+        <h1>3D_Visual_Studio</h1>
+        <p class="lede">Open an already-made 3D object, then paint on its surfaces, place text and image stamps, adjust materials, and add visual effects. This program does not create 3D objects.</p>
+        <article class="start-card import-card">
+          <div class="import-icon">▧</div>
+          <div><h2>Import Existing 3D Object</h2><p>GLB, glTF, OBJ, STL, FBX, DAE, 3MF, and AMF. Select sidecar textures, BIN, and MTL files together.</p></div>
+          <button id="welcomeImport" class="primary-button">Open Object</button>
+        </article>
+        <article class="start-card">
+          <h2>Allowed editing</h2>
+          <div class="allowed-grid">
+            <div><b>Paint</b><span>Pencil, marker, spray, neon, eraser, and direct UV surface painting.</span></div>
+            <div><b>Add text</b><span>Font, size, outline, shadow, rotation, opacity, and click-to-place.</span></div>
+            <div><b>Add effects</b><span>Texture filters, glow, outline, Chromatic Lightning, material maps, and stamps.</span></div>
+            <div><b>Export</b><span>Export the revised object as GLB and save edited textures as PNG.</span></div>
+          </div>
+        </article>
+        <article class="notice-card"><b>Import-only guardrail:</b> no primitives, sculpting, extrusion, relief meshes, 3D text geometry, or object generation tools are present.</article>
+      </section>
+      <aside class="welcome-side">
+        <article class="start-card empty-state"><div class="folder-icon">▱</div><h2>No object loaded</h2><p>The editor becomes available after an existing 3D object is imported.</p><button id="welcomeImportSecondary" class="secondary-button">Choose 3D Files</button></article>
+        <article class="start-card compact"><h2>Backend</h2><p>Cloud-save metadata uses the configured Apps Script endpoint. Local GLB and texture exports always remain available.</p><span id="backendStatus" class="status-pill">Ready</span></article>
+      </aside>
+    </main>
+  </section>
+
+  <section id="studioScreen" class="studio-screen" hidden>
+    <header class="titlebar">
+      <button id="backToWelcome" class="icon-button" title="Start screen">☰</button>
+      <button class="menu-word" data-menu-button="file">File</button>
+      <button class="menu-word" data-menu-button="edit">Edit</button>
+      <button class="menu-word" data-menu-button="view">View</button>
+      <span class="separator"></span>
+      <button id="quickImport" class="icon-button" title="Import another existing object">▰</button>
+      <button id="quickExport" class="icon-button" title="Export edited object as GLB">▣</button>
+      <button id="cloudSave" class="icon-button" title="Save metadata to configured backend">☁</button>
+      <span class="separator"></span>
+      <button id="undoBtn" class="icon-button" title="Undo texture edit">↶</button>
+      <button id="redoBtn" class="icon-button" title="Redo texture edit">↷</button>
+      <span id="projectName" class="project-name">No object</span>
+      <span class="title-spacer"></span>
+      <span class="import-only-badge">IMPORT-ONLY 3D EDITOR</span>
+    </header>
+
+    <div id="fileMenu" class="dropdown-menu"><button data-command="import">Open 3D object…</button><button data-command="export-glb">Export edited GLB…</button><button data-command="export-texture">Save active texture PNG…</button><button data-command="cloud-save">Save metadata to backend</button></div>
+    <div id="editMenu" class="dropdown-menu"><button data-command="undo">Undo</button><button data-command="redo">Redo</button><button data-command="clear-texture">Clear active texture</button><button data-command="restore-texture">Restore imported texture</button></div>
+    <div id="viewMenu" class="dropdown-menu"><button data-command="frame">Frame object</button><button data-command="toggle-grid">Toggle grid</button><button data-command="toggle-wireframe">Wireframe preview</button><button data-command="view-3d">3D object view</button><button data-command="view-texture">Texture view</button></div>
+
+    <nav class="paint-ribbon" aria-label="Microsoft Paint style ribbon">
+      <section class="ribbon-group"><button class="large-ribbon-button" id="importRibbon"><span>▰</span><b>Import 3D</b></button><small>File</small></section>
+      <section class="ribbon-group tool-group">
+        <div class="mini-grid">
+          <button class="tool-button is-active" data-tool="select" title="Select a mesh">□</button>
+          <button class="tool-button" data-tool="paint" title="Paint directly on the selected mesh">✎</button>
+          <button class="tool-button" data-tool="erase" title="Erase texture pixels">▰</button>
+          <button class="tool-button" data-tool="text" title="Place text on the surface">A</button>
+          <button class="tool-button" data-tool="stamp" title="Place an image stamp">▧</button>
+          <button class="tool-button" data-tool="eyedropper" title="Pick a texture color">⌁</button>
+        </div><small>Tools</small>
+      </section>
+      <section class="ribbon-group">
+        <button id="brushMenuButton" class="large-ribbon-button"><span id="brushGlyph">✎</span><b id="brushLabel">Pencil</b><i>⌄</i></button><small>Brushes</small>
+        <div id="brushMenu" class="ribbon-popover">
+          <button data-brush="pencil">✎ Pencil</button><button data-brush="marker">▮ Marker</button><button data-brush="spray">░ Airbrush</button><button data-brush="calligraphy">╱ Calligraphy</button><button data-brush="neon">✦ Neon</button>
+        </div>
+      </section>
+      <section class="ribbon-group size-group"><label>Size <input id="brushSize" type="range" min="1" max="160" value="28"><output id="brushSizeOut">28</output></label><label>Opacity <input id="brushOpacity" type="range" min="1" max="100" value="100"><output id="brushOpacityOut">100%</output></label><small>Stroke</small></section>
+      <section class="ribbon-group color-group"><div class="current-colors"><label>Color 1<input id="primaryColor" type="color" value="#111111"></label><label>Color 2<input id="secondaryColor" type="color" value="#ffffff"></label></div><div id="palette" class="palette"></div><small>Colors</small></section>
+      <section class="ribbon-group"><button id="textPanelButton" class="large-ribbon-button"><span>Aa</span><b>Add Text</b></button><small>AddText</small></section>
+      <section class="ribbon-group"><button id="effectsPanelButton" class="large-ribbon-button"><span>✦</span><b>Effects</b></button><small>Surface</small></section>
+      <section class="ribbon-group"><button id="exportRibbon" class="large-ribbon-button"><span>⇩</span><b>Export GLB</b></button><small>Output</small></section>
+    </nav>
+
+    <main class="workspace">
+      <aside class="object-panel side-panel">
+        <header><h2>Imported Object</h2><span id="meshCount">0 meshes</span></header>
+        <div id="meshList" class="mesh-list"></div>
+        <section class="panel-section">
+          <label>Material slot<select id="materialSlot"></select></label>
+          <label>Texture target<select id="textureSlot"><option value="map">Base color</option><option value="emissiveMap">Emissive</option><option value="roughnessMap">Roughness</option><option value="metalnessMap">Metalness</option><option value="normalMap">Normal</option><option value="bumpMap">Bump</option><option value="alphaMap">Alpha</option><option value="aoMap">Ambient occlusion</option></select></label>
+          <div class="button-grid"><button id="loadSurface">Load Surface</button><button id="autoUv">Auto UV</button><button id="restoreTexture">Restore</button><button id="clearTexture">Clear</button></div>
+        </section>
+        <section class="panel-section material-controls">
+          <h3>Material</h3>
+          <label>Base color<input id="materialColor" type="color" value="#ffffff"></label>
+          <label>Metalness<input id="materialMetalness" type="range" min="0" max="1" step="0.01" value="0"></label>
+          <label>Roughness<input id="materialRoughness" type="range" min="0" max="1" step="0.01" value="0.7"></label>
+          <label>Opacity<input id="materialOpacity" type="range" min="0" max="1" step="0.01" value="1"></label>
+          <label class="check"><input id="materialDoubleSide" type="checkbox"> Double-sided</label>
+        </section>
+        <section class="panel-section object-info"><h3>Selection</h3><dl><dt>Name</dt><dd id="selectedName">None</dd><dt>Triangles</dt><dd id="triangleCount">0</dd><dt>UVs</dt><dd id="uvStatus">—</dd></dl></section>
+      </aside>
+
+      <section class="stage-panel">
+        <div class="stage-tabs"><button class="is-active" data-stage="3d">3D Object</button><button data-stage="texture">Texture Canvas</button><span class="stage-help">Paint/text/stamp tools can be used directly on either view.</span></div>
+        <div id="threeStage" class="three-stage">
+          <div id="threeViewport"></div>
+          <div class="viewport-hud"><span id="viewportMode">SELECT</span><span>Drag to orbit · wheel to zoom · right-drag to pan</span></div>
+          <div id="dropOverlay" class="drop-overlay"><b>Drop existing 3D files here</b><span>Include sidecar textures, BIN, and MTL files together</span></div>
+        </div>
+        <div id="textureStage" class="texture-stage" hidden>
+          <div class="texture-toolbar"><label>Canvas <select id="textureResolution"><option>512</option><option selected>1024</option><option>2048</option></select></label><button id="resizeTexture">Resize blank surface</button><button id="fitTexture">Fit</button><span id="textureStatus">No surface loaded</span></div>
+          <div id="textureScroller" class="texture-scroller"><div id="textureWrap" class="texture-wrap"><canvas id="textureCanvas" width="1024" height="1024"></canvas><canvas id="textureOverlay" width="1024" height="1024"></canvas></div></div>
+        </div>
+        <footer class="statusbar"><span id="statusMessage">Import an existing 3D object to begin.</span><span id="cursorInfo">—</span><span id="zoomInfo">100%</span></footer>
+      </section>
+
+      <aside class="properties-panel side-panel">
+        <div class="property-tabs"><button class="is-active" data-property="text">Text</button><button data-property="paint">Paint</button><button data-property="effects">Effects</button><button data-property="assets">Assets</button><button data-property="export">Export</button></div>
+        <section class="property-page is-active" data-property-page="text">
+          <h2>Add Text</h2><textarea id="textValue" rows="4" placeholder="Type text to place on the object">Text</textarea>
+          <div class="two-col"><label>Font<select id="textFont"><option>Arial</option><option>Verdana</option><option>Georgia</option><option>Times New Roman</option><option>Courier New</option><option>Trebuchet MS</option><option>Impact</option><option>Comic Sans MS</option></select></label><label>Size<input id="textSize" type="number" min="6" max="500" value="72"></label></div>
+          <div class="toggle-row"><button id="textBold">Bold</button><button id="textItalic">Italic</button><button id="textOutline">Outline</button><button id="textShadow">Shadow</button></div>
+          <label>Rotation<input id="textRotation" type="range" min="-180" max="180" value="0"><output id="textRotationOut">0°</output></label>
+          <label>Opacity<input id="textOpacity" type="range" min="1" max="100" value="100"></label>
+          <label>Outline width<input id="textOutlineWidth" type="range" min="1" max="20" value="4"></label>
+          <p class="tip">Choose the Text tool and click the 3D surface or texture canvas. Use the button below to place it at the texture center.</p>
+          <button id="placeTextCenter" class="wide primary-button">Place Text at Center</button>
+        </section>
+        <section class="property-page" data-property-page="paint">
+          <h2>Paint</h2><label>Brush<select id="brushSelect"><option value="pencil">Pencil</option><option value="marker">Marker</option><option value="spray">Airbrush</option><option value="calligraphy">Calligraphy</option><option value="neon">Neon</option></select></label>
+          <label>Spacing<input id="brushSpacing" type="range" min="1" max="100" value="20"></label>
+          <label>Smoothing<input id="brushSmoothing" type="range" min="0" max="95" value="45"></label>
+          <div class="button-grid"><button data-texture-effect="checker">Checker</button><button data-texture-effect="stripes">Stripes</button><button data-texture-effect="noise">Noise</button><button data-texture-effect="fabric">Fabric</button><button data-texture-effect="metal">Metal</button><button data-texture-effect="stars">Stars</button></div>
+          <label>Pattern opacity<input id="patternOpacity" type="range" min="1" max="100" value="45"></label>
+          <button id="fillTexture" class="wide">Fill with Color 1</button>
+        </section>
+        <section class="property-page" data-property-page="effects">
+          <h2>Texture Effects</h2><div class="effect-grid"><button data-filter="grayscale">Grayscale</button><button data-filter="invert">Invert</button><button data-filter="sepia">Sepia</button><button data-filter="brighten">Brighten</button><button data-filter="darken">Darken</button><button data-filter="contrast">Contrast</button><button data-filter="saturate">Saturate</button><button data-filter="desaturate">Desaturate</button><button data-filter="blur">Blur</button><button data-filter="sharpen">Sharpen</button><button data-filter="emboss">Emboss</button><button data-filter="edge">Edges</button></div>
+          <h2>3D Effects</h2>
+          <div class="effect-card"><header><b>Outline</b><label class="check"><input id="outlineEnabled" type="checkbox"> Enabled</label></header><label>Color<input id="outlineColor" type="color" value="#111111"></label><label>Width<input id="outlineWidth" type="range" min="1" max="20" value="5"></label></div>
+          <div class="effect-card"><header><b>Glow</b><label class="check"><input id="glowEnabled" type="checkbox"> Enabled</label></header><label>Color<input id="glowColor" type="color" value="#5ecbff"></label><label>Strength<input id="glowStrength" type="range" min="1" max="100" value="45"></label></div>
+          <div class="effect-card lightning-card"><header><b>Chromatic Lightning</b><label class="check"><input id="lightningEnabled" type="checkbox"> Enabled</label></header><div class="two-col"><label>Core<input id="lightningCore" type="color" value="#d7f7ff"></label><label>Glow<input id="lightningGlow" type="color" value="#5d4dff"></label></div><label>Amount<input id="lightningAmount" type="range" min="3" max="60" value="18"></label><label>Speed<input id="lightningSpeed" type="range" min="1" max="100" value="45"></label><label class="check"><input id="lightningHueCycle" type="checkbox"> Animate through colors</label><button id="randomizeLightning" class="wide">Randomize Lightning Shape</button></div>
+          <div class="effect-card"><header><b>Pulse</b><label class="check"><input id="pulseEnabled" type="checkbox"> Enabled</label></header><label>Speed<input id="pulseSpeed" type="range" min="1" max="100" value="35"></label></div>
+        </section>
+        <section class="property-page" data-property-page="assets">
+          <h2>Images & Stamps</h2><button id="uploadStamp" class="wide">Import Image Stamp…</button><input id="assetSearch" type="search" placeholder="Search packaged effects"><div class="two-col"><label>Size<input id="stampSize" type="range" min="10" max="600" value="180"></label><label>Opacity<input id="stampOpacity" type="range" min="1" max="100" value="100"></label></div><label>Rotation<input id="stampRotation" type="range" min="-180" max="180" value="0"></label><div id="assetGrid" class="asset-grid"></div><p id="selectedAssetLabel" class="tip">No stamp selected.</p><button id="placeStampCenter" class="wide primary-button">Place Stamp at Center</button>
+        </section>
+        <section class="property-page" data-property-page="export">
+          <h2>Export</h2><p>Exports preserve the imported object and the surface/material/effect edits made here. The program does not generate a new primitive object.</p><button id="exportGlb" class="wide primary-button">Export Edited Object (.glb)</button><button id="exportTexture" class="wide">Save Active Texture (.png)</button><button id="saveBackend" class="wide">Save Metadata to Backend</button><hr><h3>Object summary</h3><dl class="summary-list"><dt>Source</dt><dd id="summarySource">—</dd><dt>Meshes</dt><dd id="summaryMeshes">0</dd><dt>Edited surfaces</dt><dd id="summarySurfaces">0</dd><dt>3D effects</dt><dd id="summaryEffects">0</dd></dl>
+        </section>
+      </aside>
+    </main>
+  </section>
+</div>
+
+<input id="modelInput" type="file" multiple hidden accept=".glb,.gltf,.obj,.mtl,.stl,.fbx,.dae,.3mf,.amf,.bin,.png,.jpg,.jpeg,.webp,.tga,.hdr,.ktx2">
+<input id="stampInput" type="file" hidden accept="image/*">
+<div id="toastRoot" class="toast-root" aria-live="polite"></div>
+
+<script src="assets/js/vendor/three.global.js"></script>
+<script src="assets/js/vendor/three.addons.global.js"></script>
+<script src="assets/js/asset-index.js"></script>
+<script src="assets/js/studio-config.js"></script>
+<script src="assets/js/studio-app.js"></script>
+</body>
+</html>

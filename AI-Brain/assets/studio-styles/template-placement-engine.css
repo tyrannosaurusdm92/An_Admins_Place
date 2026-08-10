@@ -1,0 +1,7 @@
+/* Template Placement Engine visual contract. Companion to js/painterly/template-placement-engine.js. */
+:root{--wf-template-placement-engine-surface:var(--panel,rgba(13,24,38,.92));--wf-template-placement-engine-gap:.75rem;}
+[data-module="template-placement-engine"], .module-template-placement-engine{position:relative;display:grid;gap:var(--wf-template-placement-engine-gap);min-width:0;}
+[data-module="template-placement-engine"] .module-status, .module-template-placement-engine .module-status{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;opacity:.78;}
+[data-module="template-placement-engine"][data-state="busy"]::after{content:"Working…";position:absolute;inset:.35rem .35rem auto auto;padding:.25rem .45rem;border-radius:999px;background:var(--wf-template-placement-engine-surface);}
+@media (max-width:760px){[data-module="template-placement-engine"],.module-template-placement-engine{grid-template-columns:1fr;}}
+@media (prefers-reduced-motion:reduce){[data-module="template-placement-engine"] *, .module-template-placement-engine *{animation-duration:.01ms!important;transition-duration:.01ms!important;}}

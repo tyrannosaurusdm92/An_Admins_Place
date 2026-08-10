@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport"/><meta charset="utf-8"/>
+<title>Character Creator — 3 Tab Layout</title>
+
+<link href="css/character-studio.css" rel="stylesheet"/></head>
+<body>
+<div class="app">
+<header class="site-header topbar">
+<div class="brand">
+<div aria-hidden="true" class="seal"></div>
+<div>
+<h1>Character Creator</h1>
+<p>Three tabs • generator first • shared Character Forge second • Voice Studio third.</p>
+</div>
+</div>
+<nav aria-label="In-site pages" class="page-tabs tabs">
+<button aria-selected="true" class="page-tab tab-btn is-active dark" data-page-tab="character-generator" data-tab="character" id="tab-character">Character Generator</button>
+<button aria-selected="false" class="page-tab tab-btn" data-page-tab="character-forge" data-tab="forge" id="tab-forge">Character Forge</button>
+<button aria-selected="false" class="page-tab tab-btn" data-page-tab="voice-studio" data-tab="voice" id="tab-voice">Voice Studio</button>
+</nav>
+</header>
+<main class="page-content">
+<section aria-labelledby="tab-character" class="page active" data-page-panel="character-generator" id="page-character">
+<section class="hero">
+<div class="panel">
+<div class="pill-row"><span class="pill gold">Page 1</span><span class="pill">Character Generator</span><span class="pill">Direct identity + class controls stay here</span></div>
+<h2 class="site-title">Forge a Character</h2>
+<p class="lede">Build a Universal character using the advanced race compendium, two-race lineage cache, level 8 class/subclass rules, faction association, alignment axes, and integrated race/class-aware name generation.</p>
+<div class="notice ok">Gender identity, biome, race, class, and subclass stay directly on this generator page. Shared exports, imported quiz JSON, exact speech text, and consolidated skills/stat review live in Character Forge.</div>
+<div class="actions">
+<button id="generateNameBtn">Generate Names</button>
+<button class="secondary" id="randomCoreBtn">Random Core Build</button>
+<button class="dark" id="sendToVoiceBtn">Send Current Character to Voice</button>
+</div>
+</div>
+<aside class="card">
+<h3>Current Build</h3>
+<div class="tags" id="currentBuildBadges"></div>
+<div class="divider"></div>
+<p class="muted" id="statusLine">Ready.</p>
+</aside>
+</section>
+<section class="card copy-bridge section-gap">
+<h3>Copy applicable resources from pages 2 &amp; 3</h3>
+<p class="copy-note">Pull applicable forge notes and Voice Studio direct fields back into the generator without moving the generator’s identity, lineage, biome, race, class, or subclass controls away from this page.</p>
+<div class="actions">
+<button class="secondary" id="copyToGeneratorFromForgeVoice">Copy Applicable Resources from Pages 2 &amp; 3</button>
+</div>
+</section>
+<section class="card bridge-panel section-gap" id="genCustom_customBuilderPanel">
+<h2>Custom Biome + Heritage + Gender Identity + Pronouns</h2>
+<p class="copy-note">Use this embedded dropdown builder when you want this page to pull pre-created biome, heritage, gender identity, pronoun, and honorific data instead of using the shorter direct selectors.</p>
+<div class="actions">
+<button id="genCustom_applyCustomToPage" type="button">Apply Custom Builder to This Page</button>
+<button class="secondary" id="genCustom_pullFromSheet" type="button">Pull Pre-Created Info from Character Sheet</button>
+<button class="dark" id="genCustom_pushToSheet" type="button">Copy This Page to Character Sheet</button>
+<label class="buttonish"><input id="genCustom_hideDirect" style="width:auto;min-height:auto" type="checkbox"/> Hide direct biome/race/class/gender/pronoun controls</label>
+</div>
+<div class="custom-builder-grid section-gap-small">
+<label>Biome Group<select id="genCustom_biomeGroup"></select></label>
+<label>Biome<select id="genCustom_biome"></select></label>
+<label>Heritage Mode<select id="genCustom_heritageMode"><option value="single">Single heritage</option><option value="mixed">Mixed parentage</option></select></label>
+<label>Racial Category<select id="genCustom_category"></select></label>
+<label>Race<select id="genCustom_race"></select></label>
+<label>Bloodline / Lineage / Thread<select id="genCustom_lineage"></select></label>
+<label>Gender Identity<select id="genCustom_gender"></select></label>
+<label>Pronoun Set<select id="genCustom_pronoun"></select></label>
+<label>Title / Honorific / Endearment<select id="genCustom_title"></select></label>
+<label class="half">Custom Pronoun Subject<input id="genCustom_customSubject" placeholder="xe, fae, name, etc."/></label>
+<label class="half">Custom Pronoun Object<input id="genCustom_customObject" placeholder="xem, faer, name, etc."/></label>
+<label class="half">Custom Possessive Determiner<input id="genCustom_customPossDet" placeholder="xyr, faer, name's, etc."/></label>
+<label class="half">Custom Possessive Pronoun<input id="genCustom_customPossPronoun" placeholder="xyrs, faers, name's, etc."/></label>
+<label class="half">Custom Reflexive<input id="genCustom_customReflexive" placeholder="xemself, faerself, nameself, etc."/></label>
+<label class="half">Custom Title / Honorific / Endearment<input id="genCustom_customTitle" placeholder="swamp-mage, nest-sibling, Captain..."/></label>
+<div class="wide actions"><button id="genCustom_addTitle" type="button">Cache Title</button><button class="secondary" id="genCustom_addCustomTitle" type="button">Cache Custom Title</button><button class="gray" id="genCustom_clearTitles" type="button">Clear Titles</button></div>
+<div class="wide title-chip-row" id="genCustom_titleChips"></div>
+<label class="wide">Generated Appearance Description<textarea id="genCustom_appearance" readonly=""></textarea></label>
+<label class="wide">Generated Behavior / Roleplay Description<textarea id="genCustom_behavior" readonly=""></textarea></label>
+<label class="wide">Complete Dropdown Selection JSON<textarea class="voice-json" id="genCustom_selectionJson" readonly=""></textarea></label>
+</div>
+</section>
+<section class="grid section-gap">
+<section class="card span-8">
+<h2>Identity + Lineage</h2>
+<div class="grid">
+<label class="span-6">Character Name<input id="characterName" placeholder="Generate or type a name"/></label>
+<label class="span-3">Player Name<input id="playerName" placeholder="Optional"/></label>
+<label class="span-3">Pronouns<input id="pronouns" placeholder="they/them, she/her, he/him…"/></label>
+<label class="span-3">Gender Identity<select id="genderIdentity"></select></label>
+<label class="span-3">Seed Word<input id="seedWord" placeholder="Optional name/build seed"/></label>
+<label class="span-3">Race Family / Creator<select id="raceCategory"></select></label>
+<label class="span-3">Race 1<select id="raceSelect"></select></label>
+<label class="span-3">Enable Race 2<select id="race2Enabled"><option value="no">No</option><option value="yes">Yes</option></select></label>
+<label class="span-3">Race 2 Family<select id="race2Category"></select></label>
+<label class="span-3">Race 2<select id="race2Select"></select></label>
+<label class="span-3">Origin Biome Group<select id="biomeCategory"></select></label>
+<label class="span-3">Origin Biome<select id="biomeSelect"></select></label>
+<label class="span-6">Background<select id="backgroundSelect"></select></label>
+</div>
+</section>
+<aside class="card span-4">
+<h2>Name Forge</h2>
+<div class="grid">
+<label class="span-6">How Many<input id="nameCount" max="20" min="1" type="number" value="6"/></label>
+<label class="span-6">Surname Style<select id="surnameStyle"><option value="mixed">Mixed fantasy</option><option value="race">Race-flavored</option><option value="class">Class-flavored</option><option value="category">Category-based</option></select></label>
+<label class="span-6"><span>Use apostrophes/hyphens</span><select id="fantasyMarks"><option value="yes">Yes</option><option value="no">No</option></select></label>
+<label class="span-6"><span>Titles / Epithets</span><select id="epithets"><option value="sometimes">Sometimes</option><option value="no">No</option><option value="often">Often</option></select></label>
+</div>
+<div class="actions"><button id="generateNameBtn2">Generate Names</button></div>
+<div class="results-grid scrollbox" id="nameResults"></div>
+</aside>
+<section class="card span-8">
+<h2>Class + Subclass</h2>
+<div class="grid">
+<label class="span-3">Primary Class<select id="primaryClass"></select></label>
+<label class="span-3">Primary Subclass<select id="primarySubclass"></select></label>
+<label class="span-2">Primary Level<input id="primaryLevel" max="8" min="1" type="number" value="8"/></label>
+<label class="span-2">Multiclass<select id="multiEnabled"><option value="no">No</option><option value="yes">Yes</option></select></label>
+<label class="span-2">Total Level<input id="totalLevel" readonly="" value="8"/></label>
+<label class="span-3">Secondary Class<select id="secondaryClass"></select></label>
+<label class="span-3">Secondary Subclass<select id="secondarySubclass"></select></label>
+<label class="span-2">Secondary Level<input id="secondaryLevel" max="3" min="1" type="number" value="1"/></label>
+<label class="span-4">Magic School<select id="magicSchool"></select></label>
+</div>
+<div class="notice section-gap-small" id="classRules"></div>
+</section>
+<aside class="card span-4">
+<h2>Faction Association</h2>
+<div class="notice ok"><strong>Automatic:</strong> The Nefaric Veil — Tier 2 Specialist / Officer / Veteran.</div>
+<div class="divider"></div>
+<label>Choose one additional Tier 1 faction<select id="tier1Faction"></select></label>
+<div class="divider"></div>
+<label>Other Tier 0 faction notes<textarea id="tier0Notes" placeholder="Optional extra faction links, debts, rivals, contacts…"></textarea></label>
+</aside>
+<section class="card span-6">
+<h2>Universal Alignment Axes</h2>
+<div id="axisBars"></div>
+<div class="notice section-gap-small" id="alignmentSummary"></div>
+</section>
+<section class="card span-6">
+<h2>Receiving Stats Preview</h2>
+<div class="resource-mirror stat-grid" id="generatorStatsMirror"></div>
+<p class="muted small">Full stats, skills, export, and exact speech testing are consolidated on Character Forge.</p>
+</section>
+<section class="card span-6">
+<h2>Race Notes + Abilities</h2>
+<div class="scrollbox" id="raceNotes"></div>
+</section>
+<section class="card span-6">
+<h2>Class Features</h2>
+<div class="scrollbox" id="featureNotes"></div>
+</section>
+</section>
+</section>
+<section aria-labelledby="tab-forge" class="page" data-page-panel="character-forge" id="page-forge">
+<section class="hero">
+<div class="panel">
+<div class="pill-row"><span class="pill gold">Page 2</span><span class="pill">Character Forge</span><span class="pill">Fillable character sheet</span></div>
+<h2 class="site-title">Character Forge</h2>
+<p class="lede">This middle tab is now the full interactive character sheet. Page 1 generator data and Page 3 voice data can be inserted into this sheet, edited like a fillable D&amp;D character sheet, then exported as JSON or as sheet-only HTML.</p>
+<div class="notice ok">The sheet below is the only HTML exported by the sheet HTML export. The generator and voice studio wrappers are not included in that export.</div>
+</div>
+<aside class="card">
+<h3>Forge Resource Summary</h3>
+<div class="tags" id="forgeResourceBadges"></div>
+<div class="divider"></div>
+<p class="muted" id="forgeStatus">Ready to merge applicable resources.</p>
+</aside>
+</section>
+<section class="card copy-bridge section-gap">
+<h3>Copy applicable resources from pages 1 &amp; 3</h3>
+<p class="copy-note">Push every applicable generator, dropdown, alignment, stat, skill, speech, and voice field into the fillable character sheet below.</p>
+<div class="actions">
+<button class="secondary" id="copyToForgeFromGeneratorVoice">Copy Applicable Resources from Pages 1 &amp; 3</button>
+<button class="dark" id="pushAllToSheetBtn">Push Entire Site Into Sheet</button>
+<button id="pullSheetToSiteBtn">Pull Sheet Back Into Site</button>
+<button class="secondary" id="copyForgeSpeechToVoiceBtn">Copy Exact Speech Line to Voice Notes</button>
+</div>
+</section>
+<section class="grid section-gap">
+<section class="card span-6 forge-speech">
+<h2>Exact Character Speech Text</h2>
+<p class="muted page-role-note">Type exactly what the player wants the character to say. Voice Studio preview reads from this same box, and this text is also written into the character sheet.</p>
+<label>Character should say exactly this<textarea id="previewText">Greetings, traveler. I carry old stories in my breath, sharp warnings on my tongue, and enough kindness to know when silence is safer than a blade.</textarea></label>
+<div class="actions section-gap-small"><button class="dark" id="forgeSpeakPreviewBtn">Speak This Line With Current Voice</button><button class="secondary" id="copyExactSpeechBtn">Copy Speech Text</button></div>
+</section>
+<section class="card span-6">
+<h2>Character Export</h2>
+<p class="muted page-role-note">This JSON export now includes the generator, voice studio, dropdown builders, sheet data, exact speech text, alignment axes, stats, and any copied resources.</p>
+<div class="actions"><button id="refreshExportBtn">Refresh Full Site Export</button><button class="secondary" id="copyCharacterJsonBtn">Copy JSON</button><button class="dark" id="downloadCharacterJsonBtn">Download Full JSON</button><button id="downloadSheetHtmlBtn">Download Sheet HTML Only</button></div>
+<label class="section-gap-small">Alignment Quiz JSON Import / Character JSON Import<input accept=".json,application/json" id="characterJsonFile" type="file"/></label>
+<textarea class="voice-json" id="characterExport" readonly=""></textarea>
+</section>
+<section class="card span-6">
+<h2>Universal Alignment Axes</h2>
+<div class="axis-clone-grid" id="forgeAxisBars"></div>
+<div class="notice section-gap-small" id="forgeAlignmentSummary"></div>
+</section>
+<section class="card span-6">
+<h2>Skills, Stats, Etc.</h2>
+<div class="stat-grid" id="statGrid"></div>
+<div class="actions"><button class="gray" id="rerollStatsBtn">Regenerate Stats</button></div>
+<div class="divider"></div>
+<div class="resource-mirror" id="forgeSkillsSummary"></div>
+</section>
+<section class="card span-6">
+<h2>Generator Resources Coming In</h2>
+<div class="resource-mirror" id="forgeGeneratorMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Voice Studio Resources Coming In</h2>
+<div class="resource-mirror" id="forgeVoiceMirror"></div>
+</section>
+<section class="card span-12 sheet-shell">
+<h2>Interactive Character Sheet</h2>
+<p class="muted page-role-note">Write directly on the sheet below. Use the bridge buttons above to insert or retrieve data from the generator and voice studio.</p>
+<iframe class="sheet-frame" data-sheet-template="universal-character-sheet-template" id="characterSheetFrame" srcdoc="" title="Universal interactive character sheet (merged into this single HTML)"></iframe>
+</section>
+</section>
+</section>
+<section aria-labelledby="tab-voice" class="page" data-page-panel="voice-studio" id="page-voice">
+<section class="hero">
+<div class="panel">
+<div class="pill-row"><span class="pill gold">Page 3</span><span class="pill">Voice Creation</span><span class="pill">Direct identity + class controls stay here</span></div>
+<h2 class="site-title">Shape a Voice</h2>
+<p class="lede">Use the current character as a source, import character JSON, paste personality notes, or build a voice from scratch. Race, class, subclass, gender identity, and biome remain available directly on this Voice Studio page.</p>
+<div class="notice warn">This creates browser-side voice profiles and Web Speech API previews. It does not clone a real person’s voice; uploaded/pasted material stays local unless you export it.</div>
+<div class="actions"><button id="loadCharacterVoiceBtn">Load From Character Tab</button><button class="secondary" id="buildVoiceBtn">Build Voice From Fields</button><button class="dark" id="speakPreviewBtn">Speak Forge Text</button><button class="gray" id="stopSpeakBtn">Stop</button></div>
+</div>
+<aside class="card">
+<h3>Voice Status</h3>
+<p class="muted" id="voiceStatus">Ready for standalone voice creation.</p>
+<div class="tags" id="voiceBadges"></div>
+</aside>
+</section>
+<section class="card copy-bridge section-gap">
+<h3>Copy applicable resources from pages 1 &amp; 2</h3>
+<p class="copy-note">Load the current generator identity/lineage/class choices and the forge’s exact speech text into this direct Voice Studio workspace.</p>
+<div class="actions">
+<button class="secondary" id="copyToVoiceFromGeneratorForge">Copy Applicable Resources from Pages 1 &amp; 2</button>
+</div>
+</section>
+<section class="card bridge-panel section-gap" id="voiceCustom_customBuilderPanel">
+<h2>Custom Biome + Heritage + Gender Identity + Pronouns</h2>
+<p class="copy-note">Use this embedded dropdown builder when you want this page to pull pre-created biome, heritage, gender identity, pronoun, and honorific data instead of using the shorter direct selectors.</p>
+<div class="actions">
+<button id="voiceCustom_applyCustomToPage" type="button">Apply Custom Builder to This Page</button>
+<button class="secondary" id="voiceCustom_pullFromSheet" type="button">Pull Pre-Created Info from Character Sheet</button>
+<button class="dark" id="voiceCustom_pushToSheet" type="button">Copy This Page to Character Sheet</button>
+<label class="buttonish"><input id="voiceCustom_hideDirect" style="width:auto;min-height:auto" type="checkbox"/> Hide direct biome/race/class/gender/pronoun controls</label>
+</div>
+<div class="custom-builder-grid section-gap-small">
+<label>Biome Group<select id="voiceCustom_biomeGroup"></select></label>
+<label>Biome<select id="voiceCustom_biome"></select></label>
+<label>Heritage Mode<select id="voiceCustom_heritageMode"><option value="single">Single heritage</option><option value="mixed">Mixed parentage</option></select></label>
+<label>Racial Category<select id="voiceCustom_category"></select></label>
+<label>Race<select id="voiceCustom_race"></select></label>
+<label>Bloodline / Lineage / Thread<select id="voiceCustom_lineage"></select></label>
+<label>Gender Identity<select id="voiceCustom_gender"></select></label>
+<label>Pronoun Set<select id="voiceCustom_pronoun"></select></label>
+<label>Title / Honorific / Endearment<select id="voiceCustom_title"></select></label>
+<label class="half">Custom Pronoun Subject<input id="voiceCustom_customSubject" placeholder="xe, fae, name, etc."/></label>
+<label class="half">Custom Pronoun Object<input id="voiceCustom_customObject" placeholder="xem, faer, name, etc."/></label>
+<label class="half">Custom Possessive Determiner<input id="voiceCustom_customPossDet" placeholder="xyr, faer, name's, etc."/></label>
+<label class="half">Custom Possessive Pronoun<input id="voiceCustom_customPossPronoun" placeholder="xyrs, faers, name's, etc."/></label>
+<label class="half">Custom Reflexive<input id="voiceCustom_customReflexive" placeholder="xemself, faerself, nameself, etc."/></label>
+<label class="half">Custom Title / Honorific / Endearment<input id="voiceCustom_customTitle" placeholder="swamp-mage, nest-sibling, Captain..."/></label>
+<div class="wide actions"><button id="voiceCustom_addTitle" type="button">Cache Title</button><button class="secondary" id="voiceCustom_addCustomTitle" type="button">Cache Custom Title</button><button class="gray" id="voiceCustom_clearTitles" type="button">Clear Titles</button></div>
+<div class="wide title-chip-row" id="voiceCustom_titleChips"></div>
+<label class="wide">Generated Appearance Description<textarea id="voiceCustom_appearance" readonly=""></textarea></label>
+<label class="wide">Generated Behavior / Roleplay Description<textarea id="voiceCustom_behavior" readonly=""></textarea></label>
+<label class="wide">Complete Dropdown Selection JSON<textarea class="voice-json" id="voiceCustom_selectionJson" readonly=""></textarea></label>
+</div>
+</section>
+<section class="grid section-gap">
+<section class="card span-6">
+<h2>Name Forge</h2>
+<label>Name<input id="voiceName" placeholder="NPC / player / bot name"/></label>
+<div class="divider"></div>
+<div class="resource-mirror" id="voiceNameForgeMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Identity + Lineage</h2>
+<div class="grid">
+<label class="span-6">Gender Identity<select id="voiceGender"></select></label>
+<label class="span-6">Race<select id="voiceRace"></select></label>
+<label class="span-6">Biome Accent<select id="voiceBiome"></select></label>
+<label class="span-6">Traditional Alignment<input id="voiceAlignment" placeholder="Neutral Good, Chaotic Neutral, etc."/></label>
+</div>
+<div class="divider"></div>
+<div class="resource-mirror" id="voiceIdentityMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Class + Subclass</h2>
+<div class="grid">
+<label class="span-6">Class<select id="voiceClass"></select></label>
+<label class="span-6">Subclass / Path<select id="voiceSubclass"></select></label>
+</div>
+<div class="divider"></div>
+<div class="resource-mirror" id="voiceClassMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Universal Alignment Axes</h2>
+<div class="axis-clone-grid" id="voiceAxisBars"></div>
+<div class="notice section-gap-small" id="voiceAxisSummary"></div>
+<div class="divider"></div>
+<div class="resource-mirror" id="voiceAlignmentAxesMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Race Notes + Abilities</h2>
+<div class="resource-mirror" id="voiceRaceNotesMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Class Features</h2>
+<div class="resource-mirror" id="voiceClassFeaturesMirror"></div>
+</section>
+<section class="card span-6">
+<h2>Voice Notes + Import</h2>
+<label>Personality / Tone Notes<textarea id="voiceNotes" placeholder="Paste character notes, NPC personality, JSON, or voice direction here."></textarea></label>
+<label class="section-gap-small">Import Character JSON<input accept=".json,application/json" id="voiceJsonFile" type="file"/></label>
+</section>
+<section class="card span-6">
+<h2>Editable Voice Sliders</h2>
+<div class="slider-grid" id="voiceSliders"></div>
+<div class="divider"></div>
+<p class="muted">The spoken preview text is on Page 2: Character Forge → Exact Character Speech Text.</p>
+</section>
+<section class="card span-6">
+<h2>Voice Profile Summary</h2>
+<div class="scrollbox" id="voiceSummary"></div>
+</section>
+<section class="card span-6">
+<h2>Voice Export</h2>
+<div class="actions"><button id="copyVoiceJsonBtn">Copy Voice JSON</button><button class="secondary" id="downloadVoiceJsonBtn">Download JSON</button><button class="dark" id="downloadVoiceJsBtn">Download JS Profile</button></div>
+<textarea class="voice-json" id="voiceExport" readonly=""></textarea>
+</section>
+</section>
+</section>
+</main>
+<p class="footer-note">Three-tab layout-only version. Page 1 keeps generator controls, Page 2 merges shared forge resources, and Page 3 keeps Voice Studio direct controls.</p>
+</div>
+<footer class="site-footer"></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<template id="universal-character-sheet-template">
+<div aria-label="Quick section navigation" class="floating-nav collapsed" id="floatingNav">
+<button aria-controls="floatingNavPanel" aria-expanded="false" class="floating-nav-toggle" id="floatingNavToggle" title="Drag to move. Click to open navigation." type="button">
+<span class="floating-nav-icon">☰</span>
+<span class="floating-nav-text">Nav</span>
+</button>
+<div class="floating-nav-panel" id="floatingNavPanel">
+<label for="floatingNavSelect">Jump to sheet section</label>
+<select id="floatingNavSelect">
+<option value="#core">Core Character Profile</option>
+<option value="#lineage">Lineage / Origin</option>
+<option value="#axes">Alignment Axes</option>
+<option value="#abilities">Ability Scores</option>
+<option value="#saves">Saving Throws</option>
+<option value="#skills">Skills</option>
+<option value="#profs">Passives / Languages / Proficiencies</option>
+<option value="#combat">Combat Dashboard</option>
+<option value="#attacks">Attacks / Features</option>
+<option value="#magic">Magic &amp; Abilities / Resources</option>
+<option value="#story">Appearance</option>
+<option value="#personality">Personality / Voice</option>
+<option value="#inventory">Inventory / Equipment</option>
+<option value="#relationships">Relationships</option>
+<option value="#notes">Notes</option>
+</select>
+<button id="floatingNavGo" type="button">Go</button>
+<small class="floating-nav-hint">Click the bubble to collapse. Drag the bubble anywhere on screen.</small>
+</div>
+</div>
+<div class="master-container">
+<header class="main-header">
+<div class="search-bar">
+<div class="logo">Universal<em>Profile</em></div>
+<div class="fake-search"><label for="fakeSearch">Search the realm:</label><input id="fakeSearch" readonly="" value="D&amp;D character sheet modules"/></div>
+<div aria-hidden="true" class="top-links"></div>
+</div>
+<nav class="navbar"><a href="#core">Profile</a> | <a href="#abilities">Abilities</a> | <a href="#skills">Skills</a> | <a href="#combat">Combat</a> | <a href="#magic">Magic &amp; Abilities</a> | <a href="#inventory">Inventory</a></nav>
+</header>
+<main class="page-content-container">
+<aside class="profile-sidebar">
+<h1><span data-live="characterName">Universal Character</span></h1>
+<div aria-label="Character art display" class="profile-picture-container two-art-profile">
+<div aria-label="Drop or choose primary character art" class="art-drop-slot" data-art-slot="characterArt.primary" role="button" tabindex="0">
+
+<div class="art-drop-label"><b>Primary Character Art</b><span>Drop image here or click to choose</span></div>
+<input accept="image/*" aria-label="Primary character art file" data-art-file="characterArt.primary" type="file"/>
+<textarea aria-label="Primary character art data" class="art-hidden-source" data-key="characterArt.primary" id="fld_characterArtPrimary"></textarea>
+</div>
+<div aria-label="Drop or choose secondary character art" class="art-drop-slot" data-art-slot="characterArt.secondary" role="button" tabindex="0">
+
+<div class="art-drop-label"><b>Secondary Character Art</b><span>Drop image here or click to choose</span></div>
+<input accept="image/*" aria-label="Secondary character art file" data-art-file="characterArt.secondary" type="file"/>
+<textarea aria-label="Secondary character art data" class="art-hidden-source" data-key="characterArt.secondary" id="fld_characterArtSecondary"></textarea>
+</div>
+</div>
+<ul class="stats-list">
+<li><b>Race:</b> <span data-live="race">—</span></li>
+<li><b>Class:</b> <span data-live="classSummary">—</span></li>
+<li><b>Level:</b> <span data-live="level">0</span></li>
+<li><b>Pronouns:</b> <span data-live="characterPronouns">—</span></li>
+</ul>
+<div class="contact-box">
+<h2>Contacting This Character</h2>
+<div class="contact-grid">
+<button data-action="save" type="button">💾 Save</button>
+<button data-action="export" type="button">📤 Export</button>
+<label class="mini-upload">📥 Import<input accept=".json,application/json" id="importFile" type="file"/></label>
+<button data-action="print" type="button">🖨 Print</button>
+<button data-action="clear" type="button">🧹 Clear</button>
+</div>
+</div>
+<section class="module sidebar-appearance-module" id="story">
+<div class="module-hd"><h2>Appearance</h2><span class="spark">✦</span></div>
+<p class="module-subtitle">Physical details. Character art is handled by the two drag-and-drop art slots above.</p>
+<div class="module-body">
+<div class="field-grid">
+<div class="field"><label for="fld_age">Age</label><input data-key="age" id="fld_age" type="text" value=""/></div>
+<div class="field"><label for="fld_height">Height</label><input data-key="height" id="fld_height" type="text" value=""/></div>
+<div class="field"><label for="fld_weight">Weight</label><input data-key="weight" id="fld_weight" type="text" value=""/></div>
+<div class="field"><label for="fld_eyes">Eyes</label><input data-key="eyes" id="fld_eyes" type="text" value=""/></div>
+<div class="field"><label for="fld_skin">Skin</label><input data-key="skin" id="fld_skin" type="text" value=""/></div>
+<div class="field"><label for="fld_hair">Hair</label><input data-key="hair" id="fld_hair" type="text" value=""/></div>
+<div class="field"><label for="fld_appearance">Character Appearance</label><textarea data-key="appearance" id="fld_appearance" rows="8"></textarea></div>
+<div class="field"><label for="fld_symbol">Symbol / Organization Mark</label><input data-key="symbol" id="fld_symbol" type="text" value=""/></div>
+</div>
+</div>
+</section>
+</aside>
+<section class="profile-main">
+<section class="module" id="core">
+<div class="module-hd"><h2>Core Character Profile</h2><span class="spark">✦</span></div>
+<p class="module-subtitle">The main profile block. Primary and secondary level calculate total level and proficiency bonus.</p>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_characterName">Character Name</label><input data-key="characterName" id="fld_characterName" placeholder="Character name" type="text" value=""/></div>
+<div class="field"><label for="fld_characterPronouns">Character Pronouns</label><input data-key="characterPronouns" id="fld_characterPronouns" type="text" value=""/></div>
+<div class="field"><label for="fld_playerName">Player Name</label><input data-key="playerName" id="fld_playerName" type="text" value=""/></div>
+<div class="field"><label for="fld_playerPronouns">Player Pronouns</label><input data-key="playerPronouns" id="fld_playerPronouns" type="text" value=""/></div>
+<div class="field"><label for="fld_race">Race / Lineage</label><input data-key="race" id="fld_race" type="text" value=""/></div>
+<div class="field"><label for="fld_background">Background</label><select data-key="background" id="fld_background"><option value="">—</option><option value="Acolyte">Acolyte</option><option value="Criminal">Criminal</option><option value="Sage">Sage</option><option value="Soldier">Soldier</option><option value="Charlatan">Charlatan</option><option value="Entertainer">Entertainer</option><option value="Folk Hero">Folk Hero</option><option value="Guild Artisan">Guild Artisan</option><option value="Hermit">Hermit</option><option value="Noble">Noble</option><option value="Outlander">Outlander</option><option value="Sailor">Sailor</option><option value="Urchin">Urchin</option><option value="Custom Manual Background">Custom Manual Background</option></select></div>
+<div class="field"><label for="fld_primaryClass">Primary Class</label><select data-key="primaryClass" id="fld_primaryClass"><option value="">—</option><option value="Barbarian">Barbarian</option><option value="Bard">Bard</option><option value="Cleric">Cleric</option><option value="Druid">Druid</option><option value="Fighter">Fighter</option><option value="Monk">Monk</option><option value="Paladin">Paladin</option><option value="Ranger">Ranger</option><option value="Rogue">Rogue</option><option value="Sorcerer">Sorcerer</option><option value="Warlock">Warlock</option><option value="Wizard">Wizard</option><option value="Artificer">Artificer</option><option value="Blood Hunter">Blood Hunter</option></select></div>
+<div class="field"><label for="fld_primarySubclass">Primary Subclass</label><select data-key="primarySubclass" id="fld_primarySubclass"><option value="">—</option></select></div>
+<div class="field"><label for="fld_primaryLevel">Primary Level</label><input data-key="primaryLevel" id="fld_primaryLevel" max="8" min="5" type="number" value="8"/></div>
+<div class="field"><label for="fld_secondaryClass">Secondary Class</label><select data-key="secondaryClass" id="fld_secondaryClass"><option value="">—</option><option value=""></option><option value="Barbarian">Barbarian</option><option value="Bard">Bard</option><option value="Cleric">Cleric</option><option value="Druid">Druid</option><option value="Fighter">Fighter</option><option value="Monk">Monk</option><option value="Paladin">Paladin</option><option value="Ranger">Ranger</option><option value="Rogue">Rogue</option><option value="Sorcerer">Sorcerer</option><option value="Warlock">Warlock</option><option value="Wizard">Wizard</option><option value="Artificer">Artificer</option><option value="Blood Hunter">Blood Hunter</option></select></div>
+<div class="field"><label for="fld_secondarySubclass">Secondary Subclass</label><select data-key="secondarySubclass" id="fld_secondarySubclass"><option value="">—</option></select></div>
+<div class="field"><label for="fld_secondaryLevel">Secondary Level</label><input data-key="secondaryLevel" id="fld_secondaryLevel" max="3" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_level">Total Level</label><input data-key="level" id="fld_level" max="40" min="0" readonly="" type="number" value=""/></div>
+<div class="field"><label for="fld_xp">XP</label><input data-key="xp" id="fld_xp" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_profBonus">Proficiency Bonus</label><input data-key="profBonus" id="fld_profBonus" readonly="" type="text" value=""/></div></div></div>
+</section>
+<section class="module" id="lineage">
+<div class="module-hd"><h2>Lineage, Biome, Identity, Pronouns, Honorifics, and Faction Association</h2><span class="spark">✦</span></div>
+<p class="module-subtitle">Character information can be edited manually, imported from JSON, received from Character Creator / linked creator pages, or selected from the embedded Universal biome + heritage dropdown logic.</p>
+<div class="module-body">
+<div class="field-grid">
+<div class="submodule bdd-panel" id="biomeHeritageBuilder">
+<h3>Biome + Heritage Builder</h3>
+<p class="bdd-help">Biome cache filters race and lineage options. Single heritage and mixed parentage are mutually exclusive; mixed parentage enables Parent 1 / Parent 2 logic.</p>
+<div class="bdd-block">
+<h4>1) Biome Cache</h4>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_biomeGroupSelect">Biome Group</label><select id="bdd_biomeGroupSelect"></select></div>
+<div class="field"><label for="bdd_biomeSelect">Biome</label><select id="bdd_biomeSelect"></select></div>
+</div>
+<div class="button-row">
+<button id="bdd_addBiomeBtn" type="button">Cache Selected Biome</button>
+<button class="warn" id="bdd_clearBiomeBtn" type="button">Clear Biome Cache</button>
+</div>
+<div class="bdd-chips" id="bdd_biomeChips"></div>
+<textarea class="bdd-hidden" data-key="lineage.biomeCacheJson" id="fld_lineage_biomeCacheJson"></textarea>
+<input data-key="lineage.biomeCategory" id="fld_lineage_biomeCategory" type="hidden"/>
+<input data-key="lineage.originBiome" id="fld_lineage_originBiome" type="hidden"/>
+</div>
+<div class="bdd-block">
+<h4>2) Heritage Mode</h4>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_heritageMode">Choose Builder Mode</label><select data-key="lineage.heritageMode" id="bdd_heritageMode"><option value="single">Single heritage</option><option value="mixed">Mixed parentage</option></select></div>
+<div class="field"><label for="bdd_filterMixedByBiome">Mixed Parent Biome Filtering</label><select data-key="lineage.filterMixedByBiome" id="bdd_filterMixedByBiome"><option value="yes">Apply biome cache to both parents</option><option value="no">Ignore biome cache for mixed parents</option></select></div>
+</div>
+</div>
+<div class="bdd-block" id="bdd_singlePanel">
+<h4>3) Single Heritage</h4>
+<div class="field-grid bdd-three">
+<div class="field"><label for="bdd_primaryCategory">Racial Category</label><select data-key="lineage.single.categoryId" id="bdd_primaryCategory"></select></div>
+<div class="field"><label for="bdd_primaryRace">Race</label><select data-key="lineage.single.raceId" id="bdd_primaryRace"></select></div>
+<div class="field"><label for="bdd_primaryLineage">Bloodline / Lineage / Thread</label><select data-key="lineage.single.lineageId" id="bdd_primaryLineage"></select></div>
+</div>
+<div class="bdd-description" id="bdd_primaryDescription"></div>
+</div>
+<div class="bdd-block hidden" id="bdd_mixedPanel">
+<h4>3) Mixed Parentage</h4>
+<div class="split bdd-split">
+<div class="parent-box">
+<h4>Parent 1</h4>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_p1Category">Parent 1 Category</label><select data-key="lineage.mixed.parent1.categoryId" id="bdd_p1Category"></select></div>
+<div class="field"><label for="bdd_p1Race">Parent 1 Race</label><select data-key="lineage.mixed.parent1.raceId" id="bdd_p1Race"></select></div>
+<div class="field"><label for="bdd_p1Lineage">Parent 1 Bloodline</label><select data-key="lineage.mixed.parent1.lineageId" id="bdd_p1Lineage"></select></div>
+</div>
+<div class="bdd-description" id="bdd_p1Description"></div>
+</div>
+<div class="parent-box">
+<h4>Parent 2 — Filtered by Parent 1</h4>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_p2Category">Parent 2 Category</label><select data-key="lineage.mixed.parent2.categoryId" id="bdd_p2Category"></select></div>
+<div class="field"><label for="bdd_p2Race">Parent 2 Race</label><select data-key="lineage.mixed.parent2.raceId" id="bdd_p2Race"></select></div>
+<div class="field"><label for="bdd_p2Lineage">Parent 2 Bloodline</label><select data-key="lineage.mixed.parent2.lineageId" id="bdd_p2Lineage"></select></div>
+</div>
+<div class="bdd-description" id="bdd_p2Description"></div>
+</div>
+</div>
+<p class="bdd-help" id="bdd_mixedRuleStatus"></p>
+</div>
+<div class="bdd-block">
+<h4>4) Generated Heritage Summary</h4>
+<div class="field-grid">
+<div class="field"><label for="fld_lineage_generatedAppearanceDescription">Generated Appearance Description</label><textarea data-key="lineage.generatedAppearanceDescription" id="fld_lineage_generatedAppearanceDescription" readonly="" rows="5"></textarea></div>
+<div class="field"><label for="fld_lineage_generatedBehaviorDescription">Generated Behavior / Roleplay Description</label><textarea data-key="lineage.generatedBehaviorDescription" id="fld_lineage_generatedBehaviorDescription" readonly="" rows="5"></textarea></div>
+</div>
+<div class="button-row"><button id="bdd_applyAppearanceBtn" type="button">Apply Generated Appearance to Appearance Field</button></div>
+<textarea class="bdd-hidden" data-key="lineage.dropdownSelectionJson" id="fld_lineage_dropdownSelectionJson"></textarea>
+<input data-key="lineage.raceCategory" id="fld_lineage_raceCategory" type="hidden"/>
+<input data-key="lineage.raceCategoryId" id="fld_lineage_raceCategoryId" type="hidden"/>
+<input data-key="lineage.race1" id="fld_lineage_race1" type="hidden"/>
+<input data-key="lineage.race1Id" id="fld_lineage_race1Id" type="hidden"/>
+<input data-key="lineage.race1Lineage" id="fld_lineage_race1Lineage" type="hidden"/>
+<input data-key="lineage.race1LineageId" id="fld_lineage_race1LineageId" type="hidden"/>
+<input data-key="lineage.race2Enabled" id="fld_lineage_race2Enabled" type="hidden"/>
+<input data-key="lineage.race2Category" id="fld_lineage_race2Category" type="hidden"/>
+<input data-key="lineage.race2CategoryId" id="fld_lineage_race2CategoryId" type="hidden"/>
+<input data-key="lineage.race2" id="fld_lineage_race2" type="hidden"/>
+<input data-key="lineage.race2Id" id="fld_lineage_race2Id" type="hidden"/>
+<input data-key="lineage.race2Lineage" id="fld_lineage_race2Lineage" type="hidden"/>
+<input data-key="lineage.race2LineageId" id="fld_lineage_race2LineageId" type="hidden"/>
+</div>
+</div>
+<div class="submodule bdd-panel" id="identityPronounsBuilder">
+<h3>Gender Identity, Pronouns, Titles, Honorifics, and Endearments</h3>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_genderIdentity">Gender Identity</label><select data-key="genderIdentity" id="bdd_genderIdentity"></select></div>
+<div class="field"><label for="bdd_pronounSet">Pronoun Set</label><select data-key="pronouns.setName" id="bdd_pronounSet"></select></div>
+</div>
+<div class="parent-box hidden" id="bdd_customPronounBox">
+<h4>Add Your Own Pronouns</h4>
+<div class="field-grid bdd-three">
+<div class="field"><label for="bdd_customSubject">Subject Pronoun</label><input data-key="pronouns.customSubject" id="bdd_customSubject" placeholder="Example: xe"/></div>
+<div class="field"><label for="bdd_customObject">Object Pronoun</label><input data-key="pronouns.customObject" id="bdd_customObject" placeholder="Example: xem"/></div>
+<div class="field"><label for="bdd_customPossDet">Possessive Determiner</label><input data-key="pronouns.customPossessiveDeterminer" id="bdd_customPossDet" placeholder="Example: xyr"/></div>
+<div class="field"><label for="bdd_customPossPronoun">Possessive Pronoun</label><input data-key="pronouns.customPossessivePronoun" id="bdd_customPossPronoun" placeholder="Example: xyrs"/></div>
+<div class="field"><label for="bdd_customReflexive">Reflexive Pronoun</label><input data-key="pronouns.customReflexive" id="bdd_customReflexive" placeholder="Example: xemself"/></div>
+</div>
+</div>
+<div class="bdd-description" id="bdd_pronounDescription"></div>
+<input data-key="pronouns.subject" id="fld_pronouns_subject" type="hidden"/>
+<input data-key="pronouns.object" id="fld_pronouns_object" type="hidden"/>
+<input data-key="pronouns.possessiveDeterminer" id="fld_pronouns_possessiveDeterminer" type="hidden"/>
+<input data-key="pronouns.possessivePronoun" id="fld_pronouns_possessivePronoun" type="hidden"/>
+<input data-key="pronouns.reflexive" id="fld_pronouns_reflexive" type="hidden"/>
+<div class="bdd-block">
+<h4>Titles / Honorifics / Endearment Cache</h4>
+<div class="field-grid bdd-two">
+<div class="field"><label for="bdd_titleSelect">Title / Honorific / Endearment</label><select id="bdd_titleSelect"></select></div>
+<div class="field"><label for="bdd_customTitle">Add Personalized Title</label><input id="bdd_customTitle" placeholder="Example: swamp-nibling, nest-sibling, little sprout"/></div>
+</div>
+<div class="button-row">
+<button id="bdd_addTitleBtn" type="button">Cache Selected Title</button>
+<button id="bdd_addCustomTitleBtn" type="button">Add Custom Title</button>
+<button class="warn" id="bdd_clearTitlesBtn" type="button">Clear Title Cache</button>
+</div>
+<div class="bdd-chips" id="bdd_titleChips"></div>
+<textarea class="bdd-hidden" data-key="honorifics.cachedTitlesJson" id="fld_honorifics_cachedTitlesJson"></textarea>
+</div>
+</div>
+<div class="field"><label for="fld_magicSchool">Magic School</label><select data-key="magicSchool" id="fld_magicSchool"><option value="">—</option><option value="Abjuration">Abjuration</option><option value="Conjuration">Conjuration</option><option value="Divination">Divination</option><option value="Enchantment">Enchantment</option><option value="Evocation">Evocation</option><option value="Illusion">Illusion</option><option value="Necromancy">Necromancy</option><option value="Transmutation">Transmutation</option><option value="Chronurgy">Chronurgy</option><option value="Graviturgy">Graviturgy</option><option value="Divine">Divine</option><option value="Primal">Primal</option><option value="Pact">Pact</option><option value="Psionic">Psionic</option><option value="Monk Discipline">Monk Discipline</option><option value="Martial Techniques">Martial Techniques</option></select></div>
+<div class="submodule faction-association-panel"><h3>Faction Association</h3>
+<div class="field"><label for="fld_autoFactionAssociation">Automatic Association</label><input data-key="autoFactionAssociation" id="fld_autoFactionAssociation" readonly="" type="text" value="The Nefaric Veil - Tier 2 Specialist / Officer / Veteran."/></div>
+<div class="field"><label for="fld_tier1Faction">Choose 1 Extra Tier 1 Faction</label><select data-key="tier1Faction" id="fld_tier1Faction"><option value="">—</option><option value="The Crucible Wardens">The Crucible Wardens</option><option value="The Obsidian Diadem">The Obsidian Diadem</option><option value="The Choral Synod">The Choral Synod</option><option value="The Brass Concordat">The Brass Concordat</option><option value="The Black-Maw Myriad">The Black-Maw Myriad</option><option value="The Glasswell Institute">The Glasswell Institute</option><option value="The Freeblade Veil">The Freeblade Veil</option><option value="The Cog-Sanctum Synod">The Cog-Sanctum Synod</option><option value="The Regent Lattice">The Regent Lattice</option></select></div>
+<p class="faction-help">Other selected associations are tracked as Tier 0 contacts. You can choose as many Tier 0 associations as fit the character.</p>
+<div class="faction-grid">
+<div class="field checkbox-field"><label><input data-key="tier0Factions.crucibleWardens" id="fld_tier0Factions_crucibleWardens" type="checkbox"/><span>The Crucible Wardens</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.obsidianDiadem" id="fld_tier0Factions_obsidianDiadem" type="checkbox"/><span>The Obsidian Diadem</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.choralSynod" id="fld_tier0Factions_choralSynod" type="checkbox"/><span>The Choral Synod</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.brassConcordat" id="fld_tier0Factions_brassConcordat" type="checkbox"/><span>The Brass Concordat</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.blackMawMyriad" id="fld_tier0Factions_blackMawMyriad" type="checkbox"/><span>The Black-Maw Myriad</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.glasswellInstitute" id="fld_tier0Factions_glasswellInstitute" type="checkbox"/><span>The Glasswell Institute</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.freebladeVeil" id="fld_tier0Factions_freebladeVeil" type="checkbox"/><span>The Freeblade Veil</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.cogSanctumSynod" id="fld_tier0Factions_cogSanctumSynod" type="checkbox"/><span>The Cog-Sanctum Synod</span></label></div>
+<div class="field checkbox-field"><label><input data-key="tier0Factions.regentLattice" id="fld_tier0Factions_regentLattice" type="checkbox"/><span>The Regent Lattice</span></label></div>
+</div>
+<div class="field"><label for="fld_tier0Notes">Tier 0 Association Notes</label><input data-key="tier0Notes" id="fld_tier0Notes" placeholder="Contacts, rivals, debts, how they know the faction…" type="text" value=""/></div>
+</div>
+<div class="submodule character-sync-note"><h3>Character Data Input</h3><p>Names and character details are entered manually, imported from a saved JSON file, or sent in from Character Creator / linked creator pages. This sheet does not generate names.</p></div>
+</div>
+</div>
+</section>
+<section class="module" id="axes">
+<div class="module-hd"><h2>Universal Alignment Axes</h2><span class="spark">✦</span></div>
+<p class="module-subtitle">250-point phase sliders from 0 to 3000 with auto-written phase labels.</p>
+<div class="module-body"><div class="alignment-grid"><div class="axis-card" data-axis-card="altruism">
+<div class="axis-title"><strong>Altruism Axis</strong><span>selfish ↔ neutral ↔ altruistic</span></div>
+<div class="field range-field"><label for="fld_axes_altruism">Altruism</label><input aria-label="Altruism alignment score" data-key="axes.altruism" id="fld_axes_altruism" list="alignmentTicks-altruism" max="3000" min="0" step="250" type="range" value="1500"/><output data-for="axes.altruism">1500</output></div>
+<div class="axis-ticks"><span>0</span><span>250</span><span>500</span><span>750</span><span>1000</span><span>1250</span><span>1500</span><span>1750</span><span>2000</span><span>2250</span><span>2500</span><span>2750</span><span>3000</span></div>
+<div class="field"><label for="fld_axisLabels_altruism">Altruism Phase</label><input data-key="axisLabels.altruism" id="fld_axisLabels_altruism" readonly="" type="text" value=""/></div>
+</div>
+<div class="axis-card" data-axis-card="lawfulness">
+<div class="axis-title"><strong>Lawfulness Axis</strong><span>chaotic ↔ neutral ↔ lawful</span></div>
+<div class="field range-field"><label for="fld_axes_lawfulness">Lawfulness</label><input aria-label="Lawfulness alignment score" data-key="axes.lawfulness" id="fld_axes_lawfulness" list="alignmentTicks-lawfulness" max="3000" min="0" step="250" type="range" value="1500"/><output data-for="axes.lawfulness">1500</output></div>
+<div class="axis-ticks"><span>0</span><span>250</span><span>500</span><span>750</span><span>1000</span><span>1250</span><span>1500</span><span>1750</span><span>2000</span><span>2250</span><span>2500</span><span>2750</span><span>3000</span></div>
+<div class="field"><label for="fld_axisLabels_lawfulness">Lawfulness Phase</label><input data-key="axisLabels.lawfulness" id="fld_axisLabels_lawfulness" readonly="" type="text" value=""/></div>
+</div>
+<div class="axis-card" data-axis-card="cooperation">
+<div class="axis-title"><strong>Cooperation Axis</strong><span>combative ↔ neutral ↔ cooperative</span></div>
+<div class="field range-field"><label for="fld_axes_cooperation">Cooperation</label><input aria-label="Cooperation alignment score" data-key="axes.cooperation" id="fld_axes_cooperation" list="alignmentTicks-cooperation" max="3000" min="0" step="250" type="range" value="1500"/><output data-for="axes.cooperation">1500</output></div>
+<div class="axis-ticks"><span>0</span><span>250</span><span>500</span><span>750</span><span>1000</span><span>1250</span><span>1500</span><span>1750</span><span>2000</span><span>2250</span><span>2500</span><span>2750</span><span>3000</span></div>
+<div class="field"><label for="fld_axisLabels_cooperation">Cooperation Phase</label><input data-key="axisLabels.cooperation" id="fld_axisLabels_cooperation" readonly="" type="text" value=""/></div>
+</div>
+<div class="axis-card" data-axis-card="honor">
+<div class="axis-title"><strong>Honor Axis</strong><span>pragmatic ↔ neutral ↔ honorable</span></div>
+<div class="field range-field"><label for="fld_axes_honor">Honor</label><input aria-label="Honor alignment score" data-key="axes.honor" id="fld_axes_honor" list="alignmentTicks-honor" max="3000" min="0" step="250" type="range" value="1500"/><output data-for="axes.honor">1500</output></div>
+<div class="axis-ticks"><span>0</span><span>250</span><span>500</span><span>750</span><span>1000</span><span>1250</span><span>1500</span><span>1750</span><span>2000</span><span>2250</span><span>2500</span><span>2750</span><span>3000</span></div>
+<div class="field"><label for="fld_axisLabels_honor">Honor Phase</label><input data-key="axisLabels.honor" id="fld_axisLabels_honor" readonly="" type="text" value=""/></div>
+</div>
+<div class="field"><label for="fld_alignmentName">Alignment Name</label><input data-key="alignmentName" id="fld_alignmentName" type="text" value=""/></div>
+<div class="field"><label for="fld_alignmentDescription">Alignment Description</label><textarea data-key="alignmentDescription" id="fld_alignmentDescription" rows="5"></textarea></div>
+<div class="field"><label for="fld_axisPhases">Alignment Axis Summary</label><textarea data-key="axisPhases" id="fld_axisPhases" rows="5"></textarea></div></div><div class="button-row"><button data-action="neutral-axes" type="button">Reset Axes to Neutral</button></div></div>
+</section>
+<section class="module" id="abilities">
+<div class="module-hd"><h2>Ability Scores</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="ability-grid"><div class="ability-card">
+<div class="ability-name">Strength</div>
+<div class="field"><label for="fld_scores_STR">Score</label><input data-key="scores.STR" id="fld_scores_STR" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_STR">Modifier</label><input data-key="mods.STR" id="fld_mods_STR" readonly="" type="text" value="+0"/></div>
+</div>
+<div class="ability-card">
+<div class="ability-name">Dexterity</div>
+<div class="field"><label for="fld_scores_DEX">Score</label><input data-key="scores.DEX" id="fld_scores_DEX" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_DEX">Modifier</label><input data-key="mods.DEX" id="fld_mods_DEX" readonly="" type="text" value="+0"/></div>
+</div>
+<div class="ability-card">
+<div class="ability-name">Constitution</div>
+<div class="field"><label for="fld_scores_CON">Score</label><input data-key="scores.CON" id="fld_scores_CON" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_CON">Modifier</label><input data-key="mods.CON" id="fld_mods_CON" readonly="" type="text" value="+0"/></div>
+</div>
+<div class="ability-card">
+<div class="ability-name">Intelligence</div>
+<div class="field"><label for="fld_scores_INT">Score</label><input data-key="scores.INT" id="fld_scores_INT" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_INT">Modifier</label><input data-key="mods.INT" id="fld_mods_INT" readonly="" type="text" value="+0"/></div>
+</div>
+<div class="ability-card">
+<div class="ability-name">Wisdom</div>
+<div class="field"><label for="fld_scores_WIS">Score</label><input data-key="scores.WIS" id="fld_scores_WIS" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_WIS">Modifier</label><input data-key="mods.WIS" id="fld_mods_WIS" readonly="" type="text" value="+0"/></div>
+</div>
+<div class="ability-card">
+<div class="ability-name">Charisma</div>
+<div class="field"><label for="fld_scores_CHA">Score</label><input data-key="scores.CHA" id="fld_scores_CHA" max="30" min="1" type="number" value="10"/></div>
+<div class="field"><label for="fld_mods_CHA">Modifier</label><input data-key="mods.CHA" id="fld_mods_CHA" readonly="" type="text" value="+0"/></div>
+</div></div></div>
+</section>
+<section class="module" id="saves">
+<div class="module-hd"><h2>Saving Throws</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="table-wrap"><table><thead><tr><th>Prof</th><th>Save</th><th>Total</th><th>Notes</th></tr></thead><tbody><tr><td><div class="field checkbox-field"><label><input aria-label="Strength save proficiency" data-key="saveProfs.STR" id="fld_saveProfs_STR" type="checkbox"/><span>Str</span></label></div></td><th>Strength</th><td><div class="field"><label for="fld_saves_STR">Str</label><input data-key="saves.STR" id="fld_saves_STR" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_STR">Str</label><input data-key="saveNotes.STR" id="fld_saveNotes_STR" placeholder="notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Dexterity save proficiency" data-key="saveProfs.DEX" id="fld_saveProfs_DEX" type="checkbox"/><span>Dex</span></label></div></td><th>Dexterity</th><td><div class="field"><label for="fld_saves_DEX">Dex</label><input data-key="saves.DEX" id="fld_saves_DEX" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_DEX">Dex</label><input data-key="saveNotes.DEX" id="fld_saveNotes_DEX" placeholder="notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Constitution save proficiency" data-key="saveProfs.CON" id="fld_saveProfs_CON" type="checkbox"/><span>Con</span></label></div></td><th>Constitution</th><td><div class="field"><label for="fld_saves_CON">Con</label><input data-key="saves.CON" id="fld_saves_CON" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_CON">Con</label><input data-key="saveNotes.CON" id="fld_saveNotes_CON" placeholder="notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Intelligence save proficiency" data-key="saveProfs.INT" id="fld_saveProfs_INT" type="checkbox"/><span>Int</span></label></div></td><th>Intelligence</th><td><div class="field"><label for="fld_saves_INT">Int</label><input data-key="saves.INT" id="fld_saves_INT" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_INT">Int</label><input data-key="saveNotes.INT" id="fld_saveNotes_INT" placeholder="notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Wisdom save proficiency" data-key="saveProfs.WIS" id="fld_saveProfs_WIS" type="checkbox"/><span>Wis</span></label></div></td><th>Wisdom</th><td><div class="field"><label for="fld_saves_WIS">Wis</label><input data-key="saves.WIS" id="fld_saves_WIS" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_WIS">Wis</label><input data-key="saveNotes.WIS" id="fld_saveNotes_WIS" placeholder="notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Charisma save proficiency" data-key="saveProfs.CHA" id="fld_saveProfs_CHA" type="checkbox"/><span>Cha</span></label></div></td><th>Charisma</th><td><div class="field"><label for="fld_saves_CHA">Cha</label><input data-key="saves.CHA" id="fld_saves_CHA" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_saveNotes_CHA">Cha</label><input data-key="saveNotes.CHA" id="fld_saveNotes_CHA" placeholder="notes" type="text" value=""/></div></td></tr></tbody></table></div></div>
+</section>
+<section class="module" id="skills">
+<div class="module-hd"><h2>Skills</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="table-wrap"><table><thead><tr><th>Prof</th><th>Skill</th><th>Total</th><th>Notes</th></tr></thead><tbody><tr><td><div class="field checkbox-field"><label><input aria-label="Acrobatics proficiency" data-key="skillProfs.acrobatics" id="fld_skillProfs_acrobatics" type="checkbox"/><span>Acrobatics</span></label></div></td><th>Acrobatics <small>(DEX)</small></th><td><div class="field"><label for="fld_skills_acrobatics">Acrobatics</label><input data-key="skills.acrobatics" id="fld_skills_acrobatics" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_acrobatics">Acrobatics</label><input data-key="skillNotes.acrobatics" id="fld_skillNotes_acrobatics" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Animal Handling proficiency" data-key="skillProfs.animalHandling" id="fld_skillProfs_animalHandling" type="checkbox"/><span>Animal Handling</span></label></div></td><th>Animal Handling <small>(WIS)</small></th><td><div class="field"><label for="fld_skills_animalHandling">Animal Handling</label><input data-key="skills.animalHandling" id="fld_skills_animalHandling" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_animalHandling">Animal Handling</label><input data-key="skillNotes.animalHandling" id="fld_skillNotes_animalHandling" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Arcana proficiency" data-key="skillProfs.arcana" id="fld_skillProfs_arcana" type="checkbox"/><span>Arcana</span></label></div></td><th>Arcana <small>(INT)</small></th><td><div class="field"><label for="fld_skills_arcana">Arcana</label><input data-key="skills.arcana" id="fld_skills_arcana" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_arcana">Arcana</label><input data-key="skillNotes.arcana" id="fld_skillNotes_arcana" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Athletics proficiency" data-key="skillProfs.athletics" id="fld_skillProfs_athletics" type="checkbox"/><span>Athletics</span></label></div></td><th>Athletics <small>(STR)</small></th><td><div class="field"><label for="fld_skills_athletics">Athletics</label><input data-key="skills.athletics" id="fld_skills_athletics" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_athletics">Athletics</label><input data-key="skillNotes.athletics" id="fld_skillNotes_athletics" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Deception proficiency" data-key="skillProfs.deception" id="fld_skillProfs_deception" type="checkbox"/><span>Deception</span></label></div></td><th>Deception <small>(CHA)</small></th><td><div class="field"><label for="fld_skills_deception">Deception</label><input data-key="skills.deception" id="fld_skills_deception" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_deception">Deception</label><input data-key="skillNotes.deception" id="fld_skillNotes_deception" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="History proficiency" data-key="skillProfs.history" id="fld_skillProfs_history" type="checkbox"/><span>History</span></label></div></td><th>History <small>(INT)</small></th><td><div class="field"><label for="fld_skills_history">History</label><input data-key="skills.history" id="fld_skills_history" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_history">History</label><input data-key="skillNotes.history" id="fld_skillNotes_history" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Insight proficiency" data-key="skillProfs.insight" id="fld_skillProfs_insight" type="checkbox"/><span>Insight</span></label></div></td><th>Insight <small>(WIS)</small></th><td><div class="field"><label for="fld_skills_insight">Insight</label><input data-key="skills.insight" id="fld_skills_insight" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_insight">Insight</label><input data-key="skillNotes.insight" id="fld_skillNotes_insight" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Intimidation proficiency" data-key="skillProfs.intimidation" id="fld_skillProfs_intimidation" type="checkbox"/><span>Intimidation</span></label></div></td><th>Intimidation <small>(CHA)</small></th><td><div class="field"><label for="fld_skills_intimidation">Intimidation</label><input data-key="skills.intimidation" id="fld_skills_intimidation" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_intimidation">Intimidation</label><input data-key="skillNotes.intimidation" id="fld_skillNotes_intimidation" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Investigation proficiency" data-key="skillProfs.investigation" id="fld_skillProfs_investigation" type="checkbox"/><span>Investigation</span></label></div></td><th>Investigation <small>(INT)</small></th><td><div class="field"><label for="fld_skills_investigation">Investigation</label><input data-key="skills.investigation" id="fld_skills_investigation" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_investigation">Investigation</label><input data-key="skillNotes.investigation" id="fld_skillNotes_investigation" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Medicine proficiency" data-key="skillProfs.medicine" id="fld_skillProfs_medicine" type="checkbox"/><span>Medicine</span></label></div></td><th>Medicine <small>(WIS)</small></th><td><div class="field"><label for="fld_skills_medicine">Medicine</label><input data-key="skills.medicine" id="fld_skills_medicine" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_medicine">Medicine</label><input data-key="skillNotes.medicine" id="fld_skillNotes_medicine" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Nature proficiency" data-key="skillProfs.nature" id="fld_skillProfs_nature" type="checkbox"/><span>Nature</span></label></div></td><th>Nature <small>(INT)</small></th><td><div class="field"><label for="fld_skills_nature">Nature</label><input data-key="skills.nature" id="fld_skills_nature" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_nature">Nature</label><input data-key="skillNotes.nature" id="fld_skillNotes_nature" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Perception proficiency" data-key="skillProfs.perception" id="fld_skillProfs_perception" type="checkbox"/><span>Perception</span></label></div></td><th>Perception <small>(WIS)</small></th><td><div class="field"><label for="fld_skills_perception">Perception</label><input data-key="skills.perception" id="fld_skills_perception" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_perception">Perception</label><input data-key="skillNotes.perception" id="fld_skillNotes_perception" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Performance proficiency" data-key="skillProfs.performance" id="fld_skillProfs_performance" type="checkbox"/><span>Performance</span></label></div></td><th>Performance <small>(CHA)</small></th><td><div class="field"><label for="fld_skills_performance">Performance</label><input data-key="skills.performance" id="fld_skills_performance" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_performance">Performance</label><input data-key="skillNotes.performance" id="fld_skillNotes_performance" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Persuasion proficiency" data-key="skillProfs.persuasion" id="fld_skillProfs_persuasion" type="checkbox"/><span>Persuasion</span></label></div></td><th>Persuasion <small>(CHA)</small></th><td><div class="field"><label for="fld_skills_persuasion">Persuasion</label><input data-key="skills.persuasion" id="fld_skills_persuasion" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_persuasion">Persuasion</label><input data-key="skillNotes.persuasion" id="fld_skillNotes_persuasion" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Religion proficiency" data-key="skillProfs.religion" id="fld_skillProfs_religion" type="checkbox"/><span>Religion</span></label></div></td><th>Religion <small>(INT)</small></th><td><div class="field"><label for="fld_skills_religion">Religion</label><input data-key="skills.religion" id="fld_skills_religion" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_religion">Religion</label><input data-key="skillNotes.religion" id="fld_skillNotes_religion" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Sleight of Hand proficiency" data-key="skillProfs.sleightOfHand" id="fld_skillProfs_sleightOfHand" type="checkbox"/><span>Sleight Of Hand</span></label></div></td><th>Sleight of Hand <small>(DEX)</small></th><td><div class="field"><label for="fld_skills_sleightOfHand">Sleight Of Hand</label><input data-key="skills.sleightOfHand" id="fld_skills_sleightOfHand" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_sleightOfHand">Sleight Of Hand</label><input data-key="skillNotes.sleightOfHand" id="fld_skillNotes_sleightOfHand" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Stealth proficiency" data-key="skillProfs.stealth" id="fld_skillProfs_stealth" type="checkbox"/><span>Stealth</span></label></div></td><th>Stealth <small>(DEX)</small></th><td><div class="field"><label for="fld_skills_stealth">Stealth</label><input data-key="skills.stealth" id="fld_skills_stealth" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_stealth">Stealth</label><input data-key="skillNotes.stealth" id="fld_skillNotes_stealth" placeholder="expertise / notes" type="text" value=""/></div></td></tr><tr><td><div class="field checkbox-field"><label><input aria-label="Survival proficiency" data-key="skillProfs.survival" id="fld_skillProfs_survival" type="checkbox"/><span>Survival</span></label></div></td><th>Survival <small>(WIS)</small></th><td><div class="field"><label for="fld_skills_survival">Survival</label><input data-key="skills.survival" id="fld_skills_survival" readonly="" type="text" value=""/></div></td><td><div class="field"><label for="fld_skillNotes_survival">Survival</label><input data-key="skillNotes.survival" id="fld_skillNotes_survival" placeholder="expertise / notes" type="text" value=""/></div></td></tr></tbody></table></div></div>
+</section>
+<section class="module" id="profs">
+<div class="module-hd"><h2>Passive Scores, Languages, and Proficiencies</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_passivePerception">Passive Perception</label><input data-key="passivePerception" id="fld_passivePerception" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_passiveInvestigation">Passive Investigation</label><input data-key="passiveInvestigation" id="fld_passiveInvestigation" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_passiveInsight">Passive Insight</label><input data-key="passiveInsight" id="fld_passiveInsight" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_tools">Tools</label><textarea data-key="tools" id="fld_tools" rows="5"></textarea></div>
+<div class="field"><label for="fld_armorProfs">Armor Proficiencies</label><textarea data-key="armorProfs" id="fld_armorProfs" rows="5"></textarea></div>
+<div class="field"><label for="fld_weaponProfs">Weapon Proficiencies</label><textarea data-key="weaponProfs" id="fld_weaponProfs" rows="5"></textarea></div></div>
+<div class="submodule"><h3>Languages</h3><div class="button-row"><button data-add-row="languages" type="button">+ Add Language</button></div><div class="table-wrap"><table data-repeat-table="languages"><thead><tr><th>Language</th><th>Source</th><th>Read / Write / Speak</th><th>Notes</th><th></th></tr></thead><tbody></tbody></table></div></div></div>
+</section>
+<section class="module" id="combat">
+<div class="module-hd"><h2>Combat Dashboard</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_armorClass">Armor Class</label><input data-key="armorClass" id="fld_armorClass" type="number" value="10"/></div>
+<div class="field"><label for="fld_initiative">Initiative</label><input data-key="initiative" id="fld_initiative" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_speed">Speed</label><input data-key="speed" id="fld_speed" type="text" value="30 ft"/></div>
+<div class="field"><label for="fld_hitPoints">Max HP</label><input data-key="hitPoints" id="fld_hitPoints" type="number" value="0"/></div>
+<div class="field"><label for="fld_currentHP">Current HP</label><input data-key="currentHP" id="fld_currentHP" type="number" value="0"/></div>
+<div class="field"><label for="fld_tempHP">Temp HP</label><input data-key="tempHP" id="fld_tempHP" type="number" value="0"/></div>
+<div class="field"><label for="fld_hitDice">Hit Dice</label><input data-key="hitDice" id="fld_hitDice" type="text" value=""/></div>
+<div class="field"><label for="fld_deathSuccesses">Death Saves Successes</label><input data-key="deathSuccesses" id="fld_deathSuccesses" placeholder="0 / 3" type="text" value=""/></div>
+<div class="field"><label for="fld_deathFailures">Death Saves Failures</label><input data-key="deathFailures" id="fld_deathFailures" placeholder="0 / 3" type="text" value=""/></div>
+<div class="field"><label for="fld_inspiration">Inspiration</label><input data-key="inspiration" id="fld_inspiration" type="text" value=""/></div></div></div>
+</section>
+<section class="module" id="attacks">
+<div class="module-hd"><h2>Attacks, Damage, and Features</h2><span class="spark">✦</span></div>
+<div class="module-body">
+<div class="submodule"><h3>Attack Rows</h3><div class="button-row"><button data-add-row="attacks" type="button">+ Add Attack</button></div><div class="table-wrap"><table data-repeat-table="attacks"><thead><tr><th>Name</th><th>Attack Bonus</th><th>Damage / Type</th><th>Range</th><th>Notes</th><th></th></tr></thead><tbody></tbody></table></div></div>
+<div class="field-grid"><div class="field"><label for="fld_attacks">Attacks / Spellcasting Notes</label><textarea data-key="attacks" id="fld_attacks" rows="5"></textarea></div>
+<div class="field"><label for="fld_raceFeatures">Race Notes + Abilities</label><textarea data-key="raceFeatures" id="fld_raceFeatures" rows="8"></textarea></div>
+<div class="field"><label for="fld_classFeatures">Class + Subclass Features</label><textarea data-key="classFeatures" id="fld_classFeatures" rows="8"></textarea></div></div></div>
+</section>
+<section class="module" id="magic">
+<div class="module-hd"><h2>Spellcasting and Class Resources</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_spellcastingClass">Spellcasting Class</label><input data-key="spellcastingClass" id="fld_spellcastingClass" type="text" value=""/></div>
+<div class="field"><label for="fld_spellAbility">Spellcasting Ability</label><select data-key="spellAbility" id="fld_spellAbility"><option value="">—</option><option value=""></option><option value="INT">INT</option><option value="WIS">WIS</option><option value="CHA">CHA</option><option value="STR">STR</option><option value="DEX">DEX</option><option value="CON">CON</option></select></div>
+<div class="field"><label for="fld_spellSaveDC">Spell Save DC</label><input data-key="spellSaveDC" id="fld_spellSaveDC" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_spellAttackBonus">Spell Attack Bonus</label><input data-key="spellAttackBonus" id="fld_spellAttackBonus" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_spellSlots">Class Resource Notes</label><textarea data-key="spellSlots" id="fld_spellSlots" rows="8"></textarea></div></div><div class="table-wrap"><table><thead><tr><th>Level</th><th>Total</th><th>Expended</th><th>Notes</th></tr></thead><tbody><tr><th>1</th><td><div class="field"><label for="fld_spellSlots_1_total">Total</label><input data-key="spellSlots.1.total" id="fld_spellSlots_1_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_1_used">Used</label><input data-key="spellSlots.1.used" id="fld_spellSlots_1_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_1_notes">Notes</label><input data-key="spellSlots.1.notes" id="fld_spellSlots_1_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>2</th><td><div class="field"><label for="fld_spellSlots_2_total">Total</label><input data-key="spellSlots.2.total" id="fld_spellSlots_2_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_2_used">Used</label><input data-key="spellSlots.2.used" id="fld_spellSlots_2_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_2_notes">Notes</label><input data-key="spellSlots.2.notes" id="fld_spellSlots_2_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>3</th><td><div class="field"><label for="fld_spellSlots_3_total">Total</label><input data-key="spellSlots.3.total" id="fld_spellSlots_3_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_3_used">Used</label><input data-key="spellSlots.3.used" id="fld_spellSlots_3_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_3_notes">Notes</label><input data-key="spellSlots.3.notes" id="fld_spellSlots_3_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>4</th><td><div class="field"><label for="fld_spellSlots_4_total">Total</label><input data-key="spellSlots.4.total" id="fld_spellSlots_4_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_4_used">Used</label><input data-key="spellSlots.4.used" id="fld_spellSlots_4_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_4_notes">Notes</label><input data-key="spellSlots.4.notes" id="fld_spellSlots_4_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>5</th><td><div class="field"><label for="fld_spellSlots_5_total">Total</label><input data-key="spellSlots.5.total" id="fld_spellSlots_5_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_5_used">Used</label><input data-key="spellSlots.5.used" id="fld_spellSlots_5_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_5_notes">Notes</label><input data-key="spellSlots.5.notes" id="fld_spellSlots_5_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>6</th><td><div class="field"><label for="fld_spellSlots_6_total">Total</label><input data-key="spellSlots.6.total" id="fld_spellSlots_6_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_6_used">Used</label><input data-key="spellSlots.6.used" id="fld_spellSlots_6_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_6_notes">Notes</label><input data-key="spellSlots.6.notes" id="fld_spellSlots_6_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>7</th><td><div class="field"><label for="fld_spellSlots_7_total">Total</label><input data-key="spellSlots.7.total" id="fld_spellSlots_7_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_7_used">Used</label><input data-key="spellSlots.7.used" id="fld_spellSlots_7_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_7_notes">Notes</label><input data-key="spellSlots.7.notes" id="fld_spellSlots_7_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>8</th><td><div class="field"><label for="fld_spellSlots_8_total">Total</label><input data-key="spellSlots.8.total" id="fld_spellSlots_8_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_8_used">Used</label><input data-key="spellSlots.8.used" id="fld_spellSlots_8_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_8_notes">Notes</label><input data-key="spellSlots.8.notes" id="fld_spellSlots_8_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr><tr><th>9</th><td><div class="field"><label for="fld_spellSlots_9_total">Total</label><input data-key="spellSlots.9.total" id="fld_spellSlots_9_total" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_9_used">Used</label><input data-key="spellSlots.9.used" id="fld_spellSlots_9_used" min="0" type="number" value="0"/></div></td><td><div class="field"><label for="fld_spellSlots_9_notes">Notes</label><input data-key="spellSlots.9.notes" id="fld_spellSlots_9_notes" placeholder="restored on / special rules" type="text" value=""/></div></td></tr></tbody></table></div></div>
+</section>
+<section class="module" id="monk">
+<div class="module-hd"><h2>Monk Abilities and Techniques</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid monk-toggle-row"><div class="field checkbox-field"><label><input data-key="monk.disabled" id="fld_monk_disabled" type="checkbox"/><span>Not a monk / hide monk abilities</span></label></div></div>
+<div class="monk-collapsible" data-monk-collapsible=""><div class="field-grid">
+<div class="field"><label for="fld_monk_kiPoints">Ki / Focus Points</label><input data-key="monk.kiPoints" id="fld_monk_kiPoints" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_monk_martialArtsDie">Martial Arts Die</label><input data-key="monk.martialArtsDie" id="fld_monk_martialArtsDie" placeholder="d4 / d6 / d8" type="text" value=""/></div>
+<div class="field"><label for="fld_monk_unarmoredMovement">Unarmored Movement</label><input data-key="monk.unarmoredMovement" id="fld_monk_unarmoredMovement" placeholder="+0 ft" type="text" value=""/></div>
+<div class="field"><label for="fld_monk_slowFall">Slow Fall</label><input data-key="monk.slowFall" id="fld_monk_slowFall" placeholder="damage reduced" type="text" value=""/></div>
+<div class="field checkbox-field"><label><input data-key="monk.flurryOfBlows" id="fld_monk_flurryOfBlows" type="checkbox"/><span>Flurry of Blows</span></label></div>
+<div class="field checkbox-field"><label><input data-key="monk.patientDefense" id="fld_monk_patientDefense" type="checkbox"/><span>Patient Defense</span></label></div>
+<div class="field checkbox-field"><label><input data-key="monk.stepOfTheWind" id="fld_monk_stepOfTheWind" type="checkbox"/><span>Step of the Wind</span></label></div>
+<div class="field checkbox-field"><label><input data-key="monk.deflectMissiles" id="fld_monk_deflectMissiles" type="checkbox"/><span>Deflect Missiles</span></label></div>
+<div class="field checkbox-field"><label><input data-key="monk.stunningStrike" id="fld_monk_stunningStrike" type="checkbox"/><span>Stunning Strike</span></label></div></div>
+<div class="submodule"><h3>Monk / Technique Rows</h3><div class="button-row"><button data-add-row="monkTechniques" type="button">+ Add Technique</button></div><div class="table-wrap"><table data-repeat-table="monkTechniques"><thead><tr><th>Name</th><th>Cost</th><th>Action</th><th>Effect / Roll</th><th></th></tr></thead><tbody></tbody></table></div></div></div></div>
+</section>
+<section class="module" id="spells">
+<div class="module-hd"><h2>Cantrips and Spells</h2><span class="spark">✦</span></div>
+<div class="module-body">
+<div class="submodule"><h3>Cantrip / At-Will Rows</h3><div class="button-row"><button data-add-row="cantripList" type="button">+ Add Cantrip</button></div><div class="table-wrap"><table data-repeat-table="cantripList"><thead><tr><th>Name</th><th>School / Type</th><th>Roll / DC</th><th>Description</th><th></th></tr></thead><tbody></tbody></table></div></div>
+<div class="submodule"><h3>Spell Rows</h3><div class="button-row"><button data-add-row="spellList" type="button">+ Add Spell</button></div><div class="table-wrap"><table data-repeat-table="spellList"><thead><tr><th>Level</th><th>Prepared</th><th>Name</th><th>School</th><th>Casting / Roll</th><th>Description</th><th></th></tr></thead><tbody></tbody></table></div></div><div class="field-grid"><div class="field"><label for="fld_cantrips">Cantrips / At-Will Notes</label><textarea data-key="cantrips" id="fld_cantrips" placeholder="Freeform cantrip / technique notes" rows="8"></textarea></div>
+<div class="field"><label for="fld_spells">Spells / Techniques Notes</label><textarea data-key="spells" id="fld_spells" placeholder="Freeform spell notes" rows="8"></textarea></div></div></div>
+</section>
+<section class="module" id="personality">
+<div class="module-hd"><h2>Personality, Backstory, and Voice</h2><span class="spark">✦</span></div>
+<div class="module-body">
+<div class="field-grid">
+<div class="field"><label for="fld_personalityTraits">Personality Traits</label><textarea data-key="personalityTraits" id="fld_personalityTraits" rows="8"></textarea></div>
+<div class="field"><label for="fld_ideal">Ideal</label><textarea data-key="ideal" id="fld_ideal" rows="5"></textarea></div>
+<div class="field"><label for="fld_bond">Bond</label><textarea data-key="bond" id="fld_bond" rows="5"></textarea></div>
+<div class="field"><label for="fld_flaw">Flaw</label><textarea data-key="flaw" id="fld_flaw" rows="5"></textarea></div>
+<div class="field"><label for="fld_backstory">Character Backstory</label><textarea data-key="backstory" id="fld_backstory" placeholder="Write the character's personal history, origin, relationships, turning points, secrets, and current goals." rows="8"></textarea></div>
+<div class="field"><label for="fld_additionalFeatures">Additional Features and Traits</label><textarea data-key="additionalFeatures" id="fld_additionalFeatures" rows="8"></textarea></div>
+<div class="field"><label for="fld_manualMods">Manual / Homebrew Adjustments</label><textarea data-key="manualMods" id="fld_manualMods" rows="8"></textarea></div>
+<div class="field"><label for="fld_fallbackEtc">Fallback / Unmapped Import Data</label><textarea data-key="fallbackEtc" id="fld_fallbackEtc" placeholder="Unmapped imported data will be placed here." rows="8"></textarea></div>
+</div>
+<div class="voice-console submodule" id="voice-console">
+<h3>Character Voice Audio Player</h3>
+<p class="hint">Choose an audio file or paste an audio URL/data URI. Use the context menus to mark how the line should be performed for a roll, scene, or combat moment.</p>
+<input data-key="voice.audioFileName" id="fld_voice_audioFileName" type="hidden" value=""/>
+<div class="voice-player-shell">
+
+<div aria-label="Audio controls" class="voice-controls">
+<button data-audio-action="play" type="button">▶ Play</button>
+<button data-audio-action="pause" type="button">⏸ Pause</button>
+<button data-audio-action="stop" type="button">■ Stop</button>
+<button data-audio-action="rewind" type="button">↶ 5s</button>
+<button data-audio-action="forward" type="button">5s ↷</button>
+</div>
+<div class="voice-time"><span id="voiceTimeNow">0:00</span><input aria-label="Audio scrubber" id="voiceScrubber" max="100" min="0" step="0.1" type="range" value="0"/><span id="voiceTimeTotal">0:00</span></div>
+<div aria-label="Drop or choose voice audio file" class="audio-drop-zone" id="audioDropZone" role="button" tabindex="0">
+<b>Drop voice audio here</b><span>or click to choose a local audio file</span>
+<input accept="audio/*" id="voiceAudioFile" type="file"/>
+</div>
+</div>
+<div class="field-grid voice-context-grid">
+<div class="field"><label for="fld_voice_audioSource">Audio URL or Data URI</label><textarea data-key="voice.audioSource" id="fld_voice_audioSource" placeholder="Paste an audio URL or data URI, or choose a local audio file above." rows="4"></textarea></div>
+<div class="field"><label for="fld_voice_previewText">Line / Dialogue Text</label><textarea data-key="voice.previewText" id="fld_voice_previewText" placeholder="Write what the character should say for this voice line." rows="4"></textarea></div>
+<div class="field"><label for="fld_voice_emotion">Emotion / Delivery</label><select data-key="voice.emotion" id="fld_voice_emotion"><option value="">—</option><option value="Neutral / Base">Neutral / Base</option><option value="Kindness">Kindness</option><option value="Compassion">Compassion</option><option value="Tenderness">Tenderness</option><option value="Joy">Joy</option><option value="Excitement">Excitement</option><option value="Calm">Calm</option><option value="Annoyance">Annoyance</option><option value="Sarcasm">Sarcasm</option><option value="Suspicion">Suspicion</option><option value="Gruffness">Gruffness</option><option value="Anger">Anger</option><option value="Rage">Rage</option><option value="Betrayal">Betrayal</option><option value="Grief">Grief</option><option value="Fear">Fear</option><option value="Panic">Panic</option><option value="Exhaustion">Exhaustion</option><option value="Authority">Authority</option><option value="Courage">Courage</option><option value="Shame">Shame</option><option value="Awe">Awe</option><option value="Confidence">Confidence</option><option value="Flirtation">Flirtation</option><option value="Menace">Menace</option><option value="Wonder">Wonder</option></select></div>
+<div class="field"><label for="fld_voice_skillCheck">Skill Check</label><select data-key="voice.skillCheck" id="fld_voice_skillCheck"><option value="">—</option><option value="Acrobatics (DEX)">Acrobatics (DEX)</option><option value="Animal Handling (WIS)">Animal Handling (WIS)</option><option value="Arcana (INT)">Arcana (INT)</option><option value="Athletics (STR)">Athletics (STR)</option><option value="Deception (CHA)">Deception (CHA)</option><option value="History (INT)">History (INT)</option><option value="Insight (WIS)">Insight (WIS)</option><option value="Intimidation (CHA)">Intimidation (CHA)</option><option value="Investigation (INT)">Investigation (INT)</option><option value="Medicine (WIS)">Medicine (WIS)</option><option value="Nature (INT)">Nature (INT)</option><option value="Perception (WIS)">Perception (WIS)</option><option value="Performance (CHA)">Performance (CHA)</option><option value="Persuasion (CHA)">Persuasion (CHA)</option><option value="Religion (INT)">Religion (INT)</option><option value="Sleight of Hand (DEX)">Sleight of Hand (DEX)</option><option value="Stealth (DEX)">Stealth (DEX)</option><option value="Survival (WIS)">Survival (WIS)</option></select></div>
+<div class="field"><label for="fld_voice_circumstance">Circumstance</label><select data-key="voice.circumstance" id="fld_voice_circumstance"><option value="">—</option><option value="Casting a spell">Casting a spell</option><option value="Random encounter">Random encounter</option><option value="Using monk ability">Using monk ability</option><option value="Boss battle">Boss battle</option><option value="Weapon attack">Weapon attack</option><option value="Dungeon fight">Dungeon fight</option></select></div>
+<div class="field"><label for="fld_voice_failedDelivery">Failure / Mismatch Delivery Notes</label><textarea data-key="voice.failedDelivery" id="fld_voice_failedDelivery" placeholder="Example: Intimidation during a boss battle fails, so the line tries to sound menacing but comes out anxious." rows="4"></textarea></div>
+</div>
+</div>
+</div>
+</section>
+<section class="module" id="relationships">
+<div class="module-hd"><h2>Relationships, Allies, and Organizations</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_alliesOrganizations">Allies / Organizations Notes</label><textarea data-key="alliesOrganizations" id="fld_alliesOrganizations" rows="5"></textarea></div></div>
+<div class="submodule"><h3>Relationship Rows</h3><div class="button-row"><button data-add-row="relationships" type="button">+ Add Relationship</button></div><div class="table-wrap"><table data-repeat-table="relationships"><thead><tr><th>Name</th><th>Type</th><th>Attitude</th><th>Location / Faction</th><th>Notes</th><th></th></tr></thead><tbody></tbody></table></div></div></div>
+</section>
+<section class="module" id="inventory">
+<div class="module-hd"><h2>Equipment, Treasure, and Inventory</h2><span class="spark">✦</span></div>
+<div class="module-body"><div class="field-grid"><div class="field"><label for="fld_coins_cp">CP</label><input data-key="coins.cp" id="fld_coins_cp" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_coins_sp">SP</label><input data-key="coins.sp" id="fld_coins_sp" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_coins_ep">EP</label><input data-key="coins.ep" id="fld_coins_ep" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_coins_gp">GP</label><input data-key="coins.gp" id="fld_coins_gp" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_coins_pp">PP</label><input data-key="coins.pp" id="fld_coins_pp" min="0" type="number" value="0"/></div>
+<div class="field"><label for="fld_inventoryWeightTotal">Total Weight</label><input data-key="inventoryWeightTotal" id="fld_inventoryWeightTotal" readonly="" type="text" value=""/></div>
+<div class="field"><label for="fld_equipment">Equipment</label><textarea data-key="equipment" id="fld_equipment" rows="8"></textarea></div>
+<div class="field"><label for="fld_inventory">Treasure / Inventory Notes</label><textarea data-key="inventory" id="fld_inventory" rows="8"></textarea></div></div>
+<div class="submodule"><h3>Inventory Rows</h3><div class="button-row"><button data-add-row="inventoryItems" type="button">+ Add Item</button></div><div class="table-wrap"><table data-repeat-table="inventoryItems"><thead><tr><th>Item</th><th>Qty</th><th>Location</th><th>Weight Each</th><th>Cost / Value</th><th>Attuned</th><th>Notes</th><th></th></tr></thead><tbody></tbody></table></div></div></div>
+</section>
+</section>
+</main>
+<div class="status-line" id="statusLine">Loading sheet…</div>
+<footer class="footer"><strong>UNIVERSAL</strong><span>A Dungeons &amp; Dragons 5e Homebrew Campaign By William Saville AKA The Transgender T-Rex #TheTransgenderTRex</span></footer>
+</div>
+</template><script defer="True" src="js/project-data-bundle.js"></script><script defer="True" src="js/project-loader.js"></script></body>
+</html>

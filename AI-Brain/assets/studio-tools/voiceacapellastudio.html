@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal Vocal + Acapella Studio — Merged</title>
+  <link rel="stylesheet" href="css/voice-studio.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Universal Voice Lab</p>
+      <h1>Vocal + Acapella Studio</h1>
+      <p class="subtitle">Speaking voice, singing voice, acapella generation, voice analysis, and MP3/WAV/JSON export. This merged build routes MP3/editing work to the audio backend and accent/NPC profile shaping to the accent backend. No instrumental generation paths are exposed.</p>
+    </div>
+    <div class="status-pill" id="backendStatus">Backend: checking…</div>
+  </header>
+
+  <main class="app-shell">
+    <section class="panel primary-panel">
+      <h2>Create / Convert Voice</h2>
+      <div class="grid two">
+        <label>Mode
+          <select id="mode">
+            <option value="spoken">Speaking voice</option>
+            <option value="singing_acapella">Singing / acapella from lyrics</option>
+            <option value="acapella_from_clip">Acapella voice conversion from uploaded/recorded clip</option>
+            <option value="mood_voice_profile">Mood + voice profile JSON only</option>
+          </select>
+        </label>
+        <label>Emotion / circumstance
+          <select id="emotion">
+            <option>Neutral/Base</option><option>Casting</option><option>Kindness</option><option>Compassion</option><option>Tenderness</option><option>Random encounter</option><option>Joy</option><option>Excitement</option><option>Calm</option><option>Annoyance</option><option>Sarcasm</option><option>Suspicion</option><option>Gruffness</option><option>Anger</option><option>Rage</option><option>Betrayal</option><option>Grief</option><option>Fear</option><option>Boss battle</option><option>Panic</option><option>Weapon attack</option><option>Exhaustion</option><option>Authority</option><option>Dungeon fight</option><option>Courage</option><option>Shame</option><option>Awe</option><option>Confidence</option><option>Flirtation</option><option>Menace</option><option>Wonder</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="grid two">
+        <label>Race / ancestry influence text
+          <input id="race" placeholder="Human, Dril’thar, Tabaxi, Elf, Warforged…" />
+        </label>
+        <label>Gender identity / presentation notes
+          <input id="gender" placeholder="Trans man, nonbinary, agender, custom…" />
+        </label>
+        <label>Personality / delivery notes
+          <input id="personality" placeholder="gentle, dramatic, mischievous, exhausted…" />
+        </label>
+        <label>Biome / accent rules
+          <input id="biome" placeholder="Deep cavern/Welsh, marsh/Cajun, treetops/French…" />
+        </label>
+      </div>
+
+      <label>Prompt, line, or lyrics
+        <textarea id="lyrics" rows="8" placeholder="Write spoken text or lyrics here. Instrument words are automatically blocked/removed from generation tags."></textarea>
+      </label>
+
+      <div class="upload-row">
+        <label class="file-drop">Upload MP3/WAV vocal reference
+          <input type="file" id="audioFile" accept="audio/mp3,audio/mpeg,audio/wav,audio/x-wav,audio/*" />
+        </label>
+        <button id="recordBtn" type="button">Record voice</button>
+        <button id="stopRecordBtn" type="button" disabled>Stop recording</button>
+      </div>
+
+      <fieldset class="safety-box">
+        <legend>Voice asset permission gate</legend>
+        <label><input type="radio" name="assetPermission" value="own_voice" checked /> I own this voice/audio</label>
+        <label><input type="radio" name="assetPermission" value="licensed_actor" /> Explicitly licensed actor/voice asset</label>
+        <label><input type="radio" name="assetPermission" value="public_domain_character_asset" /> Public-domain character asset</label>
+        <label><input type="radio" name="assetPermission" value="synthetic_original" /> Original synthetic voice</label>
+        <label><input type="radio" name="assetPermission" value="unknown" /> Unknown / not cleared</label>
+        <label class="terms"><input type="checkbox" id="permissionConfirm" /> I confirm this voice asset is allowed for this project.</label>
+      </fieldset>
+
+      <div class="actions">
+        <button id="analyzeBtn" type="button">Analyze uploaded/recorded voice</button>
+        <button id="localPreviewBtn" type="button">Generate local vocal preview</button>
+        <button id="backendGenerateBtn" type="button" class="accent">Generate with backend</button>
+        <button id="resetBtn" type="button">Reset sliders</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Editable Voice Sliders</h2>
+      <div id="sliderContainer" class="slider-grid"></div>
+    </section>
+
+    <section class="panel output-panel">
+      <h2>Output</h2>
+      
+      <div class="transport">
+        <button type="button" data-seek="-5">⏪ 5s</button>
+        <button type="button" id="pauseBtn">Pause</button>
+        <button type="button" id="stopBtn">Stop</button>
+        <button type="button" data-seek="5">5s ⏩</button>
+      </div>
+      <div class="actions">
+        <button id="downloadWavBtn" type="button">Download WAV</button>
+        <button id="downloadMp3Btn" type="button">Download MP3</button>
+        <button id="downloadJsonBtn" type="button">Download JSON profile</button>
+      </div>
+      <pre id="statusLog" class="status-log">Ready.</pre>
+      <details open>
+        <summary>Voice Profile Summary</summary>
+        <pre id="profileJson" class="profile-json"></pre>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pipeline: MP3/WAV decode → feature analysis → base voice parameters → accent/emotion/personality/stutter rules → backend synth/convert or local vocal preview → MP3/WAV/JSON export.</p>
+  </footer>
+
+  <script src="../../shared/js/backends.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/voice-profile.js"></script>
+  <script src="js/audio-analysis.js"></script>
+  <script src="js/audio-export.js"></script>
+  <script src="js/studio-app.js"></script>
+</body>
+</html>

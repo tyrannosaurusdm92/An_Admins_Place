@@ -1,0 +1,7 @@
+/* LifeSimulation Bridge visual contract. Companion to js/painterly/lifesimulation-bridge.js. */
+:root{--wf-lifesimulation-bridge-surface:var(--panel,rgba(13,24,38,.92));--wf-lifesimulation-bridge-gap:.75rem;}
+[data-module="lifesimulation-bridge"], .module-lifesimulation-bridge{position:relative;display:grid;gap:var(--wf-lifesimulation-bridge-gap);min-width:0;}
+[data-module="lifesimulation-bridge"] .module-status, .module-lifesimulation-bridge .module-status{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;opacity:.78;}
+[data-module="lifesimulation-bridge"][data-state="busy"]::after{content:"Working…";position:absolute;inset:.35rem .35rem auto auto;padding:.25rem .45rem;border-radius:999px;background:var(--wf-lifesimulation-bridge-surface);}
+@media (max-width:760px){[data-module="lifesimulation-bridge"],.module-lifesimulation-bridge{grid-template-columns:1fr;}}
+@media (prefers-reduced-motion:reduce){[data-module="lifesimulation-bridge"] *, .module-lifesimulation-bridge *{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
