@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"savanski-art-studio-project-v1",
+  "title":"Savanski Art Studio Project",
+  "type":"object",
+  "required":["format","version","id","name","width","height","layers"],
+  "properties":{
+    "format":{"const":"savanski-art-studio"},"version":{"type":"string"},"id":{"type":"string"},"name":{"type":"string"},
+    "width":{"type":"integer","minimum":16,"maximum":12000},"height":{"type":"integer","minimum":16,"maximum":12000},
+    "transparent":{"type":"boolean"},"background":{"type":"string"},"map":{"type":"object"},"animation":{"type":"object"},
+    "layers":{"type":"array","items":{"type":"object","required":["id","name","dataUrl"],"properties":{"id":{"type":"string"},"name":{"type":"string"},"visible":{"type":"boolean"},"locked":{"type":"boolean"},"opacity":{"type":"number","minimum":0,"maximum":1},"blend":{"type":"string"},"kind":{"type":"string"},"dataUrl":{"type":"string"}}}}
+  }
+}

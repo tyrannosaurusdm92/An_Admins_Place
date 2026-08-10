@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#00FFFF">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Savanski Studio">
+  <meta name="description" content="Draw, paint, edit, composite, collage, crop, erase backgrounds, build VTT maps, animate images, and edit 3D visuals.">
+  <title>Savanski Art Studio</title>
+  <link rel="icon" href="assets/icon-64.png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="manifest" href="json/manifest.json">
+  <link rel="stylesheet" href="css/palette.css">
+  <link rel="stylesheet" href="css/studio.css">
+</head>
+<body>
+  <div id="rotateNotice" class="rotate-notice" hidden>
+    <img src="assets/icon-128.png" alt="">
+    <div><strong>More room sideways</strong><span>This studio is designed primarily for landscape phone/tablet use. It still works in portrait.</span></div>
+    <button id="dismissRotate" type="button">Keep portrait</button>
+  </div>
+
+  <header class="app-titlebar">
+    <button class="win-button menu-trigger" id="mainMenuBtn" type="button" aria-label="Open file menu">☰</button>
+    <img class="app-icon" src="assets/icon-64.png" alt="">
+    <div class="title-copy"><strong class="savanski-art-studio-brand">Savanski Art Studio</strong><span id="projectTitleDisplay">Untitled Project</span></div>
+    <div class="title-actions">
+      <button class="win-button" id="undoTop" type="button" title="Undo">↶</button>
+      <button class="win-button" id="redoTop" type="button" title="Redo">↷</button>
+      <button class="win-button" id="saveLocalTop" type="button" title="Save in this browser">💾</button>
+      <button class="win-button" id="installBtn" type="button" hidden title="Install app">▣</button>
+      <button class="win-button" id="settingsBtn" type="button" title="Settings">⚙</button>
+    </div>
+  </header>
+
+  <nav class="menu-bar" aria-label="Application menus">
+    <button data-menu="file" type="button">File</button>
+    <button data-menu="edit" type="button">Edit</button>
+    <button data-menu="image" type="button">Image</button>
+    <button data-menu="layer" type="button">Layer</button>
+    <button data-menu="map" type="button">Map</button>
+    <button data-menu="view" type="button">View</button>
+    <button data-menu="help" type="button">Help</button>
+    <span class="menu-spacer"></span>
+    <span class="storage-pill" id="storagePill">Local workspace</span>
+  </nav>
+
+  <div class="workspace-tabs" role="tablist" aria-label="Workspaces">
+    <button class="workspace-tab active" data-workspace="canvas" role="tab" aria-selected="true" type="button">Canvas</button>
+    <button class="workspace-tab" data-workspace="collage" role="tab" aria-selected="false" type="button">Collage</button>
+    <button class="workspace-tab" data-workspace="map" role="tab" aria-selected="false" type="button">VTT Map</button>
+    <button class="workspace-tab" data-workspace="animate" role="tab" aria-selected="false" type="button">Animate</button>
+    <button class="workspace-tab" data-workspace="three" role="tab" aria-selected="false" type="button">3D</button>
+    <button class="workspace-tab" data-workspace="library" role="tab" aria-selected="false" type="button">Shared Library</button>
+  </div>
+
+  <main id="app" class="app-shell">
+    <aside class="toolbox paint-window" aria-label="Tools">
+      <div class="window-title"><span>Toolbox</span><button id="collapseTools" type="button" aria-label="Collapse tools">−</button></div>
+      <div class="tool-scroll">
+        <div class="tool-grid" id="toolGrid">
+          <button class="tool active" data-tool="pencil" title="Pencil" type="button"><b>✎</b><span>Pencil</span></button>
+          <button class="tool" data-tool="brush" title="Brush" type="button"><b>🖌</b><span>Brush</span></button>
+          <button class="tool" data-tool="marker" title="Marker" type="button"><b>▮</b><span>Marker</span></button>
+          <button class="tool" data-tool="crayon" title="Crayon" type="button"><b>▧</b><span>Crayon</span></button>
+          <button class="tool" data-tool="airbrush" title="Airbrush" type="button"><b>☁</b><span>Airbrush</span></button>
+          <button class="tool" data-tool="neon" title="Neon" type="button"><b>✦</b><span>Neon</span></button>
+          <button class="tool" data-tool="eraser" title="Eraser" type="button"><b>⌫</b><span>Eraser</span></button>
+          <button class="tool" data-tool="fill" title="Paint bucket" type="button"><b>◈</b><span>Fill</span></button>
+          <button class="tool" data-tool="eyedropper" title="Color picker" type="button"><b>◉</b><span>Pick</span></button>
+          <button class="tool" data-tool="magicErase" title="Connected color eraser" type="button"><b>✣</b><span>Color erase</span></button>
+          <button class="tool" data-tool="line" title="Line" type="button"><b>╱</b><span>Line</span></button>
+          <button class="tool" data-tool="arrow" title="Arrow" type="button"><b>➜</b><span>Arrow</span></button>
+          <button class="tool" data-tool="rect" title="Rectangle" type="button"><b>□</b><span>Rectangle</span></button>
+          <button class="tool" data-tool="ellipse" title="Ellipse" type="button"><b>○</b><span>Ellipse</span></button>
+          <button class="tool" data-tool="triangle" title="Triangle" type="button"><b>△</b><span>Triangle</span></button>
+          <button class="tool" data-tool="star" title="Star" type="button"><b>☆</b><span>Star</span></button>
+          <button class="tool" data-tool="text" title="Text" type="button"><b>T</b><span>Text</span></button>
+          <button class="tool" data-tool="select" title="Select" type="button"><b>▣</b><span>Select</span></button>
+          <button class="tool" data-tool="lasso" title="Free select" type="button"><b>⌁</b><span>Lasso</span></button>
+          <button class="tool" data-tool="ruler" title="Map ruler" type="button"><b>↔</b><span>Ruler</span></button>
+          <button class="tool" data-tool="fogReveal" title="Reveal fog" type="button"><b>☀</b><span>Reveal</span></button>
+          <button class="tool" data-tool="light" title="Place light" type="button"><b>✹</b><span>Light</span></button>
+        </div>
+
+        <fieldset class="mini-group">
+          <legend>Brush</legend>
+          <label>Size <output id="brushSizeOut">18</output> px<input id="brushSize" type="range" min="1" max="300" value="18"></label>
+          <label>Opacity <output id="brushOpacityOut">100</output>%<input id="brushOpacity" type="range" min="1" max="100" value="100"></label>
+          <label>Softness <output id="brushSoftnessOut">35</output>%<input id="brushSoftness" type="range" min="0" max="100" value="35"></label>
+          <label>Primary <input id="primaryColor" type="color" value="#00ffff"></label>
+          <label>Secondary <input id="secondaryColor" type="color" value="#ec5800"></label>
+        </fieldset>
+
+        <fieldset class="mini-group" id="colorEraseControls">
+          <legend>Color removal</legend>
+          <label>Target <input id="removeColor" type="color" value="#ffffff"></label>
+          <label>Similarity <output id="removeToleranceOut">18</output>%<input id="removeTolerance" type="range" min="0" max="100" value="18"></label>
+          <label>Remove <output id="removeStrengthOut">100</output>%<input id="removeStrength" type="range" min="1" max="100" value="100"></label>
+          <label class="check"><input id="removeContiguous" type="checkbox" checked> Only connected pixels the click can reach</label>
+          <button id="removeColorGlobal" type="button">Remove target across layer</button>
+        </fieldset>
+      </div>
+    </aside>
+
+    <section class="center-area">
+      <div class="workspace-panel active" data-panel="canvas">
+        <div class="canvas-toolbar paint-window">
+          <button id="newProjectBtn" type="button">New</button>
+          <button id="importImageBtn" type="button">Open image</button>
+          <button id="pasteImageBtn" type="button">Paste</button>
+          <span class="separator"></span>
+          <button id="copySelectionBtn" type="button">Copy</button>
+          <button id="cutSelectionBtn" type="button">Cut</button>
+          <button id="cropSelectionBtn" type="button">Crop</button>
+          <select id="selectionShape" title="Selection/crop shape">
+            <option value="rect">Rectangle</option>
+            <option value="square">Square</option>
+            <option value="ellipse">Ellipse</option>
+            <option value="circle">Circle</option>
+            <option value="triangle">Triangle</option>
+            <option value="free">Free / lasso</option>
+          </select>
+          <span class="separator"></span>
+          <button id="zoomOutBtn" type="button">−</button>
+          <span id="zoomLabel">100%</span>
+          <button id="zoomInBtn" type="button">＋</button>
+          <button id="fitBtn" type="button">Fit</button>
+          <span class="separator"></span>
+          <button id="exportPngBtn" type="button">PNG</button>
+          <button id="exportWebpBtn" type="button">WEBP</button>
+        </div>
+        <div class="canvas-scroller" id="canvasScroller">
+          <div class="canvas-mat" id="canvasMat">
+            <canvas id="viewCanvas" width="1600" height="900" aria-label="Art canvas"></canvas>
+            <canvas id="interactionCanvas" width="1600" height="900" aria-label="Drawing interaction layer"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="workspace-panel" data-panel="collage">
+        <section class="feature-page">
+          <header><h1>Collage Builder</h1><p>Drop in photos or art and arrange them without leaving the studio.</p></header>
+          <div class="feature-grid two-col">
+            <div class="paint-window padded">
+              <h2>1. Choose images</h2>
+              <label class="big-file-button">Add images<input id="collageFiles" type="file" accept="image/*" multiple></label>
+              <div id="collageQueue" class="file-queue"></div>
+              <label>Gap <output id="collageGapOut">12</output> px<input id="collageGap" type="range" min="0" max="80" value="12"></label>
+              <label>Corner radius <output id="collageRadiusOut">0</output> px<input id="collageRadius" type="range" min="0" max="200" value="0"></label>
+              <label>Background <input id="collageBackground" type="color" value="#f2ffff"></label>
+            </div>
+            <div class="paint-window padded">
+              <h2>2. Layout</h2>
+              <div class="layout-grid" id="collageLayouts">
+                <button data-layout="grid2">2 × 2</button><button data-layout="grid3">3 × 3</button><button data-layout="grid4">4 × 4</button>
+                <button data-layout="horizontal">Horizontal</button><button data-layout="vertical">Vertical</button><button data-layout="heroLeft">Hero left</button>
+                <button data-layout="heroTop">Hero top</button><button data-layout="triptych">Triptych</button><button data-layout="polaroid">Polaroid</button>
+              </div>
+              <label>Fit mode <select id="collageFit"><option value="cover">Fill / crop</option><option value="contain">Fit whole image</option></select></label>
+              <button class="primary-action" id="buildCollageBtn" type="button">Build collage as editable layers</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="workspace-panel" data-panel="map">
+        <section class="feature-page map-page">
+          <header><h1>VTT Map Workspace</h1><p>Map-specific helpers sit on top of the same drawing and layering engine.</p></header>
+          <div class="map-controls paint-window padded">
+            <label>Map preset<select id="mapPreset"><option value="1920x1080">Wide 1920×1080</option><option value="2048x2048">Square 2048×2048</option><option value="3000x2000">Large 3000×2000</option><option value="4096x4096">Huge 4096×4096</option></select></label>
+            <button id="applyMapPreset" type="button">Resize canvas</button>
+            <label>Grid<select id="gridType"><option value="square">Square</option><option value="hex">Hex</option><option value="iso">Isometric</option><option value="none">None</option></select></label>
+            <label>Cell <input id="gridSize" type="number" min="8" max="512" value="70"></label>
+            <label>Grid opacity <input id="gridOpacity" type="range" min="0" max="100" value="38"></label>
+            <label>Units/cell <input id="gridUnits" type="number" min="0.1" max="1000" step="0.1" value="5"></label>
+            <label>Unit name <input id="gridUnitName" type="text" value="ft" maxlength="12"></label>
+            <button id="toggleFogBtn" type="button">Add / reset fog layer</button>
+            <button id="addLightingLayerBtn" type="button">Add lighting layer</button>
+            <button id="openLibraryFromMap" type="button">Browse shared maps/assets</button>
+            <label class="check"><input id="exportGrid" type="checkbox" checked> Include grid in exports</label>
+          </div>
+          <div class="map-help paint-window padded">
+            <h2>Map tools</h2>
+            <p><b>Ruler:</b> drag between points to measure in your chosen units. <b>Reveal:</b> paints transparency into the fog layer. <b>Light:</b> click to place a radial light on the lighting layer. Any drawing, text, crop, collage, and layer tool can also be used on a map.</p>
+            <button id="returnCanvasFromMap" class="primary-action" type="button">Edit map on Canvas</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="workspace-panel" data-panel="animate">
+        <section class="feature-page">
+          <header><h1>Dynamic Image / Animation</h1><p>Create simple motion from layers and export a browser-recorded WebM.</p></header>
+          <div class="feature-grid two-col">
+            <div class="paint-window padded">
+              <h2>Timeline</h2>
+              <label>Frames <input id="animFrames" type="number" min="2" max="600" value="90"></label>
+              <label>FPS <input id="animFps" type="number" min="1" max="60" value="30"></label>
+              <label>Current frame <input id="animFrame" type="range" min="0" max="89" value="0"><output id="animFrameOut">0</output></label>
+              <button id="addKeyframeBtn" type="button">Add keyframe for active layer</button>
+              <button id="removeKeyframeBtn" type="button">Remove keyframe</button>
+              <button id="previewAnimationBtn" type="button">▶ Preview</button>
+              <button id="stopAnimationBtn" type="button">■ Stop</button>
+              <button id="exportWebmBtn" class="primary-action" type="button">Export WebM</button>
+            </div>
+            <div class="paint-window padded">
+              <h2>Keyframe transform</h2>
+              <label>X offset <input id="animX" type="number" value="0"></label>
+              <label>Y offset <input id="animY" type="number" value="0"></label>
+              <label>Scale <input id="animScale" type="number" min="0.01" max="20" step="0.01" value="1"></label>
+              <label>Rotation <input id="animRotation" type="number" min="-1080" max="1080" step="1" value="0"></label>
+              <label>Opacity <input id="animOpacity" type="range" min="0" max="100" value="100"></label>
+              <div id="keyframeList" class="keyframe-list"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="workspace-panel" data-panel="three">
+        <section class="three-page">
+          <div class="three-toolbar paint-window">
+            <label class="file-mini">Import 3D<input id="modelInput" type="file" accept=".glb,.gltf,.obj,.stl,.fbx,.dae,.3mf,.amf" multiple></label>
+            <button id="frame3D" type="button">Frame</button>
+            <button id="toggleWireframe3D" type="button">Wireframe</button>
+            <button id="toggleSpin3D" type="button">Spin</button>
+            <button id="togglePulse3D" type="button">Pulse</button>
+            <button id="addLightning3D" type="button">Lightning</button>
+            <button id="apply2DTexture3D" type="button">Use 2D as texture</button>
+            <button id="extract3DTexture2D" type="button">Texture to 2D</button>
+            <button id="capture3DToCanvas" type="button">Capture to 2D</button>
+            <button id="exportGlb" type="button">Export GLB</button>
+          </div>
+          <div class="three-layout">
+            <div id="threeHost" class="three-host"><div id="threeDropHint">Drop a 3D model here</div></div>
+            <aside class="three-inspector paint-window padded">
+              <h2>Material</h2>
+              <div id="threeSelectionName" class="selection-name">No mesh selected</div>
+              <label>Color <input id="threeColor" type="color" value="#ffffff"></label>
+              <label>Metalness <input id="threeMetalness" type="range" min="0" max="100" value="0"></label>
+              <label>Roughness <input id="threeRoughness" type="range" min="0" max="100" value="70"></label>
+              <label>Opacity <input id="threeOpacity" type="range" min="0" max="100" value="100"></label>
+              <label class="check"><input id="threeDoubleSide" type="checkbox"> Double sided</label>
+              <hr>
+              <h2>Scene</h2>
+              <label>Background <input id="threeBackground" type="color" value="#002b3d"></label>
+              <label>Key light <input id="threeLight" type="range" min="0" max="500" value="260"></label>
+              <p class="small-note">The 3D workspace is an optional visual tool. It does not replace the map/drawing workflow.</p>
+            </aside>
+          </div>
+        </section>
+      </div>
+
+      <div class="workspace-panel" data-panel="library">
+        <section class="feature-page library-page">
+          <header><h1>Shared TTRPG & Project Library</h1><p>Optional source material for maps, images, audio, and other project support files.</p></header>
+          <div class="library-toolbar paint-window padded">
+            <input id="librarySearch" type="search" placeholder="Search shared library">
+            <select id="libraryType"><option value="all">All</option><option value="map">Maps</option><option value="image">Images</option><option value="audio">Audio</option><option value="file">Other files</option></select>
+            <button id="librarySearchBtn" type="button">Search</button>
+            <button id="openSharedDriveBtn" type="button">Open full Drive library</button>
+          </div>
+          <div id="libraryResults" class="library-results"></div>
+          <audio id="libraryAudio" controls hidden></audio>
+        </section>
+      </div>
+    </section>
+
+    <aside class="inspector paint-window" aria-label="Properties and layers">
+      <div class="window-title"><span>Properties</span><button id="collapseInspector" type="button" aria-label="Collapse inspector">−</button></div>
+      <div class="inspector-tabs" role="tablist">
+        <button class="active" data-inspector="layers" type="button">Layers</button>
+        <button data-inspector="text" type="button">Text</button>
+        <button data-inspector="shape" type="button">Shape</button>
+        <button data-inspector="filter" type="button">Filters</button>
+        <button data-inspector="transform" type="button">Transform</button>
+        <button data-inspector="project" type="button">Project</button>
+      </div>
+
+      <div class="inspector-body active" data-inspector-panel="layers">
+        <div class="layer-actions">
+          <button id="addLayerBtn" type="button">＋</button><button id="duplicateLayerBtn" type="button">⧉</button><button id="deleteLayerBtn" type="button">🗑</button>
+          <button id="layerUpBtn" type="button">↑</button><button id="layerDownBtn" type="button">↓</button><button id="mergeDownBtn" type="button">Merge ↓</button>
+        </div>
+        <div id="layersList" class="layers-list"></div>
+        <label>Layer opacity <output id="layerOpacityOut">100</output>%<input id="layerOpacity" type="range" min="0" max="100" value="100"></label>
+        <label>Blend<select id="layerBlend"><option value="source-over">Normal</option><option value="multiply">Multiply</option><option value="screen">Screen</option><option value="overlay">Overlay</option><option value="soft-light">Soft light</option><option value="hard-light">Hard light</option><option value="color-dodge">Color dodge</option><option value="color-burn">Color burn</option><option value="lighter">Add / glow</option><option value="difference">Difference</option></select></label>
+      </div>
+
+      <div class="inspector-body" data-inspector-panel="text">
+        <label>Text<textarea id="textValue" rows="4">Your text</textarea></label>
+        <label>Font<select id="textFont"><option>Arial</option><option>Verdana</option><option>Georgia</option><option>Times New Roman</option><option>Trebuchet MS</option><option>Courier New</option><option>Impact</option><option>Comic Sans MS</option></select></label>
+        <div class="inline-fields"><label>Size<input id="textSize" type="number" min="6" max="800" value="72"></label><label>Rotate<input id="textRotation" type="number" min="-360" max="360" value="0"></label></div>
+        <div class="button-row"><button id="textBold" type="button">B</button><button id="textItalic" type="button"><i>I</i></button><button id="textUppercase" type="button">AA</button></div>
+        <label>Fill <input id="textFill" type="color" value="#00ffff"></label>
+        <label>Outline <input id="textStroke" type="color" value="#001010"></label>
+        <label>Outline width <input id="textStrokeWidth" type="range" min="0" max="30" value="4"></label>
+        <label>Shadow <input id="textShadow" type="range" min="0" max="80" value="8"></label>
+        <label>Background <input id="textBackground" type="color" value="#fff600"></label>
+        <label class="check"><input id="textUseBackground" type="checkbox"> Add text box background</label>
+        <label class="check"><input id="textCurved" type="checkbox"> Curve text</label>
+        <label>Curve <input id="textCurve" type="range" min="-180" max="180" value="60"></label>
+        <button id="addTextCenterBtn" class="primary-action" type="button">Add text at center</button>
+        <p class="small-note">Choose the Text tool and click the canvas to place it precisely.</p>
+      </div>
+
+      <div class="inspector-body" data-inspector-panel="shape">
+        <label>Fill <input id="shapeFill" type="color" value="#00ffff"></label>
+        <label>Stroke <input id="shapeStroke" type="color" value="#001010"></label>
+        <label>Stroke width <input id="shapeStrokeWidth" type="range" min="0" max="80" value="5"></label>
+        <label>Fill opacity <input id="shapeFillOpacity" type="range" min="0" max="100" value="100"></label>
+        <label class="check"><input id="shapeFillEnabled" type="checkbox" checked> Fill</label>
+        <label class="check"><input id="shapeStrokeEnabled" type="checkbox" checked> Stroke</label>
+      </div>
+
+      <div class="inspector-body" data-inspector-panel="filter">
+        <label>Intensity <output id="filterIntensityOut">100</output>%<input id="filterIntensity" type="range" min="0" max="200" value="100"></label>
+        <div class="filter-grid" id="filterGrid">
+          <button data-filter="brightness">Brightness</button><button data-filter="contrast">Contrast</button><button data-filter="saturate">Saturation</button><button data-filter="grayscale">Grayscale</button>
+          <button data-filter="sepia">Sepia</button><button data-filter="invert">Invert</button><button data-filter="blur">Blur</button><button data-filter="sharpen">Sharpen</button>
+          <button data-filter="posterize">Posterize</button><button data-filter="pixelate">Pixelate</button><button data-filter="warm">Warm</button><button data-filter="cool">Cool</button>
+        </div>
+        <button id="autoEnhanceBtn" type="button">Auto contrast + color</button>
+      </div>
+
+      <div class="inspector-body" data-inspector-panel="transform">
+        <button id="flipHorizontalBtn" type="button">Flip horizontal</button><button id="flipVerticalBtn" type="button">Flip vertical</button>
+        <div class="inline-fields"><label>Rotate °<input id="rotateLayerValue" type="number" value="90"></label><button id="rotateLayerBtn" type="button">Rotate</button></div>
+        <div class="inline-fields"><label>Width<input id="resizeLayerW" type="number" min="1" value="1600"></label><label>Height<input id="resizeLayerH" type="number" min="1" value="900"></label></div>
+        <label class="check"><input id="lockAspect" type="checkbox" checked> Lock aspect</label>
+        <button id="resizeLayerBtn" type="button">Resize active layer content</button>
+        <button id="fitLayerBtn" type="button">Fit active layer to canvas</button>
+      </div>
+
+      <div class="inspector-body" data-inspector-panel="project">
+        <label>Name <input id="projectName" type="text" value="Untitled Project" maxlength="120"></label>
+        <div class="inline-fields"><label>Width<input id="canvasWidth" type="number" min="16" max="12000" value="1600"></label><label>Height<input id="canvasHeight" type="number" min="16" max="12000" value="900"></label></div>
+        <button id="resizeCanvasBtn" type="button">Resize canvas</button>
+        <label>Canvas background <input id="canvasBackground" type="color" value="#f2ffff"></label>
+        <label class="check"><input id="transparentBackground" type="checkbox" checked> Transparent background</label>
+        <hr>
+        <button id="downloadProjectBtn" type="button">Download editable project</button>
+        <label class="file-mini">Open project<input id="projectFileInput" type="file" accept=".json,.savanski,.savanski.json,application/json"></label>
+        <button id="saveDriveBtn" type="button">Save through Google Drive</button>
+        <button id="connectDriveBtn" type="button">Connect my Google Drive</button>
+        <button id="refreshDriveBtn" type="button">Refresh storage status</button>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="statusbar">
+    <span id="statusText">Ready</span><span id="pointerStatus">0, 0</span><span id="canvasStatus">1600 × 900</span><span id="memoryStatus">1 layer</span>
+  </footer>
+
+  <div id="menuPopup" class="menu-popup" hidden></div>
+  <div id="settingsDialog" class="dialog-backdrop" hidden>
+    <section class="dialog paint-window" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+      <div class="window-title"><span id="settingsTitle">Studio settings</span><button id="closeSettings" type="button">×</button></div>
+      <div class="dialog-content">
+        <label>Theme<select id="themeSelect"><option value="light">Light</option><option value="dark">Dark</option><option value="system">Follow device</option></select></label>
+        <label class="check"><input id="autosaveToggle" type="checkbox" checked> Autosave locally while editing</label>
+        <label class="check"><input id="showCheckerToggle" type="checkbox" checked> Show transparency checkerboard</label>
+        <label class="check"><input id="showRotateToggle" type="checkbox" checked> Suggest landscape on phones/tablets</label>
+        <p class="small-note">Cloud configuration is kept inside the app code and is not shown here. Connecting Drive opens Google's authorization flow through the configured service.</p>
+      </div>
+    </section>
+  </div>
+  <div id="welcomeDialog" class="dialog-backdrop" hidden>
+    <section class="dialog welcome-dialog paint-window" role="dialog" aria-modal="true">
+      <div class="welcome-brand"><img src="assets/icon-192.png" alt=""><div><h1 class="savanski-art-studio-brand">Savanski Art Studio</h1><p>One canvas for doodles, memes, mapmaking, photo edits, collages, dynamic images, and more.</p></div></div>
+      <div class="welcome-actions">
+        <button id="welcomeNew" class="primary-action" type="button">New blank project</button>
+        <label class="big-file-button">Open image<input id="welcomeImage" type="file" accept="image/*"></label>
+        <label class="big-file-button">Open project<input id="welcomeProject" type="file" accept=".json,.savanski,.savanski.json,application/json"></label>
+        <button id="welcomeContinue" type="button">Continue local project</button>
+      </div>
+      <label class="check"><input id="showWelcomeAgain" type="checkbox" checked> Show this start screen next time</label>
+    </section>
+  </div>
+
+  <input id="imageFileInput" type="file" accept="image/*" multiple hidden>
+  <input id="stampFileInput" type="file" accept="image/*" hidden>
+
+  <script defer src="js/backend-config.js"></script>
+  <script defer src="js/preset-data.js"></script>
+  <script defer src="js/three.global.js"></script>
+  <script defer src="js/three.addons.global.js"></script>
+  <script defer src="js/core.js"></script>
+  <script defer src="js/canvas-engine.js"></script>
+  <script defer src="js/tools.js"></script>
+  <script defer src="js/filters.js"></script>
+  <script defer src="js/collage.js"></script>
+  <script defer src="js/map-tools.js"></script>
+  <script defer src="js/animation.js"></script>
+  <script defer src="js/backend-api.js"></script>
+  <script defer src="js/library.js"></script>
+  <script defer src="js/three-workspace.js"></script>
+  <script defer src="js/ui.js"></script>
+</body>
+</html>

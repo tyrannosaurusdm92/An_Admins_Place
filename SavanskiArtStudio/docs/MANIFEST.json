@@ -1,0 +1,298 @@
+{
+  "app": "Savanski Art Studio",
+  "version": "2026.08.08-v1",
+  "generated": "2026-08-08",
+  "entrypoint": "studio.html",
+  "topLevel": [
+    "studio.html",
+    "js",
+    "css",
+    "json",
+    "docs",
+    "backend",
+    "assets"
+  ],
+  "sourceArchives": [
+    {
+      "archive": "Effects_Studio (1)(1).zip",
+      "files": 373,
+      "uncompressedBytes": 180289290,
+      "mediaBytes": 177325739,
+      "codeConfigBytes": 1758153
+    },
+    {
+      "archive": "Effects_Studio_Organized_Slim(1).zip",
+      "files": 285,
+      "uncompressedBytes": 175340394,
+      "mediaBytes": 174986399,
+      "codeConfigBytes": 347944
+    },
+    {
+      "archive": "3D_Effects_Studio(1).zip",
+      "files": 981,
+      "uncompressedBytes": 250486957,
+      "mediaBytes": 244376949,
+      "codeConfigBytes": 6013102
+    },
+    {
+      "archive": "3D_Effects_Studio.zip",
+      "files": 981,
+      "uncompressedBytes": 250486957,
+      "mediaBytes": 244376949,
+      "codeConfigBytes": 6013102
+    },
+    {
+      "archive": "Belavados_3D_Effects_Studio(1).zip",
+      "files": 981,
+      "uncompressedBytes": 250487104,
+      "mediaBytes": 244376949,
+      "codeConfigBytes": 6013185
+    },
+    {
+      "archive": "Belavados_3D_Effects_Studio.zip",
+      "files": 981,
+      "uncompressedBytes": 250487104,
+      "mediaBytes": 244376949,
+      "codeConfigBytes": 6013185
+    }
+  ],
+  "design": {
+    "brandFont": "Rubik Dirt only for full rendered brand phrase",
+    "centerColor": "#00FFFF",
+    "leftFamily": "Cadmium Yellow #FFF600",
+    "rightFamily": "Persimmon Orange #EC5800"
+  },
+  "storage": {
+    "systemFolderId": "1sXLBNsZ_FaFi6LUx773gQUP1q6G0Leyk",
+    "fallbackFolderId": "11SdF1SSrbzBZ5nrgtDlmTqrEKjv-7Mj2",
+    "sharedLibraryFolderId": "172HDX8KoXIS9lvAOpMxVYz6HrDQMlr-k"
+  },
+  "backend": {
+    "webAppConfigured": true,
+    "appsScriptLibraryVersion": "3"
+  },
+  "bundledMediaPolicy": "Only resized copies of the user-supplied app icon are bundled. No source backgrounds, stickers, sample art, or audio are bundled.",
+  "validation": {
+    "javascriptSyntax": "passed",
+    "backendSyntax": "passed via JavaScript parser",
+    "jsonParse": "passed",
+    "htmlLocalReferences": "passed",
+    "htmlDuplicateIds": "none",
+    "javascriptHtmlIdReferences": "passed",
+    "excludedFeatureStringScan": "passed",
+    "nonIconMediaScan": "passed"
+  },
+  "fileCountExcludingManifest": 42,
+  "files": [
+    {
+      "path": "assets/icon-1024.png",
+      "bytes": 3274238,
+      "sha256": "3cc6f36166f9ed5cedc725f86dd5c2f54d28eb834529b49cdc6adcc8688532a1"
+    },
+    {
+      "path": "assets/icon-128.png",
+      "bytes": 41901,
+      "sha256": "19e6bd88f1aa2dda9d6a37215069724370aa38643853ebaff72f73820592eca1"
+    },
+    {
+      "path": "assets/icon-180.png",
+      "bytes": 80548,
+      "sha256": "e5dab6a5d76167ce1002f76decf049bf8ba0cad82cd26f8a2a9195346628659d"
+    },
+    {
+      "path": "assets/icon-192.png",
+      "bytes": 91449,
+      "sha256": "2aa51251c1d526911a5360408990a9c5b82f52bd6631ce058fcb1dc0930e78c8"
+    },
+    {
+      "path": "assets/icon-256.png",
+      "bytes": 159470,
+      "sha256": "cdc5f1639c9926c9673f862654a4237a57ac759234d28ae2e56162f19a2b776c"
+    },
+    {
+      "path": "assets/icon-32.png",
+      "bytes": 3046,
+      "sha256": "08b64c3b18dbb1017f3634ef0478024fe51577a196169696b97532c1d813b451"
+    },
+    {
+      "path": "assets/icon-512.png",
+      "bytes": 623248,
+      "sha256": "d222198f5ed53acc5d7cf20063353be3609d3c187560a31409ea02e057bfc122"
+    },
+    {
+      "path": "assets/icon-64.png",
+      "bytes": 11219,
+      "sha256": "23c40e09ee9575e2c75b6155dbd7bae311d13eb517a29fe06961632e2530ba31"
+    },
+    {
+      "path": "backend/Savanski_Art_Studio_Backend.gs",
+      "bytes": 22566,
+      "sha256": "79252f65aaf6d7eed85dcc61d9eb381d7881bd83a1c62b066d29672a07278625"
+    },
+    {
+      "path": "css/palette.css",
+      "bytes": 1493,
+      "sha256": "0b3044d6997aacd8d25de6f951d7fe3dfc56b6d89a3acce3cd4a04de7bf87bbf"
+    },
+    {
+      "path": "css/studio.css",
+      "bytes": 14345,
+      "sha256": "db65cb5ae2cea81f35140f2f466947a9e12b6890ae86fb2c8eb603d44a052b2b"
+    },
+    {
+      "path": "docs/AUDIT.md",
+      "bytes": 5906,
+      "sha256": "5ef02c23fcc134d7eed083e20849d78fd7839bd7e4b41ae074d18778738e2dfe"
+    },
+    {
+      "path": "docs/LICENSE.md",
+      "bytes": 16495,
+      "sha256": "6081c3faf2901760d660c69749f49aeab92935ded07575d3e0c7ce3ae4105e00"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 6182,
+      "sha256": "f46c69e93b58e530dc9db0649d8f1228023e4f35108544cfdc75dc32d963cacc"
+    },
+    {
+      "path": "js/animation.js",
+      "bytes": 4776,
+      "sha256": "a1875fa9044cd7f7ec13586c997bc3986cbe80888ae96a0c323ab014ad954816"
+    },
+    {
+      "path": "js/backend-api.js",
+      "bytes": 8539,
+      "sha256": "0ba2053c11530607dd127a1bc4b3fdee0b2f8a5e6896096648326c0ba18868c7"
+    },
+    {
+      "path": "js/backend-config.js",
+      "bytes": 781,
+      "sha256": "f1a7b158b1f8764184071e328a48fc74372f8adb83b8d3ea6e2d843e7ed06bb6"
+    },
+    {
+      "path": "js/basis_transcoder.js",
+      "bytes": 57529,
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+    },
+    {
+      "path": "js/basis_transcoder.wasm",
+      "bytes": 527333,
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+    },
+    {
+      "path": "js/canvas-engine.js",
+      "bytes": 11286,
+      "sha256": "e2d71c32e3166be6866743c6cc97b68f67a2fad2fefba0f610b9ae4248a42bea"
+    },
+    {
+      "path": "js/collage.js",
+      "bytes": 3218,
+      "sha256": "92eced347bfd4eea93280506837463b267c73103f140cd500d50bb0ecb5d1c2f"
+    },
+    {
+      "path": "js/core.js",
+      "bytes": 5669,
+      "sha256": "1077f2ba698065700a947fc964635a4b11a37e9c6bfc735c9b4d83ff548258ea"
+    },
+    {
+      "path": "js/draco_decoder.js",
+      "bytes": 512465,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    {
+      "path": "js/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "js/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "js/filters.js",
+      "bytes": 3991,
+      "sha256": "e52126bbe556e08d0b2c762a044f744ef4c3926a461f66ab9f5f0abf7721fbe8"
+    },
+    {
+      "path": "js/library.js",
+      "bytes": 2723,
+      "sha256": "34a9016442467bece20e2b19e646f7d420faac8a379612d8bafe07137c3b228a"
+    },
+    {
+      "path": "js/map-tools.js",
+      "bytes": 2630,
+      "sha256": "442ca3df8ee18425e452b9e987d4ff379d195b0571f7af0eee673ac32f4250be"
+    },
+    {
+      "path": "js/preset-data.js",
+      "bytes": 1758,
+      "sha256": "0d25252d68ec576a337332b616be899fbdb3813a8ad164ebde1810827e4efff4"
+    },
+    {
+      "path": "js/service-worker.js",
+      "bytes": 1057,
+      "sha256": "79e8fe5e06d6f88e8b3d441b96ab6a50d5d2b070b3997aceaeb49256fc8e8c4a"
+    },
+    {
+      "path": "js/three-workspace.js",
+      "bytes": 12036,
+      "sha256": "8cd173dca0a7c0c3cf2c60185111939aac6007cb2d6d0de7311b64c2d5fb28c9"
+    },
+    {
+      "path": "js/three.addons.global.js",
+      "bytes": 1207176,
+      "sha256": "767383026559d915a5760681436cddf90f30e6e0db30cdf1f96db2ed05b74e9e"
+    },
+    {
+      "path": "js/three.global.js",
+      "bytes": 2108729,
+      "sha256": "09ebe8958f74ead9e21d966543b157390b0bf053decfb9d5bfd12ebe7b7a04ed"
+    },
+    {
+      "path": "js/tools.js",
+      "bytes": 18073,
+      "sha256": "22c173cd72a91b862491746c1b9c72dad28f65ceb94c417d41d69b906af25dbe"
+    },
+    {
+      "path": "js/ui.js",
+      "bytes": 18320,
+      "sha256": "e918268dd746310e05e12a3995734d821789b2f88f558639a1fda95518cea8d5"
+    },
+    {
+      "path": "json/brushes.json",
+      "bytes": 1132,
+      "sha256": "f79b65f05b1245fc1e7a7497c28d281ddc87261ab8a466cb1e2794f56658ece4"
+    },
+    {
+      "path": "json/filters.json",
+      "bytes": 528,
+      "sha256": "d6b7e3ea7a526f3d073b6c7aa16b9edbbbcee6d4ffac6c6db146f36cd0fcb043"
+    },
+    {
+      "path": "json/manifest.json",
+      "bytes": 721,
+      "sha256": "d01a1df536f76ec9ee38971d463012a04583523fe30dd336508b99c13df1ee95"
+    },
+    {
+      "path": "json/map-presets.json",
+      "bytes": 387,
+      "sha256": "2fa3465435f6b9ef8b206d92c27cb9897a4856dad4107aaaca36c0c9fe5ce8ee"
+    },
+    {
+      "path": "json/palettes.json",
+      "bytes": 775,
+      "sha256": "db4afc6b1534fcdf1d788009a5804271aea341fe9a20bcf477d9cb0f33bf924a"
+    },
+    {
+      "path": "json/project-schema.json",
+      "bytes": 965,
+      "sha256": "f1d81fdce1246b6b57aae9c1f0e91bd0087bf484416ce88f3f92c65c28823126"
+    },
+    {
+      "path": "studio.html",
+      "bytes": 29788,
+      "sha256": "1ae840a946e65c340ed8a62108ab11b31d892996d27b102626e3bb19f4da2c25"
+    }
+  ]
+}
