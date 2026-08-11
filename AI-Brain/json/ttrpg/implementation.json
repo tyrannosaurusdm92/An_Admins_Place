@@ -1,0 +1,38 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "layer",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "extract_optimizer_parameters",
+      "first_step",
+      "load_state_dict",
+      "split_model_parameters",
+      "state_dict",
+      "step",
+      "zero_grad"
+    ],
+    "classes": [
+      "CapacitronOptimizer",
+      "for"
+    ],
+    "imports": [],
+    "lineCount": 68,
+    "characterCount": 2434
+  },
+  "selectedComments": [
+    "Update param groups to display the correct learning rate"
+  ]
+}

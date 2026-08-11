@@ -1,0 +1,29 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "character",
+    "class",
+    "color",
+    "map",
+    "merge",
+    "shape"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "plot_embeddings"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 51,
+    "characterCount": 1321
+  },
+  "selectedComments": [
+    "if necessary get just the first 10 classes"
+  ]
+}

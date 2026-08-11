@@ -1,0 +1,18 @@
+{
+  "schema": "activeworkspace.random_encounters.dialogue_studio_load_order.v2",
+  "version": "2.2.0",
+  "basePath": "assets/RandomEncounters/js/dialogue-studio/",
+  "files": [
+    "namespace.js",
+    "config.js",
+    "utils.js",
+    "search.js",
+    "prompt.js",
+    "backend.js",
+    "fallback-brain.js"
+  ],
+  "notes": [
+    "Only browser-safe JS runtime files are live.",
+    "The complete attached project is preserved as a sanitized source snapshot in docs/source_repositories."
+  ]
+}

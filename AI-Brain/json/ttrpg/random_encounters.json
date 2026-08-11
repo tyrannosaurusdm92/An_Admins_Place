@@ -1,0 +1,25 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "auth",
+    "character",
+    "class",
+    "combat",
+    "dice",
+    "grid",
+    "layer",
+    "map",
+    "npc",
+    "random",
+    "spell"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-c",
+    "sourceType": "provided-project-material",
+    "archiveHash": "be64160633c6ca96"
+  },
+  "title": "random_encounters.md",
+  "content": "# ActiveWorkspace RandomEncounters\n\nThis folder contains only functionality not already owned by ActiveWorkspace: coherent random encounter generation, ichor encounter equipment, and NPC dialogue integration.\n\nActiveWorkspace remains authoritative for dice, combat, initiative, hostile AI, grid detection, map play, characters, alignment, classes, spells, monsters, and token resolution. Token images—including deity tokens—are resolved from the configured GitHub raw token base and are not bundled here.\n"
+}

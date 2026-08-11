@@ -1,0 +1,36 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "character",
+    "class",
+    "dice",
+    "merge",
+    "random",
+    "sort"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "__iter__",
+      "__len__",
+      "identity"
+    ],
+    "classes": [
+      "BucketBatchSampler",
+      "PerfectBatchSampler",
+      "SortedSampler",
+      "SubsetSampler",
+      "batching"
+    ],
+    "imports": [],
+    "lineCount": 202,
+    "characterCount": 6778
+  },
+  "selectedComments": []
+}

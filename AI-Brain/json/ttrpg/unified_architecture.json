@@ -1,0 +1,18 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "canon",
+    "class",
+    "layer",
+    "rules"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-c",
+    "sourceType": "provided-project-material",
+    "archiveHash": "be64160633c6ca96"
+  },
+  "title": "unified_architecture.md",
+  "content": "# Unified Architecture — ActiveWorkspace\n\nAll three sibling folders share the same `unified/canonical-bundle.js`, `unified/architect-core.js`, storage keys, event contract, and rules version. Generated content is not a loose text artifact: it becomes a versioned registry record with class, path, alignment, era, source references, mechanics, constraints, and a validation report.\n\nExpected parent layout:\n\n```text\nAI-Brain/\n  ActiveWorkspace/\n  Universal_MOL/\n  Universal_Player/\n```\n\nSibling links assume that layout.\n"
+}

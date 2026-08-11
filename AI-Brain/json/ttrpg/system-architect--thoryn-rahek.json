@@ -1,0 +1,33 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Thoryn-Rahek",
+  "titles": [
+    "The First Devourer",
+    "Father of Aberrant Life",
+    "The Folded Colossus"
+  ],
+  "domains": [
+    "aberrant life",
+    "mutation",
+    "insectoid horrors",
+    "oozes"
+  ],
+  "race_count": 2,
+  "races": [
+    {
+      "race_id": "jaspey",
+      "race_name": "Jaspey",
+      "race_category": "Tiny Plant and Fungal Peoples",
+      "role": "toxin-and-mutation patron",
+      "rationale": "Toxin filtering, unusual symbiosis, and adaptive spore forms create a wary ritual association with aberrant life and mutation."
+    },
+    {
+      "race_id": "c19",
+      "race_name": "Dātseṣapyal",
+      "race_category": "Gelweave Folk",
+      "role": "gel-form patron",
+      "rationale": "Soft bodies and temporary collective forms create a direct, if cautious, religious association with oozes and aberrant life."
+    }
+  ]
+}

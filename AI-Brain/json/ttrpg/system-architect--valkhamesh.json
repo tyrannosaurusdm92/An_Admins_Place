@@ -1,0 +1,26 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Valkhamesh",
+  "titles": [
+    "High Father of Heaven",
+    "Storm-King",
+    "Sovereign of Ancient Dominion"
+  ],
+  "domains": [
+    "draconic bloodlines",
+    "sovereignty",
+    "storms",
+    "ancient dominion"
+  ],
+  "race_count": 1,
+  "races": [
+    {
+      "race_id": "szucarin",
+      "race_name": "Szûcarín",
+      "race_category": "Draconic and Reptilian Peoples",
+      "role": "primary patron",
+      "rationale": "Draconic bloodlines, dynastic memory, storms, and sovereign lineages place the Szûcarín directly within Valkhamesh’s claimed dominion."
+    }
+  ]
+}

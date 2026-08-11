@@ -1,0 +1,34 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Enkirael",
+  "titles": [
+    "Lord of Conquest and Fury",
+    "The Unrestrained Blade",
+    "Patron of Martial Survival"
+  ],
+  "domains": [
+    "conquest",
+    "fury",
+    "survival",
+    "dominance",
+    "warfare"
+  ],
+  "race_count": 2,
+  "races": [
+    {
+      "race_id": "heimujuryz",
+      "race_name": "Heimujuryz",
+      "race_category": "Many-Kindred Warclans",
+      "role": "martial-survival patron",
+      "rationale": "Warclan traditions invoke Enkirael for survival and defense while explicitly rejecting the belief that ancestry requires violence."
+    },
+    {
+      "race_id": "aburata",
+      "race_name": "Aburata",
+      "race_category": "Dual-Form Equine Peoples",
+      "role": "heat-and-command patron",
+      "rationale": "Heat, forceful presence, and martial ambition draw some Aburata houses toward Enkirael’s survival cults."
+    }
+  ]
+}

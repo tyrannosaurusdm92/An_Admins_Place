@@ -1,0 +1,1 @@
+{"schema":"universal.package-manifest.v8","version":"8.0.0","fileCount":2218,"sha256File":"docs/SHA256SUMS.txt","canonicalCounts":{"raceCategories":23,"parentRaces":161,"classes":22,"subclasses":66,"alignmentProfiles":81},"reactionAssets":340,"rootHtml":"index.html","testReport":"docs/V8_TEST_REPORT.json","buildAudit":"docs/V8_BUILD_AUDIT.json"}

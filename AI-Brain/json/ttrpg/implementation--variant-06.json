@@ -1,0 +1,28 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "character",
+    "class",
+    "color",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "tsx",
+  "summary": {
+    "functions": [
+      "Footer"
+    ],
+    "classes": [],
+    "imports": [
+      "@/config/mode",
+      "@/providers/language-provider"
+    ],
+    "lineCount": 38,
+    "characterCount": 988
+  },
+  "selectedComments": []
+}

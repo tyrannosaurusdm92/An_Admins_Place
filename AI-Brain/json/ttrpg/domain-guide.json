@@ -1,0 +1,43 @@
+{
+  "schema": "ai-brain.domain-guide.v1",
+  "version": "1.0.0",
+  "id": "domain-ttrpg",
+  "title": "Ttrpg",
+  "domain": "ttrpg",
+  "description": "Tabletop RPG rules, sheets, campaigns, encounters, dice, sessions, safety and custom-system design.",
+  "tags": [
+    "ttrpg",
+    "ttrpg",
+    "tabletop rpg",
+    "dnd",
+    "d&d",
+    "dice",
+    "character sheet",
+    "campaign",
+    "gm",
+    "dm"
+  ],
+  "capabilities": [
+    "rules-design",
+    "campaign-design",
+    "encounters",
+    "sheets"
+  ],
+  "relatedDomains": [
+    "game-design",
+    "vtt-maps",
+    "worldbuilding",
+    "simulation",
+    "safety-moderation"
+  ],
+  "useCases": [
+    "route user requests into this domain",
+    "combine this domain with related disciplines",
+    "select more specific source shards by corpus index"
+  ],
+  "retrievalPolicy": "Use this guide as a routing seed. Prefer deeper topic/source shards from the corpus index when they match the request.",
+  "provenance": {
+    "source": "AI-Brain Project Pitch and unified source-package architecture",
+    "type": "source-derived routing seed"
+  }
+}

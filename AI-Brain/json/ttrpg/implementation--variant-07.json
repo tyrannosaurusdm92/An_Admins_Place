@@ -1,0 +1,26 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "canon",
+    "class",
+    "generator",
+    "genetics",
+    "layer",
+    "spell"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-a",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "lineCount": 33,
+    "characterCount": 1065
+  },
+  "selectedComments": []
+}

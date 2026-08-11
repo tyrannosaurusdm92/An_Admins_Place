@@ -1,0 +1,33 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Iskareth",
+  "titles": [
+    "Mother of Beasts",
+    "Keeper of Living Kinship",
+    "The Watching Predator"
+  ],
+  "domains": [
+    "instinct",
+    "beasts",
+    "fertility",
+    "natural kinship"
+  ],
+  "race_count": 2,
+  "races": [
+    {
+      "race_id": "deorbasun",
+      "race_name": "Deorbasun",
+      "race_category": "Beast-Souled Peoples",
+      "role": "primary patron",
+      "rationale": "Soul-animal bonds, instinct, territory, fertility, and natural kinship directly match Iskareth’s domains."
+    },
+    {
+      "race_id": "drilthar",
+      "race_name": "Dril'thar",
+      "race_category": "Amphibious Peoples",
+      "role": "living-kinship patron",
+      "rationale": "Their many ecological lineages and communal spawning traditions connect fertility and natural kinship to Iskareth."
+    }
+  ]
+}

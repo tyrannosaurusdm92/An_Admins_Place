@@ -1,0 +1,35 @@
+{
+  "schema": "activeworkspace.compliance.v4.2",
+  "version": "4.2.0",
+  "counts": {
+    "parentRaces": 130,
+    "nestedAncestries": 106,
+    "heritagePairs": 8385,
+    "biomeGroups": 5,
+    "biomes": 18,
+    "classes": 22,
+    "classPaths": 66,
+    "deities": 22,
+    "alignmentAxes": 8,
+    "alignmentProfiles": 81,
+    "statBlockTemplates": 7
+  },
+  "sharedRegistries": [
+    "character sheet",
+    "alignment quiz",
+    "DiceBot",
+    "RandomEncounters",
+    "quest builder",
+    "hostile normalization",
+    "quick stat-block hostile normalization"
+  ],
+  "security": {
+    "clientSideDMGrant": false,
+    "embeddedOwnerIdentifier": false,
+    "fragmentValueEmbedded": false,
+    "backendAuthoritative": true,
+    "passwordDerivedClientSecret": false
+  },
+  "googleDocumentFilesIncluded": false,
+  "windowsSafeRequired": true
+}

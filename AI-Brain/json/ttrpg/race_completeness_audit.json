@@ -1,0 +1,20 @@
+{
+  "schema": "universal.race-completeness-audit.v1",
+  "generated_on": "2026-07-19",
+  "expected": {
+    "fantasy": 130,
+    "alien": 31,
+    "total": 161,
+    "identities_per_race": 14,
+    "alien_identity_slots": 434
+  },
+  "actual": {
+    "fantasy": 130,
+    "alien": 31,
+    "total": 161,
+    "with_base_traits": 161,
+    "fantasy_missing_creator_deity": 0,
+    "alien_with_14_identities": 31
+  },
+  "all_complete": true
+}

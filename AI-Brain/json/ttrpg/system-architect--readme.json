@@ -1,0 +1,14 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "ttrpg"
+  ],
+  "provenance": {
+    "sourceGroup": "system-architect",
+    "sourceType": "provided-project-material",
+    "archiveHash": "5cf1f3ddcc2d6fbe"
+  },
+  "title": "readme.txt",
+  "content": "Universal fantasy race + deity assignments\n\nAll 34 non-alien Universal races have one or more public deity associations.\nAll 26 alien races are intentionally excluded.\nAssociations are broad cultural traditions and do not require every member of a race to worship the same deity.\nUniversal peoples understand these beings as gods within public cosmology.\n"
+}
