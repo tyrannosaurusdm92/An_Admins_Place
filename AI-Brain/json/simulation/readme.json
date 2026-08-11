@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "simulation",
+  "capabilities": [
+    "alignment",
+    "generator",
+    "npc",
+    "relationship",
+    "rules",
+    "schedule",
+    "settlement"
+  ],
+  "provenance": {
+    "sourceGroup": "legacy-capability-patterns",
+    "sourceType": "provided-project-material",
+    "archiveHash": "97e57b75c0b1ff38"
+  },
+  "title": "readme.md",
+  "content": "# Universal Life Generator Package\n\nOpen `life_generator.html` in a browser. It uses separate CSS, JavaScript, vendor, and data files.\n\n## Included\n\n- `life_generator.html` — main HTML file; no index-named HTML.\n- `css/life_generator.css` — visual styling.\n- `js/life_generator_app.js` — UI wiring and persistence.\n- `js/generator_core.js` — location, NPC, relationship, schedule, travel, alignment, and GeoJSON generation.\n- `js/importers.js` — JSON, GeoJSON, HTML, DOCX, PDF, and image import scanning.\n- `js/exporters.js` — JSON, GeoJSON, HTML, DOCX, and ZIP export.\n- `js/data/*` — race dropdown data, settlement assignments, time model, location catalog, and generation rules.\n- `js/vendor/jszip.min.js` — ZIP and DOCX support.\n\n## Notes\n\nDOCX import and DOCX/ZIP export use the bundled JSZip library. PDF import includes a lightweight text extraction fallback; scanned PDFs or heavily compressed PDFs may import as source files but produce limited scanned text. For best generator scanning, use JSON, DOCX, or HTML.\n\nGenerated data persists in browser storage until cleared. Export `data/full_restore_state.json` from a ZIP package and import it later to restore all NPCs, locations, schedules, relationships, travel records, and GeoJSON without regeneration.\n"
+}
