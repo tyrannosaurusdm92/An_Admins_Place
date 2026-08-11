@@ -1,0 +1,4 @@
+const ext=p=>String(p).toLowerCase().split(".").pop();
+export function classifyFile(path){const e=ext(path);if(["js","ts","tsx","py","gs","java"].includes(e))return"code";if(["json","jsonl","csv","xml","yaml","yml"].includes(e))return"data";if(["png","jpg","jpeg","webp","gif","svg","psd"].includes(e))return"image";if(["mp3","wav","flac","m4a"].includes(e))return"audio";if(["mp4","mov","webm","avi"].includes(e))return"video";if(["pdf","docx","txt","md","html"].includes(e))return"document";return"other";}
+export function proposeTaxonomy(files){const groups={};for(const f of files){const k=classifyFile(f.path||f.name||f);(groups[k]??=[]).push(f);}return groups;}
+export async function sha256Text(text){const b=new TextEncoder().encode(text),h=await crypto.subtle.digest("SHA-256",b);return [...new Uint8Array(h)].map(x=>x.toString(16).padStart(2,"0")).join("");}
