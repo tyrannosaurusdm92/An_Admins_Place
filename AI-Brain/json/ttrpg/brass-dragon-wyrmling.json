@@ -1,0 +1,164 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "brass-dragon-wyrmling",
+  "name": "Brass Dragon Wyrmling",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Dragon",
+    "subtype": "",
+    "role": [
+      "controller"
+    ],
+    "cr": "1",
+    "environments": [
+      "sky"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "brass-dragon-wyrmling",
+    "token_candidates": [
+      "brass-dragon-wyrmling.webp",
+      "brass-dragon-wyrmling.png",
+      "brass-dragon-wyrmling.jpg",
+      "Brass Dragon Wyrmling/brass-dragon-wyrmling.webp",
+      "Brass Dragon Wyrmling/brass-dragon-wyrmling.png",
+      "hostiles/brass-dragon-wyrmling.webp",
+      "hostiles/brass-dragon-wyrmling.png",
+      "creatures/brass-dragon-wyrmling.webp",
+      "creatures/brass-dragon-wyrmling.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 16,
+    "max_hp": 16,
+    "ac": 16,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 200,
+    "cr_numeric": 1.0
+  },
+  "ability_scores": {
+    "str": 15,
+    "dex": 10,
+    "con": 13,
+    "int": 10,
+    "wis": 11,
+    "cha": 13
+  },
+  "saves": {
+    "dexterity": 2,
+    "constitution": 3,
+    "wisdom": 2,
+    "charisma": 3
+  },
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": "1d10",
+      "damageBonus": 2,
+      "averageDamage": 7.5,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.\nSleep Breath. The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
+      "category": "save",
+      "attackBonus": null,
+      "damageDice": "4d6",
+      "damageBonus": 0,
+      "averageDamage": 14.0,
+      "damageType": "fire",
+      "rangeFt": 15,
+      "rangeType": "area",
+      "saveDc": 11,
+      "saveAbility": "DEX",
+      "multiattackCount": 1,
+      "id": "breath-weapons-recharge-5-6",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "fire",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "3d8",
+    "skills": "Stealth +2, Perception +4",
+    "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+    "languages": "Draconic",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "controller"
+    ],
+    "environments": [
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "chaotic-sentinel",
+      "name": "Chaotic Sentinel",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Chaotic",
+        "cooperation": "Neutral",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 750,
+        "cooperation": 1500,
+        "honor": 2250
+      },
+      "description": "Fights with passion and principle. Disregards rules - but never their personal honor."
+    },
+    "tokenKey": "brass-dragon-wyrmling",
+    "tokenCandidates": [
+      "brass-dragon-wyrmling.webp",
+      "brass-dragon-wyrmling.png",
+      "brass-dragon-wyrmling.jpg",
+      "Brass Dragon Wyrmling/brass-dragon-wyrmling.webp",
+      "Brass Dragon Wyrmling/brass-dragon-wyrmling.png",
+      "hostiles/brass-dragon-wyrmling.webp",
+      "hostiles/brass-dragon-wyrmling.png",
+      "creatures/brass-dragon-wyrmling.webp",
+      "creatures/brass-dragon-wyrmling.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/brass-dragon-wyrmling.json"
+}

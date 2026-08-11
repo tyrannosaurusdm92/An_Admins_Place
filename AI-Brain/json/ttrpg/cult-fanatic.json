@@ -1,0 +1,174 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "cult-fanatic",
+  "name": "Cult Fanatic",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Humanoid",
+    "subtype": "any race",
+    "role": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "cr": "2",
+    "environments": [
+      "road",
+      "urban"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "cult-fanatic",
+    "token_candidates": [
+      "cult-fanatic.webp",
+      "cult-fanatic.png",
+      "cult-fanatic.jpg",
+      "Cult Fanatic/cult-fanatic.webp",
+      "Cult Fanatic/cult-fanatic.png",
+      "hostiles/cult-fanatic.webp",
+      "hostiles/cult-fanatic.png",
+      "creatures/cult-fanatic.webp",
+      "creatures/cult-fanatic.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 22,
+    "max_hp": 22,
+    "ac": 13,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 450,
+    "cr_numeric": 2.0
+  },
+  "ability_scores": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "dark_devotion",
+      "description": "The fanatic has advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "name": "spellcasting",
+      "description": "The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:\n\nCantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (4 slots): command, inflict wounds, shield of faith\n* 2nd level (3 slots): hold person, spiritual weapon"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The fanatic makes two melee attacks.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 2,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Dagger",
+      "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+      "category": "attack",
+      "attackBonus": "4",
+      "damageDice": "1d4",
+      "damageBonus": 2,
+      "averageDamage": 4.5,
+      "damageType": "piercing",
+      "rangeFt": 20,
+      "rangeType": "ranged",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "dagger",
+      "kind": "attack_roll",
+      "to_hit": "4",
+      "toHit": "4",
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "6d8",
+    "skills": "Religion +2, Deception +4, Persuasion +4",
+    "senses": "passive Perception 11",
+    "languages": "any one language (usually Common)",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": true,
+    "divineCandidate": true,
+    "roles": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "environments": [
+      "road",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-sentinel",
+      "name": "Neutral Sentinel",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 2250
+      },
+      "description": "Honors a code of protection and patience. Acts when needed, guards without words, and never asks for praise."
+    },
+    "tokenKey": "cult-fanatic",
+    "tokenCandidates": [
+      "cult-fanatic.webp",
+      "cult-fanatic.png",
+      "cult-fanatic.jpg",
+      "Cult Fanatic/cult-fanatic.webp",
+      "Cult Fanatic/cult-fanatic.png",
+      "hostiles/cult-fanatic.webp",
+      "hostiles/cult-fanatic.png",
+      "creatures/cult-fanatic.webp",
+      "creatures/cult-fanatic.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/cult-fanatic.json"
+}

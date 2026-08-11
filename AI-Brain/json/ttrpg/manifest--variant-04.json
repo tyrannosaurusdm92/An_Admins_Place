@@ -1,0 +1,156 @@
+{
+  "schema": "universal.quick-statblock.manifest.v3",
+  "project": "Universal Quick Stat Block Generator",
+  "version": "3.0.0",
+  "windows_safe": true,
+  "docx_included": false,
+  "repository_dumps_included": false,
+  "file_count": 28,
+  "canonical_counts": {
+    "parent_races": 130,
+    "subtypes": 106,
+    "entries": 236
+  },
+  "genetics_counts": {
+    "biological": 6670,
+    "assisted": 44,
+    "incompatible": 1671
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2084,
+      "sha256": "d5d6a9e8928491c420d242c6ad7179bc580f6c3b3032e13c19056a2c978b287e"
+    },
+    {
+      "path": "css/app.css",
+      "bytes": 16088,
+      "sha256": "6b871248c77ae5db6ed27f7fea14063a3ce7c5bb877e3a812ca2ac2a45bb0eea"
+    },
+    {
+      "path": "data/alignment.json",
+      "bytes": 16365,
+      "sha256": "3d0419528425736c62b96dc5a625fac6546f851d605d9cc29de3b97b7d6fbfca"
+    },
+    {
+      "path": "data/alignment_profiles.json",
+      "bytes": 23163,
+      "sha256": "8fce4daae8e7f1511cb8fa643c4495c1e5fb7e96103eafda3c3b3d56187e9d37"
+    },
+    {
+      "path": "data/class_alignment_profiles.json",
+      "bytes": 22560,
+      "sha256": "d9b5ccccb304c67a3f6c302c9c3cf14b2f67c8ff999f83d4f65f13b21efe1f25"
+    },
+    {
+      "path": "data/classes.json",
+      "bytes": 3821615,
+      "sha256": "82767b440f536cb5b8ba3e5e6fbcc2fc51a60b6c76e7d706979fa72c89633428"
+    },
+    {
+      "path": "data/deity_covenants.json",
+      "bytes": 24768,
+      "sha256": "976e391a4cdd71099ba2c405113ddef151fd350684be8734567881cba03da50d"
+    },
+    {
+      "path": "data/genetics.json",
+      "bytes": 6412647,
+      "sha256": "4f858e67b9db5f5676b4550dde77eba6d2edb1e25f93238db96df1c7b420efa5"
+    },
+    {
+      "path": "data/pantheon.json",
+      "bytes": 503244,
+      "sha256": "76cd54cef819c5fe1c59f4f3103b197574ecef8e0c8cb0835f35e2ba0d4268bf"
+    },
+    {
+      "path": "data/parent_to_child_genetics.json",
+      "bytes": 50169,
+      "sha256": "0b1d038f201a7dd31ade91b5b1a3af3feb24c2bd8dbe93dddf6df8e628958ff9"
+    },
+    {
+      "path": "data/races.json",
+      "bytes": 1277333,
+      "sha256": "83a0b3aa65b043efa8b7701ef821b6908825a97d48a8fae0de3100a165b3ef0e"
+    },
+    {
+      "path": "data/spells.json",
+      "bytes": 8101649,
+      "sha256": "e7616f8890d9ebc23d839fcf05930e060b3f4c24eeefc8ce2a167543f9f8bd08"
+    },
+    {
+      "path": "data/system_core.json",
+      "bytes": 15258,
+      "sha256": "c8c569ae2a7e06db1000b804accb09edbf423b3f9377e75d7eb40050d2a6496a"
+    },
+    {
+      "path": "data/templates.json",
+      "bytes": 2383,
+      "sha256": "b4866b865785fa0655c1c9c248254960a08b6fbfccb33229c2c76801597e07d2"
+    },
+    {
+      "path": "docs/CANON_CORRECTIONS.md",
+      "bytes": 665,
+      "sha256": "9fcfb1b7e39fa2666f079d0943ec1a5299ef28850c2dd9e90666fd5829562154"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "bytes": 767,
+      "sha256": "814cec9526477ff66cf445d7dcee67f4094ac13618cdfd4b3967cb3bae633277"
+    },
+    {
+      "path": "docs/HERITAGE_GENETICS.md",
+      "bytes": 1996,
+      "sha256": "4cd2f01d452df2eb8389ce65ec8dc28ae222903742a0607269272d2c91b00989"
+    },
+    {
+      "path": "docs/SOURCE_AUDIT.md",
+      "bytes": 831,
+      "sha256": "f24bc329186b3b6506ff063d10379dcd2b75423c135dc709e536367aa84462cf"
+    },
+    {
+      "path": "docs/STATBLOCK_DATA_MODEL.md",
+      "bytes": 1135,
+      "sha256": "633e660fd07e4489127b760419bd230647d7f652f1826d5c078d8e882a05b4f7"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "bytes": 1498,
+      "sha256": "48a8d407aa441268c8301caf4b1a66fa5c38a27a4b782c3a233989746a29c95d"
+    },
+    {
+      "path": "docs/data_audit.json",
+      "bytes": 3159,
+      "sha256": "751e2541f907bafed4d7e4b4020f41bfd76741245039230f22886170e92f1ab9"
+    },
+    {
+      "path": "docs/heritage_audit.json",
+      "bytes": 1213,
+      "sha256": "85968292a350aebc13d0bdd894a1b977386c59f1b0d28c0a88a0516cd377c823"
+    },
+    {
+      "path": "index.html",
+      "bytes": 17261,
+      "sha256": "5c3f937ba9f0b296121a23531d4aeb7f084dee6670753444f6613b3440ef5d31"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 68098,
+      "sha256": "4d5444a26fb54e3c2a55014a8627d32fdada2ee10eafd2be6b142b63db4a5f31"
+    },
+    {
+      "path": "js/data_bundle.js",
+      "bytes": 11664234,
+      "sha256": "727831df4967eda795b28c73abcacd09ddfb70e8888338739549fbe4c78bc987"
+    },
+    {
+      "path": "tools/rebuild_data_bundle.bat",
+      "bytes": 306,
+      "sha256": "438d74e588977d998e1ddb572a1286d657a29885d0212c87c7f0bed09035403d"
+    },
+    {
+      "path": "tools/rebuild_data_bundle.py",
+      "bytes": 1065,
+      "sha256": "47ec27a63b0e14903f063848191be8282ab85bf7a338b2d4c6b0fe30e7013f77"
+    }
+  ]
+}

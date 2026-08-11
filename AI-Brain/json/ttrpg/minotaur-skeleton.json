@@ -1,0 +1,166 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "minotaur-skeleton",
+  "name": "Minotaur Skeleton",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Undead",
+    "subtype": "",
+    "role": [
+      "brute"
+    ],
+    "cr": "2",
+    "environments": [
+      "underdark",
+      "underground"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "minotaur-skeleton",
+    "token_candidates": [
+      "minotaur-skeleton.webp",
+      "minotaur-skeleton.png",
+      "minotaur-skeleton.jpg",
+      "Minotaur Skeleton/minotaur-skeleton.webp",
+      "Minotaur Skeleton/minotaur-skeleton.png",
+      "hostiles/minotaur-skeleton.webp",
+      "hostiles/minotaur-skeleton.png",
+      "creatures/minotaur-skeleton.webp",
+      "creatures/minotaur-skeleton.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 67,
+    "max_hp": 67,
+    "ac": 12,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 450,
+    "cr_numeric": 2.0
+  },
+  "ability_scores": {
+    "str": 18,
+    "dex": 11,
+    "con": 15,
+    "int": 6,
+    "wis": 8,
+    "cha": 5
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Charge",
+      "description": "If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Greataxe",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.",
+      "category": "attack",
+      "attackBonus": 6,
+      "damageDice": "2d12",
+      "damageBonus": 4,
+      "averageDamage": 17.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "greataxe",
+      "kind": "attack_roll",
+      "to_hit": 6,
+      "toHit": 6,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Gore",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
+      "category": "attack",
+      "attackBonus": 6,
+      "damageDice": "2d8",
+      "damageBonus": 4,
+      "averageDamage": 13.0,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "gore",
+      "kind": "attack_roll",
+      "to_hit": 6,
+      "toHit": 6,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "9d10",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 9",
+    "languages": "understands Abyssal but can't speak",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute"
+    ],
+    "environments": [
+      "underdark",
+      "underground"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-mercenary",
+      "name": "Lawful Mercenary",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Lawful",
+        "cooperation": "Combative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 2250,
+        "cooperation": 750,
+        "honor": 750
+      },
+      "description": "A sword for hire with contracts tattooed on their soul. Lawful only when paid, but never sloppy."
+    },
+    "tokenKey": "minotaur-skeleton",
+    "tokenCandidates": [
+      "minotaur-skeleton.webp",
+      "minotaur-skeleton.png",
+      "minotaur-skeleton.jpg",
+      "Minotaur Skeleton/minotaur-skeleton.webp",
+      "Minotaur Skeleton/minotaur-skeleton.png",
+      "hostiles/minotaur-skeleton.webp",
+      "hostiles/minotaur-skeleton.png",
+      "creatures/minotaur-skeleton.webp",
+      "creatures/minotaur-skeleton.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/minotaur-skeleton.json"
+}

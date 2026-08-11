@@ -1,0 +1,176 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "giant-eagle",
+  "name": "Giant Eagle",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "beast",
+    "subtype": "",
+    "role": "mob/npc/monster",
+    "cr": "1",
+    "environments": [
+      "Mountain",
+      "Wilderness"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "giant-eagle",
+    "token_candidates": [
+      "giant-eagle.webp",
+      "giant-eagle.png",
+      "giant-eagle.jpg",
+      "Giant Eagle/giant-eagle.webp",
+      "Giant Eagle/giant-eagle.png",
+      "hostiles/giant-eagle.webp",
+      "hostiles/giant-eagle.png",
+      "creatures/giant-eagle.webp",
+      "creatures/giant-eagle.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🦅",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 26,
+    "max_hp": 26,
+    "ac": 12,
+    "initiative_bonus": 2,
+    "speed_ft": 50,
+    "xp": 200,
+    "cr_numeric": 1.0,
+    "proficiency_bonus": 2
+  },
+  "ability_scores": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "str": 2,
+    "dex": 1,
+    "con": 1,
+    "wis": 1
+  },
+  "traits": [
+    {
+      "id": "keen_senses_style",
+      "name": "Keen Senses",
+      "summary": "Prefers isolated or injured targets and gains advantage note when tracking."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Claws or Bite",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 4,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+4",
+      "damage_roll": "1d8+2",
+      "damage_type": "slashing",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "8"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "4d10",
+    "skills": "Perception +4",
+    "senses": "passive Perception 14",
+    "languages": "Giant Eagle, understands Common and Auran but can't speak",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "soldier"
+    ],
+    "environments": [
+      "coastal",
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-crusader",
+      "name": "Neutral Crusader",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Neutral",
+        "cooperation": "Combative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 1500,
+        "cooperation": 750,
+        "honor": 2250
+      },
+      "description": "Champions the cause without borders. Fights for those who cannot, loyal only to their personal sense of good."
+    },
+    "tokenKey": "giant-eagle",
+    "tokenCandidates": [
+      "giant-eagle.webp",
+      "giant-eagle.png",
+      "giant-eagle.jpg",
+      "Giant Eagle/giant-eagle.webp",
+      "Giant Eagle/giant-eagle.png",
+      "hostiles/giant-eagle.webp",
+      "hostiles/giant-eagle.png",
+      "creatures/giant-eagle.webp",
+      "creatures/giant-eagle.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/giant-eagle.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 11,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 1; use owned sourcebooks/official compendium for exact traits."
+}

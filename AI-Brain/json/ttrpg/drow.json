@@ -1,0 +1,180 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "drow",
+  "name": "Drow",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Humanoid",
+    "subtype": "elf",
+    "role": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "cr": "1/4",
+    "environments": [
+      "road",
+      "underdark",
+      "urban"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "drow",
+    "token_candidates": [
+      "drow.webp",
+      "drow.png",
+      "drow.jpg",
+      "Drow/drow.webp",
+      "Drow/drow.png",
+      "hostiles/drow.webp",
+      "hostiles/drow.png",
+      "creatures/drow.webp",
+      "creatures/drow.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 13,
+    "max_hp": 13,
+    "ac": 15,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 50,
+    "cr_numeric": 0.25
+  },
+  "ability_scores": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 11,
+    "wis": 11,
+    "cha": 12
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Fey Ancestry",
+      "description": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "description": "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights\n1/day each: darkness, faerie fire"
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shortsword",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": "1d6",
+      "damageBonus": 2,
+      "averageDamage": 5.5,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "shortsword",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Hand Crossbow",
+      "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": "1d6",
+      "damageBonus": 2,
+      "averageDamage": 5.5,
+      "damageType": "piercing",
+      "rangeFt": 30,
+      "rangeType": "ranged",
+      "saveDc": 13,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "hand-crossbow",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "3d8",
+    "skills": "Stealth +4, Perception +2",
+    "senses": "darkvision 120 ft., passive Perception 12",
+    "languages": "Elvish, Undercommon",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": true,
+    "divineCandidate": false,
+    "roles": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "environments": [
+      "road",
+      "underdark",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-strategist",
+      "name": "Neutral Strategist",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 750
+      },
+      "description": "Thinks only in outcomes, not morals. Moves quietly, makes power plays, and always walks away with more."
+    },
+    "tokenKey": "drow",
+    "tokenCandidates": [
+      "drow.webp",
+      "drow.png",
+      "drow.jpg",
+      "Drow/drow.webp",
+      "Drow/drow.png",
+      "hostiles/drow.webp",
+      "hostiles/drow.png",
+      "creatures/drow.webp",
+      "creatures/drow.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/drow.json"
+}

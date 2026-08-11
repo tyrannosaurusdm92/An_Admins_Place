@@ -1,0 +1,190 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "cave-bear",
+  "name": "Cave Bear",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Beast",
+    "subtype": "",
+    "role": [
+      "brute"
+    ],
+    "cr": "2",
+    "environments": [
+      "aquatic",
+      "coastal"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "cave-bear",
+    "token_candidates": [
+      "cave-bear.webp",
+      "cave-bear.png",
+      "cave-bear.jpg",
+      "Cave Bear/cave-bear.webp",
+      "Cave Bear/cave-bear.png",
+      "hostiles/cave-bear.webp",
+      "hostiles/cave-bear.png",
+      "creatures/cave-bear.webp",
+      "creatures/cave-bear.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 42,
+    "max_hp": 42,
+    "ac": 12,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 450,
+    "cr_numeric": 2.0
+  },
+  "ability_scores": {
+    "str": 20,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Keen Smell",
+      "description": "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The bear makes two attacks: one with its bite and one with its claws.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 2,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "1d8",
+      "damageBonus": 5,
+      "averageDamage": 9.5,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claws",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "2d6",
+      "damageBonus": 5,
+      "averageDamage": 12.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claws",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "5d10",
+    "skills": "Perception +3",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-scoundrel",
+      "name": "Neutral Scoundrel",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Combative",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 750,
+        "honor": 1500
+      },
+      "description": "A fighter without a cause. May brawl for coin, pride, or boredom - but rarely cares who wins the war."
+    },
+    "tokenKey": "cave-bear",
+    "tokenCandidates": [
+      "cave-bear.webp",
+      "cave-bear.png",
+      "cave-bear.jpg",
+      "Cave Bear/cave-bear.webp",
+      "Cave Bear/cave-bear.png",
+      "hostiles/cave-bear.webp",
+      "hostiles/cave-bear.png",
+      "creatures/cave-bear.webp",
+      "creatures/cave-bear.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/cave-bear.json"
+}
