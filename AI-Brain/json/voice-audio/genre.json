@@ -1,0 +1,16 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "merge",
+    "npc",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "genre.txt",
+  "content": "inspiring female uplifting pop airy vocal electronic bright vocal vocal"
+}

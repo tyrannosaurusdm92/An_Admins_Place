@@ -1,0 +1,23 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "generator",
+    "merge",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "ts",
+  "summary": {
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "lineCount": 10,
+    "characterCount": 192
+  },
+  "selectedComments": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "korean_text_to_phonemes"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 37,
+    "characterCount": 880
+  },
+  "selectedComments": []
+}

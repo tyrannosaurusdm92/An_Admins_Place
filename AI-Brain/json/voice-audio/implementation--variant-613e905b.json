@@ -1,0 +1,1 @@
+{"schema":"ai-brain-implementation-pattern/1.0","domain":"voice-audio","capabilities":["character","merge","speech"],"provenance":{"sourceGroup":"character-voice-studio","sourceType":"implementation-pattern-extraction"},"sourceLanguage":"py","summary":{"functions":["tts"],"classes":[],"imports":[],"lineCount":47,"characterCount":1892},"selectedComments":["create synthesizer"]}

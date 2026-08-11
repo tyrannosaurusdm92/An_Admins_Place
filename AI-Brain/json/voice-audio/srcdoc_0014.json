@@ -1,0 +1,15 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "srcdoc_0014.txt",
+  "content": "[console_scripts]\ntts = TTS.bin.synthesize:main\ntts-server = TTS.server.server:main\n"
+}

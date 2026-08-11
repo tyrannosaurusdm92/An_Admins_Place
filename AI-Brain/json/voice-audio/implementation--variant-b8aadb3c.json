@@ -1,0 +1,1 @@
+{"schema":"ai-brain-implementation-pattern/1.0","domain":"voice-audio","capabilities":["merge","npc","voice"],"provenance":{"sourceGroup":"voice-persona-creator","sourceType":"implementation-pattern-extraction"},"sourceLanguage":"py","summary":{"functions":["main"],"classes":[],"imports":[],"lineCount":16,"characterCount":498},"selectedComments":["!/usr/bin/env python3"]}
