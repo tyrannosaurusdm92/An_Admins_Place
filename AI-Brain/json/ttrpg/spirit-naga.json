@@ -1,0 +1,155 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "spirit-naga",
+  "name": "Spirit Naga",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Monstrosity",
+    "subtype": "",
+    "role": [
+      "brute",
+      "caster",
+      "controller",
+      "leader"
+    ],
+    "cr": "8",
+    "environments": [
+      "underdark"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "spirit-naga",
+    "token_candidates": [
+      "spirit-naga.webp",
+      "spirit-naga.png",
+      "spirit-naga.jpg",
+      "Spirit Naga/spirit-naga.webp",
+      "Spirit Naga/spirit-naga.png",
+      "hostiles/spirit-naga.webp",
+      "hostiles/spirit-naga.png",
+      "creatures/spirit-naga.webp",
+      "creatures/spirit-naga.png",
+      "placeholders/hostiles/monstrosity.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 75,
+    "max_hp": 75,
+    "ac": 15,
+    "initiative_bonus": 3,
+    "speed_ft": 30,
+    "xp": 3900,
+    "cr_numeric": 8.0
+  },
+  "ability_scores": {
+    "str": 18,
+    "dex": 17,
+    "con": 14,
+    "int": 16,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "dexterity": 6,
+    "constitution": 5,
+    "wisdom": 5,
+    "charisma": 6
+  },
+  "traits": [
+    {
+      "name": "Rejuvenation",
+      "description": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+    },
+    {
+      "name": "Spellcasting",
+      "description": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:\n\n* Cantrips (at will): mage hand, minor illusion, ray of frost\n* 1st level (4 slots): charm person, detect magic, sleep\n* 2nd level (3 slots): detect thoughts, hold person\n* 3rd level (3 slots): lightning bolt, water breathing\n* 4th level (3 slots): blight, dimension door\n* 5th level (2 slots): dominate person"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "1d6",
+      "damageBonus": 4,
+      "averageDamage": 7.5,
+      "damageType": "piercing",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": 13,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "10d10",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Abyssal, Common",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "caster",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "underdark"
+    ],
+    "homebrewAlignment": {
+      "profileId": "chaotic-renegade",
+      "name": "Chaotic Renegade",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Chaotic",
+        "cooperation": "Cooperative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 750,
+        "cooperation": 2250,
+        "honor": 750
+      },
+      "description": "A team-friendly anarchist with their own goals. Helps the group... until they don’t."
+    },
+    "tokenKey": "spirit-naga",
+    "tokenCandidates": [
+      "spirit-naga.webp",
+      "spirit-naga.png",
+      "spirit-naga.jpg",
+      "Spirit Naga/spirit-naga.webp",
+      "Spirit Naga/spirit-naga.png",
+      "hostiles/spirit-naga.webp",
+      "hostiles/spirit-naga.png",
+      "creatures/spirit-naga.webp",
+      "creatures/spirit-naga.png",
+      "placeholders/hostiles/monstrosity.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/spirit-naga.json"
+}

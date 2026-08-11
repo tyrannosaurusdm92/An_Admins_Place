@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "Universal Universe Campaign Suite — Medieval-to-Interstellar Edition",
+  "mode": "hybrid",
+  "setting": "Universal",
+  "era": {
+    "defaultLevel": 3,
+    "label": "Medieval",
+    "minimum": 3,
+    "maximum": 10
+  },
+  "galaxy": {
+    "name": "Vacío l'Abîme Frénétiacré",
+    "type": "shared-canon-editable",
+    "systemCount": 1,
+    "simulationScale": "editable",
+    "alienCommonName": "Zešijómë"
+  },
+  "defaultSystem": {
+    "name": "New Star System",
+    "star": {
+      "name": "Primary Star",
+      "spectralClass": "G2V",
+      "massSolar": 1,
+      "radiusSolar": 1,
+      "luminositySolar": 1
+    },
+    "planetCount": 4
+  },
+  "planetDefaults": {
+    "radiusKm": 6371,
+    "massEarth": 1,
+    "gravityEarth": 1,
+    "rotationHours": 24,
+    "axialTiltDeg": 23.5,
+    "orbitDirection": "prograde",
+    "ringTiltDeg": 0,
+    "moonCount": 1,
+    "composition": {
+      "ocean": 45,
+      "land": 30,
+      "ice": 15,
+      "gas": 10
+    },
+    "atmosphere": {
+      "pressureBar": 1,
+      "nitrogen": 78,
+      "oxygen": 21,
+      "other": 1
+    }
+  },
+  "genreControls": {
+    "fantasy": true,
+    "scienceFiction": true,
+    "hybrid": true,
+    "userDefined": true
+  },
+  "sourcePrecedence": [
+    "protected-user-records",
+    "scoped-json-overrides",
+    "manual-edits",
+    "generated-defaults"
+  ],
+  "viewer": {
+    "nativeViews": [
+      "deep-space",
+      "system",
+      "orbital",
+      "globe",
+      "flat-map",
+      "terrain",
+      "ocean-depth",
+      "underground",
+      "atmosphere"
+    ],
+    "preserveSelection": true,
+    "preserveTime": true,
+    "preserveUndo": true
+  },
+  "backend": {
+    "endpoint": "https://script.google.com/macros/s/AKfycbxe3P6MBofPEhPfTAaz05TWEYhScX9QgpHzBKCdwPGnvzvVoyfllu0bAghZKqHs4E3hGg/exec",
+    "libraryId": "1v06thwdjlv-j82hqHibJF3_gik7i8p9fFfK9nj0EOfi8VHhwT11jK5Eb",
+    "libraryVersion": 4
+  },
+  "optionalReferencePresets": [
+    {
+      "id": "continent-editor-base",
+      "label": "Continent Editor Base Surface",
+      "sourceTexture": "assets/textures/geologic_090ma.jpg",
+      "displayAge": false
+    }
+  ],
+  "universalSimulator": {
+    "stableIds": true,
+    "completeProjectExports": true,
+    "editorWorkspaceHash": "#editor-workspace",
+    "fantasyRacePages": 130,
+    "orderedMixedHeritageRecords": 7664,
+    "frontFacingAuthoring": true,
+    "fixedLineageOrBloodlineFolders": 102,
+    "ruleset": "Universal Covenant Engine",
+    "classCount": 22,
+    "alignmentProfileCount": 81,
+    "pantheonCount": 22,
+    "alienFolkRacePages": 31,
+    "totalRacePages": 161,
+    "completeRaceStatblocks": true,
+    "galaxyIdentityRef": "galaxy_identity.json",
+    "campaignScopeRef": "../data/universe/campaign_scope.json"
+  },
+  "access": {
+    "model": "front-facing-authoring",
+    "externalInterfaceIncluded": false,
+    "allControlsVisible": true,
+    "protectedRecordsVisible": true
+  },
+  "campaignScope": [
+    {
+      "id": "universal_medieval",
+      "era_range": [
+        3,
+        3
+      ],
+      "location_scope": "Universal",
+      "description": "Medieval campaigns centered on provinces, settlements, wilderness, oceans, underworld spaces, deities, covenants, and local politics."
+    },
+    {
+      "id": "universal_progressive_eras",
+      "era_range": [
+        3,
+        10
+      ],
+      "location_scope": "Universal",
+      "description": "A continuous campaign can advance from medieval society through industrial, modern, orbital, interplanetary, and interstellar eras without changing universes."
+    },
+    {
+      "id": "universal_space_exploration",
+      "era_range": [
+        8,
+        10
+      ],
+      "location_scope": "Universal system and outward",
+      "description": "Launch from Universal into orbital, interplanetary, and interstellar exploration or population campaigns."
+    },
+    {
+      "id": "zesijome_galactic_exploration",
+      "era_range": [
+        9,
+        10
+      ],
+      "location_scope": "Anywhere in the shared galaxy",
+      "description": "Space exploration, first contact, settlement, colonization, migration, trade, diplomacy, archaeology, and survival campaigns can occur anywhere in Zešijómë / Vacío l'Abîme Frénétiacré. Universal does not need to be the narrative center."
+    }
+  ]
+}

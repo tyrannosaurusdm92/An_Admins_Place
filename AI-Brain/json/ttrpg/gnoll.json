@@ -1,0 +1,172 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "gnoll",
+  "name": "Gnoll",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "humanoid",
+    "subtype": "gnoll",
+    "role": "mob/npc/monster",
+    "cr": "1/2",
+    "environments": [
+      "Road",
+      "Wilderness"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "gnoll",
+    "token_candidates": [
+      "gnoll.webp",
+      "gnoll.png",
+      "gnoll.jpg",
+      "Gnoll/gnoll.webp",
+      "Gnoll/gnoll.png",
+      "hostiles/gnoll.webp",
+      "hostiles/gnoll.png",
+      "creatures/gnoll.webp",
+      "creatures/gnoll.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🐕",
+    "class": "mob",
+    "color": "#b36cff"
+  },
+  "combat": {
+    "hp": 16,
+    "max_hp": 16,
+    "ac": 12,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 100,
+    "cr_numeric": 0.5,
+    "proficiency_bonus": 2
+  },
+  "ability_scores": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "str": 1,
+    "dex": 1,
+    "con": 1,
+    "wis": 0
+  },
+  "traits": [],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Attack",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 4,
+      "reach_ft": 5,
+      "range_ft": 30,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+4",
+      "damage_roll": "1d6+2",
+      "damage_type": "slashing",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "6"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "5d8",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Gnoll",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": true,
+    "divineCandidate": false,
+    "roles": [
+      "artillery"
+    ],
+    "environments": [
+      "desert",
+      "forest",
+      "road",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "chaotic-strategist",
+      "name": "Chaotic Strategist",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Chaotic",
+        "cooperation": "Neutral",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 750,
+        "cooperation": 1500,
+        "honor": 750
+      },
+      "description": "Unpredictable mastermind. Seeks chaos only they understand, playing both sides to win."
+    },
+    "tokenKey": "gnoll",
+    "tokenCandidates": [
+      "gnoll.webp",
+      "gnoll.png",
+      "gnoll.jpg",
+      "Gnoll/gnoll.webp",
+      "Gnoll/gnoll.png",
+      "hostiles/gnoll.webp",
+      "hostiles/gnoll.png",
+      "creatures/gnoll.webp",
+      "creatures/gnoll.png",
+      "placeholders/hostiles/humanoid.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/gnoll.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 10,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 1/2; use owned sourcebooks/official compendium for exact traits."
+}

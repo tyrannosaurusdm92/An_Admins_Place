@@ -1,0 +1,132 @@
+{
+  "schema": "worldbuilder.universal.alignment-quiz-package-manifest.v2",
+  "packageTitle": "Universal Eight-Axis Covenant Alignment Quiz",
+  "packageVersion": "4.0.0",
+  "alignmentSystemVersion": "3.1.0",
+  "entryPoint": "quiz.html",
+  "onlyHtmlFile": true,
+  "offlineLaunch": true,
+  "externalDependencies": [],
+  "counts": {
+    "axes": 8,
+    "profiles": 81,
+    "families": 22,
+    "parentRaces": 130,
+    "subtypes": 106,
+    "classes": 22,
+    "subclasses": 66,
+    "deities": 22,
+    "quickQuestions": 8,
+    "deepQuestions": 24
+  },
+  "validation": {
+    "axisCountIs8": true,
+    "profileAxisCountIs4": true,
+    "expressionAxisCountIs4": true,
+    "all81ProfileCombinationsResolve": true,
+    "creatorFamilyCountIs22": true,
+    "parentRaceCountIs130": true,
+    "nestedOptionCountIs106": true,
+    "classCountIs22": true,
+    "subclassCountIs66": true,
+    "deityCountIs22": true,
+    "oneToOneClassDeityAssignment": true,
+    "allCreatorDeitiesResolve": true,
+    "quickQuestionCountIs8": true,
+    "deepQuestionCountIs24": true,
+    "questionEffectsUseValidAxes": true,
+    "javascriptSyntaxChecked": true,
+    "snapshotSmokeTestPassed": true,
+    "examinationSmokeTestPassed": true,
+    "noBrowserConsoleErrors": true
+  },
+  "browserConsoleErrorCount": 0,
+  "sourcePriority": [
+    "Universal_Merged_System_JSON_Replacements(2).zip — final merged authority",
+    "Universal_Eight_Axis_Covenant_Alignment_System_v3(3).zip — supporting component validation",
+    "Universal_22_Merged_Classes_Rule_Compliant(4).zip — checked against newer merged class replacement",
+    "Universal_Alignment_Quiz_Package(2).zip — legacy interface baseline only"
+  ],
+  "files": [
+    {
+      "path": "css/quiz.css",
+      "sizeBytes": 10647,
+      "sha256": "c996c180b3a68708819eb65c83e2165f0bb14330b494e71bfa001a9cbe378416"
+    },
+    {
+      "path": "docs/AUDIT.md",
+      "sizeBytes": 1968,
+      "sha256": "e544983fcafec97240b66638c23b0e82f2688548c012d0539708dd18ee1cbc1e"
+    },
+    {
+      "path": "docs/README.md",
+      "sizeBytes": 4126,
+      "sha256": "d5af611b9cc135b59df88e5c3b6395dfbddbbc8ebd1f609f88eba3041c194fc1"
+    },
+    {
+      "path": "js/data.generated.js",
+      "sizeBytes": 415266,
+      "sha256": "f63bbe5f59bf8526b7cb1e9254251de505e702a520720717cad6a99f241a6911"
+    },
+    {
+      "path": "js/quiz.js",
+      "sizeBytes": 39482,
+      "sha256": "e563d8bdf84d3a5d005289046e9a28c3b361b00e67414d4ee11864ac1143d243"
+    },
+    {
+      "path": "json/alignment_quiz_runtime.json",
+      "sizeBytes": 491780,
+      "sha256": "9909b875bf168b0dc1916593c3ab4cddf4c746fb0d86f0e74ccfd89c1d22f69b"
+    },
+    {
+      "path": "json/canonical/universal_alignments.json",
+      "sizeBytes": 40564,
+      "sha256": "b95412ff63b10a26e2ca07aeb8106d5e16f53f843a3272cc032060789bae738b"
+    },
+    {
+      "path": "json/canonical/universal_classes.json",
+      "sizeBytes": 3964668,
+      "sha256": "58c31fff25ed563c1303e50b494bbdf2054f10ae907440666a3783a2fdd0a3ca"
+    },
+    {
+      "path": "json/canonical/universal_pantheon.json",
+      "sizeBytes": 503244,
+      "sha256": "76cd54cef819c5fe1c59f4f3103b197574ecef8e0c8cb0835f35e2ba0d4268bf"
+    },
+    {
+      "path": "json/canonical/components/universal_81_profile_registry.json",
+      "sizeBytes": 23162,
+      "sha256": "b9e9e5b46da97504833c90cb153b9d26e98331da719bf6f4a8d57fe49f4d34cb"
+    },
+    {
+      "path": "json/canonical/components/universal_alignment_system.json",
+      "sizeBytes": 16364,
+      "sha256": "60ec261dee909742e496a0f207d36cb63fa3faae1f6f6aab67feae08c57e23b1"
+    },
+    {
+      "path": "json/canonical/components/universal_class_alignment_profiles.json",
+      "sizeBytes": 22559,
+      "sha256": "5714581d9d6fb05c263a80d6ebb975ee7b9de37c873b2381686f6e23e662a534"
+    },
+    {
+      "path": "json/canonical/components/universal_deity_covenants.json",
+      "sizeBytes": 24767,
+      "sha256": "cdb92a2b6199ab3929cebf2b9b6cfbe6a2408f80f91ea95d70354aa662367462"
+    },
+    {
+      "path": "json/canonical/pantheon_and_races.json",
+      "sizeBytes": 514268,
+      "sha256": "0a4b0d7f06b59b02011af8d1216720410473493920a08ab0169fb02158aae197"
+    },
+    {
+      "path": "json/question_bank.json",
+      "sizeBytes": 39120,
+      "sha256": "05e5d96032e60c1db9b4bb67d23819a61ba12f7cd462243b42f7f2bb2e2baf10"
+    },
+    {
+      "path": "quiz.html",
+      "sizeBytes": 3844,
+      "sha256": "639d8e500d042dc1ea6e46e70f93da530849facec23b475ab17b9c8917de603b"
+    }
+  ]
+}

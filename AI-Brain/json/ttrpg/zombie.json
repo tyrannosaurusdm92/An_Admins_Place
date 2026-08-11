@@ -1,0 +1,177 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "zombie",
+  "name": "Zombie",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "undead",
+    "subtype": "",
+    "role": "mob/npc/monster",
+    "cr": "1/4",
+    "environments": [
+      "Dungeon",
+      "Swamp",
+      "Town"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "zombie",
+    "token_candidates": [
+      "zombie.webp",
+      "zombie.png",
+      "zombie.jpg",
+      "Zombie/zombie.webp",
+      "Zombie/zombie.png",
+      "hostiles/zombie.webp",
+      "hostiles/zombie.png",
+      "creatures/zombie.webp",
+      "creatures/zombie.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🧟",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 11,
+    "max_hp": 11,
+    "ac": 12,
+    "initiative_bonus": -1,
+    "speed_ft": 30,
+    "xp": 50,
+    "cr_numeric": 0.25,
+    "proficiency_bonus": 2
+  },
+  "ability_scores": {
+    "str": 12,
+    "dex": 11,
+    "con": 14,
+    "int": 8,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "str": 1,
+    "dex": 0,
+    "con": 2,
+    "wis": 0
+  },
+  "traits": [
+    {
+      "id": "undead_fortitude_style",
+      "name": "Deathless Body",
+      "summary": "Ignores ordinary fatigue and uses necrotic-flavored reactions in logs."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Grave Strike",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 3,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+3",
+      "damage_roll": "1d6+1",
+      "damage_type": "necrotic",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "6"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "3d8",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "understands all languages it spoke in life but can't speak",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "soldier"
+    ],
+    "environments": [
+      "underground",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-mercenary",
+      "name": "Neutral Mercenary",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Neutral",
+        "cooperation": "Combative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 1500,
+        "cooperation": 750,
+        "honor": 750
+      },
+      "description": "No gods. No masters. Just coin and contract. Brutal, blunt, and fiercely independent in battle."
+    },
+    "tokenKey": "zombie",
+    "tokenCandidates": [
+      "zombie.webp",
+      "zombie.png",
+      "zombie.jpg",
+      "Zombie/zombie.webp",
+      "Zombie/zombie.png",
+      "hostiles/zombie.webp",
+      "hostiles/zombie.png",
+      "creatures/zombie.webp",
+      "creatures/zombie.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/zombie.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 10,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 1/4; use owned sourcebooks/official compendium for exact traits."
+}

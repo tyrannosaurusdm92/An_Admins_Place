@@ -1,0 +1,175 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "black-bear",
+  "name": "Black Bear",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "beast",
+    "subtype": "",
+    "role": "mob/npc/monster",
+    "cr": "1/2",
+    "environments": [
+      "Forest",
+      "Wilderness"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "black-bear",
+    "token_candidates": [
+      "black-bear.webp",
+      "black-bear.png",
+      "black-bear.jpg",
+      "Black Bear/black-bear.webp",
+      "Black Bear/black-bear.png",
+      "hostiles/black-bear.webp",
+      "hostiles/black-bear.png",
+      "creatures/black-bear.webp",
+      "creatures/black-bear.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🐻",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 18,
+    "max_hp": 18,
+    "ac": 11,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 100,
+    "cr_numeric": 0.5,
+    "proficiency_bonus": 2
+  },
+  "ability_scores": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "str": 2,
+    "dex": 1,
+    "con": 1,
+    "wis": 1
+  },
+  "traits": [
+    {
+      "id": "keen_senses_style",
+      "name": "Keen Senses",
+      "summary": "Prefers isolated or injured targets and gains advantage note when tracking."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Claws or Bite",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 4,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+4",
+      "damage_roll": "1d6+2",
+      "damage_type": "slashing",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "6"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "3d8",
+    "skills": "",
+    "senses": "passive Perception 13",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "soldier"
+    ],
+    "environments": [
+      "forest"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-scoundrel",
+      "name": "Neutral Scoundrel",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Combative",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 750,
+        "honor": 1500
+      },
+      "description": "A fighter without a cause. May brawl for coin, pride, or boredom - but rarely cares who wins the war."
+    },
+    "tokenKey": "black-bear",
+    "tokenCandidates": [
+      "black-bear.webp",
+      "black-bear.png",
+      "black-bear.jpg",
+      "Black Bear/black-bear.webp",
+      "Black Bear/black-bear.png",
+      "hostiles/black-bear.webp",
+      "hostiles/black-bear.png",
+      "creatures/black-bear.webp",
+      "creatures/black-bear.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/black-bear.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 11,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 1/2; use owned sourcebooks/official compendium for exact traits."
+}
