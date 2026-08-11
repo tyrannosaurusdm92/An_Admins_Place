@@ -1,0 +1,130 @@
+{
+  "schema": "universal.quick-statblock.homebrew-transfer-audit.v3",
+  "all_homebrew_statblocks_complete": true,
+  "races": [
+    {
+      "race": "Aburata",
+      "source_paragraphs": 44,
+      "preserved_blocks": 44,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    },
+    {
+      "race": "Deorbasun",
+      "source_paragraphs": 43,
+      "preserved_blocks": 43,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 1
+    },
+    {
+      "race": "Dragonborn",
+      "source_paragraphs": 136,
+      "preserved_blocks": 136,
+      "source_tables": 12,
+      "preserved_tables": 12,
+      "normalized_base_traits": 0,
+      "canonical_subtypes": 9
+    },
+    {
+      "race": "Dril'thar",
+      "source_paragraphs": 238,
+      "preserved_blocks": 238,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 7,
+      "canonical_subtypes": 6
+    },
+    {
+      "race": "Gandirosha",
+      "source_paragraphs": 42,
+      "preserved_blocks": 42,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    },
+    {
+      "race": "Geisamahi",
+      "source_paragraphs": 46,
+      "preserved_blocks": 46,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    },
+    {
+      "race": "Gwynis",
+      "source_paragraphs": 42,
+      "preserved_blocks": 42,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    },
+    {
+      "race": "Jaspey",
+      "source_paragraphs": 188,
+      "preserved_blocks": 188,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 19,
+      "canonical_subtypes": 3
+    },
+    {
+      "race": "Kaluseban",
+      "source_paragraphs": 64,
+      "preserved_blocks": 64,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 6
+    },
+    {
+      "race": "Panolima",
+      "source_paragraphs": 64,
+      "preserved_blocks": 64,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 9,
+      "canonical_subtypes": 5
+    },
+    {
+      "race": "Tamhiogal",
+      "source_paragraphs": 41,
+      "preserved_blocks": 41,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    },
+    {
+      "race": "Volsarii",
+      "source_paragraphs": 43,
+      "preserved_blocks": 43,
+      "source_tables": 1,
+      "preserved_tables": 1,
+      "normalized_base_traits": 10,
+      "canonical_subtypes": 0
+    }
+  ],
+  "canonical_counts": {
+    "parent_races": 130,
+    "subtypes": 106,
+    "entries": 236
+  },
+  "genetics_counts": {
+    "biological": 6670,
+    "assisted": 44,
+    "incompatible": 1671
+  },
+  "compatibility_reaudit": {
+    "passed": true,
+    "provenance_preserved": true,
+    "transitive_closure_recomputed": true,
+    "side_message_rules_consolidated": true
+  }
+}

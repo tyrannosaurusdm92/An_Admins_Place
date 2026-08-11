@@ -1,0 +1,103 @@
+{
+  "schema": "universal.unified-package-manifest.v1",
+  "name": "ActiveWorkspace",
+  "version": "1.0.0-architect-1.4",
+  "generatedAt": "2026-07-26T01:36:26.537886+00:00",
+  "entryPoint": "index.html",
+  "expectedParent": "AI-Brain",
+  "siblingFolders": [
+    "ActiveWorkspace",
+    "Universal_MOL",
+    "Universal_Player"
+  ],
+  "canonicalRulesVersion": "1.4.0",
+  "canonicalCounts": {
+    "classes": 22,
+    "path_families": 6,
+    "total_paths": 132,
+    "class_expression_axes": 3,
+    "class_expression_phases": 4,
+    "class_expression_slots_per_phase": 4,
+    "alignment_axes": 8,
+    "alignment_phases": 4,
+    "alignment_slots_per_phase": 4,
+    "alignment_profiles": 81,
+    "cep_rate": 0.25,
+    "cep_conversion": "1 CEP per 4 XP with a 0-3 XP remainder",
+    "seed_total_each": 1500,
+    "ordinary_level_up_increase_cap": 500,
+    "ordinary_level_up_withdrawal_cap": 500,
+    "point_increment": 20,
+    "json_parse": "passed (102 package JSON files including individual deity and race-assignment records)",
+    "class_path_maps": "passed for all 22 classes and all six path families",
+    "docx_render_pages": 193,
+    "docx_visual_review": "passed; all 193 rendered pages inspected after the final race and deity restoration; no clipping, overlap, or broken tables found",
+    "accessibility_audit": {
+      "status": "passed",
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "html_structure": "passed; 26 book articles plus cover, internal navigation, race catalog, deity dossiers, terraforming register, and class-expression calculator present",
+    "architect_profiles": 22,
+    "exclusive_terraforming_assignments": 40,
+    "terraforming_assignment_overlaps": 0,
+    "playable_biological_origin_catalogs": 1,
+    "content_scope_scrub": "replaced by restoration validation; all 60 source race profiles and all 22 source deity dossiers are present",
+    "archive_integrity": "passed; ZIP CRC test returned no bad entry",
+    "race_profiles_total": 60,
+    "universal_homeworld_races": 34,
+    "alien_folk_profiles": 26,
+    "deity_profiles": 22,
+    "race_deity_links": 106
+  },
+  "sourceProjects": [
+    "Universal Universe Campaign Suite v8.0.0",
+    "UniversalSimulator v6 compatibility manifests",
+    "Universal Architect Engine v1.4 canonical JSON"
+  ],
+  "unifiedFiles": [
+    "unified/canonical-bundle.js",
+    "unified/architect-core.js",
+    "unified/theme.css"
+  ],
+  "liveRegistry": {
+    "schema": "universal.unified.registry.v1",
+    "transport": [
+      "localStorage",
+      "BroadcastChannel"
+    ],
+    "evented": true
+  },
+  "notes": "Older rule catalogs are compatibility/import sources. Architect Engine v1.4 data is authoritative.",
+  "buildStats": {
+    "fileCount": 2250,
+    "uncompressedBytes": 338564590,
+    "extensions": {
+      ".svg": 1593,
+      ".json": 226,
+      ".js": 143,
+      ".css": 114,
+      ".webp": 73,
+      ".exr": 35,
+      ".png": 25,
+      ".md": 17,
+      ".jpg": 11,
+      ".html": 5,
+      ".bat": 1,
+      ".docx": 1,
+      ".gif": 1,
+      ".glb": 1,
+      ".osgb": 1,
+      ".py": 1,
+      ".tif": 1,
+      ".txt": 1
+    }
+  },
+  "authorityFileSha256": {
+    "index.html": "98d0c9d07b0f48d36490774c48b86cc617ec9775545447ba0e22c8ded583dae2",
+    "unified/canonical-bundle.js": "4ae22bbaf3ae743919fea30bcfd043b3d46c60618da5266e26aadb6620e31129",
+    "unified/architect-core.js": "1391a67e7661a5979161bb7c96a508a2e7171e33923c0264529836a8d6107eb3",
+    "unified/theme.css": "a08af552cc10c45070c66c6bc6a1540f9d2cd3211eef726e96219a9c2b69e47a"
+  }
+}

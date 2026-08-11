@@ -1,0 +1,97 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Sokhivar",
+  "titles": [
+    "Radiant Prophet",
+    "Voice of the Sky",
+    "Patron of Avian Omens"
+  ],
+  "domains": [
+    "sunlight",
+    "music",
+    "prophecy",
+    "divine freedom",
+    "sky"
+  ],
+  "race_count": 11,
+  "races": [
+    {
+      "race_id": "lumhishu",
+      "race_name": "Lumhishūhito",
+      "race_category": "Elderwood Peoples",
+      "role": "radiant patron",
+      "rationale": "Sunlight held within the body and canopy-centered communities connect them to sacred light and the open sky."
+    },
+    {
+      "race_id": "enad",
+      "race_name": "Enâdkedzâd",
+      "race_category": "Planar-Marked Peoples",
+      "role": "radiant patron",
+      "rationale": "Radiance-metabolizing lineages interpret sacred light and visible vows through Sokhivar’s prophetic sky symbolism."
+    },
+    {
+      "race_id": "gandirosha",
+      "race_name": "Gandirosha",
+      "race_category": "Fey-Folk",
+      "role": "music patron",
+      "rationale": "Music, performance, and freedom in open-air courts connect many Gandirosha traditions to Sokhivar."
+    },
+    {
+      "race_id": "panolima",
+      "race_name": "Panolima",
+      "race_category": "Elemental Peoples",
+      "role": "air-and-light patron",
+      "rationale": "Air, magical light, and sky-facing aether traditions place part of Panolima worship under Sokhivar."
+    },
+    {
+      "race_id": "tamhiogal",
+      "race_name": "Tamhiogal",
+      "race_category": "Tidal Peoples",
+      "role": "resonance patron",
+      "rationale": "Bioluminescent display and resonant communication give Sokhivar a secondary role in music-and-light observances."
+    },
+    {
+      "race_id": "volsarii",
+      "race_name": "Volsarii",
+      "race_category": "Liminal and Spirit Peoples",
+      "role": "winged-ascent patron",
+      "rationale": "Late-life functional wings are interpreted through sky, freedom, and prophetic ascent symbolism."
+    },
+    {
+      "race_id": "c11",
+      "race_name": "Köpounnälanvar",
+      "race_category": "Clockfeather Folk",
+      "role": "sky patron",
+      "rationale": "Flight, feathers, migration, public coordination, and sky symbolism connect them to Sokhivar."
+    },
+    {
+      "race_id": "c12",
+      "race_name": "Thalojomammǫ",
+      "race_category": "Cliffsong Folk",
+      "role": "primary patron",
+      "rationale": "Sky travel, layered song, and safe wind corridors directly match sunlight, music, prophecy, and divine freedom."
+    },
+    {
+      "race_id": "c13",
+      "race_name": "Suarrižkuset",
+      "race_category": "Nightsonar Folk",
+      "role": "avian patron",
+      "rationale": "Despite their nocturnal habits, their avian bodies and aerial culture preserve an inherited association with the sky."
+    },
+    {
+      "race_id": "c14",
+      "race_name": "Fūnradnecael",
+      "race_category": "Sunplume Folk",
+      "role": "primary patron",
+      "rationale": "Solar feathers, migration, high-altitude travel, and visible civic crests directly reflect Sokhivar’s domains."
+    },
+    {
+      "race_id": "c28",
+      "race_name": "Zaktadaitü",
+      "race_category": "Mirror-Time Folk",
+      "role": "prophecy patron",
+      "rationale": "Probable futures are interpreted through prophecy while remaining choices rather than fixed commands."
+    }
+  ]
+}

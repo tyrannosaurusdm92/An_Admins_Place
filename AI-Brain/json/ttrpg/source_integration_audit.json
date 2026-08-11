@@ -1,0 +1,69 @@
+{
+  "schema": "universal.covenant-engine.source-integration-audit.v1",
+  "compiled": "2026-07-19",
+  "sources": [
+    {
+      "source": "Universal_22_Merged_Classes_Rule_Compliant",
+      "use": "authoritative class chassis, progression, paths, spells, Bounty Ichor, canonical deity pairs",
+      "status": "integrated and copied"
+    },
+    {
+      "source": "Universal_Eight_Axis_Covenant_Alignment_System_v3",
+      "use": "authoritative axes, profiles, movement, convictions, Resolve, Resonance, Claim",
+      "status": "integrated and copied"
+    },
+    {
+      "source": "Universal_Merged_System_JSON_Replacements",
+      "use": "authoritative current pantheon, races, and class index",
+      "status": "integrated and copied selectively"
+    },
+    {
+      "source": "Life_in_Universal_Complete_Corrected_Compendium",
+      "use": "world tone, Ichor, Thundercoils, death, settlements, factions, weather and lived experience",
+      "status": "integrated conceptually; older four-axis and specific route/coordinate data excluded"
+    },
+    {
+      "source": "WorldBuilder+LifeSimulation",
+      "use": "era 0–10, semantic locations, NPC schedules/reactions, environmental ownership, software bridge",
+      "status": "integrated through a clean bridge; large application not duplicated"
+    },
+    {
+      "source": "Universal_10_Year_Campaign_Plan_Canon_Autonomy_Revised",
+      "use": "guideline timeline, hook/lore/quest/consequence, open resolutions, autonomy audit",
+      "status": "integrated"
+    },
+    {
+      "source": "how_to_play_dnd_5e_latest",
+      "use": "familiar chassis and conversion baseline",
+      "status": "purpose studied; source file not redistributed"
+    },
+    {
+      "source": "how_to_play_pathfinder_2e_remaster",
+      "use": "purpose of flexible action use, degree clarity, and scene modes",
+      "status": "purpose reimplemented"
+    },
+    {
+      "source": "how_to_play_coc_7e",
+      "use": "purpose of clue-rich investigations, pushes, chases, and long-term horror cost",
+      "status": "purpose reimplemented"
+    },
+    {
+      "source": "how_to_play_daggerheart",
+      "use": "purpose of spotlight fairness, player currency, clocks, stress, armor choice, and scars",
+      "status": "purpose reimplemented"
+    }
+  ],
+  "autonomy": {
+    "timelineScripted": false,
+    "mandatoryResolution": false,
+    "alignmentCompelsActions": false,
+    "deityMayChoosePlayerAction": false,
+    "essentialLoreMinimumSources": 3
+  },
+  "excluded": [
+    "geographic coordinates",
+    "specific public-transport routes, schedules, facilities, or unlocks",
+    "older four-axis alignment as authority",
+    "external proprietary rules text"
+  ]
+}

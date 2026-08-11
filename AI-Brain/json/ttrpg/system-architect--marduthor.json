@@ -1,0 +1,76 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Marduthor",
+  "titles": [
+    "Divine Artificer",
+    "Master of Forge and Stone",
+    "Architect of Sacred Industry"
+  ],
+  "domains": [
+    "invention",
+    "craft",
+    "metalwork",
+    "architecture",
+    "subterranean halls"
+  ],
+  "race_count": 8,
+  "races": [
+    {
+      "race_id": "labunail",
+      "race_name": "Labúnäilbaer",
+      "race_category": "Stone-Under Peoples",
+      "role": "primary patron",
+      "rationale": "Precision craft, pressure engineering, architecture, and subterranean halls make Marduthor the strongest patron of Labúnäilbaer society."
+    },
+    {
+      "race_id": "panolima",
+      "race_name": "Panolima",
+      "race_category": "Elemental Peoples",
+      "role": "earth-and-fire patron",
+      "rationale": "Earth and fire bloodlines honor transformation through stone, heat, craft, and controlled material change."
+    },
+    {
+      "race_id": "geisamahi",
+      "race_name": "Geisamahi",
+      "race_category": "Small Mammalian Peoples",
+      "role": "primary patron",
+      "rationale": "Tinkering, repair, precision building, and work in constrained spaces place Geisamahi craft under Marduthor."
+    },
+    {
+      "race_id": "c03",
+      "race_name": "Wimokhurumī",
+      "race_category": "Shellscript Folk",
+      "role": "primary patron",
+      "rationale": "Mineral backplates that grow as maps, legal records, and crafted archives join stone, architecture, and skilled making."
+    },
+    {
+      "race_id": "c10",
+      "race_name": "Tsovašwimóm",
+      "race_category": "Hearthforged Folk",
+      "role": "craft patron",
+      "rationale": "Ceramic firing, woodcraft, and deliberate construction make Marduthor an important maker-patron."
+    },
+    {
+      "race_id": "c11",
+      "race_name": "Köpounnälanvar",
+      "race_category": "Clockfeather Folk",
+      "role": "mechanism patron",
+      "rationale": "Clockwork maintenance and transit infrastructure place skilled engineering under Marduthor."
+    },
+    {
+      "race_id": "c20",
+      "race_name": "Shahreshōchü",
+      "race_category": "Silkroot Folk",
+      "role": "builder patron",
+      "rationale": "Living silk bridges and anchored architecture make sacred construction a major secondary tradition."
+    },
+    {
+      "race_id": "c22",
+      "race_name": "Fahánčoatani",
+      "race_category": "Shadowstitch Folk",
+      "role": "craft patron",
+      "rationale": "Sewing shadows into shelters and tools treats impossible material as a disciplined craft."
+    }
+  ]
+}

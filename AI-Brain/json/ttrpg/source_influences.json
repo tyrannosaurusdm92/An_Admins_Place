@@ -1,0 +1,25 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "auth",
+    "canon",
+    "character",
+    "class",
+    "dice",
+    "grid",
+    "layer",
+    "map",
+    "merge",
+    "quest",
+    "selection"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-b",
+    "sourceType": "provided-project-material",
+    "archiveHash": "164324aff6604b21"
+  },
+  "title": "source_influences.md",
+  "content": "# Source Influence Audit\n\nThe supplied repositories and packages were used as implementation references rather than exposed as additional ActiveWorkspace entry pages.\n\n## ActiveWorkspace Alignment package\n\nInfluenced the server-authoritative role boundary, permanent character model, canonical race/class/pantheon datasets, and MOL-as-player support. Its separate quiz page was refactored into the single ActiveWorkspace SPA.\n\n\n## ActiveWorkspace Portal sign-in revision\n\nThe supplied `portal(6).html` influenced campaign selection and MOL-managed campaign choices, account creation during sign-in, separate authentication/data endpoint fallback, session restoration, heartbeat/capacity reporting, `#playerforgot` temporary access, forced password replacement, and password-only MOL entry. The portal's separate character-sheet shell was not added as another HTML page; its authentication behavior was merged into the existing single-page ActiveWorkspace application.\n\n## DiceBot Enhanced No Audio\n\nInfluenced cryptographically secure local rolling, flexible notation, DiceBot personalities, responsive dice presentation, and the 60 CSS dice designs. No audio system was carried into runtime.\n\n## PZ D&D Superbot Hostile AI Board\n\nInfluenced target scoring, ability selection, terrain-aware movement, autonomous hostile turns, encounter event logging, and the monster index. The old manual-hostile workflow was replaced: hostile movement and rolls now occur automatically on hostile initiative turns.\n\n## Encounter helper repositories\n\nInfluenced procedural quest hooks, map/grid concepts, dungeon terrain types, hazard avoidance, and file-driven encounter creation.\n\n## Multiplayer repositories\n\nNetplay and turn-based game repositories influenced authoritative serialized state, stable player ownership IDs, deterministic grid actions, versioned updates, and separation between input submission and state application. ActiveWorkspace uses the supplied Apps Script backend rather than requiring an additional WebRTC or Node server.\n\n## Included source archives\n\nTwo supplied archives are retained under `docs/code-influencers` for provenance, license review, and to keep the requested ActiveWorkspace package within the specified delivery size. They are not loaded by ActiveWorkspace at runtime.\n"
+}

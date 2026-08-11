@@ -1,0 +1,60 @@
+{
+  "schema": "activeworkspace.random_encounters.module_manifest.v4",
+  "version": "4.0.0",
+  "htmlFiles": 0,
+  "installRoot": "assets/RandomEncounters",
+  "siblingAssetRoots": [
+    "assets/tokens",
+    "assets/tokens/deities",
+    "assets/grids"
+  ],
+  "stylesheet": "assets/RandomEncounters/css/random-encounters.css",
+  "scripts": [
+    "assets/RandomEncounters/js/dice-engine.js",
+    "assets/RandomEncounters/js/fallback-data.js",
+    "assets/RandomEncounters/js/alignment-system.js",
+    "assets/RandomEncounters/js/universal-time.js",
+    "assets/RandomEncounters/js/data-loader.js",
+    "assets/RandomEncounters/js/party-levels.js",
+    "assets/RandomEncounters/js/token-resolver.js",
+    "assets/RandomEncounters/js/grid-resolver.js",
+    "assets/RandomEncounters/js/npc-dialogue-studio-loader.js",
+    "assets/RandomEncounters/js/npc-dialogue-engine.js",
+    "assets/RandomEncounters/js/encounter-generator.js",
+    "assets/RandomEncounters/js/hostile-ai.js",
+    "assets/RandomEncounters/js/activeworkspace-adapter.js",
+    "assets/RandomEncounters/js/combat-engine.js",
+    "assets/RandomEncounters/js/random-encounters-ui.js",
+    "assets/RandomEncounters/js/random-encounters-bootstrap.js"
+  ],
+  "requirements": {
+    "minimumCharacterLevel": 8,
+    "maximumSupportedCharacterLevel": 30,
+    "multiclassing": "preserved and summed; under-level characters are normalized without deleting secondary classes",
+    "alignment": "Universal eight-axis covenant system v3.1; 81 titles use the first four axes and four additional axes control expression; traditional nine-box labels forbidden",
+    "pantheon": "canonical 22 only, with active covenant pressure and resonance",
+    "classes": "22 canonical deity-bound merged classes and 66 subclasses; a selected class forces its assigned deity",
+    "races": "236-entry canonical register; ancestry never determines morality",
+    "tokenRoot": "assets/tokens",
+    "dialogue": "Dialogue Studio browser-safe core plus backend and combat-aware fallback using alignment, race, class, and covenant context",
+    "ruleset": "D&D 5.5e: Universal Edition — Covenant Engine from universal_how_to_play.json",
+    "encounterBudget": "Covenant Engine Threat Points; legacy adjusted XP is display-only",
+    "combat": "alternating-side initiative, 3 Beats per turn, 1 Reaction; boss slots replace unrestricted legendary actions",
+    "time": "Earth UTC remains world UTC; fixed local offsets with no DST; settlement overrides province, province overrides longitude-derived local time",
+    "calendar": "11 months of 30 days; 330-day civil year; leap day every 7 years; 330.15 Universal days equals 365.2422 Earth days"
+  },
+  "packageMode": "full-assets-with-source-snapshots",
+  "dialogueStudio": {
+    "runtimeRoot": "assets/RandomEncounters/js/dialogue-studio",
+    "loadOrder": "assets/RandomEncounters/json/dialogue_studio_load_order.json",
+    "runtimeCoreOnly": true,
+    "fullSourceSnapshot": "docs/source_repositories/WorldBuilder_LifeSimulation_NPC_Dialogue_Studio_v1.0.0_sanitized_no_html.zip",
+    "entryPointHtmlIncluded": false
+  },
+  "liveFolderAllowedExtensions": [
+    ".css",
+    ".js",
+    ".json"
+  ],
+  "auditRevision": "covenant-engine-timezones-revision-2-2026-07-19"
+}
