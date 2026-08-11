@@ -1,0 +1,82 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "map",
+    "merge",
+    "npc",
+    "random",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__call__",
+      "__init__",
+      "encode_audio",
+      "load_audio_mono",
+      "save_audio",
+      "seed_everything",
+      "split_lyrics",
+      "stage2_generate",
+      "stage2_inference"
+    ],
+    "classes": [
+      "BlockTokenRangeProcessor"
+    ],
+    "imports": [],
+    "lineCount": 492,
+    "characterCount": 24314
+  },
+  "selectedComments": [
+    "Model Configuration:",
+    " Output ",
+    "Config for xcodec and upsampler",
+    "load tokenizer and model",
+    "device_map=\"auto\",",
+    "to device, if gpu is available",
+    "Convert to mono",
+    "Resample if needed",
+    "Call the function and print the result",
+    "genre tags support instrumental，genre，mood，vocal timbr and vocal gender",
+    "all kinds of tags are needed",
+    "intruction",
+    "Here is suggested decoding config",
+    "special tokens",
+    "Format text prompt",
+    "Format audio prompt",
+    "Use window slicing in case output sequence exceeds the context of model",
+    "save raw output and check sanity",
+    "offload model",
+    "device_map=\"auto\",",
+    "Prepare prompt_ids based on batch size or single input",
+    "Teacher forcing generate loop",
+    "Return output based on batch size",
+    "Load the prompt",
+    "Only accept 6s segments",
+    "If num_batch is less than or equal to batch_size, we can infer the entire prompt at once",
+    "If num_batch is greater than batch_size, process in chunks of batch_size",
+    "Ensure the end_idx does not exceed the available length",
+    "Concatenate all the segments",
+    "Process the ending part of the prompt",
+    "Fix invalid codes (a dirty solution, which may harm the quality of audio)",
+    "We are trying to find better one",
+    "save output",
+    "convert audio tokens to audio",
+    "reconstruct tracks",
+    "mix tracks",
+    "find pair",
+    "vocoder to upsample audios",
+    "Process instrumental",
+    "Process vocal",
+    "mix tracks",
+    "Post process"
+  ]
+}

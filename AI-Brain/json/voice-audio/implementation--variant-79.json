@@ -1,0 +1,70 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "generator",
+    "merge",
+    "quest",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "azure_tts",
+      "elevenlabs_tts",
+      "generate_sse",
+      "generate_sse_audio_stream",
+      "list_all_voices",
+      "list_models",
+      "list_voices",
+      "list_voices_formatted",
+      "text_to_speech"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 263,
+    "characterCount": 9858
+  },
+  "selectedComments": [
+    "server.py",
+    "DEFAULT_MODEL = os.getenv('DEFAULT_MODEL', 'tts-1')",
+    "Currently in \"beta\" — needs more extensive testing where drop-in replacement warranted",
+    "Generate streaming audio chunks and convert to SSE format",
+    "Base64 encode the audio chunk",
+    "Create SSE event for audio delta",
+    "Format as SSE event",
+    "Send completion event",
+    "Send error event",
+    "OpenAI endpoint format",
+    "model = data.get('model', DEFAULT_MODEL)",
+    "Check stream format - only \"sse\" triggers streaming",
+    "Return SSE streaming response with JSON events",
+    "Return raw audio data (like OpenAI) - can be piped to ffplay",
+    "Read the file and return raw audio data",
+    "Clean up the temporary file",
+    "Return a 500 error for unhandled exceptions, which is more standard than 400",
+    "OpenAI endpoint format",
+    "OpenAI endpoint format",
+    "http://localhost:5050/elevenlabs/v1/text-to-speech",
+    "http://localhost:5050/elevenlabs/v1/text-to-speech/en-US-AndrewNeural",
+    "Parse the incoming JSON payload",
+    "Use default settings for edge-tts",
+    "Generate speech using edge-tts",
+    "Return the generated audio file",
+    "tts.speech.microsoft.com/cognitiveservices/v1",
+    "https://{region}.tts.speech.microsoft.com/cognitiveservices/v1",
+    "http://localhost:5050/azure/cognitiveservices/v1",
+    "Parse the SSML payload",
+    "Extract the text and voice from SSML",
+    "Use default settings for edge-tts",
+    "Generate speech using edge-tts",
+    "Return the generated audio file"
+  ]
+}

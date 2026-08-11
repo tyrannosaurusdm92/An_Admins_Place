@@ -1,0 +1,22 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "alignment",
+    "character",
+    "class",
+    "layer",
+    "manifest",
+    "merge",
+    "npc",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "audit.md",
+  "content": "# Scanner Revision Audit\n\n## Completed\n\n- Kept the project as a scanner now, with eventual Character Creator compatibility.\n- Renamed the only HTML file to `character studio.html` for future merge compatibility.\n- Replaced the fragile single JavaScript bundle with seven modules.\n- Added the required `/css`, `/js`, `/json`, `/docs`, `/tts`, and `/media` folders.\n- Added studio-compatible JSON files:\n  - `biome-accent-profiles.json`\n  - `race-voice-overlays.json`\n  - `class-subclass-voice-overlays.json`\n  - `gender-identity-voice-overlays.json`\n  - `emotion-voice-profiles.json`\n  - `scanner-default-profile.json`\n- Added 26 emotion profiles.\n- Preserved 21 shared 0–10 trait keys and 6 influence IDs.\n- Added alignment axis controls.\n- Added top/bottom horizontal scroll controls and left/right vertical scroll controls.\n- Added extra right-side padding so export and inspector panels do not cut off.\n- Added scanner-ready exports: selected JSON, all JSON, selected JS preset, NPC voice card markdown, export manifest.\n- Browser preview uses Web Speech only; reference audio remains influence metadata only.\n\n## Safety and design guardrails\n\n- No voice cloning is performed.\n- No third-party repository code was bundled into the scanner JavaScript.\n- Earth accent names are hidden from player-facing summaries.\n- Gender identity overlays are optional presentation layers, not stereotypes or biological claims.\n- Naturalness guard caps extreme pitch/speed/roughness/stutter/accent combinations.\n"
+}

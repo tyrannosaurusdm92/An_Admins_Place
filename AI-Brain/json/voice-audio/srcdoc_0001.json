@@ -1,0 +1,19 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge",
+    "simulation",
+    "voice",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "srcdoc_0001.md",
+  "content": "# Universal Fantasy Voice Simulation Asset Inclusion Audit\n\nGenerated: 2026-06-18T23:22:40.551441+00:00\n\n## Correction applied\n\nThe first package cataloged audio/TTS paths but did not copy audio binaries because the instruction said the package should be JavaScript-only. This corrected package includes actual audio and TTS assets.\n\n## Included assets\n\n| Asset type | Count | Bytes |\n|---|---:|---:|\n| Audio files | 2565 | 190784353 |\n| TTS resources | 522 | 12706465 |\n\n## Folder policy\n\n- `audio/` contains copied audio binaries from uploaded archives.\n- `tts/` contains copied TTS resources from TTS archives and TTS paths.\n- `docs/` contains only `.md` and `.json` files.\n- `js/audio-reference-catalog.js` includes `localPath` entries pointing to copied assets.\n- `docs/AUDIO_TTS_CATALOG.json` mirrors the same included asset catalog.\n\n## World filter behavior\n\nEach copied audio and TTS resource is assigned a deterministic Universal reference filter using biome accent, racial category, gender identity, and class. This provides fantasy-world routing without changing or rewriting the original audio files.\n"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "layer",
+    "merge",
+    "npc",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "voice_studio_readme.md",
+  "content": "# Universal Audio Voice Creator Studio\n\nThis page is a static/offline-friendly NPC and bot voice creator. It keeps the visible HTML simple while the JavaScript handles deeper voice behavior.\n\n## What changed in the repository-assisted revision\n\n- The preview voice now uses a **clean segmented prosody engine** instead of static/noise layers.\n- Sliders affect the spoken phrase more noticeably by changing:\n  - browser speech voice choice\n  - pitch\n  - speech rate\n  - phrase grouping\n  - pause length\n  - pitch motion across the sentence\n  - word stress\n  - hesitation and stutter insertion\n  - formal vs casual cadence\n  - soft, gruff, warm, commanding, fearful, angry, tender, etc. emotion cadence\n- Base clip preview still supports selected audio clips, but the main character preview is intentionally clean and intelligible.\n- The visible page keeps simple labels. Internal oscillator/formant-style details stay hidden in JavaScript.\n- Exported NPC JavaScript includes the same clean segmented speech runtime.\n\n## Important browser note\n\nThe main preview relies on the browser's `speechSynthesis` voices. Different browsers and devices provide different local voices, so the exact sound can vary. The exported JavaScript keeps the same prosody logic and chooses the best available browser voice at runtime.\n\n## Files added for this revision\n\n- `js/voice-vocal-model.js` — converts slider values into natural speech settings.\n- `js/voice-prosody-engine.js` — speaks preview text through expressive chunks with rate/pitch/pause variation.\n- `docs/REPO_PARSE_VOICE_ASSISTANCE.md` — local parse summary of the attached repositories and what concepts were adapted.\n\n## Exported character API\n\nEach exported NPC JavaScript file exposes:\n\n```js\nNPCVoiceRuntime.speakPreview();\nNPCVoiceRuntime.speakPreview({ text: \"this is what I sound like\" });\nNPCVoiceRuntime.speakEmotion(\"anger\", \"this is what I sound like\");\nNPCVoiceRuntime.listEmotions();\nNPCVoiceRuntime.previewPlan(\"compassion\");\nNPCVoiceRuntime.stop();\n```\n\nCached emotions are exported with both the modified trait profile and cadence information.\n"
+}

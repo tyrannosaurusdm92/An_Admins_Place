@@ -1,0 +1,63 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "merge",
+    "shape",
+    "voice",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_make_fake_engine",
+      "_tts_mod",
+      "client",
+      "generate",
+      "is_available",
+      "sample_rate",
+      "supported_languages",
+      "test_abbreviations_do_not_split",
+      "test_bracket_tags_are_atomic",
+      "test_chunking_disabled_with_zero",
+      "test_clause_fallback_when_no_sentence_end",
+      "test_crossfade_is_smooth_at_seam",
+      "test_crossfade_length_math",
+      "test_decimals_do_not_split",
+      "test_empty_text",
+      "test_hard_cut_concat",
+      "test_hard_cut_when_no_boundaries",
+      "test_long_text_is_chunked_through_engine",
+      "test_long_text_splits_at_sentence_boundaries",
+      "test_multichannel_chunks_concat_on_last_axis",
+      "test_overlap_clamped_to_short_chunk",
+      "test_short_text_is_single_chunk",
+      "test_short_text_stays_single_shot",
+      "test_single_and_empty_chunk_lists",
+      "test_zero_max_chars_disables_chunking"
+    ],
+    "classes": [
+      "_FakeEngine"
+    ],
+    "imports": [],
+    "lineCount": 216,
+    "characterCount": 7069
+  },
+  "selectedComments": [
+    "── Splitter ────────────────────────────────────────────────────────────────",
+    "Every chunk ends on the sentence boundary, not mid-word.",
+    "Real sentence ends are present, so the splitter must choose those —",
+    "never the period of an abbreviation (which it should skip entirely).",
+    "── Concat ──────────────────────────────────────────────────────────────────",
+    "Linear blend from 1.0 toward 0.0 across the overlap — monotone, no step.",
+    "── Endpoint integration (stubbed engine, pattern from test_generate_engine) ─",
+    "Chunked calls must not carry the un-splittable overall duration."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "layer",
+    "merge",
+    "schedule",
+    "shape",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "_log",
+      "eval_log",
+      "eval_step",
+      "format_batch",
+      "forward",
+      "get_criterion",
+      "get_data_loader",
+      "get_lr",
+      "get_optimizer",
+      "get_scheduler",
+      "inference",
+      "init_from_config",
+      "load_checkpoint",
+      "on_train_step_start",
+      "train_log",
+      "train_step"
+    ],
+    "classes": [
+      "GAN"
+    ],
+    "imports": [],
+    "lineCount": 375,
+    "characterCount": 14584
+  },
+  "selectedComments": [
+    "DISCRIMINATOR optimization",
+    "generator pass",
+    "cache for generator loss",
+    "pylint: disable=W0201",
+    "PQMF formatting",
+    "use different samples for G and D trainings",
+    "use a different sample than generator",
+    "PQMF formatting",
+    "use the same samples as generator",
+    "run D with or without cond. features",
+    "format D outputs",
+    "self.model_d returns scores and features",
+    "model D returns only scores",
+    "compute losses",
+    "GENERATOR loss",
+    "format D outputs",
+    "compute losses",
+    "band-aid for older than v0.0.15 GAN models"
+  ]
+}

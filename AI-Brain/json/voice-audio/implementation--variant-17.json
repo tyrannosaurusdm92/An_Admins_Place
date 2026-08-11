@@ -1,0 +1,63 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge",
+    "quest"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "_check_dict_key",
+      "_download_zip_file",
+      "_find_files",
+      "_find_speaker_encoder",
+      "_list_for_model_type",
+      "_list_models",
+      "_update_path",
+      "_update_paths",
+      "download_model",
+      "list_datasets",
+      "list_langs",
+      "list_models",
+      "list_tts_models",
+      "list_vc_models",
+      "list_vocoder_models",
+      "model_info_by_full_name",
+      "model_info_by_idx",
+      "print_model_license",
+      "read_models_file"
+    ],
+    "classes": [
+      "ModelManager"
+    ],
+    "imports": [],
+    "lineCount": 404,
+    "characterCount": 18297
+  },
+  "selectedComments": [
+    "try the default location",
+    "fetch model info from the dict",
+    "set the model specific output path",
+    "download from github release",
+    "find downloaded files",
+    "update paths in the config.json",
+    "update the scale_path.npy file path in the model config.json",
+    "update the speakers.json file path in the model config.json to the current path",
+    "update the speaker_ids.json file path in the model config.json to the current path",
+    "update the speaker_encoder file path in the model config.json to the current path",
+    "field name points to a sub-level field",
+    "field name points to a top-level field",
+    "download the file",
+    "extract the file",
+    "move the files to the outer path",
+    "remove the extracted folder"
+  ]
+}

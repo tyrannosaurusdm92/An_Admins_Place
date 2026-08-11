@@ -1,0 +1,21 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "layer",
+    "manifest",
+    "merge",
+    "npc",
+    "shape",
+    "speech",
+    "texture",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "wide_range_slider_revision.md",
+  "content": "# Wide Range Slider Revision — 2026-06-25\n\nThis pass revises the NPC Voice Creator so the same friendly 0–10 sliders produce much stronger audible changes.\n\n## Added visible sliders\n\n- **Deep Register** — pushes the voice lower than the normal Voice Height slider, including subharmonic/body support.\n- **Musical Lilt** — increases sing-song phrase arcs and melodic speaking movement.\n- **Air Texture** — adds breath/whisper air as an audible texture instead of only making the voice softer.\n- **Harsh Edge** — adds rasp, grit, bite, distortion, and broken edges.\n- **Vocal Weight** — increases chest/body weight and heavier vocal mass.\n\n## Retuned existing sliders\n\nThe existing sliders now have wider engine impact:\n\n- **Voice Height** now spans roughly monster-low to bright/high instead of a mild middle band.\n- **Body / Depth** and **Throat Depth** now strongly affect formants and low-register body.\n- **Gruff Edge** now combines with Harsh Edge and Deep Register for growl and rasp.\n- **Softness** combines with Air Texture for actual audible breath noise.\n- **Expression Shape**, **Speech Rhythm**, and **Musical Lilt** create stronger pitch movement and phrase motion.\n\n## Audio render changes\n\nLocal WAV rendering now includes:\n\n- subharmonic oscillator layer for deeper voices;\n- growl/flutter modulation for gruff voices;\n- stronger airy high-noise layer;\n- harsher consonant bursts and rasp when Harsh Edge is high;\n- stronger lilt/phrase arcs;\n- output normalization so extreme slider combinations do not just clip.\n\n## Export/contract changes\n\nThe hidden acapella/export bridge and Python manifest pipeline now include the same wide-impact parameters and report `rangeVersion: wide-impact-v3` in generated JSON/runtime data.\n\n## Old math use\n\nThe uploaded old math files were preserved under `docs/reference/old-voice-math/`. The current implementation borrows the useful concepts from the old source/filter, formant, prosody, and humanization math, but keeps the active app lighter and static-friendly.\n"
+}

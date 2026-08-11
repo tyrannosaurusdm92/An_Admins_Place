@@ -1,0 +1,80 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "alignment",
+    "character",
+    "class",
+    "layer",
+    "mask",
+    "merge",
+    "speech"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "_concat_speaker_embedding",
+      "_create_logs",
+      "_forward_decoder",
+      "_forward_encoder",
+      "_forward_mdn",
+      "_set_phase",
+      "_sum_speaker_embedding",
+      "compute_align_path",
+      "compute_log_probs",
+      "eval_log",
+      "eval_step",
+      "expand_encoder_outputs",
+      "format_durations",
+      "forward",
+      "generate_attn",
+      "get_criterion",
+      "inference",
+      "init_from_config",
+      "load_checkpoint",
+      "on_epoch_start",
+      "train_log",
+      "train_step"
+    ],
+    "classes": [
+      "AlignTTS",
+      "AlignTTSArgs",
+      "arguments"
+    ],
+    "imports": [],
+    "lineCount": 449,
+    "characterCount": 19052
+  },
+  "selectedComments": [
+    "pylint: disable=dangerous-default-value",
+    "pylint: disable=protected-access, c-extension-no-member",
+    "find the max alignment path",
+    "[B, T_en, T_dec]",
+    "compute decode mask from the durations",
+    "project g to decoder dim.",
+    "[B, T, C]",
+    "[B, C, T]",
+    "compute sequence masks",
+    "encoder pass",
+    "speaker conditioning for duration predictor",
+    "expand o_en with durations",
+    "positional encoding",
+    "speaker embedding",
+    "decoder pass",
+    "MAS potentials and alignment",
+    "train encoder and MDN",
+    "train decoder",
+    "train the whole except duration predictor",
+    "train duration predictor",
+    "pad input to prevent dropping the last word",
+    "x = torch.nn.functional.pad(x, pad=(0, 5), mode='constant', value=0)",
+    "o_dr_log = self.duration_predictor(x, x_mask)",
+    "duration predictor pass",
+    "Sample audio"
+  ]
+}

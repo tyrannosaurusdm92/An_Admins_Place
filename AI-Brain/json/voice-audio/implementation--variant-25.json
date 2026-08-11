@@ -1,0 +1,59 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "merge",
+    "quest",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_generate",
+      "ws_tts"
+    ],
+    "classes": [
+      "StreamTTSRequest"
+    ],
+    "imports": [],
+    "lineCount": 273,
+    "characterCount": 11533
+  },
+  "selectedComments": [
+    "Chunk size for streaming PCM audio (in samples). At 24kHz, 4800 samples = 200ms.",
+    "Smaller chunks = lower latency but more WebSocket overhead.",
+    "Emotion control (IndexTTS2)",
+    "Engine override",
+    "Wait for a text request from the client",
+    "Resolve engine",
+    "── Routing gate (#21 — no silent CPU fallback). WebSockets have",
+    "no response headers, so this uses frames: an error frame +",
+    "close on `unavailable`, a one-time `routing` frame on",
+    "cpu_fallback / accelerated-with-caveat (before any audio).",
+    "Build generation kwargs",
+    "Resolve voice profile",
+    "Wave 1.4: split the request into sentences so the first",
+    "sentence's audio streams while later sentences are still",
+    "synthesizing — this is the time-to-first-audio win. The",
+    "chunker handles abbreviations/acronyms/decimals and CJK /",
+    "non-Latin terminators; single-sentence requests behave",
+    "exactly like the old single-shot path.",
+    "Run generation in the GPU pool",
+    "Like _run_tts in openai_compat: studio engines (VoxCPM2)",
+    "opt out of the broadcast mastering chain. This is the",
+    "other route that runs the active backend, so it needs the",
+    "same guard. Loudness normalisation still runs.",
+    "Send metadata after the first generation so",
+    "sample_rate is real (lazy-loading engines report",
+    "their true rate only once weights are up).",
+    "Convert to 16-bit PCM and stream",
+    "Yield to event loop between chunks for responsiveness"
+  ]
+}

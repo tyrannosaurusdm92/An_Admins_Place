@@ -1,0 +1,60 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "map",
+    "merge",
+    "quest",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_generate_audio",
+      "_generate_audio_stream",
+      "_get_voices",
+      "generate_speech",
+      "generate_speech_stream",
+      "get_models",
+      "get_models_formatted",
+      "get_voices",
+      "get_voices_formatted",
+      "is_ffmpeg_installed",
+      "speed_to_rate"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 197,
+    "characterCount": 7417
+  },
+  "selectedComments": [
+    "tts_handler.py",
+    "Language default (environment variable)",
+    "OpenAI voice names mapped to edge-tts equivalents",
+    "Determine if the voice is an OpenAI-compatible voice or a direct edge-tts voice",
+    "Convert speed to SSML rate format",
+    "Create the communicator for streaming",
+    "Stream the audio data",
+    "Determine if the voice is an OpenAI-compatible voice or a direct edge-tts voice",
+    "Generate the TTS output in mp3 format first",
+    "Convert speed to SSML rate format",
+    "Generate the MP3 file",
+    "If the requested format is mp3, return the generated file directly",
+    "Check if FFmpeg is installed",
+    "Create a new temporary file for the converted output",
+    "Build the FFmpeg command",
+    "Run FFmpeg command and ensure no errors occur",
+    "Clean up potentially created (but incomplete) converted file",
+    "Clean up the original mp3 file as well, since conversion failed",
+    "Clean up the original temporary file (original mp3) as it's now converted",
+    "List all voices, filter by language if specified",
+    "Convert speed to percentage change",
+    "Format with a leading \"+\" or \"-\" as required"
+  ]
+}

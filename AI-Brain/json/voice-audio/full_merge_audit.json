@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "layer",
+    "merge",
+    "simulation",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "full_merge_audit.md",
+  "content": "# Full Merge Audit\n\n## Inputs merged\n\n1. `simulated-fantasy-voices-scanner_studio-compatible.zip`\n2. `Universal_Fantasy_Voice_Simulation_JS_with_Audio_TTS.zip`\n3. `Universal_Deep_Voice_Math_24_JSON_Pack.zip`\n\n## Absorption counts\n\n```json\n{\n  \"voicePackageFiles\": 3230,\n  \"audioReferences\": 2566,\n  \"sourceReferences\": 590,\n  \"deepMathFiles\": 24,\n  \"deepMathRuntimeCounts\": {\n    \"categories\": 22,\n    \"races\": 156,\n    \"classes\": 14,\n    \"genderIdentities\": 14,\n    \"biomeAccentCarriers\": 17\n  },\n  \"assetTypeCounts\": {\n    \"audio\": 2566,\n    \"source\": 590,\n    \"json\": 21,\n    \"doc\": 34,\n    \"image\": 19\n  },\n  \"maxRelativePathLength\": 22\n}\n```\n\n## Scanner changes\n\n- Embedded base scanner JSON in `js/scanner-json-data.js` so the scanner can load locally without browser JSON fetch issues.\n- Embedded deep voice math in `js/deep-voice-math-data.js`.\n- Embedded asset index in `js/asset-index-data.js`.\n- Added `scanner-deep-math.js` to apply the 24-file deep math pack as runtime slider/vector shaping.\n- Added `scanner-assets.js` to match local audio references to generated fantasy voice profiles.\n- Added matched audio reference playback in the right panel.\n- Kept player-facing output fantasy-named; Earth accent inspirations stay developer-only.\n\n## Safety note\n\nAudio references are used as corpus/timing/humanization metadata and playable local samples. They are not used for voice cloning or impersonation.\n"
+}

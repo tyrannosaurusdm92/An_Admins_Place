@@ -1,0 +1,66 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "3d",
+    "class",
+    "color",
+    "merge",
+    "npc",
+    "pwa",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_measure_lufs",
+      "build_chain",
+      "main",
+      "master_track",
+      "measure"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 379,
+    "characterCount": 15244
+  },
+  "selectedComments": [
+    "!/usr/bin/env python3",
+    "---------------------------------------------------------------------------",
+    "Mastering presets — tuned per genre. All values are conservative defaults;",
+    "the \"default\" preset is a safe balanced chain for most music.",
+    "---------------------------------------------------------------------------",
+    "only used if use_compressor True:",
+    "EDM is almost always already compressed — don't add more. Add color.",
+    "808-forward, crisp hats. Still no compression — EDM+ source is already flat.",
+    "Lofi / ambient. Very transparent. Tiny warmth only.",
+    "TRANSPARENT. EQ only. Zero saturation. Zero compression.",
+    "Near-transparent. Whisper of tape warmth.",
+    "---------------------------------------------------------------------------",
+    "Metrics helpers (match the analysis style already validated against tracks)",
+    "---------------------------------------------------------------------------",
+    "ffmpeg loudnorm analysis pass (for LUFS-I, TP, LRA)",
+    "Crest + DR from librosa",
+    "---------------------------------------------------------------------------",
+    "Mastering chain",
+    "---------------------------------------------------------------------------",
+    "Light tape-style saturation for harmonic warmth. Skip if drive is 0.",
+    "1) Apply EQ+sat chain",
+    "2) Write chain output to temp, measure LUFS",
+    "3) Compute gain match. Cap upward boost per preset (default 6 dB) so we",
+    "never chase loudness by dragging up low-level material. Cap downward",
+    "at -20 dB as a sanity floor.",
+    "4) Apply gain + peak ceiling in one pedalboard pass. We use Clipping not",
+    "Limiter because pedalboard's Limiter adds upward makeup gain (acts like a",
+    "maximizer) which defeats our LUFS targeting. Clipping is a brick-wall",
+    "hard clip at threshold with no makeup — in practice it engages rarely",
+    "on ACE output and only catches stray transients.",
+    "5) Write final file in requested format",
+    "codec_args, \"-ar\", str(sr), str(out_path)],",
+    "Clean up temps"
+  ]
+}

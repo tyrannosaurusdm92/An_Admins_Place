@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "layer",
+    "manifest",
+    "merge",
+    "simulation",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "readme_full_windows_safe.md",
+  "content": "# Universal Fantasy Voice Scanner FULL Windows-Safe Build\n\nThis package merges the studio-compatible **Simulated Fantasy Voices Scanner**, the **Universal Deep Voice Math 24 JSON Pack**, and the **Universal Fantasy Voice Simulation JS with Audio/TTS** resources into one standalone scanner.\n\nOpen **character studio.html** after extracting the ZIP.\n\n## What is absorbed\n\n- 156 deep voice-math race entries across 22 racial categories.\n- 14 class deep-math profiles and subclass delivery math.\n- 14 gender identity performance layers.\n- 2566 local audio references under `media/a/` with short paths.\n- 590 flattened source/TTS/code reference files under `tts/`.\n- 3230 total files absorbed from the uploaded audio/TTS simulation pack.\n\n## Windows path safety\n\nThe original repository paths were very deep. This build stores those original paths inside JSON manifests and gives the actual files short local paths like `media/a/a0001.wav`, `json/dm01.json`, and `tts/src_0001.js`.\n\n## Voice behavior\n\nThe scanner still resolves voices in the intended order: biome first, then race/lineage/bloodline, class/subclass, gender identity, personality, emotion, user sliders, deep math, naturalness guard, and export.\n\nAudio files are used as reference/humanization cues and playable local samples. The scanner does not clone voices.\n"
+}

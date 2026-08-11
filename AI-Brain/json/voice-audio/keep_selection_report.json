@@ -1,0 +1,17 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "manifest",
+    "merge",
+    "selection"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "keep_selection_report.md",
+  "content": "# 1000-File GitHub Trim Selection\n\nThis folder was reduced from **2,568 files** to exactly **1,000 files** for a GitHub file-count limit.\n\n## Keep strategy\n\n1. Keep original metadata files: `README.md` and `accent_reference_manifest.json`.\n2. Keep this report and `kept_files_manifest.json` so the reduction is traceable.\n3. Keep all **14 MP3** accent/reference clips.\n4. Remove exact duplicate audio files.\n5. Remove silent/empty WAV references.\n6. Keep rare long phrase clips and non-standard-format clips because they are more useful for cadence/prosody learning.\n7. Fill the remaining slots with a duration-diverse, evenly-spaced sample of short WAV clips so the scanner still has broad phoneme/word/timing coverage.\n\n## Counts\n\n| Category | Original | Kept | Removed |\n|---|---:|---:|---:|\n| Total files | 2,568 | 1,000 | 1,568 |\n| Audio files | 2566 | 996 | 1570 |\n| MP3 | 14 | 14 | 0 |\n| WAV | 2552 | 982 | 1570 |\n| JSON/MD support files | 2 | 4 | 0 |\n\n## Notes\n\n- The reduced folder keeps broad accent/prosody coverage while respecting the 1,000-file cap.\n- It prioritizes runtime usefulness for the scanner/studio over keeping every tiny raw sample.\n- File names are preserved to stay Windows-safe and shallow: everything remains inside `a/`.\n"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "merge",
+    "quest",
+    "search",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_bootstrap_engines_venv",
+      "_locate_uv",
+      "_probe_paths",
+      "_venv_can_import_indextts",
+      "_venv_python_path",
+      "invalidate",
+      "is_indextts_installed",
+      "resolve_indextts_venv"
+    ],
+    "classes": [],
+    "imports": [
+      "\n            "
+    ],
+    "lineCount": 277,
+    "characterCount": 10402
+  },
+  "selectedComments": [
+    "Absolute path to the sidecar entrypoint. ``IndexTTS2Backend.sidecar_script``",
+    "returns this; SubprocessBackend spawns it with the resolved venv python.",
+    "Path to this package's owned venv (Probe 2). The IndexTTS clone, when",
+    "bootstrapped, is installed into this venv via ``uv pip install -e``.",
+    "Per-process resolution cache. Cleared by :func:`invalidate` for tests.",
+    "Timeouts. ``_venv_can_import_indextts`` is a bounded probe so we never",
+    "hang waiting on a broken venv; the bootstrap install can take minutes",
+    "on a cold cache (indextts pulls torch, transformers<5, etc.).",
+    "── public API ────────────────────────────────────────────────────────────",
+    "Probe 1 — user's clone-level venv (highest priority for back-compat).",
+    "Probe 2 — this package's own venv.",
+    "Probe 3 — bootstrap.",
+    "── internals ─────────────────────────────────────────────────────────────"
+  ]
+}

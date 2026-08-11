@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "layer",
+    "manifest",
+    "merge",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "qa_site_test_report.md",
+  "content": "# Universal Character Creator QA Site Test Report\n\n**Date:** June 21, 2026\n\n## Result\n\nI tested and patched the merged one-HTML build for pathing, asset availability, JSON validity, JavaScript syntax, and visible Voice Studio speech-preview behavior.\n\n## Passed Checks\n\n- Zip extraction: passed.\n- Main `index.html`, CSS, project loader, studio scripts, voice engine scripts, and `data/studio/*.json`: accessible over a local HTTP server.\n- JSON validity: 87/87 JSON files parse after repair.\n- JavaScript syntax: 201/201 JS files pass `node --check`.\n- Audio assets: 1000 files exist under `media/a`; 982 WAV files parse; no audio file is empty or suspiciously tiny.\n- Asset manifest pathing: `json/assets-index.json` now has zero missing `shortPath` references.\n\n## Fixes Applied\n\n1. Fixed `json/srcjson_0019.json`, which had JavaScript-style comments and was not valid JSON.\n2. Pruned stale missing media references from `json/assets-index.json` and `js/asset-index-data.js`. The package had 1000 media files, but the old manifest still referenced thousands of removed pre-pruned assets.\n3. Updated `js/project-loader.js` so the visible merged site loads the advanced voice engine layers before the three-tab studio core.\n4. Updated `js/studio/character-studio-core.js` so the visible Voice Studio speech preview uses `UniversalSpeechApi` and `UniversalNaturalnessGuard` when available.\n5. Added safe pitch/rate limits for human voices, biome-accent handling, and construct-only robotic permission.\n\n## Voice Studio Notes\n\nThe visible Voice Studio now uses the advanced speech bridge instead of only raw browser `SpeechSynthesisUtterance` values. Non-construct voices are guarded toward human-sounding ranges. Construct races such as Warforged, Constructed/Artificial beings, Autognome, Clockwork, Modron, Android, Machine, Automaton, etc. are allowed to sound more mechanical.\n\nThe generated speech still depends on the user's installed browser/OS voices. For best results, use Edge or Chrome with high-quality natural/online English voices enabled.\n\n## Remaining External Dependencies\n\nTwo CSS background references are still external image URLs. They are not broken local paths, but they are not offline-safe. If you want the whole site to work fully offline, download those images into `media/` and replace the CSS URLs with local paths.\n"
+}

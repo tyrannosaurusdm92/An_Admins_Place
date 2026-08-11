@@ -1,0 +1,21 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "generator",
+    "inventory",
+    "map",
+    "merge",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "external_js_references.md",
+  "content": "# External JavaScript references preserved\n\nThe uploaded ZIP only contained `character_studio.html`, so these referenced JS files were not physically present to extract. Their `<script src=\"...\">` references are preserved in the cleaned HTML:\n\n- `js/voice-data.js`\n- `js/voice-generator-pack.js`\n- `js/voice-generator-pack-runtime.js`\n- `js/voice-speech-pattern-pack.js`\n- `js/voice-humanization-references.js`\n- `js/voice-reference-audio-learning.js`\n- `js/voice-humanization-engine.js`\n- `js/voice-math-core.js`\n- `js/voice-core.js`\n- `js/voice-naturalness-guard.js`\n- `js/voice-math-source-filter.js`\n- `js/voice-math-stft.js`\n- `js/voice-math-mel.js`\n- `js/voice-math-lpc.js`\n- `js/voice-math-formants.js`\n- `js/voice-math-instability.js`\n- `js/voice-math-psola.js`\n- `js/voice-math-vocoder.js`\n- `js/voice-math-prosody.js`\n- `js/voice-math-accent-phoneme.js`\n- `js/voice-math-emotion-curves.js`\n- `js/voice-math-evaluation.js`\n- `js/voice-math-speaker-reference.js`\n- `js/voice-analysis.js`\n- `js/voice-biome-accents.js`\n- `js/voice-recorder.js`\n- `js/voice-emotions.js`\n- `js/voice-speech-api.js`\n- `js/voice-playback-hub.js`\n- `js/voice-vocal-model.js`\n- `js/voice-prosody-engine.js`\n- `js/voice-synthesis.js`\n- `js/voice-presets.js`\n- `js/voice-json-mapper.js`\n- `js/voice-exporter.js`\n- `js/asset-index-data.js`\n- `js/deep-voice-math-data.js`\n- `js/scanner-json-data.js`\n- `js/scanner-core.js`\n- `js/scanner-parser.js`\n- `js/scanner-voice-mapper.js`\n- `js/scanner-data-loader.js`\n- `js/scanner-deep-math.js`\n- `js/scanner-assets.js`\n- `js/scanner-preview.js`\n- `js/scanner-exporter.js`\n- `js/voice-studio-ui.js`\n- `js/scanner-studio-bridge.js`\n"
+}
