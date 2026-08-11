@@ -1,0 +1,3 @@
+(function(root){'use strict';
+function create(){return{startedAt:new Date().toISOString(),steps:[],warnings:[]};}function add(trace,stage,data){trace.steps.push({stage,at:new Date().toISOString(),data});return trace;}function warn(trace,message,data){trace.warnings.push({message,data});return trace;}function summarize(trace){return{startedAt:trace.startedAt,stepCount:trace.steps.length,warnings:trace.warnings,stages:trace.steps.map(x=>x.stage)};}const API={create,add,warn,summarize};root.AIBrainRoutingTrace=API;root.AIBrain=root.AIBrain||{};root.AIBrain.newRoutingTrace=create;if(typeof module!=='undefined'&&module.exports)module.exports=API;
+})(typeof globalThis!=='undefined'?globalThis:this);

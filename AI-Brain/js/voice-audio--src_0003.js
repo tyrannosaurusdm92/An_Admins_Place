@@ -1,0 +1,15 @@
+/* Genericized for AI-Brain capability use. Provenance group: character-voice-studio. */
+// Auto-generated for Universal Fantasy Voice Simulation JS.
+// Source uploaded by user; generated package contains JS-only runtime plus docs.
+
+
+export * from './js/universal-world-data.js';
+export * from './js/biome-accent-router.js';
+export * from './js/race-gender-class-filter.js';
+export * from './js/fantasy-voice-engine.js';
+export * from './js/browser-speech-simulator.js';
+export * from './js/audio-reference-catalog.js';
+export * from './js/audio-reference-router.js';
+export * from './js/source-corpus-summary.js';
+
+export * from './js/included-asset-paths.js';

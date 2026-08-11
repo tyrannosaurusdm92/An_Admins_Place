@@ -1,0 +1,3 @@
+(function(g){'use strict';const B=g.AIBrain=g.AIBrain||{};
+B.TaskOrchestrator={decompose(goal,context={}){const text=String(goal||'').trim();const verbs=['understand requirements','collect relevant knowledge','plan deliverables','execute in small verifiable units','validate against requirements','record decisions and reusable memory'];return {goal:text,context,steps:verbs.map((name,i)=>({id:i+1,name,status:'pending'}))}},mergeContext(...layers){return Object.assign({},...layers.filter(Boolean))},projectKey(name){return String(name||'project').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'project'}};
+})(typeof globalThis!=='undefined'?globalThis:window);

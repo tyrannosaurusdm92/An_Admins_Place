@@ -1,0 +1,3 @@
+(function(root){'use strict';
+function retrieve(request,catalog,route,opts={}){const ranker=root.AIBrainRetrievalRanker;if(ranker?.rank)return ranker.rank(catalog||[],route||{}, {...opts,request,limit:opts.limit||8});const q=String(request||'').toLowerCase().split(/\s+/).filter(Boolean);return(catalog||[]).map(entry=>{const h=JSON.stringify(entry).toLowerCase();return{entry,score:q.reduce((n,t)=>n+(h.includes(t)?1:0),0),why:['fallback lexical']};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,opts.limit||8);}const API={retrieve};root.AIBrainFallbackRetrieval=API;root.AIBrain=root.AIBrain||{};root.AIBrain.fallbackRetrieval=retrieve;if(typeof module!=='undefined'&&module.exports)module.exports=API;
+})(typeof globalThis!=='undefined'?globalThis:this);
