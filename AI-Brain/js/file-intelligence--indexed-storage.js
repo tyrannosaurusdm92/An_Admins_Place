@@ -1,0 +1,12 @@
+/* Genericized for AI-Brain capability use. Provenance group: active-session-runtime-a. */
+(function(global){
+  "use strict"; const LS=global.LifeSimulation; const DB="universal-simulator-v8"; const VER=1;
+  function open(){return new Promise((resolve,reject)=>{if(!global.indexedDB){reject(new Error("IndexedDB unavailable"));return;} const req=indexedDB.open(DB,VER); req.onupgradeneeded=()=>{const db=req.result; ["projects","assets","transcripts","restorePoints"].forEach(name=>{if(!db.objectStoreNames.contains(name))db.createObjectStore(name,{keyPath:"id"});});}; req.onsuccess=()=>resolve(req.result); req.onerror=()=>reject(req.error);});}
+  async function put(store,value){const db=await open(); return new Promise((resolve,reject)=>{const tx=db.transaction(store,"readwrite"); tx.objectStore(store).put(value); tx.oncomplete=()=>{db.close();resolve(value);};tx.onerror=()=>{db.close();reject(tx.error);};});}
+  async function get(store,id){const db=await open(); return new Promise((resolve,reject)=>{const tx=db.transaction(store,"readonly"),req=tx.objectStore(store).get(id);req.onsuccess=()=>{db.close();resolve(req.result||null);};req.onerror=()=>{db.close();reject(req.error);};});}
+  async function mirrorState(state){if(!state?.project?.projectId)return null; const id=state.project.projectId; await put("projects",{id,modifiedAt:state.project.modifiedAt||new Date().toISOString(),state:LS.util.clone(state)}); await put("transcripts",{id,modifiedAt:new Date().toISOString(),conversations:LS.util.clone(state.conversations||{}),diagnostics:LS.util.clone(state.dialogueDiagnostics||[])}); return id;}
+  async function createRestorePoint(state,label){const id=`restore-${Date.now()}-${Math.random().toString(36).slice(2)}`; return put("restorePoints",{id,label:label||"Restore point",createdAt:new Date().toISOString(),projectId:state?.project?.projectId,state:LS.util.clone(state)});}
+  async function restoreProject(id){const value=await get("projects",id); return value?.state||null;}
+  async function saveAsset(asset){return put("assets",{id:asset.id||asset.assetId||`asset-${Date.now()}`,...asset});}
+  LS.indexedStorage=Object.freeze({open,put,get,mirrorState,createRestorePoint,restoreProject,saveAsset});
+})(window);
