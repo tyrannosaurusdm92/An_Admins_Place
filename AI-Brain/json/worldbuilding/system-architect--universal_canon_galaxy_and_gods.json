@@ -1,0 +1,21 @@
+{
+  "schema": "universal.canon.galaxy-architects.v1.4",
+  "version": "1.4.0",
+  "generated_at": "2026-07-25T16:00:00-04:00",
+  "galaxy_names": {
+    "universalian": "Vacío l'Abîme Frénétiacré",
+    "approximate_translation": "The Venus Fly Trap",
+    "source_tongue": "Kaluseban tongue.",
+    "interstellar": "Zešijómë",
+    "interstellar_origin": "Unknown; long interstellar use erased the original meaning."
+  },
+  "architect_truth": {
+    "count": 22,
+    "true_gods": false,
+    "origin": "Dissident sect of the Thay’lmériûn civilization",
+    "terraforming_assignments_ref": "../json/05_terraforming_mandates_22.json",
+    "race_catalog_ref": "../json/04_races_60.json",
+    "deity_catalog_ref": "../json/04b_deities_22.json"
+  },
+  "content_scope": "Includes all 34 Universal homeworld races, all 26 preserved Alien-Folk, all 22 deity dossiers, and the 106 supplied homeworld race-deity associations."
+}

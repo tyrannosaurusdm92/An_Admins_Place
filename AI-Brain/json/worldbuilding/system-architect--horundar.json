@@ -1,0 +1,112 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 11,
+  "name": "Horundar",
+  "titles": [
+    "Sovereign of Seas and Ruin",
+    "Storm Below the World",
+    "Master of Elemental Force"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "storms",
+    "oceans",
+    "floods",
+    "earthquakes",
+    "elemental force"
+  ],
+  "manifestation": "Horundar’s body leaks vapor, ash, seawater, or dust depending on emotional state.",
+  "deity_description": [
+    "In the mythic structure of Universal, Horundar is not merely the god of seas, storms, earthquakes, and horses but a primal sovereign of oceanic dominion embedded within a predatory divine hierarchy that feeds upon mortal existence. Within the celestial order, he stands among the upper divine castes, ruling vast submerged citadels and storm-wracked coastal thrones, his authority stretching across every oceanic boundary that separates civilizations. Though not one of the ultimate High Fathers, his domain is so vast and uncontrollable that entire coastal kingdoms exist only under conditional survival, perpetually aware that the sea itself is not an indifferent force but a living, hungry extension of his will.",
+    "Horundar’s nature is volatile, proud, and deeply reactive, and in Universal theology his emotions are not symbolic but literal forces of reality. His rage becomes storm systems, tidal annihilations, and seismic ruptures that are interpreted as sacramental catastrophes rather than natural disasters. Shipwrecks and drowned cities are not accidents but curated harvests, moments where mortal life is collected through the ocean as offerings to divine appetite. His trident is both a symbol of sovereignty and a ritual instrument that “opens” the sea, allowing him to draw life essence from those lost beneath the waves. To sailors and coastal priests, calm seas represent temporary satisfaction, while storms signal an active feeding cycle in which the ocean becomes both temple and execution ground.",
+    "Within Universal cosmology, Horundar’s influence is inseparable from the wider divine economy of consumption that defines the pantheon. The gods are not sustained by faith alone but by the extraction of mortal essence through prayer, sacrifice, emotion, and suffering. Temples function as conduits of feeding rather than mere places of worship, and clerics unknowingly surrender fragments of themselves through devotion. Horundar’s ocean becomes one of the largest reservoirs of this consumption, where drowned souls are absorbed into the Deep Hunger, their essence circulating through tidal currents before being claimed into his immortal reservoir. His conflicts with other gods are often territorial disputes over mortal populations and coastal dominion, where control over worship determines access to sustenance.",
+    "The broader pantheon reflects a fractured hierarchy of divine predation. Valkhamesh governs storms and authority from celestial thrones, Enkirael feeds upon war and bloodshed, Raeshkul shapes strategy and civilization, Nefarokir governs death and the underworld, and Asethyr consumes ecstasy and madness. Each god represents a different mode of hunger, but Horundar remains uniquely tied to total environmental consumption, where entire geographies become mechanisms of sacrifice. Even in rivalry or restraint, his influence persists through water itself, ensuring that no coastal civilization exists outside his reach.",
+    "Beneath all divine order lies the ancient terror of Thoryn-Rahek, the first great hunger and devourer beneath creation. In the Colossus Wars, Thoryn-Rahek nearly unmade existence itself, consuming divine and mortal civilizations alike until the surviving gods bound him within the deepest fractures of reality. This act of imprisonment fundamentally changed the pantheon, transforming their hunger from instinct into fear-driven necessity. Immortality became something that required constant feeding, or else collapse into oblivion would follow.",
+    "Roughly four centuries before the present age of Universal, mortal civilizations united in secret to overthrow divine domination. Industrial powers, arcane orders, naval coalitions, royal houses, and revolutionary movements collaborated to construct the Age of Containment. Across the continent, massive metaphysical vault-prisons were forged beneath mountains, oceans, deserts, and forgotten ruins. These prisons did not kill the gods but confined them within sealed realms where their ability to consume mortal essence was heavily restricted. Twenty-one seals were created, each tied to a specific deity, transforming divine power into a regulated and dangerous resource rather than an unchecked force.",
+    "The seals imposed catastrophic feedback whenever a god attempted excessive consumption, turning divine feeding into pain that even immortals could not ignore indefinitely. Yet the gods still remain active, capable of granting spells, visions, and limited influence through carefully monitored systems of worship. Civilization did not escape divinity but replaced open divine rule with controlled dependency. Skyships, rail networks, and portal systems all rely on regulated divine energy, making humanity both liberated from gods and structurally dependent upon them at the same time.",
+    "Within this modern world, Horundar continues to manifest through storms, maritime disasters, and psychic influence over those who travel across the seas. Sailors report visions of drowned kingdoms, collapsing coastlines, and endless depths that whisper with collective memory. Naval routes are treated as negotiations with a living god rather than neutral geography, and entire fleets are still offered in ritualized protection against his wrath. His influence persists not only in physical disaster but in the psychological certainty that the ocean is watching, remembering, and waiting.",
+    "Universal itself is a civilization built upon contradiction, where divine imprisonment created stability while simultaneously embedding dependence upon the very forces it sought to control. Humanity overthrew the gods yet continues to rely upon fragments of their power to sustain industry, travel, and communication. Horundar remains one of the most dangerous pillars of this system because his domain cannot be fully separated from mortal infrastructure. Every river, sea route, and coastal settlement exists within his inherited design, meaning that even in containment, he remains one of the most pervasive forces shaping the world."
+  ],
+  "public_lore": "Horundar rules oceans, storms, floods, earthquakes, flame, stone, air, and the raw force that breaks settled boundaries. Coastal kingdoms treat survival as conditional upon his mood and their continuing rites of appeasement.",
+  "common_worship": "Invoked by sailors, coastal rulers, elemental practitioners, miners, farmers awaiting rain, and communities threatened by flood, drought, quake, or storm.",
+  "religious_warning": "Horundar’s protection is territorial and temperamental. A calm sea may be permission rather than peace.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 11,
+    "section_heading": "11. Horundar"
+  },
+  "token": {
+    "file": "Horundar.webp",
+    "selected_portrait_variant": "Neutrois",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 3,
+    "biomes": [
+      {
+        "category": "Volcanic",
+        "biome": "Geothermal Basin",
+        "path": "biomes/Volcanic/Geothermal Basin",
+        "rationale": "Geothermal basins are shaped by elemental force, earthquakes, steam, water, and pressure beneath the world."
+      },
+      {
+        "category": "Wetlands",
+        "biome": "Floodplains",
+        "path": "biomes/Wetlands/Floodplains",
+        "rationale": "Floodplains are directly remade by floods, storms, water pressure, and elemental force."
+      },
+      {
+        "category": "Underground",
+        "biome": "Underground Lakes",
+        "path": "biomes/Underground/Underground Lakes",
+        "rationale": "Subterranean lakes hold elemental water, seismic pressure, floods, and the storm below the world."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 3,
+    "races": [
+      {
+        "race_id": "szucarin",
+        "race_name": "Szûcarín",
+        "race_category": "Draconic and Reptilian Peoples",
+        "role": "elemental patron",
+        "rationale": "Elemental bodies, marsh and volcanic adaptations, and destructive natural force connect them to Horundar."
+      },
+      {
+        "race_id": "panolima",
+        "race_name": "Panolima",
+        "race_category": "Elemental Peoples",
+        "role": "primary patron",
+        "rationale": "Earthquakes, storms, water, and raw elemental force make Horundar the broadest patron of Panolima elemental harmony."
+      },
+      {
+        "race_id": "tamhiogal",
+        "race_name": "Tamhiogal",
+        "race_category": "Tidal Peoples",
+        "role": "hydromancy patron",
+        "rationale": "Hydromancy, pressure changes, floods, and powerful currents connect Tamhiogal elemental rites to Horundar."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "galaxyId": "galaxy_demo",
+  "name": "Vacío l'Abîme Frénétiacré",
+  "genreMode": "hybrid",
+  "eraLevel": 8,
+  "seed": "WorldBuilder-GALAXY",
+  "systems": [
+    {
+      "systemId": "system_demo",
+      "name": "Auralis System",
+      "stars": [
+        {
+          "starId": "star_auralis",
+          "name": "Auralis",
+          "spectralClass": "G2V",
+          "massSolar": 1,
+          "radiusSolar": 1,
+          "luminositySolar": 1,
+          "temperatureK": 5772
+        }
+      ],
+      "planets": [
+        {
+          "planetId": "planet_cirhiof",
+          "name": "Cirhiof",
+          "planetType": "mixed",
+          "orbit": {
+            "semiMajorAxisAU": 1.2,
+            "eccentricity": 0.03,
+            "inclinationDeg": 2,
+            "direction": "prograde",
+            "periodDays": 480
+          },
+          "physical": {
+            "radiusKm": 6900,
+            "massEarth": 1.1,
+            "gravityEarth": 1.02,
+            "rotationHours": 27,
+            "rotationDirection": "prograde",
+            "axialTiltDeg": 20,
+            "albedo": 0.46
+          },
+          "surface": {
+            "composition": {
+              "ocean": 33,
+              "land": 20,
+              "ice": 0,
+              "mountainousIce": 37,
+              "gas": 10,
+              "other": 0
+            },
+            "iceChemistry": {
+              "nitrogen": 11,
+              "water": 89
+            },
+            "continents": [],
+            "locations": []
+          },
+          "atmosphere": {
+            "pressureBar": 1.4,
+            "composition": {
+              "nitrogen": 82,
+              "oxygen": 16,
+              "other": 2
+            },
+            "greenhouseFactor": 0.18,
+            "cloudCover": 62
+          },
+          "rings": {
+            "enabled": true,
+            "tiltDeg": 20,
+            "innerRadiusPlanet": 1.35,
+            "outerRadiusPlanet": 2.5,
+            "composition": {
+              "ice": 70,
+              "rock": 30
+            }
+          },
+          "moons": [],
+          "species": []
+        }
+      ]
+    }
+  ],
+  "sourceManifest": [],
+  "protectedFields": [],
+  "viewerState": {},
+  "LifeSimulationBridge": {
+    "schema": "worldbuilder-lifesimulation-galaxy-bridge",
+    "schemaVersion": "1.0.0"
+  },
+  "alternateNames": [
+    {
+      "name": "Zešijómë",
+      "usedBy": "spacefaring alien civilizations"
+    }
+  ],
+  "campaignScope": "shared-galaxy; Universal is important but not required as the story center"
+}

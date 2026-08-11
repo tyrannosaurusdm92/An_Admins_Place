@@ -1,0 +1,18 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "worldbuilding",
+  "capabilities": [
+    "character",
+    "class",
+    "layer",
+    "rules",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "system-architect",
+    "sourceType": "provided-project-material",
+    "archiveHash": "5cf1f3ddcc2d6fbe"
+  },
+  "title": "sources_licenses_attribution.md",
+  "content": "# Sources, Licensing, and Attribution\n\nThis is a conservative content and license summary, not legal advice or trademark clearance.\n\n## Restored project-original catalog\n\nThis edition distributes the supplied licensing-cleared Universal concordance: 34 homeworld races, 26 preserved Alien-Folk, 22 deity dossiers, 22 deity portraits, and 106 public homeworld race-deity association links.\n\n## Rules references\n\nThe project used original teaching summaries of Daggerheart, Pathfinder Second Edition Remaster, Call of Cthulhu Seventh Edition, and Dungeons & Dragons revised fifth edition to identify usability gaps. No complete proprietary rule text, setting lore, art, trade dress, or closed character options from those games is redistributed.\n\n## Required notices\n\n- `CREATIVE_COMMONS_ATTRIBUTION.md`\n- `OPEN_GAME_CONTENT_DECLARATION.md`\n- `OPEN_GAME_LICENSE_1.0a_AND_NOTICES.txt`\n\n## Project material\n\nClass names, path names, Thay’lmériûn and Twenty-Two lore, Universal lore, the named race profiles, bloodlines/forms, Ichor, Thundercoils, terraforming assignments, and supplied art are treated as project source material. Confirm chain of title before commercial publication.\n\n## Restored source files\n\n- `Universal_Unified_Homebrew_Race_Concordance_Deity_Assigned.html`: 34 final homeworld races, 26 preserved Alien-Folk, biome profiles, bloodlines/forms, and pantheon summaries.\n- `race_deity_assignments.json`: 34 homeworld race records and 106 public religious/cultural association links across all 22 deities.\n- `deity_jsons/*.json`: 22 player-safe deity dossiers with public lore, worship, warnings, biomes, and associated races.\n- `deities_WEBP/deities/*.webp`: 22 supplied deity portrait assets.\n\nNo missing Alien-Folk deity assignments were inferred because the supplied assignment index explicitly excludes alien races.\n"
+}

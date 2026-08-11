@@ -1,0 +1,18 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "worldbuilding",
+  "capabilities": [
+    "canon",
+    "galaxy",
+    "planet",
+    "simulation",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "system-architect",
+    "sourceType": "provided-project-material",
+    "archiveHash": "5cf1f3ddcc2d6fbe"
+  },
+  "title": "universal_canon_galaxy_and_gods.md",
+  "content": "# Universal Galaxy Framework and Architect-Sect Canon\n\n- **Unified project:** Universal. WorldBuilder and LifeSimulation are integrated modules.\n- **Universalian galaxy name:** Vacío l'Abîme Frénétiacré.\n- **Source tongue:** Kaluseban.\n- **Approximate meaning:** The Venus Fly Trap.\n- **Reason for the name:** It refers to the predatory Twenty-Two remembered as gods and the trap they built around Universal.\n- **Interstellar galaxy name:** Zešijómë.\n- **Origin of Zešijómë:** Unknown; long interstellar use erased the original language and meaning.\n- **Architect truth:** The Twenty-Two are a dissident sect of the Thay’lmériûn civilization, not true gods.\n- **Sect history:** They rejected synthetic food sources, stole experimental genetic code and terraforming technology, found a desolate mostly lava-based planet, and transformed it into a greenhouse planet.\n- **Terraforming canon:** The Twenty-Two divided the work into 40 exclusive biome mandates. No biome overlaps, and each Architect has at least one assignment.\n- **Race scope:** The engine includes all 34 Universal homeworld races and all 26 preserved Alien-Folk from the supplied concordance.\n- **Association scope:** The 106 homeworld race-deity links are public religious and cultural associations, not compulsory worship or sole biological ownership. The supplied source intentionally assigns no Universalian deities to Alien-Folk.\n"
+}

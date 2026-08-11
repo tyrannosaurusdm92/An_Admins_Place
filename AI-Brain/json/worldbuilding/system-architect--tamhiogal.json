@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "tamhiogal",
+  "race_name": "Tamhiogal",
+  "race_category": "Tidal Peoples",
+  "deities": [
+    {
+      "name": "Bastveig",
+      "role": "primary patron",
+      "titles": [
+        "Keeper of Hidden Waters",
+        "Lady of Reefs and Trenches",
+        "Mother of Ocean Civilizations"
+      ],
+      "domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean civilizations"
+      ],
+      "rationale": "Tides, reefs, trenches, coral stewardship, and ocean civilization are Bastveig’s explicit domains.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Horundar",
+      "role": "hydromancy patron",
+      "titles": [
+        "Sovereign of Seas and Ruin",
+        "Storm Below the World",
+        "Master of Elemental Force"
+      ],
+      "domains": [
+        "storms",
+        "oceans",
+        "floods",
+        "earthquakes",
+        "elemental force"
+      ],
+      "rationale": "Hydromancy, pressure changes, floods, and powerful currents connect Tamhiogal elemental rites to Horundar.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Sokhivar",
+      "role": "resonance patron",
+      "titles": [
+        "Radiant Prophet",
+        "Voice of the Sky",
+        "Patron of Avian Omens"
+      ],
+      "domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "divine freedom",
+        "sky"
+      ],
+      "rationale": "Bioluminescent display and resonant communication give Sokhivar a secondary role in music-and-light observances.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

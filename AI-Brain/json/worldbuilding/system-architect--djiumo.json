@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "djiumo",
+  "race_name": "Djiumōtiakić",
+  "race_category": "Blood-Memory Peoples",
+  "deities": [
+    {
+      "name": "Nefarokir",
+      "role": "primary patron",
+      "titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "rationale": "Returned life, grave-bound vitality, preserved identity, and communal memory place the Djiumōtiakić closest to the administrator of death.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Hathruna",
+      "role": "return patron",
+      "titles": [
+        "Root-Mother of Rot and Rebirth",
+        "Lady of the Breathing Bloom",
+        "Keeper of Seasonal Return"
+      ],
+      "domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "rationale": "Their existence between death and renewed life reflects rot transformed into rebirth rather than simple undeath.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Eirzunet",
+      "role": "ash patron",
+      "titles": [
+        "Mistress of Twilight",
+        "Keeper of Forbidden Shadow",
+        "The Misaligned Silhouette"
+      ],
+      "domains": [
+        "shadows",
+        "curses",
+        "twilight transformation",
+        "forbidden magic"
+      ],
+      "rationale": "Ash-recorded identity and twilight transformation connect some lineages to Eirzunet’s shadowed rites.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

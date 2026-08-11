@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "labunail",
+  "race_name": "Labúnäilbaer",
+  "race_category": "Stone-Under Peoples",
+  "deities": [
+    {
+      "name": "Marduthor",
+      "role": "primary patron",
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "rationale": "Precision craft, pressure engineering, architecture, and subterranean halls make Marduthor the strongest patron of Labúnäilbaer society.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Anubaldir",
+      "role": "foundation patron",
+      "titles": [
+        "Bearer of the Heavens",
+        "Colossus of Endurance",
+        "The Unbroken Foundation"
+      ],
+      "domains": [
+        "endurance",
+        "burden",
+        "strength",
+        "resilience"
+      ],
+      "rationale": "Their mineral-adapted bodies, deep-earth endurance, and responsibility for holding tunnels secure reflect burden, strength, and resilience.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nefarokir",
+      "role": "deep-memory patron",
+      "titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "rationale": "Geological memory and the deepest inhabited caverns are ritually associated with the keeper of buried memory and the underworld.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

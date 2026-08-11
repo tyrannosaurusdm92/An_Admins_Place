@@ -1,0 +1,105 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 6,
+  "name": "Anubaldir",
+  "titles": [
+    "Bearer of the Heavens",
+    "Colossus of Endurance",
+    "The Unbroken Foundation"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "endurance",
+    "burden",
+    "strength",
+    "resilience"
+  ],
+  "manifestation": "Anubaldir resembles a massive weathered giant whose flesh cracks like stone under pressure.",
+  "deity_description": [
+    "Within the cosmology of Universal, Anubaldir is not merely a Colossus of strength but a foundational mechanism within the divine economy of hunger, punishment, and enforced order. Once a proud Colossus who stood against the High Fathers during the Colossusomachy, Anubaldir was not destroyed but transformed into an eternal structural necessity. His defiance was not erased; it was repurposed into function. In the aftermath of divine conquest, he became the living axis of the heavens, a forced convergence of support and throne that holds aloft the celestial architecture under which the gods of Universal conduct their predatory reign. The sky itself is not empty space but a constructed divine firmament, a layered metaphysical structure of courts, palaces, and sacrificial sanctums, all suspended upon Anubaldir as both foundation and prisoner.",
+    "Anubaldir endures this burden as something beyond suffering. His punishment is not chains or confinement but enforced existence as infrastructure. Unlike the High Fathers and their pantheon, who sustain themselves through direct consumption of mortal essence, Anubaldir is sustained only by endurance itself. His vitality is constantly stripped away by cosmic strain, yet never fully extinguished, creating an immortal state defined not by divine radiance but by relentless persistence. He exists in a perpetual state between collapse and continuation, as though the heavens feed upon the mere fact that he refuses to break. His defiance has evolved into stillness, a silence so absolute it becomes structural law.",
+    "This transformation makes Anubaldir essential to the entire divine hierarchy. The gods depend upon him even as they exploit the system he upholds. Without his unyielding support, the celestial order would collapse, severing the ritual architecture through which divine consumption is regulated. In this way, Anubaldir exists outside divine politics yet anchors all divine authority. He is not a participant in the courts of manipulation, sacrifice, or worship, yet every divine action is made possible through his enforced stability. Even the High Fathers, including Valkhamesh and the greater Universalian framework of Universal myth, are ultimately dependent on the structure he sustains.",
+    "Before the rise of rail empires, skyships, and regulated portal systems across Universal, the world belonged entirely to the gods and their consumption-driven hierarchy. The Universalian pantheon ruled as immortal sovereigns bound not by compassion but by hunger. Valkhamesh governed storm and law, Horundar commanded oceans and drowning depths, Nefarokir ruled the underworld, Raeshkul shaped strategy and empire, and Enkirael fed upon perpetual war. Sokhivar, Sigrananna, Thalunesh, Nebyrr, Ishtanora, Asethyr, Marduthor, Hathruna, Nephthysra, Freyseth, Oskar'enlil, Eirzunet, Setrimir, Iskareth, and Thoryn-Rahek all participated in a system where divinity was sustained through continuous extraction of mortal essence. Prayer, sacrifice, emotion, memory, and suffering were not symbolic offerings but literal sustenance, forming the foundation of divine immortality.",
+    "Yet even this system depended upon structural enforcement, and that enforcement ultimately traced back to Anubaldir. While the gods consumed, Anubaldir sustained the architecture that made consumption possible. The heavens were not natural but constructed, and every layer of divine existence required his continued endurance. In this sense, Anubaldir is not beneath the gods but beneath existence itself, a forced axis around which divine hierarchy rotates.",
+    "Over centuries, civilizations across Universal advanced technologically and spiritually, eventually uncovering the truth that divinity was not benevolent but predatory. Industrial expansion, arcane science, and global communication revealed that divine influence permeated every aspect of mortal life. Entire economies of faith developed around controlled worship, regulated temples, and sanctioned divine interaction. However, even as humanity learned to regulate the gods, it also learned that the system could not be fully escaped. Divine hunger persisted, and the structure sustaining it remained intact through Anubaldir’ eternal burden.",
+    "Beneath all divine order lies the deeper terror of Thoryn-Rahek, the primordial hunger imprisoned within the earliest wounds of reality. His existence represents consumption without limit, a force that even the gods fear. The Colossus Wars that once nearly erased creation demonstrated that divinity itself could be devoured. From that fear, the gods’ dependence on structured feeding intensified, further binding them to systems that ultimately rely on Anubaldir as the foundational support of celestial architecture.",
+    "Approximately four centuries ago, mortal powers across Universal formed a unified conspiracy to imprison the pantheon. Industrial nations, arcane orders, revolutionary clergy, monster hunting guilds, and clandestine alliances worked together to construct metaphysical vault-prisons designed not to kill the gods but to restrict their consumption. These prisons became the Age of Containment, limiting divine feeding while still allowing controlled worship and regulated power exchange. The gods were starved but not destroyed, and their prisons were tied into seals woven into civilization itself.",
+    "Each seal weakens not through force but through moral and structural collapse. Suffering, corruption, war, betrayal, and despair erode the metaphysical bindings that hold the gods in place. Even imprisoned, the gods remain active, influencing dreams, granting spells, and whispering through controlled channels of worship. Yet none of this changes the underlying structure, which still depends upon Anubaldir as the unbroken axis sustaining celestial order above and beneath all divine systems."
+  ],
+  "public_lore": "Anubaldir represents the strength required to carry what cannot be set down. Sacred histories describe him as both foundation and prisoner, sustaining structures greater than himself through endless endurance.",
+  "common_worship": "Invoked by laborers, guardians, builders, burden-bearers, prisoners, athletes, and those enduring prolonged hardship.",
+  "religious_warning": "His doctrine can glorify suffering and make release seem shameful. Some cults teach that a burden becomes sacred merely because it is unbearable.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 6,
+    "section_heading": "6. Anubaldir"
+  },
+  "token": {
+    "file": "Anubaldir.webp",
+    "selected_portrait_variant": "Cis-Male",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 2,
+    "biomes": [
+      {
+        "category": "Mountains",
+        "biome": "Mountain Range",
+        "path": "biomes/Mountains/Mountain Range",
+        "rationale": "Mountain ranges embody immense weight, endurance, strength, and the burden of holding the world firm."
+      },
+      {
+        "category": "Wasteland",
+        "biome": "Barren Wasteland",
+        "path": "biomes/Wasteland/Barren Wasteland",
+        "rationale": "Survival in absolute barrenness is a pure test of endurance, resilience, burden, and unbroken strength."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 3,
+    "races": [
+      {
+        "race_id": "labunail",
+        "race_name": "Labúnäilbaer",
+        "race_category": "Stone-Under Peoples",
+        "role": "foundation patron",
+        "rationale": "Their mineral-adapted bodies, deep-earth endurance, and responsibility for holding tunnels secure reflect burden, strength, and resilience."
+      },
+      {
+        "race_id": "laubakir",
+        "race_name": "Läúbakirruna",
+        "race_category": "Borderland Colossi",
+        "role": "primary patron",
+        "rationale": "Colossal bodies, mountain endurance, and the political burden of border guardianship strongly align with Anubaldir."
+      },
+      {
+        "race_id": "c03",
+        "race_name": "Wimokhurumī",
+        "race_category": "Shellscript Folk",
+        "role": "endurance patron",
+        "rationale": "Slow travel and protective mineral bodies reflect patience, burden, and resilience."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

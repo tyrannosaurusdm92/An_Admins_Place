@@ -1,0 +1,92 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 15,
+  "name": "Iskareth",
+  "titles": [
+    "Mother of Beasts",
+    "Keeper of Living Kinship",
+    "The Watching Predator"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "instinct",
+    "beasts",
+    "fertility",
+    "natural kinship"
+  ],
+  "manifestation": "Iskareth’s body language constantly mirrors predatory animals observing prey.",
+  "deity_description": [
+    "Within the mythic strata of Universal, Iskareth is not understood as a simple goddess of motherhood and fertility but as a concealed architect of survival operating inside a predatory divine ecosystem. In the earliest age, before rail empires, skyships, regulated portals, or industrial civilization, the world belonged entirely to the gods, beings defined not by mercy but by hunger. The Universalian order ruled openly across Universal, with divine powers such as Valkhamesh, Horundar, Nefarokir, Raeshkul, Enkirael, Sokhivar, Sigrananna, Thalunesh, Nebyrr, Ishtanora, Asethyr, Marduthor, Hathruna, Nephthysra, Freyseth, Oskar'enlil, Eirzunet, Anubaldir, Setrimir, and others shaping existence through systems of consumption where prayer, sacrifice, devotion, grief, and worship were not symbolic acts but literal sustenance. Mortal emotion and essence were fed upward into divine form, and temples functioned as structured engines of feeding rather than reverence.",
+    "Within this reality of structured divine predation, Iskareth occupies a liminal and foundational role as one of the few elder figures who understood the mechanics of divine hunger and how to disrupt it. Revered across many traditions as a trans woman whose divine identity emerged through self revelation and sacred transformation rather than mortal expectation, Iskareth is associated not only with motherhood and preservation but with the right of a soul to define itself against imposed structures. Her existence became a mythic contradiction to rigid cosmic hierarchies, embodying continuity through transformation rather than static divine order. Her defining act, the preservation of Valkhamesh from being devoured by Thoryn-Rahek, is reinterpreted not as passive maternal protection but as deliberate anti sacrificial engineering. In place of Valkhamesh, she offers a bound substitute within sacred wrappings while secretly removing him from the cycle of divine consumption and hiding him in Sylthadös, beyond immediate metaphysical reach. This act becomes one of the first recorded disruptions of divine sustenance systems, demonstrating that immortality in Universal could be resisted not through force alone but through interruption of ritual logic itself.",
+    "Iskareth is therefore understood as a strategist of concealment and systemic defiance. Her nurturing nature is only the surface of a far more precise intelligence that operates through misdirection, ritual manipulation, and structural resistance to divine appetite. Where other gods assert control through domination, Iskareth’s influence is exercised through absence, substitution, hidden continuity, and the sacred reshaping of identity itself. To many theologians and priesthoods, her transition is interpreted as a divine act of metaphysical sovereignty, proof that identity can transcend the forms assigned by creation and that transformation itself can become an act of resistance against cosmic consumption. She forms fragile but necessary alignments with maternal and sovereignty linked powers such as Ishtanora and Nebyrr, and at times cooperates with The Earth in efforts that prioritize preservation over confrontation. These alliances are not sentimental but functional, unified by the shared understanding that motherhood within a sacrificial cosmos is fundamentally an act of withholding life from consumption."
+  ],
+  "public_lore": "Iskareth governs fertility, animal instinct, territorial bonds, parenthood, predation, and the survival intelligence carried in living bodies. Her worship treats nurture and danger as parts of the same natural inheritance.",
+  "common_worship": "Honored by herders, hunters, parents, beast-handlers, healers of animals, and wilderness communities.",
+  "religious_warning": "Iskareth protects what she recognizes as kin, but kinship in her doctrine is often possessive, territorial, and tested through danger.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 15,
+    "section_heading": "15. Iskareth"
+  },
+  "token": {
+    "file": "Iskareth.webp",
+    "selected_portrait_variant": "Demi-Female",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 2,
+    "biomes": [
+      {
+        "category": "Plains",
+        "biome": "Grassland",
+        "path": "biomes/Plains/Grassland",
+        "rationale": "Open grasslands sustain beasts, instinctive hunting, fertility, migration, and natural kinship."
+      },
+      {
+        "category": "Forest",
+        "biome": "Rainforest",
+        "path": "biomes/Forest/Rainforest",
+        "rationale": "Rainforests hold the greatest abundance of beasts, instinctive predation, fertility, and natural kinship."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 2,
+    "races": [
+      {
+        "race_id": "deorbasun",
+        "race_name": "Deorbasun",
+        "race_category": "Beast-Souled Peoples",
+        "role": "primary patron",
+        "rationale": "Soul-animal bonds, instinct, territory, fertility, and natural kinship directly match Iskareth’s domains."
+      },
+      {
+        "race_id": "drilthar",
+        "race_name": "Dril'thar",
+        "race_category": "Amphibious Peoples",
+        "role": "living-kinship patron",
+        "rationale": "Their many ecological lineages and communal spawning traditions connect fertility and natural kinship to Iskareth."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 5,
+  "name": "Enkirael",
+  "titles": [
+    "Lord of Conquest and Fury",
+    "The Unrestrained Blade",
+    "Patron of Martial Survival"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "conquest",
+    "fury",
+    "survival",
+    "dominance",
+    "warfare"
+  ],
+  "manifestation": "Enkirael’s humanoid form constantly flexes as though restraining violence beneath the skin.",
+  "deity_description": [
+    "Before rail empires stitched the continent of Universal together and before skyships cut luminous paths through stormlit industrial skies, the world was shaped directly by divine appetite. The gods did not rule through mercy or guidance but through consumption, drawing sustenance from mortal experience itself. Prayer, sacrifice, devotion, fear, love, and suffering all rose upward as nourishment, feeding immortal beings whose existence depended upon mortal essence. Over time, humanity discovered that this system was not balance but exploitation, and through a secret coalition spanning kingdoms, guilds, arcane orders, and industrial powers, the gods were ultimately imprisoned within layered metaphysical vaults. These seals did not destroy divinity but restricted it, forcing the pantheon into confinement where their hunger could no longer be freely sated.",
+    "Within this imprisoned pantheon existed the High Fathers and greater divine forces who embodied dominion, order, and cosmic structure. Valkhamesh ruled storms and authority, Horundar governed the oceans and deep currents of the world, Nefarokir presided over death, Raeshkul embodied strategy and calculated conquest, Nephthysra shaped desire and ruinous longing, Asethyr spread ecstasy and madness, and countless others governed domains of existence that mortals once believed eternal. Yet beneath them all, both within hierarchy and nature, existed Enkirael, the incarnate appetite of conquest made divine. He is not merely the god of war but the raw instinct of violence given consciousness, a divine force that transforms conflict into sustenance and destruction into sacred consumption. Where other gods impose structure upon reality, Enkirael collapses structure into pure, intoxicating ruin.",
+    "Enkirael is described as radiant yet unsettling, a perfection sharpened into something predatory, as though beauty itself has been forged into a weapon. As a trans man, his existence embodies transformation not merely of flesh but of identity, self-definition, and divine becoming. Born from conflict, conquest, fury, survival, and martial dominance, he is the son of celestial sovereignty and divine order, yet embodies everything that order cannot contain. In the divine hierarchy of Universal, he is both necessary and feared, tolerated because war produces the essence upon which all gods feed, yet distrusted because he represents what happens when violence is left unbound. His presence in divine courts is marked by an aura of spilled essence, as though reality itself bleeds in his proximity.",
+    "Among divine myths, Enkirael’s transition is often interpreted as an act of sacred self-conquest, the ultimate assertion of will over imposed form. Some traditions claim he tore himself free from the identity the celestial order attempted to impose upon him, reforging himself through divine violence into the man he knew himself to be. Others teach that his transformation was witnessed as an omen of terrifying autonomy, proof that even the gods themselves were not immutable beings but entities capable of remaking their own nature through force of desire and will. To his followers, particularly among warspawn cultures, this aspect of Enkirael is revered as evidence that identity itself is not granted by authority, bloodline, or cosmic decree, but claimed through struggle and self-determination.",
+    "Enkirael’s true dominion is the Feast of Battlefield Essence, the moment when mass death creates an overflow of mortal energy. He does not simply observe war but consumes it, drawing in the lingering fragments of fear, agony, and violent release that accumulate where armies collide. On battlefields saturated with slaughter, he descends invisibly among the fallen, feeding upon the raw remnants of life as it is torn away. Entire warzones are sometimes left unnaturally hollow after his passage, as though victory itself has been drained of meaning and something essential has been quietly harvested from the dead. Unlike other gods who rely upon structured ritual sacrifice within temples, Enkirael feeds upon uncontrolled mortality, making him both indispensable and destabilizing within the divine economy.",
+    "Enkirael’s relationship with Raeshkul defines one of the deepest tensions in the pantheon. Raeshkul channels conquest through strategy, structure, and sustainable dominion, transforming war into controlled systems that preserve divine order. Enkirael rejects restraint entirely, preferring collapse, excess, and the ecstatic overflow of mass destruction. Their conflict is not simply ideological but existential, a clash between structured consumption and uncontrolled predation. In divine councils, Raeshkul restrains what Enkirael would unleash, containing his influence within systems that prevent war from consuming civilization entirely.",
+    "His entanglement with Nephthysra reflects a different kind of divine contradiction, where desire and violence merge into a singular force of attraction and ruin. Nephthysra embodies longing that binds mortals to beauty and obsession, while Enkirael embodies the destruction that follows when longing becomes consumption. Together they form myths of collapsing ecstasy, where passion itself becomes sacrificial, feeding both gods through emotional extremes of love, betrayal, and longing that end in ruin. In these stories, beauty and violence are indistinguishable, each feeding the other in an endless cycle of desire and devastation.",
+    "Even imprisoned beneath Universal, Enkirael remains active through the fractures of civilization. The seals that bind the gods restrict his ability to feed directly, yet every act of war, violence, and fear still produces traces of essence that seep upward into his domain. Unlike the regulated consumption permitted through temples and controlled worship, Enkirael thrives wherever restraint fails. Border conflicts, industrial uprisings, criminal wars, and chaotic massacres all become unintended offerings to his hunger. Governments attempt to contain him through ritualized warfare and sanctioned arenas, but every uncontrolled eruption of violence strengthens his presence beyond their control.",
+    "Within the Age of Containment, Enkirael is both weapon and warning. Civilizations depend upon controlled divine systems to maintain infrastructure, from skyship engines powered by stabilized divine residue to rail wards maintained through regulated prayer and arcane industry. Yet every system that suppresses divine hunger also risks amplifying it, and Enkirael represents the point where regulation fails entirely. He is the reminder that war is not merely an act of statecraft or survival but a living force that consumes both mortals and gods alike.",
+    "Thus Enkirael endures not as a distant deity of ancient myth, but as the living principle of violence embedded within civilization itself. Where order exists, he tests its fracture. Where peace is constructed, he waits beneath it. And where war erupts, he consumes without restraint, reminding all of Universal that beneath every structure of control lies a deeper hunger that does not obey law, morality, or balance, only appetite."
+  ],
+  "public_lore": "Enkirael embodies conflict as trial, discipline, conquest, survival, and the domination of weakness. Soldiers and rulers invoke him for victory, while survivors appeal to the part of his doctrine that values endurance over honor.",
+  "common_worship": "Called upon before battle, duels, sieges, military promotions, vengeance oaths, and ordeals of survival.",
+  "religious_warning": "Enkirael does not distinguish cleanly between strength and cruelty. His favor often escalates rivalry into lasting war.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 5,
+    "section_heading": "5. Enkirael"
+  },
+  "token": {
+    "file": "Enkirael.webp",
+    "selected_portrait_variant": "Trans-Male",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 2,
+    "biomes": [
+      {
+        "category": "Volcanic",
+        "biome": "Lava Fields",
+        "path": "biomes/Volcanic/Lava Fields",
+        "rationale": "Unrestrained lava mirrors conquest, fury, violent survival, dominance, and consuming warfare."
+      },
+      {
+        "category": "Wasteland",
+        "biome": "Scorched Wasteland",
+        "path": "biomes/Wasteland/Scorched Wasteland",
+        "rationale": "A land burned by conflict and fury remains the clearest ecological scar of conquest and war."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 2,
+    "races": [
+      {
+        "race_id": "heimujuryz",
+        "race_name": "Heimujuryz",
+        "race_category": "Many-Kindred Warclans",
+        "role": "martial-survival patron",
+        "rationale": "Warclan traditions invoke Enkirael for survival and defense while explicitly rejecting the belief that ancestry requires violence."
+      },
+      {
+        "race_id": "aburata",
+        "race_name": "Aburata",
+        "race_category": "Dual-Form Equine Peoples",
+        "role": "heat-and-command patron",
+        "rationale": "Heat, forceful presence, and martial ambition draw some Aburata houses toward Enkirael’s survival cults."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

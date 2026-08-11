@@ -1,0 +1,102 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 20,
+  "name": "Oskar'enlil",
+  "titles": [
+    "Balancer of the Sacred Harvest",
+    "Architect of Restraint",
+    "The Impartial Assessor"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "adaptation",
+    "civilization",
+    "instinct",
+    "engineered races"
+  ],
+  "manifestation": "A serene, statuesque, and utterly impartial figure surrounded by ivory-gold radiance. Her eyes resemble polished instruments of judgment, making every witness feel assessed rather than understood.",
+  "deity_description": [
+    "In the mythic framework of Universal, the gods were never simply divine rulers, but engines of consumption bound to a fragile equilibrium between mortal civilization and celestial hunger. Among them, one figure stands apart not for the scale of her appetite, but for the architecture of the system that made such appetite survivable at all. Oskar'enlil is remembered not as a conqueror or predator, but as the one who transformed instinct into structure, and hunger into law.",
+    "Before the rise of rail empires, skyships, and regulated portal networks, the Universalian pantheon ruled Universal openly as immortal sovereigns. Valkhamesh governed storms and kingship, Horundar ruled the oceans and deep fury beneath the world, Nefarokir presided over death, Raeshkul shaped empires through calculated wisdom, and Enkirael fed endlessly on war. Sokhivar, Sigrananna, Thalunesh, Nebyrr, Ishtanora, Asethyr, Marduthor, Hathruna, Nephthysra, Freyseth, and others formed a sprawling divine ecology of dominion and appetite. Even Colossuss such as Thoryn-Rahek remained bound in the deepest layers of reality, remembered as warnings of primordial consumption without limit.",
+    "Yet beneath all divine authority lay a hidden dependency. The gods were sustained through worship, sacrifice, emotion, and devotion, each mortal act feeding fragments of essence upward into the divine realm. Temples were not merely places of reverence but structured systems of nourishment. Faith itself became an economy of survival, and civilizations unknowingly organized themselves around maintaining the gods that fed on them. As mortal society advanced, this system scaled into something far more dangerous, producing industrial levels of spiritual output that intensified divine hunger rather than satisfying it.",
+    "It was within this escalating cycle that Oskar'enlil emerged as the architect of restraint. Unlike the other gods who consumed directly through instinct or dominion, she perceived the divine ecosystem as an equation that required regulation or collapse would follow. In Universalian theology, she is described as the being who formalized predation itself, transforming raw divine appetite into a governed structure of sacrifice, allocation, and controlled imbalance. She did not create hunger, but she defined its permissible boundaries, ensuring that consumption would not immediately annihilate the worlds that sustained it.",
+    "Oskar'enlil occupies a paradoxical station within the celestial hierarchy. Formally subordinate to the greater High Fathers of Heaven, she is in practice indispensable to their continued existence. Without her frameworks, divine feeding would destabilize reality itself. She is regarded as the Balancer of the Sacred Harvest, the jurist of cosmic order whose judgments determine when civilizations may expand, when they must contract, and when their collective suffering must be harvested to maintain equilibrium. To mortals and gods alike, her presence is not experienced as mercy or cruelty, but as calculation.",
+    "Her form is described as serene, statuesque, and utterly impartial. Radiant ivory-gold luminosity surrounds her presence, while her eyes resemble polished instruments of judgment rather than empathy. Those who stand before her do not feel seen in an emotional sense, but assessed, as if every aspect of their existence is being weighed against an unseen ledger of necessity. In her gaze, suffering is not denied, but categorized.",
+    "Within her domain of divine law, prophecy, and natural order, Oskar'enlil does not merely interpret fate, she allocates it. Entire civilizations rise or fall according to her determinations of balance. She governs the cadence of sacrificial cycles, calculating when mortal populations must be reduced to preserve divine stability and when expansion can be permitted without triggering collapse. In this structure, even divine hunger becomes a regulated force rather than an uncontrolled catastrophe.",
+    "Ancient Universalian scripture attributes the origin of sacred draining rituals to her earliest codifications. The Edicts of Essence Extraction are said to be her creation, establishing standardized rites through which gods draw mortal vitality in controlled and repeatable cycles. Under her design, sacrifice becomes procedure rather than chaos, justified not as cruelty but as maintenance of reality. Deviations from her system are believed to risk catastrophic imbalance, either through divine starvation or uncontrolled overharvesting that hollows out entire worlds.",
+    "From Oskar'enlil also emerge the subordinate divine systems associated with fate and temporal order. The Horae are reinterpreted as custodians of harvest cycles, determining when mortal societies are spiritually ripe for offering. The Fates become the Weavers of Consumption, recording every trajectory of life toward eventual extraction. In this interpretation, they are not independent gods but extensions of her judicial consciousness, distributed functions of a singular regulating intelligence.",
+    "Despite her essential role, Oskar'enlil is not universally regarded as benevolent. Some sects argue she is not a servant of order but its prison warden, bound to maintain a system she understands to be fundamentally tragic. In this interpretation, she perceives the inevitability of suffering embedded within divine structure, yet cannot alter it without collapsing the very reality that sustains both gods and mortals. Justice, in her form, is not moral virtue but structural inevitability.",
+    "Across Universal, even the imprisoned gods remain bound to the frameworks she created. When the pantheon was eventually sealed within metaphysical vault-prisons beneath the continent, it was her logic that made containment possible. The seals do not destroy divinity but regulate its capacity to feed, enforcing pain as correction when consumption exceeds permitted thresholds. Even in imprisonment, divine hunger persists, but it is forced to obey the structures she once defined.",
+    "Thus, Oskar'enlil endures as the hidden axis of the entire system. The gods may rage, the mortals may resist, and civilizations may rise upon industrialized faith, but the underlying logic of balance remains hers. Every act of worship, every ritual of extraction, every controlled channel of divine power traces back to the architecture she imposed upon existence. In Universal, she is neither fully jailer nor savior, but the reason the concept of equilibrium between hunger and survival can exist at all."
+  ],
+  "public_lore": "Oskar’enlil transforms instinct into structure and unstable adaptation into governed systems. She is remembered as an architect of balance who calculates when growth, restraint, alteration, or sacrifice is necessary for a larger order to continue.",
+  "common_worship": "Invoked by bio-artificers, lawmakers, planners, healers of altered bodies, experimental communities, and those navigating unstable transformations.",
+  "religious_warning": "Her balance is mathematical rather than compassionate. Suffering may be accepted when her calculations classify it as necessary.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 20,
+    "section_heading": "20. Oskar'enlil"
+  },
+  "token": {
+    "file": "Oskar_enlil.webp",
+    "selected_portrait_variant": "Gender-Flexible",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 1,
+    "biomes": [
+      {
+        "category": "Steppe",
+        "biome": "Dry Grasslands",
+        "path": "biomes/Steppe/Dry Grasslands",
+        "rationale": "Dry grasslands demand measured adaptation between civilization, instinct, engineered survival, and restraint."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 3,
+    "races": [
+      {
+        "race_id": "heimujuryz",
+        "race_name": "Heimujuryz",
+        "race_category": "Many-Kindred Warclans",
+        "role": "primary patron",
+        "rationale": "Adaptive physiology, many compatible body expressions, and deliberate balance between instinct and civilization align with the Balancer."
+      },
+      {
+        "race_id": "geisamahi",
+        "race_name": "Geisamahi",
+        "race_category": "Small Mammalian Peoples",
+        "role": "adaptation patron",
+        "rationale": "Their specialized bodies, whisker-sense, and occasional gliding membranes exemplify adaptive life balanced with civilization."
+      },
+      {
+        "race_id": "c19",
+        "race_name": "Dātseṣapyal",
+        "race_category": "Gelweave Folk",
+        "role": "primary patron",
+        "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

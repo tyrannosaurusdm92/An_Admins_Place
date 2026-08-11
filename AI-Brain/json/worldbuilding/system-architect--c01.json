@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c01",
+  "race_name": "Hīnduigrägin",
+  "race_category": "Waymemory Folk",
+  "deities": [
+    {
+      "name": "Thalunesh",
+      "role": "primary patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Shared route-memory, travel, and the ability to lend a remembered path align with passage and wanderers.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Asethyr",
+      "role": "nomad patron",
+      "titles": [
+        "Patron of Revelry",
+        "The Laughing Liberator",
+        "Lord of Untamed Rites"
+      ],
+      "domains": [
+        "freedom",
+        "revelry",
+        "tribal rites",
+        "wilderness survival"
+      ],
+      "rationale": "Open-road freedom, communal wandering, and survival across steppe and badlands connect them to Asethyr.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nefarokir",
+      "role": "memory patron",
+      "titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "rationale": "The preservation and transfer of sensory memories gives Nefarokir a secondary place in remembrance rites.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

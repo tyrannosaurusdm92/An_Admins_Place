@@ -1,0 +1,65 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c06",
+  "race_name": "Byevaichetar",
+  "race_category": "Moonmolt Folk",
+  "deities": [
+    {
+      "name": "Sigrananna",
+      "role": "primary patron",
+      "titles": [
+        "Moonlit Huntress",
+        "Keeper of Wild Thresholds",
+        "Mistress of the Elven Bloodlines"
+      ],
+      "domains": [
+        "forests",
+        "moonlight",
+        "wilderness",
+        "hunters",
+        "elven beauty"
+      ],
+      "rationale": "Lunar cycles are the organizing principle of Moonmolt bodies and civic life.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Hathruna",
+      "role": "renewal patron",
+      "titles": [
+        "Root-Mother of Rot and Rebirth",
+        "Lady of the Breathing Bloom",
+        "Keeper of Seasonal Return"
+      ],
+      "domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "rationale": "Chosen molts and preserved seasonal skins enact visible cycles of shedding, return, and rebirth.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nefarokir",
+      "role": "memory patron",
+      "titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "rationale": "Archived skins holding selected memories connect civic remembrance to Nefarokir.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

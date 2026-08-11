@@ -1,0 +1,82 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "panolima",
+  "race_name": "Panolima",
+  "race_category": "Elemental Peoples",
+  "deities": [
+    {
+      "name": "Horundar",
+      "role": "primary patron",
+      "titles": [
+        "Sovereign of Seas and Ruin",
+        "Storm Below the World",
+        "Master of Elemental Force"
+      ],
+      "domains": [
+        "storms",
+        "oceans",
+        "floods",
+        "earthquakes",
+        "elemental force"
+      ],
+      "rationale": "Earthquakes, storms, water, and raw elemental force make Horundar the broadest patron of Panolima elemental harmony.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Marduthor",
+      "role": "earth-and-fire patron",
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "rationale": "Earth and fire bloodlines honor transformation through stone, heat, craft, and controlled material change.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Bastveig",
+      "role": "water patron",
+      "titles": [
+        "Keeper of Hidden Waters",
+        "Lady of Reefs and Trenches",
+        "Mother of Ocean Civilizations"
+      ],
+      "domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean civilizations"
+      ],
+      "rationale": "Water bloodlines and ocean communities recognize Bastveig’s authority over tides and hidden waters.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Sokhivar",
+      "role": "air-and-light patron",
+      "titles": [
+        "Radiant Prophet",
+        "Voice of the Sky",
+        "Patron of Avian Omens"
+      ],
+      "domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "divine freedom",
+        "sky"
+      ],
+      "rationale": "Air, magical light, and sky-facing aether traditions place part of Panolima worship under Sokhivar.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}
