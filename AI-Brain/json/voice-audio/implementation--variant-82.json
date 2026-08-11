@@ -1,0 +1,33 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "layer",
+    "merge",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "check_values"
+    ],
+    "classes": [
+      "BaseEncoderConfig"
+    ],
+    "imports": [],
+    "lineCount": 62,
+    "characterCount": 1851
+  },
+  "selectedComments": [
+    "model params",
+    "training params",
+    "logging params",
+    "data loader"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "forward"
+    ],
+    "classes": [
+      "MelganMultiscaleDiscriminator"
+    ],
+    "imports": [],
+    "lineCount": 51,
+    "characterCount": 1479
+  },
+  "selectedComments": []
+}

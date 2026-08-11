@@ -1,0 +1,28 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "lineCount": 8,
+    "characterCount": 207
+  },
+  "selectedComments": [
+    "from distutils.core import setup",
+    "from Cython.Build import cythonize",
+    "import numpy",
+    "setup(name='monotonic_align',",
+    "ext_modules=cythonize(\"core.pyx\"),",
+    "include_dirs=[numpy.get_include()])"
+  ]
+}

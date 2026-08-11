@@ -1,0 +1,28 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge",
+    "quest",
+    "speech"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "tsx",
+  "summary": {
+    "functions": [
+      "SpeechCloneTab"
+    ],
+    "classes": [],
+    "imports": [
+      "@/stores/use-session-store"
+    ],
+    "lineCount": 28,
+    "characterCount": 841
+  },
+  "selectedComments": []
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "merge",
+    "npc",
+    "shape",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "extract_style_embedding",
+      "get_muq_model",
+      "unload_muq"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 59,
+    "characterCount": 1618
+  },
+  "selectedComments": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "lineCount": 27,
+    "characterCount": 686
+  },
+  "selectedComments": [
+    "List of (regular expression, replacement) pairs for abbreviations in english:"
+  ]
+}

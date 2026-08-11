@@ -1,0 +1,37 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "layer",
+    "merge",
+    "random",
+    "schedule",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [],
+    "classes": [
+      "GlowTTSConfig"
+    ],
+    "imports": [],
+    "lineCount": 183,
+    "characterCount": 7999
+  },
+  "selectedComments": [
+    "model params",
+    "training params",
+    "inference params",
+    "multi-speaker settings",
+    "optimizer parameters",
+    "overrides",
+    " testing"
+  ]
+}

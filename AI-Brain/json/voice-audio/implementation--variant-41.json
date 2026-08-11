@@ -1,0 +1,28 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge",
+    "sort"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "main"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 46,
+    "characterCount": 1486
+  },
+  "selectedComments": [
+    "pylint: disable=bad-option-value",
+    "load all datasets"
+  ]
+}

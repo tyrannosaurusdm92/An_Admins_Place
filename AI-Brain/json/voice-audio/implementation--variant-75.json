@@ -1,0 +1,31 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "inference",
+      "init_from_config",
+      "load_checkpoint"
+    ],
+    "classes": [
+      "BaseTrainerModel"
+    ],
+    "imports": [],
+    "lineCount": 60,
+    "characterCount": 2056
+  },
+  "selectedComments": [
+    "pylint: skip-file"
+  ]
+}

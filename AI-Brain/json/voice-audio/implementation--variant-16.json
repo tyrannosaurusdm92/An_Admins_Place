@@ -1,0 +1,29 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "map",
+    "merge",
+    "speech"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "tsx",
+  "summary": {
+    "functions": [
+      "TabSelector"
+    ],
+    "classes": [],
+    "imports": [
+      "@/providers/language-provider",
+      "framer-motion"
+    ],
+    "lineCount": 45,
+    "characterCount": 1219
+  },
+  "selectedComments": []
+}

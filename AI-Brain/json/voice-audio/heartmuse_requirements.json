@@ -1,0 +1,17 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "merge",
+    "npc",
+    "quest",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "heartmuse_requirements.txt",
+  "content": "gradio>=5.0,<7.0\nopenai>=1.0,<3.0\nrequests>=2.28,<3.0\npython-dotenv>=1.0,<2.0\nhuggingface_hub>=0.20,<1.0\nlibrosa>=0.10,<1.0\nmuq>=0.1\ntorchcodec>=0.1\n"
+}

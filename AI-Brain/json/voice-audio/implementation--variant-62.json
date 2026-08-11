@@ -1,0 +1,33 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "layer",
+    "merge",
+    "schedule",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [],
+    "classes": [
+      "AlignTTSConfig"
+    ],
+    "imports": [],
+    "lineCount": 108,
+    "characterCount": 4913
+  },
+  "selectedComments": [
+    "model specific params",
+    "multi-speaker settings",
+    "optimizer parameters",
+    "overrides",
+    " testing"
+  ]
+}
