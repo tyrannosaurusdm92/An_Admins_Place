@@ -1,0 +1,44 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "layer",
+    "map",
+    "merge",
+    "random",
+    "search",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "frontend"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 143,
+    "characterCount": 4506
+  },
+  "selectedComments": [
+    "This code is originally from https://colab.research.google.com/github/espnet/notebook/blob/master/tts_realtime_demo.ipynb#scrollTo=9gGRzrjyudWF",
+    "add path",
+    "define E2E-TTS model",
+    "define neural vocoder",
+    "define device",
+    "device = torch.device(\"cuda\")",
+    "set path",
+    "set path",
+    "Only for Tacotron 2",
+    "Only for fastspeech (lower than 1.0 is faster speech, higher than 1.0 is slower speech)",
+    "define text frontend",
+    "Store the utterances as a pickle"
+  ]
+}

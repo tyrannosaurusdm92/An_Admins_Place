@@ -1,0 +1,42 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "layer",
+    "merge",
+    "random",
+    "shape"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "additive_noise",
+      "apply_one",
+      "create_augmentation_global_list",
+      "reverberate",
+      "save_best_model",
+      "save_checkpoint",
+      "setup_encoder_model",
+      "to_camel"
+    ],
+    "classes": [
+      "AugmentWAV"
+    ],
+    "imports": [],
+    "lineCount": 183,
+    "characterCount": 6853
+  },
+  "selectedComments": [
+    "get noise types",
+    "ignore not listed directories",
+    "if all possible files is less than audio, choose other files"
+  ]
+}

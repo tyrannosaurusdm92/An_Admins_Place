@@ -1,0 +1,29 @@
+{
+  "project": "Universal Vocal + Acapella Studio Merged",
+  "created_for": "speaking voice/singing/acapella creation with mp3/wav/json export, no instruments",
+  "backend_url": "https://script.google.com/macros/s/AKfycbxerPSjB0ZGAdopq-dCz7SYkKXwAMI9mRkA1H366MJm6DDWneC7ulm6zTdfLH8pnCghFw/exec",
+  "entrypoint": "VoiceAcapellaStudio.html",
+  "major_features": [
+    "voice-only prompt sanitizer",
+    "full merged slider schema",
+    "safety asset permission gate",
+    "browser MP3/WAV decode analysis",
+    "WAV local export",
+    "backend MP3 export",
+    "backend generation payload",
+    "optional HeartMuse/YuE local wrappers",
+    "AEON-style export conversion/post-processing references"
+  ],
+  "source_repositories_uploaded": [
+    "aeon-music-maker-main.zip",
+    "YuE-main.zip",
+    "HeartMuse-master.zip"
+  ],
+  "no_instruments_policy": true,
+  "allowed_asset_permissions": [
+    "licensed_actor",
+    "own_voice",
+    "public_domain_character_asset",
+    "synthetic_original"
+  ]
+}

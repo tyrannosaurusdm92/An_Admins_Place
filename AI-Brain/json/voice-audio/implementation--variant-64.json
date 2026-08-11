@@ -1,0 +1,39 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "getarguments",
+      "init_arguments",
+      "init_training",
+      "process_args"
+    ],
+    "classes": [
+      "TrainArgs"
+    ],
+    "imports": [],
+    "lineCount": 100,
+    "characterCount": 4059
+  },
+  "selectedComments": [
+    "continue a previous training from its output folder",
+    "init config if not already defined",
+    "init from a file",
+    "init from console args",
+    "override values from command-line args",
+    "setup rank 0 process in distributed training",
+    "if model characters are not set in the config file",
+    "save the default set to the config file for future",
+    "compatibility."
+  ]
+}

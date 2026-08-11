@@ -1,0 +1,17 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "merge",
+    "npc",
+    "quest",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "backend_contract.md",
+  "content": "# Backend contract\n\nEndpoint: `https://script.google.com/macros/s/AKfycbxerPSjB0ZGAdopq-dCz7SYkKXwAMI9mRkA1H366MJm6DDWneC7ulm6zTdfLH8pnCghFw/exec`\n\nFront-end sends `POST` with `Content-Type: text/plain;charset=utf-8` containing JSON.\n\n## `generateVoiceAcapella`\n\nRequired response can include any of:\n\n```json\n{\n  \"ok\": true,\n  \"wavBase64\": \"...\",\n  \"mp3Base64\": \"...\",\n  \"profile\": {}\n}\n```\n\n## `exportAudio`\n\nRequest includes:\n\n```json\n{\n  \"action\": \"exportAudio\",\n  \"targetFormat\": \"mp3\",\n  \"sourceFormat\": \"wav\",\n  \"audioBase64\": \"...\"\n}\n```\n\nResponse should include:\n\n```json\n{ \"ok\": true, \"audioBase64\": \"...\" }\n```\n\nUnknown assets must remain blocked. Instrumental output must remain disabled.\n"
+}

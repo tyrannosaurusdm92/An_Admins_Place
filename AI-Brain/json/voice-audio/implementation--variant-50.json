@@ -1,0 +1,47 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "map",
+    "mask",
+    "merge",
+    "shape"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "extract_spectrograms",
+      "format_data",
+      "inference",
+      "main",
+      "set_filename",
+      "setup_loader"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 287,
+    "characterCount": 9402
+  },
+  "selectedComments": [
+    "!/usr/bin/env python3",
+    "precompute phonemes to have a better estimate of sequence lengths.",
+    "setup input data",
+    "dispatch data to GPU",
+    "normalize tacotron output",
+    "format data",
+    "quantize and save wav",
+    "save TTS mel",
+    "pylint: disable=global-variable-undefined",
+    "Audio processor",
+    "load data instances",
+    "use eval and training partitions",
+    "init speaker manager",
+    "setup model",
+    "restore model"
+  ]
+}

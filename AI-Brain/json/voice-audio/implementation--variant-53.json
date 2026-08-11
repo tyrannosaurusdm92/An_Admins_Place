@@ -1,0 +1,32 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "ts",
+  "summary": {
+    "functions": [
+      "getAudioDuration"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 51,
+    "characterCount": 1415
+  },
+  "selectedComments": [
+    "* Get the duration of an audio file.",
+    "@param {string | Blob} audioSource - The audio source (URL or Blob object).",
+    "@returns {Promise<number>} The duration of the audio in seconds.",
+    "@ts-ignore",
+    "If audioSource is a URL",
+    "If audioSource is a Blob object",
+    "Release object URL if created",
+    "Close AudioContext"
+  ]
+}

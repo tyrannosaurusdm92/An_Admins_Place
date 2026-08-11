@@ -1,0 +1,35 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "_process_model_name",
+      "check_config_and_model_args",
+      "get_from_config_or_model_args",
+      "get_from_config_or_model_args_with_default",
+      "load_config",
+      "read_json_with_comments",
+      "register_config"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 133,
+    "characterCount": 4268
+  },
+  "selectedComments": [
+    "fallback to json",
+    "handle comments",
+    "backwards compat."
+  ]
+}

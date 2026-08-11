@@ -1,0 +1,16 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "merge",
+    "npc",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "wide_range_validation_log.txt",
+  "content": "Universal NPC Voice Creator wide-range validation\nThu Jun 25 16:07:45 UTC 2026\nnode --check shared/js/backends.js\nnode --check apps/npc-voice-lab/js/npc-lab-data.js\nnode --check apps/npc-voice-lab/js/studio.js\nnode --check apps/vocal-acapella-studio/js/config.js\nnode --check apps/vocal-acapella-studio/js/voice-profile.js\nnode --check apps/vocal-acapella-studio/js/audio-analysis.js\nnode --check apps/vocal-acapella-studio/js/audio-export.js\nnode --check apps/vocal-acapella-studio/js/studio-app.js\njson checks\npython compile\nOK\n"
+}

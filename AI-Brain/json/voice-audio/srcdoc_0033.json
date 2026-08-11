@@ -1,0 +1,15 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "srcdoc_0033.md",
+  "content": "# Intro\nThis contains the code to package ([MLFlow](http://mlflow.org/)) and deploy ([flask](https://flask.palletsprojects.com/)) a pre-trained TTS model.\n\nThe pre-trained model was provided [Tomoki Hayashi](https://github.com/kan-bayashi) as part of the [espnet](https://github.com/espnet) project.\nThis includes a Tacotron2 model and a parallelWaveGan.\n\nThe x-vectors (speaker embeddings) have been extracted from the [libritts](http://www.openslr.org/resources/60) dataset. \n\nThe artifacts are available [here](https://1drv.ms/u/s!AsC_YGX9uGhggZYnsjGU3Swtcb4ATA?e=UF4dcF)."
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "effect",
+    "layer",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "tsx",
+  "summary": {
+    "functions": [
+      "AudioPlayer",
+      "formatTime",
+      "handleAudioCurrentTimeChange",
+      "handleAudioPlay",
+      "handleLoadedMetadata",
+      "isMuted"
+    ],
+    "classes": [],
+    "imports": [
+      "@/hooks/use-audio",
+      "@/providers/language-provider",
+      "@/stores/use-session-store",
+      "@nextui-org/react",
+      "react",
+      "react-hot-toast",
+      "react-icons/fa"
+    ],
+    "lineCount": 140,
+    "characterCount": 3804
+  },
+  "selectedComments": []
+}

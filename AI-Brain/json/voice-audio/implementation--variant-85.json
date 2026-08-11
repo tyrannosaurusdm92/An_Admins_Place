@@ -1,0 +1,45 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge",
+    "schedule",
+    "search",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__post_init__"
+    ],
+    "classes": [
+      "Fastspeech2Config",
+      "arguments"
+    ],
+    "imports": [],
+    "lineCount": 199,
+    "characterCount": 7278
+  },
+  "selectedComments": [
+    "dataset configs",
+    "dataset configs",
+    "model specific params",
+    "multi-speaker settings",
+    "optimizer parameters",
+    "loss params",
+    "overrides",
+    "dataset configs",
+    "dataset configs",
+    " testing",
+    "Pass multi-speaker parameters to the model args as `model.init_multispeaker()` looks for it there.",
+    "speaker embedding settings",
+    "d-vector settings"
+  ]
+}

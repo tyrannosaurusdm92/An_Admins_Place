@@ -1,0 +1,61 @@
+{
+  "modes": {
+    "spoken": {
+      "tags": [
+        "spoken voice",
+        "voice only",
+        "no instruments"
+      ],
+      "maxSeconds": 60
+    },
+    "singing_acapella": {
+      "tags": [
+        "singing voice",
+        "acapella",
+        "isolated vocals",
+        "no instruments"
+      ],
+      "maxSeconds": 240
+    },
+    "acapella_from_clip": {
+      "tags": [
+        "voice conversion",
+        "acapella vocal track",
+        "no instruments"
+      ],
+      "maxSeconds": 240
+    },
+    "mood_voice_profile": {
+      "tags": [
+        "voice profile JSON",
+        "no audio required"
+      ],
+      "maxSeconds": 0
+    }
+  },
+  "blocked_prompt_terms": [
+    "instrumental",
+    "drums",
+    "guitar",
+    "bass",
+    "piano",
+    "synth",
+    "orchestra",
+    "violin",
+    "trumpet",
+    "beat",
+    "808",
+    "kick",
+    "snare",
+    "hi-hat",
+    "flute",
+    "strings"
+  ],
+  "forced_vocal_terms": [
+    "voice only",
+    "acapella",
+    "isolated vocals",
+    "no instruments",
+    "dry vocal"
+  ]
+}

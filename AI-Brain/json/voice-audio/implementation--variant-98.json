@@ -1,0 +1,42 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "merge"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "_phonemize",
+      "is_available",
+      "name",
+      "phonemize_zh_cn",
+      "supported_languages",
+      "version"
+    ],
+    "classes": [
+      "ZH_CN_Phonemizer"
+    ],
+    "imports": [],
+    "lineCount": 63,
+    "characterCount": 1805
+  },
+  "selectedComments": [
+    "if __name__ == \"__main__\":",
+    "text = \"这是，样本中文。\"",
+    "e = ZH_CN_Phonemizer()",
+    "print(e.supported_languages())",
+    "print(e.version())",
+    "print(e.language)",
+    "print(e.name())",
+    "print(e.is_available())",
+    "print(\"`\" + e.phonemize(text) + \"`\")"
+  ]
+}

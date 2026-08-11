@@ -1,0 +1,50 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "class",
+    "merge",
+    "voice",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__init__",
+      "_check_arguments",
+      "download_model_by_name",
+      "get_models_file_path",
+      "is_multi_lingual",
+      "is_multi_speaker",
+      "languages",
+      "list_models",
+      "load_tts_model_by_name",
+      "load_tts_model_by_path",
+      "load_vc_model_by_name",
+      "models",
+      "speakers",
+      "tts",
+      "tts_to_file",
+      "tts_with_vc",
+      "tts_with_vc_to_file",
+      "voice_conversion"
+    ],
+    "classes": [
+      "TTS"
+    ],
+    "imports": [],
+    "lineCount": 301,
+    "characterCount": 13688
+  },
+  "selectedComments": [
+    "init synthesizer",
+    "None values are fetch from the model",
+    "Lazy code... save it to a temp file to resample it while reading it for VC"
+  ]
+}

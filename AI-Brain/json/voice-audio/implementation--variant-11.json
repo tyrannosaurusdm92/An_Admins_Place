@@ -1,0 +1,51 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "character",
+    "layer",
+    "merge",
+    "quest",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "convert_boolean",
+      "create_argparser",
+      "details",
+      "index",
+      "main",
+      "mary_tts_api_locales",
+      "mary_tts_api_process",
+      "mary_tts_api_voices",
+      "style_wav_uri_to_dict",
+      "tts"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 250,
+    "characterCount": 8414
+  },
+  "selectedComments": [
+    "!flask/bin/python",
+    "Args for running custom models",
+    "parse the args",
+    "update in-use models to the specified released models.",
+    "CASE1: list pre-trained TTS models",
+    "CASE2: load pre-trained model paths",
+    "CASE3: set custom model paths",
+    "load models",
+    "TODO: set this from SpeakerManager",
+    "Basic MaryTTS compatibility layer",
+    "NOTE: We currently assume there is only one model active at the same time",
+    "NOTE: We currently assume there is only one model active at the same time",
+    "NOTE: we ignore param. LOCALE and VOICE for now since we have only one active model"
+  ]
+}

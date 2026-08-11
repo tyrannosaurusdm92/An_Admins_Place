@@ -1,0 +1,41 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "class",
+    "generator",
+    "layer",
+    "merge",
+    "schedule",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "__post_init__"
+    ],
+    "classes": [
+      "VitsConfig"
+    ],
+    "imports": [],
+    "lineCount": 177,
+    "characterCount": 6870
+  },
+  "selectedComments": [
+    "model specific params",
+    "optimizer",
+    "loss params",
+    "data loader params",
+    "sampler params",
+    "overrides",
+    " testing",
+    "multi-speaker settings",
+    "use speaker embedding layer",
+    "use d-vectors"
+  ]
+}

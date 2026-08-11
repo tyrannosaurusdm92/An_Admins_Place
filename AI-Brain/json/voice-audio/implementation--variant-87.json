@@ -1,0 +1,36 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "map",
+    "merge",
+    "sort",
+    "speech"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "adjust_path_and_remove_silence",
+      "preprocess_audios"
+    ],
+    "classes": [],
+    "imports": [],
+    "lineCount": 94,
+    "characterCount": 3320
+  },
+  "selectedComments": [
+    "ignore if the file exists",
+    "create all directory structure",
+    "remove the silence and save the audio",
+    "create threads",
+    "num_threads = multiprocessing.cpu_count()",
+    "process_map(adjust_path_and_remove_silence, files, max_workers=num_threads, chunksize=15)",
+    "write files that do not have speech",
+    "load the model and utils"
+  ]
+}

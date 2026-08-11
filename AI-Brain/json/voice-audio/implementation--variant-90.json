@@ -1,0 +1,43 @@
+{
+  "schema": "ai-brain-implementation-pattern/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "alignment",
+    "character",
+    "class",
+    "generator",
+    "layer",
+    "map",
+    "mask",
+    "merge",
+    "schedule",
+    "speech"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "implementation-pattern-extraction"
+  },
+  "sourceLanguage": "py",
+  "summary": {
+    "functions": [
+      "check_values"
+    ],
+    "classes": [
+      "TacotronConfig",
+      "to"
+    ],
+    "imports": [],
+    "lineCount": 236,
+    "characterCount": 11528
+  },
+  "selectedComments": [
+    "model_params: TacotronArgs = field(default_factory=lambda: TacotronArgs())",
+    "model specific params",
+    "attention layers",
+    "advance methods",
+    "multi-speaker settings",
+    "optimizer parameters",
+    "loss params",
+    " testing"
+  ]
+}

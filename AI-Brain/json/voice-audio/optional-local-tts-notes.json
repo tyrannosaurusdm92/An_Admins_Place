@@ -1,0 +1,17 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "character",
+    "layer",
+    "merge",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "character-voice-studio",
+    "sourceType": "provided-project-material",
+    "archiveHash": "4d43e23471259cad"
+  },
+  "title": "optional-local-tts-notes.md",
+  "content": "# Optional Local TTS Notes\n\nLocal or third-party TTS engines can be added later outside this static scanner package. Any future integration should consume the exported `universal.voiceProfile.v1` JSON and respect:\n\n- `voice.traits`\n- `voice.influences`\n- `voice.mathHints`\n- `voice.fantasyAccent`\n- `voice.baseAccentVisibleToPlayer: false`\n\nDo not expose Earth-language accent names in normal player-facing output.\n"
+}
