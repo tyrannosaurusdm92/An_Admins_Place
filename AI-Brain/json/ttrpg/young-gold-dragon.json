@@ -1,0 +1,227 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "young-gold-dragon",
+  "name": "Young Gold Dragon",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Dragon",
+    "subtype": "",
+    "role": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "cr": "10",
+    "environments": [
+      "aquatic",
+      "coastal",
+      "forest",
+      "sky"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "young-gold-dragon",
+    "token_candidates": [
+      "young-gold-dragon.webp",
+      "young-gold-dragon.png",
+      "young-gold-dragon.jpg",
+      "Young Gold Dragon/young-gold-dragon.webp",
+      "Young Gold Dragon/young-gold-dragon.png",
+      "hostiles/young-gold-dragon.webp",
+      "hostiles/young-gold-dragon.png",
+      "creatures/young-gold-dragon.webp",
+      "creatures/young-gold-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 178,
+    "max_hp": 178,
+    "ac": 18,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 5900,
+    "cr_numeric": 10.0
+  },
+  "ability_scores": {
+    "str": 23,
+    "dex": 14,
+    "con": 21,
+    "int": 16,
+    "wis": 13,
+    "cha": 20
+  },
+  "saves": {
+    "dexterity": 6,
+    "constitution": 9,
+    "wisdom": 5,
+    "charisma": 9
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "description": "The dragon can breathe air and water."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The dragon makes three attacks: one with its bite and two with its claws.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 3,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
+      "category": "attack",
+      "attackBonus": 10,
+      "damageDice": "2d10",
+      "damageBonus": 6,
+      "averageDamage": 17.0,
+      "damageType": "piercing",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 10,
+      "toHit": 10,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claw",
+      "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+      "category": "attack",
+      "attackBonus": 10,
+      "damageDice": "2d6",
+      "damageBonus": 6,
+      "averageDamage": 13.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claw",
+      "kind": "attack_roll",
+      "to_hit": 10,
+      "toHit": 10,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one.\nWeakening Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "category": "save",
+      "attackBonus": null,
+      "damageDice": "10d10",
+      "damageBonus": 0,
+      "averageDamage": 55.0,
+      "damageType": "fire",
+      "rangeFt": 30,
+      "rangeType": "area",
+      "saveDc": 17,
+      "saveAbility": "DEX",
+      "multiattackCount": 1,
+      "id": "breath-weapons-recharge-5-6",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "fire",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "17d10",
+    "skills": "Stealth +6, Insight +5, Perception +9, Persuasion +9",
+    "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19",
+    "languages": "Common, Draconic",
+    "legendaryActions": [],
+    "multiattackCount": 3,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal",
+      "forest",
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-guardian",
+      "name": "Lawful Guardian",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 2250
+      },
+      "description": "The steadfast protector of the realm. Uplifts the weak, obeys the law, and inspires trust with every step."
+    },
+    "tokenKey": "young-gold-dragon",
+    "tokenCandidates": [
+      "young-gold-dragon.webp",
+      "young-gold-dragon.png",
+      "young-gold-dragon.jpg",
+      "Young Gold Dragon/young-gold-dragon.webp",
+      "Young Gold Dragon/young-gold-dragon.png",
+      "hostiles/young-gold-dragon.webp",
+      "hostiles/young-gold-dragon.png",
+      "creatures/young-gold-dragon.webp",
+      "creatures/young-gold-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/young-gold-dragon.json"
+}

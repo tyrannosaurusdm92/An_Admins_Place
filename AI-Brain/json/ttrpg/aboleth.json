@@ -1,0 +1,252 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "aboleth",
+  "name": "Aboleth",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "aberration",
+    "subtype": "",
+    "role": "mob/npc/monster",
+    "cr": "10",
+    "environments": [
+      "Underground",
+      "Swamp"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "aboleth",
+    "token_candidates": [
+      "aboleth.webp",
+      "aboleth.png",
+      "aboleth.jpg",
+      "Aboleth/aboleth.webp",
+      "Aboleth/aboleth.png",
+      "hostiles/aboleth.webp",
+      "hostiles/aboleth.png",
+      "creatures/aboleth.webp",
+      "creatures/aboleth.png",
+      "placeholders/hostiles/aberration.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🧠",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 150,
+    "max_hp": 150,
+    "ac": 16,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 5900,
+    "cr_numeric": 10.0,
+    "proficiency_bonus": 4
+  },
+  "ability_scores": {
+    "str": 13,
+    "dex": 12,
+    "con": 15,
+    "int": 14,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "constitution": 6,
+    "intelligence": 8,
+    "wisdom": 6,
+    "str": 1,
+    "dex": 1,
+    "con": 2,
+    "wis": 1
+  },
+  "traits": [
+    {
+      "id": "elite_presence",
+      "name": "Elite Presence",
+      "summary": "Counts as a priority threat for initiative, targeting, and boss/battle audio."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Attack",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 8,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+8",
+      "damage_roll": "4d8+5",
+      "damage_type": "slashing",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "8"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    },
+    {
+      "id": "pressure_ability",
+      "name": "Pressure Move",
+      "kind": "saving_throw_or_area",
+      "action_type": "special",
+      "save_dc": 13,
+      "save_ability": "str",
+      "damage_roll": "4d8+5",
+      "damage_type": "slashing",
+      "recharge": "5-6",
+      "radius_ft": 10,
+      "summary": "Optional MOL-triggered area or special move generated from the quick-play record."
+    },
+    {
+      "id": "boss_reaction",
+      "name": "Boss Reaction",
+      "kind": "reaction",
+      "trigger": "takes_damage_or_target_leaves_reach",
+      "to_hit": 8,
+      "damage_roll": "11",
+      "damage_type": "slashing",
+      "summary": "Optional reaction for elite/boss pacing."
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "18d10",
+    "skills": "History +12, Perception +10",
+    "senses": "darkvision 120 ft., passive Perception 20",
+    "languages": "Deep Speech, telepathy 120 ft.",
+    "legendaryActions": [
+      {
+        "name": "Detect",
+        "description": "The aboleth makes a Wisdom (Perception) check.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      },
+      {
+        "name": "Tail Swipe",
+        "description": "The aboleth makes one tail attack.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      },
+      {
+        "name": "Psychic Drain (Costs 2 Actions)",
+        "description": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "psychic",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      }
+    ],
+    "multiattackCount": 3,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal",
+      "underdark",
+      "underground"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-renegade",
+      "name": "Lawful Renegade",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 750
+      },
+      "description": "A rebel in legal robes. They bend laws to suit their gain while pretending to be team players - calculating, efficient, and just manipulative enough to get ahead."
+    },
+    "tokenKey": "aboleth",
+    "tokenCandidates": [
+      "aboleth.webp",
+      "aboleth.png",
+      "aboleth.jpg",
+      "Aboleth/aboleth.webp",
+      "Aboleth/aboleth.png",
+      "hostiles/aboleth.webp",
+      "hostiles/aboleth.png",
+      "creatures/aboleth.webp",
+      "creatures/aboleth.png",
+      "placeholders/hostiles/aberration.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/aboleth.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 11,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 10; use owned sourcebooks/official compendium for exact traits."
+}

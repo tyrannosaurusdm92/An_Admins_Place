@@ -1,0 +1,251 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "solar",
+  "name": "Solar",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "celestial",
+    "subtype": "",
+    "role": "mob/npc/monster",
+    "cr": "21",
+    "environments": [
+      "Town",
+      "Dungeon"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "solar",
+    "token_candidates": [
+      "solar.webp",
+      "solar.png",
+      "solar.jpg",
+      "Solar/solar.webp",
+      "Solar/solar.png",
+      "hostiles/solar.webp",
+      "hostiles/solar.png",
+      "creatures/solar.webp",
+      "creatures/solar.png",
+      "placeholders/hostiles/celestial.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "☀️",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 420,
+    "max_hp": 420,
+    "ac": 20,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 33000,
+    "cr_numeric": 21.0,
+    "proficiency_bonus": 7
+  },
+  "ability_scores": {
+    "str": 19,
+    "dex": 14,
+    "con": 19,
+    "int": 12,
+    "wis": 13,
+    "cha": 20
+  },
+  "saves": {
+    "intelligence": 14,
+    "wisdom": 14,
+    "charisma": 17,
+    "str": 4,
+    "dex": 2,
+    "con": 4,
+    "wis": 1
+  },
+  "traits": [
+    {
+      "id": "elite_presence",
+      "name": "Elite Presence",
+      "summary": "Counts as a priority threat for initiative, targeting, and boss/battle audio."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Attack",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 15,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+15",
+      "damage_roll": "8d12+10",
+      "damage_type": "slashing",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "12"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    },
+    {
+      "id": "pressure_ability",
+      "name": "Pressure Move",
+      "kind": "saving_throw_or_area",
+      "action_type": "special",
+      "save_dc": 19,
+      "save_ability": "str",
+      "damage_roll": "8d12+10",
+      "damage_type": "slashing",
+      "recharge": "5-6",
+      "radius_ft": 10,
+      "summary": "Optional MOL-triggered area or special move generated from the quick-play record."
+    },
+    {
+      "id": "boss_reaction",
+      "name": "Boss Reaction",
+      "kind": "reaction",
+      "trigger": "takes_damage_or_target_leaves_reach",
+      "to_hit": 15,
+      "damage_roll": "31",
+      "damage_type": "slashing",
+      "summary": "Optional reaction for elite/boss pacing."
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "18d10",
+    "skills": "Perception +14",
+    "senses": "truesight 120 ft., passive Perception 24",
+    "languages": "all, telepathy 120 ft.",
+    "legendaryActions": [
+      {
+        "name": "Teleport",
+        "description": "The solar magically teleports, along with any equipment it is wearing or carrying, up to 120 ft. to an unoccupied space it can see.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      },
+      {
+        "name": "Searing Burst (Costs 2 Actions)",
+        "description": "The solar emits magical, divine energy. Each creature of its choice in a 10 -foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "fire",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": 23,
+        "saveAbility": "DEX",
+        "multiattackCount": 1
+      },
+      {
+        "name": "Blinding Gaze (Costs 3 Actions)",
+        "description": "The solar targets one creature it can see within 30 ft. of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": 15,
+        "saveAbility": "CON",
+        "multiattackCount": 1
+      }
+    ],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "artillery",
+      "brute",
+      "caster",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-guardian",
+      "name": "Lawful Guardian",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 2250
+      },
+      "description": "The steadfast protector of the realm. Uplifts the weak, obeys the law, and inspires trust with every step."
+    },
+    "tokenKey": "solar",
+    "tokenCandidates": [
+      "solar.webp",
+      "solar.png",
+      "solar.jpg",
+      "Solar/solar.webp",
+      "Solar/solar.png",
+      "hostiles/solar.webp",
+      "hostiles/solar.png",
+      "creatures/solar.webp",
+      "creatures/solar.png",
+      "placeholders/hostiles/celestial.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/solar.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 11,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 21; use owned sourcebooks/official compendium for exact traits."
+}

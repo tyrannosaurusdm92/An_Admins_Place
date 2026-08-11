@@ -1,0 +1,231 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "oni",
+  "name": "Oni",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Giant",
+    "subtype": "",
+    "role": [
+      "brute",
+      "caster"
+    ],
+    "cr": "7",
+    "environments": [
+      "forest",
+      "sky",
+      "urban"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "oni",
+    "token_candidates": [
+      "oni.webp",
+      "oni.png",
+      "oni.jpg",
+      "Oni/oni.webp",
+      "Oni/oni.png",
+      "hostiles/oni.webp",
+      "hostiles/oni.png",
+      "creatures/oni.webp",
+      "creatures/oni.png",
+      "placeholders/hostiles/giant.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 110,
+    "max_hp": 110,
+    "ac": 16,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 2900,
+    "cr_numeric": 7.0
+  },
+  "ability_scores": {
+    "str": 19,
+    "dex": 11,
+    "con": 16,
+    "int": 14,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "dexterity": 3,
+    "constitution": 6,
+    "wisdom": 4,
+    "charisma": 5
+  },
+  "traits": [
+    {
+      "name": "Innate Spellcasting",
+      "description": "The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:\n\nAt will: darkness, invisibility\n1/day each: charm person, cone of cold, gaseous form, sleep"
+    },
+    {
+      "name": "Magic Weapons",
+      "description": "The oni's weapon attacks are magical."
+    },
+    {
+      "name": "Regeneration",
+      "description": "The oni regains 10 hit points at the start of its turn if it has at least 1 hit point."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The oni makes two attacks, either with its claws or its glaive.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 2,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claw (Oni Form Only)",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "1d8",
+      "damageBonus": 4,
+      "averageDamage": 8.5,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claw-oni-form-only",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Glaive",
+      "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small or Medium form.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "2d10",
+      "damageBonus": 4,
+      "averageDamage": 15.0,
+      "damageType": "slashing",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "glaive",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Change Shape",
+      "description": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.",
+      "category": "utility",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "change-shape",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "13d10",
+    "skills": "Arcana +5, Perception +4, Deception +8",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Common, Giant",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "caster"
+    ],
+    "environments": [
+      "forest",
+      "sky",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-mercenary",
+      "name": "Lawful Mercenary",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Lawful",
+        "cooperation": "Combative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 2250,
+        "cooperation": 750,
+        "honor": 750
+      },
+      "description": "A sword for hire with contracts tattooed on their soul. Lawful only when paid, but never sloppy."
+    },
+    "tokenKey": "oni",
+    "tokenCandidates": [
+      "oni.webp",
+      "oni.png",
+      "oni.jpg",
+      "Oni/oni.webp",
+      "Oni/oni.png",
+      "hostiles/oni.webp",
+      "hostiles/oni.png",
+      "creatures/oni.webp",
+      "creatures/oni.png",
+      "placeholders/hostiles/giant.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/oni.json"
+}

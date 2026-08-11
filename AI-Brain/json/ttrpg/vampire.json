@@ -1,0 +1,255 @@
+{
+  "schema_version": "phase3.monster.mob.v1",
+  "id": "vampire",
+  "name": "Vampire",
+  "source": "Universal Encounter Manager quick-play index + Phase 3 generated auto-roll wrapper",
+  "classification": {
+    "type": "undead",
+    "subtype": "shapechanger",
+    "role": "mob/npc/monster",
+    "cr": "13",
+    "environments": [
+      "Town",
+      "Dungeon"
+    ]
+  },
+  "board_token": {
+    "shape": "blank circular slot",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "vampire",
+    "token_candidates": [
+      "vampire.webp",
+      "vampire.png",
+      "vampire.jpg",
+      "Vampire/vampire.webp",
+      "Vampire/vampire.png",
+      "hostiles/vampire.webp",
+      "hostiles/vampire.png",
+      "creatures/vampire.webp",
+      "creatures/vampire.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ],
+    "icon": "🧛",
+    "class": "monster",
+    "color": "#ff455c"
+  },
+  "combat": {
+    "hp": 210,
+    "max_hp": 210,
+    "ac": 17,
+    "initiative_bonus": -1,
+    "speed_ft": 30,
+    "xp": 10000,
+    "cr_numeric": 13.0,
+    "proficiency_bonus": 5
+  },
+  "ability_scores": {
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 8,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "dexterity": 9,
+    "wisdom": 7,
+    "charisma": 9,
+    "str": 4,
+    "dex": 2,
+    "con": 4,
+    "wis": 0
+  },
+  "traits": [
+    {
+      "id": "undead_fortitude_style",
+      "name": "Deathless Body",
+      "summary": "Ignores ordinary fatigue and uses necrotic-flavored reactions in logs."
+    },
+    {
+      "id": "elite_presence",
+      "name": "Elite Presence",
+      "summary": "Counts as a priority threat for initiative, targeting, and boss/battle audio."
+    }
+  ],
+  "abilities": [
+    {
+      "id": "primary_attack",
+      "name": "Grave Strike",
+      "kind": "attack_roll",
+      "action_type": "melee_or_ranged_attack",
+      "to_hit": 10,
+      "reach_ft": 5,
+      "range_ft": 5,
+      "targeting": "nearest_hostile_pc",
+      "roll": "1d20+10",
+      "damage_roll": "5d10+6",
+      "damage_type": "necrotic",
+      "on_hit": {
+        "apply_damage": true,
+        "amount": "damage_roll",
+        "critical": "double_damage_dice"
+      },
+      "board_dice": [
+        "d20",
+        "10"
+      ],
+      "log_template": "{actor} uses {ability} on {target}: {attack_total} vs AC {target_ac}. {hit_text}"
+    },
+    {
+      "id": "pressure_ability",
+      "name": "Pressure Move",
+      "kind": "saving_throw_or_area",
+      "action_type": "special",
+      "save_dc": 17,
+      "save_ability": "str",
+      "damage_roll": "5d10+6",
+      "damage_type": "necrotic",
+      "recharge": "5-6",
+      "radius_ft": 10,
+      "summary": "Optional MOL-triggered area or special move generated from the quick-play record."
+    },
+    {
+      "id": "boss_reaction",
+      "name": "Boss Reaction",
+      "kind": "reaction",
+      "trigger": "takes_damage_or_target_leaves_reach",
+      "to_hit": 10,
+      "damage_roll": "17",
+      "damage_type": "necrotic",
+      "summary": "Optional reaction for elite/boss pacing."
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "17d8",
+    "skills": "Stealth +9, Perception +7",
+    "senses": "darkvision 120 ft., passive Perception 17",
+    "languages": "the languages it knew in life",
+    "legendaryActions": [
+      {
+        "name": "Move",
+        "description": "The vampire moves up to its speed without provoking opportunity attacks.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      },
+      {
+        "name": "Unarmed Strike",
+        "description": "The vampire makes one unarmed strike.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      },
+      {
+        "name": "Bite (Costs 2 Actions)",
+        "description": "The vampire makes one bite attack.",
+        "category": "utility",
+        "attackBonus": null,
+        "damageDice": null,
+        "damageBonus": 0,
+        "averageDamage": 0.0,
+        "damageType": "untyped",
+        "rangeFt": 5,
+        "rangeType": "melee",
+        "saveDc": null,
+        "saveAbility": null,
+        "multiattackCount": 1
+      }
+    ],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "underground",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-renegade",
+      "name": "Lawful Renegade",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 750
+      },
+      "description": "A rebel in legal robes. They bend laws to suit their gain while pretending to be team players - calculating, efficient, and just manipulative enough to get ahead."
+    },
+    "tokenKey": "vampire",
+    "tokenCandidates": [
+      "vampire.webp",
+      "vampire.png",
+      "vampire.jpg",
+      "Vampire/vampire.webp",
+      "Vampire/vampire.png",
+      "hostiles/vampire.webp",
+      "hostiles/vampire.png",
+      "creatures/vampire.webp",
+      "creatures/vampire.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/vampire.json",
+  "legal_note": "Quick-play manager data only. This is not a copied official statblock; use owned books/compendiums for full rules text.",
+  "senses": {
+    "passive_perception": 10,
+    "notes": "Generated quick-play passive value."
+  },
+  "auto_roll": {
+    "enabled": true,
+    "trigger": "after_dm_moves_mob_token",
+    "ability_priority": [
+      "primary_attack",
+      "pressure_ability"
+    ],
+    "targeting": "nearest_hostile_pc_within_range_else_nearest_pc",
+    "roll_dice_on_board": true,
+    "show_total_on_board": true,
+    "apply_damage_on_hit": true
+  },
+  "ai_tactics": {
+    "movement": "MOL-controlled; no autonomous movement in Phase 3.",
+    "target_priority": [
+      "nearest hostile PC",
+      "injured PC",
+      "caster/healer if tagged"
+    ],
+    "morale": "MOL decides; elite monsters fight longer."
+  },
+  "notes": "Quick-play SRD-style index entry. CR 13; use owned sourcebooks/official compendium for exact traits."
+}

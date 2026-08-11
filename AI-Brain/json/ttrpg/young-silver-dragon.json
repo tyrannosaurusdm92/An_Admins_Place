@@ -1,0 +1,218 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "young-silver-dragon",
+  "name": "Young Silver Dragon",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Dragon",
+    "subtype": "",
+    "role": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "cr": "9",
+    "environments": [
+      "sky",
+      "urban"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "young-silver-dragon",
+    "token_candidates": [
+      "young-silver-dragon.webp",
+      "young-silver-dragon.png",
+      "young-silver-dragon.jpg",
+      "Young Silver Dragon/young-silver-dragon.webp",
+      "Young Silver Dragon/young-silver-dragon.png",
+      "hostiles/young-silver-dragon.webp",
+      "hostiles/young-silver-dragon.png",
+      "creatures/young-silver-dragon.webp",
+      "creatures/young-silver-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 168,
+    "max_hp": 168,
+    "ac": 18,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 5000,
+    "cr_numeric": 9.0
+  },
+  "ability_scores": {
+    "str": 23,
+    "dex": 10,
+    "con": 21,
+    "int": 14,
+    "wis": 11,
+    "cha": 19
+  },
+  "saves": {
+    "dexterity": 4,
+    "constitution": 9,
+    "wisdom": 4,
+    "charisma": 8
+  },
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The dragon makes three attacks: one with its bite and two with its claws.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 3,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
+      "category": "attack",
+      "attackBonus": 10,
+      "damageDice": "2d10",
+      "damageBonus": 6,
+      "averageDamage": 17.0,
+      "damageType": "piercing",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 10,
+      "toHit": 10,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claw",
+      "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+      "category": "attack",
+      "attackBonus": 10,
+      "damageDice": "2d6",
+      "damageBonus": 6,
+      "averageDamage": 13.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claw",
+      "kind": "attack_roll",
+      "to_hit": 10,
+      "toHit": 10,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "description": "The dragon uses one of the following breath weapons.\nCold Breath. The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.\nParalyzing Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "category": "save",
+      "attackBonus": null,
+      "damageDice": "12d8",
+      "damageBonus": 0,
+      "averageDamage": 54.0,
+      "damageType": "cold",
+      "rangeFt": 30,
+      "rangeType": "area",
+      "saveDc": 17,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "breath-weapons-recharge-5-6",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "cold",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "16d10",
+    "skills": "Stealth +4, Arcana +6, History +6, Perception +8",
+    "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
+    "languages": "Common, Draconic",
+    "legendaryActions": [],
+    "multiattackCount": 3,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "sky",
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-guardian",
+      "name": "Lawful Guardian",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 2250
+      },
+      "description": "The steadfast protector of the realm. Uplifts the weak, obeys the law, and inspires trust with every step."
+    },
+    "tokenKey": "young-silver-dragon",
+    "tokenCandidates": [
+      "young-silver-dragon.webp",
+      "young-silver-dragon.png",
+      "young-silver-dragon.jpg",
+      "Young Silver Dragon/young-silver-dragon.webp",
+      "Young Silver Dragon/young-silver-dragon.png",
+      "hostiles/young-silver-dragon.webp",
+      "hostiles/young-silver-dragon.png",
+      "creatures/young-silver-dragon.webp",
+      "creatures/young-silver-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/young-silver-dragon.json"
+}

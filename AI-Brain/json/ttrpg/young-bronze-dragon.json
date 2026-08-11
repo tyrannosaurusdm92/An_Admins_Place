@@ -1,0 +1,225 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "young-bronze-dragon",
+  "name": "Young Bronze Dragon",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Dragon",
+    "subtype": "",
+    "role": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "cr": "8",
+    "environments": [
+      "aquatic",
+      "coastal",
+      "sky"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "young-bronze-dragon",
+    "token_candidates": [
+      "young-bronze-dragon.webp",
+      "young-bronze-dragon.png",
+      "young-bronze-dragon.jpg",
+      "Young Bronze Dragon/young-bronze-dragon.webp",
+      "Young Bronze Dragon/young-bronze-dragon.png",
+      "hostiles/young-bronze-dragon.webp",
+      "hostiles/young-bronze-dragon.png",
+      "creatures/young-bronze-dragon.webp",
+      "creatures/young-bronze-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 142,
+    "max_hp": 142,
+    "ac": 18,
+    "initiative_bonus": 0,
+    "speed_ft": 30,
+    "xp": 3900,
+    "cr_numeric": 8.0
+  },
+  "ability_scores": {
+    "str": 21,
+    "dex": 10,
+    "con": 19,
+    "int": 14,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "dexterity": 3,
+    "constitution": 7,
+    "wisdom": 4,
+    "charisma": 6
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "description": "The dragon can breathe air and water."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The dragon makes three attacks: one with its bite and two with its claws.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 3,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "category": "attack",
+      "attackBonus": 8,
+      "damageDice": "2d10",
+      "damageBonus": 5,
+      "averageDamage": 16.0,
+      "damageType": "piercing",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 8,
+      "toHit": 8,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claw",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "category": "attack",
+      "attackBonus": 8,
+      "damageDice": "2d6",
+      "damageBonus": 5,
+      "averageDamage": 12.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claw",
+      "kind": "attack_roll",
+      "to_hit": 8,
+      "toHit": 8,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "description": "The dragon uses one of the following breath weapons.\nLightning Breath. The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.\nRepulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.",
+      "category": "save",
+      "attackBonus": null,
+      "damageDice": "10d10",
+      "damageBonus": 0,
+      "averageDamage": 55.0,
+      "damageType": "lightning",
+      "rangeFt": 30,
+      "rangeType": "area",
+      "saveDc": 15,
+      "saveAbility": "DEX",
+      "multiattackCount": 1,
+      "id": "breath-weapons-recharge-5-6",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "lightning",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "15d10",
+    "skills": "Stealth +3, Insight +4, Perception +7",
+    "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17",
+    "languages": "Common, Draconic",
+    "legendaryActions": [],
+    "multiattackCount": 3,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal",
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-guardian",
+      "name": "Lawful Guardian",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 2250
+      },
+      "description": "The steadfast protector of the realm. Uplifts the weak, obeys the law, and inspires trust with every step."
+    },
+    "tokenKey": "young-bronze-dragon",
+    "tokenCandidates": [
+      "young-bronze-dragon.webp",
+      "young-bronze-dragon.png",
+      "young-bronze-dragon.jpg",
+      "Young Bronze Dragon/young-bronze-dragon.webp",
+      "Young Bronze Dragon/young-bronze-dragon.png",
+      "hostiles/young-bronze-dragon.webp",
+      "hostiles/young-bronze-dragon.png",
+      "creatures/young-bronze-dragon.webp",
+      "creatures/young-bronze-dragon.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/young-bronze-dragon.json"
+}

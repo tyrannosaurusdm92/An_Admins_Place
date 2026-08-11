@@ -1,0 +1,211 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "sprite",
+  "name": "Sprite",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Fey",
+    "subtype": "",
+    "role": [
+      "artillery",
+      "skirmisher"
+    ],
+    "cr": "1/4",
+    "environments": [
+      "forest",
+      "sky"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "sprite",
+    "token_candidates": [
+      "sprite.webp",
+      "sprite.png",
+      "sprite.jpg",
+      "Sprite/sprite.webp",
+      "Sprite/sprite.png",
+      "hostiles/sprite.webp",
+      "hostiles/sprite.png",
+      "creatures/sprite.webp",
+      "creatures/sprite.png",
+      "placeholders/hostiles/fey.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 2,
+    "max_hp": 2,
+    "ac": 15,
+    "initiative_bonus": 4,
+    "speed_ft": 30,
+    "xp": 50,
+    "cr_numeric": 0.25
+  },
+  "ability_scores": {
+    "str": 3,
+    "dex": 18,
+    "con": 10,
+    "int": 14,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {},
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Longsword",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+      "category": "attack",
+      "attackBonus": 2,
+      "damageDice": null,
+      "damageBonus": 1,
+      "averageDamage": 1.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "longsword",
+      "kind": "attack_roll",
+      "to_hit": 2,
+      "toHit": 2,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Shortbow",
+      "description": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.",
+      "category": "attack",
+      "attackBonus": 6,
+      "damageDice": null,
+      "damageBonus": 1,
+      "averageDamage": 1.0,
+      "damageType": "piercing",
+      "rangeFt": 40,
+      "rangeType": "ranged",
+      "saveDc": 10,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "shortbow",
+      "kind": "attack_roll",
+      "to_hit": 6,
+      "toHit": 6,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Heart Sight",
+      "description": "The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.",
+      "category": "utility",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": 10,
+      "saveAbility": "CHA",
+      "multiattackCount": 1,
+      "id": "heart-sight",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Invisibility",
+      "description": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.",
+      "category": "utility",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "invisibility",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "1d4",
+    "skills": "Stealth +8, Perception +3",
+    "senses": "passive Perception 13",
+    "languages": "Common, Elvish, Sylvan",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "artillery",
+      "skirmisher"
+    ],
+    "environments": [
+      "forest",
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-sentinel",
+      "name": "Neutral Sentinel",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 2250
+      },
+      "description": "Honors a code of protection and patience. Acts when needed, guards without words, and never asks for praise."
+    },
+    "tokenKey": "sprite",
+    "tokenCandidates": [
+      "sprite.webp",
+      "sprite.png",
+      "sprite.jpg",
+      "Sprite/sprite.webp",
+      "Sprite/sprite.png",
+      "hostiles/sprite.webp",
+      "hostiles/sprite.png",
+      "creatures/sprite.webp",
+      "creatures/sprite.png",
+      "placeholders/hostiles/fey.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/sprite.json"
+}

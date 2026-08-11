@@ -1,0 +1,227 @@
+{
+  "schema": "activeworkspace.random_encounters.tables.v4",
+  "environments": [
+    "any",
+    "wilds",
+    "urban",
+    "road",
+    "forest",
+    "grassland",
+    "mountain",
+    "swamp",
+    "desert",
+    "arctic",
+    "aquatic",
+    "coastal",
+    "underground",
+    "sky"
+  ],
+  "templates": [
+    {
+      "id": "ambush",
+      "title": "Ambush",
+      "environments": [
+        "any"
+      ],
+      "opening": "The hostile group attacks from concealment and immediately tests the party’s formation."
+    },
+    {
+      "id": "patrol",
+      "title": "Patrol Interception",
+      "environments": [
+        "any",
+        "urban",
+        "road",
+        "wilds"
+      ],
+      "opening": "A moving patrol spots the party and shifts into a fighting formation."
+    },
+    {
+      "id": "ritual",
+      "title": "Interrupted Rite",
+      "environments": [
+        "any",
+        "underground",
+        "urban",
+        "forest"
+      ],
+      "opening": "The party arrives as a hostile rite reaches a dangerous turning point."
+    },
+    {
+      "id": "hunt",
+      "title": "Predators on the Hunt",
+      "environments": [
+        "wilds",
+        "forest",
+        "grassland",
+        "mountain",
+        "swamp",
+        "arctic"
+      ],
+      "opening": "Tracks, broken foliage, and sudden silence reveal predators closing in."
+    },
+    {
+      "id": "boarding",
+      "title": "Boarding Action",
+      "environments": [
+        "aquatic",
+        "coastal",
+        "sky"
+      ],
+      "opening": "Hostiles surge across a narrow approach where movement and forced positioning matter."
+    },
+    {
+      "id": "ruins",
+      "title": "Ruined Stronghold",
+      "environments": [
+        "underground",
+        "urban",
+        "any"
+      ],
+      "opening": "The encounter begins among broken cover, unstable walls, and defensible choke points."
+    },
+    {
+      "id": "covenant-test",
+      "title": "Covenant Under Pressure",
+      "environments": [
+        "any"
+      ],
+      "opening": "A divine edict, anathema, or shadow has turned an ordinary confrontation into a test of covenant and consequence."
+    },
+    {
+      "id": "bounty-pursuit",
+      "title": "Bounty Ichor Pursuit",
+      "environments": [
+        "any",
+        "wilds",
+        "urban",
+        "road",
+        "underground"
+      ],
+      "opening": "A deity-bound class is pursuing a meaningful bounty trigger, and the party has entered the decisive moment."
+    },
+    {
+      "id": "heritage-dispute",
+      "title": "Creator-Legacy Dispute",
+      "environments": [
+        "any",
+        "urban",
+        "road",
+        "wilds"
+      ],
+      "opening": "A conflict over lineage, created peoples, or a creator-category claim has become dangerous enough to draw weapons."
+    }
+  ],
+  "reactionRules": {
+    "threatOnAttack": "Hostiles add the attacker to their threat table even when an attack misses.",
+    "targetPriority": [
+      "recent attacker",
+      "high accumulated threat",
+      "wounded target",
+      "healer",
+      "caster",
+      "reachable target"
+    ],
+    "ichorCircuitParry": "Qualifying humanoids may spend one charge, add +2 AC, and retaliate with lightning if the revised AC makes a metal melee attack miss.",
+    "eightAxisBehavior": "Mercy, Transformation, Autonomy, and Restraint alter surrender, escalation, adaptation, independence, and impulse-control behavior without changing the 81-profile title.",
+    "covenantInfluence": "Assigned covenant pressures modify up to three axes by 250 points; class discipline deepens up to two focus axes by 125 points for the generated encounter instance."
+  },
+  "version": "4.0.0",
+  "objectives": [
+    {
+      "id": "rescue",
+      "label": "Rescue",
+      "pressure": 2,
+      "progress": "Reach and extract the endangered people",
+      "danger": "Captives are moved, harmed, or separated"
+    },
+    {
+      "id": "escape",
+      "label": "Escape",
+      "pressure": 1,
+      "progress": "Open and reach a viable escape route",
+      "danger": "Routes close or pursuit gains ground"
+    },
+    {
+      "id": "hold",
+      "label": "Hold",
+      "pressure": 2,
+      "progress": "Maintain the position until relief or completion",
+      "danger": "The position, civilians, or critical system is overrun"
+    },
+    {
+      "id": "disable",
+      "label": "Disable",
+      "pressure": 2,
+      "progress": "Disable the device, ritual, vehicle, or weapon",
+      "danger": "The hostile system reaches full effect"
+    },
+    {
+      "id": "expose",
+      "label": "Expose",
+      "pressure": 1,
+      "progress": "Reveal evidence, identity, or hidden mechanism",
+      "danger": "Evidence is destroyed or witnesses are silenced"
+    },
+    {
+      "id": "steal",
+      "label": "Steal",
+      "pressure": 1,
+      "progress": "Secure the target and create an exit",
+      "danger": "The target is moved, locked down, or damaged"
+    },
+    {
+      "id": "seal",
+      "label": "Seal",
+      "pressure": 3,
+      "progress": "Complete the seal before the breach stabilizes",
+      "danger": "The breach expands or changes the scene"
+    },
+    {
+      "id": "negotiate",
+      "label": "Negotiate",
+      "pressure": 1,
+      "progress": "Establish terms acceptable to the involved parties",
+      "danger": "Trust collapses and violence becomes harder to stop"
+    },
+    {
+      "id": "survive",
+      "label": "Survive",
+      "pressure": 2,
+      "progress": "Endure until the hazard passes or an opening appears",
+      "danger": "Resources, cover, or safe ground are lost"
+    },
+    {
+      "id": "choose-cost",
+      "label": "Choose Between Costs",
+      "pressure": 2,
+      "progress": "Create enough leverage to choose rather than merely react",
+      "danger": "The least harmful options disappear"
+    }
+  ],
+  "timeRules": {
+    "clock": "Earth UTC retained as world UTC",
+    "daylightSavingTime": false,
+    "timezonePrecedence": [
+      "settlement override",
+      "province default",
+      "longitude-derived fixed offset",
+      "UTC"
+    ],
+    "encounterEffect": "Local daypart changes schedules, available services, patrols, crowds, watch changes, nocturnal activity, and timezone-crossing complications."
+  },
+  "covenantEngine": {
+    "threatPointsPerCharacter": {
+      "light": 3,
+      "standard": 4,
+      "hard": 5,
+      "extreme": 6
+    },
+    "turn": {
+      "beats": 3,
+      "reaction": 1
+    },
+    "initiative": "highest roll first, then alternate sides while possible",
+    "strongEncounter": "Use a non-HP objective, at least two meaningful terrain interactions, and a route that changes as a clock advances."
+  }
+}
