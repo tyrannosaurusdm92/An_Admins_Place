@@ -1,0 +1,7 @@
+export const CBT_TOOLS = Object.freeze({
+  thought_record: { goal:"Examine a distressing thought without pretending it is simply false.", steps:["Name the situation.","Write the automatic thought as accurately as possible.","Rate emotion intensity 0-10 if useful.","List evidence that supports and does not support the thought.","Write a more balanced alternative.","Choose one small action based on the balanced view."] },
+  behavioral_activation: { goal:"Increase contact with achievable, meaningful activity when low mood is narrowing life.", steps:["Pick a tiny activity in care, connection, mastery, or pleasure.","Shrink it until it is realistically startable.","Schedule a specific cue/time.","Do the smallest version.","Notice outcome without demanding that mood improve immediately."] },
+  problem_solving: { goal:"Turn a vague problem into a bounded next decision.", steps:["Define the problem in one sentence.","Separate controllable from uncontrollable parts.","Generate at least three possible responses.","Choose the least costly workable next step.","Set a review point."] },
+  worry_container: { goal:"Reduce all-day rumination without telling someone to suppress worry.", steps:["Write the worry down.","Decide whether action is possible now.","If yes, identify one action; if no, defer it to a planned review period.","Return attention to the current task using an external cue."] }
+});
+export function getCbtTool(name){ return CBT_TOOLS[name] || CBT_TOOLS.problem_solving; }

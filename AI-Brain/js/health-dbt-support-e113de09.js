@@ -1,0 +1,8 @@
+export const DBT_TOOLS = Object.freeze({
+  stop: {name:"STOP",steps:["Stop before acting if you can.","Take a small step back or pause.","Observe facts, urges, thoughts, body cues, and environment.","Proceed with the next effective action rather than the strongest urge."]},
+  chain_analysis: {name:"Behavior chain",steps:["Define the target behavior without judgment.","Identify the prompting event.","Trace vulnerabilities, thoughts, feelings, body cues, urges, and actions link by link.","Mark places where a skill or environmental change could interrupt the chain.","Plan one repair and one prevention step."]},
+  check_facts: {name:"Check the facts",steps:["State the emotion and its action urge.","Describe observable facts only.","Notice assumptions or predictions.","Ask whether the emotion intensity fits the facts and threat level.","Choose problem solving, acceptance, or opposite action as appropriate."]},
+  dear_man: {name:"DEAR MAN",steps:["Describe the facts.","Express your feelings/opinion.","Assert the request or boundary clearly.","Reinforce why cooperation helps.","Stay mindful of the goal.","Appear confident in a way that is accessible to you.","Negotiate if needed without abandoning core limits."]},
+  sensory_safe_distress: {name:"Distress tolerance, accessibility-first",steps:["Lower immediate demands and hazards.","Choose a tolerable grounding anchor: visual, auditory, tactile, cognitive, or relational.","Use paced exhale only if breathing focus is comfortable and medically appropriate.","Use temperature or exercise-based skills only when physically safe for that person.","Reassess safety and next support connection."]}
+});
+export function getDbtTool(name){ return DBT_TOOLS[name] || DBT_TOOLS.stop; }

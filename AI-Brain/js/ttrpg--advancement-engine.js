@@ -1,0 +1,10 @@
+/* Genericized for AI-Brain capability use. Provenance group: active-session-runtime-a. */
+(function(global){
+  "use strict"; const LS=global.LifeSimulation; const data=global.UNIVERSAL_ADVANCEMENT||{};
+  const defaults=[0,300,900,2700,6500,14000,23000,34000,48000,64000,85000,100000,120000,140000,165000,195000,225000,265000,305000,355000];
+  function thresholds(){const raw=data.thresholds||{}; if(Array.isArray(raw))return raw.map(Number); const vals=[]; for(let l=1;l<=20;l++){const v=raw[l]??raw[String(l)]??raw[`level_${l}`]; vals.push(Number(v??defaults[l-1]));} return vals;}
+  function levelForXp(xp){xp=Math.max(0,Number(xp)||0); const t=thresholds(); let level=1; for(let i=0;i<t.length;i++)if(xp>=t[i])level=i+1; return Math.min(20,level);}
+  function startingPlan(primaryClassId,secondaryClassId,split){let primary=8,secondary=0; if(secondaryClassId){const pair=String(split||"6/2").split("/").map(Number); primary=Math.max(5,Math.min(7,pair[0]||6)); secondary=8-primary;} return {schema:"universal.class-plan.v8",totalLevel:8,xp:thresholds()[7]||34000,primaryClassId:primaryClassId||null,secondaryClassId:secondaryClassId||null,primaryLevel:primary,secondaryLevel:secondary,tertiaryClassId:null,history:[]};}
+  function addXp(plan,amount,assignment="primary"){plan.xp=Math.max(0,Number(plan.xp)||0)+Math.max(0,Number(amount)||0); const target=levelForXp(plan.xp); while(plan.totalLevel<target){const old=plan.totalLevel; plan.totalLevel++; const shouldPrimary=assignment!=="secondary"||!plan.secondaryClassId||(plan.primaryLevel-plan.secondaryLevel)<3; if(shouldPrimary)plan.primaryLevel++; else plan.secondaryLevel++; plan.history.unshift({from:old,to:plan.totalLevel,assignedTo:shouldPrimary?"primary":"secondary",at:new Date().toISOString()});} return plan;}
+  LS.advancement=Object.freeze({data,thresholds,levelForXp,startingPlan,addXp});
+})(window);
