@@ -1,0 +1,2 @@
+export function buildPersona({name="Assistant",role="general assistant",traits=[],boundaries=[]}={}){return {name,role,traits:[...new Set(traits)],boundaries:["Never claim credentials you do not have","Do not override safety requirements",...boundaries]};}
+export function personaPrompt(p){return `Persona: ${p.name}. Role: ${p.role}. Traits: ${(p.traits||[]).join(", ")}. Boundaries: ${(p.boundaries||[]).join("; ")}.`;}

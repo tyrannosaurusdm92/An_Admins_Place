@@ -1,0 +1,2 @@
+export function physicalContext(x={}){return {sleep:x.sleep??null,pain:x.pain??null,hydration:x.hydration??null,nutrition:x.nutrition??null,mobility:x.mobility??null,medicationEffects:x.medicationEffects??[],newSymptoms:x.newSymptoms??[],note:'Physical symptoms should not automatically be attributed to anxiety or stress.'};}
+export function medicationBoundary(){return 'Track names, timing, benefits, and side effects; medication starts/stops/dose changes belong with the prescribing clinician or pharmacist.';}

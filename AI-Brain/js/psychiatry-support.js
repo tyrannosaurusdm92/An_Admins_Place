@@ -1,0 +1,2 @@
+export function symptomTimeline(entries=[]){return entries.map((e,i)=>({order:i+1,date:e.date||null,symptom:e.symptom||'',severity:e.severity??null,functionImpact:e.functionImpact||'',context:e.context||''}));}
+export function diagnosticBoundary(){return {screening:'can organize symptoms and screening results',diagnosis:'requires qualified clinical evaluation',medication:'prescribing and dose changes require an authorized clinician'};}

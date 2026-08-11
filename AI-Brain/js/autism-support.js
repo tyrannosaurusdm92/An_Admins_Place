@@ -1,0 +1,2 @@
+export function sensoryPlan({triggers=[],helps=[],communication=[]}={}){return {triggers,helps,communication,principles:['reduce avoidable sensory load','make transitions predictable','respect stimming and communication preferences','do not force eye contact']};}
+export function lowDemandOptions(goal){return [`Pause and reduce input before solving ${goal}.`,`Offer two clear choices instead of an open-ended demand.`,`Use written or visual instructions if preferred.`];}

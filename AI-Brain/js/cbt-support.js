@@ -1,0 +1,2 @@
+export function thoughtRecord({situation='',thought='',emotion='',evidenceFor=[],evidenceAgainst=[]}={}){return {situation,thought,emotion,evidenceFor,evidenceAgainst,balancedThought:'',experiment:''};}
+export function gentleReframe(thought){return {original:thought,prompts:['What facts support this interpretation?','What facts do not fit it?','What is a more balanced explanation that still respects the feeling?']};}

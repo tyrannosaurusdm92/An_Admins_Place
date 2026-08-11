@@ -1,0 +1,2 @@
+/* Genericized for AI-Brain capability use. Provenance group: visual-3d-effects. */
+window.STUDIO_CONFIG={"id":"3D_Visual_Studio","title":"3D_Visual_Studio","fileStem":"3D_Visual_Studio","storageKey":"3D_Visual_Studio","lightningLabel":"Chromatic Lightning","backendUrl":"https://script.google.com/macros/s/AKfycbxHa15CBQPKeffFKTC4pZR4YF5zDQPIumg_MuMjtVRo20OAU3jVk7fm-Qy9rdBFYi2K/exec","backendLibrary":"https://script.google.com/macros/library/d/1nHwWRo4be2gd1Lu_Y6318AdZrzp9w1I8E2mX1_kcpKh7eJbDCBg7ovj8/2","importOnly":true};
