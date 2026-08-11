@@ -1,0 +1,63 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c22",
+  "race_name": "Fahánčoatani",
+  "race_category": "Shadowstitch Folk",
+  "deities": [
+    {
+      "name": "Eirzunet",
+      "role": "primary patron",
+      "titles": [
+        "Mistress of Twilight",
+        "Keeper of Forbidden Shadow",
+        "The Misaligned Silhouette"
+      ],
+      "domains": [
+        "shadows",
+        "curses",
+        "twilight transformation",
+        "forbidden magic"
+      ],
+      "rationale": "Detached shadows, twilight craft, and tools made from darkness directly align with Eirzunet.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Marduthor",
+      "role": "craft patron",
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "rationale": "Sewing shadows into shelters and tools treats impossible material as a disciplined craft.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thalunesh",
+      "role": "decoy patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Temporary decoys and misdirection connect Shadowstitch practice to trickery and shifting passage.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

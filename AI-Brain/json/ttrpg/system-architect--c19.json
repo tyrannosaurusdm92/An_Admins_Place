@@ -1,0 +1,62 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c19",
+  "race_name": "Dātseṣapyal",
+  "race_category": "Gelweave Folk",
+  "deities": [
+    {
+      "name": "Oskar'enlil",
+      "role": "primary patron",
+      "titles": [
+        "Balancer of the Sacred Harvest",
+        "Architect of Restraint",
+        "The Impartial Assessor"
+      ],
+      "domains": [
+        "adaptation",
+        "civilization",
+        "instinct",
+        "engineered races"
+      ],
+      "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thoryn-Rahek",
+      "role": "gel-form patron",
+      "titles": [
+        "The First Devourer",
+        "Father of Aberrant Life",
+        "The Folded Colossus"
+      ],
+      "domains": [
+        "aberrant life",
+        "mutation",
+        "insectoid horrors",
+        "oozes"
+      ],
+      "rationale": "Soft bodies and temporary collective forms create a direct, if cautious, religious association with oozes and aberrant life.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Ishtanora",
+      "role": "communal-labor patron",
+      "titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "rationale": "Voluntary weaving for heavy labor is celebrated through village cooperation and peaceful shared work.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

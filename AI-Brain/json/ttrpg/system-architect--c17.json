@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c17",
+  "race_name": "Losōbhūsmoe",
+  "race_category": "Tidefur Folk",
+  "deities": [
+    {
+      "name": "Bastveig",
+      "role": "primary patron",
+      "titles": [
+        "Keeper of Hidden Waters",
+        "Lady of Reefs and Trenches",
+        "Mother of Ocean Civilizations"
+      ],
+      "domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean civilizations"
+      ],
+      "rationale": "Current-reading whiskers, amphibious navigation, floating settlements, and tidal life place them under Bastveig.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thalunesh",
+      "role": "navigation patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Long-distance navigation and movement among floating communities connect them to passage and wanderers.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Ishtanora",
+      "role": "garden patron",
+      "titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "rationale": "Floating civic gardens and food stewardship give Ishtanora a secondary role in cultivated abundance.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

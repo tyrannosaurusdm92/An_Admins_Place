@@ -1,0 +1,24 @@
+{
+  "schema": "universal.content-scope-audit.v1.4",
+  "version": "1.4.0",
+  "generated_at": "2026-07-25T16:00:00-04:00",
+  "status": "PASSED",
+  "scope": {
+    "playable_race_profiles": 60,
+    "universal_homeworld_races": 34,
+    "alien_folk_profiles": 26,
+    "homeworld_races_with_deity_associations": 34,
+    "race_deity_links": 106,
+    "deity_profiles": 22,
+    "exclusive_terraforming_assignments": 40
+  },
+  "checks": [
+    "Restored every final race profile present in the attached unified concordance.",
+    "Restored all twenty-two source-backed deity dossiers and portrait assets.",
+    "Preserved race abilities, limits, societies, bloodlines/forms, biomes, and homeworld deity associations without imposing alignment, class, or compulsory worship.",
+    "Kept Alien-Folk outside the Universalian deity-assignment index because the attached source explicitly excludes alien races from that assignment scope.",
+    "Kept exclusive terraforming responsibility separate from race habitat and public patronage.",
+    "Preserved all twenty-two classes, six paths per class, class-expression point buy, and alignment mappings."
+  ],
+  "legal_note": "The restored race catalog is the project-original, licensing-cleared concordance supplied with this revision. Existing open-rules notices remain in docs for generic mechanics and compatibility references."
+}

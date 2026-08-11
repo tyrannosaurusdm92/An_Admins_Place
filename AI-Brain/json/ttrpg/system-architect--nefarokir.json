@@ -1,0 +1,70 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Nefarokir",
+  "titles": [
+    "Keeper of the Design",
+    "Administrator of Death",
+    "Lord of the Forgotten Dead"
+  ],
+  "domains": [
+    "death",
+    "spirits",
+    "memory",
+    "burial",
+    "forgotten dead",
+    "underworld"
+  ],
+  "race_count": 7,
+  "races": [
+    {
+      "race_id": "labunail",
+      "race_name": "Labúnäilbaer",
+      "race_category": "Stone-Under Peoples",
+      "role": "deep-memory patron",
+      "rationale": "Geological memory and the deepest inhabited caverns are ritually associated with the keeper of buried memory and the underworld."
+    },
+    {
+      "race_id": "djiumo",
+      "race_name": "Djiumōtiakić",
+      "race_category": "Blood-Memory Peoples",
+      "role": "primary patron",
+      "rationale": "Returned life, grave-bound vitality, preserved identity, and communal memory place the Djiumōtiakić closest to the administrator of death."
+    },
+    {
+      "race_id": "jaspey",
+      "race_name": "Jaspey",
+      "race_category": "Tiny Plant and Fungal Peoples",
+      "role": "archive patron",
+      "rationale": "Treating decomposition as an archive of identity and memory connects Jaspey funerary ecology to Nefarokir."
+    },
+    {
+      "race_id": "volsarii",
+      "race_name": "Volsarii",
+      "race_category": "Liminal and Spirit Peoples",
+      "role": "primary patron",
+      "rationale": "Ferriers of souls and keepers of spirit passage are directly associated with death, spirits, memory, and the underworld."
+    },
+    {
+      "race_id": "c01",
+      "race_name": "Hīnduigrägin",
+      "race_category": "Waymemory Folk",
+      "role": "memory patron",
+      "rationale": "The preservation and transfer of sensory memories gives Nefarokir a secondary place in remembrance rites."
+    },
+    {
+      "race_id": "c06",
+      "race_name": "Byevaichetar",
+      "race_category": "Moonmolt Folk",
+      "role": "memory patron",
+      "rationale": "Archived skins holding selected memories connect civic remembrance to Nefarokir."
+    },
+    {
+      "race_id": "c28",
+      "race_name": "Zaktadaitü",
+      "race_category": "Mirror-Time Folk",
+      "role": "memory patron",
+      "rationale": "The remembered past remains continuously present, giving memory rites a strong Nefarokir association."
+    }
+  ]
+}

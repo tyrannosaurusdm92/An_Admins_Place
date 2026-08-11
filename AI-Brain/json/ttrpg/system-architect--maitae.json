@@ -1,0 +1,65 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "maitae",
+  "race_name": "Maitaetiljin",
+  "race_category": "Hearth-Road Peoples",
+  "deities": [
+    {
+      "name": "Ishtanora",
+      "role": "primary patron",
+      "titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "rationale": "Hearth hospitality, orchards, cultivated plenty, and peaceful household life directly reflect Ishtanora’s domains.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thalunesh",
+      "role": "road patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Mobile households and route-centered hospitality place travelers and messengers under Thalunesh’s protection.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nebyrr",
+      "role": "kinship patron",
+      "titles": [
+        "Sovereign of Sacred Union",
+        "Architect of Lineage",
+        "Queen of Sanctioned Order"
+      ],
+      "domains": [
+        "civilization",
+        "lineage",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "rationale": "Inheritance carried through households, guest bonds, and settled orchard communities connects them to lineage and social order.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

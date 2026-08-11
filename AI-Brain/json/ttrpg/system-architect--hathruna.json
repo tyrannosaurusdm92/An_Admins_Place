@@ -1,0 +1,62 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Hathruna",
+  "titles": [
+    "Root-Mother of Rot and Rebirth",
+    "Lady of the Breathing Bloom",
+    "Keeper of Seasonal Return"
+  ],
+  "domains": [
+    "rebirth",
+    "rot",
+    "fungi",
+    "roots",
+    "seasonal cycles"
+  ],
+  "race_count": 6,
+  "races": [
+    {
+      "race_id": "lumhishu",
+      "race_name": "Lumhishūhito",
+      "race_category": "Elderwood Peoples",
+      "role": "seasonal patron",
+      "rationale": "Their stored seasonal light and view of habitat as inherited memory align with seasonal return, roots, and renewal."
+    },
+    {
+      "race_id": "djiumo",
+      "race_name": "Djiumōtiakić",
+      "race_category": "Blood-Memory Peoples",
+      "role": "return patron",
+      "rationale": "Their existence between death and renewed life reflects rot transformed into rebirth rather than simple undeath."
+    },
+    {
+      "race_id": "drilthar",
+      "race_name": "Dril'thar",
+      "race_category": "Amphibious Peoples",
+      "role": "metamorphosis patron",
+      "rationale": "Egg-clutches, metamorphic growth, and habitat-shaped life cycles reflect seasonal transformation and rebirth."
+    },
+    {
+      "race_id": "jaspey",
+      "race_name": "Jaspey",
+      "race_category": "Tiny Plant and Fungal Peoples",
+      "role": "primary patron",
+      "rationale": "Fungi, roots, spores, decomposition, and ecological rebirth make Hathruna the central Jaspey deity."
+    },
+    {
+      "race_id": "c06",
+      "race_name": "Byevaichetar",
+      "race_category": "Moonmolt Folk",
+      "role": "renewal patron",
+      "rationale": "Chosen molts and preserved seasonal skins enact visible cycles of shedding, return, and rebirth."
+    },
+    {
+      "race_id": "c20",
+      "race_name": "Shahreshōchü",
+      "race_category": "Silkroot Folk",
+      "role": "primary patron",
+      "rationale": "Rootlike limbs, seed nurseries, living growth, and seasonal garden renewal place them under the Root-Mother."
+    }
+  ]
+}

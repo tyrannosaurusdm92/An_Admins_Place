@@ -1,0 +1,54 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Eirzunet",
+  "titles": [
+    "Mistress of Twilight",
+    "Keeper of Forbidden Shadow",
+    "The Misaligned Silhouette"
+  ],
+  "domains": [
+    "shadows",
+    "curses",
+    "twilight transformation",
+    "forbidden magic"
+  ],
+  "race_count": 5,
+  "races": [
+    {
+      "race_id": "kaluseban",
+      "race_name": "Kaluseban",
+      "race_category": "Ley-Bound Peoples",
+      "role": "shadow patron",
+      "rationale": "Dark bloodlines, controlled shadow, and carefully bounded forbidden magic fall within Eirzunet’s twilight sphere."
+    },
+    {
+      "race_id": "enad",
+      "race_name": "Enâdkedzâd",
+      "race_category": "Planar-Marked Peoples",
+      "role": "twilight patron",
+      "rationale": "Survived curses, cinder transformations, and visible forbidden magic connect the Enâdkedzâd to Eirzunet."
+    },
+    {
+      "race_id": "djiumo",
+      "race_name": "Djiumōtiakić",
+      "race_category": "Blood-Memory Peoples",
+      "role": "ash patron",
+      "rationale": "Ash-recorded identity and twilight transformation connect some lineages to Eirzunet’s shadowed rites."
+    },
+    {
+      "race_id": "c13",
+      "race_name": "Suarrižkuset",
+      "race_category": "Nightsonar Folk",
+      "role": "primary patron",
+      "rationale": "Nocturnal life, shadowed architecture, and perception beyond ordinary light align with twilight and forbidden shadow."
+    },
+    {
+      "race_id": "c22",
+      "race_name": "Fahánčoatani",
+      "race_category": "Shadowstitch Folk",
+      "role": "primary patron",
+      "rationale": "Detached shadows, twilight craft, and tools made from darkness directly align with Eirzunet."
+    }
+  ]
+}

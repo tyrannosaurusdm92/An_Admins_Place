@@ -1,0 +1,18 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "generator",
+    "genetics",
+    "heritage",
+    "layer",
+    "rules"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-a",
+    "sourceType": "provided-project-material",
+    "archiveHash": "69119512e7db343d"
+  },
+  "title": "heritage_genetics.md",
+  "content": "# Heritage Genetics Rules — Re-Audited\n\n## Controlling order\n\n1. Exactly two direct parents are modeled. Grandparents and ancestry percentages are not consulted.\n2. Body-plan and explicit pair exclusions override every compatibility bridge.\n3. Two direct biological races in one creator category are compatible.\n4. Two different bloodlines, lineages, or ancestries of one parent race are compatible.\n5. All direct biological humanoid-compatible peoples can mix.\n6. Every direct biological creation in each listed Nebyrr creator bridge mixes with every qualifying creation on the other side.\n7. Sea Elf ↔ Merfolk, Sea Elf ↔ Tamhiogal, Lizardfolk ↔ Dril'thar, and Lizardfolk ↔ Grung are exact seed bridges.\n8. Compatibility is transitive and is repeatedly propagated until no new pairing can be added.\n9. Same-category pairings involving constructs, bodiless beings, amorphous oozes, non-reproductive undead, or another non-gametic body plan are assisted rather than ordinary biological progeny.\n\n## Important consequences\n\n- Merfolk enter the wider humanoid-compatible family through both their humanoid biology and the Sea Elf bridge; Human × Merfolk is therefore biological.\n- Lizardfolk connect to Bastveig's biological family through Dril'thar and Grung. Bastveig's same-category rule then carries the connection through that family, and closure repeats outward.\n- A Rainforest Dril'thar and Reef Dril'thar are valid because they are two distinct bloodlines of the same parent race.\n- Mosscap, Gloomtail, and Rotcap are Jaspey forms/castes, not bloodlines, so they do not create a Jaspey × Jaspey bloodline heritage.\n- Half-Elf, Half-Orc, Khoravar, and other already-mixed parent races are treated as the direct parent actually selected. Their grandparents are not reconstructed.\n\nEvery race-pair record in `data/genetics.json` states whether its result is a direct rule, transitive closure, assisted, or incompatible and includes a compatibility path when closure is responsible.\n"
+}

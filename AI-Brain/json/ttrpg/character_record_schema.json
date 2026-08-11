@@ -1,0 +1,91 @@
+{
+  "schema": "universal.covenant-engine.character-record.v1",
+  "identity": {
+    "name": "",
+    "player": "",
+    "pronouns": "",
+    "people": "",
+    "heritage": "",
+    "culture": "",
+    "background": "",
+    "era": 5
+  },
+  "advancement": {
+    "level": 1,
+    "legacyRank": 0,
+    "xp": 0,
+    "milestones": []
+  },
+  "classes": [],
+  "abilities": {
+    "strength": 10,
+    "dexterity": 10,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  "proficiencies": {
+    "skills": [],
+    "fields": [],
+    "tools": [],
+    "vehicles": [],
+    "languages": []
+  },
+  "experiences": [],
+  "combat": {
+    "ac": 10,
+    "hpMax": 1,
+    "hpCurrent": 1,
+    "temporaryHp": 0,
+    "guardMax": 0,
+    "guardCurrent": 0,
+    "wear": 0,
+    "wounds": 0,
+    "dyingBoxes": 0
+  },
+  "composure": {
+    "score": 8,
+    "stressCapacity": 5,
+    "stressCurrent": 0,
+    "fractures": [],
+    "scars": []
+  },
+  "alignment": {
+    "altruism": 1500,
+    "lawfulness": 1500,
+    "cooperation": 1500,
+    "honor": 1500,
+    "mercy": 1500,
+    "transformation": 1500,
+    "autonomy": 1500,
+    "restraint": 1500
+  },
+  "identityDrivers": {
+    "convictions": [],
+    "ties": [],
+    "duties": [],
+    "temptations": [],
+    "resolve": 0,
+    "strain": 0
+  },
+  "covenants": [],
+  "reputation": {
+    "fame": 0,
+    "culturalHonor": {},
+    "legalStatus": {},
+    "personalTrust": {},
+    "factions": {}
+  },
+  "equipment": [],
+  "spells": {
+    "castingAbilities": [],
+    "slots": {},
+    "prepared": [],
+    "concentration": null
+  },
+  "vehicle": null,
+  "clocks": [],
+  "relationships": [],
+  "notes": []
+}

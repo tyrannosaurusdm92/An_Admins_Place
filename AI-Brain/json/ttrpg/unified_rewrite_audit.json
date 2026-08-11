@@ -1,0 +1,20 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "auth",
+    "canon",
+    "class",
+    "layer",
+    "mask",
+    "quest"
+  ],
+  "provenance": {
+    "sourceGroup": "player-reference-runtime-a",
+    "sourceType": "provided-project-material",
+    "archiveHash": "ff8940c1250d6e84"
+  },
+  "title": "unified_rewrite_audit.md",
+  "content": "# Universal_Player Unified Rewrite Audit\n\nGenerated: 2026-07-26T01:36:26.537886+00:00\n\n- Top-level package name matches the requested major part.\n- Architect Engine v1.4 JSON is authoritative.\n- Canonical counts: 60 races, 22 classes, 132 paths, 81 alignments, 22 public Architect masks, 40 exclusive biome assignments.\n- Shared registry uses stable IDs, explicit events, versioned data, localStorage, and BroadcastChannel.\n- The Content Forge blocks invalid class/path/rank/school combinations and player-agency overrides.\n- Generated weapons and Thundercoil records remain abstract fictional game profiles and contain no real construction instructions.\n- MythWeaver exists only under Universal_MOL as a major-system workspace.\n- Paths and filenames created by this rewrite are Windows-safe. Existing licensed source assets and documentation remain in their reassigned package.\n"
+}

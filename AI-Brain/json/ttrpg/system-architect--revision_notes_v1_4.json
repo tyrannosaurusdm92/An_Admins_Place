@@ -1,0 +1,19 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "character",
+    "class",
+    "dice",
+    "rules",
+    "world"
+  ],
+  "provenance": {
+    "sourceGroup": "system-architect",
+    "sourceType": "provided-project-material",
+    "archiveHash": "5cf1f3ddcc2d6fbe"
+  },
+  "title": "revision_notes_v1_4.md",
+  "content": "# Revision Notes — v1.4\n\n## Added\n\n- Restored all 34 Universal homeworld races from the supplied concordance.\n- Restored all 26 preserved Alien-Folk profiles from the same source, for 60 total races.\n- Added all 22 full deity dossiers and all 22 WEBP portraits.\n- Added all 106 homeworld race-deity association links.\n- Added race, bloodline/form, and deity-association fields to the character schema.\n- Added book appendices for homeworld races, Alien-Folk, and full deity dossiers.\n- Added online and board-game bridge rules for race and deity cards.\n\n## Clarified\n\n- Race provides physiology and fictional permissions/limits, not fixed ability-score bonuses or mandatory behavior.\n- Public deity associations are cultural and religious, not compulsory worship or sole biological ownership.\n- Alien-Folk remain outside the Universalian deity assignment index because the supplied assignment source explicitly excludes them.\n- Exclusive terraforming responsibility remains separate from race habitat and patronage.\n\n## Preserved\n\nAll 22 classes, 132 paths, Class Evolution Point rules, eight alignment axes, phase/slot gradients, and 81 named alignment profiles remain unchanged.\n"
+}

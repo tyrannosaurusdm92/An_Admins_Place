@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c03",
+  "race_name": "Wimokhurumī",
+  "race_category": "Shellscript Folk",
+  "deities": [
+    {
+      "name": "Marduthor",
+      "role": "primary patron",
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "rationale": "Mineral backplates that grow as maps, legal records, and crafted archives join stone, architecture, and skilled making.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nebyrr",
+      "role": "law-and-lineage patron",
+      "titles": [
+        "Sovereign of Sacred Union",
+        "Architect of Lineage",
+        "Queen of Sanctioned Order"
+      ],
+      "domains": [
+        "civilization",
+        "lineage",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "rationale": "Recorded law and family history place inheritance and civic order under Nebyrr.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Anubaldir",
+      "role": "endurance patron",
+      "titles": [
+        "Bearer of the Heavens",
+        "Colossus of Endurance",
+        "The Unbroken Foundation"
+      ],
+      "domains": [
+        "endurance",
+        "burden",
+        "strength",
+        "resilience"
+      ],
+      "rationale": "Slow travel and protective mineral bodies reflect patience, burden, and resilience.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

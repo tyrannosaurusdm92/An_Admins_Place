@@ -1,0 +1,65 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c12",
+  "race_name": "Thalojomammǫ",
+  "race_category": "Cliffsong Folk",
+  "deities": [
+    {
+      "name": "Sokhivar",
+      "role": "primary patron",
+      "titles": [
+        "Radiant Prophet",
+        "Voice of the Sky",
+        "Patron of Avian Omens"
+      ],
+      "domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "divine freedom",
+        "sky"
+      ],
+      "rationale": "Sky travel, layered song, and safe wind corridors directly match sunlight, music, prophecy, and divine freedom.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thalunesh",
+      "role": "passage patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Their sung maps guide travelers through mountain crossings and shifting air routes.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nebyrr",
+      "role": "law patron",
+      "titles": [
+        "Sovereign of Sacred Union",
+        "Architect of Lineage",
+        "Queen of Sanctioned Order"
+      ],
+      "domains": [
+        "civilization",
+        "lineage",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "rationale": "Encoding law and civic agreements in song connects the Cliffsong Folk to ordered civilization.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

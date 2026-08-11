@@ -1,0 +1,62 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "gwynis",
+  "race_name": "Gwynis",
+  "race_category": "Dream and Psionic Peoples",
+  "deities": [
+    {
+      "name": "Raeshkul",
+      "role": "primary patron",
+      "titles": [
+        "Strategist of Higher Understanding",
+        "The Rotating Eye",
+        "Architect of Calculated Victory"
+      ],
+      "domains": [
+        "intellect",
+        "psionics",
+        "strategy",
+        "higher understanding"
+      ],
+      "rationale": "Psionics, memory, mental discipline, and consensual thought-sharing align directly with higher understanding.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Thalunesh",
+      "role": "dream patron",
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "rationale": "Dream birth, illusion, and movement across symbolic mental thresholds connect the Gwynis to Thalunesh.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Nephthysra",
+      "role": "empathic patron",
+      "titles": [
+        "The Irresistible",
+        "Shaper of Desire",
+        "Patron of Unclassifiable Beauty"
+      ],
+      "domains": [
+        "beauty",
+        "charisma",
+        "emotional influence",
+        "uniqueness"
+      ],
+      "rationale": "The ethics of emotional presence and influence are often framed through Nephthysra’s charisma and affective domains.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

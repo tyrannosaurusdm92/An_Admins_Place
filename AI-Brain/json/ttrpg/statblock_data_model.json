@@ -1,0 +1,21 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "canon",
+    "class",
+    "generator",
+    "genetics",
+    "heritage",
+    "layer",
+    "spell"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-a",
+    "sourceType": "provided-project-material",
+    "archiveHash": "69119512e7db343d"
+  },
+  "title": "statblock_data_model.md",
+  "content": "# Stat Block Data Model\n\nA stat block stores one ancestry or exactly two direct parents. Parent A uses `raceId` and `subtypeId`; Parent B uses `parentBRaceId` and `parentBSubtypeId`. Earlier ancestry and grandparents are not reconstructed.\n\n`data/races.json` contains 130 canonical parent races and 106 canonical subtypes. `data/genetics.json` contains all 8,385 distinct parent-race pairs. Every pair includes `mode`, `rule_basis`, direct rule matches, and—when compatibility is inherited through closure—the shortest race-by-race compatibility path.\n\nSame-parent heritage is resolved dynamically: both choices must be distinct subtypes classified as `bloodline`, `lineage`, or `ancestry`. Forms and castes are phenotype expressions only. Different-parent heritage remains controlled by the parent-race pair registry while retaining each selected subtype as the direct parent’s ancestry expression.\n\nThe resolved stat-block export records both direct parents, compatibility mode, creator deities, selected inherited traits, class/path features, spells, eight-axis alignment, covenant state, Beats, Guard, Stress, and Composure.\n"
+}

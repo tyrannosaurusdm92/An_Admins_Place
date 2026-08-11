@@ -1,0 +1,22 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "character",
+    "dice",
+    "grid",
+    "layer",
+    "map",
+    "mobile",
+    "paint",
+    "quest"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-a",
+    "sourceType": "provided-project-material",
+    "archiveHash": "69119512e7db343d"
+  },
+  "title": "test_plan.md",
+  "content": "# Validation Checklist\n\n- [ ] The only `.html` file is `ActiveWorkspace.html`.\n- [ ] No private MOL credential literal occurs anywhere in the package.\n- [ ] Backend player response does not render or inject MOL navigation.\n- [ ] Backend MOL response injects MOL Sessions while preserving Encounter, Dice, Characters, Alignment, Quest Journal, and Account.\n- [ ] MOL can choose a character and join the encounter as a player token.\n- [ ] Eleven distinct accounts cannot join one lobby.\n- [ ] Player A cannot move Player B's token.\n- [ ] Players cannot move hostile tokens.\n- [ ] Hostiles roll initiative automatically.\n- [ ] Players roll initiative from Dice and totals appear on Encounter.\n- [ ] Hostile turns automatically pathfind, roll attack/damage, update HP, log results, and advance.\n- [ ] Player rolls made on Dice appear in Encounter Rolls and Encounter Record.\n- [ ] Map image upload displays beneath the square grid.\n- [ ] Blank map creation and wall/difficult/water/hazard/cover painting work.\n- [ ] JSON/CSV/TXT encounter and quest imports work.\n- [ ] Token fallback renders initials when a GitHub image is missing.\n- [ ] Desktop, tablet, portrait mobile, and landscape mobile layouts remain usable.\n"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Oskar'enlil",
+  "titles": [
+    "Balancer of the Sacred Harvest",
+    "Architect of Restraint",
+    "The Impartial Assessor"
+  ],
+  "domains": [
+    "adaptation",
+    "civilization",
+    "instinct",
+    "engineered races"
+  ],
+  "race_count": 3,
+  "races": [
+    {
+      "race_id": "heimujuryz",
+      "race_name": "Heimujuryz",
+      "race_category": "Many-Kindred Warclans",
+      "role": "primary patron",
+      "rationale": "Adaptive physiology, many compatible body expressions, and deliberate balance between instinct and civilization align with the Balancer."
+    },
+    {
+      "race_id": "geisamahi",
+      "race_name": "Geisamahi",
+      "race_category": "Small Mammalian Peoples",
+      "role": "adaptation patron",
+      "rationale": "Their specialized bodies, whisker-sense, and occasional gliding membranes exemplify adaptive life balanced with civilization."
+    },
+    {
+      "race_id": "c19",
+      "race_name": "Dātseṣapyal",
+      "race_category": "Gelweave Folk",
+      "role": "primary patron",
+      "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation."
+    }
+  ]
+}

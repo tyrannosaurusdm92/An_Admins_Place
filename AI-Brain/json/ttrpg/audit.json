@@ -1,0 +1,21 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "ttrpg",
+  "capabilities": [
+    "alignment",
+    "canon",
+    "class",
+    "effect",
+    "layer",
+    "merge",
+    "quest",
+    "rules"
+  ],
+  "provenance": {
+    "sourceGroup": "active-session-runtime-c",
+    "sourceType": "provided-project-material",
+    "archiveHash": "be64160633c6ca96"
+  },
+  "title": "audit.md",
+  "content": "# Revision and Validation Audit\n\n## Replaced obsolete behavior\n\n- Replaced four-axis scoring with all eight canonical axes.\n- Replaced the incomplete 55-profile runtime list with all 81 canonical profiles.\n- Replaced 14 legacy classes and 112 legacy subclass options with the 22 merged classes and their 66 canonical subclasses.\n- Removed legacy D&D class patron rules and the optional deity selector.\n- Replaced Favor-centered patron tracking with Resonance, Divine Claim, Resolve, and Conviction Strain.\n- Removed automatic race/class/deity moral modifiers that contradicted the new demonstrated-behavior rule.\n- Replaced two traditional D&D alignment anchors with an eight-axis Snapshot.\n- Added a 24-scenario Covenant Examination covering all eight axes.\n\n## Canonical integrity checks\n\n- Eight unique axes found.\n- Exactly four profile axes and four expression axes found.\n- All 81 low/neutral/high profile combinations resolve to exactly one registry entry.\n- 22 creator families, 130 parent races, and 106 nested ancestry options found.\n- 22 classes and 66 subclasses found.\n- Every class resolves to an existing deity.\n- Every class has a unique assigned deity; all 22 deities are used exactly once.\n- Every creator family resolves to an existing creator deity.\n- All quiz question effects reference valid axis IDs.\n- All scores are clamped to 0–3000.\n- Exact 1500 Pivot and all supplied 250-point phase steps are represented.\n\n## Package checks\n\n- Exactly one HTML file: `quiz.html`.\n- No external links, fetch calls, frameworks, CDNs, or remote assets.\n- JavaScript syntax checked with Node.js.\n- Runtime and canonical JSON files parsed successfully.\n- Interactive Snapshot and 24-question Examination smoke-tested in headless Chromium using an in-memory page equivalent of the offline package.\n- Result rendering produced eight axis cards, a valid 81-profile title, class/deity covenant content, and all four tracker types without console or page errors.\n"
+}

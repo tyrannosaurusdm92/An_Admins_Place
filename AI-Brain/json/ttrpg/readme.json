@@ -1,0 +1,63 @@
+{
+  "schema": "universal.converted-text-source.v1",
+  "metadata": {
+    "source_file": "README.txt",
+    "source_relative_path": "canon/alignment/README.txt",
+    "source_format": "txt",
+    "converted_on": "2026-07-19",
+    "line_count": 12,
+    "original_source_omitted": true
+  },
+  "headings": [],
+  "text": "UNIVERSAL EIGHT-AXIS COVENANT ALIGNMENT SYSTEM\n\nThis package expands the attached four-axis alignment system while preserving all 81 original profile names.\n\nCore profile axes: Altruism, Lawfulness, Cooperation, Honor.\nExpression axes: Mercy, Transformation, Autonomy, Restraint.\n\nThe twenty-two attached Universal deities are the only pantheon used. Each of the twenty-two attached classes retains its canonical one-to-one deity assignment.\n\nProfile names are generated only from the original four axes. The additional axes create a readable expression line rather than thousands of extra names.\n\nOriginal document attribution retained in the DOCX exactly as supplied: William Saville, also known as The Transgender T-Rex, #TheTransgenderTRex.\n",
+  "lines": [
+    {
+      "line": 1,
+      "text": "UNIVERSAL EIGHT-AXIS COVENANT ALIGNMENT SYSTEM"
+    },
+    {
+      "line": 2,
+      "text": ""
+    },
+    {
+      "line": 3,
+      "text": "This package expands the attached four-axis alignment system while preserving all 81 original profile names."
+    },
+    {
+      "line": 4,
+      "text": ""
+    },
+    {
+      "line": 5,
+      "text": "Core profile axes: Altruism, Lawfulness, Cooperation, Honor."
+    },
+    {
+      "line": 6,
+      "text": "Expression axes: Mercy, Transformation, Autonomy, Restraint."
+    },
+    {
+      "line": 7,
+      "text": ""
+    },
+    {
+      "line": 8,
+      "text": "The twenty-two attached Universal deities are the only pantheon used. Each of the twenty-two attached classes retains its canonical one-to-one deity assignment."
+    },
+    {
+      "line": 9,
+      "text": ""
+    },
+    {
+      "line": 10,
+      "text": "Profile names are generated only from the original four axes. The additional axes create a readable expression line rather than thousands of extra names."
+    },
+    {
+      "line": 11,
+      "text": ""
+    },
+    {
+      "line": 12,
+      "text": "Original document attribution retained in the DOCX exactly as supplied: William Saville, also known as The Transgender T-Rex, #TheTransgenderTRex."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Ishtanora",
+  "titles": [
+    "Keeper of Hearth and Harvest",
+    "Mother of the Quiet Village",
+    "Warden of Cultivated Plenty"
+  ],
+  "domains": [
+    "hearths",
+    "harvests",
+    "villages",
+    "fertility",
+    "rural peace"
+  ],
+  "race_count": 5,
+  "races": [
+    {
+      "race_id": "maitae",
+      "race_name": "Maitaetiljin",
+      "race_category": "Hearth-Road Peoples",
+      "role": "primary patron",
+      "rationale": "Hearth hospitality, orchards, cultivated plenty, and peaceful household life directly reflect Ishtanora’s domains."
+    },
+    {
+      "race_id": "c10",
+      "race_name": "Tsovašwimóm",
+      "race_category": "Hearthforged Folk",
+      "role": "hearth patron",
+      "rationale": "The donated story is fired within a hearth-centered birth rite, linking new life to home and village continuity."
+    },
+    {
+      "race_id": "c17",
+      "race_name": "Losōbhūsmoe",
+      "race_category": "Tidefur Folk",
+      "role": "garden patron",
+      "rationale": "Floating civic gardens and food stewardship give Ishtanora a secondary role in cultivated abundance."
+    },
+    {
+      "race_id": "c19",
+      "race_name": "Dātseṣapyal",
+      "race_category": "Gelweave Folk",
+      "role": "communal-labor patron",
+      "rationale": "Voluntary weaving for heavy labor is celebrated through village cooperation and peaceful shared work."
+    },
+    {
+      "race_id": "c20",
+      "race_name": "Shahreshōchü",
+      "race_category": "Silkroot Folk",
+      "role": "cultivation patron",
+      "rationale": "Terrace gardens, nurseries, and community food systems connect them to harvest and village plenty."
+    }
+  ]
+}

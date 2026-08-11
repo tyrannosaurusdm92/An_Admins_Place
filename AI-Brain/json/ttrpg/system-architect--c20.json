@@ -1,0 +1,64 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment.v1",
+  "canon_status": "current_canon",
+  "race_id": "c20",
+  "race_name": "Shahreshōchü",
+  "race_category": "Silkroot Folk",
+  "deities": [
+    {
+      "name": "Hathruna",
+      "role": "primary patron",
+      "titles": [
+        "Root-Mother of Rot and Rebirth",
+        "Lady of the Breathing Bloom",
+        "Keeper of Seasonal Return"
+      ],
+      "domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "rationale": "Rootlike limbs, seed nurseries, living growth, and seasonal garden renewal place them under the Root-Mother.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Ishtanora",
+      "role": "cultivation patron",
+      "titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "rationale": "Terrace gardens, nurseries, and community food systems connect them to harvest and village plenty.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    },
+    {
+      "name": "Marduthor",
+      "role": "builder patron",
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "rationale": "Living silk bridges and anchored architecture make sacred construction a major secondary tradition.",
+      "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+    }
+  ],
+  "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "worldbuilder.universal.deity-race-assignment.v1",
+  "canon_status": "current_canon",
+  "deity": "Setrimir",
+  "titles": [
+    "Bearer of Stolen Fire",
+    "Maker of Awakened Life",
+    "The Bound Innovator"
+  ],
+  "domains": [
+    "artificial life",
+    "constructs",
+    "stolen knowledge",
+    "awakened machinery"
+  ],
+  "race_count": 3,
+  "races": [
+    {
+      "race_id": "c09",
+      "race_name": "Nunzāozhenur",
+      "race_category": "Memory-Loom Folk",
+      "role": "primary patron",
+      "rationale": "Constructed bodies made from replaceable memory ribbons fall directly under awakened life and artificial personhood."
+    },
+    {
+      "race_id": "c10",
+      "race_name": "Tsovašwimóm",
+      "race_category": "Hearthforged Folk",
+      "role": "primary patron",
+      "rationale": "Awakened ceramic-and-wood bodies are a clear expression of artificial life created without enslavement."
+    },
+    {
+      "race_id": "c11",
+      "race_name": "Köpounnälanvar",
+      "race_category": "Clockfeather Folk",
+      "role": "primary patron",
+      "rationale": "Mechanical avian bodies and timekeeping feathers directly align with awakened machinery."
+    }
+  ]
+}

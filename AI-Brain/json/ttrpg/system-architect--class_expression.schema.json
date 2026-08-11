@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://universal.example/schemas/class-expression.v1.schema.json",
+  "title": "Universal Class Expression Profile",
+  "type": "object",
+  "required": [
+    "class_id",
+    "axes",
+    "active_family",
+    "active_path_id"
+  ],
+  "properties": {
+    "class_id": {
+      "type": "string"
+    },
+    "axes": {
+      "type": "object",
+      "required": [
+        "martial_practice",
+        "spellcraft",
+        "psionic_discipline"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "martial_practice": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3000
+        },
+        "spellcraft": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3000
+        },
+        "psionic_discipline": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3000
+        }
+      }
+    },
+    "candidate_family": {
+      "type": "string",
+      "enum": [
+        "melee_non_caster",
+        "half_caster",
+        "half_psi",
+        "full_caster",
+        "full_psi",
+        "hybrid_psicaster"
+      ]
+    },
+    "active_family": {
+      "type": "string",
+      "enum": [
+        "melee_non_caster",
+        "half_caster",
+        "half_psi",
+        "full_caster",
+        "full_psi",
+        "hybrid_psicaster"
+      ]
+    },
+    "active_path_id": {
+      "type": "string"
+    },
+    "last_confirmed_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    }
+  }
+}
