@@ -1,0 +1,4420 @@
+{
+  "schema": "universal.race-catalog.v1.4",
+  "version": "1.4.0",
+  "generated_at": "2026-07-25T16:00:00-04:00",
+  "title": "Universal and Zešijómë Race Catalog",
+  "source": {
+    "file": "Universal_Unified_Homebrew_Race_Concordance_Deity_Assigned.html",
+    "source_stats": {
+      "htmlFilesMerged": 11,
+      "sourceFictionRecords": 540,
+      "sourceTraitFamilies": 41,
+      "sentientMythicEntries": 21,
+      "crossCulturalCreatures": 20,
+      "approvedRegistryRaces": 73,
+      "fantasyFinal": 34,
+      "alienPreserved": 26,
+      "restrictedTotal": 89,
+      "licensingRemoved": 84,
+      "userRemoved": 5,
+      "compensationRaces": 28,
+      "totalFinal": 60,
+      "mergedAt80": 18,
+      "mixedHeritageRemoved": 1,
+      "compensationCreated": 28,
+      "compensationActive": 15,
+      "biomeAssigned": 60,
+      "bloodlineRaces": 5,
+      "formRaces": 1,
+      "mergeFloor": 80,
+      "deityAssignedRaces": 34,
+      "deitiesRepresented": 22,
+      "raceDeityLinks": 106
+    },
+    "source_scope_note": "This integration preserves every final race profile present in the attached concordance: 34 Universal homeworld peoples and 26 preserved Alien-Folk profiles."
+  },
+  "counts": {
+    "homeworld_races": 34,
+    "alien_folk": 26,
+    "total_races": 60,
+    "homeworld_races_with_deity_associations": 34,
+    "race_deity_links": 106
+  },
+  "play_rules": {
+    "choose_one_race": "Choose one race profile at character creation. Select a listed bloodline or form only when the race provides one.",
+    "no_fixed_ability_scores": "Race never grants a fixed ability-score increase, alignment, class, personality, or compulsory religion.",
+    "physiology_and_permissions": "Body, abilities, and limitations establish anatomy and fictional permissions. Use normal tests when an outcome is uncertain; a race entry does not silently add numerical bonuses unless a future option explicitly says so.",
+    "limitations_are_not_point_flaws": "Listed limitations are real fictional constraints and safety-relevant setting facts. They do not award Background Build Points or XP.",
+    "culture_is_separate": "The society text is a common cultural pattern, not mandatory behavior. Community, upbringing, language, and personal history remain separate character choices.",
+    "deity_associations": "Homeworld deity links are public religious and cultural associations. They are not biological ownership, compulsory worship, or proof that one Architect solely created a race.",
+    "alien_deity_scope": "The attached assignment index intentionally does not assign the off-world Alien-Folk to Universalian deities."
+  },
+  "category_index": {
+    "Amphibious Peoples": [
+      {
+        "id": "drilthar",
+        "name": "Dril'thar"
+      }
+    ],
+    "Beast-Souled Peoples": [
+      {
+        "id": "deorbasun",
+        "name": "Deorbasun"
+      }
+    ],
+    "Blood-Memory Peoples": [
+      {
+        "id": "djiumo",
+        "name": "Djiumōtiakić"
+      }
+    ],
+    "Borderland Colossi": [
+      {
+        "id": "laubakir",
+        "name": "Läúbakirruna"
+      }
+    ],
+    "Chromatic Empaths": [
+      {
+        "id": "c27",
+        "name": "Trábuẹmapgir"
+      }
+    ],
+    "Cliffsong Folk": [
+      {
+        "id": "c12",
+        "name": "Thalojomammǫ"
+      }
+    ],
+    "Clockfeather Folk": [
+      {
+        "id": "c11",
+        "name": "Köpounnälanvar"
+      }
+    ],
+    "Draconic and Reptilian Peoples": [
+      {
+        "id": "szucarin",
+        "name": "Szûcarín"
+      }
+    ],
+    "Dream and Psionic Peoples": [
+      {
+        "id": "gwynis",
+        "name": "Gwynis"
+      }
+    ],
+    "Dual-Form Equine Peoples": [
+      {
+        "id": "aburata",
+        "name": "Aburata"
+      }
+    ],
+    "Elderwood Peoples": [
+      {
+        "id": "lumhishu",
+        "name": "Lumhishūhito"
+      }
+    ],
+    "Elemental Peoples": [
+      {
+        "id": "panolima",
+        "name": "Panolima"
+      }
+    ],
+    "Fey-Folk": [
+      {
+        "id": "gandirosha",
+        "name": "Gandirosha"
+      }
+    ],
+    "Gelweave Folk": [
+      {
+        "id": "c19",
+        "name": "Dātseṣapyal"
+      }
+    ],
+    "Hearth-Road Peoples": [
+      {
+        "id": "maitae",
+        "name": "Maitaetiljin"
+      }
+    ],
+    "Hearthforged Folk": [
+      {
+        "id": "c10",
+        "name": "Tsovašwimóm"
+      }
+    ],
+    "Ley-Bound Peoples": [
+      {
+        "id": "kaluseban",
+        "name": "Kaluseban"
+      }
+    ],
+    "Liminal and Spirit Peoples": [
+      {
+        "id": "volsarii",
+        "name": "Volsarii"
+      }
+    ],
+    "Many-Kindred Warclans": [
+      {
+        "id": "heimujuryz",
+        "name": "Heimujuryz"
+      }
+    ],
+    "Memory-Loom Folk": [
+      {
+        "id": "c09",
+        "name": "Nunzāozhenur"
+      }
+    ],
+    "Mirror-Time Folk": [
+      {
+        "id": "c28",
+        "name": "Zaktadaitü"
+      }
+    ],
+    "Moonmolt Folk": [
+      {
+        "id": "c06",
+        "name": "Byevaichetar"
+      }
+    ],
+    "Nightsonar Folk": [
+      {
+        "id": "c13",
+        "name": "Suarrižkuset"
+      }
+    ],
+    "Planar-Marked Peoples": [
+      {
+        "id": "enad",
+        "name": "Enâdkedzâd"
+      }
+    ],
+    "Shadowstitch Folk": [
+      {
+        "id": "c22",
+        "name": "Fahánčoatani"
+      }
+    ],
+    "Shellscript Folk": [
+      {
+        "id": "c03",
+        "name": "Wimokhurumī"
+      }
+    ],
+    "Silkroot Folk": [
+      {
+        "id": "c20",
+        "name": "Shahreshōchü"
+      }
+    ],
+    "Small Mammalian Peoples": [
+      {
+        "id": "geisamahi",
+        "name": "Geisamahi"
+      }
+    ],
+    "Stone-Under Peoples": [
+      {
+        "id": "labunail",
+        "name": "Labúnäilbaer"
+      }
+    ],
+    "Sunplume Folk": [
+      {
+        "id": "c14",
+        "name": "Fūnradnecael"
+      }
+    ],
+    "Tidal Peoples": [
+      {
+        "id": "tamhiogal",
+        "name": "Tamhiogal"
+      }
+    ],
+    "Tidefur Folk": [
+      {
+        "id": "c17",
+        "name": "Losōbhūsmoe"
+      }
+    ],
+    "Tiny Plant and Fungal Peoples": [
+      {
+        "id": "jaspey",
+        "name": "Jaspey"
+      }
+    ],
+    "Waymemory Folk": [
+      {
+        "id": "c01",
+        "name": "Hīnduigrägin"
+      }
+    ]
+  },
+  "homeworld_races": [
+    {
+      "id": "lumhishu",
+      "name": "Lumhishūhito",
+      "category": "Elderwood Peoples",
+      "summary": "Long-lived, gracile people whose bodies store seasonal light and whose communities treat memory, habitat, and craft as one inheritance.",
+      "body": "Humanoid, usually tall and fine-boned, with leaflike ear ridges and irises that shift with stored light.",
+      "abilities": [
+        "Low-light acuity",
+        "Seasonal light storage",
+        "Graceful terrain movement",
+        "Ritual memory gardens"
+      ],
+      "limits": [
+        "Extended darkness drains stored radiance",
+        "Memory gardens can be damaged by ecological collapse"
+      ],
+      "society": "Canopy cities, moonstone boroughs, and mobile dusk caravans exchange apprentices rather than governing one another.",
+      "blend": {
+        "celtic": 45,
+        "finnish": 25,
+        "japanese": 20,
+        "greek": 10
+      },
+      "mergeScore": 74,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Elven Folk",
+        "wildwood covenant",
+        "elder-race motifs"
+      ],
+      "designNotes": "Replaces all generic elf naming and merges overlapping forest, elder, and long-lived people concepts into non-overlapping bloodlines.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Forest / Treetops - Treehouses",
+        "Forest / Partial Forest",
+        "Mountains / Valley"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Sigrananna",
+          "role": "primary patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Forest ancestry, long life, grace, and woodland stewardship place the Lumhishūhito most closely under the Moonlit Huntress.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "seasonal patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Their stored seasonal light and view of habitat as inherited memory align with seasonal return, roots, and renewal.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "radiant patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Sunlight held within the body and canopy-centered communities connect them to sacred light and the open sky.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "kaluseban",
+      "name": "Kaluseban",
+      "category": "Ley-Bound Peoples",
+      "summary": "Elegant mana-bound people shaped by ley lines, thought, wetlands, arcane structure, shadow, stone, sea, polarized light, and controlled glamour.",
+      "body": "Medium humanoids with subtle luminous channels, mirrored or light-sensitive eyes, and markings that reveal the ambient magic sustaining them.",
+      "abilities": [
+        "Leyline sense",
+        "Subtle channeling and controlled glamour",
+        "Dream and illusion resistance",
+        "Polarized-light perception and environmental attunement"
+      ],
+      "limits": [
+        "Require periodic exposure to compatible magical or sacred environments",
+        "Overdraw can cause sensory collapse"
+      ],
+      "society": "Kaluseban settlements form around stable magical ecologies and maintain strict stewardship compacts.",
+      "bloodlines": [
+        {
+          "name": "Psionic Bloodline",
+          "description": "Thought-sensitive and dream-linked."
+        },
+        {
+          "name": "Swamp Bloodline",
+          "description": "Wetland-adapted and toxin-wise."
+        },
+        {
+          "name": "Arcane Bloodline",
+          "description": "Structured spellcraft, polarized-light perception, and ley engineering."
+        },
+        {
+          "name": "Dark Bloodline",
+          "description": "Shadow-adapted without moral coding."
+        },
+        {
+          "name": "Stone Bloodline",
+          "description": "Lithic resonance and subterranean endurance."
+        },
+        {
+          "name": "Oceanic Bloodline",
+          "description": "Saltwater affinity and tidal navigation."
+        }
+      ],
+      "blend": {
+        "celtic": 35,
+        "persian": 25,
+        "japanese": 20,
+        "finnish": 20
+      },
+      "mergeScore": 62,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Innate Witchkind",
+        "Telepathic Folk",
+        "Elven Folk",
+        "Elarin Veilborn"
+      ],
+      "designNotes": "The former Elarin Veilborn design was absorbed into existing Kaluseban Arcane and Psionic expression; no new bloodline was created.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Elarin Veilborn",
+          "formerRegistry": "Alien",
+          "similarity": 82,
+          "rationale": "Elegant luminous humanoids, magic-responsive markings, glamour, specialized light perception, and diplomatic arcane cultures fit established Kaluseban bloodlines."
+        }
+      ],
+      "bloodlinePolicy": "canonical bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Wetlands / Swamps",
+        "Underground / Crystal Caverns",
+        "Ocean / Underwater without Reefs"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Psionic bloodlines, disciplined thought, and highly structured arcane study align with intellect, strategy, and higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "shadow patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Dark bloodlines, controlled shadow, and carefully bounded forbidden magic fall within Eirzunet’s twilight sphere.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Ley crossings, planar boundaries, inherited magical marks, and dangerous bargains connect Kaluseban rites to the Keeper of Crossroads.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Bastveig",
+          "role": "oceanic patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Oceanic bloodlines and deep-water ley traditions recognize Bastveig as guardian of hidden waters and sea civilizations.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "labunail",
+      "name": "Labúnäilbaer",
+      "category": "Stone-Under Peoples",
+      "summary": "A confederated Stone-Under people of compact mineral-adapted bodies, precision craft, root-safe tunnel cultivation, geological memory, pressure engineering, and place-consent traditions.",
+      "body": "Short, dense humanoids with pressure-tolerant joints, mineral-sensitive fingertips, and excellent close-range vision.",
+      "abilities": [
+        "Stone and vibration resonance",
+        "Precision craft and living-tunnel engineering",
+        "Structural stress and root-pressure sensing",
+        "Mineral dormancy and geological memory"
+      ],
+      "limits": [
+        "Open sky can disorient deep-adapted individuals",
+        "Mineral sleep requires a slow, protected awakening",
+        "Sterile paving reduces root-pressure sensing"
+      ],
+      "society": "Forge halls, burrow communes, and deepglass observatories retain separate customs under a shared civic compact.",
+      "blend": {
+        "germanic": 38,
+        "norse": 32,
+        "basque": 18,
+        "finnish": 12
+      },
+      "mergeScore": 78,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Dwarven Folk",
+        "Goblinoid craft motifs",
+        "Stone-Under Artisans",
+        "Hekginegye",
+        "Quöfálxoskin",
+        "Gravari Runeborn"
+      ],
+      "designNotes": "Consolidates stone artisans, root-coil tunnel engineers, mineral sleepers, and the former Gravari mineral design without creating formal bloodlines.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Hekginegye",
+          "formerRegistry": "Fantasy",
+          "similarity": 86,
+          "rationale": "Both are compact subterranean civic engineers centered on living tunnels, pressure sensing, and non-destructive structural work."
+        },
+        {
+          "name": "Quöfálxoskin",
+          "formerRegistry": "Fantasy",
+          "similarity": 81,
+          "rationale": "Stone-forming bodies, geological memory, mineral dormancy, and deep-earth adaptation overlap with the Stone-Under people."
+        },
+        {
+          "name": "Gravari Runeborn",
+          "formerRegistry": "Alien",
+          "similarity": 84,
+          "rationale": "Mineral bodies, rune seams, vibration sensing, pressure adaptation, and stone-city engineering overlap with Labúnäilbaer."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Underground / Deep Caverns",
+        "Underground / Crystal Caverns",
+        "Underground / Geothermal Caves",
+        "Mountains / Deep Cavern",
+        "Rocky / Stone Plains"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Precision craft, pressure engineering, architecture, and subterranean halls make Marduthor the strongest patron of Labúnäilbaer society.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Anubaldir",
+          "role": "foundation patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Their mineral-adapted bodies, deep-earth endurance, and responsibility for holding tunnels secure reflect burden, strength, and resilience.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "deep-memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Geological memory and the deepest inhabited caverns are ritually associated with the keeper of buried memory and the underworld.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "maitae",
+      "name": "Maitaetiljin",
+      "category": "Hearth-Road Peoples",
+      "summary": "Small-statured people whose identity centers on hospitality, mobile households, orchard stewardship, and luck understood as preparation.",
+      "body": "Small humanoids with strong balance, quick hands, and unusually efficient metabolisms.",
+      "abilities": [
+        "Quiet-footed movement",
+        "Hospitality intuition",
+        "Improvised logistics",
+        "Resilient morale"
+      ],
+      "limits": [
+        "Community obligations can become burdensome",
+        "Long isolation reduces their famed coordination"
+      ],
+      "society": "Hearth circles, road caravans, and orchard wards share law through seasonal gatherings.",
+      "blend": {
+        "celtic": 36,
+        "germanic": 28,
+        "japanese": 20,
+        "baltic": 16
+      },
+      "mergeScore": 71,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Smallfolk",
+        "Hidden Small Nations",
+        "household helper motifs"
+      ],
+      "designNotes": "Replaces generic halfling/smallfolk terminology.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Farming",
+        "Plains / Grassland",
+        "Forest / Partial Forest",
+        "Mountains / Valley"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Ishtanora",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Hearth hospitality, orchards, cultivated plenty, and peaceful household life directly reflect Ishtanora’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "road patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Mobile households and route-centered hospitality place travelers and messengers under Thalunesh’s protection.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "kinship patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Inheritance carried through households, guest bonds, and settled orchard communities connects them to lineage and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "heimujuryz",
+      "name": "Heimujuryz",
+      "category": "Many-Kindred Warclans",
+      "summary": "A broad people with robust, compact, tall, and long-limbed body expressions united by adaptive physiology, clan memory, compatible organ mosaics, and a refusal to equate ancestry with violence.",
+      "body": "Humanoids ranging from small and quick to very tall and heavily built; all share reinforced joints and rapid stress adaptation.",
+      "abilities": [
+        "Battlefield spatial sense",
+        "Environmental and immune adaptation",
+        "Clan-sign communication",
+        "Limited compatible-organ tuning and powerful recovery"
+      ],
+      "limits": [
+        "Only a few adaptive organ systems can coexist safely",
+        "Changes require long recovery",
+        "Overtraining can trigger stress-lock"
+      ],
+      "society": "Cities are built from federated banners, craft houses, family dens, and mediation circles.",
+      "blend": {
+        "slavic": 32,
+        "germanic": 26,
+        "mongolian": 24,
+        "nahua": 18
+      },
+      "mergeScore": 76,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Orcish Folk",
+        "Goblinoid Folk",
+        "trollkin resilience",
+        "Dyhadâwinik"
+      ],
+      "designNotes": "Adaptive Mosaic physiology was merged into Heimujuryz. Their body diversity is not divided into formal bloodlines.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Dyhadâwinik",
+          "formerRegistry": "Fantasy",
+          "similarity": 82,
+          "rationale": "Chosen environmental organs, rapid immune learning, and stress adaptation duplicate the broad adaptive physiology already defining Heimujuryz."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Grassland",
+        "Steppe / Wind-Swept Steppe",
+        "Mountains / Valley",
+        "Forest / Partial Forest",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Oskar'enlil",
+          "role": "primary patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Adaptive physiology, many compatible body expressions, and deliberate balance between instinct and civilization align with the Balancer.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "lineage patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Clan memory and kinship across diverse bodies place ancestry, inheritance, and social continuity under Nebyrr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Enkirael",
+          "role": "martial-survival patron",
+          "titles": [
+            "Lord of Conquest and Fury",
+            "The Unrestrained Blade",
+            "Patron of Martial Survival"
+          ],
+          "domains": [
+            "conquest",
+            "fury",
+            "survival",
+            "dominance",
+            "warfare"
+          ],
+          "rationale": "Warclan traditions invoke Enkirael for survival and defense while explicitly rejecting the belief that ancestry requires violence.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "laubakir",
+      "name": "Läúbakirruna",
+      "category": "Borderland Colossi",
+      "summary": "Large borderland people whose bodies express mountain, grove, or singular-focus adaptations and whose politics range from pastoral to urban.",
+      "body": "Large humanoids with powerful frames; some carry barklike skin, mineral ridges, or a single enlarged central eye.",
+      "abilities": [
+        "Great load-bearing strength",
+        "Weather endurance",
+        "Long-distance landmark memory",
+        "Terrain-shaping labor"
+      ],
+      "limits": [
+        "Require substantial food and recovery",
+        "Dense interiors can restrict movement"
+      ],
+      "society": "Crag councils, grove clans, and one-eye observatories negotiate territory through seasonal moot roads.",
+      "blend": {
+        "norse": 36,
+        "greek": 24,
+        "finnish": 22,
+        "andean": 18
+      },
+      "mergeScore": 73,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Giantkin",
+        "Borderland Jötnar-Kin",
+        "Mountain Schoolmasters"
+      ],
+      "designNotes": "Merges generic giant-descended, pastoral giant, and cyclopean people concepts.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Mountains / Mountain Range",
+        "Mountains / Valley",
+        "Rocky / Rock Formations",
+        "Forest / Lush Forest"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Anubaldir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Colossal bodies, mountain endurance, and the political burden of border guardianship strongly align with Anubaldir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "civic patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their range from pastoral confederacies to large urban polities connects them to civilization, inheritance, and ordered rule.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sigrananna",
+          "role": "grove patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Grove-adapted lineages and forest border settlements recognize Sigrananna’s authority over living woodland.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "szucarin",
+      "name": "Szûcarín",
+      "category": "Draconic and Reptilian Peoples",
+      "summary": "Draconic humanoids of elemental force, dynastic memory, scaled adaptation, and multiple body scales—from compact tunnel runners to marsh and sovereign lineages.",
+      "body": "Scaled humanoids with variable tails, crests, breath organs, and thermoregulatory structures.",
+      "abilities": [
+        "Ancestral element expression",
+        "Scale-memory rituals",
+        "Heat and scent sensitivity",
+        "Powerful territorial recall"
+      ],
+      "limits": [
+        "Elemental organs require recovery",
+        "Cold, drought, or humidity can challenge specific individuals"
+      ],
+      "society": "Lineages organize around parentage archives, hatchery compacts, and negotiated territory rather than color-coded morality.",
+      "bloodlines": [
+        {
+          "name": "Noitzideq Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Saelftum Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Jazwed Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Khoalaros Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Gauksneth Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Tuorszom Bloodline",
+          "description": "A project-canon dragon-parentage line."
+        },
+        {
+          "name": "Tunnelcrest Bloodline",
+          "description": "Compact burrow and ruin specialists."
+        },
+        {
+          "name": "Marshscale Bloodline",
+          "description": "Amphibious reptilian wetland specialists."
+        },
+        {
+          "name": "Sunplate Bloodline",
+          "description": "Dryland thermoregulators with broad protective scales."
+        }
+      ],
+      "blend": {
+        "persian": 30,
+        "nahua": 25,
+        "chinese": 25,
+        "greek": 20
+      },
+      "mergeScore": 69,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Sapient Dragonkind",
+        "Reptilian Folk",
+        "serpent-river court motifs"
+      ],
+      "designNotes": "Absorbs generic kobold and lizardfolk design space into original Szûcarín lineages.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "canonical bloodlines",
+      "biomes": [
+        "Volcanic / Lava Fields",
+        "Volcanic / Volcanic Mountains",
+        "Wetlands / Swamps",
+        "Underground / Geothermal Caves",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Valkhamesh",
+          "role": "primary patron",
+          "titles": [
+            "High Father of Heaven",
+            "Storm-King",
+            "Sovereign of Ancient Dominion"
+          ],
+          "domains": [
+            "draconic bloodlines",
+            "sovereignty",
+            "storms",
+            "ancient dominion"
+          ],
+          "rationale": "Draconic bloodlines, dynastic memory, storms, and sovereign lineages place the Szûcarín directly within Valkhamesh’s claimed dominion.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "dynastic patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Inheritance, lineage law, and long dynastic memory make Nebyrr central to Szûcarín households and courts.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Horundar",
+          "role": "elemental patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Elemental bodies, marsh and volcanic adaptations, and destructive natural force connect them to Horundar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "enad",
+      "name": "Enâdkedzâd",
+      "category": "Planar-Marked Peoples",
+      "summary": "People whose bodies bear inherited marks from boundary realms, survived curses, metabolized radiance or cinder, and vows that became physically visible.",
+      "body": "Humanoids with horns, halos, ember seams, barklike sigils, or shifting eyes; no mark determines ethics.",
+      "abilities": [
+        "Planar resistance",
+        "Oath and contradiction sense",
+        "Controlled radiance or cinder discharge",
+        "Threshold navigation"
+      ],
+      "limits": [
+        "Suppressed marks cause illness",
+        "Unreconciled internal vows can slow decisive action",
+        "Some wards treat every planar signature as hostile"
+      ],
+      "society": "Mark houses teach control while civic law forbids caste systems based on appearance or energetic origin.",
+      "blend": {
+        "persian": 30,
+        "hebraic": 26,
+        "egyptian": 24,
+        "slavic": 20
+      },
+      "mergeScore": 65,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Celestial Being",
+        "Demonic Intelligence",
+        "curse-marked motifs",
+        "Shalikbesvar"
+      ],
+      "designNotes": "The former Oathscar design is now part of Enâdkedzâd physiology and ritual practice, not a separate race or bloodline.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Shalikbesvar",
+          "formerRegistry": "Fantasy",
+          "similarity": 82,
+          "rationale": "Visible oath marks, oath sensing, inherited metaphysical scars, and boundary-linked physiology overlap above the threshold."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Volcanic / Ashlands",
+        "Wasteland / Ruined Landscape",
+        "Mountains / Mountain Range",
+        "Forest / Partial Forest"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Freyseth",
+          "role": "primary patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Planar bloodlines, boundary marks, curses, and binding vows are the clearest expression of Freyseth’s crossroads and pact domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "twilight patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Survived curses, cinder transformations, and visible forbidden magic connect the Enâdkedzâd to Eirzunet.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "radiant patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Radiance-metabolizing lineages interpret sacred light and visible vows through Sokhivar’s prophetic sky symbolism.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "djiumo",
+      "name": "Djiumōtiakić",
+      "category": "Blood-Memory Peoples",
+      "summary": "Living or returned people who carry inherited hunger, grave-bound vitality, ash-recorded identity, and preserved communal memory without being defined as monsters.",
+      "body": "Humanoids with cool skin, pulse-light veins, altered teeth, or visible memory marks.",
+      "abilities": [
+        "Blood, ash, and memory sensing",
+        "Controlled vitality transfer",
+        "Resistance to decay",
+        "Witness-bound restoration and ancestral recall"
+      ],
+      "limits": [
+        "Hunger must be managed consensually",
+        "Isolation weakens witness-restored identity",
+        "Unresolved memories can intrude during stress"
+      ],
+      "society": "Mutual-aid houses regulate feeding, remembrance, burial, and consent through public covenant.",
+      "blend": {
+        "slavic": 34,
+        "egyptian": 26,
+        "japanese": 24,
+        "celtic": 16
+      },
+      "mergeScore": 68,
+      "origin": "replacement",
+      "absorbedFamilies": [
+        "Vampiric Being",
+        "Sapient Undead",
+        "Grave-Bound Revenant",
+        "Ianhavaldyić"
+      ],
+      "designNotes": "Ashledger continuity was merged into Djiumōtiakić as a cultural and physiological restoration practice, not a bloodline.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Ianhavaldyić",
+          "formerRegistry": "Fantasy",
+          "similarity": 86,
+          "rationale": "Returned bodies, preserved identity, communal memory records, decay resistance, and witness-dependent continuity are the same core design."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Wasteland / Ruined Landscape",
+        "Wetlands / Swamps",
+        "Underground / Deep Caverns",
+        "Forest / Partial Forest"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Nefarokir",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Returned life, grave-bound vitality, preserved identity, and communal memory place the Djiumōtiakić closest to the administrator of death.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "return patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Their existence between death and renewed life reflects rot transformed into rebirth rather than simple undeath.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "ash patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Ash-recorded identity and twilight transformation connect some lineages to Eirzunet’s shadowed rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "gandirosha",
+      "name": "Gandirosha",
+      "category": "Fey-Folk",
+      "summary": "Luck-touched wanderers of glamour, timing, masks, music, and courtly bargains; faerie/fairy distinctions and overlapping courtfolk concepts are consolidated here.",
+      "body": "Small or medium humanoids whose wings, horns, masks, tails, or hoof traits depend on bloodline and may be hidden by glamour.",
+      "abilities": [
+        "Fortune sense",
+        "Fleeting glamour",
+        "Boundary etiquette",
+        "Music or mask transformation"
+      ],
+      "limits": [
+        "Promises have metaphysical weight",
+        "Iron-rich environments disrupt some individuals",
+        "Identity changes require consent"
+      ],
+      "society": "Road courts, garden circles, revel houses, and mask guilds share a treaty culture rather than a single monarchy.",
+      "blend": {
+        "celtic": 35,
+        "japanese": 25,
+        "germanic": 20,
+        "yoruba": 20
+      },
+      "mergeScore": 82,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Fae / Otherworld Folk",
+        "Mimic / Changeling",
+        "Horned Nature Folk",
+        "Many-Masked Foxkin"
+      ],
+      "designNotes": "Faerie and fairy are fully merged; licensed courtfolk proper names are not retained.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Forest / Treetops - Treehouses",
+        "Forest / Marshes and Swamps",
+        "Mountains / Valley",
+        "Plains / Grassland"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Wandering, glamour, masks, timing, tricks, and fey mischief directly match Thalunesh’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "glamour patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Courtly beauty, charisma, masks, and emotional presence are commonly interpreted through Nephthysra.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "bargain patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Court bargains, dangerous promises, and threshold etiquette make Freyseth an important cautionary patron.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "music patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Music, performance, and freedom in open-air courts connect many Gandirosha traditions to Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "panolima",
+      "name": "Panolima",
+      "category": "Elemental Peoples",
+      "summary": "Living embodiments of elemental harmony whose bodies negotiate earth, fire, water, air, aether, storms, and dangerous magical light rather than merely casting elemental effects.",
+      "body": "Humanoids with mineral, flame, liquid, vapor, or luminous tissues depending on the selected thread.",
+      "abilities": [
+        "Elemental communion",
+        "Weather-charge storage and hazard sensing",
+        "Matter-shaping impulse",
+        "Safe absorption and release of dangerous magical light"
+      ],
+      "limits": [
+        "Separation from compatible environments causes fatigue",
+        "Opposing extremes can destabilize form",
+        "Overfilled light or weather reserves must be discharged safely"
+      ],
+      "society": "Five elemental threads meet in harmonic councils that prevent any single environment from dominating shared settlements.",
+      "bloodlines": [
+        {
+          "name": "Earth Bloodline",
+          "description": "Stone, soil, mineral, and structural affinity."
+        },
+        {
+          "name": "Fire Bloodline",
+          "description": "Heat, flame, radiance, and thermal resilience."
+        },
+        {
+          "name": "Water Bloodline",
+          "description": "Water breathing, swimming, current adaptation, and fluid shaping."
+        },
+        {
+          "name": "Air Bloodline",
+          "description": "Wind, pressure, gliding, storm sense, and airborne sound."
+        },
+        {
+          "name": "Aether Bloodline",
+          "description": "Arcane weather, force, magical light, and threshold movement."
+        }
+      ],
+      "blend": {
+        "greek": 30,
+        "persian": 25,
+        "indic": 25,
+        "polynesian": 20
+      },
+      "mergeScore": 72,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Elemental Being",
+        "Winter White Court",
+        "storm and weather motifs",
+        "Tiushâmybanu",
+        "Zēsmūoxiuh"
+      ],
+      "designNotes": "Stormglass and Lantern-Eater concepts were absorbed into the established Air, Fire, and Aether bloodlines.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Tiushâmybanu",
+          "formerRegistry": "Fantasy",
+          "similarity": 88,
+          "rationale": "Weather-storing translucent bodies are an Air/Aether expression of the established elemental Panolima."
+        },
+        {
+          "name": "Zēsmūoxiuh",
+          "formerRegistry": "Fantasy",
+          "similarity": 83,
+          "rationale": "Hazardous magical-light absorption and safe radiant release fit the Fire/Aether Panolima bloodlines."
+        }
+      ],
+      "bloodlinePolicy": "canonical bloodlines",
+      "biomes": [
+        "Volcanic / Geothermal Basin",
+        "Mountains / Mountain Range",
+        "Ocean / Underwater without Reefs",
+        "Plains / Grassland",
+        "Underground / Crystal Caverns"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Horundar",
+          "role": "primary patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Earthquakes, storms, water, and raw elemental force make Horundar the broadest patron of Panolima elemental harmony.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "earth-and-fire patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Earth and fire bloodlines honor transformation through stone, heat, craft, and controlled material change.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Bastveig",
+          "role": "water patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Water bloodlines and ocean communities recognize Bastveig’s authority over tides and hidden waters.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "air-and-light patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Air, magical light, and sky-facing aether traditions place part of Panolima worship under Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "gwynis",
+      "name": "Gwynis",
+      "category": "Dream and Psionic Peoples",
+      "summary": "Dream-born ethereals of illusion, memory, psychic insight, and consensual thought-sharing who experience minds as islands joined only by invited bridges.",
+      "body": "Small or medium humanoids with translucent edges, shifting eye patterns, and dream-responsive coloration.",
+      "abilities": [
+        "Dreamsight",
+        "Memory threading",
+        "Consent-bridge telepathy",
+        "Ethereal flicker and empathic projection"
+      ],
+      "limits": [
+        "Strong emotions can bleed across active links",
+        "Too many bridges can blur identity",
+        "Uninvited mind access is physiologically destabilizing"
+      ],
+      "society": "Dream houses maintain privacy law, shared archives, and sleep-road maps.",
+      "blend": {
+        "finnish": 30,
+        "japanese": 25,
+        "celtic": 25,
+        "hebraic": 20
+      },
+      "mergeScore": 75,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Telepathic Folk",
+        "Dream / Fear Being",
+        "Echo-Self Wanderers",
+        "Paijevūahapu"
+      ],
+      "designNotes": "Dream-Archipelago telepathy was merged into Gwynis without adding a new bloodline.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Paijevūahapu",
+          "formerRegistry": "Fantasy",
+          "similarity": 90,
+          "rationale": "Consensual telepathic bridges, shared-dream navigation, emotional tides, and identity-blur limits duplicate Gwynis design space."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Mountains / Valley",
+        "Plains / Grassland",
+        "Ocean / Ocean Surface Floating Settlement",
+        "Underground / Crystal Caverns"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Psionics, memory, mental discipline, and consensual thought-sharing align directly with higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "dream patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Dream birth, illusion, and movement across symbolic mental thresholds connect the Gwynis to Thalunesh.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "empathic patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "The ethics of emotional presence and influence are often framed through Nephthysra’s charisma and affective domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "geisamahi",
+      "name": "Geisamahi",
+      "category": "Small Mammalian Peoples",
+      "summary": "Small ferretlike tinkerers, scouts, repair specialists, and precise builders whose long bodies, sensitive whiskers, mobile ears, and occasional gliding membranes suit tight environments.",
+      "body": "Small mammalian humanoids with long torsos, climbing claws, mobile ears, and expressive tails.",
+      "abilities": [
+        "Whisker and wide-band sound mapping",
+        "Fine tool use and calibrated measurement",
+        "Rapid climbing, gliding, and burst movement",
+        "Machinery-fault localization and fast repair"
+      ],
+      "limits": [
+        "Open exposed terrain offers little cover",
+        "High-frequency noise can overwhelm their senses",
+        "Membrane injuries reduce gliding and measurement accuracy"
+      ],
+      "society": "Workshop warrens are governed by repair obligations and public tool libraries.",
+      "blend": {
+        "germanic": 30,
+        "japanese": 25,
+        "finnish": 25,
+        "korean": 20
+      },
+      "mergeScore": 57,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Small mammalian beastfolk",
+        "household craft motifs",
+        "Famraschungē",
+        "Tinkari Hearthlings"
+      ],
+      "designNotes": "Glider-Tool Folk and Tinkari Hearthlings were merged into Geisamahi physiology and technical culture; no formal bloodlines were added.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Famraschungē",
+          "formerRegistry": "Fantasy",
+          "similarity": 88,
+          "rationale": "Small mammalian tool specialists adapted to tight spaces, precise measurement, rapid construction, and sensory navigation are substantially the same people."
+        },
+        {
+          "name": "Tinkari Hearthlings",
+          "formerRegistry": "Alien",
+          "similarity": 93,
+          "rationale": "Small furry repair specialists with large sensory ears, fine hands, crawlspace habitats, low-light vision, and tool communication duplicate Geisamahi."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Partial Forest",
+        "Underground / Subterranean Forest",
+        "Rocky / Rock Formations",
+        "Plains / Farming",
+        "Mountains / Valley"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Tinkering, repair, precision building, and work in constrained spaces place Geisamahi craft under Marduthor.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "scout patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Scouting, narrow passages, travel, and quick route-finding align with the patron of wanderers and passage.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Oskar'enlil",
+          "role": "adaptation patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Their specialized bodies, whisker-sense, and occasional gliding membranes exemplify adaptive life balanced with civilization.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "deorbasun",
+      "name": "Deorbasun",
+      "category": "Beast-Souled Peoples",
+      "summary": "Majestic beast-souled guardians whose open-ended soul-animal bond expresses coherent animal traits, instinct, territory, scent memory, and social duty without reducing personality to species.",
+      "body": "Medium to very large humanoids with one coherent set of animal traits chosen through a soul bond.",
+      "abilities": [
+        "Natural weapons or animal-linked movement",
+        "Territorial and scent-map awareness",
+        "Ritual hunt focus",
+        "Animal-linked sensory specialization"
+      ],
+      "limits": [
+        "A bond must remain one coherent animal or creature expression",
+        "Industrial odors can disrupt scent-oriented bonds",
+        "Instinct never excuses loss of agency or consent"
+      ],
+      "society": "Territories are maintained by guardian circles and guest-right law.",
+      "bloodlines": [
+        {
+          "name": "Open Soul-Animal Bloodline",
+          "description": "The first true soul-bond permanently establishes one coherent animal or creature expression; no closed preset list is imposed."
+        }
+      ],
+      "blend": {
+        "mongolian": 30,
+        "celtic": 25,
+        "norse": 25,
+        "andean": 20
+      },
+      "mergeScore": 64,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Beastfolk",
+        "Wolf Shifter",
+        "Feline Shifter",
+        "Riddle-Lion Sentinel",
+        "Antler-Masked Revelers",
+        "Kalaisúgöhol"
+      ],
+      "designNotes": "The antlered Scentmap people were absorbed into the existing open soul-animal bloodline.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Kalaisúgöhol",
+          "formerRegistry": "Fantasy",
+          "similarity": 84,
+          "rationale": "Antlered sensory specialization, territorial memory, season tracking, and animal-linked body traits fit the open Deorbasun soul-animal model."
+        }
+      ],
+      "bloodlinePolicy": "canonical bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Plains / Grassland",
+        "Mountains / Mountain Range",
+        "Wetlands / Marshes",
+        "Steppe / Wind-Swept Steppe"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Iskareth",
+          "role": "primary patron",
+          "titles": [
+            "Mother of Beasts",
+            "Keeper of Living Kinship",
+            "The Watching Predator"
+          ],
+          "domains": [
+            "instinct",
+            "beasts",
+            "fertility",
+            "natural kinship"
+          ],
+          "rationale": "Soul-animal bonds, instinct, territory, fertility, and natural kinship directly match Iskareth’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sigrananna",
+          "role": "wilderness patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Guardian duties across forests, mountains, and hunting grounds place many Deorbasun traditions under Sigrananna.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "social-duty patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their animal expression never overrides personhood or communal duty, which connects kinship obligations to Nebyrr’s social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "aburata",
+      "name": "Aburata",
+      "category": "Dual-Form Equine Peoples",
+      "summary": "Infernal-looking but morality-neutral equinefolk able to shift between upright and quadrupedal forms, carrying ambition, heat, and commanding presence.",
+      "body": "Medium humanoids with horns, tails, hooves, and a full quadrupedal alternate form.",
+      "abilities": [
+        "Dual-form movement",
+        "Heat resistance",
+        "Commanding voice",
+        "Momentum control"
+      ],
+      "limits": [
+        "Form changes require space",
+        "Cold saturation weakens heat-based lineages"
+      ],
+      "society": "Road principalities and oath stables treat mobility as citizenship.",
+      "blend": {
+        "persian": 30,
+        "arabian": 25,
+        "greek": 25,
+        "slavic": 20
+      },
+      "mergeScore": 61,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Centauroid Folk",
+        "Eightfold sky-steed motif",
+        "horned labyrinth guardian"
+      ],
+      "designNotes": "",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Grassland",
+        "Steppe / Dry Grasslands",
+        "Volcanic / Geothermal Basin",
+        "Mountains / Valley",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Movement between upright and quadrupedal forms makes the shapeshifting patron the clearest Aburata association.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "freedom patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Open grasslands, mobile equine life, ambition, and refusal of imposed moral coding align with freedom and wilderness rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Enkirael",
+          "role": "heat-and-command patron",
+          "titles": [
+            "Lord of Conquest and Fury",
+            "The Unrestrained Blade",
+            "Patron of Martial Survival"
+          ],
+          "domains": [
+            "conquest",
+            "fury",
+            "survival",
+            "dominance",
+            "warfare"
+          ],
+          "rationale": "Heat, forceful presence, and martial ambition draw some Aburata houses toward Enkirael’s survival cults.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "drilthar",
+      "name": "Dril'thar",
+      "category": "Amphibious Peoples",
+      "summary": "Amphibious mystics whose gelatinous egg-clutches and metamorphic growth produce lineages adapted to grassland waters, forests, marshes, rainforests, oceans, and reefs.",
+      "body": "Small or medium amphibious humanoids with climbing, swimming, and air-breathing capability.",
+      "abilities": [
+        "Air and underwater breathing shared by every bloodline",
+        "Current sense",
+        "Metamorphic adaptation",
+        "Climbing and swimming"
+      ],
+      "limits": [
+        "Skin requires moisture management",
+        "Polluted water can disrupt metamorphosis"
+      ],
+      "society": "Watershed councils recognize every connected body of water as a political neighbor.",
+      "bloodlines": [
+        {
+          "name": "Grassland Bloodline",
+          "description": "Flooded plains, seasonal rivers, colossal reeds, and wind-swept wetlands."
+        },
+        {
+          "name": "Lush Forest Bloodline",
+          "description": "Misty forests, root-choked wetlands, and rain-soaked valleys."
+        },
+        {
+          "name": "Marsh Bloodline",
+          "description": "Toxic bogs, fungal wetlands, stagnant marshes, and blackwater rivers."
+        },
+        {
+          "name": "Rainforest Bloodline",
+          "description": "Flooded jungles, mangrove labyrinths, and canopy spawning forests."
+        },
+        {
+          "name": "Ocean Bloodline",
+          "description": "Open seas, storm coasts, trenches, and deep migratory routes."
+        },
+        {
+          "name": "Reef Bloodline",
+          "description": "Coral kingdoms, volcanic shallows, mangrove reefs, and luminous underwater cities."
+        }
+      ],
+      "blend": {
+        "polynesian": 30,
+        "celtic": 25,
+        "swahili": 25,
+        "japanese": 20
+      },
+      "mergeScore": 70,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Aquatic Folk",
+        "River-Court People",
+        "amphibious reptilian motifs"
+      ],
+      "designNotes": "",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "canonical bloodlines",
+      "biomes": [
+        "Wetlands / Marshes",
+        "Wetlands / Mangrove Wetlands",
+        "Forest / Rainforest",
+        "Ocean / Underwater with Reefs",
+        "Plains / Grassland"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "All Dril'thar breathe underwater, and their ocean and reef bloodlines place the race within Bastveig’s hidden-water sphere.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "metamorphosis patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Egg-clutches, metamorphic growth, and habitat-shaped life cycles reflect seasonal transformation and rebirth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Iskareth",
+          "role": "living-kinship patron",
+          "titles": [
+            "Mother of Beasts",
+            "Keeper of Living Kinship",
+            "The Watching Predator"
+          ],
+          "domains": [
+            "instinct",
+            "beasts",
+            "fertility",
+            "natural kinship"
+          ],
+          "rationale": "Their many ecological lineages and communal spawning traditions connect fertility and natural kinship to Iskareth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "tamhiogal",
+      "name": "Tamhiogal",
+      "category": "Tidal Peoples",
+      "summary": "Aquatic bettafolk with hydromancy, coral and reef-memory stewardship, bioluminescent tendrils, resonant communication, and bodies adapted to air, water, currents, and pressure changes.",
+      "body": "Medium aquatic humanoids with finned limbs, expressive tendril-hair, and an optional swimming tail form.",
+      "abilities": [
+        "Hydromancy and tidal form",
+        "Bioluminescent, color, and throat-resonance signaling",
+        "Marine and reef-memory communion",
+        "Current, pressure, and water-chemistry sensing"
+      ],
+      "limits": [
+        "Dry conditions require care",
+        "Pollution and bleaching damage senses and coral archives",
+        "Tendril or throat light can reveal location"
+      ],
+      "society": "Reef cities are governed by current schedules, nursery sanctuaries, and song navigation.",
+      "blend": {
+        "polynesian": 30,
+        "japanese": 25,
+        "chinese": 25,
+        "maya": 20
+      },
+      "mergeScore": 66,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Merfolk-like motifs",
+        "Song-Lure Mariners",
+        "aquatic courts",
+        "Ngōhēniwi",
+        "Myralume Navigators",
+        "Nerathi Tidebound"
+      ],
+      "designNotes": "Reeflattice Folk, Myralume Navigators, and Nerathi Tidebound were consolidated into Tamhiogal without creating bloodlines.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Ngōhēniwi",
+          "formerRegistry": "Fantasy",
+          "similarity": 91,
+          "rationale": "Aquatic reef symbiosis, color signaling, coral stewardship, mineral exchange, and water-adapted humanoid anatomy duplicate Tamhiogal."
+        },
+        {
+          "name": "Myralume Navigators",
+          "formerRegistry": "Alien",
+          "similarity": 86,
+          "rationale": "Amphibious humanoid anatomy, pressure sensing, mantle signaling, navigation, and humid aquatic habitats overlap with Tamhiogal."
+        },
+        {
+          "name": "Nerathi Tidebound",
+          "formerRegistry": "Alien",
+          "similarity": 89,
+          "rationale": "Gills, tidal habitats, water chemistry sense, resonant throat communication, and aquatic emotional signaling duplicate Tamhiogal."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Ocean / Underwater with Reefs",
+        "Ocean / Underwater without Reefs",
+        "Ocean / Ocean Surface Floating Settlement",
+        "Wetlands / Mangrove Wetlands",
+        "Wetlands / Floodplains"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Tides, reefs, trenches, coral stewardship, and ocean civilization are Bastveig’s explicit domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Horundar",
+          "role": "hydromancy patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Hydromancy, pressure changes, floods, and powerful currents connect Tamhiogal elemental rites to Horundar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "resonance patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Bioluminescent display and resonant communication give Sokhivar a secondary role in music-and-light observances.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "jaspey",
+      "name": "Jaspey",
+      "category": "Tiny Plant and Fungal Peoples",
+      "summary": "Tiny raccoon-like plant-fungal people who cling, climb, cultivate spores, filter toxins, and treat decomposition as archival ecology; their spore veils can protect identifying detail without altering memory or consent.",
+      "body": "Tiny raccoon-like humanoids, usually four to eight inches tall, with fur, expressive tails, and cap, leaf, moss, root, or fungal structures.",
+      "abilities": [
+        "Surface clinging",
+        "Spore and mycelial communication",
+        "Plant and fungal affinity",
+        "Privacy spore veils and exceptional concealment"
+      ],
+      "limits": [
+        "Fire and desiccation are severe threats",
+        "Veil use consumes nutrient reserves",
+        "Tiny scale limits force and reach"
+      ],
+      "society": "Micro-settlements occupy gardens, walls, ruins, and mobile terrariums.",
+      "blend": {
+        "finnish": 30,
+        "japanese": 25,
+        "celtic": 25,
+        "slavic": 20
+      },
+      "mergeScore": 58,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Plant-Bound Folk",
+        "mandrake motifs",
+        "spore and harvest motifs",
+        "Kriakeisöjak"
+      ],
+      "designNotes": "Sporeveil Folk were merged into Jaspeys. Mosscap, Gloomtail, and Rotcap remain forms, explicitly not bloodlines.",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Kriakeisöjak",
+          "formerRegistry": "Fantasy",
+          "similarity": 94,
+          "rationale": "A fungal-bodied, mycelially communicating spore people is directly covered by Jaspey biology; privacy veils become a Jaspey capability rather than a new race."
+        }
+      ],
+      "bloodlinePolicy": "canonical forms only; forms are not bloodlines",
+      "forms": [
+        {
+          "name": "Mosscap",
+          "description": "A gentle healing and herbalist form covered in moss, pale mushrooms, medicinal fungi, and softly glowing spores."
+        },
+        {
+          "name": "Gloomtail",
+          "description": "A stealth-focused scavenger form suited to ruins, alleyways, tunnels, graveyards, and cluttered built environments."
+        },
+        {
+          "name": "Rotcap",
+          "description": "A decay-attuned mystic form associated with fungi, spirits, curses, decomposition, and forgotten knowledge."
+        }
+      ],
+      "biomes": [
+        "Forest / Lush Forest",
+        "Forest / Marshes and Swamps",
+        "Underground / Subterranean Forest",
+        "Wetlands / Swamps",
+        "Wasteland / Ruined Landscape"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Hathruna",
+          "role": "primary patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Fungi, roots, spores, decomposition, and ecological rebirth make Hathruna the central Jaspey deity.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "archive patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Treating decomposition as an archive of identity and memory connects Jaspey funerary ecology to Nefarokir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "role": "toxin-and-mutation patron",
+          "titles": [
+            "The First Devourer",
+            "Father of Aberrant Life",
+            "The Folded Colossus"
+          ],
+          "domains": [
+            "aberrant life",
+            "mutation",
+            "insectoid horrors",
+            "oozes"
+          ],
+          "rationale": "Toxin filtering, unusual symbiosis, and adaptive spore forms create a wary ritual association with aberrant life and mutation.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "volsarii",
+      "name": "Volsarii",
+      "category": "Liminal and Spirit Peoples",
+      "summary": "Four-armed ferriers of souls, liminal balance, antennae-guided spirit sense, and wings that become fully functional late in the life cycle.",
+      "body": "Medium four-armed humanoids with antennae and spiritual, feathered, or gossamer wings.",
+      "abilities": [
+        "Spirit sensing",
+        "Liminal stepping",
+        "Multi-arm tool use",
+        "Soul guidance"
+      ],
+      "limits": [
+        "Threshold work attracts lingering memories",
+        "Wing development requires a completed life-stage rite"
+      ],
+      "society": "Ferrier colleges remain politically neutral and record the consent of the dead.",
+      "blend": {
+        "hebraic": 30,
+        "egyptian": 25,
+        "greek": 25,
+        "persian": 20
+      },
+      "mergeScore": 73,
+      "origin": "core",
+      "absorbedFamilies": [
+        "Death Guide",
+        "Gate-Name Sentinels",
+        "Memory-Bird Ancestors"
+      ],
+      "designNotes": "",
+      "nameCheck": "Pre-existing project-original name",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Mountains / Valley",
+        "Forest / Partial Forest",
+        "Wetlands / Floodplains",
+        "Wasteland / Ruined Landscape",
+        "Underground / Deep Caverns"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Nefarokir",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Ferriers of souls and keepers of spirit passage are directly associated with death, spirits, memory, and the underworld.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Their liminal balance and work at boundaries between states place crossings under Freyseth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "winged-ascent patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Late-life functional wings are interpreted through sky, freedom, and prophetic ascent symbolism.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c01",
+      "name": "Hīnduigrägin",
+      "category": "Waymemory Folk",
+      "summary": "Small nomads who store routes as shared sensory memories and can lend a remembered path to another traveler.",
+      "body": "Small humanoids with patterned footpads and memory-sensitive inner ears.",
+      "abilities": [
+        "Borrowed route-memory",
+        "Perfect return sense",
+        "Pack-light logistics"
+      ],
+      "limits": [
+        "False landmarks can corrupt an unverified memory"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "celtic": 34,
+        "japanese": 26,
+        "germanic": 22,
+        "polynesian": 18
+      },
+      "mergeScore": 58,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 01 covers restricted-record audit range R001–R003. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Grassland",
+        "Steppe / Wind-Swept Steppe",
+        "Mountains / Valley",
+        "Forest / Partial Forest",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Shared route-memory, travel, and the ability to lend a remembered path align with passage and wanderers.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "nomad patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Open-road freedom, communal wandering, and survival across steppe and badlands connect them to Asethyr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "The preservation and transfer of sensory memories gives Nefarokir a secondary place in remembrance rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c03",
+      "name": "Wimokhurumī",
+      "category": "Shellscript Folk",
+      "summary": "Slow-traveling nomads whose removable mineral backplates record law, maps, and family history in growing ridges.",
+      "body": "Medium humanoids with segmented living shell mantles.",
+      "abilities": [
+        "Shell inscription growth",
+        "Impact bracing",
+        "Long-distance water conservation"
+      ],
+      "limits": [
+        "Shell damage can erase recent records"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "chinese": 28,
+        "andean": 26,
+        "persian": 24,
+        "polynesian": 22
+      },
+      "mergeScore": 63,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 03 covers restricted-record audit range R007–R009. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Wetlands / Floodplains",
+        "Rocky / Stone Plains",
+        "Mountains / Valley",
+        "Plains / Grassland"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Mineral backplates that grow as maps, legal records, and crafted archives join stone, architecture, and skilled making.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "law-and-lineage patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Recorded law and family history place inheritance and civic order under Nebyrr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Anubaldir",
+          "role": "endurance patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Slow travel and protective mineral bodies reflect patience, burden, and resilience.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c06",
+      "name": "Byevaichetar",
+      "category": "Moonmolt Folk",
+      "summary": "Lunar-seasonal people who shed a complete outer body layer at chosen life stages, preserve selected memories, and archive the cast seasonal skins as civic records.",
+      "body": "Humanoids with layered weather-adaptive skin, lunar eye rings, and cocoon-building glands.",
+      "abilities": [
+        "Age-stage molting",
+        "Seasonal insulation and weather prediction",
+        "Chosen memory retention",
+        "Archive shedding"
+      ],
+      "limits": [
+        "A disrupted molt can strand memories between layers",
+        "Unseasonal climate shifts can mistime a molt",
+        "Recovery requires a protected cocoon period"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "japanese": 32,
+        "celtic": 26,
+        "finnish": 24,
+        "korean": 18
+      },
+      "mergeScore": 67,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records",
+        "Haeqorasemek"
+      ],
+      "designNotes": "Season-Skin Folk were merged into Moonmolt Folk without creating formal bloodlines.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [
+        {
+          "name": "Haeqorasemek",
+          "formerRegistry": "Fantasy",
+          "similarity": 89,
+          "rationale": "Seasonal outer-body shedding, weather-linked physiology, retained memories, and molt timing are one coherent Moonmolt design."
+        }
+      ],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Lush Forest",
+        "Plains / Grassland",
+        "Wetlands / Floodplains",
+        "Mountains / Valley"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Sigrananna",
+          "role": "primary patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Lunar cycles are the organizing principle of Moonmolt bodies and civic life.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "renewal patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Chosen molts and preserved seasonal skins enact visible cycles of shedding, return, and rebirth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Archived skins holding selected memories connect civic remembrance to Nefarokir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c09",
+      "name": "Nunzāozhenur",
+      "category": "Memory-Loom Folk",
+      "summary": "Constructed people whose bodies are woven from replaceable memory ribbons; replacing a ribbon changes skill without replacing personhood.",
+      "body": "Humanoid frames wrapped in textile-like living data bands.",
+      "abilities": [
+        "Skill ribbon exchange",
+        "Damage rerouting",
+        "Archive synchronization"
+      ],
+      "limits": [
+        "Unauthorized ribbon copying is both dangerous and illegal"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "chinese": 28,
+        "hebraic": 26,
+        "mesopotamian": 24,
+        "korean": 22
+      },
+      "mergeScore": 64,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 09 covers restricted-record audit range R025–R027. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Farming",
+        "Wasteland / Ruined Landscape",
+        "Rocky / Stone Plains",
+        "Underground / Crystal Caverns"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Constructed bodies made from replaceable memory ribbons fall directly under awakened life and artificial personhood.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "knowledge patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Skill-bearing memory ribbons and continuity of personhood raise questions of intellect and higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "civic-personhood patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their legal recognition as persons and communal stewardship of memory are tied to civilization and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c10",
+      "name": "Tsovašwimóm",
+      "category": "Hearthforged Folk",
+      "summary": "Awakened ceramic-and-wood people fired around a voluntarily donated story rather than a command.",
+      "body": "Articulated bodies of ceramic, wood, fiber, and warm internal light.",
+      "abilities": [
+        "Heat-fed repair",
+        "Tool integration",
+        "Story-core empathy"
+      ],
+      "limits": [
+        "Core stories can be manipulated if carelessly publicized"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "germanic": 30,
+        "yoruba": 26,
+        "japanese": 24,
+        "baltic": 20
+      },
+      "mergeScore": 68,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 10 covers restricted-record audit range R028–R030. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Farming",
+        "Forest / Partial Forest",
+        "Volcanic / Geothermal Basin",
+        "Wasteland / Ruined Landscape"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Awakened ceramic-and-wood bodies are a clear expression of artificial life created without enslavement.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "hearth patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "The donated story is fired within a hearth-centered birth rite, linking new life to home and village continuity.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "craft patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Ceramic firing, woodcraft, and deliberate construction make Marduthor an important maker-patron.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c11",
+      "name": "Köpounnälanvar",
+      "category": "Clockfeather Folk",
+      "summary": "Light mechanical avials whose feathers are individual timekeeping vanes used to coordinate migrations and public transit.",
+      "body": "Small or medium avian humanoids with metallic keratin feathers.",
+      "abilities": [
+        "Precision flock timing",
+        "Gliding",
+        "Micro-vibration hearing"
+      ],
+      "limits": [
+        "Magnetic storms desynchronize feather clocks"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "finnish": 28,
+        "chinese": 26,
+        "germanic": 24,
+        "polynesian": 22
+      },
+      "mergeScore": 62,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 11 covers restricted-record audit range R031–R033. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Mountains / Mountain Range",
+        "Steppe / Wind-Swept Steppe",
+        "Plains / Grassland",
+        "Forest / Treetops - Treehouses"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Mechanical avian bodies and timekeeping feathers directly align with awakened machinery.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "sky patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Flight, feathers, migration, public coordination, and sky symbolism connect them to Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "mechanism patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Clockwork maintenance and transit infrastructure place skilled engineering under Marduthor.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c12",
+      "name": "Thalojomammǫ",
+      "category": "Cliffsong Folk",
+      "summary": "Aerial people whose layered songs encode maps, law, and safe wind corridors across mountain chains.",
+      "body": "Winged humanoids with resonant chest cavities and cliff-gripping feet.",
+      "abilities": [
+        "Song cartography",
+        "Wind reading",
+        "Long-range choral signaling"
+      ],
+      "limits": [
+        "Throat injury can temporarily isolate a traveler from public maps"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "andean": 30,
+        "greek": 26,
+        "norse": 24,
+        "maya": 20
+      },
+      "mergeScore": 74,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 12 covers restricted-record audit range R034–R036. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Mountains / Mountain Range",
+        "Mountains / Valley",
+        "Rocky / Rock Formations",
+        "Steppe / Wind-Swept Steppe"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Sokhivar",
+          "role": "primary patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Sky travel, layered song, and safe wind corridors directly match sunlight, music, prophecy, and divine freedom.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "passage patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Their sung maps guide travelers through mountain crossings and shifting air routes.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "law patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Encoding law and civic agreements in song connects the Cliffsong Folk to ordered civilization.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c13",
+      "name": "Suarrižkuset",
+      "category": "Nightsonar Folk",
+      "summary": "Nocturnal avials who see architecture through social echolocation, identifying both shape and emotional tension in a room.",
+      "body": "Owl-batlike humanoids with broad facial resonators.",
+      "abilities": [
+        "Social echolocation",
+        "Silent glide",
+        "Pulse-language"
+      ],
+      "limits": [
+        "Dense continuous noise erases useful echoes"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "korean": 28,
+        "slavic": 26,
+        "basque": 24,
+        "egyptian": 22
+      },
+      "mergeScore": 69,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 13 covers restricted-record audit range R037–R039. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Underground / Deep Caverns",
+        "Mountains / Deep Cavern",
+        "Forest / Treetops - Treehouses",
+        "Wasteland / Ruined Landscape"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Eirzunet",
+          "role": "primary patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Nocturnal life, shadowed architecture, and perception beyond ordinary light align with twilight and forbidden shadow.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "avian patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Despite their nocturnal habits, their avian bodies and aerial culture preserve an inherited association with the sky.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "perception patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Social echolocation that reads spatial and emotional tension is treated as a disciplined form of higher perception.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c14",
+      "name": "Fūnradnecael",
+      "category": "Sunplume Folk",
+      "summary": "Migratory people whose solar feathers store heat for long high-altitude crossings and broadcast civic identity through changing crest geometry.",
+      "body": "Tall avian humanoids with radiant plume fans and heat-retaining bones.",
+      "abilities": [
+        "Solar heat storage",
+        "Thermal soaring",
+        "Crest-sign language"
+      ],
+      "limits": [
+        "Extended overcast requires communal heat sharing",
+        "Damaged crest feathers temporarily reduce stored warmth and public signaling"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "nahua": 30,
+        "egyptian": 26,
+        "polynesian": 24,
+        "indic": 20
+      },
+      "mergeScore": 66,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 14 covers restricted-record audit range R040–R042. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Plains / Grassland",
+        "Steppe / Wind-Swept Steppe",
+        "Mountains / Mountain Range",
+        "Volcanic / Geothermal Basin"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Sokhivar",
+          "role": "primary patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Solar feathers, migration, high-altitude travel, and visible civic crests directly reflect Sokhivar’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "migration patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Long free-ranging migrations and survival in exposed country connect them to wilderness freedom.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "identity patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Changing crest geometry broadcasts public identity through beauty, charisma, and unique form.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c17",
+      "name": "Losōbhūsmoe",
+      "category": "Tidefur Folk",
+      "summary": "Amphibious furred navigators who read currents through hollow whiskers and maintain floating civic gardens.",
+      "body": "Otter-seal-like humanoids with insulating fur and pressure whiskers.",
+      "abilities": [
+        "Current reading",
+        "Cold-water endurance",
+        "Floating horticulture"
+      ],
+      "limits": [
+        "Oil and surface pollutants disable whisker sensing"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "polynesian": 32,
+        "finnish": 24,
+        "japanese": 22,
+        "celtic": 22
+      },
+      "mergeScore": 68,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 17 covers restricted-record audit range R049–R051. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Ocean / Ocean Surface Floating Settlement",
+        "Ocean / Underwater without Reefs",
+        "Wetlands / Floodplains",
+        "Wetlands / Mangrove Wetlands"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Current-reading whiskers, amphibious navigation, floating settlements, and tidal life place them under Bastveig.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "navigation patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Long-distance navigation and movement among floating communities connect them to passage and wanderers.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "garden patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Floating civic gardens and food stewardship give Ishtanora a secondary role in cultivated abundance.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c19",
+      "name": "Dātseṣapyal",
+      "category": "Gelweave Folk",
+      "summary": "Soft-bodied communal people who temporarily weave together for heavy labor without forming a hive mind.",
+      "body": "Translucent humanoids with elastic connective tissues.",
+      "abilities": [
+        "Voluntary body-weaving",
+        "Shock absorption",
+        "Chemical speech"
+      ],
+      "limits": [
+        "Dryness and involuntary separation cause injury"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "korean": 28,
+        "japanese": 26,
+        "yoruba": 24,
+        "mesopotamian": 22
+      },
+      "mergeScore": 67,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 19 covers restricted-record audit range R055–R057. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Wetlands / Marshes",
+        "Wetlands / Swamps",
+        "Ocean / Ocean Surface Floating Settlement",
+        "Underground / Underground Lakes"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Oskar'enlil",
+          "role": "primary patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "role": "gel-form patron",
+          "titles": [
+            "The First Devourer",
+            "Father of Aberrant Life",
+            "The Folded Colossus"
+          ],
+          "domains": [
+            "aberrant life",
+            "mutation",
+            "insectoid horrors",
+            "oozes"
+          ],
+          "rationale": "Soft bodies and temporary collective forms create a direct, if cautious, religious association with oozes and aberrant life.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "communal-labor patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Voluntary weaving for heavy labor is celebrated through village cooperation and peaceful shared work.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c20",
+      "name": "Shahreshōchü",
+      "category": "Silkroot Folk",
+      "summary": "Gardeners whose rootlike lower limbs spin living silk to anchor terraces, bridges, and seed nurseries.",
+      "body": "Humanoids with fibrous lower limbs and multiple fine manipulator fingers.",
+      "abilities": [
+        "Living silk growth",
+        "Root anchoring",
+        "Seed incubation"
+      ],
+      "limits": [
+        "Fire and salt rapidly weaken fresh silk"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "chinese": 30,
+        "japanese": 26,
+        "persian": 24,
+        "andean": 20
+      },
+      "mergeScore": 70,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 20 covers restricted-record audit range R058–R060. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Treetops - Treehouses",
+        "Forest / Rainforest",
+        "Mountains / Valley",
+        "Wetlands / Floodplains"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Hathruna",
+          "role": "primary patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Rootlike limbs, seed nurseries, living growth, and seasonal garden renewal place them under the Root-Mother.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "cultivation patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Terrace gardens, nurseries, and community food systems connect them to harvest and village plenty.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "builder patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Living silk bridges and anchored architecture make sacred construction a major secondary tradition.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c22",
+      "name": "Fahánčoatani",
+      "category": "Shadowstitch Folk",
+      "summary": "People who sew detached shadows into temporary tools, shelters, or decoys while every shadow remains linked to its owner.",
+      "body": "Humanoids with dark seam lines and prehensile shadow filaments.",
+      "abilities": [
+        "Shadow weaving",
+        "Low-light concealment",
+        "Decoy shaping"
+      ],
+      "limits": [
+        "Bright omnidirectional light leaves little usable shadow"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "yoruba": 28,
+        "hebraic": 26,
+        "slavic": 24,
+        "arabian": 22
+      },
+      "mergeScore": 69,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 22 covers restricted-record audit range R064–R066. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Partial Forest",
+        "Underground / Deep Caverns",
+        "Wasteland / Ruined Landscape",
+        "Mountains / Valley"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Eirzunet",
+          "role": "primary patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Detached shadows, twilight craft, and tools made from darkness directly align with Eirzunet.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "craft patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Sewing shadows into shelters and tools treats impossible material as a disciplined craft.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "decoy patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Temporary decoys and misdirection connect Shadowstitch practice to trickery and shifting passage.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c27",
+      "name": "Trábuẹmapgir",
+      "category": "Chromatic Empaths",
+      "summary": "People whose skin colors show broad emotional pressure but never specific thoughts, making honesty visible without erasing privacy.",
+      "body": "Humanoids with layered chromatophore fields and low-light color vision.",
+      "abilities": [
+        "Emotional pressure display",
+        "Color-to-color calming",
+        "Group stress sensing"
+      ],
+      "limits": [
+        "They cannot fully hide distress without discomfort"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "yoruba": 30,
+        "persian": 26,
+        "indic": 24,
+        "maya": 20
+      },
+      "mergeScore": 66,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 27 covers restricted-record audit range R079–R081. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Forest / Rainforest",
+        "Plains / Grassland",
+        "Wetlands / Mangrove Wetlands",
+        "Forest / Treetops - Treehouses"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Nephthysra",
+          "role": "primary patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Visible emotional color, charisma, affect, and unique appearance place the Chromatic Empaths closest to Nephthysra.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "empathic-discipline patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Their ability reveals broad emotional pressure without reading thoughts, requiring disciplined understanding and consent.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "social-trust patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Public honesty balanced with privacy has become part of civic law and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "id": "c28",
+      "name": "Zaktadaitü",
+      "category": "Mirror-Time Folk",
+      "summary": "People who perceive one probable future and one remembered past simultaneously, then choose which perspective guides the present.",
+      "body": "Humanoids with mirrored eyes that focus independently.",
+      "abilities": [
+        "Dual-time attention",
+        "Probability caution",
+        "Retrospective reconstruction"
+      ],
+      "limits": [
+        "Conflicting timelines can delay action",
+        "Predictions are possibilities, never certainty"
+      ],
+      "society": "This people is a fully original compensation design; its institutions are described independently of the discarded source records.",
+      "blend": {
+        "mesopotamian": 28,
+        "hebraic": 26,
+        "chinese": 24,
+        "greek": 22
+      },
+      "mergeScore": 71,
+      "origin": "compensation",
+      "absorbedFamilies": [
+        "abstract role-space from three removed records"
+      ],
+      "designNotes": "Compensation slot 28 covers restricted-record audit range R082–R084. No protected name, lore phrase, or game mechanic was retained.",
+      "nameCheck": "No exact indexed match found on 2026-07-24",
+      "worldClass": "Universal greenhouse homeworld",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines",
+      "biomes": [
+        "Mountains / Valley",
+        "Plains / Grassland",
+        "Underground / Crystal Caverns",
+        "Wasteland / Ruined Landscape"
+      ],
+      "biomeBasis": "Primary habitats on Universal’s warm greenhouse homeworld; desert, tundra, arctic, and alien-only categories are excluded.",
+      "deityAssignments": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Simultaneous awareness of probable future and remembered past is a direct form of higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "prophecy patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Probable futures are interpreted through prophecy while remaining choices rather than fixed commands.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "The remembered past remains continuously present, giving memory rites a strong Nefarokir association.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "choice-threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Choosing which temporal perspective guides the present is treated as a crossing between possible paths.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "deityAssignmentNote": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    }
+  ],
+  "alien_folk": [
+    {
+      "id": "alien_azaeioaiz",
+      "name": "Azae’Ioaiz",
+      "summary": "Outer covering: Bright blue skin in several shades; the central facial ridge is often darker or more pronounced; Weight: Medium; species-typical range, with wide individual variation; Defining feature: blue skin; Height: about 185-220; Diet or energy need: omnivore; Defining feature: exceptional longevity; Head: Large centipede head with mandibles and antennae; Limbs: Dozens to hundreds of jointed legs.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Alien / Bioluminescent Landscape",
+        "Forest / Rainforest",
+        "Wetlands / Swamps"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_azhurai_striders",
+      "name": "Azhurai Striders",
+      "summary": "Very tall blue-to-lavender bipeds with elongated heads, flexible antennae, swept ears, long limbs, claws, and a carnivore bite. Native or preferred environments include Low-gravity glacial moons and tall cavern arcologies. Antennae read air pressure and nearby motion; wide eyes favor cold, blue-rich light. Speech, antenna posture, ear angle, and controlled tooth display; clothing leaves the antennae unbound.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Tundra / Glacial Valley",
+        "Arctic / Snow Plains",
+        "Underground / Deep Caverns",
+        "Alien / Floating Landmasses"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_bratuith",
+      "name": "Bratuith",
+      "summary": "Height: Medium to tall; species-typical to species-typical range; Weight: Medium; often lean or athletic; Eyes: Two humanlike eyes; Special adaptation: Sensory organs: Small nostrils and strong aquatic sensory adaptation; Outer covering: Smooth moist amphibious skin; Outer covering: species-typical skin and leathery bat wings; Limbs: Two arms; lower body has two legs; upper body grows wings; Eyes: Red, yellow, dark, or reflective eyes.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Ocean / Underwater without Reefs",
+        "Wetlands / Mangrove Wetlands",
+        "Underground / Underground Lakes",
+        "Alien / Bioluminescent Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_cyaisyne",
+      "name": "Cyai’Syne",
+      "summary": "Head: Small hairless body supporting an enlarged bulbous cranium with visible vascular or brainlike contours; Defining feature: enlarged cranium; Special adaptation: Can project convincing shared illusions; Defining feature: powerful resonant voice; Head: Large hammer-shaped head with eyes on the outer sides and two mouths on the lower neck; Height: about 180-230; Diet or energy need: Grass, sage, bark, and desert plants; Head: Rabbit head with deer or pronghorn antlers.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Desert / Rocky Desert",
+        "Steppe / Semi-Arid Plains",
+        "Alien / Floating Landmasses",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_daiaeyzyix",
+      "name": "Daiaeyzyix",
+      "summary": "Eyes: Two humanlike eyes with individual color variation; Weight: Medium; species-typical range, with wide individual variation; Weight: approximately 0.5–2.5 kg, averaging near 1.2 kg; Head: Tiny wrinkled head with a broad forehead and short muzzle; Height: roughly 20-35; Diet or energy need: species-typical, animals, and insects; Eyes: Multiple dark red or glowing eyes.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Rainforest",
+        "Underground / Subterranean Forest",
+        "Alien / Fungal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_feiwhieiyea",
+      "name": "Feiwhieiýea",
+      "summary": "Defining feature: great strength; Head: Broad reptilian or rhinoceros-inspired head with layered facial ridges, bony forehead projections, and a strong jaw; Outer covering: Gray, brown-gray, or mottled hide with scaled or pebbled texture; Height: about 185-220; Defining feature: very tall stature; Weight: approximately 50–95 kg, averaging near 70 kg; Eyes: Large calm penetrating eyes; Outer covering: species-typical skin, lion fur, and sometimes feathers.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Rocky / Badlands",
+        "Mountains / Mountain Range",
+        "Steppe / Dry Grasslands",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_hukhezhian",
+      "name": "Hukhezhian",
+      "summary": "Weight: Medium; species-typical range; Limbs: Two arms and two legs with species-typical hands and feet; Height: roughly adult-sized; Special adaptation: high-pressure adaptation; Defining feature: technologically sophisticated life-support gear; Eyes: Red, yellow, black, or glaring eyes; Defining feature: iron club; Outer covering: Thick leathery skin and coarse hair.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Ocean / Underwater without Reefs",
+        "Wasteland / Toxic Wasteland",
+        "Alien / Toxic Atmosphere",
+        "Underground / Geothermal Caves"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_ioaeaeudi",
+      "name": "Ioaeaeudi",
+      "summary": "Limbs: Two arms and two legs with species-typical hands and feet; Height: Medium to tall; generally species-typical range; Diet or energy need: omnivore; exact normal diet poorly documented; Special adaptation: Mouth and teeth: Small mouth with small teeth; Limbs: 2 arms; 2 legs; Three fingers including an opposable digit.; Three-toed feet with small claws; Limbs: Two arms and two legs; Head: No separate head; face set into chest or upper torso.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Rocky / Stone Plains",
+        "Underground / Deep Caverns",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_khiatuukho",
+      "name": "Khiatuukho",
+      "summary": "Special adaptation: Highly resistant to poisons and harmful substances; Head: Hairless head with a thick skull protrusion extending down the face, a prominent brow and nasal lobe, and two barbels above the upper lip; Height: Medium; generally species-typical range; Defining feature: three eyes; Eyes: Three eyes arranged across the upper face; Head: Crow head with beak or red species-typical face with species-typical nose; Weight: 50-120 kg; Limbs: Two arms, two legs, and usually two wings.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Wasteland / Toxic Wasteland",
+        "Alien / Toxic Atmosphere",
+        "Rocky / Badlands",
+        "Mountains / Mountain Range"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_korvathi_crownkin",
+      "name": "Korvathi Crownkin",
+      "summary": "Robust umber-to-slate humanoids with ridged brows, two horns, three short hollow crown arches, small tusks, and paired heartbeat lights. Native or preferred environments include High-pressure plateaus and echoing basalt cities. The crown maps echoes and vibration, giving excellent close-range spatial awareness. Resonant speech, crown taps, face-paint geometry, and visible pulse-light etiquette.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Rocky / Stone Plains",
+        "Volcanic / Obsidian Fields",
+        "Mountains / Mountain Range",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_meivaimy",
+      "name": "Me’Ivaimy",
+      "summary": "Outer covering: Blue-green to gray aquatic-looking skin with a moist or scaled texture; Special adaptation: Individuals induce a catatonic state during interstellar travel; Diet or energy need: Known to consume very large quantities of protein-rich food after awakening from space-travel catatonia; Weight: approximately 60–110 kg, averaging near 80 kg; Height: roughly 150-200 for most adults; Height: 1.3-1.8 m at shoulder; 3-4 m species-typical; Eyes: Blue, gray, red, or humanlike predatory eyes; Limbs: Four lionlike legs.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Ocean / Underwater without Reefs",
+        "Arctic / Frozen Ocean",
+        "Alien / Bioluminescent Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_nieeiial",
+      "name": "Nieeiial",
+      "summary": "Outer covering: Gray, brown, and red rocklike outer surface with glowing or molten-looking patches; Limbs: No arms or legs; locomotion occurs by flowing or burrowing across and through rock; Defining feature: corrosive tunneling secretion; Head: Elongated insectoid head with large compound eyes and short antennae; Weight: approximately 55–100 kg, averaging near 75 kg; Limbs: 2 arms; 2 legs; vestigial or absent in most adults wings; species-typical multi-jointed hands.; Clawed insectoid feet; Eyes: Red, black, glowing, or deceptively normal eyes; Limbs: Two arms and two legs.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Volcanic / Lava Fields",
+        "Underground / Geothermal Caves",
+        "Rocky / Meteor Craterlands",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_othaye",
+      "name": "Othayé",
+      "summary": "Height: Short; usually below average adult adult humanoid height; Outer covering: Pale lilac, gray, or bluish skin with a smooth hairless appearance; Weight: Light; compact species-typical mass; Limbs: 2 arms; 2 legs; Three fingers including an opposable digit.; Three-toed feet with small claws; Outer covering: Green to yellow-green skin; sparse scalp hair in older individuals; Diet or energy need: omnivore; exact normal diet poorly documented; Eyes: Rarely described; sometimes huge marine eyes; Height: Whirlpool hundreds of meters across.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Underground / Deep Caverns",
+        "Alien / Bioluminescent Landscape",
+        "Wetlands / Marshes"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_phuphoabid",
+      "name": "Phuphoabid",
+      "summary": "Height: Medium; species-typical range; Special adaptation: Close neurological similarity to species-typical; Limbs: 2 arms; 2 legs; species-typical-fingered hands.; Two species-typical feet; Head: Tall narrow head with deeply grooved skin and a high cranium; Eyes: Two large black eyes adapted to dim sinkhole cities; Outer covering: Humanlike skin, hair, and practical clothing; Defining feature: guardian of earth and minerals; Eyes: Dark, bright, or earth-colored eyes.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Underground / Deep Caverns",
+        "Underground / Crystal Caverns",
+        "Rocky / Stone Plains",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_qokaevum",
+      "name": "Qokâevum",
+      "summary": "Outer covering: Bright blue skin in several shades; the central facial ridge is often darker or more pronounced; Weight: Medium; species-typical range, with wide individual variation; Special adaptation: Some medical references imply unusually corrosive digestive secretions; Limbs: 2 arms; 2 legs; Large dexterous hands.; Broad feet; Special adaptation: strong botanical aptitude is cultural and sensory; Diet or energy need: Scraps, blood, fear, or no fixed diet; Height: 0.6-1.2 m; Head: Large head with wrinkled face, broad mouth, and animal traits.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Rainforest",
+        "Wetlands / Swamps",
+        "Alien / Toxic Atmosphere",
+        "Wasteland / Toxic Wasteland"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_rkatruizhu",
+      "name": "Rkatruizhu",
+      "summary": "Diet or energy need: Omnivorous species-typical diet, with cuisine designed around hospitality and pleasure; Defining feature: humanlike appearance; Eyes: Two humanlike eyes; Head: species-typical narrow wedge-shaped head with a small muzzle; Outer covering: Smooth or finely scaled skin; Limbs: 2 arms; 2 legs; Small dexterous hands.; Short clawed feet.; one species-typical balancing tail; Outer covering: Thick skin and coarse hair; Defining feature: club.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Partial Forest",
+        "Steppe / Shrubland",
+        "Rocky / Badlands"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_shaeshunuu",
+      "name": "Shaeshunuu",
+      "summary": "Height: Medium to tall; often above average adult humanoid height; Eyes: Two deep-set eyes, usually dark; Outer covering: Wrinkled tan, pink, brown, or gray skin with sparse hair; Limbs: 2 arms; 2 legs; Broad dexterous hands.; Short sturdy feet; Diet or energy need: Blood, hearts, organs, and unborn children; Head: Woman's head with species-typical hair, fangs, and proboscis tongue; Height: 1.5-1.8 m whole.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Rainforest",
+        "Wetlands / Swamps",
+        "Alien / Toxic Atmosphere"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_sonori_oracles",
+      "name": "Sonori Oracles",
+      "summary": "Pale blue-gray humanoids with fine nose ridges, a backward-swept cranium, paired temple lights, four-fingered hands, and an iridescent throat membrane. Native or preferred environments include Wind-carved plateaus, choral observatories, and navigation monasteries. Two complementary attention streams aid navigation and musical counterpoint. Speech, layered song, throat color, ear chains, and ritual breath patterns.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Steppe / Wind-Swept Steppe",
+        "Mountains / Mountain Range",
+        "Rocky / Badlands",
+        "Alien / Floating Landmasses"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_thaylmeriun",
+      "name": "Thay’lmériûn",
+      "summary": "The Thay'lmériûns are ancient, nearly human-looking bioengineers who cultivate artificial life as a renewable food source, drain living essence and years from prey, generate the addictive transmutative substance Ichor during feeding, and become extraordinarily powerful telepaths and telekinetics when well nourished.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Alien / Toxic Atmosphere",
+        "Alien / Bioluminescent Landscape",
+        "Wasteland / Toxic Wasteland",
+        "Volcanic / Geothermal Basin",
+        "Underground / Deep Caverns"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_trellik_verdants",
+      "name": "Trellik Verdants",
+      "summary": "Tall plant-symbiotic humanoids with spot trails, two branched leaf-veined sensory tendrils, bark patches, and a luminous sternum symbiont. Native or preferred environments include Forest cylinders, living stations, and humid garden worlds. Tendrils sample light, humidity, volatile chemistry, and plant stress signals. Speech, tendril geometry, scent notes, and low light pulsing from the symbiont.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Rainforest",
+        "Forest / Treetops - Treehouses",
+        "Alien / Bioluminescent Landscape",
+        "Alien / Fungal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_usieshyy",
+      "name": "Usiêshyy",
+      "summary": "Special adaptation: Adaptive technology; Head: Base head shape varies by assimilated species, but drones commonly have pallid skin, shaved heads, cranial implants, and armored interface hardware; Outer covering: Dense full-body fur; Height: about 180-240; Special adaptation: Ears: Small external ears partly hidden by fur; Height: 10-25 m species-typical; 15-30 m wingspan; Weight: 8-40 tonnes; Eyes: Red, gold, green, or fiery eyes.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Alien / Toxic Atmosphere",
+        "Wasteland / Ruined Landscape",
+        "Rocky / Meteor Craterlands",
+        "Arctic / Snow Plains"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_vaidikion",
+      "name": "Vaidikion",
+      "summary": "Weight: Heavy; muscular and dense-bodied; Limbs: Two arms and two legs with species-typical hands and feet; Head: Broad species-typical head with a complex ridged forehead and robust cranial structure; ridge patterns vary by individual and era; Defining feature: facial ridges; Limbs: 2 arms; 2 legs; Two species-typical hands.; Two feet; Diet or energy need: unknown, likely omnivore; Height: 1.7-2 m at shoulder; Eyes: Dark intelligent steady eyes.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Rocky / Stone Plains",
+        "Mountains / Mountain Range",
+        "Steppe / Wind-Swept Steppe"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_vesperyx_skymanes",
+      "name": "Vesperyx Skymanes",
+      "summary": "Feline humanoids with patterned fur, a dramatic mane, chitin shoulder plates, compact beetle wings, temple eye-freckles, fangs, and a barbed tail. Native or preferred environments include Low-gravity savannas, cliff cities, and warm aerial habitats. Feline low-light vision plus airflow sensing through wing membranes. Speech, ear and tail posture, wing vibration, and mane ornaments.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Plains / Grassland",
+        "Mountains / Mountain Range",
+        "Alien / Floating Landmasses",
+        "Steppe / Wind-Swept Steppe"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_xokokror",
+      "name": "Xokokror",
+      "summary": "Weight: Medium; species-typical range; Eyes: Two humanlike eyes; Diet or energy need: Omnivorous species-typical diet; joined hosts also support the metabolic needs of a symbiont; Diet or energy need: omnivore; Outer covering: Smooth to pebbled reptilian skin; Limbs: 2 arms; 2 legs; Two hands, commonly with species-typical fingers and adhesive pads.; Two species-typical feet; Weight: 15-40 kg; Defining feature: A feather lights a room.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Forest / Rainforest",
+        "Rocky / Rock Formations",
+        "Alien / Bioluminescent Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_yuyeiaeeaiel",
+      "name": "Yuyeiaeeaiel",
+      "summary": "Limbs: Two arms and two legs with species-typical hands and feet; Head: Humanlike head with no required external cranial ridges; Defining feature: species-typical fingers; Height: about 175-210; Head: Large elongated head with a narrow lower face and a high crown; Outer covering: Armored scales; Defining feature: species-typical serpent body.",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Desert / Rocky Desert",
+        "Rocky / Badlands",
+        "Volcanic / Obsidian Fields",
+        "Alien / Crystal Landscape"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    },
+    {
+      "id": "alien_zokrauzau",
+      "name": "Zokrauzaü",
+      "summary": "hostile warrior race with tall, slender features, three eyes, and long nails and no hair",
+      "category": "Alien-Folk",
+      "status": "Compared across both registries; retained as distinct below the 80% merge threshold or because evidence was insufficient for a safe merge.",
+      "worldClass": "Offworld alien species",
+      "absorbedRaces": [],
+      "bloodlinePolicy": "no formal bloodlines recorded",
+      "comparisonStatus": "Retained after unified fantasy-and-alien comparison; no supported match reached 80%.",
+      "biomes": [
+        "Wasteland / Scorched Wasteland",
+        "Rocky / Badlands",
+        "Desert / Desert Canyon",
+        "Alien / Toxic Atmosphere"
+      ],
+      "biomeBasis": "Most likely habitats inferred from the current anatomy, adaptation, and environment record; offworld aliens may use desert, ice, arctic, or alien-specific biomes."
+    }
+  ]
+}

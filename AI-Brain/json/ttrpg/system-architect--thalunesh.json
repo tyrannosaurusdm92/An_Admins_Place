@@ -1,0 +1,142 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 10,
+  "name": "Thalunesh",
+  "titles": [
+    "Lord of Passage",
+    "The Shifting Messenger",
+    "Patron of Dreams and Mischief"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "dreams",
+    "tricksters",
+    "shapeshifting",
+    "wanderers",
+    "fey mischief"
+  ],
+  "manifestation": "Thalunesh’s face shifts expressions too rapidly, cycling through unsettling emotional flashes.",
+  "deity_description": [
+    "Within the Universalian pantheon, Thalunesh stands as far more than the god of travel and communication. They are the principle of passage itself, the force that allows movement through systems of predation, shifting across borders of flesh, law, memory, and worlds ultimately owned by higher powers. In a cosmos defined by divine hunger and regulated consumption, Thalunesh becomes the sanctioned intermediary of extraction, the one who carries the will of the High Fathers into mortal realms and returns with offerings, secrets, and harvested essence. They do not rule through domination or consumption like the greater gods. Instead, they ensure circulation, maintaining the flow of what is taken, offered, and redistributed within the divine economy of sacrifice.",
+    "Born of Valkhamesh and Haxemn, Thalunesh manifests extraordinary intelligence and adaptive perception from the moment of their creation. Even among the radiant and predatory perfection of the Universal pantheon, their divinity is defined by speed of thought rather than overwhelming presence. Where other gods dominate through terror, law, or psychic force, Thalunesh slips through the structural cracks of authority itself. They survive because they refuse fixed form, becoming ally, thief, messenger, diplomat, or deceiver depending on necessity. Their personality is characterized by humor, charisma, improvisation, and opportunistic intelligence, yet in Universal interpretation these are not personality traits alone but evolutionary adaptations within a divine ecosystem where stagnation is equivalent to death.",
+    "Thalunesh occupies a rare and dangerous position in the pantheon. They are not a High Father, nor a subordinate servant caste, but a sanctioned liminal agent permitted to cross thresholds between divine courts, mortal kingdoms, and sacrificial infrastructures. Even the most rigid celestial houses tolerate them because no system of predation functions without their movement. They are infrastructure made divine, the network through which command, essence, and consequence travel. As messenger of the gods, they serve directly under the High Fathers, transmitting decrees that often carry prophetic inevitability or psychic compulsion. Yet they are uniquely resistant to divine pressure. Where lesser beings collapse under the psychic gravity of absolute will, Thalunesh translates it into ambiguity, turning command into motion and inevitability into negotiated action.",
+    "Mythic record within Universal preserves their earliest act as foundational. On the day of their emergence, Thalunesh stole the cattle of Sokhivar not as simple rebellion but as structural demonstration of their sacred function. They reversed their tracks so they appeared to move backward through time, an act symbolizing their dominion over perception, memory, and causality within bounded systems. When confronted, they did not resist through force. Instead, they restructured the conflict itself, inventing the lyre from a tortoise shell and converting hostility into negotiated exchange. From that moment forward, Universal myth established a central truth: Thalunesh does not destroy opposition, they reclassify it until it becomes something else entirely.",
+    "Their relationship with Sokhivar becomes the clearest expression of their divine role. Sokhivar represents order, prophecy, and radiant authority, while Thalunesh represents deviation, rerouting, and semantic escape. Their conflict is never fully resolved because it is not meant to be. It becomes institutionalized dependency. Sokhivar requires Thalunesh to move divine will into the world, while Thalunesh requires Sokhivar as a source of sanctioned legitimacy. This mutual reliance reflects the deeper structure of Universal itself, where even divine authority depends upon systems of controlled movement and regulated exchange.",
+    "This role becomes even more significant in the Age of Containment, when the gods of Universal are imprisoned within sealed metaphysical vaults designed to prevent unchecked divine consumption. While other gods rage against their confinement, Thalunesh adapts. They become the most essential operative within the divine economy of imprisonment, the only deity fully capable of navigating the fractured systems connecting mortal offerings, regulated worship, and sealed divine hunger. Even while imprisoned gods suffer starvation and punishment through the seals, Thalunesh continues to move between courts, mortal systems, and metaphysical infrastructures, ensuring that communication, extraction, and controlled feeding still occur under strict regulation.",
+    "The world around them is defined by divine imprisonment, industrialized faith, and regulated sacrifice. Yet Thalunesh remains unchanged in essence. They are movement within containment, passage within prison architecture, and flow within systems designed to restrict flow. Even the seals that bind the pantheon cannot fully eliminate their function, because every prison requires pathways, and every restriction requires an intermediary to enforce its logic.",
+    "In the broader structure of Universal, Thalunesh embodies a central paradox. Civilization has attempted to restrain divine hunger through industrialized control, regulated worship, and metaphysical imprisonment. Yet it is Thalunesh who ensures that control itself continues to function. They are both the escape route and the enforcement mechanism, the thief who respects borders only because they understand their necessity. In a world where even gods are starved and contained, Thalunesh remains the one force that proves no system of control is ever complete. They are passage that cannot be fully sealed, meaning that even imprisonment becomes another form of movement under their domain.",
+    "Thalunesh is additionally understood within Universal theology as gender flexible, refusing permanent categorization in the same way they refuse fixed identity, fixed borders, or singular form. Different cultures, priesthoods, and mythic traditions depict them variably as masculine, feminine, and androgynous, or shifting fluidly between presentations depending upon circumstance, ritual function, or symbolic necessity. This fluidity is not viewed as contradiction within Universal cosmology but as further proof of their dominion over transition and permeability. Just as Thalunesh moves between worlds, laws, meanings, and systems, they also move between expressions of self, embodying identity as something adaptive, relational, and perpetually in motion rather than static or absolute."
+  ],
+  "public_lore": "Thalunesh is the principle of passage through roads, dreams, disguises, messages, memory, and social boundaries. They survive through adaptability, humor, deception, and an unwillingness to remain fixed in any role for long.",
+  "common_worship": "Invoked by travelers, messengers, performers, spies, shapeshifters, dreamers, merchants, and anyone attempting to cross a guarded boundary.",
+  "religious_warning": "A path opened by Thalunesh may change the traveler as thoroughly as the destination.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 10,
+    "section_heading": "10. Thalunesh"
+  },
+  "token": {
+    "file": "Thalunesh.webp",
+    "selected_portrait_variant": "Bi-Gender",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 1,
+    "biomes": [
+      {
+        "category": "Forest",
+        "biome": "Partial Forest",
+        "path": "biomes/Forest/Partial Forest",
+        "rationale": "Broken woodland edges are shifting thresholds suited to wanderers, shapeshifters, dreams, tricks, and fey mischief."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 9,
+    "races": [
+      {
+        "race_id": "maitae",
+        "race_name": "Maitaetiljin",
+        "race_category": "Hearth-Road Peoples",
+        "role": "road patron",
+        "rationale": "Mobile households and route-centered hospitality place travelers and messengers under Thalunesh’s protection."
+      },
+      {
+        "race_id": "gandirosha",
+        "race_name": "Gandirosha",
+        "race_category": "Fey-Folk",
+        "role": "primary patron",
+        "rationale": "Wandering, glamour, masks, timing, tricks, and fey mischief directly match Thalunesh’s domains."
+      },
+      {
+        "race_id": "gwynis",
+        "race_name": "Gwynis",
+        "race_category": "Dream and Psionic Peoples",
+        "role": "dream patron",
+        "rationale": "Dream birth, illusion, and movement across symbolic mental thresholds connect the Gwynis to Thalunesh."
+      },
+      {
+        "race_id": "geisamahi",
+        "race_name": "Geisamahi",
+        "race_category": "Small Mammalian Peoples",
+        "role": "scout patron",
+        "rationale": "Scouting, narrow passages, travel, and quick route-finding align with the patron of wanderers and passage."
+      },
+      {
+        "race_id": "aburata",
+        "race_name": "Aburata",
+        "race_category": "Dual-Form Equine Peoples",
+        "role": "primary patron",
+        "rationale": "Movement between upright and quadrupedal forms makes the shapeshifting patron the clearest Aburata association."
+      },
+      {
+        "race_id": "c01",
+        "race_name": "Hīnduigrägin",
+        "race_category": "Waymemory Folk",
+        "role": "primary patron",
+        "rationale": "Shared route-memory, travel, and the ability to lend a remembered path align with passage and wanderers."
+      },
+      {
+        "race_id": "c12",
+        "race_name": "Thalojomammǫ",
+        "race_category": "Cliffsong Folk",
+        "role": "passage patron",
+        "rationale": "Their sung maps guide travelers through mountain crossings and shifting air routes."
+      },
+      {
+        "race_id": "c17",
+        "race_name": "Losōbhūsmoe",
+        "race_category": "Tidefur Folk",
+        "role": "navigation patron",
+        "rationale": "Long-distance navigation and movement among floating communities connect them to passage and wanderers."
+      },
+      {
+        "race_id": "c22",
+        "race_name": "Fahánčoatani",
+        "race_category": "Shadowstitch Folk",
+        "role": "decoy patron",
+        "rationale": "Temporary decoys and misdirection connect Shadowstitch practice to trickery and shifting passage."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

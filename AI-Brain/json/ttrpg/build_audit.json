@@ -1,0 +1,365 @@
+{
+  "schema": "activeworkspace.random_encounters.covenant_timezone_audit.v2",
+  "version": "4.0.0",
+  "auditedAtUtc": "2026-07-19T06:11:50.548920+00:00",
+  "allChecksPassed": true,
+  "checks": {
+    "liveFolderCssJsJsonOnly": true,
+    "outerHtmlCountZero": true,
+    "outerFontCountZero": true,
+    "nestedArchivesCrcPass": true,
+    "windowsSafeNestedPaths": true,
+    "javascriptSyntaxPass": true,
+    "jsonParsePass": true,
+    "imagesDecodePass": true,
+    "manifestReferencesExist": true,
+    "canonicalPantheonExactly22": true,
+    "canonicalClassesExactly22": true,
+    "canonicalSubclassesExactly66": true,
+    "canonicalRaceRegisterExactly236": true,
+    "alignmentAxesExactly8": true,
+    "alignmentProfilesExactly81": true,
+    "objectivesExactly10": true,
+    "canonRelationsPass": true,
+    "latestHowToPlayActive": true,
+    "threeBeatsOneReaction": true,
+    "threatPointsAuthoritative": true,
+    "alternatingInitiativeActive": true,
+    "utcNoDst": true,
+    "calendar11x30": true,
+    "leapIntervalSeven": true,
+    "scriptLoadOrderPass": true,
+    "liveStressTestPass": true,
+    "offlineFallbackTestPass": true,
+    "timezonePrecedenceTestPass": true,
+    "timezoneMinuteAndFractionTestPass": true,
+    "allDaypartsTested": true,
+    "leapRolloverTestPass": true,
+    "covenantCombatTestPass": true,
+    "dialogueTimeContextPass": true
+  },
+  "correctionsMade": [
+    "Activated the latest D&D 5.5e: Universal Edition Covenant Engine how-to-play JSON as the encounter rules authority.",
+    "Replaced adjusted-XP generation with Covenant Engine Threat Points while retaining XP as a compatibility display.",
+    "Added non-HP objectives, Progress and Danger clocks, multiple approaches, and an explicit player-autonomy rule.",
+    "Converted conflict flow to alternating-side initiative, 3 Beats, 1 Reaction, 2-Beat Multiattack, and boss initiative slots.",
+    "Added Earth UTC world time, fixed province and settlement offsets, settlement-over-province precedence, longitude fallback, and no DST.",
+    "Added the 11-by-30 calendar, seventh-year intercalary leap day, 330.15-day astronomical year, and 365.2422-Earth-day equivalence.",
+    "Made local daypart and timezone crossings affect encounter weighting, schedules, openings, dialogue context, and exports.",
+    "Regenerated the complete offline fallback and all manifests and documentation."
+  ],
+  "dataCounts": {
+    "hostiles": 326,
+    "canonicalGods": 22,
+    "canonicalClasses": 22,
+    "canonicalSubclasses": 66,
+    "canonicalRaceEntries": 236,
+    "alignmentAxes": 8,
+    "alignmentProfiles": 81,
+    "objectives": 10,
+    "grids": 6
+  },
+  "runtimeTests": {
+    "schema": "activeworkspace.random_encounters.test_results.v4",
+    "version": "4.0.0",
+    "testedAtUtc": "2026-07-19T06:11:50.548920+00:00",
+    "allPassed": true,
+    "liveJsonGeneration": {
+      "source": "json",
+      "stressGenerated": 1000,
+      "hostiles": 326,
+      "deities": 22,
+      "classes": 22,
+      "races": 236,
+      "profiles": 81,
+      "daypartsTested": [
+        "deep-night",
+        "dawn",
+        "morning",
+        "midday",
+        "afternoon",
+        "dusk",
+        "night"
+      ],
+      "settlementOverridesTested": 334,
+      "bossSlotsGenerated": 259
+    },
+    "offlineFallbackGeneration": {
+      "source": "fallback",
+      "stressGenerated": 250,
+      "hostiles": 326,
+      "deities": 22,
+      "classes": 22,
+      "races": 236,
+      "profiles": 81,
+      "daypartsTested": [
+        "deep-night",
+        "dawn",
+        "morning",
+        "midday",
+        "afternoon",
+        "dusk",
+        "night"
+      ],
+      "settlementOverridesTested": 84,
+      "bossSlotsGenerated": 74
+    },
+    "timezone": {
+      "precedence": [
+        "settlement",
+        "province",
+        "explicit",
+        "longitude",
+        "UTC"
+      ],
+      "noDst": true,
+      "minuteOffset": "UTC+00:15",
+      "fractionalOffset": "UTC+05:45",
+      "longitudeExample": "-97° -> UTC−06:00",
+      "namedMeridian": "Eirzunet's Shadow Meridian",
+      "dateRollover": true,
+      "leapDayRollover": "Year 7 Month 11 Day 30 23:45 UTC -> intercalary leap day 01:45 UTC+02:00"
+    },
+    "calendar": {
+      "months": 11,
+      "daysPerMonth": 30,
+      "commonCivilDays": 330,
+      "astronomicalDays": 330.15,
+      "earthEquivalentDays": 365.2422,
+      "leapEveryYears": 7
+    },
+    "sampleEncounter": {
+      "difficulty": "standard",
+      "objective": "negotiate",
+      "threat": 12,
+      "budget": 17,
+      "zone": "UTC−03:00",
+      "daypart": "dusk",
+      "hostiles": 1
+    },
+    "combat": {
+      "initiative": "alternating sides",
+      "beatsPerTurn": 3,
+      "reaction": 1,
+      "sampleSlotOrder": "player-hostile-player-hostile-player-player",
+      "sampleHostilePlan": [
+        "Step: 1 Beat",
+        "Strike: 2 Beats"
+      ],
+      "bossExtraSlots": true
+    },
+    "dialogue": {
+      "timeContextIncluded": true,
+      "sceneObjectiveIncluded": true,
+      "settlementOverrideInstructionIncluded": true,
+      "playerAutonomyInstructionIncluded": true
+    }
+  },
+  "errors": {
+    "javascript": [],
+    "json": [],
+    "images": [],
+    "manifestMissing": [],
+    "archiveErrors": [],
+    "windowsUnsafe": [],
+    "badLiveExtensions": [],
+    "outerHtml": [],
+    "outerFonts": [],
+    "canonRelations": []
+  },
+  "liveRandomEncounters": {
+    "files": 50,
+    "bytes": 14910967,
+    "extensionCounts": {
+      ".css": 1,
+      ".js": 23,
+      ".json": 26
+    }
+  },
+  "archiveSummary": {
+    "count": 18,
+    "bytes": 251339414,
+    "archives": [
+      {
+        "path": "docs/canonical_sources/06_pantheon_ichor_technology(2).zip",
+        "bytes": 366077,
+        "sha256": "bf827c560b078e76369bd64d2877bd5af636aa3f52fe312b237bfd1ce880ed4b",
+        "entries": 64,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/canonical_sources/Universal_22_Merged_Classes_Rule_Compliant.zip",
+        "bytes": 2008814,
+        "sha256": "43b517dabe2ba39231b708d2bd1ea0fa8a1f41948284e32be564284c818f23e8",
+        "entries": 26,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/canonical_sources/Universal_Eight_Axis_Covenant_Alignment_System_v3.zip",
+        "bytes": 102186,
+        "sha256": "235f2c7fcbea30669f6180e3703e81fae1af013ec707a1865671007e76d88c35",
+        "entries": 6,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/canonical_sources/Universal_JSON_Conversion_v1_Revision_2.zip",
+        "bytes": 482652,
+        "sha256": "5509ee28459b9d9746d0d1ebb5c4e3bd09d58ee4568cf065ae3e7bdaceebd8b8",
+        "entries": 9,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/canonical_sources/Universal_Merged_System_JSON_Replacements.zip",
+        "bytes": 752990,
+        "sha256": "f41e374dee89f5e7431a763d4afee413951c75005c40a3574750e4a3fbc7a2a0",
+        "entries": 4,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/06_pantheon_ichor_technology.zip",
+        "bytes": 361553,
+        "sha256": "b95d07e031b97b4f592c84de5ed8f49acae2e7d5e8ef6101b5f4dc2c595c555a",
+        "entries": 64,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/5e_encounter_generator-master.zip",
+        "bytes": 8453,
+        "sha256": "ae53089b941d85b00c324fcf18642d50a29dea5ab82ff214542743433851b0cc",
+        "entries": 7,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/Dungeoneer-master.zip",
+        "bytes": 116982481,
+        "sha256": "83b09675ea291ee0bca90ffa5b45f8d6ba0be45bab4e218be7937281a75ca7cd",
+        "entries": 501,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/Tetra-cube.github.io-master.zip",
+        "bytes": 78019681,
+        "sha256": "acb744c6e79bbc45f293cbe044aea3ba5e03195ee71d886661e641e3e21505b7",
+        "entries": 553,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/WorldBuilder_LifeSimulation_NPC_Dialogue_Studio_v1.0.0_sanitized_no_html.zip",
+        "bytes": 47985809,
+        "sha256": "3ea79d7d726f9db212dafc90bfaace9c345dfc328b5cb2994c2bb85e06426e78",
+        "entries": 3432,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/autorolltables.github.io-master.zip",
+        "bytes": 759880,
+        "sha256": "c39ebf80f16c85f116c97309a553e4b912348580eb2965a13fdad5c65f1f22f3",
+        "entries": 62,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/dnd_5e_encounter_gen-master.zip",
+        "bytes": 11420,
+        "sha256": "60fda9235dc266274705a71e360f4853aac6c5e542f0a3d4f9df747df65ae157",
+        "entries": 8,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/dojo-master.zip",
+        "bytes": 2786182,
+        "sha256": "3a78f6fc3e5723981472f00c257d077082595f3964675312af3436b1a26e3880",
+        "entries": 265,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/donjon-master.zip",
+        "bytes": 11212,
+        "sha256": "6f4b70f93932d6777eea21f21527e8e4fa5b9b688b4839b150b51e9b7746eb9f",
+        "entries": 17,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/encounter-generator-master.zip",
+        "bytes": 305342,
+        "sha256": "7b5e58e045e6f242e68d9dc0c312db9e782bee549de1d06e4aadd26c2a5f25f5",
+        "entries": 103,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/grids-source.zip",
+        "bytes": 32130,
+        "sha256": "669b001fd89913f3450a73630f5adfd87f2d049c011a2e8007b14698c8fe6cd1",
+        "entries": 7,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/random-encounter-generator-master.zip",
+        "bytes": 105971,
+        "sha256": "b67e43187c97006b463470e42bb5d29e3bc839e5116497b054287f9bf78e3ab2",
+        "entries": 12,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      },
+      {
+        "path": "docs/source_repositories/too-many-tokens-dnd-main.zip",
+        "bytes": 256581,
+        "sha256": "f2486971677ada2e6709bc156bcfadbe1377eb0c0f7c77805e1541f8ce209e8c",
+        "entries": 775,
+        "htmlEntries": 0,
+        "fontEntries": 0,
+        "windowsUnsafeEntries": 0,
+        "crcError": null
+      }
+    ]
+  }
+}

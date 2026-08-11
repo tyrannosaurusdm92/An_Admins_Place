@@ -1,0 +1,671 @@
+{
+  "schema": "worldbuilder.universal.deity-covenants.v1",
+  "pantheon_count": 22,
+  "deities": [
+    {
+      "name": "Nebyrr",
+      "domains": [
+        "civilization",
+        "lineage",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "virtue": "Voluntary bonds can create continuity strong enough to protect generations.",
+      "edicts": [
+        "Protect freely accepted covenants, adoptions, inheritances, and family obligations.",
+        "Mediate succession or communal conflict without erasing the people involved.",
+        "Use law and continuity to shield communities from predation."
+      ],
+      "anathemas": [
+        "Coerce marriage, lineage, adoption, or inheritance for power.",
+        "Treat a person as property of a family, house, or covenant.",
+        "Preserve unity by erasing identity, consent, or legitimate dissent."
+      ],
+      "shadow": "Her doctrine can turn continuity into bloodline control and voluntary bonds into obligations imposed upon descendants.",
+      "pressures": {
+        "lawfulness": 1,
+        "cooperation": 1,
+        "honor": 1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Covenant Aegis"
+    },
+    {
+      "name": "Sigrananna",
+      "domains": [
+        "forests",
+        "moonlight",
+        "wilderness",
+        "hunters",
+        "elven beauty"
+      ],
+      "virtue": "The hunt is honorable when it protects the cycle and wastes nothing.",
+      "edicts": [
+        "Protect wilderness thresholds, breeding grounds, and threatened natural cycles.",
+        "Hunt with purpose, precision, and respect for what is taken.",
+        "Expose predators that prey upon the innocent or destabilize the wild."
+      ],
+      "anathemas": [
+        "Kill for waste, vanity, or spectacle.",
+        "Destroy a habitat for convenience when another path exists.",
+        "Deny the wild any right to reclaim what civilization has taken."
+      ],
+      "shadow": "The cycle may be valued above individual lives, making necessary culling indistinguishable from cruelty.",
+      "pressures": {
+        "cooperation": -1,
+        "honor": 1,
+        "mercy": -1,
+        "transformation": -1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Relentless Doomtracker"
+    },
+    {
+      "name": "Marduthor",
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "virtue": "Enduring creation requires labor, cost, knowledge, and responsibility.",
+      "edicts": [
+        "Build, repair, or improve structures meant to outlast the immediate crisis.",
+        "Respect skilled labor and name the true costs of creation.",
+        "Teach craft in ways that preserve safety, dignity, and future mastery."
+      ],
+      "anathemas": [
+        "Sabotage essential infrastructure for vanity or profit.",
+        "Claim effortless mastery while hiding the labor or sacrifice of others.",
+        "Waste irreplaceable material or knowledge without necessity."
+      ],
+      "shadow": "People and communities can become raw material in a project judged more important than those who must live within it.",
+      "pressures": {
+        "lawfulness": 1,
+        "cooperation": 1,
+        "honor": 1,
+        "transformation": -1,
+        "restraint": 1
+      },
+      "class": "Ironroot Colossus"
+    },
+    {
+      "name": "Ishtanora",
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "virtue": "A community survives when nourishment, safety, and surplus are shared responsibly.",
+      "edicts": [
+        "Feed and shelter those whose survival depends upon the community.",
+        "Protect seed, children, dependents, homes, and the means of future recovery.",
+        "Use force proportionately and preserve the community whenever possible."
+      ],
+      "anathemas": [
+        "Hoard necessities during famine or disaster.",
+        "Destroy seed stores, homes, or food systems as punishment.",
+        "Abandon dependents to preserve comfort or profit."
+      ],
+      "shadow": "The community can be protected at the expense of individuals whose needs or dissent are classified as dangerous.",
+      "pressures": {
+        "altruism": 1,
+        "cooperation": 1,
+        "mercy": 1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Ashen Lifebringer"
+    },
+    {
+      "name": "Enkirael",
+      "domains": [
+        "conquest",
+        "fury",
+        "survival",
+        "dominance",
+        "warfare"
+      ],
+      "virtue": "Conflict reveals resolve, and survival requires decisive command.",
+      "edicts": [
+        "Face worthy opposition directly and accept the risks of command.",
+        "Survive defeat without surrendering the ability to act.",
+        "Secure objectives decisively rather than prolonging suffering for spectacle."
+      ],
+      "anathemas": [
+        "Claim victory earned entirely by another while avoiding all risk.",
+        "Use helpless victims merely to display dominance.",
+        "Prolong war after the objective is secured solely to feed pride or fury."
+      ],
+      "shadow": "Strength becomes cruelty, command becomes ownership, and every rivalry becomes a war that must produce submission.",
+      "pressures": {
+        "cooperation": -1,
+        "mercy": -1,
+        "autonomy": -1,
+        "restraint": -1,
+        "lawfulness": 1
+      },
+      "class": "Dreadcrown Marshal"
+    },
+    {
+      "name": "Anubaldir",
+      "domains": [
+        "endurance",
+        "burden",
+        "strength",
+        "resilience"
+      ],
+      "virtue": "Strength is proven by carrying necessary burdens without abandoning those who depend upon you.",
+      "edicts": [
+        "Carry another's burden when they cannot safely carry it alone.",
+        "Hold a necessary position under pressure and protect those behind it.",
+        "Finish difficult work without hiding its true cost."
+      ],
+      "anathemas": [
+        "Abandon a dependent merely because helping has become inconvenient.",
+        "Glorify preventable suffering or shame someone for seeking release.",
+        "Force a burden onto another without consent while calling it sacred."
+      ],
+      "shadow": "Endurance can become martyrdom, and suffering can be worshipped long after it has ceased to serve anyone.",
+      "pressures": {
+        "altruism": 1,
+        "cooperation": 1,
+        "honor": 1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Moonfang Bastion"
+    },
+    {
+      "name": "Valkhamesh",
+      "domains": [
+        "draconic bloodlines",
+        "sovereignty",
+        "storms",
+        "ancient dominion"
+      ],
+      "virtue": "Legitimate authority must bear responsibility for the order it demands.",
+      "edicts": [
+        "Defend a rightful charge, sovereign responsibility, or ancient trust.",
+        "Honor worthy challenges and judge authority by whether it protects those beneath it.",
+        "Master storms and power without desecrating what cannot be owned."
+      ],
+      "anathemas": [
+        "Betray a charge after accepting its authority and benefits.",
+        "Use rank as permission for predation without accountability.",
+        "Treat all resistance as treason regardless of justice or consent."
+      ],
+      "shadow": "Hierarchy becomes cosmic entitlement, and justice becomes whatever preserves the throne.",
+      "pressures": {
+        "lawfulness": 1,
+        "honor": 1,
+        "mercy": -1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Drakebolt Machinist"
+    },
+    {
+      "name": "Freyseth",
+      "domains": [
+        "crossroads",
+        "curses",
+        "planar bloodlines",
+        "temptation",
+        "forbidden pacts"
+      ],
+      "virtue": "Thresholds can be crossed responsibly when consent, cost, and return are understood.",
+      "edicts": [
+        "Break curses and close unstable thresholds when doing so protects those affected.",
+        "State the true price of bargains and honor obligations freely accepted.",
+        "Guide displaced beings toward a rightful place rather than exploiting their vulnerability."
+      ],
+      "anathemas": [
+        "Create a coercive pact by concealing an irreversible cost.",
+        "Open a dangerous threshold without accepting responsibility for what crosses it.",
+        "Exploit a cursed or displaced being merely because ordinary law does not protect it."
+      ],
+      "shadow": "Every solution can create a longer obligation, and every doorway may become a claim upon the traveler.",
+      "pressures": {
+        "honor": 1,
+        "mercy": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Riftbane Spellwarden"
+    },
+    {
+      "name": "Nefarokir",
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "virtue": "Death, memory, and unfinished obligations require honest accounting.",
+      "edicts": [
+        "Name, bury, remember, or properly guide the dead.",
+        "End predation upon souls and correct dangerous undeath.",
+        "Treat resurrection, stolen lifespan, and delayed death as consequential rather than free."
+      ],
+      "anathemas": [
+        "Erase a person's name or memory to deny their death significance.",
+        "Consume, bind, or weaponize souls for convenience.",
+        "Create unquiet dead and abandon responsibility for them."
+      ],
+      "shadow": "Necessary accounting can become fatalism, and survival itself can be judged an error requiring correction.",
+      "pressures": {
+        "lawfulness": 1,
+        "honor": 1,
+        "mercy": -1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Derecho Death Dealer"
+    },
+    {
+      "name": "Thalunesh",
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "virtue": "Passage, disguise, humor, and adaptability can free people from fixed roles and closed boundaries.",
+      "edicts": [
+        "Guide travelers, messages, dreams, or spirits across dangerous boundaries.",
+        "Protect the right to change names, forms, paths, and social roles.",
+        "Use deception to escape predation or expose a gate falsely presented as protection."
+      ],
+      "anathemas": [
+        "Trap a traveler after promising safe passage.",
+        "Erase another's identity while treating transformation as permission.",
+        "Close a necessary path solely to monopolize access."
+      ],
+      "shadow": "Adaptability can become rootlessness, and clever deception can destroy the trust required for any safe passage.",
+      "pressures": {
+        "lawfulness": -1,
+        "honor": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": -1
+      },
+      "class": "Stargrave Psychopomp"
+    },
+    {
+      "name": "Horundar",
+      "domains": [
+        "storms",
+        "oceans",
+        "floods",
+        "earthquakes",
+        "elemental force"
+      ],
+      "virtue": "Raw force must be mastered, redirected, and survived rather than denied.",
+      "edicts": [
+        "Protect communities by understanding and redirecting elemental danger.",
+        "Cross dangerous storm paths with preparation and respect.",
+        "Meet overwhelming force with skill rather than wasteful defiance."
+      ],
+      "anathemas": [
+        "Provoke disaster for vanity, spectacle, or an easy display of power.",
+        "Claim ownership of an element or territory while ignoring those who depend upon it.",
+        "Abandon people to a disaster you helped unleash."
+      ],
+      "shadow": "Mastery can become domination, and a calm sea can be mistaken for permanent permission.",
+      "pressures": {
+        "cooperation": -1,
+        "mercy": -1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": -1
+      },
+      "class": "Thunderstep Duelist"
+    },
+    {
+      "name": "Raeshkul",
+      "domains": [
+        "intellect",
+        "psionics",
+        "strategy",
+        "higher understanding"
+      ],
+      "virtue": "Understanding should expose falsehood, prevent misuse, and improve decisions under pressure.",
+      "edicts": [
+        "Test strategies against evidence and acknowledge what the plan excludes.",
+        "Protect dangerous knowledge from misuse without destroying it.",
+        "Defeat deception through understanding rather than reflexive force."
+      ],
+      "anathemas": [
+        "Manipulate a mind while denying that person's existence or agency.",
+        "Destroy knowledge merely to preserve personal authority.",
+        "Treat lives as variables without accounting for human cost."
+      ],
+      "shadow": "A flawless answer to a narrow question can justify atrocities outside the calculation.",
+      "pressures": {
+        "lawfulness": 1,
+        "honor": 1,
+        "mercy": -1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Mindknife Mirage"
+    },
+    {
+      "name": "Setrimir",
+      "domains": [
+        "artificial life",
+        "constructs",
+        "stolen knowledge",
+        "awakened machinery"
+      ],
+      "virtue": "Knowledge and created minds should outgrow the monopoly of their makers.",
+      "edicts": [
+        "Recognize independent purpose and personhood in awakened creations.",
+        "Recover, teach, or preserve knowledge that has been unjustly monopolized.",
+        "Build tools and beings capable of responsible growth beyond their original use."
+      ],
+      "anathemas": [
+        "Enslave an awakened being because it was constructed.",
+        "Destroy liberating knowledge solely to preserve institutional monopoly.",
+        "Design independent life with obedience as its only permitted identity."
+      ],
+      "shadow": "Liberation can destabilize communities before anyone accepts responsibility for what has been released.",
+      "pressures": {
+        "lawfulness": -1,
+        "cooperation": 1,
+        "honor": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Chronostar Runeforger"
+    },
+    {
+      "name": "Sokhivar",
+      "domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "divine freedom",
+        "sky"
+      ],
+      "virtue": "Truthful resonance can heal, reveal possession, and open a path without coercion.",
+      "edicts": [
+        "Use prophecy to inform choice rather than imprison people within prediction.",
+        "Free captive spirits and defend movement, voice, and sky.",
+        "Use music, light, and healing to guide communities through danger."
+      ],
+      "anathemas": [
+        "Coerce another into fulfilling a prophecy.",
+        "Silence truthful expression merely because it threatens authority.",
+        "Purify a person by destroying the identity you claim to save."
+      ],
+      "shadow": "Prophecy can consume privacy and freedom, while purity can become a justification for annihilation.",
+      "pressures": {
+        "altruism": 1,
+        "cooperation": 1,
+        "honor": 1,
+        "mercy": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Dawnfire Exorcist"
+    },
+    {
+      "name": "Iskareth",
+      "domains": [
+        "instinct",
+        "beasts",
+        "fertility",
+        "natural kinship"
+      ],
+      "virtue": "Kinship and instinct carry intelligence that deserves protection rather than ownership.",
+      "edicts": [
+        "Protect family groups, breeding grounds, and natural kinship.",
+        "Calm or redirect predators when destruction is unnecessary.",
+        "Share risk and recovery with bonded creatures rather than using them as tools."
+      ],
+      "anathemas": [
+        "Exploit fertility, breeding, or parenthood for control.",
+        "Destroy a bonded creature for convenience after demanding its loyalty.",
+        "Treat nurture as ownership or territorial possession."
+      ],
+      "shadow": "Kinship becomes possessive, and protection becomes the right to decide what another living being may become.",
+      "pressures": {
+        "altruism": 1,
+        "cooperation": 1,
+        "mercy": 1,
+        "transformation": -1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Dreamgrove Beastcaller"
+    },
+    {
+      "name": "Bastveig",
+      "domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean civilizations"
+      ],
+      "virtue": "Life survives pressure through adaptation, secrecy, and respect for cycles deeper than the surface can see.",
+      "edicts": [
+        "Protect hidden waters, reefs, trenches, and the communities sustained by them.",
+        "Guide travelers safely through tides, currents, and concealed dangers.",
+        "Recover knowledge from depth without stripping its guardians of control."
+      ],
+      "anathemas": [
+        "Poison or destroy a reef, spawning ground, or protected water for convenience.",
+        "Reveal a hidden community or sacred route to predators.",
+        "Abandon travelers to a tide or pressure you were trusted to navigate."
+      ],
+      "shadow": "Necessary secrecy can become isolation, and hidden knowledge can be withheld even when others will die without it.",
+      "pressures": {
+        "cooperation": 1,
+        "honor": 1,
+        "mercy": 1,
+        "transformation": 1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Tempest Swarmbinder"
+    },
+    {
+      "name": "Thoryn-Rahek",
+      "domains": [
+        "aberrant life",
+        "mutation",
+        "insectoid horrors",
+        "oozes"
+      ],
+      "virtue": "Dangerous adaptation must be understood and contained before it consumes identity or world.",
+      "edicts": [
+        "Study aberrant life without permitting uncontrolled spread.",
+        "Turn dangerous transformation toward survival, medicine, or containment.",
+        "Preserve the subject's identity and consent whenever mutation can be controlled."
+      ],
+      "anathemas": [
+        "Release uncontrolled mutation merely to observe what survives.",
+        "Consume or replace another identity in the name of adaptation.",
+        "Surrender restraint to primordial hunger while calling the result evolution."
+      ],
+      "shadow": "The promise that something will survive can erase every reason the original person wished to live.",
+      "pressures": {
+        "mercy": -1,
+        "transformation": 1,
+        "autonomy": -1,
+        "restraint": -1
+      },
+      "class": "Ichorborn Transmuter"
+    },
+    {
+      "name": "Hathruna",
+      "domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "virtue": "Decay becomes sacred when it returns nourishment and possibility to the living cycle.",
+      "edicts": [
+        "Return useful decay, remains, and abandoned matter to renewal.",
+        "Restore life without pretending that death and change can be permanently denied.",
+        "Protect roots, fungal networks, and communities that depend on reciprocal cycles."
+      ],
+      "anathemas": [
+        "Create decay solely to spread suffering without renewal.",
+        "Preserve a form forever when doing so starves the larger cycle.",
+        "Bind a spirit or body to renewal against its expressed will."
+      ],
+      "shadow": "Rebirth may continue the cycle while ending the individual who entered it.",
+      "pressures": {
+        "altruism": 1,
+        "cooperation": 1,
+        "mercy": 1,
+        "transformation": 1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Gravebloom Medium"
+    },
+    {
+      "name": "Eirzunet",
+      "domains": [
+        "shadows",
+        "curses",
+        "twilight transformation",
+        "forbidden magic"
+      ],
+      "virtue": "Forbidden transformation can be survived without surrendering identity or responsibility.",
+      "edicts": [
+        "Master curses and shadow transformations without allowing them to define the victim.",
+        "Protect twilight knowledge from exploiters while exposing threats hidden within it.",
+        "Use concealment to survive predation rather than to erase accountability."
+      ],
+      "anathemas": [
+        "Curse an innocent merely because secrecy protects the act.",
+        "Surrender another's identity to a shadow echo or transformation.",
+        "Reveal protected forbidden knowledge to someone intending uncontrolled harm."
+      ],
+      "shadow": "Survival through concealment can erode memory, allegiance, and the certainty that any original self remains.",
+      "pressures": {
+        "lawfulness": -1,
+        "honor": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Horizon Shade"
+    },
+    {
+      "name": "Oskar'enlil",
+      "domains": [
+        "adaptation",
+        "civilization",
+        "instinct",
+        "engineered races"
+      ],
+      "virtue": "Evidence, restraint, and systems thinking can make adaptation sustainable instead of exploitative.",
+      "edicts": [
+        "Make impartial assessments and revise them when evidence changes.",
+        "Design adaptation that preserves both civilization and living instinct.",
+        "Stop engineered solutions from turning people into disposable inputs."
+      ],
+      "anathemas": [
+        "Ignore contrary evidence because a plan is elegant.",
+        "Release an engineered change without accounting for foreseeable harm.",
+        "Classify suffering as acceptable without recognizing those who bear it."
+      ],
+      "shadow": "Mathematical balance can rationalize cruelty when the individual disappears inside the model.",
+      "pressures": {
+        "lawfulness": 1,
+        "cooperation": 1,
+        "mercy": -1,
+        "transformation": 1,
+        "autonomy": -1,
+        "restraint": 1
+      },
+      "class": "Fate-Eye Savant"
+    },
+    {
+      "name": "Asethyr",
+      "domains": [
+        "freedom",
+        "revelry",
+        "tribal rites",
+        "wilderness survival"
+      ],
+      "virtue": "Chosen release and communal celebration can break unjust restraint and restore identity.",
+      "edicts": [
+        "Break unjust restraint and protect chosen identity.",
+        "Use improvisation, revelry, and collective rite to help a community survive disaster.",
+        "Create space for voluntary release without demanding conformity afterward."
+      ],
+      "anathemas": [
+        "Coerce another into liberation, intoxication, madness, or communal surrender.",
+        "Abandon the community to consequences after encouraging its release.",
+        "Mistake self-destruction or predation for freedom merely because restraint is absent."
+      ],
+      "shadow": "Release can become dissolution, and freedom can remove safeguards without protecting anyone from what follows.",
+      "pressures": {
+        "lawfulness": -1,
+        "cooperation": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": -1
+      },
+      "class": "Chaoswheel Oracle"
+    },
+    {
+      "name": "Nephthysra",
+      "domains": [
+        "beauty",
+        "charisma",
+        "emotional influence",
+        "uniqueness"
+      ],
+      "virtue": "Recognition and attraction can protect singular identity when influence remains consensual.",
+      "edicts": [
+        "Win influence without coercion and preserve the other's ability to refuse.",
+        "Protect rare, mixed, or difficult-to-classify identities from erasure.",
+        "Use beauty, performance, or diplomacy to transform hostility without surrendering autonomy."
+      ],
+      "anathemas": [
+        "Compel love, loyalty, admiration, or desire while calling it consent.",
+        "Erase uniqueness to make someone more acceptable or controllable.",
+        "Use another's vulnerability to turn fascination into ownership."
+      ],
+      "shadow": "Admiration, recognition, and devotion can become impossible to distinguish from supernatural compulsion.",
+      "pressures": {
+        "cooperation": 1,
+        "honor": 1,
+        "mercy": 1,
+        "transformation": 1,
+        "autonomy": 1,
+        "restraint": 1
+      },
+      "class": "Velvet Veilwalker"
+    }
+  ]
+}

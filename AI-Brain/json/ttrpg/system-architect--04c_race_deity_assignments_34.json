@@ -1,0 +1,2187 @@
+{
+  "schema": "worldbuilder.universal.race-deity-assignment-index.v1",
+  "canon_status": "current_canon",
+  "compiled": "2026-07-25",
+  "scope": {
+    "canonStatus": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Universal homeworld fantasy races only",
+    "alienRacesIncluded": false,
+    "minimumDeitiesPerRace": 1,
+    "assignmentType": "public religious and cultural association",
+    "pluralismNote": "Assignments identify strong traditional associations, not compulsory or biologically determined worship.",
+    "publicCosmologyNote": "Universal peoples understand the assigned beings as deities."
+  },
+  "counts": {
+    "fantasy_races_assigned": 34,
+    "alien_races_assigned": 0,
+    "deities_represented": 22,
+    "race_deity_links": 106
+  },
+  "assignments": [
+    {
+      "race_id": "lumhishu",
+      "race_name": "Lumhishūhito",
+      "race_category": "Elderwood Peoples",
+      "deities": [
+        {
+          "name": "Sigrananna",
+          "role": "primary patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Forest ancestry, long life, grace, and woodland stewardship place the Lumhishūhito most closely under the Moonlit Huntress.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "seasonal patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Their stored seasonal light and view of habitat as inherited memory align with seasonal return, roots, and renewal.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "radiant patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Sunlight held within the body and canopy-centered communities connect them to sacred light and the open sky.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "kaluseban",
+      "race_name": "Kaluseban",
+      "race_category": "Ley-Bound Peoples",
+      "deities": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Psionic bloodlines, disciplined thought, and highly structured arcane study align with intellect, strategy, and higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "shadow patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Dark bloodlines, controlled shadow, and carefully bounded forbidden magic fall within Eirzunet’s twilight sphere.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Ley crossings, planar boundaries, inherited magical marks, and dangerous bargains connect Kaluseban rites to the Keeper of Crossroads.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Bastveig",
+          "role": "oceanic patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Oceanic bloodlines and deep-water ley traditions recognize Bastveig as guardian of hidden waters and sea civilizations.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "labunail",
+      "race_name": "Labúnäilbaer",
+      "race_category": "Stone-Under Peoples",
+      "deities": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Precision craft, pressure engineering, architecture, and subterranean halls make Marduthor the strongest patron of Labúnäilbaer society.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Anubaldir",
+          "role": "foundation patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Their mineral-adapted bodies, deep-earth endurance, and responsibility for holding tunnels secure reflect burden, strength, and resilience.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "deep-memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Geological memory and the deepest inhabited caverns are ritually associated with the keeper of buried memory and the underworld.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "maitae",
+      "race_name": "Maitaetiljin",
+      "race_category": "Hearth-Road Peoples",
+      "deities": [
+        {
+          "name": "Ishtanora",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Hearth hospitality, orchards, cultivated plenty, and peaceful household life directly reflect Ishtanora’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "road patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Mobile households and route-centered hospitality place travelers and messengers under Thalunesh’s protection.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "kinship patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Inheritance carried through households, guest bonds, and settled orchard communities connects them to lineage and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "heimujuryz",
+      "race_name": "Heimujuryz",
+      "race_category": "Many-Kindred Warclans",
+      "deities": [
+        {
+          "name": "Oskar'enlil",
+          "role": "primary patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Adaptive physiology, many compatible body expressions, and deliberate balance between instinct and civilization align with the Balancer.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "lineage patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Clan memory and kinship across diverse bodies place ancestry, inheritance, and social continuity under Nebyrr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Enkirael",
+          "role": "martial-survival patron",
+          "titles": [
+            "Lord of Conquest and Fury",
+            "The Unrestrained Blade",
+            "Patron of Martial Survival"
+          ],
+          "domains": [
+            "conquest",
+            "fury",
+            "survival",
+            "dominance",
+            "warfare"
+          ],
+          "rationale": "Warclan traditions invoke Enkirael for survival and defense while explicitly rejecting the belief that ancestry requires violence.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "laubakir",
+      "race_name": "Läúbakirruna",
+      "race_category": "Borderland Colossi",
+      "deities": [
+        {
+          "name": "Anubaldir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Colossal bodies, mountain endurance, and the political burden of border guardianship strongly align with Anubaldir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "civic patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their range from pastoral confederacies to large urban polities connects them to civilization, inheritance, and ordered rule.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sigrananna",
+          "role": "grove patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Grove-adapted lineages and forest border settlements recognize Sigrananna’s authority over living woodland.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "szucarin",
+      "race_name": "Szûcarín",
+      "race_category": "Draconic and Reptilian Peoples",
+      "deities": [
+        {
+          "name": "Valkhamesh",
+          "role": "primary patron",
+          "titles": [
+            "High Father of Heaven",
+            "Storm-King",
+            "Sovereign of Ancient Dominion"
+          ],
+          "domains": [
+            "draconic bloodlines",
+            "sovereignty",
+            "storms",
+            "ancient dominion"
+          ],
+          "rationale": "Draconic bloodlines, dynastic memory, storms, and sovereign lineages place the Szûcarín directly within Valkhamesh’s claimed dominion.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "dynastic patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Inheritance, lineage law, and long dynastic memory make Nebyrr central to Szûcarín households and courts.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Horundar",
+          "role": "elemental patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Elemental bodies, marsh and volcanic adaptations, and destructive natural force connect them to Horundar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "enad",
+      "race_name": "Enâdkedzâd",
+      "race_category": "Planar-Marked Peoples",
+      "deities": [
+        {
+          "name": "Freyseth",
+          "role": "primary patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Planar bloodlines, boundary marks, curses, and binding vows are the clearest expression of Freyseth’s crossroads and pact domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "twilight patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Survived curses, cinder transformations, and visible forbidden magic connect the Enâdkedzâd to Eirzunet.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "radiant patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Radiance-metabolizing lineages interpret sacred light and visible vows through Sokhivar’s prophetic sky symbolism.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "djiumo",
+      "race_name": "Djiumōtiakić",
+      "race_category": "Blood-Memory Peoples",
+      "deities": [
+        {
+          "name": "Nefarokir",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Returned life, grave-bound vitality, preserved identity, and communal memory place the Djiumōtiakić closest to the administrator of death.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "return patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Their existence between death and renewed life reflects rot transformed into rebirth rather than simple undeath.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Eirzunet",
+          "role": "ash patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Ash-recorded identity and twilight transformation connect some lineages to Eirzunet’s shadowed rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "gandirosha",
+      "race_name": "Gandirosha",
+      "race_category": "Fey-Folk",
+      "deities": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Wandering, glamour, masks, timing, tricks, and fey mischief directly match Thalunesh’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "glamour patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Courtly beauty, charisma, masks, and emotional presence are commonly interpreted through Nephthysra.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "bargain patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Court bargains, dangerous promises, and threshold etiquette make Freyseth an important cautionary patron.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "music patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Music, performance, and freedom in open-air courts connect many Gandirosha traditions to Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "panolima",
+      "race_name": "Panolima",
+      "race_category": "Elemental Peoples",
+      "deities": [
+        {
+          "name": "Horundar",
+          "role": "primary patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Earthquakes, storms, water, and raw elemental force make Horundar the broadest patron of Panolima elemental harmony.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "earth-and-fire patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Earth and fire bloodlines honor transformation through stone, heat, craft, and controlled material change.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Bastveig",
+          "role": "water patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Water bloodlines and ocean communities recognize Bastveig’s authority over tides and hidden waters.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "air-and-light patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Air, magical light, and sky-facing aether traditions place part of Panolima worship under Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "gwynis",
+      "race_name": "Gwynis",
+      "race_category": "Dream and Psionic Peoples",
+      "deities": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Psionics, memory, mental discipline, and consensual thought-sharing align directly with higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "dream patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Dream birth, illusion, and movement across symbolic mental thresholds connect the Gwynis to Thalunesh.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "empathic patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "The ethics of emotional presence and influence are often framed through Nephthysra’s charisma and affective domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "geisamahi",
+      "race_name": "Geisamahi",
+      "race_category": "Small Mammalian Peoples",
+      "deities": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Tinkering, repair, precision building, and work in constrained spaces place Geisamahi craft under Marduthor.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "scout patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Scouting, narrow passages, travel, and quick route-finding align with the patron of wanderers and passage.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Oskar'enlil",
+          "role": "adaptation patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Their specialized bodies, whisker-sense, and occasional gliding membranes exemplify adaptive life balanced with civilization.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "deorbasun",
+      "race_name": "Deorbasun",
+      "race_category": "Beast-Souled Peoples",
+      "deities": [
+        {
+          "name": "Iskareth",
+          "role": "primary patron",
+          "titles": [
+            "Mother of Beasts",
+            "Keeper of Living Kinship",
+            "The Watching Predator"
+          ],
+          "domains": [
+            "instinct",
+            "beasts",
+            "fertility",
+            "natural kinship"
+          ],
+          "rationale": "Soul-animal bonds, instinct, territory, fertility, and natural kinship directly match Iskareth’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sigrananna",
+          "role": "wilderness patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Guardian duties across forests, mountains, and hunting grounds place many Deorbasun traditions under Sigrananna.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "social-duty patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their animal expression never overrides personhood or communal duty, which connects kinship obligations to Nebyrr’s social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "aburata",
+      "race_name": "Aburata",
+      "race_category": "Dual-Form Equine Peoples",
+      "deities": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Movement between upright and quadrupedal forms makes the shapeshifting patron the clearest Aburata association.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "freedom patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Open grasslands, mobile equine life, ambition, and refusal of imposed moral coding align with freedom and wilderness rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Enkirael",
+          "role": "heat-and-command patron",
+          "titles": [
+            "Lord of Conquest and Fury",
+            "The Unrestrained Blade",
+            "Patron of Martial Survival"
+          ],
+          "domains": [
+            "conquest",
+            "fury",
+            "survival",
+            "dominance",
+            "warfare"
+          ],
+          "rationale": "Heat, forceful presence, and martial ambition draw some Aburata houses toward Enkirael’s survival cults.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "drilthar",
+      "race_name": "Dril'thar",
+      "race_category": "Amphibious Peoples",
+      "deities": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "All Dril'thar breathe underwater, and their ocean and reef bloodlines place the race within Bastveig’s hidden-water sphere.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "metamorphosis patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Egg-clutches, metamorphic growth, and habitat-shaped life cycles reflect seasonal transformation and rebirth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Iskareth",
+          "role": "living-kinship patron",
+          "titles": [
+            "Mother of Beasts",
+            "Keeper of Living Kinship",
+            "The Watching Predator"
+          ],
+          "domains": [
+            "instinct",
+            "beasts",
+            "fertility",
+            "natural kinship"
+          ],
+          "rationale": "Their many ecological lineages and communal spawning traditions connect fertility and natural kinship to Iskareth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "tamhiogal",
+      "race_name": "Tamhiogal",
+      "race_category": "Tidal Peoples",
+      "deities": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Tides, reefs, trenches, coral stewardship, and ocean civilization are Bastveig’s explicit domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Horundar",
+          "role": "hydromancy patron",
+          "titles": [
+            "Sovereign of Seas and Ruin",
+            "Storm Below the World",
+            "Master of Elemental Force"
+          ],
+          "domains": [
+            "storms",
+            "oceans",
+            "floods",
+            "earthquakes",
+            "elemental force"
+          ],
+          "rationale": "Hydromancy, pressure changes, floods, and powerful currents connect Tamhiogal elemental rites to Horundar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "resonance patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Bioluminescent display and resonant communication give Sokhivar a secondary role in music-and-light observances.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "jaspey",
+      "race_name": "Jaspey",
+      "race_category": "Tiny Plant and Fungal Peoples",
+      "deities": [
+        {
+          "name": "Hathruna",
+          "role": "primary patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Fungi, roots, spores, decomposition, and ecological rebirth make Hathruna the central Jaspey deity.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "archive patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Treating decomposition as an archive of identity and memory connects Jaspey funerary ecology to Nefarokir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "role": "toxin-and-mutation patron",
+          "titles": [
+            "The First Devourer",
+            "Father of Aberrant Life",
+            "The Folded Colossus"
+          ],
+          "domains": [
+            "aberrant life",
+            "mutation",
+            "insectoid horrors",
+            "oozes"
+          ],
+          "rationale": "Toxin filtering, unusual symbiosis, and adaptive spore forms create a wary ritual association with aberrant life and mutation.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "volsarii",
+      "race_name": "Volsarii",
+      "race_category": "Liminal and Spirit Peoples",
+      "deities": [
+        {
+          "name": "Nefarokir",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Ferriers of souls and keepers of spirit passage are directly associated with death, spirits, memory, and the underworld.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Their liminal balance and work at boundaries between states place crossings under Freyseth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "winged-ascent patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Late-life functional wings are interpreted through sky, freedom, and prophetic ascent symbolism.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c01",
+      "race_name": "Hīnduigrägin",
+      "race_category": "Waymemory Folk",
+      "deities": [
+        {
+          "name": "Thalunesh",
+          "role": "primary patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Shared route-memory, travel, and the ability to lend a remembered path align with passage and wanderers.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "nomad patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Open-road freedom, communal wandering, and survival across steppe and badlands connect them to Asethyr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "The preservation and transfer of sensory memories gives Nefarokir a secondary place in remembrance rites.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c03",
+      "race_name": "Wimokhurumī",
+      "race_category": "Shellscript Folk",
+      "deities": [
+        {
+          "name": "Marduthor",
+          "role": "primary patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Mineral backplates that grow as maps, legal records, and crafted archives join stone, architecture, and skilled making.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "law-and-lineage patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Recorded law and family history place inheritance and civic order under Nebyrr.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Anubaldir",
+          "role": "endurance patron",
+          "titles": [
+            "Bearer of the Heavens",
+            "Colossus of Endurance",
+            "The Unbroken Foundation"
+          ],
+          "domains": [
+            "endurance",
+            "burden",
+            "strength",
+            "resilience"
+          ],
+          "rationale": "Slow travel and protective mineral bodies reflect patience, burden, and resilience.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c06",
+      "race_name": "Byevaichetar",
+      "race_category": "Moonmolt Folk",
+      "deities": [
+        {
+          "name": "Sigrananna",
+          "role": "primary patron",
+          "titles": [
+            "Moonlit Huntress",
+            "Keeper of Wild Thresholds",
+            "Mistress of the Elven Bloodlines"
+          ],
+          "domains": [
+            "forests",
+            "moonlight",
+            "wilderness",
+            "hunters",
+            "elven beauty"
+          ],
+          "rationale": "Lunar cycles are the organizing principle of Moonmolt bodies and civic life.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Hathruna",
+          "role": "renewal patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Chosen molts and preserved seasonal skins enact visible cycles of shedding, return, and rebirth.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "Archived skins holding selected memories connect civic remembrance to Nefarokir.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c09",
+      "race_name": "Nunzāozhenur",
+      "race_category": "Memory-Loom Folk",
+      "deities": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Constructed bodies made from replaceable memory ribbons fall directly under awakened life and artificial personhood.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "knowledge patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Skill-bearing memory ribbons and continuity of personhood raise questions of intellect and higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "civic-personhood patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Their legal recognition as persons and communal stewardship of memory are tied to civilization and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c10",
+      "race_name": "Tsovašwimóm",
+      "race_category": "Hearthforged Folk",
+      "deities": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Awakened ceramic-and-wood bodies are a clear expression of artificial life created without enslavement.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "hearth patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "The donated story is fired within a hearth-centered birth rite, linking new life to home and village continuity.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "craft patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Ceramic firing, woodcraft, and deliberate construction make Marduthor an important maker-patron.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c11",
+      "race_name": "Köpounnälanvar",
+      "race_category": "Clockfeather Folk",
+      "deities": [
+        {
+          "name": "Setrimir",
+          "role": "primary patron",
+          "titles": [
+            "Bearer of Stolen Fire",
+            "Maker of Awakened Life",
+            "The Bound Innovator"
+          ],
+          "domains": [
+            "artificial life",
+            "constructs",
+            "stolen knowledge",
+            "awakened machinery"
+          ],
+          "rationale": "Mechanical avian bodies and timekeeping feathers directly align with awakened machinery.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "sky patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Flight, feathers, migration, public coordination, and sky symbolism connect them to Sokhivar.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "mechanism patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Clockwork maintenance and transit infrastructure place skilled engineering under Marduthor.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c12",
+      "race_name": "Thalojomammǫ",
+      "race_category": "Cliffsong Folk",
+      "deities": [
+        {
+          "name": "Sokhivar",
+          "role": "primary patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Sky travel, layered song, and safe wind corridors directly match sunlight, music, prophecy, and divine freedom.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "passage patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Their sung maps guide travelers through mountain crossings and shifting air routes.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "law patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Encoding law and civic agreements in song connects the Cliffsong Folk to ordered civilization.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c13",
+      "race_name": "Suarrižkuset",
+      "race_category": "Nightsonar Folk",
+      "deities": [
+        {
+          "name": "Eirzunet",
+          "role": "primary patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Nocturnal life, shadowed architecture, and perception beyond ordinary light align with twilight and forbidden shadow.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "avian patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Despite their nocturnal habits, their avian bodies and aerial culture preserve an inherited association with the sky.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "perception patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Social echolocation that reads spatial and emotional tension is treated as a disciplined form of higher perception.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c14",
+      "race_name": "Fūnradnecael",
+      "race_category": "Sunplume Folk",
+      "deities": [
+        {
+          "name": "Sokhivar",
+          "role": "primary patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Solar feathers, migration, high-altitude travel, and visible civic crests directly reflect Sokhivar’s domains.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Asethyr",
+          "role": "migration patron",
+          "titles": [
+            "Patron of Revelry",
+            "The Laughing Liberator",
+            "Lord of Untamed Rites"
+          ],
+          "domains": [
+            "freedom",
+            "revelry",
+            "tribal rites",
+            "wilderness survival"
+          ],
+          "rationale": "Long free-ranging migrations and survival in exposed country connect them to wilderness freedom.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nephthysra",
+          "role": "identity patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Changing crest geometry broadcasts public identity through beauty, charisma, and unique form.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c17",
+      "race_name": "Losōbhūsmoe",
+      "race_category": "Tidefur Folk",
+      "deities": [
+        {
+          "name": "Bastveig",
+          "role": "primary patron",
+          "titles": [
+            "Keeper of Hidden Waters",
+            "Lady of Reefs and Trenches",
+            "Mother of Ocean Civilizations"
+          ],
+          "domains": [
+            "tides",
+            "reefs",
+            "trenches",
+            "hidden waters",
+            "ocean civilizations"
+          ],
+          "rationale": "Current-reading whiskers, amphibious navigation, floating settlements, and tidal life place them under Bastveig.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "navigation patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Long-distance navigation and movement among floating communities connect them to passage and wanderers.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "garden patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Floating civic gardens and food stewardship give Ishtanora a secondary role in cultivated abundance.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c19",
+      "race_name": "Dātseṣapyal",
+      "race_category": "Gelweave Folk",
+      "deities": [
+        {
+          "name": "Oskar'enlil",
+          "role": "primary patron",
+          "titles": [
+            "Balancer of the Sacred Harvest",
+            "Architect of Restraint",
+            "The Impartial Assessor"
+          ],
+          "domains": [
+            "adaptation",
+            "civilization",
+            "instinct",
+            "engineered races"
+          ],
+          "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "role": "gel-form patron",
+          "titles": [
+            "The First Devourer",
+            "Father of Aberrant Life",
+            "The Folded Colossus"
+          ],
+          "domains": [
+            "aberrant life",
+            "mutation",
+            "insectoid horrors",
+            "oozes"
+          ],
+          "rationale": "Soft bodies and temporary collective forms create a direct, if cautious, religious association with oozes and aberrant life.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "communal-labor patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Voluntary weaving for heavy labor is celebrated through village cooperation and peaceful shared work.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c20",
+      "race_name": "Shahreshōchü",
+      "race_category": "Silkroot Folk",
+      "deities": [
+        {
+          "name": "Hathruna",
+          "role": "primary patron",
+          "titles": [
+            "Root-Mother of Rot and Rebirth",
+            "Lady of the Breathing Bloom",
+            "Keeper of Seasonal Return"
+          ],
+          "domains": [
+            "rebirth",
+            "rot",
+            "fungi",
+            "roots",
+            "seasonal cycles"
+          ],
+          "rationale": "Rootlike limbs, seed nurseries, living growth, and seasonal garden renewal place them under the Root-Mother.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Ishtanora",
+          "role": "cultivation patron",
+          "titles": [
+            "Keeper of Hearth and Harvest",
+            "Mother of the Quiet Village",
+            "Warden of Cultivated Plenty"
+          ],
+          "domains": [
+            "hearths",
+            "harvests",
+            "villages",
+            "fertility",
+            "rural peace"
+          ],
+          "rationale": "Terrace gardens, nurseries, and community food systems connect them to harvest and village plenty.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "builder patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Living silk bridges and anchored architecture make sacred construction a major secondary tradition.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c22",
+      "race_name": "Fahánčoatani",
+      "race_category": "Shadowstitch Folk",
+      "deities": [
+        {
+          "name": "Eirzunet",
+          "role": "primary patron",
+          "titles": [
+            "Mistress of Twilight",
+            "Keeper of Forbidden Shadow",
+            "The Misaligned Silhouette"
+          ],
+          "domains": [
+            "shadows",
+            "curses",
+            "twilight transformation",
+            "forbidden magic"
+          ],
+          "rationale": "Detached shadows, twilight craft, and tools made from darkness directly align with Eirzunet.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Marduthor",
+          "role": "craft patron",
+          "titles": [
+            "Divine Artificer",
+            "Master of Forge and Stone",
+            "Architect of Sacred Industry"
+          ],
+          "domains": [
+            "invention",
+            "craft",
+            "metalwork",
+            "architecture",
+            "subterranean halls"
+          ],
+          "rationale": "Sewing shadows into shelters and tools treats impossible material as a disciplined craft.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Thalunesh",
+          "role": "decoy patron",
+          "titles": [
+            "Lord of Passage",
+            "The Shifting Messenger",
+            "Patron of Dreams and Mischief"
+          ],
+          "domains": [
+            "dreams",
+            "tricksters",
+            "shapeshifting",
+            "wanderers",
+            "fey mischief"
+          ],
+          "rationale": "Temporary decoys and misdirection connect Shadowstitch practice to trickery and shifting passage.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c27",
+      "race_name": "Trábuẹmapgir",
+      "race_category": "Chromatic Empaths",
+      "deities": [
+        {
+          "name": "Nephthysra",
+          "role": "primary patron",
+          "titles": [
+            "The Irresistible",
+            "Shaper of Desire",
+            "Patron of Unclassifiable Beauty"
+          ],
+          "domains": [
+            "beauty",
+            "charisma",
+            "emotional influence",
+            "uniqueness"
+          ],
+          "rationale": "Visible emotional color, charisma, affect, and unique appearance place the Chromatic Empaths closest to Nephthysra.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Raeshkul",
+          "role": "empathic-discipline patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Their ability reveals broad emotional pressure without reading thoughts, requiring disciplined understanding and consent.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nebyrr",
+          "role": "social-trust patron",
+          "titles": [
+            "Sovereign of Sacred Union",
+            "Architect of Lineage",
+            "Queen of Sanctioned Order"
+          ],
+          "domains": [
+            "civilization",
+            "lineage",
+            "dynasties",
+            "marriage",
+            "inheritance",
+            "social order"
+          ],
+          "rationale": "Public honesty balanced with privacy has become part of civic law and social order.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    },
+    {
+      "race_id": "c28",
+      "race_name": "Zaktadaitü",
+      "race_category": "Mirror-Time Folk",
+      "deities": [
+        {
+          "name": "Raeshkul",
+          "role": "primary patron",
+          "titles": [
+            "Strategist of Higher Understanding",
+            "The Rotating Eye",
+            "Architect of Calculated Victory"
+          ],
+          "domains": [
+            "intellect",
+            "psionics",
+            "strategy",
+            "higher understanding"
+          ],
+          "rationale": "Simultaneous awareness of probable future and remembered past is a direct form of higher understanding.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Sokhivar",
+          "role": "prophecy patron",
+          "titles": [
+            "Radiant Prophet",
+            "Voice of the Sky",
+            "Patron of Avian Omens"
+          ],
+          "domains": [
+            "sunlight",
+            "music",
+            "prophecy",
+            "divine freedom",
+            "sky"
+          ],
+          "rationale": "Probable futures are interpreted through prophecy while remaining choices rather than fixed commands.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Nefarokir",
+          "role": "memory patron",
+          "titles": [
+            "Keeper of the Design",
+            "Administrator of Death",
+            "Lord of the Forgotten Dead"
+          ],
+          "domains": [
+            "death",
+            "spirits",
+            "memory",
+            "burial",
+            "forgotten dead",
+            "underworld"
+          ],
+          "rationale": "The remembered past remains continuously present, giving memory rites a strong Nefarokir association.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        },
+        {
+          "name": "Freyseth",
+          "role": "choice-threshold patron",
+          "titles": [
+            "Liminal Matron of Thresholds",
+            "Keeper of Crossroads",
+            "Mistress of Forbidden Pacts"
+          ],
+          "domains": [
+            "crossroads",
+            "curses",
+            "planar bloodlines",
+            "temptation",
+            "forbidden pacts"
+          ],
+          "rationale": "Choosing which temporal perspective guides the present is treated as a crossing between possible paths.",
+          "public_understanding": "Recognized as a divine patron or associated deity within Universalian religious tradition."
+        }
+      ],
+      "note": "These are broad cultural associations rather than compulsory worship; households, regions, and individuals may honor other deities."
+    }
+  ]
+}

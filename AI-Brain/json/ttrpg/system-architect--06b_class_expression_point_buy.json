@@ -1,0 +1,1456 @@
+{
+  "schema": "universal.class-expression.v1",
+  "version": "1.3.0",
+  "generated_at": "2026-07-25T05:29:46+00:00",
+  "title": "Universal Class Expression and Path Evolution System",
+  "purpose": "A point-buy gradient for moving among the six canonical path families inside any of the twenty-two era-invariant classes while preserving the base class chassis.",
+  "locked_counts": {
+    "classes": 22,
+    "path_families": 6,
+    "paths": 132,
+    "axes_per_class_profile": 3,
+    "phases_per_axis": 4,
+    "slots_per_phase": 4,
+    "axis_minimum": 0,
+    "axis_maximum": 3000
+  },
+  "currency": {
+    "name": "Class Evolution Points",
+    "abbreviation": "CEP",
+    "earning_rule": "Whenever XP is awarded, also generate CEP equal to 25 percent of that XP: 1 CEP per 4 XP.",
+    "formula": "floor((xp_award + carried_xp_remainder) / 4)",
+    "remainder_rule": "Keep 0-3 unconverted XP in cep_xp_remainder so small awards are never lost.",
+    "separation_from_xp": "CEP never replaces, reduces, or delays XP. Spending or withdrawing CEP never changes character level.",
+    "spend_increment": 20,
+    "ordinary_level_up_increase_limit": 500,
+    "ordinary_level_up_withdrawal_limit": 500,
+    "allocation_window": "Allocate, withdraw, or transfer points when a level is gained, then confirm the result after a Haven Rest or equivalent training scene.",
+    "banking": "Unspent CEP remains banked without limit. A character may cross a threshold with the smallest legal 20-point purchase that reaches or exceeds it.",
+    "downtime_retraining": "A dedicated two-segment training project may raise both ordinary limits to 1000 for one completed level-up window, with DM approval and an in-fiction mentor, laboratory, archive, simulator, or equivalent resource.",
+    "no_loss_rule": "Withdrawing invested axis points returns them to the character CEP bank. It does not erase XP, levels, base class features, or permanent story achievements.",
+    "level_table": [
+      {
+        "level": 1,
+        "total_xp": 0,
+        "xp_since_prior_level": 0,
+        "cep_gained_from_interval": 0,
+        "cumulative_cep_generated": 0,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 2,
+        "total_xp": 300,
+        "xp_since_prior_level": 300,
+        "cep_gained_from_interval": 75,
+        "cumulative_cep_generated": 75,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 3,
+        "total_xp": 900,
+        "xp_since_prior_level": 600,
+        "cep_gained_from_interval": 150,
+        "cumulative_cep_generated": 225,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 4,
+        "total_xp": 2700,
+        "xp_since_prior_level": 1800,
+        "cep_gained_from_interval": 450,
+        "cumulative_cep_generated": 675,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 5,
+        "total_xp": 6500,
+        "xp_since_prior_level": 3800,
+        "cep_gained_from_interval": 950,
+        "cumulative_cep_generated": 1625,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 6,
+        "total_xp": 14000,
+        "xp_since_prior_level": 7500,
+        "cep_gained_from_interval": 1875,
+        "cumulative_cep_generated": 3500,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 7,
+        "total_xp": 23000,
+        "xp_since_prior_level": 9000,
+        "cep_gained_from_interval": 2250,
+        "cumulative_cep_generated": 5750,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 8,
+        "total_xp": 34000,
+        "xp_since_prior_level": 11000,
+        "cep_gained_from_interval": 2750,
+        "cumulative_cep_generated": 8500,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 9,
+        "total_xp": 48000,
+        "xp_since_prior_level": 14000,
+        "cep_gained_from_interval": 3500,
+        "cumulative_cep_generated": 12000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 10,
+        "total_xp": 64000,
+        "xp_since_prior_level": 16000,
+        "cep_gained_from_interval": 4000,
+        "cumulative_cep_generated": 16000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 11,
+        "total_xp": 85000,
+        "xp_since_prior_level": 21000,
+        "cep_gained_from_interval": 5250,
+        "cumulative_cep_generated": 21250,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 12,
+        "total_xp": 100000,
+        "xp_since_prior_level": 15000,
+        "cep_gained_from_interval": 3750,
+        "cumulative_cep_generated": 25000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 13,
+        "total_xp": 120000,
+        "xp_since_prior_level": 20000,
+        "cep_gained_from_interval": 5000,
+        "cumulative_cep_generated": 30000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 14,
+        "total_xp": 140000,
+        "xp_since_prior_level": 20000,
+        "cep_gained_from_interval": 5000,
+        "cumulative_cep_generated": 35000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 15,
+        "total_xp": 165000,
+        "xp_since_prior_level": 25000,
+        "cep_gained_from_interval": 6250,
+        "cumulative_cep_generated": 41250,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 16,
+        "total_xp": 195000,
+        "xp_since_prior_level": 30000,
+        "cep_gained_from_interval": 7500,
+        "cumulative_cep_generated": 48750,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 17,
+        "total_xp": 225000,
+        "xp_since_prior_level": 30000,
+        "cep_gained_from_interval": 7500,
+        "cumulative_cep_generated": 56250,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 18,
+        "total_xp": 265000,
+        "xp_since_prior_level": 40000,
+        "cep_gained_from_interval": 10000,
+        "cumulative_cep_generated": 66250,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 19,
+        "total_xp": 305000,
+        "xp_since_prior_level": 40000,
+        "cep_gained_from_interval": 10000,
+        "cumulative_cep_generated": 76250,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 20,
+        "total_xp": 355000,
+        "xp_since_prior_level": 50000,
+        "cep_gained_from_interval": 12500,
+        "cumulative_cep_generated": 88750,
+        "proficiency_bonus": 6
+      }
+    ]
+  },
+  "class_profile_rule": {
+    "one_profile_per_class": "Each class a character possesses has its own Martial Practice, Spellcraft, and Psionic Discipline values. Multiclass characters share one CEP bank and one 500-point increase limit across all class profiles at each level-up.",
+    "base_class_lock": "Axis movement changes the active path inside the class. It does not replace the selected base class or its common chassis. Optional full class retraining should be handled as a separate campaign project.",
+    "path_features": "At a confirmed path change, old path-specific features become dormant and the matching path features up to the character’s current class level become active. Base class features remain. Dormant features cannot be used, stacked, or harvested for permanent benefits.",
+    "progression": "Use only the active path’s spell-slot, psionic-grade, Focus, and path-feature progression. Never combine the half, full, and hybrid progressions at once.",
+    "gear_transition": "Training changes permission, not inventory. Crossing a Martial Practice threshold does not create gear. When training falls, currently worn gear remains physically present, but proficiency becomes dormant after the confirming Haven Rest unless another feature supplies it."
+  },
+  "axes": [
+    {
+      "id": "martial_practice",
+      "name": "Martial Practice",
+      "question": "How deeply has this class expression invested in weapons, armor, shields, physical maneuvers, and combat loadouts?",
+      "low": "Minimal martial training",
+      "high": "Defining martial mastery",
+      "mechanical_ownership": "Controls armor, weapon, shield, Thundercoil, and martial loadout permissions. It does not by itself determine the active path family."
+    },
+    {
+      "id": "spellcraft",
+      "name": "Spellcraft",
+      "question": "How deeply has this class expression invested in magical technique, spell ranks, ritual literacy, and magical loadouts?",
+      "low": "No spell source",
+      "high": "Defining full spell source",
+      "mechanical_ownership": "Controls caster-family thresholds and spell familiarity. The active class path supplies exact spell lists and progression."
+    },
+    {
+      "id": "psionic_discipline",
+      "name": "Psionic Discipline",
+      "question": "How deeply has this class expression invested in noetic discipline, Focus, psionic grades, and psionic loadouts?",
+      "low": "No psionic source",
+      "high": "Defining full psionic source",
+      "mechanical_ownership": "Controls psi-family thresholds and psionic familiarity. The active class path supplies exact disciplines and progression."
+    }
+  ],
+  "four_phase_four_slot_model": [
+    {
+      "phase": 1,
+      "name": "Foundation",
+      "range": "0-749",
+      "slots": [
+        {
+          "slot": 1,
+          "name": "Dormant",
+          "range": "0-187"
+        },
+        {
+          "slot": 2,
+          "name": "Familiar",
+          "range": "188-374"
+        },
+        {
+          "slot": 3,
+          "name": "Half-Source",
+          "range": "375-561"
+        },
+        {
+          "slot": 4,
+          "name": "Established Foundation",
+          "range": "562-749"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Developing",
+      "range": "750-1499",
+      "slots": [
+        {
+          "slot": 1,
+          "name": "Initiate",
+          "range": "750-937"
+        },
+        {
+          "slot": 2,
+          "name": "Practiced",
+          "range": "938-1124"
+        },
+        {
+          "slot": 3,
+          "name": "Cross-Trained",
+          "range": "1125-1311"
+        },
+        {
+          "slot": 4,
+          "name": "Near Specialist",
+          "range": "1312-1499"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Advanced",
+      "range": "1500-2249",
+      "slots": [
+        {
+          "slot": 1,
+          "name": "Specialist",
+          "range": "1500-1687"
+        },
+        {
+          "slot": 2,
+          "name": "Deep Specialist",
+          "range": "1688-1874"
+        },
+        {
+          "slot": 3,
+          "name": "Expert",
+          "range": "1875-2061"
+        },
+        {
+          "slot": 4,
+          "name": "High Expert",
+          "range": "2062-2249"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Defining",
+      "range": "2250-3000",
+      "slots": [
+        {
+          "slot": 1,
+          "name": "Master",
+          "range": "2250-2437"
+        },
+        {
+          "slot": 2,
+          "name": "Rooted Master",
+          "range": "2438-2625"
+        },
+        {
+          "slot": 3,
+          "name": "Grandmaster",
+          "range": "2626-2812"
+        },
+        {
+          "slot": 4,
+          "name": "Absolute Expression",
+          "range": "2813-3000"
+        }
+      ]
+    }
+  ],
+  "seed_rule": {
+    "timing": "At level 3, or at campaign start for a character who begins at level 3 or higher, choose one of the six seed profiles. Each seed contains exactly 1500 invested axis points and costs no CEP.",
+    "profiles": {
+      "melee_non_caster": {
+        "martial_practice": 1500,
+        "spellcraft": 0,
+        "psionic_discipline": 0
+      },
+      "half_caster": {
+        "martial_practice": 1000,
+        "spellcraft": 500,
+        "psionic_discipline": 0
+      },
+      "half_psi": {
+        "martial_practice": 1000,
+        "spellcraft": 0,
+        "psionic_discipline": 500
+      },
+      "full_caster": {
+        "martial_practice": 0,
+        "spellcraft": 1500,
+        "psionic_discipline": 0
+      },
+      "full_psi": {
+        "martial_practice": 0,
+        "spellcraft": 0,
+        "psionic_discipline": 1500
+      },
+      "hybrid_psicaster": {
+        "martial_practice": 500,
+        "spellcraft": 500,
+        "psionic_discipline": 500
+      }
+    },
+    "equality_rule": "Every seed has the same total investment. A family is not stronger because its points are concentrated differently."
+  },
+  "active_path_classifier": {
+    "evaluation_order": [
+      {
+        "family": "hybrid_psicaster",
+        "priority": 1,
+        "condition": "spellcraft >= 375 and psionic_discipline >= 375",
+        "explanation": "Any meaningful investment in both supernatural sources activates the class-specific Hybrid Psi-Caster path. Higher values deepen the two sources but never create a seventh family."
+      },
+      {
+        "family": "full_caster",
+        "priority": 2,
+        "condition": "spellcraft >= 1500 and psionic_discipline < 375",
+        "explanation": "Spellcraft is the sole developed supernatural source and has reached the Specialist threshold."
+      },
+      {
+        "family": "half_caster",
+        "priority": 3,
+        "condition": "375 <= spellcraft < 1500 and psionic_discipline < 375",
+        "explanation": "Spellcraft is active but below the full-caster threshold."
+      },
+      {
+        "family": "full_psi",
+        "priority": 4,
+        "condition": "psionic_discipline >= 1500 and spellcraft < 375",
+        "explanation": "Psionics is the sole developed supernatural source and has reached the Specialist threshold."
+      },
+      {
+        "family": "half_psi",
+        "priority": 5,
+        "condition": "375 <= psionic_discipline < 1500 and spellcraft < 375",
+        "explanation": "Psionics is active but below the full-psi threshold."
+      },
+      {
+        "family": "melee_non_caster",
+        "priority": 6,
+        "condition": "spellcraft < 375 and psionic_discipline < 375",
+        "explanation": "Neither supernatural source has crossed the Half-Source threshold. Martial Practice still determines armor, weapon, and maneuver access."
+      }
+    ],
+    "tie_rule": "Hybrid has precedence whenever both Spellcraft and Psionic Discipline are at least 375. Martial Practice never creates a seventh path family.",
+    "confirmation_rule": "Threshold crossing creates a candidate path immediately in software, but the player confirms the path at the level-up allocation window. No application may switch a player’s path silently."
+  },
+  "source_threshold_benefits": {
+    "spellcraft": [
+      {
+        "minimum": 0,
+        "maximum": 187,
+        "benefit": "No spell access from this axis."
+      },
+      {
+        "minimum": 188,
+        "maximum": 374,
+        "benefit": "Magical literacy, ritual participation, and one class-legal rank-0 technique; this does not activate a caster path."
+      },
+      {
+        "minimum": 375,
+        "maximum": 749,
+        "benefit": "Half-Caster path threshold. Use the class-specific half-caster progression when Psionics remains below 375."
+      },
+      {
+        "minimum": 750,
+        "maximum": 1124,
+        "benefit": "Developed half-caster expression; one spell loadout mastery slot."
+      },
+      {
+        "minimum": 1125,
+        "maximum": 1499,
+        "benefit": "Cross-trained half-caster expression; two spell loadout mastery slots."
+      },
+      {
+        "minimum": 1500,
+        "maximum": 1874,
+        "benefit": "Full-Caster path threshold when Psionics remains below 375; use the class-specific full-caster progression."
+      },
+      {
+        "minimum": 1875,
+        "maximum": 2249,
+        "benefit": "Expert spell expression; three spell loadout mastery slots."
+      },
+      {
+        "minimum": 2250,
+        "maximum": 2812,
+        "benefit": "Defining spell expression; four spell loadout mastery slots."
+      },
+      {
+        "minimum": 2813,
+        "maximum": 3000,
+        "benefit": "Absolute spell expression; five spell loadout mastery slots."
+      }
+    ],
+    "psionic_discipline": [
+      {
+        "minimum": 0,
+        "maximum": 187,
+        "benefit": "No psionic access from this axis."
+      },
+      {
+        "minimum": 188,
+        "maximum": 374,
+        "benefit": "Psychic sensitivity, countermanifesting participation, and one class-legal grade-0 technique; this does not activate a psi path."
+      },
+      {
+        "minimum": 375,
+        "maximum": 749,
+        "benefit": "Half-Psi path threshold. Use the class-specific half-psi progression when Spellcraft remains below 375."
+      },
+      {
+        "minimum": 750,
+        "maximum": 1124,
+        "benefit": "Developed half-psi expression; one psionic loadout mastery slot."
+      },
+      {
+        "minimum": 1125,
+        "maximum": 1499,
+        "benefit": "Cross-trained half-psi expression; two psionic loadout mastery slots."
+      },
+      {
+        "minimum": 1500,
+        "maximum": 1874,
+        "benefit": "Full-Psi path threshold when Spellcraft remains below 375; use the class-specific full-psi progression."
+      },
+      {
+        "minimum": 1875,
+        "maximum": 2249,
+        "benefit": "Expert psionic expression; three psionic loadout mastery slots."
+      },
+      {
+        "minimum": 2250,
+        "maximum": 2812,
+        "benefit": "Defining psionic expression; four psionic loadout mastery slots."
+      },
+      {
+        "minimum": 2813,
+        "maximum": 3000,
+        "benefit": "Absolute psionic expression; five psionic loadout mastery slots."
+      }
+    ]
+  },
+  "martial_training_by_score": [
+    {
+      "range": "0-187",
+      "minimum": 0,
+      "maximum": 187,
+      "armor": [
+        "Unarmored"
+      ],
+      "weapons": [
+        "Simple weapons",
+        "One class implement or tool"
+      ],
+      "shields": false,
+      "thundercoils": [
+        "Civilian or tool-grade only"
+      ],
+      "notes": "The character can physically use other gear, but lacks proficiency and cannot channel class maneuvers through it."
+    },
+    {
+      "range": "188-374",
+      "minimum": 188,
+      "maximum": 374,
+      "armor": [
+        "Light armor"
+      ],
+      "weapons": [
+        "Simple weapons",
+        "One class signature weapon group"
+      ],
+      "shields": false,
+      "thundercoils": [
+        "Light or civilian platforms"
+      ],
+      "notes": "Familiar martial training; suitable for caster and psi paths that want a limited weapon identity."
+    },
+    {
+      "range": "375-561",
+      "minimum": 375,
+      "maximum": 561,
+      "armor": [
+        "Light armor"
+      ],
+      "weapons": [
+        "Simple weapons",
+        "One martial weapon group"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Light Thundercoils"
+      ],
+      "notes": "The first broadly combat-capable band."
+    },
+    {
+      "range": "562-749",
+      "minimum": 562,
+      "maximum": 749,
+      "armor": [
+        "Light armor",
+        "Medium armor"
+      ],
+      "weapons": [
+        "Simple weapons",
+        "Two martial weapon groups"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Class-preferred Thundercoils"
+      ],
+      "notes": "Established half-martial training."
+    },
+    {
+      "range": "750-937",
+      "minimum": 750,
+      "maximum": 937,
+      "armor": [
+        "Light armor",
+        "Medium armor"
+      ],
+      "weapons": [
+        "All class-listed weapons",
+        "One additional martial group"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "All class-listed Thundercoils"
+      ],
+      "notes": "Initiate martial expression."
+    },
+    {
+      "range": "938-1124",
+      "minimum": 938,
+      "maximum": 1124,
+      "armor": [
+        "Light armor",
+        "Medium armor"
+      ],
+      "weapons": [
+        "All simple weapons",
+        "All martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "notes": "Broad weapon proficiency."
+    },
+    {
+      "range": "1125-1311",
+      "minimum": 1125,
+      "maximum": 1311,
+      "armor": [
+        "Light armor",
+        "Medium armor",
+        "Heavy armor"
+      ],
+      "weapons": [
+        "All simple weapons",
+        "All martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "notes": "Heavy armor becomes available when anatomy and setting permit it."
+    },
+    {
+      "range": "1312-1499",
+      "minimum": 1312,
+      "maximum": 1499,
+      "armor": [
+        "All armor"
+      ],
+      "weapons": [
+        "All simple and martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "mastery_slots": 1,
+      "notes": "Gain one martial loadout mastery slot; it equips a legal stance, maneuver, or weapon property rather than adding an unrestricted flat bonus."
+    },
+    {
+      "range": "1500-1687",
+      "minimum": 1500,
+      "maximum": 1687,
+      "armor": [
+        "All armor"
+      ],
+      "weapons": [
+        "All simple and martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "mastery_slots": 2,
+      "notes": "Specialist martial expression. Existing class rules still control Extra Attack and action economy."
+    },
+    {
+      "range": "1688-2061",
+      "minimum": 1688,
+      "maximum": 2061,
+      "armor": [
+        "All armor"
+      ],
+      "weapons": [
+        "All simple and martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "mastery_slots": 3,
+      "notes": "Deep specialist or expert martial expression."
+    },
+    {
+      "range": "2062-2437",
+      "minimum": 2062,
+      "maximum": 2437,
+      "armor": [
+        "All armor"
+      ],
+      "weapons": [
+        "All simple and martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "mastery_slots": 4,
+      "notes": "High expert or master martial expression."
+    },
+    {
+      "range": "2438-3000",
+      "minimum": 2438,
+      "maximum": 3000,
+      "armor": [
+        "All armor"
+      ],
+      "weapons": [
+        "All simple and martial weapons"
+      ],
+      "shields": true,
+      "thundercoils": [
+        "Martial Thundercoils"
+      ],
+      "mastery_slots": 5,
+      "notes": "Defining martial expression; no additional attacks are granted merely by axis value."
+    }
+  ],
+  "switching_examples": [
+    {
+      "name": "Half-Caster to Melee / Non-Caster",
+      "before": {
+        "martial_practice": 1000,
+        "spellcraft": 500,
+        "psionic_discipline": 0,
+        "family": "half_caster"
+      },
+      "change": "Withdraw 500 Spellcraft points during a level-up allocation window.",
+      "after": {
+        "martial_practice": 1000,
+        "spellcraft": 0,
+        "psionic_discipline": 0,
+        "family": "melee_non_caster"
+      },
+      "result": "The class-specific melee path becomes active. The 500 withdrawn points return to the CEP bank. Martial Practice 1000 continues to permit broad weapons, medium armor, shields, and Martial Thundercoils."
+    },
+    {
+      "name": "Half-Caster gradually becoming Hybrid Psi-Caster",
+      "before": {
+        "martial_practice": 1000,
+        "spellcraft": 500,
+        "psionic_discipline": 0,
+        "family": "half_caster"
+      },
+      "change": "Add 20 Psionic Discipline points at a level-up. Continue investing in later allocation windows.",
+      "intermediate": {
+        "martial_practice": 1000,
+        "spellcraft": 500,
+        "psionic_discipline": 20,
+        "family": "half_caster"
+      },
+      "threshold": "At Psionic Discipline 188, gain psychic familiarity. At 380 or any value at least 375, the class-specific Hybrid Psi-Caster path becomes the candidate path.",
+      "result": "The transition is visible and gradual. Only the confirmed active path supplies path features and progression."
+    },
+    {
+      "name": "Armored Full-Caster",
+      "before": {
+        "martial_practice": 0,
+        "spellcraft": 1500,
+        "psionic_discipline": 0,
+        "family": "full_caster"
+      },
+      "change": "Invest earned CEP into Martial Practice without reducing Spellcraft.",
+      "result": "The character remains a Full-Caster while gradually unlocking light armor, shields, martial groups, medium armor, and eventually heavy armor. This flexibility consumes the same point budget that could have deepened Spellcraft or opened Psionics."
+    }
+  ],
+  "online_contract": {
+    "authoritative_fields": [
+      "cep_bank",
+      "cep_xp_remainder",
+      "class_profiles[].axes.martial_practice",
+      "class_profiles[].axes.spellcraft",
+      "class_profiles[].axes.psionic_discipline",
+      "class_profiles[].candidate_family",
+      "class_profiles[].active_family",
+      "class_profiles[].active_path_id",
+      "class_profiles[].last_confirmed_level"
+    ],
+    "required_events": [
+      "cep_generated",
+      "cep_allocated",
+      "cep_withdrawn",
+      "axis_threshold_crossed",
+      "candidate_path_changed",
+      "path_change_confirmed",
+      "proficiency_state_changed"
+    ],
+    "confirmation": "candidate_path_changed is a preview event. path_change_confirmed requires explicit player approval and records before/after snapshots.",
+    "board_game_translation": "Use three 0-3000 dials or sixteen-slot tracks per class board, a CEP bank, and six path cards. Flip the active path card only at a level-up or completed retraining project."
+  },
+  "class_path_maps": [
+    {
+      "class_id": "derecho_death_dealer",
+      "class_name": "Derecho Death Dealer",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "rebellion_reaver",
+          "path_name": "Rebellion Reaver"
+        },
+        "half_caster": {
+          "path_id": "prophetic_detonator",
+          "path_name": "Prophetic Detonator"
+        },
+        "half_psi": {
+          "path_id": "gravecurrent_initiate",
+          "path_name": "Gravecurrent Initiate"
+        },
+        "full_caster": {
+          "path_id": "soulimit_oracle",
+          "path_name": "Soulimit Oracle"
+        },
+        "full_psi": {
+          "path_id": "thanatostorm_ascendant",
+          "path_name": "Thanatostorm Ascendant"
+        },
+        "hybrid_psicaster": {
+          "path_id": "necropsionic_stormbinder",
+          "path_name": "Necropsionic Stormbinder"
+        }
+      }
+    },
+    {
+      "class_id": "chronostar_runeforger",
+      "class_name": "Chronostar Runeforger",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "present_anchor",
+          "path_name": "Present Anchor"
+        },
+        "half_caster": {
+          "path_id": "probability_broker",
+          "path_name": "Probability Broker"
+        },
+        "half_psi": {
+          "path_id": "thought_rune_smith",
+          "path_name": "Thought-Rune Smith"
+        },
+        "full_caster": {
+          "path_id": "chronozone_architect",
+          "path_name": "Chronozone Architect"
+        },
+        "full_psi": {
+          "path_id": "noetic_chronoforger",
+          "path_name": "Noetic Chronoforger"
+        },
+        "hybrid_psicaster": {
+          "path_id": "psionic_runecaster",
+          "path_name": "Psionic Runecaster"
+        }
+      }
+    },
+    {
+      "class_id": "mindknife_mirage",
+      "class_name": "Mindknife Mirage",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "phantom_scalpel",
+          "path_name": "Phantom Scalpel"
+        },
+        "half_caster": {
+          "path_id": "clone_tactician",
+          "path_name": "Clone Tactician"
+        },
+        "half_psi": {
+          "path_id": "thoughtknife_infiltrator",
+          "path_name": "Thoughtknife Infiltrator"
+        },
+        "full_caster": {
+          "path_id": "psyche_ruinist",
+          "path_name": "Psyche Ruinist"
+        },
+        "full_psi": {
+          "path_id": "sovereign_mindblade",
+          "path_name": "Sovereign Mindblade"
+        },
+        "hybrid_psicaster": {
+          "path_id": "veil_mind_psicaster",
+          "path_name": "Veil-Mind Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "moonfang_bastion",
+      "class_name": "Moonfang Bastion",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "nightmare_bulwark",
+          "path_name": "Nightmare Bulwark"
+        },
+        "half_caster": {
+          "path_id": "dreamfield_keeper",
+          "path_name": "Dreamfield Keeper"
+        },
+        "half_psi": {
+          "path_id": "packmind_bastion",
+          "path_name": "Packmind Bastion"
+        },
+        "full_caster": {
+          "path_id": "oneiric_suppressor",
+          "path_name": "Oneiric Suppressor"
+        },
+        "full_psi": {
+          "path_id": "astral_beast_bastion",
+          "path_name": "Astral Beast Bastion"
+        },
+        "hybrid_psicaster": {
+          "path_id": "moonmind_formcaster",
+          "path_name": "Moonmind Formcaster"
+        }
+      }
+    },
+    {
+      "class_id": "ashen_lifebringer",
+      "class_name": "Ashen Lifebringer",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "thorn_gale",
+          "path_name": "Thorn Gale"
+        },
+        "half_caster": {
+          "path_id": "raincaller",
+          "path_name": "Raincaller"
+        },
+        "half_psi": {
+          "path_id": "empathic_cauterist",
+          "path_name": "Empathic Cauterist"
+        },
+        "full_caster": {
+          "path_id": "wild_tempest",
+          "path_name": "Wild Tempest"
+        },
+        "full_psi": {
+          "path_id": "phoenix_mind_restorer",
+          "path_name": "Phoenix-Mind Restorer"
+        },
+        "hybrid_psicaster": {
+          "path_id": "pyropsionic_lifecaster",
+          "path_name": "Pyropsionic Lifecaster"
+        }
+      }
+    },
+    {
+      "class_id": "velvet_veilwalker",
+      "class_name": "Velvet Veilwalker",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "nightknife",
+          "path_name": "Nightknife"
+        },
+        "half_caster": {
+          "path_id": "mirror_hexer",
+          "path_name": "Mirror Hexer"
+        },
+        "half_psi": {
+          "path_id": "court_thought_adept",
+          "path_name": "Court-Thought Adept"
+        },
+        "full_caster": {
+          "path_id": "void_phantasm",
+          "path_name": "Void Phantasm"
+        },
+        "full_psi": {
+          "path_id": "velvet_mind_sovereign",
+          "path_name": "Velvet Mind Sovereign"
+        },
+        "hybrid_psicaster": {
+          "path_id": "glamour_psi_veilcaster",
+          "path_name": "Glamour-Psi Veilcaster"
+        }
+      }
+    },
+    {
+      "class_id": "riftbane_spellwarden",
+      "class_name": "Riftbane Spellwarden",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "hushblade",
+          "path_name": "Hushblade"
+        },
+        "half_caster": {
+          "path_id": "mnemonic_saboteur",
+          "path_name": "Mnemonic Saboteur"
+        },
+        "half_psi": {
+          "path_id": "witchsense_warden",
+          "path_name": "Witchsense Warden"
+        },
+        "full_caster": {
+          "path_id": "null_scribe",
+          "path_name": "Null Scribe"
+        },
+        "full_psi": {
+          "path_id": "null_mind_warden",
+          "path_name": "Null-Mind Warden"
+        },
+        "hybrid_psicaster": {
+          "path_id": "antimagic_psicaster",
+          "path_name": "Antimagic Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "gravebloom_medium",
+      "class_name": "Gravebloom Medium",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "blackbriar_guardian",
+          "path_name": "Blackbriar Guardian"
+        },
+        "half_caster": {
+          "path_id": "gravegarden_tender",
+          "path_name": "Gravegarden Tender"
+        },
+        "half_psi": {
+          "path_id": "spirit_echo_adept",
+          "path_name": "Spirit-Echo Adept"
+        },
+        "full_caster": {
+          "path_id": "thorned_reclaimer",
+          "path_name": "Thorned Reclaimer"
+        },
+        "full_psi": {
+          "path_id": "ancestral_mind_medium",
+          "path_name": "Ancestral Mind Medium"
+        },
+        "hybrid_psicaster": {
+          "path_id": "gravebloom_psicaster",
+          "path_name": "Gravebloom Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "thunderstep_duelist",
+      "class_name": "Thunderstep Duelist",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "skyblade",
+          "path_name": "Skyblade"
+        },
+        "half_caster": {
+          "path_id": "gale_warden",
+          "path_name": "Gale Warden"
+        },
+        "half_psi": {
+          "path_id": "reflex_mind_fencer",
+          "path_name": "Reflex-Mind Fencer"
+        },
+        "full_caster": {
+          "path_id": "stormheart",
+          "path_name": "Stormheart"
+        },
+        "full_psi": {
+          "path_id": "stormthought_duelist",
+          "path_name": "Stormthought Duelist"
+        },
+        "hybrid_psicaster": {
+          "path_id": "kinetic_thunderblade",
+          "path_name": "Kinetic Thunderblade"
+        }
+      }
+    },
+    {
+      "class_id": "ironroot_colossus",
+      "class_name": "Ironroot Colossus",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "cinderbreaker",
+          "path_name": "Cinderbreaker"
+        },
+        "half_caster": {
+          "path_id": "forge_marshal",
+          "path_name": "Forge Marshal"
+        },
+        "half_psi": {
+          "path_id": "stone_mind_bulwark",
+          "path_name": "Stone-Mind Bulwark"
+        },
+        "full_caster": {
+          "path_id": "pyre_savant",
+          "path_name": "Pyre Savant"
+        },
+        "full_psi": {
+          "path_id": "worldroot_telekinetic",
+          "path_name": "Worldroot Telekinetic"
+        },
+        "hybrid_psicaster": {
+          "path_id": "geopsionic_runecaster",
+          "path_name": "Geopsionic Runecaster"
+        }
+      }
+    },
+    {
+      "class_id": "chaoswheel_oracle",
+      "class_name": "Chaoswheel Oracle",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "harmonic_blade",
+          "path_name": "Harmonic Blade"
+        },
+        "half_caster": {
+          "path_id": "meridian_warden",
+          "path_name": "Meridian Warden"
+        },
+        "half_psi": {
+          "path_id": "intuition_touched_seer",
+          "path_name": "Intuition-Touched Seer"
+        },
+        "full_caster": {
+          "path_id": "eclipse_theurge",
+          "path_name": "Eclipse Theurge"
+        },
+        "full_psi": {
+          "path_id": "probability_mind_oracle",
+          "path_name": "Probability Mind Oracle"
+        },
+        "hybrid_psicaster": {
+          "path_id": "chaos_psi_diviner",
+          "path_name": "Chaos-Psi Diviner"
+        }
+      }
+    },
+    {
+      "class_id": "drakebolt_machinist",
+      "class_name": "Drakebolt Machinist",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "quickcoil_outrider",
+          "path_name": "Quickcoil Outrider"
+        },
+        "half_caster": {
+          "path_id": "arc_ricochet",
+          "path_name": "Arc Ricochet"
+        },
+        "half_psi": {
+          "path_id": "neural_gearwright",
+          "path_name": "Neural Gearwright"
+        },
+        "full_caster": {
+          "path_id": "silent_longshot",
+          "path_name": "Silent Longshot"
+        },
+        "full_psi": {
+          "path_id": "machine_mind_artificer",
+          "path_name": "Machine-Mind Artificer"
+        },
+        "hybrid_psicaster": {
+          "path_id": "draconic_techno_psicaster",
+          "path_name": "Draconic Techno-Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "dreadcrown_marshal",
+      "class_name": "Dreadcrown Marshal",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "cinder_cleaver",
+          "path_name": "Cinder Cleaver"
+        },
+        "half_caster": {
+          "path_id": "riotbrand_marshal",
+          "path_name": "Riotbrand Marshal"
+        },
+        "half_psi": {
+          "path_id": "command_voice_adept",
+          "path_name": "Command-Voice Adept"
+        },
+        "full_caster": {
+          "path_id": "revolution_pyromancer",
+          "path_name": "Revolution Pyromancer"
+        },
+        "full_psi": {
+          "path_id": "dominion_mind_marshal",
+          "path_name": "Dominion Mind Marshal"
+        },
+        "hybrid_psicaster": {
+          "path_id": "dread_psi_warcaster",
+          "path_name": "Dread-Psi Warcaster"
+        }
+      }
+    },
+    {
+      "class_id": "horizon_shade",
+      "class_name": "Horizon Shade",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "cinderstep_duelist",
+          "path_name": "Cinderstep Duelist"
+        },
+        "half_caster": {
+          "path_id": "hexflame_stalker",
+          "path_name": "Hexflame Stalker"
+        },
+        "half_psi": {
+          "path_id": "blink_sense_stalker",
+          "path_name": "Blink-Sense Stalker"
+        },
+        "full_caster": {
+          "path_id": "ashstorm_dominator",
+          "path_name": "Ashstorm Dominator"
+        },
+        "full_psi": {
+          "path_id": "horizon_mindwalker",
+          "path_name": "Horizon Mindwalker"
+        },
+        "hybrid_psicaster": {
+          "path_id": "umbral_rift_psicaster",
+          "path_name": "Umbral Rift Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "ichorborn_transmuter",
+      "class_name": "Ichorborn Transmuter",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "crimson_blade",
+          "path_name": "Crimson Blade"
+        },
+        "half_caster": {
+          "path_id": "sanguine_aegis",
+          "path_name": "Sanguine Aegis"
+        },
+        "half_psi": {
+          "path_id": "adaptive_mindshaper",
+          "path_name": "Adaptive Mindshaper"
+        },
+        "full_caster": {
+          "path_id": "vein_oracle",
+          "path_name": "Vein Oracle"
+        },
+        "full_psi": {
+          "path_id": "fleshthought_transmuter",
+          "path_name": "Fleshthought Transmuter"
+        },
+        "hybrid_psicaster": {
+          "path_id": "ichor_psi_metamorph",
+          "path_name": "Ichor-Psi Metamorph"
+        }
+      }
+    },
+    {
+      "class_id": "dawnfire_exorcist",
+      "class_name": "Dawnfire Exorcist",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "crescent_duelist",
+          "path_name": "Crescent Duelist"
+        },
+        "half_caster": {
+          "path_id": "eclipse_warden",
+          "path_name": "Eclipse Warden"
+        },
+        "half_psi": {
+          "path_id": "spirit_sense_purifier",
+          "path_name": "Spirit-Sense Purifier"
+        },
+        "full_caster": {
+          "path_id": "fullmoon_hierophant",
+          "path_name": "Fullmoon Hierophant"
+        },
+        "full_psi": {
+          "path_id": "radiant_mind_exorcist",
+          "path_name": "Radiant Mind Exorcist"
+        },
+        "hybrid_psicaster": {
+          "path_id": "dawn_psi_wardsinger",
+          "path_name": "Dawn-Psi Wardsinger"
+        }
+      }
+    },
+    {
+      "class_id": "dreamgrove_beastcaller",
+      "class_name": "Dreamgrove Beastcaller",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "briar_bastion",
+          "path_name": "Briar Bastion"
+        },
+        "half_caster": {
+          "path_id": "grove_mendicant",
+          "path_name": "Grove Mendicant"
+        },
+        "half_psi": {
+          "path_id": "beast_empath_caller",
+          "path_name": "Beast-Empath Caller"
+        },
+        "full_caster": {
+          "path_id": "verdant_avatar",
+          "path_name": "Verdant Avatar"
+        },
+        "full_psi": {
+          "path_id": "dreammind_beastlord",
+          "path_name": "Dreammind Beastlord"
+        },
+        "hybrid_psicaster": {
+          "path_id": "verdant_psicaster",
+          "path_name": "Verdant Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "stargrave_psychopomp",
+      "class_name": "Stargrave Psychopomp",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "last_light_guardian",
+          "path_name": "Last-Light Guardian"
+        },
+        "half_caster": {
+          "path_id": "stillhour_shepherd",
+          "path_name": "Stillhour Shepherd"
+        },
+        "half_psi": {
+          "path_id": "soul_sense_guide",
+          "path_name": "Soul-Sense Guide"
+        },
+        "full_caster": {
+          "path_id": "requiem_oracle",
+          "path_name": "Requiem Oracle"
+        },
+        "full_psi": {
+          "path_id": "astral_mind_psychopomp",
+          "path_name": "Astral Mind Psychopomp"
+        },
+        "hybrid_psicaster": {
+          "path_id": "stargrave_soulcaster",
+          "path_name": "Stargrave Soulcaster"
+        }
+      }
+    },
+    {
+      "class_id": "tempest_swarmbinder",
+      "class_name": "Tempest Swarmbinder",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "tide_dancer",
+          "path_name": "Tide Dancer"
+        },
+        "half_caster": {
+          "path_id": "fog_cantor",
+          "path_name": "Fog Cantor"
+        },
+        "half_psi": {
+          "path_id": "swarmmind_conductor",
+          "path_name": "Swarmmind Conductor"
+        },
+        "full_caster": {
+          "path_id": "deepstorm_voice",
+          "path_name": "Deepstorm Voice"
+        },
+        "full_psi": {
+          "path_id": "hive_tempest_sovereign",
+          "path_name": "Hive-Tempest Sovereign"
+        },
+        "hybrid_psicaster": {
+          "path_id": "stormswarm_psicaster",
+          "path_name": "Stormswarm Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "fate_eye_savant",
+      "class_name": "Fate-Eye Savant",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "riddleblade",
+          "path_name": "Riddleblade"
+        },
+        "half_caster": {
+          "path_id": "forbidden_ritualist",
+          "path_name": "Forbidden Ritualist"
+        },
+        "half_psi": {
+          "path_id": "premonition_adept",
+          "path_name": "Premonition Adept"
+        },
+        "full_caster": {
+          "path_id": "pathseer",
+          "path_name": "Pathseer"
+        },
+        "full_psi": {
+          "path_id": "omniphase_seer",
+          "path_name": "Omniphase Seer"
+        },
+        "hybrid_psicaster": {
+          "path_id": "fate_psi_arcanist",
+          "path_name": "Fate-Psi Arcanist"
+        }
+      }
+    },
+    {
+      "class_id": "relentless_doomtracker",
+      "class_name": "Relentless Doomtracker",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "rotblade",
+          "path_name": "Rotblade"
+        },
+        "half_caster": {
+          "path_id": "pestilent_harrier",
+          "path_name": "Pestilent Harrier"
+        },
+        "half_psi": {
+          "path_id": "predator_sense_hunter",
+          "path_name": "Predator-Sense Hunter"
+        },
+        "full_caster": {
+          "path_id": "dissolution_sage",
+          "path_name": "Dissolution Sage"
+        },
+        "full_psi": {
+          "path_id": "doom_mind_pursuer",
+          "path_name": "Doom-Mind Pursuer"
+        },
+        "hybrid_psicaster": {
+          "path_id": "marked_fate_psicaster",
+          "path_name": "Marked-Fate Psicaster"
+        }
+      }
+    },
+    {
+      "class_id": "covenant_aegis",
+      "class_name": "Covenant Aegis",
+      "family_path_map": {
+        "melee_non_caster": {
+          "path_id": "iron_reliquary",
+          "path_name": "Iron Reliquary"
+        },
+        "half_caster": {
+          "path_id": "candle_engine",
+          "path_name": "Candle Engine"
+        },
+        "half_psi": {
+          "path_id": "bondmind_guardian",
+          "path_name": "Bondmind Guardian"
+        },
+        "full_caster": {
+          "path_id": "soulstorm_conductor",
+          "path_name": "Soulstorm Conductor"
+        },
+        "full_psi": {
+          "path_id": "collective_will_aegis",
+          "path_name": "Collective Will Aegis"
+        },
+        "hybrid_psicaster": {
+          "path_id": "covenant_psicaster",
+          "path_name": "Covenant Psicaster"
+        }
+      }
+    }
+  ]
+}

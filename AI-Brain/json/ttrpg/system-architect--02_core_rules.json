@@ -1,0 +1,580 @@
+{
+  "schema": "universal.architect-engine.core.v1",
+  "version": "1.3.0",
+  "generated_at": "2026-07-25T05:29:46+00:00",
+  "identity": {
+    "title": "Universal: The Architect Engine",
+    "subtitle": "A standalone multiera tabletop roleplaying system from the lava-world era to galactic settlement",
+    "levels": "1-20 plus optional Legacy Ranks",
+    "dice": "polyhedral, with d20 as primary resolution die",
+    "dm_term": "DM"
+  },
+  "resolution": {
+    "formula": "d20 + ability modifier + PB when trained + other modifiers vs DC",
+    "abilities": [
+      "Strength",
+      "Dexterity",
+      "Constitution",
+      "Intelligence",
+      "Wisdom",
+      "Charisma"
+    ],
+    "dcs": [
+      {
+        "label": "Routine under pressure",
+        "dc": 8
+      },
+      {
+        "label": "Standard",
+        "dc": 12
+      },
+      {
+        "label": "Demanding",
+        "dc": 16
+      },
+      {
+        "label": "Severe",
+        "dc": 20
+      },
+      {
+        "label": "Extraordinary",
+        "dc": 24
+      },
+      {
+        "label": "Legendary",
+        "dc": 28
+      },
+      {
+        "label": "Mythic",
+        "dc": 32
+      }
+    ],
+    "outcome_bands": [
+      {
+        "name": "Breakthrough",
+        "rule": "total >= DC + 10, or natural 20 when possible"
+      },
+      {
+        "name": "Clean Success",
+        "rule": "total >= DC"
+      },
+      {
+        "name": "Costly Opening",
+        "rule": "miss by 1-4; player may accept stated cost"
+      },
+      {
+        "name": "Setback",
+        "rule": "miss by 5-9"
+      },
+      {
+        "name": "Crisis",
+        "rule": "miss by 10+, or natural 1 when a crisis makes sense"
+      }
+    ],
+    "stakes": [
+      "Intent",
+      "Approach",
+      "Effect",
+      "Risk"
+    ],
+    "edge_burden": "One net Edge: 2d20 keep highest; two: 3d20. Burden mirrors this with lowest. Maximum net 2.",
+    "push": "After a failed non-attack test, describe a new effort and accept a stronger predeclared consequence; reroll once with one Edge.",
+    "resolve": {
+      "maximum": 3,
+      "gain": "accept a meaningful identity complication or cost",
+      "spend": [
+        "add 1d6 after a test",
+        "reduce incoming Stress by 2",
+        "declare modest plausible preparation",
+        "resist an Architect Claim cost when allowed",
+        "complete one coherent linked action before spotlight passes"
+      ]
+    }
+  },
+  "beats": {
+    "per_turn": 3,
+    "reaction": 1,
+    "common_actions": [
+      {
+        "name": "Move",
+        "beats": 1
+      },
+      {
+        "name": "Strike",
+        "beats": 2
+      },
+      {
+        "name": "Technique or Spell",
+        "beats": "usually 2"
+      },
+      {
+        "name": "Swift action",
+        "beats": 1
+      },
+      {
+        "name": "Guard",
+        "beats": 1
+      },
+      {
+        "name": "Assist",
+        "beats": 1
+      },
+      {
+        "name": "Interact",
+        "beats": 1
+      },
+      {
+        "name": "Prepare",
+        "beats": 1
+      },
+      {
+        "name": "Press",
+        "beats": "gain 1 extra Beat; mark 1 Stress or grant danger-clock progress"
+      }
+    ]
+  },
+  "proficiency": {
+    "1-4": 2,
+    "5-8": 3,
+    "9-12": 4,
+    "13-16": 5,
+    "17-20": 6,
+    "legacy21-30": 6
+  },
+  "harm": {
+    "bloodied": "current HP <= half maximum HP",
+    "guard": {
+      "unarmored": 0,
+      "light": 1,
+      "medium": 2,
+      "heavy": 3,
+      "shield": 1,
+      "spendReduction": "PB + Guard value"
+    },
+    "stressCapacity": "3 + PB + positive Wisdom modifier, maximum 12",
+    "composure": "8 + PB + higher of Wisdom or Charisma modifier, minimum 8",
+    "dyingBoxes": 3,
+    "lethalityModes": [
+      "heroic",
+      "perilous",
+      "brutal"
+    ]
+  },
+  "rests": {
+    "breather": {
+      "duration": "1 minute",
+      "benefit": "spend one Hit Die or clear 1 Stress",
+      "limit": "once per Field Rest"
+    },
+    "field": {
+      "duration": "10 minutes",
+      "benefits": [
+        "spend Hit Dice",
+        "restore Guard",
+        "short-rest features",
+        "limited Stress recovery"
+      ]
+    },
+    "haven": {
+      "duration": "8 hours",
+      "benefits": [
+        "long-rest resources",
+        "half spent Hit Dice",
+        "heal to half HP then spend Hit Dice",
+        "clear ordinary Stress"
+      ]
+    },
+    "recuperation": {
+      "duration": "1+ days",
+      "benefits": [
+        "Wound recovery",
+        "Fracture treatment",
+        "Scar projects",
+        "full repair"
+      ]
+    }
+  },
+  "clocks": {
+    "sizes": [
+      4,
+      6,
+      8,
+      12
+    ],
+    "types": [
+      "progress",
+      "danger"
+    ],
+    "breakthroughProgress": 2,
+    "cleanProgress": 1,
+    "costlyProgress": 1,
+    "costlyDanger": 1,
+    "setbackDanger": 1,
+    "crisisDanger": 2
+  },
+  "investigation": {
+    "essential_clues": "A competent, plausible approach finds the essential clue without a pass/fail gate. Tests decide speed, clarity, danger, completeness, or extra leverage.",
+    "research_questions": "Research scenes answer explicit questions and spend time or access rather than relying on repeated blind checks."
+  },
+  "social": {
+    "positions": [
+      "Hostile",
+      "Guarded",
+      "Open",
+      "Supportive",
+      "Committed"
+    ],
+    "rule": "Social tests change willingness, cost, timing, or concessions; they do not erase values or seize player authorship.",
+    "leverage": [
+      "trust",
+      "evidence",
+      "shared interest",
+      "authority",
+      "payment",
+      "risk",
+      "reputation"
+    ]
+  },
+  "combat": {
+    "maps": "Supports grids, zones, theatre of the mind, painterly maps, and starship stations.",
+    "guard": "AC prevents a hit; Guard is limited armor absorption after a hit.",
+    "objectives": "Every serious encounter should have at least one objective, clock, terrain pressure, or retreat/surrender option beyond reducing HP.",
+    "nonlethal": "A creature can declare nonlethal intent when the fiction and damage type permit."
+  },
+  "stress_composure": {
+    "stress_capacity": "3 + Wisdom modifier, minimum 1, unless a feature changes it",
+    "composure": "8 + PB + max(Wisdom modifier, Charisma modifier)",
+    "fractures": "At full Stress, choose or roll a temporary fracture response; player retains authorship.",
+    "scars": "Long-term scars are negotiated, never used to caricature mental illness or remove a character without consent."
+  },
+  "advancement": {
+    "levels": 20,
+    "thresholds": [
+      {
+        "level": 1,
+        "total_xp": 0,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 2,
+        "total_xp": 300,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 3,
+        "total_xp": 900,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 4,
+        "total_xp": 2700,
+        "proficiency_bonus": 2
+      },
+      {
+        "level": 5,
+        "total_xp": 6500,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 6,
+        "total_xp": 14000,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 7,
+        "total_xp": 23000,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 8,
+        "total_xp": 34000,
+        "proficiency_bonus": 3
+      },
+      {
+        "level": 9,
+        "total_xp": 48000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 10,
+        "total_xp": 64000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 11,
+        "total_xp": 85000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 12,
+        "total_xp": 100000,
+        "proficiency_bonus": 4
+      },
+      {
+        "level": 13,
+        "total_xp": 120000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 14,
+        "total_xp": 140000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 15,
+        "total_xp": 165000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 16,
+        "total_xp": 195000,
+        "proficiency_bonus": 5
+      },
+      {
+        "level": 17,
+        "total_xp": 225000,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 18,
+        "total_xp": 265000,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 19,
+        "total_xp": 305000,
+        "proficiency_bonus": 6
+      },
+      {
+        "level": 20,
+        "total_xp": 355000,
+        "proficiency_bonus": 6
+      }
+    ],
+    "award_principles": [
+      "Being true to an established alignment and changing alignment through a coherent choice are equally worthy of XP.",
+      "Alignment movement records demonstrated behavior and is never itself a reward, punishment, or prerequisite for leveling.",
+      "Combat XP is shared so support, control, healing, rescue, and nonlethal solutions remain valuable.",
+      "Individual combat XP recognizes exceptional contribution without rewarding kill stealing or damage competition.",
+      "Milestone XP rewards discoveries, relationships, objectives, and world changes, including noncombat solutions.",
+      "Class and Architect mask material provides personalized prompts without taking control of a character away from the player.",
+      "No character loses XP, levels, or earned features for alignment change, covenant strain, failure, retreat, or moral complexity.",
+      "Every XP award also generates Class Evolution Points at a 25 percent rate; CEP changes class expression but never replaces XP or buys levels."
+    ],
+    "legacy_ranks": "Optional post-level-20 ranks grant broad influence, projects, leadership, or scale—not automatic numeric escalation.",
+    "class_evolution_points": {
+      "name": "Class Evolution Points",
+      "abbreviation": "CEP",
+      "earning_rate": 0.25,
+      "formula": "1 CEP per 4 XP awarded; carry 0-3 XP as a conversion remainder",
+      "spending": "Spend in 20-point increments during level-up allocation windows.",
+      "ordinary_increase_limit_per_level_up": 500,
+      "ordinary_withdrawal_limit_per_level_up": 500,
+      "rules_ref": "06b_class_expression_point_buy.json",
+      "level_table": [
+        {
+          "level": 1,
+          "total_xp": 0,
+          "xp_since_prior_level": 0,
+          "cep_gained_from_interval": 0,
+          "cumulative_cep_generated": 0,
+          "proficiency_bonus": 2
+        },
+        {
+          "level": 2,
+          "total_xp": 300,
+          "xp_since_prior_level": 300,
+          "cep_gained_from_interval": 75,
+          "cumulative_cep_generated": 75,
+          "proficiency_bonus": 2
+        },
+        {
+          "level": 3,
+          "total_xp": 900,
+          "xp_since_prior_level": 600,
+          "cep_gained_from_interval": 150,
+          "cumulative_cep_generated": 225,
+          "proficiency_bonus": 2
+        },
+        {
+          "level": 4,
+          "total_xp": 2700,
+          "xp_since_prior_level": 1800,
+          "cep_gained_from_interval": 450,
+          "cumulative_cep_generated": 675,
+          "proficiency_bonus": 2
+        },
+        {
+          "level": 5,
+          "total_xp": 6500,
+          "xp_since_prior_level": 3800,
+          "cep_gained_from_interval": 950,
+          "cumulative_cep_generated": 1625,
+          "proficiency_bonus": 3
+        },
+        {
+          "level": 6,
+          "total_xp": 14000,
+          "xp_since_prior_level": 7500,
+          "cep_gained_from_interval": 1875,
+          "cumulative_cep_generated": 3500,
+          "proficiency_bonus": 3
+        },
+        {
+          "level": 7,
+          "total_xp": 23000,
+          "xp_since_prior_level": 9000,
+          "cep_gained_from_interval": 2250,
+          "cumulative_cep_generated": 5750,
+          "proficiency_bonus": 3
+        },
+        {
+          "level": 8,
+          "total_xp": 34000,
+          "xp_since_prior_level": 11000,
+          "cep_gained_from_interval": 2750,
+          "cumulative_cep_generated": 8500,
+          "proficiency_bonus": 3
+        },
+        {
+          "level": 9,
+          "total_xp": 48000,
+          "xp_since_prior_level": 14000,
+          "cep_gained_from_interval": 3500,
+          "cumulative_cep_generated": 12000,
+          "proficiency_bonus": 4
+        },
+        {
+          "level": 10,
+          "total_xp": 64000,
+          "xp_since_prior_level": 16000,
+          "cep_gained_from_interval": 4000,
+          "cumulative_cep_generated": 16000,
+          "proficiency_bonus": 4
+        },
+        {
+          "level": 11,
+          "total_xp": 85000,
+          "xp_since_prior_level": 21000,
+          "cep_gained_from_interval": 5250,
+          "cumulative_cep_generated": 21250,
+          "proficiency_bonus": 4
+        },
+        {
+          "level": 12,
+          "total_xp": 100000,
+          "xp_since_prior_level": 15000,
+          "cep_gained_from_interval": 3750,
+          "cumulative_cep_generated": 25000,
+          "proficiency_bonus": 4
+        },
+        {
+          "level": 13,
+          "total_xp": 120000,
+          "xp_since_prior_level": 20000,
+          "cep_gained_from_interval": 5000,
+          "cumulative_cep_generated": 30000,
+          "proficiency_bonus": 5
+        },
+        {
+          "level": 14,
+          "total_xp": 140000,
+          "xp_since_prior_level": 20000,
+          "cep_gained_from_interval": 5000,
+          "cumulative_cep_generated": 35000,
+          "proficiency_bonus": 5
+        },
+        {
+          "level": 15,
+          "total_xp": 165000,
+          "xp_since_prior_level": 25000,
+          "cep_gained_from_interval": 6250,
+          "cumulative_cep_generated": 41250,
+          "proficiency_bonus": 5
+        },
+        {
+          "level": 16,
+          "total_xp": 195000,
+          "xp_since_prior_level": 30000,
+          "cep_gained_from_interval": 7500,
+          "cumulative_cep_generated": 48750,
+          "proficiency_bonus": 5
+        },
+        {
+          "level": 17,
+          "total_xp": 225000,
+          "xp_since_prior_level": 30000,
+          "cep_gained_from_interval": 7500,
+          "cumulative_cep_generated": 56250,
+          "proficiency_bonus": 6
+        },
+        {
+          "level": 18,
+          "total_xp": 265000,
+          "xp_since_prior_level": 40000,
+          "cep_gained_from_interval": 10000,
+          "cumulative_cep_generated": 66250,
+          "proficiency_bonus": 6
+        },
+        {
+          "level": 19,
+          "total_xp": 305000,
+          "xp_since_prior_level": 40000,
+          "cep_gained_from_interval": 10000,
+          "cumulative_cep_generated": 76250,
+          "proficiency_bonus": 6
+        },
+        {
+          "level": 20,
+          "total_xp": 355000,
+          "xp_since_prior_level": 50000,
+          "cep_gained_from_interval": 12500,
+          "cumulative_cep_generated": 88750,
+          "proficiency_bonus": 6
+        }
+      ]
+    }
+  },
+  "era_scale": {
+    "era_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "era_labels": [
+      "Stone Age",
+      "Early Metallurgy",
+      "Iron / Classical",
+      "Medieval",
+      "Renaissance / Early Modern",
+      "Industrial / Steam",
+      "Electrified / Modern",
+      "Digital / Atomic",
+      "Planetary / Orbital",
+      "Interplanetary",
+      "Spacefaring / Interstellar"
+    ],
+    "scale_values": {
+      "0": "personal",
+      "1": "squad or room",
+      "2": "building or vehicle",
+      "3": "settlement or capital ship",
+      "4": "region, fleet, or habitat network",
+      "5": "planetary megastructure or world engine"
+    }
+  },
+  "safety_agency": [
+    "Discuss tone, horror, coercion, romance, character death, transformation, and mind influence at Session Zero.",
+    "Mind-affecting mechanics can alter information, emotion, or choices offered, but never dictate a player character’s inner thoughts or final decision without player consent.",
+    "Failure creates consequence, not humiliation.",
+    "Disability, trauma, identity, and marginalization never provide point-buy currency."
+  ]
+}

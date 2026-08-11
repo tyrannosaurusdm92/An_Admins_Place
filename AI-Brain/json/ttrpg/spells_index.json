@@ -1,0 +1,8921 @@
+{
+  "schema": "universal.random_encounters.spell_index.v1",
+  "count": 517,
+  "spells": [
+    {
+      "id": "abi_dalzim_s_horrid_wilting",
+      "name": "Horrid Wilting",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "absorb_elements",
+      "name": "Absorb Elements",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
+      "range": "Self",
+      "duration": "1 round",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "acid_splash",
+      "name": "Acid Splash",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "aganazzar_s_scorcher",
+      "name": "Scorcher",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "aid",
+      "name": "Aid",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "air_bubble",
+      "name": "Air Bubble",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "24 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "alter_self",
+      "name": "Alter Self",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "animal_friendship",
+      "name": "Animal Friendship",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "24 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "animal_messenger",
+      "name": "Animal Messenger",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "24 hours",
+      "tags": [
+        "social",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "animal_shapes",
+      "name": "Animal Shapes",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 24 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "animate_dead",
+      "name": "Animate Dead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "animate_objects",
+      "name": "Animate Objects",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "transit"
+      ]
+    },
+    {
+      "id": "antagonize",
+      "name": "Antagonize",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "antilife_shell",
+      "name": "Antilife Shell",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (10-foot radius)",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "antimagic_field",
+      "name": "Antimagic Field",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (10-foot-radius sphere)",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "antipathy_sympathy",
+      "name": "Antipathy/Sympathy",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "60 feet",
+      "duration": "10 days",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "arcane_eye",
+      "name": "Arcane Eye",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "arcane_gate",
+      "name": "Arcane Gate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "500 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "arcane_lock",
+      "name": "Arcane Lock",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Until dispelled",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "armor_of_agathys",
+      "name": "Armor of Agathys",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "arms_of_hadar",
+      "name": "Arms of the Dark Beyond",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (10-foot radius)",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "ashardalon_s_stride",
+      "name": "Stride",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "astral_projection",
+      "name": "Astral Projection",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "10 feet",
+      "duration": "Special",
+      "tags": [
+        "death",
+        "transit"
+      ]
+    },
+    {
+      "id": "augury",
+      "name": "Augury",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "aura_of_life",
+      "name": "Aura of Life",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "aura_of_purity",
+      "name": "Aura of Purity",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "aura_of_vitality",
+      "name": "Aura Of Vitality",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "awaken",
+      "name": "Awaken",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid"
+      ],
+      "castingTime": "8 hours",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "banishing_smite",
+      "name": "Banishing Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "banishment",
+      "name": "Banishment",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "barkskin",
+      "name": "Barkskin",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "beacon_of_hope",
+      "name": "Beacon of Hope",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "beast_bond",
+      "name": "Beast Bond",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "beast_sense",
+      "name": "Beast Sense",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "bestow_curse",
+      "name": "Bestow Curse",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "bigby_s_hand",
+      "name": "Hand",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "blade_barrier",
+      "name": "Blade Barrier",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "blade_of_disaster",
+      "name": "Blade of Disaster",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "blade_ward",
+      "name": "Blade Ward",
+      "school": "Abjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 round",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "bless",
+      "name": "Bless",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "blight",
+      "name": "Blight",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "blinding_smite",
+      "name": "Blinding Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "blindness_deafness",
+      "name": "Blindness/Deafness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "blink",
+      "name": "Blink",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "blur",
+      "name": "Blur",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "bones_of_the_earth",
+      "name": "Bones of the Earth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "booming_blade",
+      "name": "Booming Blade",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (5-foot radius)",
+      "duration": "1 round",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "borrowed_knowledge",
+      "name": "Borrowed Knowledge",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "branding_smite",
+      "name": "Branding Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "burning_hands",
+      "name": "Burning Hands",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "call_lightning",
+      "name": "Call Lightning",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "calm_emotions",
+      "name": "Calm Emotions",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social",
+        "warding"
+      ]
+    },
+    {
+      "id": "catapult",
+      "name": "Catapult",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "catnap",
+      "name": "Catnap",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "cause_fear",
+      "name": "Cause Fear",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "social"
+      ]
+    },
+    {
+      "id": "ceremony",
+      "name": "Ceremony",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "transit"
+      ]
+    },
+    {
+      "id": "chain_lightning",
+      "name": "Chain Lightning",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "chaos_bolt",
+      "name": "Chaos Bolt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "charm_monster",
+      "name": "Charm Monster",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "charm_person",
+      "name": "Charm Person",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "chill_touch",
+      "name": "Chill Touch",
+      "school": "Necromancy",
+      "level": "Cantrip",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "1 round",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "chromatic_orb",
+      "name": "Chromatic Orb",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "circle_of_death",
+      "name": "Circle of Death",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "circle_of_power",
+      "name": "Circle of Power",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "clairvoyance",
+      "name": "Clairvoyance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "1 mile",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "clone",
+      "name": "Clone",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "cloud_of_daggers",
+      "name": "Cloud of Daggers",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "cloudkill",
+      "name": "Cloudkill",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "healing",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "color_spray",
+      "name": "Color Spray",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot cone)",
+      "duration": "1 round",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "command",
+      "name": "Command",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 round",
+      "tags": [
+        "death",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "commune",
+      "name": "Commune",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "commune_with_nature",
+      "name": "Commune with Nature",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "transit"
+      ]
+    },
+    {
+      "id": "compelled_duel",
+      "name": "Compelled Duel",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "comprehend_languages",
+      "name": "Comprehend Languages",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "compulsion",
+      "name": "Compulsion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "cone_of_cold",
+      "name": "Cone of Cold",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (60-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "confusion",
+      "name": "Confusion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "conjure_animals",
+      "name": "Conjure Animals",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "conjure_barrage",
+      "name": "Conjure Barrage",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (60-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "conjure_celestial",
+      "name": "Conjure Celestial",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 minute",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "conjure_elemental",
+      "name": "Conjure Elemental",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "conjure_fey",
+      "name": "Conjure Fey",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Warlock"
+      ],
+      "castingTime": "1 minute",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "conjure_minor_elementals",
+      "name": "Conjure Minor Elementals",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "conjure_volley",
+      "name": "Conjure Volley",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "conjure_woodland_beings",
+      "name": "Conjure Woodland Beings",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "contact_other_plane",
+      "name": "Contact Other Plane",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "contagion",
+      "name": "Contagion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "7 days",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "contingency",
+      "name": "Contingency",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Self",
+      "duration": "10 days",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "continual_flame",
+      "name": "Continual Flame",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Until dispelled",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "control_flames",
+      "name": "Control Flames",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous or 1 hour (see below)",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "control_water",
+      "name": "Control Water",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "healing",
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "control_weather",
+      "name": "Control Weather",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Self (5-mile radius)",
+      "duration": "Concentration, up to 8 hours",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "control_winds",
+      "name": "Control Winds",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "cordon_of_arrows",
+      "name": "Cordon of Arrows",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "5 feet",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "counterspell",
+      "name": "Counterspell",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell.",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "create_bonfire",
+      "name": "Create Bonfire",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "create_food_and_water",
+      "name": "Create Food and Water",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "create_homunculus",
+      "name": "Create Homunculus",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "create_magen",
+      "name": "Create Magen",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "create_or_destroy_water",
+      "name": "Create or Destroy Water",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "create_spelljamming_helm",
+      "name": "Create Spelljamming Helm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "create_undead",
+      "name": "Create Undead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "creation",
+      "name": "Creation",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "Special",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "crown_of_madness",
+      "name": "Crown of Madness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "crown_of_stars",
+      "name": "Crown of Stars",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "crusader_s_mantle",
+      "name": "Crusader’s Mantle",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "cure_wounds",
+      "name": "Cure Wounds",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "dancing_lights",
+      "name": "Dancing Lights",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "danse_macabre",
+      "name": "Danse Macabre",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "dark_star",
+      "name": "Dark Star",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "darkvision",
+      "name": "Darkvision",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Dawn",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "daylight",
+      "name": "Daylight",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 hour",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "death_ward",
+      "name": "Death Ward",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "death",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "delayed_blast_fireball",
+      "name": "Delayed Blast Fireball",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "demiplane",
+      "name": "Demiplane",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "destructive_wave",
+      "name": "Destructive Wave",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "detect_evil_and_good",
+      "name": "Detect Evil and Good",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "detect_magic",
+      "name": "Detect Magic",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "detect_poison_and_disease",
+      "name": "Detect Poison and Disease",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "detect_thoughts",
+      "name": "Detect Thoughts",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "dimension_door",
+      "name": "Dimension Door",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "500 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "disguise_self",
+      "name": "Disguise Self",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "disintegrate",
+      "name": "Disintegrate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "dispel_evil_and_good",
+      "name": "Dispel Evil and Good",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "social"
+      ]
+    },
+    {
+      "id": "dispel_magic",
+      "name": "Dispel Magic",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "dissonant_whispers",
+      "name": "Dissonant Whispers",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "distort_value",
+      "name": "Distort Value",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "divination",
+      "name": "Divination",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "divine_favor",
+      "name": "Divine Favor",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "divine_word",
+      "name": "Divine Word",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "dominate_beast",
+      "name": "Dominate Beast",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "dominate_monster",
+      "name": "Dominate Monster",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "dominate_person",
+      "name": "Dominate Person",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "draconic_transformation",
+      "name": "Draconic Transformation",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self (60-foot cone)",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "dragon_s_breath",
+      "name": "Dragon’s Breath",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "drawmij_s_instant_summons",
+      "name": "Instant Summons",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "Until dispelled",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "dream",
+      "name": "Dream",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Special",
+      "duration": "8 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "dream_of_the_blue_veil",
+      "name": "Dream of the Blue Veil",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "20 feet",
+      "duration": "6 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "druid_grove",
+      "name": "Druid Grove",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Touch",
+      "duration": "24 hours",
+      "tags": [
+        "healing",
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "druidcraft",
+      "name": "Druidcraft",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "dust_devil",
+      "name": "Dust Devil",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "earth_tremor",
+      "name": "Earth Tremor",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "earthbind",
+      "name": "Earthbind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "earthquake",
+      "name": "Earthquake",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "500 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "eldritch_blast",
+      "name": "Eldritch Blast",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "elemental_bane",
+      "name": "Elemental Bane",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "elemental_weapon",
+      "name": "Elemental Weapon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "encode_thoughts",
+      "name": "Encode Thoughts",
+      "school": "Enchantment",
+      "level": "Cantrip",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "8 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "enemies_abound",
+      "name": "Enemies Abound",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "enervation",
+      "name": "Enervation",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "enhance_ability",
+      "name": "Enhance Ability",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "enlarge_reduce",
+      "name": "Enlarge/Reduce",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "ensnaring_strike",
+      "name": "Ensnaring Strike",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "entangle",
+      "name": "Entangle",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "enthrall",
+      "name": "Enthrall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "erupting_earth",
+      "name": "Erupting Earth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "etherealness",
+      "name": "Etherealness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Up to 8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "evard_s_black_tentacles",
+      "name": "Black Tentacles",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "expeditious_retreat",
+      "name": "Expeditious Retreat",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "eyebite",
+      "name": "Eyebite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "fabricate",
+      "name": "Fabricate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "faerie_fire",
+      "name": "Faerie Fire",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "false_life",
+      "name": "False Life",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "far_step",
+      "name": "Far Step",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot cone)",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "feather_fall",
+      "name": "Feather Fall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
+      "range": "60 feet",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "feeblemind",
+      "name": "Feeblemind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "feign_death",
+      "name": "Feign Death",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "find_familiar",
+      "name": "Find Familiar",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "find_greater_steed",
+      "name": "Find Greater Steed",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "10 minutes",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "find_steed",
+      "name": "Find Steed",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "10 minutes",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "find_the_path",
+      "name": "Find the Path",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "Concentration, up to 1 day",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "find_traps",
+      "name": "Find Traps",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "finger_of_death",
+      "name": "Finger of Death",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "fire_bolt",
+      "name": "Fire Bolt",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "fire_shield",
+      "name": "Fire Shield",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "10 minutes",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "fire_storm",
+      "name": "Fire Storm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "fizban_s_platinum_shield",
+      "name": "Platinum Shield",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "flame_arrows",
+      "name": "Flame Arrows",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "flame_blade",
+      "name": "Flame Blade",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "flame_strike",
+      "name": "Flame Strike",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "flaming_sphere",
+      "name": "Flaming Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "flesh_to_stone",
+      "name": "Flesh to Stone",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "fly",
+      "name": "Fly",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "fog_cloud",
+      "name": "Fog Cloud",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "healing",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "forbiddance",
+      "name": "Forbiddance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Touch",
+      "duration": "1 day",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "forcecage",
+      "name": "Forcecage",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "100 feet",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "foresight",
+      "name": "Foresight",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "fortune_s_favor",
+      "name": "Fortune’s Favor",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 minute",
+      "range": "60 feet",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "freedom_of_movement",
+      "name": "Freedom of Movement",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "friends",
+      "name": "Friends",
+      "school": "Enchantment",
+      "level": "Cantrip",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "frost_fingers",
+      "name": "Frost Fingers",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "frostbite",
+      "name": "Frostbite",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "gaseous_form",
+      "name": "Gaseous Form",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "gate_seal",
+      "name": "Gate Seal",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "60 feet",
+      "duration": "24 hours",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "geas",
+      "name": "Geas",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "60 feet",
+      "duration": "30 days",
+      "tags": [
+        "death",
+        "social"
+      ]
+    },
+    {
+      "id": "gentle_repose",
+      "name": "Gentle Repose",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "10 days",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "giant_insect",
+      "name": "Giant Insect",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "gift_of_alacrity",
+      "name": "Gift of Alacrity",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "gift_of_gab",
+      "name": "Gift of Gab",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when you speak to another creature",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "glibness",
+      "name": "Glibness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "globe_of_invulnerability",
+      "name": "Globe of Invulnerability",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "glyph_of_warding",
+      "name": "Glyph of Warding",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Until dispelled or triggered",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "goodberry",
+      "name": "Goodberry",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "grasping_vine",
+      "name": "Grasping Vine",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "gravity_fissure",
+      "name": "Gravity Fissure",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "Self (100-foot line)",
+      "duration": "Instantaneous",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "gravity_sinkhole",
+      "name": "Gravity Sinkhole",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "grease",
+      "name": "Grease",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "greater_invisibility",
+      "name": "Greater Invisibility",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "greater_restoration",
+      "name": "Greater Restoration",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "green_flame_blade",
+      "name": "Green-Flame Blade",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (5-foot radius)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "guardian_of_faith",
+      "name": "Guardian of Faith",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "guardian_of_nature",
+      "name": "Guardian of Nature",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to a minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "guards_and_wards",
+      "name": "Guards and Wards",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Touch",
+      "duration": "24 hours",
+      "tags": [
+        "healing",
+        "sky",
+        "social",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "guidance",
+      "name": "Guidance",
+      "school": "Divination",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "guiding_bolt",
+      "name": "Guiding Bolt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "1 round",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "gust",
+      "name": "Gust",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "gust_of_wind",
+      "name": "Gust of Wind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (60-foot line)",
+      "duration": "Concentration, up to 1 minute.",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "hail_of_thorns",
+      "name": "Hail of Thorns",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "hallow",
+      "name": "Hallow",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "24 hours",
+      "range": "Touch",
+      "duration": "Until dispelled",
+      "tags": [
+        "death",
+        "sky",
+        "social",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "hallucinatory_terrain",
+      "name": "Hallucinatory Terrain",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "300 feet",
+      "duration": "24 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "harm",
+      "name": "Harm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "haste",
+      "name": "Haste",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "heal",
+      "name": "Heal",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "healing_spirit",
+      "name": "Healing Spirit",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "healing_word",
+      "name": "Healing Word",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "heat_metal",
+      "name": "Heat Metal",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "hellish_rebuke",
+      "name": "Hellish Rebuke",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "heroes_feast",
+      "name": "Heroes’ Feast",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "10 minutes",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "heroism",
+      "name": "Heroism",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "hold_monster",
+      "name": "Hold Monster",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "hold_person",
+      "name": "Hold Person",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "holy_aura",
+      "name": "Holy Aura",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "sky"
+      ]
+    },
+    {
+      "id": "holy_weapon",
+      "name": "Holy Weapon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "hunger_of_hadar",
+      "name": "Hunger of the Dark Beyond",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "hunter_s_mark",
+      "name": "Hunter’s Mark",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "hypnotic_pattern",
+      "name": "Hypnotic Pattern",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "ice_knife",
+      "name": "Ice Knife",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "ice_storm",
+      "name": "Ice Storm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "identify",
+      "name": "Identify",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "illusory_dragon",
+      "name": "Illusory Dragon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "illusory_script",
+      "name": "Illusory Script",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "10 days",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "immolation",
+      "name": "Immolation",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "immovable_object",
+      "name": "Immovable Object",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "imprisonment",
+      "name": "Imprisonment",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "Until dispelled",
+      "tags": [
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "incendiary_cloud",
+      "name": "Incendiary Cloud",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "infernal_calling",
+      "name": "Infernal Calling",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "social",
+        "warding"
+      ]
+    },
+    {
+      "id": "infestation",
+      "name": "Infestation",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "inflict_wounds",
+      "name": "Inflict Wounds",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "insect_plague",
+      "name": "Insect Plague",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "intellect_fortress",
+      "name": "Intellect Fortress",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "investiture_of_flame",
+      "name": "Investiture of Flame",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "investiture_of_ice",
+      "name": "Investiture of Ice",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "investiture_of_stone",
+      "name": "Investiture of Stone",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "investiture_of_wind",
+      "name": "Investiture of Wind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "invisibility",
+      "name": "Invisibility",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "invulnerability",
+      "name": "Invulnerability",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "jim_s_magic_missile",
+      "name": "Magic Missile",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "kinetic_jaunt",
+      "name": "Kinetic Jaunt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "knock",
+      "name": "Knock",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "legend_lore",
+      "name": "Legend Lore",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "leomund_s_secret_chest",
+      "name": "Secret Chest",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "leomund_s_tiny_hut",
+      "name": "Tiny Hut",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self (10-foot-radius hemisphere)",
+      "duration": "8 hours",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "lesser_restoration",
+      "name": "Lesser Restoration",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "levitate",
+      "name": "Levitate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes.",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "life_transference",
+      "name": "Life Transference",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "light",
+      "name": "Light",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "lightning_arrow",
+      "name": "Lightning Arrow",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "lightning_bolt",
+      "name": "Lightning Bolt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (100-foot line)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "lightning_lure",
+      "name": "Lightning Lure",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot radius)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "locate_animals_or_plants",
+      "name": "Locate Animals or Plants",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "locate_creature",
+      "name": "Locate Creature",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "locate_object",
+      "name": "Locate Object",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "longstrider",
+      "name": "Longstrider",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "maddening_darkness",
+      "name": "Maddening Darkness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "mage_armor",
+      "name": "Mage Armor",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "mage_hand",
+      "name": "Mage Hand",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "magic_circle",
+      "name": "Magic Circle",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "10 feet",
+      "duration": "1 hour",
+      "tags": [
+        "death",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "magic_jar",
+      "name": "Magic Jar",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Self",
+      "duration": "Until dispelled",
+      "tags": [
+        "death",
+        "warding"
+      ]
+    },
+    {
+      "id": "magic_missile",
+      "name": "Magic Missile",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "magic_mouth",
+      "name": "Magic Mouth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "Until dispelled",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "magic_stone",
+      "name": "Magic Stone",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Warlock"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "magic_weapon",
+      "name": "Magic Weapon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Paladin",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "magnify_gravity",
+      "name": "Magnify Gravity",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 round",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "major_image",
+      "name": "Major Image",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "mass_cure_wounds",
+      "name": "Mass Cure Wounds",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "mass_heal",
+      "name": "Mass Heal",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "mass_healing_word",
+      "name": "Mass Healing Word",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "mass_polymorph",
+      "name": "Mass Polymorph",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "mass_suggestion",
+      "name": "Mass Suggestion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "24 hours",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "maximilian_s_earthen_grasp",
+      "name": "Earthen Grasp",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "maze",
+      "name": "Maze",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "meld_into_stone",
+      "name": "Meld Into Stone",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "melf_s_acid_arrow",
+      "name": "Acid Arrow",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "melf_s_minute_meteors",
+      "name": "Minute Meteors",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "mending",
+      "name": "Mending",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "mental_prison",
+      "name": "Mental Prison",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "message",
+      "name": "Message",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "1 round",
+      "tags": [
+        "ichor",
+        "social",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "meteor_swarm",
+      "name": "Meteor Swarm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "1 mile",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "mighty_fortress",
+      "name": "Mighty Fortress",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "1 mile",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "mind_blank",
+      "name": "Mind Blank",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "24 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "mind_sliver",
+      "name": "Mind Sliver",
+      "school": "Enchantment",
+      "level": "Cantrip",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 round",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "mind_spike",
+      "name": "Mind Spike",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "minor_illusion",
+      "name": "Minor Illusion",
+      "school": "Illusion",
+      "level": "Cantrip",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 minute",
+      "tags": [
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "mirage_arcane",
+      "name": "Mirage Arcane",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Sight",
+      "duration": "10 days",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "mirror_image",
+      "name": "Mirror Image",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "mislead",
+      "name": "Mislead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "misty_step",
+      "name": "Misty Step",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "modify_memory",
+      "name": "Modify Memory",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "mold_earth",
+      "name": "Mold Earth",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous or 1 hour (see below)",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "moonbeam",
+      "name": "Moonbeam",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "mordenkainen_s_faithful_hound",
+      "name": "Faithful Hound",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "mordenkainen_s_magnificent_mansion",
+      "name": "Magnificent Mansion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "300 feet",
+      "duration": "24 hours",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "mordenkainen_s_private_sanctum",
+      "name": "Private Sanctum",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "120 feet",
+      "duration": "24 hours",
+      "tags": [
+        "healing",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "mordenkainen_s_sword",
+      "name": "Sword",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "move_earth",
+      "name": "Move Earth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 2 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "nathair_s_mischief",
+      "name": "Mischief",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "negative_energy_flood",
+      "name": "Negative Energy Flood",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "nondetection",
+      "name": "Nondetection",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "nystul_s_magic_aura",
+      "name": "Magic Aura",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "24 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "otiluke_s_freezing_sphere",
+      "name": "Freezing Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "otiluke_s_resilient_sphere",
+      "name": "Resilient Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "otto_s_irresistible_dance",
+      "name": "Otto’s Irresistible Dance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "pass_without_trace",
+      "name": "Pass Without Trace",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "passwall",
+      "name": "Passwall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "phantasmal_force",
+      "name": "Phantasmal Force",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "phantasmal_killer",
+      "name": "Phantasmal Killer",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "phantom_steed",
+      "name": "Phantom Steed",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "planar_ally",
+      "name": "Planar Ally",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "10 minutes",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "planar_binding",
+      "name": "Planar Binding",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 hour",
+      "range": "60 feet",
+      "duration": "24 hours",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "plane_shift",
+      "name": "Plane Shift",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "plant_growth",
+      "name": "Plant Growth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action or 8 hours",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "poison_spray",
+      "name": "Poison Spray",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "polymorph",
+      "name": "Polymorph",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "power_word_heal",
+      "name": "Power Word Heal",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "social"
+      ]
+    },
+    {
+      "id": "power_word_kill",
+      "name": "Power Word Kill",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "power_word_pain",
+      "name": "Power Word Pain",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "power_word_stun",
+      "name": "Power Word Stun",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "prayer_of_healing",
+      "name": "Prayer of Healing",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "10 minutes",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "prestidigitation",
+      "name": "Prestidigitation",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "Up to 1 hour",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "primal_savagery",
+      "name": "Primal Savagery",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "primordial_ward",
+      "name": "Primordial Ward",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "prismatic_spray",
+      "name": "Prismatic Spray",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (60-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "prismatic_wall",
+      "name": "Prismatic Wall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "10 minutes",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "produce_flame",
+      "name": "Produce Flame",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "10 minutes",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "programmed_illusion",
+      "name": "Programmed Illusion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Until dispelled",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "project_image",
+      "name": "Project Image",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "500 miles",
+      "duration": "Concentration, up to 1 day",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "protection_from_energy",
+      "name": "Protection from Energy",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "protection_from_evil_and_good",
+      "name": "Protection from Evil and Good",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "death",
+        "social",
+        "warding"
+      ]
+    },
+    {
+      "id": "protection_from_poison",
+      "name": "Protection from Poison",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "psychic_scream",
+      "name": "Psychic Scream",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "pulse_wave",
+      "name": "Pulse Wave",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "Self (30-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing",
+        "warding"
+      ]
+    },
+    {
+      "id": "purify_food_and_drink",
+      "name": "Purify Food and Drink",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "pyrotechnics",
+      "name": "Pyrotechnics",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing",
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "raise_dead",
+      "name": "Raise Dead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "rary_s_telepathic_bond",
+      "name": "Telepathic Bond",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "raulothim_s_psychic_lance",
+      "name": "Raulothim’s Psychic Lance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "ravenous_void",
+      "name": "Ravenous Void",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "1000 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "ray_of_enfeeblement",
+      "name": "Ray of Enfeeblement",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "ray_of_frost",
+      "name": "Ray of Frost",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "ray_of_sickness",
+      "name": "Ray of Sickness",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "reality_break",
+      "name": "Reality Break",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "regenerate",
+      "name": "Regenerate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "reincarnate",
+      "name": "Reincarnate",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "remove_curse",
+      "name": "Remove Curse",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "resistance",
+      "name": "Resistance",
+      "school": "Abjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "resurrection",
+      "name": "Resurrection",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "reverse_gravity",
+      "name": "Reverse Gravity",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "100 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "revivify",
+      "name": "Revivify",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing"
+      ]
+    },
+    {
+      "id": "rime_s_binding_ice",
+      "name": "Rime’s Binding Ice",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "rope_trick",
+      "name": "Rope Trick",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "sacred_flame",
+      "name": "Sacred Flame",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "sanctuary",
+      "name": "Sanctuary",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "30 feet",
+      "duration": "1 minute",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "sapping_sting",
+      "name": "Sapping Sting",
+      "school": "Necromancy",
+      "level": "Cantrip",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "scatter",
+      "name": "Scatter",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "scorching_ray",
+      "name": "Scorching Ray",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "scrying",
+      "name": "Scrying",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "10 minutes",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "searing_smite",
+      "name": "Searing Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin",
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "see_invisibility",
+      "name": "See Invisibility",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "seeming",
+      "name": "Seeming",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "sending",
+      "name": "Sending",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Unlimited",
+      "duration": "1 round",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "sequester",
+      "name": "Sequester",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Until dispelled",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "shadow_blade",
+      "name": "Shadow Blade",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "shadow_of_moil",
+      "name": "Shadow of Moil",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "healing",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "shape_water",
+      "name": "Shape Water",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous or 1 hour (see below)",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "shapechange",
+      "name": "Shapechange",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "shatter",
+      "name": "Shatter",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+      "range": "Self",
+      "duration": "1 round",
+      "tags": [
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "shield_of_faith",
+      "name": "Shield of Faith",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "shillelagh",
+      "name": "Shillelagh",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "shocking_grasp",
+      "name": "Shocking Grasp",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "sickening_radiance",
+      "name": "Sickening Radiance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "silence",
+      "name": "Silence",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "silent_image",
+      "name": "Silent Image",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "silvery_barbs",
+      "name": "Silvery Barbs",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "simulacrum",
+      "name": "Simulacrum",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "12 hours",
+      "range": "Touch",
+      "duration": "Until dispelled",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "skill_empowerment",
+      "name": "Skill Empowerment",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "skywrite",
+      "name": "Skywrite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Sight",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "sleep",
+      "name": "Sleep",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "1 minute",
+      "tags": [
+        "death",
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "sleet_storm",
+      "name": "Sleet Storm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "sky"
+      ]
+    },
+    {
+      "id": "slow",
+      "name": "Slow",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "snilloc_s_snowball_swarm",
+      "name": "Snowball Swarm",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "soul_cage",
+      "name": "Soul Cage",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 reaction, which you take when a humanoid you can see within 60 feet of you dies",
+      "range": "60 feet",
+      "duration": "8 hours",
+      "tags": [
+        "death",
+        "sky"
+      ]
+    },
+    {
+      "id": "spare_the_dying",
+      "name": "Spare the Dying",
+      "school": "Necromancy",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "speak_with_animals",
+      "name": "Speak with Animals",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "speak_with_dead",
+      "name": "Speak with Dead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "10 minutes",
+      "tags": [
+        "death"
+      ]
+    },
+    {
+      "id": "speak_with_plants",
+      "name": "Speak with Plants",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot radius)",
+      "duration": "10 minutes",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "spider_climb",
+      "name": "Spider Climb",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "spike_growth",
+      "name": "Spike Growth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "spirit_guardians",
+      "name": "Spirit Guardians",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot radius)",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "spirit_of_death",
+      "name": "Spirit of Death",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "spirit_shroud",
+      "name": "Spirit Shroud",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "spiritual_weapon",
+      "name": "Spiritual Weapon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "60 feet",
+      "duration": "1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "spray_of_cards",
+      "name": "Spray of Cards",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot cone)",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "staggering_smite",
+      "name": "Staggering Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "steel_wind_strike",
+      "name": "Steel Wind Strike",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "stinking_cloud",
+      "name": "Stinking Cloud",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "stone_shape",
+      "name": "Stone Shape",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "stoneskin",
+      "name": "Stoneskin",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "storm_of_vengeance",
+      "name": "Storm of Vengeance",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "Sight",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "storm_sphere",
+      "name": "Storm Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "suggestion",
+      "name": "Suggestion",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 8 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "summon_aberration",
+      "name": "Summon Aberration",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_beast",
+      "name": "Summon Beast",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_celestial",
+      "name": "Summon Celestial",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "healing",
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_construct",
+      "name": "Summon Construct",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "summon_draconic_spirit",
+      "name": "Summon Draconic Spirit",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_elemental",
+      "name": "Summon Elemental",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_fey",
+      "name": "Summon Fey",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_fiend",
+      "name": "Summon Fiend",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "summon_greater_demon",
+      "name": "Summon Greater Demon",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "summon_lesser_demons",
+      "name": "Summon Lesser Demons",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "summon_shadowspawn",
+      "name": "Summon Shadowspawn",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "social"
+      ]
+    },
+    {
+      "id": "summon_undead",
+      "name": "Summon Undead",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "sunbeam",
+      "name": "Sunbeam",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (60-foot line)",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "sunburst",
+      "name": "Sunburst",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "swift_quiver",
+      "name": "Swift Quiver",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Touch",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "sword_burst",
+      "name": "Sword Burst",
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (5-foot radius)",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "symbol",
+      "name": "Symbol",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "Until dispelled or triggered",
+      "tags": [
+        "death",
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "synaptic_static",
+      "name": "Synaptic Static",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tasha_s_caustic_brew",
+      "name": "Caustic Brew",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (30-foot line)",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "tasha_s_hideous_laughter",
+      "name": "Hideous Laughter",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tasha_s_mind_whip",
+      "name": "Mind Whip",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "1 round",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tasha_s_otherworldly_guise",
+      "name": "Otherworldly Guise",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "ichor",
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "telekinesis",
+      "name": "Telekinesis",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "telepathy",
+      "name": "Telepathy",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Unlimited",
+      "duration": "24 hours",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "teleport",
+      "name": "Teleport",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "social",
+        "transit"
+      ]
+    },
+    {
+      "id": "teleportation_circle",
+      "name": "Teleportation Circle",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "10 feet",
+      "duration": "1 round",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "temple_of_the_gods",
+      "name": "Temple of the Gods",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 hour",
+      "range": "120 feet",
+      "duration": "24 hours",
+      "tags": [
+        "death",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "temporal_shunt",
+      "name": "Temporal Shunt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 reaction, taken when a creature you can see makes an attack roll or starts to cast a spell",
+      "range": "120 feet",
+      "duration": "1 round",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "tenser_s_floating_disk",
+      "name": "Floating Disk",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tenser_s_transformation",
+      "name": "Transformation",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "tether_essence",
+      "name": "Tether Essence",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "healing"
+      ]
+    },
+    {
+      "id": "thaumaturgy",
+      "name": "Thaumaturgy",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Up to 1 minute",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "thorn_whip",
+      "name": "Thorn Whip",
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "warding"
+      ]
+    },
+    {
+      "id": "thunder_step",
+      "name": "Thunder Step",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "thunderclap",
+      "name": "Thunderclap",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Artificer",
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "5 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "thunderous_smite",
+      "name": "Thunderous Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "thunderwave",
+      "name": "Thunderwave",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self (15-foot cube)",
+      "duration": "Instantaneous",
+      "tags": [
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "tidal_wave",
+      "name": "Tidal Wave",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "time_ravage",
+      "name": "Time Ravage",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "time_stop",
+      "name": "Time Stop",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "tiny_servant",
+      "name": "Tiny Servant",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ],
+      "castingTime": "1 minute",
+      "range": "Touch",
+      "duration": "8 hours",
+      "tags": [
+        "ichor",
+        "social"
+      ]
+    },
+    {
+      "id": "toll_the_dead",
+      "name": "Toll the Dead",
+      "school": "Necromancy",
+      "level": "Cantrip",
+      "classes": [
+        "Cleric",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "ichor"
+      ]
+    },
+    {
+      "id": "tongues",
+      "name": "Tongues",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "transmute_rock",
+      "name": "Transmute Rock",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Until dispelled",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "transport_via_plants",
+      "name": "Transport via Plants",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "10 feet",
+      "duration": "1 round",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tree_stride",
+      "name": "Tree Stride",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "true_polymorph",
+      "name": "True Polymorph",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "true_resurrection",
+      "name": "True Resurrection",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "castingTime": "1 hour",
+      "range": "Touch",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "true_seeing",
+      "name": "True Seeing",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "true_strike",
+      "name": "True Strike",
+      "school": "Divination",
+      "level": "Cantrip",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 round",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "tsunami",
+      "name": "Tsunami",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 minute",
+      "range": "Sight",
+      "duration": "Concentration, up to 6 rounds",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "unseen_servant",
+      "name": "Unseen Servant",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "1 hour",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "vampiric_touch",
+      "name": "Vampiric Touch",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "vicious_mockery",
+      "name": "Vicious Mockery",
+      "school": "Enchantment",
+      "level": "Cantrip",
+      "classes": [
+        "Bard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "vitriolic_sphere",
+      "name": "Vitriolic Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "150 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "vortex_warp",
+      "name": "Vortex Warp",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "wall_of_fire",
+      "name": "Wall of Fire",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "wall_of_force",
+      "name": "Wall of Force",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "wall_of_ice",
+      "name": "Wall of Ice",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "wall_of_light",
+      "name": "Wall of Light",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "wall_of_sand",
+      "name": "Wall of Sand",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "wall_of_stone",
+      "name": "Wall of Stone",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "wall_of_thorns",
+      "name": "Wall of Thorns",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "wall_of_water",
+      "name": "Wall of Water",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "warding_bond",
+      "name": "Warding Bond",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "Touch",
+      "duration": "1 hour",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "warding_wind",
+      "name": "Warding Wind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 10 minutes",
+      "tags": [
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "warp_sense",
+      "name": "Warp Sense",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "water_breathing",
+      "name": "Water Breathing",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "24 hours",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "water_walk",
+      "name": "Water Walk",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Cleric",
+        "Druid",
+        "Ranger",
+        "Sorcerer"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "tags": [
+        "ichor",
+        "transit"
+      ]
+    },
+    {
+      "id": "watery_sphere",
+      "name": "Watery Sphere",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "90 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "web",
+      "name": "Web",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Artificer",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "healing",
+        "ichor",
+        "sky"
+      ]
+    },
+    {
+      "id": "weird",
+      "name": "Weird",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "whirlwind",
+      "name": "Whirlwind",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "300 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "healing",
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "wind_walk",
+      "name": "Wind Walk",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid"
+      ],
+      "castingTime": "1 minute",
+      "range": "30 feet",
+      "duration": "8 hours",
+      "tags": [
+        "sky",
+        "transit"
+      ]
+    },
+    {
+      "id": "wind_wall",
+      "name": "Wind Wall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky",
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "wish",
+      "name": "Wish",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Instantaneous",
+      "tags": [
+        "warding"
+      ]
+    },
+    {
+      "id": "witch_bolt",
+      "name": "Witch Bolt",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "30 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "ichor",
+        "sky",
+        "warding"
+      ]
+    },
+    {
+      "id": "wither_and_bloom",
+      "name": "Wither and Bloom",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "death",
+        "healing",
+        "ichor"
+      ]
+    },
+    {
+      "id": "word_of_radiance",
+      "name": "Word of Radiance",
+      "school": "Evocation",
+      "level": "Cantrip",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "5 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "ichor"
+      ]
+    },
+    {
+      "id": "word_of_recall",
+      "name": "Word of Recall",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Cleric"
+      ],
+      "castingTime": "1 action",
+      "range": "5 feet",
+      "duration": "Instantaneous",
+      "tags": [
+        "transit",
+        "warding"
+      ]
+    },
+    {
+      "id": "wrath_of_nature",
+      "name": "Wrath of Nature",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "sky"
+      ]
+    },
+    {
+      "id": "wrathful_smite",
+      "name": "Wrathful Smite",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Paladin"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "wristpocket",
+      "name": "Wristpocket",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [],
+      "castingTime": "1 action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 hour",
+      "tags": [
+        "general_magic"
+      ]
+    },
+    {
+      "id": "zephyr_strike",
+      "name": "Zephyr Strike",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Ranger"
+      ],
+      "castingTime": "1 bonus action",
+      "range": "Self",
+      "duration": "Concentration, up to 1 minute",
+      "tags": [
+        "transit"
+      ]
+    },
+    {
+      "id": "zone_of_truth",
+      "name": "Zone of Truth",
+      "school": "Unspecified",
+      "level": "Unspecified",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Paladin"
+      ],
+      "castingTime": "1 action",
+      "range": "60 feet",
+      "duration": "10 minutes",
+      "tags": [
+        "sky"
+      ]
+    }
+  ]
+}

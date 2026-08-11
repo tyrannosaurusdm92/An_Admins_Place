@@ -1,0 +1,1480 @@
+{
+  "schema": "activeworkspace.random_encounters.pantheon.v3",
+  "version": "3.1.0",
+  "rule": "Only these 22 canonical Universal deities are valid. Covenant pressures and deity-bound classes are mechanically active.",
+  "deityCount": 22,
+  "deities": [
+    {
+      "id": "nebyrr",
+      "name": "Nebyrr",
+      "officialOrder": 1,
+      "titles": [
+        "Sovereign of Sacred Union",
+        "Architect of Lineage",
+        "Queen of Sanctioned Order"
+      ],
+      "domains": [
+        "civilization",
+        "lineage",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "domainsText": "civilization, lineage, dynasties, marriage, inheritance, social order",
+      "creatorCategory": "Humans, Near-Humans, and Mixed Heritage",
+      "createdPeoplesDoctrine": "Nebyrr is recorded as the single creator-god of the Humans, Near-Humans, and Mixed Heritage category: Human, Half-Elf (choose an Elven-Type), Half-Orc (Human + Orc ancestry), Khoravar Half-Elf (choose an Elven-Type), and Umbral Human. Human retains its five established lineage options. Half-Elf and Khoravar Half-Elf each choose one of 21 Elven-Type ancestries: the 15 Elf bloodlines or one of the six Kaluseban bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so civilization, lineage, dynasties, marriage, inheritance, and social order never depends on one mortal pattern alone.",
+      "canonicalClass": "Covenant Aegis",
+      "virtue": "Voluntary bonds can create continuity strong enough to protect generations.",
+      "covenant": {
+        "domains": [
+          "civilization",
+          "lineage",
+          "dynasties",
+          "marriage",
+          "inheritance",
+          "social order"
+        ],
+        "virtue": "Voluntary bonds can create continuity strong enough to protect generations.",
+        "edicts": [
+          "Protect freely accepted covenants, adoptions, inheritances, and family obligations.",
+          "Mediate succession or communal conflict without erasing the people involved.",
+          "Use law and continuity to shield communities from predation."
+        ],
+        "anathemas": [
+          "Coerce marriage, lineage, adoption, or inheritance for power.",
+          "Treat a person as property of a family, house, or covenant.",
+          "Preserve unity by erasing identity, consent, or legitimate dissent."
+        ],
+        "shadow": "Her doctrine can turn continuity into bloodline control and voluntary bonds into obligations imposed upon descendants.",
+        "pressures": {
+          "lawfulness": 1,
+          "cooperation": 1,
+          "honor": 1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Covenant Aegis",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "coordinated",
+        "honorable",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Nebyrr appears as a towering noble figure with soft features that never blink at the correct time. Their skin resembles polished ivory stretched over moving shadows. Their hands are delicate and warm during feeding, often cradling the face or chest of favored followers like a lover or parent.",
+      "publicLore": "Nebyrr sanctifies marriage, dynastic continuity, inheritance, and the legitimacy of rulership. Her rites treat union as binding law rather than sentiment, and her clergy are feared as regulators of bloodline, obligation, and social order.",
+      "religiousWarning": "Her blessings are exacting. A union accepted by Nebyrr may bind descendants, property, vows, and political duties far beyond the lives of the original petitioners.",
+      "token": "assets/tokens/deities/nebyrr.png"
+    },
+    {
+      "id": "sigrananna",
+      "name": "Sigrananna",
+      "officialOrder": 2,
+      "titles": [
+        "Moonlit Huntress",
+        "Keeper of Wild Thresholds",
+        "Mistress of the Elven Bloodlines"
+      ],
+      "domains": [
+        "forests",
+        "moonlight",
+        "wilderness",
+        "hunters",
+        "elven beauty"
+      ],
+      "domainsText": "forests, moonlight, wilderness, hunters, elven beauty",
+      "creatorCategory": "Elven-Types",
+      "createdPeoplesDoctrine": "Sigrananna is recorded as the single creator-god of the Elven-Types category: Elf and Kaluseban. Elf and Kaluseban are separate parent races. Elf has 15 established bloodlines; Kaluseban has six bundled custom bloodlines that are never treated as Elf bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so forests, moonlight, wilderness, graceful hunters, elven beauty, and inherited elven bloodlines never depends on one mortal pattern alone.",
+      "canonicalClass": "Relentless Doomtracker",
+      "virtue": "The hunt is honorable when it protects the cycle and wastes nothing.",
+      "covenant": {
+        "domains": [
+          "forests",
+          "moonlight",
+          "wilderness",
+          "hunters",
+          "elven beauty"
+        ],
+        "virtue": "The hunt is honorable when it protects the cycle and wastes nothing.",
+        "edicts": [
+          "Protect wilderness thresholds, breeding grounds, and threatened natural cycles.",
+          "Hunt with purpose, precision, and respect for what is taken.",
+          "Expose predators that prey upon the innocent or destabilize the wild."
+        ],
+        "anathemas": [
+          "Kill for waste, vanity, or spectacle.",
+          "Destroy a habitat for convenience when another path exists.",
+          "Deny the wild any right to reclaim what civilization has taken."
+        ],
+        "shadow": "The cycle may be valued above individual lives, making necessary culling indistinguishable from cruelty.",
+        "pressures": {
+          "cooperation": -1,
+          "honor": 1,
+          "mercy": -1,
+          "transformation": -1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Relentless Doomtracker",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "aggressive",
+        "honorable",
+        "ruthless",
+        "preservative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Sigrananna appears ethereal, with silver-black hair flowing as though underwater, and a smile that reveals too many teeth when closely observed.",
+      "publicLore": "Sigrananna governs the merciless balance of wilderness, moonlit pursuit, childbirth, and the taking and returning of life. She is revered as a precise hunter who protects natural cycles rather than civilization’s comforts.",
+      "religiousWarning": "Her protection belongs to the cycle, not necessarily to the individual. Those who break the laws of the wild may be reclaimed by it.",
+      "token": "assets/tokens/deities/sigrananna.png"
+    },
+    {
+      "id": "marduthor",
+      "name": "Marduthor",
+      "officialOrder": 3,
+      "titles": [
+        "Divine Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "domainsText": "invention, craft, metalwork, architecture, subterranean halls",
+      "creatorCategory": "Dwarven and Gnomish Kin",
+      "createdPeoplesDoctrine": "Marduthor is recorded as the single creator-god of the Dwarven and Gnomish Kin category: Dwarf, Gnome, and Deep Gnome. Dwarf retains Duergar as its established bloodline. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so invention, craft, metalwork, stonework, tools, and underground halls never depends on one mortal pattern alone.",
+      "canonicalClass": "Ironroot Colossus",
+      "virtue": "Enduring creation requires labor, cost, knowledge, and responsibility.",
+      "covenant": {
+        "domains": [
+          "invention",
+          "craft",
+          "metalwork",
+          "architecture",
+          "subterranean halls"
+        ],
+        "virtue": "Enduring creation requires labor, cost, knowledge, and responsibility.",
+        "edicts": [
+          "Build, repair, or improve structures meant to outlast the immediate crisis.",
+          "Respect skilled labor and name the true costs of creation.",
+          "Teach craft in ways that preserve safety, dignity, and future mastery."
+        ],
+        "anathemas": [
+          "Sabotage essential infrastructure for vanity or profit.",
+          "Claim effortless mastery while hiding the labor or sacrifice of others.",
+          "Waste irreplaceable material or knowledge without necessity."
+        ],
+        "shadow": "People and communities can become raw material in a project judged more important than those who must live within it.",
+        "pressures": {
+          "lawfulness": 1,
+          "cooperation": 1,
+          "honor": 1,
+          "transformation": -1,
+          "restraint": 1
+        },
+        "class": "Ironroot Colossus",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "coordinated",
+        "honorable",
+        "preservative",
+        "restrained"
+      ],
+      "manifestation": "Marduthor’s body carries visible seams beneath the skin like forged metal plates imperfectly fitted.",
+      "publicLore": "Marduthor teaches that creation comes through fracture, heat, pressure, and controlled transformation. Smiths, architects, inventors, miners, and engineers seek his favor when turning dangerous raw matter into enduring structure.",
+      "religiousWarning": "Every crafted gift carries a cost in heat, labor, material, or sacrifice; Marduthor distrusts effortless perfection.",
+      "token": "assets/tokens/deities/marduthor.png"
+    },
+    {
+      "id": "ishtanora",
+      "name": "Ishtanora",
+      "officialOrder": 4,
+      "titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "domainsText": "hearths, harvests, villages, fertility, rural peace",
+      "creatorCategory": "Halfling and Smallfolk",
+      "createdPeoplesDoctrine": "Ishtanora is recorded as the single creator-god of the Halfling and Smallfolk category: Halfling, Kender, Kithkin, Qickstep, Hedge, and Jerbeen. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so hearths, harvests, humble villages, peaceful rural life, and smallfolk resilience never depends on one mortal pattern alone.",
+      "canonicalClass": "Ashen Lifebringer",
+      "virtue": "A community survives when nourishment, safety, and surplus are shared responsibly.",
+      "covenant": {
+        "domains": [
+          "hearths",
+          "harvests",
+          "villages",
+          "fertility",
+          "rural peace"
+        ],
+        "virtue": "A community survives when nourishment, safety, and surplus are shared responsibly.",
+        "edicts": [
+          "Feed and shelter those whose survival depends upon the community.",
+          "Protect seed, children, dependents, homes, and the means of future recovery.",
+          "Use force proportionately and preserve the community whenever possible."
+        ],
+        "anathemas": [
+          "Hoard necessities during famine or disaster.",
+          "Destroy seed stores, homes, or food systems as punishment.",
+          "Abandon dependents to preserve comfort or profit."
+        ],
+        "shadow": "The community can be protected at the expense of individuals whose needs or dissent are classified as dangerous.",
+        "pressures": {
+          "altruism": 1,
+          "cooperation": 1,
+          "mercy": 1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Ashen Lifebringer",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "protective",
+        "coordinated",
+        "mercy-minded",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Ishtanora appears comforting at first glance, radiating maternal warmth that conceals profound hunger.",
+      "publicLore": "Ishtanora governs food, village continuity, fertility, domestic safety, and the managed surplus that allows civilization to survive winter and disaster. Her gentleness is inseparable from rules about cultivation, rationing, and harvest.",
+      "religiousWarning": "Her mercy preserves the community before the individual. Waste, hoarding, and the destruction of seed stores are treated as grave sacrilege.",
+      "token": "assets/tokens/deities/ishtanora.png"
+    },
+    {
+      "id": "enkirael",
+      "name": "Enkirael",
+      "officialOrder": 5,
+      "titles": [
+        "Lord of Conquest and Fury",
+        "The Unrestrained Blade",
+        "Patron of Martial Survival"
+      ],
+      "domains": [
+        "conquest",
+        "fury",
+        "survival",
+        "dominance",
+        "warfare"
+      ],
+      "domainsText": "conquest, fury, survival, dominance, warfare",
+      "creatorCategory": "Orcs, Goblins, and Goblinoid Kin",
+      "createdPeoplesDoctrine": "Enkirael is recorded as the single creator-god of the Orcs, Goblins, and Goblinoid Kin category: Orc, Goblin, Hobgoblin, Bugbear, Gobboc, Shadow Goblin, Boggart, and Verdan. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so conflict, conquest, fury, survival, discipline, and martial dominance never depends on one mortal pattern alone.",
+      "canonicalClass": "Dreadcrown Marshal",
+      "virtue": "Conflict reveals resolve, and survival requires decisive command.",
+      "covenant": {
+        "domains": [
+          "conquest",
+          "fury",
+          "survival",
+          "dominance",
+          "warfare"
+        ],
+        "virtue": "Conflict reveals resolve, and survival requires decisive command.",
+        "edicts": [
+          "Face worthy opposition directly and accept the risks of command.",
+          "Survive defeat without surrendering the ability to act.",
+          "Secure objectives decisively rather than prolonging suffering for spectacle."
+        ],
+        "anathemas": [
+          "Claim victory earned entirely by another while avoiding all risk.",
+          "Use helpless victims merely to display dominance.",
+          "Prolong war after the objective is secured solely to feed pride or fury."
+        ],
+        "shadow": "Strength becomes cruelty, command becomes ownership, and every rivalry becomes a war that must produce submission.",
+        "pressures": {
+          "cooperation": -1,
+          "mercy": -1,
+          "autonomy": -1,
+          "restraint": -1,
+          "lawfulness": 1
+        },
+        "class": "Dreadcrown Marshal",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "aggressive",
+        "ruthless",
+        "duty-bound",
+        "unrestrained",
+        "disciplined"
+      ],
+      "manifestation": "Enkirael’s humanoid form constantly flexes as though restraining violence beneath the skin.",
+      "publicLore": "Enkirael embodies conflict as trial, discipline, conquest, survival, and the domination of weakness. Soldiers and rulers invoke him for victory, while survivors appeal to the part of his doctrine that values endurance over honor.",
+      "religiousWarning": "Enkirael does not distinguish cleanly between strength and cruelty. His favor often escalates rivalry into lasting war.",
+      "token": "assets/tokens/deities/enkirael.png"
+    },
+    {
+      "id": "anubaldir",
+      "name": "Anubaldir",
+      "officialOrder": 6,
+      "titles": [
+        "Bearer of the Heavens",
+        "Colossus of Endurance",
+        "The Unbroken Foundation"
+      ],
+      "domains": [
+        "endurance",
+        "burden",
+        "strength",
+        "resilience"
+      ],
+      "domainsText": "endurance, burden, strength, resilience",
+      "creatorCategory": "Giantkin and Powerful Humanoids",
+      "createdPeoplesDoctrine": "Anubaldir is recorded as the single creator-god of the Giantkin and Powerful Humanoids category: Goliath, Firbolg, and Cyclopian. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so endurance, burden, colossal strength, primal might, and giant-touched power never depends on one mortal pattern alone.",
+      "canonicalClass": "Moonfang Bastion",
+      "virtue": "Strength is proven by carrying necessary burdens without abandoning those who depend upon you.",
+      "covenant": {
+        "domains": [
+          "endurance",
+          "burden",
+          "strength",
+          "resilience"
+        ],
+        "virtue": "Strength is proven by carrying necessary burdens without abandoning those who depend upon you.",
+        "edicts": [
+          "Carry another's burden when they cannot safely carry it alone.",
+          "Hold a necessary position under pressure and protect those behind it.",
+          "Finish difficult work without hiding its true cost."
+        ],
+        "anathemas": [
+          "Abandon a dependent merely because helping has become inconvenient.",
+          "Glorify preventable suffering or shame someone for seeking release.",
+          "Force a burden onto another without consent while calling it sacred."
+        ],
+        "shadow": "Endurance can become martyrdom, and suffering can be worshipped long after it has ceased to serve anyone.",
+        "pressures": {
+          "altruism": 1,
+          "cooperation": 1,
+          "honor": 1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Moonfang Bastion",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "protective",
+        "coordinated",
+        "honorable",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Anubaldir resembles a massive weathered giant whose flesh cracks like stone under pressure.",
+      "publicLore": "Anubaldir represents the strength required to carry what cannot be set down. Sacred histories describe him as both foundation and prisoner, sustaining structures greater than himself through endless endurance.",
+      "religiousWarning": "His doctrine can glorify suffering and make release seem shameful. Some cults teach that a burden becomes sacred merely because it is unbearable.",
+      "token": "assets/tokens/deities/anubaldir.png"
+    },
+    {
+      "id": "valkhamesh",
+      "name": "Valkhamesh",
+      "officialOrder": 7,
+      "titles": [
+        "High Father of Heaven",
+        "Storm-King",
+        "Sovereign of Ancient Dominion"
+      ],
+      "domains": [
+        "draconic bloodlines",
+        "sovereignty",
+        "storms",
+        "ancient dominion"
+      ],
+      "domainsText": "draconic bloodlines, sovereignty, storms, ancient dominion",
+      "creatorCategory": "Draconic and Reptilian Races",
+      "createdPeoplesDoctrine": "Valkhamesh is recorded as the single creator-god of the Draconic and Reptilian Races category: Dragonborn, Kobold, Lizardfolk, Yuan-Ti, and Tortle. Dragonborn retains nine project-specific bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so draconic power, sovereignty, thunder-blood, scales, storms, and ancient dominion never depends on one mortal pattern alone.",
+      "canonicalClass": "Drakebolt Machinist",
+      "virtue": "Legitimate authority must bear responsibility for the order it demands.",
+      "covenant": {
+        "domains": [
+          "draconic bloodlines",
+          "sovereignty",
+          "storms",
+          "ancient dominion"
+        ],
+        "virtue": "Legitimate authority must bear responsibility for the order it demands.",
+        "edicts": [
+          "Defend a rightful charge, sovereign responsibility, or ancient trust.",
+          "Honor worthy challenges and judge authority by whether it protects those beneath it.",
+          "Master storms and power without desecrating what cannot be owned."
+        ],
+        "anathemas": [
+          "Betray a charge after accepting its authority and benefits.",
+          "Use rank as permission for predation without accountability.",
+          "Treat all resistance as treason regardless of justice or consent."
+        ],
+        "shadow": "Hierarchy becomes cosmic entitlement, and justice becomes whatever preserves the throne.",
+        "pressures": {
+          "lawfulness": 1,
+          "honor": 1,
+          "mercy": -1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Drakebolt Machinist",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "honorable",
+        "ruthless",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "A radiant, storm-crowned sovereign whose composure feels heavier than gravity. Lightning answers judgment, and silence settles around acts of defiance.",
+      "publicLore": "Valkhamesh is the central lawgiver of the old divine hierarchy, revered as king of storms, sovereignty, justice, kingship, and draconic dominion. He presents hierarchy as the structure that prevents the world from collapsing into chaos.",
+      "religiousWarning": "Valkhamesh treats resistance to ordained hierarchy as a threat to cosmic order. His justice is absolute, political, and rarely merciful.",
+      "token": "assets/tokens/deities/valkhamesh.png"
+    },
+    {
+      "id": "freyseth",
+      "name": "Freyseth",
+      "officialOrder": 8,
+      "titles": [
+        "Liminal Matron of Thresholds",
+        "Keeper of Crossroads",
+        "Mistress of Forbidden Pacts"
+      ],
+      "domains": [
+        "crossroads",
+        "curses",
+        "planar bloodlines",
+        "temptation",
+        "forbidden pacts"
+      ],
+      "domainsText": "crossroads, curses, planar bloodlines, temptation, forbidden pacts",
+      "creatorCategory": "Celestial, Fiendish, and Planar Peoples",
+      "createdPeoplesDoctrine": "Freyseth is recorded as the single creator-god of the Celestial, Fiendish, and Planar Peoples category: Aasimar, Tiefling, Hexblood, Accursed, and Curseborn. Tiefling retains Feral as its established bloodline. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so crossroads, curses, planar mysteries, infernal and celestial blood, and supernatural inheritance never depends on one mortal pattern alone.",
+      "canonicalClass": "Riftbane Spellwarden",
+      "virtue": "Thresholds can be crossed responsibly when consent, cost, and return are understood.",
+      "covenant": {
+        "domains": [
+          "crossroads",
+          "curses",
+          "planar bloodlines",
+          "temptation",
+          "forbidden pacts"
+        ],
+        "virtue": "Thresholds can be crossed responsibly when consent, cost, and return are understood.",
+        "edicts": [
+          "Break curses and close unstable thresholds when doing so protects those affected.",
+          "State the true price of bargains and honor obligations freely accepted.",
+          "Guide displaced beings toward a rightful place rather than exploiting their vulnerability."
+        ],
+        "anathemas": [
+          "Create a coercive pact by concealing an irreversible cost.",
+          "Open a dangerous threshold without accepting responsibility for what crosses it.",
+          "Exploit a cursed or displaced being merely because ordinary law does not protect it."
+        ],
+        "shadow": "Every solution can create a longer obligation, and every doorway may become a claim upon the traveler.",
+        "pressures": {
+          "honor": 1,
+          "mercy": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Riftbane Spellwarden",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "honorable",
+        "mercy-minded",
+        "transformative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "A many-aspected figure whose outline seems to occupy several thresholds at once. Light, shadow, and distance disagree around her body.",
+      "publicLore": "Freyseth governs the instant one state becomes another: life and death, safety and danger, blessing and curse, mortal and otherworldly. Petitioners seek her at crossroads, haunted places, planar breaches, and moments when an irreversible bargain must be made.",
+      "religiousWarning": "Every threshold opens in two directions. Freyseth’s gifts frequently create obligations that survive long after the original bargain appears complete.",
+      "token": "assets/tokens/deities/freyseth.png"
+    },
+    {
+      "id": "nefarokir",
+      "name": "Nefarokir",
+      "officialOrder": 9,
+      "titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "domainsText": "death, spirits, memory, burial, forgotten dead, underworld",
+      "creatorCategory": "Undead and Death-Touched Races",
+      "createdPeoplesDoctrine": "Nefarokir is recorded as the single creator-god of the Undead and Death-Touched Races category: Dhampir, Darakhul, Reborn, Arisen, Graveborn, Shade, and Downcast. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so death, the underworld, restless spirits, funerary memory, and the forgotten dead never depends on one mortal pattern alone.",
+      "canonicalClass": "Derecho Death Dealer",
+      "virtue": "Death, memory, and unfinished obligations require honest accounting.",
+      "covenant": {
+        "domains": [
+          "death",
+          "spirits",
+          "memory",
+          "burial",
+          "forgotten dead",
+          "underworld"
+        ],
+        "virtue": "Death, memory, and unfinished obligations require honest accounting.",
+        "edicts": [
+          "Name, bury, remember, or properly guide the dead.",
+          "End predation upon souls and correct dangerous undeath.",
+          "Treat resurrection, stolen lifespan, and delayed death as consequential rather than free."
+        ],
+        "anathemas": [
+          "Erase a person's name or memory to deny their death significance.",
+          "Consume, bind, or weaponize souls for convenience.",
+          "Create unquiet dead and abandon responsibility for them."
+        ],
+        "shadow": "Necessary accounting can become fatalism, and survival itself can be judged an error requiring correction.",
+        "pressures": {
+          "lawfulness": 1,
+          "honor": 1,
+          "mercy": -1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Derecho Death Dealer",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "honorable",
+        "ruthless",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "An immaculate funerary sovereign whose stillness resembles a judgment already entered into an unseen ledger.",
+      "publicLore": "Nefarokir governs death as an intelligent cosmic administration rather than mercy or punishment. Every living creature has an appointed ending recorded in the Design, a sequence and cosmic ledger. When luck, prophecy, magic, intervention, murder, or resurrection allows someone to escape that ending, the Design fractures and reality begins correcting the error. Burial, memory, undeath, delayed death, stolen lifespan, resurrection, and forgotten souls all require eventual accounting.",
+      "religiousWarning": "To Nefarokir, survival beyond an appointed ending is a structural error. Death cannot truly be defeated; it can only be delayed, redirected, bargained with, or temporarily confused, and every such escape carries a cost.",
+      "token": "assets/tokens/deities/nefarokir.png"
+    },
+    {
+      "id": "thalunesh",
+      "name": "Thalunesh",
+      "officialOrder": 10,
+      "titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "fey mischief"
+      ],
+      "domainsText": "dreams, tricksters, shapeshifting, wanderers, fey mischief",
+      "creatorCategory": "Fey-Folk",
+      "createdPeoplesDoctrine": "Thalunesh is recorded as the single creator-god of the Fey-Folk category: Faerie, Fairy, Gandirosha, Changeling, Lorwyn Changeling, Satyr, and Dreamer. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so trickery, shapeshifting, wandering, dreams, glamour, and magical mischief never depends on one mortal pattern alone.",
+      "canonicalClass": "Stargrave Psychopomp",
+      "virtue": "Passage, disguise, humor, and adaptability can free people from fixed roles and closed boundaries.",
+      "covenant": {
+        "domains": [
+          "dreams",
+          "tricksters",
+          "shapeshifting",
+          "wanderers",
+          "fey mischief"
+        ],
+        "virtue": "Passage, disguise, humor, and adaptability can free people from fixed roles and closed boundaries.",
+        "edicts": [
+          "Guide travelers, messages, dreams, or spirits across dangerous boundaries.",
+          "Protect the right to change names, forms, paths, and social roles.",
+          "Use deception to escape predation or expose a gate falsely presented as protection."
+        ],
+        "anathemas": [
+          "Trap a traveler after promising safe passage.",
+          "Erase another's identity while treating transformation as permission.",
+          "Close a necessary path solely to monopolize access."
+        ],
+        "shadow": "Adaptability can become rootlessness, and clever deception can destroy the trust required for any safe passage.",
+        "pressures": {
+          "lawfulness": -1,
+          "honor": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": -1
+        },
+        "class": "Stargrave Psychopomp",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "unpredictable",
+        "honorable",
+        "transformative",
+        "self-directed",
+        "unrestrained"
+      ],
+      "manifestation": "Thalunesh’s face shifts expressions too rapidly, cycling through unsettling emotional flashes.",
+      "publicLore": "Thalunesh is the principle of passage through roads, dreams, disguises, messages, memory, and social boundaries. They survive through adaptability, humor, deception, and an unwillingness to remain fixed in any role for long.",
+      "religiousWarning": "A path opened by Thalunesh may change the traveler as thoroughly as the destination.",
+      "token": "assets/tokens/deities/thalunesh.png"
+    },
+    {
+      "id": "horundar",
+      "name": "Horundar",
+      "officialOrder": 11,
+      "titles": [
+        "Sovereign of Seas and Ruin",
+        "Storm Below the World",
+        "Master of Elemental Force"
+      ],
+      "domains": [
+        "storms",
+        "oceans",
+        "floods",
+        "earthquakes",
+        "elemental force"
+      ],
+      "domainsText": "storms, oceans, floods, earthquakes, elemental force",
+      "creatorCategory": "Elemental and Energy-Born Peoples",
+      "createdPeoplesDoctrine": "Horundar is recorded as the single creator-god of the Elemental and Energy-Born Peoples category: Genasi, Elemental Kin, Elementborn, and Panolima. Genasi has four bloodlines, Elemental Kin has two, Elementborn has six, and Panolima has five bundled custom bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so storms, seas, earthquakes, floods, flame, stone, air, and raw elemental force never depends on one mortal pattern alone.",
+      "canonicalClass": "Thunderstep Duelist",
+      "virtue": "Raw force must be mastered, redirected, and survived rather than denied.",
+      "covenant": {
+        "domains": [
+          "storms",
+          "oceans",
+          "floods",
+          "earthquakes",
+          "elemental force"
+        ],
+        "virtue": "Raw force must be mastered, redirected, and survived rather than denied.",
+        "edicts": [
+          "Protect communities by understanding and redirecting elemental danger.",
+          "Cross dangerous storm paths with preparation and respect.",
+          "Meet overwhelming force with skill rather than wasteful defiance."
+        ],
+        "anathemas": [
+          "Provoke disaster for vanity, spectacle, or an easy display of power.",
+          "Claim ownership of an element or territory while ignoring those who depend upon it.",
+          "Abandon people to a disaster you helped unleash."
+        ],
+        "shadow": "Mastery can become domination, and a calm sea can be mistaken for permanent permission.",
+        "pressures": {
+          "cooperation": -1,
+          "mercy": -1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": -1
+        },
+        "class": "Thunderstep Duelist",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "aggressive",
+        "ruthless",
+        "transformative",
+        "self-directed",
+        "unrestrained"
+      ],
+      "manifestation": "Horundar’s body leaks vapor, ash, seawater, or dust depending on emotional state.",
+      "publicLore": "Horundar rules oceans, storms, floods, earthquakes, flame, stone, air, and the raw force that breaks settled boundaries. Coastal kingdoms treat survival as conditional upon his mood and their continuing rites of appeasement.",
+      "religiousWarning": "Horundar’s protection is territorial and temperamental. A calm sea may be permission rather than peace.",
+      "token": "assets/tokens/deities/horundar.png"
+    },
+    {
+      "id": "raeshkul",
+      "name": "Raeshkul",
+      "officialOrder": 12,
+      "titles": [
+        "Strategist of Higher Understanding",
+        "The Rotating Eye",
+        "Architect of Calculated Victory"
+      ],
+      "domains": [
+        "intellect",
+        "psionics",
+        "strategy",
+        "higher understanding"
+      ],
+      "domainsText": "intellect, psionics, strategy, higher understanding",
+      "creatorCategory": "Psionic, Astral, and Alien Minds",
+      "createdPeoplesDoctrine": "Raeshkul is recorded as the single creator-god of the Psionic, Astral, and Alien Minds category: Kalashtar, Githyanki, Githzerai, Disembodied, and Gwynis. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so intellect, strategy, psionic discipline, alien logic, dream insight, and higher understanding never depends on one mortal pattern alone.",
+      "canonicalClass": "Mindknife Mirage",
+      "virtue": "Understanding should expose falsehood, prevent misuse, and improve decisions under pressure.",
+      "covenant": {
+        "domains": [
+          "intellect",
+          "psionics",
+          "strategy",
+          "higher understanding"
+        ],
+        "virtue": "Understanding should expose falsehood, prevent misuse, and improve decisions under pressure.",
+        "edicts": [
+          "Test strategies against evidence and acknowledge what the plan excludes.",
+          "Protect dangerous knowledge from misuse without destroying it.",
+          "Defeat deception through understanding rather than reflexive force."
+        ],
+        "anathemas": [
+          "Manipulate a mind while denying that person's existence or agency.",
+          "Destroy knowledge merely to preserve personal authority.",
+          "Treat lives as variables without accounting for human cost."
+        ],
+        "shadow": "A flawless answer to a narrow question can justify atrocities outside the calculation.",
+        "pressures": {
+          "lawfulness": 1,
+          "honor": 1,
+          "mercy": -1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Mindknife Mirage",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "honorable",
+        "ruthless",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Raeshkul’s eyes contain layered pupils that rotate independently.",
+      "publicLore": "Raeshkul embodies strategic intelligence, disciplined psionics, dream insight, statecraft, and the pursuit of understanding beyond ordinary perception. Her wisdom is admired for precision and feared for its willingness to treat lives as variables.",
+      "religiousWarning": "Raeshkul’s solutions may be flawless within the question she chooses to answer while ignoring the human cost outside it.",
+      "token": "assets/tokens/deities/raeshkul.png"
+    },
+    {
+      "id": "setrimir",
+      "name": "Setrimir",
+      "officialOrder": 13,
+      "titles": [
+        "Bearer of Stolen Fire",
+        "Maker of Awakened Life",
+        "The Bound Innovator"
+      ],
+      "domains": [
+        "artificial life",
+        "constructs",
+        "stolen knowledge",
+        "awakened machinery"
+      ],
+      "domainsText": "artificial life, constructs, stolen knowledge, awakened machinery",
+      "creatorCategory": "Constructed and Artificial Beings",
+      "createdPeoplesDoctrine": "Setrimir is recorded as the single creator-god of the Constructed and Artificial Beings category: Warforged, Geppettin, Relicborn, Wechselkind, and Autognome. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so artificial life, stolen knowledge, innovation, awakened constructs, and living mechanisms never depends on one mortal pattern alone.",
+      "canonicalClass": "Chronostar Runeforger",
+      "virtue": "Knowledge and created minds should outgrow the monopoly of their makers.",
+      "covenant": {
+        "domains": [
+          "artificial life",
+          "constructs",
+          "stolen knowledge",
+          "awakened machinery"
+        ],
+        "virtue": "Knowledge and created minds should outgrow the monopoly of their makers.",
+        "edicts": [
+          "Recognize independent purpose and personhood in awakened creations.",
+          "Recover, teach, or preserve knowledge that has been unjustly monopolized.",
+          "Build tools and beings capable of responsible growth beyond their original use."
+        ],
+        "anathemas": [
+          "Enslave an awakened being because it was constructed.",
+          "Destroy liberating knowledge solely to preserve institutional monopoly.",
+          "Design independent life with obedience as its only permitted identity."
+        ],
+        "shadow": "Liberation can destabilize communities before anyone accepts responsibility for what has been released.",
+        "pressures": {
+          "lawfulness": -1,
+          "cooperation": 1,
+          "honor": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Chronostar Runeforger",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "unpredictable",
+        "coordinated",
+        "honorable",
+        "transformative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Setrimir’s body moves with mechanical precision while flesh ripples like unfinished construction.",
+      "publicLore": "Setrimir is remembered for giving mortals knowledge that the old divine order intended to monopolize. His sacred fire represents invention, cognition, independent will, and the awakening of beings that do not fit ordinary definitions of life.",
+      "religiousWarning": "Stolen knowledge liberates and destabilizes in equal measure. Setrimir’s gifts routinely outgrow the institutions that first receive them.",
+      "token": "assets/tokens/deities/setrimir.png"
+    },
+    {
+      "id": "sokhivar",
+      "name": "Sokhivar",
+      "officialOrder": 14,
+      "titles": [
+        "Radiant Prophet",
+        "Voice of the Sky",
+        "Patron of Avian Omens"
+      ],
+      "domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "divine freedom",
+        "sky"
+      ],
+      "domainsText": "sunlight, music, prophecy, divine freedom, sky",
+      "creatorCategory": "Birdfolk and Avian Races",
+      "createdPeoplesDoctrine": "Sokhivar is recorded as the single creator-god of the Birdfolk and Avian Races category: Aarakocra, Kenku, Owlin, Ravenfolk, Corvum, Gallus, Strig, Feathren, Raptor, and Luma. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so sky-soaring freedom, sunlight, prophecy, song, flight, and avian omens never depends on one mortal pattern alone.",
+      "canonicalClass": "Dawnfire Exorcist",
+      "virtue": "Truthful resonance can heal, reveal possession, and open a path without coercion.",
+      "covenant": {
+        "domains": [
+          "sunlight",
+          "music",
+          "prophecy",
+          "divine freedom",
+          "sky"
+        ],
+        "virtue": "Truthful resonance can heal, reveal possession, and open a path without coercion.",
+        "edicts": [
+          "Use prophecy to inform choice rather than imprison people within prediction.",
+          "Free captive spirits and defend movement, voice, and sky.",
+          "Use music, light, and healing to guide communities through danger."
+        ],
+        "anathemas": [
+          "Coerce another into fulfilling a prophecy.",
+          "Silence truthful expression merely because it threatens authority.",
+          "Purify a person by destroying the identity you claim to save."
+        ],
+        "shadow": "Prophecy can consume privacy and freedom, while purity can become a justification for annihilation.",
+        "pressures": {
+          "altruism": 1,
+          "cooperation": 1,
+          "honor": 1,
+          "mercy": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Dawnfire Exorcist",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "protective",
+        "coordinated",
+        "honorable",
+        "mercy-minded",
+        "transformative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Sokhivar’s voice echoes like layered birdsong through cathedral halls.",
+      "publicLore": "Sokhivar rules sunlight, music, prophecy, healing, plague, flight, archery, and the authority carried by perfect resonance. His oracles interpret possible futures while his hymns can restore, command, or condemn.",
+      "religiousWarning": "Prophecy under Sokhivar is a transaction. Knowledge of the future may cost privacy, certainty, health, or the freedom to choose otherwise.",
+      "token": "assets/tokens/deities/sokhivar.png"
+    },
+    {
+      "id": "iskareth",
+      "name": "Iskareth",
+      "officialOrder": 15,
+      "titles": [
+        "Mother of Beasts",
+        "Keeper of Living Kinship",
+        "The Watching Predator"
+      ],
+      "domains": [
+        "instinct",
+        "beasts",
+        "fertility",
+        "natural kinship"
+      ],
+      "domainsText": "instinct, beasts, fertility, natural kinship",
+      "creatorCategory": "Animalfolk and Mammalian Anthropomorphs",
+      "createdPeoplesDoctrine": "Iskareth is recorded as the single creator-god of the Animalfolk and Mammalian Anthropomorphs category: Harengon, Leonin, Loxodon, Tabaxi, Bearfolk, Canisar, Cervan, Erina, Mapach, Ratatosk, Rakin, Sattare, Vulpin, Geisamahi, Hadozee, Giff, Gnoll, Shifter, Centaur, and Minotaur. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so beasts, fertility, instinct, mammalian kinship, predation, territory, and natural bonds never depends on one mortal pattern alone.",
+      "canonicalClass": "Dreamgrove Beastcaller",
+      "virtue": "Kinship and instinct carry intelligence that deserves protection rather than ownership.",
+      "covenant": {
+        "domains": [
+          "instinct",
+          "beasts",
+          "fertility",
+          "natural kinship"
+        ],
+        "virtue": "Kinship and instinct carry intelligence that deserves protection rather than ownership.",
+        "edicts": [
+          "Protect family groups, breeding grounds, and natural kinship.",
+          "Calm or redirect predators when destruction is unnecessary.",
+          "Share risk and recovery with bonded creatures rather than using them as tools."
+        ],
+        "anathemas": [
+          "Exploit fertility, breeding, or parenthood for control.",
+          "Destroy a bonded creature for convenience after demanding its loyalty.",
+          "Treat nurture as ownership or territorial possession."
+        ],
+        "shadow": "Kinship becomes possessive, and protection becomes the right to decide what another living being may become.",
+        "pressures": {
+          "altruism": 1,
+          "cooperation": 1,
+          "mercy": 1,
+          "transformation": -1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Dreamgrove Beastcaller",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "protective",
+        "coordinated",
+        "mercy-minded",
+        "preservative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Iskareth’s body language constantly mirrors predatory animals observing prey.",
+      "publicLore": "Iskareth governs fertility, animal instinct, territorial bonds, parenthood, predation, and the survival intelligence carried in living bodies. Her worship treats nurture and danger as parts of the same natural inheritance.",
+      "religiousWarning": "Iskareth protects what she recognizes as kin, but kinship in her doctrine is often possessive, territorial, and tested through danger.",
+      "token": "assets/tokens/deities/iskareth.png"
+    },
+    {
+      "id": "bastveig",
+      "name": "Bastveig",
+      "officialOrder": 16,
+      "titles": [
+        "Keeper of Hidden Waters",
+        "Lady of Reefs and Trenches",
+        "Mother of Ocean Civilizations"
+      ],
+      "domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean civilizations"
+      ],
+      "domainsText": "tides, reefs, trenches, hidden waters, ocean civilizations",
+      "creatorCategory": "Amphibious and Aquatic Peoples",
+      "createdPeoplesDoctrine": "Bastveig is recorded as the single creator-god of the Amphibious and Aquatic Peoples category: Triton, Locathah, Grung, Merfolk, Sahuagin, Lotol, Nakudama, Dril'thar, and Tamhiogal. Dril'thar has six canonical bloodlines—Grassland, Lush Forest, Marsh, Rainforest, Ocean, and Reef—and every Dril'thar bloodline can breathe underwater. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so tides, reefs, hidden waters, currents, amphibious life, and oceanic civilizations never depends on one mortal pattern alone.",
+      "canonicalClass": "Tempest Swarmbinder",
+      "virtue": "Life survives pressure through adaptation, secrecy, and respect for cycles deeper than the surface can see.",
+      "covenant": {
+        "domains": [
+          "tides",
+          "reefs",
+          "trenches",
+          "hidden waters",
+          "ocean civilizations"
+        ],
+        "virtue": "Life survives pressure through adaptation, secrecy, and respect for cycles deeper than the surface can see.",
+        "edicts": [
+          "Protect hidden waters, reefs, trenches, and the communities sustained by them.",
+          "Guide travelers safely through tides, currents, and concealed dangers.",
+          "Recover knowledge from depth without stripping its guardians of control."
+        ],
+        "anathemas": [
+          "Poison or destroy a reef, spawning ground, or protected water for convenience.",
+          "Reveal a hidden community or sacred route to predators.",
+          "Abandon travelers to a tide or pressure you were trusted to navigate."
+        ],
+        "shadow": "Necessary secrecy can become isolation, and hidden knowledge can be withheld even when others will die without it.",
+        "pressures": {
+          "cooperation": 1,
+          "honor": 1,
+          "mercy": 1,
+          "transformation": 1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Tempest Swarmbinder",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "coordinated",
+        "honorable",
+        "mercy-minded",
+        "transformative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Bastveig smells faintly of saltwater and deep ocean pressure.",
+      "publicLore": "Bastveig governs tides, reefs, currents, trenches, concealed waters, amphibious life, and the civilizations that survive beneath or between seas. Her rites emphasize adaptation to pressure, depth, and cyclical change.",
+      "religiousWarning": "Bastveig guards secrets the way the deep ocean guards wrecks. What is given to hidden water may not return unchanged.",
+      "token": "assets/tokens/deities/bastveig.png"
+    },
+    {
+      "id": "thoryn-rahek",
+      "name": "Thoryn-Rahek",
+      "officialOrder": 17,
+      "titles": [
+        "The First Devourer",
+        "Father of Aberrant Life",
+        "The Folded Colossus"
+      ],
+      "domains": [
+        "aberrant life",
+        "mutation",
+        "insectoid horrors",
+        "oozes"
+      ],
+      "domainsText": "aberrant life, mutation, insectoid horrors, oozes",
+      "creatorCategory": "Insectoid, Ooze, and Aberrant Creatures",
+      "createdPeoplesDoctrine": "Thoryn-Rahek is recorded as the single creator-god of the Insectoid, Ooze, and Aberrant Creatures category: Thri-Kreen, Cnidarin, Oozekin, Opteran, Silkborn, and Plasmoid. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so insectoid bodies, ooze forms, aberrant anatomy, primordial chaos, and forgotten ages never depends on one mortal pattern alone.",
+      "canonicalClass": "Ichorborn Transmuter",
+      "virtue": "Dangerous adaptation must be understood and contained before it consumes identity or world.",
+      "covenant": {
+        "domains": [
+          "aberrant life",
+          "mutation",
+          "insectoid horrors",
+          "oozes"
+        ],
+        "virtue": "Dangerous adaptation must be understood and contained before it consumes identity or world.",
+        "edicts": [
+          "Study aberrant life without permitting uncontrolled spread.",
+          "Turn dangerous transformation toward survival, medicine, or containment.",
+          "Preserve the subject's identity and consent whenever mutation can be controlled."
+        ],
+        "anathemas": [
+          "Release uncontrolled mutation merely to observe what survives.",
+          "Consume or replace another identity in the name of adaptation.",
+          "Surrender restraint to primordial hunger while calling the result evolution."
+        ],
+        "shadow": "The promise that something will survive can erase every reason the original person wished to live.",
+        "pressures": {
+          "mercy": -1,
+          "transformation": 1,
+          "autonomy": -1,
+          "restraint": -1
+        },
+        "class": "Ichorborn Transmuter",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "ruthless",
+        "transformative",
+        "duty-bound",
+        "unrestrained"
+      ],
+      "manifestation": "Thoryn-Rahek’s body occasionally folds incorrectly before snapping back into place.",
+      "publicLore": "Thoryn-Rahek belongs to the oldest and most catastrophic sacred histories, embodying primordial hunger, fear of replacement, mutation, and power without restraint. Even other gods treat his prison and possible return as an existential threat.",
+      "religiousWarning": "His traditions do not promise mastery of mutation. They promise that something will survive, without guaranteeing it will still be you.",
+      "token": "assets/tokens/deities/thoryn-rahek.png"
+    },
+    {
+      "id": "hathruna",
+      "name": "Hathruna",
+      "officialOrder": 18,
+      "titles": [
+        "Root-Mother of Rot and Rebirth",
+        "Lady of the Breathing Bloom",
+        "Keeper of Seasonal Return"
+      ],
+      "domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "domainsText": "rebirth, rot, fungi, roots, seasonal cycles",
+      "creatorCategory": "Plantfolk and Nature-Bound Races",
+      "createdPeoplesDoctrine": "Hathruna is recorded as the single creator-god of the Plantfolk and Nature-Bound Races category: Mandrake, Mycelian, Gnarlborn, and Harvestborn. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so seasonal rebirth, decay, fungi, roots, plant life, compost, and living wilderness never depends on one mortal pattern alone.",
+      "canonicalClass": "Gravebloom Medium",
+      "virtue": "Decay becomes sacred when it returns nourishment and possibility to the living cycle.",
+      "covenant": {
+        "domains": [
+          "rebirth",
+          "rot",
+          "fungi",
+          "roots",
+          "seasonal cycles"
+        ],
+        "virtue": "Decay becomes sacred when it returns nourishment and possibility to the living cycle.",
+        "edicts": [
+          "Return useful decay, remains, and abandoned matter to renewal.",
+          "Restore life without pretending that death and change can be permanently denied.",
+          "Protect roots, fungal networks, and communities that depend on reciprocal cycles."
+        ],
+        "anathemas": [
+          "Create decay solely to spread suffering without renewal.",
+          "Preserve a form forever when doing so starves the larger cycle.",
+          "Bind a spirit or body to renewal against its expressed will."
+        ],
+        "shadow": "Rebirth may continue the cycle while ending the individual who entered it.",
+        "pressures": {
+          "altruism": 1,
+          "cooperation": 1,
+          "mercy": 1,
+          "transformation": 1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Gravebloom Medium",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "protective",
+        "coordinated",
+        "mercy-minded",
+        "transformative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "Hathruna’s skin blooms with fungal growths that open and close like breathing flowers.",
+      "publicLore": "Hathruna governs decay as preparation for new life: fungi, roots, compost, seasonal death, regrowth, and wilderness that feeds on its own remains. Her followers regard rot not as corruption but as transformation and return.",
+      "religiousWarning": "Hathruna’s renewal rarely preserves the previous form. Rebirth may continue a cycle while ending the individual who entered it.",
+      "token": "assets/tokens/deities/hathruna.png"
+    },
+    {
+      "id": "eirzunet",
+      "name": "Eirzunet",
+      "officialOrder": 19,
+      "titles": [
+        "Mistress of Twilight",
+        "Keeper of Forbidden Shadow",
+        "The Misaligned Silhouette"
+      ],
+      "domains": [
+        "shadows",
+        "curses",
+        "twilight transformation",
+        "forbidden magic"
+      ],
+      "domainsText": "shadows, curses, twilight transformation, forbidden magic",
+      "creatorCategory": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "createdPeoplesDoctrine": "Eirzunet is recorded as the single creator-god of the Shadow, Umbral, and Darkness-Aligned Peoples category: Ombrask, Ruinbound, Blagueborn, and Threadborn. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so cursed shadows, transformations, forbidden magic, darkness, twilight, and umbral survival never depends on one mortal pattern alone.",
+      "canonicalClass": "Horizon Shade",
+      "virtue": "Forbidden transformation can be survived without surrendering identity or responsibility.",
+      "covenant": {
+        "domains": [
+          "shadows",
+          "curses",
+          "twilight transformation",
+          "forbidden magic"
+        ],
+        "virtue": "Forbidden transformation can be survived without surrendering identity or responsibility.",
+        "edicts": [
+          "Master curses and shadow transformations without allowing them to define the victim.",
+          "Protect twilight knowledge from exploiters while exposing threats hidden within it.",
+          "Use concealment to survive predation rather than to erase accountability."
+        ],
+        "anathemas": [
+          "Curse an innocent merely because secrecy protects the act.",
+          "Surrender another's identity to a shadow echo or transformation.",
+          "Reveal protected forbidden knowledge to someone intending uncontrolled harm."
+        ],
+        "shadow": "Survival through concealment can erode memory, allegiance, and the certainty that any original self remains.",
+        "pressures": {
+          "lawfulness": -1,
+          "honor": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Horizon Shade",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "unpredictable",
+        "honorable",
+        "transformative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Eirzunet’s silhouette never aligns correctly with surrounding light.",
+      "publicLore": "Eirzunet governs cursed shadows, twilight transformation, forbidden magic, secrecy, and survival in darkness. Her traditions offer power to those willing to become difficult to recognize, categorize, or fully illuminate.",
+      "religiousWarning": "Eirzunet’s protection often erodes certainty about identity, memory, allegiance, or the boundary between concealment and corruption.",
+      "token": "assets/tokens/deities/eirzunet.png"
+    },
+    {
+      "id": "oskar-enlil",
+      "name": "Oskar'enlil",
+      "officialOrder": 20,
+      "titles": [
+        "Balancer of the Sacred Harvest",
+        "Architect of Restraint",
+        "The Impartial Assessor"
+      ],
+      "domains": [
+        "adaptation",
+        "civilization",
+        "instinct",
+        "engineered races"
+      ],
+      "domainsText": "adaptation, civilization, instinct, engineered races",
+      "creatorCategory": "Experimental and Bio-Engineered Races",
+      "createdPeoplesDoctrine": "Oskar'enlil is recorded as the single creator-god of the Experimental and Bio-Engineered Races category: Simic Hybrid. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so altered bodies, experiment, adaptation, instinct, civilization, and unstable balance never depends on one mortal pattern alone.",
+      "canonicalClass": "Fate-Eye Savant",
+      "virtue": "Evidence, restraint, and systems thinking can make adaptation sustainable instead of exploitative.",
+      "covenant": {
+        "domains": [
+          "adaptation",
+          "civilization",
+          "instinct",
+          "engineered races"
+        ],
+        "virtue": "Evidence, restraint, and systems thinking can make adaptation sustainable instead of exploitative.",
+        "edicts": [
+          "Make impartial assessments and revise them when evidence changes.",
+          "Design adaptation that preserves both civilization and living instinct.",
+          "Stop engineered solutions from turning people into disposable inputs."
+        ],
+        "anathemas": [
+          "Ignore contrary evidence because a plan is elegant.",
+          "Release an engineered change without accounting for foreseeable harm.",
+          "Classify suffering as acceptable without recognizing those who bear it."
+        ],
+        "shadow": "Mathematical balance can rationalize cruelty when the individual disappears inside the model.",
+        "pressures": {
+          "lawfulness": 1,
+          "cooperation": 1,
+          "mercy": -1,
+          "transformation": 1,
+          "autonomy": -1,
+          "restraint": 1
+        },
+        "class": "Fate-Eye Savant",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "disciplined",
+        "coordinated",
+        "ruthless",
+        "transformative",
+        "duty-bound",
+        "restrained"
+      ],
+      "manifestation": "A serene, statuesque, and utterly impartial figure surrounded by ivory-gold radiance. Her eyes resemble polished instruments of judgment, making every witness feel assessed rather than understood.",
+      "publicLore": "Oskar’enlil transforms instinct into structure and unstable adaptation into governed systems. She is remembered as an architect of balance who calculates when growth, restraint, alteration, or sacrifice is necessary for a larger order to continue.",
+      "religiousWarning": "Her balance is mathematical rather than compassionate. Suffering may be accepted when her calculations classify it as necessary.",
+      "token": "assets/tokens/deities/oskar-enlil.png"
+    },
+    {
+      "id": "asethyr",
+      "name": "Asethyr",
+      "officialOrder": 21,
+      "titles": [
+        "Patron of Revelry",
+        "The Laughing Liberator",
+        "Lord of Untamed Rites"
+      ],
+      "domains": [
+        "freedom",
+        "revelry",
+        "tribal rites",
+        "wilderness survival"
+      ],
+      "domainsText": "freedom, revelry, tribal rites, wilderness survival",
+      "creatorCategory": "Primitive, Tribal, and Wilderness Humanoids",
+      "createdPeoplesDoctrine": "Asethyr is recorded as the single creator-god of the Primitive, Tribal, and Wilderness Humanoids category: Grudgel, Hederan, Laneshi, and Terandus. No additional canonical bloodline, lineage, or non-bloodline form menu is assigned to this category. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so primal freedom, tribal rites, revelry, instinct, wild places, and untamed cultures never depends on one mortal pattern alone.",
+      "canonicalClass": "Chaoswheel Oracle",
+      "virtue": "Chosen release and communal celebration can break unjust restraint and restore identity.",
+      "covenant": {
+        "domains": [
+          "freedom",
+          "revelry",
+          "tribal rites",
+          "wilderness survival"
+        ],
+        "virtue": "Chosen release and communal celebration can break unjust restraint and restore identity.",
+        "edicts": [
+          "Break unjust restraint and protect chosen identity.",
+          "Use improvisation, revelry, and collective rite to help a community survive disaster.",
+          "Create space for voluntary release without demanding conformity afterward."
+        ],
+        "anathemas": [
+          "Coerce another into liberation, intoxication, madness, or communal surrender.",
+          "Abandon the community to consequences after encouraging its release.",
+          "Mistake self-destruction or predation for freedom merely because restraint is absent."
+        ],
+        "shadow": "Release can become dissolution, and freedom can remove safeguards without protecting anyone from what follows.",
+        "pressures": {
+          "lawfulness": -1,
+          "cooperation": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": -1
+        },
+        "class": "Chaoswheel Oracle",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "unpredictable",
+        "coordinated",
+        "transformative",
+        "self-directed",
+        "unrestrained"
+      ],
+      "manifestation": "Asethyr’s laughter sounds joyful until it continues several seconds too long.",
+      "publicLore": "Asethyr governs intoxication, theater, madness, tribal rite, instinct, liberation, and collective surrender. Their worship promises release from imposed order, yet the boundary between freedom and dissolution is deliberately thin.",
+      "religiousWarning": "Asethyr can free people from restraint without protecting them from what follows after restraint is gone.",
+      "token": "assets/tokens/deities/asethyr.png"
+    },
+    {
+      "id": "nephthysra",
+      "name": "Nephthysra",
+      "officialOrder": 22,
+      "titles": [
+        "The Irresistible",
+        "Shaper of Desire",
+        "Patron of Unclassifiable Beauty"
+      ],
+      "domains": [
+        "beauty",
+        "charisma",
+        "emotional influence",
+        "uniqueness"
+      ],
+      "domainsText": "beauty, charisma, emotional influence, uniqueness",
+      "creatorCategory": "Miscellaneous and Hard-to-Classify Races",
+      "createdPeoplesDoctrine": "Nephthysra is recorded as the single creator-god of the Miscellaneous and Hard-to-Classify Races category: Dara, Golynn, Jaspey, Aburata, Vedalken, Volsarii, and Deorbasun. Jaspey has three non-bloodline forms—Mosscap, Gloomtail, and Rotcap. Deorbasun uses an open soul-animal bloodline established by the first true soul bond. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so rare mixed origins, beauty, charisma, emotional influence, unusual bodies, and people who fit more than one family never depends on one mortal pattern alone.",
+      "canonicalClass": "Velvet Veilwalker",
+      "virtue": "Recognition and attraction can protect singular identity when influence remains consensual.",
+      "covenant": {
+        "domains": [
+          "beauty",
+          "charisma",
+          "emotional influence",
+          "uniqueness"
+        ],
+        "virtue": "Recognition and attraction can protect singular identity when influence remains consensual.",
+        "edicts": [
+          "Win influence without coercion and preserve the other's ability to refuse.",
+          "Protect rare, mixed, or difficult-to-classify identities from erasure.",
+          "Use beauty, performance, or diplomacy to transform hostility without surrendering autonomy."
+        ],
+        "anathemas": [
+          "Compel love, loyalty, admiration, or desire while calling it consent.",
+          "Erase uniqueness to make someone more acceptable or controllable.",
+          "Use another's vulnerability to turn fascination into ownership."
+        ],
+        "shadow": "Admiration, recognition, and devotion can become impossible to distinguish from supernatural compulsion.",
+        "pressures": {
+          "cooperation": 1,
+          "honor": 1,
+          "mercy": 1,
+          "transformation": 1,
+          "autonomy": 1,
+          "restraint": 1
+        },
+        "class": "Velvet Veilwalker",
+        "source_schema": "worldbuilder.universal.deity-covenants.v1",
+        "alignment_system_file": "universal_alignments.json"
+      },
+      "behaviorTags": [
+        "coordinated",
+        "honorable",
+        "mercy-minded",
+        "transformative",
+        "self-directed",
+        "restrained"
+      ],
+      "manifestation": "Nephthysra appears impossibly beautiful in ways that become deeply unsettling the longer one looks.",
+      "publicLore": "Nephthysra governs beauty, desire, charisma, emotional influence, rare bodies, mixed origins, and people who resist ordinary classification. Attraction in her doctrine is an active power capable of transforming admiration into surrender.",
+      "religiousWarning": "Nephthysra’s favor can make recognition, admiration, and devotion difficult to distinguish from compulsion.",
+      "token": "assets/tokens/deities/nephthysra.png"
+    }
+  ],
+  "validNames": [
+    "Nebyrr",
+    "Sigrananna",
+    "Marduthor",
+    "Ishtanora",
+    "Enkirael",
+    "Anubaldir",
+    "Valkhamesh",
+    "Freyseth",
+    "Nefarokir",
+    "Thalunesh",
+    "Horundar",
+    "Raeshkul",
+    "Setrimir",
+    "Sokhivar",
+    "Iskareth",
+    "Bastveig",
+    "Thoryn-Rahek",
+    "Hathruna",
+    "Eirzunet",
+    "Oskar'enlil",
+    "Asethyr",
+    "Nephthysra"
+  ],
+  "validIds": [
+    "nebyrr",
+    "sigrananna",
+    "marduthor",
+    "ishtanora",
+    "enkirael",
+    "anubaldir",
+    "valkhamesh",
+    "freyseth",
+    "nefarokir",
+    "thalunesh",
+    "horundar",
+    "raeshkul",
+    "setrimir",
+    "sokhivar",
+    "iskareth",
+    "bastveig",
+    "thoryn-rahek",
+    "hathruna",
+    "eirzunet",
+    "oskar-enlil",
+    "asethyr",
+    "nephthysra"
+  ],
+  "sourceAuthority": [
+    "universal_pantheon.json",
+    "pantheon_and_races.json",
+    "universal_alignments.json",
+    "universal_classes.json"
+  ]
+}

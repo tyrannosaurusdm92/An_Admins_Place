@@ -1,0 +1,464 @@
+{
+  "schema": "activeworkspace.random_encounters.asset_inventory.v4",
+  "generatedAtUtc": "2026-07-19T02:34:51.739107+00:00",
+  "excludedSelf": "assets/RandomEncounters/json/asset_inventory.json",
+  "fileCount": 91,
+  "totalBytes": 23408190,
+  "files": [
+    {
+      "path": "assets/RandomEncounters/css/random-encounters.css",
+      "bytes": 8784,
+      "sha256": "a6d5c3a1c84b79361b5f220db292cd22ae6a5e5780b397751d727cc735fa5704"
+    },
+    {
+      "path": "assets/RandomEncounters/js/alignment-system.js",
+      "bytes": 11002,
+      "sha256": "c3f4465ee118f5defabf223dee68185155ecb9bd02386d70bd64024368ac87b5"
+    },
+    {
+      "path": "assets/RandomEncounters/js/combat-engine.js",
+      "bytes": 15452,
+      "sha256": "7bb6b8153c5bb98179def40a400245639c15ef682f981735526341ca193b0d3a"
+    },
+    {
+      "path": "assets/RandomEncounters/js/data-loader.js",
+      "bytes": 11814,
+      "sha256": "de3608b062f1b16df9eaee30c87a349114eae9e9a99647e1f9bdc359aa03f682"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/backend.js",
+      "bytes": 4568,
+      "sha256": "63cdb80c2908c446810e95e8a2e9c56cbbddaf66338e8b03e5eca7c4e0600a24"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/config.js",
+      "bytes": 2307,
+      "sha256": "188186c8883643dded1346c2f4aead5a5d74f39a899983b784625ecaa2603768"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/fallback-brain.js",
+      "bytes": 11484,
+      "sha256": "4ad95c4480890d8c8c86154a2538bb52bec9df5c8fc5d5495e568b7841e12def"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/namespace.js",
+      "bytes": 533,
+      "sha256": "50e6a353ae7a0d0b27d91af752095df2281c3183dec403147c6b7c92f6f4155b"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/prompt.js",
+      "bytes": 5839,
+      "sha256": "f5145f5ef782daa100f4196a692debfcf8f19cb162de41d496c347909145d081"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/search.js",
+      "bytes": 3246,
+      "sha256": "4c5578149f8f9c74fb70021697effe8e815bcd7e384a3913526316009e630b9e"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/utils.js",
+      "bytes": 7641,
+      "sha256": "a03a6a26bed086df3aa90a60944d1a7880240737d48521e00e0125af287ac88c"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dice-engine.js",
+      "bytes": 2763,
+      "sha256": "3d636405d456f70b199dc73ead9783d5664a78a51f36ae19ffc0759975d42972"
+    },
+    {
+      "path": "assets/RandomEncounters/js/encounter-generator.js",
+      "bytes": 26598,
+      "sha256": "a1200f91453f486be6083cc0400cd2ce44e7a312d8f9b4ecc2ecb5ab3d7f9be3"
+    },
+    {
+      "path": "assets/RandomEncounters/js/fallback-data.js",
+      "bytes": 1892707,
+      "sha256": "56aac32b1792b76b14071125f20da88a45205d8d183bfdc93858a761b5a5682a"
+    },
+    {
+      "path": "assets/RandomEncounters/js/grid-resolver.js",
+      "bytes": 534,
+      "sha256": "c624c66ef179d4ff7176d5abe79cbafec27615a7dc8c404d136f2ca1433c46b7"
+    },
+    {
+      "path": "assets/RandomEncounters/js/hostile-ai.js",
+      "bytes": 9660,
+      "sha256": "2a22fb5ac73be44918a2c7f45cfa97c208201c52eb2d93ea85c85d186c72d3ff"
+    },
+    {
+      "path": "assets/RandomEncounters/js/npc-dialogue-engine.js",
+      "bytes": 15510,
+      "sha256": "1c83a81121c5a21035e94c16f3f4247d2e39b0ef9f8f2a01adae17d993ef1297"
+    },
+    {
+      "path": "assets/RandomEncounters/js/npc-dialogue-studio-loader.js",
+      "bytes": 2456,
+      "sha256": "861fc69e7f24ebc565a3af9a1aa5dfd72e7f531a806ee5e7a21f3d8ac83a53f7"
+    },
+    {
+      "path": "assets/RandomEncounters/js/party-levels.js",
+      "bytes": 7732,
+      "sha256": "eb2a340b73ec29ee298621226b1e6cbded75f78ef25283c0abe0c68d1c3a5121"
+    },
+    {
+      "path": "assets/RandomEncounters/js/activeworkspace-adapter.js",
+      "bytes": 5321,
+      "sha256": "362106f614b21f72c17038a826580ef3f803cbd6b51bd83cd16e50be1f48ca97"
+    },
+    {
+      "path": "assets/RandomEncounters/js/random-encounters-bootstrap.js",
+      "bytes": 1788,
+      "sha256": "e5f1afbbde8644ec556ef78f7c0fb0e0987a348985140b4e6425000560b097ee"
+    },
+    {
+      "path": "assets/RandomEncounters/js/random-encounters-ui.js",
+      "bytes": 26075,
+      "sha256": "4b6fad36b0bb138041f6b20e21f9efb2fa3d5c3921edaf81a34ce2e4f253201e"
+    },
+    {
+      "path": "assets/RandomEncounters/js/token-resolver.js",
+      "bytes": 4872,
+      "sha256": "133321d4ec37fd336e632b42704ee5c1c54639f93693e080ff4027b1a5094c1f"
+    },
+    {
+      "path": "assets/RandomEncounters/json/alignment_profiles.json",
+      "bytes": 40564,
+      "sha256": "b95412ff63b10a26e2ca07aeb8106d5e16f53f843a3272cc032060789bae738b"
+    },
+    {
+      "path": "assets/RandomEncounters/json/universal_alignments.json",
+      "bytes": 40564,
+      "sha256": "b95412ff63b10a26e2ca07aeb8106d5e16f53f843a3272cc032060789bae738b"
+    },
+    {
+      "path": "assets/RandomEncounters/json/universal_classes.json",
+      "bytes": 3964668,
+      "sha256": "58c31fff25ed563c1303e50b494bbdf2054f10ae907440666a3783a2fdd0a3ca"
+    },
+    {
+      "path": "assets/RandomEncounters/json/universal_ichor_compound_chemistry.json",
+      "bytes": 2815,
+      "sha256": "f5c656b9ac65fdefcc49e89e4ff8426e2e2157cc7b1267290125d90b96504a09"
+    },
+    {
+      "path": "assets/RandomEncounters/json/universal_pantheon.json",
+      "bytes": 503244,
+      "sha256": "76cd54cef819c5fe1c59f4f3103b197574ecef8e0c8cb0835f35e2ba0d4268bf"
+    },
+    {
+      "path": "assets/RandomEncounters/json/classes.json",
+      "bytes": 3964668,
+      "sha256": "58c31fff25ed563c1303e50b494bbdf2054f10ae907440666a3783a2fdd0a3ca"
+    },
+    {
+      "path": "assets/RandomEncounters/json/dialogue_studio_load_order.json",
+      "bytes": 486,
+      "sha256": "5801adaf37b82195a198e287204f88ef55c0dbdaf2ee2ef7842024e4088820a3"
+    },
+    {
+      "path": "assets/RandomEncounters/json/dnd_5e_spells_by_school_and_level.json",
+      "bytes": 8101649,
+      "sha256": "e7616f8890d9ebc23d839fcf05930e060b3f4c24eeefc8ce2a167543f9f8bd08"
+    },
+    {
+      "path": "assets/RandomEncounters/json/encounter_config.json",
+      "bytes": 6416,
+      "sha256": "b62741ba15b332cbaa5a1bded99349332874bb73b867146718a92eb2b5a52d21"
+    },
+    {
+      "path": "assets/RandomEncounters/json/encounter_tables.json",
+      "bytes": 3650,
+      "sha256": "d8f56f62d5f881d580bff70c45cc83e8a2084fd49eae7c52dc0cafe8281cd58f"
+    },
+    {
+      "path": "assets/RandomEncounters/json/how_to_play_dnd_5e.json",
+      "bytes": 539929,
+      "sha256": "7dedee68e0a92d4b888db50f3280c5fdede8b3ecc825a720c6fdccab748c69cd"
+    },
+    {
+      "path": "assets/RandomEncounters/json/ichor_weapons.json",
+      "bytes": 25042,
+      "sha256": "5029be78369dfcaf92665e5858fa274778092999d307a08503507ec1871f63bd"
+    },
+    {
+      "path": "assets/RandomEncounters/json/module_manifest.json",
+      "bytes": 2561,
+      "sha256": "a3f20420ed2c3d71322b1e3ecdd07227f121fae71e5d8274682e85a00ce554ed"
+    },
+    {
+      "path": "assets/RandomEncounters/json/monsters.json",
+      "bytes": 1714366,
+      "sha256": "a3b2e73567084c5a5c9e8ea65674b209dbc103682d77254beac47a227b1ca4c6"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_config.json",
+      "bytes": 1602,
+      "sha256": "53d90671b3acc53006aef951e7454bf0b8652b1874b759fedb300af152a01c07"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_example.json",
+      "bytes": 7834,
+      "sha256": "da63b4b45710e2c9cd13d3fcc5ca2a09f254c491b7835493f86e6b62da417b11"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_schemas.json",
+      "bytes": 8580,
+      "sha256": "97dd11697ea2ff4a943c24a7c30dd828bacaaeb535af6e9bde7adc5937a0ab1e"
+    },
+    {
+      "path": "assets/RandomEncounters/json/pantheon.json",
+      "bytes": 73990,
+      "sha256": "b25822b07d314a3876b1e85b0de4919822f1c0e955b386aa4c2048bfefba9fc4"
+    },
+    {
+      "path": "assets/RandomEncounters/json/pantheon_and_races.json",
+      "bytes": 514268,
+      "sha256": "0a4b0d7f06b59b02011af8d1216720410473493920a08ab0169fb02158aae197"
+    },
+    {
+      "path": "assets/RandomEncounters/json/pantheon_full_canon.json",
+      "bytes": 503244,
+      "sha256": "76cd54cef819c5fe1c59f4f3103b197574ecef8e0c8cb0835f35e2ba0d4268bf"
+    },
+    {
+      "path": "assets/RandomEncounters/json/spells_index.json",
+      "bytes": 119039,
+      "sha256": "0f69568aaedc0baed7e6b39957770b1d57840c8eb468f3c1de10c937bea46578"
+    },
+    {
+      "path": "assets/grids/Grid (17x22).png",
+      "bytes": 146914,
+      "sha256": "5dd17524ba7b44a7ff667bafbb095686eb4c8eaa6693d5d629ab3116c3b011ae"
+    },
+    {
+      "path": "assets/grids/Grid (22x17).png",
+      "bytes": 44658,
+      "sha256": "a6ffd06cafcdfc24148a37b708c440eaca1aa26d5f3e566a2f8629b6c3b42e14"
+    },
+    {
+      "path": "assets/grids/Grid (8.5x11).png",
+      "bytes": 56517,
+      "sha256": "38d5098dd4033bb16c9eb23bdb20126a381a9821bbfa87c13f370f1f8c690ca7"
+    },
+    {
+      "path": "assets/grids/Seamless Grid Pattern (1x1).png",
+      "bytes": 13744,
+      "sha256": "5d49bfc34b268df76e33a0c9483dfb305b8f00195c8c26b0be350906e1f28b13"
+    },
+    {
+      "path": "assets/grids/Seamless Grid Pattern (2x2).png",
+      "bytes": 32548,
+      "sha256": "fe7d53714daa410d686dbb13f790a8b060d9d468084071cdc724bbecaff16293"
+    },
+    {
+      "path": "assets/grids/Seamless Grid Pattern (3x3).png",
+      "bytes": 77115,
+      "sha256": "3712dcec4254204d084689f2859310034cf0490f96e79223edfc9bf786a8ca54"
+    },
+    {
+      "path": "assets/grids/grid_manifest.json",
+      "bytes": 1024,
+      "sha256": "f03776db605dffc4d994fbdb2b7ae432bb0ac97ca8ee9b2cffbf63b484a15c38"
+    },
+    {
+      "path": "assets/tokens/deities/anubaldir.png",
+      "bytes": 13918,
+      "sha256": "332c2a116259d89d697371c95b67d6a98284e846bb3245365291d528efc6bf58"
+    },
+    {
+      "path": "assets/tokens/deities/asethyr.png",
+      "bytes": 13967,
+      "sha256": "c670b466747c475e316e96353d2610499c167c0d344d988bfb0805738cdad3a1"
+    },
+    {
+      "path": "assets/tokens/deities/bastveig.png",
+      "bytes": 14306,
+      "sha256": "487bbb7763ef942972ec79be9e0595cbf8f7355714445a246e62dceb7521f668"
+    },
+    {
+      "path": "assets/tokens/deities/eirzunet.png",
+      "bytes": 12052,
+      "sha256": "83e2e5580a31454e4b4735fb19d15eecabca5950ceb5142144b6cc6d1d0e7c5c"
+    },
+    {
+      "path": "assets/tokens/deities/enkirael.png",
+      "bytes": 12222,
+      "sha256": "3a24574a0d27b8c09fbd66e92c33ae02177366fd7e576b294d627bcf34d56d6c"
+    },
+    {
+      "path": "assets/tokens/deities/freyseth.png",
+      "bytes": 12545,
+      "sha256": "1014091d892035d8a2a0d7f7e9fe88414f9fdcf735ae14a724a98385061b3aa7"
+    },
+    {
+      "path": "assets/tokens/deities/hathruna.png",
+      "bytes": 11819,
+      "sha256": "14526efd88b324d239c49e7fd555f31f58a1071cbf4904b9dc5d1ebd461960c0"
+    },
+    {
+      "path": "assets/tokens/deities/horundar.png",
+      "bytes": 12479,
+      "sha256": "a184804e7810d6fc885dd4c223d29ec5afbefe4f33f5706430838f538ec96ae1"
+    },
+    {
+      "path": "assets/tokens/deities/ishtanora.png",
+      "bytes": 12393,
+      "sha256": "15344873d1262b1ae2f5728aa9962455331029b3754676266a1b183a9e09233b"
+    },
+    {
+      "path": "assets/tokens/deities/iskareth.png",
+      "bytes": 12651,
+      "sha256": "e08835b62404b9c235251ac73bf78066a70aba4438ab647e5cbcb0ce045010fb"
+    },
+    {
+      "path": "assets/tokens/deities/marduthor.png",
+      "bytes": 13729,
+      "sha256": "013df08568872d5f0a9cbc79be30aa4dc5433d9cc2cd0a2fa0e0dcad2f23ad10"
+    },
+    {
+      "path": "assets/tokens/deities/nebyrr.png",
+      "bytes": 12982,
+      "sha256": "b18367387970a9595656a6915d87a3c0e37ba62c5de0ff1c49448da2d35227bf"
+    },
+    {
+      "path": "assets/tokens/deities/nefarokir.png",
+      "bytes": 13514,
+      "sha256": "a05b74d6d97edf2bbf9e2f11c15c9b6d3e6f98d59eb247c2254b70705129513b"
+    },
+    {
+      "path": "assets/tokens/deities/nephthysra.png",
+      "bytes": 14182,
+      "sha256": "407caa715b817583f56dcec4652da7fc1e9eba4ee15bc14c1054266128252523"
+    },
+    {
+      "path": "assets/tokens/deities/oskar-enlil.png",
+      "bytes": 15036,
+      "sha256": "fe1dd9ef0081838ecab22fcb03931bf96d7b463918ca87cc4f77a033912ccaf6"
+    },
+    {
+      "path": "assets/tokens/deities/raeshkul.png",
+      "bytes": 13945,
+      "sha256": "f3df49c17705350ff57636d8d0faa35242696dde43af93ad5de4f481b8f0bc20"
+    },
+    {
+      "path": "assets/tokens/deities/setrimir.png",
+      "bytes": 13842,
+      "sha256": "14813bace96bcdab430a6384945a51e8f2c7e9ef9706dedd77ca63e97bd69dd7"
+    },
+    {
+      "path": "assets/tokens/deities/sigrananna.png",
+      "bytes": 14222,
+      "sha256": "5c32cbdb8abfe45b8781184f2b1a9b5822fe04308cc467e48dd9b2b4f7ad02a7"
+    },
+    {
+      "path": "assets/tokens/deities/sokhivar.png",
+      "bytes": 14647,
+      "sha256": "9eab940ac2afc31287bd3103615a26cbe233d2796895253a24505ab7baf2e168"
+    },
+    {
+      "path": "assets/tokens/deities/thalunesh.png",
+      "bytes": 12407,
+      "sha256": "7879bb439cbd3e930bd3f6a76d36273e4d85ebd85bca996b59336110d802223a"
+    },
+    {
+      "path": "assets/tokens/deities/thoryn-rahek.png",
+      "bytes": 14507,
+      "sha256": "ebd3cb9cf1a51cdd98fa30db248cf74cc23b8047cc1ac12f62747f06ca730344"
+    },
+    {
+      "path": "assets/tokens/deities/valkhamesh.png",
+      "bytes": 14488,
+      "sha256": "e77e85cf6c82e54c60f76eca39a44ed0637e01daca6830e2ac951ef34d12f8b8"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/aberration.png",
+      "bytes": 12565,
+      "sha256": "6eb966e036f5bc1cc796198c1f1bca81c28fdcf5cc49a388c59cc0384cfba522"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/beast.png",
+      "bytes": 11541,
+      "sha256": "9377c598de2d8061bee838eb168124fd05b65909b72e2c7b61cf63d72675c617"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/celestial.png",
+      "bytes": 12124,
+      "sha256": "b5413951d40b55c1c3724c24c70aba03c1cea511b29333eab2ca73694a87ccf5"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/construct.png",
+      "bytes": 12458,
+      "sha256": "7f456fd754e2d8db5247fbbdb6fa24b1e561d498ac3c95ac771b2dff374f994a"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/default-hostile.png",
+      "bytes": 11005,
+      "sha256": "1e1859dc5742edae729700711e7161640869f7ca09b44ac78421398ff85cbb97"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/dragon.png",
+      "bytes": 11979,
+      "sha256": "87e088ccb728de1ee5a40f3870b24fedab585294203ff78848757459912d0fb2"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/elemental.png",
+      "bytes": 10475,
+      "sha256": "2823ee34a94f36ac1e010fc5467b5af6d1cb20338fd7feb61e5075b14b8568fb"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/fey.png",
+      "bytes": 9720,
+      "sha256": "763fb614d709a952886ecd2b6ea5748f8db268c231a8edd86b40126c349ac5e4"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/fiend.png",
+      "bytes": 9859,
+      "sha256": "c4f66b4c6da4fa7b7ff267f171dbffa34e0e55f974316aafce426c27f04192c9"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/giant.png",
+      "bytes": 11532,
+      "sha256": "8e470ca1d507d39ae44c60cef745ae4c34a4d7e1c1796d5dd8f74da6bc5686da"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/humanoid.png",
+      "bytes": 10947,
+      "sha256": "caeea0e91912e93158d99bccabcb6403c21ea010f358695655fb2e83254a3f41"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/monstrosity.png",
+      "bytes": 11989,
+      "sha256": "b210d0e49caa8d0744b1060d8fd1b15c2e47570bea42440307aa8c164df9a393"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/ooze.png",
+      "bytes": 12337,
+      "sha256": "32b3db87c87e31cb68816d6597c1417855d6b82a3a6bf87f44ff8165329c3939"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/plant.png",
+      "bytes": 10406,
+      "sha256": "cdfad38ae9feac88f702a3c6f370f9c0a7635ef42aa159d850e2a25b02eb0b21"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/swarm-of-tiny-beasts.png",
+      "bytes": 17132,
+      "sha256": "60a144f235abbc159408064a7ea28adf8f45f14c5c056c56b7d73bfe0a5cfc5d"
+    },
+    {
+      "path": "assets/tokens/placeholders/hostiles/undead.png",
+      "bytes": 11199,
+      "sha256": "2feb14bafecf33a869cf20cb5416a79d9bcf5ccc564c5b8ae2c675743259857d"
+    },
+    {
+      "path": "assets/tokens/token_catalog.json",
+      "bytes": 327412,
+      "sha256": "a87d2c41c0fc6cd54a7bc035cf884a4097b4aa9c4c2dde1c84b797964fc9aca7"
+    },
+    {
+      "path": "assets/tokens/tokens_manifest.json",
+      "bytes": 7272,
+      "sha256": "c1005ba4d7d46f8e60d2c2d4fc1f69204de223cf798af0d7b49d47eae7e76aa6"
+    }
+  ]
+}

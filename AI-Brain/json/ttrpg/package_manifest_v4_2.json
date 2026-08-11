@@ -1,0 +1,2836 @@
+{
+  "schema": "activeworkspace.package-manifest.v4.2",
+  "version": "4.2.0",
+  "root": "ActiveWorkspace",
+  "generatedOn": "2026-07-19",
+  "manifestExcludesItself": true,
+  "fileCount": 565,
+  "totalBytes": 88072274,
+  "files": [
+    {
+      "path": "ActiveWorkspace.html",
+      "bytes": 31720,
+      "sha256": "b3420b0da5686b42eb2603ba3881117a76f85e7c2909f3073c8ec6e280667d39"
+    },
+    {
+      "path": "assets/RandomEncounters/css/random-encounters.css",
+      "bytes": 9850,
+      "sha256": "98f09b8587fd8fe9e70c4c032450b8c6c6c449729136dc208a2d9609698cecdb"
+    },
+    {
+      "path": "assets/RandomEncounters/js/universal-time.js",
+      "bytes": 14822,
+      "sha256": "9a8dda87da578c4ded46826897c20a0bd301b2ca52f4d219a4d375d1580d101f"
+    },
+    {
+      "path": "assets/RandomEncounters/js/data-loader.js",
+      "bytes": 9199,
+      "sha256": "f4dd4859b5e2e0ec4d61af5c53817f266dd9a0dc0586068ce34e19824d1f3c61"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/backend.js",
+      "bytes": 4568,
+      "sha256": "63cdb80c2908c446810e95e8a2e9c56cbbddaf66338e8b03e5eca7c4e0600a24"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/config.js",
+      "bytes": 2307,
+      "sha256": "188186c8883643dded1346c2f4aead5a5d74f39a899983b784625ecaa2603768"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/fallback-brain.js",
+      "bytes": 11484,
+      "sha256": "4ad95c4480890d8c8c86154a2538bb52bec9df5c8fc5d5495e568b7841e12def"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/namespace.js",
+      "bytes": 533,
+      "sha256": "50e6a353ae7a0d0b27d91af752095df2281c3183dec403147c6b7c92f6f4155b"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/prompt.js",
+      "bytes": 5839,
+      "sha256": "f5145f5ef782daa100f4196a692debfcf8f19cb162de41d496c347909145d081"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/search.js",
+      "bytes": 3246,
+      "sha256": "4c5578149f8f9c74fb70021697effe8e815bcd7e384a3913526316009e630b9e"
+    },
+    {
+      "path": "assets/RandomEncounters/js/dialogue-studio/utils.js",
+      "bytes": 7641,
+      "sha256": "a03a6a26bed086df3aa90a60944d1a7880240737d48521e00e0125af287ac88c"
+    },
+    {
+      "path": "assets/RandomEncounters/js/encounter-generator.js",
+      "bytes": 42939,
+      "sha256": "6ed0e783cca06e3225c20abaac73986202a44e50aac169e69e403ce90b2f2c01"
+    },
+    {
+      "path": "assets/RandomEncounters/js/npc-dialogue-engine.js",
+      "bytes": 16183,
+      "sha256": "92bf6ed4b0b56c4204595a5afdf66aeab3a7d6f32dc190b48a919f66eed3312e"
+    },
+    {
+      "path": "assets/RandomEncounters/js/npc-dialogue-studio-loader.js",
+      "bytes": 2456,
+      "sha256": "861fc69e7f24ebc565a3af9a1aa5dfd72e7f531a806ee5e7a21f3d8ac83a53f7"
+    },
+    {
+      "path": "assets/RandomEncounters/js/party-levels.js",
+      "bytes": 7732,
+      "sha256": "eb2a340b73ec29ee298621226b1e6cbded75f78ef25283c0abe0c68d1c3a5121"
+    },
+    {
+      "path": "assets/RandomEncounters/js/activeworkspace-adapter.js",
+      "bytes": 7447,
+      "sha256": "ea19cf497d678a806475fd6bbd8400aa0a7c5f322b60b373a5c9599e1c980adf"
+    },
+    {
+      "path": "assets/RandomEncounters/js/random-encounters-bootstrap.js",
+      "bytes": 3248,
+      "sha256": "07afd45f236df05b8da20589f6dec2edc786b78f8c6b9b176d03333f29c2c0a6"
+    },
+    {
+      "path": "assets/RandomEncounters/js/random-encounters-ui.js",
+      "bytes": 41148,
+      "sha256": "bf33b01a390e25b31f48a92f0a20134b548868cfef53a7b7b8317dca93dfd3d5"
+    },
+    {
+      "path": "assets/RandomEncounters/js/token-resolver.js",
+      "bytes": 4872,
+      "sha256": "133321d4ec37fd336e632b42704ee5c1c54639f93693e080ff4027b1a5094c1f"
+    },
+    {
+      "path": "assets/RandomEncounters/json/asset_inventory.json",
+      "bytes": 16673,
+      "sha256": "bfc287fa96bcc462e8c7e832267cfbb772e3e6a1b582a3dc4d71e3c6a20e61e6"
+    },
+    {
+      "path": "assets/RandomEncounters/json/universal_ichor_compound_chemistry.json",
+      "bytes": 2815,
+      "sha256": "f5c656b9ac65fdefcc49e89e4ff8426e2e2157cc7b1267290125d90b96504a09"
+    },
+    {
+      "path": "assets/RandomEncounters/json/dialogue_studio_load_order.json",
+      "bytes": 486,
+      "sha256": "5801adaf37b82195a198e287204f88ef55c0dbdaf2ee2ef7842024e4088820a3"
+    },
+    {
+      "path": "assets/RandomEncounters/json/encounter_config.json",
+      "bytes": 7894,
+      "sha256": "6657074f098599b4c0bb3df10565db59b41c1f30b596a2243d8cf15cba166a39"
+    },
+    {
+      "path": "assets/RandomEncounters/json/encounter_tables.json",
+      "bytes": 6623,
+      "sha256": "f1bc1c3f3413b563d0544011d2f2a278ea26c70fcd939f2c43ea0a48db603aed"
+    },
+    {
+      "path": "assets/RandomEncounters/json/ichor_weapons.json",
+      "bytes": 25042,
+      "sha256": "5029be78369dfcaf92665e5858fa274778092999d307a08503507ec1871f63bd"
+    },
+    {
+      "path": "assets/RandomEncounters/json/module_manifest.json",
+      "bytes": 3231,
+      "sha256": "c81d2d56a76566d9581cbe18540349f6f176cf2f60c0768188d310a24c10a1c5"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_config.json",
+      "bytes": 1602,
+      "sha256": "53d90671b3acc53006aef951e7454bf0b8652b1874b759fedb300af152a01c07"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_example.json",
+      "bytes": 7834,
+      "sha256": "da63b4b45710e2c9cd13d3fcc5ca2a09f254c491b7835493f86e6b62da417b11"
+    },
+    {
+      "path": "assets/RandomEncounters/json/npc_dialogue_schemas.json",
+      "bytes": 8580,
+      "sha256": "97dd11697ea2ff4a943c24a7c30dd828bacaaeb535af6e9bde7adc5937a0ab1e"
+    },
+    {
+      "path": "assets/dicebot/tokens/Arcorven_Brasslock.png",
+      "bytes": 2868515,
+      "sha256": "d740689f863c691c6628476b5d6432ff345b87fa17d0bf9447a9c9a66c1b835f"
+    },
+    {
+      "path": "assets/dicebot/tokens/Canielina_Dennose.png",
+      "bytes": 2748889,
+      "sha256": "f85cdc83268582b2da4134c02d9af142f5d7631a06d8601dd5d5e9ca5f6c14d0"
+    },
+    {
+      "path": "assets/dicebot/tokens/Gheaririel_Luneglen.png",
+      "bytes": 2807496,
+      "sha256": "ad3d229984c3befa3dcabfc9bd49cde819d15c5c2b34fe0a62f3e65b6a5f304d"
+    },
+    {
+      "path": "assets/dicebot/tokens/Joeari_Ravenwood.png",
+      "bytes": 2441294,
+      "sha256": "35795a99b8777d7e856e8da2aea203fbbb67e7e246223f1143885a822fafaf3a"
+    },
+    {
+      "path": "assets/dicebot/tokens/Kethazzun_Clawcoil.png",
+      "bytes": 3092199,
+      "sha256": "e978a19ca90a3b908b562f320bc9391ba55995d59c09c16e18df88a0dcdb2a91"
+    },
+    {
+      "path": "assets/dicebot/tokens/Nefumlith_Duskendirge.png",
+      "bytes": 3019788,
+      "sha256": "71ce3d1a03b05bd9977c1bda03b6d8e80e49e492eee2b2786aff45d317af5a8b"
+    },
+    {
+      "path": "assets/dicebot/tokens/Nimu_dri_Ironvault.png",
+      "bytes": 2527528,
+      "sha256": "0ff636aa03580f1f6b2e26661e50e0d75e5a1a904dcb351678283a8151707507"
+    },
+    {
+      "path": "assets/dicebot/tokens/Ro_sabin_Merryroot.png",
+      "bytes": 2381985,
+      "sha256": "f44bc4c78834259476d7b4d8053ebd52fcd1cf412f309866cd76799c74432df6"
+    },
+    {
+      "path": "assets/dicebot/tokens/Sto_neudor_Stormbreath.png",
+      "bytes": 2998859,
+      "sha256": "16d7727d63663a1e530ef41e6fcb63c4edc4028c5eeb5e3a11827c28f72e63c5"
+    },
+    {
+      "path": "assets/dicebot/tokens/Thalenael_Silverthorn.png",
+      "bytes": 2267392,
+      "sha256": "498e623cf0784c5f5262700732f38443242cd9d8764ae59f6b342e17623f66a3"
+    },
+    {
+      "path": "assets/dicebot/tokens/Tyrylina_Mirthwink.png",
+      "bytes": 2818302,
+      "sha256": "957ad1d60764cb8ab7326f6f51a25fabc022349c93f50e1f7139edb2ef1b5053"
+    },
+    {
+      "path": "assets/dicebot/tokens/Urg_U_rgugar_Mudgrip.png",
+      "bytes": 2243173,
+      "sha256": "ee0c611a01d2764e2b2d49deee1c214ec99cff9eb4fad4eae833e74b89cf6460"
+    },
+    {
+      "path": "assets/dicebot/tokens/Valk_Minoorvar_Thunderheft.png",
+      "bytes": 2477370,
+      "sha256": "ed94bbb0d4114d451b10b528c5aa23456f72d9bf03fcd18f4266b8325a022fda"
+    },
+    {
+      "path": "assets/dicebot/tokens/Veyielven_Asharchf.png",
+      "bytes": 3304963,
+      "sha256": "10199841f67e8dc78cc528117d45dcdf8ea602ea5e174e32c0fe482745f02dab"
+    },
+    {
+      "path": "assets/grids/README.md",
+      "bytes": 446,
+      "sha256": "9529056e340d81c13ddfd08b9d13597c17bd7350850cd3c1014c03472d401f28"
+    },
+    {
+      "path": "assets/grids/canonical/Grid (17x22).png",
+      "bytes": 146914,
+      "sha256": "5dd17524ba7b44a7ff667bafbb095686eb4c8eaa6693d5d629ab3116c3b011ae"
+    },
+    {
+      "path": "assets/grids/canonical/Grid (22x17).png",
+      "bytes": 44658,
+      "sha256": "a6ffd06cafcdfc24148a37b708c440eaca1aa26d5f3e566a2f8629b6c3b42e14"
+    },
+    {
+      "path": "assets/grids/canonical/Grid (8.5x11).png",
+      "bytes": 56517,
+      "sha256": "38d5098dd4033bb16c9eb23bdb20126a381a9821bbfa87c13f370f1f8c690ca7"
+    },
+    {
+      "path": "assets/grids/canonical/Seamless Grid Pattern (1x1).png",
+      "bytes": 13744,
+      "sha256": "5d49bfc34b268df76e33a0c9483dfb305b8f00195c8c26b0be350906e1f28b13"
+    },
+    {
+      "path": "assets/grids/canonical/Seamless Grid Pattern (2x2).png",
+      "bytes": 32548,
+      "sha256": "fe7d53714daa410d686dbb13f790a8b060d9d468084071cdc724bbecaff16293"
+    },
+    {
+      "path": "assets/grids/canonical/Seamless Grid Pattern (3x3).png",
+      "bytes": 77115,
+      "sha256": "3712dcec4254204d084689f2859310034cf0490f96e79223edfc9bf786a8ca54"
+    },
+    {
+      "path": "assets/reference/universal-races-cover-668x1047.png",
+      "bytes": 1084039,
+      "sha256": "5fb9bec2c01682ee251f1af3d127ace90356f2652c5458244b6a73dd6643ebd5"
+    },
+    {
+      "path": "assets/reference/universal-races-cover.png",
+      "bytes": 2571664,
+      "sha256": "e9b76e608b989f8d0344601510904379666f1fa501836b10aabd67a150faab04"
+    },
+    {
+      "path": "assets/tokens/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/tokens/README.txt",
+      "bytes": 139,
+      "sha256": "521a6e8b7e88c4ea5e5368a0e66aea2d4a8cc7467fdfdd13900e749acaea6587"
+    },
+    {
+      "path": "css/dice-themes/01-plain-ivory.css",
+      "bytes": 23209,
+      "sha256": "034fb4a09a2dbd1c4fd0b768d40fa8a1a041b071a80e269962aab41d4a62af1b"
+    },
+    {
+      "path": "css/dice-themes/02-plain-onyx.css",
+      "bytes": 23118,
+      "sha256": "54d453184d85c7009a03cc9e0bd758d2cd1cce6948b038f1ee89dfe93af70b31"
+    },
+    {
+      "path": "css/dice-themes/03-plain-crimson-gold.css",
+      "bytes": 23817,
+      "sha256": "be022da14db1df5cde8dfa725b0eb6cb6195e705e34b5224a360e859372df34b"
+    },
+    {
+      "path": "css/dice-themes/04-royal-red-gold.css",
+      "bytes": 23707,
+      "sha256": "27d0eeb3e7e5c3da8968efa6bca1eb1dc111c38b307a659e34738a78611f6233"
+    },
+    {
+      "path": "css/dice-themes/05-sapphire-silver.css",
+      "bytes": 23787,
+      "sha256": "5628f8baf3c08718f38941622e14d74b52f9982bdb9e350bda54112e0b0a8974"
+    },
+    {
+      "path": "css/dice-themes/06-emerald-copper.css",
+      "bytes": 23698,
+      "sha256": "e9884756445ce5bd70672a8d788efe37bea38fd9a17d755e70f3c7ac661c676a"
+    },
+    {
+      "path": "css/dice-themes/07-amethyst-brass.css",
+      "bytes": 23711,
+      "sha256": "d0b1624d1512dcc2aa9b0e102366dcbcdb91fb27cd897822f6d38a74b9ed0a1b"
+    },
+    {
+      "path": "css/dice-themes/08-obsidian-ruby.css",
+      "bytes": 23607,
+      "sha256": "33e0c5f5e5b2c606281b3ab1edeec95a71d766421140efe3dc6d1cc007ed389c"
+    },
+    {
+      "path": "css/dice-themes/09-moonstone-blue-silver.css",
+      "bytes": 24303,
+      "sha256": "3124379d903b8ac81c2e6ca511afc98f6cf925ca9c03748399990f4961b4ca64"
+    },
+    {
+      "path": "css/dice-themes/10-jade-gold.css",
+      "bytes": 23199,
+      "sha256": "7b25c7f6fc2126ccb028d7b929ca66e243ef47e19fda5acd3b71ea9acf63d4bd"
+    },
+    {
+      "path": "css/dice-themes/11-black-gold-metal.css",
+      "bytes": 23846,
+      "sha256": "ff8fe635305df0267682fc5612d0d3ff2807ed4a9adc00ff5696cee995c4d199"
+    },
+    {
+      "path": "css/dice-themes/12-silver-ancient.css",
+      "bytes": 23741,
+      "sha256": "9c8d225da79a9a6a04308b6194f29a9680529ff1fb5797fe1b2a22280c3a9d7e"
+    },
+    {
+      "path": "css/dice-themes/13-purple-metal-silver.css",
+      "bytes": 24115,
+      "sha256": "fa8f93a9f62283be32422748b46f6abaf4a7fcf2790c37b826ca9b816e90598a"
+    },
+    {
+      "path": "css/dice-themes/14-bronze-dragon-scale.css",
+      "bytes": 24119,
+      "sha256": "e0f29a233a84a9b7649db1d780718a9a7dee79160d6d4f4976c0feb79c2fec04"
+    },
+    {
+      "path": "css/dice-themes/15-red-dragon-scale-gold.css",
+      "bytes": 24301,
+      "sha256": "d422c39fbf34e640727d594a3917b0127afa76c244fcc2a4f8a0935c799eac5e"
+    },
+    {
+      "path": "css/dice-themes/16-blue-dragon-scale-silver.css",
+      "bytes": 24566,
+      "sha256": "35f008ddcbd8e28f3c03ff1d3dd0e521e77e88cc13e0fd4210c4124199387259"
+    },
+    {
+      "path": "css/dice-themes/17-storm-galaxy-gold.css",
+      "bytes": 23966,
+      "sha256": "4f0e188d05d48769ed97c5902eeacdb808ad4a6dc4c9debf822a444c0427ac82"
+    },
+    {
+      "path": "css/dice-themes/18-nebula-night-silver.css",
+      "bytes": 24144,
+      "sha256": "56ee9f6ec1085dbf7dd5121cc3e55d6055a28263413086639437aa3233abbe4e"
+    },
+    {
+      "path": "css/dice-themes/19-aurora-glass.css",
+      "bytes": 23392,
+      "sha256": "77fea817b4134cceaea84dc589bb0741e345cb87949f346776dc4590de0808fe"
+    },
+    {
+      "path": "css/dice-themes/20-ocean-swirl-gold.css",
+      "bytes": 23831,
+      "sha256": "6b20785c6c925506f522e2e9a8925c9a5d67ccfd8769ce662fb97a0927c490e9"
+    },
+    {
+      "path": "css/dice-themes/21-blue-white-acrylic-gold.css",
+      "bytes": 24439,
+      "sha256": "af21ffedac7b824a40978f5dfc24e463b9911326431fa265fdb45d3afa2daefa"
+    },
+    {
+      "path": "css/dice-themes/22-pink-flower-resin.css",
+      "bytes": 24034,
+      "sha256": "4bd709b1b1e54b4c5ff6eeb21de5237452584463f04d603ecfa0dbf9a602b28a"
+    },
+    {
+      "path": "css/dice-themes/23-lemon-honey-resin.css",
+      "bytes": 23952,
+      "sha256": "dc1a71be81f71b6d624a89640b84b286c43bead6a9205cc5295b99e573b3d8a5"
+    },
+    {
+      "path": "css/dice-themes/24-arctic-ice-cyan.css",
+      "bytes": 23690,
+      "sha256": "0aad3309ff193c52ad8fa2376e579ab14a05eaf579023b3dc2f681e9b4f1b4a4"
+    },
+    {
+      "path": "css/dice-themes/25-dark-ice-silver.css",
+      "bytes": 23678,
+      "sha256": "6e1a207810ddb642e9097fcb93feee199a30a18ae8ea2e036ae9a43cf7dcc854"
+    },
+    {
+      "path": "css/dice-themes/26-forest-moss-copper.css",
+      "bytes": 23980,
+      "sha256": "c2b3be54064054aa52b61a4a79ecf3279a5b6baa7ffab4e7e8aecb635d5ed14c"
+    },
+    {
+      "path": "css/dice-themes/27-red-green-gold-swirl.css",
+      "bytes": 24173,
+      "sha256": "d784bbae97d62e9008a5a3ab26d07cc8d2c3a132dbc0751157cd3f69d6ff2cbc"
+    },
+    {
+      "path": "css/dice-themes/28-teal-wizard-silver.css",
+      "bytes": 23976,
+      "sha256": "164229151658d413ce8b02a607fd764eb1ac89d072e0d0a2a2e0771bf4123f13"
+    },
+    {
+      "path": "css/dice-themes/29-warlock-violet-black.css",
+      "bytes": 24154,
+      "sha256": "b6ba2ca0fccf82a51fa7aa50b991f72d34ba2d359acad89e3ec9818553bc19ff"
+    },
+    {
+      "path": "css/dice-themes/30-paladin-white-gold.css",
+      "bytes": 23971,
+      "sha256": "bcaaec8da79adcf4d299db991490a4920b5df78db8be17b18433740b6f363b64"
+    },
+    {
+      "path": "css/dice-themes/31-dwarf-green-glass.css",
+      "bytes": 23862,
+      "sha256": "c451570dcebdf3abc18e4d8d0bfcf5e5810d1d4155be7f7eca5c7ecb95c15e0e"
+    },
+    {
+      "path": "css/dice-themes/32-african-jade.css",
+      "bytes": 23459,
+      "sha256": "bf1a1e8529890b4e9a0973dddad3bfd0c58944bb8c497495fba04e90a8100fb1"
+    },
+    {
+      "path": "css/dice-themes/33-saphrium-glass.css",
+      "bytes": 23602,
+      "sha256": "3cec364110e2b22583f82c98d9c056bc17641cd65983f2de29d5b50d73d51308"
+    },
+    {
+      "path": "css/dice-themes/34-tranquility-polyhedral.css",
+      "bytes": 24394,
+      "sha256": "fad032b55910198026cd55020f6b16ef3db60014c2d999043dff8ebc77520b73"
+    },
+    {
+      "path": "css/dice-themes/35-liquid-core-galaxy.css",
+      "bytes": 24003,
+      "sha256": "95693538809eba68b44da17dec0e35adf5a1d639ebfbd6b2d32d46c3f1403256"
+    },
+    {
+      "path": "css/dice-themes/36-glitter-rainbow.css",
+      "bytes": 23713,
+      "sha256": "4cab4665ee9cb08b266d6ed9899b79e9344909f7c3f8740dafadb5372a45ce0b"
+    },
+    {
+      "path": "css/dice-themes/37-scorched-rainbow.css",
+      "bytes": 23853,
+      "sha256": "2e8532a5cb5d14011d622e1b1f949a81166a1d65e96777ca5b407644758f2964"
+    },
+    {
+      "path": "css/dice-themes/38-hollow-purple-neon.css",
+      "bytes": 23860,
+      "sha256": "4748e1359e9739900220b663feab78bd5955d1e75e9d1aebd7696f707b6d6a8f"
+    },
+    {
+      "path": "css/dice-themes/39-gothic-mystic-starhorn.css",
+      "bytes": 24210,
+      "sha256": "6b40b73fe9c456af8e100af77eecf6ad10ff6faa51919c137cfeb8116780680b"
+    },
+    {
+      "path": "css/dice-themes/40-norse-draugr-iron.css",
+      "bytes": 23876,
+      "sha256": "67c8ff88293242cf9b2d16a02e59a4a2b3c9b0c33a4409f587a1b6b1f6509472"
+    },
+    {
+      "path": "css/dice-themes/41-queen-treasure-blue-gold.css",
+      "bytes": 24530,
+      "sha256": "1de28769b626c43641335ac0aeec72ef4caa1092727db50e39e42425f8d1101e"
+    },
+    {
+      "path": "css/dice-themes/42-arcane-gold-blue.css",
+      "bytes": 23808,
+      "sha256": "bf936c1d8e5f8e8a89131e91c24d47a1981ebe32db77b451375c109b63612b4a"
+    },
+    {
+      "path": "css/dice-themes/43-ancient-bone-ink.css",
+      "bytes": 23904,
+      "sha256": "be3da9bfbf5d373a49e2f1df1f954e9bf7ff4955e845ebe601c7d4f2fa76ef76"
+    },
+    {
+      "path": "css/dice-themes/44-paper-parchment-sepia.css",
+      "bytes": 24326,
+      "sha256": "f006bd2a8c20c43b3b58810b33b5da51ba153676cef11d5d85b7df2e6696c7d3"
+    },
+    {
+      "path": "css/dice-themes/45-candy-opal-pastel.css",
+      "bytes": 23884,
+      "sha256": "1ae18c6369828dceb86dfb8ea017171f0a448d6f2f31276314104cadf88732b3"
+    },
+    {
+      "path": "css/dice-themes/46-coral-rose-gold.css",
+      "bytes": 23783,
+      "sha256": "be1c258993c285c09508a219d60bfb27d72c41ea20be0f1f397e13a7bf3f03ef"
+    },
+    {
+      "path": "css/dice-themes/47-void-plasma-cyan.css",
+      "bytes": 23780,
+      "sha256": "bade6107b6532ece6abd6538080c46b5ed0572d1660aaa33dd87ec5ca664a7c3"
+    },
+    {
+      "path": "css/dice-themes/48-solar-brass.css",
+      "bytes": 23415,
+      "sha256": "a0b1f4ed895737f4a7bf79e4cf9cae8376a0a410e6e133c1798c9e8ed6f9e789"
+    },
+    {
+      "path": "css/dice-themes/49-lunar-steel.css",
+      "bytes": 23401,
+      "sha256": "1c40396f095e484f1244a8fec5a1757c288bcad7282da7900ede684527e24563"
+    },
+    {
+      "path": "css/dice-themes/50-mermaid-aqua-gold.css",
+      "bytes": 23912,
+      "sha256": "a4bbb27f26e73e30bee8baf0083b274e4afb9f8507933e0866add1872824ef48"
+    },
+    {
+      "path": "css/dice-themes/51-dragonfly-teal-violet.css",
+      "bytes": 24183,
+      "sha256": "355d7089d3b7da2c9d6cac432b5a5cdd0b5bf3279507ba8f96e242808014c103"
+    },
+    {
+      "path": "css/dice-themes/52-bloodstone-red-black.css",
+      "bytes": 24159,
+      "sha256": "5adb27da4122600d1598aa7abc81585bfd9d5f91af17c9f7f9e733bc0f72036d"
+    },
+    {
+      "path": "css/dice-themes/53-lava-obsidian-orange.css",
+      "bytes": 24209,
+      "sha256": "372b13527c3856fa61bc59ca846463a17dfaa1c2a5c7c4fb784dd92a458828cf"
+    },
+    {
+      "path": "css/dice-themes/54-frosted-lavender.css",
+      "bytes": 23762,
+      "sha256": "0c73973e9e253239f4d70f69d31fc59d374070fbea8f8fad97d24221df9ae674"
+    },
+    {
+      "path": "css/dice-themes/55-smoke-quartz-white.css",
+      "bytes": 23959,
+      "sha256": "39ffdc012e1d6d095d8be01f380642c1991e80082022dca6c4a52f4af43d55df"
+    },
+    {
+      "path": "css/dice-themes/56-copper-verdigris.css",
+      "bytes": 23902,
+      "sha256": "09ce5252d497205d70d0c936687f9cd92bcd0dc8c68072e60a9df05350ebb567"
+    },
+    {
+      "path": "css/dice-themes/57-clockwork-steampunk.css",
+      "bytes": 24156,
+      "sha256": "51bf371d9c0ec6193efb7fd5af4d41a6f3cd2975d6e4950faffc1c5880b7fbb6"
+    },
+    {
+      "path": "css/dice-themes/58-celestial-navy-gold.css",
+      "bytes": 24065,
+      "sha256": "27f9e750429d2e773cc412ef2cce7e8a8ff6ba78d2fe67601d39e72f93c89561"
+    },
+    {
+      "path": "css/dice-themes/59-ivory-lotus-mint.css",
+      "bytes": 23951,
+      "sha256": "39af65107911c2c434928b05a4cc9c3e054421bb0730d975cbe5db66265a89f6"
+    },
+    {
+      "path": "css/dice-themes/60-black-ice-blue-gold.css",
+      "bytes": 24040,
+      "sha256": "d6d538f0e6e7c9cac4206ec1a607e8fccf22b7a927968d4c1669061366196b55"
+    },
+    {
+      "path": "css/activeworkspace.css",
+      "bytes": 24732,
+      "sha256": "fa3c68cb069b1addc65bc7c413138996d899c269f3cb04b1a7245872b362b682"
+    },
+    {
+      "path": "docs/BACKEND_SECURITY_REQUIREMENTS.md",
+      "bytes": 1357,
+      "sha256": "5fa81531df2a59e157e6c52e5222e054604c5f5446bae646b37b3a494283cb0f"
+    },
+    {
+      "path": "docs/CANONICAL_COMPLIANCE_V4_2.json",
+      "bytes": 828,
+      "sha256": "36908d52efd293f6e8300c9402b19cb93f4692885929975d03ee79b7a69e9968"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 1710,
+      "sha256": "da9e8517a57aff4e91bc27d1d55478bafd0215999a4183984b0d3b81895b9734"
+    },
+    {
+      "path": "docs/DICE_3D_LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "3b8d7538ee6fddf55669e9861e92da72591eb97373c1fb42602d96d50d0bd03f"
+    },
+    {
+      "path": "docs/ENCOUNTER_JSON_GUIDE.md",
+      "bytes": 4535,
+      "sha256": "9f9ede3f7e9b50a620fef832dd2c7ad627b06618dbbb00b80b15ce3cf1fd2e69"
+    },
+    {
+      "path": "docs/GRID_FORMATS.md",
+      "bytes": 1438,
+      "sha256": "28d63b50a38d832e800f5921579d43a1d1cfb7e3d531d582df585f82d40e2399"
+    },
+    {
+      "path": "docs/RANDOM_ENCOUNTERS.md",
+      "bytes": 494,
+      "sha256": "df1628ae0a52f30ee3fa4be083e3003d846299fa9b194a6583cc7736fdaa87eb"
+    },
+    {
+      "path": "docs/RANDOM_ENCOUNTERS_MERGE_AUDIT.json",
+      "bytes": 1050,
+      "sha256": "b9073f411d0c2b1591bf6e1c07789a18e220f1ef52ed0da48ec1649c45cc7582"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 1034,
+      "sha256": "04b507ac77f8c8f3ba871f5cd1776e05700f1d98354b6dd3d698cfe99a263c64"
+    },
+    {
+      "path": "docs/SOURCE_INFLUENCES.md",
+      "bytes": 2254,
+      "sha256": "c443f5359ea1487dad01eea1d33f34df6af2a0f4c5a92f5239fc8481ce60a723"
+    },
+    {
+      "path": "docs/TEST_PLAN.md",
+      "bytes": 1203,
+      "sha256": "2aec6ab47020339e1f6456cdeddfa20df3812a3ada6d582e39ec27a18dd5e315"
+    },
+    {
+      "path": "docs/TEST_REPORT_V4_2.md",
+      "bytes": 1420,
+      "sha256": "f29864c3e35d2f2be7a9cbfcd18218cf439ea5de3179926920ec989a817a47a4"
+    },
+    {
+      "path": "docs/VALIDATION_REPORT_V4_2.json",
+      "bytes": 1675,
+      "sha256": "07b4bd2a23e0d41362edfe3e3bb435a81359b1f767f3786b328e17df117bf895"
+    },
+    {
+      "path": "docs/run_integration_tests.js",
+      "bytes": 7461,
+      "sha256": "9fd1d5532922565393c77264117260f9fdbd401ebaf3c1a52432947ea837678f"
+    },
+    {
+      "path": "js/alignment-data.js",
+      "bytes": 704061,
+      "sha256": "561eb1b2bbff8a75dcfa93126a49cb1a0227ffb377e2ebacfe8656e0e8f6a91e"
+    },
+    {
+      "path": "js/alignment.js",
+      "bytes": 4641,
+      "sha256": "3a128d255e73666e9c78571c2ae2d10236b9cf18c29a9d4e5816ead2bcbda6f2"
+    },
+    {
+      "path": "js/api.js",
+      "bytes": 13887,
+      "sha256": "acfc10791cb820e81bdd7e58ef92fcbbd0a9aaf72396eafa97c75e0b6ac1567b"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 92417,
+      "sha256": "172e70170b7b44e922eceba7f9ada1f5257617b77e5698e20dbfc4c51a64dcfd"
+    },
+    {
+      "path": "js/universal-canonical-data.js",
+      "bytes": 2076941,
+      "sha256": "da7558f0e42bae9712585236a13e416beb052f47529dfcf18e221d0d82203771"
+    },
+    {
+      "path": "js/canon-registry.js",
+      "bytes": 10525,
+      "sha256": "34ece1eb6dba8c37497c926ee0d75358631d8901c7901581f946518f20e6d0e4"
+    },
+    {
+      "path": "js/characters.js",
+      "bytes": 15649,
+      "sha256": "4a398d196f46604718a49fa0df228243519499f16f6c9867cefadb2e8bfdd95a"
+    },
+    {
+      "path": "js/combat-engine.js",
+      "bytes": 17761,
+      "sha256": "fa20f7bde6b8f5347d81839f50427a743f4e9975fbd4cf581af2266ba580ffee"
+    },
+    {
+      "path": "js/config.js",
+      "bytes": 2248,
+      "sha256": "1207b0e684d39e9da34362754a7c55c57fea72f160ef2eaba8261f12f8de0bbe"
+    },
+    {
+      "path": "js/dice.js",
+      "bytes": 7229,
+      "sha256": "12af66be2782df3440ad06738bce54034693736275a783d71bd0ece840f96daa"
+    },
+    {
+      "path": "js/dice3d/dice-engine.js",
+      "bytes": 47210,
+      "sha256": "ba82e82f2f56c8a6f71437ab7286fbabab998ec90b6802b38f7c928218ff1fdf"
+    },
+    {
+      "path": "js/dice3d/activeworkspace-dice3d.js",
+      "bytes": 1297,
+      "sha256": "bdddc6326c7151f3a13837f3934247e5d0661b1b1326b8bda143166a57dcef05"
+    },
+    {
+      "path": "js/dicebot-canon-engine.js",
+      "bytes": 11439,
+      "sha256": "1ca721b27e87f8eba9dbc3fee7eb4d01e70e01fc136381f02f56bc238c8bd46a"
+    },
+    {
+      "path": "js/dicebot-enhancements.js",
+      "bytes": 12271,
+      "sha256": "402e184a201c066e06c21ab54f43ea5644c6d026650bc585ee06dd58d26a476d"
+    },
+    {
+      "path": "js/dicebot-personas.js",
+      "bytes": 47042,
+      "sha256": "715d25dc13f1d5af0fc4f2a25ebc0f01638ad3d93e67c220722af53ebea6cf8a"
+    },
+    {
+      "path": "js/dicebot-response-banks.js",
+      "bytes": 351194,
+      "sha256": "9a810c190ba85484581adccc5a2b8292abf179cb2cefa80f076e3494112fbd76"
+    },
+    {
+      "path": "js/dicebot-token-manifest.js",
+      "bytes": 1033,
+      "sha256": "96a38f84b6757ba5bf1bc9fb97cb235b1e8735bcd1edecf544fa5c36e1c36fae"
+    },
+    {
+      "path": "js/embedded-data.js",
+      "bytes": 5475232,
+      "sha256": "bf611a9bba6bfd3a4afd03e72cacafc7db9705bc681aa85e8468166f75917e10"
+    },
+    {
+      "path": "js/encounter.js",
+      "bytes": 32272,
+      "sha256": "7b41d466cfac86e32bfe585fb3a95a6f31c0ddd6748dad23439c375026c5f38a"
+    },
+    {
+      "path": "js/grid-detector.js",
+      "bytes": 13753,
+      "sha256": "b5d989c31423a813e505b3be56987a49c044425f8a4cb4d9041f0e0c7eae2098"
+    },
+    {
+      "path": "js/hostile-ai.js",
+      "bytes": 11022,
+      "sha256": "e8d76ee5ca83ade6830f02ec83f42f46dab904ed619caef96d311d3b711ec4aa"
+    },
+    {
+      "path": "js/pathfinding.js",
+      "bytes": 4371,
+      "sha256": "4d3394ed50e156960aaadeb16dd7c73bb2cf968dec891b326f106a37fb4acab4"
+    },
+    {
+      "path": "js/quest-builder.js",
+      "bytes": 8102,
+      "sha256": "b1b06d3db5c1911ac06ace653ab29796dfee9d19ed7027e667fcda6602c6fb17"
+    },
+    {
+      "path": "js/utils.js",
+      "bytes": 5916,
+      "sha256": "f2cb9cd7134aec8e64e6aa0577c4dcf8a21d0b5c1694eb62a3c9281b2638d3f2"
+    },
+    {
+      "path": "js/vendor/cannon.min.js",
+      "bytes": 67549,
+      "sha256": "75a41584e675275cc6199f3affbe1f0138fe48ef3a80ef81ed855c861a4d81b3"
+    },
+    {
+      "path": "js/vendor/teal.js",
+      "bytes": 6684,
+      "sha256": "cdd73e16b955afa7eb8a73dc310e33443165de7c3e4d7fa3dfff46c655cd0819"
+    },
+    {
+      "path": "js/vendor/three.min.js",
+      "bytes": 427011,
+      "sha256": "95c7d33ff0f57eadf238d366c900d3923e92bd4769c79a0ae9687a45be46ec74"
+    },
+    {
+      "path": "json/alignment/alignment_quiz_runtime.json",
+      "bytes": 1163556,
+      "sha256": "6f7a6cf5998bc16f2d2b2aecf919dc06f8ca770552469bf8c0c9526b56752f17"
+    },
+    {
+      "path": "json/alignment/question_bank.json",
+      "bytes": 39120,
+      "sha256": "05e5d96032e60c1db9b4bb67d23819a61ba12f7cd462243b42f7f2bb2e2baf10"
+    },
+    {
+      "path": "json/alignment_core.json",
+      "bytes": 83935,
+      "sha256": "721008c62b309e69c638ff799c3c2dc34a453e808789900b8783048d4eda38aa"
+    },
+    {
+      "path": "json/canonical/universal_5e_spells.json",
+      "bytes": 849468,
+      "sha256": "3ecea942da475ad01a92fb4947a1c7abe243fa74ad0086b25347dfe175fd7d65"
+    },
+    {
+      "path": "json/canonical/universal_alignments.json",
+      "bytes": 83934,
+      "sha256": "aa48d4e38352e9505381ed9b045f6d43f018438ecba86243cf5cf95ec3cdd432"
+    },
+    {
+      "path": "json/canonical/universal_biomes.json",
+      "bytes": 8717,
+      "sha256": "df22cb8feedc34429f0ece4538e1a8adb89555aaf81365cd1b08b23140d66ed4"
+    },
+    {
+      "path": "json/canonical/universal_classes.json",
+      "bytes": 1250736,
+      "sha256": "3782a7bbf8f1d1408981c29b2ae4231e9ca5ca4fad586242d9eeb7d1543f136d"
+    },
+    {
+      "path": "json/canonical/universal_factions_and_quest_hooks.json",
+      "bytes": 23754,
+      "sha256": "9e312287365a9aa2c472f63f83bc415f663b1b1bc4604ecf7b48c9b25d5aceae"
+    },
+    {
+      "path": "json/canonical/universal_heritage_genetics.json",
+      "bytes": 6412647,
+      "sha256": "4f858e67b9db5f5676b4550dde77eba6d2edb1e25f93238db96df1c7b420efa5"
+    },
+    {
+      "path": "json/canonical/universal_how_to_play.json",
+      "bytes": 122060,
+      "sha256": "b9a5efc8c5f105631ff03409bb2aa6edf546c40f7e9d49aeced912f9b8ef5f30"
+    },
+    {
+      "path": "json/canonical/universal_ichor.json",
+      "bytes": 4171,
+      "sha256": "66bfe7e89dc395518322b97d6915a8d598f91233feb39eca5e98e067f77fc084"
+    },
+    {
+      "path": "json/canonical/universal_pantheon.json",
+      "bytes": 192954,
+      "sha256": "38a8998ed2061111f4941f205f130b462841a82f70308ce71fb838a1422135a6"
+    },
+    {
+      "path": "json/canonical/universal_races.json",
+      "bytes": 164879,
+      "sha256": "5ea637d7e068b894934fa88c37d8563e3e89822efb9d6e6ea19bb1103c6e5330"
+    },
+    {
+      "path": "json/canonical/universal_races_detailed.json",
+      "bytes": 1277333,
+      "sha256": "83a0b3aa65b043efa8b7701ef821b6908825a97d48a8fae0de3100a165b3ef0e"
+    },
+    {
+      "path": "json/canonical/universal_time_conversion.json",
+      "bytes": 10730,
+      "sha256": "1b5acb0af4e2573c4909d3a7dbb946de2f83f0e263b13ca67e04e92f02dbcd95"
+    },
+    {
+      "path": "json/canonical/index.json",
+      "bytes": 855,
+      "sha256": "4fc9fab4f65f646762044433e4fba72745a9728fe0084531e1da72469c212cb3"
+    },
+    {
+      "path": "json/canonical/stat-block-generator/parent_to_child_genetics.json",
+      "bytes": 50169,
+      "sha256": "0b1d038f201a7dd31ade91b5b1a3af3feb24c2bd8dbe93dddf6df8e628958ff9"
+    },
+    {
+      "path": "json/canonical/stat-block-generator/system_core.json",
+      "bytes": 15258,
+      "sha256": "c8c569ae2a7e06db1000b804accb09edbf423b3f9377e75d7eb40050d2a6496a"
+    },
+    {
+      "path": "json/canonical/stat-block-generator/templates.json",
+      "bytes": 2383,
+      "sha256": "b4866b865785fa0655c1c9c248254960a08b6fbfccb33229c2c76801597e07d2"
+    },
+    {
+      "path": "json/canonical_grid_profiles.json",
+      "bytes": 1650,
+      "sha256": "716714787de2c31f8d005c538e0e8354624a3503c4261f647859bc91e7bad00f"
+    },
+    {
+      "path": "json/character-builder/alignment_sheet_core.json",
+      "bytes": 40563,
+      "sha256": "45353b463989c08062a377407e3dfa5c0b479d6400ed22b32ef58bedb1b26a7a"
+    },
+    {
+      "path": "json/character-builder/universal_alignments.json",
+      "bytes": 83934,
+      "sha256": "aa48d4e38352e9505381ed9b045f6d43f018438ecba86243cf5cf95ec3cdd432"
+    },
+    {
+      "path": "json/character-builder/universal_classes.json",
+      "bytes": 1250736,
+      "sha256": "3782a7bbf8f1d1408981c29b2ae4231e9ca5ca4fad586242d9eeb7d1543f136d"
+    },
+    {
+      "path": "json/character-builder/universal_pantheon.json",
+      "bytes": 192954,
+      "sha256": "38a8998ed2061111f4941f205f130b462841a82f70308ce71fb838a1422135a6"
+    },
+    {
+      "path": "json/character-builder/biomes.json",
+      "bytes": 8717,
+      "sha256": "df22cb8feedc34429f0ece4538e1a8adb89555aaf81365cd1b08b23140d66ed4"
+    },
+    {
+      "path": "json/character-builder/classes_sheet_core.json",
+      "bytes": 3964667,
+      "sha256": "ea207ec94679c9defa5fac2bcf064911323cf8e1b874c681dcfec2980eaf49cb"
+    },
+    {
+      "path": "json/character-builder/factions.json",
+      "bytes": 23754,
+      "sha256": "9e312287365a9aa2c472f63f83bc415f663b1b1bc4604ecf7b48c9b25d5aceae"
+    },
+    {
+      "path": "json/character-builder/feats.json",
+      "bytes": 15182,
+      "sha256": "fa5039971cb58b6525c098dabf7be55c2b9ba04b69c2c976cc7d2f11f99818ee"
+    },
+    {
+      "path": "json/character-builder/gender_identities.json",
+      "bytes": 229,
+      "sha256": "da4ebff922ef6991c61ffc4deeafee556fad8915c4d7f2044ad3f3b71d3dd216"
+    },
+    {
+      "path": "json/character-builder/heritage_genetics_v3.json",
+      "bytes": 6412647,
+      "sha256": "4f858e67b9db5f5676b4550dde77eba6d2edb1e25f93238db96df1c7b420efa5"
+    },
+    {
+      "path": "json/character-builder/how_to_play_universal.json",
+      "bytes": 122060,
+      "sha256": "b9a5efc8c5f105631ff03409bb2aa6edf546c40f7e9d49aeced912f9b8ef5f30"
+    },
+    {
+      "path": "json/character-builder/ichor_rules.json",
+      "bytes": 4171,
+      "sha256": "66bfe7e89dc395518322b97d6915a8d598f91233feb39eca5e98e067f77fc084"
+    },
+    {
+      "path": "json/character-builder/pantheon_sheet_core.json",
+      "bytes": 503243,
+      "sha256": "c360ea4a6c59a738b4991a5827e66ec4bade029f89e51340782be3e29490a414"
+    },
+    {
+      "path": "json/character-builder/pronouns.json",
+      "bytes": 7879,
+      "sha256": "89974e9347f105d1a6054ec5125d87a59e872874f5025cce81ed50b36e928994"
+    },
+    {
+      "path": "json/character-builder/race_reference.json",
+      "bytes": 164878,
+      "sha256": "66fc243a0c3dbd0106c3b2c3d298940945c7adcafce48b0a9f6c43ed345830c8"
+    },
+    {
+      "path": "json/character-builder/races_compendium_v4.json",
+      "bytes": 280396,
+      "sha256": "deae34f12c7b64615958b6666e82b7a592b53abec5dd7332782d53eb4aa77539"
+    },
+    {
+      "path": "json/character-builder/races_detailed.json",
+      "bytes": 1277333,
+      "sha256": "83a0b3aa65b043efa8b7701ef821b6908825a97d48a8fae0de3100a165b3ef0e"
+    },
+    {
+      "path": "json/character-builder/spells.json",
+      "bytes": 849468,
+      "sha256": "3ecea942da475ad01a92fb4947a1c7abe243fa74ad0086b25347dfe175fd7d65"
+    },
+    {
+      "path": "json/character-builder/time_rules.json",
+      "bytes": 10730,
+      "sha256": "1b5acb0af4e2573c4909d3a7dbb946de2f83f0e263b13ca67e04e92f02dbcd95"
+    },
+    {
+      "path": "json/character-builder/titles_honorifics_endearments.json",
+      "bytes": 783,
+      "sha256": "fd3579a8279a83658dcbedcff4190a8f57abebad3e6a74f2f8ab37d1263a00b9"
+    },
+    {
+      "path": "json/classes.json",
+      "bytes": 1250737,
+      "sha256": "43f5a0a2b022bcbeda6434bb6cf83cd4375c817a3e6ab6b64aaf88a846781ae5"
+    },
+    {
+      "path": "json/config.json",
+      "bytes": 3957,
+      "sha256": "3ccddf33fcfd12490e73967e147765013fec31027edd8701388e7b4f3604d358"
+    },
+    {
+      "path": "json/deities/Anubaldir.json",
+      "bytes": 12447,
+      "sha256": "9f1914761629277d46528212abf38c7001ae516356ac8382951b3c68c1a80cd9"
+    },
+    {
+      "path": "json/deities/Asethyr.json",
+      "bytes": 11710,
+      "sha256": "8cfe5cdf3c53175d24bd7686a6479b201e5c6a8773cc3b6b749048f417611158"
+    },
+    {
+      "path": "json/deities/Bastveig.json",
+      "bytes": 25334,
+      "sha256": "5667423125e6460ee8be71483ce6a75a9dfd9ed2659e1247235634d9e6348014"
+    },
+    {
+      "path": "json/deities/Eirzunet.json",
+      "bytes": 11647,
+      "sha256": "c4cee7402b322caff13ef784c1bd144ac75afc3a4441d4e42f14269c6546967f"
+    },
+    {
+      "path": "json/deities/Enkirael.json",
+      "bytes": 17587,
+      "sha256": "3d81421d9e02c7e16261fdff1ac9a1465cfbf1bc05fc60155d27cae6cb15b805"
+    },
+    {
+      "path": "json/deities/Freyseth.json",
+      "bytes": 18075,
+      "sha256": "c5ad8f63d88bbcfe79c55ea197b2015bdfd153b3831b6687f37b495c489d429a"
+    },
+    {
+      "path": "json/deities/Hathruna.json",
+      "bytes": 11180,
+      "sha256": "9c2256f98f5e3358c84e7a5cba34b105ddae59b7b9c0ccc084d4231bb99d6cd2"
+    },
+    {
+      "path": "json/deities/Horundar.json",
+      "bytes": 30521,
+      "sha256": "5b36c4a69c6ad26dac6e8fcfe36d639817c81ae3537e27053cc95bdfd31d0ad3"
+    },
+    {
+      "path": "json/deities/Ishtanora.json",
+      "bytes": 13721,
+      "sha256": "e67ee1b7a144a85c848eba7c20a7f9974ca216e91347640a1ce8eb43600c2666"
+    },
+    {
+      "path": "json/deities/Iskareth.json",
+      "bytes": 22650,
+      "sha256": "a500c58112915263a06db6c4eec990fed491c894f3966c1a054aafcf8514a26d"
+    },
+    {
+      "path": "json/deities/Marduthor.json",
+      "bytes": 11465,
+      "sha256": "37ea9effbf4232560f91bcc2549aecb2416a956bca8b7c23b7771763b88cd4ff"
+    },
+    {
+      "path": "json/deities/Nebyrr.json",
+      "bytes": 73132,
+      "sha256": "720b359556615248210c2df65616add50cd4d6e4a936b89dc2cf3f033b135c3a"
+    },
+    {
+      "path": "json/deities/Nefarokir.json",
+      "bytes": 29836,
+      "sha256": "9a9d2030fec8cee0468f97f3940b4c66254700cfaca0355a4edf54d6e0ce8d71"
+    },
+    {
+      "path": "json/deities/Nephthysra.json",
+      "bytes": 18290,
+      "sha256": "284a2674cfc078aeae473af341efd3286ffcf16a8b3cdb39bb9e2534108429be"
+    },
+    {
+      "path": "json/deities/Oskar_enlil.json",
+      "bytes": 11762,
+      "sha256": "3a7abd050e3938f3bfbdf915c8aadce397f59914c433c025cd39711bbe6c1466"
+    },
+    {
+      "path": "json/deities/Raeshkul.json",
+      "bytes": 16559,
+      "sha256": "73760e1350dce619daab03a0c31202f1a3c5a15164c9e86d918e3e09372a9d31"
+    },
+    {
+      "path": "json/deities/Setrimir.json",
+      "bytes": 13056,
+      "sha256": "fca6960973da2cc34124916730bd893715a16f2265b61388c9bad55da3b8fa7f"
+    },
+    {
+      "path": "json/deities/Sigrananna.json",
+      "bytes": 32984,
+      "sha256": "0954fbd119cff49aab8bed00b47735ac726d6d361ff5db1d595f0ac4e4dbde6b"
+    },
+    {
+      "path": "json/deities/Sokhivar.json",
+      "bytes": 16730,
+      "sha256": "3a829055466e17db6e177685f9d5ab183fca6905ea932837aa64b700cd288d4e"
+    },
+    {
+      "path": "json/deities/Thalunesh.json",
+      "bytes": 15877,
+      "sha256": "1ea1db73fe1ec36267ed31453257d385547a73e0d8d6ff96026d233306983dd7"
+    },
+    {
+      "path": "json/deities/Thoryn-Rahek.json",
+      "bytes": 18000,
+      "sha256": "7f69a33d29cedcbe209849a5aaefb12310c942548459b170510d1a51f9647760"
+    },
+    {
+      "path": "json/deities/Valkhamesh.json",
+      "bytes": 22159,
+      "sha256": "14219ab20bc207d2b46d7da86a0d10e2291daec83190b8656009a99d116fd4e5"
+    },
+    {
+      "path": "json/deities/index.json",
+      "bytes": 291924,
+      "sha256": "e0867946ab4415ecc6a35731123fa497850502cce4868173f2d4df0b8c9610a8"
+    },
+    {
+      "path": "json/dice-bot-personas.json",
+      "bytes": 56165,
+      "sha256": "72f142e4478fb7c743815c2a1afea9a93fc4544f3a2c4972c2c18093cbe46fa5"
+    },
+    {
+      "path": "json/dice_theme_manifest.json",
+      "bytes": 19156,
+      "sha256": "041154f077bc6ef584a00fdd56f09461d8ab3ea2d72cd68244539a3dd1a4c8ba"
+    },
+    {
+      "path": "json/dicebot_token_manifest.json",
+      "bytes": 1132,
+      "sha256": "7e6686c04da360bd31d6d66588c9e4db18e44c6131a4dcd52601ea6c9b152341"
+    },
+    {
+      "path": "json/encounter_quest_tables.json",
+      "bytes": 408,
+      "sha256": "0f51651de2b1fc4ddb08117a8d049296912ab19762cd6b0f1e14dd41d3045f82"
+    },
+    {
+      "path": "json/experience/universal_experience_point_system.json",
+      "bytes": 213576,
+      "sha256": "219fa56ce4f62d69a1733f052651608fcdf0b4395242b2c38481949f3f05ad0e"
+    },
+    {
+      "path": "json/how_to_play.json",
+      "bytes": 122061,
+      "sha256": "9e073591373217adb24086b30b2ab338f19d20c0a7536ca394d0214e513ba35a"
+    },
+    {
+      "path": "json/ichor_patron_rules.json",
+      "bytes": 4172,
+      "sha256": "a45263e25805eacd10adc39e2656e97f29d5b9bcce48ca223341212c41745059"
+    },
+    {
+      "path": "json/monsters/aarakocra.json",
+      "bytes": 2495,
+      "sha256": "83a98a276e8b37bcf73ad187ac88ca23c7231f4b49ee923add75d397542e2d5c"
+    },
+    {
+      "path": "json/monsters/aboleth.json",
+      "bytes": 6904,
+      "sha256": "108b42a46e592eb6899177269340120aa3a3d334b99779790a1edcb1fedc37d3"
+    },
+    {
+      "path": "json/monsters/acolyte.json",
+      "bytes": 4433,
+      "sha256": "a73febc381c459a98551b2bc5cf4d4224a711078a3cf3d3f311279150138e7bf"
+    },
+    {
+      "path": "json/monsters/adult-black-dragon.json",
+      "bytes": 7371,
+      "sha256": "47d5188e860a86fcbcfd3147216d8f6815ec6602a1e94bde95867694341eba50"
+    },
+    {
+      "path": "json/monsters/adult-blue-dracolich.json",
+      "bytes": 9655,
+      "sha256": "30b970e53622c4cbea3b770d22c1985ca66f2a708edca81bc0923031c02cab4f"
+    },
+    {
+      "path": "json/monsters/adult-blue-dragon.json",
+      "bytes": 7440,
+      "sha256": "c8a65c3a8a3baa6401837c44cf1fe7b44d23c0c2926a764e14c43a45896079fc"
+    },
+    {
+      "path": "json/monsters/adult-brass-dragon.json",
+      "bytes": 8172,
+      "sha256": "4cbc1197a93764976700088514e8305af9fdf1ce59a42c7cf054d504681c3b0b"
+    },
+    {
+      "path": "json/monsters/adult-bronze-dragon.json",
+      "bytes": 9798,
+      "sha256": "ebfa199e998825b151adbdc094e080d1d02592a0be303a913f30c9bc90da0dc3"
+    },
+    {
+      "path": "json/monsters/adult-copper-dragon.json",
+      "bytes": 9885,
+      "sha256": "b19793d439a1be08accc645446a1c57777148807e3c384a067aab34f51df9488"
+    },
+    {
+      "path": "json/monsters/adult-gold-dragon.json",
+      "bytes": 9888,
+      "sha256": "e22685509fcaeea5012074947c7b515eb8de128da88c051d52e70018c32b9cd7"
+    },
+    {
+      "path": "json/monsters/adult-green-dragon.json",
+      "bytes": 7503,
+      "sha256": "8f4ed45e9989f42e9adf289c2b5baf13d002db93805194eed5c16fa42ac8defa"
+    },
+    {
+      "path": "json/monsters/adult-red-dragon.json",
+      "bytes": 7304,
+      "sha256": "f5882d168f460c1b537c43f0e5518ff08e88813ef179ddb7aab2d915489e646b"
+    },
+    {
+      "path": "json/monsters/adult-silver-dragon.json",
+      "bytes": 9709,
+      "sha256": "1a03a0a956665e11549d1dcff3243fef528b2dff268da7496041ca7620b56085"
+    },
+    {
+      "path": "json/monsters/adult-white-dragon.json",
+      "bytes": 7411,
+      "sha256": "9d3ff0bca55f58cb6499e8958d4f3ed7700190b9f4531e5d4fe27421c2c19051"
+    },
+    {
+      "path": "json/monsters/air-elemental.json",
+      "bytes": 5125,
+      "sha256": "41e9611ff3d2eb4152564a165573a6b3256eb4a2cf192bc5b15d204185a8ae39"
+    },
+    {
+      "path": "json/monsters/ancient-black-dragon.json",
+      "bytes": 7428,
+      "sha256": "47168dd47b80b29976eec1f6ca2fbbde1b024c9481f996a9de96075fc79659fd"
+    },
+    {
+      "path": "json/monsters/ancient-blue-dragon.json",
+      "bytes": 7498,
+      "sha256": "6f25f1e19e8d4ef02d38dd452378ac0d2b292b880340ae40db8a917d9cf2fb96"
+    },
+    {
+      "path": "json/monsters/ancient-brass-dragon.json",
+      "bytes": 10928,
+      "sha256": "3bd95a619e4ff9921b40fb763e4fa57c4d594d5d76bc8655ef9b0af7d8ed72d8"
+    },
+    {
+      "path": "json/monsters/ancient-bronze-dragon.json",
+      "bytes": 11067,
+      "sha256": "dd0058c9a5d355986cfc23e1d093ff9da53a2e1084fe3808bc1db22cc38d7ff2"
+    },
+    {
+      "path": "json/monsters/ancient-copper-dragon.json",
+      "bytes": 11153,
+      "sha256": "aaf0ed8491d80a63f1c8e1a1ebc02d1347872dca5b041a984443596eb5f67e1e"
+    },
+    {
+      "path": "json/monsters/ancient-gold-dragon.json",
+      "bytes": 11161,
+      "sha256": "74fec765139e6d19fa178890df2ef207e5a5dc5f70447cf147ec0dcbaa0248b2"
+    },
+    {
+      "path": "json/monsters/ancient-green-dragon.json",
+      "bytes": 7564,
+      "sha256": "a92cb22c161063127e54d8323618b533fbe45e3f6959f2340e7e240ff9513b99"
+    },
+    {
+      "path": "json/monsters/ancient-red-dragon.json",
+      "bytes": 7361,
+      "sha256": "15b0c01d60d90e91324104e596d383a31eefcbc01684dbe95e1a0d5a56a59624"
+    },
+    {
+      "path": "json/monsters/ancient-silver-dragon.json",
+      "bytes": 10983,
+      "sha256": "47cbdd05fe99cdaab9357d04d2e4385e865c329f90b788bf3e147d60f7cb9df3"
+    },
+    {
+      "path": "json/monsters/ancient-white-dragon.json",
+      "bytes": 5979,
+      "sha256": "30480d77a379f3f01d2ac791b8194de7b046d718a228ab7332bc0812edf7ec50"
+    },
+    {
+      "path": "json/monsters/androsphinx.json",
+      "bytes": 8360,
+      "sha256": "7d20096643e85e4d501eb2e84cbe3c518e4342c7bf5ff3e562061303ac87dc37"
+    },
+    {
+      "path": "json/monsters/animated-armor.json",
+      "bytes": 4738,
+      "sha256": "b13eb78c6fdc20c10fbc07976228952a4388f06a0e3cc452dfc1ddcdcb517b45"
+    },
+    {
+      "path": "json/monsters/ankheg.json",
+      "bytes": 4771,
+      "sha256": "6801c29790800307a4acf623a2b98064894c80ee5e30b833c08f080be3331166"
+    },
+    {
+      "path": "json/monsters/ape.json",
+      "bytes": 4452,
+      "sha256": "b9176f80096890996a5b89f8b35afd7ee46e42c3e472185e7584ce70de958786"
+    },
+    {
+      "path": "json/monsters/archmage.json",
+      "bytes": 5426,
+      "sha256": "9574d1a0b972d4a53ce2a4f48ca4e556dc2dfc5ecd6de155b92c4f1978758876"
+    },
+    {
+      "path": "json/monsters/assassin.json",
+      "bytes": 5406,
+      "sha256": "917f564c85abd847bb092baab11c0c0a25a853ce90725a66914551d374f3a5da"
+    },
+    {
+      "path": "json/monsters/awakened-shrub.json",
+      "bytes": 4520,
+      "sha256": "ebdb7064c079c968de65a3099d6e439594230eaaeb94544a8b2d9e2689ff7f01"
+    },
+    {
+      "path": "json/monsters/awakened-tree.json",
+      "bytes": 4895,
+      "sha256": "f25363b2af85bfe1e6fa166995e77bf68f7a4c03368f0e30af9af816c7d90e7e"
+    },
+    {
+      "path": "json/monsters/axe-beak.json",
+      "bytes": 4526,
+      "sha256": "69cce03f4c12123701c92d78356f965a66f188ee1b2a0a2338596fb947454ce6"
+    },
+    {
+      "path": "json/monsters/azer.json",
+      "bytes": 3829,
+      "sha256": "f290673da2be3ccfeafba838e0066a885041bf6f9b547da59b308018c6df006c"
+    },
+    {
+      "path": "json/monsters/baboon.json",
+      "bytes": 4470,
+      "sha256": "6a451dd19feb59124e513e2722dffa841288555fae280f005f9a2e5fbb9186be"
+    },
+    {
+      "path": "json/monsters/badger.json",
+      "bytes": 4489,
+      "sha256": "b31a2b34a71fefcc457e215ece79117abfc8129db7f3e06861477e8354b844fb"
+    },
+    {
+      "path": "json/monsters/balor.json",
+      "bytes": 5300,
+      "sha256": "969622e65351e0378dbbfd137eba859581b4fb7aff7429b05aaf50459ac13403"
+    },
+    {
+      "path": "json/monsters/bandit-captain.json",
+      "bytes": 5137,
+      "sha256": "ee5d6bb7a2e5fc97cc12a2beaf37535ec2c14007304317badf0c308e4c66f9cc"
+    },
+    {
+      "path": "json/monsters/bandit.json",
+      "bytes": 4451,
+      "sha256": "ade1e03aa0bad25cf8643b68bb26da7f2eab082bf1bfc9110cd2e8365de0cb1b"
+    },
+    {
+      "path": "json/monsters/banshee.json",
+      "bytes": 3084,
+      "sha256": "51c48c847e770b4a0052b67d47c8834f392f481bf4dcf9382e44445d08a546da"
+    },
+    {
+      "path": "json/monsters/barbed-devil.json",
+      "bytes": 5214,
+      "sha256": "bc07210e12b05f552e33c7c590457a8cf0db16291cb4cb0a700b30c629efeb5e"
+    },
+    {
+      "path": "json/monsters/basilisk.json",
+      "bytes": 4792,
+      "sha256": "322cc8b53f35f990a90a3c411e139546e216c14c2b7e96edba03c0543e89d06d"
+    },
+    {
+      "path": "json/monsters/bat.json",
+      "bytes": 4402,
+      "sha256": "4915e8c1b828808f5229de9110e365bef41c1524345adfbfe98359e7b6364afa"
+    },
+    {
+      "path": "json/monsters/bearded-devil.json",
+      "bytes": 4986,
+      "sha256": "3d17d5b78fdc7c71232b61a4fde123f60c8c19a6901b690dc6407050398be97c"
+    },
+    {
+      "path": "json/monsters/behir.json",
+      "bytes": 5241,
+      "sha256": "d0b8e63ff53c96609e90f086bb7b2e46f67cff3115fe0a339da6a43064cadd13"
+    },
+    {
+      "path": "json/monsters/berserker.json",
+      "bytes": 3739,
+      "sha256": "476c3b167f5dea9d2b374639e25d455798139b9ef62524604bcd9fc62ac0ae5a"
+    },
+    {
+      "path": "json/monsters/black-bear.json",
+      "bytes": 4578,
+      "sha256": "2e3dd939fc70536e74bd3ff062a906b89ff735b400f6febb8c705ce5f49d262b"
+    },
+    {
+      "path": "json/monsters/black-dragon-wyrmling.json",
+      "bytes": 4746,
+      "sha256": "ce0c44fea7e6e8be7280c80a334fb3af69950ee9cce960cf617373e7eddb7287"
+    },
+    {
+      "path": "json/monsters/black-pudding.json",
+      "bytes": 4626,
+      "sha256": "61f523197db42a49db14ea6a5303f29bff43ea9f6b6e33423ea709b8afc52c55"
+    },
+    {
+      "path": "json/monsters/blink-dog.json",
+      "bytes": 4446,
+      "sha256": "2995781093e97379722fbf20a28a7a5d4347a01825d74982013defac25974427"
+    },
+    {
+      "path": "json/monsters/blood-hawk.json",
+      "bytes": 4649,
+      "sha256": "ba8d79a160954c22e2fa23e82cd7042464ee580c88a7b22249f57ec34e436ae2"
+    },
+    {
+      "path": "json/monsters/blue-dragon-wyrmling.json",
+      "bytes": 4638,
+      "sha256": "10f067ba068333fe175dfc6ef645636ac7a0d793cebc5bdf68b1ad20ee8d7dc6"
+    },
+    {
+      "path": "json/monsters/boar.json",
+      "bytes": 4415,
+      "sha256": "6803542f5b19bfdc39fbdb7dea4845a9c84308bc52bc0a385af374fd50339b26"
+    },
+    {
+      "path": "json/monsters/bone-devil.json",
+      "bytes": 5485,
+      "sha256": "d6ce9f7345fcf8ce4a36d0a1bd2058b877082255329c4e50893af9cd49117b99"
+    },
+    {
+      "path": "json/monsters/brass-dragon-wyrmling.json",
+      "bytes": 4904,
+      "sha256": "23e3901dda5bbd40bd6de1fe4626eff6718a9127b6a7526a0a515bf7ad2ffc3f"
+    },
+    {
+      "path": "json/monsters/bronze-dragon-wyrmling.json",
+      "bytes": 5126,
+      "sha256": "5b8c9b8cec1371fae131ffd3fb76ee9d5c84e682e8e7bdf70c7bf64d417f101c"
+    },
+    {
+      "path": "json/monsters/brown-bear.json",
+      "bytes": 4600,
+      "sha256": "b18d7ee62d03bae11dfe16bf64ee05f593842013815477f815d12c5c833f4f2b"
+    },
+    {
+      "path": "json/monsters/bugbear.json",
+      "bytes": 4438,
+      "sha256": "e36426c1744de3ab0aabab5b1cbadf11f849d8185664a2788e66128172857833"
+    },
+    {
+      "path": "json/monsters/bulette.json",
+      "bytes": 4976,
+      "sha256": "30b9b0cde242ecabd60006880e619188e1581e57a5e7958af5df265661280b35"
+    },
+    {
+      "path": "json/monsters/camel.json",
+      "bytes": 4438,
+      "sha256": "4ffa26575d20a0d65e3ffa7735b0b883c944ad1368de9b071c4082073977916f"
+    },
+    {
+      "path": "json/monsters/carrion-crawler.json",
+      "bytes": 5408,
+      "sha256": "c6b16301fb47a4574ab08fd3b61c9b5b87171e5c41df950f87e639f6eea49a8b"
+    },
+    {
+      "path": "json/monsters/cat.json",
+      "bytes": 4423,
+      "sha256": "e423180eda1bfb7ec9882ac02ec37359ad7b7187350251238e11f6a23352b212"
+    },
+    {
+      "path": "json/monsters/cave-bear.json",
+      "bytes": 4779,
+      "sha256": "ba73d422d0a83dffd9458477e28b7279f7baac6eb51b0fd7f189e6bb992f3aa8"
+    },
+    {
+      "path": "json/monsters/centaur.json",
+      "bytes": 4830,
+      "sha256": "e1c873857f4d0549c5085e2e548100b54773ebcd8af00d3f27879bc5f4c76d8e"
+    },
+    {
+      "path": "json/monsters/chain-devil.json",
+      "bytes": 5347,
+      "sha256": "85977e3149e716c44bbf12fd9427b5966cd5f9ec103b48bf73bd07249ee1e695"
+    },
+    {
+      "path": "json/monsters/chimera.json",
+      "bytes": 5032,
+      "sha256": "cbc2463df6dfac2b4a15129659fedfbc4dcf0b47263966e3ed289395e9d9b367"
+    },
+    {
+      "path": "json/monsters/chuul.json",
+      "bytes": 4815,
+      "sha256": "a24f8aef26cafca212bed8474c569459e145ed0d173e3a28235742837e2b7097"
+    },
+    {
+      "path": "json/monsters/clay-golem.json",
+      "bytes": 5507,
+      "sha256": "bde4dd81169bd34b7dd556452aec03b8d974024e527f0d4e4815c0f8bf0efda9"
+    },
+    {
+      "path": "json/monsters/cloaker.json",
+      "bytes": 5273,
+      "sha256": "8d2e396abd59bc2f121d11e91f46c81ae35f53809f2b19113de530ec4ce36a64"
+    },
+    {
+      "path": "json/monsters/cloud-giant.json",
+      "bytes": 5446,
+      "sha256": "e4986c6baa68a05c22afe8889de48e0c7136795c0b035150edec72c287f73023"
+    },
+    {
+      "path": "json/monsters/cockatrice.json",
+      "bytes": 4448,
+      "sha256": "bacf2724f4a5666ee2efc59d27cd69b2de67258bfa8edb2b23b0d25e03d7687b"
+    },
+    {
+      "path": "json/monsters/commoner.json",
+      "bytes": 4387,
+      "sha256": "f43cfbafed7b2aafb3aa9f7103ceffae73058581a87ae19ffd5962cf811ea32d"
+    },
+    {
+      "path": "json/monsters/constrictor-snake.json",
+      "bytes": 4850,
+      "sha256": "da6214075dce48af5923b2fac5e9e48dd08b23529a0b9edc35a42392d6013c83"
+    },
+    {
+      "path": "json/monsters/copper-dragon-wyrmling.json",
+      "bytes": 5175,
+      "sha256": "c908b99666fc59da6f842d6126c8d03567b8c0ac2bc0d9db8e2853a1e35ca222"
+    },
+    {
+      "path": "json/monsters/couatl.json",
+      "bytes": 4947,
+      "sha256": "9dcf2d3452b8433c4c846f6c78d0d88a0e2da6ea0534286df62bec948f12b976"
+    },
+    {
+      "path": "json/monsters/crab.json",
+      "bytes": 3306,
+      "sha256": "3d5c5ffae3517d117f2530010a069b61eaa0eee01423839ad07e8dd337856757"
+    },
+    {
+      "path": "json/monsters/crocodile.json",
+      "bytes": 4574,
+      "sha256": "61dfa6cd378575938363acc446967312fa032ed89283bca107867d3263a6a0df"
+    },
+    {
+      "path": "json/monsters/cult-fanatic.json",
+      "bytes": 4783,
+      "sha256": "0bbdf5a2805f568b16d4abc2b7969ac38e94de1245ae36b60b9e32e6b5f2aaf5"
+    },
+    {
+      "path": "json/monsters/cultist.json",
+      "bytes": 4431,
+      "sha256": "0750c73dab3d005748515b75b8bacd1d5c532ed93c35c2572f35aca0601cfe33"
+    },
+    {
+      "path": "json/monsters/darkmantle.json",
+      "bytes": 4472,
+      "sha256": "7822e3ce7233f2eec7d90219b0603627ab5d315dba8ca22329c42523fa05658b"
+    },
+    {
+      "path": "json/monsters/death-dog.json",
+      "bytes": 4438,
+      "sha256": "f5f9575fa36c026176e33998a76b601ea889b096f37d91697d40ee8ac97a343b"
+    },
+    {
+      "path": "json/monsters/deep-gnome-svirfneblin.json",
+      "bytes": 5369,
+      "sha256": "3c8bb2077dc4d37ac233e2ce7043dc84489508e23d46e7f83ca54a61443f3b7b"
+    },
+    {
+      "path": "json/monsters/deer.json",
+      "bytes": 4416,
+      "sha256": "abde54fdf4a295ab006fe6cd690c1055084a6f52747b9e10aceba50a3d57bc8d"
+    },
+    {
+      "path": "json/monsters/deva.json",
+      "bytes": 5280,
+      "sha256": "98159197504aa22b282d76f5e70a06bcfeef9c62ec4205378ac660b2bb2bb805"
+    },
+    {
+      "path": "json/monsters/dire-wolf.json",
+      "bytes": 4589,
+      "sha256": "d1038b7c8c0bf519393b6d2d590d18369d5958c44dada7b578c50f48c3e1243b"
+    },
+    {
+      "path": "json/monsters/djinni.json",
+      "bytes": 5329,
+      "sha256": "e17d28ed15ee1e330330c71446283228f7b8a438b2f4bbdf0e83363b860f0b31"
+    },
+    {
+      "path": "json/monsters/doppelganger.json",
+      "bytes": 4967,
+      "sha256": "ed9c97d1c82fc4b0d40d1f6a24f44af61bcc03ff37eb2f8587b6b3b4655abcfc"
+    },
+    {
+      "path": "json/monsters/draft-horse.json",
+      "bytes": 4595,
+      "sha256": "5f4e1274b3cd92963b94bcd8f144323a967f28e498e813d2c033fbcdf37bee15"
+    },
+    {
+      "path": "json/monsters/dragon-turtle.json",
+      "bytes": 5709,
+      "sha256": "0d331436c2b69470b199f8b75c39709e31649a706225a5f2b609881915ff68f4"
+    },
+    {
+      "path": "json/monsters/dretch.json",
+      "bytes": 4395,
+      "sha256": "fc2bee3f1d08197a3766e54a5daf3ffb04d52c1b68806f557cd47710d609bd6c"
+    },
+    {
+      "path": "json/monsters/drider.json",
+      "bytes": 6466,
+      "sha256": "223c7d48f31b7d034bb477dff57ce1f4089eff82222398601bae91078b2f800f"
+    },
+    {
+      "path": "json/monsters/drow.json",
+      "bytes": 4974,
+      "sha256": "8771d65d020fb35a7a8c4f39c0a3427c1e317ef2f0f642c68985b0424ec4f6ff"
+    },
+    {
+      "path": "json/monsters/druid.json",
+      "bytes": 4006,
+      "sha256": "e04122e4a08725d10efe6ff1113cf3e782997ad78faaa402661d8a6aa078bcac"
+    },
+    {
+      "path": "json/monsters/dryad.json",
+      "bytes": 4322,
+      "sha256": "b108db83b778b25858a1f10042b49db53d67b45d3c8e798396da8681e478516f"
+    },
+    {
+      "path": "json/monsters/duergar.json",
+      "bytes": 4408,
+      "sha256": "b864281f6c873f5e7bfddc148b1419707eb7ee7f47ffee9329c1f15d1deed5b6"
+    },
+    {
+      "path": "json/monsters/dust-mephit.json",
+      "bytes": 4535,
+      "sha256": "b7b5e6d8b28f016606d915b24be4a6c8860592fa72895393f29d5f882d1c301f"
+    },
+    {
+      "path": "json/monsters/eagle.json",
+      "bytes": 4472,
+      "sha256": "de17ae4987c0f3f50fa6b5b5d3176c4d4188190593fa8018655b2083e52ca6dd"
+    },
+    {
+      "path": "json/monsters/earth-elemental.json",
+      "bytes": 5195,
+      "sha256": "067223c811eca4a2ce9af37e2ce8c7fdb9a542d4b582acf3b1ab6a5be1902d8d"
+    },
+    {
+      "path": "json/monsters/efreeti.json",
+      "bytes": 5442,
+      "sha256": "4dc650e7acc713108f5199435dcea2a1e5fa5b90fd8acb62bf5e1318ab69c4aa"
+    },
+    {
+      "path": "json/monsters/elephant.json",
+      "bytes": 4926,
+      "sha256": "9095c32832cf41976b360ffd4fac097d2976c980960e3ff44c0a6646a881a33d"
+    },
+    {
+      "path": "json/monsters/elk.json",
+      "bytes": 4390,
+      "sha256": "4035b6b2ff6d9cdb2d2b36f5caf6ca0827f275786f530ef422fd4880e2ed0349"
+    },
+    {
+      "path": "json/monsters/erinyes.json",
+      "bytes": 5424,
+      "sha256": "b7e90922a901be0d39f4e0934c4b504d9bd8cc5bccb32ebc23f7600353dabf1d"
+    },
+    {
+      "path": "json/monsters/ettercap.json",
+      "bytes": 4844,
+      "sha256": "4e1016409aa7376ffc2026ffa7626f1496c32959905d81f6ff50284600851113"
+    },
+    {
+      "path": "json/monsters/ettin.json",
+      "bytes": 4719,
+      "sha256": "3dea01e134a0600719d077d34bd65775ecadd5cf6666bbfc737b814491e03d92"
+    },
+    {
+      "path": "json/monsters/fire-elemental.json",
+      "bytes": 5128,
+      "sha256": "6a24f81f744fb7a64f4dddabf5b308fa17ed250fec25f0695a525cce6f23c4a5"
+    },
+    {
+      "path": "json/monsters/fire-giant.json",
+      "bytes": 5372,
+      "sha256": "be6c12f7e2381c123d9b0ac47059c9ffc93a47a7ad6010a203773a195f5762d0"
+    },
+    {
+      "path": "json/monsters/flameskull.json",
+      "bytes": 5479,
+      "sha256": "8e7e28b44e293ab4932c3aa624790dfc99a3fae31149da1369f28e7886025be3"
+    },
+    {
+      "path": "json/monsters/flesh-golem.json",
+      "bytes": 5254,
+      "sha256": "1403e1a1b3ee829d8e63b8a13fba2e757be6c85f55bf80bb22a0184a2e327c1a"
+    },
+    {
+      "path": "json/monsters/flying-snake.json",
+      "bytes": 4732,
+      "sha256": "12fe1882d2214272173f827533bbf98d30a7fca27548bb4d943d532ed1594e48"
+    },
+    {
+      "path": "json/monsters/flying-sword.json",
+      "bytes": 4721,
+      "sha256": "f9d0b774db4cf7225560076d36c5518fe5c4c111a73d20f0c581323f9e683be8"
+    },
+    {
+      "path": "json/monsters/frog.json",
+      "bytes": 4473,
+      "sha256": "fdd39079760aaef82cb8b06d4b92712f1a7ad379008fd63506671bd6d8361cd0"
+    },
+    {
+      "path": "json/monsters/frost-giant.json",
+      "bytes": 5398,
+      "sha256": "2f6e09c1b1f5a2f300f883eb61f00bfef0425f696f698510a7de3b5dcb668c5d"
+    },
+    {
+      "path": "json/monsters/gargoyle.json",
+      "bytes": 4830,
+      "sha256": "bfbc2ed459dbc0bc236046da0fe099048bdd4e7604331d9e9850ff19f91a6f7a"
+    },
+    {
+      "path": "json/monsters/gelatinous-cube.json",
+      "bytes": 4999,
+      "sha256": "33ba646799c0dbd6c61557fa8f0744de5f25ded7946b06ecf87de619fb93b551"
+    },
+    {
+      "path": "json/monsters/ghast.json",
+      "bytes": 4919,
+      "sha256": "fd9860bf3ca5bc83025d9172856c21317e7bd11f3e88bc382d5b596ea661902a"
+    },
+    {
+      "path": "json/monsters/ghost.json",
+      "bytes": 4981,
+      "sha256": "66ef1279856b33ad7b62cbfc1acb67735276a3c3a67cb6fb1bbdbae124030d7b"
+    },
+    {
+      "path": "json/monsters/ghoul.json",
+      "bytes": 4526,
+      "sha256": "b99c3b4f7c14e2ccda5677bb4c21eedbe7909ea092def5f594254585a0597ee6"
+    },
+    {
+      "path": "json/monsters/giant-ape.json",
+      "bytes": 5175,
+      "sha256": "0583af39e9a638fc851de27e1b14917e989478bb2c45344bb801535ffa28497f"
+    },
+    {
+      "path": "json/monsters/giant-badger.json",
+      "bytes": 4651,
+      "sha256": "5af8f92f64e4e1bff1c284152174672b6edc0905a3f9ab2e2ba7282b10952fa9"
+    },
+    {
+      "path": "json/monsters/giant-bat.json",
+      "bytes": 4600,
+      "sha256": "ec7a10693b27ca7f200f41b9f87a004f776d484c88d527e83b43f04d86352de7"
+    },
+    {
+      "path": "json/monsters/giant-boar.json",
+      "bytes": 4979,
+      "sha256": "c578c1c0ca80002bb74dd573788fb5e70d6fc7c2d21da8f7fca8a5319c8ed16f"
+    },
+    {
+      "path": "json/monsters/giant-centipede.json",
+      "bytes": 4762,
+      "sha256": "d3cce78f73e7e729eac8ef410e3a84b4fd6a88ba64cb1300f765b38eb1a8973e"
+    },
+    {
+      "path": "json/monsters/giant-constrictor-snake.json",
+      "bytes": 5443,
+      "sha256": "546b3e25d788c642215d42787e697b2da149a395ff1c081226af58c262adea41"
+    },
+    {
+      "path": "json/monsters/giant-crab.json",
+      "bytes": 4622,
+      "sha256": "5eb621e0be472ee0cbdc316c7f20320a3e1bd658a1076a697ed160632aa43e5e"
+    },
+    {
+      "path": "json/monsters/giant-crocodile.json",
+      "bytes": 5297,
+      "sha256": "5a7ab92066c65c567f06f7a5f0b057bc1822a769ec040f2d2527200a529587bb"
+    },
+    {
+      "path": "json/monsters/giant-eagle.json",
+      "bytes": 4699,
+      "sha256": "86b40078d42b51ba71046da96ae3a75ef9c8d46380814f673da9b48d5ea30fab"
+    },
+    {
+      "path": "json/monsters/giant-elk.json",
+      "bytes": 5031,
+      "sha256": "6a3b594e9dc6ae20ee1c6dddd82fe1a7fef92e4a605a3d74e1ed8b99755cb6b6"
+    },
+    {
+      "path": "json/monsters/giant-fire-beetle.json",
+      "bytes": 4775,
+      "sha256": "aa0dfdbcb4478044e4fa9dc2ab040476885e071556aa5c209d36c7ae9d7bd77f"
+    },
+    {
+      "path": "json/monsters/giant-frog.json",
+      "bytes": 4651,
+      "sha256": "9fd1f1be5b0ad131cde2b973f640414fa44865c3dea1113814aeaa72453f7980"
+    },
+    {
+      "path": "json/monsters/giant-goat.json",
+      "bytes": 4580,
+      "sha256": "7315361e20490e664aec5400add4484dabf890b7ffda80ddf87a3d03c77c5e6b"
+    },
+    {
+      "path": "json/monsters/giant-hyena.json",
+      "bytes": 4597,
+      "sha256": "2a15857061e27a45f765fcb690c2b852351f83c053677b663a785ed209369be4"
+    },
+    {
+      "path": "json/monsters/giant-lizard.json",
+      "bytes": 4704,
+      "sha256": "102817635f855f2602421a6d726153bee26d834837477ca09b3b1f9aec0018e8"
+    },
+    {
+      "path": "json/monsters/giant-octopus.json",
+      "bytes": 4717,
+      "sha256": "faf3f381db2c003db7f025e1ead7c1ef9a90a73415b7c454124b0b5d07660f49"
+    },
+    {
+      "path": "json/monsters/giant-owl.json",
+      "bytes": 4691,
+      "sha256": "eb9062674edacd72b1427571cfb4c57266690bba7d81afa7356ff206d608cd65"
+    },
+    {
+      "path": "json/monsters/giant-poisonous-snake.json",
+      "bytes": 4995,
+      "sha256": "cc9cc57a10a74cfea076ce18407c78196576c76cd0056cf7d3173a5e94026e73"
+    },
+    {
+      "path": "json/monsters/giant-rat-diseased.json",
+      "bytes": 3919,
+      "sha256": "1fe263a81d39e6f497d60da85c7fbdd7a7dbd714a66f8d41661df065c618a93e"
+    },
+    {
+      "path": "json/monsters/giant-rat.json",
+      "bytes": 4630,
+      "sha256": "615fa99060bb218f04936b6106bd22145ddcb30477562791dba31f4824b17b3e"
+    },
+    {
+      "path": "json/monsters/giant-scorpion.json",
+      "bytes": 5109,
+      "sha256": "b601b98b943dc308f3083d7287631860a126d66a130c0571bbf50950aa5d2f66"
+    },
+    {
+      "path": "json/monsters/giant-sea-horse.json",
+      "bytes": 4731,
+      "sha256": "d545096c81a02ef9d54e39343298474907eae6a7e1f6253aa464f46b56b90412"
+    },
+    {
+      "path": "json/monsters/giant-shark.json",
+      "bytes": 5237,
+      "sha256": "e6f1b9772d5e4bcaf84eefc04ab3a8e8eda50a999d176cb8311653c0c5f52d67"
+    },
+    {
+      "path": "json/monsters/giant-spider.json",
+      "bytes": 4746,
+      "sha256": "bf72df4592ba1e2caf3271b254fe0896df7528f266c5738b7fe9e6ce6c21dc20"
+    },
+    {
+      "path": "json/monsters/giant-toad.json",
+      "bytes": 4642,
+      "sha256": "68dd3d2376874718f45992ce9ce1deeadd28aa282df9eb44f8c21e24613f1541"
+    },
+    {
+      "path": "json/monsters/giant-vulture.json",
+      "bytes": 4712,
+      "sha256": "afe71ec1468bd3ac7be0633195005107dd6abfd1db9ee8849f83bf8b1919b5f5"
+    },
+    {
+      "path": "json/monsters/giant-wasp.json",
+      "bytes": 4651,
+      "sha256": "5a80f32c7f0fc0a58e8d79cd2dc17d509a9fa6aa4965e0eea9cafc9e78ce537e"
+    },
+    {
+      "path": "json/monsters/giant-weasel.json",
+      "bytes": 4686,
+      "sha256": "6eeb86ea3bb8aa33c723493beaea78803efa47374e4f2aec630bb307a9e375f2"
+    },
+    {
+      "path": "json/monsters/giant-wolf-spider.json",
+      "bytes": 4872,
+      "sha256": "75e7fdea9f44d2abc358596b627f4a5962abe94142edde08b6aa2e8259fd9e67"
+    },
+    {
+      "path": "json/monsters/gibbering-mouther.json",
+      "bytes": 5080,
+      "sha256": "7be8e21e5fd4e8412e7274b51af4e2f3d5a5641a454c290fa39b42dd3754e41a"
+    },
+    {
+      "path": "json/monsters/glabrezu.json",
+      "bytes": 5386,
+      "sha256": "21c98c2890e5ac0d2b2e33c2a8a41bbf452b97af0a5e66fdedc87b5ddd27d06b"
+    },
+    {
+      "path": "json/monsters/gladiator.json",
+      "bytes": 5135,
+      "sha256": "44baa0a446f2aa05bb363a6896c4256c127047ce907a0b6f428a24c385487e2e"
+    },
+    {
+      "path": "json/monsters/gnoll.json",
+      "bytes": 4329,
+      "sha256": "a8e23bca205936a355387e16e9196dc37e8b0b58519d730b6ff23886339f9f01"
+    },
+    {
+      "path": "json/monsters/goat.json",
+      "bytes": 4406,
+      "sha256": "0506588bfb2e4943b26cbe9f8d5d4296a7d5b1adf73832754d2f537e3819a707"
+    },
+    {
+      "path": "json/monsters/goblin-boss.json",
+      "bytes": 2501,
+      "sha256": "398ad95d70d2420d45cdd084f0f6e76e2df5a66fb68e49e3620e3f44901a64be"
+    },
+    {
+      "path": "json/monsters/goblin.json",
+      "bytes": 4444,
+      "sha256": "eec1e85168b1ed2ddc3a20ac67bdd090c4f473fd546116e60c62c1bb321f5d4c"
+    },
+    {
+      "path": "json/monsters/gold-dragon-wyrmling.json",
+      "bytes": 5201,
+      "sha256": "9b8212f11e1535e20d3f61045a3c4d7dc77d7f88aaf351df950b43c3cb558c57"
+    },
+    {
+      "path": "json/monsters/gorgon.json",
+      "bytes": 4931,
+      "sha256": "c1c91b1719f050803e33f21e38d87b28c680540ae7b851af55e5e1da73a59977"
+    },
+    {
+      "path": "json/monsters/gray-ooze.json",
+      "bytes": 4449,
+      "sha256": "072cc77dcb2be3b7c133e00cc450cdeac1fc53cfadccf7f108632818f4819264"
+    },
+    {
+      "path": "json/monsters/green-dragon-wyrmling.json",
+      "bytes": 4784,
+      "sha256": "53d4f68aca46c3b57c5e44169cac692edd870e1fe0be0e5ebc7dcb178a60ff4c"
+    },
+    {
+      "path": "json/monsters/green-hag.json",
+      "bytes": 4876,
+      "sha256": "9567e37083afcf28eb97d2d5fa471a6deeba636bfe0106f9a924185956b5fc72"
+    },
+    {
+      "path": "json/monsters/grick.json",
+      "bytes": 4733,
+      "sha256": "b3afe006dbdcb65203bdb3928a09b53a9a6212d8d49522967c99d283de0f327f"
+    },
+    {
+      "path": "json/monsters/griffon.json",
+      "bytes": 4810,
+      "sha256": "005f40e90d34eeb5ebb2941dbc954041ad707ba59afec42eed11a73c52b09f53"
+    },
+    {
+      "path": "json/monsters/grimlock.json",
+      "bytes": 4509,
+      "sha256": "0a84efd7677027337ba97eb09a6e29926975c388908f0d6c25cd97199532a64e"
+    },
+    {
+      "path": "json/monsters/guard.json",
+      "bytes": 4397,
+      "sha256": "521ef0d422bff57c5ec9fa5aae19350cd143b26277908b031138b3c21008c501"
+    },
+    {
+      "path": "json/monsters/guardian-naga.json",
+      "bytes": 5629,
+      "sha256": "0eb99587732186e0ccb6ffe1daaa520c2a407736cda48d8cc5bd252eec5c1ed7"
+    },
+    {
+      "path": "json/monsters/gynosphinx.json",
+      "bytes": 6926,
+      "sha256": "17ad23cc95c5a2d35ae2c1518a8c9d39c38ad7b46d5adae430c1237c67e09769"
+    },
+    {
+      "path": "json/monsters/half-red-dragon-veteran.json",
+      "bytes": 5463,
+      "sha256": "6b2474d144c1080c62bea761163417f9abd47f4be0fa88c8194ad2501bc815ec"
+    },
+    {
+      "path": "json/monsters/harpy.json",
+      "bytes": 4326,
+      "sha256": "a9d9f17f2ecbc845007e0fd888f63a5b8912366b9a1d6e5d7f544e5df4175e3c"
+    },
+    {
+      "path": "json/monsters/hawk.json",
+      "bytes": 4426,
+      "sha256": "b1776d30675dd3eac7311cc9a9193a8e30a1714ee9b0fd5265a3993cbafc3640"
+    },
+    {
+      "path": "json/monsters/hell-hound.json",
+      "bytes": 4889,
+      "sha256": "9909e15914094862f4c680809bccdea0ef0c9731aa89027f3846ba223da6127c"
+    },
+    {
+      "path": "json/monsters/hezrou.json",
+      "bytes": 5273,
+      "sha256": "24daae808dc70e2723d338d9666724a347ca57e2138f5d5f17803e5b5f7c7742"
+    },
+    {
+      "path": "json/monsters/hill-giant.json",
+      "bytes": 5021,
+      "sha256": "4a82ae3fdbc5d8a837cd8ade5a06b499245f2a79a720bc3254670f1ea4bedc1d"
+    },
+    {
+      "path": "json/monsters/hippogriff.json",
+      "bytes": 4434,
+      "sha256": "eb6ae5834a0c33c9f43438013da94d64c4c2dc5d13eb3feee562a8a175f1e9e8"
+    },
+    {
+      "path": "json/monsters/hobgoblin.json",
+      "bytes": 4495,
+      "sha256": "a69329e97b5db06080cc307100e8dc7b3c2fc652d5dcaab498f5f5d6e428be58"
+    },
+    {
+      "path": "json/monsters/homunculus.json",
+      "bytes": 4649,
+      "sha256": "5a07f40515948b1c37d8dfaa4cf889c564c6ecb1ae552985d13801997a6a3561"
+    },
+    {
+      "path": "json/monsters/horned-devil.json",
+      "bytes": 5558,
+      "sha256": "8d14cf34f8ae806d63e26bad2f43a484baa92c5f953a4d272b2b48c2f2d3a3bb"
+    },
+    {
+      "path": "json/monsters/hunter-shark.json",
+      "bytes": 5088,
+      "sha256": "e08f775dafac4af5bc7857d790d45cac63d3e4e2c40bbc817b0a231996757643"
+    },
+    {
+      "path": "json/monsters/hydra.json",
+      "bytes": 5213,
+      "sha256": "331c2748f74be7b4ab9b92df52b418e4a9cf591de9bb14394e3735e6ade82460"
+    },
+    {
+      "path": "json/monsters/hyena.json",
+      "bytes": 4445,
+      "sha256": "a1a9203da736f3ecc360a75d29092a9d4d04822637cc37fdd3851e4fa37b356b"
+    },
+    {
+      "path": "json/monsters/ice-devil.json",
+      "bytes": 5490,
+      "sha256": "30a3347e764c69766ab8aa154a18b8bfe4cd1971da7e3accf583330b525a9806"
+    },
+    {
+      "path": "json/monsters/ice-mephit.json",
+      "bytes": 5855,
+      "sha256": "b5f45d95eae6f156cb719108128da414ccf4bf2743f0c268a2be6db59f809e42"
+    },
+    {
+      "path": "json/monsters/imp.json",
+      "bytes": 4298,
+      "sha256": "27d4bd473ab0630b075d2e3d04a10708d97bda274637a12defa94c412b1c399f"
+    },
+    {
+      "path": "json/monsters/invisible-stalker.json",
+      "bytes": 5281,
+      "sha256": "82b80a0c40950f4978f831d36249f75b5f5e725a84d4074528a71b61f683d725"
+    },
+    {
+      "path": "json/monsters/iron-golem.json",
+      "bytes": 5539,
+      "sha256": "15a1c42f059daf204b25a287b8d5665ed3efb2e4d98d558ca866d48ae9c58763"
+    },
+    {
+      "path": "json/monsters/jackal.json",
+      "bytes": 4481,
+      "sha256": "aff3ed549ec749bee1c4397484e4fcb9c5c09b3f4060ff75aef496d3e9dd5074"
+    },
+    {
+      "path": "json/monsters/killer-whale.json",
+      "bytes": 5090,
+      "sha256": "14be1722e5d422f3bde990310bbef345ec3e456cfa5229342159d52dc4acf162"
+    },
+    {
+      "path": "json/monsters/knight.json",
+      "bytes": 4772,
+      "sha256": "38f559bd35407ba37e93cd44de8311e7e1085a9f98161354f6bc11ee3d7936ac"
+    },
+    {
+      "path": "json/monsters/kobold.json",
+      "bytes": 4464,
+      "sha256": "0e32072e62e082954d7f7c3477f332a32ed3c0b413954a2233cbc37d857fc946"
+    },
+    {
+      "path": "json/monsters/kraken.json",
+      "bytes": 7251,
+      "sha256": "c06c32da1d4f2f9d8ad113dc077cc8b8d7e5c93863e3a3b3980baf054fb8ebf4"
+    },
+    {
+      "path": "json/monsters/lamia.json",
+      "bytes": 4782,
+      "sha256": "ab54c917df1f52613abddf0d61391bcf27bb01a24e2077869f4218fc5ba6eb13"
+    },
+    {
+      "path": "json/monsters/lemure.json",
+      "bytes": 4336,
+      "sha256": "1ea2d23943f2cd9e6937eed676873561407d31453924564b9c759e22e3f0e816"
+    },
+    {
+      "path": "json/monsters/lich.json",
+      "bytes": 7855,
+      "sha256": "47d41a77b2276a6f6cf4e43e15587a4f16645c1c20c74b31f56065621a212d58"
+    },
+    {
+      "path": "json/monsters/lion.json",
+      "bytes": 4422,
+      "sha256": "789e3f9f876b5b30b2fb42d1ed2ac4babed7a30dca4d906f2706b9f03197db1f"
+    },
+    {
+      "path": "json/monsters/lizard.json",
+      "bytes": 4482,
+      "sha256": "6d793b775a9641ca3531fc43a80b00422bf2e23c6e03b102243e89d76d9e0f5b"
+    },
+    {
+      "path": "json/monsters/lizardfolk.json",
+      "bytes": 4513,
+      "sha256": "006cc856045c0800dbdfd08adfe12f41a34243dcc12746571aaa5a05f8a6fe18"
+    },
+    {
+      "path": "json/monsters/mage.json",
+      "bytes": 4969,
+      "sha256": "2e0975171f4aef9df0b2596ac46f0258cb317ca252bfbf9303392e1c5a067505"
+    },
+    {
+      "path": "json/monsters/magma-mephit.json",
+      "bytes": 4541,
+      "sha256": "db4cd4e31b664f7c43a7955426d82980898edbc159fb1e54f327277b44c28c53"
+    },
+    {
+      "path": "json/monsters/magmin.json",
+      "bytes": 4324,
+      "sha256": "92e7d80e61b3b0a689e9b5e7ce5d1649b33c9153508c712b8a49d60735273035"
+    },
+    {
+      "path": "json/monsters/mammoth.json",
+      "bytes": 5077,
+      "sha256": "4a3991bbd1b21f5eee7a99e98d417aef3df1e167602f1b999ea1c5ffb25b351b"
+    },
+    {
+      "path": "json/monsters/manticore.json",
+      "bytes": 4862,
+      "sha256": "845c2ec5f511f7f26c205e521da7c73bec4f6f60e07780f048cb5f7fde0447c2"
+    },
+    {
+      "path": "json/monsters/marilith.json",
+      "bytes": 5382,
+      "sha256": "0641405c5714c9eb3946eff590bc7feed32edb77a7f506929ee4bf1c87c9d530"
+    },
+    {
+      "path": "json/monsters/mastiff.json",
+      "bytes": 4516,
+      "sha256": "0c54b804932be8c325dc5b043418df149d12dc5eea2ed720ecc126c28aecbf39"
+    },
+    {
+      "path": "json/monsters/medusa.json",
+      "bytes": 4995,
+      "sha256": "faf65286b061df5ee54e79163256c69254035238881078ee1fc06ea0af7cceeb"
+    },
+    {
+      "path": "json/monsters/merfolk.json",
+      "bytes": 4412,
+      "sha256": "3389cf423528950424eaa8523b5db8faf58a08f56b39b7dc3998927ba876d74e"
+    },
+    {
+      "path": "json/monsters/merrow.json",
+      "bytes": 4790,
+      "sha256": "ed58918206972c22e02cff4d4e680234053f9a939f109c3c875eabf065608b5b"
+    },
+    {
+      "path": "json/monsters/mimic.json",
+      "bytes": 4745,
+      "sha256": "0ac9c40147c6220403fabeec1a54c5e327c2a0f0baeb2a61ed09f851d3f9e90c"
+    },
+    {
+      "path": "json/monsters/minotaur-skeleton.json",
+      "bytes": 4604,
+      "sha256": "ae46ece07fb4734bc625e9601f629845ad122fe70aabb2ee9ffcdef3de115fe7"
+    },
+    {
+      "path": "json/monsters/minotaur.json",
+      "bytes": 4819,
+      "sha256": "b124d1f06155bec05085ae6c1429b09610ef4cf89116997a9c1d193670641929"
+    },
+    {
+      "path": "json/monsters/monster_manifest.json",
+      "bytes": 53708,
+      "sha256": "6b27755c87950e713e4f6c02313087a04b0d23af6ded447cc66e9ff27f265213"
+    },
+    {
+      "path": "json/monsters/mule.json",
+      "bytes": 4422,
+      "sha256": "ab93ec62e0d3d6c83b3505fe2a741f2679c7107fe6b403573898517d3ad558db"
+    },
+    {
+      "path": "json/monsters/mummy-lord.json",
+      "bytes": 8801,
+      "sha256": "f281424616bfb166fdaf4533a5e078c1c42b72b2bd9e4187b755453b69406007"
+    },
+    {
+      "path": "json/monsters/mummy.json",
+      "bytes": 4908,
+      "sha256": "712636d5a687a2599bdba2ace7621fce519c000de7bbad064b3bbd662ec2073e"
+    },
+    {
+      "path": "json/monsters/nalfeshnee.json",
+      "bytes": 5438,
+      "sha256": "a91627f6333336d27dc559b487a8a89335dcc67686a1a077581de02054d5dbf8"
+    },
+    {
+      "path": "json/monsters/night-hag.json",
+      "bytes": 5124,
+      "sha256": "a1ee4aa09b7cc1cc04e10bea3a6b4ed393606113a61c4d8df6c4842b6d05f12d"
+    },
+    {
+      "path": "json/monsters/nightmare.json",
+      "bytes": 4824,
+      "sha256": "59e93ede34a3442543b71f7a02cf5d04a236455d97dfe283dbd0aaadc4d4bcdf"
+    },
+    {
+      "path": "json/monsters/noble.json",
+      "bytes": 4337,
+      "sha256": "48187b4bc123e29d778cfd80d2a850e459e49a4cb3750f4da40a228ab68ae258"
+    },
+    {
+      "path": "json/monsters/ochre-jelly.json",
+      "bytes": 4893,
+      "sha256": "b7c86b590960a9ce12b406f2bdb4f4262e36fd49e855b5b9015477905a444eac"
+    },
+    {
+      "path": "json/monsters/octopus.json",
+      "bytes": 4538,
+      "sha256": "43145a083c07949993d866e4b1d710077e3938ced472115901da0130e9a7bd82"
+    },
+    {
+      "path": "json/monsters/ogre-zombie.json",
+      "bytes": 5086,
+      "sha256": "e2365f01292fa7f05554e51282f9106c8d31d642af2fb113960afd2fe30f3949"
+    },
+    {
+      "path": "json/monsters/ogre.json",
+      "bytes": 4797,
+      "sha256": "aab1ab511f84919864e1828d50fa27ab8ed7cc03a699fddd79a42d8dea876c05"
+    },
+    {
+      "path": "json/monsters/oni.json",
+      "bytes": 6266,
+      "sha256": "0ec03836ca35b50ebdcaaa5438839f116049afccd9fd328e6928fb41d779652a"
+    },
+    {
+      "path": "json/monsters/orc.json",
+      "bytes": 4370,
+      "sha256": "d1824c86c14942e92bde4f331a88f33e84442fadf3032332b0c78bfc30b50efc"
+    },
+    {
+      "path": "json/monsters/otyugh.json",
+      "bytes": 4956,
+      "sha256": "fdbf47335298f3d5855765f6fb2542302b5039ef9bd47d83f4826c37c7aa0846"
+    },
+    {
+      "path": "json/monsters/owl.json",
+      "bytes": 4443,
+      "sha256": "28a95203e007c29532428a0ff905a013355c29de3208b9a35a75141c16092139"
+    },
+    {
+      "path": "json/monsters/owlbear.json",
+      "bytes": 4796,
+      "sha256": "5183da832a91583369a6aeb232cc0880e955371c60d2ffa6e5a7267ccb24cefd"
+    },
+    {
+      "path": "json/monsters/panther.json",
+      "bytes": 4528,
+      "sha256": "c03fbd4451cbc2c198ba05f340217468a25fecb90267a7abbaae2efc464757d1"
+    },
+    {
+      "path": "json/monsters/pegasus.json",
+      "bytes": 4883,
+      "sha256": "a168ee9b893f00635419df581fac6d2212e3f55df16d02952ba13a158edf7df1"
+    },
+    {
+      "path": "json/monsters/phase-spider.json",
+      "bytes": 4958,
+      "sha256": "1b6949a2a526beb3364766490f11118e4dd35e4b96e34b41f042d83735a2f2ab"
+    },
+    {
+      "path": "json/monsters/pit-fiend.json",
+      "bytes": 5482,
+      "sha256": "6959bb60ff44920acc552ddbf262163da5013e1b328a05d607919452e6bc4857"
+    },
+    {
+      "path": "json/monsters/planetar.json",
+      "bytes": 5410,
+      "sha256": "903306c9638bd35579c637da16a1efee4449c043817684706440c448b7b203d7"
+    },
+    {
+      "path": "json/monsters/plesiosaurus.json",
+      "bytes": 5096,
+      "sha256": "8fb7860e360d63ca1266c0935376e653d2fe7c35fcccdd49616e6aea2965a5ce"
+    },
+    {
+      "path": "json/monsters/poisonous-snake.json",
+      "bytes": 4785,
+      "sha256": "b9fef1ce658d69f6ec9f7a2d764d26e0c692e2ed0ca4ae88cf9942af4b996ef7"
+    },
+    {
+      "path": "json/monsters/polar-bear.json",
+      "bytes": 5038,
+      "sha256": "03b19ce45280bd7c73c8434f100806d1673c6cbd8950c4b38f309d9c38efe2d3"
+    },
+    {
+      "path": "json/monsters/pony.json",
+      "bytes": 4406,
+      "sha256": "09c0817346daeba0a9b43dd34f25252e4c1e5961efec025b52d92fea9bda026c"
+    },
+    {
+      "path": "json/monsters/priest.json",
+      "bytes": 4837,
+      "sha256": "40e486a7309b502092a208eb2f25849076c1c57664d0193d5f15385e879caad3"
+    },
+    {
+      "path": "json/monsters/pseudodragon.json",
+      "bytes": 4824,
+      "sha256": "d8e74cb5c878c4ad403cbd725b2782bc0d56937d181bd8f9db6a60267f42dc68"
+    },
+    {
+      "path": "json/monsters/purple-worm.json",
+      "bytes": 5439,
+      "sha256": "22ea5f360be5b905d051723dd73daf754b41b2c2bce83c0186f1ce5f17fd38ba"
+    },
+    {
+      "path": "json/monsters/quasit.json",
+      "bytes": 4320,
+      "sha256": "28de4a7d29925d671f5b562654a8baf613b6090c38823677130204479a3482ac"
+    },
+    {
+      "path": "json/monsters/quipper.json",
+      "bytes": 3594,
+      "sha256": "3706c768d8a6b7b607a2e683458e880a4de562184d42e0e6ff5826d39247d392"
+    },
+    {
+      "path": "json/monsters/rakshasa.json",
+      "bytes": 5115,
+      "sha256": "770586dd36f071f46876b324e330cc68c6edd222ef82dcb0cc4340670a80c068"
+    },
+    {
+      "path": "json/monsters/rat.json",
+      "bytes": 4402,
+      "sha256": "1ee1b2cf5feae56c0143ff59272e3a5f0e67feee72cae5a4080ba2476d46ea84"
+    },
+    {
+      "path": "json/monsters/raven.json",
+      "bytes": 4468,
+      "sha256": "8d4a2c0d9a90b31bc801ab8dc0f21073818570fae6048f54aa50d0b34896ef5c"
+    },
+    {
+      "path": "json/monsters/red-dragon-wyrmling.json",
+      "bytes": 5387,
+      "sha256": "b356cc93af670e7f440dbebe56eb6d7e976325ca5130ca9c7a8af59bd87dcc5f"
+    },
+    {
+      "path": "json/monsters/reef-shark.json",
+      "bytes": 4627,
+      "sha256": "85974c5a4322d604f319065967fa608ad166ca1b8b788919f3bb7895132e586e"
+    },
+    {
+      "path": "json/monsters/remorhaz.json",
+      "bytes": 5295,
+      "sha256": "a5a766038c6a82084ed9b1a7c66a81fc3a6ee763d63ab5b8c6ec78ec3967262c"
+    },
+    {
+      "path": "json/monsters/rhinoceros.json",
+      "bytes": 4963,
+      "sha256": "ee3c30a5fc6f686a57c5dc42f4a9d86560c84dc1b2feb642d4dea671df198976"
+    },
+    {
+      "path": "json/monsters/riding-horse.json",
+      "bytes": 4624,
+      "sha256": "3c2511503908dd56143f35edc119a0d2f403be888387df2d820e58680d4a1449"
+    },
+    {
+      "path": "json/monsters/roc.json",
+      "bytes": 5259,
+      "sha256": "3af78f51865a864eca0ba257b72c14deda38803dfeb7cd5d6f14940337c7f57f"
+    },
+    {
+      "path": "json/monsters/roper.json",
+      "bytes": 4913,
+      "sha256": "e07ac92ff91322a3a184a3d7e5ab7e6253c9bc5bb9b025da06b02ef1fe36d4cb"
+    },
+    {
+      "path": "json/monsters/rug-of-smothering.json",
+      "bytes": 5224,
+      "sha256": "9d1680b2c37b420c1229d90fe00aa9164d0beb9081111ad5a849128c31badad0"
+    },
+    {
+      "path": "json/monsters/rust-monster.json",
+      "bytes": 4503,
+      "sha256": "ef66cb4ee45d701e1e25cc68eb70b6d9709598815d825bd60f994fcad1adf02a"
+    },
+    {
+      "path": "json/monsters/saber-toothed-tiger.json",
+      "bytes": 5248,
+      "sha256": "1029ee8a86346a8cdcabf811173920217a1b2b8babbff8964459a90f9d97233f"
+    },
+    {
+      "path": "json/monsters/sahuagin.json",
+      "bytes": 4452,
+      "sha256": "a3e0906812d984ea2a1bb11bac785e76695b120eb2a24ba0ce8e1b7fd9ba67d7"
+    },
+    {
+      "path": "json/monsters/salamander.json",
+      "bytes": 5031,
+      "sha256": "04d7b7b21afa46dc235b86a46c5f707a9eb2fddf28e4b4579ddf0d5397e00a6e"
+    },
+    {
+      "path": "json/monsters/satyr.json",
+      "bytes": 4319,
+      "sha256": "dd92b09adad6781b4ab1f942545ccb2ddd0c64ce7f21ff791ff1d02066a2380e"
+    },
+    {
+      "path": "json/monsters/scorpion.json",
+      "bytes": 4543,
+      "sha256": "de989aeb29d4d5540816f38bf0233a65ef0776baa18bba031b008a91828cadce"
+    },
+    {
+      "path": "json/monsters/scout.json",
+      "bytes": 4498,
+      "sha256": "a3511fc0fb3dde3a40d9bb52ecb268598d1318fdc2f95a5cc74c52e6602ba6bc"
+    },
+    {
+      "path": "json/monsters/sea-hag.json",
+      "bytes": 8510,
+      "sha256": "b238bdad79a74d883538b00249a95c96fb634b6460aca202dcfc654fadefcff0"
+    },
+    {
+      "path": "json/monsters/sea-horse.json",
+      "bytes": 4548,
+      "sha256": "c6ba7ebe5e7e823530a279dd2a7356f28102e72f6b926caf9af4415870d3a3da"
+    },
+    {
+      "path": "json/monsters/shadow.json",
+      "bytes": 4526,
+      "sha256": "7b509f6c38f123f1c9b6661a70b9aee93b5d9957de5014dad1f0a645ab6c0d4e"
+    },
+    {
+      "path": "json/monsters/shambling-mound.json",
+      "bytes": 5199,
+      "sha256": "cc65dac8519e14818efc0827e3b9766e7b0d175505b2f047a11f185cc6e26501"
+    },
+    {
+      "path": "json/monsters/shield-guardian.json",
+      "bytes": 5396,
+      "sha256": "9b4894a2f1c792da039e3d16dd2514c725fa96afd78b6f5bdaf2ef7f1cf3bf03"
+    },
+    {
+      "path": "json/monsters/shrieker.json",
+      "bytes": 4379,
+      "sha256": "1c5ff9eda8197504e8c1b8724ce1fcebe99bc006931bc269a66cf56b2a3361ea"
+    },
+    {
+      "path": "json/monsters/silver-dragon-wyrmling.json",
+      "bytes": 5487,
+      "sha256": "a318add01f04d8fb1662548fc12bf3831c120e3873783197e87f17a13f951ce7"
+    },
+    {
+      "path": "json/monsters/skeleton.json",
+      "bytes": 4654,
+      "sha256": "0d2e6e69813375e9856ef8f12efdbeedea0e1869658c8eae0f5c02b7137eab65"
+    },
+    {
+      "path": "json/monsters/solar.json",
+      "bytes": 7165,
+      "sha256": "20e9cc2022fae04cd92d8ff88423c99da09820592770d81a918a868621e88e94"
+    },
+    {
+      "path": "json/monsters/specter.json",
+      "bytes": 4609,
+      "sha256": "d3fd7f6e8c414be6a9e1243d474feee4a93134d97ef726151aff1911b0306e2b"
+    },
+    {
+      "path": "json/monsters/spider.json",
+      "bytes": 3801,
+      "sha256": "68eec0a1bc7a9d685d5c5b2ea94d87997c379e924d347555641caf90abd3914c"
+    },
+    {
+      "path": "json/monsters/spirit-naga.json",
+      "bytes": 4534,
+      "sha256": "4bcaccb8ee23c85f9619b30f0cb8bff638bd65815490171be4c5399a465a98da"
+    },
+    {
+      "path": "json/monsters/sprite.json",
+      "bytes": 5855,
+      "sha256": "c8495c6539c9a42743ae944131fba189015dca53d8bbb093934d8dc7edec698c"
+    },
+    {
+      "path": "json/monsters/spy.json",
+      "bytes": 4381,
+      "sha256": "d4e30c31da23d080baa789cc45d035fe02a158f67cdea339b20b2bef29ed1a43"
+    },
+    {
+      "path": "json/monsters/steam-mephit.json",
+      "bytes": 4532,
+      "sha256": "1d301fa128c5ed7d1fa1f736d9b623018df6948803b0250888eb687d21436b2d"
+    },
+    {
+      "path": "json/monsters/stirge.json",
+      "bytes": 4574,
+      "sha256": "4cbeaff21112ba555055b943e24938f922c506e01ee030e4a9ade6b133abf48f"
+    },
+    {
+      "path": "json/monsters/stone-giant.json",
+      "bytes": 5145,
+      "sha256": "4ff4cd22cbba26314e2c62a46ff67e97caf868ed656554bd35a8d53074750ed3"
+    },
+    {
+      "path": "json/monsters/stone-golem.json",
+      "bytes": 5539,
+      "sha256": "ddeb837f5bd9ff542716702975f251dabc0d0ebca916867b5861b6babf17f9a4"
+    },
+    {
+      "path": "json/monsters/storm-giant.json",
+      "bytes": 5561,
+      "sha256": "08462c026d565d7aaddb9c9fe04e388741de2402a6a558108431926d7f795f94"
+    },
+    {
+      "path": "json/monsters/succubus-incubus.json",
+      "bytes": 5147,
+      "sha256": "586476332f6c623140172cea88f880d3f2c094ab48422e5b1077304e66e29ac2"
+    },
+    {
+      "path": "json/monsters/swarm-of-bats.json",
+      "bytes": 4747,
+      "sha256": "e5a2e39218f8ab0a7d76008d5aa1fee41f7ce5f51eccbcbf9f993e948d8ceae6"
+    },
+    {
+      "path": "json/monsters/swarm-of-beetles.json",
+      "bytes": 3904,
+      "sha256": "f538c8fb139cf083c5288998661e3804ab359521745ce04aaf1daee133ef0d97"
+    },
+    {
+      "path": "json/monsters/swarm-of-centipedes.json",
+      "bytes": 4156,
+      "sha256": "6d95369b460cf6b1ac688272f6468e7a1d4c8ac35383559d3e187fa35f4e5f54"
+    },
+    {
+      "path": "json/monsters/swarm-of-insects.json",
+      "bytes": 4844,
+      "sha256": "6ddc9bca59230ce00fa5b207c112944068b33274bf778cff7f47df158a3dd40c"
+    },
+    {
+      "path": "json/monsters/swarm-of-poisonous-snakes.json",
+      "bytes": 5472,
+      "sha256": "ac267520d3fcfc3e7432b787c83e8fc210c222b67cd2c34ad659a35142a5463f"
+    },
+    {
+      "path": "json/monsters/swarm-of-quippers.json",
+      "bytes": 4281,
+      "sha256": "819c83913eca889b04e3fddba067bf116b122e897ddc0c4ea0be4d3bcdbcdcc6"
+    },
+    {
+      "path": "json/monsters/swarm-of-rats.json",
+      "bytes": 4702,
+      "sha256": "43d0cd9d1e5ec115b4849a851bf7ee406f5b681c57d9dec4eede0350eb5b9707"
+    },
+    {
+      "path": "json/monsters/swarm-of-ravens.json",
+      "bytes": 4782,
+      "sha256": "19bbf5c46fcddcdeaf7a78b84b521a95246848d03d74e4c6519b74a6459e4b90"
+    },
+    {
+      "path": "json/monsters/swarm-of-spiders.json",
+      "bytes": 4389,
+      "sha256": "3fc9103971536402fb00758ae98541120fee5125ed673a8db62797e0324f3dfd"
+    },
+    {
+      "path": "json/monsters/swarm-of-wasps.json",
+      "bytes": 3838,
+      "sha256": "14e2bdc86855fdacc703981da1ab0be87ca235ec4ce926727be8c834c5b41287"
+    },
+    {
+      "path": "json/monsters/tarrasque.json",
+      "bytes": 6683,
+      "sha256": "1ada9970aa57a81fd6f8a4514613ec541a0e198fca53e188b75e824b5cc532c8"
+    },
+    {
+      "path": "json/monsters/thug.json",
+      "bytes": 4332,
+      "sha256": "fbb30198e668d3ffd97f06116857dc86b339112cee7dc2c7e6bb9d9d36362181"
+    },
+    {
+      "path": "json/monsters/tiger.json",
+      "bytes": 4482,
+      "sha256": "e4e9603cb7ebc5c11d2d2b5c5b29049d00429c9893491afa03ff37b772d85c26"
+    },
+    {
+      "path": "json/monsters/treant.json",
+      "bytes": 5196,
+      "sha256": "97ac98ca7d13bd18b5e2c3583e9729b134acdafca47690859a64d0a2dbc1090b"
+    },
+    {
+      "path": "json/monsters/tribal-warrior.json",
+      "bytes": 4643,
+      "sha256": "e6a0d7fb029a3216bb694f739089616a0055ce9f53d0924fc94be1efd6e7e5d9"
+    },
+    {
+      "path": "json/monsters/triceratops.json",
+      "bytes": 5158,
+      "sha256": "401d26990409312af5d136ea8acb5ba448dece2528adb26278df98f6e9b30f98"
+    },
+    {
+      "path": "json/monsters/troll.json",
+      "bytes": 4916,
+      "sha256": "6183ed6e7606ec89858e0275e66ddb46e78dfe547f70665013554590297f175e"
+    },
+    {
+      "path": "json/monsters/tyrannosaurus-rex.json",
+      "bytes": 5651,
+      "sha256": "3589584178ad0bfecb9f89a0be9ece9be32383ea9a5705d2e0d5289e23538f29"
+    },
+    {
+      "path": "json/monsters/unicorn.json",
+      "bytes": 6480,
+      "sha256": "2f23801bdf1803e64f7046120b6ea6047205139f0b25b0ae02e99390182dd12b"
+    },
+    {
+      "path": "json/monsters/vampire-spawn.json",
+      "bytes": 5379,
+      "sha256": "7540ed84f863fc686dd3314cad91878e741975741e378b4535ec8e4650d47749"
+    },
+    {
+      "path": "json/monsters/vampire.json",
+      "bytes": 6950,
+      "sha256": "8e0992ccd11b171bff9fde244465832e88f5e74b6dd0c7dc635356f61c4b485a"
+    },
+    {
+      "path": "json/monsters/veteran.json",
+      "bytes": 4911,
+      "sha256": "145418de95e44a47b0a21e0262d5238d9087ab6d4996fe6bba5880fad1daf143"
+    },
+    {
+      "path": "json/monsters/violet-fungus.json",
+      "bytes": 4525,
+      "sha256": "5e8d2fa7466bbdc1eefe73ecc5c81a457632732af7eaa2fc16385ffb6111aef3"
+    },
+    {
+      "path": "json/monsters/vrock.json",
+      "bytes": 4953,
+      "sha256": "60e55e8e003a9dd69ca533357e4f8d969ac56467215ff9971063500e0f3e1b95"
+    },
+    {
+      "path": "json/monsters/vulture.json",
+      "bytes": 4521,
+      "sha256": "e3792a914da95871ecd77ba1d905cf6a7fd1cbc422000d922a5fb14d5ba7fb39"
+    },
+    {
+      "path": "json/monsters/warhorse-skeleton.json",
+      "bytes": 4782,
+      "sha256": "8f96eb41c1d8aeb71d6e4d91e26804e2aeaa7abc6ec9949aa44b455e3d77b6e8"
+    },
+    {
+      "path": "json/monsters/warhorse.json",
+      "bytes": 4514,
+      "sha256": "0cd6a22c353c6364027a7716be04ac833da5ab534aaa1415e34c567ca6336aa3"
+    },
+    {
+      "path": "json/monsters/water-elemental.json",
+      "bytes": 5185,
+      "sha256": "503e8df2f62045a83bbda01d4daa11c1b09795ff5d572a49e8b72655412b8b86"
+    },
+    {
+      "path": "json/monsters/weasel.json",
+      "bytes": 4474,
+      "sha256": "0a4e06d29312445a70f3beec5570981c8c9ef324695a74ffb0377d1e2b7030a8"
+    },
+    {
+      "path": "json/monsters/werebear.json",
+      "bytes": 5029,
+      "sha256": "deacc515848a3a620d01f0e78b8e442e58cfa9eb97bffe42afb9f888498c4090"
+    },
+    {
+      "path": "json/monsters/wereboar.json",
+      "bytes": 4822,
+      "sha256": "7101c8a968fa8df55487b389526d17a80a378a8b159797c9e4cf1d75867efb7e"
+    },
+    {
+      "path": "json/monsters/wererat.json",
+      "bytes": 4874,
+      "sha256": "915dfb27cf7bed762d2f5036e9d1cf225b666a673bf4336de876c40e63e53576"
+    },
+    {
+      "path": "json/monsters/weretiger.json",
+      "bytes": 4922,
+      "sha256": "1e28b1760d386e8ace98cdba8f0299e12cdb057ea5f188ee0667eb71562b85b6"
+    },
+    {
+      "path": "json/monsters/werewolf.json",
+      "bytes": 4815,
+      "sha256": "b23ab50451fb3f47b722fa41ab449e4b3609799e0bdd980011f2e7308977888f"
+    },
+    {
+      "path": "json/monsters/white-dragon-wyrmling.json",
+      "bytes": 5464,
+      "sha256": "46d4d1719af1958892da59ee32eedc5844110b08c0ab951daa2f3cc65a2eb72a"
+    },
+    {
+      "path": "json/monsters/wight.json",
+      "bytes": 4987,
+      "sha256": "f219d4d41e24e11254facae43aff604d3bdac619e7697c87b1a68c516b68521c"
+    },
+    {
+      "path": "json/monsters/will-o-wisp.json",
+      "bytes": 5071,
+      "sha256": "5ae1dc22b12c822ec3e0aa1533b589d5a6d2dbd28dac26a8f0ef12559328808c"
+    },
+    {
+      "path": "json/monsters/winter-wolf.json",
+      "bytes": 4914,
+      "sha256": "6ed39bb71f1d07b20c2c19d46f6340c59818257cf812a9d3ad11e63065bd5f97"
+    },
+    {
+      "path": "json/monsters/wolf.json",
+      "bytes": 4459,
+      "sha256": "711665155173640cfc4a3e3582464eaf6389625456a5cc698b94cfbebaa5ca52"
+    },
+    {
+      "path": "json/monsters/worg.json",
+      "bytes": 4302,
+      "sha256": "949574ba13b43eb3412d8f8d9e72b8efd44cafe1bc863134477a52696ed25df6"
+    },
+    {
+      "path": "json/monsters/wraith.json",
+      "bytes": 5139,
+      "sha256": "f269a5d39f4771744ed5e1d2144f1872a22f1cfcda12e23d90c9c5760770a6ae"
+    },
+    {
+      "path": "json/monsters/wyvern.json",
+      "bytes": 5087,
+      "sha256": "a47c402f52a4afd4a5a29cee8295e690713d57009045bd37ab8a73c52e457111"
+    },
+    {
+      "path": "json/monsters/xorn.json",
+      "bytes": 4903,
+      "sha256": "452f0b55e4d1396da2056151bd12516a413a49c3b46c175f8955e0706729c7cc"
+    },
+    {
+      "path": "json/monsters/young-black-dragon.json",
+      "bytes": 5578,
+      "sha256": "b51a47fe7b7c483600f6b23b597bdaafe9c4ea21c00a8ef8a291b1459cee1f4b"
+    },
+    {
+      "path": "json/monsters/young-blue-dragon.json",
+      "bytes": 5940,
+      "sha256": "e584aecfc61cc1514b417ddb7fad29ab57a481bb93a228a706772e2fa4ecc78c"
+    },
+    {
+      "path": "json/monsters/young-brass-dragon.json",
+      "bytes": 6241,
+      "sha256": "2e9beab8f7eb893ce2672ca5b65f91a41dc375bbae3b7e5f55e032dd30363508"
+    },
+    {
+      "path": "json/monsters/young-bronze-dragon.json",
+      "bytes": 6416,
+      "sha256": "40bbf65bb80a0bdd95bb3293680eeb98388264a4bae922078a2d7eba9efa7245"
+    },
+    {
+      "path": "json/monsters/young-copper-dragon.json",
+      "bytes": 6477,
+      "sha256": "6b9becf08c88e03c4aa39dfa1a57f33d211c4c4157215c4e2489cb291cabc23e"
+    },
+    {
+      "path": "json/monsters/young-gold-dragon.json",
+      "bytes": 6514,
+      "sha256": "731f49f93addabd2e16b369ee78d868b45d8827800f75615287564ca4b3c4b5f"
+    },
+    {
+      "path": "json/monsters/young-green-dragon.json",
+      "bytes": 5893,
+      "sha256": "4bd3484fd5f4044765de3d3eac0893224d77c4192eef818600cd34c8ecee8be0"
+    },
+    {
+      "path": "json/monsters/young-red-dragon.json",
+      "bytes": 5806,
+      "sha256": "793c27300366fc8f37cbdb65b6d7461697dcded67a95aa54c863c07082d6b799"
+    },
+    {
+      "path": "json/monsters/young-silver-dragon.json",
+      "bytes": 6332,
+      "sha256": "f0efcfa52e764adb6ddfc776de6259981faaeaf021bb329f9fc9bd9d6ec7c69c"
+    },
+    {
+      "path": "json/monsters/young-white-dragon.json",
+      "bytes": 5617,
+      "sha256": "7a3955a3dc37a91eb60f286ffb06f803362bc1b4ce5340edde7bd857e7cb8bc1"
+    },
+    {
+      "path": "json/monsters/zombie.json",
+      "bytes": 4575,
+      "sha256": "2846a3951b26e9b4b1ee36d4c7c2ca9b0d3f6d4fecaa720e91420269db73d62f"
+    },
+    {
+      "path": "json/monsters_index.json",
+      "bytes": 2410091,
+      "sha256": "1d8f324484c708ff1f071aa02454b71bb4ba7c665064b8e5cb0366cabea0ef91"
+    },
+    {
+      "path": "json/pantheon.json",
+      "bytes": 192955,
+      "sha256": "b5b324414b5a2daa9314feca630dc125de3b5e64eb76808b06e83252aa69ae1f"
+    },
+    {
+      "path": "json/activeworkspace_schema.json",
+      "bytes": 3945,
+      "sha256": "101be50e703571262a5a1f60a4822709438edff891e3d7b3e9b7a74a05944330"
+    },
+    {
+      "path": "json/races.json",
+      "bytes": 164879,
+      "sha256": "5ea637d7e068b894934fa88c37d8563e3e89822efb9d6e6ea19bb1103c6e5330"
+    },
+    {
+      "path": "json/sample_encounter.json",
+      "bytes": 4627,
+      "sha256": "26d118184b89a1ee020c9efc4ae2b583553c5ad50b06bc86ebc6ad166b4a3ff2"
+    },
+    {
+      "path": "json/spells.json",
+      "bytes": 849469,
+      "sha256": "d2fa46221a51220041f792a46b78d8c62a05a0169c9082a3da123e2fee0a3613"
+    },
+    {
+      "path": "json/token_library_catalog.json",
+      "bytes": 7743,
+      "sha256": "0385940389b8d51a6d56e8d7293a89b848cfba66a373b3d8dd81b0f8e8dfb76d"
+    }
+  ]
+}

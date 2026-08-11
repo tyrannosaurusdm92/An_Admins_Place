@@ -1,0 +1,1670 @@
+{
+  "schema": "universal.architect-truth.v1.4",
+  "version": "1.4.0",
+  "generated_at": "2026-07-25T16:00:00-04:00",
+  "cosmology": {
+    "true_gods_exist": false,
+    "architects_are": "Exactly twenty-two members of a dissident Thay’lmériûn sect who presented themselves as gods on Universal.",
+    "public_masks": 22,
+    "original_planet": "A desolate, predominantly lava-based planet before terraforming.",
+    "terraforming": "The sect transformed a predominantly lava-based world into a dense greenhouse planet through twenty-two exclusive environmental mandates.",
+    "class_manipulation": "The twenty-two class channels were deliberately tuned to the sect members’ claimed divine identities so power manifestation would reinforce their cults.",
+    "era_invariance": "All twenty-two classes and all six path families are available in every era and location; expression and equipment change, not class identity.",
+    "sect_size": 22,
+    "sect_motive": "They rejected the cultivated and synthetic food sources used by much of Thay’lmériûn civilization.",
+    "theft": "They stole experimental genetic code and terraforming technology.",
+    "origin_context": "The Twenty-Two are one predatory sect within the larger Thay’lmériûn civilization. This edition includes all 34 Universal homeworld peoples and all 26 preserved Alien-Folk profiles present in the attached concordance.",
+    "terraforming_assignment_rule": "Every listed biome variant has exactly one responsible Architect; every Architect has at least one assignment; overlap is prohibited.",
+    "genome_program_scope": "The Universal homeworld peoples are included as populations shaped by or descended from the stolen genetic program. The Alien-Folk are independent off-world peoples. Public race-to-deity associations describe religion and culture rather than compulsory worship or sole biological ownership.",
+    "race_catalog_counts": {
+      "homeworld": 34,
+      "alien_folk": 26,
+      "total": 60
+    }
+  },
+  "architect_masks": [
+    {
+      "id": "nebyrr",
+      "public_mask_name": "Nebyrr",
+      "mask_order": 1,
+      "class_channel": "Covenant Aegis",
+      "public_titles": [
+        "Sovereign of Sacred Union",
+        "Architect of Civic Continuity",
+        "Queen of Sanctioned Order"
+      ],
+      "presented_domains": [
+        "civilization",
+        "civic continuity",
+        "dynasties",
+        "marriage",
+        "inheritance",
+        "social order"
+      ],
+      "manifestation": "Nebyrr appears as a towering noble figure with soft features that never blink at the correct time. Their skin resembles polished ivory stretched over moving shadows. Their hands are delicate and warm during feeding, often cradling the face or chest of favored followers like a lover or parent.",
+      "true_nature": "Nebyrr is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Mountains — Valley.",
+      "image": "assets/architect_masks/nebyrr.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Mountains",
+          "biome": "Valley",
+          "path": "biomes/Mountains/Valley",
+          "terraforming_rationale": "Sheltered valleys naturally gather settlements, dynasties, inheritance, agriculture, marriage, and ordered civilization."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "maitae",
+          "race_name": "Maitaetiljin",
+          "race_category": "Hearth-Road Peoples",
+          "role": "kinship patron",
+          "rationale": "Inheritance carried through households, guest bonds, and settled orchard communities connects them to lineage and social order."
+        },
+        {
+          "race_id": "heimujuryz",
+          "race_name": "Heimujuryz",
+          "race_category": "Many-Kindred Warclans",
+          "role": "lineage patron",
+          "rationale": "Clan memory and kinship across diverse bodies place ancestry, inheritance, and social continuity under Nebyrr."
+        },
+        {
+          "race_id": "laubakir",
+          "race_name": "Läúbakirruna",
+          "race_category": "Borderland Colossi",
+          "role": "civic patron",
+          "rationale": "Their range from pastoral confederacies to large urban polities connects them to civilization, inheritance, and ordered rule."
+        },
+        {
+          "race_id": "szucarin",
+          "race_name": "Szûcarín",
+          "race_category": "Draconic and Reptilian Peoples",
+          "role": "dynastic patron",
+          "rationale": "Inheritance, lineage law, and long dynastic memory make Nebyrr central to Szûcarín households and courts."
+        },
+        {
+          "race_id": "deorbasun",
+          "race_name": "Deorbasun",
+          "race_category": "Beast-Souled Peoples",
+          "role": "social-duty patron",
+          "rationale": "Their animal expression never overrides personhood or communal duty, which connects kinship obligations to Nebyrr’s social order."
+        },
+        {
+          "race_id": "c03",
+          "race_name": "Wimokhurumī",
+          "race_category": "Shellscript Folk",
+          "role": "law-and-lineage patron",
+          "rationale": "Recorded law and family history place inheritance and civic order under Nebyrr."
+        },
+        {
+          "race_id": "c09",
+          "race_name": "Nunzāozhenur",
+          "race_category": "Memory-Loom Folk",
+          "role": "civic-personhood patron",
+          "rationale": "Their legal recognition as persons and communal stewardship of memory are tied to civilization and social order."
+        },
+        {
+          "race_id": "c12",
+          "race_name": "Thalojomammǫ",
+          "race_category": "Cliffsong Folk",
+          "role": "law patron",
+          "rationale": "Encoding law and civic agreements in song connects the Cliffsong Folk to ordered civilization."
+        },
+        {
+          "race_id": "c27",
+          "race_name": "Trábuẹmapgir",
+          "race_category": "Chromatic Empaths",
+          "role": "social-trust patron",
+          "rationale": "Public honesty balanced with privacy has become part of civic law and social order."
+        }
+      ],
+      "race_association_count": 9,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/0"
+    },
+    {
+      "id": "sigrananna",
+      "public_mask_name": "Sigrananna",
+      "mask_order": 2,
+      "class_channel": "Relentless Doomtracker",
+      "public_titles": [
+        "Moonlit Huntress",
+        "Keeper of Wild Thresholds",
+        "Warden of Living Forests"
+      ],
+      "presented_domains": [
+        "forests",
+        "moonlight",
+        "wilderness",
+        "hunters",
+        "living woodland"
+      ],
+      "manifestation": "Sigrananna appears ethereal, with silver-black hair flowing as though underwater, and a smile that reveals too many teeth when closely observed.",
+      "true_nature": "Sigrananna is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Forest — Lush Forest, Wetlands — Mangrove Wetlands.",
+      "image": "assets/architect_masks/sigrananna.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Forest",
+          "biome": "Lush Forest",
+          "path": "biomes/Forest/Lush Forest",
+          "terraforming_rationale": "Dense living woodland directly reflects her dominion over forests, hunters, moonlight, and wilderness."
+        },
+        {
+          "category": "Wetlands",
+          "biome": "Mangrove Wetlands",
+          "path": "biomes/Wetlands/Mangrove Wetlands",
+          "terraforming_rationale": "Mangrove forests are living thresholds between land and water, suited to wilderness and hidden hunters."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "lumhishu",
+          "race_name": "Lumhishūhito",
+          "race_category": "Elderwood Peoples",
+          "role": "primary patron",
+          "rationale": "Forest ancestry, long life, grace, and woodland stewardship place the Lumhishūhito most closely under the Moonlit Huntress."
+        },
+        {
+          "race_id": "laubakir",
+          "race_name": "Läúbakirruna",
+          "race_category": "Borderland Colossi",
+          "role": "grove patron",
+          "rationale": "Grove-adapted lineages and forest border settlements recognize Sigrananna’s authority over living woodland."
+        },
+        {
+          "race_id": "deorbasun",
+          "race_name": "Deorbasun",
+          "race_category": "Beast-Souled Peoples",
+          "role": "wilderness patron",
+          "rationale": "Guardian duties across forests, mountains, and hunting grounds place many Deorbasun traditions under Sigrananna."
+        },
+        {
+          "race_id": "c06",
+          "race_name": "Byevaichetar",
+          "race_category": "Moonmolt Folk",
+          "role": "primary patron",
+          "rationale": "Lunar cycles are the organizing principle of Moonmolt bodies and civic life."
+        }
+      ],
+      "race_association_count": 4,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/1"
+    },
+    {
+      "id": "marduthor",
+      "public_mask_name": "Marduthor",
+      "mask_order": 3,
+      "class_channel": "Ironroot Colossus",
+      "public_titles": [
+        "Architect Artificer",
+        "Master of Forge and Stone",
+        "Architect of Sacred Industry"
+      ],
+      "presented_domains": [
+        "invention",
+        "craft",
+        "metalwork",
+        "architecture",
+        "subterranean halls"
+      ],
+      "manifestation": "Marduthor’s body carries visible seams beneath the skin like forged metal plates imperfectly fitted.",
+      "true_nature": "Marduthor is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Volcanic — Obsidian Fields, Underground — Geothermal Caves.",
+      "image": "assets/architect_masks/marduthor.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Volcanic",
+          "biome": "Obsidian Fields",
+          "path": "biomes/Volcanic/Obsidian Fields",
+          "terraforming_rationale": "Obsidian joins volcanic stone with cutting craft, architecture, forge-work, and sacred industry."
+        },
+        {
+          "category": "Underground",
+          "biome": "Geothermal Caves",
+          "path": "biomes/Underground/Geothermal Caves",
+          "terraforming_rationale": "Geothermal caves unite subterranean halls, stone, heat, metalwork, invention, and forge-like industry."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "labunail",
+          "race_name": "Labúnäilbaer",
+          "race_category": "Stone-Under Peoples",
+          "role": "primary patron",
+          "rationale": "Precision craft, pressure engineering, architecture, and subterranean halls make Marduthor the strongest patron of Labúnäilbaer society."
+        },
+        {
+          "race_id": "panolima",
+          "race_name": "Panolima",
+          "race_category": "Elemental Peoples",
+          "role": "earth-and-fire patron",
+          "rationale": "Earth and fire bloodlines honor transformation through stone, heat, craft, and controlled material change."
+        },
+        {
+          "race_id": "geisamahi",
+          "race_name": "Geisamahi",
+          "race_category": "Small Mammalian Peoples",
+          "role": "primary patron",
+          "rationale": "Tinkering, repair, precision building, and work in constrained spaces place Geisamahi craft under Marduthor."
+        },
+        {
+          "race_id": "c03",
+          "race_name": "Wimokhurumī",
+          "race_category": "Shellscript Folk",
+          "role": "primary patron",
+          "rationale": "Mineral backplates that grow as maps, legal records, and crafted archives join stone, architecture, and skilled making."
+        },
+        {
+          "race_id": "c10",
+          "race_name": "Tsovašwimóm",
+          "race_category": "Hearthforged Folk",
+          "role": "craft patron",
+          "rationale": "Ceramic firing, woodcraft, and deliberate construction make Marduthor an important maker-patron."
+        },
+        {
+          "race_id": "c11",
+          "race_name": "Köpounnälanvar",
+          "race_category": "Clockfeather Folk",
+          "role": "mechanism patron",
+          "rationale": "Clockwork maintenance and transit infrastructure place skilled engineering under Marduthor."
+        },
+        {
+          "race_id": "c20",
+          "race_name": "Shahreshōchü",
+          "race_category": "Silkroot Folk",
+          "role": "builder patron",
+          "rationale": "Living silk bridges and anchored architecture make sacred construction a major secondary tradition."
+        },
+        {
+          "race_id": "c22",
+          "race_name": "Fahánčoatani",
+          "race_category": "Shadowstitch Folk",
+          "role": "craft patron",
+          "rationale": "Sewing shadows into shelters and tools treats impossible material as a disciplined craft."
+        }
+      ],
+      "race_association_count": 8,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/2"
+    },
+    {
+      "id": "ishtanora",
+      "public_mask_name": "Ishtanora",
+      "mask_order": 4,
+      "class_channel": "Ashen Lifebringer",
+      "public_titles": [
+        "Keeper of Hearth and Harvest",
+        "Mother of the Quiet Village",
+        "Warden of Cultivated Plenty"
+      ],
+      "presented_domains": [
+        "hearths",
+        "harvests",
+        "villages",
+        "fertility",
+        "rural peace"
+      ],
+      "manifestation": "Ishtanora appears comforting at first glance, radiating maternal warmth that conceals profound hunger.",
+      "true_nature": "Ishtanora is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Plains — Farming.",
+      "image": "assets/architect_masks/ishtanora.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Plains",
+          "biome": "Farming",
+          "path": "biomes/Plains/Farming",
+          "terraforming_rationale": "Cultivated fields are the direct expression of harvest, village life, fertility, and rural peace."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "maitae",
+          "race_name": "Maitaetiljin",
+          "race_category": "Hearth-Road Peoples",
+          "role": "primary patron",
+          "rationale": "Hearth hospitality, orchards, cultivated plenty, and peaceful household life directly reflect Ishtanora’s domains."
+        },
+        {
+          "race_id": "c10",
+          "race_name": "Tsovašwimóm",
+          "race_category": "Hearthforged Folk",
+          "role": "hearth patron",
+          "rationale": "The donated story is fired within a hearth-centered birth rite, linking new life to home and village continuity."
+        },
+        {
+          "race_id": "c17",
+          "race_name": "Losōbhūsmoe",
+          "race_category": "Tidefur Folk",
+          "role": "garden patron",
+          "rationale": "Floating civic gardens and food stewardship give Ishtanora a secondary role in cultivated abundance."
+        },
+        {
+          "race_id": "c19",
+          "race_name": "Dātseṣapyal",
+          "race_category": "Gelweave Folk",
+          "role": "communal-labor patron",
+          "rationale": "Voluntary weaving for heavy labor is celebrated through village cooperation and peaceful shared work."
+        },
+        {
+          "race_id": "c20",
+          "race_name": "Shahreshōchü",
+          "race_category": "Silkroot Folk",
+          "role": "cultivation patron",
+          "rationale": "Terrace gardens, nurseries, and community food systems connect them to harvest and village plenty."
+        }
+      ],
+      "race_association_count": 5,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/3"
+    },
+    {
+      "id": "enkirael",
+      "public_mask_name": "Enkirael",
+      "mask_order": 5,
+      "class_channel": "Dreadcrown Marshal",
+      "public_titles": [
+        "Lord of Conquest and Fury",
+        "The Unrestrained Blade",
+        "Patron of Martial Survival"
+      ],
+      "presented_domains": [
+        "conquest",
+        "fury",
+        "survival",
+        "dominance",
+        "warfare"
+      ],
+      "manifestation": "Enkirael’s humanoid form constantly flexes as though restraining violence beneath the skin.",
+      "true_nature": "Enkirael is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Volcanic — Lava Fields, Wasteland — Scorched Wasteland.",
+      "image": "assets/architect_masks/enkirael.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Volcanic",
+          "biome": "Lava Fields",
+          "path": "biomes/Volcanic/Lava Fields",
+          "terraforming_rationale": "Unrestrained lava mirrors conquest, fury, violent survival, dominance, and consuming warfare."
+        },
+        {
+          "category": "Wasteland",
+          "biome": "Scorched Wasteland",
+          "path": "biomes/Wasteland/Scorched Wasteland",
+          "terraforming_rationale": "A land burned by conflict and fury remains the clearest ecological scar of conquest and war."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "heimujuryz",
+          "race_name": "Heimujuryz",
+          "race_category": "Many-Kindred Warclans",
+          "role": "martial-survival patron",
+          "rationale": "Warclan traditions invoke Enkirael for survival and defense while explicitly rejecting the belief that ancestry requires violence."
+        },
+        {
+          "race_id": "aburata",
+          "race_name": "Aburata",
+          "race_category": "Dual-Form Equine Peoples",
+          "role": "heat-and-command patron",
+          "rationale": "Heat, forceful presence, and martial ambition draw some Aburata houses toward Enkirael’s survival cults."
+        }
+      ],
+      "race_association_count": 2,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/4"
+    },
+    {
+      "id": "anubaldir",
+      "public_mask_name": "Anubaldir",
+      "mask_order": 6,
+      "class_channel": "Moonfang Bastion",
+      "public_titles": [
+        "Bearer of the Heavens",
+        "Colossus of Endurance",
+        "The Unbroken Foundation"
+      ],
+      "presented_domains": [
+        "endurance",
+        "burden",
+        "strength",
+        "resilience"
+      ],
+      "manifestation": "Anubaldir resembles a massive weathered giant whose flesh cracks like stone under pressure.",
+      "true_nature": "Anubaldir is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Mountains — Mountain Range, Wasteland — Barren Wasteland.",
+      "image": "assets/architect_masks/anubaldir.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Mountains",
+          "biome": "Mountain Range",
+          "path": "biomes/Mountains/Mountain Range",
+          "terraforming_rationale": "Mountain ranges embody immense weight, endurance, strength, and the burden of holding the world firm."
+        },
+        {
+          "category": "Wasteland",
+          "biome": "Barren Wasteland",
+          "path": "biomes/Wasteland/Barren Wasteland",
+          "terraforming_rationale": "Survival in absolute barrenness is a pure test of endurance, resilience, burden, and unbroken strength."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "labunail",
+          "race_name": "Labúnäilbaer",
+          "race_category": "Stone-Under Peoples",
+          "role": "foundation patron",
+          "rationale": "Their mineral-adapted bodies, deep-earth endurance, and responsibility for holding tunnels secure reflect burden, strength, and resilience."
+        },
+        {
+          "race_id": "laubakir",
+          "race_name": "Läúbakirruna",
+          "race_category": "Borderland Colossi",
+          "role": "primary patron",
+          "rationale": "Colossal bodies, mountain endurance, and the political burden of border guardianship strongly align with Anubaldir."
+        },
+        {
+          "race_id": "c03",
+          "race_name": "Wimokhurumī",
+          "race_category": "Shellscript Folk",
+          "role": "endurance patron",
+          "rationale": "Slow travel and protective mineral bodies reflect patience, burden, and resilience."
+        }
+      ],
+      "race_association_count": 3,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/5"
+    },
+    {
+      "id": "valkhamesh",
+      "public_mask_name": "Valkhamesh",
+      "mask_order": 7,
+      "class_channel": "Drakebolt Machinist",
+      "public_titles": [
+        "High Father of Heaven",
+        "Storm-King",
+        "Sovereign of Ancient Dominion"
+      ],
+      "presented_domains": [
+        "volcanic sovereignty",
+        "storms",
+        "ancient dominion",
+        "thunderous judgment"
+      ],
+      "manifestation": "A radiant, storm-crowned sovereign whose composure feels heavier than gravity. Lightning answers judgment, and silence settles around acts of defiance.",
+      "true_nature": "Valkhamesh is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Volcanic — Volcanic Mountains.",
+      "image": "assets/architect_masks/valkhamesh.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Volcanic",
+          "biome": "Volcanic Mountains",
+          "path": "biomes/Volcanic/Volcanic Mountains",
+          "terraforming_rationale": "Storm-crowned volcanic peaks express ancient dominion, sovereignty, thunderous judgment, and storm-crowned power."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "szucarin",
+          "race_name": "Szûcarín",
+          "race_category": "Draconic and Reptilian Peoples",
+          "role": "primary patron",
+          "rationale": "Draconic bloodlines, dynastic memory, storms, and sovereign lineages place the Szûcarín directly within Valkhamesh’s claimed dominion."
+        }
+      ],
+      "race_association_count": 1,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/6"
+    },
+    {
+      "id": "freyseth",
+      "public_mask_name": "Freyseth",
+      "mask_order": 8,
+      "class_channel": "Riftbane Spellwarden",
+      "public_titles": [
+        "Liminal Matron of Thresholds",
+        "Keeper of Crossroads",
+        "Mistress of Forbidden Pacts"
+      ],
+      "presented_domains": [
+        "crossroads",
+        "curses",
+        "liminal thresholds",
+        "temptation",
+        "forbidden pacts"
+      ],
+      "manifestation": "A many-aspected figure whose outline seems to occupy several thresholds at once. Light, shadow, and distance disagree around her body.",
+      "true_nature": "Freyseth is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Wasteland — Ruined Landscape.",
+      "image": "assets/architect_masks/freyseth.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Wasteland",
+          "biome": "Ruined Landscape",
+          "path": "biomes/Wasteland/Ruined Landscape",
+          "terraforming_rationale": "Ruins become cursed crossroads between former purpose and forbidden possibility, ideal for pacts and temptation."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "kaluseban",
+          "race_name": "Kaluseban",
+          "race_category": "Ley-Bound Peoples",
+          "role": "threshold patron",
+          "rationale": "Ley crossings, planar boundaries, inherited magical marks, and dangerous bargains connect Kaluseban rites to the Keeper of Crossroads."
+        },
+        {
+          "race_id": "enad",
+          "race_name": "Enâdkedzâd",
+          "race_category": "Planar-Marked Peoples",
+          "role": "primary patron",
+          "rationale": "Planar bloodlines, boundary marks, curses, and binding vows are the clearest expression of Freyseth’s crossroads and pact domains."
+        },
+        {
+          "race_id": "gandirosha",
+          "race_name": "Gandirosha",
+          "race_category": "Fey-Folk",
+          "role": "bargain patron",
+          "rationale": "Court bargains, dangerous promises, and threshold etiquette make Freyseth an important cautionary patron."
+        },
+        {
+          "race_id": "volsarii",
+          "race_name": "Volsarii",
+          "race_category": "Liminal and Spirit Peoples",
+          "role": "threshold patron",
+          "rationale": "Their liminal balance and work at boundaries between states place crossings under Freyseth."
+        },
+        {
+          "race_id": "c28",
+          "race_name": "Zaktadaitü",
+          "race_category": "Mirror-Time Folk",
+          "role": "choice-threshold patron",
+          "rationale": "Choosing which temporal perspective guides the present is treated as a crossing between possible paths."
+        }
+      ],
+      "race_association_count": 5,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/7"
+    },
+    {
+      "id": "nefarokir",
+      "public_mask_name": "Nefarokir",
+      "mask_order": 9,
+      "class_channel": "Derecho Death Dealer",
+      "public_titles": [
+        "Keeper of the Design",
+        "Administrator of Death",
+        "Lord of the Forgotten Dead"
+      ],
+      "presented_domains": [
+        "death",
+        "spirits",
+        "memory",
+        "burial",
+        "forgotten dead",
+        "underworld"
+      ],
+      "manifestation": "An immaculate funerary sovereign whose stillness resembles a judgment already entered into an unseen ledger.",
+      "true_nature": "Nefarokir is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Mountains — Deep Cavern, Underground — Deep Caverns.",
+      "image": "assets/architect_masks/nefarokir.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Mountains",
+          "biome": "Deep Cavern",
+          "path": "biomes/Mountains/Deep Cavern",
+          "terraforming_rationale": "The deepest mountain caverns belong to the keeper of burial, forgotten spirits, death, and the underworld."
+        },
+        {
+          "category": "Underground",
+          "biome": "Deep Caverns",
+          "path": "biomes/Underground/Deep Caverns",
+          "terraforming_rationale": "The lowest and most forgotten caverns are the deepest depths of death, memory, burial, and the underworld."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "labunail",
+          "race_name": "Labúnäilbaer",
+          "race_category": "Stone-Under Peoples",
+          "role": "deep-memory patron",
+          "rationale": "Geological memory and the deepest inhabited caverns are ritually associated with the keeper of buried memory and the underworld."
+        },
+        {
+          "race_id": "djiumo",
+          "race_name": "Djiumōtiakić",
+          "race_category": "Blood-Memory Peoples",
+          "role": "primary patron",
+          "rationale": "Returned life, grave-bound vitality, preserved identity, and communal memory place the Djiumōtiakić closest to the administrator of death."
+        },
+        {
+          "race_id": "jaspey",
+          "race_name": "Jaspey",
+          "race_category": "Tiny Plant and Fungal Peoples",
+          "role": "archive patron",
+          "rationale": "Treating decomposition as an archive of identity and memory connects Jaspey funerary ecology to Nefarokir."
+        },
+        {
+          "race_id": "volsarii",
+          "race_name": "Volsarii",
+          "race_category": "Liminal and Spirit Peoples",
+          "role": "primary patron",
+          "rationale": "Ferriers of souls and keepers of spirit passage are directly associated with death, spirits, memory, and the underworld."
+        },
+        {
+          "race_id": "c01",
+          "race_name": "Hīnduigrägin",
+          "race_category": "Waymemory Folk",
+          "role": "memory patron",
+          "rationale": "The preservation and transfer of sensory memories gives Nefarokir a secondary place in remembrance rites."
+        },
+        {
+          "race_id": "c06",
+          "race_name": "Byevaichetar",
+          "race_category": "Moonmolt Folk",
+          "role": "memory patron",
+          "rationale": "Archived skins holding selected memories connect civic remembrance to Nefarokir."
+        },
+        {
+          "race_id": "c28",
+          "race_name": "Zaktadaitü",
+          "race_category": "Mirror-Time Folk",
+          "role": "memory patron",
+          "rationale": "The remembered past remains continuously present, giving memory rites a strong Nefarokir association."
+        }
+      ],
+      "race_association_count": 7,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/8"
+    },
+    {
+      "id": "thalunesh",
+      "public_mask_name": "Thalunesh",
+      "mask_order": 10,
+      "class_channel": "Stargrave Psychopomp",
+      "public_titles": [
+        "Lord of Passage",
+        "The Shifting Messenger",
+        "Patron of Dreams and Mischief"
+      ],
+      "presented_domains": [
+        "dreams",
+        "tricksters",
+        "shapeshifting",
+        "wanderers",
+        "threshold mischief"
+      ],
+      "manifestation": "Thalunesh’s face shifts expressions too rapidly, cycling through unsettling emotional flashes.",
+      "true_nature": "Thalunesh is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Forest — Partial Forest.",
+      "image": "assets/architect_masks/thalunesh.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Forest",
+          "biome": "Partial Forest",
+          "path": "biomes/Forest/Partial Forest",
+          "terraforming_rationale": "Broken woodland edges are shifting thresholds suited to wanderers, shapeshifters, dreams, tricks, and threshold mischief."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "maitae",
+          "race_name": "Maitaetiljin",
+          "race_category": "Hearth-Road Peoples",
+          "role": "road patron",
+          "rationale": "Mobile households and route-centered hospitality place travelers and messengers under Thalunesh’s protection."
+        },
+        {
+          "race_id": "gandirosha",
+          "race_name": "Gandirosha",
+          "race_category": "Fey-Folk",
+          "role": "primary patron",
+          "rationale": "Wandering, glamour, masks, timing, tricks, and fey mischief directly match Thalunesh’s domains."
+        },
+        {
+          "race_id": "gwynis",
+          "race_name": "Gwynis",
+          "race_category": "Dream and Psionic Peoples",
+          "role": "dream patron",
+          "rationale": "Dream birth, illusion, and movement across symbolic mental thresholds connect the Gwynis to Thalunesh."
+        },
+        {
+          "race_id": "geisamahi",
+          "race_name": "Geisamahi",
+          "race_category": "Small Mammalian Peoples",
+          "role": "scout patron",
+          "rationale": "Scouting, narrow passages, travel, and quick route-finding align with the patron of wanderers and passage."
+        },
+        {
+          "race_id": "aburata",
+          "race_name": "Aburata",
+          "race_category": "Dual-Form Equine Peoples",
+          "role": "primary patron",
+          "rationale": "Movement between upright and quadrupedal forms makes the shapeshifting patron the clearest Aburata association."
+        },
+        {
+          "race_id": "c01",
+          "race_name": "Hīnduigrägin",
+          "race_category": "Waymemory Folk",
+          "role": "primary patron",
+          "rationale": "Shared route-memory, travel, and the ability to lend a remembered path align with passage and wanderers."
+        },
+        {
+          "race_id": "c12",
+          "race_name": "Thalojomammǫ",
+          "race_category": "Cliffsong Folk",
+          "role": "passage patron",
+          "rationale": "Their sung maps guide travelers through mountain crossings and shifting air routes."
+        },
+        {
+          "race_id": "c17",
+          "race_name": "Losōbhūsmoe",
+          "race_category": "Tidefur Folk",
+          "role": "navigation patron",
+          "rationale": "Long-distance navigation and movement among floating communities connect them to passage and wanderers."
+        },
+        {
+          "race_id": "c22",
+          "race_name": "Fahánčoatani",
+          "race_category": "Shadowstitch Folk",
+          "role": "decoy patron",
+          "rationale": "Temporary decoys and misdirection connect Shadowstitch practice to trickery and shifting passage."
+        }
+      ],
+      "race_association_count": 9,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/9"
+    },
+    {
+      "id": "horundar",
+      "public_mask_name": "Horundar",
+      "mask_order": 11,
+      "class_channel": "Thunderstep Duelist",
+      "public_titles": [
+        "Sovereign of Seas and Ruin",
+        "Storm Below the World",
+        "Master of Elemental Force"
+      ],
+      "presented_domains": [
+        "storms",
+        "oceans",
+        "floods",
+        "earthquakes",
+        "elemental force"
+      ],
+      "manifestation": "Horundar’s body leaks vapor, ash, seawater, or dust depending on emotional state.",
+      "true_nature": "Horundar is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Volcanic — Geothermal Basin, Wetlands — Floodplains, Underground — Underground Lakes.",
+      "image": "assets/architect_masks/horundar.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Volcanic",
+          "biome": "Geothermal Basin",
+          "path": "biomes/Volcanic/Geothermal Basin",
+          "terraforming_rationale": "Geothermal basins are shaped by elemental force, earthquakes, steam, water, and pressure beneath the world."
+        },
+        {
+          "category": "Wetlands",
+          "biome": "Floodplains",
+          "path": "biomes/Wetlands/Floodplains",
+          "terraforming_rationale": "Floodplains are directly remade by floods, storms, water pressure, and elemental force."
+        },
+        {
+          "category": "Underground",
+          "biome": "Underground Lakes",
+          "path": "biomes/Underground/Underground Lakes",
+          "terraforming_rationale": "Subterranean lakes hold elemental water, seismic pressure, floods, and the storm below the world."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "szucarin",
+          "race_name": "Szûcarín",
+          "race_category": "Draconic and Reptilian Peoples",
+          "role": "elemental patron",
+          "rationale": "Elemental bodies, marsh and volcanic adaptations, and destructive natural force connect them to Horundar."
+        },
+        {
+          "race_id": "panolima",
+          "race_name": "Panolima",
+          "race_category": "Elemental Peoples",
+          "role": "primary patron",
+          "rationale": "Earthquakes, storms, water, and raw elemental force make Horundar the broadest patron of Panolima elemental harmony."
+        },
+        {
+          "race_id": "tamhiogal",
+          "race_name": "Tamhiogal",
+          "race_category": "Tidal Peoples",
+          "role": "hydromancy patron",
+          "rationale": "Hydromancy, pressure changes, floods, and powerful currents connect Tamhiogal elemental rites to Horundar."
+        }
+      ],
+      "race_association_count": 3,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/10"
+    },
+    {
+      "id": "raeshkul",
+      "public_mask_name": "Raeshkul",
+      "mask_order": 12,
+      "class_channel": "Mindknife Mirage",
+      "public_titles": [
+        "Strategist of Higher Understanding",
+        "The Rotating Eye",
+        "Architect of Calculated Victory"
+      ],
+      "presented_domains": [
+        "intellect",
+        "psionics",
+        "strategy",
+        "higher understanding"
+      ],
+      "manifestation": "Raeshkul’s eyes contain layered pupils that rotate independently.",
+      "true_nature": "Raeshkul is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Rocky — Meteor Craterlands.",
+      "image": "assets/architect_masks/raeshkul.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Rocky",
+          "biome": "Meteor Craterlands",
+          "path": "biomes/Rocky/Meteor Craterlands",
+          "terraforming_rationale": "Craterlands invite higher understanding, celestial calculation, strategic observation, and psionic inquiry."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "kaluseban",
+          "race_name": "Kaluseban",
+          "race_category": "Ley-Bound Peoples",
+          "role": "primary patron",
+          "rationale": "Psionic bloodlines, disciplined thought, and highly structured arcane study align with intellect, strategy, and higher understanding."
+        },
+        {
+          "race_id": "gwynis",
+          "race_name": "Gwynis",
+          "race_category": "Dream and Psionic Peoples",
+          "role": "primary patron",
+          "rationale": "Psionics, memory, mental discipline, and consensual thought-sharing align directly with higher understanding."
+        },
+        {
+          "race_id": "c09",
+          "race_name": "Nunzāozhenur",
+          "race_category": "Memory-Loom Folk",
+          "role": "knowledge patron",
+          "rationale": "Skill-bearing memory ribbons and continuity of personhood raise questions of intellect and higher understanding."
+        },
+        {
+          "race_id": "c13",
+          "race_name": "Suarrižkuset",
+          "race_category": "Nightsonar Folk",
+          "role": "perception patron",
+          "rationale": "Social echolocation that reads spatial and emotional tension is treated as a disciplined form of higher perception."
+        },
+        {
+          "race_id": "c27",
+          "race_name": "Trábuẹmapgir",
+          "race_category": "Chromatic Empaths",
+          "role": "empathic-discipline patron",
+          "rationale": "Their ability reveals broad emotional pressure without reading thoughts, requiring disciplined understanding and consent."
+        },
+        {
+          "race_id": "c28",
+          "race_name": "Zaktadaitü",
+          "race_category": "Mirror-Time Folk",
+          "role": "primary patron",
+          "rationale": "Simultaneous awareness of probable future and remembered past is a direct form of higher understanding."
+        }
+      ],
+      "race_association_count": 6,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/11"
+    },
+    {
+      "id": "setrimir",
+      "public_mask_name": "Setrimir",
+      "mask_order": 13,
+      "class_channel": "Chronostar Runeforger",
+      "public_titles": [
+        "Bearer of Stolen Fire",
+        "Maker of Awakened Life",
+        "The Bound Innovator"
+      ],
+      "presented_domains": [
+        "artificial life",
+        "constructs",
+        "stolen knowledge",
+        "awakened machinery"
+      ],
+      "manifestation": "Setrimir’s body moves with mechanical precision while flesh ripples like unfinished construction.",
+      "true_nature": "Setrimir is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Rocky — Stone Plains.",
+      "image": "assets/architect_masks/setrimir.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Rocky",
+          "biome": "Stone Plains",
+          "path": "biomes/Rocky/Stone Plains",
+          "terraforming_rationale": "Bare stone plains provide an austere engineered foundation for constructs, awakened machinery, and artificial life."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "c09",
+          "race_name": "Nunzāozhenur",
+          "race_category": "Memory-Loom Folk",
+          "role": "primary patron",
+          "rationale": "Constructed bodies made from replaceable memory ribbons fall directly under awakened life and artificial personhood."
+        },
+        {
+          "race_id": "c10",
+          "race_name": "Tsovašwimóm",
+          "race_category": "Hearthforged Folk",
+          "role": "primary patron",
+          "rationale": "Awakened ceramic-and-wood bodies are a clear expression of artificial life created without enslavement."
+        },
+        {
+          "race_id": "c11",
+          "race_name": "Köpounnälanvar",
+          "race_category": "Clockfeather Folk",
+          "role": "primary patron",
+          "rationale": "Mechanical avian bodies and timekeeping feathers directly align with awakened machinery."
+        }
+      ],
+      "race_association_count": 3,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/12"
+    },
+    {
+      "id": "sokhivar",
+      "public_mask_name": "Sokhivar",
+      "mask_order": 14,
+      "class_channel": "Dawnfire Exorcist",
+      "public_titles": [
+        "Radiant Prophet",
+        "Voice of the Sky",
+        "Patron of Windborne Omens"
+      ],
+      "presented_domains": [
+        "sunlight",
+        "music",
+        "prophecy",
+        "Architect freedom",
+        "sky"
+      ],
+      "manifestation": "Sokhivar’s voice echoes like layered birdsong through cathedral halls.",
+      "true_nature": "Sokhivar is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Forest — Treetops - Treehouses, Steppe — Wind-Swept Steppe.",
+      "image": "assets/architect_masks/sokhivar.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Forest",
+          "biome": "Treetops - Treehouses",
+          "path": "biomes/Forest/Treetops - Treehouses",
+          "terraforming_rationale": "Canopy settlements stand closest to sunlight, sky, birdsong, prophecy, and divine freedom."
+        },
+        {
+          "category": "Steppe",
+          "biome": "Wind-Swept Steppe",
+          "path": "biomes/Steppe/Wind-Swept Steppe",
+          "terraforming_rationale": "Open wind-swept country belongs to sky, sunlight, freedom, birdsong, and far-traveling prophecy."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "lumhishu",
+          "race_name": "Lumhishūhito",
+          "race_category": "Elderwood Peoples",
+          "role": "radiant patron",
+          "rationale": "Sunlight held within the body and canopy-centered communities connect them to sacred light and the open sky."
+        },
+        {
+          "race_id": "enad",
+          "race_name": "Enâdkedzâd",
+          "race_category": "Planar-Marked Peoples",
+          "role": "radiant patron",
+          "rationale": "Radiance-metabolizing lineages interpret sacred light and visible vows through Sokhivar’s prophetic sky symbolism."
+        },
+        {
+          "race_id": "gandirosha",
+          "race_name": "Gandirosha",
+          "race_category": "Fey-Folk",
+          "role": "music patron",
+          "rationale": "Music, performance, and freedom in open-air courts connect many Gandirosha traditions to Sokhivar."
+        },
+        {
+          "race_id": "panolima",
+          "race_name": "Panolima",
+          "race_category": "Elemental Peoples",
+          "role": "air-and-light patron",
+          "rationale": "Air, magical light, and sky-facing aether traditions place part of Panolima worship under Sokhivar."
+        },
+        {
+          "race_id": "tamhiogal",
+          "race_name": "Tamhiogal",
+          "race_category": "Tidal Peoples",
+          "role": "resonance patron",
+          "rationale": "Bioluminescent display and resonant communication give Sokhivar a secondary role in music-and-light observances."
+        },
+        {
+          "race_id": "volsarii",
+          "race_name": "Volsarii",
+          "race_category": "Liminal and Spirit Peoples",
+          "role": "winged-ascent patron",
+          "rationale": "Late-life functional wings are interpreted through sky, freedom, and prophetic ascent symbolism."
+        },
+        {
+          "race_id": "c11",
+          "race_name": "Köpounnälanvar",
+          "race_category": "Clockfeather Folk",
+          "role": "sky patron",
+          "rationale": "Flight, feathers, migration, public coordination, and sky symbolism connect them to Sokhivar."
+        },
+        {
+          "race_id": "c12",
+          "race_name": "Thalojomammǫ",
+          "race_category": "Cliffsong Folk",
+          "role": "primary patron",
+          "rationale": "Sky travel, layered song, and safe wind corridors directly match sunlight, music, prophecy, and divine freedom."
+        },
+        {
+          "race_id": "c13",
+          "race_name": "Suarrižkuset",
+          "race_category": "Nightsonar Folk",
+          "role": "avian patron",
+          "rationale": "Despite their nocturnal habits, their avian bodies and aerial culture preserve an inherited association with the sky."
+        },
+        {
+          "race_id": "c14",
+          "race_name": "Fūnradnecael",
+          "race_category": "Sunplume Folk",
+          "role": "primary patron",
+          "rationale": "Solar feathers, migration, high-altitude travel, and visible civic crests directly reflect Sokhivar’s domains."
+        },
+        {
+          "race_id": "c28",
+          "race_name": "Zaktadaitü",
+          "race_category": "Mirror-Time Folk",
+          "role": "prophecy patron",
+          "rationale": "Probable futures are interpreted through prophecy while remaining choices rather than fixed commands."
+        }
+      ],
+      "race_association_count": 11,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/13"
+    },
+    {
+      "id": "iskareth",
+      "public_mask_name": "Iskareth",
+      "mask_order": 15,
+      "class_channel": "Dreamgrove Beastcaller",
+      "public_titles": [
+        "Mother of Beasts",
+        "Keeper of Living Kinship",
+        "The Watching Predator"
+      ],
+      "presented_domains": [
+        "instinct",
+        "beasts",
+        "fertility",
+        "natural kinship"
+      ],
+      "manifestation": "Iskareth’s body language constantly mirrors predatory animals observing prey.",
+      "true_nature": "Iskareth is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Plains — Grassland, Forest — Rainforest.",
+      "image": "assets/architect_masks/iskareth.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Plains",
+          "biome": "Grassland",
+          "path": "biomes/Plains/Grassland",
+          "terraforming_rationale": "Open grasslands sustain beasts, instinctive hunting, fertility, migration, and natural kinship."
+        },
+        {
+          "category": "Forest",
+          "biome": "Rainforest",
+          "path": "biomes/Forest/Rainforest",
+          "terraforming_rationale": "Rainforests hold the greatest abundance of beasts, instinctive predation, fertility, and natural kinship."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "deorbasun",
+          "race_name": "Deorbasun",
+          "race_category": "Beast-Souled Peoples",
+          "role": "primary patron",
+          "rationale": "Soul-animal bonds, instinct, territory, fertility, and natural kinship directly match Iskareth’s domains."
+        },
+        {
+          "race_id": "drilthar",
+          "race_name": "Dril'thar",
+          "race_category": "Amphibious Peoples",
+          "role": "living-kinship patron",
+          "rationale": "Their many ecological lineages and communal spawning traditions connect fertility and natural kinship to Iskareth."
+        }
+      ],
+      "race_association_count": 2,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/14"
+    },
+    {
+      "id": "bastveig",
+      "public_mask_name": "Bastveig",
+      "mask_order": 16,
+      "class_channel": "Tempest Swarmbinder",
+      "public_titles": [
+        "Keeper of Hidden Waters",
+        "Lady of Reefs and Trenches",
+        "Shaper of Ocean Habitats"
+      ],
+      "presented_domains": [
+        "tides",
+        "reefs",
+        "trenches",
+        "hidden waters",
+        "ocean habitats"
+      ],
+      "manifestation": "Bastveig smells faintly of saltwater and deep ocean pressure.",
+      "true_nature": "Bastveig is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Ocean — Ocean Surface Floating Settlement, Ocean — Underwater with Reefs, Ocean — Underwater without Reefs.",
+      "image": "assets/architect_masks/bastveig.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Ocean",
+          "biome": "Ocean Surface Floating Settlement",
+          "path": "biomes/Ocean/Ocean Surface Floating Settlement",
+          "terraforming_rationale": "Her dominion over tides, hidden waters, and ocean habitats and settlements includes settlements that live directly upon the sea."
+        },
+        {
+          "category": "Ocean",
+          "biome": "Underwater with Reefs",
+          "path": "biomes/Ocean/Underwater with Reefs",
+          "terraforming_rationale": "Reefs are one of Bastveig’s explicit sacred domains and the heart of her hidden-water habitats."
+        },
+        {
+          "category": "Ocean",
+          "biome": "Underwater without Reefs",
+          "path": "biomes/Ocean/Underwater without Reefs",
+          "terraforming_rationale": "Open underwater reaches and trenchward seas remain under the Lady of Reefs and Trenches."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "kaluseban",
+          "race_name": "Kaluseban",
+          "race_category": "Ley-Bound Peoples",
+          "role": "oceanic patron",
+          "rationale": "Oceanic bloodlines and deep-water ley traditions recognize Bastveig as guardian of hidden waters and sea civilizations."
+        },
+        {
+          "race_id": "panolima",
+          "race_name": "Panolima",
+          "race_category": "Elemental Peoples",
+          "role": "water patron",
+          "rationale": "Water bloodlines and ocean communities recognize Bastveig’s authority over tides and hidden waters."
+        },
+        {
+          "race_id": "drilthar",
+          "race_name": "Dril'thar",
+          "race_category": "Amphibious Peoples",
+          "role": "primary patron",
+          "rationale": "All Dril'thar breathe underwater, and their ocean and reef bloodlines place the race within Bastveig’s hidden-water sphere."
+        },
+        {
+          "race_id": "tamhiogal",
+          "race_name": "Tamhiogal",
+          "race_category": "Tidal Peoples",
+          "role": "primary patron",
+          "rationale": "Tides, reefs, trenches, coral stewardship, and ocean civilization are Bastveig’s explicit domains."
+        },
+        {
+          "race_id": "c17",
+          "race_name": "Losōbhūsmoe",
+          "race_category": "Tidefur Folk",
+          "role": "primary patron",
+          "rationale": "Current-reading whiskers, amphibious navigation, floating settlements, and tidal life place them under Bastveig."
+        }
+      ],
+      "race_association_count": 5,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/15"
+    },
+    {
+      "id": "thoryn_rahek",
+      "public_mask_name": "Thoryn-Rahek",
+      "mask_order": 17,
+      "class_channel": "Ichorborn Transmuter",
+      "public_titles": [
+        "The First Devourer",
+        "Father of Aberrant Life",
+        "The Folded Colossus"
+      ],
+      "presented_domains": [
+        "aberrant life",
+        "mutation",
+        "insectoid horrors",
+        "oozes"
+      ],
+      "manifestation": "Thoryn-Rahek’s body occasionally folds incorrectly before snapping back into place.",
+      "true_nature": "Thoryn-Rahek is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Forest — Marshes and Swamps, Wasteland — Toxic Wasteland.",
+      "image": "assets/architect_masks/thoryn_rahek.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Forest",
+          "biome": "Marshes and Swamps",
+          "path": "biomes/Forest/Marshes and Swamps",
+          "terraforming_rationale": "Forest bogs and stagnant swamps favor oozes, insects, mutation, and aberrant life."
+        },
+        {
+          "category": "Wasteland",
+          "biome": "Toxic Wasteland",
+          "path": "biomes/Wasteland/Toxic Wasteland",
+          "terraforming_rationale": "Toxic environments accelerate mutation, aberrant adaptation, oozes, and unnatural life."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "jaspey",
+          "race_name": "Jaspey",
+          "race_category": "Tiny Plant and Fungal Peoples",
+          "role": "toxin-and-mutation patron",
+          "rationale": "Toxin filtering, unusual symbiosis, and adaptive spore forms create a wary ritual association with aberrant life and mutation."
+        },
+        {
+          "race_id": "c19",
+          "race_name": "Dātseṣapyal",
+          "race_category": "Gelweave Folk",
+          "role": "gel-form patron",
+          "rationale": "Soft bodies and temporary collective forms create a direct, if cautious, religious association with oozes and aberrant life."
+        }
+      ],
+      "race_association_count": 2,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/16"
+    },
+    {
+      "id": "hathruna",
+      "public_mask_name": "Hathruna",
+      "mask_order": 18,
+      "class_channel": "Gravebloom Medium",
+      "public_titles": [
+        "Root-Mother of Rot and Rebirth",
+        "Lady of the Breathing Bloom",
+        "Keeper of Seasonal Return"
+      ],
+      "presented_domains": [
+        "rebirth",
+        "rot",
+        "fungi",
+        "roots",
+        "seasonal cycles"
+      ],
+      "manifestation": "Hathruna’s skin blooms with fungal growths that open and close like breathing flowers.",
+      "true_nature": "Hathruna is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Steppe — Shrubland, Wetlands — Marshes, Underground — Subterranean Forest.",
+      "image": "assets/architect_masks/hathruna.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Steppe",
+          "biome": "Shrubland",
+          "path": "biomes/Steppe/Shrubland",
+          "terraforming_rationale": "Shrubland displays seasonal return, resilient roots, decay, rebirth, and low-growing life."
+        },
+        {
+          "category": "Wetlands",
+          "biome": "Marshes",
+          "path": "biomes/Wetlands/Marshes",
+          "terraforming_rationale": "Marshes turn rot into fertility through fungi, roots, decomposition, and repeated rebirth."
+        },
+        {
+          "category": "Underground",
+          "biome": "Subterranean Forest",
+          "path": "biomes/Underground/Subterranean Forest",
+          "terraforming_rationale": "Hidden forests below ground embody roots, fungi, rot, seasonal cycles, and rebirth without sunlight."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "lumhishu",
+          "race_name": "Lumhishūhito",
+          "race_category": "Elderwood Peoples",
+          "role": "seasonal patron",
+          "rationale": "Their stored seasonal light and view of habitat as inherited memory align with seasonal return, roots, and renewal."
+        },
+        {
+          "race_id": "djiumo",
+          "race_name": "Djiumōtiakić",
+          "race_category": "Blood-Memory Peoples",
+          "role": "return patron",
+          "rationale": "Their existence between death and renewed life reflects rot transformed into rebirth rather than simple undeath."
+        },
+        {
+          "race_id": "drilthar",
+          "race_name": "Dril'thar",
+          "race_category": "Amphibious Peoples",
+          "role": "metamorphosis patron",
+          "rationale": "Egg-clutches, metamorphic growth, and habitat-shaped life cycles reflect seasonal transformation and rebirth."
+        },
+        {
+          "race_id": "jaspey",
+          "race_name": "Jaspey",
+          "race_category": "Tiny Plant and Fungal Peoples",
+          "role": "primary patron",
+          "rationale": "Fungi, roots, spores, decomposition, and ecological rebirth make Hathruna the central Jaspey deity."
+        },
+        {
+          "race_id": "c06",
+          "race_name": "Byevaichetar",
+          "race_category": "Moonmolt Folk",
+          "role": "renewal patron",
+          "rationale": "Chosen molts and preserved seasonal skins enact visible cycles of shedding, return, and rebirth."
+        },
+        {
+          "race_id": "c20",
+          "race_name": "Shahreshōchü",
+          "race_category": "Silkroot Folk",
+          "role": "primary patron",
+          "rationale": "Rootlike limbs, seed nurseries, living growth, and seasonal garden renewal place them under the Root-Mother."
+        }
+      ],
+      "race_association_count": 6,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/17"
+    },
+    {
+      "id": "eirzunet",
+      "public_mask_name": "Eirzunet",
+      "mask_order": 19,
+      "class_channel": "Horizon Shade",
+      "public_titles": [
+        "Mistress of Twilight",
+        "Keeper of Forbidden Shadow",
+        "The Misaligned Silhouette"
+      ],
+      "presented_domains": [
+        "shadows",
+        "curses",
+        "twilight transformation",
+        "forbidden magic"
+      ],
+      "manifestation": "Eirzunet’s silhouette never aligns correctly with surrounding light.",
+      "true_nature": "Eirzunet is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Volcanic — Ashlands, Wetlands — Swamps.",
+      "image": "assets/architect_masks/eirzunet.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Volcanic",
+          "biome": "Ashlands",
+          "path": "biomes/Volcanic/Ashlands",
+          "terraforming_rationale": "Ash-darkened twilight landscapes suit shadows, curses, forbidden magic, and transformative gloom."
+        },
+        {
+          "category": "Wetlands",
+          "biome": "Swamps",
+          "path": "biomes/Wetlands/Swamps",
+          "terraforming_rationale": "Shadowed swamps evoke curses, twilight transformation, obscured paths, and forbidden magic."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "kaluseban",
+          "race_name": "Kaluseban",
+          "race_category": "Ley-Bound Peoples",
+          "role": "shadow patron",
+          "rationale": "Dark bloodlines, controlled shadow, and carefully bounded forbidden magic fall within Eirzunet’s twilight sphere."
+        },
+        {
+          "race_id": "enad",
+          "race_name": "Enâdkedzâd",
+          "race_category": "Planar-Marked Peoples",
+          "role": "twilight patron",
+          "rationale": "Survived curses, cinder transformations, and visible forbidden magic connect the Enâdkedzâd to Eirzunet."
+        },
+        {
+          "race_id": "djiumo",
+          "race_name": "Djiumōtiakić",
+          "race_category": "Blood-Memory Peoples",
+          "role": "ash patron",
+          "rationale": "Ash-recorded identity and twilight transformation connect some lineages to Eirzunet’s shadowed rites."
+        },
+        {
+          "race_id": "c13",
+          "race_name": "Suarrižkuset",
+          "race_category": "Nightsonar Folk",
+          "role": "primary patron",
+          "rationale": "Nocturnal life, shadowed architecture, and perception beyond ordinary light align with twilight and forbidden shadow."
+        },
+        {
+          "race_id": "c22",
+          "race_name": "Fahánčoatani",
+          "race_category": "Shadowstitch Folk",
+          "role": "primary patron",
+          "rationale": "Detached shadows, twilight craft, and tools made from darkness directly align with Eirzunet."
+        }
+      ],
+      "race_association_count": 5,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/18"
+    },
+    {
+      "id": "oskar_enlil",
+      "public_mask_name": "Oskar'enlil",
+      "mask_order": 20,
+      "class_channel": "Fate-Eye Savant",
+      "public_titles": [
+        "Balancer of the Sacred Harvest",
+        "Architect of Restraint",
+        "The Impartial Assessor"
+      ],
+      "presented_domains": [
+        "adaptation",
+        "civilization",
+        "instinct",
+        "engineered ecologies"
+      ],
+      "manifestation": "A serene, statuesque, and utterly impartial figure surrounded by ivory-gold radiance. Her eyes resemble polished instruments of judgment, making every witness feel assessed rather than understood.",
+      "true_nature": "Oskar'enlil is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Steppe — Dry Grasslands.",
+      "image": "assets/architect_masks/oskar_enlil.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Steppe",
+          "biome": "Dry Grasslands",
+          "path": "biomes/Steppe/Dry Grasslands",
+          "terraforming_rationale": "Dry grasslands demand measured adaptation between civilization, instinct, engineered survival, and restraint."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "heimujuryz",
+          "race_name": "Heimujuryz",
+          "race_category": "Many-Kindred Warclans",
+          "role": "primary patron",
+          "rationale": "Adaptive physiology, many compatible body expressions, and deliberate balance between instinct and civilization align with the Balancer."
+        },
+        {
+          "race_id": "geisamahi",
+          "race_name": "Geisamahi",
+          "race_category": "Small Mammalian Peoples",
+          "role": "adaptation patron",
+          "rationale": "Their specialized bodies, whisker-sense, and occasional gliding membranes exemplify adaptive life balanced with civilization."
+        },
+        {
+          "race_id": "c19",
+          "race_name": "Dātseṣapyal",
+          "race_category": "Gelweave Folk",
+          "role": "primary patron",
+          "rationale": "Their adaptable communal physiology balances instinctive body-weaving with explicit individual personhood and civic cooperation."
+        }
+      ],
+      "race_association_count": 3,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/19"
+    },
+    {
+      "id": "asethyr",
+      "public_mask_name": "Asethyr",
+      "mask_order": 21,
+      "class_channel": "Chaoswheel Oracle",
+      "public_titles": [
+        "Patron of Revelry",
+        "The Laughing Liberator",
+        "Lord of Untamed Rites"
+      ],
+      "presented_domains": [
+        "freedom",
+        "revelry",
+        "tribal rites",
+        "wilderness survival"
+      ],
+      "manifestation": "Asethyr’s laughter sounds joyful until it continues several seconds too long.",
+      "true_nature": "Asethyr is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Plains — Prairie, Rocky — Badlands, Steppe — Semi-Arid Plains.",
+      "image": "assets/architect_masks/asethyr.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Plains",
+          "biome": "Prairie",
+          "path": "biomes/Plains/Prairie",
+          "terraforming_rationale": "Wide untamed prairie supports tribal rites, wandering revelry, freedom, and wilderness survival."
+        },
+        {
+          "category": "Rocky",
+          "biome": "Badlands",
+          "path": "biomes/Rocky/Badlands",
+          "terraforming_rationale": "Badlands reward freedom, roaming tribal life, improvisation, and harsh wilderness survival."
+        },
+        {
+          "category": "Steppe",
+          "biome": "Semi-Arid Plains",
+          "path": "biomes/Steppe/Semi-Arid Plains",
+          "terraforming_rationale": "Semi-arid plains favor nomadic freedom, communal rites, hard travel, and untamed survival."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "aburata",
+          "race_name": "Aburata",
+          "race_category": "Dual-Form Equine Peoples",
+          "role": "freedom patron",
+          "rationale": "Open grasslands, mobile equine life, ambition, and refusal of imposed moral coding align with freedom and wilderness rites."
+        },
+        {
+          "race_id": "c01",
+          "race_name": "Hīnduigrägin",
+          "race_category": "Waymemory Folk",
+          "role": "nomad patron",
+          "rationale": "Open-road freedom, communal wandering, and survival across steppe and badlands connect them to Asethyr."
+        },
+        {
+          "race_id": "c14",
+          "race_name": "Fūnradnecael",
+          "race_category": "Sunplume Folk",
+          "role": "migration patron",
+          "rationale": "Long free-ranging migrations and survival in exposed country connect them to wilderness freedom."
+        }
+      ],
+      "race_association_count": 3,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/20"
+    },
+    {
+      "id": "nephthysra",
+      "public_mask_name": "Nephthysra",
+      "mask_order": 22,
+      "class_channel": "Velvet Veilwalker",
+      "public_titles": [
+        "The Irresistible",
+        "Shaper of Desire",
+        "Patron of Unclassifiable Beauty"
+      ],
+      "presented_domains": [
+        "beauty",
+        "charisma",
+        "emotional influence",
+        "uniqueness"
+      ],
+      "manifestation": "Nephthysra appears impossibly beautiful in ways that become deeply unsettling the longer one looks.",
+      "true_nature": "Nephthysra is one of the twenty-two dissident Thay’lmériûn sect members. The divine identity is a curated public persona, but the being behind it is a distinct alien individual rather than a true god.",
+      "terraforming_role": "Exclusive terraforming mandate: Rocky — Rock Formations, Underground — Crystal Caverns.",
+      "image": "assets/architect_masks/nephthysra.jpg",
+      "sect_membership": "Twenty-two-member dissident Thay’lmériûn sect",
+      "assigned_terraforming_areas": [
+        {
+          "category": "Rocky",
+          "biome": "Rock Formations",
+          "path": "biomes/Rocky/Rock Formations",
+          "terraforming_rationale": "Singular natural formations embody unclassifiable beauty, charisma, uniqueness, and emotional awe."
+        },
+        {
+          "category": "Underground",
+          "biome": "Crystal Caverns",
+          "path": "biomes/Underground/Crystal Caverns",
+          "terraforming_rationale": "Crystal caverns possess singular, unsettling beauty and an emotional influence unlike ordinary stone."
+        }
+      ],
+      "race_associations": [
+        {
+          "race_id": "gandirosha",
+          "race_name": "Gandirosha",
+          "race_category": "Fey-Folk",
+          "role": "glamour patron",
+          "rationale": "Courtly beauty, charisma, masks, and emotional presence are commonly interpreted through Nephthysra."
+        },
+        {
+          "race_id": "gwynis",
+          "race_name": "Gwynis",
+          "race_category": "Dream and Psionic Peoples",
+          "role": "empathic patron",
+          "rationale": "The ethics of emotional presence and influence are often framed through Nephthysra’s charisma and affective domains."
+        },
+        {
+          "race_id": "c14",
+          "race_name": "Fūnradnecael",
+          "race_category": "Sunplume Folk",
+          "role": "identity patron",
+          "rationale": "Changing crest geometry broadcasts public identity through beauty, charisma, and unique form."
+        },
+        {
+          "race_id": "c27",
+          "race_name": "Trábuẹmapgir",
+          "race_category": "Chromatic Empaths",
+          "role": "primary patron",
+          "rationale": "Visible emotional color, charisma, affect, and unique appearance place the Chromatic Empaths closest to Nephthysra."
+        }
+      ],
+      "race_association_count": 4,
+      "race_association_note": "Public patron and cultural associations; not compulsory worship.",
+      "full_deity_profile_ref": "04b_deities_22.json#/deities/21"
+    }
+  ],
+  "galaxy_names": {
+    "universalian_name": "Vacío l'Abîme Frénétiacré",
+    "language_origin": "Kaluseban tongue.",
+    "approximate_translation": "The Venus Fly Trap",
+    "referent": "The name refers to the twenty-two beings remembered as gods and the predatory system they built around Universal.",
+    "spacefaring_name": "Zešijómë",
+    "spacefaring_name_origin": "Unknown. Interstellar usage predates surviving records; the original language and meaning are lost.",
+    "universalian_name_origin": "A Kaluseban expression that translates approximately as The Venus Fly Trap, referring to the Twenty-Two and the predatory trap built around Universal."
+  }
+}

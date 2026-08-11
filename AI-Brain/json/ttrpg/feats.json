@@ -1,0 +1,242 @@
+{
+  "Actor": {
+    "summary": "You are exceptionally convincing when performing, mimicking voices, or maintaining a false identity.",
+    "how": "Use Charisma (Deception or Performance). When copying a voice, first listen long enough to learn its rhythm; observers contest with Insight when doubt matters.",
+    "roll": "Roll d20 + Charisma modifier + proficiency if trained against the listener’s Insight or a stated DC."
+  },
+  "Alert": {
+    "summary": "You react quickly, notice danger early, and are difficult to surprise.",
+    "how": "Apply the feat’s initiative and surprise benefits whenever conflict begins or an ambush is tested.",
+    "roll": "Initiative is d20 + Dexterity modifier plus any feat bonus shown by your campaign rules."
+  },
+  "Athlete": {
+    "summary": "Training improves climbing, jumping, recovery from prone, and physical transitions.",
+    "how": "Use it when movement would normally cost extra or when a jump or climb is uncertain.",
+    "roll": "Usually Strength (Athletics) or Dexterity (Acrobatics), depending on approach."
+  },
+  "Charger": {
+    "summary": "You turn a committed rush into a stronger strike or forceful shove.",
+    "how": "Move decisively toward a target, then use the feat’s attack or shove rider when its movement requirement is met.",
+    "roll": "Weapon attack: d20 + attack ability + proficiency. Shove: Athletics contested by Athletics or Acrobatics."
+  },
+  "Crossbow Expert": {
+    "summary": "You handle crossbows in close quarters and fire them rapidly without normal loading problems.",
+    "how": "Apply the feat when using crossbows, especially near enemies or during repeated attacks.",
+    "roll": "d20 + Dexterity modifier + proficiency versus Armor Class."
+  },
+  "Defensive Duelist": {
+    "summary": "A finesse weapon can be used to turn aside a dangerous melee hit.",
+    "how": "When a visible melee attack would hit, spend your Reaction and apply the feat’s defensive bonus.",
+    "roll": "No new roll; compare the revised Armor Class to the triggering attack total."
+  },
+  "Dual Wielder": {
+    "summary": "You fight effectively with a weapon in each hand and can use broader weapon combinations.",
+    "how": "Record both weapons. Use the normal two-weapon sequence and apply the feat’s defense/draw benefits.",
+    "roll": "Each attack is d20 + relevant ability + proficiency; damage uses the weapon die and applicable modifier."
+  },
+  "Dungeon Delver": {
+    "summary": "Practice with traps, hidden mechanisms, and collapsing ruins improves exploration survival.",
+    "how": "Use while searching, resisting, or reducing trap and environmental danger.",
+    "roll": "Usually Intelligence (Investigation), Wisdom (Perception), or a relevant saving throw."
+  },
+  "Durable": {
+    "summary": "Your body recovers efficiently during rests and benefits more reliably from Hit Dice.",
+    "how": "Apply whenever spending Hit Dice during a rest.",
+    "roll": "Roll the Hit Die and add Constitution as normal, then apply the feat’s minimum/result rule."
+  },
+  "Elemental Adept": {
+    "summary": "Choose one damage element; your spells penetrate resistance and produce steadier damage.",
+    "how": "Mark the chosen element and apply only to spells dealing that type.",
+    "roll": "Use the spell’s normal attack or save; modify damage dice as the feat directs."
+  },
+  "Fey Touched": {
+    "summary": "Fey influence grants a mental ability increase and a small package of teleportation or enchantment/divination magic.",
+    "how": "Choose the granted spells and casting ability. Track free uses separately from spell-slot uses.",
+    "roll": "Spell attack or save uses the chosen casting ability and proficiency."
+  },
+  "Grappler": {
+    "summary": "You specialize in securing, controlling, and exploiting grappled opponents.",
+    "how": "First grapple a target, then apply the feat’s follow-up control or attack benefits.",
+    "roll": "Strength (Athletics) contested by the target’s Athletics or Acrobatics."
+  },
+  "Great Weapon Master": {
+    "summary": "Heavy-weapon training rewards committed strikes and momentum after critical hits or dropping foes.",
+    "how": "Use only with eligible heavy weapons; declare any accuracy-for-damage option before rolling.",
+    "roll": "d20 + Strength + proficiency versus AC; apply the declared modifier and weapon damage."
+  },
+  "Healer": {
+    "summary": "A healer’s kit becomes a reliable field-treatment tool rather than simple stabilization gear.",
+    "how": "Spend a kit use and the required action; record who has received the feat’s limited treatment.",
+    "roll": "Usually no roll. Medicine may be called for only when the situation adds unusual risk."
+  },
+  "Heavily Armored": {
+    "summary": "You gain heavy-armor training and a physical ability improvement.",
+    "how": "Choose eligible ability improvement, then record heavy armor proficiency and recalculate AC/Guard when worn.",
+    "roll": "No roll; armor may impose Strength or Stealth considerations."
+  },
+  "Heavy Armor Master": {
+    "summary": "Heavy armor absorbs a portion of ordinary weapon harm and strengthens the wearer.",
+    "how": "Apply only while wearing heavy armor and only to eligible physical damage.",
+    "roll": "No roll; reduce damage after it is rolled, following the feat’s limit."
+  },
+  "Infernal Constitution": {
+    "summary": "Fiendish resilience improves Constitution and resistance to specific environmental or elemental threats.",
+    "how": "Record the ability increase and each resistance/advantage benefit.",
+    "roll": "Use normal saving throws; advantage applies only to listed hazards."
+  },
+  "Inspiring Leader": {
+    "summary": "A short, sincere address gives companions temporary resilience.",
+    "how": "Spend the required preparation time with creatures that can understand you, then record temporary HP.",
+    "roll": "Normally no roll; roleplay the address and calculate the benefit from level and Charisma."
+  },
+  "Keen Mind": {
+    "summary": "Exceptional recall, orientation, and time sense make details difficult to lose.",
+    "how": "Ask the sheet’s rules/library for facts the character observed; this does not reveal information never perceived.",
+    "roll": "Usually no roll; Investigation may still be required to interpret remembered facts."
+  },
+  "Lightly Armored": {
+    "summary": "You gain light-armor training and an ability improvement.",
+    "how": "Record proficiency and recalculate AC/Guard when light armor is equipped.",
+    "roll": "No roll."
+  },
+  "Linguist": {
+    "summary": "You learn additional languages and can create or analyze coded writing.",
+    "how": "Add the languages to the sheet and describe the cipher key or decoding approach.",
+    "roll": "Intelligence (Investigation) or Linguistics Field when breaking an unfamiliar code."
+  },
+  "Lucky": {
+    "summary": "A limited pool of luck can replace or challenge crucial d20 results.",
+    "how": "Track luck uses. Declare the use at the timing allowed by the feat and keep the chosen die.",
+    "roll": "Roll the additional d20 and apply the feat’s choice rule."
+  },
+  "Mage Slayer": {
+    "summary": "You pressure nearby spellcasters, disrupt concentration, and resist magic used at close range.",
+    "how": "Watch for casting within reach and use the feat’s Reaction or concentration rider.",
+    "roll": "Weapon attack versus AC; the caster may make a concentration save after damage."
+  },
+  "Magic Initiate": {
+    "summary": "Study or inherited talent grants cantrips and one low-rank spell from a chosen tradition.",
+    "how": "Choose tradition, casting ability, spells, and free-use reset. Add them to the spell builder.",
+    "roll": "Use the chosen casting ability for spell attacks and save DC."
+  },
+  "Martial Adept": {
+    "summary": "You learn a small number of combat maneuvers and gain a maneuver die.",
+    "how": "Choose maneuvers, track the die, and spend it only at the trigger stated by the maneuver.",
+    "roll": "Attack or save DC follows the maneuver and your selected physical ability."
+  },
+  "Medium Armor Master": {
+    "summary": "You move quietly and defend more effectively in medium armor when Dexterity supports it.",
+    "how": "Apply only while wearing medium armor; update stealth and AC calculations.",
+    "roll": "No extra roll; Stealth uses the normal Dexterity check without the removed penalty."
+  },
+  "Mobile": {
+    "summary": "Speed and footwork let you cross battlefields and disengage from creatures you attack.",
+    "how": "Apply the speed increase and mark enemies you attacked this turn for the movement benefit.",
+    "roll": "Attacks use normal rolls; difficult terrain or stunts may call for Athletics/Acrobatics."
+  },
+  "Moderately Armored": {
+    "summary": "You gain medium armor and shield training plus an ability increase.",
+    "how": "Record proficiency and recalculate AC/Guard when equipment changes.",
+    "roll": "No roll."
+  },
+  "Mounted Combatant": {
+    "summary": "You protect and exploit a trained mount during battle.",
+    "how": "Remain mounted, track mount HP/defenses, redirect eligible attacks, and apply advantage where allowed.",
+    "roll": "Weapon attacks normally; Animal Handling for dangerous control or calming."
+  },
+  "Observant": {
+    "summary": "Careful attention improves passive awareness and lip-reading or detail recognition.",
+    "how": "Update passive Perception/Investigation and note languages required for lip-reading.",
+    "roll": "Passive score handles unnoticed details; active checks use Perception or Investigation."
+  },
+  "Piercer": {
+    "summary": "Piercing-weapon expertise improves an ability, allows limited damage rerolls, and strengthens critical hits.",
+    "how": "Mark one damage reroll per turn and apply the extra critical die only to piercing damage.",
+    "roll": "Normal weapon attack; reroll one eligible damage die and keep the new result."
+  },
+  "Polearm Master": {
+    "summary": "Polearms threaten space effectively and can make a quick follow-up strike.",
+    "how": "Use only with listed polearms; track the bonus strike and entry-triggered Reaction.",
+    "roll": "Normal melee attack rolls using Strength unless the weapon says otherwise."
+  },
+  "Resilient": {
+    "summary": "Choose an ability; improve it and gain proficiency in that ability’s saving throws.",
+    "how": "Update the score and check the matching save proficiency box.",
+    "roll": "d20 + ability modifier + proficiency bonus for that saving throw."
+  },
+  "Ritual Caster": {
+    "summary": "You maintain a ritual book and can perform learned ritual spells without routine slot use.",
+    "how": "Choose the tradition, record rituals, required time, and material components.",
+    "roll": "Usually no spell roll unless the ritual becomes a Challenge; then use the relevant casting ability or Field."
+  },
+  "Savage Attacker": {
+    "summary": "Once during a turn, you can reroll melee weapon damage and keep the preferred total.",
+    "how": "Declare after seeing eligible damage, reroll the weapon dice, and choose one result.",
+    "roll": "No extra attack roll; reroll damage only."
+  },
+  "Sentinel": {
+    "summary": "You hold enemies in place, punish attacks on allies, and make opportunity attacks especially controlling.",
+    "how": "Reserve your Reaction and apply the feat when an enemy moves or attacks another creature.",
+    "roll": "Melee weapon attack versus AC; on a hit apply the feat’s movement consequence."
+  },
+  "Shadow Touched": {
+    "summary": "Shadow influence grants a mental ability increase, invisibility magic, and one additional subtle spell.",
+    "how": "Choose spells and casting ability; track free uses and slot-based uses.",
+    "roll": "Use chosen casting ability for attacks or save DC."
+  },
+  "Sharpshooter": {
+    "summary": "Long-range weapon mastery ignores common distance and cover limitations and permits committed high-damage shots.",
+    "how": "Use with eligible ranged weapons; declare any accuracy trade before the attack.",
+    "roll": "d20 + Dexterity + proficiency versus AC, modified by the declared option."
+  },
+  "Shield Master": {
+    "summary": "A shield supports forceful shoves, Dexterity defense, and protection from area effects.",
+    "how": "You must be wielding a shield; use the shove timing and saving-throw benefits as listed.",
+    "roll": "Shove uses Athletics contested by Athletics or Acrobatics; saves use the normal Dexterity save."
+  },
+  "Skilled": {
+    "summary": "You gain proficiency in three chosen skills, tools, or Fields.",
+    "how": "Choose three distinct proficiencies and mark them on the sheet.",
+    "roll": "Future tests add proficiency when the chosen training applies."
+  },
+  "Skulker": {
+    "summary": "You hide and attack more effectively in poor visibility without immediately revealing yourself on every miss.",
+    "how": "Apply in dim light, concealment, and ranged hidden attacks where the feat qualifies.",
+    "roll": "Dexterity (Stealth) versus passive or active Perception; attacks are normal."
+  },
+  "Spell Sniper": {
+    "summary": "Your ranged spells reach farther, ignore common cover, and include an additional attack cantrip.",
+    "how": "Choose the cantrip and casting ability, then apply range and cover benefits to spell attacks.",
+    "roll": "d20 + spellcasting ability + proficiency versus AC."
+  },
+  "Tavern Brawler": {
+    "summary": "Improvised weapons, unarmed attacks, and close grappling become practical combat tools.",
+    "how": "After an eligible hit, use the feat’s grapple option and treat suitable objects as weapons.",
+    "roll": "Attack uses Strength + proficiency when trained; grapple uses Athletics contest."
+  },
+  "Telekinetic": {
+    "summary": "Mental force improves a mental ability, manipulates objects, and can push creatures.",
+    "how": "Record the invisible hand effect and use the bonus-action shove at its stated range.",
+    "roll": "Target makes a Strength save against 8 + PB + chosen mental ability modifier."
+  },
+  "Telepathic": {
+    "summary": "Mental communication and limited thought-reading improve a mental ability.",
+    "how": "Record range, language limits, and the granted spell/use reset. Telepathy does not automatically compel truth.",
+    "roll": "Any granted save uses 8 + PB + chosen mental ability modifier."
+  },
+  "Tough": {
+    "summary": "Your maximum hit points increase at every character level.",
+    "how": "Recalculate maximum HP whenever total level changes.",
+    "roll": "No roll."
+  },
+  "War Caster": {
+    "summary": "Combat casting improves concentration, somatic casting with occupied hands, and reactive spell use.",
+    "how": "Apply advantage to concentration saves and use the spell Reaction only when its targeting rules qualify.",
+    "roll": "Concentration is a Constitution save; reactive spell uses its normal attack or save."
+  },
+  "Weapon Master": {
+    "summary": "You gain training with selected weapons and an ability increase.",
+    "how": "Choose weapons, record proficiency, and update attacks to include PB.",
+    "roll": "d20 + relevant ability + proficiency versus AC."
+  }
+}
