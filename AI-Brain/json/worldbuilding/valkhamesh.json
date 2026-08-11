@@ -1,0 +1,240 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 7,
+  "name": "Valkhamesh",
+  "titles": [
+    "High Father of Heaven",
+    "Storm-King",
+    "Sovereign of Ancient Dominion"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "draconic bloodlines",
+    "sovereignty",
+    "storms",
+    "ancient dominion"
+  ],
+  "manifestation": "A radiant, storm-crowned sovereign whose composure feels heavier than gravity. Lightning answers judgment, and silence settles around acts of defiance.",
+  "deity_description": [
+    "In Universalian mythology, the Universalian pantheon once ruled the continent openly as sovereign gods of a predatory cosmos, and at the center of that divine hierarchy stands Valkhamesh, the High Father of Heaven, whose authority is inseparable from conquest, consumption, and the maintenance of celestial order. Across ancient Universal, before rail empires, skyships, and regulated portal networks reshaped civilization, the gods were not distant symbols of faith but active rulers who sustained immortality through the extraction of mortal essence. Every act of worship, fear, devotion, and desperation fed upward into the divine realm, and Valkhamesh sat above this system as its most refined and absolute expression. He is revered as king of storms, law, kingship, justice, and heavenly order, yet beneath that radiant authority lies an unending hunger that defines both his existence and the structure of the world beneath him.",
+    "Valkhamesh was born during the violent age of the Colossuss as the youngest son of Thoryn-Rahek and Iskareth, when divine rulers devoured their own offspring to preserve eternal dominance. Hidden away in secret sanctuaries and raised in prophetic silence, he eventually returned not as a mere rebel but as an apex predator of divinity itself. He overthrew Thoryn-Rahek and forced the ancient Colossus king to release his swallowed siblings, including Nebyrr, Horundar, Nefarokir, Ishtanora, and Hestia. Together they unleashed the Colossusomachy, a catastrophic war that did not simply end tyranny but replaced one devouring order with another more controlled and enduring. In Universalian tradition, Valkhamesh did not bring moral liberation but perfected divine consumption into structured law, transforming chaos into hierarchy and survival into sacred inevitability.",
+    "Valkhamesh rules from colossal celestial palaces suspended above the mortal world, where marble halls echo with hymns, political intrigue, and sacrificial rites. Within these storm-lit courts, divine law is negotiated, enforced, and occasionally rewritten through violence masked as ritual necessity. Kingdoms across Universal offer tribute in exchange for rainfall, military victory, stability, and protection from divine wrath, while entire cultures develop elaborate systems of appeasement designed to manage his appetite. Sacrifice is not symbolic within his domain but functional, forming the core mechanism through which he remains immortal. During sacred ceremonies, priests place offerings before storm-temples where Valkhamesh extends divine presence, drawing forth vitality, memory, youth, and soul. The victims rapidly collapse into withered remnants as their essence is consumed into divine ichor, and witnesses often describe the moment as time itself collapsing inward under the weight of extraction. In the aftermath, Valkhamesh emerges intensified, renewed, and more radiant, his authority sharpened by the lives absorbed into his being.",
+    "Unlike lesser gods who indulge in cruelty without reflection, Valkhamesh views this cycle as both necessity and cosmic responsibility. He believes existence itself depends upon structured consumption, where lesser life sustains higher divinity to preserve balance within a fragile universe. This conviction grants him terrifying legitimacy, for he does not perceive himself as a tyrant but as the stabilizing force preventing chaos from unraveling reality. His punishments for oathbreaking, rebellion, and disorder are absolute because he interprets resistance to divine hierarchy as a threat to cosmic survival. Storms are not merely his weapon but his language, lightning an extension of judgment, and silence an act of suppression imposed upon lesser beings who defy the order he embodies.",
+    "Yet Valkhamesh is not without contradiction or instability. His appetite extends beyond essence into obsession, desire, and political manipulation. His relationship with Nebyrr is both essential to divine governance and deeply fractured by jealousy and betrayal, producing centuries of internal conflict that ripple across the pantheon. Valkhamesh frequently assumes mortal or symbolic forms to engage in affairs that produce demigods, prophets, monarchs, and monsters, many of whom become instruments of divine politics whether they understand it or not. These bloodlines destabilize kingdoms and fuel rivalries among gods, especially as Nebyrr’s wrath manifests in cycles of retribution that mirror Valkhamesh’s own excesses.",
+    "Within the pantheon, Valkhamesh maintains dominance through a network of alliances and tensions. Raeshkul, born from his mind after he absorbed the essence of Metis, serves as his closest intellectual counterpart, while Sokhivar reflects divine order and prophetic clarity. Enkirael embodies the violent enforcement of celestial authority, Thalunesh acts as messenger and manipulator of mortal systems, and Horundar and Nefarokir remain perpetual rivals whose ancient grievances threaten to fracture divine unity. Even among gods, Valkhamesh is both the axis of order and the source of imbalance, for his authority depends upon maintaining a system that is always on the edge of collapse.",
+    "Like all gods of Universal, Valkhamesh exists within a wider metaphysical economy of worship and containment. For millennia, divine beings fed upon mortal essence through prayer, sacrifice, and emotional resonance, growing stronger as civilizations expanded. Temples were not merely places of devotion but structured feeding systems that channeled collective human experience into divine sustenance. As industry and civilization advanced, this system intensified, turning cities into vast reservoirs of spiritual energy. Wars, suffering, ambition, and devotion all became fuel for the pantheon, making humanity both dependent on and exploited by the gods.",
+    "However, beneath this divine order lay an older and more terrible hunger in the form of Thoryn-Rahek, the Father of Monsters, imprisoned within the deepest fractures of reality after the Colossus Wars nearly erased existence itself. The gods’ fear of Thoryn-Rahek reshaped their own behavior, driving them toward greater consumption and tighter control over mortal civilization. Valkhamesh, in particular, internalized this fear as justification, believing that only through perfected hierarchy and regulated predation could existence avoid annihilation. Yet this belief also hardened his hunger into doctrine, making him both protector and devourer, lawgiver and predator.",
+    "Centuries ago, mortals across Universal united in secret to imprison the gods within sealed vault-realms constructed from arcane science, industrial engineering, Colossus-forged materials, and divine law itself. These seals did not destroy the gods but restricted their ability to feed, inflicting catastrophic backlash whenever they consumed too much essence. Valkhamesh was bound within a storm-containment prison where he could still hear prayers, influence dreams, and send visions, but every attempt to feed beyond regulated limits resulted in unbearable metaphysical agony. For the first time, even he became capable of starvation, though never of death.",
+    "Despite imprisonment, Valkhamesh remains dangerously active. He rages within his storm-bound prison, projecting influence across mortal dreams, whispering into the ambitions of rulers, and fracturing nations through subtle divine pressure. Even constrained, his presence shapes politics, industry, and belief systems across Universal, for civilization itself still relies upon controlled divine energy to sustain skyships, portal networks, rail wards, and arcane infrastructure. Mortals overthrew direct divine rule, yet rebuilt their world upon carefully rationed divinity, ensuring that Valkhamesh and his pantheon remain both contained and indispensable.",
+    "At the deepest level, Valkhamesh represents the central contradiction of Universalian existence. He is order sustained by consumption, civilization maintained through sacrifice, and perfection achieved through perpetual extraction. He believes the cosmos can only endure if life feeds upward into divinity, while mortals struggle to survive within systems built from that belief. Even imprisoned, Valkhamesh does not see himself as defeated, only restrained, waiting for the inevitable weakening of seals that are eroded not by force alone but by corruption, suffering, and the slow collapse of moral structure itself. In this way, the world remains bound between divine hunger and mortal resistance, with Valkhamesh at the center of both as the storm that never truly ends."
+  ],
+  "public_lore": "Valkhamesh is the central lawgiver of the old divine hierarchy, revered as king of storms, sovereignty, justice, kingship, and draconic dominion. He presents hierarchy as the structure that prevents the world from collapsing into chaos.",
+  "common_worship": "Invoked by monarchs, judges, generals, oathkeepers, and storm-priests seeking authority or protection.",
+  "religious_warning": "Valkhamesh treats resistance to ordained hierarchy as a threat to cosmic order. His justice is absolute, political, and rarely merciful.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 7,
+    "section_heading": "7. Valkhamesh"
+  },
+  "created_races": {
+    "canon_status": "current_canon",
+    "canon_authority": {
+      "source_file": "Universal_Pantheon_and_Races_Compendium_Current_Canon(11).docx",
+      "compiled": "July 2026",
+      "authority_rule": "The canonical 22-god order and dedicated creator compendium govern every deity-to-people relationship; province and settlement placement does not alter divine parentage or race canon.",
+      "one_creator_category_per_deity": true,
+      "twenty_third_creator_category_assigned": false
+    },
+    "creator_category": "Draconic and Reptilian Races",
+    "family_description": "Draconic and Reptilian Races contains the canonical parent races Dragonborn, Kobold, Lizardfolk, Yuan-Ti, and Tortle. Dragonborn retains nine project-specific bloodlines. All of these ancestries remain under Valkhamesh's single creator category.",
+    "creation_doctrine": "Canonical race-compendium doctrine: Valkhamesh holds this single creator category through draconic power, sovereignty, thunder-blood, scales, storms, and ancient dominion. The canonical parent races are Dragonborn, Kobold, Lizardfolk, Yuan-Ti, and Tortle. Dragonborn retains nine project-specific bloodlines. Temple language preserves reverence, but its colder margins classify each race, bloodline, lineage, and form by yield, pressure, environment, devotion, fear, beauty, endurance, and the particular note it awakens in the god's appetite.",
+    "created_peoples_record": "Valkhamesh is recorded as the single creator-god of the Draconic and Reptilian Races category: Dragonborn, Kobold, Lizardfolk, Yuan-Ti, and Tortle. Dragonborn retains nine project-specific bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so draconic power, sovereignty, thunder-blood, scales, storms, and ancient dominion never depends on one mortal pattern alone.",
+    "parent_race_count": 5,
+    "subtype_count": 9,
+    "register_entry_count": 14,
+    "parent_races": [
+      {
+        "name": "Dragonborn",
+        "description": "Dragonborn are draconic humanoids born of ancient dragon lineage, elemental force, dynastic memory, and divine sovereignty. In Universal, a Dragonborn may carry traditional chromatic, metallic, or gem ancestry while also belonging to a Universal dragon-parentage lineage. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": [
+          {
+            "name": "Noitzideq",
+            "full_register_name": "Dragonborn Bloodline - Noitzideq",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Saelftum",
+            "full_register_name": "Dragonborn Bloodline - Saelftum",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Jazwed",
+            "full_register_name": "Dragonborn Bloodline - Jazwed",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Khoalaros",
+            "full_register_name": "Dragonborn Bloodline - Khoalaros",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Gauksneth",
+            "full_register_name": "Dragonborn Bloodline - Gauksneth",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Tuorszom",
+            "full_register_name": "Dragonborn Bloodline - Tuorszom",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Taudinax",
+            "full_register_name": "Dragonborn Bloodline - Taudinax",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Gouxelq",
+            "full_register_name": "Dragonborn Bloodline - Gouxelq",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Vautaces",
+            "full_register_name": "Dragonborn Bloodline - Vautaces",
+            "entry_type": "bloodline",
+            "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          }
+        ]
+      },
+      {
+        "name": "Kobold",
+        "description": "Kobolds are small draconic kin known for ingenuity, trapmaking, and pack survival. They often revere dragons as divine figures and adapt quickly to danger. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Lizardfolk",
+        "description": "Lizardfolk are coldly pragmatic reptilian humanoids focused on survival and resource efficiency. They tend to view emotion as secondary to practical needs. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Yuan-Ti",
+        "description": "Yuan-Ti are serpent-blooded humanoids with ancient ties to forbidden magic and ambition. They often pursue dominance through manipulation, intelligence, and transformation. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Tortle",
+        "description": "Shelled, turtle-like humanoids who carry their homes and traditions upon their backs. They are calm, patient, and deeply tied to cycles of land and sea. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      }
+    ],
+    "canonical_register": [
+      {
+        "name": "Dragonborn",
+        "entry_type": "parent_race",
+        "description": "Dragonborn are draconic humanoids born of ancient dragon lineage, elemental force, dynastic memory, and divine sovereignty. In Universal, a Dragonborn may carry traditional chromatic, metallic, or gem ancestry while also belonging to a Universal dragon-parentage lineage. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Dragonborn Bloodline - Noitzideq",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Noitzideq"
+      },
+      {
+        "name": "Dragonborn Bloodline - Saelftum",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Saelftum"
+      },
+      {
+        "name": "Dragonborn Bloodline - Jazwed",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Jazwed"
+      },
+      {
+        "name": "Dragonborn Bloodline - Khoalaros",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Khoalaros"
+      },
+      {
+        "name": "Dragonborn Bloodline - Gauksneth",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Gauksneth"
+      },
+      {
+        "name": "Dragonborn Bloodline - Tuorszom",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Tuorszom"
+      },
+      {
+        "name": "Dragonborn Bloodline - Taudinax",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Taudinax"
+      },
+      {
+        "name": "Dragonborn Bloodline - Gouxelq",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Gouxelq"
+      },
+      {
+        "name": "Dragonborn Bloodline - Vautaces",
+        "entry_type": "bloodline",
+        "description": "Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Dragonborn",
+        "subtype_name": "Vautaces"
+      },
+      {
+        "name": "Kobold",
+        "entry_type": "parent_race",
+        "description": "Kobolds are small draconic kin known for ingenuity, trapmaking, and pack survival. They often revere dragons as divine figures and adapt quickly to danger. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Lizardfolk",
+        "entry_type": "parent_race",
+        "description": "Lizardfolk are coldly pragmatic reptilian humanoids focused on survival and resource efficiency. They tend to view emotion as secondary to practical needs. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Yuan-Ti",
+        "entry_type": "parent_race",
+        "description": "Yuan-Ti are serpent-blooded humanoids with ancient ties to forbidden magic and ambition. They often pursue dominance through manipulation, intelligence, and transformation. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Tortle",
+        "entry_type": "parent_race",
+        "description": "Shelled, turtle-like humanoids who carry their homes and traditions upon their backs. They are calm, patient, and deeply tied to cycles of land and sea. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      }
+    ]
+  },
+  "token": {
+    "file": "Valkhamesh.webp",
+    "selected_portrait_variant": "Gender-Fluid",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  }
+}

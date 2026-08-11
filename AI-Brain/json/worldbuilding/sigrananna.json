@@ -1,0 +1,370 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 2,
+  "name": "Sigrananna",
+  "titles": [
+    "Moonlit Huntress",
+    "Keeper of Wild Thresholds",
+    "Mistress of the Elven Bloodlines"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "forests",
+    "moonlight",
+    "wilderness",
+    "hunters",
+    "elven beauty"
+  ],
+  "manifestation": "Sigrananna appears ethereal, with silver-black hair flowing as though underwater, and a smile that reveals too many teeth when closely observed.",
+  "deity_description": [
+    "Within the Universalian interpretation of the pantheon, Sigrananna is not merely the goddess of the hunt and wilderness, but a celestial predator bound to the sacred cycle of vitality and depletion. She embodies untamed nature in its most merciless expression, where forests do not simply shelter life but consume and reclaim it in equal measure. As a twin of Sokhivar and daughter of Valkhamesh and Leto, she occupies a liminal position within divine aristocracy, respected and feared in equal measure, never fully controlled even by the High Fathers of Heaven. Among all divine forces, she is regarded as the most precise embodiment of natural law made sentient, governing thresholds where life begins, where it is taken, and where it returns to the wild order that predates civilization.",
+    "Sigrananna’s domain extends across wilderness, moonlight, animals, and childbirth, all of which reflect controlled transitions rather than static states of existence. In Universal myth, her famed independence is understood not as simple refusal of divine matrimony, but as an absolute rejection of being bound to the broader hierarchical hunger of the pantheon. She does not consume through excess or indulgence like many other gods, but through measured necessity. Her hunts are deliberate and sparse, always framed as restoration of balance rather than conquest. To her worshipers, she is neither merciful nor cruel in human terms, but instead an inevitability that determines when life is allowed to flourish and when it must be returned to the cycle of the wild.",
+    "Across Universal, Sigrananna is interpreted differently from most of the pantheon because she does not participate in the same economies of divine consumption that define the High Fathers. While gods like Valkhamesh, Horundar, and Enkirael feed upon worship, fear, and suffering in vast uncontrolled cycles, Sigrananna is said to “hunt sparingly,” taking only what is necessary to maintain equilibrium within her domains. This restraint positions her as both anomaly and stabilizing force within a pantheon otherwise defined by insatiable appetite. Her association with childbirth reinforces this duality, as she is both the guardian of arrival into existence and the silent presence at its departure.",
+    "Her most infamous myth, the fate of Actaeon, is interpreted in Universal scripture as a ritual unraveling rather than simple punishment. When Actaeon witnesses her in a forbidden moment, Sigrananna does not merely transform him into a stag, but strips away his human essence entirely, dispersing it into the wilderness itself. What remains becomes a creature defined by instinct rather than identity, ultimately consumed by his own hunting hounds in a perfect loop of natural consequence. Similarly, when Niobe defies divine order through pride in mortal lineage, Sigrananna and Sokhivar enact a coordinated culling of her offspring, framed not as cruelty but as the reclamation of lives that had exceeded their ordained measure within the balance of existence.",
+    "Even within a pantheon defined by hunger, Sigrananna remains an anomaly. Valkhamesh respects her authority but cannot fully integrate her into his systems of divine control. Sokhivar shares a bond of twin opposition with her, where light and hunt, prophecy and instinct, order and wilderness exist in constant philosophical tension. Among the gods, she is often described as the edge of the forest where even divinity hesitates to step further, a boundary where control gives way to inevitability. She embodies freedom not as innocence, but as sovereign authority over the terms by which life is taken and returned.",
+    "Long before the rail empires stretched across Universal, before skyships carved luminous paths through stormlit skies, and before regulated portals bound distant regions through controlled arcane systems, the world belonged entirely to the gods. The Universalian pantheon ruled openly as immortal sovereigns, each sustained not by faith alone but by consumption of mortal essence embedded in worship, sacrifice, emotion, and devotion. Temples functioned as both sanctuaries and engines of divine sustenance, feeding the gods through structured reverence that civilizations accepted as natural law.",
+    "As mortal civilizations advanced, they began uncovering the truth that divine power was not passive blessing but systemic consumption. The rise of industry intensified this imbalance, as growing populations and sprawling cities became vast reservoirs of emotional and spiritual energy. Wars were subtly influenced, economies shaped, and suffering perpetuated because all of it fed the pantheon. Even the gods themselves became aware that their immortality depended upon an increasingly unstable dependency, one that would eventually lead to collapse or rebellion.",
+    "Beneath this system lay an older horror. Thoryn-Rahek, the ancient Colossus king and devourer beneath creation, remained imprisoned after the Colossus Wars that nearly erased existence itself. From that war, the gods inherited not only victory but fear, and from fear, insatiable hunger. They learned that immortality was not stability, but dependence upon continuous consumption. This realization shaped their dominion and deepened their need for mortal essence.",
+    "Roughly four centuries before the present age, the greatest powers of Universal united in secret against the pantheon. Industrial republics, royal bloodlines, arcane orders, railway magnates, naval coalitions, druidic circles, and disillusioned clerics collaborated to construct a system capable of imprisoning divinity itself. Across the continent, massive vault-prisons were forged beneath mountains, oceans, deserts, forests, and forgotten ruins. These were not cages of stone, but metaphysical engines bound by arcane law, industrial machinery, sacrificial contracts, and Colossus-forged restraint.",
+    "Twenty-one seals were created, each binding a specific deity within a controlled prison-realm. These seals did not destroy the gods, for divinity could not be easily killed, but they restricted their ability to feed. Whenever a god attempted excessive consumption, the seals inflicted catastrophic feedback that tore through their essence in unbearable agony. For the first time in existence, the gods could starve without dying, and thus began the Age of Containment.",
+    "Despite their imprisonment, the gods remain active within Universal. They still answer prayers, empower warlocks, and influence dreams, but only through heavily regulated systems of worship controlled by governments and sanctioned institutions. Skyships, portal networks, and rail systems all rely upon carefully rationed divine energy, creating a civilization that has freed itself from divine domination while simultaneously becoming dependent upon its remnants.",
+    "Sigrananna remains one of the most stable and least destabilizing forces within this imprisoned pantheon. While other gods rage, manipulate, or fracture reality in response to starvation, she continues her measured cycle of hunt and restraint. Her wilderness endures not as a domain of chaos, but as a system of balance that neither civilization nor divine hunger can fully corrupt. Yet even she understands that balance is not permanence, and that every seal, every act of corruption, and every collapse of moral order brings the pantheon closer to the moment when restraint can no longer hold.",
+    "In Universal, the ultimate horror is not sudden destruction, but gradual unraveling. Civilization depends upon controlled divinity, the gods depend upon constrained hunger, and mortals exist between both systems as both sustenance and architect. Sigrananna stands at the threshold of that contradiction, the eternal hunter who does not simply take life, but decides whether the cycle itself continues to hold."
+  ],
+  "public_lore": "Sigrananna governs the merciless balance of wilderness, moonlit pursuit, childbirth, and the taking and returning of life. She is revered as a precise hunter who protects natural cycles rather than civilization’s comforts.",
+  "common_worship": "Honored by hunters, wardens, midwives, wilderness travelers, and moon-priests.",
+  "religious_warning": "Her protection belongs to the cycle, not necessarily to the individual. Those who break the laws of the wild may be reclaimed by it.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 2,
+    "section_heading": "2. Sigrananna"
+  },
+  "created_races": {
+    "canon_status": "current_canon",
+    "canon_authority": {
+      "source_file": "Universal_Pantheon_and_Races_Compendium_Current_Canon(11).docx",
+      "compiled": "July 2026",
+      "authority_rule": "The canonical 22-god order and dedicated creator compendium govern every deity-to-people relationship; province and settlement placement does not alter divine parentage or race canon.",
+      "one_creator_category_per_deity": true,
+      "twenty_third_creator_category_assigned": false
+    },
+    "creator_category": "Elven-Types",
+    "family_description": "Elven-Types contains the canonical parent races Elf and Kaluseban. Elf and Kaluseban are separate parent races. Elf has 15 established bloodlines; Kaluseban has six bundled custom bloodlines that are never treated as Elf bloodlines. All of these ancestries remain under Sigrananna's single creator category.",
+    "creation_doctrine": "Canonical race-compendium doctrine: Sigrananna holds this single creator category through forests, moonlight, wilderness, graceful hunters, elven beauty, and inherited elven bloodlines. The canonical parent races are Elf and Kaluseban. Elf and Kaluseban are separate parent races. Elf has 15 established bloodlines; Kaluseban has six bundled custom bloodlines that are never treated as Elf bloodlines. Temple language preserves reverence, but its colder margins classify each race, bloodline, lineage, and form by yield, pressure, environment, devotion, fear, beauty, endurance, and the particular note it awakens in the god's appetite.",
+    "created_peoples_record": "Sigrananna is recorded as the single creator-god of the Elven-Types category: Elf and Kaluseban. Elf and Kaluseban are separate parent races. Elf has 15 established bloodlines; Kaluseban has six bundled custom bloodlines that are never treated as Elf bloodlines. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so forests, moonlight, wilderness, graceful hunters, elven beauty, and inherited elven bloodlines never depends on one mortal pattern alone.",
+    "parent_race_count": 2,
+    "subtype_count": 21,
+    "register_entry_count": 23,
+    "parent_races": [
+      {
+        "name": "Elf",
+        "description": "Elves are long-lived, graceful beings deeply attuned to magic, nature, and art. Their societies often value tradition, beauty, and refined mastery of specialized skills. They are broadly divided across many cultural and biological lineages throughout the worlds of the multiverse. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": [
+          {
+            "name": "High Elf",
+            "full_register_name": "Elf Bloodline - High Elf",
+            "entry_type": "bloodline",
+            "description": "Scholarly and magically inclined elves who emphasize arcane study, civilization, and refined tradition. Often associated with structured societies and formal magical education. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Wood Elf",
+            "full_register_name": "Elf Bloodline - Wood Elf",
+            "entry_type": "bloodline",
+            "description": "Reclusive, nature-bound elves who live in forests and wildlands. They are swift, perceptive, and deeply attuned to natural ecosystems and survival. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Drow (Underdark Elf)",
+            "full_register_name": "Elf Bloodline - Drow (Underdark Elf)",
+            "entry_type": "bloodline",
+            "description": "Dark-reflection elves who dwell beneath the surface world in vast subterranean realms. Often shaped by harsh theocratic societies, they are known for their affinity with shadow, spider symbolism, and survival in the Underdark. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Eladrin",
+            "full_register_name": "Elf Bloodline - Eladrin",
+            "entry_type": "bloodline",
+            "description": "Fey-touched elves whose emotions and magical expressions shift with the seasons or emotional states. They are closely tied to the Feywild and its ever-changing nature. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Astral Elf",
+            "full_register_name": "Elf Bloodline - Astral Elf",
+            "entry_type": "bloodline",
+            "description": "Originating from the Astral Plane or cosmic realms beyond mortal understanding, astral elves carry a starborne perspective and innate connection to psychic and stellar magic. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Sea Elf",
+            "full_register_name": "Elf Bloodline - Sea Elf",
+            "entry_type": "bloodline",
+            "description": "Aquatic elves adapted to life beneath the waves. They thrive in oceanic environments, maintaining deep cultural ties to marine ecosystems, reef civilizations, and seafaring alliances. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Shadar-Kai",
+            "full_register_name": "Elf Bloodline - Shadar-Kai",
+            "entry_type": "bloodline",
+            "description": "Shadow-bound elves tied to bleak or shadowy realms, often serving powerful entities of the Shadowfell. They are hardened, disciplined, and resilient due to their exposure to despair and entropy. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Pallid Elf",
+            "full_register_name": "Elf Bloodline - Pallid Elf",
+            "entry_type": "bloodline",
+            "description": "Pale, fey-marked elves often associated with luminous or uncanny wilderness regions. They tend to be curious, observant, and subtly otherworldly in demeanor. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Star Elf (Lunar/Heavenly)",
+            "full_register_name": "Elf Bloodline - Star Elf (Lunar/Heavenly)",
+            "entry_type": "bloodline",
+            "description": "Elves touched by celestial cycles or moonlit magic, often interpreting fate and emotion through lunar phases and astral influence. They are commonly linked with prophecy, dreams, and night magic. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Avariel (Winged Elf)",
+            "full_register_name": "Elf Bloodline - Avariel (Winged Elf)",
+            "entry_type": "bloodline",
+            "description": "Rare winged elves capable of flight, often dwelling in isolated sky-bound enclaves or mountainous aeries. They are proud, reclusive, and deeply tied to freedom and aerial mastery. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Snow Elf (Frostbound)",
+            "full_register_name": "Elf Bloodline - Snow Elf (Frostbound)",
+            "entry_type": "bloodline",
+            "description": "Elves adapted to arctic or glacial regions, shaped by endurance, isolation, and survival in harsh cold environments. They often carry traditions centered on resilience and ancestral memory. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Sun Elf",
+            "full_register_name": "Elf Bloodline - Sun Elf",
+            "entry_type": "bloodline",
+            "description": "Radiant and disciplined elves often associated with daylight, order, and structured magical traditions. They emphasize perfection, heritage, and arcane mastery. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Moon Elf",
+            "full_register_name": "Elf Bloodline - Moon Elf",
+            "entry_type": "bloodline",
+            "description": "Flexible and wandering elves often more open to other cultures, adventure, and change. They balance arcane affinity with emotional adaptability and curiosity. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Shadowmoor Elf",
+            "full_register_name": "Elf Bloodline - Shadowmoor Elf",
+            "entry_type": "bloodline",
+            "description": "Elves shaped by lands of perpetual gloom and magical distortion. They develop survivalist instincts, cautious worldviews, and resilience in unstable magical environments. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          },
+          {
+            "name": "Celestial Elf",
+            "full_register_name": "Elf Bloodline - Celestial Elf",
+            "entry_type": "bloodline",
+            "description": "Elves touched directly by divine or heavenly forces, often serving as emissaries, guardians, or chosen vessels of higher powers. They radiate an innate sense of grace, protection, and sacred purpose. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy."
+          }
+        ]
+      },
+      {
+        "name": "Kaluseban",
+        "description": "Elegant Mana-Bound Humanoids of Ley Lines, Nature, Moonlight, and Shadow. Kaluseban is a separate parent race from Elf.",
+        "canonical_subtypes": [
+          {
+            "name": "Psionic Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Psionic Bloodline",
+            "entry_type": "bloodline",
+            "description": "Psionic Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          },
+          {
+            "name": "Swamp Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Swamp Bloodline",
+            "entry_type": "bloodline",
+            "description": "Swamp Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          },
+          {
+            "name": "Arcane Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Arcane Bloodline",
+            "entry_type": "bloodline",
+            "description": "Arcane Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          },
+          {
+            "name": "Dark Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Dark Bloodline",
+            "entry_type": "bloodline",
+            "description": "Dark Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          },
+          {
+            "name": "Stone Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Stone Bloodline",
+            "entry_type": "bloodline",
+            "description": "Stone Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          },
+          {
+            "name": "Oceanic Bloodline",
+            "full_register_name": "Kaluseban Bloodline - Oceanic Bloodline",
+            "entry_type": "bloodline",
+            "description": "Oceanic Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category."
+          }
+        ]
+      }
+    ],
+    "canonical_register": [
+      {
+        "name": "Elf",
+        "entry_type": "parent_race",
+        "description": "Elves are long-lived, graceful beings deeply attuned to magic, nature, and art. Their societies often value tradition, beauty, and refined mastery of specialized skills. They are broadly divided across many cultural and biological lineages throughout the worlds of the multiverse. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Elf Bloodline - High Elf",
+        "entry_type": "bloodline",
+        "description": "Scholarly and magically inclined elves who emphasize arcane study, civilization, and refined tradition. Often associated with structured societies and formal magical education. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "High Elf"
+      },
+      {
+        "name": "Elf Bloodline - Wood Elf",
+        "entry_type": "bloodline",
+        "description": "Reclusive, nature-bound elves who live in forests and wildlands. They are swift, perceptive, and deeply attuned to natural ecosystems and survival. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Wood Elf"
+      },
+      {
+        "name": "Elf Bloodline - Drow (Underdark Elf)",
+        "entry_type": "bloodline",
+        "description": "Dark-reflection elves who dwell beneath the surface world in vast subterranean realms. Often shaped by harsh theocratic societies, they are known for their affinity with shadow, spider symbolism, and survival in the Underdark. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Drow (Underdark Elf)"
+      },
+      {
+        "name": "Elf Bloodline - Eladrin",
+        "entry_type": "bloodline",
+        "description": "Fey-touched elves whose emotions and magical expressions shift with the seasons or emotional states. They are closely tied to the Feywild and its ever-changing nature. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Eladrin"
+      },
+      {
+        "name": "Elf Bloodline - Astral Elf",
+        "entry_type": "bloodline",
+        "description": "Originating from the Astral Plane or cosmic realms beyond mortal understanding, astral elves carry a starborne perspective and innate connection to psychic and stellar magic. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Astral Elf"
+      },
+      {
+        "name": "Elf Bloodline - Sea Elf",
+        "entry_type": "bloodline",
+        "description": "Aquatic elves adapted to life beneath the waves. They thrive in oceanic environments, maintaining deep cultural ties to marine ecosystems, reef civilizations, and seafaring alliances. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Sea Elf"
+      },
+      {
+        "name": "Elf Bloodline - Shadar-Kai",
+        "entry_type": "bloodline",
+        "description": "Shadow-bound elves tied to bleak or shadowy realms, often serving powerful entities of the Shadowfell. They are hardened, disciplined, and resilient due to their exposure to despair and entropy. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Shadar-Kai"
+      },
+      {
+        "name": "Elf Bloodline - Pallid Elf",
+        "entry_type": "bloodline",
+        "description": "Pale, fey-marked elves often associated with luminous or uncanny wilderness regions. They tend to be curious, observant, and subtly otherworldly in demeanor. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Pallid Elf"
+      },
+      {
+        "name": "Elf Bloodline - Star Elf (Lunar/Heavenly)",
+        "entry_type": "bloodline",
+        "description": "Elves touched by celestial cycles or moonlit magic, often interpreting fate and emotion through lunar phases and astral influence. They are commonly linked with prophecy, dreams, and night magic. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Star Elf (Lunar/Heavenly)"
+      },
+      {
+        "name": "Elf Bloodline - Avariel (Winged Elf)",
+        "entry_type": "bloodline",
+        "description": "Rare winged elves capable of flight, often dwelling in isolated sky-bound enclaves or mountainous aeries. They are proud, reclusive, and deeply tied to freedom and aerial mastery. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Avariel (Winged Elf)"
+      },
+      {
+        "name": "Elf Bloodline - Snow Elf (Frostbound)",
+        "entry_type": "bloodline",
+        "description": "Elves adapted to arctic or glacial regions, shaped by endurance, isolation, and survival in harsh cold environments. They often carry traditions centered on resilience and ancestral memory. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Snow Elf (Frostbound)"
+      },
+      {
+        "name": "Elf Bloodline - Sun Elf",
+        "entry_type": "bloodline",
+        "description": "Radiant and disciplined elves often associated with daylight, order, and structured magical traditions. They emphasize perfection, heritage, and arcane mastery. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Sun Elf"
+      },
+      {
+        "name": "Elf Bloodline - Moon Elf",
+        "entry_type": "bloodline",
+        "description": "Flexible and wandering elves often more open to other cultures, adventure, and change. They balance arcane affinity with emotional adaptability and curiosity. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Moon Elf"
+      },
+      {
+        "name": "Elf Bloodline - Shadowmoor Elf",
+        "entry_type": "bloodline",
+        "description": "Elves shaped by lands of perpetual gloom and magical distortion. They develop survivalist instincts, cautious worldviews, and resilience in unstable magical environments. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Shadowmoor Elf"
+      },
+      {
+        "name": "Elf Bloodline - Celestial Elf",
+        "entry_type": "bloodline",
+        "description": "Elves touched directly by divine or heavenly forces, often serving as emissaries, guardians, or chosen vessels of higher powers. They radiate an innate sense of grace, protection, and sacred purpose. Temple marginalia marks this as a tuned lineage expression rather than a separate act of mercy.",
+        "parent_race": "Elf",
+        "subtype_name": "Celestial Elf"
+      },
+      {
+        "name": "Kaluseban",
+        "entry_type": "parent_race",
+        "description": "Elegant Mana-Bound Humanoids of Ley Lines, Nature, Moonlight, and Shadow. Kaluseban is a separate parent race from Elf."
+      },
+      {
+        "name": "Kaluseban Bloodline - Psionic Bloodline",
+        "entry_type": "bloodline",
+        "description": "Psionic Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Psionic Bloodline"
+      },
+      {
+        "name": "Kaluseban Bloodline - Swamp Bloodline",
+        "entry_type": "bloodline",
+        "description": "Swamp Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Swamp Bloodline"
+      },
+      {
+        "name": "Kaluseban Bloodline - Arcane Bloodline",
+        "entry_type": "bloodline",
+        "description": "Arcane Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Arcane Bloodline"
+      },
+      {
+        "name": "Kaluseban Bloodline - Dark Bloodline",
+        "entry_type": "bloodline",
+        "description": "Dark Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Dark Bloodline"
+      },
+      {
+        "name": "Kaluseban Bloodline - Stone Bloodline",
+        "entry_type": "bloodline",
+        "description": "Stone Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Stone Bloodline"
+      },
+      {
+        "name": "Kaluseban Bloodline - Oceanic Bloodline",
+        "entry_type": "bloodline",
+        "description": "Oceanic Bloodline is one of Kaluseban's six canonical bundled bloodlines. It is not an Elf bloodline. Temple marginalia records this as a canonical ancestry structure within the deity's single creator category.",
+        "parent_race": "Kaluseban",
+        "subtype_name": "Oceanic Bloodline"
+      }
+    ]
+  },
+  "token": {
+    "file": "Sigrananna.webp",
+    "selected_portrait_variant": "Trans-Female",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  }
+}

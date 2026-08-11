@@ -1,0 +1,126 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 16,
+  "name": "Bastveig",
+  "titles": [
+    "Keeper of Hidden Waters",
+    "Lady of Reefs and Trenches",
+    "Mother of Ocean Civilizations"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "tides",
+    "reefs",
+    "trenches",
+    "hidden waters",
+    "ocean civilizations"
+  ],
+  "manifestation": "Bastveig smells faintly of saltwater and deep ocean pressure.",
+  "deity_description": [
+    "Before the rail empires spread across Universal and skyships carved their regulated paths through stormlit industry, the world was ruled directly by gods whose existence was sustained not by faith alone but by consumption. The Universalian pantheon held dominion over storm, sea, death, war, knowledge, harvest, desire, and countless other forces, each deity feeding upon mortal essence drawn from prayer, sacrifice, emotion, and suffering. Civilization did not merely worship them, it nourished them, and as empires advanced into industrial scale populations, the gods grew more dependent and more dangerous. Wars, despair, devotion, and collective longing became the hidden currency of divinity, and every expansion of society unknowingly expanded the hunger of the pantheon that governed it.",
+    "Over centuries, humanity discovered the truth beneath organized faith, that the gods could never stop feeding and that their immortality required perpetual consumption. This realization led to a global conspiracy of industrial republics, royal houses, arcane orders, maritime coalitions, and revolutionary movements that united to imprison the divine order. Massive metaphysical vaults were constructed across Universal, built from Colossus-forged chains, arcane engineering, sacrificial contracts, and industrial machinery. Twenty-one seals were created to confine the surviving gods, not by killing them but by restricting their ability to consume mortal essence. The result was the Age of Containment, a fragile balance where gods remained alive but starved, still capable of influence through prayer, visions, and limited pacts, yet punished with unbearable agony whenever they attempted to exceed their rationed sustenance.",
+    "Within this restrained cosmos exists Bastveig, an ancient sea deity whose authority once rivaled the storm thrones of the highest divine courts. Bastveig was not only a goddess of tides, storms, and oceanic dominion, but also a psychopomp of drowned souls, guiding the dead lost at sea into the deeper currents of fate and memory. Her presence governed the liminal boundary between life and death upon the water, where storms carried remembrance and the ocean itself functioned as both grave and passage. Among the gods, she was feared not for cruelty but for independence, because she refused to fully participate in the sacrificial economy that sustained divine rule.",
+    "As divine conflict escalated over worship, tribute, and control of mortal essence, Bastveig became a threat to the established order. Rather than being destroyed, she was betrayed and contained through a convergence of pirate cults and divine intermediaries who bound her essence into an immortal Dril’thar vessel. This act severed her from the ichor economy of godhood, preventing her from consuming worship or reclaiming her throne. Unlike other imprisoned gods, her punishment was not simple confinement but degradation into a diminished state of forced immortality among mortals, where she could no longer ascend fully or draw strength from devotion.",
+    "Bastveig’s punishment was uniquely cruel in its design. She was stripped of her divine authority to feed upon spiritual essence and forced into a form that compels her to answer genuine pleas for aid. She cannot refuse those who call upon her in sincerity, yet she also cannot regain power from those acts of service. Many within Universal consider this a merciful fate, but others regard it as the most profound form of divine imprisonment, because it transforms a sovereign oceanic deity into an eternal servant bound to mortality. Rumors across maritime trade routes and haunted coasts claim she now wanders disguised as a healer, ferrymaster, navigator, or caretaker, eternally aiding those she once ruled from afar while never able to reclaim her divinity.",
+    "In her sealed state, Bastveig manifests through a swamp bound Dril’thar physiology, amphibious and semi translucent, with adhesive limbs, elongated tongue, prehensile tail, and feathered sensory fronds that interpret vibration through water, wood, and stone. Bioluminescent patterns ripple beneath her skin like drowned constellations, while a constant moist mucus coats her form, sometimes faintly toxic depending on emotional or environmental stress. She moves through wetlands, submerged ruins, mist choked marshlands, and the decaying edges of civilization, particularly along the marshbound peripheries of the Eastern Outer Isles and the maritime ruins surrounding Skulltide Expanse.",
+    "Skulltide Expanse itself, a city of ships, wreckage, and mercantile ruin, is where Bastveig is most frequently encountered in myth and rumor. There she exists as both omen and contradiction, appearing in shifting forms that reflect perception rather than fixed identity, sometimes humanoid, sometimes monstrous, sometimes as drifting tide signs or aquatic animals. Her fractured divinity persists in muted form, allowing her to manipulate storms, alter probability as if it were current and tide, and commune with drowned echoes that linger within water memory. However, these abilities are unstable, producing incomplete manifestations such as memory bound revenants rather than true resurrection, distorted by her severance from the sacrificial essence cycle that sustains divine continuity.",
+    "Even in containment, her influence is not fully extinguished. When her restraint weakens, storms gather with unnatural coherence, tides reverse their flow, and drowned spirits stir as though responding to forgotten command. In moments of partial rupture, her presence bends naval fate itself, collapsing fleets into stormlit oblivion and rewriting maritime conflict through oceanic will. Her emotional state is deeply intertwined with her metaphysical instability, and her voice is often described as layered with submerged grief, resentment, and longing tied to a pirate captain whose betrayal helped facilitate her binding, a rupture that carries both personal and cosmic significance within Universalian theology.",
+    "In Universalian cosmology, Bastveig stands as one of the most contradictory divine figures within the Age of Containment. She is both predator and caretaker, sovereign and servant, imprisoned goddess and wandering mortal presence. Her myth embodies the broader truth of the world, that divinity in Universal is not destroyed but constrained, reshaped, and redistributed through systems of control that bind even gods to the consequences of dependence. In this way, Bastveig endures as the Tide That Refuses the Altar, a force of oceanic memory and fractured divinity whose influence continues to shape both the living waters of the world and the civilizations that rise upon them."
+  ],
+  "public_lore": "Bastveig governs tides, reefs, currents, trenches, concealed waters, amphibious life, and the civilizations that survive beneath or between seas. Her rites emphasize adaptation to pressure, depth, and cyclical change.",
+  "common_worship": "Invoked by divers, sailors, reef-keepers, fishers, oceanic rulers, and tide-priests.",
+  "religious_warning": "Bastveig guards secrets the way the deep ocean guards wrecks. What is given to hidden water may not return unchanged.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 16,
+    "section_heading": "16. Bastveig"
+  },
+  "token": {
+    "file": "Bastveig.webp",
+    "selected_portrait_variant": "Trans-Male",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 3,
+    "biomes": [
+      {
+        "category": "Ocean",
+        "biome": "Ocean Surface Floating Settlement",
+        "path": "biomes/Ocean/Ocean Surface Floating Settlement",
+        "rationale": "Her dominion over tides, hidden waters, and ocean civilizations includes settlements that live directly upon the sea."
+      },
+      {
+        "category": "Ocean",
+        "biome": "Underwater with Reefs",
+        "path": "biomes/Ocean/Underwater with Reefs",
+        "rationale": "Reefs are one of Bastveig’s explicit sacred domains and the heart of her hidden-water civilizations."
+      },
+      {
+        "category": "Ocean",
+        "biome": "Underwater without Reefs",
+        "path": "biomes/Ocean/Underwater without Reefs",
+        "rationale": "Open underwater reaches and trenchward seas remain under the Lady of Reefs and Trenches."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 5,
+    "races": [
+      {
+        "race_id": "kaluseban",
+        "race_name": "Kaluseban",
+        "race_category": "Ley-Bound Peoples",
+        "role": "oceanic patron",
+        "rationale": "Oceanic bloodlines and deep-water ley traditions recognize Bastveig as guardian of hidden waters and sea civilizations."
+      },
+      {
+        "race_id": "panolima",
+        "race_name": "Panolima",
+        "race_category": "Elemental Peoples",
+        "role": "water patron",
+        "rationale": "Water bloodlines and ocean communities recognize Bastveig’s authority over tides and hidden waters."
+      },
+      {
+        "race_id": "drilthar",
+        "race_name": "Dril'thar",
+        "race_category": "Amphibious Peoples",
+        "role": "primary patron",
+        "rationale": "All Dril'thar breathe underwater, and their ocean and reef bloodlines place the race within Bastveig’s hidden-water sphere."
+      },
+      {
+        "race_id": "tamhiogal",
+        "race_name": "Tamhiogal",
+        "race_category": "Tidal Peoples",
+        "role": "primary patron",
+        "rationale": "Tides, reefs, trenches, coral stewardship, and ocean civilization are Bastveig’s explicit domains."
+      },
+      {
+        "race_id": "c17",
+        "race_name": "Losōbhūsmoe",
+        "race_category": "Tidefur Folk",
+        "role": "primary patron",
+        "rationale": "Current-reading whiskers, amphibious navigation, floating settlements, and tidal life place them under Bastveig."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

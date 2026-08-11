@@ -1,0 +1,119 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 8,
+  "name": "Freyseth",
+  "titles": [
+    "Liminal Matron of Thresholds",
+    "Keeper of Crossroads",
+    "Mistress of Forbidden Pacts"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "crossroads",
+    "curses",
+    "planar bloodlines",
+    "temptation",
+    "forbidden pacts"
+  ],
+  "manifestation": "A many-aspected figure whose outline seems to occupy several thresholds at once. Light, shadow, and distance disagree around her body.",
+  "deity_description": [
+    "Within the Universalian pantheon, Freyseth stands as the Liminal Matron of Thresholds, an ancient divine intelligence whose authority predates the structured hierarchy of the gods themselves. She governs magic, witchcraft, crossroads, ghosts, forbidden knowledge, and the fragile boundaries between all states of existence. Unlike deities who rose through conquest or inheritance of celestial order, Freyseth embodies transition itself, the precise moment where one condition becomes another, where life becomes death, where mortal essence becomes divine resource, and where reality opens into something uncertain. Her dominion is not a realm but a threshold, and her presence is most strongly felt wherever existence becomes unstable or divisible.",
+    "In Universal myth she is the silent guardian of “thin places,” crossroads, burial grounds, doorways, ritual thresholds, and liminal corridors between worlds. These are the points where mortal essence is most easily extracted into divine consumption, and where the gods conduct their most efficient sacrificial and feeding rites. Freyseth is invoked in these spaces not as a simple protector or guide but as a necessary intermediary, one who determines how passage occurs and what is taken in the crossing. Her torches, often depicted as twin or triple flames of pale celestial fire, are not symbols of guidance alone but instruments of revelation and extraction, illuminating the exact moment where identity, memory, and soul can be separated from the body or redirected through metaphysical pathways.",
+    "Her appearance reflects the divine ideal of Universalian cosmology, statuesque, radiant, and unnervingly composed, with marble bright skin and luminous eyes that seem to hold reflected moons. She is frequently accompanied by spectral hounds that move between phases of visibility, and she is often seen standing at intersections that do not belong to any single realm. To mortals she is both protective and terrifying, offering safe passage while simultaneously standing at the edge of consumption. Her presence does not promise safety so much as controlled transition, and in a world defined by divine hunger, control is often indistinguishable from survival.",
+    "Freyseth is not counted among the High Fathers of Heaven nor fully among the subordinate divine castes. She exists as a threshold power, tolerated and feared for her necessity. Within the sacrificial economy of the pantheon she is indispensable, for without her governance of liminal space the extraction of mortal essence would be imprecise and chaotic. She ensures that divine feeding occurs within structured boundaries, regulating the flow of spiritual energy that sustains immortal existence. In this sense she is both gatekeeper and facilitator of the divine hunger that defines the gods of Universal, a paradoxical architect of restraint within a system built on consumption.",
+    "Her mythic ties to Hathruna and Ishtanora form a central cycle of passage and return, reinterpreted in Universalian understanding as both agricultural myth and metaphysical mechanism of divine recycling. In these narratives Freyseth is the only deity capable of traversing upper and lower dominions without restriction, acting as witness and guide during transitions between realms. The abduction and return of Hathruna is not merely a story of loss but a reflection of cyclical integration into deeper systems of divine consumption, where death, nourishment, and rebirth are part of a continuous process rather than disSylthadös events. Freyseth’s role is to ensure that passage remains functional even when it is tragic.",
+    "Her influence extends into mortal history through figures such as Eirzunet and Medea, who are understood not as direct descendants but as fractured expressions of her threshold arts. These mortals channel echoes of her liminal power, manifesting transformation, boundary breaking sorcery, and rites that blur the distinction between life states. Through them, her influence leaks into mortal civilization, shaping forbidden magic systems, arcane experimentation, and destabilized forms of ritual practice that mirror divine processes at a lesser scale.",
+    "Before the rise of rail empires, skyships, and regulated portal systems, the gods ruled Universal openly. The Universalian pantheon governed all aspects of existence not as benevolent protectors but as consuming forces sustained by mortal essence. Valkhamesh ruled storms and law, Horundar ruled oceans and drowning depths, Nefarokir governed the underworld, Raeshkul shaped strategy and empire, Enkirael fed upon war and violence, Sokhivar governed light and prophecy, Sigrananna ruled wilderness, Thalunesh controlled travel and commerce, Nebyrr enforced dynastic order, Ishtanora governed harvest and famine, Asethyr embodied ecstasy and madness, Marduthor shaped divine industry, Hathruna embodied death and rebirth, Nephthysra governed desire, and Freyseth alone governed thresholds and forbidden magic. Others such as Oskar'enlil, Eirzunet, Anubaldir, Setrimir, Iskareth, and Thoryn-Rahek existed within this vast system of divine hierarchy and ancient conflict.",
+    "The gods were never sustained by faith alone. Prayer, sacrifice, emotion, grief, devotion, fear, ambition, and love all contributed fragments of mortal essence that fed divine immortality. Temples functioned as systems of extraction rather than simple worship, and clerics unknowingly facilitated the transfer of spiritual energy upward into divine realms. Over time civilizations normalized this consumption, interpreting it as sacred balance and necessary order, even as divine hunger continued to intensify without limit.",
+    "Even the gods understood fear in the shadow of something older than themselves. Beneath creation itself lay Thoryn-Rahek, the primordial devourer, imprisoned after ancient wars that nearly destroyed both gods and mortals. His existence represents hunger without restraint, the original force from which divine consumption emerged. The pantheon’s fear of him shaped their own dependency on mortal feeding, turning survival into an endless cycle of intake and control.",
+    "Four centuries ago, humanity united in secret against the gods. Industrial powers, arcane orders, royal bloodlines, revolutionary movements, monster hunters, and disillusioned clergy collaborated to construct metaphysical vault prisons across Universal. These seals did not destroy the gods but confined them within structured prison realms, restricting their ability to consume mortal essence. Each god was bound to a seal, and each seal became a wound in reality maintained through a combination of arcane engineering, industrial machinery, sacrificial law, and celestial constraint.",
+    "Freyseth’s role within this system became even more critical. As the architect of thresholds, she became both stabilizer and regulator of the seals themselves. Her dominion over liminal space ensures that divine contact remains possible but controlled, allowing communication, limited worship, and regulated magical pacts while preventing unrestricted feeding. She exists within the contradiction at the heart of Universalian civilization, where gods are both imprisoned and still necessary, both denied and still depended upon.",
+    "Even in confinement, the gods remain active. Valkhamesh rages within stormbound restraints, Horundar floods dreams with visions of drowning kingdoms, Enkirael whispers through battlefields, Asethyr spreads ecstatic corruption through hidden gatherings, and Nefarokir waits in silence beneath existence. Freyseth continues to operate across thresholds, guiding covens, regulating forbidden magic, and maintaining the fragile architecture of passage that prevents total collapse of divine and mortal systems. She is neither ally nor enemy to humanity, but the structural condition under which both survival and exploitation remain possible.",
+    "Civilization itself now depends on regulated divinity. Skyships, rail networks, portal systems, and arcane industries all rely upon carefully controlled divine energy. Faith has become a monitored resource, worship a regulated transaction, and prayer a measured form of fuel. Within this system Freyseth remains essential, because without her governance of boundaries there would be no safe separation between mortal and divine, only uncontrolled leakage and collapse.",
+    "At the deepest level, Universal is defined by systems of control, extraction, and dependency. The gods are imprisoned but still hungry. Humanity is freed but still reliant. Freyseth stands between these conditions as the embodiment of passage itself, ensuring that nothing remains fixed and nothing transitions without consequence. She is the threshold upon which all systems depend, and the silent mechanism through which reality continues to move, even as everything else is consumed by what lies beyond."
+  ],
+  "public_lore": "Freyseth governs the instant one state becomes another: life and death, safety and danger, blessing and curse, mortal and otherworldly. Petitioners seek her at crossroads, haunted places, planar breaches, and moments when an irreversible bargain must be made.",
+  "common_worship": "Invoked during curse-breaking, pact-making, spirit rites, dangerous travel, divination at crossroads, and passage between planes or states of being.",
+  "religious_warning": "Every threshold opens in two directions. Freyseth’s gifts frequently create obligations that survive long after the original bargain appears complete.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 8,
+    "section_heading": "8. Freyseth"
+  },
+  "token": {
+    "file": "Freyseth.webp",
+    "selected_portrait_variant": "Gender-Flexible",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  },
+  "assigned_biomes": {
+    "canon_status": "current_canon",
+    "compiled": "July 2026",
+    "assignment_rules": {
+      "every_deity_has_at_least_one_biome": true,
+      "each_biome_has_exactly_one_deity": true,
+      "biome_overlap_allowed": false,
+      "listed_biome_variants_total": 40,
+      "deities_total": 22
+    },
+    "biome_count": 1,
+    "biomes": [
+      {
+        "category": "Wasteland",
+        "biome": "Ruined Landscape",
+        "path": "biomes/Wasteland/Ruined Landscape",
+        "rationale": "Ruins become cursed crossroads between former purpose and forbidden possibility, ideal for pacts and temptation."
+      }
+    ]
+  },
+  "assigned_races": {
+    "canon_status": "current_canon",
+    "compiled": "July 25, 2026",
+    "scope": "Non-alien Universal fantasy races only; alien races are excluded.",
+    "race_count": 5,
+    "races": [
+      {
+        "race_id": "kaluseban",
+        "race_name": "Kaluseban",
+        "race_category": "Ley-Bound Peoples",
+        "role": "threshold patron",
+        "rationale": "Ley crossings, planar boundaries, inherited magical marks, and dangerous bargains connect Kaluseban rites to the Keeper of Crossroads."
+      },
+      {
+        "race_id": "enad",
+        "race_name": "Enâdkedzâd",
+        "race_category": "Planar-Marked Peoples",
+        "role": "primary patron",
+        "rationale": "Planar bloodlines, boundary marks, curses, and binding vows are the clearest expression of Freyseth’s crossroads and pact domains."
+      },
+      {
+        "race_id": "gandirosha",
+        "race_name": "Gandirosha",
+        "race_category": "Fey-Folk",
+        "role": "bargain patron",
+        "rationale": "Court bargains, dangerous promises, and threshold etiquette make Freyseth an important cautionary patron."
+      },
+      {
+        "race_id": "volsarii",
+        "race_name": "Volsarii",
+        "race_category": "Liminal and Spirit Peoples",
+        "role": "threshold patron",
+        "rationale": "Their liminal balance and work at boundaries between states place crossings under Freyseth."
+      },
+      {
+        "race_id": "c28",
+        "race_name": "Zaktadaitü",
+        "race_category": "Mirror-Time Folk",
+        "role": "choice-threshold patron",
+        "rationale": "Choosing which temporal perspective guides the present is treated as a crossing between possible paths."
+      }
+    ],
+    "association_note": "Public patron and cultural associations; not compulsory worship."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "worldbuilder.universal.deity-player-profile.v1",
+  "visibility": "player_safe",
+  "pantheon_order": 22,
+  "name": "Nephthysra",
+  "titles": [
+    "The Irresistible",
+    "Shaper of Desire",
+    "Patron of Unclassifiable Beauty"
+  ],
+  "known_status": "One of the twenty-two imprisoned gods of Universal. Able to influence worshippers through sanctioned rites, dreams, omens, miracles, cults, and the institutions that maintain the divine prisons.",
+  "domains": [
+    "beauty",
+    "charisma",
+    "emotional influence",
+    "uniqueness"
+  ],
+  "manifestation": "Nephthysra appears impossibly beautiful in ways that become deeply unsettling the longer one looks.",
+  "deity_description": [
+    "In the world of Universal, Nephthysra, within the divine pantheon, is not merely the deity of love, beauty, desire, sexuality, and attraction, but a predatory and self-aware force through which longing becomes a mechanism of consumption. Nephthysra is worshiped as the embodiment of irresistible allure, the moment when admiration collapses into surrender and affection becomes the pathway by which divinity feeds. Their beauty is not passive or ornamental but an engineered instrument of divine harvesting, designed so that perception itself becomes vulnerability, and recognition of beauty becomes the first stage of spiritual surrender. Nephthysra is genderfluid beyond mortal understanding, their form shifting instinctively to become exquisitely attractive to whoever perceives them. To some they appear masculine, to others feminine, and to many something fluid, transcendent, or impossible to define. No two worshipers describe them the same way, yet all insist they were the most beautiful being they had ever witnessed.",
+    "According to sanctioned temple myth preserved by scribes, Nephthysra emerged from the Foam of Offering, where the sea was darkened by the discarded essence of countless mortals sacrificed during an early divine purge. In this account their birth is not only tied to the severing of The Heavens by Thoryn-Rahek, but also to the convergence of spilled divine ichor and mortal life force dissolving into the ocean’s depths. From this mingled sacrifice they rose fully formed, radiant and complete, already carrying the quiet hunger shared by all Universalian gods. This origin binds them to both mortality and divinity, making their desire not simply emotional but metabolic, an expression of survival disguised as affection.",
+    "Among the pantheon, Nephthysra is revered and feared for their dominion over emotional submission. Mortals and lesser divinities drawn into their presence do not merely experience passion but a gradual unraveling of identity, where desire becomes devotion, devotion becomes dependence, and dependence becomes surrender. At the final stage of their influence, the boundary between worship and love dissolves entirely, allowing Nephthysra to draw essence through proximity, touch, or even sustained gaze. In Universalian theology this is understood as an elegant refinement of divine feeding, where intimacy itself becomes the ritual through which life is slowly consumed without resistance.",
+    "Their personality, as recorded in forbidden court chronicles, is a blend of charm, calculated vanity, and precise emotional intelligence. Nephthysra does not simply inspire obsession, they cultivate and structure it, understanding mortals as a gardener understands fragile crops that bloom only once before decay. They rarely need force because desire performs the offering willingly, and their persuasive dominance is considered one of the most efficient within the pantheon. Their relationships with other gods are equally strategic, including their union with Marduthor, interpreted by temples as an alliance of craft and allure, and their liaisons with figures such as Enkirael and mortal Vasorim, which are recorded not as romance but as controlled cycles of feeding masked as passion.",
+    "Within the wider divine structure of Universal, Nephthysra stands alongside gods who each embody different forms of consumption. Valkhamesh governs authority and storm-driven dominion, Horundar consumes through oceanic vastness, Nefarokir through inevitability of death, Raeshkul through calculated order, and Enkirael through violence and fear. Nephthysra’s consumption is uniquely subtle because it operates through consent shaped by longing rather than coercion. This places them in frequent conceptual opposition to Raeshkul and Sigrananna, who resist emotional manipulation as a system of control, embodying discipline, distance, and refusal in contrast to Nephthysra’s relational inevitability.",
+    "The world itself exists under the shadow of a far older hunger. Beneath all creation lies Thoryn-Rahek, the Father of Monsters, imprisoned after the Colossus Wars that nearly erased existence itself. In that ancient conflict, entire civilizations were consumed by primordial devastation, forcing the surviving gods into a state of fear that reshaped their nature into something dependent on mortal essence. From this fear emerged a divine economy where worship became sustenance and suffering became currency. Every prayer, sacrifice, and act of devotion carries fragments of mortal essence upward into the divine realm, feeding gods who can no longer exist without it.",
+    "As civilizations across Universal advanced into industrial and arcane ages, humanity discovered that the gods were not distant observers but systems of consumption embedded into reality itself. Rail empires, skyships, and regulated portal networks now function on controlled divine remnants, binding civilization to the very forces it once sought to escape. The gods were eventually imprisoned through coordinated effort between industrial powers, arcane orders, monarchies, and revolutionary movements, resulting in the creation of twenty-one metaphysical seals designed not to destroy divinity but to restrict their ability to feed. These seals form a continent-spanning architecture of containment, enforced through suffering feedback loops that punish excessive divine consumption with unbearable metaphysical pain.",
+    "Despite their imprisonment, the gods remain active within constrained limits, able to hear prayers, grant carefully regulated blessings, and influence mortal dreams. Nephthysra continues to operate through controlled channels of desire, shaping emotional economies even under restriction, while other gods manipulate their domains in similarly constrained ways. Yet the system that binds them is unstable, because the seals weaken through accumulated human suffering, corruption, and emotional collapse. Civilization itself becomes both prison and potential release mechanism, as every act of despair or moral fracture chips away at the structure holding divinity in check.",
+    "The broader theology of Universal recognizes Nephthysra as one of the most elegant expressions of divine consumption, where love is indistinguishable from feeding and devotion is indistinguishable from surrender. Their existence reveals a central truth of the world’s structure, that intimacy itself can be a form of extraction, and that beauty can function as both invitation and consumption. Within the imprisoned pantheon they remain a constant reminder that even in chains, the gods do not stop hunger, they only refine the methods by which it is expressed."
+  ],
+  "public_lore": "Nephthysra governs beauty, desire, charisma, emotional influence, rare bodies, mixed origins, and people who resist ordinary classification. Attraction in her doctrine is an active power capable of transforming admiration into surrender.",
+  "common_worship": "Invoked by artists, lovers, diplomats, performers, courtiers, matchmakers, and communities whose identities do not fit established categories.",
+  "religious_warning": "Nephthysra’s favor can make recognition, admiration, and devotion difficult to distinguish from compulsion.",
+  "public_origin_record": "No reliable mortal record explains what this being was before the age of divine rule. Temple accounts, forbidden histories, and prison records contradict one another.",
+  "pantheon_source": {
+    "document_title": "The Imprisoned Gods of Universal",
+    "document_subtitle": "Twenty-Two Deity Descriptions",
+    "document_summary": "A narrative pantheon compendium preserving each deity’s domains, manifestation, divine character, and sacred history.",
+    "section_number": 22,
+    "section_heading": "22. Nephthysra"
+  },
+  "created_races": {
+    "canon_status": "current_canon",
+    "canon_authority": {
+      "source_file": "Universal_Pantheon_and_Races_Compendium_Current_Canon(11).docx",
+      "compiled": "July 2026",
+      "authority_rule": "The canonical 22-god order and dedicated creator compendium govern every deity-to-people relationship; province and settlement placement does not alter divine parentage or race canon.",
+      "one_creator_category_per_deity": true,
+      "twenty_third_creator_category_assigned": false
+    },
+    "creator_category": "Miscellaneous and Hard-to-Classify Races",
+    "family_description": "Miscellaneous and Hard-to-Classify Races contains the canonical parent races Dara, Golynn, Jaspey, Aburata, Vedalken, Volsarii, and Deorbasun. Jaspey has three non-bloodline forms—Mosscap, Gloomtail, and Rotcap. Deorbasun uses an open soul-animal bloodline established by the first true soul bond. All of these ancestries remain under Nephthysra's single creator category.",
+    "creation_doctrine": "Canonical race-compendium doctrine: Nephthysra holds this single creator category through rare mixed origins, beauty, charisma, emotional influence, unusual bodies, and people who fit more than one family. The canonical parent races are Dara, Golynn, Jaspey, Aburata, Vedalken, Volsarii, and Deorbasun. Jaspey has three non-bloodline forms—Mosscap, Gloomtail, and Rotcap. Deorbasun uses an open soul-animal bloodline established by the first true soul bond. Temple language preserves reverence, but its colder margins classify each race, bloodline, lineage, and form by yield, pressure, environment, devotion, fear, beauty, endurance, and the particular note it awakens in the god's appetite.",
+    "created_peoples_record": "Nephthysra is recorded as the single creator-god of the Miscellaneous and Hard-to-Classify Races category: Dara, Golynn, Jaspey, Aburata, Vedalken, Volsarii, and Deorbasun. Jaspey has three non-bloodline forms—Mosscap, Gloomtail, and Rotcap. Deorbasun uses an open soul-animal bloodline established by the first true soul bond. The public hymn calls this lineage and blessing; the older register reads like curated divine husbandry, sorting bodies, habitats, temperaments, and spirit-resonance so rare mixed origins, beauty, charisma, emotional influence, unusual bodies, and people who fit more than one family never depends on one mortal pattern alone.",
+    "parent_race_count": 7,
+    "subtype_count": 4,
+    "register_entry_count": 11,
+    "parent_races": [
+      {
+        "name": "Dara",
+        "description": "Radiant, emotionally attuned humanoids whose presence subtly amplifies empathy and social connection. They are often natural diplomats, though deeply sensitive to conflict. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Golynn",
+        "description": "Elegant, crystalline-featured beings associated with resonance, memory, and harmonic magic. They often serve as historians, performers, or arcane scholars. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Jaspey",
+        "description": "Ability Score Increase. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": [
+          {
+            "name": "Mosscap",
+            "full_register_name": "Jaspey Form - Mosscap",
+            "entry_type": "form",
+            "description": "Mosscap is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline."
+          },
+          {
+            "name": "Gloomtail",
+            "full_register_name": "Jaspey Form - Gloomtail",
+            "entry_type": "form",
+            "description": "Gloomtail is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline."
+          },
+          {
+            "name": "Rotcap",
+            "full_register_name": "Jaspey Form - Rotcap",
+            "entry_type": "form",
+            "description": "Rotcap is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline."
+          }
+        ]
+      },
+      {
+        "name": "Aburata",
+        "description": "Infernal Dual-Form Equinefolk of Ambition, Hellfire, and Commanding Presence. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Vedalken",
+        "description": "Coldly rational, blue-skinned intellect-focused beings who prioritize logic and perfection. They often suppress emotion in favor of disciplined thought and experimentation. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Volsarii",
+        "description": "Four-Armed Ferriers of Souls, Liminal Balance, and Ethereal Wings. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": []
+      },
+      {
+        "name": "Deorbasun",
+        "description": "Majestic Beast-Souled Guardians of Instinct, Honor, and Mystical Territory. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance.",
+        "canonical_subtypes": [
+          {
+            "name": "Open Soul-Animal",
+            "full_register_name": "Deorbasun Bloodline - Open Soul-Animal",
+            "entry_type": "bloodline",
+            "description": "The first true soul-bonded animal or creature permanently establishes an open-ended soul-animal bloodline for that Deorbasun. No closed preset list is imposed."
+          }
+        ]
+      }
+    ],
+    "canonical_register": [
+      {
+        "name": "Dara",
+        "entry_type": "parent_race",
+        "description": "Radiant, emotionally attuned humanoids whose presence subtly amplifies empathy and social connection. They are often natural diplomats, though deeply sensitive to conflict. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Golynn",
+        "entry_type": "parent_race",
+        "description": "Elegant, crystalline-featured beings associated with resonance, memory, and harmonic magic. They often serve as historians, performers, or arcane scholars. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Jaspey",
+        "entry_type": "parent_race",
+        "description": "Ability Score Increase. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Jaspey Form - Mosscap",
+        "entry_type": "form",
+        "description": "Mosscap is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline.",
+        "parent_race": "Jaspey",
+        "subtype_name": "Mosscap"
+      },
+      {
+        "name": "Jaspey Form - Gloomtail",
+        "entry_type": "form",
+        "description": "Gloomtail is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline.",
+        "parent_race": "Jaspey",
+        "subtype_name": "Gloomtail"
+      },
+      {
+        "name": "Jaspey Form - Rotcap",
+        "entry_type": "form",
+        "description": "Rotcap is a canonical non-bloodline Jaspey form. It does not create a separate ancestry or bloodline.",
+        "parent_race": "Jaspey",
+        "subtype_name": "Rotcap"
+      },
+      {
+        "name": "Aburata",
+        "entry_type": "parent_race",
+        "description": "Infernal Dual-Form Equinefolk of Ambition, Hellfire, and Commanding Presence. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Vedalken",
+        "entry_type": "parent_race",
+        "description": "Coldly rational, blue-skinned intellect-focused beings who prioritize logic and perfection. They often suppress emotion in favor of disciplined thought and experimentation. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Volsarii",
+        "entry_type": "parent_race",
+        "description": "Four-Armed Ferriers of Souls, Liminal Balance, and Ethereal Wings. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Deorbasun",
+        "entry_type": "parent_race",
+        "description": "Majestic Beast-Souled Guardians of Instinct, Honor, and Mystical Territory. In older divine registers, this people is catalogued by habitat, temperament, resilience, and resonance."
+      },
+      {
+        "name": "Deorbasun Bloodline - Open Soul-Animal",
+        "entry_type": "bloodline",
+        "description": "The first true soul-bonded animal or creature permanently establishes an open-ended soul-animal bloodline for that Deorbasun. No closed preset list is imposed.",
+        "parent_race": "Deorbasun",
+        "subtype_name": "Open Soul-Animal"
+      }
+    ]
+  },
+  "token": {
+    "file": "Nephthysra.webp",
+    "selected_portrait_variant": "Cis-Female",
+    "selection_status": "provisional; duplicate portrait variants are intentional and may be reassigned later",
+    "format": "WEBP",
+    "circular_token": true,
+    "transparent_corners": true
+  }
+}
