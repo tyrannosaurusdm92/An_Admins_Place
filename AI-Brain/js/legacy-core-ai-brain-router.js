@@ -1,0 +1,15 @@
+(function(global){'use strict';
+const Brain=global.AIBrain=global.AIBrain||{};
+const BASE='https://raw.githubusercontent.com/tyrannosaurusdm92/An_Admins_Place/main/AI-Brain/';
+let taxonomy=null,catalog=null,assetCatalog=null;
+const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9+#&._ -]+/g,' ').replace(/\s+/g,' ').trim();
+async function getJSON(path){const r=await fetch(BASE+path,{cache:'no-cache'});if(!r.ok)throw new Error('AI-Brain fetch failed '+r.status+' '+path);return r.json();}
+async function ensure(){if(!taxonomy)taxonomy=await getJSON('json/core/capability-taxonomy.json');if(!catalog)catalog=await getJSON('json/core/knowledge-catalog.json');if(!assetCatalog)assetCatalog=await getJSON('json/core/asset-catalog.json');return {taxonomy,catalog,assetCatalog};}
+function score(text,triggers){let s=0;for(const t of triggers||[]){const q=norm(t);if(!q)continue;if(text===q)s+=16;else if(text.includes(q))s+=Math.max(2,Math.min(10,q.split(' ').length*3));}return s;}
+function expand(tags,tax){const out=new Set(tags);let changed=true;while(changed){changed=false;for(const t of [...out])for(const e of tax.capabilities?.[t]?.expands_to||[])if(!out.has(e)){out.add(e);changed=true;}}return [...out];}
+function rankItems(items,tags,primary,limit){const out=[];for(const f of items||[]){const overlap=(f.tags||[]).filter(t=>tags.includes(t));if(!overlap.length)continue;let s=overlap.length*5+(f.priority||0);for(const p of primary)if((f.tags||[]).includes(p))s+=4;out.push({...f,score:s,url:BASE+f.path});}out.sort((a,b)=>b.score-a.score);return out.slice(0,limit);}
+Brain.routeIntent=async function(input,opts={}){const {taxonomy:tax,catalog:cat,assetCatalog:ac}=await ensure();const text=norm(input);const ranked=[];for(const [tag,def] of Object.entries(tax.capabilities||{})){const s=score(text,def.triggers);if(s>0)ranked.push({tag,score:s});}ranked.sort((a,b)=>b.score-a.score);const primary=ranked.slice(0,Math.max(3,Number(opts.primaryLimit||8))).map(x=>x.tag);const tags=expand(primary,tax);const files=rankItems(cat.files,tags,primary,Number(opts.fileLimit||24));const assets=rankItems(ac.assets,tags,primary,Number(opts.assetLimit||16));return {query:input,primary,tags,matches:ranked,files,assets,base:BASE};};
+Brain.planRetrieval=async function(input,opts={}){const route=await Brain.routeIntent(input,opts);return {intent:route.primary,expandedCapabilities:route.tags,knowledgeFiles:route.files.map(f=>({path:f.path,url:f.url,tags:f.tags,score:f.score})),supportAssets:route.assets.map(a=>({path:a.path,url:a.url,kind:a.kind,tags:a.tags,score:a.score})),instruction:'Fetch the highest scoring knowledge shards first, then relevant assets. Combine domains when the request is multi-part. Keep mutable user/project memory separate from static knowledge.'};};
+Brain.clearCaches=function(){taxonomy=null;catalog=null;assetCatalog=null;};
+if(typeof module!=='undefined'&&module.exports)module.exports=Brain;
+})(typeof globalThis!=='undefined'?globalThis:window);
