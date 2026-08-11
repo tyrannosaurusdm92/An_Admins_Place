@@ -1,0 +1,177 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "gold-dragon-wyrmling",
+  "name": "Gold Dragon Wyrmling",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Dragon",
+    "subtype": "",
+    "role": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "cr": "3",
+    "environments": [
+      "aquatic",
+      "coastal",
+      "sky"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "gold-dragon-wyrmling",
+    "token_candidates": [
+      "gold-dragon-wyrmling.webp",
+      "gold-dragon-wyrmling.png",
+      "gold-dragon-wyrmling.jpg",
+      "Gold Dragon Wyrmling/gold-dragon-wyrmling.webp",
+      "Gold Dragon Wyrmling/gold-dragon-wyrmling.png",
+      "hostiles/gold-dragon-wyrmling.webp",
+      "hostiles/gold-dragon-wyrmling.png",
+      "creatures/gold-dragon-wyrmling.webp",
+      "creatures/gold-dragon-wyrmling.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 60,
+    "max_hp": 60,
+    "ac": 17,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 700,
+    "cr_numeric": 3.0
+  },
+  "ability_scores": {
+    "str": 19,
+    "dex": 14,
+    "con": 17,
+    "int": 14,
+    "wis": 11,
+    "cha": 16
+  },
+  "saves": {
+    "dexterity": 4,
+    "constitution": 5,
+    "wisdom": 2,
+    "charisma": 5
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "description": "The dragon can breathe air and water."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+      "category": "attack",
+      "attackBonus": 6,
+      "damageDice": "1d10",
+      "damageBonus": 4,
+      "averageDamage": 9.5,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 6,
+      "toHit": 6,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.\nWeakening Breath. The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "category": "save",
+      "attackBonus": null,
+      "damageDice": "4d10",
+      "damageBonus": 0,
+      "averageDamage": 22.0,
+      "damageType": "fire",
+      "rangeFt": 15,
+      "rangeType": "area",
+      "saveDc": 13,
+      "saveAbility": "DEX",
+      "multiattackCount": 1,
+      "id": "breath-weapons-recharge-5-6",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "fire",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "8d8",
+    "skills": "Stealth +4, Perception +4",
+    "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+    "languages": "Draconic",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "controller",
+      "leader"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal",
+      "sky"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-guardian",
+      "name": "Lawful Guardian",
+      "axes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "scores": {
+        "altruism": 2250,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 2250
+      },
+      "description": "The steadfast protector of the realm. Uplifts the weak, obeys the law, and inspires trust with every step."
+    },
+    "tokenKey": "gold-dragon-wyrmling",
+    "tokenCandidates": [
+      "gold-dragon-wyrmling.webp",
+      "gold-dragon-wyrmling.png",
+      "gold-dragon-wyrmling.jpg",
+      "Gold Dragon Wyrmling/gold-dragon-wyrmling.webp",
+      "Gold Dragon Wyrmling/gold-dragon-wyrmling.png",
+      "hostiles/gold-dragon-wyrmling.webp",
+      "hostiles/gold-dragon-wyrmling.png",
+      "creatures/gold-dragon-wyrmling.webp",
+      "creatures/gold-dragon-wyrmling.png",
+      "placeholders/hostiles/dragon.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/gold-dragon-wyrmling.json"
+}

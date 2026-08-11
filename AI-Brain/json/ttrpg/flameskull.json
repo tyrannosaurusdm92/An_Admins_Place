@@ -1,0 +1,184 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "flameskull",
+  "name": "Flameskull",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "undead",
+    "subtype": "",
+    "role": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "cr": "4",
+    "environments": [
+      "sky",
+      "underdark",
+      "underground"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "flameskull",
+    "token_candidates": [
+      "flameskull.webp",
+      "flameskull.png",
+      "flameskull.jpg",
+      "Flameskull/flameskull.webp",
+      "Flameskull/flameskull.png",
+      "hostiles/flameskull.webp",
+      "hostiles/flameskull.png",
+      "creatures/flameskull.webp",
+      "creatures/flameskull.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 40,
+    "max_hp": 40,
+    "ac": 13,
+    "initiative_bonus": 3,
+    "speed_ft": 30,
+    "xp": 1100,
+    "cr_numeric": 4.0
+  },
+  "ability_scores": {
+    "str": 1,
+    "dex": 17,
+    "con": 14,
+    "int": 16,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "illumination",
+      "description": "The flameskull sheds either dim light in a 15-foot radius, or bright light in a 15-foot radius and dim light for an additional 15 feet. It can switch between the options as an action."
+    },
+    {
+      "name": "magic_resistance",
+      "description": "The flameskull has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "rejuvenation",
+      "description": "If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them."
+    },
+    {
+      "name": "spellcasting",
+      "description": "The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:\n\nCantrip (at will): mage hand\n\n1st level (3 slots): magic missile, shield\n\n2nd level (2 slots): blur, flaming sphere\n\n3rd level (1 slot): fireball"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The flameskull uses Fire Ray twice.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "fire",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "fire",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Fire Ray",
+      "description": "+5 to hit, range 30 ft., one target. _Hit:_ 10 (3d6) fire damage.",
+      "category": "attack",
+      "attackBonus": "5",
+      "damageDice": "3d6",
+      "damageBonus": 0,
+      "averageDamage": 10.5,
+      "damageType": "fire",
+      "rangeFt": 30,
+      "rangeType": "ranged",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "fire-ray",
+      "kind": "attack_roll",
+      "to_hit": "5",
+      "toHit": "5",
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "fire",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "Blazing green flames and mad, echoing laughter surround an undead flameskull. This disembodied skull blasts foes with fiery rays from its eyes and dreadful spells called up from the dark recesses of its memory.",
+    "hitDice": "                    9d4 + 18                ",
+    "skills": "Arcana +5, Perception +2",
+    "senses": "Darkvision 60 ft., Passive Perception 12",
+    "languages": "Common",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "artillery",
+      "caster",
+      "skirmisher"
+    ],
+    "environments": [
+      "sky",
+      "underdark",
+      "underground"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-strategist",
+      "name": "Neutral Strategist",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 750
+      },
+      "description": "Thinks only in outcomes, not morals. Moves quietly, makes power plays, and always walks away with more."
+    },
+    "tokenKey": "flameskull",
+    "tokenCandidates": [
+      "flameskull.webp",
+      "flameskull.png",
+      "flameskull.jpg",
+      "Flameskull/flameskull.webp",
+      "Flameskull/flameskull.png",
+      "hostiles/flameskull.webp",
+      "hostiles/flameskull.png",
+      "creatures/flameskull.webp",
+      "creatures/flameskull.png",
+      "placeholders/hostiles/undead.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/flameskull.json"
+}

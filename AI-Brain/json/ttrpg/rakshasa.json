@@ -1,0 +1,172 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "rakshasa",
+  "name": "Rakshasa",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Fiend",
+    "subtype": "",
+    "role": [
+      "brute",
+      "caster",
+      "leader"
+    ],
+    "cr": "13",
+    "environments": [
+      "urban"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "rakshasa",
+    "token_candidates": [
+      "rakshasa.webp",
+      "rakshasa.png",
+      "rakshasa.jpg",
+      "Rakshasa/rakshasa.webp",
+      "Rakshasa/rakshasa.png",
+      "hostiles/rakshasa.webp",
+      "hostiles/rakshasa.png",
+      "creatures/rakshasa.webp",
+      "creatures/rakshasa.png",
+      "placeholders/hostiles/fiend.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 110,
+    "max_hp": 110,
+    "ac": 16,
+    "initiative_bonus": 3,
+    "speed_ft": 30,
+    "xp": 10000,
+    "cr_numeric": 13.0
+  },
+  "ability_scores": {
+    "str": 14,
+    "dex": 17,
+    "con": 18,
+    "int": 13,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Limited Magic Immunity",
+      "description": "The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "description": "The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components:\n\nAt will: detect thoughts, disguise self, mage hand, minor illusion\n3/day each: charm person, detect magic, invisibility, major image, suggestion\n1/day each: dominate person, fly, plane shift, true seeing"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The rakshasa makes two claw attacks",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 2,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Claw",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic.",
+      "category": "attack",
+      "attackBonus": 7,
+      "damageDice": "2d6",
+      "damageBonus": 2,
+      "averageDamage": 9.0,
+      "damageType": "slashing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "claw",
+      "kind": "attack_roll",
+      "to_hit": 7,
+      "toHit": 7,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "slashing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "13d8",
+    "skills": "Insight +8, Deception +10",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Infernal",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute",
+      "caster",
+      "leader"
+    ],
+    "environments": [
+      "urban"
+    ],
+    "homebrewAlignment": {
+      "profileId": "lawful-renegade",
+      "name": "Lawful Renegade",
+      "axes": {
+        "altruism": "Selfish",
+        "lawfulness": "Lawful",
+        "cooperation": "Cooperative",
+        "honor": "Pragmatic"
+      },
+      "scores": {
+        "altruism": 750,
+        "lawfulness": 2250,
+        "cooperation": 2250,
+        "honor": 750
+      },
+      "description": "A rebel in legal robes. They bend laws to suit their gain while pretending to be team players - calculating, efficient, and just manipulative enough to get ahead."
+    },
+    "tokenKey": "rakshasa",
+    "tokenCandidates": [
+      "rakshasa.webp",
+      "rakshasa.png",
+      "rakshasa.jpg",
+      "Rakshasa/rakshasa.webp",
+      "Rakshasa/rakshasa.png",
+      "hostiles/rakshasa.webp",
+      "hostiles/rakshasa.png",
+      "creatures/rakshasa.webp",
+      "creatures/rakshasa.png",
+      "placeholders/hostiles/fiend.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/rakshasa.json"
+}

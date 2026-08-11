@@ -1,0 +1,192 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "carrion-crawler",
+  "name": "Carrion Crawler",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Monstrosity",
+    "subtype": "",
+    "role": [
+      "brute"
+    ],
+    "cr": "2",
+    "environments": [
+      "underdark"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 10,
+    "size_cells": 2,
+    "external": true,
+    "token_key": "carrion-crawler",
+    "token_candidates": [
+      "carrion-crawler.webp",
+      "carrion-crawler.png",
+      "carrion-crawler.jpg",
+      "Carrion Crawler/carrion-crawler.webp",
+      "Carrion Crawler/carrion-crawler.png",
+      "hostiles/carrion-crawler.webp",
+      "hostiles/carrion-crawler.png",
+      "creatures/carrion-crawler.webp",
+      "creatures/carrion-crawler.png",
+      "placeholders/hostiles/monstrosity.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 51,
+    "max_hp": 51,
+    "ac": 13,
+    "initiative_bonus": 1,
+    "speed_ft": 30,
+    "xp": 450,
+    "cr_numeric": 2.0
+  },
+  "ability_scores": {
+    "str": 14,
+    "dex": 13,
+    "con": 16,
+    "int": 1,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Keen Smell",
+      "description": "The carrion crawler has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Spider Climb",
+      "description": "The carrion crawler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Multiattack",
+      "description": "The carrion crawler makes two attacks: one with its tentacles and one with its bite.",
+      "category": "multiattack",
+      "attackBonus": null,
+      "damageDice": null,
+      "damageBonus": 0,
+      "averageDamage": 0.0,
+      "damageType": "untyped",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 2,
+      "id": "multiattack",
+      "kind": "utility",
+      "to_hit": null,
+      "toHit": null,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "untyped",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Tentacles",
+      "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
+      "category": "attack",
+      "attackBonus": 8,
+      "damageDice": "1d4",
+      "damageBonus": 2,
+      "averageDamage": 4.5,
+      "damageType": "poison",
+      "rangeFt": 10,
+      "rangeType": "melee",
+      "saveDc": 13,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "tentacles",
+      "kind": "attack_roll",
+      "to_hit": 8,
+      "toHit": 8,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "poison",
+      "range_ft": 5,
+      "rangeFeet": 5
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": "2d4",
+      "damageBonus": 2,
+      "averageDamage": 7.0,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "6d10",
+    "skills": "Perception +3",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 2,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "brute"
+    ],
+    "environments": [
+      "underdark"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-scoundrel",
+      "name": "Neutral Scoundrel",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Combative",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 750,
+        "honor": 1500
+      },
+      "description": "A fighter without a cause. May brawl for coin, pride, or boredom - but rarely cares who wins the war."
+    },
+    "tokenKey": "carrion-crawler",
+    "tokenCandidates": [
+      "carrion-crawler.webp",
+      "carrion-crawler.png",
+      "carrion-crawler.jpg",
+      "Carrion Crawler/carrion-crawler.webp",
+      "Carrion Crawler/carrion-crawler.png",
+      "hostiles/carrion-crawler.webp",
+      "hostiles/carrion-crawler.png",
+      "creatures/carrion-crawler.webp",
+      "creatures/carrion-crawler.png",
+      "placeholders/hostiles/monstrosity.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/carrion-crawler.json"
+}
