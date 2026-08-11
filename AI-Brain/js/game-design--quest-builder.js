@@ -1,0 +1,41 @@
+/* Genericized for AI-Brain capability use. Provenance group: active-session-runtime-c. */
+(function(){
+  'use strict';
+  const U=window.PZUtils,DATA=window.ActiveWorkspace_DATA,Canon=window.ActiveWorkspaceCanon;
+  const baseTables={
+    locations:['abandoned rail station','flooded temple vault','wind-scoured plateau','crowded market district','reef-wrapped ruin','sealed ichor refinery','moonlit forest road','subterranean workshop','storm-battered harbor','forgotten noble estate','deep-ocean trench outpost','mountain pass beneath an old observatory'],
+    objectives:['rescue a missing expedition','recover a stolen relic','protect a witness until extraction','break a siege before dawn','trace a spreading magical contamination','escort a dangerous prisoner','close a planar breach','steal evidence from a guarded archive','investigate a vanished settlement caravan','stop a ritual already in progress','negotiate with a hostile faction before violence erupts','survive long enough to activate an ancient mechanism'],
+    complications:['the employer has concealed the true target','a rival party arrives with a legal claim','the map changes whenever blood is spilled','the apparent villain is protecting something worse','one ally is secretly marked by the enemy','the environment becomes more dangerous each round','the reward is alive and unwilling to leave','the local authority wants the party blamed','the hostile force is divided into competing factions','the objective must be completed without killing a specific enemy','the route back closes after the first major success','the encounter is being observed by a deity-linked cult'],
+    rewards:['a cache of refined ichor and stabilizers','a permanent political favor','access to a restricted transit route','a rare spell formula','ownership of a small workshop or safehouse','a named weapon with an unfinished history','forgiveness of a serious debt','information about an imprisoned god','a bonded vehicle or mount','a protected audience with a provincial ruler','a map to a deeper hidden site','a dangerous artifact whose cost is not yet known'],
+    hooks:['A desperate courier collapses at the party’s table.','A character’s patron sends a contradictory omen.','The party receives payment for a job they never accepted.','Every clock in the district stops at the same moment.','A hostile token appears in a supposedly secure room.','A familiar NPC asks for help but refuses to explain in public.','A map upload reveals a room that should not exist.','A bounty is issued for someone who died years ago.','A storm exposes a sealed entrance beneath the road.','A player’s token is recognized by enemies from an unknown past.'],
+    twists:['The final enemy can be convinced to change sides.','The quest giver is an autonomous construct following obsolete orders.','The reward is the cause of the crisis.','The safest route requires helping a hostile faction.','The encounter is a test designed by someone watching the party.','Success permanently changes the map.','The target is split across two locations that must be handled simultaneously.','The hostile group rolls initiative but initially seeks parley.','The apparent random encounter is connected to a player’s alignment history.','A second quest begins immediately when the first objective is completed.'],
+    moods:['urgent','mysterious','political','horrific','heroic','tragic','strange','exploratory','survival-focused','morally complicated']
+  };
+  const Q={tables:U.clone(baseTables),library:[]};
+  Q.resetTables=()=>Q.tables=U.clone(baseTables);
+  Q.mergeTables=input=>{
+    const src=Array.isArray(input)?{custom:input}:input||{};
+    Object.entries(src).forEach(([k,v])=>{const key=U.slug(k).replaceAll('-','_');if(Array.isArray(v)){Q.tables[key]=[...(Q.tables[key]||[]),...v.map(x=>typeof x==='string'?x:(x.name||x.label||JSON.stringify(x))).filter(Boolean)]}});return Q.tables;
+  };
+  function CRValue(cr){const s=String(cr||'0');if(s.includes('/')){const[a,b]=s.split('/').map(Number);return b?a/b:0}return Number(s)||0}
+  Q.selectHostiles=({environment='',biome='',difficulty='standard',partySize=4,partyLevel=1,count=0}={})=>{
+    const selectedBiome=Canon.resolveBiome(biome||environment),environmentTags=selectedBiome?[selectedBiome.name,selectedBiome.group,...(selectedBiome.tags||[])]:[environment].filter(Boolean);const target={easy:.5,standard:1,hard:1.5,deadly:2.25}[difficulty]||1;
+    const budget=Math.max(.25,partySize*partyLevel*.18*target),pool=(DATA.monsters||[]).filter(m=>!environmentTags.length||m.env?.some(e=>environmentTags.some(tag=>String(e).toLowerCase().includes(String(tag).toLowerCase())||String(tag).toLowerCase().includes(String(e).toLowerCase())))).filter(m=>CRValue(m.cr)<=Math.max(1,partyLevel+2));
+    const result=[];let spent=0,guard=0,desired=count||U.clamp(Math.round(partySize*(difficulty==='deadly'?1.25:.75)),1,12);
+    while(result.length<desired&&pool.length&&guard++<100){const candidates=pool.filter(m=>spent+Math.max(.125,CRValue(m.cr))<=budget*1.5||!result.length),m=U.pick(candidates.length?candidates:pool);result.push({...m,quantity:1});spent+=Math.max(.125,CRValue(m.cr))}
+    return result;
+  };
+  Q.generate=(opts={})=>{
+    const biome=Canon.resolveBiome(opts.biome||opts.environment)||U.pick(Canon.biomes),environment=biome?.name||'Any biome',difficulty=opts.difficulty||'standard',partySize=U.int(opts.partySize,4),partyLevel=U.int(opts.partyLevel,1),hostiles=Q.selectHostiles({environment,biome:biome?.id,difficulty,partySize,partyLevel,count:U.int(opts.hostileCount,0)});
+    return{id:U.uid('quest'),schema:'activeworkspace.quest.v3',title:opts.title||`${String(U.pick(Q.tables.moods)||'mysterious').replace(/^./,c=>c.toUpperCase())} ${U.pick(['Crossing','Breach','Debt','Hunt','Echo','Vigil','Descent','Conspiracy'])}`,hook:U.pick(Q.tables.hooks),location:opts.location||U.pick(Q.tables.locations),objective:opts.objective||U.pick(Q.tables.objectives),complication:U.pick(Q.tables.complications),twist:U.pick(Q.tables.twists),reward:U.pick(Q.tables.rewards),mood:U.pick(Q.tables.moods),environment,biome:biome?{id:biome.id,name:biome.name,group:biome.group,tags:biome.tags}:null,difficulty,partySize,partyLevel,hostiles,dmNotes:opts.dmNotes||'',playerBrief:opts.playerBrief||'',createdAt:U.now(),updatedAt:U.now()};
+  };
+  Q.toEncounter=(quest,dmUserId='')=>{
+    const enc=window.ActiveWorkspaceEncounter.create({name:quest.title,dmUserId,quest});let x=3,y=3;
+    quest.hostiles.forEach((m,i)=>{enc.tokens.push({id:U.uid('hostile'),type:'hostile',name:m.name,x:Math.min(enc.map.cols-2,x+i%5*2),y:Math.min(enc.map.rows-2,y+Math.floor(i/5)*2),size:1,hp:U.num(m.hp,10),maxHp:U.num(m.hp,10),ac:U.num(m.ac,12),speed:U.num(m.combat?.speed_ft,30),initiativeBonus:U.num(m.init),atk:U.num(m.atk,3),dmg:m.dmg||'1d6+1',abilities:m.ability&&Object.keys(m.ability).length?[m.ability]:[],tokenUrl:'',ai:{mode:quest.difficulty==='deadly'?'brutal':'balanced',aggression:quest.difficulty==='easy'?5:quest.difficulty==='deadly'?9:7,avoidHazards:true},monsterId:m.id});x+=1});
+    enc.dm.notes=[quest.hook,quest.complication,quest.twist,quest.reward].filter(Boolean).join('\n');enc.log.unshift({id:U.uid('log'),at:U.now(),type:'quest',message:`Encounter created from quest: ${quest.title}.`});return enc;
+  };
+  Q.save=async quest=>{quest.updatedAt=U.now();const result=await window.ActiveWorkspaceAPI.call('questSave',{quest});const i=Q.library.findIndex(x=>x.id===quest.id);if(i>=0)Q.library[i]=result;else Q.library.unshift(result);U.emit('quest-library',Q.library);return result};
+  Q.load=async()=>{try{Q.library=await window.ActiveWorkspaceAPI.call('questList');if(!Array.isArray(Q.library))Q.library=Q.library?.quests||[]}catch(_){Q.library=[]}U.emit('quest-library',Q.library);return Q.library};
+  Q.importFiles=async files=>{const imported=[];for(const file of files){const text=await U.readFile(file),data=U.parseLooseFile(file.name,text);Q.mergeTables(data.tables||data);if(data.quest||data.objective||data.hook){const q=data.quest||data;q.id=q.id||U.uid('quest');q.title=q.title||file.name.replace(/\.[^.]+$/,'');q.createdAt=q.createdAt||U.now();imported.push(q)}}return imported};
+  window.ActiveWorkspaceQuestBuilder=Q;
+})();
