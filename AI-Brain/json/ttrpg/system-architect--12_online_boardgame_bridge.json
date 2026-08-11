@@ -1,0 +1,106 @@
+{
+  "schema": "universal.online-boardgame-bridge.v1",
+  "version": "1.4.0",
+  "generated_at": "2026-07-25T16:00:00-04:00",
+  "design_invariants": [
+    "Stable IDs instead of names as keys",
+    "Rules data separate from campaign state",
+    "Every mutation emits an event",
+    "No silent overwrite",
+    "All random results can be seeded and logged",
+    "Player decisions require explicit confirmation",
+    "Character classes and paths are era-invariant",
+    "Class path changes are previewed from axis thresholds and require explicit player confirmation",
+    "CEP and XP are separate ledgers"
+  ],
+  "online_modules": [
+    "rules compendium",
+    "character builder",
+    "sheet and resource tracker",
+    "scene/initiative board",
+    "clocks and projects",
+    "map and zone bridge",
+    "faction and relationship ledger",
+    "colony and starship dashboard",
+    "content import/export",
+    "DM permissions and audit log"
+  ],
+  "state_objects": [
+    "character",
+    "npc",
+    "scene",
+    "location",
+    "faction",
+    "vehicle",
+    "colony",
+    "campaign_thread",
+    "item",
+    "effect",
+    "class_expression_profile"
+  ],
+  "board_game_components": {
+    "character_board": "abilities, HP, Guard, Stress, Resolve, class resource, alignment dials",
+    "class_cards": "base engine and level gates",
+    "path_cards": "six family options per class",
+    "action_cards": "Beat cost, test, effect, risk",
+    "gear_cards": "tags, Charge, Heat, maintenance",
+    "location_tiles": "zones, hazards, cover, objectives",
+    "clock_tracks": "progress and danger",
+    "faction_cards": "standing, heat, plan clock",
+    "campaign_book": "branching situations with open resolutions",
+    "class_expression_board": "three 0-3000 axes or sixteen-slot tracks, CEP bank, candidate-path marker, active-path card, and proficiency band"
+  },
+  "turn_conversion": {
+    "3_beats": "three action markers",
+    "reaction": "one reaction token",
+    "edge_burden": "roll additional d20 and keep high/low",
+    "resolve": "three currency tokens",
+    "clocks": "4/6/8/12 boxes or segments"
+  },
+  "event_schema": {
+    "event_id": "uuid",
+    "timestamp": "ISO-8601",
+    "actor_id": "stable id",
+    "event_type": "enumerated string",
+    "before": "optional snapshot",
+    "after": "optional snapshot",
+    "reason": "human-readable",
+    "approved_by": "player or DM id"
+  },
+  "save_format": "A ZIP containing manifest.json, rules-version.json, campaign-state.json, characters/*.json, scenes/*.json, and assets referenced by relative path.",
+  "class_expression_events": [
+    "cep_generated",
+    "cep_allocated",
+    "cep_withdrawn",
+    "axis_threshold_crossed",
+    "candidate_path_changed",
+    "path_change_confirmed",
+    "proficiency_state_changed"
+  ],
+  "class_expression_rules_ref": "06b_class_expression_point_buy.json",
+  "race_deity_modules": {
+    "race_picker": {
+      "source": "04_races_60.json",
+      "filters": [
+        "registry",
+        "category",
+        "biome",
+        "bloodlinePolicy",
+        "deityAssignments.name"
+      ]
+    },
+    "deity_browser": {
+      "source": "04b_deities_22.json",
+      "filters": [
+        "domains",
+        "assigned_biomes.biomes",
+        "assigned_races.races"
+      ]
+    },
+    "board_game_translation": [
+      "Race cards store narrative permissions, limitations, habitat tags, and optional bloodline/form selections.",
+      "Deity cards store domains, omens, worship practices, warnings, terraforming mandates, and race-association icons.",
+      "No race card assigns alignment, class, or compulsory worship."
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "giant-rat-diseased",
+  "name": "Giant Rat (Diseased)",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Beast",
+    "subtype": "",
+    "role": [
+      "skirmisher"
+    ],
+    "cr": "1/8",
+    "environments": [
+      "underdark"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "giant-rat-diseased",
+    "token_candidates": [
+      "giant-rat-diseased.webp",
+      "giant-rat-diseased.png",
+      "giant-rat-diseased.jpg",
+      "Giant Rat (Diseased)/giant-rat-diseased.webp",
+      "Giant Rat (Diseased)/giant-rat-diseased.png",
+      "hostiles/giant-rat-diseased.webp",
+      "hostiles/giant-rat-diseased.png",
+      "creatures/giant-rat-diseased.webp",
+      "creatures/giant-rat-diseased.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 7,
+    "max_hp": 7,
+    "ac": 12,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 25,
+    "cr_numeric": 0.125
+  },
+  "ability_scores": {
+    "str": 7,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 10,
+    "cha": 4
+  },
+  "saves": {},
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": "1d4",
+      "damageBonus": 2,
+      "averageDamage": 4.5,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": 10,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "2d6",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "skirmisher"
+    ],
+    "environments": [
+      "underdark"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-adapter",
+      "name": "Neutral Adapter",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 1500
+      },
+      "description": "A true survivalist. Adjusts to any situation without strong ties or ideals. The embodiment of flexible neutrality."
+    },
+    "tokenKey": "giant-rat-diseased",
+    "tokenCandidates": [
+      "giant-rat-diseased.webp",
+      "giant-rat-diseased.png",
+      "giant-rat-diseased.jpg",
+      "Giant Rat (Diseased)/giant-rat-diseased.webp",
+      "Giant Rat (Diseased)/giant-rat-diseased.png",
+      "hostiles/giant-rat-diseased.webp",
+      "hostiles/giant-rat-diseased.png",
+      "creatures/giant-rat-diseased.webp",
+      "creatures/giant-rat-diseased.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/giant-rat-diseased.json"
+}

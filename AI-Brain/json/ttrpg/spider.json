@@ -1,0 +1,148 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "spider",
+  "name": "Spider",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Beast",
+    "subtype": "",
+    "role": [
+      "skirmisher"
+    ],
+    "cr": "0",
+    "environments": [
+      "wilds"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "spider",
+    "token_candidates": [
+      "spider.webp",
+      "spider.png",
+      "spider.jpg",
+      "Spider/spider.webp",
+      "Spider/spider.png",
+      "hostiles/spider.webp",
+      "hostiles/spider.png",
+      "creatures/spider.webp",
+      "creatures/spider.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 1,
+    "max_hp": 1,
+    "ac": 12,
+    "initiative_bonus": 2,
+    "speed_ft": 30,
+    "xp": 10,
+    "cr_numeric": 0.0
+  },
+  "ability_scores": {
+    "str": 2,
+    "dex": 14,
+    "con": 8,
+    "int": 1,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "description": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Sense",
+      "description": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+    },
+    {
+      "name": "Web Walker",
+      "description": "The spider ignores movement restrictions caused by webbing."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.",
+      "category": "attack",
+      "attackBonus": 4,
+      "damageDice": null,
+      "damageBonus": 1,
+      "averageDamage": 1.0,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": 9,
+      "saveAbility": "CON",
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 4,
+      "toHit": 4,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "1d4",
+    "skills": "Stealth +4",
+    "senses": "darkvision 30 ft., passive Perception 12",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "skirmisher"
+    ],
+    "environments": [
+      "wilds"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-adapter",
+      "name": "Neutral Adapter",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 1500
+      },
+      "description": "A true survivalist. Adjusts to any situation without strong ties or ideals. The embodiment of flexible neutrality."
+    },
+    "tokenKey": "spider",
+    "tokenCandidates": [
+      "spider.webp",
+      "spider.png",
+      "spider.jpg",
+      "Spider/spider.webp",
+      "Spider/spider.png",
+      "hostiles/spider.webp",
+      "hostiles/spider.png",
+      "creatures/spider.webp",
+      "creatures/spider.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/spider.json"
+}

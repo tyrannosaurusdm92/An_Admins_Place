@@ -1,0 +1,148 @@
+{
+  "schema_version": "activeworkspace.monster.merged.v3.3",
+  "id": "quipper",
+  "name": "Quipper",
+  "source": "ActiveWorkspace shared catalog enriched by audited RandomEncounters data",
+  "classification": {
+    "type": "Beast",
+    "subtype": "",
+    "role": [
+      "skirmisher"
+    ],
+    "cr": "0",
+    "environments": [
+      "aquatic",
+      "coastal",
+      "underwater"
+    ]
+  },
+  "board_token": {
+    "shape": "circular external token",
+    "feet": 5,
+    "size_cells": 1,
+    "external": true,
+    "token_key": "quipper",
+    "token_candidates": [
+      "quipper.webp",
+      "quipper.png",
+      "quipper.jpg",
+      "Quipper/quipper.webp",
+      "Quipper/quipper.png",
+      "hostiles/quipper.webp",
+      "hostiles/quipper.png",
+      "creatures/quipper.webp",
+      "creatures/quipper.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "combat": {
+    "hp": 1,
+    "max_hp": 1,
+    "ac": 13,
+    "initiative_bonus": 3,
+    "speed_ft": 30,
+    "xp": 10,
+    "cr_numeric": 0.0
+  },
+  "ability_scores": {
+    "str": 2,
+    "dex": 16,
+    "con": 9,
+    "int": 1,
+    "wis": 7,
+    "cha": 2
+  },
+  "saves": {},
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "description": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+    },
+    {
+      "name": "Water Breathing",
+      "description": "The quipper can breathe only underwater."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "category": "attack",
+      "attackBonus": 5,
+      "damageDice": null,
+      "damageBonus": 1,
+      "averageDamage": 1.0,
+      "damageType": "piercing",
+      "rangeFt": 5,
+      "rangeType": "melee",
+      "saveDc": null,
+      "saveAbility": null,
+      "multiattackCount": 1,
+      "id": "bite",
+      "kind": "attack_roll",
+      "to_hit": 5,
+      "toHit": 5,
+      "damage_roll": "",
+      "damageRoll": "",
+      "damage_type": "piercing",
+      "range_ft": 5,
+      "rangeFeet": 5
+    }
+  ],
+  "random_encounters": {
+    "description": "",
+    "hitDice": "1d4",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "",
+    "legendaryActions": [],
+    "multiattackCount": 1,
+    "hasHands": false,
+    "divineCandidate": false,
+    "roles": [
+      "skirmisher"
+    ],
+    "environments": [
+      "aquatic",
+      "coastal",
+      "underwater"
+    ],
+    "homebrewAlignment": {
+      "profileId": "neutral-adapter",
+      "name": "Neutral Adapter",
+      "axes": {
+        "altruism": "Neutral",
+        "lawfulness": "Neutral",
+        "cooperation": "Neutral",
+        "honor": "Neutral"
+      },
+      "scores": {
+        "altruism": 1500,
+        "lawfulness": 1500,
+        "cooperation": 1500,
+        "honor": 1500
+      },
+      "description": "A true survivalist. Adjusts to any situation without strong ties or ideals. The embodiment of flexible neutrality."
+    },
+    "tokenKey": "quipper",
+    "tokenCandidates": [
+      "quipper.webp",
+      "quipper.png",
+      "quipper.jpg",
+      "Quipper/quipper.webp",
+      "Quipper/quipper.png",
+      "hostiles/quipper.webp",
+      "hostiles/quipper.png",
+      "creatures/quipper.webp",
+      "creatures/quipper.png",
+      "placeholders/hostiles/beast.png",
+      "placeholders/hostiles/default-hostile.png"
+    ]
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "condition_immunities": [],
+  "file": "json/monsters/quipper.json"
+}

@@ -1,0 +1,122 @@
+{
+  "application": "ActiveWorkspace",
+  "version": "4.2.0",
+  "rootEntry": "ActiveWorkspace.html",
+  "onlyHtmlFile": "ActiveWorkspace.html",
+  "maxParticipants": 10,
+  "backend": {
+    "webAppUrl": "https://script.google.com/macros/s/AKfycbxe3P6MBofPEhPfTAaz05TWEYhScX9QgpHzBKCdwPGnvzvVoyfllu0bAghZKqHs4E3hGg/exec",
+    "libraryUrl": "https://script.google.com/macros/library/d/1v06thwdjlv-j82hqHibJF3_gik7i8p9fFfK9nj0EOfi8VHhwT11jK5Eb/4",
+    "requestFormat": "JSON serialized as text/plain;charset=UTF-8",
+    "pollIntervalMs": 1800,
+    "authWebAppUrl": "https://script.google.com/macros/s/AKfycbwK-F1BfXbkiVkQXFA0Z1acKxFJgeGU6zckChEmSc8ANqLA1mbqUOWSf6_H1CGFtwW7WA/exec",
+    "authLibraryUrl": "https://script.google.com/macros/library/d/1106qaBmwlp4RiIOrlBBbbDtKuYKsfqdadKhti6ovh6X4hD0TJTsVqxmm/5",
+    "heartbeatIntervalMs": 120000
+  },
+  "roles": {
+    "authority": "backend-authoritative for all multiplayer and persistent MOL actions",
+    "clientMayNeverGrantDM": true,
+    "dmMayAlsoPlay": true
+  },
+  "encounter": {
+    "grid": "square",
+    "playerRollOrigin": "Dice page",
+    "hostileRollOrigin": "autonomous encounter engine",
+    "allRollsRecordedOnEncounter": true,
+    "hostilesAutonomous": true,
+    "cellFeet": 5,
+    "gridDetection": "alpha-aware canonical-profile and periodic horizontal/vertical line scan with manual fallback",
+    "footprintOccupancy": true,
+    "dynamicEvents": true,
+    "combatEffects": [
+      "attacks",
+      "saving throws",
+      "damage",
+      "healing",
+      "resistances",
+      "immunities",
+      "vulnerabilities",
+      "conditions",
+      "concentration",
+      "ongoing effects"
+    ],
+    "canonicalGridProfiles": "json/canonical_grid_profiles.json",
+    "canonicalGridAssets": "assets/grids/canonical/",
+    "canonicalCellPixels": 150,
+    "turnEconomy": {
+      "beatsPerTurn": 3,
+      "reactionsPerRound": 1,
+      "pressStressCost": 2
+    },
+    "alternatingSides": true,
+    "guardAndArmorWear": true,
+    "stressComposureWounds": true,
+    "dyingBoxes": 3,
+    "currentHowToPlay": true
+  },
+  "folders": [
+    "assets/RandomEncounters/css",
+    "assets/RandomEncounters/js",
+    "assets/RandomEncounters/js/dialogue-studio",
+    "assets/RandomEncounters/json",
+    "assets/grids/canonical",
+    "assets/tokens",
+    "css",
+    "docs",
+    "js",
+    "json",
+    "json/deities"
+  ],
+  "authentication": {
+    "campaignSelection": true,
+    "allowCreateAccount": true,
+    "temporaryAccessTrigger": "#playerforgot",
+    "forcedPasswordReset": true,
+    "sessionRestore": true,
+    "capacityLimit": 10,
+    "serverAuthoritativeRole": true,
+    "correctedPortalEnvelope": true,
+    "privateFragmentEntry": true,
+    "fragmentValueEmbedded": false,
+    "backendRoleRequired": true
+  },
+  "randomEncounters": {
+    "installRoot": "assets/RandomEncounters",
+    "sharedAuthorities": true,
+    "tokens": "configured GitHub token base",
+    "deities": "json/deities/index.json"
+  },
+  "system": "D&D 5.5e: Universal Edition — Covenant Engine",
+  "diceBot": {
+    "personas": 14,
+    "responseBanks": 14,
+    "themes": 60,
+    "threeD": true,
+    "audio": false,
+    "characterContext": true,
+    "localCanon": true,
+    "optionalBackendConversation": true,
+    "numericRolls": "local secure engine only"
+  },
+  "canonicalCounts": {
+    "parentRaces": 130,
+    "classes": 22,
+    "paths": 66,
+    "deities": 22,
+    "spells": 570,
+    "alignmentAxes": 8,
+    "alignmentProfiles": 81,
+    "nestedRaceOptions": 106,
+    "heritagePairs": 8385,
+    "biomes": 18,
+    "biomeGroups": 5,
+    "statBlockTemplates": 7
+  },
+  "experienceSystem": "json/experience/universal_experience_point_system.json",
+  "statBlockGenerator": {
+    "sharedCore": "json/canonical/stat-block-generator/system_core.json",
+    "templates": "json/canonical/stat-block-generator/templates.json",
+    "parentToChildGenetics": "json/canonical/stat-block-generator/parent_to_child_genetics.json",
+    "incompleteHostileNormalization": true
+  }
+}
