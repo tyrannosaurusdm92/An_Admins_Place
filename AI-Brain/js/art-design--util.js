@@ -1,0 +1,33 @@
+/* Genericized for AI-Brain capability use. Provenance group: active-session-runtime-b. */
+(function(global){
+  'use strict';
+  const U={};
+  U.clamp=(v,min,max)=>Math.max(min,Math.min(max,v));
+  U.lerp=(a,b,t)=>a+(b-a)*t;
+  U.uid=(prefix='id')=>`${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,9)}`;
+  U.hash=function(input){let h=2166136261;const s=String(input);for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0};
+  U.rng=function(seed){let a=(Number(seed)||1)>>>0;return function(){a+=0x6D2B79F5;let t=a;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296}};
+  U.pick=(rng,arr)=>arr[Math.floor(rng()*arr.length)%arr.length];
+  U.shuffle=function(rng,arr){const out=arr.slice();for(let i=out.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out};
+  U.safeName=function(value){return String(value||'WorldBuilder_Map').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9._-]+/g,'_').replace(/^_+|_+$/g,'').slice(0,120)||'WorldBuilder_Map'};
+  U.download=function(name,data,type='application/octet-stream'){const blob=data instanceof Blob?data:new Blob([data],{type});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000)};
+  U.readText=file=>new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result));r.onerror=()=>reject(r.error);r.readAsText(file)});
+  U.readDataURL=file=>new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result));r.onerror=()=>reject(r.error);r.readAsDataURL(file)});
+  U.deepClone=value=>JSON.parse(JSON.stringify(value));
+  U.hexToRgb=function(hex){let h=String(hex||'#000').replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');const n=parseInt(h,16)||0;return{r:(n>>16)&255,g:(n>>8)&255,b:n&255}};
+  U.rgbToHex=({r,g,b})=>'#'+[r,g,b].map(v=>Math.round(U.clamp(v,0,255)).toString(16).padStart(2,'0')).join('');
+  U.mixColor=function(a,b,t){const x=U.hexToRgb(a),y=U.hexToRgb(b);return U.rgbToHex({r:U.lerp(x.r,y.r,t),g:U.lerp(x.g,y.g,t),b:U.lerp(x.b,y.b,t)})};
+  U.withAlpha=function(hex,a){const c=U.hexToRgb(hex);return `rgba(${c.r},${c.g},${c.b},${a})`};
+  U.lighten=(hex,amount)=>U.mixColor(hex,'#ffffff',amount);
+  U.darken=(hex,amount)=>U.mixColor(hex,'#000000',amount);
+  U.formatTime=function(minutes){minutes=((Math.floor(minutes)%1440)+1440)%1440;let h=Math.floor(minutes/60),m=minutes%60;const ap=h>=12?'pm':'am';h=h%12||12;return `${h}:${String(m).padStart(2,'0')} ${ap}`};
+  U.distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+  U.pointSegmentDistance=function(p,a,b){const dx=b.x-a.x,dy=b.y-a.y;if(dx===0&&dy===0)return U.distance(p,a);const t=U.clamp(((p.x-a.x)*dx+(p.y-a.y)*dy)/(dx*dx+dy*dy),0,1);return Math.hypot(p.x-(a.x+t*dx),p.y-(a.y+t*dy))};
+  U.bezierPoint=function(points,t){if(points.length===2)return{x:U.lerp(points[0].x,points[1].x,t),y:U.lerp(points[0].y,points[1].y,t)};if(points.length===3){const u=1-t;return{x:u*u*points[0].x+2*u*t*points[1].x+t*t*points[2].x,y:u*u*points[0].y+2*u*t*points[1].y+t*t*points[2].y}};const idx=Math.min(points.length-2,Math.floor(t*(points.length-1)));const local=(t*(points.length-1))-idx;return{x:U.lerp(points[idx].x,points[idx+1].x,local),y:U.lerp(points[idx].y,points[idx+1].y,local)}};
+  U.polylineLength=function(points){let n=0;for(let i=1;i<points.length;i++)n+=U.distance(points[i-1],points[i]);return n};
+  U.roundRect=function(ctx,x,y,w,h,r){r=Math.min(r,w/2,h/2);ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath()};
+  U.noise2=function(x,y,seed=0){const s=Math.sin(x*12.9898+y*78.233+seed*0.013)*43758.5453;return s-Math.floor(s)};
+  U.titleCase=s=>String(s||'').replace(/[-_.]+/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+  U.escapeHtml=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  global.WFUtil=Object.freeze(U);
+})(window);
