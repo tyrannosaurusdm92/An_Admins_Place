@@ -1,0 +1,3791 @@
+[
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": ".env.example",
+    "size_bytes": 8259,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": ".github/FUNDING.yml",
+    "size_bytes": 136,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": ".gitignore",
+    "size_bytes": 491,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "AGENTS.md",
+    "size_bytes": 6786,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "ATTRIBUTION.md",
+    "size_bytes": 2415,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "LICENSE",
+    "size_bytes": 1078,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "README.md",
+    "size_bytes": 12911,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "SKILL.md",
+    "size_bytes": 24007,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "requirements.txt",
+    "size_bytes": 629,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "scripts/music_maker.py",
+    "size_bytes": 21306,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "scripts/music_mastering.py",
+    "size_bytes": 15289,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "setup.sh",
+    "size_bytes": 4898,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "sync.sh",
+    "size_bytes": 6992,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "templates/ace_step_music_apg_api.json",
+    "size_bytes": 4068,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "templates/ace_step_music_simple_api.json",
+    "size_bytes": 2729,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": ".env.example",
+    "size_bytes": 1181,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": ".github/FUNDING.yml",
+    "size_bytes": 80,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": ".gitignore",
+    "size_bytes": 72,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "LICENSE",
+    "size_bytes": 1069,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "README.md",
+    "size_bytes": 15091,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "app.py",
+    "size_bytes": 60008,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "config.py",
+    "size_bytes": 3790,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "docs/examples/firewall_warrior.mp3",
+    "size_bytes": 3547629,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "docs/screenshot.png",
+    "size_bytes": 170208,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "generator.py",
+    "size_bytes": 8958,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "history.py",
+    "size_bytes": 3914,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "install.bat",
+    "size_bytes": 852,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "install.sh",
+    "size_bytes": 990,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "lyrics_llm.py",
+    "size_bytes": 9940,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "model_manager.py",
+    "size_bytes": 4278,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "prompt_templates.py",
+    "size_bytes": 11377,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "requirements.txt",
+    "size_bytes": 149,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "run.bat",
+    "size_bytes": 191,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "run.sh",
+    "size_bytes": 224,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "style_transfer.py",
+    "size_bytes": 1618,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "transcriptor.py",
+    "size_bytes": 2119,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": ".gitattributes",
+    "size_bytes": 84,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": ".gitignore",
+    "size_bytes": 3225,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "LICENSE",
+    "size_bytes": 12969,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "NOTICE",
+    "size_bytes": 2757,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "README.md",
+    "size_bytes": 19054,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/#U767d#U5e95.png",
+    "size_bytes": 14085,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/#U767d#U5e95.svg",
+    "size_bytes": 6437,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/#U900f#U660e#U5e95#U9ed1#U7ebf.png",
+    "size_bytes": 11674,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/#U9ed1#U5e95.png",
+    "size_bytes": 14497,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/#U9ed1#U5e95.svg",
+    "size_bytes": 6434,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "assets/logo/yue.mp3",
+    "size_bytes": 3511901,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/README.md",
+    "size_bytes": 1019,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/main.py",
+    "size_bytes": 3433,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/plot_violin_plot.py",
+    "size_bytes": 3159,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/10.txt",
+    "size_bytes": 24787,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/101.txt",
+    "size_bytes": 26544,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/105.txt",
+    "size_bytes": 19635,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/108.txt",
+    "size_bytes": 20181,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/11.txt",
+    "size_bytes": 22890,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/15.txt",
+    "size_bytes": 16583,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/16.txt",
+    "size_bytes": 24030,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/17.txt",
+    "size_bytes": 16709,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/18.txt",
+    "size_bytes": 13636,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/19.txt",
+    "size_bytes": 17983,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/202.txt",
+    "size_bytes": 17738,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/214.txt",
+    "size_bytes": 16898,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/22.txt",
+    "size_bytes": 18703,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/224.txt",
+    "size_bytes": 15365,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/231.txt",
+    "size_bytes": 23611,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/233.txt",
+    "size_bytes": 23163,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/235.txt",
+    "size_bytes": 16247,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/236.txt",
+    "size_bytes": 18319,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/25.txt",
+    "size_bytes": 15120,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/253.txt",
+    "size_bytes": 17353,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/260.txt",
+    "size_bytes": 14728,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/262.txt",
+    "size_bytes": 18095,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/27.txt",
+    "size_bytes": 12719,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/287.txt",
+    "size_bytes": 14728,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/289.txt",
+    "size_bytes": 25809,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/318.txt",
+    "size_bytes": 18305,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/32.txt",
+    "size_bytes": 17626,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/320.txt",
+    "size_bytes": 16793,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/33.txt",
+    "size_bytes": 17752,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/34.txt",
+    "size_bytes": 20545,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/346.txt",
+    "size_bytes": 21931,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/348.txt",
+    "size_bytes": 21333,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/35.txt",
+    "size_bytes": 22547,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/354.txt",
+    "size_bytes": 17864,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/37.txt",
+    "size_bytes": 20349,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/380.txt",
+    "size_bytes": 17454,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/387.txt",
+    "size_bytes": 17171,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/392.txt",
+    "size_bytes": 22036,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/409.txt",
+    "size_bytes": 17073,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/42.txt",
+    "size_bytes": 25942,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/7.txt",
+    "size_bytes": 30135,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/en/9.txt",
+    "size_bytes": 13069,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/-zuvzj9LuaM.txt",
+    "size_bytes": 27083,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/5lFmjbdOTyc.txt",
+    "size_bytes": 16856,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/5lFmjbdOTyc_.txt",
+    "size_bytes": 9947,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/DQ1hvB_L30o.txt",
+    "size_bytes": 22008,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/DQ1hvB_L30o_.txt",
+    "size_bytes": 20846,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/Y7obnIhMl-s.txt",
+    "size_bytes": 23170,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/o-2LI9oBD_A.txt",
+    "size_bytes": 17752,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/scT6xjzY7Lc.txt",
+    "size_bytes": 17787,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/v1NMaIQ58N0.txt",
+    "size_bytes": 20993,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/jp_kr/zA3EdSDEXw8.txt",
+    "size_bytes": 22680,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/104.txt",
+    "size_bytes": 23030,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/257.txt",
+    "size_bytes": 20251,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/308.txt",
+    "size_bytes": 14980,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/316.txt",
+    "size_bytes": 21952,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/352.txt",
+    "size_bytes": 23485,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/355.txt",
+    "size_bytes": 24136,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/393.txt",
+    "size_bytes": 23079,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/416.txt",
+    "size_bytes": 26222,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/421.txt",
+    "size_bytes": 22361,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/6.txt",
+    "size_bytes": 30338,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Hailuo Music/zh/89.txt",
+    "size_bytes": 9786,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/104.txt",
+    "size_bytes": 55594,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/257.txt",
+    "size_bytes": 32858,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/308.txt",
+    "size_bytes": 36729,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/316.txt",
+    "size_bytes": 35805,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/352.txt",
+    "size_bytes": 33453,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/355.txt",
+    "size_bytes": 26733,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/393.txt",
+    "size_bytes": 34314,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/416.txt",
+    "size_bytes": 33922,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/421.txt",
+    "size_bytes": 29400,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/6.txt",
+    "size_bytes": 33117,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Seed Music/zh/89.txt",
+    "size_bytes": 18942,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/10.txt",
+    "size_bytes": 76986,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/101.txt",
+    "size_bytes": 101409,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/105.txt",
+    "size_bytes": 89320,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/108.txt",
+    "size_bytes": 83300,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/11.txt",
+    "size_bytes": 77567,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/15.txt",
+    "size_bytes": 73135,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/16.txt",
+    "size_bytes": 98414,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/17.txt",
+    "size_bytes": 90853,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/18.txt",
+    "size_bytes": 59162,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/19.txt",
+    "size_bytes": 71323,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/202.txt",
+    "size_bytes": 87241,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/214.txt",
+    "size_bytes": 91313,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/22.txt",
+    "size_bytes": 55251,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/224.txt",
+    "size_bytes": 76622,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/231.txt",
+    "size_bytes": 100664,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/233.txt",
+    "size_bytes": 88396,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/235.txt",
+    "size_bytes": 74473,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/236.txt",
+    "size_bytes": 128751,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/25.txt",
+    "size_bytes": 89530,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/253.txt",
+    "size_bytes": 107884,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/260.txt",
+    "size_bytes": 65856,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/262.txt",
+    "size_bytes": 98707,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/27.txt",
+    "size_bytes": 110215,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/287.txt",
+    "size_bytes": 121212,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/289.txt",
+    "size_bytes": 69240,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/318.txt",
+    "size_bytes": 98028,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/32.txt",
+    "size_bytes": 114835,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/320.txt",
+    "size_bytes": 76734,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/33.txt",
+    "size_bytes": 98302,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/34.txt",
+    "size_bytes": 61810,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/346.txt",
+    "size_bytes": 103166,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/348.txt",
+    "size_bytes": 115178,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/35.txt",
+    "size_bytes": 78925,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/354.txt",
+    "size_bytes": 73815,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/37.txt",
+    "size_bytes": 91487,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/380.txt",
+    "size_bytes": 119934,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/387.txt",
+    "size_bytes": 98511,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/392.txt",
+    "size_bytes": 95459,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/409.txt",
+    "size_bytes": 109919,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/42.txt",
+    "size_bytes": 114590,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/7.txt",
+    "size_bytes": 98730,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/en/9.txt",
+    "size_bytes": 131903,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/jp_kr/DQ1hvB_L30o.txt",
+    "size_bytes": 108528,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/jp_kr/Y7obnIhMl-s.txt",
+    "size_bytes": 102011,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/jp_kr/o-2LI9oBD_A.txt",
+    "size_bytes": 65546,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/jp_kr/scT6xjzY7Lc.txt",
+    "size_bytes": 109677,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/104.txt",
+    "size_bytes": 40425,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/257.txt",
+    "size_bytes": 88046,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/308.txt",
+    "size_bytes": 117096,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/316.txt",
+    "size_bytes": 87206,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/352.txt",
+    "size_bytes": 134953,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/355.txt",
+    "size_bytes": 86995,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/393.txt",
+    "size_bytes": 77427,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/416.txt",
+    "size_bytes": 93034,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/421.txt",
+    "size_bytes": 120365,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/6.txt",
+    "size_bytes": 114562,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Suno V4/zh/89.txt",
+    "size_bytes": 71502,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/10.txt",
+    "size_bytes": 51401,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/101.txt",
+    "size_bytes": 62825,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/105.txt",
+    "size_bytes": 52472,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/108.txt",
+    "size_bytes": 49896,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/11.txt",
+    "size_bytes": 47432,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/15.txt",
+    "size_bytes": 41734,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/16.txt",
+    "size_bytes": 49294,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/17.txt",
+    "size_bytes": 32515,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/18.txt",
+    "size_bytes": 55874,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/19.txt",
+    "size_bytes": 47444,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/202.txt",
+    "size_bytes": 20615,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/214.txt",
+    "size_bytes": 48888,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/22.txt",
+    "size_bytes": 52670,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/224.txt",
+    "size_bytes": 36995,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/231.txt",
+    "size_bytes": 34734,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/233.txt",
+    "size_bytes": 72030,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/235.txt",
+    "size_bytes": 50379,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/236.txt",
+    "size_bytes": 52661,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/25.txt",
+    "size_bytes": 21517,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/253.txt",
+    "size_bytes": 51184,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/260.txt",
+    "size_bytes": 46200,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/262.txt",
+    "size_bytes": 39284,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/27.txt",
+    "size_bytes": 37128,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/287.txt",
+    "size_bytes": 71498,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/289.txt",
+    "size_bytes": 29991,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/318.txt",
+    "size_bytes": 15968,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/32.txt",
+    "size_bytes": 50911,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/320.txt",
+    "size_bytes": 43820,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/33.txt",
+    "size_bytes": 29925,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/34.txt",
+    "size_bytes": 73353,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/346.txt",
+    "size_bytes": 63518,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/348.txt",
+    "size_bytes": 54285,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/35.txt",
+    "size_bytes": 35965,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/354.txt",
+    "size_bytes": 43799,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/37.txt",
+    "size_bytes": 23625,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/380.txt",
+    "size_bytes": 36414,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/387.txt",
+    "size_bytes": 44576,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/392.txt",
+    "size_bytes": 42343,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/409.txt",
+    "size_bytes": 53438,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/42.txt",
+    "size_bytes": 55685,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/7.txt",
+    "size_bytes": 64155,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/en/9.txt",
+    "size_bytes": 13566,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/-zuvzj9LuaM.txt",
+    "size_bytes": 35875,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/5lFmjbdOTyc.txt",
+    "size_bytes": 60368,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/5lFmjbdOTyc_.txt",
+    "size_bytes": 36988,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/DQ1hvB_L30o.txt",
+    "size_bytes": 41284,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/DQ1hvB_L30o_.txt",
+    "size_bytes": 39592,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/Y7obnIhMl-s.txt",
+    "size_bytes": 8197,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/o-2LI9oBD_A.txt",
+    "size_bytes": 39578,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/scT6xjzY7Lc.txt",
+    "size_bytes": 1603,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/v1NMaIQ58N0.txt",
+    "size_bytes": 44646,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/jp_kr/zA3EdSDEXw8.txt",
+    "size_bytes": 58758,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/104.txt",
+    "size_bytes": 45038,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/257.txt",
+    "size_bytes": 46977,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/308.txt",
+    "size_bytes": 65870,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/316.txt",
+    "size_bytes": 91700,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/352.txt",
+    "size_bytes": 96320,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/355.txt",
+    "size_bytes": 57309,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/393.txt",
+    "size_bytes": 37456,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/416.txt",
+    "size_bytes": 82936,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/421.txt",
+    "size_bytes": 86877,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/6.txt",
+    "size_bytes": 84469,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Tiangong/zh/89.txt",
+    "size_bytes": 15337,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/10.txt",
+    "size_bytes": 69097,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/101.txt",
+    "size_bytes": 71358,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/105.txt",
+    "size_bytes": 62531,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/108.txt",
+    "size_bytes": 64911,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/11.txt",
+    "size_bytes": 60739,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/15.txt",
+    "size_bytes": 57085,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/16.txt",
+    "size_bytes": 52675,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/17.txt",
+    "size_bytes": 68145,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/18.txt",
+    "size_bytes": 47744,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/19.txt",
+    "size_bytes": 49945,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/202.txt",
+    "size_bytes": 66787,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/214.txt",
+    "size_bytes": 53598,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/22.txt",
+    "size_bytes": 39858,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/224.txt",
+    "size_bytes": 59675,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/231.txt",
+    "size_bytes": 71021,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/233.txt",
+    "size_bytes": 59059,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/235.txt",
+    "size_bytes": 67207,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/236.txt",
+    "size_bytes": 66486,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/25.txt",
+    "size_bytes": 66232,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/253.txt",
+    "size_bytes": 61096,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/260.txt",
+    "size_bytes": 69286,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/262.txt",
+    "size_bytes": 62832,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/27.txt",
+    "size_bytes": 11375,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/287.txt",
+    "size_bytes": 27894,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/289.txt",
+    "size_bytes": 58751,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/318.txt",
+    "size_bytes": 46686,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/32.txt",
+    "size_bytes": 16527,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/320.txt",
+    "size_bytes": 51863,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/34.txt",
+    "size_bytes": 14273,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/346.txt",
+    "size_bytes": 46375,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/348.txt",
+    "size_bytes": 68271,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/35.txt",
+    "size_bytes": 14742,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/354.txt",
+    "size_bytes": 60571,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/37.txt",
+    "size_bytes": 17017,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/380.txt",
+    "size_bytes": 31990,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/387.txt",
+    "size_bytes": 57533,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/392.txt",
+    "size_bytes": 61432,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/409.txt",
+    "size_bytes": 66549,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/42.txt",
+    "size_bytes": 12649,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/7.txt",
+    "size_bytes": 70450,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/en/9.txt",
+    "size_bytes": 53179,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/-zuvzj9LuaM.txt",
+    "size_bytes": 69853,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/5lFmjbdOTyc.txt",
+    "size_bytes": 40901,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/5lFmjbdOTyc_.txt",
+    "size_bytes": 66339,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/DQ1hvB_L30o.txt",
+    "size_bytes": 55076,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/DQ1hvB_L30o_.txt",
+    "size_bytes": 63393,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/Y7obnIhMl-s.txt",
+    "size_bytes": 60368,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/o-2LI9oBD_A.txt",
+    "size_bytes": 60046,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/scT6xjzY7Lc.txt",
+    "size_bytes": 73892,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/v1NMaIQ58N0.txt",
+    "size_bytes": 60445,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/jp_kr/zA3EdSDEXw8.txt",
+    "size_bytes": 59122,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/104.txt",
+    "size_bytes": 55489,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/257.txt",
+    "size_bytes": 60524,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/308.txt",
+    "size_bytes": 60452,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/316.txt",
+    "size_bytes": 68544,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/352.txt",
+    "size_bytes": 69790,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/355.txt",
+    "size_bytes": 58933,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/393.txt",
+    "size_bytes": 68530,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/416.txt",
+    "size_bytes": 67228,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/421.txt",
+    "size_bytes": 63987,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/6.txt",
+    "size_bytes": 68093,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/Udio/zh/89.txt",
+    "size_bytes": 72422,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/10.txt",
+    "size_bytes": 70588,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/101.txt",
+    "size_bytes": 70567,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/105.txt",
+    "size_bytes": 87801,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/108.txt",
+    "size_bytes": 110677,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/11.txt",
+    "size_bytes": 67920,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/15.txt",
+    "size_bytes": 86996,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/16.txt",
+    "size_bytes": 43400,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/17.txt",
+    "size_bytes": 86289,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/18.txt",
+    "size_bytes": 63651,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/19.txt",
+    "size_bytes": 81641,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/202.txt",
+    "size_bytes": 135828,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/214.txt",
+    "size_bytes": 82212,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/22.txt",
+    "size_bytes": 72504,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/224.txt",
+    "size_bytes": 61621,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/231.txt",
+    "size_bytes": 102921,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/233.txt",
+    "size_bytes": 115899,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/235.txt",
+    "size_bytes": 95417,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/236.txt",
+    "size_bytes": 126806,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/25.txt",
+    "size_bytes": 74431,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/253.txt",
+    "size_bytes": 138164,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/260.txt",
+    "size_bytes": 40866,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/262.txt",
+    "size_bytes": 140147,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/27.txt",
+    "size_bytes": 89033,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/287.txt",
+    "size_bytes": 63168,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/289.txt",
+    "size_bytes": 35267,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/318.txt",
+    "size_bytes": 23039,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/32.txt",
+    "size_bytes": 96915,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/320.txt",
+    "size_bytes": 68320,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/33.txt",
+    "size_bytes": 123165,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/34.txt",
+    "size_bytes": 74557,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/346.txt",
+    "size_bytes": 99897,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/348.txt",
+    "size_bytes": 133693,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/35.txt",
+    "size_bytes": 39823,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/354.txt",
+    "size_bytes": 97376,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/37.txt",
+    "size_bytes": 89460,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/380.txt",
+    "size_bytes": 110570,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/387.txt",
+    "size_bytes": 104636,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/392.txt",
+    "size_bytes": 93864,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/409.txt",
+    "size_bytes": 61746,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/42.txt",
+    "size_bytes": 100226,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/7.txt",
+    "size_bytes": 84714,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/en/9.txt",
+    "size_bytes": 185063,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/-zuvzj9LuaM.txt",
+    "size_bytes": 125174,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/5lFmjbdOTyc.txt",
+    "size_bytes": 121401,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/5lFmjbdOTyc_.txt",
+    "size_bytes": 147518,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/DQ1hvB_L30o.txt",
+    "size_bytes": 144075,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/DQ1hvB_L30o_.txt",
+    "size_bytes": 128492,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/Y7obnIhMl-s.txt",
+    "size_bytes": 99239,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/o-2LI9oBD_A.txt",
+    "size_bytes": 73448,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/scT6xjzY7Lc.txt",
+    "size_bytes": 163184,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/v1NMaIQ58N0.txt",
+    "size_bytes": 108262,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/jp_kr/zA3EdSDEXw8.txt",
+    "size_bytes": 124488,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/104.txt",
+    "size_bytes": 33082,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/257.txt",
+    "size_bytes": 76037,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/308.txt",
+    "size_bytes": 115548,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/316.txt",
+    "size_bytes": 78043,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/352.txt",
+    "size_bytes": 171962,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/355.txt",
+    "size_bytes": 70560,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/393.txt",
+    "size_bytes": 89215,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/416.txt",
+    "size_bytes": 87461,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/421.txt",
+    "size_bytes": 73633,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/6.txt",
+    "size_bytes": 123529,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/YuE/zh/89.txt",
+    "size_bytes": 13657,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/concat_txt.sh",
+    "size_bytes": 562,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/vocal_range_analysis.csv",
+    "size_bytes": 6959,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted/vocal_ranges.png",
+    "size_bytes": 79008,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/Hailuo Music.txt",
+    "size_bytes": 1248241,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/Seed Music.txt",
+    "size_bytes": 370867,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/Suno V4.txt",
+    "size_bytes": 5285523,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/Tiangong.txt",
+    "size_bytes": 2979185,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/Udio.txt",
+    "size_bytes": 3458921,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/YuE.txt",
+    "size_bytes": 5898886,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "evals/pitch_range/raw_pitch_extracted_combined/analyze_f0.py",
+    "size_bytes": 2362,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/README.md",
+    "size_bytes": 5241,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/__init__.py",
+    "size_bytes": 0,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/config/ds_config_zero2.json",
+    "size_bytes": 1296,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/__init__.py",
+    "size_bytes": 0,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/arguments.py",
+    "size_bytes": 84815,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/Makefile",
+    "size_bytes": 279,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/__init__.py",
+    "size_bytes": 0,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/blended_dataset.py",
+    "size_bytes": 7099,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/blended_megatron_dataset_builder.py",
+    "size_bytes": 11708,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/blended_megatron_dataset_config.py",
+    "size_bytes": 6493,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/gpt_dataset.py",
+    "size_bytes": 21156,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/helpers.cpp",
+    "size_bytes": 26731,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/indexed_dataset.py",
+    "size_bytes": 21355,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/megatron_dataset.py",
+    "size_bytes": 4392,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/datasets/utils.py",
+    "size_bytes": 1472,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/parse_mixture.py",
+    "size_bytes": 6353,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/preprocess_data_conditional_xcodec.py",
+    "size_bytes": 37357,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/preprocess_data_conditional_xcodec_segment.py",
+    "size_bytes": 65985,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/tokenizer/mmtokenizer.py",
+    "size_bytes": 10266,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/example/dummy_data_mixture_cfg.yml",
+    "size_bytes": 678,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/example/jsonl/dummy.msa.xcodec_16k.jsonl",
+    "size_bytes": 3580,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/example/npy/dummy.Instrumental.npy",
+    "size_bytes": 34192,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/example/npy/dummy.Vocals.npy",
+    "size_bytes": 34192,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/example/npy/dummy.npy",
+    "size_bytes": 34192,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/requirements.txt",
+    "size_bytes": 1389,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/scripts/count_tokens.sh",
+    "size_bytes": 834,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/scripts/preprocess_data.sh",
+    "size_bytes": 4243,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/scripts/run_finetune.sh",
+    "size_bytes": 6924,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/scripts/train_lora.py",
+    "size_bytes": 7733,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/tools/codecmanipulator.py",
+    "size_bytes": 10496,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/tools/count_mmap_token.py",
+    "size_bytes": 845,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/codecmanipulator.py",
+    "size_bytes": 10528,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/infer.py",
+    "size_bytes": 24320,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/mm_tokenizer_v0.2_hf/tokenizer.model",
+    "size_bytes": 1761962,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/mmtokenizer.py",
+    "size_bytes": 10266,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/genre.txt",
+    "size_bytes": 71,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/lyrics.txt",
+    "size_bytes": 1075,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/pop.00001.Instrumental.mp3",
+    "size_bytes": 468495,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied_instrumental_or_training"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/pop.00001.Vocals.mp3",
+    "size_bytes": 443147,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/pop.00001.mp3",
+    "size_bytes": 445388,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": false,
+    "disposition": "documented_not_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "requirements.txt",
+    "size_bytes": 157,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "top_200_tags.json",
+    "size_bytes": 14275,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  }
+]

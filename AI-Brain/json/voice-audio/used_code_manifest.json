@@ -1,0 +1,281 @@
+[
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "ATTRIBUTION.md",
+    "size_bytes": 2415,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "LICENSE",
+    "size_bytes": 1078,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "README.md",
+    "size_bytes": 12911,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "SKILL.md",
+    "size_bytes": 24007,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "requirements.txt",
+    "size_bytes": 629,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "scripts/music_maker.py",
+    "size_bytes": 21306,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "aeon-music-maker-main",
+    "source_path": "scripts/music_mastering.py",
+    "size_bytes": 15289,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "LICENSE",
+    "size_bytes": 1069,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "README.md",
+    "size_bytes": 15091,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "config.py",
+    "size_bytes": 3790,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "generator.py",
+    "size_bytes": 8958,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "history.py",
+    "size_bytes": 3914,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "lyrics_llm.py",
+    "size_bytes": 9940,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "model_manager.py",
+    "size_bytes": 4278,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "prompt_templates.py",
+    "size_bytes": 11377,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "requirements.txt",
+    "size_bytes": 149,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "style_transfer.py",
+    "size_bytes": 1618,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "HeartMuse-master",
+    "source_path": "transcriptor.py",
+    "size_bytes": 2119,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "LICENSE",
+    "size_bytes": 12969,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "NOTICE",
+    "size_bytes": 2757,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "README.md",
+    "size_bytes": 19054,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/core/tokenizer/mmtokenizer.py",
+    "size_bytes": 10266,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/requirements.txt",
+    "size_bytes": 1389,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "finetune/tools/codecmanipulator.py",
+    "size_bytes": 10496,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/codecmanipulator.py",
+    "size_bytes": 10528,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/infer.py",
+    "size_bytes": 24320,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "inference/mmtokenizer.py",
+    "size_bytes": 10266,
+    "voice_relevance": "non_voice_or_support",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/genre.txt",
+    "size_bytes": 71,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "prompt_egs/lyrics.txt",
+    "size_bytes": 1075,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "requirements.txt",
+    "size_bytes": 157,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": false,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  },
+  {
+    "source_repo": "YuE-main",
+    "source_path": "top_200_tags.json",
+    "size_bytes": 14275,
+    "voice_relevance": "voice_related",
+    "contains_instrumental_language": true,
+    "directly_copied_or_integrated": true,
+    "disposition": "integrated_or_copied"
+  }
+]

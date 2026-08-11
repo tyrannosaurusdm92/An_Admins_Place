@@ -1,0 +1,1087 @@
+{
+  "BACKEND_URL": "https://script.google.com/macros/s/AKfycbyr4TwLilCubnWm_g-N8nIZUiWR3GJ7-nzeV8dc1vJctcPHHFU3bCg96yi5retOUeZGfQ/exec",
+  "SAFETY_ALLOWED_ASSET_TYPES": [
+    "own_voice",
+    "licensed_actor",
+    "public_domain_character_asset",
+    "synthetic_original"
+  ],
+  "DEFAULT_ASSET_PERMISSION": "synthetic_original",
+  "DEFAULT_PROFILE": {
+    "pitch": 5,
+    "speed": 5,
+    "inflection": 5,
+    "stutter": 1,
+    "breath": 3,
+    "roughness": 2,
+    "resonance": 5.5,
+    "formality": 5.5,
+    "vowelFlow": 5,
+    "consonantBite": 5,
+    "mouthShape": 5,
+    "nasality": 5,
+    "throatDepth": 5,
+    "rhythm": 5,
+    "pauseControl": 5,
+    "emphasis": 5,
+    "warmth": 5,
+    "clarity": 6,
+    "projection": 5,
+    "humanVariation": 5,
+    "accentColor": 7,
+    "influenceRace": 1,
+    "influenceGender": 1,
+    "influencePersonality": 1,
+    "influenceBiome": 1,
+    "influenceBaseAudio": 0.45,
+    "emotionIntensity": 0.75,
+    "deepRegister": 3.0,
+    "musicalLilt": 5.0,
+    "airTexture": 3.0,
+    "harshEdge": 2.0,
+    "vocalWeight": 5.0
+  },
+  "CORE_SLIDERS": [
+    [
+      "Voice Height",
+      "pitch",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Speaking Speed",
+      "speed",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Expression Shape",
+      "inflection",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Hesitations",
+      "stutter",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Softness",
+      "breath",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Gruff Edge",
+      "roughness",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Deep Register",
+      "deepRegister",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Musical Lilt",
+      "musicalLilt",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Air Texture",
+      "airTexture",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Harsh Edge",
+      "harshEdge",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Vocal Weight",
+      "vocalWeight",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Body / Depth",
+      "resonance",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Speech Style",
+      "formality",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Vowel Flow",
+      "vowelFlow",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Consonant Bite",
+      "consonantBite",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Mouth Shape",
+      "mouthShape",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Nasal Color",
+      "nasality",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Throat Depth",
+      "throatDepth",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Speech Rhythm",
+      "rhythm",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Pause Space",
+      "pauseControl",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Word Emphasis",
+      "emphasis",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Warmth",
+      "warmth",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Clarity",
+      "clarity",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Projection",
+      "projection",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Human Variation",
+      "humanVariation",
+      0,
+      10,
+      0.1
+    ],
+    [
+      "Accent Color",
+      "accentColor",
+      0,
+      10,
+      0.1
+    ]
+  ],
+  "INFLUENCE_SLIDERS": [
+    [
+      "Race / Ancestry Influence",
+      "influenceRace",
+      0,
+      100,
+      1
+    ],
+    [
+      "Gender Identity Influence",
+      "influenceGender",
+      0,
+      100,
+      1
+    ],
+    [
+      "Personality Influence",
+      "influencePersonality",
+      0,
+      100,
+      1
+    ],
+    [
+      "Accent Strength / Remove Accent",
+      "influenceBiome",
+      0,
+      100,
+      1
+    ],
+    [
+      "Uploaded / Recorded Voice Influence",
+      "influenceBaseAudio",
+      0,
+      100,
+      1
+    ],
+    [
+      "Emotion Strength",
+      "emotionIntensity",
+      0,
+      100,
+      1
+    ]
+  ],
+  "VOICE_MODELS": {
+    "stonehollow_echo": {
+      "name": "Stonehollow Echo",
+      "fantasy": "Deep Cavern / Welsh",
+      "langs": [
+        "cy-GB",
+        "en-GB",
+        "en-IE",
+        "en-US"
+      ],
+      "feel": "echoing, ancient, carved-from-stone",
+      "delta": {
+        "resonance": 1.3,
+        "throatDepth": 1.2,
+        "pauseControl": 0.8,
+        "speed": -0.35,
+        "formality": 0.45,
+        "accentColor": 0.9,
+        "clarity": 0.25
+      }
+    },
+    "highbranch_lilt": {
+      "name": "Highbranch Lilt",
+      "fantasy": "Treetops / French",
+      "langs": [
+        "fr-FR",
+        "fr-CA",
+        "en-GB",
+        "en-US"
+      ],
+      "feel": "light, elevated, refined, airy",
+      "delta": {
+        "pitch": 0.45,
+        "breath": 0.85,
+        "vowelFlow": 1,
+        "consonantBite": -0.35,
+        "formality": 0.75,
+        "inflection": 0.55,
+        "accentColor": 1
+      }
+    },
+    "rootmere_cant": {
+      "name": "Rootmere Cant",
+      "fantasy": "Deep Forest / German",
+      "langs": [
+        "de-DE",
+        "de-AT",
+        "en-GB",
+        "en-US"
+      ],
+      "feel": "dense, structured, rooted, authoritative",
+      "delta": {
+        "consonantBite": 1,
+        "formality": 0.75,
+        "clarity": 0.5,
+        "throatDepth": 0.45,
+        "rhythm": -0.2,
+        "accentColor": 1
+      }
+    },
+    "bramblewood_burr": {
+      "name": "Bramblewood Burr",
+      "fantasy": "Hybrid Tree + Forest Floor / English West Country",
+      "langs": [
+        "en-GB",
+        "en-IE",
+        "en-US"
+      ],
+      "feel": "rustic, layered, grounded, woodland",
+      "delta": {
+        "warmth": 0.9,
+        "vowelFlow": 0.65,
+        "rhythm": 0.45,
+        "resonance": 0.35,
+        "formality": -0.3,
+        "accentColor": 0.75
+      }
+    },
+    "ironstep_cant": {
+      "name": "Ironstep Cant",
+      "fantasy": "Prairie / Russian",
+      "langs": [
+        "ru-RU",
+        "en-GB",
+        "en-US"
+      ],
+      "feel": "strong, wide, grounded, hardy",
+      "delta": {
+        "resonance": 1.25,
+        "roughness": 0.55,
+        "consonantBite": 0.9,
+        "formality": 0.65,
+        "projection": 0.55,
+        "speed": -0.25,
+        "accentColor": 1
+      }
+    },
+    "cragthane_burr": {
+      "name": "Cragthane Burr",
+      "fantasy": "Mountain Range / Scottish",
+      "langs": [
+        "en-GB",
+        "en-IE",
+        "en-US"
+      ],
+      "feel": "tough, crisp, resilient",
+      "delta": {
+        "resonance": 1.35,
+        "roughness": 0.8,
+        "consonantBite": 0.6,
+        "projection": 0.45,
+        "speed": -0.15,
+        "accentColor": 0.95
+      }
+    },
+    "wavebloom_welcome": {
+      "name": "Wavebloom Welcome",
+      "fantasy": "Beach + Reefs / Hawaiian-influenced English",
+      "langs": [
+        "en-US",
+        "en-AU",
+        "en-GB"
+      ],
+      "feel": "gentle, tropical, wave-like, welcoming",
+      "delta": {
+        "warmth": 1.35,
+        "vowelFlow": 1.05,
+        "rhythm": 0.85,
+        "consonantBite": -0.35,
+        "breath": 0.35,
+        "pauseControl": 0.35,
+        "accentColor": 0.7
+      }
+    },
+    "mirecurl_drawl": {
+      "name": "Mirecurl Drawl",
+      "fantasy": "Marshes + Swamps / Cajun-Creole influenced English",
+      "langs": [
+        "en-US",
+        "fr-FR",
+        "en-GB"
+      ],
+      "feel": "slow, earthy, wet, lived-in",
+      "delta": {
+        "speed": -0.55,
+        "warmth": 1,
+        "rhythm": 0.75,
+        "pauseControl": 0.85,
+        "throatDepth": 0.5,
+        "vowelFlow": 0.7,
+        "accentColor": 0.8
+      }
+    },
+    "vinesong_flow": {
+      "name": "Vinesong Flow",
+      "fantasy": "Valley / Italian",
+      "langs": [
+        "it-IT",
+        "en-GB",
+        "en-US"
+      ],
+      "feel": "flowing, fertile, elegant, soft",
+      "delta": {
+        "vowelFlow": 1.3,
+        "rhythm": 0.85,
+        "warmth": 1.05,
+        "inflection": 0.85,
+        "pitch": 0.25,
+        "accentColor": 1
+      }
+    },
+    "tidecrest_cant": {
+      "name": "Tidecrest Cant",
+      "fantasy": "Ocean Surface Floating Settlement / Portuguese",
+      "langs": [
+        "pt-PT",
+        "pt-BR",
+        "en-US",
+        "en-GB"
+      ],
+      "feel": "open, rolling, maritime, lively",
+      "delta": {
+        "vowelFlow": 1.1,
+        "rhythm": 0.6,
+        "warmth": 0.75,
+        "projection": 0.25,
+        "breath": 0.25,
+        "accentColor": 1
+      }
+    }
+  },
+  "REPOSITORY_VOICES": {
+    "joeari": {
+      "folder": "royston_min",
+      "clip": "confirmation_understood.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "clear, grounded British Isles-style reference folder for Joeari’s Welsh deep-cavern solemn bard delivery"
+    },
+    "gheaririel": {
+      "folder": "claribel_dervla",
+      "clip": "confirmation_certainly.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "polished, graceful reference folder for refined French treetop wizard diction"
+    },
+    "thalenael": {
+      "folder": "alison_dietlinde",
+      "clip": "misceallaneous_hmm.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Germanic-name reference folder for precise, tense, deep-forest rogue speech"
+    },
+    "nimudri": {
+      "folder": "baldur_sanjin",
+      "clip": "confirmation_acknowledged.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "heavy, old-stone reference folder for Duergar artificer safety-briefing cadence"
+    },
+    "rosabin": {
+      "folder": "gracie_wise",
+      "clip": "greeting_hey.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "warm, friendly reference folder for Kender West Country woodland brightness"
+    },
+    "urg": {
+      "folder": "viktor_menelaos",
+      "clip": "misceallaneous_enemy_spotted.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "stern, martial reference folder for Russian prairie command delivery"
+    },
+    "valk": {
+      "folder": "torcull_diarmuid",
+      "clip": "misceallaneous_get_ready.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Celtic/Gaelic-coded reference folder for rugged Scottish mountain resonance"
+    },
+    "kethazzun": {
+      "folder": "badr_odhiambo",
+      "clip": "confirmation_lets_go.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "warm, open reference folder paired with wave-like browser language priorities for Hawaiian-influenced reef English"
+    },
+    "veyielven": {
+      "folder": "zacharie_aimilios",
+      "clip": "greeting_greetings.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "elegant reference folder for graceful French treetop Archfey warning/promise tone"
+    },
+    "nefumlith": {
+      "folder": "dionisio_schuyler",
+      "clip": "misceallaneous_incoming.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Creole/Cajun-compatible naming texture for swamp hunter drawl and haunted restraint"
+    },
+    "tyrylina": {
+      "folder": "ana_florence",
+      "clip": "misceallaneous_wow.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Florence/romance-coded reference folder for musical Italian valley bard expressiveness"
+    },
+    "stoneudor": {
+      "folder": "gilberto_mathias",
+      "clip": "confirmation_on_it.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Portuguese/Brazilian-coded reference folder for warm maritime Fire Genasi intensity"
+    },
+    "arcorven": {
+      "folder": "craig_gutsy",
+      "clip": "confirmation_understood.wav",
+      "repo": "coqui_voice_pack_v2.zip + JARVIS-ChatGPT-main.zip documented metallic layer",
+      "engine": "Coqui reference folder with JARVIS-style metallic processing profile",
+      "rationale": "clear British Isles reference folder plus Warforged/JARVIS-style metallic overlay for Welsh cavern cleric calm"
+    },
+    "canielina": {
+      "folder": "gitta_nikolina",
+      "clip": "misceallaneous_hmm.wav",
+      "repo": "coqui_voice_pack_v2.zip",
+      "engine": "Coqui voice-pack v2 static voice folder",
+      "rationale": "Germanic reference folder for agile Tabaxi deep-forest monk precision"
+    }
+  },
+  "EMOTIONS": {
+    "neutral": {
+      "label": "Neutral / Base",
+      "delta": {}
+    },
+    "commanding": {
+      "label": "Commanding",
+      "delta": {
+        "projection": 1.7,
+        "emphasis": 1.2,
+        "formality": 0.7,
+        "consonantBite": 0.7,
+        "pauseControl": -0.2,
+        "speed": 0.15
+      }
+    },
+    "fearful": {
+      "label": "Fearful",
+      "delta": {
+        "pitch": 1,
+        "speed": 0.55,
+        "stutter": 1.3,
+        "breath": 1.1,
+        "projection": -0.5,
+        "pauseControl": -0.35,
+        "clarity": -0.35
+      }
+    },
+    "caring": {
+      "label": "Caring",
+      "delta": {
+        "warmth": 1.5,
+        "breath": 0.55,
+        "speed": -0.35,
+        "emphasis": -0.25,
+        "pauseControl": 0.55,
+        "roughness": -0.25
+      }
+    },
+    "compassionate": {
+      "label": "Compassionate",
+      "delta": {
+        "warmth": 1.9,
+        "breath": 0.7,
+        "speed": -0.45,
+        "pauseControl": 0.85,
+        "projection": -0.2,
+        "clarity": 0.3,
+        "inflection": 0.35
+      }
+    },
+    "boisterous": {
+      "label": "Boisterous",
+      "delta": {
+        "projection": 1.7,
+        "rhythm": 1.2,
+        "emphasis": 1.2,
+        "speed": 0.35,
+        "warmth": 0.6,
+        "humanVariation": 0.4
+      }
+    },
+    "drunk": {
+      "label": "Drunk",
+      "delta": {
+        "speed": -1,
+        "clarity": -1.6,
+        "stutter": 1.5,
+        "pauseControl": 1,
+        "rhythm": 0.9,
+        "pitch": -0.2,
+        "humanVariation": 1.3
+      }
+    },
+    "angry": {
+      "label": "Angry",
+      "delta": {
+        "roughness": 1.3,
+        "projection": 1,
+        "emphasis": 1,
+        "warmth": -0.7,
+        "consonantBite": 0.8,
+        "speed": 0.2
+      }
+    },
+    "rage": {
+      "label": "Rage",
+      "delta": {
+        "roughness": 2,
+        "projection": 1.8,
+        "emphasis": 1.6,
+        "speed": 0.45,
+        "clarity": -0.5,
+        "consonantBite": 1
+      }
+    },
+    "tender": {
+      "label": "Tenderness",
+      "delta": {
+        "warmth": 1.4,
+        "breath": 1,
+        "speed": -0.65,
+        "projection": -0.7,
+        "pauseControl": 0.8,
+        "roughness": -0.45
+      }
+    },
+    "sarcastic": {
+      "label": "Sarcasm",
+      "delta": {
+        "inflection": 1.2,
+        "emphasis": 0.45,
+        "warmth": -0.25,
+        "speed": -0.05,
+        "clarity": 0.35,
+        "rhythm": 0.45
+      }
+    },
+    "suspicious": {
+      "label": "Suspicion",
+      "delta": {
+        "projection": -0.65,
+        "speed": -0.25,
+        "pauseControl": 0.45,
+        "consonantBite": 0.55,
+        "throatDepth": 0.35,
+        "warmth": -0.35
+      }
+    },
+    "gruff": {
+      "label": "Gruffness",
+      "delta": {
+        "roughness": 1.6,
+        "throatDepth": 1,
+        "resonance": 0.8,
+        "pitch": -0.45,
+        "warmth": -0.2,
+        "clarity": -0.25
+      }
+    },
+    "grief": {
+      "label": "Grief",
+      "delta": {
+        "speed": -0.85,
+        "pitch": -0.35,
+        "breath": 1.1,
+        "pauseControl": 1.3,
+        "projection": -0.5,
+        "warmth": 0.2
+      }
+    },
+    "panic": {
+      "label": "Panic",
+      "delta": {
+        "pitch": 1.2,
+        "speed": 1,
+        "stutter": 1.8,
+        "breath": 1.4,
+        "pauseControl": -0.8,
+        "clarity": -0.7
+      }
+    },
+    "courage": {
+      "label": "Courage",
+      "delta": {
+        "projection": 0.9,
+        "emphasis": 0.7,
+        "warmth": 0.7,
+        "clarity": 0.4,
+        "pauseControl": 0.25,
+        "resonance": 0.45
+      }
+    },
+    "awe": {
+      "label": "Awe",
+      "delta": {
+        "breath": 0.9,
+        "pauseControl": 0.9,
+        "inflection": 0.75,
+        "speed": -0.45,
+        "warmth": 0.6,
+        "projection": -0.1
+      }
+    },
+    "flirtation": {
+      "label": "Flirtation",
+      "delta": {
+        "warmth": 1,
+        "inflection": 1,
+        "speed": -0.25,
+        "breath": 0.55,
+        "vowelFlow": 0.45,
+        "rhythm": 0.35
+      }
+    },
+    "menace": {
+      "label": "Menace",
+      "delta": {
+        "pitch": -0.65,
+        "speed": -0.55,
+        "throatDepth": 1.1,
+        "roughness": 0.8,
+        "pauseControl": 0.85,
+        "warmth": -0.8,
+        "projection": 0.2
+      }
+    },
+    "wonder": {
+      "label": "Wonder",
+      "delta": {
+        "pitch": 0.6,
+        "inflection": 1,
+        "breath": 0.6,
+        "warmth": 0.8,
+        "speed": -0.2,
+        "pauseControl": 0.55
+      }
+    },
+    "exhausted": {
+      "label": "Exhaustion",
+      "delta": {
+        "speed": -1.1,
+        "breath": 1.2,
+        "projection": -1,
+        "clarity": -0.65,
+        "pauseControl": 1.2,
+        "pitch": -0.3
+      }
+    },
+    "ritual": {
+      "label": "Ritual / Sacred",
+      "delta": {
+        "formality": 1,
+        "pauseControl": 1,
+        "resonance": 0.6,
+        "speed": -0.5,
+        "clarity": 0.55,
+        "emphasis": 0.45
+      }
+    },
+    "boss": {
+      "label": "Boss Battle",
+      "delta": {
+        "projection": 1.5,
+        "roughness": 0.8,
+        "emphasis": 1.2,
+        "speed": 0.2,
+        "resonance": 0.8,
+        "clarity": 0.35
+      }
+    },
+    "weapon": {
+      "label": "Weapon Attack",
+      "delta": {
+        "speed": 0.65,
+        "projection": 1,
+        "emphasis": 1.1,
+        "consonantBite": 0.8,
+        "pauseControl": -0.5,
+        "roughness": 0.45
+      }
+    }
+  },
+  "NPCS": [
+    {
+      "key": "joeari",
+      "initials": "JR",
+      "name": "Joeari Ravenwood",
+      "pronounce": "jo-ARE-ee RAY-ven-wood",
+      "race": "Human",
+      "klass": "Bard",
+      "gender": "Gender-Flexible",
+      "alignment": "Neutral Good",
+      "biome": "Deep cavern",
+      "accent": "Welsh",
+      "modelKey": "stonehollow_echo",
+      "repoVoiceKey": "joeari",
+      "sample": "Every story has a weight. If danger comes, place it on my shoulders first.",
+      "bio": "Solemn, protective College of Spirits bard. Clear Welsh cavern voice, ritualistic cadence, blunt compassion, and grave-vow tenderness."
+    },
+    {
+      "key": "gheaririel",
+      "initials": "GL",
+      "name": "Ghearir’iel Luneglen",
+      "pronounce": "GHEH-ree-ree-EL LOO-neh-glen",
+      "race": "High Elf",
+      "klass": "Wizard",
+      "gender": "Demi-Female",
+      "alignment": "Lawful Good",
+      "biome": "Treetops / treehouses",
+      "accent": "French",
+      "modelKey": "highbranch_lilt",
+      "repoVoiceKey": "gheaririel",
+      "sample": "Precision is kindness when a careless spell could cost a life.",
+      "bio": "Exacting High Elf bladesinger. Airy French treetop voice, polished softness, crisp wizard precision, and a dry blade of humor."
+    },
+    {
+      "key": "thalenael",
+      "initials": "TS",
+      "name": "Thalenael Silverthorn",
+      "pronounce": "thal-eh-NAY-el SIL-ver-thorn",
+      "race": "Drow",
+      "klass": "Rogue",
+      "gender": "Non-Binary",
+      "alignment": "Lawful Neutral",
+      "biome": "Deep forest",
+      "accent": "German",
+      "modelKey": "rootmere_cant",
+      "repoVoiceKey": "thalenael",
+      "sample": "I did not touch the rune. I assessed the rune. The explosion was unrelated.",
+      "bio": "High-strung Drow Phantom Rogue. Quiet German forest voice, hushed speed, formal panic, device brilliance, and suspicious precision."
+    },
+    {
+      "key": "nimudri",
+      "initials": "NI",
+      "name": "Nimu’dri Ironvault",
+      "pronounce": "nih-MOO-dree EYE-ron-vault",
+      "race": "Duergar",
+      "klass": "Artificer",
+      "gender": "Gender-Less",
+      "alignment": "Lawful Neutral",
+      "biome": "Deep cavern",
+      "accent": "Welsh",
+      "modelKey": "stonehollow_echo",
+      "repoVoiceKey": "nimudri",
+      "sample": "Stand behind the marked line. I marked it for a reason.",
+      "bio": "Guarded Duergar Armorer. Heavy Welsh cavern voice, dense subterranean resonance, practical warnings, and protective containment logic."
+    },
+    {
+      "key": "rosabin",
+      "initials": "RM",
+      "name": "Ro’sabin Merryroot",
+      "pronounce": "roh-SAH-bin MERR-ee-root",
+      "race": "Kender",
+      "klass": "Ranger",
+      "gender": "Bi-Gender",
+      "alignment": "Chaotic Good",
+      "biome": "Hybrid tree and forest floor",
+      "accent": "English West Country",
+      "modelKey": "bramblewood_burr",
+      "repoVoiceKey": "rosabin",
+      "sample": "Hope is a tool, dear heart. Sharpen it, hide it, and carry it into the dark.",
+      "bio": "Bright Kender Fey Wanderer. Warm West Country woodland voice, playful courage, quick curiosity, and rebellion tucked among roots."
+    },
+    {
+      "key": "urg",
+      "initials": "UM",
+      "name": "Urg-U’rgugar Mudgrip",
+      "pronounce": "URG-oo-urg-GOO-gar MUD-grip",
+      "race": "Hobgoblin",
+      "klass": "Fighter",
+      "gender": "Cis-Male",
+      "alignment": "Lawful Neutral",
+      "biome": "Prairie",
+      "accent": "Russian",
+      "modelKey": "ironstep_cant",
+      "repoVoiceKey": "urg",
+      "sample": "Measure the exits before you speak of victory.",
+      "bio": "Disciplined Hobgoblin Battle Master. Russian prairie voice, clipped martial strategy, stern command weight, and controlled ambition."
+    },
+    {
+      "key": "valk",
+      "initials": "VT",
+      "name": "Valk-Minoorvar Thunderheft",
+      "pronounce": "vahlk mih-NOR-var THUN-der-heft",
+      "race": "Goliath",
+      "klass": "Barbarian",
+      "gender": "Trans-Male",
+      "alignment": "Neutral Good",
+      "biome": "Mountain range",
+      "accent": "Scottish",
+      "modelKey": "cragthane_burr",
+      "repoVoiceKey": "valk",
+      "sample": "I have buried enough mistakes. I will not bury another friend.",
+      "bio": "Brooding Goliath Storm Herald. Scottish mountain voice, thunder-deep bursts, hard-earned vulnerability, and grim protective loyalty."
+    },
+    {
+      "key": "kethazzun",
+      "initials": "KC",
+      "name": "Kethazzun Clawcoil",
+      "pronounce": "keh-THAZ-zun CLAW-koyl",
+      "race": "Dragonborn",
+      "klass": "Paladin",
+      "gender": "Poly-Gender",
+      "alignment": "Chaotic Good",
+      "biome": "Beach and reefs with water",
+      "accent": "Hawaiian-influenced English",
+      "modelKey": "wavebloom_welcome",
+      "repoVoiceKey": "kethazzun",
+      "sample": "Fear is not your master. Break its crown and walk free.",
+      "bio": "Untamed Dragonborn Conquest Paladin. Wave-like reef voice roughened by draconic command, ceremonial defiance, and fierce loyalty."
+    },
+    {
+      "key": "veyielven",
+      "initials": "VA",
+      "name": "Veyielven Asharchf",
+      "pronounce": "vay-EE-el-ven ash-ARF",
+      "race": "Hexblood",
+      "klass": "Warlock",
+      "gender": "Agender",
+      "alignment": "Neutral Good",
+      "biome": "Treetops / treehouses",
+      "accent": "French",
+      "modelKey": "highbranch_lilt",
+      "repoVoiceKey": "veyielven",
+      "sample": "A bargain is a doorway. Read the thorns before you step through.",
+      "bio": "Calm Hexblood Archfey Warlock. Graceful French treetop voice with thorn-soft otherworldliness, quiet leadership, and careful warnings."
+    },
+    {
+      "key": "nefumlith",
+      "initials": "ND",
+      "name": "Nefumlith Duskendirge",
+      "pronounce": "neh-FEWM-lith DUSK-en-dirj",
+      "race": "Dhampir",
+      "klass": "Blood Hunter",
+      "gender": "Trans-Female",
+      "alignment": "Chaotic Good",
+      "biome": "Marshes and swamps",
+      "accent": "Louisiana Cajun / Creole-influenced English",
+      "modelKey": "mirecurl_drawl",
+      "repoVoiceKey": "nefumlith",
+      "sample": "The dark knows my name. That does not mean it owns me.",
+      "bio": "Haunted Dhampir Ghostslayer. Breath-wet swamp voice, restrained intensity, fierce independence, and heroic refusal of inherited darkness."
+    },
+    {
+      "key": "tyrylina",
+      "initials": "TM",
+      "name": "Tyrylina Mirthwink",
+      "pronounce": "tie-rih-LEE-nah MIRTH-wink",
+      "race": "Satyr",
+      "klass": "Bard",
+      "gender": "Gender-Fluid",
+      "alignment": "Neutral Good",
+      "biome": "Valley",
+      "accent": "Italian",
+      "modelKey": "vinesong_flow",
+      "repoVoiceKey": "tyrylina",
+      "sample": "Give me one honest note, and I can change the whole room around it.",
+      "bio": "Magnetic Satyr Glamour Bard. Musical Italian valley voice, theatrical warmth, disciplined charm, and compassion wrapped in applause."
+    },
+    {
+      "key": "stoneudor",
+      "initials": "SS",
+      "name": "Sto’neudor Stormbreath",
+      "pronounce": "stoh-noo-DOR STORM-breath",
+      "race": "Fire Genasi",
+      "klass": "Sorcerer",
+      "gender": "Demi-Male",
+      "alignment": "Chaotic Good",
+      "biome": "Ocean surface floating settlement",
+      "accent": "Portuguese",
+      "modelKey": "tidecrest_cant",
+      "repoVoiceKey": "stoneudor",
+      "sample": "A cage with a pretty name is still a cage. Burn the lock.",
+      "bio": "Focused Fire Genasi Draconic Sorcerer. Warm Portuguese maritime voice, ember-hot restraint, rebel calm, and old fire under every breath."
+    },
+    {
+      "key": "arcorven",
+      "initials": "AB",
+      "name": "Arcorven Brasslock",
+      "pronounce": "AR-kor-ven BRASS-lock",
+      "race": "Warforged",
+      "klass": "Cleric",
+      "gender": "Neutrois",
+      "alignment": "Neutral Good",
+      "biome": "Deep cavern",
+      "accent": "Welsh",
+      "modelKey": "stonehollow_echo",
+      "repoVoiceKey": "arcorven",
+      "sample": "Repair is holy work. So is mercy, when it is still possible.",
+      "bio": "Gentle Warforged Forge Cleric. Metallic Welsh cavern voice, measured faith, anxious bravery, and a conscience built like steel."
+    },
+    {
+      "key": "canielina",
+      "initials": "CD",
+      "name": "Canielina Dennose",
+      "pronounce": "kah-nee-eh-LEE-nah den-NOSE",
+      "race": "Tabaxi",
+      "klass": "Monk",
+      "gender": "Cis-Female",
+      "alignment": "Neutral Good",
+      "biome": "Deep forest",
+      "accent": "German",
+      "modelKey": "rootmere_cant",
+      "repoVoiceKey": "canielina",
+      "sample": "Every ruin is still speaking. We should listen before we strike.",
+      "bio": "Curious Tabaxi Shadow Monk. Agile German forest voice, controlled warmth, quiet observation, and scholar-pilgrim compassion."
+    }
+  ],
+  "embeddedAudioIncluded": true,
+  "technicalSynthLabelsHiddenFromUi": true,
+  "mergedPreviousVersions": [
+    "universal_npc_voice_lab (1).zip",
+    "universal_npc_voice_lab_repo_assigned (1).zip",
+    "universal_npc_voice_lab_full_sliders_mp3_export.zip",
+    "Universal_Voice_Creator_Studio_NPC_Lab_Merged_Clean_Sliders.zip"
+  ],
+  "repositoryVoiceClipKeys": [
+    "joeari",
+    "gheaririel",
+    "thalenael",
+    "nimudri",
+    "rosabin",
+    "urg",
+    "valk",
+    "kethazzun",
+    "veyielven",
+    "nefumlith",
+    "tyrylina",
+    "stoneudor",
+    "arcorven",
+    "canielina"
+  ],
+  "wideRangeSliderRevision": {
+    "rangeVersion": "wide-impact-v3",
+    "addedSliders": [
+      "deepRegister",
+      "musicalLilt",
+      "airTexture",
+      "harshEdge",
+      "vocalWeight"
+    ],
+    "summary": "Expanded local WAV/export engine mapping for deeper, gruffer, more musical, airy, lilted, harsher voices."
+  }
+}

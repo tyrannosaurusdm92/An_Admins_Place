@@ -1,0 +1,25 @@
+{
+  "schema": "ai-brain-source-note/1.0",
+  "domain": "voice-audio",
+  "capabilities": [
+    "api",
+    "class",
+    "manifest",
+    "map",
+    "merge",
+    "npc",
+    "quest",
+    "rules",
+    "selection",
+    "shape",
+    "speech",
+    "voice"
+  ],
+  "provenance": {
+    "sourceGroup": "voice-persona-creator",
+    "sourceType": "provided-project-material",
+    "archiveHash": "dbee8a4098e0be3b"
+  },
+  "title": "full_sliders_mp3_readme.md",
+  "content": "# Universal NPC Voice Model Lab\n\nThis package contains a single self-contained browser program:\n\n- `Universal_NPC_Voice_Lab.html`\n\nOpen that file in a modern browser. The app lets you select one of the 14 NPCs, type any line, choose an emotion regulator setting, adjust the merged slider schema, and speak the line using the NPC's locked biome voice-model.\n\n## How it works\n\nThe app is intentionally static and portable. It uses:\n\n1. a locked NPC → biome → fantasy voice-model mapping;\n2. one assigned repository voice folder per NPC from the attached Coqui voice pack;\n3. embedded repository voice-stamp clips for quick voice identity checks;\n4. browser `speechSynthesis` for offline typed speech;\n5. internal sliders for pitch, timing, stutter, softness, roughness, resonance, formality, vowel flow, consonants, mouth shape, nasality, throat depth, rhythm, pauses, emphasis, warmth, clarity, projection, human variation, and accent strength;\n6. influence sliders for race, gender identity, personality/class, biome/accent, uploaded/recorded voice influence, and emotion strength;\n7. a locked Apps Script backend hook when available, with automatic browser fallback;\n8. an edited MP3 export request that includes every slider/emotion/repository-voice change and names files as `firstname_lastname-emotion.mp3`.\n\n## Important limitation\n\nA static browser HTML file cannot run full neural TTS checkpoints or encode arbitrary browser TTS into real MP3 without a separate engine. This version does embed one short reference voice stamp per NPC from the attached Coqui voice pack, but arbitrary typed speech still needs either the locked backend hook or browser speech synthesis. This app therefore implements the requested model selection, accent/emotion rules, slider schema, and backend hook in one single HTML file. Browser voices vary by operating system. If a specific language or accent voice is unavailable on a device, the app selects the closest local voice and keeps timing/prosody/accent-shaping rules active. The **Export Edited MP3** button requests true MP3 from the locked backend and refuses to mislabel non-MP3 audio as `.mp3`.\n\n## Backend note\n\nThe backend endpoint is not displayed in the UI. Because this is a client-side single HTML file, any endpoint embedded in JavaScript can still be inspected by someone who opens the source. Real secrecy requires a server-side proxy.\n\n## Files\n\n- `../Universal_NPC_Voice_Lab.html` — the single program file.\n- `MANIFEST.md` — package contents.\n- `VOICE_MODEL_SELECTION.md` — one selected biome model per NPC.\n- `REPOSITORY_VOICE_ASSIGNMENTS.md` — one assigned repository voice folder per NPC.\n- `RUNTIME_REPOSITORY_BRIDGE.md` — backend/browser synthesis bridge notes.\n- `MP3_EXPORT_AND_SAFETY.md` — edited MP3 export, filename rules, and explicit safety gate.\n- `UNUSED_CODE_AUDIT.md` — audit of uploaded repositories and why they were not copied into the static program.\n- `LICENSES_AUDIT.md` — license findings for uploaded source references.\n"
+}
