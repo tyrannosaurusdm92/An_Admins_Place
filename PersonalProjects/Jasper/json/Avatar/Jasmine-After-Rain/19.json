@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Room Above the Tea Shop",
+  "subtitle": "Jasmine After Rain · Chapter 19 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 19,
+  "word_count": 1503,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-19-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-20",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-19-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-20",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-19-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-20",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The room above the tea shop became mine one object at a time.\n\nI brought a small chest from the boarding house. Iroh carried it upstairs and refused to open it without permission.\n\n“It contains clothes,” I said.\n\n“Clothes are private.”\n\n“You have seen me wearing them.”\n\n“That is not the same as opening a chest.”\n\n“You are very principled for a man who hides pastries in his sleeves.”\n\n“The pastries are not private.”\n\nI unpacked while he stood by the window. The room had changed since I first saw it. A second chair sat beside the desk. A low shelf held my books. The jasmine plant had grown around the balcony rail.\n\n“Did you do this?” I asked.\n\n“The shelf was necessary.”\n\n“You built it.”\n\n“I assembled it.”\n\n“It is leaning.”\n\n“It has character.”\n\nI placed the last book on it. The shelf leaned more.\n\n“It has danger,” I said.\n\n“Danger and character are close companions.”\n\n“You are going to fix it.”\n\n“I am going to supervise you fixing it.”\n\nI handed him the hammer.\n\n“Very well,” he said.\n\nTogether, I repaired the shelf. He held the wood. I tightened the screws. When the shelf finally stood straight, Iroh looked pleased.\n\n“A miracle,” he said.\n\n“A screw.”\n\n“Miracles are often misunderstood.”\n\nI had heard the line before. This time, I kissed him before he could continue.\n\nThe decision to stay above the shop had not come from one conversation. It grew through many smaller ones. I discussed wages, privacy, days off, what would happen if I wanted a different job, and whether employees were allowed to date their employers.\n\n“The answer is complicated,” Iroh said.\n\n“The answer is boundaries.”\n\n“Yes.”\n\n“If we argue, we do not do it in front of customers.”\n\n“Agreed.”\n\n“If either of us needs space, we say so.”\n\n“Agreed.”\n\n“If I leave, you will not use the room or the job to make me stay.”\n\nIroh looked at me. “Agreed.”\n\n“If you leave, I will not use love to make you return.”\n\n“Agreed.”\n\nThe agreements were not unromantic. They gave the romance somewhere to stand.\n\nOn the first night after my things were unpacked, I and Iroh sat on the balcony. The city below glowed with lanterns. I shared a pot of tea and a plate of sesame pastries.\n\n“They are still shouting,” I said.\n\n“They have grown on you.”\n\n“Do not mistake tolerance for affection.”\n\n“I would never.”\n\nIroh leaned against the railing. His shoulder rested against mine.\n\n“What do you want this room to become?” he asked.\n\nI looked inside. The bed was neatly made. My clothes occupied one side of the chest. His books sat on a different shelf. The small white lotus tile from the first pai sho game rested beside the window.\n\n“A place where I can close the door without disappearing,” I said.\n\nIroh's expression softened.\n\n“A place where I can be with you without becoming part of you,” I continued. “And where you can come in without becoming responsible for everything I feel.”\n\n“That is a wise design.”\n\n“You’re not allowed to call it wise.”\n\n“Then I will call it ours.”\n\nThe word filled the balcony.\n\n“Ours,” I repeated.\n\nIroh took my hand. “If you want.”\n\n“I do.”\n\nHe kissed my knuckles. “Then ours.”\n\nI kissed him beneath the lantern light. His hand moved to my waist. The kiss grew deeper, but the evening remained gentle. There was no need to prove anything. I had already chosen.\n\nWhen I pulled back, Iroh touched my cheek.\n\n“May I stay?” he asked.\n\n“You live downstairs.”\n\n“That is not an answer.”\n\nI smiled. “Yes.”\n\nHe stayed.\n\nThe room above the shop held the sounds of the city, the kettle, and the two of I learning how to share a life without losing its separate edges.\n\nIn the morning, I woke before dawn and found his hand resting over my heart.\n\nThe position was not ownership.\n\nIt was listening.\n\nThe next week, I began looking for a location near the outer wall for the second tea room. Iroh carried a notebook. I carried a measuring cord and a list of practical questions.\n\n“How many tables?” I asked.\n\n“Enough for conversation.”\n\n“That is not a number.”\n\n“Eight.”\n\n“Good.”\n\n“And a small stage.”\n\n“For what?”\n\n“Music. Stories. Perhaps pai sho tournaments.”\n\n“You want a tea shop or a community hall?”\n\n“A place where people can enter without needing to know what they are seeking.”\n\nI looked at him. “That sounds familiar.”\n\n“It is intentional.”\n\nThe building had once been a tailor shop. Its walls were cracked. The front windows were wide. A courtyard behind it held a tree that had survived neglect.\n\nI walked through the empty rooms while Iroh imagined shelves.\n\n“The kitchen goes here,” he said.\n\n“The counter there.”\n\n“A private room for you to rest.”\n\n“A storage room first.”\n\n“A private room for you to rest,” he repeated.\n\nI smiled. “You are still learning to prioritize.”\n\n“I am learning from your authority.”\n\nI measured the courtyard. “The tree needs pruning.”\n\n“It needs patience.”\n\n“It needs both.”\n\nHe stood behind I, looking at the branches.\n\n“What if we fail?” I asked.\n\n“Then we will have learned what the building wanted to become.”\n\n“Buildings do not want things.”\n\n“You have met very few buildings.”\n\nI leaned against him. “What if we succeed?”\n\n“Then we will need more tea.”\n\n“Your solutions are very consistent.”\n\n“Consistency is underrated.”\n\nRen helped repair the front door. The woman with the bright scarves chose fabric for the cushions. The old pai sho players argued about the placement of the game tables.\n\nThe tea room became a project shared by people who had not expected to share anything.\n\nOne evening, I found Iroh sitting alone in the courtyard with a letter from Zuko.\n\n“Bad news?” I asked.\n\n“No.”\n\n“You look worried.”\n\n“He wants to visit.”\n\n“That is good.”\n\n“It is.”\n\n“Why are you afraid?”\n\nIroh folded the letter. “Because he is my nephew. Because I love him. Because he may see what I have built and decide I have moved on without him.”\n\n“You have not.”\n\n“No. But love does not prevent misunderstanding.”\n\n“Then tell him.”\n\n“He may not believe me.”\n\n“Tell him again.”\n\nIroh looked at the unfinished courtyard. “You make it sound simple.”\n\n“It is not simple. It is just necessary.”\n\nHe reached for my hand.\n\n“You will be here when he comes?”\n\n“If you want me.”\n\n“I do.”\n\n“Then I will.”\n\nThe tea room opened six months later. It was smaller than the Jasmine Dragon, but bright. The tree in the courtyard had been pruned and given new supports. The front windows carried the same dragon-and-cup sign, painted in different colors.\n\nOn opening day, Iroh gave me a key.\n\n“Another one?” I asked.\n\n“This one opens the courtyard gate.”\n\n“I already have keys to the shop, the room, and the back door.”\n\n“You are collecting them.”\n\n“You keep giving them to me.”\n\n“A sign of your excellent character.”\n\nI kissed him before the customers arrived.\n\nThe door opened.\n\nThe room filled with voices.\n\nI and Iroh stood behind the new counter, hand in hand beneath the table.\n\nThe future had a roof now.\n\nOn the first morning after opening, Zuko arrived before the doors. He stood outside with his hands in his coat pockets, staring at the painted sign.\n\nIroh opened the door.\n\n“You are early,” he said.\n\n“I could say the same.”\n\n“I own the shop.”\n\n“You have always been irritatingly prepared.”\n\nZuko looked at me. “You must be the one who keeps him from working himself into the ground.”\n\n“I am trying.”\n\n“Good.”\n\nIroh looked between I. “I am standing here.”\n\n“We know,” Zuko said.\n\nI served them tea in the courtyard. Zuko tasted it and frowned.\n\n“It is good,” he said.\n\n“You sound disappointed,” Iroh replied.\n\n“I expected it to be worse.”\n\n“A high compliment.”\n\nThe three of I talked until the sun reached the top of the tree. Zuko asked about the road. Iroh answered. I filled in the parts he left out: the storm, the flowers, the child with the turtleduck question.\n\nZuko listened with a softness he did not show often.\n\nWhen he left, Iroh stood beneath the sign.\n\n“You were worried,” I said.\n\n“Yes.”\n\n“It went well.”\n\n“It did.”\n\n“You are allowed to enjoy that.”\n\nHe looked toward the courtyard. “I am learning.”\n\nI took his hand. “Then keep learning.”\n\nThe second tea room filled with sunlight and voices.\n\nIroh stood beside I at the counter, watching the new place become alive. His thumb brushed my knuckles beneath the table.\n\n“Still with me?” he asked.\n\n“Still with you.”\n\n“Good.”\n\nHe lifted my hand and kissed it beneath the new counter.\n\nThe gesture was small, but the future felt large around it.\n\nTogether, I opened the front door.\n\nThe courtyard waited for its first morning.\n\nThe tree held the lanterns above it.\n\nI stood beneath them with Iroh's hand in mine, watching the new room become a place.\n\nIt was a good place.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-19",
+  "choice_count": 3
+}

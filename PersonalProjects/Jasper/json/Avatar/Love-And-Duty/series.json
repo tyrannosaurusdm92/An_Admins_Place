@@ -1,0 +1,386 @@
+{
+  "schema_version": "5.0",
+  "fandom": "Avatar: The Last Airbender",
+  "series_title": "Love & Duty",
+  "series_slug": "love-and-duty",
+  "series_folder": "Love-And-Duty",
+  "series_path": "Avatar/Love-And-Duty",
+  "pairing": "Aang / Katara / Toph Beifong / Adult Reader (consensual polycule)",
+  "reader_character": "Adult unnamed first-person self-insert reader (I / me / my / myself); nonbender; appearance and gender intentionally unspecified",
+  "rating": "Mature romance / fade to black",
+  "description": "In a postwar Cranefish Town becoming something new, an adult nonbender reader finds themself drawn into Aang, Katara, and Toph’s complicated orbit. Love grows through reconstruction work, public scrutiny, cultural preservation, arguments, chosen boundaries, and the daily work of building a home where nobody has to disappear to belong.",
+  "chapter_count": 40,
+  "chapters": [
+    {
+      "number": 1,
+      "file": "01.json",
+      "title": "The Ground Under My Feet",
+      "word_count": 1501,
+      "id": "Love-And-Duty-01",
+      "choice_count": 3
+    },
+    {
+      "number": 2,
+      "file": "02.json",
+      "title": "A Seat at the Table",
+      "word_count": 1535,
+      "id": "Love-And-Duty-02",
+      "choice_count": 3
+    },
+    {
+      "number": 3,
+      "file": "03.json",
+      "title": "Sugar Queen and the Blind Bandit",
+      "word_count": 1504,
+      "id": "Love-And-Duty-03",
+      "choice_count": 3
+    },
+    {
+      "number": 4,
+      "file": "04.json",
+      "title": "Air Between Us",
+      "word_count": 1504,
+      "id": "Love-And-Duty-04",
+      "choice_count": 3
+    },
+    {
+      "number": 5,
+      "file": "05.json",
+      "title": "No One Carries Everyone",
+      "word_count": 1505,
+      "id": "Love-And-Duty-05",
+      "choice_count": 3
+    },
+    {
+      "number": 6,
+      "file": "06.json",
+      "title": "What the Ground Knows",
+      "word_count": 1510,
+      "id": "Love-And-Duty-06",
+      "choice_count": 3
+    },
+    {
+      "number": 7,
+      "file": "07.json",
+      "title": "Four Bowls, One Table",
+      "word_count": 1546,
+      "id": "Love-And-Duty-07",
+      "choice_count": 3
+    },
+    {
+      "number": 8,
+      "file": "08.json",
+      "title": "The Kiss That Lifted Me",
+      "word_count": 1531,
+      "id": "Love-And-Duty-08",
+      "choice_count": 3
+    },
+    {
+      "number": 9,
+      "file": "09.json",
+      "title": "Water Remembers",
+      "word_count": 1510,
+      "id": "Love-And-Duty-09",
+      "choice_count": 3
+    },
+    {
+      "number": 10,
+      "file": "10.json",
+      "title": "Toph Does Not Do Poetry",
+      "word_count": 1511,
+      "id": "Love-And-Duty-10",
+      "choice_count": 3
+    },
+    {
+      "number": 11,
+      "file": "11.json",
+      "title": "Terms We Choose",
+      "word_count": 1506,
+      "id": "Love-And-Duty-11",
+      "choice_count": 3
+    },
+    {
+      "number": 12,
+      "file": "12.json",
+      "title": "Public Faces",
+      "word_count": 1506,
+      "id": "Love-And-Duty-12",
+      "choice_count": 3
+    },
+    {
+      "number": 13,
+      "file": "13.json",
+      "title": "Fault Lines",
+      "word_count": 1503,
+      "id": "Love-And-Duty-13",
+      "choice_count": 3
+    },
+    {
+      "number": 14,
+      "file": "14.json",
+      "title": "The Price of Being the Avatar",
+      "word_count": 1502,
+      "id": "Love-And-Duty-14",
+      "choice_count": 3
+    },
+    {
+      "number": 15,
+      "file": "15.json",
+      "title": "No Pity",
+      "word_count": 1501,
+      "id": "Love-And-Duty-15",
+      "choice_count": 3
+    },
+    {
+      "number": 16,
+      "file": "16.json",
+      "title": "Home Is a Verb",
+      "word_count": 1521,
+      "id": "Love-And-Duty-16",
+      "choice_count": 3
+    },
+    {
+      "number": 17,
+      "file": "17.json",
+      "title": "The Festival That Wasn’t There",
+      "word_count": 1519,
+      "id": "Love-And-Duty-17",
+      "choice_count": 3
+    },
+    {
+      "number": 18,
+      "file": "18.json",
+      "title": "Roots and Wings",
+      "word_count": 1512,
+      "id": "Love-And-Duty-18",
+      "choice_count": 3
+    },
+    {
+      "number": 19,
+      "file": "19.json",
+      "title": "The Wrong Kind of Silence",
+      "word_count": 1506,
+      "id": "Love-And-Duty-19",
+      "choice_count": 3
+    },
+    {
+      "number": 20,
+      "file": "20.json",
+      "title": "What Katara Does With Anger",
+      "word_count": 1511,
+      "id": "Love-And-Duty-20",
+      "choice_count": 3
+    },
+    {
+      "number": 21,
+      "file": "21.json",
+      "title": "Metal Keeps Its Shape",
+      "word_count": 1585,
+      "id": "Love-And-Duty-21",
+      "choice_count": 3
+    },
+    {
+      "number": 22,
+      "file": "22.json",
+      "title": "People Who Stay",
+      "word_count": 1698,
+      "id": "Love-And-Duty-22",
+      "choice_count": 3
+    },
+    {
+      "number": 23,
+      "file": "23.json",
+      "title": "The Space Between Touches",
+      "word_count": 1515,
+      "id": "Love-And-Duty-23",
+      "choice_count": 3
+    },
+    {
+      "number": 24,
+      "file": "24.json",
+      "title": "Aang’s Terrible, Wonderful Idea",
+      "word_count": 1590,
+      "id": "Love-And-Duty-24",
+      "choice_count": 3
+    },
+    {
+      "number": 25,
+      "file": "25.json",
+      "title": "South",
+      "word_count": 1501,
+      "id": "Love-And-Duty-25",
+      "choice_count": 3
+    },
+    {
+      "number": 26,
+      "file": "26.json",
+      "title": "A Family With More Than One Shape",
+      "word_count": 1578,
+      "id": "Love-And-Duty-26",
+      "choice_count": 3
+    },
+    {
+      "number": 27,
+      "file": "27.json",
+      "title": "Ice Does Not Mean Cold",
+      "word_count": 1502,
+      "id": "Love-And-Duty-27",
+      "choice_count": 3
+    },
+    {
+      "number": 28,
+      "file": "28.json",
+      "title": "The Things Toph Will Not Say",
+      "word_count": 1501,
+      "id": "Love-And-Duty-28",
+      "choice_count": 3
+    },
+    {
+      "number": 29,
+      "file": "29.json",
+      "title": "The Air Between Generations",
+      "word_count": 1502,
+      "id": "Love-And-Duty-29",
+      "choice_count": 3
+    },
+    {
+      "number": 30,
+      "file": "30.json",
+      "title": "Four Directions, One Storm",
+      "word_count": 1546,
+      "id": "Love-And-Duty-30",
+      "choice_count": 3
+    },
+    {
+      "number": 31,
+      "file": "31.json",
+      "title": "What I Cannot Bend",
+      "word_count": 1505,
+      "id": "Love-And-Duty-31",
+      "choice_count": 3
+    },
+    {
+      "number": 32,
+      "file": "32.json",
+      "title": "The Vote",
+      "word_count": 1502,
+      "id": "Love-And-Duty-32",
+      "choice_count": 3
+    },
+    {
+      "number": 33,
+      "file": "33.json",
+      "title": "The Night We Almost Broke",
+      "word_count": 1501,
+      "id": "Love-And-Duty-33",
+      "choice_count": 3
+    },
+    {
+      "number": 34,
+      "file": "34.json",
+      "title": "Repair Work",
+      "word_count": 1515,
+      "id": "Love-And-Duty-34",
+      "choice_count": 3
+    },
+    {
+      "number": 35,
+      "file": "35.json",
+      "title": "The Question No One Owes",
+      "word_count": 1506,
+      "id": "Love-And-Duty-35",
+      "choice_count": 3
+    },
+    {
+      "number": 36,
+      "file": "36.json",
+      "title": "A Future We Choose",
+      "word_count": 1506,
+      "id": "Love-And-Duty-36",
+      "choice_count": 3
+    },
+    {
+      "number": 37,
+      "file": "37.json",
+      "title": "The Charter",
+      "word_count": 1508,
+      "id": "Love-And-Duty-37",
+      "choice_count": 3
+    },
+    {
+      "number": 38,
+      "file": "38.json",
+      "title": "A House Built for Four",
+      "word_count": 1503,
+      "id": "Love-And-Duty-38",
+      "choice_count": 3
+    },
+    {
+      "number": 39,
+      "file": "39.json",
+      "title": "Love and Duty",
+      "word_count": 1504,
+      "id": "Love-And-Duty-39",
+      "choice_count": 3
+    },
+    {
+      "number": 40,
+      "file": "40.json",
+      "title": "Four Bowls, Still",
+      "word_count": 1588,
+      "id": "Love-And-Duty-40",
+      "choice_count": 3
+    }
+  ],
+  "total_word_count": 60900,
+  "work_type": "fanfic_series",
+  "key": "love-and-duty",
+  "title": "Love & Duty",
+  "folder": "Avatar",
+  "fandom_folder": "Avatar",
+  "story_folder": "Love-And-Duty",
+  "story_type": "cyoa_fanfiction",
+  "chapter_files": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json"
+  ],
+  "choice_count": 3
+}

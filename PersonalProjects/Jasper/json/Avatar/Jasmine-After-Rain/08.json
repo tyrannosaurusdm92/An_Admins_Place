@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Walk Along the Wall",
+  "subtitle": "Jasmine After Rain · Chapter 8 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 8,
+  "word_count": 1507,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-08-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-09",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-08-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-09",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-08-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-09",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "Iroh took me walking along the wall because he believed cities should be seen from the places built to protect them.\n\n“That is a poetic way to say we are climbing stairs,” I said.\n\n“I am a poetic man.”\n\n“You are a man who carries snacks in his sleeves.”\n\n“A poetic man with priorities.”\n\nThe wall rose above the city, broad enough for two carts to pass. Wind moved along the stone. Below, Ba Sing Se unfolded in layers: markets, gardens, tiled roofs, narrow alleys, and the distant palace shining beneath the morning sun.\n\nIroh walked beside I with a small basket over one arm. He had packed tea, fruit, and a blanket. I suspected he could turn any errand into a picnic if given enough time.\n\n“Do you ever get tired of looking at the city?” I asked.\n\n“No. It changes even when it appears still.”\n\n“You say that about people too.”\n\n“People change more dramatically. They simply hide it better.”\n\nI stopped near a watchtower. Below, a group of children chased one another through a courtyard. Their laughter rose on the wind.\n\n“When I first arrived, I thought this city would swallow me,” I said.\n\n“It has a large appetite.”\n\n“I didn’t know where anything was. I didn’t know who to trust. I kept expecting someone to ask what I was doing here.”\n\n“Did they?”\n\n“You did.”\n\nIroh considered. “I asked what you were seeking.”\n\n“That was worse.”\n\n“Questions can be doors.”\n\n“They can also be traps.”\n\nHe nodded. “That is why the person asking must be willing to accept the answer.”\n\nI leaned against the stone railing. The wind pulled at my clothes.\n\n“What answer were you hoping for?” he asked.\n\n“I didn’t know.”\n\n“And now?”\n\nI looked at the Jasmine Dragon's green sign far below. It was tiny from the wall, but visible.\n\n“A place where I don’t have to explain why I need to rest.”\n\nIroh's expression softened.\n\n“A place where I can be useful without being used,” I continued. “A place where people can want me without needing to own me.”\n\n“These are good things to seek.”\n\n“Are they?”\n\n“They are necessary things.”\n\nHe unwrapped the blanket beneath the tower. I sat together with the basket between I. Iroh poured tea into two cups. The blend was light and green, with a faint citrus scent.\n\n“What is this?”\n\n“A tea for clear weather.”\n\n“The sky is clear.”\n\n“The sky is not the only weather.”\n\nI took a sip. The flavor was bright enough to make me sit straighter.\n\nIroh passed I a slice of pear.\n\n“You feed me whenever I become emotional,” I said.\n\n“Food helps the body remember it is alive.”\n\n“And tea?”\n\n“Tea helps the heart slow down enough to notice.”\n\nI looked at him. “Did you learn that before or after the war?”\n\n“During.”\n\nThe answer carried no ornament.\n\nIroh looked over the wall. “In the army, every day was loud. Orders, metal, horses, fire. I learned to make tea in a small pot because the act of pouring water gave my hands something gentle to do.”\n\n“Did it help?”\n\n“Not at first.”\n\n“What changed?”\n\n“I stopped asking it to erase anything.”\n\nI turned the cup in my hands.\n\n“I want to stop asking you to erase things,” I said.\n\nIroh looked at me. “You have not asked.”\n\n“Not with words.”\n\n“Then let us be precise. I am not a cure for your past. You are not a cure for mine.”\n\n“That sounds very romantic.”\n\n“I am a man of many talents.”\n\n“You’re an emotional physician.”\n\n“I prefer tea master.”\n\nI laughed. He touched the back of my hand with two fingers.\n\n“You may want me,” he said. “You may love me. You may sit beside me while I remember painful things. But neither of us should make the other responsible for becoming whole.”\n\nThe wind moved around the tower.\n\n“What if I want you anyway?”\n\n“Then want me.”\n\n“That easy?”\n\n“No.”\n\n“You have a talent for making difficult things sound simple.”\n\n“I have a talent for saying difficult things while holding fruit.”\n\nHe offered me another slice of pear.\n\nI took it, then turned my hand beneath his. My fingers linked.\n\n“I want you,” I said.\n\nIroh's breath caught.\n\n“I know,” he replied.\n\n“You’re supposed to say it back.”\n\n“I want you too.”\n\nThe words were quiet but unmistakable.\n\nI leaned toward him. The kiss took place with the city spread below I, with wind in my hair and tea cooling beside my knee.\n\nIroh kissed slowly, as though he had all the time in the world. His hand rested at the side of my neck. When I moved closer, his thumb brushed beneath my ear.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“Do you wish to continue?”\n\n“Yes.”\n\n“Then we should return to the shop before I forget the tea kettle.”\n\nI pulled back. “You are blaming the kettle?”\n\n“It has poor timing.”\n\n“You’re the one who brought me to the wall.”\n\n“The wall is very persuasive.”\n\nI kissed him once more, then packed the blanket.\n\nOn the walk down, his hand stayed in mine. The city below seemed less like a maze. I still did not know every road. I still did not know what the future would ask.\n\nBut I knew where the Jasmine Dragon was.\n\nAnd I knew who would be listening for my footsteps.\n\nThe walk along the wall became something I repeated even after returning to the shop. On busy days, I and Iroh climbed before opening. On quiet days, I climbed after closing and carried tea in a flask.\n\nThe city looked different from above depending on the weather. In bright sun, the roofs formed a sea of green and gold. In rain, the streets became ribbons of silver. At night, the lanterns made the city seem less like a fortress and more like a constellation someone had built by hand.\n\nOne morning, Iroh took me to a section of the wall where several stones had been replaced. The new blocks were pale against the old ones.\n\n“This is where the siege damaged it,” he said.\n\n“Were you here?”\n\n“Yes.”\n\nHe rested his hand on one of the old stones.\n\n“I stood on the other side,” he continued. “I believed the wall was an obstacle between my army and victory.”\n\n“And now?”\n\n“Now I see a structure built by people who wanted to protect a home.”\n\nI touched the new stone. “Can a wall be both protection and prison?”\n\n“Most things can be both. It depends on whether there is a door.”\n\n“And who has the key.”\n\nIroh glanced at I. “Exactly.”\n\nI took the key to the tea shop from beneath my shirt. It rested warm against my skin.\n\n“You gave me one,” I said.\n\n“I did.”\n\n“That does not make the shop mine.”\n\n“No.”\n\n“But it means I can enter.”\n\n“Yes.”\n\n“And leave.”\n\n“Always.”\n\nThe certainty eased I.\n\n“You are not afraid I will use the key to disappear?” I asked.\n\n“I would be sad if you did.”\n\n“That is not the same as afraid.”\n\n“I am afraid of many things. I do not want fear to choose our locks.”\n\nI leaned my back against the wall. Iroh stood beside I.\n\n“You are very different here,” he said.\n\n“Here?”\n\n“Above the city. You watch every road.”\n\n“You watch roads too.”\n\n“I have had more years to disguise it.”\n\nI looked over the edge. “I am afraid of being trapped.”\n\n“By the city?”\n\n“By any place that begins to feel like home.”\n\nIroh waited.\n\n“If I care about it, someone can use it against me,” I said. “If I need it, leaving becomes a loss instead of a choice.”\n\nHe nodded slowly. “Then home must include the ability to leave.”\n\n“That sounds contradictory.”\n\n“It is a difficult balance. A bird may rest on a branch because it knows it can fly.”\n\n“You’re comparing me to a bird.”\n\n“A very determined bird.”\n\n“And you?”\n\n“I am more of a turtleduck.”\n\nI laughed. He looked pleased.\n\nAt the base of the wall, he bought two cups of tea from a street vendor. The vendor recognized him but did not say the title.\n\n“You are becoming anonymous,” I said.\n\n“It is peaceful.”\n\n“Do you miss being known?”\n\n“Sometimes. But being known and being watched are different things.”\n\nI drank the tea. “I know that.”\n\nHe took my cup when I finished and carried both.\n\n“I can carry my own,” I said.\n\n“I know.”\n\n“You are going to say that again.”\n\n“I am.”\n\n“Then I am going to say I want you to carry them.”\n\nIroh looked at me. “Very well.”\n\nHe walked with both cups in one hand and took my other hand in his.\n\nThe city gate opened ahead.\n\nI had a key, a road, and the right to leave.\n\nI entered the tea shop anyway.\n\nIroh held the door for I.\n\n“You are becoming predictable,” he said.\n\n“Only in the best ways.”\n\nHe smiled as if I had given the correct answer.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-08",
+  "choice_count": 3
+}

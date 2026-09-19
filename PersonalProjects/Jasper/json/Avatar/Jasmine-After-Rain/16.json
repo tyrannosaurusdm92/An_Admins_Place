@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "What We Choose",
+  "subtitle": "Jasmine After Rain · Chapter 16 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 16,
+  "word_count": 1503,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-16-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-17",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-16-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-17",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-16-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-17",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "What I chose mattered more than what the road expected.\n\nThe final governor refused to meet in a tea house. He demanded that Iroh come to the old military compound outside the city, where the gates still bore the emblem of the previous regime.\n\n“He wants you to remember who you were,” I said.\n\n“Perhaps.”\n\n“Do you?”\n\nIroh looked at the compound. “Every day.”\n\nThe governor greeted him with armed guards and a table covered in maps. He did not offer tea.\n\n“The Fire Nation will not withdraw from this region,” the governor said.\n\n“The Fire Nation is withdrawing,” Iroh replied.\n\n“You speak as though you command it.”\n\n“I speak as someone who has learned the cost of believing command is the same as wisdom.”\n\nThe governor laughed. “You grew soft.”\n\nIroh's face did not change.\n\nI stood near the door with the tea chest. My hands wanted to move. My body wanted to step between them. Iroh had asked me to remain, not to intervene.\n\nThe meeting lasted hours. The governor accused Iroh of abandoning his nation. Iroh admitted that he had served a system that caused harm. The governor called that weakness. Iroh called it responsibility.\n\nAt last, the governor pushed the maps away.\n\n“You expect me to trust the people who defeated us?” he asked.\n\n“No,” Iroh said. “I expect you to stop making fear into a government.”\n\nThe governor's guards reached for their weapons.\n\nIroh moved before I could think. Fire bloomed in his palm, controlled and bright. He did not strike. He only placed the flame between the governor and the maps.\n\n“If you wish to fight,” he said, “you will fight me. But you will not use these people as shields.”\n\nThe room went silent.\n\nThe governor lowered his hand.\n\nThe agreement was signed before sunset.\n\nOutside the compound, I found Iroh sitting on a stone step. His hands were clasped between his knees.\n\n“You were magnificent,” I said.\n\n“I was angry.”\n\n“Both can be true.”\n\nHe looked toward the horizon. “Fire is easy to mistake for power. Sometimes it is only emotion with a direction.”\n\n“You controlled it.”\n\n“I chose not to burn the room.”\n\n“That seems important.”\n\n“It is a low standard.”\n\n“It is still a choice.”\n\nI sat beside him.\n\n“The journey is ending,” I said.\n\n“Yes.”\n\n“You will return to Ba Sing Se.”\n\n“Yes.”\n\n“And I will return with you.”\n\nIroh turned his head.\n\n“If you want me,” I said.\n\n“I have wanted you since you entered the shop carrying the rain.”\n\n“That sounds like an exaggeration.”\n\n“It is a poetic truth.”\n\n“You are impossible.”\n\n“You have said this many times.”\n\nI leaned against his shoulder. “I have also said I love you.”\n\n“That is my favorite repetition.”\n\nThe return journey took six days. There were fewer negotiations and more quiet mornings. I stopped at springs, villages, and one shrine where an elderly monk insisted that Iroh had the posture of a man who needed to rest.\n\n“He is correct,” I said.\n\n“He is a stranger.”\n\n“He is observant.”\n\n“You are forming a conspiracy.”\n\n“Against your sleep schedule.”\n\nIroh slept late the next morning. I made tea. It was not as good as his, but he drank it.\n\n“You are improving,” he said.\n\n“You sound surprised.”\n\n“I am proud.”\n\nThe word settled over I.\n\n“I don’t want to be your student forever,” I said.\n\n“Then be my partner.”\n\nI looked at him.\n\nIroh set down his cup. “The distinction is important.”\n\n“Is that a proposal?”\n\n“It is an invitation.”\n\n“To what?”\n\n“To walk beside me without believing you must follow.”\n\nI reached across the small table. He took my hand.\n\n“Yes,” I said.\n\n“To the invitation?”\n\n“To you.”\n\nHe kissed me beside the road, with the cart waiting and the tea cooling beside it.\n\nWhen Ba Sing Se finally appeared beyond the fields, my chest tightened. The city looked the same from a distance: walls, towers, green roofs, lanterns.\n\nBut I had changed.\n\nThe Jasmine Dragon waited somewhere inside.\n\nSo did home.\n\nBefore entering the city, Iroh stopped the cart beside a field of yellow flowers. He climbed down and walked a short distance away, looking toward the walls.\n\n“What are you doing?” I asked.\n\n“Saying goodbye to the road.”\n\n“We are not leaving the road forever.”\n\n“No. But it will be different when we return.”\n\nI stood beside him. The wind moved through the flowers in slow waves.\n\n“I thought I would feel relieved,” I said.\n\n“Do you not?”\n\n“I do. I also feel sad.”\n\n“Relief and sadness are not enemies.”\n\n“You have an answer for everything.”\n\n“I have had many years to collect them.”\n\n“Have you collected any that are useful?”\n\n“A few.”\n\nHe reached for my hand.\n\n“The journey showed me something,” he said. “I have spent years believing that if I returned to the places I harmed, I could make them balance. But the world does not balance so neatly.”\n\n“What will you do instead?”\n\n“I will help where I can. I will accept that some wounds are not mine to close. I will keep the tea shop open.”\n\n“And us?”\n\nIroh's thumb moved over my knuckles. “I will not ask you to become proof of my redemption.”\n\n“Good.”\n\n“I will ask you to continue being yourself near me, if you wish.”\n\n“That sounds difficult.”\n\n“It is also my favorite plan.”\n\nI leaned against him.\n\n“I want to continue,” I said.\n\n“Then we will.”\n\nThe city gates opened as the sun lowered. Guards checked the cart's documents. One recognized Iroh and stood straighter. Iroh returned the greeting without accepting the title.\n\nInside the walls, the streets felt narrower than I remembered. The market noise rose around I. People turned to watch the cart. Some recognized Iroh. Some recognized me.\n\n“We are being observed,” I said.\n\n“We are interesting.”\n\n“You are interesting.”\n\n“You are carrying the damaged tea chest.”\n\n“A compelling spectacle.”\n\nHe drove toward the shop. The green dragon sign appeared between rooftops.\n\nThe Jasmine Dragon looked smaller than it had when I left. The room above it seemed impossibly close. I had been away less than a month, but the distance had changed the meaning of every step.\n\nIroh unlocked the door.\n\nThe kettle whistled immediately.\n\n“It missed you,” I said.\n\n“It is demanding attention.”\n\n“Some things do.”\n\nHe looked at me. “Yes.”\n\nInside, the substitute tea master had left the shelves organized and the counters polished. The white lotus tile sat beside the register. My cup with my name was wrapped in cloth.\n\nIroh unwrapped it and handed it to I.\n\n“It survived,” he said.\n\n“You were worried?”\n\n“I was practical.”\n\n“You were worried.”\n\n“Perhaps.”\n\nI placed the cup at the corner table. He set the white lotus beside it.\n\n“A good position,” I said.\n\n“An excellent one.”\n\nThe shop lights came on. Dust moved through the warm air.\n\nI and Iroh stood in the doorway to the room above the shop.\n\n“Tomorrow,” he said, “we reopen.”\n\n“Tomorrow.”\n\n“Tonight?”\n\nI took his hand. “Tonight, we rest.”\n\nHis eyes softened.\n\nThe road had asked me to be useful, brave, and patient. The shop asked only that I return.\n\nI climbed the stairs together.\n\nThe room above the shop held the scent of jasmine and dust. My books were still on the shelf. The white lotus tile remained beside the window. Iroh's travel bag landed near the door with a tired thump.\n\n“The bed looks smaller,” I said.\n\n“The room has not changed.”\n\n“We have.”\n\nIroh looked around. “Yes.”\n\nI opened the balcony doors. The city sounded familiar now: carts, bells, distant voices, the kettle downstairs preparing to complain.\n\n“I thought coming back would feel like an ending,” I said.\n\n“It can be a beginning too.”\n\n“You say that about everything.”\n\n“Beginnings are abundant.”\n\nI turned toward him. “Are you tired?”\n\n“Very.”\n\n“Do you want tea?”\n\n“Always.”\n\nI went downstairs together. Iroh brewed the jasmine blend while I sat at the counter. His hands moved automatically, but his eyes kept returning to I.\n\n“You are staring,” I said.\n\n“I am confirming that you are here.”\n\n“I am.”\n\n“Good.”\n\nI took the cup he offered. The first sip tasted like the day I met him and all the days that had followed.\n\n“Still better than the pastry?” he asked.\n\n“The pastry was important.”\n\n“But the tea?”\n\nI lifted the cup. “The tea stayed.”\n\nIroh smiled.\n\nHe took my cup and refilled it before his own.\n\n“You are learning,” I said.\n\n“I have an excellent teacher.”\n\n“You mean the tea.”\n\n“I mean you.”\n\nThe shop below began to stir.\n\nIroh set the cup down and kissed my forehead. Then the two of I went downstairs to meet the morning.\n\nThe kettle whistled. The street woke. I opened the shop together.\n\nThe first customer was already waiting outside with an umbrella and a story.\n\nIroh welcomed them in.\n\nIroh welcomed them in.\n\nIroh set the cup down and kissed my forehead. Then the two of I went downstairs to meet the morning.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-16",
+  "choice_count": 3
+}

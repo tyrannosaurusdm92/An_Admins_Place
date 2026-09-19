@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The City's Quiet Scars",
+  "subtitle": "Jasmine After Rain · Chapter 5 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 5,
+  "word_count": 1517,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-05-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-06",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-05-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-06",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-05-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-06",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "Ba Sing Se had survived the war, but the city did not pretend survival meant healing.\n\nI noticed it in the pauses. People stopped talking when soldiers passed. Older residents watched the palace walls with expressions that held more history than trust. Some streets still carried scorch marks beneath fresh paint. In the market, a child asked his mother why the soldiers were wearing different colors now.\n\nShe answered softly. The child did not look convinced.\n\nThe Jasmine Dragon sat near a street where the scars were harder to hide. The wall across from the shop had been repaired, but the bricks were a slightly different shade. Iroh had planted jasmine along the base. New leaves climbed over old damage.\n\n“You keep trying to make the wall pretty,” I said.\n\n“Pretty is not the same as healed,” he replied. “But it can be a beginning.”\n\nI stood beside him with a watering jar. The morning was cool. Iroh wore a gray robe and carried a pair of shears.\n\n“Do you ever want to leave?” I asked.\n\nHe clipped a dead branch. “Sometimes.”\n\n“Why stay?”\n\n“Because leaving can be necessary. It can also be an excuse.”\n\n“For what?”\n\n“For avoiding the places where our presence is inconvenient.”\n\nI looked at the damaged wall. “Are you inconvenient here?”\n\n“To some people.”\n\n“Because of who you were?”\n\n“Because of what I did. Because of what I represented. Because people are allowed to remember the harm caused by a nation even after its leaders change.”\n\nThe shears closed with a small click.\n\n“Do you think they should forgive you?”\n\nIroh's face remained calm, but his eyes grew distant. “Forgiveness is a gift. I am not entitled to it.”\n\n“What are you entitled to?”\n\n“The chance to act differently.”\n\nThe answer stayed with I while the shop opened. I served tea to a woman who had lost her home. I listened to a man complain about the new government. I handed a child a sweet bun and watched him smile despite the careful way his mother held his hand.\n\nIroh moved among them with the same patience he offered everyone. But when a former soldier entered, he became very still.\n\nThe man was older, with a scar across his jaw and a stiff walk. He stared at Iroh for a long time.\n\n“General,” he said.\n\nThe title fell into the room like a dropped cup.\n\nIroh bowed his head. “You may call me Iroh.”\n\n“Can I?”\n\n“You may call me whatever you need to call me. I will answer to Iroh.”\n\nThe former soldier's mouth tightened. He ordered tea and sat near the door.\n\nI served him. His hands shook when he lifted the cup.\n\nIroh did not ask him to leave.\n\nAfter the man finished, he placed coins on the table and stood.\n\n“My brother died at Ba Sing Se,” he said.\n\nIroh's expression did not change, but the room seemed to draw breath around him.\n\n“I am sorry,” he said.\n\n“You should be.”\n\n“I am.”\n\nThe man left.\n\nI watched Iroh remain by the table.\n\n“Do you want me to say something?” I asked.\n\n“No.”\n\n“Do you want me to leave?”\n\n“No.”\n\nI stood beside him. The tea cup still held a little steam.\n\n“That was not a fair thing for him to put on you,” I said.\n\nIroh looked down. “It was not unfair for him to say it.”\n\n“Both can be true.”\n\nHis gaze moved to my face. “Yes.”\n\nThe shop filled again. The moment was interrupted, but not erased.\n\nAt closing, Iroh did not pour tea. He stood in the darkened room with both hands on the counter.\n\n“I have not told you about my son,” he said.\n\nI stayed near the door. “You don’t have to.”\n\n“I know.”\n\n“But you want to.”\n\n“I do.”\n\nHe told me about Lu Ten. Not every detail. Not the battlefield or the letter or the empty place at the table. He told me about a boy who laughed too loudly, who loved sweet tea, who wanted to be a better soldier than his father.\n\n“He died during the siege,” Iroh said. “I had believed victory would make the loss meaningful. It did not. It only made the silence larger.”\n\nI listened without interrupting.\n\n“I spent years believing grief was a debt I had to keep paying,” he continued. “If I was happy, I thought I was betraying him. If I rested, I thought I had not earned it.”\n\n“Do you still believe that?”\n\n“Some days.”\n\n“What do you do on those days?”\n\n“I make tea.”\n\nI smiled faintly. “That’s not a very complete answer.”\n\n“I also eat something. My nephew insists.”\n\n“Zuko?”\n\n“He is very persistent.”\n\n“Does he know about the tea shop?”\n\n“He knows too much about everything.”\n\nI stepped closer. “What do you want people to know about you?”\n\nIroh thought for a long time.\n\n“That I loved my son,” he said. “That I caused harm. That both facts remain true. That I am still learning how to live in the space between them.”\n\nMy chest tightened.\n\n“You don’t have to be punished forever to prove you’re sorry,” I said.\n\n“No.”\n\n“But you do have to keep choosing what you do next.”\n\n“Yes.”\n\nHe reached for my hand. His fingers were warm from the kettle.\n\n“You are becoming very wise,” he said.\n\n“I’m borrowing your lines.”\n\n“Then I am honored.”\n\nThe shop was dark except for the lamp over the counter. Iroh lifted my hand and kissed my knuckles.\n\n“Can I kiss you?” he asked.\n\n“You can.”\n\nHis mouth found mine. The kiss carried grief without being consumed by it. I touched his face, feeling the lines beneath my fingers. He leaned into my palm like a man who had forgotten he was allowed to be held.\n\nWhen I parted, he rested his forehead against mine.\n\n“You do not need to rescue me,” he whispered.\n\n“I’m not trying to.”\n\n“Good.”\n\n“I’m trying to be here.”\n\nHis eyes closed.\n\n“That,” he said, “is more than enough.”\n\nOutside, the city moved through another night of rebuilding.\n\nInside, jasmine climbed the old wall.\n\nBefore opening the shop, I and Iroh sat on the front step with two cups of tea. The street was quiet. Morning light rested on the repaired bricks.\n\n“You stayed,” he said.\n\n“I work here.”\n\n“You stayed beyond the work.”\n\nI looked at the jasmine vines. “So did you.”\n\nIroh's smile was tired and grateful.\n\n“Perhaps that is what we are learning together,” he said. “How to remain without pretending the past did not happen.”\n\nI lifted my cup. “To remaining.”\n\nHe touched his cup to mine. “To choosing it.”\n\nThe shop bell rang behind I. The first customer had arrived.\n\nIroh stood and offered his hand.\n\nI took it, and the two of I went inside.\n\nThe former soldier's visit stayed with I through the morning. I watched every customer more carefully. A woman who sat alone and kept her back to the wall. A boy who flinched when someone dropped a tray. An old man who paid with coins worn nearly smooth.\n\nThe city was full of people carrying things nobody else could see.\n\nAt midday, I asked Iroh whether he ever wished he could set his memories down and leave them somewhere.\n\n“Often,” he said.\n\n“Where would you put them?”\n\n“In a room with a lock.”\n\n“Would you go back?”\n\n“Sometimes. To remember. Not to live there.”\n\nHe poured tea into two cups. “Memories are not houses. They are guests. Some are rude. Some are kind. None should be allowed to decide who may enter the future.”\n\n“You make it sound easy.”\n\n“It is not easy. It is practice.”\n\n“Like tea?”\n\n“Like tea. You pour, you taste, you adjust. You do not condemn the entire harvest because one cup is bitter.”\n\nI took a sip. The blend was perfect.\n\n“What if the cup is bitter because you made it that way?”\n\n“Then you learn what you did and brew another.”\n\nHis hand rested beside mine on the counter. I turned my palm upward. He covered it with his.\n\n“You cannot change the first cup,” he said.\n\n“No.”\n\n“But you can choose what you serve next.”\n\nThe shop door opened. Customers entered. Iroh let go of my hand, but the warmth remained.\n\nThat evening, after the last cup was washed, I went outside to water the jasmine. The wall still showed the faint shape of old fire beneath the leaves.\n\nIroh stood beside I.\n\n“You stayed,” he said again.\n\n“You keep noticing.”\n\n“I will continue.”\n\nI leaned against him. “Then keep noticing tomorrow.”\n\n“I will.”\n\nThe jasmine leaves trembled in the night breeze.\n\nIroh's shoulder rested against mine.\n\nFor a moment, neither of I spoke. The silence was not empty. It held the wall, the city, and the lives I was both still learning to carry.\n\nThe morning bell rang, and I went inside together.\n\nThe kettle answered from the kitchen.\n\nThe city was waiting too.\n\nI opened the door beside Iroh. The first light entered the shop, touching the repaired wall and the jasmine leaves.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-05",
+  "choice_count": 3
+}

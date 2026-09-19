@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Storm",
+  "subtitle": "Jasmine After Rain · Chapter 15 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 15,
+  "word_count": 1503,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-15-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-16",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-15-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-16",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-15-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-16",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The storm on the fifteenth night was too large for the way station.\n\nIt came down from the mountains with thunder that shook the cart and lightning that turned the trees white. The horses panicked. The road flooded within minutes.\n\nIroh brought the animals into a stone shelter while I carried the tea chests inside. Water ran from my sleeves. My boots squelched with every step.\n\n“Leave the chests,” he called.\n\n“They’ll be ruined.”\n\n“Your hands are shaking.”\n\n“The tea is more important.”\n\nIroh crossed the shelter and took the chest from I.\n\n“No,” he said.\n\nThe word was calm but absolute.\n\nI stared at him.\n\n“The tea can be replaced,” he continued. “You cannot.”\n\n“That is a dramatic thing to say about leaves.”\n\n“I am a dramatic man.”\n\nHe moved the chest to higher ground, then returned for the next one. I followed, but he caught my wrist.\n\n“Stop.”\n\n“I can help.”\n\n“You are helping by staying where I can see you.”\n\n“That is not helping.”\n\n“It is helping me.”\n\nThe thunder covered the silence.\n\nI realized how frightened he was.\n\n“I’m okay,” I said.\n\n“I know.”\n\n“You don’t look like you know.”\n\n“I know you are capable. I also know capability does not make a person immune to falling.”\n\nThe storm battered the roof.\n\nIroh's hand remained around my wrist, not painful, but firm.\n\n“You’re afraid,” I said.\n\n“Yes.”\n\n“Of losing the tea?”\n\n“Of losing you.”\n\nThe words stopped the storm inside my body.\n\n“I’m here,” I whispered.\n\n“For this moment.”\n\n“For this moment.”\n\nHe released my wrist only when I took his hand.\n\nI sat together against the stone wall. Rain filled the entrance. The horses shifted in the shelter beside I. Iroh wrapped both cloaks around my shoulders.\n\n“You don’t have to protect me from being afraid,” I said.\n\n“I know.”\n\n“You can tell me.”\n\n“I am telling you.”\n\n“Then tell me more.”\n\nHe looked out at the rain. “When Lu Ten died, I was not there. I was inside a city I had tried to conquer, celebrating a victory that became meaningless before the wine left my cup. I thought if I had been with him, I could have changed it.”\n\nI listened.\n\n“Afterward, every danger looked like a test I had failed before it began. I tried to prevent every loss. I became controlling. I called it care.”\n\nHis hand shook beneath mine.\n\n“You are not controlling me,” I said.\n\n“I stopped you from carrying a chest.”\n\n“You asked me to stop because you were scared. You did not tell me I was incapable.”\n\nIroh looked at me.\n\n“There is a difference,” I continued. “You can be afraid without turning fear into a command.”\n\nHis eyes closed.\n\n“You are very kind,” he said.\n\n“I am also annoyed.”\n\n“That is reassuring.”\n\n“You cannot use your grief to make every decision for both of us.”\n\n“No.”\n\n“You can tell me when it is speaking.”\n\n“I will try.”\n\n“Honestly.”\n\n“Honestly.”\n\nThe thunder moved farther away.\n\nIroh turned toward I. His face was tired and open.\n\n“I love you,” he said. “I loved you before this journey, but I did not know how much until the road became dangerous and my first thought was your safety.”\n\nI touched the wet hair at his temple. “I love you too.”\n\n“I do not want to make you smaller.”\n\n“Then don’t.”\n\n“I do not want to make you responsible for my fear.”\n\n“Then tell me when it arrives.”\n\nHe leaned forward and kissed me.\n\nThe shelter smelled of rain, horse, and tea leaves. Iroh's mouth was warm. His hand moved to my cheek. I pressed close, the storm outside turning the world into a private room.\n\nHe asked before touching me more deeply. I answered. He paused whenever I needed to breathe.\n\nThe rest of the night softened behind the cloaks, a mutual choice made in the dark while the mountains thundered around I.\n\nAt dawn, the road was washed clean.\n\nOne tea chest had been damaged. The leaves inside smelled of mud. Iroh sat beside it with a solemn expression.\n\n“We can replace them,” I said.\n\n“Yes.”\n\n“And the others are safe.”\n\n“Yes.”\n\n“And you are safe.”\n\nHe looked at me. “Yes.”\n\nI held out a cup of tea brewed from the undamaged leaves.\n\nIroh took it. “You are becoming very good at this.”\n\n“At tea?”\n\n“At reminding me what remains.”\n\nThe road north waited beyond the shelter.\n\nThis time, when Iroh climbed into the cart, he did not tell me to stay behind.\n\nHe held out his hand.\n\nI took it.\n\nThe next day, the road passed through a village where every roof had been repaired with a different material. Tiles, wood, cloth, even pieces of old metal had been fitted together against the weather.\n\n“It looks like the whole village has been mended by hand,” I said.\n\n“Most places are,” Iroh replied.\n\nThe village elder invited me into a small hall. She had heard about the agreement from the governor and wanted to know whether the soldiers would truly leave.\n\nIroh answered honestly. Some would. Some would resist. The process would be slow. The village would need to organize its own council and decide how to protect itself without becoming another army.\n\nThe elder studied him. “You speak as though you regret what you were.”\n\n“I do.”\n\n“Regret is easy.”\n\n“Yes.”\n\n“What is difficult?”\n\n“Continuing after regret.”\n\nThe elder looked at me. “And you travel with him?”\n\n“I do.”\n\n“Why?”\n\nI felt Iroh become still beside I.\n\n“Because I have seen what he does when nobody is applauding,” I said. “He listens. He admits when he cannot fix something. He goes back after people tell him the truth.”\n\nThe elder nodded slowly.\n\n“Then perhaps the road has taught him something,” she said.\n\nOutside the hall, Iroh exhaled.\n\n“You did not have to speak for me,” he said.\n\n“I spoke for what I have seen.”\n\n“You make me sound better than I am.”\n\n“I also know your worst tea.”\n\n“A serious flaw.”\n\n“A survivable one.”\n\nThe two of I walked to the stream. The water was high but clear.\n\n“I was afraid,” Iroh said.\n\n“Of the elder?”\n\n“Of your answer.”\n\n“Why?”\n\n“Because you could have said you were following me. I would have heard the chain in it.”\n\n“I am not following you.”\n\n“I know.”\n\n“I am walking beside you.”\n\nHis eyes softened.\n\n“You keep giving me the right words,” he said.\n\n“I am giving you the words I need too.”\n\nHe took my hand.\n\n“Then we are both learning.”\n\nThe road turned south the next morning. The negotiations were finished. The tea chests were lighter. The damaged leaves had been replaced. I had a flower pressed between the pages of my notebook and a map full of places I wanted to see again.\n\nIroh drove in silence for most of the day.\n\n“What are you thinking?” I asked.\n\n“About the tea shop.”\n\n“What about it?”\n\n“Whether the kettle has declared independence.”\n\n“You miss it.”\n\n“I miss you in it.”\n\nThe answer made me smile.\n\n“I miss the balcony,” I said.\n\n“The room?”\n\n“The room. The jasmine. Your footsteps downstairs.”\n\n“You are becoming sentimental.”\n\n“I blame the weather.”\n\nHe laughed.\n\nAt the next campsite, I brewed the tea together. It was strong but balanced. Iroh raised his cup.\n\n“To the road,” he said.\n\n“To returning.”\n\n“To the people who reminded us what remains.”\n\nI touched my cup to his.\n\nThe stars appeared above the trees.\n\nThe storm had not erased the path.\n\nIt had only made the road more honest.\n\nBefore breaking camp, Iroh walked to the edge of the stream. He stood with his hands behind his back, watching the current carry leaves downstream.\n\n“What are you doing?” I asked.\n\n“Saying goodbye to the storm.”\n\n“It cannot hear you.”\n\n“Many things cannot hear us. We speak anyway.”\n\nI stood beside him. The stream reflected the pale morning sky.\n\n“I used to think surviving meant becoming harder,” I said.\n\nIroh looked at me.\n\n“Now I think it means learning what can remain soft without being destroyed.”\n\n“That is a very difficult kind of strength.”\n\n“You taught me.”\n\n“I have taught you many things.”\n\n“You taught me tea.”\n\n“A foundational subject.”\n\n“You taught me not to carry every name.”\n\n“A more difficult one.”\n\n“You taught me that being afraid does not mean I have to become cruel.”\n\nIroh's expression changed.\n\n“I am still learning that lesson,” he said.\n\n“Then we can keep learning together.”\n\nHe took my hand. The stream moved beside I, clear and relentless.\n\nWhen I returned to the cart, the horses were ready. The road south waited in the sunlight.\n\nIroh helped me into the seat, then climbed up beside I.\n\n“Ask me tomorrow,” I said.\n\n“About whether you are certain?”\n\n“Yes.”\n\n“I will.”\n\nHe drove toward home.\n\nI watched the hills fall behind I and held his hand until the sun was high.\n\nNeither of I spoke about the storm again.\n\nI remembered it anyway.\n\nAnd I kept going.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-15",
+  "choice_count": 3
+}

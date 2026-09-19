@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Game of Pai Sho",
+  "subtitle": "Jasmine After Rain · Chapter 6 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 6,
+  "word_count": 1501,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-06-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-07",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-06-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-07",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-06-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-07",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "Iroh taught me pai sho by letting I lose.\n\n“You are not even pretending to be kind,” I said after my third defeat.\n\nHe gathered the tiles with a satisfied hum. “Kindness and strategy are not opposites.”\n\n“You moved three pieces I didn’t know existed.”\n\n“That is because you did not ask what they did.”\n\n“I assumed they were decorative.”\n\n“A common mistake.”\n\nThe tea shop was closed for the afternoon. Iroh had set up the game board on a low table near the window. Sunlight lay across the painted tiles. Outside, Ba Sing Se moved through its ordinary noise: carts, voices, distant bells.\n\nInside, the world had narrowed to red and white pieces, jasmine tea, and Iroh's hand resting beside mine.\n\n“What is the object of the game?” I asked.\n\n“To create harmony.”\n\n“You could have told me that before you destroyed me.”\n\n“Then you might have tried to create harmony too early.”\n\n“Is that bad?”\n\n“Harmony is not the same as peace. Sometimes the board must become complicated before it can become balanced.”\n\nI studied the pieces. “That sounds like something you say when you are winning.”\n\n“It is something I say because I am winning.”\n\nI threw a tile at him. It struck his shoulder and bounced into my lap.\n\nIroh laughed so loudly that a customer outside the shop turned to look through the window.\n\n“You are a dangerous player,” he said.\n\n“I’m an unconventional player.”\n\n“You are holding a flower tile upside down.”\n\n“Unconventional.”\n\nHe reached across the board and turned it for I. His fingers brushed mine.\n\nThe contact was brief, but it changed the room.\n\nIroh looked at my hand, then at my face. “You are distracted.”\n\n“You are sitting very close.”\n\n“The board is small.”\n\n“The table is large.”\n\n“An excellent observation.”\n\nI moved my hand away. He did not chase it.\n\n“Are you regretting last night?” I asked.\n\nIroh's expression softened. “No.”\n\n“You answer quickly.”\n\n“Some questions deserve a quick answer.”\n\n“And some?”\n\n“Some deserve tea first.”\n\nHe poured. I watched the steam rise between I.\n\n“Do you regret it?” he asked.\n\n“No.”\n\n“Then we are in agreement.”\n\n“That was not the question I asked.”\n\n“You are right.”\n\nThe honesty warmed I more than the tea.\n\n“I’m not used to this,” I said.\n\n“To losing at pai sho?”\n\n“To someone being careful with me and still wanting me.”\n\nIroh's fingers tightened around his cup.\n\n“People often confuse desire with permission,” he said. “They believe wanting someone gives them the right to hurry.”\n\n“You don’t hurry.”\n\n“I have hurried before.”\n\n“You?”\n\n“I was young.”\n\n“You’re making yourself sound ancient.”\n\n“I am ancient compared to the tea leaves.”\n\n“That is not how age works.”\n\n“It is how tea works.”\n\nI smiled, but the question remained.\n\n“Why are you not hurrying now?” I asked.\n\nIroh set his cup down. “Because I would rather be certain you are walking toward me than discover you were only trying to keep up.”\n\nThe words went through I.\n\n“You make it very difficult to be casual.”\n\n“I have been accused of that.”\n\n“By whom?”\n\n“My nephew. He believes my habit of offering wisdom at breakfast is a form of attack.”\n\n“He may be right.”\n\n“He is often right. It is one of his more irritating qualities.”\n\nThe shop door opened. A messenger entered to deliver a bundle of tea. Iroh stood to sign for it. I watched the way he moved, broad and graceful, carrying a lifetime of discipline without letting it harden him.\n\nWhen he returned, he placed a small white tile beside my hand.\n\n“What does that do?” I asked.\n\n“It waits.”\n\n“That is a terrible game piece.”\n\n“Only if you believe waiting means doing nothing.”\n\n“You are going to say that patience is a strategy.”\n\n“Patience is a strategy.”\n\nI sighed. “I should have guessed.”\n\nHe taught me the names of the pieces. The white lotus. The red dragon. The wheel. The knot of destiny. Each tile carried a meaning, but none were absolute. A piece could support, obstruct, or transform depending on what surrounded it.\n\n“That sounds like people,” I said.\n\n“People are more complicated. They cannot be placed neatly on a board.”\n\n“You would be surprised what people try to do with me.”\n\nIroh looked at me. “I would not be surprised.”\n\nThe comment was so quiet I nearly missed it.\n\n“What do you mean?”\n\n“You have the posture of someone who has been assigned roles without being asked.”\n\nI looked down at the board.\n\n“The fixer,” I said. “The easy one. The person who leaves before being left.”\n\n“And who are you when nobody is assigning you a role?”\n\n“I don’t know.”\n\n“Then we will not decide today.”\n\nHe moved the white lotus.\n\n“Your turn.”\n\nI studied the board. The last game had been lost because I tried to protect one piece. This time, I let it go. I moved the wheel, then placed the lotus near the center.\n\nIroh's brows lifted.\n\n“Was that good?” I asked.\n\n“It was interesting.”\n\n“You say that when you don’t want to admit I’m winning.”\n\n“You are not winning.”\n\n“Yet.”\n\n“A dangerous word.”\n\nThe game lasted until the sun lowered. I did not win, but I forced Iroh to think. When he finally placed his last piece, he looked pleased rather than triumphant.\n\n“You have improved,” he said.\n\n“You sound surprised.”\n\n“I am delighted.”\n\nHe gathered the tiles. My hands met over the red dragon.\n\nNeither of I moved.\n\n“Can I kiss you again?” I asked.\n\nIroh's smile was slow. “You may.”\n\nThe kiss began across the board. It was awkward because the table was between I, and Iroh laughed when I nearly knocked over the tea. I moved around the table. He rose to meet me.\n\nHis hands settled at my shoulders. When I stepped closer, they moved to my waist. The warmth of him gathered beneath my palms.\n\n“Still comfortable?” he murmured.\n\n“Yes.”\n\n“Still certain?”\n\n“Ask me tomorrow.”\n\nHe kissed me more deeply. His beard brushed my skin, soft and surprising. I smiled against his mouth.\n\n“What?” he asked.\n\n“You taste like jasmine.”\n\n“A professional hazard.”\n\n“A pleasant one.”\n\nThe shop's closing bell sounded even though the door was locked. Iroh pulled back with a sigh.\n\n“The kettle,” he said.\n\n“Your other lover?”\n\n“It is demanding.”\n\nHe went to check it, and I followed. The kiss remained between I, not finished, only paused.\n\nThat night, when I climbed the stairs to my room, a single white lotus tile rested on the windowsill.\n\nBeside it was a note in Iroh's careful handwriting: WAITING IS NOT DOING NOTHING.\n\nI smiled until I fell asleep.\n\nI woke before sunrise with the white lotus tile still in my hand.\n\nFor a moment, I did not remember where I was. Then the room returned: the slanted ceiling, the jasmine plant, the faint warmth rising through the floor from the kitchen below.\n\nThe note lay on the windowsill. I read it again.\n\nWAITING IS NOT DOING NOTHING.\n\nI carried the tile downstairs.\n\nIroh was already awake, standing over a kettle with an expression of deep suspicion.\n\n“It whistled at me,” he said.\n\n“Perhaps it wants breakfast.”\n\n“It wants authority.”\n\nI placed the tile on the counter. “You left this.”\n\n“I did.”\n\n“Why?”\n\n“Because you were trying to win by protecting every piece.”\n\n“That sounds like a criticism.”\n\n“It is an observation.”\n\n“You are very fond of observations.”\n\n“They are safer than predictions.”\n\nI looked at the tile. “What were you predicting?”\n\nIroh's hand went still on the kettle handle.\n\n“That you might decide last night was a mistake,” he said.\n\nThe honesty was quiet, without the armor of humor.\n\n“I didn’t,” I replied.\n\n“I am pleased.”\n\n“You could have asked.”\n\n“I could have.”\n\n“You are learning too.”\n\n“Every day.”\n\nI moved around the counter. He waited for I to close the distance.\n\n“The game is not the only place where I protect every piece,” I said.\n\n“No.”\n\n“I want to stop.”\n\n“You may begin with one.”\n\nI touched his hand. “This one.”\n\nIroh's eyes warmed.\n\nHe kissed me in the quiet kitchen while the kettle simmered. There was no board between I this time. His arms held me close, but his body remained attentive to every change in mine.\n\nWhen the shop opened, I placed the white lotus tile beside the register.\n\n“Are you keeping it there?” he asked.\n\n“It is watching the game.”\n\n“It has a very important position.”\n\n“It is waiting.”\n\nIroh smiled. “Not doing nothing.”\n\nThe day began.\n\nI kept the white lotus tile near the register. Every time someone asked about it, Iroh answered that it was waiting for the right move.\n\nI never corrected him.\n\nThe next game lasted longer. I still lost, but Iroh had to think before claiming the final space.\n\nHe looked delighted.\n\n“You are enjoying my defeat,” I said.\n\n“I am enjoying your persistence.”\n\n“That is a nicer answer.”\n\n“It is also true.”\n\nI smiled.\n\nThe game waited.\n\nPatiently.\n\nAs I learned.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-06",
+  "choice_count": 3
+}

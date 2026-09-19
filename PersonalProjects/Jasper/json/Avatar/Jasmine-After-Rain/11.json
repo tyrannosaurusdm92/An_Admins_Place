@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "When the Past Knocks",
+  "subtitle": "Jasmine After Rain · Chapter 11 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 11,
+  "word_count": 1512,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-11-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-12",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-11-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-12",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-11-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-12",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The past knocked at the tea shop door just before sunrise.\n\nIroh was in the kitchen when the sound came. Three measured knocks. Not a customer. Not a delivery.\n\nI was carrying a tray down the stairs when he looked toward the front of the shop.\n\n“Stay upstairs,” he said.\n\n“That is not a good sign.”\n\n“It is a cautious sign.”\n\n“You are cautious when it is a good sign too.”\n\nHe placed the tray on the counter. “Please.”\n\nThe word made me stop.\n\nIroh opened the door.\n\nA man in a faded Fire Nation uniform stood in the street. He was older than Iroh by a few years, his face weathered and his left hand missing two fingers. He stared at the tea shop sign.\n\n“I did not know you were here,” he said.\n\n“Many people do not,” Iroh replied.\n\n“I heard.”\n\nThe man looked past him and saw me on the stairs.\n\n“You have help.”\n\n“I do.”\n\n“A life.”\n\nIroh's expression tightened. “I am trying.”\n\nThe man laughed without humor. “You always were good at trying after the damage was done.”\n\nI descended the last steps. Iroh glanced at I, not ordering I back this time.\n\n“Would you like tea?” he asked the visitor.\n\n“No.”\n\n“Then why have you come?”\n\nThe man reached into his coat and pulled out a folded letter. “Your nephew is looking for you.”\n\nIroh took the letter but did not open it.\n\n“He knows where I am,” he said.\n\n“He wants you at the palace.”\n\n“He knows where to send a messenger.”\n\n“He sent me.”\n\nThe room grew smaller.\n\nThe man looked at Iroh with a mixture of anger and exhaustion. “The new Fire Lord needs someone who understands the old army. There are generals refusing to disband. Governors who still answer to the wrong people. He thinks you can help.”\n\n“Can I?”\n\n“You know them.”\n\n“Knowing is not the same as controlling.”\n\n“It is more than he has.”\n\nIroh turned the letter over in his hand.\n\nI watched him. The tea shop, the room upstairs, the corner table—everything that had begun to feel stable appeared suddenly fragile.\n\n“How long would you be gone?” I asked.\n\nThe visitor looked at me. Iroh did too.\n\n“I do not know,” Iroh said.\n\nThe answer hurt more than I expected.\n\n“Then you should go,” I said.\n\nIroh's eyes sharpened. “You do not have to decide for me.”\n\n“I’m not.” I looked at the letter. “I’m saying the people who need you may not have another choice.”\n\n“And what about you?”\n\n“I am not the person who needs you to save them.”\n\nHis face went still.\n\nThe visitor shifted near the door. “I will wait outside.”\n\nHe stepped into the street and closed the door.\n\nIroh remained behind the counter.\n\n“That was not what I wanted to hear,” he said.\n\n“I know.”\n\n“You believe I should leave.”\n\n“I believe you should choose. I don’t want you to stay because you think I’ll fall apart without you.”\n\n“You would not.”\n\n“I might be lonely.”\n\n“That is different.”\n\n“I know.”\n\nHe set the letter down. “I am tired of being useful only when the world is burning.”\n\nThe confession was quiet and devastating.\n\n“Then tell them no,” I said.\n\n“Can I?”\n\n“You can decide that.”\n\n“If I say no, people may suffer.”\n\n“If you say yes, you may disappear into a life that has already taken everything from you.”\n\nIroh looked at the tea shelves. “You make it sound like there is a right answer.”\n\n“There might not be.”\n\nHe closed his eyes.\n\nI moved around the counter. “I don’t want to lose you. But I don’t want to become the reason you betray what you believe is right.”\n\n“You are not a reason to betray anything.”\n\n“Then don’t treat me like one.”\n\nHe opened his eyes. “You are asking me to be honest.”\n\n“Yes.”\n\n“Even if honesty changes things?”\n\n“Especially then.”\n\nIroh took my hand. His palm felt warm, but his fingers trembled.\n\n“I love you,” he said.\n\nThe words were not a distraction. They were not a promise that everything would be easy.\n\n“I love you too,” I replied.\n\n“I may need to leave for a time.”\n\n“I know.”\n\n“I may decide I cannot.”\n\n“I know.”\n\n“I do not know what I will choose.”\n\n“Then choose honestly.”\n\nHis eyes filled.\n\nHe lifted my hand and kissed it. Then he pulled me around the counter and held me against his chest.\n\n“Stay with me while I decide?” he asked.\n\n“Yes.”\n\nThe visitor waited outside. The kettle began to whistle. The city woke around the tea shop.\n\nIroh did not open the letter immediately.\n\nFor one more cup, he let the past wait.\n\nThe visitor returned after sunrise. This time, he had changed out of the uniform. He wore a plain brown coat and carried no weapon that I could see.\n\nIroh opened the door. “You have come back.”\n\n“I have.”\n\n“Would you like tea?”\n\nThe man hesitated. “I said no yesterday.”\n\n“You may change your mind.”\n\n“That is not how the army worked.”\n\n“The tea shop is not the army.”\n\nThe man entered.\n\nI served him jasmine. He held the cup but did not drink.\n\n“My name is Ren,” he said.\n\nI gave him my name.\n\nHe nodded. “I wanted to know who was here.”\n\nIroh sat across from him. “You have seen us.”\n\n“I wanted to know whether you would stay when I said my brother died.”\n\nIroh's hands rested around his cup. “I did not know whether I would.”\n\n“You stayed.”\n\n“Yes.”\n\nRen finally drank the tea. His face changed, not with pleasure exactly, but with recognition.\n\n“My brother liked this,” he said.\n\n“Many people do.”\n\n“He said it made the city feel less gray.”\n\nIroh looked toward the jasmine vines outside. “He was not wrong.”\n\nRen sat for a long time. He did not ask forgiveness. Iroh did not offer it. They shared tea and the difficult shape of being alive after someone else was not.\n\nWhen Ren left, he placed a folded paper on the table. It was a list of names: soldiers missing, homes damaged, families still waiting for news.\n\n“He wants you to read it,” Iroh said.\n\n“Will you?”\n\n“Yes.”\n\n“Even if it makes you feel guilty?”\n\n“Especially then. Guilt is not the same as responsibility, but it can point toward it.”\n\nI looked at the list. “What will you do?”\n\n“I will bring it to the people who can help. I will not promise what I cannot provide.”\n\n“And then you will leave.”\n\n“Yes.”\n\nThe word held the future.\n\nThat evening, I helped Iroh pack. He needed clothes, letters, maps, tea, and the small game board he carried everywhere. I folded his shirts while he argued with the amount of socks required for three weeks.\n\n“You need more than two pairs,” I said.\n\n“I am traveling with a tea chest.”\n\n“The tea chest cannot replace socks.”\n\n“You underestimate its versatility.”\n\nI added three pairs to the bag.\n\nIroh watched me from the desk. “You are very comfortable giving orders.”\n\n“Only about socks.”\n\n“A narrow authority.”\n\n“A necessary one.”\n\nWhen the bag was ready, he sat on the edge of the bed. I stood between his knees.\n\n“I do not want to leave you,” he said.\n\n“I know.”\n\n“I do not want to leave this room.”\n\n“I know.”\n\n“I do not want to become the man I was because people ask for him.”\n\nI touched his face. “Then do not go alone.”\n\n“You should not have to follow me.”\n\n“I am not following.”\n\nHis eyes searched mine.\n\n“I am choosing to come with you,” I said. “If there is room.”\n\nIroh's breath caught. “There is always room for you.”\n\n“Do not say always lightly.”\n\n“I do not.”\n\nHe kissed me. The kiss was full of fear and relief. His arms tightened around my waist. When he asked whether I wanted to continue, I answered by sitting beside him and drawing him close.\n\nThe room held the rest of my last night in Ba Sing Se. It was tender, slow, and private.\n\nAt dawn, the letter lay open on the counter.\n\nIroh had written back: I WILL COME. I WILL LISTEN. I WILL NOT PROMISE TO BE WHAT I WAS.\n\nI read it over his shoulder.\n\n“That is a good letter,” I said.\n\n“It is a beginning.”\n\nI took his hand.\n\nTogether, I carried the tea chests into the street.\n\nThe city was still gray with dawn. Iroh locked the shop behind I, then looked up at the room above it.\n\n“You may stay,” he said.\n\n“I know.”\n\n“You may leave.”\n\n“I know.”\n\n“You may choose either without it changing what you mean to me.”\n\nI took his hand. “Then I choose the road.”\n\nHe squeezed my fingers.\n\nThe road opened beyond the gate, pale beneath the morning rain.\n\nI walked beside Iroh.\n\nThe road waited for neither permission nor certainty.\n\nI followed it.\n\nIroh followed beside I.\n\nThe tea chests bumped against the cart. The road smelled of wet stone and green leaves.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-11",
+  "choice_count": 3
+}

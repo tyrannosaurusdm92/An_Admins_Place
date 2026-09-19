@@ -1,0 +1,392 @@
+{
+  "schema_version": "5.0",
+  "work_type": "fanfic_series",
+  "fandom": "Avatar: The Last Airbender",
+  "series_title": "Jasmine After Rain",
+  "series_slug": "jasmine-after-rain",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy",
+  "rating": "PG-13 / fade to black",
+  "description": "Tea, Pai Sho, grief, and ordinary happiness make room for original-series Uncle Iroh to be a man instead of only a legend.",
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "chapter_count": 40,
+  "private_continuation": {
+    "available": true,
+    "mode": "local_only",
+    "explicit_text": false
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "id": "avatar-01",
+      "file": "01.json",
+      "title": "The Table in the Corner",
+      "word_count": 1531,
+      "choice_count": 3
+    },
+    {
+      "number": 2,
+      "id": "avatar-02",
+      "file": "02.json",
+      "title": "Jasmine and Rain",
+      "word_count": 1523,
+      "choice_count": 3
+    },
+    {
+      "number": 3,
+      "id": "avatar-03",
+      "file": "03.json",
+      "title": "A Guest with No Destination",
+      "word_count": 1507,
+      "choice_count": 3
+    },
+    {
+      "number": 4,
+      "id": "avatar-04",
+      "file": "04.json",
+      "title": "The First Lesson",
+      "word_count": 1508,
+      "choice_count": 3
+    },
+    {
+      "number": 5,
+      "id": "avatar-05",
+      "file": "05.json",
+      "title": "The City's Quiet Scars",
+      "word_count": 1517,
+      "choice_count": 3
+    },
+    {
+      "number": 6,
+      "id": "avatar-06",
+      "file": "06.json",
+      "title": "A Game of Pai Sho",
+      "word_count": 1501,
+      "choice_count": 3
+    },
+    {
+      "number": 7,
+      "id": "avatar-07",
+      "file": "07.json",
+      "title": "The Weight of a Name",
+      "word_count": 1502,
+      "choice_count": 3
+    },
+    {
+      "number": 8,
+      "id": "avatar-08",
+      "file": "08.json",
+      "title": "A Walk Along the Wall",
+      "word_count": 1507,
+      "choice_count": 3
+    },
+    {
+      "number": 9,
+      "id": "avatar-09",
+      "file": "09.json",
+      "title": "Tea for Two",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 10,
+      "id": "avatar-10",
+      "file": "10.json",
+      "title": "The Night Market",
+      "word_count": 1502,
+      "choice_count": 3
+    },
+    {
+      "number": 11,
+      "id": "avatar-11",
+      "file": "11.json",
+      "title": "When the Past Knocks",
+      "word_count": 1512,
+      "choice_count": 3
+    },
+    {
+      "number": 12,
+      "id": "avatar-12",
+      "file": "12.json",
+      "title": "The Dragon's Breath",
+      "word_count": 1512,
+      "choice_count": 3
+    },
+    {
+      "number": 13,
+      "id": "avatar-13",
+      "file": "13.json",
+      "title": "A Journey North",
+      "word_count": 1505,
+      "choice_count": 3
+    },
+    {
+      "number": 14,
+      "id": "avatar-14",
+      "file": "14.json",
+      "title": "The Road Through the Hills",
+      "word_count": 1509,
+      "choice_count": 3
+    },
+    {
+      "number": 15,
+      "id": "avatar-15",
+      "file": "15.json",
+      "title": "The Storm",
+      "word_count": 1503,
+      "choice_count": 3
+    },
+    {
+      "number": 16,
+      "id": "avatar-16",
+      "file": "16.json",
+      "title": "What We Choose",
+      "word_count": 1503,
+      "choice_count": 3
+    },
+    {
+      "number": 17,
+      "id": "avatar-17",
+      "file": "17.json",
+      "title": "Return to Ba Sing Se",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 18,
+      "id": "avatar-18",
+      "file": "18.json",
+      "title": "The Shop After Closing",
+      "word_count": 1507,
+      "choice_count": 3
+    },
+    {
+      "number": 19,
+      "id": "avatar-19",
+      "file": "19.json",
+      "title": "A Room Above the Tea Shop",
+      "word_count": 1503,
+      "choice_count": 3
+    },
+    {
+      "number": 20,
+      "id": "avatar-20",
+      "file": "20.json",
+      "title": "The Tea That Stays",
+      "word_count": 1504,
+      "choice_count": 3
+    },
+    {
+      "number": 21,
+      "id": "avatar-21",
+      "file": "21.json",
+      "title": "The Lotus Opens",
+      "word_count": 1569,
+      "choice_count": 3
+    },
+    {
+      "number": 22,
+      "id": "avatar-22",
+      "file": "22.json",
+      "title": "A Place at the Table",
+      "word_count": 1560,
+      "choice_count": 3
+    },
+    {
+      "number": 23,
+      "id": "avatar-23",
+      "file": "23.json",
+      "title": "The White Lotus Does Not Whisper",
+      "word_count": 1554,
+      "choice_count": 3
+    },
+    {
+      "number": 24,
+      "id": "avatar-24",
+      "file": "24.json",
+      "title": "A Question Worth Asking",
+      "word_count": 1558,
+      "choice_count": 3
+    },
+    {
+      "number": 25,
+      "id": "avatar-25",
+      "file": "25.json",
+      "title": "The Garden Behind the Shop",
+      "word_count": 1538,
+      "choice_count": 3
+    },
+    {
+      "number": 26,
+      "id": "avatar-26",
+      "file": "26.json",
+      "title": "When Tea Goes Cold",
+      "word_count": 1545,
+      "choice_count": 3
+    },
+    {
+      "number": 27,
+      "id": "avatar-27",
+      "file": "27.json",
+      "title": "The Shape of Forgiveness",
+      "word_count": 1546,
+      "choice_count": 3
+    },
+    {
+      "number": 28,
+      "id": "avatar-28",
+      "file": "28.json",
+      "title": "The Game We Change",
+      "word_count": 1536,
+      "choice_count": 3
+    },
+    {
+      "number": 29,
+      "id": "avatar-29",
+      "file": "29.json",
+      "title": "A Road of Our Own",
+      "word_count": 1543,
+      "choice_count": 3
+    },
+    {
+      "number": 30,
+      "id": "avatar-30",
+      "file": "30.json",
+      "title": "The Fire Beneath the Kettle",
+      "word_count": 1536,
+      "choice_count": 3
+    },
+    {
+      "number": 31,
+      "id": "avatar-31",
+      "file": "31.json",
+      "title": "A Letter from the Palace",
+      "word_count": 1549,
+      "choice_count": 3
+    },
+    {
+      "number": 32,
+      "id": "avatar-32",
+      "file": "32.json",
+      "title": "The Things Iroh Cannot Carry",
+      "word_count": 1539,
+      "choice_count": 3
+    },
+    {
+      "number": 33,
+      "id": "avatar-33",
+      "file": "33.json",
+      "title": "A Small Rebellion",
+      "word_count": 1542,
+      "choice_count": 3
+    },
+    {
+      "number": 34,
+      "id": "avatar-34",
+      "file": "34.json",
+      "title": "Under the Same Lantern",
+      "word_count": 1544,
+      "choice_count": 3
+    },
+    {
+      "number": 35,
+      "id": "avatar-35",
+      "file": "35.json",
+      "title": "The General and the Gardener",
+      "word_count": 1541,
+      "choice_count": 3
+    },
+    {
+      "number": 36,
+      "id": "avatar-36",
+      "file": "36.json",
+      "title": "A Promise with No Audience",
+      "word_count": 1537,
+      "choice_count": 3
+    },
+    {
+      "number": 37,
+      "id": "avatar-37",
+      "file": "37.json",
+      "title": "The Day We Return",
+      "word_count": 1541,
+      "choice_count": 3
+    },
+    {
+      "number": 38,
+      "id": "avatar-38",
+      "file": "38.json",
+      "title": "Jasmine in Winter",
+      "word_count": 1541,
+      "choice_count": 3
+    },
+    {
+      "number": 39,
+      "id": "avatar-39",
+      "file": "39.json",
+      "title": "The Tea We Make",
+      "word_count": 1534,
+      "choice_count": 3
+    },
+    {
+      "number": 40,
+      "id": "avatar-40",
+      "file": "40.json",
+      "title": "Jasmine After Rain",
+      "word_count": 1543,
+      "choice_count": 3
+    }
+  ],
+  "total_word_count": 61052,
+  "key": "jasmine-after-rain",
+  "title": "Jasmine After Rain",
+  "folder": "Avatar",
+  "fandom_folder": "Avatar",
+  "story_folder": "Jasmine-After-Rain",
+  "story_type": "cyoa_fanfiction",
+  "chapter_files": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json"
+  ],
+  "choice_count": 3
+}

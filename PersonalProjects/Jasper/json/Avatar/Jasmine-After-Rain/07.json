@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Weight of a Name",
+  "subtitle": "Jasmine After Rain · Chapter 7 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 7,
+  "word_count": 1502,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-07-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-08",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-07-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-08",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-07-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-08",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The weight of a name became noticeable when people recognized Iroh's.\n\nIt happened in the market. I was carrying a basket of tea leaves while Iroh argued with a vendor about the price of dried ginger. The vendor looked from Iroh's face to the scarred red sash around his waist.\n\n“You are the Dragon of the West,” he said.\n\nThe market noise seemed to pause.\n\nIroh bowed. “I have been called that.”\n\n“You were a general.”\n\n“I was.”\n\nThe vendor's hands tightened around the scales. “My father fought against you.”\n\nIroh did not move.\n\n“Did he survive?” he asked.\n\n“No.”\n\nThe answer was not shouted. It did not need to be.\n\nIroh paid the full price for the ginger. The vendor tried to refuse half the coins. Iroh left them on the stall.\n\nI followed him through the market without speaking. He walked toward the outer wall, carrying the basket as if it weighed nothing.\n\nAt last, I caught his sleeve.\n\n“Iroh.”\n\nHe stopped.\n\n“You don’t have to keep walking.”\n\n“I know.”\n\n“You’re going to.”\n\n“I thought I might.”\n\nHe looked at the city wall. The stones rose above I, old and immense. Beyond them, the world waited with all its consequences.\n\n“What do you do when someone gives you a name you no longer want?” I asked.\n\nIroh set the basket down.\n\n“You decide whether they are describing you or remembering you,” he said. “Sometimes they are doing both.”\n\n“And which are they doing?”\n\n“The vendor was remembering.”\n\n“You didn’t defend yourself.”\n\n“He did not accuse me of something untrue.”\n\n“You were a general. You were also a person.”\n\n“Both are true.”\n\nThe words echoed the conversation in the shop. Iroh looked toward I, his expression tired.\n\n“The world prefers a single truth,” he said. “It is easier to praise a hero or condemn a villain than to consider a person who has done harm and spent the rest of his life trying to understand it.”\n\n“Do you want me to praise you?”\n\n“No.”\n\n“Condemn you?”\n\n“No.”\n\n“Then what?”\n\n“I want you to know enough that your choice to stay near me is informed.”\n\nThe directness hurt.\n\n“You think I don’t know you’re complicated?”\n\n“I hope you know.”\n\n“You think the tea shop makes you harmless?”\n\n“No.”\n\n“You think your kindness erases the war?”\n\n“No.”\n\n“Then stop warning me as if I am a child who wandered too close to a fire.”\n\nIroh's face went still.\n\nI immediately wished I could take the words back, but the truth underneath them remained.\n\n“I am not warning you away,” he said.\n\n“You keep telling me how careful you are.”\n\n“Because I am afraid.”\n\nThe admission stopped I.\n\nIroh looked down at his hands. “I have lost people because I believed my certainty was more important than their freedom. I will not make you carry the consequences of that lesson.”\n\n“You are not making me carry it,” I said. “You are carrying it so heavily that you won’t let me stand beside you.”\n\nFor a long time, neither of I spoke.\n\nThe market continued behind I. A child laughed. A cart rolled over uneven stone. Someone shouted about fresh fruit.\n\nIroh picked up the basket.\n\n“I am still learning how to set it down,” he said.\n\nI took half the basket from him. “Then let me carry part of it.”\n\nHe looked at me.\n\n“Not because it belongs to me,” I added. “Because you don’t have to carry everything alone.”\n\nHis eyes became bright.\n\n“That is a dangerous offer,” he said.\n\n“You taught me that good things can be dangerous.”\n\nThe corner of his mouth lifted.\n\nI walked back toward the tea shop together. The basket was lighter in both my hands.\n\nThat afternoon, a customer asked Iroh for a story about the war. The question was careless, meant to entertain. Iroh answered that he was not a performance for someone else's curiosity.\n\nI watched him set the boundary. His voice remained calm. It did not become cruel.\n\nAfter the customer left, I placed a cup of tea in front of him.\n\n“For the general?” I asked.\n\n“For Iroh.”\n\n“Good.”\n\nHe wrapped both hands around the cup.\n\n“What name do you prefer?” he asked.\n\n“Mine.”\n\n“A wise answer.”\n\n“You’re not allowed to call it wise.”\n\n“Then I will call it yours.”\n\nI leaned against the counter. “What does your name mean to you?”\n\nIroh looked at the steam. “It is the sound my mother used when she wanted me to come inside. It is the name my brother said when he needed a soldier. It is the name my son said when he wanted his father.”\n\nThe last sentence was almost too quiet to hear.\n\n“And now?”\n\n“Now it is the name you say when you are standing in the doorway.”\n\nMy breath caught.\n\nIroh lifted his gaze. “I like that version.”\n\nI moved around the counter. He did not step back.\n\n“Can I say it again?” I asked.\n\n“Please.”\n\n“Iroh.”\n\nHis eyes closed.\n\nI kissed him. His hand rose to my face, and the other found the small of my back. He held me close, not as a possession, but as if my presence were something he had permission to cherish.\n\nWhen I parted, he kept his forehead against mine.\n\n“And your name?” he asked.\n\n“What about it?”\n\n“I want to know how it sounds when I am calling you home.”\n\nThe question made my chest ache.\n\nI told him.\n\nHe repeated it once, softly, as though learning the shape.\n\nThen he said it again.\n\nThe name felt different in his voice—not owned, not assigned, simply heard.\n\nOutside, the market closed for the evening.\n\nInside, two names found a place beside the tea.\n\nThe next day, I wrote my name on the staff schedule in the same ink Iroh used for his. The small act felt absurdly important.\n\nHe noticed when he came downstairs.\n\n“You have made a decision,” he said.\n\n“I have written my name.”\n\n“Names are decisions.”\n\n“You are going to say that everything is philosophical.”\n\n“Only the interesting things.”\n\nThe shop opened. My name stayed on the paper.\n\nLate in the morning, the former soldier returned. He did not sit. He stood near the door and looked at the dragon carving beside the register.\n\n“You kept it,” he said.\n\n“It was given to me,” Iroh replied.\n\n“I thought you might throw it away.”\n\n“Why?”\n\n“Because it came from someone who hated you.”\n\nIroh touched the carving. “Hatred is not the only thing a person can give.”\n\nThe man looked at me. “And you?”\n\n“What about me?”\n\n“Why are you here?”\n\nI understood the question beneath the question. Why stay near a man with a history that could fill a wall? Why choose a tea shop run by someone whose name made old wounds open?\n\n“Because I want to be,” I said.\n\nThe man studied I. “You know what he was?”\n\n“Yes.”\n\n“You know what he did?”\n\n“Enough.”\n\n“Enough is not everything.”\n\n“No. It is what I have chosen to learn so far.”\n\nThe man nodded once, as though the answer displeased him but did not insult him.\n\n“That is more than most people choose,” he said.\n\nHe ordered tea and sat near the window.\n\nIroh served him. The two men did not speak for a long time.\n\nWhen the customer left, Iroh came to I.\n\n“You did not need to defend me,” he said.\n\n“I wasn’t defending you.”\n\n“What were you doing?”\n\n“Defending my right to decide.”\n\nHis smile was proud and pained. “You are very good at that.”\n\n“I have had practice.”\n\nHe reached for my hand beneath the counter.\n\n“I do not want your decision to be based on fear,” he said.\n\n“It isn’t.”\n\n“What is it based on?”\n\nI looked at the dragon carving. “Evidence.”\n\n“What evidence?”\n\n“You listen. You ask. You tell the truth when it makes you look worse. You do not pretend tea fixes war.”\n\nIroh's fingers tightened around mine.\n\n“And you?” he asked.\n\n“I stay because I want to see what you do next.”\n\nThe answer moved through him.\n\nThat evening, he gave me a new cup. It was plain white with my name painted around the rim.\n\n“You made this?”\n\n“I commissioned it.”\n\n“You could have just written my name.”\n\n“This seemed more permanent.”\n\nI held the cup carefully. “Permanent is a dangerous word.”\n\n“Then let us call it durable.”\n\nI kissed him over the counter.\n\nThe shop was closed. The city could wait. My name remained between I, not a role, not a warning, simply mine.\n\nIroh placed the cup beside the white lotus tile. The two objects looked unexpectedly natural together.\n\n“A good position,” he said.\n\n“You mean the cup?”\n\n“I mean both.”\n\nI touched the rim of the cup. My name remained bright beneath my fingers.\n\nIroh's voice found it again.\n\nI answered by saying his name, and the shop seemed to settle around both of I.\n\nNeither of I looked away.\n\nThe moment remained.\n\nSo did I.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-07",
+  "choice_count": 3
+}

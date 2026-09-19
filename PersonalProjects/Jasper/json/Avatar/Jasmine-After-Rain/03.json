@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Guest with No Destination",
+  "subtitle": "Jasmine After Rain · Chapter 3 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 3,
+  "word_count": 1507,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-03-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-04",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-03-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-04",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-03-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-04",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "My first week at the Jasmine Dragon taught me that tea shops contained more drama than theaters.\n\nThere were customers who ordered one cup and stayed for four hours. There were customers who believed the temperature of tea reflected the moral character of the person serving it. There was a man who claimed to know every tea in the Earth Kingdom and then mistook jasmine for boiled grass.\n\nIroh handled all of them with patience.\n\n“The customer is not always right,” he told me after the man left. “But the customer is always capable of being thirsty.”\n\n“That is a dangerous philosophy.”\n\n“It has kept the shop open.”\n\nI learned the names of the regulars. I learned which table caught the morning sun and which chair made a noise when someone leaned back. I learned that Iroh hummed when he was happy and became very quiet when he was worried.\n\nHe learned that I took my tea too hot.\n\n“You will burn your tongue,” he warned.\n\n“I have survived worse.”\n\n“That does not mean you must continue collecting injuries.”\n\n“It’s a hobby.”\n\n“An expensive one.”\n\nThe conversation took place while I stood on a stool reaching for a tin on the highest shelf. Iroh placed one hand on the stool's back to steady it.\n\n“I can reach,” I said.\n\n“I know.”\n\n“Then why are you holding the stool?”\n\n“Because reaching and falling are not opposites.”\n\nI looked down at him. He was close enough that I could see the lines at the corners of his eyes. His hand remained on the stool, not my body.\n\n“You’re very careful,” I said.\n\n“I have had practice.”\n\n“With stools?”\n\n“With people who insist on climbing when a ladder is available.”\n\nI found the tin and climbed down. Iroh did not move away until both my feet were on the floor.\n\n“Thank you,” I said.\n\n“You are welcome.”\n\nThe shop door opened, and the moment dissolved into orders.\n\nThat evening, the boarding house owner told me the room above the tea shop had become available.\n\n“Iroh asked whether you might need it,” she said.\n\nI froze. “He did?”\n\n“He did not ask me to offer it to you. He asked whether the room was still empty. There is a difference.”\n\n“Is there?”\n\n“With Iroh, there is usually a difference.”\n\nThe room was larger than my current one. It had a slanted ceiling, a narrow balcony, and a window that looked over the tea shop sign. The rent was reasonable. The stairs were steep, but the space felt connected to the work I had begun.\n\nI did not answer immediately.\n\n“You don’t have to decide because he mentioned it,” the owner said. “He will not take offense if you say no.”\n\n“I know.”\n\n“Do you?”\n\nI thought about Iroh's hands on the stool. His careful questions. The way he gave me food without making I grateful for it.\n\n“I want to see him,” I said.\n\nThe owner nodded. “Then go ask.”\n\nIroh was closing the shop when I arrived. He had rolled up his sleeves and was sweeping leaves from the front step.\n\n“You are early,” he said.\n\n“I’m not scheduled until morning.”\n\n“Then you have come to surprise me.”\n\n“Maybe.”\n\nHis eyes brightened. “A flexible word.”\n\nI told him about the room.\n\n“It is available,” he said.\n\n“You asked about it.”\n\n“I did.”\n\n“Why?”\n\nIroh rested both hands on the broom. “Because you walk home in the dark, and the boarding house is farther away than I like.”\n\n“You don’t own my route.”\n\n“No.” His gaze remained steady. “Nor do I wish to. I am offering information, not authority.”\n\nThe distinction eased I.\n\n“Would it be strange?” I asked.\n\n“To live above the shop?”\n\n“To live above your shop.”\n\n“It would be convenient.”\n\n“That is not what I asked.”\n\nHe smiled faintly. “It might be. We are already becoming familiar. Familiarity is not a crime.”\n\n“It can become one.”\n\n“Then we will keep good boundaries.”\n\nHis answer was so immediate that I looked away.\n\n“You have thought about this,” I said.\n\n“I think about many things. Tea. Rent. Whether the roof will leak. Whether my employee is sleeping enough.”\n\n“You’re not my parent.”\n\n“No. I am your employer.”\n\n“And the man who keeps putting food in front of me.”\n\n“A separate department.”\n\nThe streetlamp lit the silver in his hair. I became aware of how close I stood.\n\n“Would you prefer I not take the room?” I asked.\n\nIroh's expression shifted. The humor faded, leaving something direct.\n\n“I would prefer you take it if it is good for you,” he said. “I would prefer you refuse it if it is not. I would prefer that you not choose based on what you imagine I want.”\n\n“What do you want?”\n\nThe broom leaned against the wall. Iroh looked toward the closed shop, then back at I.\n\n“I want you to have a safe place to sleep,” he said. “I want you to be honest with me. I want the shop to remain a place where you can work without wondering whether kindness is a debt.”\n\nI swallowed.\n\n“And personally?”\n\nHis gaze held mine.\n\n“Personally, I enjoy your company,” he said. “I look forward to your footsteps on the stairs. I have begun choosing teas that you like before you arrive. I am not asking you to do anything with that information.”\n\nMy heartbeat had become too loud.\n\n“You can ask me to do something,” I whispered.\n\n“I could.”\n\n“Are you?”\n\nIroh stepped closer, not touching. “Not tonight.”\n\nThe answer held restraint, not rejection.\n\nI looked toward the room above the shop. “I’ll take it.”\n\nHis shoulders eased.\n\n“Because it is good for me,” I added.\n\n“Of course.”\n\n“And because I like the sound of my footsteps on your stairs.”\n\nThe smile he gave me was smaller than his customer smile and far more dangerous.\n\n“Then I will listen for them,” he said.\n\nI went home with a new key and a promise to move in at the end of the week.\n\nAbove the Jasmine Dragon, the empty room waited in the dark.\n\nBelow it, Iroh locked the door and smiled at the sound of my footsteps disappearing down the street.\n\nThe room above the shop was not completely ready. One window stuck. The desk wobbled. A draft moved beneath the balcony door.\n\nI stood in the middle of it and felt something unfamiliar settle over I.\n\nNot certainty. Not safety in the absolute sense.\n\nPermission.\n\nI was allowed to choose a room because I liked it. I was allowed to accept a gift without owing a piece of myself. I was allowed to want the man downstairs without turning the wanting into a contract.\n\nIroh knocked before coming up, even though the door was open.\n\n“You are inspecting the flaws,” he said.\n\n“I am deciding whether they have character.”\n\n“And?”\n\n“The window is guilty.”\n\nHe stepped inside. “I will repair it tomorrow.”\n\n“You don’t have to repair everything.”\n\n“No. But I can repair a window.”\n\nI looked at him. “And if I don’t want help?”\n\n“Then I will leave the tools downstairs.”\n\nThe answer made me smile.\n\nHe touched the edge of the desk. “You can change your mind about the room.”\n\n“I know.”\n\n“You can change your mind about me.”\n\n“I know.”\n\n“Good.”\n\nI crossed to him. “I’m not changing it tonight.”\n\nIroh's hand rose to my cheek. “Then I am pleased.”\n\nHe kissed me once, carefully, then left me to arrange my books.\n\nThe room no longer felt borrowed.\n\nI spent the first night above the shop listening to the city through the thin glass. Iroh's footsteps moved below as he finished closing. A drawer opened. A kettle hissed. The lock turned.\n\nThen silence.\n\nI had slept in many temporary places. They all carried a particular kind of quiet, the quiet of a room waiting for I to leave. This one was different. The quiet had a direction. It rose from the shop and settled around I like warmth.\n\nIn the morning, I used the new key before Iroh could knock.\n\nHe was standing behind the counter with two cups already prepared.\n\n“You are early,” he said.\n\n“I live upstairs.”\n\n“You do.”\n\n“You sound pleased.”\n\n“I am trying to remain professional.”\n\n“How is that going?”\n\n“Poorly.”\n\nI took the tea he offered. He had chosen the blend with mountain mint.\n\n“You remembered,” I said.\n\n“I remember a great many things.”\n\n“You are going to keep saying that until I believe you.”\n\n“It is an effective strategy.”\n\nI drank the tea. The shop smelled like jasmine and morning.\n\nIroh leaned against the counter beside I. “You may grow tired of my reminders.”\n\n“I may.”\n\n“Then you will tell me.”\n\n“I will.”\n\n“Good.”\n\nThe word followed me into the workday.\n\nThat was enough for the moment.\n\nI slept well.\n\nIn the morning, the shop smelled like jasmine and bread.\n\nIroh had already placed a cup beside the register. I carried it upstairs, then returned before he could pretend not to be waiting.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-03",
+  "choice_count": 3
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Shop After Closing",
+  "subtitle": "Jasmine After Rain · Chapter 18 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Avatar: The Last Airbender",
+  "pairing": "Iroh / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+  "series_slug": "jasmine-after-rain",
+  "series_title": "Jasmine After Rain",
+  "chapter_number": 18,
+  "word_count": 1507,
+  "research_alignment": [
+    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
+    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "avatar-18-direct",
+      "label": "Say the honest thing",
+      "target": "avatar-19",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "avatar-18-playful",
+      "label": "Let the moment be playful",
+      "target": "avatar-19",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "avatar-18-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "avatar-19",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The tea shop after closing had a different kind of silence.\n\nDuring the day, every sound belonged to someone: cups touching saucers, chairs moving across the floor, customers laughing, the kettle announcing that it had been ignored. At night, the quiet belonged to the wood, the walls, the jasmine plant, and the two of I.\n\nIroh began locking the door earlier.\n\n“You are becoming suspicious,” I said.\n\n“I am becoming efficient.”\n\n“You closed thirty minutes early.”\n\n“The chairs were tired.”\n\n“The chairs have no feelings.”\n\n“You have met very few chairs.”\n\nI stood behind the counter, sorting tea leaves into small tins. Iroh moved through the shop with a candle in one hand. The light caught the silver in his hair.\n\n“Are you going to help?” I asked.\n\n“I am supervising.”\n\n“You are watching me.”\n\n“That is part of supervision.”\n\n“You have been watching me for five minutes.”\n\n“A thorough supervisor is a good supervisor.”\n\nI put the tin down. “Come here.”\n\nIroh's eyebrows lifted. “That sounded like an order.”\n\n“You can refuse.”\n\n“I could.”\n\n“Are you going to?”\n\n“No.”\n\nHe crossed the room. I met him beside the counter. His hands settled at my waist.\n\n“Still comfortable?” he asked.\n\n“You are becoming predictable.”\n\n“I am becoming careful.”\n\n“You can be both.”\n\nHe kissed me.\n\nThe kiss was slow, but the shop held the heat of it. Iroh pressed close enough that I felt the strength of him through his clothes. I touched his shoulders, then the back of his neck. He made a quiet sound against my mouth.\n\n“That was not very scholarly,” I murmured.\n\n“I have studied many subjects.”\n\n“Was kissing one of them?”\n\n“I am conducting research.”\n\n“The experiment is going well.”\n\n“I am pleased.”\n\nHe kissed the corner of my mouth, then my cheek. His fingers traced the line of my back, pausing whenever my breath changed.\n\nThe candle flame bent in the draft. Outside, a cart rolled past, its driver singing under his breath.\n\n“We should go upstairs,” Iroh said.\n\n“Why?”\n\n“Because the shop has windows.”\n\n“You are concerned about being seen?”\n\n“I am concerned about giving the neighborhood an unnecessarily interesting morning.”\n\nI laughed. He kissed me again, longer this time.\n\n“You know,” I said, “you could just say you want privacy.”\n\n“I want privacy.”\n\n“Good.”\n\nHe took my hand. I locked the back door together. The stairs creaked beneath I.\n\nUpstairs, the room smelled of jasmine and rain. The balcony doors were open. Iroh closed them, then turned to I.\n\n“We should talk,” he said.\n\n“That sounds ominous.”\n\n“It is about the future.”\n\n“The future is always ominous when someone says it like that.”\n\nHe took off his outer coat and draped it over the chair.\n\n“You may not wish to remain above the shop forever,” he said. “You may want a place entirely your own.”\n\n“I know.”\n\n“You may decide the work is not what you want.”\n\n“I know.”\n\n“You may decide you do not want me.”\n\n“I know.”\n\nHe looked at me. “I am telling you because I do not want tonight to become a promise you feel required to keep.”\n\nThe tenderness of it made my chest ache.\n\n“I want tonight,” I said.\n\n“That is enough.”\n\n“And I want tomorrow.”\n\n“That is also enough.”\n\n“And I want to see what happens after tomorrow.”\n\nIroh stepped closer. “Then we will see it.”\n\nI reached for him. “Can I kiss you?”\n\nHis smile was warm. “You may.”\n\nThe kiss carried all the conversations I had not finished. His hands were careful, but no longer hesitant. I knew the questions he would ask. He knew the ways I answered.\n\nWhen the heat between I grew, he paused.\n\n“Still comfortable?”\n\n“Yes.”\n\n“Do you wish to stop?”\n\n“No.”\n\n“Then we may continue.”\n\nThe lamp went out.\n\nThe rest of the night remained mine: intimate, consensual, and hidden from the city beyond the balcony.\n\nIn the morning, I found Iroh asleep beside I, one hand open on the blanket between I. I placed my hand in it.\n\nHis fingers closed around mine without waking.\n\nThe tea shop below would open soon.\n\nFor a little longer, I let the world wait.\n\nWhen I woke, Iroh was already watching the dawn through the balcony doors.\n\n“You are awake,” he said.\n\n“You are staring.”\n\n“I am observing.”\n\n“That is what you call staring.”\n\n“It is a more respectable word.”\n\nI sat up. His outer robe was draped over the chair. The room smelled of jasmine and rain.\n\n“Did you sleep?” I asked.\n\n“Eventually.”\n\n“You are using my answer.”\n\n“It is a useful one.”\n\nHe brought me tea in the cup with my name. I accepted it.\n\n“The shop opens in an hour,” I said.\n\n“Then we should not be here.”\n\n“You are the owner.”\n\n“A poor excuse for lateness.”\n\n“You have been late before.”\n\n“I was younger.”\n\n“You are using age again.”\n\n“It remains effective.”\n\nI drank. The tea was perfect.\n\n“I want to ask about work,” I said.\n\nIroh sat at the edge of the bed. “Ask.”\n\n“Do you still want me as an employee?”\n\n“Yes.”\n\n“Even if we are together?”\n\n“Yes.”\n\n“What if one of us has a bad day?”\n\n“We do not punish the other with silence.”\n\n“What if we argue?”\n\n“We step away from the customers. We do not use wages or housing as weapons.”\n\n“What if we break up?”\n\nThe question changed the room.\n\nIroh looked at me for a long moment. “Then we make a plan that protects your home and your work. You will not lose the room because a relationship ended.”\n\nMy eyes burned.\n\n“You mean that?”\n\n“Yes.”\n\n“Even if you are hurt?”\n\n“Especially then.”\n\nThe answer was not romantic in the way songs were romantic. It was better. It gave love a structure strong enough to hold pain without turning it into punishment.\n\nI reached for him. He took my hand.\n\n“I do not plan to break up with you,” he said.\n\n“I know.”\n\n“But a plan should include difficult possibilities.”\n\n“You are very responsible.”\n\n“It is a burden.”\n\n“You can set it down sometimes.”\n\n“I am trying.”\n\nI kissed him. He smiled against my mouth.\n\nThe shop bell rang downstairs.\n\n“We are late,” I said.\n\n“The customers may survive.”\n\n“The kettle will not.”\n\n“The kettle is immortal.”\n\nI dressed together, bumping shoulders in the narrow room. Iroh tied his sash while I searched for the key to the shop.\n\n“It is in your pocket,” he said.\n\n“How do you know?”\n\n“I am observing.”\n\nI found it in his pocket instead.\n\n“You stole my key.”\n\n“I was keeping it safe.”\n\n“From what?”\n\n“Your forgetfulness.”\n\nI took it back and kissed him again.\n\nDownstairs, the first customer pretended not to notice that my hair was untidy and Iroh's robe was tied incorrectly.\n\nThe shop opened.\n\nThe day began.\n\nThat night, I made a new rule: one evening each week belonged to neither the shop nor the road. It belonged to I.\n\nIroh agreed.\n\nThen he asked whether tea counted as work.\n\nI told him it depended on whether he was making it for customers or for I.\n\nHe smiled. “Then I know what to brew.”\n\nThe first evening belonging only to I began with a walk to the river. Iroh brought no notebook, no letters, and no map. I carried a small basket of food.\n\n“You have planned,” he said.\n\n“I have planned not to plan.”\n\n“An advanced discipline.”\n\nI sat beneath a tree. The river reflected the lanterns from the bridge. Iroh poured tea from a flask.\n\n“Is this shop tea?” I asked.\n\n“It is personal tea.”\n\n“What is the difference?”\n\n“The shop tea is measured. The personal tea is made by feeling.”\n\nI tasted it. It was softer than his usual blend, with honey and citrus.\n\n“It is good,” I said.\n\n“You sound surprised.”\n\n“You made it by feeling.”\n\n“My feelings are refined.”\n\n“Your feelings are dramatic.”\n\n“Refined drama.”\n\nI leaned against his shoulder.\n\n“What do you want to do when there is nothing to fix?” I asked.\n\nIroh thought. “Sit with you.”\n\n“That is all?”\n\n“Some days, yes.”\n\n“You could play pai sho.”\n\n“You would lose.”\n\n“I could throw a tile.”\n\n“A powerful strategy.”\n\nI laughed. The evening passed without a crisis. It felt like a rare kind of magic.\n\nWhen I returned to the shop, Iroh opened the door and held it for I.\n\n“You first,” he said.\n\n“You are becoming polite.”\n\n“I am becoming romantic.”\n\n“You have always been romantic.”\n\n“I have been hiding it beneath tea.”\n\n“Poorly.”\n\nHe kissed me in the doorway.\n\nThe kiss lasted until the river lanterns blurred behind my closed eyes.\n\nWhen I finally separated, Iroh kept his forehead against mine and asked whether tomorrow could belong to the shop again.\n\n“Only if tonight belongs to us,” I said.\n\n“It does.”\n\nI walked home beneath the lanterns with my hands joined.\n\nThe night was quiet around I.\n\nThe quiet followed me to the shop door and waited while Iroh found the key.\n\nThe night was quiet around I.",
+  "fandom_folder": "Avatar",
+  "series_folder": "Jasmine-After-Rain",
+  "series_path": "Avatar/Jasmine-After-Rain",
+  "id": "avatar-18",
+  "choice_count": 3
+}
