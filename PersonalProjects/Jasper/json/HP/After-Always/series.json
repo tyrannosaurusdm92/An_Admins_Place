@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_series",
   "fandom": "Harry Potter",
   "series_title": "After Always",
@@ -8,7 +8,7 @@
   "series_path": "HP/After-Always",
   "pairing": "Severus Snape / Adult Reader",
   "reader_character": "Adult self-insert reader-proxy, written in first person",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "chapter_count": 40,
   "chapters": [
     {
@@ -332,7 +332,7 @@
       "id": "after-always-40"
     }
   ],
-  "total_word_count": 50964,
+  "total_word_count": 50951,
   "key": "after-always",
   "title": "After Always",
   "folder": "HP",
@@ -382,5 +382,14 @@
     "40.json"
   ],
   "description": "After the war, an adult reader helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
-  "choice_count": 3
+  "choice_count": 3,
+  "content_mode": "romance",
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "explicit_branching": {
+    "available": true,
+    "target": "@generate-explicit",
+    "requires_story_provider": true,
+    "adult_characters_only": true
+  }
 }

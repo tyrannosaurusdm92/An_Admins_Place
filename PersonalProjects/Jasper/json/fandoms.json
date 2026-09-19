@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.1",
+  "schema_version": "5.2",
   "work_type": "fanfiction_library_catalog",
   "title": "Jasper's Fanfiction Spot",
   "series_count": 5,
@@ -21,7 +21,10 @@
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 61052
+      "total_word_count": 60941,
+      "adult_characters_confirmed": true,
+      "consenting_adults_confirmed": true,
+      "explicit_branching": true
     },
     {
       "key": "love-and-duty",
@@ -40,7 +43,10 @@
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 60900
+      "total_word_count": 60873,
+      "adult_characters_confirmed": true,
+      "consenting_adults_confirmed": true,
+      "explicit_branching": true
     },
     {
       "key": "what-the-armor-leaves-behind",
@@ -59,7 +65,10 @@
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 61876
+      "total_word_count": 61856,
+      "adult_characters_confirmed": true,
+      "consenting_adults_confirmed": true,
+      "explicit_branching": true
     },
     {
       "key": "after-always",
@@ -78,7 +87,10 @@
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 50964
+      "total_word_count": 50951,
+      "adult_characters_confirmed": true,
+      "consenting_adults_confirmed": true,
+      "explicit_branching": true
     },
     {
       "key": "stars-between-the-strings",
@@ -97,7 +109,11 @@
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 62644
+      "total_word_count": 62653,
+      "adult_characters_confirmed": true,
+      "consenting_adults_confirmed": true,
+      "explicit_branching": true
     }
-  ]
+  ],
+  "total_word_count": 297274
 }

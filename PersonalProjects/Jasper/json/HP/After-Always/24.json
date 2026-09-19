@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "author": "William Saville",
   "dedication": "Written for Jasper",
@@ -8,14 +8,14 @@
   "fandom": "Harry Potter",
   "pairing": "Severus Snape / Adult Reader",
   "reader_character": "Adult self-insert reader-proxy, written in first person",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters are adults",
     "Post-war alternate universe: Severus Snape survives",
     "References to war, injury, grief, bullying, and past extremist affiliation",
     "Romantic intimacy and sensual tension",
-    "Intimate scenes fade to black",
-    "No explicit sexual content"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "series_slug": "after-always",
   "series_title": "After Always",
@@ -56,18 +56,17 @@
       "generation_hint": "Resist filling the quiet; let Snape decide whether he is willing to step toward the truth."
     },
     {
-      "path_key": "private-letter",
-      "label": "Write the truth down before I say it aloud",
-      "description": "Make a private draft where the difficult thing can become specific before it is spoken.",
+      "path_key": "intimate",
+      "label": "Take the intimate route",
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
       "effect": {
-        "privacy": 1,
-        "reflection": 1
+        "intimacy": 1,
+        "trust": 1
       },
       "private": true,
       "id": "after-always-24-private-letter",
-      "target": "@private",
-      "return_to": "after-always-25",
-      "generation_hint": "Make a private draft where the difficult thing can become specific before it is spoken."
+      "target": "@generate-explicit",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "choice_count": 3,
@@ -75,5 +74,8 @@
     "plain-answer": "Carry forward the concrete consequence of choosing “Answer Snape plainly,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "watch-and-wait": "Carry forward the concrete consequence of choosing “Give him silence and see what he reveals,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "private-letter": "Carry forward the concrete consequence of choosing “Write the truth down before I say it aloud,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem."
-  }
+  },
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }
