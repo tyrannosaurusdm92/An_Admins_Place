@@ -1,0 +1,384 @@
+{
+  "schema_version": "5.0",
+  "fandom": "Fallout 4",
+  "series_title": "What the Armor Leaves Behind",
+  "series_slug": "what-the-armor-leaves-behind",
+  "series_folder": "What-The-Armor-Leaves-Behind",
+  "series_path": "FO4/What-The-Armor-Leaves-Behind",
+  "pairing": "Paladin Danse / Adult Reader",
+  "description": "An adult unnamed first-person reader-proxy falls for Paladin Danse through Brotherhood missions, grief, hard arguments, Blind Betrayal, and the difficult work of building a life after rank and certainty are stripped away.",
+  "chapter_count": 40,
+  "chapters": [
+    {
+      "number": 1,
+      "file": "01.json",
+      "title": "Check Your Fire",
+      "word_count": 1687,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-01"
+    },
+    {
+      "number": 2,
+      "file": "02.json",
+      "title": "Orders and Ammunition",
+      "word_count": 1581,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-02"
+    },
+    {
+      "number": 3,
+      "file": "03.json",
+      "title": "ArcJet",
+      "word_count": 1617,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-03"
+    },
+    {
+      "number": 4,
+      "file": "04.json",
+      "title": "The Deep Range",
+      "word_count": 1650,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-04"
+    },
+    {
+      "number": 5,
+      "file": "05.json",
+      "title": "Righteous Authority",
+      "word_count": 1530,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-05"
+    },
+    {
+      "number": 6,
+      "file": "06.json",
+      "title": "Steel and Scrap",
+      "word_count": 1533,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-06"
+    },
+    {
+      "number": 7,
+      "file": "07.json",
+      "title": "The Dead on the Roster",
+      "word_count": 1593,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-07"
+    },
+    {
+      "number": 8,
+      "file": "08.json",
+      "title": "Off the Record",
+      "word_count": 1517,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-08"
+    },
+    {
+      "number": 9,
+      "file": "09.json",
+      "title": "Power Armor",
+      "word_count": 1562,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-09"
+    },
+    {
+      "number": 10,
+      "file": "10.json",
+      "title": "A Signal in the Sky",
+      "word_count": 1605,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-10"
+    },
+    {
+      "number": 11,
+      "file": "11.json",
+      "title": "The Prydwen",
+      "word_count": 1625,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-11"
+    },
+    {
+      "number": 12,
+      "file": "12.json",
+      "title": "Vertibird Weather",
+      "word_count": 1548,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-12"
+    },
+    {
+      "number": 13,
+      "file": "13.json",
+      "title": "Fort Strong",
+      "word_count": 1507,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-13"
+    },
+    {
+      "number": 14,
+      "file": "14.json",
+      "title": "Cutler",
+      "word_count": 1559,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-14"
+    },
+    {
+      "number": 15,
+      "file": "15.json",
+      "title": "The Lost Patrol",
+      "word_count": 1580,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-15"
+    },
+    {
+      "number": 16,
+      "file": "16.json",
+      "title": "What Counts as Human",
+      "word_count": 1559,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-16"
+    },
+    {
+      "number": 17,
+      "file": "17.json",
+      "title": "Benchwork",
+      "word_count": 1509,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-17"
+    },
+    {
+      "number": 18,
+      "file": "18.json",
+      "title": "The Weight of Command",
+      "word_count": 1527,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-18"
+    },
+    {
+      "number": 19,
+      "file": "19.json",
+      "title": "Under the Tanks",
+      "word_count": 1555,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-19"
+    },
+    {
+      "number": 20,
+      "file": "20.json",
+      "title": "Permission to Speak Freely",
+      "word_count": 1528,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-20"
+    },
+    {
+      "number": 21,
+      "file": "21.json",
+      "title": "Orders I Can't Follow",
+      "word_count": 1566,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-21"
+    },
+    {
+      "number": 22,
+      "file": "22.json",
+      "title": "A Machine with a Name",
+      "word_count": 1509,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-22"
+    },
+    {
+      "number": 23,
+      "file": "23.json",
+      "title": "Liberty",
+      "word_count": 1531,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-23"
+    },
+    {
+      "number": 24,
+      "file": "24.json",
+      "title": "The List",
+      "word_count": 1504,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-24"
+    },
+    {
+      "number": 25,
+      "file": "25.json",
+      "title": "Missing",
+      "word_count": 1500,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-25"
+    },
+    {
+      "number": 26,
+      "file": "26.json",
+      "title": "Listening Post Bravo",
+      "word_count": 1506,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-26"
+    },
+    {
+      "number": 27,
+      "file": "27.json",
+      "title": "The Example",
+      "word_count": 1555,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-27"
+    },
+    {
+      "number": 28,
+      "file": "28.json",
+      "title": "No Rank",
+      "word_count": 1531,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-28"
+    },
+    {
+      "number": 29,
+      "file": "29.json",
+      "title": "Nothing",
+      "word_count": 1504,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-29"
+    },
+    {
+      "number": 30,
+      "file": "30.json",
+      "title": "The Things That Remain",
+      "word_count": 1507,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-30"
+    },
+    {
+      "number": 31,
+      "file": "31.json",
+      "title": "A Different Kind of Orders",
+      "word_count": 1501,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-31"
+    },
+    {
+      "number": 32,
+      "file": "32.json",
+      "title": "Civilian Clothes",
+      "word_count": 1514,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-32"
+    },
+    {
+      "number": 33,
+      "file": "33.json",
+      "title": "Heart and Mind",
+      "word_count": 1512,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-33"
+    },
+    {
+      "number": 34,
+      "file": "34.json",
+      "title": "Patient",
+      "word_count": 1511,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-34"
+    },
+    {
+      "number": 35,
+      "file": "35.json",
+      "title": "A Home That Isn't a Bunker",
+      "word_count": 1520,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-35"
+    },
+    {
+      "number": 36,
+      "file": "36.json",
+      "title": "Three Chords",
+      "word_count": 1516,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-36"
+    },
+    {
+      "number": 37,
+      "file": "37.json",
+      "title": "The Name He Chose",
+      "word_count": 1509,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-37"
+    },
+    {
+      "number": 38,
+      "file": "38.json",
+      "title": "No Exceptions",
+      "word_count": 1509,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-38"
+    },
+    {
+      "number": 39,
+      "file": "39.json",
+      "title": "To Victory",
+      "word_count": 1521,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-39"
+    },
+    {
+      "number": 40,
+      "file": "40.json",
+      "title": "What the Armor Leaves Behind",
+      "word_count": 1678,
+      "choice_count": 3,
+      "id": "what-the-armor-leaves-behind-40"
+    }
+  ],
+  "total_word_count": 61876,
+  "work_type": "fanfic_series",
+  "key": "what-the-armor-leaves-behind",
+  "title": "What the Armor Leaves Behind",
+  "folder": "FO4",
+  "fandom_folder": "FO4",
+  "story_folder": "What-The-Armor-Leaves-Behind",
+  "story_type": "cyoa_fanfiction",
+  "chapter_files": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json"
+  ],
+  "choice_count": 3
+}
