@@ -1,0 +1,19 @@
+{
+  "project": "Jasper Fanfiction CYOA Fixed Mobile Virtual Book",
+  "date": "2026-09-19",
+  "mobile_first": true,
+  "desktop_testable": true,
+  "core_runtime": "Virtual Book",
+  "restored_functions": ["openRoute", "openChapter", "withBusy", "chooseChoice", "continueStory"],
+  "always_visible_hud": ["Menu", "Fanfic dropdown", "Create", "Save", "Undo", "Previous", "Next"],
+  "drawer": ["Library", "Create", "Search", "Chapters", "Save", "Undo", "Bookmark", "Settings", "Zoom", "Sound", "Import JSON", "Import Folder", "Connect Folder", "Export New"],
+  "page_turn": ["finger drag", "mouse drag", "fallback arrows", "keyboard arrows"],
+  "browser_viewports_tested": ["390x844 portrait", "844x390 landscape", "1280x800 desktop"],
+  "browser_errors": 0,
+  "document_overflow_in_tested_viewports": false,
+  "series": 5,
+  "bundled_chapters": 200,
+  "legacy_private_targets": 0,
+  "explicit_generator_targets": 200,
+  "indexeddb_denial_fallback": true
+}

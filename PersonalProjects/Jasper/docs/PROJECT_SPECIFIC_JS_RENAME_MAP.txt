@@ -1,0 +1,22 @@
+Original filename -> Jasper project filename
+ai-brain-creative.js -> jasper-fanfiction-writing-style.js
+ai-brain-world-model.js -> jasper-fanfiction-story-graph.js
+app.js -> jasper-fanfiction-reader-app.js
+books-publishing--src_0063.js -> jasper-fanfiction-generation-stream.js
+books-publishing--src_0067.js -> jasper-fanfiction-dialogue-parser.js
+cyoa-story-engine.js -> jasper-fanfiction-cyoa-engine.js
+fanfic-data.js -> jasper-fanfiction-library-data.js
+game-design--fallback-brain.js -> jasper-fanfiction-intent-fallback.js
+game-design--quest-builder.js -> jasper-fanfiction-branch-builder.js
+memory-engine.js -> jasper-fanfiction-continuity-memory.js
+persona-agents--dialogue-context.js -> jasper-fanfiction-character-context.js
+persona-agents--dialogue-engine.js -> jasper-fanfiction-character-dialogue.js
+persona-agents--prompt.js -> jasper-fanfiction-character-prompt.js
+persona-agents--reactions.js -> jasper-fanfiction-character-reactions.js
+persona-agents--relationship-engine.js -> jasper-fanfiction-relationship-engine.js
+persona-manager.js -> jasper-fanfiction-reader-profile.js
+session-memory.js -> jasper-fanfiction-session-memory.js
+worldbuilding--era-engine.js -> jasper-fanfiction-canon-era.js
+worldbuilding--generator_core.js -> jasper-fanfiction-setting-generator.js
+worldbuilding--homeworld-context.js -> jasper-fanfiction-fandom-context.js
+worldbuilding--world_lore.js -> jasper-fanfiction-lore-library.js

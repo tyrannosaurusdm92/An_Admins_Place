@@ -1,3 +1,25 @@
+# 2026-09-19 — Virtual-book HUD + physical page turns
+
+- Removed the large reader toolbar from above the book.
+- Added a compact bottom mobile HUD inspired by the supplied app-shell template.
+- Added an upward-opening HUD drawer containing Library, Chapters, Search, Save, Undo, Bookmarks, story settings, zoom, sound, import/export, and project-folder tools.
+- Moved the fanfic library out of the paper pages so the book remains the visual focus.
+- Reworked landscape/desktop reading into actual two-page story spreads; portrait remains one paper page.
+- Ported the supplied reference book's physical page-turn interaction: 3D sheet rotation, lift, droop, fold ridges, curled edge, dynamic highlight/shadow, sound, drag progress, cancel, and completion inertia.
+- Page grabs are primary. HUD arrows and keyboard arrows now call the same page-turn controller as drag gestures.
+- Reduced chapter leaf word targets to keep prose contained inside paper without shrinking it into an unreadable column.
+
+# 2026-09-19 — Mobile page-layout rebuild
+
+- Rebuilt the reader around the actual viewport instead of a fixed page size.
+- Chapters are split into real reader leaves before the decision page, so long story text no longer pours through one paper surface.
+- Left-page branch/settings content now scrolls inside the paper rather than clipping below it.
+- Kept zoom at 50–300%; zoom enlarges the whole book and uses the surrounding book area for panning instead of collapsing the layout.
+- Moved zoom outside the reader-only toolbar so it remains available on the library and Create Fanfic screens.
+- Compact mobile portrait and landscape toolbars preserve more screen height for the book.
+- Removed the duplicate chapter page-number element that could visually overlap the reader.
+- Kept the colored fanfic dropdown and the Create/Resume/Save/Import controls directly below the library tagline.
+
 # 2026-09-19 mobile merge
 
 - Replaced the fanfic card wall with one colored button dropdown.
@@ -33,3 +55,9 @@
 - Converted the reader-proxy to first person.
 - Added chapter choices, path memory, and generator-backed adult branching.
 - Kept the project fanfiction-only and removed unrelated poetry and short stories.
+
+
+## 2026-09-19 — Fun-color fanfic dropdown restored
+- Replaced the native HUD fanfic select with the prior colored button-style dropdown.
+- Restored fandom palettes for Avatar, Fallout 4, Harry Potter, and Steven Universe in both the HUD dropdown and drawer library.
+- Kept the repaired mobile-first page-turn/navigation runtime unchanged.

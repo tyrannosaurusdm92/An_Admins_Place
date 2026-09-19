@@ -695,7 +695,8 @@
     async rememberHandle(handle) {
       if (!global.indexedDB || !handle) return;
       await new Promise((resolve, reject) => {
-        const request = indexedDB.open(HANDLE_DB, 1);
+        let request;
+        try { request = indexedDB.open(HANDLE_DB, 1); } catch (_error) { resolve(); return; }
         request.onupgradeneeded = () => {
           const db = request.result;
           if (!db.objectStoreNames.contains(HANDLE_STORE)) db.createObjectStore(HANDLE_STORE);
@@ -716,7 +717,8 @@
       this.handleRestoreAttempted = true;
       if (!global.indexedDB) return null;
       const handle = await new Promise(resolve => {
-        const request = indexedDB.open(HANDLE_DB, 1);
+        let request;
+        try { request = indexedDB.open(HANDLE_DB, 1); } catch (_error) { resolve(null); return; }
         request.onupgradeneeded = () => {
           const db = request.result;
           if (!db.objectStoreNames.contains(HANDLE_STORE)) db.createObjectStore(HANDLE_STORE);
@@ -1202,6 +1204,8 @@
 
     providers() {
       return [
+        global.JASPER_FANFIC_STORY_PROVIDER,
+        global.JASPER_FANFIC_PROVIDER,
         global.CYOA_STORY_PROVIDER,
         global.StoryGenerationProvider?.generate,
         global.AIBrain?.story?.generate,

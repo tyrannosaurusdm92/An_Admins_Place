@@ -1,0 +1,5 @@
+/* Jasper Fanfiction — lightweight local session turn memory. */
+(function(global){'use strict';
+class JasperFanfictionSessionMemory{constructor({maxTurns=80,storage=null,key='jasper-fanfiction-session-v1',persist=true}={}){this.maxTurns=maxTurns;if(storage===null){try{storage=global.localStorage}catch(_){storage=null}}this.storage=storage;this.key=key;this.persist=persist;this.turns=[];if(persist)this.load();}add(turn){this.turns.push({...turn,at:turn?.at||new Date().toISOString()});this.turns=this.turns.slice(-this.maxTurns);this.save();return this.turns.at(-1);}recent(n=12){return this.turns.slice(-n);}clear(){this.turns=[];this.save();}save(){if(this.persist&&this.storage)try{this.storage.setItem(this.key,JSON.stringify(this.turns))}catch(_){}}load(){if(this.storage)try{const v=JSON.parse(this.storage.getItem(this.key)||'[]');if(Array.isArray(v))this.turns=v.slice(-this.maxTurns)}catch(_){}return this.turns;}}
+global.JasperFanfictionSessionMemory=JasperFanfictionSessionMemory;
+})(typeof globalThis!=='undefined'?globalThis:window);

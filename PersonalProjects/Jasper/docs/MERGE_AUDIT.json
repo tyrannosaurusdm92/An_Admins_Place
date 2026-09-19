@@ -1,0 +1,44 @@
+{
+  "build": "Jasper_Fanfic_CYOA_Virtual_Book_Rated_R_Merged_2026-09-19",
+  "engine_version": "5.2.0-virtual-book-merged",
+  "merge_strategy": {
+    "reader_ui": "Virtual Book build retained as sole reader/HUD/page-turn implementation",
+    "story_engine": "Virtual Book engine retained as sole save/branch/generation authority and enhanced with project-specific capabilities",
+    "bundled_library": "Virtual Book fanfic-data and JSON retained as newer canonical library",
+    "specialist_modules": "Project-specific non-conflicting specialist modules loaded and integrated at runtime"
+  },
+  "validated": {
+    "javascript_files": 22,
+    "javascript_syntax_ok": true,
+    "json_files": 207,
+    "json_parse_ok": true,
+    "series": 5,
+    "chapters": 200,
+    "explicit_generator_choices": 200,
+    "legacy_private_targets": 0,
+    "fade_cutaway_phrase_hits_in_existing_chapter_prose": 0,
+    "adult_age_validation": "entered age <18 blocks adult-explicit mode",
+    "runtime_specialist_context": true,
+    "missing_local_html_references": 0
+  },
+  "integrated_features": [
+    "fixed Jasper private reader profile",
+    "adaptive + project-specific writing style context",
+    "adult/canon age validation",
+    "fade/cutaway validation and provider repair",
+    "continuity memory",
+    "session memory",
+    "relationship state",
+    "story graph",
+    "branch builder",
+    "fandom context",
+    "lore notes",
+    "scene setting context",
+    "character context",
+    "dialogue prompt/provider helpers",
+    "dialogue parser",
+    "generation-stream parser",
+    "freeform intent analysis",
+    "expanded Jasper-specific provider hooks"
+  ]
+}

@@ -1,0 +1,10 @@
+Jasper Fanfiction CYOA JS runtime checks
+- 21/21 JavaScript files pass node --check.
+- Embedded corrected library: 5 series / 200 chapters.
+- Nested paths recognized, including Avatar/Jasmine-After-Rain and Avatar/Love-And-Duty.
+- Reader profile resolves to Jasper, born 1999, adult, nonbinary, they/them, AFAB anatomy profile.
+- Legacy mature_on_page setting migrates to adult_explicit.
+- adult_explicit is allowed when adult confirmation is true and entered ages are >=18.
+- adult_explicit is blocked/downgraded when confirmation is missing or any entered age is <18.
+- Common fade-to-black phrases are detected by the explicit-mode validator.
+- Existing imported chapter prose is preserved; generation rules apply prospectively.

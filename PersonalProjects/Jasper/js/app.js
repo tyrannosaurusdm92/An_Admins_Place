@@ -64,6 +64,21 @@
     const pageFlipAudio = document.getElementById('pageFlipAudio');
     const book = document.getElementById('book');
     const bookZoomFrame = document.getElementById('bookZoomFrame');
+    const leftPage = document.getElementById('leftPage');
+    const rightPage = document.getElementById('rightPage');
+    const leftPageNumber = document.getElementById('leftPageNumber');
+    const turnSheet = document.getElementById('turnSheet');
+    const readerDrawer = document.getElementById('readerDrawer');
+    const readerDrawerScrim = document.getElementById('readerDrawerScrim');
+    const readerMenuButton = document.getElementById('readerMenuButton');
+    const readerDrawerClose = document.getElementById('readerDrawerClose');
+    const hudLibrary = document.getElementById('hudLibrary');
+    const hudFanficDropdown = document.getElementById('hudFanficDropdown');
+    const hudFanficMenu = document.getElementById('hudFanficMenu');
+    const hudFanficLabel = document.getElementById('hudFanficLabel');
+    const hudStoryTitle = document.getElementById('hudStoryTitle');
+    const hudPageStatus = document.getElementById('hudPageStatus');
+    const drawerStoryStatus = document.getElementById('drawerStoryStatus');
 
     if (!appShell || !leftContent || !rightContent) {
       document.body.innerHTML = '<main class="fallback-error"><h1>Reader shell is incomplete.</h1><p>The JavaScript loaded, but the expected book-page elements are missing from index.html.</p></main>';
@@ -81,7 +96,10 @@
       busy: false,
       message: '',
       lastRoute: (() => { try { return localStorage.getItem('jasper-last-route') || ''; } catch (_error) { return ''; } })(),
-      chapterPage: 0
+      chapterPage: 0,
+      turning: false,
+      drag: null,
+      drawerOpen: false
     };
     document.documentElement.style.setProperty('--book-zoom', state.zoom.toFixed(2));
     if (zoomLabel) zoomLabel.textContent = `${Math.round(state.zoom * 100)}%`;
@@ -121,6 +139,60 @@
 
     function routeAccent(series) { appShell.dataset.route = series ? series.key : ''; }
 
+    function setDrawerOpen(open, focus = true) {
+      state.drawerOpen = Boolean(open);
+      appShell.classList.toggle('drawer-open', state.drawerOpen);
+      if (readerDrawer) {
+        readerDrawer.setAttribute('aria-hidden', String(!state.drawerOpen));
+        readerDrawer.inert = !state.drawerOpen;
+      }
+      if (readerDrawerScrim) readerDrawerScrim.setAttribute('aria-hidden', String(!state.drawerOpen));
+      if (readerMenuButton) readerMenuButton.setAttribute('aria-expanded', String(state.drawerOpen));
+      if (focus && state.drawerOpen) window.requestAnimationFrame(() => readerDrawerClose?.focus({ preventScroll: true }));
+      if (focus && !state.drawerOpen && document.activeElement && readerDrawer?.contains(document.activeElement)) readerMenuButton?.focus({ preventScroll: true });
+    }
+
+    function renderHudLibrary() {
+      const series = engine.listSeries();
+      if (hudLibrary) {
+        hudLibrary.innerHTML = series.length ? series.map(routeCard).join('') : '<p class="empty-index">No fanfic loaded.</p>';
+        hudLibrary.querySelectorAll('[data-route]').forEach(button => {
+          button.onclick = () => { setDrawerOpen(false, false); openRoute(button.dataset.route, false); };
+        });
+      }
+      if (hudFanficMenu) {
+        hudFanficMenu.innerHTML = series.length ? series.map(routeCard).join('') : '<p class="empty-index">No fanfic loaded.</p>';
+        hudFanficMenu.querySelectorAll('[data-route]').forEach(button => {
+          button.onclick = () => {
+            if (hudFanficDropdown) hudFanficDropdown.open = false;
+            setDrawerOpen(false, false);
+            openRoute(button.dataset.route, false);
+          };
+        });
+      }
+      if (hudFanficLabel) {
+        const selected = state.route ? series.find(item => item.key === state.route) : null;
+        hudFanficLabel.textContent = selected ? `${selected.fandom} · ${selected.title}` : 'Fanfic';
+      }
+    }
+
+    function updateHud() {
+      const series = currentSeries();
+      const chapter = currentChapter();
+      if (hudStoryTitle) hudStoryTitle.textContent = series ? series.title : "Jasper's Fanfiction Spot";
+      if (hudFanficLabel) hudFanficLabel.textContent = series ? `${series.fandom} · ${series.title}` : 'Fanfic';
+      if (drawerStoryStatus) drawerStoryStatus.textContent = series && chapter ? `Chapter ${chapter.chapter_number} · ${chapter.title}` : 'Library';
+      if (hudPageStatus) {
+        if (!series || !chapter) hudPageStatus.textContent = appShell.classList.contains('is-open') ? 'Choose a fanfic' : 'Open the book';
+        else {
+          const leaves = currentChapterPages(chapter).length + 1;
+          const shown = Math.min(leaves, state.chapterPage + 1);
+          const spreadEnd = Math.min(leaves, state.chapterPage + (isPortraitReader() ? 1 : 2));
+          hudPageStatus.textContent = isPortraitReader() || shown === spreadEnd ? `Ch ${chapter.chapter_number} · page ${shown}/${leaves}` : `Ch ${chapter.chapter_number} · pages ${shown}–${spreadEnd}/${leaves}`;
+        }
+      }
+    }
+
     function configurePageFlipAudio() {
       if (!pageFlipAudio) return;
       pageFlipAudio.volume = 0.18;
@@ -129,18 +201,16 @@
       if ('mozPreservesPitch' in pageFlipAudio) pageFlipAudio.mozPreservesPitch = true;
     }
 
-    function playFlip() {
-      if (state.sound && pageFlipAudio) {
-        configurePageFlipAudio();
-        pageFlipAudio.currentTime = 0;
-        pageFlipAudio.play().catch(() => {});
-      }
-      if (book) {
-        book.classList.remove('is-turning');
-        void book.offsetWidth;
-        book.classList.add('is-turning');
-        window.setTimeout(() => book.classList.remove('is-turning'), 560);
-      }
+    function playFlip(progress = 0) {
+      if (!state.sound || !pageFlipAudio) return;
+      configurePageFlipAudio();
+      try {
+        pageFlipAudio.pause();
+        pageFlipAudio.currentTime = Math.min(.16, Math.max(0, progress * .10));
+        pageFlipAudio.volume = .42;
+        const promise = pageFlipAudio.play();
+        if (promise && promise.catch) promise.catch(() => {});
+      } catch (_error) {}
     }
 
     function isPortraitReader() {
@@ -231,16 +301,9 @@
     }
 
     function chapterWordTarget() {
-      const portrait = isPortraitReader();
-      const bookWidth = Math.max(240, book?.offsetWidth || (portrait ? window.innerWidth * .9 : window.innerWidth * .72));
-      const bookHeight = Math.max(240, book?.offsetHeight || (bookWidth / (portrait ? (668 / 1047) : (1336 / 1047))));
-      const pageWidth = portrait ? bookWidth : (bookWidth / 2);
-      const fontPx = portrait ? 11.5 : (window.innerWidth <= 980 ? 10.5 : 11.5);
-      const usableWidth = Math.max(120, pageWidth - 30);
-      const usableHeight = Math.max(150, bookHeight - 92);
-      const wordsPerLine = usableWidth / (fontPx * 3.3);
-      const lines = usableHeight / (fontPx * 1.45);
-      return Math.max(70, Math.min(240, Math.floor(wordsPerLine * lines * .82)));
+      if (isPortraitReader()) return 105;
+      if (window.innerWidth <= 980) return 155;
+      return 205;
     }
 
     function currentChapterPages(chapter = currentChapter()) {
@@ -293,14 +356,18 @@
     function openBook() {
       appShell.classList.add('is-open', 'is-home');
       appShell.classList.remove('is-reading');
+      setDrawerOpen(false, false);
       renderHome();
+      updateHud();
     }
 
     function closeBook() {
       state.route = null;
+      setDrawerOpen(false, false);
       renderHome();
       appShell.classList.remove('is-open', 'is-reading');
       appShell.classList.add('is-home');
+      updateHud();
     }
 
     function routeCard(series) {
@@ -326,8 +393,9 @@
       if (readerToolbar) readerToolbar.hidden = true;
       if (pageFooter) pageFooter.hidden = true;
       if (sidePanel) sidePanel.hidden = true;
+      renderHudLibrary();
+      updateHud();
 
-      const series = engine.listSeries();
       leftContent.innerHTML = `
         <div class="page-inner title-page home-page">
           <div class="home-intro">
@@ -335,31 +403,22 @@
             <p class="series-kicker">Jasper's library</p>
             <h2>Jasper's<br>Fanfiction Spot</h2>
             <h3>Fanfic can branch, resume, and keep growing.</h3>
-            ${toolsMarkup()}
           </div>
         </div>`;
 
       rightContent.innerHTML = `
-        <div class="page-inner home-route-page">
-          <div class="mobile-home-intro">
-            <p class="series-kicker">Jasper's library</p>
-            <h2>Jasper's Fanfiction Spot</h2>
-            <h3>Fanfic can branch, resume, and keep growing.</h3>
-            ${toolsMarkup()}
-            <div class="ornament"></div>
-          </div>
-          <div class="running-head"><span>Fanfic</span><span>${series.length}</span></div>
-          <div class="fanfic-picker-wrap">
-            <details class="fanfic-picker" id="fanficPicker">
-              <summary><span>Choose a Fanfic</span><span aria-hidden="true">▾</span></summary>
-              <div class="fanfic-menu" aria-label="Choose a fanfiction">
-                ${series.length ? series.map(routeCard).join('') : '<p class="empty-index">No fanfic loaded.</p>'}
-              </div>
-            </details>
+        <div class="page-inner title-page home-page home-bookplate">
+          <div>
+            <div class="title-mark" aria-hidden="true">☰</div>
+            <p class="series-kicker">Reader menu</p>
+            <h2>Choose a Fanfic</h2>
+            <h3>Library · Chapters · Search · Branches</h3>
           </div>
         </div>`;
+      if (leftPageNumber) leftPageNumber.textContent = 'i';
       if (rightPageNumber) rightPageNumber.textContent = 'ii';
       bindDynamicButtons();
+      updateNavButtons();
       scheduleFitPageContent();
     }
 
@@ -484,14 +543,20 @@
 
     function renderJournal() {
       if (!branchJournal || !journalEntries) return;
-      const journal = engine.getJournal(state.route);
-      if (!journal.length) {
+      const journal = state.route ? engine.getJournal(state.route) : [];
+      const branches = state.route ? engine.listBranches(state.route) : [];
+      if (!journal.length && !branches.length) {
         branchJournal.hidden = true;
         journalEntries.innerHTML = '';
         return;
       }
       branchJournal.hidden = false;
-      journalEntries.innerHTML = journal.slice(-10).map(entry => `<p class="journal-entry"><strong>${escapeHtml(entry.chapter || `Chapter ${entry.chapterNumber}`)}</strong><br>${escapeHtml(entry.choice)}</p>`).join('');
+      const saved = branches.length ? `<div class="drawer-branch-list">${branches.slice(0, 12).map(branch => `<button class="branch-button" type="button" data-restore-branch="${escapeHtml(branch.id)}"><strong>${escapeHtml(branch.label)}</strong><span>${escapeHtml(branch.chapterNumber ? `Chapter ${branch.chapterNumber}` : 'Saved branch')}</span></button>`).join('')}</div>` : '';
+      const path = journal.length ? `<div class="drawer-path-list">${journal.slice(-8).map(entry => `<p class="journal-entry"><strong>${escapeHtml(entry.chapter || `Chapter ${entry.chapterNumber}`)}</strong><br>${escapeHtml(entry.choice)}</p>`).join('')}</div>` : '';
+      journalEntries.innerHTML = saved + path;
+      journalEntries.querySelectorAll('[data-restore-branch]').forEach(button => {
+        button.onclick = () => { setDrawerOpen(false, false); restoreBranch(button.dataset.restoreBranch); };
+      });
     }
 
     function qualitiesText() {
@@ -505,36 +570,10 @@
       const series = currentSeries();
       const chapter = currentChapter();
       if (!series || !chapter) return;
-      const generatedCount = series.chapters.filter(item => item.generated).length;
-      const canUndo = engine.canUndo(state.route);
-      const branches = engine.listBranches(state.route);
-      const branchList = branches.length
-        ? branches.slice(0, 12).map(branch => `<button class="branch-button" type="button" data-restore-branch="${escapeHtml(branch.id)}"><strong>${escapeHtml(branch.label)}</strong><br><span>${escapeHtml(branch.chapterNumber ? `Chapter ${branch.chapterNumber}` : 'Saved branch')}</span></button>`).join('')
-        : '<span class="branch-empty">No saved branches yet.</span>';
-      leftContent.innerHTML = `
-        <div class="page-inner reader-contents page-safe-scroll">
-          <div class="running-head"><span>${escapeHtml(series.title)}</span><span>${padDisplay(chapter.chapter_number)} / ${series.chapters.length}</span></div>
-          <div class="reader-contents-copy">
-            <p class="series-kicker">${escapeHtml(series.fandom)}</p>
-            <h2>${escapeHtml(series.pairing || series.title)}</h2>
-            <div class="reader-stats"><span><strong>${series.chapters.length}</strong> chapters</span><span><strong>${totalWords(series).toLocaleString()}</strong> words</span><span><strong>${generatedCount}</strong> generated</span></div>
-          </div>
-          <div class="path-card"><strong>Branch state</strong><span>${escapeHtml(qualitiesText())}</span></div>
-          <div class="path-card branch-card" id="branchControls">
-            <strong>Save & revisit</strong>
-            <div class="branch-actions">
-              <button class="choice-button" type="button" data-action="save-progress">Save</button>
-              <button class="choice-button" type="button" data-action="undo" ${canUndo ? '' : 'disabled'}>Undo</button>
-              <button class="choice-button" type="button" data-action="save-branch">Bookmark</button>
-            </div>
-            <div class="branch-list" aria-label="Saved branches">${branchList}</div>
-          </div>
-          <div class="path-card settings-card">
-            <strong>Future chapters</strong>
-            <span>${escapeHtml((series.content_mode || 'romance').replace(/_/g, ' '))} · ${Number(series.target_words || 1600).toLocaleString()} words</span>
-            <button class="choice-button" type="button" data-action="story-settings">Settings</button>
-          </div>
-        </div>`;
+      renderIndex();
+      renderJournal();
+      updateHud();
+      document.querySelectorAll('[data-action="undo"]').forEach(button => { button.disabled = !engine.canUndo(state.route); });
     }
 
     function choiceMarkup(choice) {
@@ -549,45 +588,34 @@
       </button>`;
     }
 
-    function renderChapter() {
-      const series = currentSeries();
-      const chapter = currentChapter();
-      if (!series || !chapter) return renderHome();
-      renderLeftPage();
-      renderIndex();
-      renderJournal();
-      updateBookZoomFrame();
+    function chapterLeafCount(chapter = currentChapter()) {
+      return chapter ? currentChapterPages(chapter).length + 1 : 0;
+    }
 
+    function readerStep() { return isPortraitReader() ? 1 : 2; }
+
+    function normalizeLeaf(index, chapter = currentChapter()) {
+      const count = Math.max(1, chapterLeafCount(chapter));
+      let value = Math.max(0, Math.min(Number(index) || 0, count - 1));
+      if (!isPortraitReader()) value -= value % 2;
+      return value;
+    }
+
+    function leafMarkup(chapter, leafIndex) {
+      if (!chapter) return '<div class="page-inner"><div class="blank-page"></div></div>';
+      const series = currentSeries() || engine.getSeries(state.route);
       const textPages = currentChapterPages(chapter);
-      const decisionPage = textPages.length;
-      state.chapterPage = Math.max(0, Math.min(state.chapterPage, decisionPage));
-      const atDecision = state.chapterPage === decisionPage;
-      const totalReaderPages = textPages.length + 1;
-      const displayPage = state.chapterPage + 1;
-      const choices = engine.availableChoices(chapter);
-      const bridge = engine.getEntryBridge(state.route);
-
-      if (!atDecision) {
-        const pageText = textPages[state.chapterPage] || '';
-        rightContent.innerHTML = `
-          <div class="page-inner chapter-page">
-            <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Chapter ${chapter.chapter_number} · ${displayPage}/${totalReaderPages}</span></div>
-            <div class="page-scroll chapter-scroll">
-              <h2 class="chapter-title">${escapeHtml(chapter.title)}</h2>
-              <p class="chapter-meta">${escapeHtml(chapter.subtitle || '')}${chapter.generated ? ' · generated continuation' : ''}</p>
-              <div class="ornament"></div>
-              ${bridge && state.chapterPage === 0 ? `<div class="path-card carry-card"><strong>Carried forward</strong><span>${escapeHtml(bridge)}</span></div>` : ''}
-              <div class="story-body">${paragraphs(pageText)}</div>
-            </div>
-          </div>`;
-      } else {
-        rightContent.innerHTML = `
+      const decisionIndex = textPages.length;
+      if (leafIndex < 0 || leafIndex > decisionIndex) return '<div class="page-inner"><div class="blank-page">✦</div></div>';
+      if (leafIndex === decisionIndex) {
+        const choices = engine.availableChoices(chapter);
+        return `
           <div class="page-inner chapter-page decision-leaf">
-            <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Chapter ${chapter.chapter_number} · choice</span></div>
+            <div class="running-head"><span>${escapeHtml(series?.title || '')}</span><span>Chapter ${chapter.chapter_number} · choice</span></div>
             <div class="page-scroll chapter-scroll decision-scroll">
-              <h2 class="chapter-title">${series.story_type === 'short_story' ? 'The End' : 'What happens next?'}</h2>
+              <h2 class="chapter-title">${series?.story_type === 'short_story' ? 'The End' : 'What happens next?'}</h2>
               <div class="ornament"></div>
-              ${series.story_type === 'short_story' ? `
+              ${series?.story_type === 'short_story' ? `
                 <div class="choice-grid">
                   <button class="choice-button" type="button" data-action="home"><span class="choice-label">Fanfic library</span></button>
                   <button class="choice-button" type="button" data-action="create-story"><span class="choice-label">Create another</span></button>
@@ -600,9 +628,59 @@
             </div>
           </div>`;
       }
+      const pageText = textPages[leafIndex] || '';
+      const bridge = engine.getEntryBridge(state.route);
+      const first = leafIndex === 0;
+      return `
+        <div class="page-inner chapter-page">
+          <div class="running-head"><span>${escapeHtml(series?.title || '')}</span><span>Chapter ${chapter.chapter_number} · ${leafIndex + 1}/${textPages.length + 1}</span></div>
+          <div class="page-scroll chapter-scroll">
+            ${first ? `<h2 class="chapter-title">${escapeHtml(chapter.title)}</h2><p class="chapter-meta">${escapeHtml(chapter.subtitle || '')}${chapter.generated ? ' · generated continuation' : ''}</p><div class="ornament"></div>` : `<p class="continued">${escapeHtml(chapter.title)} · continued</p>`}
+            ${bridge && first ? `<div class="path-card carry-card"><strong>Carried forward</strong><span>${escapeHtml(bridge)}</span></div>` : ''}
+            <div class="story-body">${paragraphs(pageText)}</div>
+          </div>
+        </div>`;
+    }
 
-      if (rightPageNumber) rightPageNumber.textContent = `${chapter.chapter_number}.${displayPage}`;
-      if (footerStatus) footerStatus.textContent = `${series.title} · Ch ${chapter.chapter_number} · page ${displayPage}/${totalReaderPages}`;
+    function setPageNumbers(chapter, start) {
+      const total = chapterLeafCount(chapter);
+      if (leftPageNumber) leftPageNumber.textContent = isPortraitReader() ? '' : (start < total ? `${chapter.chapter_number}.${start + 1}` : '');
+      if (rightPageNumber) {
+        const idx = isPortraitReader() ? start : start + 1;
+        rightPageNumber.textContent = idx < total ? `${chapter.chapter_number}.${idx + 1}` : '';
+      }
+    }
+
+    function renderSpread(chapter = currentChapter(), start = state.chapterPage) {
+      if (!chapter) return;
+      const normalized = normalizeLeaf(start, chapter);
+      state.chapterPage = normalized;
+      if (isPortraitReader()) {
+        leftContent.innerHTML = '<div class="page-inner"><div class="blank-page"></div></div>';
+        rightContent.innerHTML = leafMarkup(chapter, normalized);
+      } else {
+        leftContent.innerHTML = leafMarkup(chapter, normalized);
+        rightContent.innerHTML = leafMarkup(chapter, normalized + 1);
+      }
+      setPageNumbers(chapter, normalized);
+    }
+
+    function renderChapter() {
+      const series = currentSeries();
+      const chapter = currentChapter();
+      if (!series || !chapter) return renderHome();
+      appShell.classList.add('is-reading');
+      appShell.classList.remove('is-home', 'show-left-page');
+      if (readerToolbar) readerToolbar.hidden = false;
+      if (sidePanel) sidePanel.hidden = false;
+      updateBookZoomFrame();
+      state.chapterPage = normalizeLeaf(state.chapterPage, chapter);
+      renderSpread(chapter, state.chapterPage);
+      renderIndex();
+      renderJournal();
+      renderHudLibrary();
+      updateHud();
+      if (footerStatus) footerStatus.textContent = hudPageStatus?.textContent || `${series.title} · Chapter ${chapter.chapter_number}`;
       if (pageFooter) pageFooter.hidden = false;
       bindDynamicButtons();
       updateNavButtons();
@@ -613,46 +691,199 @@
       const series = currentSeries();
       const chapter = currentChapter();
       if (!series || !chapter) return;
-      renderLeftPage();
-      rightContent.innerHTML = `
-        <div class="page-inner ending-page-wrap">
-          <div class="running-head"><span>Current end of written JSON</span><span>✦</span></div>
-          <div class="page-scroll chapter-scroll ending-page">
-            <h2 class="chapter-title">Keep going.</h2>
-            <div class="ornament"></div>
-            <p>Chapter ${chapter.chapter_number} is the current end of this branch.</p>
-            <div class="ending-actions">
-              <button class="choice-button" type="button" data-action="continue-story">Continue this branch</button>
-              <button class="choice-button" type="button" data-action="connect-folder">${escapeHtml(folderLabel())}</button>
-              <button class="choice-button" type="button" data-action="export-generated">Export generated JSON</button>
-              <button class="choice-button" type="button" data-action="restart">Restart this route</button>
-              <button class="choice-button private" type="button" data-action="home">Return to story library</button>
-            </div>
-          </div>
-        </div>`;
-      if (rightPageNumber) rightPageNumber.textContent = '→';
-      if (footerStatus) footerStatus.textContent = `${series.title} · ready to continue after chapter ${chapter.chapter_number}`;
-      bindDynamicButtons();
-      updateNavButtons(true);
+      state.chapterPage = Math.max(0, chapterLeafCount(chapter) - 1);
+      renderChapter();
+      setStatus(`${series.title} · ready to continue after chapter ${chapter.chapter_number}`);
     }
 
-    function updateNavButtons(ending) {
+    function peekNavigation(dir) {
       const series = currentSeries();
       const chapter = currentChapter();
       const index = currentIndex();
-      const pages = chapter ? currentChapterPages(chapter) : [''];
-      const atFirstLeaf = state.chapterPage <= 0;
-      const atDecision = state.chapterPage >= pages.length;
-      document.querySelectorAll('[data-action="previous"]').forEach(button => {
-        button.disabled = !series || Boolean(ending) || (atFirstLeaf && index <= 0);
-      });
-      document.querySelectorAll('[data-action="next"]').forEach(button => {
-        button.disabled = !series || Boolean(ending) || atDecision;
-      });
-      document.querySelectorAll('[data-action="undo"]').forEach(button => {
-        button.disabled = !series || !engine.canUndo(state.route);
-      });
+      if (!series || !chapter || index < 0) return null;
+      const step = readerStep();
+      const count = chapterLeafCount(chapter);
+      if (dir === 'next') {
+        const next = state.chapterPage + step;
+        if (next < count) return { chapter, chapterId: chapter.id, page: normalizeLeaf(next, chapter) };
+        return null;
+      }
+      const previous = state.chapterPage - step;
+      if (previous >= 0) return { chapter, chapterId: chapter.id, page: normalizeLeaf(previous, chapter) };
+      if (index <= 0) return null;
+      const previousChapter = series.chapters[index - 1];
+      const previousCount = chapterLeafCount(previousChapter);
+      return { chapter: previousChapter, chapterId: previousChapter.id, page: normalizeLeaf(previousCount - 1, previousChapter) };
     }
+
+    function updateNavButtons() {
+      const reading = appShell.classList.contains('is-reading');
+      const prev = reading && Boolean(peekNavigation('prev'));
+      const next = reading && Boolean(peekNavigation('next'));
+      document.querySelectorAll('[data-action="previous"]').forEach(button => { button.disabled = !prev || state.turning || state.busy; });
+      document.querySelectorAll('[data-action="next"]').forEach(button => { button.disabled = !next || state.turning || state.busy; });
+      document.querySelectorAll('[data-action="undo"]').forEach(button => { button.disabled = !state.route || !engine.canUndo(state.route); });
+      document.querySelectorAll('[data-action="save-progress"]').forEach(button => { button.disabled = !state.route || state.busy; });
+    }
+
+    function targetSpreadMarkup(target) {
+      if (isPortraitReader()) return { left: '', right: leafMarkup(target.chapter, target.page) };
+      return { left: leafMarkup(target.chapter, target.page), right: leafMarkup(target.chapter, target.page + 1) };
+    }
+
+    function prepareTurn(dir) {
+      if (state.turning || state.busy || !appShell.classList.contains('is-reading')) return null;
+      const target = peekNavigation(dir);
+      if (!target || !turnSheet) return null;
+      state.turning = true;
+      updateNavButtons();
+      book.classList.add('is-turning');
+      turnSheet.className = `turn-sheet active ${dir}`;
+      const front = turnSheet.querySelector('.sheet-front');
+      const back = turnSheet.querySelector('.sheet-back');
+      const targetMarkup = targetSpreadMarkup(target);
+      if (isPortraitReader()) {
+        front.innerHTML = rightContent.innerHTML;
+        back.innerHTML = targetMarkup.right;
+        rightContent.innerHTML = targetMarkup.right;
+      } else if (dir === 'next') {
+        front.innerHTML = rightContent.innerHTML;
+        back.innerHTML = targetMarkup.left;
+        rightContent.innerHTML = targetMarkup.right;
+      } else {
+        front.innerHTML = leftContent.innerHTML;
+        back.innerHTML = targetMarkup.right;
+        leftContent.innerHTML = targetMarkup.left;
+      }
+      applyTurnProgress(dir, 0);
+      return { dir, target };
+    }
+
+    function applyTurnProgress(dir, progress) {
+      if (!turnSheet) return;
+      const p = Math.max(0, Math.min(1, progress));
+      const curl = Math.pow(Math.sin(Math.PI * p), .88);
+      const sign = dir === 'next' ? -1 : 1;
+      const angle = sign * 180 * p;
+      const lift = 46 * Math.pow(curl, 1.45);
+      const droop = sign * (1.35 * Math.sin(Math.PI * p) + .28 * Math.sin(2 * Math.PI * p));
+      const skew = sign * .65 * curl;
+      const squeeze = 1 - .025 * curl;
+      const style = turnSheet.style;
+      style.setProperty('--progress', p.toFixed(4));
+      style.setProperty('--curl', curl.toFixed(4));
+      style.setProperty('--shadow-x', `${((.5 - p) * 18).toFixed(2)}px`);
+      style.setProperty('--shadow-blur', `${(14 + curl * 30).toFixed(2)}px`);
+      style.setProperty('--shadow-alpha', (0.20 + curl * 0.42).toFixed(3));
+      style.setProperty('--paper-hi', (0.06 + curl * 0.18).toFixed(3));
+      style.setProperty('--paper-dark', (curl * 0.16).toFixed(3));
+      style.setProperty('--paper-dark-back', (curl * 0.18).toFixed(3));
+      style.setProperty('--face-hi', (curl * 0.26).toFixed(3));
+      style.setProperty('--face-dark', (curl * 0.34).toFixed(3));
+      style.setProperty('--ridge-a-opacity', (curl * 0.95).toFixed(3));
+      style.setProperty('--ridge-b-opacity', (curl * 0.70).toFixed(3));
+      style.setProperty('--ridge-a-offset', `${(2 + curl * 12).toFixed(2)}%`);
+      style.setProperty('--ridge-b-offset', `${(18 + curl * 19).toFixed(2)}%`);
+      style.setProperty('--ridge-skew', `${(curl * 1.1).toFixed(3)}deg`);
+      style.setProperty('--edge-width', `${(9 + curl * 24).toFixed(2)}px`);
+      style.setProperty('--edge-opacity', (0.35 + curl * 0.65).toFixed(3));
+      style.setProperty('--edge-blur', `${(8 + curl * 18).toFixed(2)}px`);
+      style.setProperty('--edge-shadow-alpha', (0.15 + curl * 0.24).toFixed(3));
+      style.setProperty('--edge-radius', `${(4 + curl * 18).toFixed(2)}px`);
+      style.transform = `translateZ(${lift.toFixed(2)}px) rotateY(${angle.toFixed(3)}deg) rotateZ(${droop.toFixed(3)}deg) skewY(${skew.toFixed(3)}deg) scaleX(${squeeze.toFixed(4)})`;
+    }
+
+    function heavyEase(value) {
+      const t = Math.max(0, Math.min(1, value));
+      if (t < .46) { const x = t / .46; return .5 * Math.pow(x, 1.55); }
+      const x = (t - .46) / .54;
+      return .5 + .5 * (1 - Math.pow(1 - x, 1.85));
+    }
+
+    function finishTurn(context, commit) {
+      if (commit && context?.target) {
+        if (context.target.chapterId !== currentChapter()?.id) engine.openChapter(state.route, context.target.chapterId, { record: true });
+        state.chapterPage = context.target.page;
+      }
+      if (turnSheet) {
+        turnSheet.className = 'turn-sheet';
+        turnSheet.style.transform = '';
+        turnSheet.querySelector('.sheet-front').innerHTML = '';
+        turnSheet.querySelector('.sheet-back').innerHTML = '';
+      }
+      book.classList.remove('is-turning', 'is-grabbing');
+      state.turning = false;
+      state.drag = null;
+      renderChapter();
+    }
+
+    function animateFrom(context, from, to, duration, commit) {
+      const start = performance.now();
+      if (to === 1 && from < .15) playFlip(from);
+      function frame(now) {
+        const raw = Math.max(0, Math.min(1, (now - start) / duration));
+        const eased = to === 1 ? heavyEase(raw) : 1 - heavyEase(1 - raw);
+        const progress = from + (to - from) * eased;
+        applyTurnProgress(context.dir, progress);
+        if (raw < 1) requestAnimationFrame(frame); else finishTurn(context, commit);
+      }
+      requestAnimationFrame(frame);
+    }
+
+    function requestTurn(dir) {
+      const context = prepareTurn(dir);
+      if (!context) return false;
+      playFlip(0);
+      animateFrom(context, 0, 1, 840, true);
+      return true;
+    }
+
+    function previousChapter() { return requestTurn('prev'); }
+    function nextChapter() { return requestTurn('next'); }
+
+    function dragStart(event) {
+      if (state.turning || state.busy || !appShell.classList.contains('is-reading') || event.pointerType === 'mouse' && event.button !== 0) return;
+      if (event.target.closest('button,input,a,select,textarea,label')) return;
+      const source = isPortraitReader() ? rightPage : event.currentTarget;
+      const rect = source.getBoundingClientRect();
+      let dir = null;
+      if (isPortraitReader()) {
+        const local = event.clientX - rect.left;
+        if (local > rect.width * .55) dir = 'next';
+        else if (local < rect.width * .45) dir = 'prev';
+      } else dir = event.currentTarget === rightPage ? 'next' : 'prev';
+      if (!dir || !peekNavigation(dir)) return;
+      const context = prepareTurn(dir);
+      if (!context) return;
+      source.setPointerCapture?.(event.pointerId);
+      state.drag = { context, startX: event.clientX, lastT: performance.now(), progress: 0, velocity: 0, source, pointerId: event.pointerId, sounded: false };
+      book.classList.add('is-grabbing');
+      event.preventDefault();
+    }
+
+    function dragMove(event) {
+      const drag = state.drag;
+      if (!drag || event.pointerId !== drag.pointerId) return;
+      const rect = drag.source.getBoundingClientRect();
+      const delta = drag.context.dir === 'next' ? drag.startX - event.clientX : event.clientX - drag.startX;
+      const progress = Math.max(0, Math.min(1, delta / Math.max(1, rect.width)));
+      const now = performance.now();
+      drag.velocity = (progress - drag.progress) / Math.max(1, now - drag.lastT);
+      drag.progress = progress;
+      drag.lastT = now;
+      if (progress > .045 && !drag.sounded) { playFlip(progress); drag.sounded = true; }
+      applyTurnProgress(drag.context.dir, progress);
+      event.preventDefault();
+    }
+
+    function dragEnd(event) {
+      const drag = state.drag;
+      if (!drag || event.pointerId !== drag.pointerId) return;
+      const commit = drag.progress > .27 || drag.velocity > .0016;
+      const remaining = Math.abs((commit ? 1 : 0) - drag.progress);
+      animateFrom(drag.context, drag.progress, commit ? 1 : 0, Math.max(220, 620 * remaining), commit);
+    }
+
 
     function openRoute(key, restart) {
       if (!engine.getSeries(key)) return;
@@ -664,16 +895,15 @@
       state.chapterPage = 0;
       if (searchInput) searchInput.value = '';
       engine.start(key, { restart: Boolean(restart) });
-      appShell.classList.add('is-open');
-      appShell.classList.remove('is-home');
-      appShell.classList.add('is-reading');
+      appShell.classList.add('is-open', 'is-reading');
+      appShell.classList.remove('is-home', 'show-left-page');
       routeAccent(engine.getSeries(key));
       if (readerToolbar) readerToolbar.hidden = false;
-      if (sidePanel) sidePanel.hidden = window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches;
-      appShell.classList.remove('show-left-page');
+      if (sidePanel) sidePanel.hidden = false;
+      setDrawerOpen(false, false);
       playFlip();
       renderChapter();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (_error) {}
     }
 
     function openChapter(id, announce) {
@@ -683,27 +913,25 @@
       if (!chapter) return;
       state.privateReturn = null;
       state.chapterPage = 0;
+      setDrawerOpen(false, false);
       if (announce) playFlip();
       renderChapter();
-      const page = document.querySelector('.chapter-scroll');
-      if (page) page.scrollTop = 0;
     }
 
     async function withBusy(label, fn) {
       if (state.busy) return null;
       state.busy = true;
-      document.querySelectorAll('button').forEach(button => { if (!button.disabled) button.dataset.wasEnabled = '1'; button.disabled = true; });
+      updateNavButtons();
       setStatus(label || 'Working…');
       try {
-        const result = await fn();
-        return result;
+        return await fn();
       } catch (error) {
         console.error(error);
         setStatus(error?.message || 'Something went wrong while progressing the story.');
         return null;
       } finally {
         state.busy = false;
-        document.querySelectorAll('button[data-was-enabled="1"]').forEach(button => { button.disabled = false; delete button.dataset.wasEnabled; });
+        updateNavButtons();
       }
     }
 
@@ -719,10 +947,7 @@
       if (result.type === 'chapter') {
         state.chapterPage = 0;
         renderChapter();
-        const projectMessage = result.generated
-          ? (engine.hasProjectFolder() ? 'New branch chapter generated and written to JSON.' : 'New branch chapter generated and saved in browser JSON storage.')
-          : '';
-        if (projectMessage) setStatus(projectMessage);
+        if (result.generated) setStatus(engine.hasProjectFolder() ? 'New branch chapter generated and written to JSON.' : 'New branch chapter generated and saved in browser storage.');
       }
     }
 
@@ -732,40 +957,12 @@
       playFlip();
       state.chapterPage = 0;
       renderChapter();
-      setStatus(engine.hasProjectFolder()
-        ? `Chapter ${chapter.chapter_number} generated and written to json/${currentSeries().series_path}/${padDisplay(chapter.chapter_number)}.json.`
-        : `Chapter ${chapter.chapter_number} generated and saved. Connect the project folder to write future chapters directly into json/${currentSeries().series_path}/.`);
-    }
-
-    function previousChapter() {
       const series = currentSeries();
-      const index = currentIndex();
-      if (!series) return;
-      if (state.chapterPage > 0) {
-        state.chapterPage -= 1;
-        playFlip();
-        renderChapter();
-        return;
-      }
-      if (index <= 0) return;
-      const previous = series.chapters[index - 1];
-      const chapter = engine.openChapter(state.route, previous.id, { record: true });
-      if (!chapter) return;
-      state.chapterPage = Math.max(0, currentChapterPages(chapter).length - 1);
-      playFlip();
-      renderChapter();
+      setStatus(engine.hasProjectFolder()
+        ? `Chapter ${chapter.chapter_number} generated and written to json/${series?.series_path || ''}/${padDisplay(chapter.chapter_number)}.json.`
+        : `Chapter ${chapter.chapter_number} generated and saved in this browser.`);
     }
 
-    function nextChapter() {
-      const chapter = currentChapter();
-      if (!chapter) return;
-      const pages = currentChapterPages(chapter);
-      if (state.chapterPage < pages.length) {
-        state.chapterPage += 1;
-        playFlip();
-        renderChapter();
-      }
-    }
 
     function saveProgress() {
       if (!state.route) return;
@@ -869,6 +1066,7 @@
       routeAccent(created.series);
       if (readerToolbar) readerToolbar.hidden = false;
       if (sidePanel) sidePanel.hidden = false;
+      setDrawerOpen(false, false);
       renderChapter();
       setStatus(engine.hasProjectFolder()
         ? `New ${created.series.story_type === 'short_story' ? 'short story' : 'fanfic'} created and written to json/${created.series.series_path}/01.json.`
@@ -899,7 +1097,7 @@
 
     function bindDynamicButtons() {
       document.querySelectorAll('[data-route]').forEach(button => {
-        button.onclick = () => openRoute(button.dataset.route, false);
+        button.onclick = () => { setDrawerOpen(false, false); openRoute(button.dataset.route, false); };
       });
       document.querySelectorAll('[data-choice]').forEach(button => {
         button.onclick = () => chooseChoice(button.dataset.choice);
@@ -923,31 +1121,17 @@
       const action = actionButton.dataset.action;
       if (action === 'open-book') openBook();
       if (action === 'cover') closeBook();
-      if (action === 'home') renderHome();
-      if (action === 'contents' && sidePanel) {
-        if (window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches) {
-          sidePanel.hidden = !sidePanel.hidden;
-          if (!sidePanel.hidden) sidePanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        } else {
-          sidePanel.hidden = false;
-          sidePanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      }
+      if (action === 'home') { setDrawerOpen(false, false); renderHome(); }
+      if (action === 'contents') setDrawerOpen(true);
       if (action === 'previous') previousChapter();
       if (action === 'next') nextChapter();
       if (action === 'continue-story') continueStory('continue');
-      if (action === 'create-story') renderCreateStory();
+      if (action === 'create-story') { setDrawerOpen(false, false); renderCreateStory(); }
       if (action === 'save-progress') saveProgress();
       if (action === 'undo') undoDecision();
       if (action === 'save-branch') saveBranch();
-      if (action === 'branches') {
-        if (window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches) {
-          appShell.classList.toggle('show-left-page');
-        } else {
-          document.getElementById('branchControls')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      }
-      if (action === 'story-settings') renderStorySettings();
+      if (action === 'branches') setDrawerOpen(true);
+      if (action === 'story-settings') { setDrawerOpen(false, false); renderStorySettings(); }
       if (action === 'cancel-story-settings') renderChapter();
       if (action === 'import-json') importInput.click();
       if (action === 'import-folder') folderInput.click();
@@ -980,6 +1164,26 @@
       }
     });
 
+    readerMenuButton?.addEventListener('click', () => setDrawerOpen(!state.drawerOpen));
+    readerDrawerClose?.addEventListener('click', () => setDrawerOpen(false));
+    readerDrawerScrim?.addEventListener('click', () => setDrawerOpen(false));
+    document.addEventListener('pointerdown', event => {
+      if (hudFanficDropdown?.open && !hudFanficDropdown.contains(event.target)) hudFanficDropdown.open = false;
+    });
+    [leftPage, rightPage].filter(Boolean).forEach(page => {
+      page.addEventListener('pointerdown', dragStart);
+      page.addEventListener('pointermove', dragMove);
+      page.addEventListener('pointerup', dragEnd);
+      page.addEventListener('pointercancel', dragEnd);
+    });
+    document.addEventListener('keydown', event => {
+      if (event.target.closest?.('input,textarea,select,[contenteditable="true"]')) return;
+      if (event.key === 'Escape' && state.drawerOpen) { setDrawerOpen(false); event.preventDefault(); return; }
+      if (event.key === 'ArrowLeft') { requestTurn('prev'); event.preventDefault(); }
+      if (event.key === 'ArrowRight') { requestTurn('next'); event.preventDefault(); }
+    });
+
+
     importInput.addEventListener('change', () => {
       handleImport(importInput.files);
       importInput.value = '';
@@ -1007,6 +1211,7 @@
       if (detail.project?.written) setStatus(`Generated JSON written to ${detail.project.filename}.`);
     });
 
+    setDrawerOpen(false, false);
     renderHome();
   }
 }());
