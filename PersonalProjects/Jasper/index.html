@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jasper's private choice-based fanfiction spot with branching routes, saved progress, and a fanfic creator.">
+  <title>Jasper's Fanfiction Spot</title>
+  <link rel="stylesheet" href="css/book.css">
+</head>
+<body>
+  <main class="app-shell is-home" id="appShell">
+    <header class="topbar" aria-label="Reader controls">
+      <div class="brand-block">
+        <div class="sigil" aria-hidden="true">✦</div>
+        <div>
+          <h1>Jasper's Fanfiction Spot</h1>
+          <p id="brandSubtitle">Branches, choices, and stories made for Jasper</p>
+        </div>
+      </div>
+      <div class="zoom-controls topbar-zoom" aria-label="Book zoom controls, from 50 percent to 300 percent">
+        <button type="button" data-action="smaller" aria-label="Make book smaller">A−</button>
+        <span id="zoomLabel">100%</span>
+        <button type="button" data-action="larger" aria-label="Make book larger">A+</button>
+      </div>
+      <div class="toolbar" id="readerToolbar" hidden>
+        <button type="button" data-action="home">Worlds</button>
+        <button type="button" data-action="contents">Contents</button>
+        <label class="search-wrap">Search chapters
+          <input id="searchInput" type="search" placeholder="title or phrase" autocomplete="off">
+        </label>
+        <button type="button" data-action="previous" aria-label="Previous chapter">←</button>
+        <button type="button" data-action="next" aria-label="Next chapter">→</button>
+        <button type="button" data-action="save-progress">Save</button>
+        <button type="button" data-action="undo" aria-label="Undo the last choice">Undo</button>
+        <button type="button" data-action="branches">Branches</button>
+        <button type="button" data-action="cover">Cover</button>
+        <button type="button" data-action="sound" id="soundButton">Sound: on</button>
+      </div>
+    </header>
+
+    <div class="book-stage">
+      <aside class="side-panel" id="sidePanel" aria-label="Chapter contents">
+        <h2 id="sideTitle">Contents</h2>
+        <p class="index-count" id="sideCount"></p>
+        <div class="index-group">
+          <h3>Chapters</h3>
+          <div id="chapterIndex"></div>
+        </div>
+        <div class="index-group branch-journal" id="branchJournal" hidden>
+          <h3>My path</h3>
+          <div id="journalEntries"></div>
+        </div>
+      </aside>
+
+      <div class="book-outer">
+        <article class="closed-cover" id="closedCover" aria-label="Book cover">
+          <button class="cover-open-hitbox" id="openBookBtn" type="button" data-action="open-book" aria-label="Open Jasper's Fanfiction Spot">
+            <img class="cover-art-image" src="assets/book-cover.png" alt="Jasper's Fanfiction Spot book cover">
+            <span class="open-hint">Click to open</span>
+          </button>
+        </article>
+        <div class="book" id="book" aria-live="polite">
+          <section class="page left-page" id="leftPage" aria-label="Book introduction and contents">
+            <div id="leftContent"></div>
+            <span class="page-number" aria-hidden="true">i</span>
+          </section>
+          <section class="page right-page" id="rightPage" aria-label="Story page">
+            <div id="rightContent"></div>
+            <span class="page-number" id="rightPageNumber" aria-hidden="true">ii</span>
+          </section>
+          <div class="binding-shadow" aria-hidden="true"></div>
+          <div class="page-stack page-stack-left" aria-hidden="true"></div>
+          <div class="page-stack page-stack-right" aria-hidden="true"></div>
+        </div>
+        <div class="page-footer" id="pageFooter" hidden>
+          <button class="round" type="button" data-action="previous" aria-label="Previous chapter">‹</button>
+          <span id="footerStatus"></span>
+          <button class="round" type="button" data-action="next" aria-label="Next chapter">›</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <audio id="pageFlipAudio" src="assets/page-flip.wav" preload="auto"></audio>
+  <script src="js/fanfic-data.js"></script>
+  <script src="js/cyoa-story-engine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
