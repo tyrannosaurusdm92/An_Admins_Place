@@ -189,3 +189,82 @@ button,summary{touch-action:manipulation;-webkit-tap-highlight-color:transparent
   .app-shell.is-reading.show-left-page .page-stack-left{display:block}
   .app-shell.is-reading .side-panel:not([hidden]){display:block;max-height:44vh;margin-bottom:6px}
 }
+
+/* 2026-09-19 hard layout pass: viewport-fit book, compact mobile chrome,
+   paged story leaves, and no content allowed outside the paper. */
+html,body{width:100%;height:100%;max-width:100%;overflow:hidden!important}
+body{min-height:100dvh!important}
+.app-shell{width:100%;height:100dvh!important;min-height:0!important;max-width:100vw;padding:8px;display:grid;grid-template-rows:auto minmax(0,1fr);gap:7px;overflow:hidden!important}
+.topbar{width:100%;max-width:100%;min-width:0;display:none;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:6px;padding:7px 9px;overflow:hidden}
+.app-shell.is-open .topbar{display:flex}
+.topbar-main{width:100%;min-width:0;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.brand-block{min-width:0!important;flex:1 1 auto}.brand-block>div:last-child{min-width:0}.brand-block h1{font-size:.9rem;line-height:1.12;white-space:normal;overflow-wrap:anywhere}.brand-block p{margin-top:.08rem;font-size:.62rem;line-height:1.18}
+.sigil{flex:0 0 30px;width:30px;height:30px}
+.topbar-zoom{flex:0 0 auto!important;margin:0!important;display:grid;grid-template-columns:36px 44px 36px;gap:3px;align-items:center}
+.topbar-zoom button{width:36px;height:36px;min-width:0;padding:0;border:1px solid var(--cadmium-line);border-radius:8px;background:linear-gradient(#624225,#35200f);color:#f4e2bc;font-size:.76rem}
+.topbar-zoom span{min-width:0;text-align:center;font:700 .66rem/1 system-ui,sans-serif;color:var(--persimmon)}
+.toolbar{width:100%;min-width:0;display:flex;flex-wrap:wrap;align-items:stretch;justify-content:flex-start;gap:4px;overflow:visible}
+.toolbar[hidden]{display:none!important}.toolbar button{flex:0 1 auto;min-width:54px;min-height:36px;padding:.3rem .46rem;font-size:.62rem;line-height:1.08;white-space:normal}
+.toolbar .search-wrap{flex:1 1 130px;min-width:110px;max-width:220px;font-size:.5rem;line-height:1.05}.toolbar .search-wrap input{width:100%;min-width:0;min-height:36px;padding:.28rem .4rem;font-size:.64rem}
+.book-stage{width:100%;height:100%;min-width:0;min-height:0;overflow:hidden;display:grid;place-items:stretch}
+.app-shell.is-open .book-stage{grid-template-columns:minmax(170px,220px) minmax(0,1fr);gap:8px;place-items:stretch}
+.app-shell.is-home .book-stage{grid-template-columns:minmax(0,1fr)}
+.side-panel{height:100%;min-height:0;max-height:none!important;overflow:auto;padding:9px}
+.book-outer{width:100%;height:100%;min-width:0;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;place-items:start center;overflow:auto!important;padding:6px;overscroll-behavior:contain;scrollbar-gutter:stable both-edges}
+.book-zoom-frame{grid-row:1;display:block;position:relative;justify-self:center;align-self:start;max-width:none!important;max-height:none!important}
+.book{width:auto;max-width:none!important;max-height:none!important;transform:scale(var(--book-zoom));transform-origin:top left}
+.page{min-width:0;min-height:0;overflow:hidden!important;contain:layout paint}
+.page>div[id$="Content"]{width:100%;height:100%;min-width:0;min-height:0}
+.page-inner{width:100%;height:100%;min-width:0;min-height:0;max-width:100%;max-height:100%;padding:clamp(14px,2.2vw,24px) clamp(13px,2.1vw,24px) clamp(18px,2.4vw,26px);overflow:hidden!important}
+.page-safe-scroll,.reader-contents,.home-page,.home-route-page{overflow:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.page-scroll,.chapter-scroll{width:100%;min-width:0;min-height:0;max-width:100%;overflow:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable}
+.page-inner *{min-width:0;max-inline-size:100%}.page-inner p,.page-inner span,.page-inner strong,.page-inner small,.page-inner h1,.page-inner h2,.page-inner h3,.page-inner button,.page-inner label,.page-inner code{overflow-wrap:anywhere;word-break:normal}
+.page-inner code{white-space:normal;word-break:break-word}
+.running-head{flex:0 0 auto;gap:6px;padding-bottom:4px;margin-bottom:6px;font-size:.54rem;line-height:1.12}.running-head>*{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chapter-title{font-size:clamp(.94rem,1.55vw,1.28rem);line-height:1.08;margin:.08rem 0 .2rem}.chapter-meta{font-size:.58rem;line-height:1.22}.ornament{margin:.38rem auto .55rem}
+.story-body{font-size:clamp(.72rem,.83vw,.88rem);line-height:1.43;text-align:left;hyphens:auto}.story-body p{margin:0 0 .62em;text-indent:1.1em}.story-body p:first-child{text-indent:0}
+.carry-card{margin:.2rem 0 .48rem;padding:.36rem .48rem;font-size:.58rem;line-height:1.28}
+.choice-grid{gap:6px}.choice-button{min-width:0;max-width:100%;min-height:40px;padding:.46rem .52rem;font-size:.66rem;line-height:1.2}.choice-label{font-size:.7rem;line-height:1.18}.choice-description{font-size:.59rem;line-height:1.24}.choice-button small{font-size:.54rem}
+.decision-scroll{display:grid;align-content:center;gap:.55rem}.decision-scroll .chapter-title{margin-top:auto}.decision-scroll .choice-grid{margin-bottom:auto}
+.reader-contents-copy h2{font-size:clamp(1rem,2vw,1.5rem);line-height:1.08;margin:.3rem 0}.reader-contents-copy>p:not(.series-kicker){display:none}.reader-stats{margin:.48rem 0;gap:4px}.reader-stats span{padding:.38rem .18rem;font-size:.53rem}.reader-stats strong{font-size:.8rem}
+.path-card{margin:.3rem 0;padding:.38rem .48rem;font-size:.58rem;line-height:1.25;gap:3px}.branch-actions{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.branch-actions .choice-button{min-height:36px;padding:.28rem .2rem;font-size:.56rem}.branch-list{max-height:86px;overflow:auto}.branch-button{font-size:.54rem;line-height:1.18;padding:.3rem .36rem}.settings-card .choice-button{margin-top:.25rem}
+.page-number{bottom:7px;font-size:.58rem;pointer-events:none}
+.page-footer{width:100%;min-height:38px;height:38px;gap:6px;padding:2px 0;overflow:hidden}.page-footer .round{width:36px;height:36px;flex:0 0 36px}.page-footer span{min-width:0;max-width:min(70vw,520px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.59rem}
+.home-intro{gap:.3rem}.home-intro h2{font-size:clamp(1.25rem,3vw,2.1rem);line-height:1.05}.home-intro h3{font-size:clamp(.82rem,1.4vw,1.1rem);line-height:1.2}.home-actions{gap:5px;margin-top:.45rem}.home-action{min-height:40px;padding:.42rem .35rem;font-size:.6rem}
+.fanfic-picker-wrap{width:min(100%,31rem)}.fanfic-picker>summary{min-height:46px;padding:.58rem .7rem;font-size:.72rem}.fanfic-menu{max-height:min(50vh,310px);gap:4px;padding:4px}.fanfic-menu .route-button{min-height:60px;padding:.45rem .5rem}.fanfic-menu .route-button strong{font-size:.82rem}.fanfic-menu .route-button span:last-child{font-size:.54rem;line-height:1.22}
+.story-form,.private-page form.private-actions{width:100%;max-width:100%;gap:.5rem!important}.story-form label,.private-page form.private-actions label{font-size:.6rem;line-height:1.2}.story-form input,.story-form select,.story-form textarea,.private-page input,.private-page select,.private-page textarea{width:100%;max-width:100%;min-height:34px;padding:.38rem .44rem;font-size:.66rem;line-height:1.26}.story-form textarea,.private-page textarea{min-height:74px;max-height:160px}.private-editor{min-height:96px!important}.form-actions{position:sticky;bottom:0;padding-top:4px;background:linear-gradient(180deg,transparent,rgba(234,215,172,.96) 28%)}
+
+@media(max-width:980px){
+  .app-shell{padding:6px}.app-shell.is-open .book-stage{grid-template-columns:1fr}.side-panel{display:none}.app-shell.is-reading .side-panel:not([hidden]){display:block;position:absolute;z-index:90;inset:auto 6px 48px 6px;height:min(52dvh,430px);max-height:min(52dvh,430px)!important;box-shadow:0 18px 42px rgba(0,0,0,.62)}
+  .book-stage{position:relative}.toolbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}.toolbar button{width:100%;min-width:0;min-height:36px;padding:.28rem .2rem;font-size:.58rem}.toolbar .search-wrap{grid-column:1/-1;max-width:none;font-size:0}.toolbar .search-wrap input{min-height:34px;font-size:.62rem}
+  .book-outer{padding:5px}.page-footer{height:36px;min-height:36px}.page-footer .round{width:34px;height:34px;flex-basis:34px}
+}
+@media(max-width:700px) and (orientation:portrait){
+  .app-shell{padding:4px;gap:4px}.topbar{padding:5px 6px;gap:4px}.brand-block h1{font-size:.76rem}.brand-block p{display:none}.sigil{width:26px;height:26px;flex-basis:26px}.topbar-zoom{grid-template-columns:32px 38px 32px}.topbar-zoom button{width:32px;height:32px}.topbar-zoom span{font-size:.6rem}
+  .toolbar{grid-template-columns:repeat(5,minmax(0,1fr));gap:3px}.toolbar button{min-height:34px;font-size:.54rem;line-height:1.02}.toolbar .search-wrap input{min-height:32px}
+  .book{grid-template-columns:1fr!important}.left-page{display:none}.right-page{grid-column:1;border-radius:var(--page-radius)}.binding-shadow,.page-stack-left{display:none}.turn-sheet{width:100%}
+  .page-inner{padding:12px 11px 17px}.story-body{font-size:clamp(.74rem,3.15vw,.88rem);line-height:1.4}.chapter-title{font-size:clamp(.92rem,4vw,1.16rem)}.chapter-meta{font-size:.55rem}.choice-button{min-height:42px}.choice-label{font-size:.68rem}.choice-description{font-size:.57rem}
+  .mobile-home-intro{gap:.22rem;margin-bottom:.22rem}.mobile-home-intro h2{font-size:clamp(.98rem,5.2vw,1.28rem)}.mobile-home-intro h3{font-size:clamp(.7rem,3.25vw,.86rem)}.home-actions{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.home-action{min-height:38px;font-size:.55rem;padding:.3rem .22rem}.fanfic-picker>summary{min-height:44px;font-size:.68rem}
+  .branch-actions{grid-template-columns:repeat(3,minmax(0,1fr))}.page-footer span{font-size:.54rem}
+  .app-shell.is-reading.show-left-page .left-page{display:block;grid-column:1;border-radius:var(--page-radius)}.app-shell.is-reading.show-left-page .right-page{display:none}.app-shell.is-reading.show-left-page .binding-shadow{display:none}
+}
+@media(max-width:980px) and (orientation:landscape){
+  .topbar{padding:4px 7px;gap:4px}.topbar-main{min-height:32px}.brand-block h1{font-size:.76rem}.brand-block p{display:none}.sigil{width:26px;height:26px;flex-basis:26px}.topbar-zoom{grid-template-columns:30px 38px 30px}.topbar-zoom button{width:30px;height:30px}
+  .toolbar{grid-template-columns:repeat(6,minmax(0,1fr));gap:3px}.toolbar .search-wrap{grid-column:span 2}.toolbar button{min-height:31px;font-size:.52rem}.toolbar .search-wrap input{min-height:31px}
+  .app-shell.is-open .book{grid-template-columns:1fr 1fr!important}.app-shell.is-open .left-page{display:block}.app-shell.is-open .right-page{display:block;grid-column:auto}.binding-shadow{display:block}.page-inner{padding:11px 10px 15px}.story-body{font-size:clamp(.66rem,1.5vw,.79rem);line-height:1.35}.choice-button{min-height:34px}.page-footer{height:32px;min-height:32px}.page-footer .round{width:30px;height:30px;flex-basis:30px}
+}
+@media(min-width:981px){
+  .topbar{padding:6px 9px}.topbar-main{min-height:34px}.toolbar{flex-wrap:nowrap}.toolbar button{min-height:32px}.book-stage{min-height:0}.reader-contents{overflow:auto!important}
+}
+/* conflict cleanup from earlier responsive layers */
+.topbar-main .brand-block{width:auto!important;height:auto!important;min-height:0!important}
+.topbar-main .topbar-zoom{width:auto!important;height:auto!important;min-height:0!important}
+.topbar-main .topbar-zoom button{min-height:0!important}
+.toolbar .search-wrap{min-height:0!important;height:auto!important}
+@media(max-width:980px) and (orientation:landscape){
+  .topbar{display:grid!important;grid-template-columns:minmax(280px,auto) minmax(0,1fr);align-items:center!important;gap:5px!important;padding:4px 6px!important}
+  .topbar-main{grid-column:1;min-width:0;width:auto}.topbar-main .brand-block{min-width:150px!important}.topbar-main .topbar-zoom{flex:0 0 auto!important}
+  .toolbar{grid-column:2;display:flex!important;flex-wrap:nowrap!important;align-items:center;gap:3px;min-width:0;overflow-x:auto!important;overflow-y:hidden!important;padding-bottom:1px;scrollbar-width:thin}
+  .toolbar button{flex:0 0 auto;width:auto;min-width:48px;min-height:30px;padding:.2rem .3rem}
+  .toolbar .search-wrap{flex:0 0 108px;min-width:108px;max-width:108px}.toolbar .search-wrap input{min-height:30px}
+}

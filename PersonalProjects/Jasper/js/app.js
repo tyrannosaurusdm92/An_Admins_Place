@@ -80,7 +80,8 @@
       privateReturn: null,
       busy: false,
       message: '',
-      lastRoute: (() => { try { return localStorage.getItem('jasper-last-route') || ''; } catch (_error) { return ''; } })()
+      lastRoute: (() => { try { return localStorage.getItem('jasper-last-route') || ''; } catch (_error) { return ''; } })(),
+      chapterPage: 0
     };
     document.documentElement.style.setProperty('--book-zoom', state.zoom.toFixed(2));
     if (zoomLabel) zoomLabel.textContent = `${Math.round(state.zoom * 100)}%`;
@@ -142,23 +143,108 @@
       }
     }
 
+    function isPortraitReader() {
+      return window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches;
+    }
+
     function updateBookZoomFrame() {
       if (!book || !bookZoomFrame) return;
-      const width = book.offsetWidth;
-      const height = book.offsetHeight;
-      if (!width || !height) {
-        bookZoomFrame.style.removeProperty('width');
-        bookZoomFrame.style.removeProperty('height');
-        return;
-      }
-      // The frame owns the scaled layout size; the book owns only the visual
-      // scale. This keeps two pages side by side while allowing scrolling.
-      bookZoomFrame.style.width = `${Math.ceil(width * state.zoom)}px`;
-      bookZoomFrame.style.height = `${Math.ceil(height * state.zoom)}px`;
+      const outer = bookZoomFrame.parentElement;
+      if (!outer) return;
+      const footerHeight = pageFooter && !pageFooter.hidden ? pageFooter.getBoundingClientRect().height : 0;
+      const availableWidth = Math.max(240, outer.clientWidth - 16);
+      const availableHeight = Math.max(240, outer.clientHeight - footerHeight - 16);
+      const portrait = isPortraitReader();
+      const aspect = portrait ? (668 / 1047) : (1336 / 1047);
+      const designMax = portrait ? 620 : 1120;
+      const fittedWidth = Math.max(240, Math.min(designMax, availableWidth, availableHeight * aspect));
+
+      book.style.width = `${Math.floor(fittedWidth)}px`;
+      book.style.aspectRatio = portrait ? '668 / 1047' : '1336 / 1047';
+
+      window.requestAnimationFrame(() => {
+        const width = book.offsetWidth;
+        const height = book.offsetHeight;
+        if (!width || !height) return;
+        bookZoomFrame.style.width = `${Math.ceil(width * state.zoom)}px`;
+        bookZoomFrame.style.height = `${Math.ceil(height * state.zoom)}px`;
+      });
     }
 
     function scheduleFitPageContent() {
       window.requestAnimationFrame(() => window.requestAnimationFrame(updateBookZoomFrame));
+    }
+
+    function paginateChapterText(text, targetWords = 220) {
+      const rawParagraphs = String(text || '').split(/\n\s*\n/).map(item => item.trim()).filter(Boolean);
+      if (!rawParagraphs.length) return [''];
+      const pieces = [];
+      rawParagraphs.forEach(paragraph => {
+        const words = paragraph.split(/\s+/).filter(Boolean);
+        if (words.length <= targetWords) {
+          pieces.push(paragraph);
+          return;
+        }
+        const sentences = paragraph.match(/[^.!?]+[.!?]+(?:["'’”]+)?|[^.!?]+$/g) || [paragraph];
+        let part = [];
+        let count = 0;
+        sentences.forEach(sentence => {
+          const sentenceWords = sentence.trim().split(/\s+/).filter(Boolean).length;
+          if (part.length && count + sentenceWords > targetWords) {
+            pieces.push(part.join(' ').trim());
+            part = [];
+            count = 0;
+          }
+          if (sentenceWords > targetWords) {
+            const longWords = sentence.trim().split(/\s+/);
+            for (let i = 0; i < longWords.length; i += targetWords) {
+              if (part.length) {
+                pieces.push(part.join(' ').trim());
+                part = [];
+                count = 0;
+              }
+              pieces.push(longWords.slice(i, i + targetWords).join(' '));
+            }
+          } else {
+            part.push(sentence.trim());
+            count += sentenceWords;
+          }
+        });
+        if (part.length) pieces.push(part.join(' ').trim());
+      });
+
+      const pages = [];
+      let current = [];
+      let words = 0;
+      pieces.forEach(piece => {
+        const count = piece.split(/\s+/).filter(Boolean).length;
+        if (current.length && words + count > targetWords) {
+          pages.push(current.join('\n\n'));
+          current = [];
+          words = 0;
+        }
+        current.push(piece);
+        words += count;
+      });
+      if (current.length) pages.push(current.join('\n\n'));
+      return pages.length ? pages : [''];
+    }
+
+    function chapterWordTarget() {
+      const portrait = isPortraitReader();
+      const bookWidth = Math.max(240, book?.offsetWidth || (portrait ? window.innerWidth * .9 : window.innerWidth * .72));
+      const bookHeight = Math.max(240, book?.offsetHeight || (bookWidth / (portrait ? (668 / 1047) : (1336 / 1047))));
+      const pageWidth = portrait ? bookWidth : (bookWidth / 2);
+      const fontPx = portrait ? 11.5 : (window.innerWidth <= 980 ? 10.5 : 11.5);
+      const usableWidth = Math.max(120, pageWidth - 30);
+      const usableHeight = Math.max(150, bookHeight - 92);
+      const wordsPerLine = usableWidth / (fontPx * 3.3);
+      const lines = usableHeight / (fontPx * 1.45);
+      return Math.max(70, Math.min(240, Math.floor(wordsPerLine * lines * .82)));
+    }
+
+    function currentChapterPages(chapter = currentChapter()) {
+      return chapter ? paginateChapterText(chapter.content, chapterWordTarget()) : [''];
     }
 
     function setStatus(message) {
@@ -232,6 +318,7 @@
       state.route = null;
       state.search = '';
       state.privateReturn = null;
+      state.chapterPage = 0;
       if (searchInput) searchInput.value = '';
       appShell.classList.add('is-home');
       appShell.classList.remove('is-reading', 'show-left-page');
@@ -422,42 +509,31 @@
       const canUndo = engine.canUndo(state.route);
       const branches = engine.listBranches(state.route);
       const branchList = branches.length
-        ? branches.slice(0, 12).map(branch => `<button class="branch-button" type="button" data-restore-branch="${escapeHtml(branch.id)}"><strong>${escapeHtml(branch.label)}</strong><br><span>${escapeHtml(branch.chapterNumber ? `Chapter ${branch.chapterNumber}` : 'Saved branch')} · ${escapeHtml(branch.kind === 'manual' ? 'bookmark' : 'decision branch')}</span></button>`).join('')
-        : '<span class="branch-empty">Choices will create return points automatically.</span>';
+        ? branches.slice(0, 12).map(branch => `<button class="branch-button" type="button" data-restore-branch="${escapeHtml(branch.id)}"><strong>${escapeHtml(branch.label)}</strong><br><span>${escapeHtml(branch.chapterNumber ? `Chapter ${branch.chapterNumber}` : 'Saved branch')}</span></button>`).join('')
+        : '<span class="branch-empty">No saved branches yet.</span>';
       leftContent.innerHTML = `
-        <div class="page-inner reader-contents">
+        <div class="page-inner reader-contents page-safe-scroll">
           <div class="running-head"><span>${escapeHtml(series.title)}</span><span>${padDisplay(chapter.chapter_number)} / ${series.chapters.length}</span></div>
           <div class="reader-contents-copy">
             <p class="series-kicker">${escapeHtml(series.fandom)}</p>
             <h2>${escapeHtml(series.pairing || series.title)}</h2>
-            <p>${escapeHtml(series.description || series.premise || '')}</p>
             <div class="reader-stats"><span><strong>${series.chapters.length}</strong> chapters</span><span><strong>${totalWords(series).toLocaleString()}</strong> words</span><span><strong>${generatedCount}</strong> generated</span></div>
           </div>
-          <div class="ornament"></div>
-          <div class="path-card">
-            <strong>Branch state</strong>
-            <span>${escapeHtml(qualitiesText())}</span>
-          </div>
+          <div class="path-card"><strong>Branch state</strong><span>${escapeHtml(qualitiesText())}</span></div>
           <div class="path-card branch-card" id="branchControls">
-            <strong>Save and revisit</strong>
-            <span>Progress saves automatically. Each choice keeps a return point, and a bookmark can be named for later.</span>
+            <strong>Save & revisit</strong>
             <div class="branch-actions">
-              <button class="choice-button" type="button" data-action="save-progress">Save progress</button>
-              <button class="choice-button" type="button" data-action="undo" ${canUndo ? '' : 'disabled'}>Undo choice</button>
-              <button class="choice-button" type="button" data-action="save-branch">Save branch</button>
+              <button class="choice-button" type="button" data-action="save-progress">Save</button>
+              <button class="choice-button" type="button" data-action="undo" ${canUndo ? '' : 'disabled'}>Undo</button>
+              <button class="choice-button" type="button" data-action="save-branch">Bookmark</button>
             </div>
             <div class="branch-list" aria-label="Saved branches">${branchList}</div>
           </div>
-          <div class="path-card private-card">
-            <strong>Continuation engine</strong>
-            <span>Missing targets and end-of-story continuation generate new JSON chapters instead of hard-stopping.</span>
+          <div class="path-card settings-card">
+            <strong>Future chapters</strong>
+            <span>${escapeHtml((series.content_mode || 'romance').replace(/_/g, ' '))} · ${Number(series.target_words || 1600).toLocaleString()} words</span>
+            <button class="choice-button" type="button" data-action="story-settings">Settings</button>
           </div>
-          <div class="path-card">
-            <strong>Generation settings</strong>
-            <span>${escapeHtml((series.style_mode || 'story_adaptive').replace(/_/g, ' '))} · ${escapeHtml((series.content_mode || 'romance').replace(/_/g, ' '))} · ${Number(series.target_words || 1600).toLocaleString()} target words</span>
-            <button class="choice-button" type="button" data-action="story-settings" style="margin-top:.6rem">Change story settings</button>
-          </div>
-          <p class="left-prompt">Choices are remembered and become continuity context for later generated chapters.</p>
         </div>`;
     }
 
@@ -480,46 +556,58 @@
       renderLeftPage();
       renderIndex();
       renderJournal();
+      updateBookZoomFrame();
+
+      const textPages = currentChapterPages(chapter);
+      const decisionPage = textPages.length;
+      state.chapterPage = Math.max(0, Math.min(state.chapterPage, decisionPage));
+      const atDecision = state.chapterPage === decisionPage;
+      const totalReaderPages = textPages.length + 1;
+      const displayPage = state.chapterPage + 1;
       const choices = engine.availableChoices(chapter);
       const bridge = engine.getEntryBridge(state.route);
-      rightContent.innerHTML = `
-        <div class="page-inner chapter-page">
-          <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Chapter ${chapter.chapter_number} of ${series.chapters.length}</span></div>
-          <div class="page-scroll chapter-scroll">
-            <h2 class="chapter-title">${escapeHtml(chapter.title)}</h2>
-            <p class="chapter-meta">${escapeHtml(chapter.subtitle || '')} · ${CYOA.wordCount(chapter.content).toLocaleString()} words${chapter.generated ? ' · generated continuation' : ''}${chapter.content_mode ? ` · ${escapeHtml(chapter.content_mode.replace(/_/g, ' '))}` : ''}</p>
-            <div class="ornament"></div>
-            ${bridge ? `<div class="path-card"><strong>What I carried into this chapter</strong><span>${escapeHtml(bridge)}</span></div>` : ''}
-            <div class="story-body">${paragraphs(chapter.content)}</div>
-            ${series.story_type === 'short_story' ? `
-            <section class="choice-panel" aria-labelledby="choice-heading">
-              <h3 id="choice-heading">Short story complete</h3>
-              <p class="choice-intro">This story was created as a standalone work, so it intentionally has no CYOA branch choices.</p>
-              <div class="choice-grid">
-                <button class="choice-button" type="button" data-action="home"><span class="choice-label">Back to fanfiction library</span></button>
-                <button class="choice-button" type="button" data-action="create-story"><span class="choice-label">Create another fanfic</span></button>
-              </div>
-            </section>` : `
-            <section class="choice-panel" aria-labelledby="choice-heading">
-              <h3 id="choice-heading">What do I choose?</h3>
-              <p class="choice-intro">The engine remembers the branch, applies its effects, and uses that path when it continues the story.</p>
-              <div class="choice-grid">${choices.length ? choices.map(choiceMarkup).join('') : `
-                <button class="choice-button" type="button" data-action="continue-story">
-                  <span class="choice-label">Continue the story</span>
-                  <span class="choice-description">Create the next chapter from this chapter's continuity and save it as new JSON.</span>
-                </button>`}</div>
-            </section>`}
-          </div>
-          <span class="page-number">${chapter.chapter_number}</span>
-        </div>`;
-      if (rightPageNumber) rightPageNumber.textContent = String(chapter.chapter_number);
-      if (footerStatus) footerStatus.textContent = `${series.title} · ${chapter.chapter_number} / ${series.chapters.length}${chapter.generated ? ' · generated' : ''}`;
+
+      if (!atDecision) {
+        const pageText = textPages[state.chapterPage] || '';
+        rightContent.innerHTML = `
+          <div class="page-inner chapter-page">
+            <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Chapter ${chapter.chapter_number} · ${displayPage}/${totalReaderPages}</span></div>
+            <div class="page-scroll chapter-scroll">
+              <h2 class="chapter-title">${escapeHtml(chapter.title)}</h2>
+              <p class="chapter-meta">${escapeHtml(chapter.subtitle || '')}${chapter.generated ? ' · generated continuation' : ''}</p>
+              <div class="ornament"></div>
+              ${bridge && state.chapterPage === 0 ? `<div class="path-card carry-card"><strong>Carried forward</strong><span>${escapeHtml(bridge)}</span></div>` : ''}
+              <div class="story-body">${paragraphs(pageText)}</div>
+            </div>
+          </div>`;
+      } else {
+        rightContent.innerHTML = `
+          <div class="page-inner chapter-page decision-leaf">
+            <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Chapter ${chapter.chapter_number} · choice</span></div>
+            <div class="page-scroll chapter-scroll decision-scroll">
+              <h2 class="chapter-title">${series.story_type === 'short_story' ? 'The End' : 'What happens next?'}</h2>
+              <div class="ornament"></div>
+              ${series.story_type === 'short_story' ? `
+                <div class="choice-grid">
+                  <button class="choice-button" type="button" data-action="home"><span class="choice-label">Fanfic library</span></button>
+                  <button class="choice-button" type="button" data-action="create-story"><span class="choice-label">Create another</span></button>
+                </div>` : `
+                <div class="choice-grid">${choices.length ? choices.map(choiceMarkup).join('') : `
+                  <button class="choice-button" type="button" data-action="continue-story">
+                    <span class="choice-label">Continue this branch</span>
+                    <span class="choice-description">Generate the next chapter.</span>
+                  </button>`}</div>`}
+            </div>
+          </div>`;
+      }
+
+      if (rightPageNumber) rightPageNumber.textContent = `${chapter.chapter_number}.${displayPage}`;
+      if (footerStatus) footerStatus.textContent = `${series.title} · Ch ${chapter.chapter_number} · page ${displayPage}/${totalReaderPages}`;
       if (pageFooter) pageFooter.hidden = false;
       bindDynamicButtons();
       updateNavButtons();
+      scheduleFitPageContent();
     }
-
-
 
     function renderEnding() {
       const series = currentSeries();
@@ -533,7 +621,6 @@
             <h2 class="chapter-title">Keep going.</h2>
             <div class="ornament"></div>
             <p>Chapter ${chapter.chapter_number} is the current end of this branch.</p>
-            <p class="reader-note">Generated chapters are stored immediately. ${engine.hasProjectFolder() ? 'A project folder is connected, so new JSON also writes into the story folder.' : 'Connect the project root once if you want new JSON written directly into <code>json/' + escapeHtml(series.series_path) + '/</code>.'}</p>
             <div class="ending-actions">
               <button class="choice-button" type="button" data-action="continue-story">Continue this branch</button>
               <button class="choice-button" type="button" data-action="connect-folder">${escapeHtml(folderLabel())}</button>
@@ -551,12 +638,16 @@
 
     function updateNavButtons(ending) {
       const series = currentSeries();
+      const chapter = currentChapter();
       const index = currentIndex();
+      const pages = chapter ? currentChapterPages(chapter) : [''];
+      const atFirstLeaf = state.chapterPage <= 0;
+      const atDecision = state.chapterPage >= pages.length;
       document.querySelectorAll('[data-action="previous"]').forEach(button => {
-        button.disabled = !series || index <= 0 || Boolean(ending);
+        button.disabled = !series || Boolean(ending) || (atFirstLeaf && index <= 0);
       });
       document.querySelectorAll('[data-action="next"]').forEach(button => {
-        button.disabled = !series || Boolean(ending);
+        button.disabled = !series || Boolean(ending) || atDecision;
       });
       document.querySelectorAll('[data-action="undo"]').forEach(button => {
         button.disabled = !series || !engine.canUndo(state.route);
@@ -570,6 +661,7 @@
       try { localStorage.setItem('jasper-last-route', key); } catch (_error) {}
       state.search = '';
       state.privateReturn = null;
+      state.chapterPage = 0;
       if (searchInput) searchInput.value = '';
       engine.start(key, { restart: Boolean(restart) });
       appShell.classList.add('is-open');
@@ -590,6 +682,7 @@
       const chapter = engine.openChapter(state.route, id, { record: true });
       if (!chapter) return;
       state.privateReturn = null;
+      state.chapterPage = 0;
       if (announce) playFlip();
       renderChapter();
       const page = document.querySelector('.chapter-scroll');
@@ -624,6 +717,7 @@
         return;
       }
       if (result.type === 'chapter') {
+        state.chapterPage = 0;
         renderChapter();
         const projectMessage = result.generated
           ? (engine.hasProjectFolder() ? 'New branch chapter generated and written to JSON.' : 'New branch chapter generated and saved in browser JSON storage.')
@@ -636,6 +730,7 @@
       const chapter = await withBusy('Creating the next chapter from the current branch…', () => engine.continueStory(direction || 'continue'));
       if (!chapter) return;
       playFlip();
+      state.chapterPage = 0;
       renderChapter();
       setStatus(engine.hasProjectFolder()
         ? `Chapter ${chapter.chapter_number} generated and written to json/${currentSeries().series_path}/${padDisplay(chapter.chapter_number)}.json.`
@@ -645,16 +740,31 @@
     function previousChapter() {
       const series = currentSeries();
       const index = currentIndex();
-      if (!series || index <= 0) return;
-      openChapter(series.chapters[index - 1].id, true);
+      if (!series) return;
+      if (state.chapterPage > 0) {
+        state.chapterPage -= 1;
+        playFlip();
+        renderChapter();
+        return;
+      }
+      if (index <= 0) return;
+      const previous = series.chapters[index - 1];
+      const chapter = engine.openChapter(state.route, previous.id, { record: true });
+      if (!chapter) return;
+      state.chapterPage = Math.max(0, currentChapterPages(chapter).length - 1);
+      playFlip();
+      renderChapter();
     }
 
     function nextChapter() {
-      const series = currentSeries();
-      const index = currentIndex();
-      if (!series) return;
-      if (index >= 0 && index < series.chapters.length - 1) openChapter(series.chapters[index + 1].id, true);
-      else renderEnding();
+      const chapter = currentChapter();
+      if (!chapter) return;
+      const pages = currentChapterPages(chapter);
+      if (state.chapterPage < pages.length) {
+        state.chapterPage += 1;
+        playFlip();
+        renderChapter();
+      }
     }
 
     function saveProgress() {
@@ -675,6 +785,7 @@
         return;
       }
       state.privateReturn = null;
+      state.chapterPage = 0;
       playFlip();
       renderChapter();
       setStatus(`Undid ${branch.choiceLabel ? `“${branch.choiceLabel}”` : 'the last choice'}. The branch remains available below.`);
@@ -699,6 +810,7 @@
       const branch = engine.restoreBranch(branchId, state.route);
       if (!branch) return;
       state.privateReturn = null;
+      state.chapterPage = 0;
       playFlip();
       renderChapter();
       setStatus(`Returned to “${branch.label}”.`);
@@ -880,7 +992,14 @@
       state.search = event.target.value;
       if (state.route) renderIndex();
     });
-    window.addEventListener('resize', scheduleFitPageContent);
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+      scheduleFitPageContent();
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => {
+        if (state.route && appShell.classList.contains('is-reading')) renderChapter();
+      }, 140);
+    });
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(scheduleFitPageContent).catch(() => {});
 
     document.addEventListener('cyoa:generated', event => {

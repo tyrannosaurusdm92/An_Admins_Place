@@ -10,11 +10,18 @@
 <body>
   <main class="app-shell is-home" id="appShell">
     <header class="topbar" aria-label="Reader controls">
-      <div class="brand-block">
-        <div class="sigil" aria-hidden="true">✦</div>
-        <div>
-          <h1>Jasper's Fanfiction Spot</h1>
-          <p id="brandSubtitle">Branching fanfic for Jasper</p>
+      <div class="topbar-main">
+        <div class="brand-block">
+          <div class="sigil" aria-hidden="true">✦</div>
+          <div>
+            <h1>Jasper's Fanfiction Spot</h1>
+            <p id="brandSubtitle">Branching fanfic for Jasper</p>
+          </div>
+        </div>
+        <div class="zoom-controls topbar-zoom" aria-label="Book size controls">
+          <button type="button" data-action="smaller" aria-label="Make book smaller">A−</button>
+          <span id="zoomLabel">100%</span>
+          <button type="button" data-action="larger" aria-label="Make book larger">A+</button>
         </div>
       </div>
       <div class="toolbar" id="readerToolbar" hidden>
@@ -30,11 +37,6 @@
         <button type="button" data-action="branches">Branches</button>
         <button type="button" data-action="cover">Cover</button>
         <button type="button" data-action="sound" id="soundButton">Sound: on</button>
-        <div class="zoom-controls" aria-label="Book size controls">
-          <button type="button" data-action="smaller" aria-label="Make book smaller">A−</button>
-          <span id="zoomLabel">100%</span>
-          <button type="button" data-action="larger" aria-label="Make book larger">A+</button>
-        </div>
       </div>
     </header>
 
