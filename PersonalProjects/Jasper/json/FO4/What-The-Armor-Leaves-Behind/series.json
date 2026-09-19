@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.0",
+  "schema_version": "5.2",
   "fandom": "Fallout 4",
   "series_title": "What the Armor Leaves Behind",
   "series_slug": "what-the-armor-leaves-behind",
@@ -330,7 +330,7 @@
       "id": "what-the-armor-leaves-behind-40"
     }
   ],
-  "total_word_count": 61876,
+  "total_word_count": 61856,
   "work_type": "fanfic_series",
   "key": "what-the-armor-leaves-behind",
   "title": "What the Armor Leaves Behind",
@@ -380,5 +380,15 @@
     "39.json",
     "40.json"
   ],
-  "choice_count": 3
+  "choice_count": 3,
+  "rating": "Explicit-capable CYOA — adults only",
+  "content_mode": "romance",
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "explicit_branching": {
+    "available": true,
+    "target": "@generate-explicit",
+    "requires_story_provider": true,
+    "adult_characters_only": true
+  }
 }

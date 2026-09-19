@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "author": "William Saville",
   "dedication": "Written for Jasper",
@@ -8,14 +8,14 @@
   "fandom": "Fallout 4",
   "pairing": "Paladin Danse / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy; identity and appearance intentionally under-specified",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters are adults",
     "Canon-typical violence and post-apocalyptic danger",
     "Themes of identity, dehumanization, grief, and survivor guilt",
     "Romantic intimacy and sensual tension",
-    "Intimate scenes fade to black",
-    "No explicit sexual content"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "series_slug": "what-the-armor-leaves-behind",
   "series_title": "What the Armor Leaves Behind",
@@ -56,19 +56,17 @@
       "generation_hint": "Put the human cost in the room, even if Danse would rather keep moving."
     },
     {
-      "path_key": "private-fear",
-      "label": "Tell Danse what I am afraid of",
-      "description": "Leave the armor and rank outside for one conversation about the fear underneath them.",
+      "path_key": "intimate",
+      "label": "Take the intimate route",
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
       "effect": {
-        "privacy": 1,
-        "vulnerability": 1,
+        "intimacy": 1,
         "trust": 1
       },
       "private": true,
       "id": "what-the-armor-leaves-behind-19-private-fear",
-      "target": "@private",
-      "return_to": "what-the-armor-leaves-behind-20",
-      "generation_hint": "Leave the armor and rank outside for one conversation about the fear underneath them."
+      "target": "@generate-explicit",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "choice_count": 3,
@@ -76,5 +74,8 @@
     "follow-orders": "Carry forward the concrete consequence of choosing “Follow Danse's plan exactly,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "question-order": "Carry forward the concrete consequence of choosing “Question the order and protect the civilians,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "private-fear": "Carry forward the concrete consequence of choosing “Tell Danse what I am afraid of,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem."
-  }
+  },
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

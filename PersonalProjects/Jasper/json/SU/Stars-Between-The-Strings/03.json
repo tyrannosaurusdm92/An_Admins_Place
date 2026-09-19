@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Two Chords",
@@ -11,13 +11,12 @@
   "fandom": "Steven Universe",
   "pairing": "Greg Universe / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
     "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "su-03-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "su-04",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "The car wash had a stage because Greg Universe believed every flat surface was a stage if I loved it hard enough.\n\nIt was not much more than a plywood platform beneath a striped awning. A string of lights had been hung from the roof, and someone had placed two potted plants at either side as if they were guarding the performance. Folding chairs filled the lot. A few people leaned against the vacuum stations. Children chased one another between the parked cars while adults called warnings that were mostly ignored.\n\nGreg saw me before I saw him.\n\nHe lifted one hand from the guitar he was tuning and waved. The gesture was so open, so unmistakably pleased, that my chest warmed in spite of myself.\n\n“You came,” he said when I reached the front row.\n\n“You invited me.”\n\n“I invite a lot of people. Most of them are better at pretending they forgot.”\n\nHe pulled out a chair for I. It was slightly crooked. He tested it with one hand before letting I sit.\n\n“I’m beginning to suspect you’re trying to win me over with furniture.”\n\n“It’s a long-term strategy.”\n\n“What’s the end goal?”\n\n“A couch. Maybe a lamp.”\n\nI sat. Greg adjusted the angle of the chair so I had a clear view of the stage. He did it without touching me, then stepped back as if to make sure the choice belonged to I.\n\nThe crowd gathered slowly. I recognized a few faces from the bakery and the boardwalk. Mara arrived with a paper cup and called Greg a menace. He bowed from the stage. Someone else shouted that he was late. Greg pointed at the sky and claimed the moon had delayed him.\n\nWhen the first chord rang out, the conversations quieted.\n\nGreg played like he lived inside the music. His fingers moved with easy familiarity, but nothing felt careless. He sang about ordinary things: a cracked windshield, a rainy afternoon, the taste of coffee when I was too tired to make it properly. His songs were funny until they weren’t, bright until a single line opened into something deep and aching.\n\nI found myself watching his face more than his hands.\n\nWhen he smiled at the crowd, the smile was real. When a lyric brought back an old grief, it touched the corner of his mouth and disappeared. He did not hide the sadness, but he did not let it claim the whole song either.\n\nThe final song began with a progression I recognized from his notebook. I sat straighter.\n\nGreg noticed.\n\nThe melody was simple. It carried the shape of a question, then softened into an answer. He sang about a door left open, a light in a window, and the strange courage it took to set down a suitcase without knowing how long I would stay.\n\nHe did not look directly at I. He did not need to.\n\nThe song ended with one quiet chord. For a breath, no one moved. Then the audience applauded, warm and loud. Greg ducked his head, embarrassed by the attention, and stood to accept it anyway.\n\nAfterward, people crowded around him. A child asked for a song about a frog. Mara complained that he had made everyone emotional near the industrial soap. Greg took both criticisms seriously.\n\nI waited at the edge of the lights until the crowd thinned.\n\n“Well?” he asked, approaching with two cans of soda. “Did the music make the furniture seem more comfortable?”\n\n“The chair was terrible.”\n\n“I knew it. I’ll find a better one.”\n\n“The music was good.”\n\nHe pressed a soda into my hand. “Good is a dangerous word.”\n\n“Fine. It was very good.”\n\n“That’s better.”\n\nThe car wash had emptied, leaving only the humming machines and the faint scent of soap. The string lights glowed overhead. Greg leaned against the side of the building, close enough for conversation but far enough that I could leave without brushing against him.\n\n“The last song,” I said. “You wrote it recently.”\n\n“I did.”\n\n“Is it about me?”\n\nHe looked down at the soda can. “Parts of it.”\n\nThe honesty made my pulse trip.\n\n“You’ve known me for two days.”\n\n“I know.”\n\n“That seems fast.”\n\n“It is. But it isn’t the kind of knowing where I know what you had for breakfast or whether you fold your towels. It’s more like…” He searched for the word. “Like recognizing a song after hearing only the first few notes.”\n\nI held the cold soda between both hands. “That can be dangerous too.”\n\n“Most good things are.”\n\n“That is a terrible philosophy.”\n\n“I have several.”\n\nI laughed, and he smiled. The silence that followed was not awkward. It had room in it. I could hear the distant ocean and the soft tick of cooling metal beneath the car wash awning.\n\n“I didn’t know you were going to write about me,” I said.\n\n“I didn’t know either.”\n\n“Would you tell me if you did?”\n\n“Yes.”\n\n“Why?”\n\nGreg turned the soda can slowly in his hand. “Because writing about someone is a kind of taking. Even if you mean it kindly, you’re carrying a piece of them around. I want people to know when I’m doing that.”\n\nThe answer was so thoughtful that it left me without a joke.\n\nGreg glanced at I. “Too serious?”\n\n“No. Just unexpectedly considerate.”\n\n“I’m full of surprises.”\n\n“I thought you were full of pancakes.”\n\n“That too.”\n\nHe asked whether I had eaten dinner. I had not. Greg locked the car wash, put the guitar in the back of an old car that looked as though it had survived several decades of bad decisions, and took me to a late-night diner.\n\nThe place had red booths, blue neon, and a jukebox that played only songs from before either of I had been born. Greg ordered fries for the table. I ordered something with enough melted cheese to qualify as structural engineering.\n\n“You’re going to have to tell me something,” Greg said after the first bite.\n\n“About what?”\n\n“The song.”\n\n“I’m not a musician.”\n\n“Everyone is a musician. Some people just use different instruments.”\n\n“That sounds like something printed on a mug.”\n\n“I would buy that mug.”\n\nI considered the question. The easy answer was that the song made me feel noticed. The harder answer was that being noticed frightened I. I had spent a long time becoming good at disappearing in plain sight, at making my needs small enough to fit into other people’s convenience.\n\n“It made me feel like I was already part of the town,” I said.\n\nGreg’s teasing expression faded. “You are.”\n\n“You can’t decide that for everyone.”\n\n“No. But I can decide it for me.”\n\nMy fingers tightened around the fork.\n\nGreg did not reach across the table. He did not turn the statement into a demand. He simply let it rest between I, warm and dangerous as a candle flame.\n\n“You’re very easy to believe,” I said.\n\n“That might be because I’m bad at lying.”\n\n“That is not always a virtue.”\n\n“No. But it helps when you’re trying to tell someone they matter.”\n\nThe words struck with enough force that I had to look away. Outside the window, a car passed through the intersection, headlights sliding across the glass. The diner kept humming around I. A waitress refilled my water without asking.\n\nGreg changed the subject. He told me about Steven's tendency to collect strange souvenirs, the time a magical lion had refused to move out of the passenger seat, and the difference between a good road trip and a trip where the road was technically involved but nobody was having fun.\n\nI listened. I asked questions. I told him about the first song I loved, not the one I thought made me look interesting but the one that had found me on a bad day and stayed.\n\n“What was it?” he asked.\n\nI told him.\n\nGreg nodded with the solemn respect of someone receiving a secret. “That’s a good one.”\n\n“You know it?”\n\n“I do.”\n\nHe tapped his fingers against the table. A few seconds later, he began to hum the melody under his breath. It was not exact, but it was close enough to raise gooseflesh along my arms.\n\n“You’re showing off,” I said.\n\n“I’m demonstrating a skill.”\n\n“You’re showing off with humility.”\n\n“That’s advanced musicianship.”\n\nWhen the diner closed, Greg walked me to the motel. The night air had cooled. Beach City was quieter, the boardwalk lights reflected in long trembling lines across the water.\n\nAt the motel entrance, he stopped.\n\n“I had a good time,” he said.\n\n“Even though I insulted your chair?”\n\n“Especially because you insulted my chair.”\n\nI could have said good night. I could have taken the card from my pocket and handed it back, ending this before it grew into something I could not control.\n\nInstead, I said, “Write the next song about a better chair.”\n\nGreg’s smile unfolded slowly. “I’ll need research.”\n\n“You can start by finding one.”\n\n“Tomorrow?”\n\n“Maybe.”\n\nHis eyes brightened at the word. “I’m beginning to think you use it on purpose.”\n\nI went inside before he could see how much I liked that he noticed.\n\nIn the room above the bakery, I set my phone on the nightstand and listened to the muffled clatter below. My life still waited in the messages I had not answered. The past had not vanished because one man had played a song under a striped awning.\n\nBut when I closed my eyes, I heard Greg's voice singing about a door left open.\n\nFor the first time in a long while, the future sounded like a melody instead of an alarm.",
@@ -76,5 +75,8 @@
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
   "id": "su-03",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

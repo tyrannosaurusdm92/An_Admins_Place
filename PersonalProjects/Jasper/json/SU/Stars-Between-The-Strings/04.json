@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Things You Do Not Say",
@@ -11,13 +11,12 @@
   "fandom": "Steven Universe",
   "pairing": "Greg Universe / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
     "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "su-04-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "su-05",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "I did not tell Greg about the phone call.\n\nIt came on my fifth morning in Beach City, while I was standing in the kitchenette of the studio and trying to convince a kettle that boiling was in its best interest. The number was one I knew by heart. The kind of number that could make my shoulders tighten before I even heard the voice on the other end.\n\nI watched it ring until the screen went dark.\n\nThe kettle clicked off.\n\nOutside, the bakery below began its morning work. The smell of bread rose through the floorboards. I poured water into a chipped mug and added the tea bag Mara had left in my mailbox with a note that said: THIS IS BETTER THAN THE LEMON PACKET. DO NOT ARGUE.\n\nThe phone rang again.\n\nThis time, I answered.\n\n“Hello.”\n\nThe voice on the other end said my name as if it were evidence.\n\nI turned toward the window. The sea was a pale stripe between rooftops. A gull landed on the fire escape and looked directly at I.\n\n“I’m not coming back,” I said.\n\nThe response was soft, reasonable, and practiced. That was what made it dangerous. It moved through the familiar places: the accusation disguised as concern, the reminder of everything I had once needed, the suggestion that I was being selfish by choosing myself now.\n\nI listened until my tea went cold.\n\nWhen the call ended, I remained by the window with the phone pressed against my palm. My breathing had gone shallow. The studio seemed to have shrunk around I. The walls were too close; the refrigerator hummed too loudly; the kettle's red light blinked as if it knew me were losing.\n\nI left before I could change my mind.\n\nGreg found me at the beach.\n\nHe was carrying a folding chair over one shoulder and a grocery bag in the other hand. The chair was new. It had a padded seat and cup holders.\n\n“I have made an investment,” he announced.\n\nI sat on the sand with my knees drawn up. “In furniture?”\n\n“In your comfort. Furniture is merely the delivery system.”\n\nHe set the chair down a few feet away. Not beside I. A few feet away. Then he placed the grocery bag in the sand and sat on the other side of it.\n\nThe distance was considerate. It also made me want to cry.\n\n“You okay?” he asked.\n\n“No.”\n\nGreg nodded, accepting the answer without trying to polish it. “Do you want company?”\n\nI looked at the folding chair. “You already brought a chair.”\n\n“I can take it back.”\n\n“No.”\n\n“Do you want me to sit in it?”\n\n“I don’t know.”\n\n“That’s okay.”\n\nThe ocean moved in and out. Greg opened the grocery bag and removed two paper cups. “I brought coffee. It’s not a solution, but it is warm.”\n\nI accepted one. The cup heated my fingers.\n\n“I got a call,” I said.\n\n“I figured.”\n\n“You figured?”\n\n“You looked like somebody had reached through the phone and grabbed your spine.”\n\nI stared at the coffee. “That’s vivid.”\n\n“I’m a songwriter.”\n\nThe laugh that escaped I was thin, but Greg did not treat it as a victory. He watched the water instead.\n\n“They wanted me to come back,” I said. “They said I was making everything harder than it needed to be.”\n\n“Were you?”\n\nThe question startled I.\n\n“Maybe.”\n\n“Maybe is doing emotional labor again.”\n\nI rubbed my thumb along the rim of the cup. “I don’t know how to tell the difference between being difficult and having a boundary.”\n\nGreg's expression changed. The humor remained, but something steadier appeared beneath it.\n\n“A boundary is what you do to protect your own life,” he said. “Being difficult is what people call it when they don’t like that you stopped making their life easier.”\n\nThe words settled into I slowly.\n\n“What if I hurt someone?”\n\n“You probably will. People are soft. Even when you’re careful, you’ll bump into each other.”\n\n“That’s not comforting.”\n\n“I’m not done.” He leaned forward, elbows on his knees. “Hurt is not the same thing as harm. Someone can be disappointed by your boundary without being entitled to break it.”\n\nI looked at him.\n\nGreg did not reach for my hand. He gave me the choice of making that distance smaller.\n\n“You’ve had a lot of practice saying things like that,” I said.\n\n“I’ve had a lot of practice saying the wrong things first.”\n\n“What was your wrong thing?”\n\nHe smiled without much humor. “I used to think love meant proving you would stay no matter what. So I stayed in places that made me smaller. Then I thought love meant leaving before anyone could ask me to be someone I wasn’t. So I left people who deserved honesty.”\n\nThe sea wind lifted his hair. He looked older in the morning light, not fragile, but marked by time in a way that made his gentleness feel earned.\n\n“What does love mean now?” I asked.\n\nGreg considered it. “Asking. Listening. Staying when staying is kind. Leaving when staying is cruel. And not confusing the intensity of a feeling with permission to ignore somebody’s answer.”\n\nMy throat tightened.\n\n“That’s a lot for a coffee conversation.”\n\n“I put too much sugar in mine.”\n\nI smiled into the cup.\n\nHe opened the grocery bag again. “Also, I brought muffins.”\n\n“You think carbohydrates will heal me?”\n\n“No. But they can keep you from making decisions while hungry.”\n\nThe muffin was blueberry. I ate half of it before realizing how hungry I was.\n\nGreg sat with I for an hour. Sometimes he talked. Sometimes he played quiet chords on the guitar he had brought in the car. He did not ask me to tell him the whole story. He did not try to become the judge of a relationship he had never seen.\n\nWhen my breathing finally slowed, I looked at the new chair.\n\n“You really bought that for me?”\n\n“I bought it because the old one was an insult.”\n\n“It’s a very nice insult.”\n\n“It has cup holders.”\n\n“You remembered.”\n\nHis fingers stilled over the strings. “I remember a lot about you.”\n\nThe warmth in his voice was not accidental. It was not a confession, exactly, but it was closer to one than anything he had said before.\n\n“What do you remember?”\n\nGreg's smile turned shy. “You take your tea too hot. You pretend not to like sweet things, then steal the icing from my pastries. You look at exits when you enter a room. You laugh with your whole face when you forget to be careful.”\n\nI became aware of every inch of myself: my hands, my mouth, the wind against my neck.\n\n“That’s a lot,” I whispered.\n\n“I told you. Professionally nosy.”\n\nI wanted to ask whether he remembered the way I looked at him. I wanted to know if he had noticed how my body leaned toward his voice, how every invitation made the day feel easier.\n\nInstead, I asked, “Do you remember when I said I might call you?”\n\n“Yes.”\n\n“I haven’t.”\n\n“You’re here.”\n\nThe answer was so simple that it broke something open.\n\nI put the coffee down. My fingers trembled. Greg watched them, then looked back at my face.\n\n“Can I sit closer?” he asked.\n\nI nodded.\n\nHe moved from the sand into the new chair, leaving the armrest between I. It was not quite close enough. I shifted first, sitting on the edge of the chair beside him. The cushion dipped beneath my weight.\n\nGreg went very still.\n\n“Is this okay?” I asked.\n\n“Yes.”\n\n“You sound surprised.”\n\n“I’m trying not to ruin it by being an idiot.”\n\n“How’s that going?”\n\n“Mixed results.”\n\nMy shoulder brushed his. The contact was light, but it carried a current. Greg's arm rested along the back of the chair, not touching me. The ocean kept breathing. Somewhere down the beach, a child shouted at a gull.\n\n“You don’t have to be alone with the hard things,” Greg said.\n\nI looked at him. “That sounds like a promise.”\n\n“It’s an offer.”\n\n“What’s the difference?”\n\n“A promise can become a chain if someone uses it to trap you. An offer stays yours to accept or refuse.”\n\nMy heart hurt in a new way.\n\n“I’m going to accept it,” I said.\n\nGreg exhaled as if he had been holding his breath. “Okay.”\n\nThe moment did not become a kiss. Not yet. That restraint made it feel more intimate than if he had leaned in and taken what he wanted.\n\nHe carried the chair back toward town when the afternoon faded. I carried the grocery bag. At the corner near the bakery, Greg stopped.\n\n“You can call me tonight,” he said. “Or tomorrow. Or not. The number works either way.”\n\n“You’re very good at not making me guess.”\n\nHis smile warmed. “I’m trying.”\n\nI reached into the bag and took out the last muffin. “Want to split this?”\n\n“That’s a very romantic question.”\n\n“It’s a blueberry muffin.”\n\n“Romance can be blueberry.”\n\nI broke it in half. My fingers brushed when I handed him his piece. Neither of I pulled away immediately.\n\nThen Greg took the muffin, and the moment passed without being lost.\n\nThat night, when my phone rang again, I did not answer. I turned it face down and called Greg instead.\n\nHe picked up on the second ring.\n\n“Hey,” he said.\n\nI closed my eyes. “Hi.”\n\nNeither of I spoke for a while.\n\nIt was not silence like abandonment. It was silence with someone on the other side.",
@@ -76,5 +75,8 @@
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
   "id": "su-04",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

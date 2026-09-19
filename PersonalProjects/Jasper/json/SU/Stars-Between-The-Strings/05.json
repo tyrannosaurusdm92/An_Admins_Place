@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "A House with Wheels",
@@ -11,13 +11,12 @@
   "fandom": "Steven Universe",
   "pairing": "Greg Universe / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
     "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "su-05-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "su-06",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "Greg's van was not technically a house, but it had a kitchen, a bed, and at least three blankets that smelled like sun-warmed fabric.\n\n“It’s a house with wheels,” he said when I pointed this out.\n\n“It’s a van with delusions.”\n\n“Every good home has dreams.”\n\nI was parked outside my studio on a bright Saturday morning, watching Greg attempt to fit a narrow bookshelf through the doorway. The shelf had been left by the previous tenant. One leg was missing. The back panel bowed outward like a person trying not to laugh.\n\n“I’m not sure that thing is safe,” I said.\n\n“It’s been safe for years.”\n\n“That is not the same as being safe now.”\n\n“You sound like the Gems.”\n\n“Should I be worried?”\n\n“Only if they start making a committee.”\n\nHe backed out of the doorway, bookshelf in his arms. The building's hallway was too narrow to turn around, so he shuffled toward the stairs. I followed with a roll of packing paper and the intense conviction that if he fell, I would somehow catch both him and the furniture.\n\nGreg noticed my expression.\n\n“I’m okay,” he said.\n\n“I’m aware.”\n\n“You’re doing the face.”\n\n“What face?”\n\n“The one where you prepare to catch a grown man who has made a poor decision.”\n\n“I have a lot of experience with poor decisions.”\n\n“So do I.”\n\nHe made it down the stairs. The bookshelf did not. It caught on the railing with a loud crack, and one of the remaining legs snapped.\n\nThere was a moment of silence.\n\n“Good news,” Greg said. “It has less wobble now.”\n\nI laughed until I had to sit on the bottom step.\n\nThe bookshelf ended up in the van, where Greg had decided it could become a storage unit for records. I had expected a quick trip to the hardware store, but Greg arrived with a thermos, two sandwiches, and a playlist he claimed was necessary for construction.\n\n“You’re turning this into a road trip,” I said.\n\n“No. I’m turning it into an efficient errand with music.”\n\n“The blanket is suspicious.”\n\n“The blanket is for lumbar support.”\n\n“The pillow?”\n\n“Emotional lumbar support.”\n\nThe van smelled like cedar, coffee, and something sweet I could not identify. A string of small lights ran along the ceiling. A guitar rested in a secure holder near the back. The bed took up one side, covered in mismatched quilts. The other side held shelves of records, tools, books, and objects that seemed to have survived simply because Greg had loved them too much to throw them away.\n\nThere was a photograph tucked into the corner of the dashboard. It showed Greg years younger, smiling beside a little boy with enormous hair. I recognized Steven immediately, though I had never met him.\n\n“Your son?” I asked.\n\nGreg looked at the photograph. His expression softened with pride and something more complicated.\n\n“Yeah.”\n\n“He’s cute.”\n\n“He’s a menace.”\n\n“That can be cute.”\n\n“It can also be expensive.”\n\nHe started the van. The engine coughed, complained, and eventually agreed to participate.\n\nAt the hardware store, Greg forgot why he had gone in within three minutes. He remembered when he saw a display of tiny decorative hooks shaped like moons.\n\n“You don’t need those,” I said.\n\n“I need them emotionally.”\n\n“That phrase is becoming a problem.”\n\n“You’re right. I’ll buy two.”\n\nI wandered through aisles of paint and screws while Greg debated the moral character of different kinds of wood glue. When I found him again, he was holding a box of blue paint.\n\n“You said records,” I reminded him.\n\n“The shelf needs a color.”\n\n“It needs legs.”\n\n“Color is more hopeful.”\n\n“Legs are more practical.”\n\n“You’re very focused on practicality for someone who moved to a new city with no housing.”\n\nThe joke was gentle, but I still flinched.\n\nGreg saw it immediately. “I’m sorry.”\n\n“It’s fine.”\n\n“No, it wasn’t. I was teasing you about something tender.”\n\nI looked at the paint can. “You don’t have to apologize every time you miss.”\n\n“I do if I want you to know I noticed.”\n\nThe hardware store around I suddenly seemed too bright. I turned the can in my hands.\n\n“I’m not used to people noticing,” I said.\n\n“I know.”\n\n“You don’t know everything.”\n\n“No. But I know that.”\n\nHe did not touch me. He simply stood beside the display of paint, giving I enough space to breathe. A teenager pushed a cart past I. A radio played a song about summer.\n\n“Blue is nice,” I said at last.\n\nGreg glanced at the can. “It is.”\n\nThe drive back to the studio took longer because Greg decided to show me the scenic route. The scenic route involved a hill, a view of the water, and a brief argument with a seagull that had landed on the windshield.\n\n“We’re not feeding you,” Greg told it.\n\nThe seagull stared.\n\n“That’s a very judgmental bird,” I said.\n\n“It has known hardship.”\n\n“It stole your capo, didn’t it?”\n\n“Different bird. Same family.”\n\nHe parked near the overlook. The afternoon sun laid a path of gold across the water. Greg turned off the engine but did not get out.\n\n“This is where I bring people when I don’t know how to say something,” he said.\n\nI looked at him. “Are you trying to say something?”\n\n“Maybe.”\n\n“You’re allowed to use a different word.”\n\nHe smiled, but his hands tightened around the steering wheel.\n\n“I like having you around,” he said. “I know that sounds simple.”\n\n“Simple is not the same as small.”\n\n“I like that you argue with me about chairs and paint. I like that you call when the day is bad and when the day is good. I like that you’re starting to leave things in my van.”\n\nI looked toward the back. My scarf hung from one of the hooks. I had forgotten it there the night before.\n\n“I didn’t know that was a declaration.”\n\n“It might be a scarf.”\n\n“You said it was a house with wheels.”\n\nGreg looked at me then. His eyes were warm, but there was nervousness beneath them.\n\n“I don’t want to assume anything,” he said. “I’ve spent enough of my life mistaking hope for permission.”\n\nThe honesty made the space between I feel suddenly fragile.\n\n“What would you be assuming?”\n\n“That you want this to be more than friendship.”\n\nMy pulse moved into my throat.\n\n“Do you?”\n\nGreg laughed once, softly. “Yes.”\n\nThe word sat between I, clear and unprotected.\n\nI had expected the answer to make me feel trapped. Instead, it made something inside I loosen.\n\n“I do too,” I said.\n\nGreg's eyes closed for a second. He looked relieved enough to make my chest ache.\n\n“Can I kiss you?” he asked.\n\nThe question was quiet. It was also the most certain thing in the world.\n\n“Yes.”\n\nHe leaned across the space between the seats slowly, giving I every chance to change my mind. His hand rested on the edge of my seat, not my body. When his mouth touched mine, the kiss was gentle enough to feel like an introduction.\n\nI had expected awkwardness. There was some. Greg's nose bumped mine, and he whispered an apology against my mouth. I laughed into the kiss. He smiled, and the smile made it deeper.\n\nHis hand moved to my cheek only after I leaned into it. His thumb brushed my skin. The contact was warm and careful, but not hesitant. Greg kissed me like somebody who had learned that tenderness could be fierce.\n\nWhen I pulled back, my foreheads touched.\n\n“That was better than the chair,” I murmured.\n\n“I’m going to be offended if you compare all our kisses to furniture.”\n\n“You started a theme.”\n\n“I can improve.”\n\nThe next kiss was slower. The van rocked slightly when I shifted closer. Somewhere outside, the seagull cried as if filing a complaint.\n\nGreg drew back first, breathing hard enough to make me smile.\n\n“I should probably mention,” he said, “that the van has a very bad privacy curtain.”\n\n“You have a privacy curtain?”\n\n“I have a curtain with aspirations.”\n\nI laughed, and Greg's gaze dropped briefly to my mouth.\n\nThe warmth between I changed. It did not become a demand. It became an invitation, one that waited for my answer.\n\nI kissed him again. His hand slid from my cheek to the back of my neck, holding me close without pulling. The world outside reduced itself to water, sunlight, and the low sound he made when my fingers curled into his shirt.\n\nWhen the windows began to fog, Greg rested his forehead against mine.\n\n“We can stop,” he whispered.\n\n“I know.”\n\n“Or we can go somewhere less public.”\n\n“I know that too.”\n\nThe choice was mine. The warmth in his eyes told me he would be happy either way, as long as I was choosing freely.\n\nI reached for his hand.\n\n“Take me home,” I said.\n\nGreg's smile was soft and almost disbelieving. “Okay.”\n\nHe drove back through Beach City with one hand on the wheel and the other intertwined with mine. The blue paint sat between my feet. The broken bookshelf waited in the back. My scarf hung from the moon-shaped hook.\n\nThe van was still not technically a house.\n\nBut when Greg parked outside my building and walked me upstairs, when he kissed me again beneath the crooked hallway light, when the lock turned and the door closed behind I, home stopped feeling like a place I had to earn.\n\nThe rest of the afternoon belonged to the two of I, the ocean, and the kind of privacy that did not need to be described to be real.",
@@ -76,5 +75,8 @@
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
   "id": "su-05",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

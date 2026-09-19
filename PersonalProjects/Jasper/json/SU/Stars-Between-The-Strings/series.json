@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_series",
   "fandom": "Steven Universe",
   "series_title": "Stars Between the Strings",
@@ -8,15 +8,10 @@
   "series_path": "SU/Stars-Between-The-Strings",
   "pairing": "Greg Universe / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "description": "Music, Beach City, second chances, and Greg Universe learning that being wanted does not have to feel temporary.",
   "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
   "chapter_count": 40,
-  "private_continuation": {
-    "available": true,
-    "mode": "local_only",
-    "explicit_text": false
-  },
   "chapters": [
     {
       "number": 1,
@@ -339,7 +334,7 @@
       "choice_count": 3
     }
   ],
-  "total_word_count": 62644,
+  "total_word_count": 62653,
   "key": "stars-between-the-strings",
   "title": "Stars Between the Strings",
   "folder": "SU",
@@ -388,5 +383,14 @@
     "39.json",
     "40.json"
   ],
-  "choice_count": 3
+  "choice_count": 3,
+  "content_mode": "romance",
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "explicit_branching": {
+    "available": true,
+    "target": "@generate-explicit",
+    "requires_story_provider": true,
+    "adult_characters_only": true
+  }
 }
