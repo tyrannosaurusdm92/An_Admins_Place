@@ -40,10 +40,17 @@
         };
 
     const engine = new CYOA.StoryEngine(bundle);
-    await engine.ready();
-    await engine.loadHostedJson().catch(() => []);
+    // GitHub Pages fix: do not block the reader UI while IndexedDB/project-folder
+    // restoration and ~200 hosted JSON files load. The bundled library is complete
+    // enough to open the HUD and read immediately; hosted JSON hydrates afterward.
+    const engineReady = Promise.resolve()
+      .then(() => engine.ready())
+      .catch(error => {
+        console.warn('Project-folder restore was skipped; reader remains available.', error);
+        return engine;
+      });
     window.JASPER_CYOA = engine;
-    window.JasperFanfictionApp = { engine };
+    window.JasperFanfictionApp = { engine, ready: engineReady };
 
     const appShell = document.getElementById('appShell');
     const leftContent = document.getElementById('leftContent');
@@ -306,8 +313,35 @@
       return 205;
     }
 
+    function bundledChapterContent(chapter) {
+      if (!chapter || !state.route) return '';
+      const sourceSeries = Array.isArray(bundle?.series)
+        ? bundle.series.find(item => item && item.key === state.route)
+        : null;
+      if (!sourceSeries || !Array.isArray(sourceSeries.chapters)) return '';
+      const sourceChapter = sourceSeries.chapters.find(item =>
+        item && (item.id === chapter.id || Number(item.chapter_number) === Number(chapter.chapter_number))
+      );
+      return String(sourceChapter?.content || '');
+    }
+
     function currentChapterPages(chapter = currentChapter()) {
-      return chapter ? paginateChapterText(chapter.content, chapterWordTarget()) : [''];
+      if (!chapter) return [''];
+      const target = chapterWordTarget();
+      const primaryText = String(chapter.content || '');
+      let pages = paginateChapterText(primaryText, target);
+
+      // GitHub-hosted manifests contain chapter metadata as well as full chapter JSON.
+      // If a transient/partial hosted merge ever leaves only metadata in memory, never
+      // collapse a 1,500-word bundled chapter into a blank text leaf + choice leaf.
+      const expectedWords = Number(chapter.word_count || 0);
+      if (pages.length <= 1 && expectedWords > target * 2) {
+        const fallbackText = bundledChapterContent(chapter);
+        if (fallbackText.trim().length > primaryText.trim().length) {
+          pages = paginateChapterText(fallbackText, target);
+        }
+      }
+      return pages.length ? pages : [''];
     }
 
     function setStatus(message) {
@@ -756,7 +790,7 @@
         leftContent.innerHTML = targetMarkup.left;
       }
       applyTurnProgress(dir, 0);
-      return { dir, target };
+      return { dir, target, finished: false, fallbackTimer: 0 };
     }
 
     function applyTurnProgress(dir, progress) {
@@ -801,7 +835,10 @@
     }
 
     function finishTurn(context, commit) {
-      if (commit && context?.target) {
+      if (!context || context.finished) return;
+      context.finished = true;
+      if (context.fallbackTimer) window.clearTimeout(context.fallbackTimer);
+      if (commit && context.target) {
         if (context.target.chapterId !== currentChapter()?.id) engine.openChapter(state.route, context.target.chapterId, { record: true });
         state.chapterPage = context.target.page;
       }
@@ -818,9 +855,16 @@
     }
 
     function animateFrom(context, from, to, duration, commit) {
+      if (!context || context.finished) return;
       const start = performance.now();
+      if (context.fallbackTimer) window.clearTimeout(context.fallbackTimer);
+      // Mobile browsers can occasionally suspend a requestAnimationFrame sequence
+      // during touch/scroll/UI changes. Always complete or cancel the same turn so
+      // state.turning can never strand Jasper on page two.
+      context.fallbackTimer = window.setTimeout(() => finishTurn(context, commit), Math.max(450, duration + 320));
       if (to === 1 && from < .15) playFlip(from);
       function frame(now) {
+        if (context.finished) return;
         const raw = Math.max(0, Math.min(1, (now - start) / duration));
         const eased = to === 1 ? heavyEase(raw) : 1 - heavyEase(1 - raw);
         const progress = from + (to - from) * eased;
@@ -1096,7 +1140,12 @@
     }
 
     function bindDynamicButtons() {
-      document.querySelectorAll('[data-route]').forEach(button => {
+      // IMPORTANT: appShell also has data-route for theming. Binding every [data-route]
+      // element made the entire app shell reopen the current fanfic on every tap, which
+      // reset chapterPage to 0 before Next/Save/Create/etc. could run. Route navigation
+      // belongs only on actual route buttons.
+      if (appShell) appShell.onclick = null;
+      document.querySelectorAll('button[data-route]').forEach(button => {
         button.onclick = () => { setDrawerOpen(false, false); openRoute(button.dataset.route, false); };
       });
       document.querySelectorAll('[data-choice]').forEach(button => {
@@ -1212,6 +1261,33 @@
     });
 
     setDrawerOpen(false, false);
+    // Render/wire the bundled library immediately. This is the important GitHub Pages
+    // behavior change: Fanfic/Create/Save/Undo are usable before hosted JSON hydration.
     renderHome();
+
+    async function refreshHostedLibraryInBackground() {
+      await engineReady;
+      const imported = await engine.loadHostedJson().catch(error => {
+        console.warn('Hosted JSON refresh skipped; bundled library remains active.', error);
+        return [];
+      });
+      // Do not interrupt a page turn or reset Jasper's current leaf. Just refresh menus
+      // and chapter metadata after the hosted files have merged into the same engine.
+      if (imported && imported.length) {
+        renderHudLibrary();
+        if (state.route) {
+          renderIndex();
+          renderJournal();
+        }
+        updateHud();
+        updateNavButtons();
+      }
+      return imported;
+    }
+
+    const hostedRefresh = new Promise(resolve => {
+      window.setTimeout(() => resolve(refreshHostedLibraryInBackground()), 0);
+    }).then(value => value);
+    window.JasperFanfictionApp.hostedRefresh = hostedRefresh;
   }
 }());
