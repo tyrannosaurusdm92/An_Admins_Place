@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The First Lesson",
@@ -11,13 +11,12 @@
   "fandom": "Avatar: The Last Airbender",
   "pairing": "Iroh / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
     "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "avatar-04-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "avatar-05",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "Iroh taught me to make tea by asking I to stop trying to make tea.\n\n“The leaves are not an opponent,” he said.\n\nI stood beside him in the kitchen with a clay pot between my hands. “They are refusing to cooperate.”\n\n“You are pouring water as though you wish to punish them.”\n\n“They know what they did.”\n\nIroh's laugh warmed the narrow room. “Again.”\n\nI poured more slowly.\n\n“Better,” he said.\n\n“You say that like I have achieved enlightenment.”\n\n“Enlightenment is often less dramatic than people expect. Sometimes it is simply not scalding the tea.”\n\nThe morning shop was quiet. Sunlight entered through the high windows. Dust moved through it like tiny spirits. Iroh stood behind I, close enough that the heat of his body reached my back, but he did not touch me.\n\n“Smell it,” he said.\n\nI lifted the lid. Jasmine rose around I.\n\n“It smells like flowers after rain.”\n\n“Good.”\n\n“It smells like your shop.”\n\n“Also good.”\n\n“Does everything have to be good?”\n\n“No. Some things are useful lessons.”\n\nI looked over my shoulder. Iroh's face was close. His eyes held a quiet amusement, but there was something else beneath it.\n\n“Do I qualify as a useful lesson?” I asked.\n\n“You qualify as several things.”\n\n“That sounds evasive.”\n\n“It is cautious.”\n\n“You’re always cautious with me.”\n\nIroh lowered his gaze to the pot. “You are a person, not a problem to solve.”\n\n“That doesn’t answer me.”\n\n“No.”\n\n“Why are you cautious?”\n\nHe turned away to set cups on a tray. “Because I am older than you.”\n\nThe answer was plain enough to make me still.\n\n“Is that a problem?”\n\n“It can be.”\n\n“For whom?”\n\n“For anyone who mistakes experience for entitlement.”\n\nI watched him arrange the cups. “Do you think I’m mistaking it?”\n\n“No.”\n\n“Do you think you are?”\n\nIroh paused.\n\n“Sometimes,” he said. “I have lived long enough to be certain of many things. That certainty can become a wall.”\n\n“You don’t seem like a wall.”\n\n“I have had practice making walls appear welcoming.”\n\nThe confession carried more weight than the conversation had held a moment before.\n\nThe shop door opened. A customer entered. I carried the tea out while Iroh greeted them.\n\nThe lesson continued through the morning. I poured. He corrected. I burned one batch and over-steeped another. Iroh drank both without complaint.\n\n“You don’t have to finish that,” I said when he took a sip of tea that smelled like wet bark.\n\n“Waste is a poor teacher.”\n\n“You could spit it out.”\n\n“That would be a different lesson.”\n\nI tried not to smile. I failed.\n\nAt midday, the shop filled with sunlight and customers. A young couple sat near the window, speaking in low voices. One of them noticed the tea I was preparing and asked whether I had learned from Iroh.\n\n“I’m attempting to,” I said.\n\n“Then you are in good hands,” the customer replied.\n\nIroh glanced toward I at the phrase.\n\nThe afternoon passed. At closing, I swept the floor while he counted the day's earnings. He wore reading glasses low on his nose. I had not seen them before.\n\n“You look scholarly,” I said.\n\n“I am scholarly.”\n\n“You look like you are about to scold a book.”\n\n“Some books deserve it.”\n\n“Which ones?”\n\n“Cookbooks that call boiling water a recipe.”\n\nI leaned on the broom. “You have strong opinions.”\n\n“I have survived many bad meals.”\n\nHe finished counting and placed the coins in a wooden box.\n\n“Are you going to show me the room?” I asked.\n\n“You have already seen it.”\n\n“I want to see it again.”\n\nIroh's gaze moved over my face. He set the box down.\n\n“Very well.”\n\nThe stairs behind the shop were narrow. Iroh climbed ahead of I, carrying a lamp. His shoulders filled the passage. At the top, he opened the door.\n\nThe room held a bed, a desk, and a balcony overlooking the street. Someone had placed a small ceramic cup on the windowsill. Inside it, a jasmine plant had begun to grow.\n\n“You planted that?” I asked.\n\n“The room needed company.”\n\n“You didn’t have to.”\n\n“I know.”\n\nI crossed to the window. The city lights came on below. Iroh stood behind I, near enough to share the view.\n\n“What happens if I take this room and things become complicated?” I asked.\n\n“Then we speak plainly.”\n\n“What if speaking plainly changes things?”\n\n“Things change whether we speak or not.”\n\nI turned. “You have an answer for everything.”\n\n“I have an answer for many things. Some are even useful.”\n\nThe balcony door was open. Warm evening air moved through the room. Iroh reached for the lamp, but I touched his wrist.\n\nHe stopped.\n\n“Can I ask you something?” I said.\n\n“You may ask.”\n\n“Can I kiss you?”\n\nFor the first time since I met him, Iroh looked genuinely surprised.\n\nThen the surprise softened into pleasure.\n\n“Yes,” he said.\n\nI stepped closer.\n\nThe kiss was gentle and unhurried. Iroh's hand rose to my cheek, warm and careful. His other hand rested at my waist only after I leaned into him. He tasted of jasmine and the honey he added to his tea when he thought nobody was watching.\n\nWhen I drew back, his forehead touched mine.\n\n“You are very direct,” he murmured.\n\n“You were taking too long.”\n\n“I was attempting to be respectful.”\n\n“You can be respectful and kiss me.”\n\n“A valuable lesson.”\n\nI kissed him again. The city below blurred into lantern light. The empty room no longer felt empty.\n\nIroh pulled away first, though his hands remained with I.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“And tomorrow?”\n\n“Ask me tomorrow.”\n\nHis smile held approval. “I will.”\n\nHe left the lamp burning when he went downstairs.\n\nI stood at the balcony and listened to his footsteps fade.\n\nThen I touched my mouth and smiled at the city.\n\nBefore I went downstairs, Iroh handed me a key.\n\n“What does this open?” I asked.\n\n“The back door.”\n\n“I already have the key to my room.”\n\n“This one opens the shop before sunrise.”\n\n“You trust me with the shop?”\n\n“I trust you with a key.”\n\n“That sounds different.”\n\n“It is.”\n\nI turned the key over in my palm. It was warm from his hand.\n\n“You can take it back,” I said.\n\n“I know.”\n\n“You are very determined to make sure I know that.”\n\n“Choice is a muscle. It grows stronger when used.”\n\nI placed the key around my neck on a thin cord.\n\nIroh watched the gesture. “You are keeping it.”\n\n“For now.”\n\n“For now is enough.”\n\nHe kissed my forehead before returning to the shop.\n\nI followed a few minutes later, carrying the empty tea pot and a heart that no longer felt quite so guarded.\n\nThe shop opened to a rush of customers. I worked beside Iroh until the morning blurred into steam and voices. Every time I reached for a cup, he was already there with the next order. Every time he forgot to eat, I placed a bun beside his elbow.\n\n“You are becoming troublesome,” he said.\n\n“I am learning from you.”\n\n“I have never been troublesome.”\n\n“You argue with kettles.”\n\n“They begin the arguments.”\n\nNear noon, the woman with the bright scarf returned. She ordered jasmine tea and looked between I and Iroh with an expression that was far too knowing.\n\n“The new room is occupied?” she asked.\n\n“Yes,” Iroh said.\n\n“How convenient.”\n\nI placed the cup in front of her. “It has a window.”\n\n“I’m sure it does.”\n\nWhen she left, I looked at Iroh.\n\n“She knows,” I said.\n\n“She knows many things.”\n\n“Everyone is going to know.”\n\n“Perhaps.”\n\n“Does that bother you?”\n\nIroh wiped the counter. “It bothers me if it bothers you.”\n\n“That is not an answer.”\n\n“I am not ashamed of wanting you.”\n\nThe cloth stopped in my hand.\n\n“But I will not make you public before you are ready,” he continued. “Your life is yours to reveal.”\n\nThe respect in his voice was almost too much.\n\n“I am not ashamed either,” I said.\n\n“Then we will let the city learn at its own pace.”\n\n“The city is very curious.”\n\n“The city has survived worse than gossip.”\n\nThat evening, I brought my chair down from the room above and placed it behind the counter. Iroh looked at it, then at I.\n\n“You are making a claim,” he said.\n\n“I am making tea.”\n\n“Both can be true.”\n\nThe kettle whistled.\n\nI and Iroh laughed at the same time.\n\nThe laughter stayed between I as the afternoon crowd arrived. It made the work feel lighter, and when the shop finally closed, Iroh left the back door unlocked until I had climbed the stairs.\n\nI looked back from the landing.\n\nHe was still watching.\n\n“Good night,” I called.\n\n“Good night,” he answered.\n\nI carried the sound of his voice upstairs.\n\nIt was a pleasant sound to carry.\n\nI kept the key warm beneath my shirt.\n\nWhen I reached the shop, Iroh looked at the cord around my neck and smiled as though the morning had offered him a private answer.",
@@ -76,5 +75,8 @@
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
   "id": "avatar-04",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

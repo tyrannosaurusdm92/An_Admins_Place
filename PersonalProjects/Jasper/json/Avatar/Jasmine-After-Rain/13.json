@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "A Journey North",
@@ -11,13 +11,12 @@
   "fandom": "Avatar: The Last Airbender",
   "pairing": "Iroh / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
     "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "avatar-13-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "avatar-14",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "The journey north began with a borrowed cart, two tea chests, and a map Iroh insisted was more accurate than it looked.\n\n“The map is upside down,” I said.\n\n“It is not.”\n\n“The river is labeled above the mountains.”\n\n“Perhaps the mountains have moved.”\n\n“You are the worst navigator I have ever met.”\n\n“You have traveled with very impressive navigators.”\n\n“I have traveled with people who could read.”\n\nIroh turned the map around. “A minor adjustment.”\n\nThe cart rolled through the outer districts of Ba Sing Se and onto the road. The city walls receded behind I. For the first time since arriving, I could see open land without a gate or tower interrupting the horizon.\n\nIroh had been asked to help negotiate with several former military governors. He had decided to carry tea as well as official letters.\n\n“Why bring the tea?” I asked.\n\n“People say more truthful things while waiting for water to boil.”\n\n“That sounds like an unreliable diplomatic method.”\n\n“It has a better success rate than shouting.”\n\nI sat beside him on the cart. The road was uneven. Every rut moved my shoulder against his.\n\n“You could have gone alone,” I said.\n\n“I could have.”\n\n“Why didn’t you?”\n\nHe kept his eyes on the road. “Because I wanted you with me.”\n\nThe answer warmed I more than the sun.\n\n“That’s not the same as needing me,” I said.\n\n“No.”\n\n“Good.”\n\n“I am learning the distinction.”\n\nThe first village welcomed Iroh with suspicion. The governor had not arrived. The tea house had no spare room. I and Iroh slept in a storage shed after sweeping out a family of mice.\n\n“They were here first,” Iroh said.\n\n“You are defending the mice?”\n\n“I respect their persistence.”\n\nI sat on a rolled blanket while he brewed tea over a small brazier. The shed smelled of dust and dried herbs.\n\n“This is not what I imagined,” I said.\n\n“The journey is often rude about our expectations.”\n\n“You make everything sound like a lesson.”\n\n“You make everything sound like an accusation.”\n\n“You are enjoying this.”\n\n“Immensely.”\n\nThe governor arrived the next morning with six guards and an expression that suggested he had not slept well in years. Iroh invited him to tea. The meeting lasted three hours.\n\nI served cups. I watched the governor's hands. He drank too quickly whenever Iroh mentioned disarmament.\n\n“The army protected this region,” the governor said.\n\n“It also ruled it through fear,” Iroh replied.\n\n“Fear kept order.”\n\n“So does a locked door. That does not make it a home.”\n\nThe governor's face reddened.\n\nI expected Iroh to push harder. Instead, he poured another cup.\n\n“What are you afraid will happen if your soldiers leave?” Iroh asked.\n\nThe question changed the room.\n\nThe governor looked toward the window. He spoke of bandits, rival provinces, and people who would take advantage of weakness. Underneath every argument was the fear of being responsible for a place without an army to blame.\n\nIroh listened.\n\nBy sunset, the governor had agreed to send half his soldiers home and allow an independent council to form.\n\n“That is not a complete victory,” I said while packing the tea chests.\n\n“No.”\n\n“You look pleased.”\n\n“A small change made honestly is more valuable than a large promise made for applause.”\n\nI loaded the last chest. Iroh's hand brushed mine.\n\n“You were good in there,” I said.\n\n“I drank tea.”\n\n“You asked the question nobody else wanted to ask.”\n\n“Questions can be doors.”\n\n“You have used that line before.”\n\n“It remains useful.”\n\nThe road turned north into hills. The air cooled. Pine trees replaced fields. Iroh wrapped a second cloak around my shoulders without comment.\n\n“I can dress myself,” I said.\n\n“I know.”\n\n“Then why?”\n\n“Because you are cold.”\n\n“You could have asked.”\n\n“Would you have said no?”\n\n“Possibly.”\n\n“Then I would have respected it.”\n\nThe words made me stop walking.\n\nIroh looked back. “What is it?”\n\n“You are getting better at saying things before you do them.”\n\n“I am practicing.”\n\nI stepped closer. “Can I kiss you?”\n\nHe smiled. “You may.”\n\nThe path was empty. The cart waited farther ahead. I kissed him between the pines, his cloak around my shoulders, the scent of smoke and tea clinging to him.\n\nHis hands rested at my back. When I pressed closer, he made a low, surprised sound.\n\n“The road is watching,” he murmured.\n\n“The road has seen worse.”\n\n“It is very judgmental.”\n\n“You say that about telescopes and roads.”\n\n“They are related.”\n\nI laughed against his mouth.\n\nThat night, I camped beside a stream. Iroh cooked rice with mushrooms. It was simple and good. He told me stories of traveling with his nephew, careful enough to make Zuko sound like a person rather than a legend.\n\n“He is doing his best,” Iroh said.\n\n“So are you.”\n\n“Yes.”\n\n“Does that make it easier?”\n\n“No. It makes it worth doing.”\n\nThe fire crackled between I. Stars appeared above the trees.\n\nI reached across the blanket. Iroh took my hand.\n\nThe road north continued in the morning.\n\nFor now, the two of I slept beneath the same sky.\n\nThe journey continued through villages that had been ignored by every capital they had ever served. People brought Iroh lists of missing relatives, broken irrigation tools, unpaid debts, and disputes that had grown into feuds because no official had listened.\n\nHe listened to all of them.\n\nSometimes, he could help. Sometimes, he could only write a name in a book and promise to carry it to someone with authority. He never promised a result merely because people wanted comfort.\n\nI learned to recognize the look on his face when the promise was beyond his power. His jaw tightened. His eyes went distant. His hands became very still.\n\n“You are doing it,” I told him one evening.\n\n“Doing what?”\n\n“Trying to carry every name.”\n\nThe two of I sat beside a field while the horses grazed. The sky was violet.\n\nIroh closed the notebook. “If I do not remember them, who will?”\n\n“They have families.”\n\n“Some do not.”\n\n“Then write the names. Do not become the names.”\n\nHe looked at me.\n\n“You cannot help anyone if you turn yourself into a memorial,” I continued.\n\nIroh's gaze dropped to the notebook.\n\n“That was harsh,” I said.\n\n“It was precise.”\n\n“You are allowed to disagree.”\n\n“I am considering it.”\n\n“Dangerous.”\n\n“Very.”\n\nHe opened the notebook again and placed it in his bag.\n\n“What do you do when you cannot fix something?” he asked.\n\n“I pretend I can until someone tells me to stop.”\n\n“That is not a healthy answer.”\n\n“I did not say it was.”\n\nHe reached for my hand. “Then perhaps we should learn together.”\n\nThe next village had no tea house. I brewed tea beneath a tree while Iroh met with the council. A child watched me measure leaves.\n\n“Is it magic?” she asked.\n\n“No. It is practice.”\n\n“Can I try?”\n\nI handed her the spoon. She poured too much.\n\n“That is too many,” I said.\n\n“How do you know?”\n\n“Because Iroh will make a face when he drinks it.”\n\nThe child giggled.\n\nWhen Iroh returned, I served him the tea. He took a sip and made a solemn expression.\n\n“It is powerful,” he said.\n\nThe child beamed.\n\n“It is also very bitter,” he added.\n\n“You cannot say both.”\n\n“I can. It is an important diplomatic skill.”\n\nThe child asked him whether he was a dragon. Iroh said that he had been called one. She asked whether dragons liked tea.\n\n“Some do,” he said.\n\n“Do you?”\n\n“Very much.”\n\nShe looked at me. “Do you love him?”\n\nI choked on my tea.\n\nIroh's eyes widened.\n\nThe child waited with the ruthless patience of someone too young to understand embarrassment.\n\n“Yes,” I said.\n\nIroh's expression softened.\n\n“He loves you too,” the child decided.\n\n“That is a conclusion,” Iroh said.\n\n“Is it wrong?”\n\n“No.”\n\nThe child returned to her family. I stared at the cup in my hands.\n\n“You could have answered,” I said.\n\n“I wanted to hear you say it.”\n\n“You already heard me.”\n\n“I enjoy repetition.”\n\nI kissed him beside the tree.\n\nThe road through the hills was difficult, but the days became full of small kindnesses: sharing fruit, repairing wheels, making tea for strangers, and sleeping beneath open skies.\n\nI did not save everyone.\n\nI did not need to.\n\nI helped where I could, and I returned to the cart together.\n\nAt night, Iroh placed the notebook between I instead of hiding it in his bag.\n\n“You may read,” he said.\n\n“Only if you want me to.”\n\n“I want you to know what I am carrying.”\n\nI did not open it. I placed my hand over the cover.\n\n“Then I will sit with it,” I said.\n\nIroh covered my hand with his.\n\nThe notebook remained closed, but the distance between I grew smaller.\n\nIn the morning, Iroh brewed tea without being asked. I carried the cups to the cart.\n\nThe tea was strong.\n\nIt warmed the morning.\n\nSo did his smile.\n\nThe cart waited beneath the tree.",
@@ -76,5 +75,8 @@
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
   "id": "avatar-13",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

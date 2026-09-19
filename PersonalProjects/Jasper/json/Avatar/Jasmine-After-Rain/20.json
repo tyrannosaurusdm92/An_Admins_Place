@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Tea That Stays",
@@ -11,13 +11,12 @@
   "fandom": "Avatar: The Last Airbender",
   "pairing": "Iroh / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
     "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "avatar-20-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "avatar-21",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "The tea that stayed was not the most expensive tea in the shop.\n\nIt was not rare. It did not come from a mountain guarded by spirits or a valley where the leaves grew only under a full moon. It was a simple jasmine blend, floral and warm, the kind Iroh had served I on my first rainy afternoon in Ba Sing Se.\n\nI brewed it on the morning the Jasmine Dragon reopened after renovations.\n\nThe wall across the street had been repaired again. The jasmine vines remained. Their roots had survived more damage than anyone expected.\n\nIroh stood beside I behind the counter, wearing his red sash and a smile that made the room brighter.\n\n“You are pouring too quickly,” he said.\n\n“You are supervising.”\n\n“I am observing.”\n\n“You are hovering.”\n\n“I am providing emotional support.”\n\n“For the tea?”\n\n“For the tea master.”\n\nI slowed the water. Steam rose between I.\n\n“Better,” he said.\n\n“You sound proud.”\n\n“I am.”\n\n“You can say that.”\n\n“I am learning.”\n\nThe shop filled before the doors officially opened. The old pai sho players claimed their table. The woman with the bright scarves arrived carrying a bundle of flowers. The former soldier from the market stood outside for a long time before entering.\n\nIroh welcomed him.\n\nThe man ordered the dragon's breath tea.\n\n“You remember,” Iroh said.\n\n“I remember many things.”\n\nHe sat near the window. The tea was served without ceremony. He drank slowly.\n\nWhen he left, he placed a small wooden carving on the counter. It showed a dragon curled around a cup.\n\n“For the shop,” he said.\n\nIroh accepted it with both hands.\n\n“Thank you,” he replied.\n\nThe man nodded and left.\n\nI watched Iroh put the carving beside the register.\n\n“That was important,” I said.\n\n“Yes.”\n\n“Are you all right?”\n\n“I am.”\n\n“That was quick.”\n\n“Some answers deserve a quick answer.”\n\nI smiled.\n\nThe day continued. Customers came for tea and stayed for stories. The shop's new shelves held jars labeled in both my handwriting and Iroh's. A second chair stood behind the counter for whoever needed to rest. The kettle still whistled whenever it felt ignored.\n\nAt midday, Iroh leaned close.\n\n“There is something I wish to ask you,” he said.\n\n“Is it a question?”\n\n“Yes.”\n\n“Then ask.”\n\n“Would you like to open a second tea room with me?”\n\nI blinked. “You want another shop?”\n\n“Perhaps a smaller one near the outer wall. A place where travelers can sit before entering the city.”\n\n“You want to expand.”\n\n“I want to build something with you.”\n\nThe words landed deeper than the proposal itself.\n\n“What if it fails?”\n\n“Then we learn.”\n\n“What if it succeeds?”\n\n“Then we make more tea.”\n\n“You have not considered a less tea-centered answer?”\n\n“I considered pastries.”\n\n“Of course.”\n\nI looked around the shop. The place had become a map of the life I had built: the corner table, the white lotus cup, the shelf I repaired, the balcony above.\n\n“Yes,” I said.\n\nIroh's expression went still. “Yes?”\n\n“I want to build it with you.”\n\nHe looked toward the ceiling, as if asking the spirits for patience.\n\n“You may kiss me,” I said.\n\n“The customers are watching.”\n\n“Then ask me after closing.”\n\n“I will.”\n\nThe day passed slowly after that. Every customer seemed determined to ask for a complicated order. The kettle whistled three times. One of the old men accused the other of hiding a tile.\n\nAt last, the sign turned to CLOSED.\n\nIroh locked the door. I cleaned the counter. He poured two cups of the simple jasmine tea.\n\n“The tea that stayed,” I said.\n\n“It has a persistent character.”\n\nI carried the cups to the corner table.\n\n“Do you ever miss who you were?” I asked.\n\nIroh sat across from I. “Sometimes.”\n\n“Do you miss the palace?”\n\n“No.”\n\n“The army?”\n\n“Some people in it.”\n\n“The certainty?”\n\nHe looked into his cup. “Never.”\n\nI reached across the table. He took my hand.\n\n“I miss my son,” he said. “I will always miss him. But missing him no longer means I must refuse happiness.”\n\nMy fingers tightened around his.\n\n“I am happy,” he continued. “Not every day. Not without grief. But enough to know the difference.”\n\n“Enough to build another shop?”\n\n“Enough to build a life.”\n\nI rose and moved around the table. Iroh stood to meet me.\n\n“Still comfortable?” he asked.\n\nI touched his face. “Yes.”\n\n“Still certain?”\n\n“Ask me tomorrow.”\n\nHis laugh was soft and full.\n\nHe kissed me beneath the warm shop lights. The kiss held the first rain, the wall, the road through the hills, the storm, the letters, and every difficult conversation that had made the happiness possible.\n\nI drew him closer. He asked. I answered. The city outside faded behind the locked door.\n\nThe night ended upstairs, warm and private, with the jasmine plant flowering against the balcony.\n\nIn the morning, I brewed tea together.\n\nThe first cup was too hot. The second was too strong. The third was perfect only because I drank it slowly.\n\nIroh set his cup beside mine.\n\n“To the second tea room,” he said.\n\n“To the first one.”\n\n“To the road.”\n\n“To returning.”\n\nHe lifted my hand and kissed my knuckles.\n\n“To staying,” he said.\n\nOutside, Ba Sing Se woke beneath a clear sky.\n\nInside, the tea stayed warm.\n\nThe second tea room opened the following spring.\n\nIt was called the Jasmine Gate, though Iroh claimed the name had been my idea. I insisted that the sign had been his handwriting. The argument became so familiar that the carpenter painted both versions on the back of the door.\n\nTravelers stopped there before entering Ba Sing Se. Villagers came to trade news. Children played in the courtyard beneath the tree. The old pai sho players visited once a week and complained that the new tables were too level.\n\nRen brought the first bouquet of jasmine from the wall across the street. The woman with the bright scarves brought cushions. Zuko arrived quietly one morning and stayed until closing.\n\nI gave him tea and did not ask him to explain the years he had missed. Iroh sat with him in the courtyard. Their conversation lasted a long time. When they returned, Iroh's eyes were tired, but his shoulders were lighter.\n\n“It went well?” I asked.\n\n“It went honestly.”\n\n“That is better.”\n\nHe reached for my hand.\n\nThe two shops did not make the world peaceful. They did not undo the war. They did not turn grief into a story with a tidy ending.\n\nThey made places where people could rest long enough to remember they were human.\n\nAt closing, I and Iroh walked through the courtyard. Lanterns glowed in the branches. The tree had grown taller than the roof.\n\n“You are staring,” he said.\n\n“I am observing.”\n\nHe laughed.\n\nI leaned into him. “Still comfortable?” he asked.\n\n“Yes.”\n\n“Still certain?”\n\n“Ask me tomorrow.”\n\n“I will.”\n\nI kissed him beneath the jasmine.\n\nThe world could wait behind the locked door.\n\nIn the morning, Iroh opened the door before I could reach it. He carried two cups of tea into the courtyard.\n\n“You are becoming predictable,” I said.\n\n“Only in the best ways.”\n\nI sat beneath the tree. The jasmine flowers had opened overnight. One fell into Iroh's cup.\n\n“A sign,” he said.\n\n“Of what?”\n\n“That the tea needs more flowers.”\n\n“You are impossible.”\n\n“You have chosen me anyway.”\n\n“I have.”\n\nHe took my hand across the table.\n\n“Ask me tomorrow,” I said.\n\n“I will.”\n\n“And the day after that.”\n\n“I will.”\n\n“Good.”\n\nThe city woke around I. The tea cooled slowly. Neither of I hurried.\n\nThere would be difficult days. There would be letters, repairs, grief, and choices that did not fit neatly on a game board.\n\nThere would also be tea.\n\nThere would be the road and the room above the shop. There would be the right to leave and the joy of returning.\n\nThere would be Iroh's hand in mine.\n\nAnd when I said his name, he would answer.\n\nThe answer was not a grand promise.\n\nIt was better.\n\nIt was a life, renewed one morning at a time.\n\nI lifted my cup to Iroh's.\n\n“To staying,” I said.\n\n“To choosing it,” he replied.\n\nThe flowers opened in the sun.\n\nIroh leaned closer across the table.\n\n“You are staring,” he said.\n\n“I am observing.”\n\n“A respectable word.”\n\n“You taught me.”\n\n“Then I am pleased.”\n\nI rested my head against his shoulder. The courtyard filled with light, and somewhere inside the tea room, the kettle began to whistle.\n\nNeither of I hurried to answer it.\n\nThe kettle could wait. The city could wait. The tea would still be warm when I finally stood.\n\nIroh's hand found mine beneath the table.\n\nI did not let go.\n\nThe tea stayed warm between my hands, and the morning opened without asking either of I to hurry.\n\nI stayed.\n\nIroh stayed too.\n\nTogether, I watched the sunlight cross the courtyard.\n\nThe new day was mine.\n\nAnd I welcomed it together.\n\nThe courtyard filled with light.",
@@ -76,5 +75,8 @@
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
   "id": "avatar-20",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

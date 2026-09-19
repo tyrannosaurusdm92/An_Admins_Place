@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Dragon's Breath",
@@ -11,13 +11,12 @@
   "fandom": "Avatar: The Last Airbender",
   "pairing": "Iroh / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters and the reader-proxy are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Intimate scenes fade to black",
-    "No explicit sexual content is supplied",
-    "A local-only private continuation editor is available from the choice menu"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -31,7 +30,7 @@
   "path_variants": {
     "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
     "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
   },
   "choices": [
     {
@@ -60,15 +59,15 @@
     },
     {
       "id": "avatar-12-private",
-      "label": "Write my own private continuation",
-      "target": "@private",
-      "return_to": "avatar-13",
-      "path_key": "private",
+      "label": "Take the intimate route",
+      "target": "@generate-explicit",
+      "path_key": "intimate",
       "effect": {
-        "privacy": 1
+        "intimacy": 1,
+        "trust": 1
       },
-      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
-      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "content": "The dragon's breath was the name of a tea Iroh served only when he had made a difficult decision.\n\nIt was black, smoky, and strong enough to make my eyes water. He poured it into two cups after the morning rush, when the shop had finally quieted.\n\n“This seems hostile,” I said.\n\n“It is honest.”\n\n“You keep using that word to describe things that taste like ash.”\n\n“Some truths are not sweet.”\n\nI lifted the cup. “What did you decide?”\n\nIroh sat across from I. The letter from the Fire Nation lay unopened beside the tea.\n\n“I will go,” he said.\n\nThe room seemed to tilt.\n\n“For how long?”\n\n“Three weeks at first. Perhaps longer if the negotiations require it.”\n\n“Where?”\n\n“The western provinces. Then the capital.”\n\nI held the cup between my hands. The heat was almost painful.\n\n“You don’t have to look so calm,” Iroh said.\n\n“I’m trying not to make this about me.”\n\n“It is about you. It is also about many other things.”\n\n“You cannot be responsible for all of them.”\n\n“I know.”\n\n“Do you?”\n\nHis mouth tightened. “I am learning.”\n\nI took a sip of the tea and immediately regretted it.\n\nIroh's eyes warmed. “You need not finish it.”\n\n“I am committed to the lesson.”\n\n“Pride is a poor seasoning.”\n\n“You made the tea.”\n\n“And I am willing to admit it is unpleasant.”\n\nI laughed despite the ache in my chest.\n\nIroh reached across the table. “I will write.”\n\n“Letters?”\n\n“Letters.”\n\n“Not just formal reports.”\n\n“I promise to include at least one complaint about the food.”\n\n“And one thing you are actually feeling.”\n\nHe hesitated.\n\n“Iroh.”\n\n“I will try.”\n\n“That is not the same as promise.”\n\n“I promise to try honestly.”\n\nI accepted that.\n\nThe days before his departure became a strange mixture of work and preparation. Iroh arranged for another tea master to oversee the shop. I learned which suppliers were reliable and which ones sold leaves that had been stored too near fish.\n\n“You will be in charge while I am gone,” Iroh said.\n\n“That sounds like an error.”\n\n“It is a calculated risk.”\n\n“You have known me for less than a month.”\n\n“I have known you for long enough to see that you notice what others overlook.”\n\n“You are going to make me responsible for the kettle.”\n\n“Only the kettle with a temper.”\n\n“You are leaving me with your most difficult employee.”\n\n“You are the most difficult employee.”\n\n“I have never threatened to whistle at you.”\n\n“The kettle has never threatened to leave.”\n\nThe joke faded between I.\n\nOn the last evening, I climbed to the balcony with two cups of tea. The city stretched below, lanterns appearing one by one.\n\n“Are you afraid?” Iroh asked.\n\n“Yes.”\n\n“Of what?”\n\n“That you’ll realize the world needs you more than I do.”\n\n“The world needs many things. It does not decide whom I love.”\n\n“You could meet someone.”\n\n“I could.”\n\nI looked at him.\n\n“That was not helpful,” he admitted.\n\n“No.”\n\n“But it is true that I cannot promise nothing will ever change. I can promise that I will not make decisions about us in silence.”\n\n“You will write.”\n\n“I will write.”\n\n“You will tell me when you are lonely.”\n\n“I will tell you.”\n\n“You will not turn yourself into a weapon just because people expect it.”\n\nIroh looked toward the city wall. “I will try.”\n\n“Honestly.”\n\n“Honestly.”\n\nI sat beside him. The balcony railing was cool under my hand.\n\n“What do you want to be when you come back?” I asked.\n\nHe thought about it.\n\n“The man who owns a tea shop,” he said. “The man who knows which blend you prefer. The man who has a room above the shop and someone who complains about his breakfast.”\n\n“You do not have to become smaller to be loved.”\n\n“I know.”\n\n“You can be both.”\n\n“Both what?”\n\n“The person who helps, and the person who rests. The man people call when they need wisdom, and the man who wants to sleep in late.”\n\nIroh smiled. “I would like to sleep in late.”\n\n“You can start when you return.”\n\n“That is a generous offer.”\n\n“Do not mistake it for permission to stop making tea.”\n\nHe laughed, then leaned toward I.\n\n“May I kiss you?”\n\n“Yes.”\n\nThe kiss held the coming separation inside it. Iroh's hands framed my face. I pressed close, memorizing warmth, the scent of jasmine, the roughness of his beard.\n\nHe paused when my fingers tightened in his coat.\n\n“Still comfortable?”\n\n“I am sad.”\n\n“That was not my question.”\n\n“Yes. I am comfortable.”\n\nHe kissed me again, more deeply. The city lights trembled below. When the longing became too sharp for words, he drew I inside.\n\nThe balcony door closed. The night held the rest of my farewell privately, with tenderness rather than urgency.\n\nBefore dawn, Iroh left a letter beneath my cup.\n\nIt contained only one sentence: I WILL COME BACK TO THE TEA.\n\nI folded it carefully and put it beside my bed.\n\nThe morning after his decision, Iroh woke before I and tried to move quietly. He failed when the floorboard beside the bed complained.\n\n“The room is betraying me,” he said.\n\nI opened one eye. “The room has always been honest.”\n\n“It has chosen a poor time.”\n\nHe sat on the edge of the bed. His travel bag rested near the door. Seeing it made the room feel smaller.\n\n“You are allowed to change your mind,” I said.\n\n“About leaving?”\n\n“About anything.”\n\nIroh looked at the bag. “I know. That is why the choice is difficult.”\n\n“If you stay, you may be accused of selfishness.”\n\n“Yes.”\n\n“If you go, you may be accused of abandoning me.”\n\n“Yes.”\n\n“People are going to accuse you either way.”\n\nHe smiled faintly. “You have found the center of the problem.”\n\nI sat up. “Then choose what you can live with.”\n\n“I am choosing to help people who have no other advocate.”\n\n“And you are choosing to come back.”\n\n“Yes.”\n\n“Then I will trust the choices, not the distance between them.”\n\nIroh's hand found mine.\n\n“You are making this easier,” he said.\n\n“I am not trying to.”\n\n“That is why it helps.”\n\nDownstairs, the shop needed to be prepared for his absence. I wrote instructions in his careful handwriting because my own letters were too large for the narrow page. The substitute tea master complained about the kettle. I told her that the kettle was now her responsibility.\n\nShe looked horrified.\n\n“It is only a kettle,” I said.\n\n“That is what he said before it attacked him.”\n\nIroh packed a second letter for Zuko. He folded it three times before sealing it.\n\n“Will he be angry?” I asked.\n\n“Possibly.”\n\n“Will he understand?”\n\n“Eventually.”\n\n“You sound certain.”\n\n“I am certain he loves me. Understanding may take longer.”\n\nI watched him press the seal into the wax.\n\n“Do you want him to visit the shop?”\n\n“I want him to visit because he wants to, not because I have created another obligation.”\n\n“You worry about that a lot.”\n\n“Obligation can look very much like love when people are frightened.”\n\nI touched his wrist. “I will not stay because I owe you.”\n\n“I know.”\n\n“I will not come because I owe you.”\n\n“I know.”\n\n“I am coming because I want to see the road.”\n\n“And the governors?”\n\n“I want to see you argue with them.”\n\n“That is a very specific desire.”\n\n“You are impressive when you are angry.”\n\nIroh laughed. “I will try to be impressive responsibly.”\n\nThe day passed in preparations. Customers brought food for the journey. The old pai sho players gave Iroh a tile they claimed was lucky. The woman with the bright scarves left a bundle of dried flowers and told me not to let him forget to sleep.\n\n“Everyone is giving me instructions,” Iroh said.\n\n“Now you know how I feel.”\n\nHe kissed my temple.\n\nThat evening, I made the dragon's breath tea. I did not like it any better, but I understood why he chose it.\n\n“It tastes like a decision,” I said.\n\n“Some decisions are not sweet.”\n\n“You have said that too.”\n\n“It remains true.”\n\nI lifted my cup. “Then to difficult truth.”\n\nIroh touched his cup to mine. “And to returning.”\n\nLater, in the room above the shop, he kissed me until the future stopped feeling like a wall.\n\nAt dawn, he left the letter beneath my cup.\n\nI carried it against my heart while I walked beside him into the rain.\n\nAt the gate, Iroh stopped and adjusted the strap of my pack.\n\n“You are certain?” he asked.\n\n“Yes.”\n\n“You may still turn back.”\n\n“Ask me tomorrow.”\n\nHis smile was small and relieved.\n\nTogether, I stepped onto the road.\n\nBehind I, the tea shop waited with its lamps dark and its door locked. Ahead, the rain softened the distance.\n\nIroh kept my hand in his.\n\nThe rain continued around I, gentle enough to endure.\n\nThe city disappeared behind the mist.\n\nThe road opened ahead.\n\nIroh adjusted the pack on his shoulder and offered me his hand. I took it without hesitation.",
@@ -76,5 +75,8 @@
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
   "id": "avatar-12",
-  "choice_count": 3
+  "choice_count": 3,
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

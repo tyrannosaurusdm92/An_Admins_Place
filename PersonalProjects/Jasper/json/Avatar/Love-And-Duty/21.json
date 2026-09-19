@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "5.2",
   "work_type": "fanfic_chapter",
   "title": "Metal Keeps Its Shape",
   "subtitle": "Love & Duty · Chapter 21 of 40",
@@ -10,14 +10,14 @@
   "fandom": "Avatar: The Last Airbender",
   "pairing": "Aang / Katara / Toph Beifong / Adult Reader (consensual polycule)",
   "reader_character": "Adult unnamed first-person self-insert reader (I / me / my / myself); nonbender; appearance and gender intentionally unspecified",
-  "rating": "Mature romance / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "content_notes": [
+    "Adult postwar timeline: Aang, Katara, Toph, and the reader-proxy are all adults (18+) before any sexual content can occur.",
     "All principal romantic characters are adults in this postwar AU",
     "Aang is 21, Katara is 23, and Toph is 21 at the start of the story",
     "Consensual polyamory / closed four-person polycule",
     "Postwar reconstruction, grief, political tension, and occasional peril",
-    "Romantic and sensual intimacy; intimate scenes fade to black",
-    "No explicit sexual content"
+    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
   ],
   "series_slug": "love-and-duty",
   "series_title": "Love & Duty",
@@ -57,18 +57,17 @@
       "generation_hint": "Stay with the friction long enough to hear Aang, Katara, and Toph as separate people."
     },
     {
-      "path_key": "private-truth",
-      "label": "Take someone aside for a private conversation",
-      "description": "Create a quieter branch where one difficult truth can be spoken without an audience.",
+      "path_key": "intimate",
+      "label": "Take the intimate route",
+      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
       "effect": {
-        "privacy": 1,
-        "vulnerability": 1
+        "intimacy": 1,
+        "trust": 1
       },
       "private": true,
       "id": "love-and-duty-21-private-truth",
-      "target": "@private",
-      "return_to": "Love-And-Duty-22",
-      "generation_hint": "Create a quieter branch where one difficult truth can be spoken without an audience."
+      "target": "@generate-explicit",
+      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
     }
   ],
   "choice_count": 3,
@@ -76,5 +75,8 @@
     "honest-needs": "Carry forward the concrete consequence of choosing “Tell them what I need before I help,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "shared-ground": "Carry forward the concrete consequence of choosing “Ask what each of them wants,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
     "private-truth": "Carry forward the concrete consequence of choosing “Take someone aside for a private conversation,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem."
-  }
+  },
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "content_mode": "romance"
 }

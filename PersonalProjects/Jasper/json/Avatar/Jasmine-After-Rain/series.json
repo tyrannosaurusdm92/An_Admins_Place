@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.0",
+  "schema_version": "5.2",
   "work_type": "fanfic_series",
   "fandom": "Avatar: The Last Airbender",
   "series_title": "Jasmine After Rain",
@@ -8,15 +8,10 @@
   "series_path": "Avatar/Jasmine-After-Rain",
   "pairing": "Iroh / Adult Reader",
   "reader_character": "Adult unnamed first-person reader-proxy",
-  "rating": "PG-13 / fade to black",
+  "rating": "Explicit-capable CYOA — adults only",
   "description": "Tea, Pai Sho, grief, and ordinary happiness make room for original-series Uncle Iroh to be a man instead of only a legend.",
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "chapter_count": 40,
-  "private_continuation": {
-    "available": true,
-    "mode": "local_only",
-    "explicit_text": false
-  },
   "chapters": [
     {
       "number": 1,
@@ -339,7 +334,7 @@
       "choice_count": 3
     }
   ],
-  "total_word_count": 61052,
+  "total_word_count": 60941,
   "key": "jasmine-after-rain",
   "title": "Jasmine After Rain",
   "folder": "Avatar",
@@ -388,5 +383,14 @@
     "39.json",
     "40.json"
   ],
-  "choice_count": 3
+  "choice_count": 3,
+  "content_mode": "romance",
+  "adult_characters_confirmed": true,
+  "consenting_adults_confirmed": true,
+  "explicit_branching": {
+    "available": true,
+    "target": "@generate-explicit",
+    "requires_story_provider": true,
+    "adult_characters_only": true
+  }
 }
