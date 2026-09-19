@@ -100,7 +100,7 @@
 
   /*
    * The taxonomy source is used for discoverability/metadata and scene intent.
-   * Generated sexual content stays non-graphic even when mature mode is selected.
+   * Adult-only content modes are explicit-capable when a story-generation provider is configured.
    */
   const STORY_TAG_TAXONOMY = Object.freeze({
     source: 'https://tags.literotica.com/',
@@ -116,11 +116,11 @@
   const CONTENT_MODES = Object.freeze({
     general: {
       id: 'general', label: 'General', adult_required: false,
-      instruction: 'Keep sexual content off-page; romance and affection are fine.'
+      instruction: 'Do not initiate sexual activity. Romance and affection are fine; do not imply off-page sex or use a fade-to-black transition.'
     },
     romance: {
       id: 'romance', label: 'Romance', adult_required: false,
-      instruction: 'Romance may be on-page with kissing, desire, affection, and relationship tension; keep sexual activity non-explicit.'
+      instruction: 'Romance may be on-page with kissing, desire, affection, and relationship tension. If the scene reaches a sexual decision point, stop at a real choice instead of fading to black or skipping to aftermath.'
     },
     mature_on_page: {
       id: 'mature_on_page', label: 'Mature on-page', adult_required: true,
@@ -979,7 +979,7 @@
     }
 
     compose({ series, parent, choice, memory, privateSeed, premise, opening }) {
-      const requestedMode = resolveContentMode(series.content_mode);
+      const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode);
       if ((requestedMode.id === 'explicit' || requestedMode.id === 'explicit_detailed') && series.adult_characters_confirmed) {
         const error = new Error('Explicit fanfiction generation requires a configured story-generation provider; the local fallback only composes non-explicit prose.');
         error.code = 'EXPLICIT_PROVIDER_REQUIRED';
@@ -1050,7 +1050,7 @@
       const chapters = series.chapters.slice().sort((a, b) => a.chapter_number - b.chapter_number);
       const eligible = chapters.filter(ch => !parent || ch.chapter_number <= parent.chapter_number);
       const recentChapters = eligible.slice(-6);
-      const requestedMode = resolveContentMode(series.content_mode);
+      const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode);
       const effectiveMode = requestedMode.adult_required && !series.adult_characters_confirmed
         ? CONTENT_MODES.romance
         : requestedMode;
@@ -1182,9 +1182,14 @@
         'Use the supplied style profile as cadence/voice guidance. Match the existing story when its diction or rhythm is more specific. Never quote or remix distinctive source sentences just to imitate style.',
         'Keep prose concrete and immersive. Never mention prompts, JSON, generation, branches, readers making choices, chapter mechanics, or the fact that this is fanfiction inside the narrative itself.',
         `Content mode: ${context.content?.instruction || CONTENT_MODES.romance.instruction}`,
+        context.content?.effective_mode === 'explicit' || context.content?.effective_mode === 'explicit_detailed'
+          ? 'Do not fade to black, cut away, skip from desire to aftermath, or summarize the sexual scene as off-page. Keep the consensual adult scene on-page and continuous with the selected branch.'
+          : 'Do not use fade-to-black as a substitute for a choice. If sex is not selected, keep the scene nonsexual rather than implying skipped off-page sex.',
         'Romantic or sexual material is permitted only between adult characters. If adult status is not confirmed, keep the scene nonsexual.',
         context.requested?.create_distinct_choices
-          ? 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different choices; each needs label, description, path_key, effect, generation_hint, and target "@generate" unless deliberately linking to an existing chapter id.'
+          ? (context.content?.adult_characters_confirmed
+            ? 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different choices. At least one optional intimacy choice should target "@generate-explicit"; other choices should target "@generate" unless deliberately linking to an existing chapter id. Every choice needs label, description, path_key, effect, and generation_hint.'
+            : 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different nonsexual choices; each needs label, description, path_key, effect, generation_hint, and target "@generate" unless deliberately linking to an existing chapter id.')
           : 'This is a standalone short story. Do not append CYOA choices; end with a satisfying final beat appropriate to the requested tone.',
         'Return ONE strict JSON object only. Required keys: title, subtitle, content, path_variants, research_alignment, choices, continuity_updates, unresolved_threads.',
         context.requested?.create_distinct_choices
@@ -1283,19 +1288,33 @@
 
     defaultChoices(series, chapterNumber, seed) {
       const templates = [
-        { path_key: 'direct', label: 'Say what I actually mean', description: 'Choose honesty and let the next scene deal with the consequences.', effect: { trust: 1, honesty: 1 } },
-        { path_key: 'playful', label: 'Meet the moment with humor', description: 'Choose warmth and playfulness without erasing what matters.', effect: { warmth: 1, playfulness: 1 } },
-        { path_key: 'curious', label: 'Ask the question underneath it', description: 'Follow the unresolved thread and learn something the safer route might miss.', effect: { curiosity: 1, insight: 1 } },
-        { path_key: 'careful', label: 'Slow down before I decide', description: 'Protect space for reflection and let restraint become part of the branch.', effect: { patience: 1, boundaries: 1 } },
-        { path_key: 'act', label: 'Stop circling it and act', description: 'Turn emotion into a concrete choice that changes the immediate situation.', effect: { resolve: 1, momentum: 1 } }
+        { path_key: 'direct', label: 'Say what I actually mean', description: 'Choose honesty and deal with the consequences.', effect: { trust: 1, honesty: 1 } },
+        { path_key: 'playful', label: 'Meet it with humor', description: 'Choose warmth without erasing what matters.', effect: { warmth: 1, playfulness: 1 } },
+        { path_key: 'curious', label: 'Ask the question underneath it', description: 'Follow the unresolved thread.', effect: { curiosity: 1, insight: 1 } },
+        { path_key: 'careful', label: 'Slow down', description: 'Protect space for reflection and boundaries.', effect: { patience: 1, boundaries: 1 } }
       ];
-      const count = 3 + (parseInt(hashText(seed), 36) % 3);
-      return templates.slice(0, count).map((item, index) => ({
+      const count = 2 + (parseInt(hashText(seed), 36) % 3);
+      const choices = templates.slice(0, count).map((item, index) => ({
         ...item,
         id: stableChoiceId(series.key, chapterNumber, item.path_key, index),
         target: '@generate',
         generation_hint: item.description
       }));
+      if (series.adult_characters_confirmed) {
+        const item = {
+          path_key: 'intimate',
+          label: 'Take the intimate route',
+          description: 'Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.',
+          effect: { intimacy: 1, trust: 1 }
+        };
+        choices.push({
+          ...item,
+          id: stableChoiceId(series.key, chapterNumber, item.path_key, choices.length),
+          target: '@generate-explicit',
+          generation_hint: 'Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, or jump directly to aftermath.'
+        });
+      }
+      return choices.slice(0, 5);
     }
 
     async generate(series, parent, choice, memory, extra = {}) {
@@ -1303,13 +1322,33 @@
       const provider = await this.callExternal(context);
       const nextNumber = extra.chapterNumber || (Math.max(0, ...series.chapters.map(ch => num(ch.chapter_number))) + 1);
       const seed = `${series.key}:${parent?.id || 'opening'}:${choice?.id || extra.direction || 'continue'}:${nextNumber}`;
-      const localContent = provider ? '' : this.local.compose({ series, parent, choice, memory, ...extra });
+      const requestedGenerationMode = resolveContentMode(context.content?.effective_mode || series.content_mode);
+      if (!provider && (requestedGenerationMode.id === 'explicit' || requestedGenerationMode.id === 'explicit_detailed')) {
+        const error = new Error('This explicit branch needs a configured story-generation provider. The scene was not faded out or replaced with non-explicit prose.');
+        error.code = 'EXPLICIT_PROVIDER_REQUIRED';
+        throw error;
+      }
+      const localContent = provider ? '' : this.local.compose({ series: { ...series, content_mode: requestedGenerationMode.id }, parent, choice, memory, ...extra });
       const titleSeeds = extra.opening
         ? ['The First Door', 'Where It Begins', 'Before the World Changes', 'The First Step']
         : ['What the Choice Changed', 'After the Answer', 'The Next Honest Thing', 'Consequences in Motion', 'A Different Kind of Quiet', 'The Road Narrows'];
       const raw = provider || {};
       const content = String(raw.content || raw.text || raw.body || localContent).trim();
       const choicesRaw = arr(raw.choices || raw.options);
+      let preparedChoices = series.story_type === 'short_story' ? [] : (choicesRaw.length ? choicesRaw.slice(0, 5) : this.defaultChoices(series, nextNumber, seed));
+      if (series.story_type !== 'short_story' && series.adult_characters_confirmed && !preparedChoices.some(item => String(item?.target || '').startsWith('@generate-explicit'))) {
+        const intimate = {
+          id: stableChoiceId(series.key, nextNumber, 'intimate', preparedChoices.length),
+          label: 'Take the intimate route',
+          target: '@generate-explicit',
+          path_key: 'intimate',
+          effect: { intimacy: 1, trust: 1 },
+          description: 'Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.',
+          generation_hint: 'Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath.'
+        };
+        if (preparedChoices.length >= 5) preparedChoices = preparedChoices.slice(0, 4);
+        preparedChoices.push(intimate);
+      }
       const mode = resolveContentMode(context.content?.effective_mode || series.content_mode);
       const rating = mode.id === 'explicit_detailed' ? 'Explicit - adults only' : (mode.id === 'explicit' ? 'Explicit - adults only' : (mode.id === 'mature_on_page' ? 'Mature - adults only' : (mode.id === 'romance' ? 'Romance / non-explicit' : 'General')));
       const chapter = normalizeChapter({
@@ -1338,7 +1377,7 @@
         continuity_updates: clone(raw.continuity_updates || {}),
         unresolved_threads: arr(raw.unresolved_threads || series.unresolved_threads),
         path_variants: raw.path_variants || {},
-        choices: series.story_type === 'short_story' ? [] : (choicesRaw.length ? choicesRaw.slice(0, 5) : this.defaultChoices(series, nextNumber, seed)),
+        choices: preparedChoices,
         content,
         generated: true,
         generation: {
@@ -1477,7 +1516,9 @@
     resolveTarget(series, target) {
       if (!target) return null;
       if (target === 'ending' || target === '@ending') return { type: 'ending' };
-      if (target === 'private' || target === '@private') return { type: 'private' };
+      if (target === 'private' || target === '@private') return { type: 'generate', contentMode: 'explicit' };
+      if (String(target).startsWith('@generate-explicit-detailed')) return { type: 'generate', contentMode: 'explicit_detailed' };
+      if (String(target).startsWith('@generate-explicit')) return { type: 'generate', contentMode: 'explicit' };
       if (String(target).startsWith('@generate') || target === 'continue') return { type: 'generate' };
       const chapter = this.chapterById(series, target);
       return chapter ? { type: 'chapter', chapter } : { type: 'missing', target };
@@ -1492,17 +1533,16 @@
       if (!choice || !memory.canChoose(choice)) throw new Error('That choice is not currently available.');
       const bridge = memory.choose(chapter, choice) || '';
       const resolved = this.resolveTarget(series, choice.target);
-      if (resolved?.type === 'private') return { type: 'private', chapter, choice, bridge, returnTo: choice.return_to || '@generate' };
       if (resolved?.type === 'ending') return { type: 'ending', chapter, choice, bridge };
       if (resolved?.type === 'chapter') {
         memory.visit(resolved.chapter, { from: chapter.id, choiceId: choice.id, pathKey: choice.path_key, bridge });
         return { type: 'chapter', chapter: resolved.chapter, choice, bridge };
       }
-      const generated = await this.generateContinuation({ parent: chapter, choice, bridge });
+      const generated = await this.generateContinuation({ parent: chapter, choice, bridge, contentModeOverride: resolved?.contentMode });
       return { type: 'chapter', chapter: generated, choice, bridge, generated: true };
     }
 
-    async generateContinuation({ parent, choice, privateSeed, direction, opening, premise } = {}) {
+    async generateContinuation({ parent, choice, privateSeed, direction, opening, premise, contentModeOverride } = {}) {
       const series = this.getSeries(this.currentSeriesKey);
       const memory = this.memory();
       if (!series || !memory) throw new Error('No active story route.');
@@ -1513,7 +1553,7 @@
       }
       const nextNumber = Math.max(0, ...series.chapters.map(ch => num(ch.chapter_number))) + 1;
       const chapter = await this.generator.generate(series, parent, choice || null, memory.snapshot(), {
-        privateSeed: privateSeed || '', direction: direction || choice?.path_key || 'continue', opening: Boolean(opening), premise, chapterNumber: nextNumber
+        privateSeed: privateSeed || '', direction: direction || choice?.path_key || 'continue', opening: Boolean(opening), premise, chapterNumber: nextNumber, contentModeOverride
       });
       this.addGeneratedChapter(series, chapter);
       const bridge = parent?.path_variants?.[choice?.path_key] || memory.state.currentBridge || '';

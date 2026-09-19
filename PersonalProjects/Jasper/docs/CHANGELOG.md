@@ -1,11 +1,14 @@
+# 2026-09-19 mobile merge
+
+- Replaced the fanfic card wall with one colored button dropdown.
+- Moved Create/Resume/Save/Import/Folder controls directly under “Fanfic can branch, resume, and keep growing.”
+- Preserved true book zoom from 50% to 300% without collapsing pages into a narrow text column.
+- Added mobile portrait/landscape containment, 44px touch targets, wrapping, and internal page scrolling.
+- Replaced every legacy `@private` branch with `@generate-explicit`.
+- Explicit branches require confirmed adult characters and a configured story-generation provider; they never silently fade out or downgrade to non-explicit prose.
+- Rebuilt the offline `fanfic-data.js` mirror from the updated JSON library.
+
 # Changelog
-
-## 3.2 — September 19, 2026
-
-- Expanded book zoom from the previous narrow range to 50%–300% in 10% steps.
-- Kept zoom controls visible while the book is open, including the Create Fanfic and story-settings pages.
-- Increased line spacing for the Jasper title/index and creation forms to prevent cramped or overlapping text.
-- Added restrained cadmium, persimmon, and cyan accent rules for borders, markers, focus states, and hover states.
 
 ## 3.1 — September 19, 2026
 
@@ -28,5 +31,5 @@
 
 - Expanded Greg Universe and original-series Uncle Iroh to 40 chapters each.
 - Converted the reader-proxy to first person.
-- Added chapter choices, path memory, and a local-only private continuation slot.
+- Added chapter choices, path memory, and generator-backed adult branching.
 - Kept the project fanfiction-only and removed unrelated poetry and short stories.

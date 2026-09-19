@@ -1,55 +1,73 @@
 {
-  "project": "Jasper's Fanfiction Spot — merged CYOA edition",
+  "project": "Jasper's Fanfiction Spot — mobile CYOA merge",
   "generated": "September 19, 2026",
   "fanfiction_only": true,
+  "jasper_only": true,
   "route_count": 5,
   "chapter_count": 200,
-  "total_word_count": 297436,
+  "total_word_count": 297274,
   "first_person": true,
   "reader_proxy": "Adult unnamed first-person; appearance and legal name undefined.",
-  "choice_count_per_chapter": 3,
-  "private_continuation": {
+  "choice_count_per_bundled_chapter": 3,
+  "explicit_branching": {
     "available": true,
-    "storage": "localStorage only",
-    "written_to_json": false
+    "target": "@generate-explicit",
+    "adult_characters_required": true,
+    "configured_story_provider_required": true,
+    "legacy_private_targets": 0
   },
-  "explicit_text_included": false,
+  "bundled_explicit_scene_text": false,
   "reference_book_content_imported": false,
   "series": [
     {
       "folder": "Avatar/Jasmine-After-Rain",
       "title": "Jasmine After Rain",
       "chapters": 40,
-      "words": 61052,
-      "word_range": [1500, 1569]
+      "words": 60941,
+      "word_range": [
+        1500,
+        1563
+      ]
     },
     {
       "folder": "Avatar/Love-And-Duty",
       "title": "Love & Duty",
       "chapters": 40,
-      "words": 60900,
-      "word_range": [1501, 1698]
+      "words": 60873,
+      "word_range": [
+        1498,
+        1698
+      ]
     },
     {
       "folder": "FO4/What-The-Armor-Leaves-Behind",
       "title": "What the Armor Leaves Behind",
       "chapters": 40,
-      "words": 61876,
-      "word_range": [1500, 1687]
+      "words": 61856,
+      "word_range": [
+        1499,
+        1680
+      ]
     },
     {
       "folder": "HP/After-Always",
       "title": "After Always",
       "chapters": 40,
-      "words": 50964,
-      "word_range": [718, 1858]
+      "words": 50951,
+      "word_range": [
+        718,
+        1859
+      ]
     },
     {
       "folder": "SU/Stars-Between-The-Strings",
       "title": "Stars Between the Strings",
       "chapters": 40,
-      "words": 62644,
-      "word_range": [1500, 1782]
+      "words": 62653,
+      "word_range": [
+        1500,
+        1782
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Jasper's private choice-based fanfiction spot with branching routes, saved progress, and a fanfic creator.">
   <title>Jasper's Fanfiction Spot</title>
   <link rel="stylesheet" href="css/book.css">
@@ -14,19 +14,14 @@
         <div class="sigil" aria-hidden="true">✦</div>
         <div>
           <h1>Jasper's Fanfiction Spot</h1>
-          <p id="brandSubtitle">Branches, choices, and stories made for Jasper</p>
+          <p id="brandSubtitle">Branching fanfic for Jasper</p>
         </div>
       </div>
-      <div class="zoom-controls topbar-zoom" aria-label="Book zoom controls, from 50 percent to 300 percent">
-        <button type="button" data-action="smaller" aria-label="Make book smaller">A−</button>
-        <span id="zoomLabel">100%</span>
-        <button type="button" data-action="larger" aria-label="Make book larger">A+</button>
-      </div>
       <div class="toolbar" id="readerToolbar" hidden>
-        <button type="button" data-action="home">Worlds</button>
-        <button type="button" data-action="contents">Contents</button>
+        <button type="button" data-action="home">Library</button>
+        <button type="button" data-action="contents">Chapters</button>
         <label class="search-wrap">Search chapters
-          <input id="searchInput" type="search" placeholder="title or phrase" autocomplete="off">
+          <input id="searchInput" type="search" placeholder="Search" autocomplete="off">
         </label>
         <button type="button" data-action="previous" aria-label="Previous chapter">←</button>
         <button type="button" data-action="next" aria-label="Next chapter">→</button>
@@ -35,12 +30,17 @@
         <button type="button" data-action="branches">Branches</button>
         <button type="button" data-action="cover">Cover</button>
         <button type="button" data-action="sound" id="soundButton">Sound: on</button>
+        <div class="zoom-controls" aria-label="Book size controls">
+          <button type="button" data-action="smaller" aria-label="Make book smaller">A−</button>
+          <span id="zoomLabel">100%</span>
+          <button type="button" data-action="larger" aria-label="Make book larger">A+</button>
+        </div>
       </div>
     </header>
 
     <div class="book-stage">
       <aside class="side-panel" id="sidePanel" aria-label="Chapter contents">
-        <h2 id="sideTitle">Contents</h2>
+        <h2 id="sideTitle">Chapters</h2>
         <p class="index-count" id="sideCount"></p>
         <div class="index-group">
           <h3>Chapters</h3>
@@ -59,6 +59,7 @@
             <span class="open-hint">Click to open</span>
           </button>
         </article>
+        <div class="book-zoom-frame" id="bookZoomFrame">
         <div class="book" id="book" aria-live="polite">
           <section class="page left-page" id="leftPage" aria-label="Book introduction and contents">
             <div id="leftContent"></div>
@@ -71,6 +72,7 @@
           <div class="binding-shadow" aria-hidden="true"></div>
           <div class="page-stack page-stack-left" aria-hidden="true"></div>
           <div class="page-stack page-stack-right" aria-hidden="true"></div>
+        </div>
         </div>
         <div class="page-footer" id="pageFooter" hidden>
           <button class="round" type="button" data-action="previous" aria-label="Previous chapter">‹</button>

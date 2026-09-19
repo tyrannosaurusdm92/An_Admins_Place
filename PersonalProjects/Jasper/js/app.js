@@ -63,6 +63,7 @@
     const rightPageNumber = document.getElementById('rightPageNumber');
     const pageFlipAudio = document.getElementById('pageFlipAudio');
     const book = document.getElementById('book');
+    const bookZoomFrame = document.getElementById('bookZoomFrame');
 
     if (!appShell || !leftContent || !rightContent) {
       document.body.innerHTML = '<main class="fallback-error"><h1>Reader shell is incomplete.</h1><p>The JavaScript loaded, but the expected book-page elements are missing from index.html.</p></main>';
@@ -75,11 +76,14 @@
       route: null,
       search: '',
       sound: true,
-      zoom: 1,
+      zoom: (() => { try { return Math.max(.5, Math.min(3, Number(localStorage.getItem('jasper-book-zoom')) || 1)); } catch (_error) { return 1; } })(),
       privateReturn: null,
       busy: false,
-      message: ''
+      message: '',
+      lastRoute: (() => { try { return localStorage.getItem('jasper-last-route') || ''; } catch (_error) { return ''; } })()
     };
+    document.documentElement.style.setProperty('--book-zoom', state.zoom.toFixed(2));
+    if (zoomLabel) zoomLabel.textContent = `${Math.round(state.zoom * 100)}%`;
 
     const importInput = document.createElement('input');
     importInput.type = 'file';
@@ -138,39 +142,23 @@
       }
     }
 
-    function fitPageContent() {
-      const pages = [leftContent, rightContent]
-        .map(content => content && content.closest('.page'))
-        .filter((page, index, list) => page && list.indexOf(page) === index);
-
-      pages.forEach(page => {
-        const inner = page.querySelector('.page-inner');
-        const pageRect = page.getBoundingClientRect();
-        if (!inner || !pageRect.width || !pageRect.height) return;
-
-        // Reset before measuring so a previous fit does not compound on the next one.
-        inner.style.setProperty('--page-fit-scale', '1');
-        const innerRect = inner.getBoundingClientRect();
-        let requiredHeight = innerRect.height;
-        let requiredWidth = innerRect.width;
-
-        inner.querySelectorAll('*').forEach(node => {
-          const rect = node.getBoundingClientRect();
-          if (!rect.width && !rect.height) return;
-          requiredHeight = Math.max(requiredHeight, rect.bottom - innerRect.top + 2);
-          requiredWidth = Math.max(requiredWidth, rect.right - innerRect.left + 2);
-        });
-
-        const availableHeight = Math.max(1, pageRect.height - 10);
-        const availableWidth = Math.max(1, pageRect.width - 10);
-        const measuredScale = Math.min(1, availableHeight / requiredHeight, availableWidth / requiredWidth);
-        const scale = Number.isFinite(measuredScale) ? Math.max(.01, Math.min(1, measuredScale)) : 1;
-        inner.style.setProperty('--page-fit-scale', scale.toFixed(3));
-      });
+    function updateBookZoomFrame() {
+      if (!book || !bookZoomFrame) return;
+      const width = book.offsetWidth;
+      const height = book.offsetHeight;
+      if (!width || !height) {
+        bookZoomFrame.style.removeProperty('width');
+        bookZoomFrame.style.removeProperty('height');
+        return;
+      }
+      // The frame owns the scaled layout size; the book owns only the visual
+      // scale. This keeps two pages side by side while allowing scrolling.
+      bookZoomFrame.style.width = `${Math.ceil(width * state.zoom)}px`;
+      bookZoomFrame.style.height = `${Math.ceil(height * state.zoom)}px`;
     }
 
     function scheduleFitPageContent() {
-      window.requestAnimationFrame(() => window.requestAnimationFrame(fitPageContent));
+      window.requestAnimationFrame(() => window.requestAnimationFrame(updateBookZoomFrame));
     }
 
     function setStatus(message) {
@@ -204,13 +192,15 @@
     }
 
     function toolsMarkup() {
+      const hasLast = Boolean(state.lastRoute && engine.getSeries(state.lastRoute));
       return `
-        <div class="private-actions cyoa-file-actions">
-          <button class="choice-button" type="button" data-action="import-json">Import JSON files</button>
-          <button class="choice-button" type="button" data-action="import-folder">Import JSON folder</button>
-          <button class="choice-button" type="button" data-action="connect-folder">${escapeHtml(folderLabel())}</button>
-          <button class="choice-button private" type="button" data-action="create-story">Create Fanfic</button>
-          <button class="choice-button" type="button" data-action="cover">Close book</button>
+        <div class="home-actions" aria-label="Fanfiction tools">
+          <button class="home-action home-action-create" type="button" data-action="create-story">Create Fanfic</button>
+          <button class="home-action" type="button" data-action="resume-last" ${hasLast ? '' : 'disabled'}>Resume</button>
+          <button class="home-action" type="button" data-action="save-last" ${hasLast ? '' : 'disabled'}>Save</button>
+          <button class="home-action" type="button" data-action="import-json">Import</button>
+          <button class="home-action" type="button" data-action="import-folder">Folder</button>
+          <button class="home-action" type="button" data-action="connect-folder">${escapeHtml(engine.hasProjectFolder() ? 'Folder ✓' : 'Connect')}</button>
         </div>`;
     }
 
@@ -229,12 +219,12 @@
 
     function routeCard(series) {
       const generatedCount = series.chapters.filter(chapter => chapter.generated).length;
-      const resume = engine.memory(series.key)?.state.currentId ? ' · resume available' : '';
+      const resume = engine.memory(series.key)?.state.currentId ? ' · resume' : '';
       const routeClass = CYOA.slug(series.fandom_folder || series.fandom || series.key);
       return `<button class="route-button route-${escapeHtml(routeClass)}" type="button" data-route="${escapeHtml(series.key)}">
         <span class="route-kicker">${escapeHtml(series.fandom)}</span>
         <strong>${escapeHtml(series.title)}</strong>
-        <span>${escapeHtml(series.pairing || (series.story_type === 'short_story' ? 'Standalone short story' : 'Interactive fanfiction'))} · ${series.chapters.length} chapter${series.chapters.length === 1 ? '' : 's'}${generatedCount ? ` · ${generatedCount} generated` : ''}${resume}</span>
+        <span>${escapeHtml(series.pairing || 'Interactive fanfiction')} · ${series.chapters.length} ch.${generatedCount ? ` · ${generatedCount} new` : ''}${resume}</span>
       </button>`;
     }
 
@@ -244,7 +234,7 @@
       state.privateReturn = null;
       if (searchInput) searchInput.value = '';
       appShell.classList.add('is-home');
-      appShell.classList.remove('is-reading');
+      appShell.classList.remove('is-reading', 'show-left-page');
       routeAccent(null);
       if (readerToolbar) readerToolbar.hidden = true;
       if (pageFooter) pageFooter.hidden = true;
@@ -253,37 +243,41 @@
       const series = engine.listSeries();
       leftContent.innerHTML = `
         <div class="page-inner title-page home-page">
-          <div>
+          <div class="home-intro">
             <div class="title-mark" aria-hidden="true">✦</div>
-            <p class="series-kicker">A branching fanfiction library</p>
+            <p class="series-kicker">Jasper's library</p>
             <h2>Jasper's<br>Fanfiction Spot</h2>
             <h3>Fanfic can branch, resume, and keep growing.</h3>
-            <p class="byline">Existing JSON remains usable as the beginning of a longer story.</p>
+            ${toolsMarkup()}
           </div>
         </div>`;
 
       rightContent.innerHTML = `
         <div class="page-inner home-route-page">
-          <div class="running-head"><span>Fanfic index</span><span>✦</span></div>
-          <div class="home-route-copy">
-            <h2>${series.length ? 'Where should the story open?' : 'Start with a story or existing JSON'}</h2>
-            <p>${series.length
-              ? 'Every choice now records branch state. Existing chapters stay readable, and any route can continue past the last JSON chapter.'
-              : 'No bundled JSON is required. Import partial chapter files or create a story here; the engine can generate the opening and continue from whatever chapters exist.'}</p>
+          <div class="mobile-home-intro">
+            <p class="series-kicker">Jasper's library</p>
+            <h2>Jasper's Fanfiction Spot</h2>
+            <h3>Fanfic can branch, resume, and keep growing.</h3>
+            ${toolsMarkup()}
+            <div class="ornament"></div>
           </div>
-          <div class="route-grid" aria-label="Choose a fanfiction route">
-            ${series.length ? series.map(routeCard).join('') : '<p class="reader-note">No story routes are loaded yet.</p>'}
+          <div class="running-head"><span>Fanfic</span><span>${series.length}</span></div>
+          <div class="fanfic-picker-wrap">
+            <details class="fanfic-picker" id="fanficPicker">
+              <summary><span>Choose a Fanfic</span><span aria-hidden="true">▾</span></summary>
+              <div class="fanfic-menu" aria-label="Choose a fanfiction">
+                ${series.length ? series.map(routeCard).join('') : '<p class="empty-index">No fanfic loaded.</p>'}
+              </div>
+            </details>
           </div>
-          ${toolsMarkup()}
-          <p class="reader-note"><strong>Generated story files:</strong> each new chapter is saved immediately in browser storage. When a project folder is connected, JavaScript creates <code>json/&lt;Fandom&gt;/&lt;Dashed-Story-Name&gt;/</code> as needed, writes chapter JSON there, and updates that story's <code>series.json</code> plus the root catalog.</p>
         </div>`;
       if (rightPageNumber) rightPageNumber.textContent = 'ii';
       bindDynamicButtons();
+      scheduleFitPageContent();
     }
 
     function renderCreateStory() {
-      appShell.classList.add('is-open');
-      appShell.classList.add('is-home');
+      appShell.classList.add('is-open', 'is-home');
       appShell.classList.remove('is-reading');
       if (readerToolbar) readerToolbar.hidden = true;
       if (sidePanel) sidePanel.hidden = true;
@@ -291,59 +285,45 @@
         <div class="page-inner title-page home-page">
           <div>
             <div class="title-mark" aria-hidden="true">✦</div>
-            <p class="series-kicker">Create fanfic</p>
-            <h2>Build the story Jasper wants.</h2>
-            <p class="byline">Create a branching fanfic opening or a complete adult short story from the premise and character personalities.</p>
+            <p class="series-kicker">Create</p>
+            <h2>New Fanfic</h2>
+            <h3>Start a branchable story.</h3>
           </div>
         </div>`;
       rightContent.innerHTML = `
-        <div class="page-inner private-page">
-          <div class="running-head"><span>Create fanfic</span><span>JSON + CYOA</span></div>
+        <div class="page-inner private-page create-page">
+          <div class="running-head"><span>Create Fanfic</span><span>CYOA</span></div>
           <div class="page-scroll chapter-scroll">
-            <h2 class="chapter-title">Story seed</h2>
-            <div class="ornament"></div>
-            <form id="createStoryForm" class="private-actions" style="display:grid;gap:.8rem">
-              <label>Story title<input name="title" required placeholder="Story title"></label>
-              <label>Fandom / game / world<input name="fandom" required placeholder="Palia"></label>
-              <label>Story format
-                <select name="story_type">
-                  <option value="cyoa_fanfiction" selected>Choose-your-own-adventure fanfiction</option>
-                  <option value="short_story">Standalone short story</option>
-                </select>
-              </label>
-              <label>Main characters / pairing<input name="pairing" placeholder="Character / Adult Reader"></label>
-              <label>Character personalities<textarea name="character_bible" required rows="7" placeholder="Describe each character's personality, voice, habits, boundaries, history, relationship dynamics, and how they should behave. One character per paragraph works well."></textarea></label>
-              <label>Story description / premise<textarea name="premise" class="private-editor" required rows="8" placeholder="Describe the kind of fanfic Jasper wants, where it begins, the relationship setup, conflict, mood, and any must-have moments."></textarea></label>
-              <label>Genre / tone<input name="tone" placeholder="Slow burn, adventure, domestic, dark humor, hurt/comfort..."></label>
-              <label>Canon window / continuity notes<textarea name="canon_window" rows="4" placeholder="Optional canon timing, setting, and facts that must stay true"></textarea></label>
-              <label>Extra story bible<textarea name="story_bible" rows="5" placeholder="Recurring facts, boundaries, locations, promises, injuries, items, relationship rules, etc."></textarea></label>
-              <label>Writing style
-                <select name="style_mode">
-                  <option value="story_adaptive" selected>Adaptive story style + route continuity</option>
-                  <option value="story_only">Infer only from imported/existing chapters</option>
-                </select>
-              </label>
-              <label>Approximate length<input name="target_words" type="number" min="600" max="10000" step="100" value="1800"></label>
-              <label>Story tags<input name="content_tags" placeholder="romance, slow burn, polyamory, adventure, explicit..."></label>
-              <label>Romance / intimacy level
+            <form id="createStoryForm" class="story-form">
+              <label>Title<input name="title" required placeholder="Story title"></label>
+              <label>Fandom<input name="fandom" required placeholder="Palia"></label>
+              <label>Characters / pairing<input name="pairing" placeholder="Character / Adult Reader"></label>
+              <label>Character personalities<textarea name="character_bible" required rows="5" placeholder="Voice, habits, history, boundaries, dynamics"></textarea></label>
+              <label>Premise<textarea name="premise" class="private-editor" required rows="6" placeholder="What happens, where it starts, tone, conflict, must-have moments"></textarea></label>
+              <label>Tone<input name="tone" placeholder="Slow burn, adventure, domestic, dark humor..."></label>
+              <label>Continuity<textarea name="canon_window" rows="3" placeholder="Canon timing and facts to preserve"></textarea></label>
+              <label>Story bible<textarea name="story_bible" rows="4" placeholder="Recurring facts, boundaries, locations, promises, injuries, items"></textarea></label>
+              <label>Length<input name="target_words" type="number" min="600" max="10000" step="100" value="1800"></label>
+              <label>Tags<input name="content_tags" placeholder="romance, slow burn, polyamory, adventure, explicit..."></label>
+              <label>Default intimacy
                 <select name="content_mode">
                   <option value="general">General</option>
-                  <option value="romance" selected>Romance / non-explicit</option>
+                  <option value="romance" selected>Romance</option>
                   <option value="mature_on_page">Mature on-page</option>
-                  <option value="explicit">Explicit — adults only</option>
-                  <option value="explicit_detailed">Explicit + detailed — adults only</option>
+                  <option value="explicit">Explicit</option>
+                  <option value="explicit_detailed">Explicit + detailed</option>
                 </select>
               </label>
-              <label style="display:flex;gap:.55rem;align-items:flex-start"><input name="adult_characters_confirmed" type="checkbox" value="yes" style="width:auto;margin-top:.2rem"> <span>Every romantic or sexual participant is an adult (18+) and consenting in this story.</span></label>
-              <p class="reader-note">CYOA fanfic ends generated chapters with meaningful choices. Standalone short-story mode returns one complete story with no branch buttons. Explicit modes are routed only when adult/consent confirmation is enabled and require a configured text-generation provider.</p>
-              <div class="private-actions">
-                <button class="choice-button" type="submit">Generate chapter 01</button>
-                <button class="choice-button private" type="button" data-action="home">Cancel</button>
+              <label class="adult-check"><input name="adult_characters_confirmed" type="checkbox" value="yes"><span>All sexual characters in this story are adults (18+) and consenting.</span></label>
+              <div class="form-actions">
+                <button class="choice-button" type="submit">Generate Chapter 01</button>
+                <button class="choice-button" type="button" data-action="home">Cancel</button>
               </div>
             </form>
           </div>
         </div>`;
       bindDynamicButtons();
+      scheduleFitPageContent();
     }
 
     function renderStorySettings() {
@@ -355,31 +335,30 @@
         <div class="page-inner private-page">
           <div class="running-head"><span>${escapeHtml(series.title)}</span><span>Generation settings</span></div>
           <div class="page-scroll chapter-scroll">
-            <h2 class="chapter-title">How should future chapters be written?</h2>
+            <h2 class="chapter-title">Story settings</h2>
             <div class="ornament"></div>
             <form id="storySettingsForm" class="private-actions" style="display:grid;gap:.8rem">
               <label>Writing style
                 <select name="style_mode">
-                  <option value="story_adaptive" ${series.style_mode !== 'story_only' ? 'selected' : ''}>Adaptive story style + route continuity</option>
-                  <option value="story_only" ${series.style_mode === 'story_only' ? 'selected' : ''}>Infer only from this story's existing chapters</option>
+                  <option value="story_adaptive" ${series.style_mode !== 'story_only' ? 'selected' : ''}>Adaptive + continuity</option>
+                  <option value="story_only" ${series.style_mode === 'story_only' ? 'selected' : ''}>Existing chapters only</option>
                 </select>
               </label>
-              <label>Approximate chapter length<input name="target_words" type="number" min="600" max="10000" step="100" value="${escapeHtml(String(series.target_words || 1600))}"></label>
+              <label>Chapter length<input name="target_words" type="number" min="600" max="10000" step="100" value="${escapeHtml(String(series.target_words || 1600))}"></label>
               <label>Tone / genre<input name="tone" value="${escapeHtml(series.tone || '')}" placeholder="slow burn, domestic, adventure, grief, humor..."></label>
               <label>Story tags<input name="content_tags" value="${escapeHtml(tags)}" placeholder="romance, slow burn, polyamory, adventure, sensual..."></label>
-              <label>Romance / intimacy level
+              <label>Default intimacy
                 <select name="content_mode">
                   <option value="general" ${contentMode === 'general' ? 'selected' : ''}>General</option>
-                  <option value="romance" ${contentMode === 'romance' ? 'selected' : ''}>Romance / non-explicit</option>
+                  <option value="romance" ${contentMode === 'romance' ? 'selected' : ''}>Romance</option>
                   <option value="mature_on_page" ${contentMode === 'mature_on_page' ? 'selected' : ''}>Mature on-page</option>
-                  <option value="explicit" ${contentMode === 'explicit' ? 'selected' : ''}>Explicit — adults only</option>
-                  <option value="explicit_detailed" ${contentMode === 'explicit_detailed' ? 'selected' : ''}>Explicit + detailed — adults only</option>
+                  <option value="explicit" ${contentMode === 'explicit' ? 'selected' : ''}>Explicit</option>
+                  <option value="explicit_detailed" ${contentMode === 'explicit_detailed' ? 'selected' : ''}>Explicit + detailed</option>
                 </select>
               </label>
-              <label style="display:flex;gap:.55rem;align-items:flex-start"><input name="adult_characters_confirmed" type="checkbox" value="yes" ${series.adult_characters_confirmed ? 'checked' : ''} style="width:auto;margin-top:.2rem"> <span>Every romantic or sexual participant is an adult (18+) and consenting in this story.</span></label>
+              <label style="display:flex;gap:.55rem;align-items:flex-start"><input name="adult_characters_confirmed" type="checkbox" value="yes" ${series.adult_characters_confirmed ? 'checked' : ''} style="width:auto;margin-top:.2rem"> <span>All sexual characters in this story are adults (18+) and consenting.</span></label>
               <label>Canon / continuity notes<textarea name="canon_window" rows="4">${escapeHtml(series.canon_window || '')}</textarea></label>
               <label>Story / character bible<textarea name="story_bible" rows="7">${escapeHtml(series.story_bible || '')}</textarea></label>
-              <p class="reader-note">These settings affect newly generated chapters. Existing JSON chapters are not rewritten. Explicit modes require a configured text-generation provider.</p>
               <div class="private-actions">
                 <button class="choice-button" type="submit">Save settings</button>
                 <button class="choice-button private" type="button" data-action="cancel-story-settings">Cancel</button>
@@ -483,7 +462,7 @@
     }
 
     function choiceMarkup(choice) {
-      const privateClass = choice.target === 'private' || choice.target === '@private' ? ' private' : '';
+      const privateClass = String(choice.target || '').startsWith('@generate-explicit') ? ' explicit' : '';
       const effect = choice.effect && Object.keys(choice.effect).length
         ? `<small>${escapeHtml(Object.entries(choice.effect).map(([key, value]) => `${key} ${typeof value === 'number' && value >= 0 ? '+' : ''}${value}`).join(' · '))}</small>`
         : '';
@@ -540,33 +519,7 @@
       updateNavButtons();
     }
 
-    function renderPrivate(returnTo) {
-      const series = currentSeries();
-      const chapter = currentChapter();
-      if (!series || !chapter) return;
-      state.privateReturn = returnTo || '@generate';
-      const saved = loadPrivateText();
-      rightContent.innerHTML = `
-        <div class="page-inner private-page">
-          <div class="running-head"><span>Private continuation seed</span><span>Local draft</span></div>
-          <div class="page-scroll chapter-scroll">
-            <p class="series-kicker">${escapeHtml(series.title)} · after chapter ${chapter.chapter_number}</p>
-            <h2 class="chapter-title">Write the door open</h2>
-            <div class="ornament"></div>
-            <p class="private-lead">This draft stays in local browser storage. You can simply return, or use it as hidden continuity context for a newly generated JSON chapter.</p>
-            <textarea id="privateTextarea" class="private-editor" spellcheck="true" placeholder="Continue the scene in your own words…">${escapeHtml(saved)}</textarea>
-            <p class="reader-note"><strong>Privacy:</strong> the private draft itself is not copied into the chapter JSON. If you choose “continue from this,” only the resulting generated chapter is persisted.</p>
-            <div class="private-actions">
-              <button class="choice-button" type="button" data-private-action="continue">Save privately and continue from this</button>
-              <button class="choice-button" type="button" data-private-action="save-return">Save privately and return</button>
-              <button class="choice-button private" type="button" data-private-action="return">Return without saving</button>
-            </div>
-          </div>
-          <span class="page-number">private</span>
-        </div>`;
-      if (rightPageNumber) rightPageNumber.textContent = '✦';
-      bindDynamicButtons();
-    }
+
 
     function renderEnding() {
       const series = currentSeries();
@@ -577,9 +530,9 @@
         <div class="page-inner ending-page-wrap">
           <div class="running-head"><span>Current end of written JSON</span><span>✦</span></div>
           <div class="page-scroll chapter-scroll ending-page">
-            <h2 class="chapter-title">The story does not have to stop here.</h2>
+            <h2 class="chapter-title">Keep going.</h2>
             <div class="ornament"></div>
-            <p>Chapter ${chapter.chapter_number} is the current end of this branch. The engine can use the chapters, branch history, relationship qualities, and selected path as continuity to create the next JSON chapter.</p>
+            <p>Chapter ${chapter.chapter_number} is the current end of this branch.</p>
             <p class="reader-note">Generated chapters are stored immediately. ${engine.hasProjectFolder() ? 'A project folder is connected, so new JSON also writes into the story folder.' : 'Connect the project root once if you want new JSON written directly into <code>json/' + escapeHtml(series.series_path) + '/</code>.'}</p>
             <div class="ending-actions">
               <button class="choice-button" type="button" data-action="continue-story">Continue this branch</button>
@@ -613,6 +566,8 @@
     function openRoute(key, restart) {
       if (!engine.getSeries(key)) return;
       state.route = key;
+      state.lastRoute = key;
+      try { localStorage.setItem('jasper-last-route', key); } catch (_error) {}
       state.search = '';
       state.privateReturn = null;
       if (searchInput) searchInput.value = '';
@@ -622,7 +577,8 @@
       appShell.classList.add('is-reading');
       routeAccent(engine.getSeries(key));
       if (readerToolbar) readerToolbar.hidden = false;
-      if (sidePanel) sidePanel.hidden = false;
+      if (sidePanel) sidePanel.hidden = window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches;
+      appShell.classList.remove('show-left-page');
       playFlip();
       renderChapter();
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -662,10 +618,6 @@
       const result = await withBusy('Following that branch…', () => engine.choose(choiceId));
       if (!result) return;
       playFlip();
-      if (result.type === 'private') {
-        renderPrivate(result.returnTo);
-        return;
-      }
       if (result.type === 'ending') {
         renderJournal();
         renderEnding();
@@ -793,8 +745,8 @@
         consenting_adults_confirmed: adultConfirmed
       };
       if (adultOnly && !adultConfirmed) {
-        setStatus('Adult-only intimacy modes require confirming that every romantic or sexual participant is an adult and consenting. The story will use romance / non-explicit mode instead.');
-        spec.content_mode = 'romance';
+        setStatus('Confirm that every sexual character is an adult (18+) and consenting before using an adult-only mode.');
+        return;
       }
       const created = await withBusy(spec.story_type === 'short_story' ? 'Generating the short story…' : 'Generating the opening chapter…', () => engine.createStory(spec));
       if (!created) return;
@@ -815,7 +767,11 @@
       const data = new FormData(form);
       const requestedMode = String(data.get('content_mode') || 'romance');
       const adultConfirmed = data.get('adult_characters_confirmed') === 'yes';
-      const updated = engine.configureSeries(state.route, {
+      if (['mature_on_page', 'explicit', 'explicit_detailed'].includes(requestedMode) && !adultConfirmed) {
+        setStatus('Confirm that every sexual character is an adult (18+) and consenting before using an adult-only mode.');
+        return;
+      }
+      engine.configureSeries(state.route, {
         style_mode: data.get('style_mode') || 'story_adaptive',
         target_words: Number(data.get('target_words') || 1600),
         tone: data.get('tone') || '',
@@ -826,11 +782,7 @@
         story_bible: data.get('story_bible') || ''
       });
       renderChapter();
-      if (['mature_on_page', 'explicit', 'explicit_detailed'].includes(requestedMode) && updated.content_mode !== requestedMode) {
-        setStatus('Settings saved. The adult-only mode was reduced to romance because consenting adult status was not confirmed.');
-      } else {
-        setStatus('Story-generation settings saved for future chapters.');
-      }
+      setStatus('Settings saved.');
     }
 
     function bindDynamicButtons() {
@@ -839,28 +791,6 @@
       });
       document.querySelectorAll('[data-choice]').forEach(button => {
         button.onclick = () => chooseChoice(button.dataset.choice);
-      });
-      document.querySelectorAll('[data-private-action]').forEach(button => {
-        button.onclick = async () => {
-          const textarea = document.getElementById('privateTextarea');
-          const text = textarea ? textarea.value : '';
-          const action = button.dataset.privateAction;
-          if (action === 'continue') {
-            savePrivateText(text);
-            const chapter = await withBusy('Continuing from the private draft…', () => engine.continueFromPrivate(text, '@generate'));
-            if (chapter) {
-              playFlip();
-              renderChapter();
-              setStatus(`Continued into chapter ${chapter.chapter_number}; the private draft itself stayed local.`);
-            }
-            return;
-          }
-          if (action === 'save-return') savePrivateText(text);
-          const returnTo = state.privateReturn;
-          state.privateReturn = null;
-          if (returnTo && returnTo !== 'ending' && !String(returnTo).startsWith('@generate')) openChapter(returnTo, false);
-          else renderEnding();
-        };
       });
       document.querySelectorAll('[data-restore-branch]').forEach(button => {
         button.onclick = () => restoreBranch(button.dataset.restoreBranch);
@@ -882,7 +812,15 @@
       if (action === 'open-book') openBook();
       if (action === 'cover') closeBook();
       if (action === 'home') renderHome();
-      if (action === 'contents' && sidePanel) sidePanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      if (action === 'contents' && sidePanel) {
+        if (window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches) {
+          sidePanel.hidden = !sidePanel.hidden;
+          if (!sidePanel.hidden) sidePanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          sidePanel.hidden = false;
+          sidePanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
       if (action === 'previous') previousChapter();
       if (action === 'next') nextChapter();
       if (action === 'continue-story') continueStory('continue');
@@ -890,7 +828,13 @@
       if (action === 'save-progress') saveProgress();
       if (action === 'undo') undoDecision();
       if (action === 'save-branch') saveBranch();
-      if (action === 'branches') document.getElementById('branchControls')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      if (action === 'branches') {
+        if (window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches) {
+          appShell.classList.toggle('show-left-page');
+        } else {
+          document.getElementById('branchControls')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
       if (action === 'story-settings') renderStorySettings();
       if (action === 'cancel-story-settings') renderChapter();
       if (action === 'import-json') importInput.click();
@@ -900,13 +844,24 @@
         const count = engine.exportGenerated(state.route);
         setStatus(count ? `Exported ${count} generated chapter JSON file${count === 1 ? '' : 's'}.` : 'There are no generated chapters to export yet.');
       }
+      if (action === 'resume-last') {
+        const key = state.lastRoute && engine.getSeries(state.lastRoute) ? state.lastRoute : engine.listSeries()[0]?.key;
+        if (key) openRoute(key, false);
+      }
+      if (action === 'save-last') {
+        const key = state.lastRoute && engine.getSeries(state.lastRoute) ? state.lastRoute : '';
+        if (key) {
+          engine.saveProgress(key);
+          setStatus('Saved.');
+        }
+      }
       if (action === 'sound') {
         state.sound = !state.sound;
         if (soundButton) soundButton.textContent = `Sound: ${state.sound ? 'on' : 'off'}`;
       }
       if (action === 'smaller' || action === 'larger') {
-        const nextZoom = state.zoom + (action === 'larger' ? .1 : -.1);
-        state.zoom = Math.round(Math.max(.5, Math.min(3, nextZoom)) * 100) / 100;
+        state.zoom = Math.round(Math.max(.5, Math.min(3, state.zoom + (action === 'larger' ? .1 : -.1))) * 100) / 100;
+        try { localStorage.setItem('jasper-book-zoom', String(state.zoom)); } catch (_error) {}
         document.documentElement.style.setProperty('--book-zoom', state.zoom.toFixed(2));
         if (zoomLabel) zoomLabel.textContent = `${Math.round(state.zoom * 100)}%`;
         scheduleFitPageContent();

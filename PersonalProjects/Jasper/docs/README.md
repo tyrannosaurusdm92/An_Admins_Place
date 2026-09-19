@@ -15,9 +15,7 @@ routes are:
 - **After Always** — Harry Potter, Severus Snape / Adult Reader
 
 Each route contains 40 JSON chapters. Every chapter is choice-enabled, with
-normal story paths plus a local private continuation path. Choices update
-branch qualities and continuity, and the reader can save progress, undo the
-last choice, create named bookmarks, and restore an earlier branch.
+normal story paths plus an optional explicit adult branch generated through the configured story provider.
 
 The Create Fanfic form accepts a title, fandom or game, premise, character
 personalities, tone, canon notes, story bible, tags, length, and intimacy
@@ -34,7 +32,7 @@ reader path.
 
 The reader-proxy is an adult, unnamed first-person self-insert: I / me / my /
 myself. Appearance, legal name, gender, and other fixed identity details stay
-open unless Jasper supplies them. The bundled prose is PG-13 / fade-to-black.
+open through the configured generator when Jasper selects them. Bundled chapters remain story-first; optional adult intimacy branches generate on-page through the configured provider.
 The private editor is deliberately local-only and is not copied into chapter
 JSON.
 

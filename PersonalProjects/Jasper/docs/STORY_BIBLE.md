@@ -35,7 +35,7 @@ their choices are written to fit each route's central tensions.
 
 ## Intimacy
 
-PG-13 fade-to-black. Consent, checking in, sensual tension, praise, cuddling,
+Adult-only branching. Consent, checking in, sensual tension, praise, cuddling,
 aftercare, and emotional consequences are included. Explicit sexual content is
 not supplied; Jasper's local continuation slot is the deliberate extension
 point.
