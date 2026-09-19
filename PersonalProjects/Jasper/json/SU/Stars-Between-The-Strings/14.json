@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Long Way Back",
+  "subtitle": "Stars Between the Strings · Chapter 14 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 14,
+  "word_count": 1500,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-14-direct",
+      "label": "Say the honest thing",
+      "target": "su-15",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-14-playful",
+      "label": "Let the moment be playful",
+      "target": "su-15",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-14-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-15",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The road back from the music festival took twice as long because Greg refused to admit the van was lost.\n\n“I’m not lost,” he said for the fourth time.\n\n“You just asked a cow for directions.”\n\n“The cow was near a sign.”\n\n“The cow was eating grass.”\n\n“It had a thoughtful expression.”\n\nI held the paper map on my lap and tried not to laugh. The festival had ended beneath a pink evening sky. Lila had played a brilliant set. Greg had introduced I to old friends, new musicians, and one man who had made a three-hour argument about harmonicas sound like a spiritual experience.\n\nI had danced with Greg in the grass. I had eaten fried dough. I had listened to him play a new song and felt my whole body recognize the moment before the first verse ended.\n\nNow the van's engine made a worrying noise.\n\n“It sounds like a drawer full of rocks,” I said.\n\n“That’s normal.”\n\n“It is not.”\n\n“It’s a vintage sound.”\n\n“The van is trying to die.”\n\n“It has a flair for drama.”\n\nThe engine coughed. Greg guided the van onto the shoulder. A sign announced that the nearest town was twelve miles away.\n\nHe turned off the ignition.\n\nSilence filled the cabin.\n\n“I’m going to say something,” I began.\n\n“Please don’t say the van is dead.”\n\n“The van is dead.”\n\nGreg rested his forehead against the steering wheel.\n\n“You said it first,” I added.\n\n“I know.”\n\nThe sun lowered toward the fields. Cars passed occasionally, their headlights flashing across the windows. Greg opened the hood and stared into the engine compartment with the confidence of a man who had learned just enough about machines to become dangerous.\n\n“Can you fix it?” I asked.\n\n“Maybe.”\n\n“That word is not mechanically reassuring.”\n\nHe found a loose belt, a cracked hose, and a tool he swore had not been in the van when they left. Nothing made the engine willing to restart.\n\n“We’ll call for help,” he said.\n\nHe tried his phone. No signal.\n\nI tried mine. One bar appeared, then vanished.\n\nThe familiar pressure began in my chest.\n\nGreg saw it. “Hey.”\n\n“I’m fine.”\n\n“I didn’t ask.”\n\nI leaned against the van. “We’re stranded.”\n\n“Temporarily.”\n\n“You don’t know that.”\n\n“No. But I know we have water, food, blankets, and two phones that will eventually find civilization.”\n\n“What if they don’t?”\n\n“Then we become legends of the cow road.”\n\nI tried to laugh. It came out wrong.\n\nGreg wiped his hands on a rag and came to stand in front of I. “Do you want a plan?”\n\n“Yes.”\n\n“We wait until the next car passes, then flag it down if it’s safe. If it doesn’t, we walk toward the town while staying on the shoulder. We keep the lights on until the battery says otherwise. We eat the sandwiches before they become science.”\n\n“You have a plan.”\n\n“I have several.”\n\n“Why didn’t you say that?”\n\n“You were looking at the engine like you wanted it to apologize.”\n\n“It should.”\n\n“I agree.”\n\nThe next car stopped. The driver called a tow service and offered them a ride to the town. Greg stayed close to I the entire time, his hand resting lightly against my back whenever the road became uneven.\n\nAt the small motel, the clerk gave me a room with two beds and a window facing a field. The tow truck would come in the morning.\n\n“We can take the separate beds,” Greg said.\n\nI looked at him. “Do you want to?”\n\n“No.”\n\n“Then don’t.”\n\nHe smiled, but the nervousness did not leave his eyes.\n\nThe room was clean, plain, and too quiet after the festival. I showered first. When I returned, Greg sat on one bed with a paper cup of motel coffee.\n\n“Your turn,” I said.\n\n“I’m afraid the shower will judge me.”\n\n“The cow already did that.”\n\nHe disappeared into the bathroom. The water turned on. I opened the curtains, then closed them when a moth threw itself against the glass.\n\nWhen Greg came out, his hair was damp and his shirt clung to his shoulders. I looked away too late.\n\n“You’re staring,” he said.\n\n“You’re wet.”\n\n“That sounds like an observation.”\n\n“It is.”\n\nHe sat beside I. “Are you okay?”\n\n“I’m tired.”\n\n“That’s true.”\n\n“And embarrassed.”\n\n“Why?”\n\n“Because the van broke down and I immediately panicked.”\n\n“The van broke down. Panicking was a reasonable response.”\n\n“You made a plan.”\n\n“I panicked too. I just did it under the hood.”\n\nI turned toward him. “You did?”\n\n“I have no idea what half those parts do.”\n\n“You looked confident.”\n\n“I had a rag.”\n\nThe laughter came easier this time. Greg leaned back against the headboard.\n\n“I used to think I had to be the person who knew what to do,” he said. “Especially when I was younger. If I was funny enough, useful enough, calm enough, maybe nobody would notice I was terrified.”\n\n“I notice.”\n\n“I know.”\n\n“Does that bother you?”\n\n“No.”\n\n“Why not?”\n\n“Because you don’t use it against me.”\n\nThe words made me look at him.\n\nGreg reached for my hand. “There’s a difference between being seen and being exposed.”\n\nI turned my palm upward. He laced his fingers through mine.\n\n“I want to be seen by you,” he said. “Even when I’m not impressive.”\n\n“You asked a cow for directions.”\n\n“Exactly.”\n\nI kissed him. The motel room softened around the edges. Greg's hand rose to my cheek, then moved to the back of my neck. He held me close, warm and familiar.\n\nThe bed creaked when I shifted. Greg pulled back just enough to look at me.\n\n“Still okay?”\n\n“Yes.”\n\n“Do you want—”\n\n“I want you to stop asking questions for thirty seconds.”\n\nHe smiled. “I can try.”\n\n“Try now.”\n\nHe kissed me again.\n\nThe motel room filled with the quiet sounds of affection. The rest of the night folded behind the curtains, private and unhurried.\n\nIn the morning, the tow truck arrived. The van was repaired with a part the mechanic described as “mostly compatible.” Greg paid, thanked him, and promised not to ask livestock for directions again.\n\nOn the road home, my hand rested in his.\n\n“The trip was good,” I said.\n\n“Even the breakdown?”\n\n“Especially the breakdown.”\n\nGreg glanced at I. “You’re developing an alarming appreciation for chaos.”\n\n“I’m developing an appreciation for what you do when chaos arrives.”\n\nHis thumb brushed over my knuckles.\n\nThe van carried me toward Beach City, toward the bakery and the boardwalk and the couch with a blanket waiting on it.\n\nIt had broken down on the way there.\n\nIt was still carrying I home.\n\nThe scenic route passed through a town with a clock tower, three antique shops, and a bakery that advertised pies in the window. Greg pulled over before I could ask.\n\n“This is not our route,” I said.\n\n“The route has become more interesting.”\n\n“The route is a road.”\n\n“Roads have personalities.”\n\n“You and the van are both impossible.”\n\nHe bought a pie. The baker asked whether I was newlyweds. Greg choked on a laugh. I answered that I was simply trying to survive a road trip.\n\n“That was a missed opportunity,” Greg said once I was outside.\n\n“For what?”\n\n“A very specific joke.”\n\n“You can tell it to the cow.”\n\n“The cow would understand.”\n\nI ate pie on a bench beneath the clock tower. The town moved around I slowly: a dog pulling at its leash, an old couple arguing about directions, a teenager carrying a stack of books.\n\n“Do you ever think about living somewhere like this?” I asked.\n\n“Sometimes.”\n\n“A small town. A little house. A kitchen that doesn’t move.”\n\n“Sometimes.”\n\n“Would you?”\n\nGreg looked at the pie in his hands. “I could. I’m not sure I would be happy if I did it because someone else thought it would make me easier to love.”\n\nI nodded. “I understand that.”\n\n“I could also keep the van and visit.”\n\n“You’d park it in the driveway.”\n\n“It would be a guest house.”\n\n“It has delusions again.”\n\n“It has aspirations.”\n\nThe conversation did not resolve where either of I would live. It made room for the possibility that home could take different shapes over time.\n\nWhen I reached Beach City that evening, Greg parked outside my apartment instead of his.\n\n“Do you want to come up?” I asked.\n\n“Yes.”\n\n“You sound tired.”\n\n“I’m tired and I want you.”\n\nThe directness made me smile.\n\nInside, I played music quietly and shared the last of the pie. Greg washed the plates while I unpacked the blankets.\n\n“The van survived,” he said.\n\n“Barely.”\n\n“A lot like us.”\n\nI crossed the room and kissed him. “We’re doing better than barely.”\n\nHe held me close. “We are.”\n\nThe night unfolded with fewer jokes and more honesty. I talked until sleep became unavoidable, then chose each other in the quiet afterward.\n\nIn the morning, Greg left a slice of pie beside my coffee and called it a road-trip blessing.\n\nI ate it together.\n\nSlowly.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-14",
+  "choice_count": 3
+}

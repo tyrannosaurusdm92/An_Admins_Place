@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Bad Day in G Major",
+  "subtitle": "Stars Between the Strings · Chapter 9 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 9,
+  "word_count": 1657,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-09-direct",
+      "label": "Say the honest thing",
+      "target": "su-10",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-09-playful",
+      "label": "Let the moment be playful",
+      "target": "su-10",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-09-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-10",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The bad day began with a cup of coffee I did not want and ended with Greg turning off every light in the room.\n\nIn between, there were too many messages, too many sounds, and one conversation that left my skin feeling too tight.\n\nI woke already tired. The bakery below was louder than usual. The delivery truck arrived before dawn, its brakes shrieking against the street. Someone dropped a metal tray. A child cried in the hallway. My phone lit up with notifications from three different people, each needing an answer that could not be reduced to yes or no.\n\nBy noon, I had not eaten.\n\nBy two, I had forgotten to drink water.\n\nBy four, Greg texted: I HAVE ACQUIRED A PIE. SHOULD I BRING IT TO YOU OR SHOULD I STAND OUTSIDE AND ANNOUNCE ITS ARRIVAL?\n\nI stared at the message. The idea of company made my chest clench. The idea of being alone made it worse.\n\nI typed: I DON’T KNOW.\n\nHis reply came immediately.\n\nTHAT’S OKAY. CAN I COME TO THE BUILDING AND WAIT IN THE HALL? YOU DON’T HAVE TO LET ME IN.\n\nI looked at the door. “Okay,” I said aloud, though he could not hear me.\n\nA few minutes later, he knocked once.\n\nI opened the door only a crack. Greg stood in the hallway with a pie box balanced on one palm. He had not brought his guitar. He had not brought the chair. He had only the pie and a thermos.\n\n“Hi,” he said softly.\n\n“Hi.”\n\n“I’m here.”\n\n“I know.”\n\n“Would you like me to come in?”\n\nI wanted to say yes. I also wanted to disappear under the bed.\n\n“I don’t know.”\n\n“Okay.” He set the pie box on the floor. “Can I sit outside?”\n\nI nodded.\n\nGreg sat with his back against the opposite wall. I closed the door but did not lock it. The hallway remained between I, a narrow strip of carpet and yellow light.\n\nFor several minutes, neither of I spoke.\n\nThe silence did not fix the day. It made the day survivable.\n\n“There was a call,” I said through the door.\n\n“You don’t have to tell me.”\n\n“I know.”\n\n“You can tell me if you want.”\n\nI sat on the floor with my back against the door. The wood was cool against my shoulder.\n\n“They said I was selfish,” I said. “They said I should be grateful. They said I always make things complicated.”\n\nGreg was quiet.\n\n“I keep hearing it,” I continued. “Even after the call ends. It’s like they left the whole conversation in my head.”\n\n“That sounds awful.”\n\n“I can’t make it stop.”\n\n“Do you want advice or company?”\n\nThe question made my eyes burn.\n\n“Company.”\n\n“Okay.”\n\nHe stayed.\n\nThe pie sat between I on the other side of the door. The smell of apples and cinnamon slipped beneath it.\n\n“You can eat later,” Greg said. “Or not eat pie. I’m not the pie police.”\n\n“You would be a terrible cop.”\n\n“I have no authority and I’m easily bribed.”\n\nMy breathing hitched into a laugh. It did not last, but it was enough.\n\nThe phone buzzed again. I flinched so hard my shoulder struck the door.\n\n“Do you want me to answer it?” Greg asked.\n\n“No.”\n\n“Do you want me to hold it?”\n\nI unlocked the door and held the phone through the opening. Greg took it without looking at the screen. He placed it face-down inside my apartment.\n\n“Thank you.”\n\n“You’re welcome.”\n\n“I hate this.”\n\n“I know.”\n\n“I hate needing people.”\n\n“I know that too.”\n\nThe words came out sharper than I intended. “You don’t know everything.”\n\nGreg did not defend himself. He nodded through the gap in the door.\n\n“You’re right,” he said. “I don’t.”\n\nThe lack of argument took the fight out of I.\n\n“I don’t want you to see me like this,” I whispered.\n\n“Why?”\n\n“Because I’m not charming.”\n\n“I’m not here for charming.”\n\n“You like me when I’m funny.”\n\n“I like you when you’re funny because you’re funny. I like you when you’re quiet because you’re quiet. I like you when you’re angry because your anger tells me something matters.”\n\n“What about when I’m a mess?”\n\n“You’re a person.”\n\nThe answer was so plain that I could not argue with it.\n\nGreg reached toward the door. His fingers rested against the wood, not trying to open it.\n\n“Can I hold your hand?” he asked.\n\nI slid my hand beneath the gap. His fingers met mine. The contact was light at first. When I curled my hand around his, he held on.\n\nThe hallway lights were too bright. I closed my eyes.\n\n“Tell me five things you can hear,” Greg said.\n\n“Are you giving me advice?”\n\n“I’m asking a question.”\n\nI listened.\n\n“The bakery mixer. The pipes. Someone walking upstairs. The refrigerator. Your breathing.”\n\n“Good. Four things you can feel.”\n\n“The floor. The door. Your hand. My sleeve.”\n\n“Three things you can smell.”\n\n“Cinnamon. Dust. Your coffee.”\n\n“Two things you can see.”\n\nI opened my eyes. Through the narrow gap, I could see his shoe and the edge of the pie box.\n\n“Your shoe. The pie.”\n\n“One thing you know.”\n\nI looked at his hand.\n\n“You’re here,” I said.\n\nGreg squeezed my fingers. “I am.”\n\nThe room slowly returned to its proper size.\n\nAfter a while, I opened the door wider. Greg entered only when I moved aside. He put the pie on the counter and waited.\n\n“Lights?” he asked.\n\n“Off.”\n\nHe turned them off one at a time. The studio became dark except for the gray light from the window.\n\n“Sound?”\n\n“Low.”\n\nGreg silenced his phone and set it beside mine.\n\n“Distance?”\n\nI looked at the couch. “Close.”\n\nHe sat beside I, leaving a careful inch between my thighs.\n\n“Touch?”\n\nI took his hand. “Yes.”\n\nHe kissed my knuckles. There was no hunger in the gesture, only a reminder that I was in my body and my body belonged to I.\n\nI ate a small piece of pie. Greg ate a larger one and claimed the difference was medically necessary.\n\n“You’re not fixing me,” I said.\n\n“No.”\n\n“You’re not even trying.”\n\n“I don’t think you’re broken.”\n\nI stared at him in the dimness.\n\n“I think you’re having a terrible day,” he continued. “I think terrible days are allowed to be terrible. I think I can sit next to you while one happens.”\n\nMy throat closed.\n\n“You’re allowed to leave,” I said.\n\n“I know.”\n\n“I might be too much.”\n\n“You might be more than I can carry on a particular day.”\n\nThe honesty hurt less than a reassurance would have.\n\n“But,” he added, “that doesn’t make you too much. It makes us two people with limits.”\n\nI leaned my head against his shoulder. Greg stayed still until I settled.\n\n“What are your limits?” I asked.\n\n“I need people to tell me when they’re angry instead of turning silence into a maze. I need to sleep more. I need to stop pretending coffee is a personality.”\n\n“That last one is impossible.”\n\n“I know.”\n\nI remained together until the sky darkened completely. Greg told me a story about the first time Steven tried to cook and somehow made a cake sing. I told him nothing for a long while, then told him the small truth that I was beginning to believe this town might be somewhere I could stay.\n\n“That’s a big thing to say on a bad day,” he murmured.\n\n“I’m trying not to wait for good days to say important things.”\n\nHe turned his face toward mine. “Can I kiss you?”\n\nI nodded.\n\nThe kiss was slow and quiet. When I pulled back, Greg rested his forehead against mine.\n\n“Still here?” he asked.\n\n“Still here.”\n\nThe bad day did not disappear. But it stopped being the only thing in the room.\n\nGreg stayed the night, but he slept on top of the blankets until I asked him to come closer. In the morning, he made toast and left a glass of water beside my bed before saying anything about breakfast.\n\n“You’re learning,” I said.\n\n“I’m trying to become less of a golden retriever with a guitar.”\n\n“You can keep the guitar.”\n\n“That’s a relief.”\n\nI sat at the table while he buttered the toast. The light was gentler than it had been the day before. My phone remained face-down, but it no longer seemed capable of ruling the room.\n\n“I want to make a plan for bad days,” I said.\n\nGreg put the knife down. “Okay.”\n\n“Not a plan where you become responsible for managing me.”\n\n“Good.”\n\n“A plan where I can tell you what helps without having to explain it while I’m already overwhelmed.”\n\n“We can write it down.”\n\nI found a notepad. Together, I made a list. Low lights. Quiet voices. Ask before touching. Water within reach. No surprise visitors. Company without questions unless I ask for questions. Food available, but no pressure to eat. Reminders that I am not in trouble.\n\nGreg added one line beneath the others: DO NOT TURN CARE INTO A DEBT.\n\nI looked at him.\n\n“That one is for me too,” he said.\n\nI wrote another: WE CAN CHANGE THE PLAN.\n\nHe underlined it twice.\n\nWhen the list was finished, Greg took a picture and put it in his phone. I folded the paper into my wallet.\n\n“This doesn’t mean I’ll always get it right,” he said.\n\n“I know.”\n\n“It means I’ll keep trying to get it right without making you comfort me for trying.”\n\nI reached across the table. He took my hand.\n\n“You’re allowed to have bad days too,” I said.\n\n“I know.”\n\n“And you’re allowed to tell me when you don’t have the capacity.”\n\n“I know.”\n\n“You’re not allowed to turn into a martyr.”\n\nGreg sighed. “You have taken away all my hobbies.”\n\n“You still have pancakes.”\n\n“They are not enough.”\n\nI smiled. The day was not perfect, but it had a map now.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-09",
+  "choice_count": 3
+}

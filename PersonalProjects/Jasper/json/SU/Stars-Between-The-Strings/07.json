@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Ocean Remembers",
+  "subtitle": "Stars Between the Strings · Chapter 7 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 7,
+  "word_count": 1746,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-07-direct",
+      "label": "Say the honest thing",
+      "target": "su-08",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-07-playful",
+      "label": "Let the moment be playful",
+      "target": "su-08",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-07-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-08",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The ocean remembered things I did not know how to say.\n\nGreg took me to the beach at low tide because he claimed the water was more honest when it had gone somewhere else. I suspected he simply liked collecting unusual explanations for ordinary plans, but I followed him down the path with my shoes in one hand.\n\nThe sand was cool beneath my feet. Tide pools shone between the rocks, each one holding a small universe of anemones, shells, and darting silver fish. Greg walked slowly, choosing his steps with care. He had brought the guitar, though he did not play it.\n\n“You carry that everywhere,” I said.\n\n“It gets lonely.”\n\n“The guitar gets lonely?”\n\n“It has feelings.”\n\n“You’re emotionally attached to a wooden object.”\n\n“That is how music works.”\n\nHe stopped at a flat stretch of sand. The water had pulled away far enough that the horizon seemed larger. Greg set the guitar down and sat.\n\nI sat beside him.\n\n“There’s something I should tell you,” he said.\n\n“You’re about to reveal that the guitar is a sentient alien.”\n\n“Not this time.”\n\nThe wind moved through his hair. He watched the waves rather than my face.\n\n“My son’s mother was extraordinary,” he began. “She was also not human. That sentence usually needs more explanation, but the short version is that I loved her very much, and our relationship was complicated in ways I didn’t understand until much later.”\n\nI stayed quiet.\n\n“I knew she was keeping secrets. I knew there was a whole world she couldn’t give me. I thought love meant being willing to accept anything if the feeling was strong enough.” He rubbed his palms together. “Sometimes it does. Sometimes it means admitting that love can be real and still not be enough to make two people safe for each other.”\n\nThe ocean breathed at the shore.\n\n“Is this about her?” I asked.\n\n“Partly.”\n\n“Are you still in love with her?”\n\nGreg looked at me then. There was no offense in his expression, only respect for the question.\n\n“I’m still grateful for what we had,” he said. “I still love the person she was to me. But it isn’t the same kind of love I’m talking about when I look at you.”\n\nMy heartbeat stumbled.\n\n“What kind is that?”\n\nHe smiled, but the smile was nervous. “The kind that wants to know what you need before I try to give you what I have.”\n\nI stared at him.\n\n“That’s a very good answer,” I said.\n\n“I’ve been practicing.”\n\n“With whom?”\n\n“Therapy. My son. Several extremely opinionated people with magical powers.”\n\n“That sounds like a difficult workshop.”\n\n“There were snacks.”\n\nI looked back at the tide pool. A tiny crab crawled under a rock, carrying a shell that was too large for it.\n\n“Did you lose yourself?” I asked.\n\nGreg did not answer immediately.\n\n“Yes,” he said at last. “For a while. I thought being the ordinary person in somebody else’s extraordinary life meant I had to prove I was worthy of being there. So I became useful. I became agreeable. I took whatever pieces of myself were easiest to carry and left the rest in the van.”\n\n“Is that why you never unpack?”\n\nHis laugh was quiet. “Maybe.”\n\n“You know, you can say ‘yes’ sometimes.”\n\n“I’m trying to make it a special occasion.”\n\nI leaned my shoulder against his. “You don’t have to be extraordinary for me.”\n\nThe words came out before I could make them less vulnerable.\n\nGreg's breath caught.\n\n“I know,” he said. “That’s what scares me.”\n\n“Why?”\n\n“Because ordinary is where people can see you clearly.”\n\nI understood more than I wanted to.\n\n“I’m scared of that too,” I admitted.\n\nGreg turned his hand palm-up on the sand. I placed my hand in it. His fingers curled around mine.\n\n“You don’t have to show me everything at once,” he said.\n\n“What if I show you something ugly?”\n\n“Then I’ll decide whether I can sit with it.”\n\n“That sounds like a warning.”\n\n“It’s honesty. I can’t promise to be perfect. I can promise not to pretend.”\n\nI looked at my joined hands. “I can work with that.”\n\nThe tide began returning. Water threaded through the sand around my feet. Greg pulled his shoes on and stood, offering his hand.\n\n“Where are we going?”\n\n“The rocks are about to become islands.”\n\nHe helped me up. The two of I walked back toward the path, but a wave came farther than expected and soaked the hem of my pants.\n\nGreg pointed at the water. “That was intentional.”\n\n“You are not winning this argument.”\n\n“The ocean has chosen my side.”\n\n“The ocean is a body of water. It doesn’t have a side.”\n\n“That is exactly what it wants you to think.”\n\nI laughed, and the sound carried across the beach.\n\nAt the top of the path, Greg stopped beside a weathered bench. He leaned the guitar against the railing and looked back toward the shore.\n\n“Do you ever think about leaving?” he asked.\n\nI knew he meant Beach City. I also knew he meant him.\n\n“Sometimes.”\n\nHe nodded.\n\n“Not because I want to leave you,” I added. “Because staying feels like a thing people can take away.”\n\n“That makes sense.”\n\n“Does it?”\n\n“Yeah.”\n\n“You don’t have to say that just because I’m looking at you.”\n\n“I’m saying it because I’ve had people tell me a place was mine right before they reminded me I could be removed from it.”\n\nGreg's jaw tightened. He understood the shape of the wound even if he did not know its details.\n\n“I don’t want to own you,” he said. “I don’t want to be the reason you stay anywhere. I want to be part of the life you choose when you’re free to choose it.”\n\n“And if I choose to leave?”\n\n“I’ll be sad. I’ll probably write a terrible song. But I won’t turn your leaving into a betrayal.”\n\nThe answer hurt because it was kind.\n\n“You’re making it difficult not to love you,” I said.\n\nGreg went very still.\n\nThe words had escaped. I had not planned them. The air changed around them.\n\n“You don’t have to say it back,” I added quickly.\n\n“I know.”\n\n“You can just pretend I said something about the weather.”\n\n“The weather is very romantic today.”\n\n“Greg.”\n\nHe stepped closer, but did not touch me. “I love you too.”\n\nMy body forgot how to be guarded.\n\n“You’re sure?”\n\n“No.”\n\nThe answer knocked the breath out of I.\n\nHe reached for my hands. “I’m sure that I love you. I’m not sure what loving you will ask of me. I’m not sure I won’t make mistakes. I’m sure I want the chance to learn.”\n\nI swallowed. “That is a very dangerous thing to say to someone who has been waiting for the other shoe to fall.”\n\n“Then I’ll keep my shoes where you can see them.”\n\nI laughed through the tears gathering in my eyes.\n\nGreg lifted one hand to my face. “Can I?”\n\nI nodded.\n\nHe wiped the tear away with his thumb. Then he kissed me beneath the salt wind, slowly and without trying to make the moment into a solution. His mouth was warm. His hands held my face as if it were something precious, but not breakable.\n\nWhen I parted, I rested my forehead against his.\n\n“I love you,” I whispered.\n\n“I heard you the first time.”\n\n“I’m making sure.”\n\n“Good. I like hearing it.”\n\nHe kissed me again, and this time the ocean seemed to keep the rhythm for I.\n\nOn the walk home, Greg carried both pairs of shoes. I carried the guitar.\n\nThe sea remembered my footprints only long enough to wash them away.\n\nIt did not make them meaningless.\n\nBefore returning to town, Greg led I to the edge of the boardwalk. The tide had climbed over the lower steps, leaving the wood dark and shining. He bought two lemonades from a stand and handed me the one with less ice.\n\n“You remembered,” I said.\n\n“I remember a lot about you.”\n\n“You keep saying that.”\n\n“It keeps being true.”\n\nI drank from the straw and watched a gull attempt to steal a napkin. Greg looked toward the water, his shoulder brushing mine.\n\n“There’s another thing you should know,” he said.\n\n“You were secretly a famous opera singer.”\n\n“I wish.”\n\n“You have a second family living in the van.”\n\n“That’s not a secret. It’s just difficult to explain.”\n\n“Then what?”\n\nHe turned the lemonade cup between his hands. “Sometimes I get afraid that if I tell you everything, you’ll decide the ordinary parts aren’t enough.”\n\nI looked at him. “You already told me about the extraordinary parts.”\n\n“Those are easier.”\n\n“Why?”\n\n“Because they make good stories. The ordinary parts are where I made mistakes. Where I was selfish. Where I stayed too long, or left too fast, or thought being needed was the same as being loved.”\n\nI set my drink down. “You don’t have to give me every mistake today.”\n\n“I know.”\n\n“But you can tell me one.”\n\nGreg looked surprised.\n\n“A small one,” I added. “I’m not asking for your complete emotional autobiography beside the lemonade stand.”\n\nHe considered. “I once promised someone I would always be there, then got scared when always became inconvenient.”\n\n“What did you do?”\n\n“I made a joke. Then I left.”\n\n“Did you go back?”\n\n“Eventually. But the apology was late.”\n\nI reached for his hand. “Thank you for telling me.”\n\n“That’s all?”\n\n“I’m thinking.”\n\n“Dangerous.”\n\n“I think I’m afraid of doing the same thing.”\n\n“Leaving?”\n\n“Staying until I become resentful. Leaving before anyone can ask me to change. Making a joke when I should apologize.”\n\nGreg turned his hand so my palms met. “Then we’ll practice noticing.”\n\n“We?”\n\n“You don’t have to be the only person responsible for your patterns.”\n\nThe words were not permission to avoid responsibility. They were an invitation to be known without being condemned.\n\nI leaned into him. Greg kissed my temple, then rested his cheek against my hair.\n\nThe sun disappeared completely. One by one, the boardwalk lights came on. The ocean kept erasing the shore and making it again.\n\n“I’m glad you told me,” I whispered.\n\n“I’m glad you asked.”\n\n“I’m going to ask again.”\n\n“I’ll try to answer.”\n\nI stayed until the lemonade was gone and the night air turned cold. Then Greg wrapped his jacket around my shoulders and walked me home, his hand holding mine all the way.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-07",
+  "choice_count": 3
+}

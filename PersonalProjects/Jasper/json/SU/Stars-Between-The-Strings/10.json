@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "Under the Same Stars",
+  "subtitle": "Stars Between the Strings · Chapter 10 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 10,
+  "word_count": 1620,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-10-direct",
+      "label": "Say the honest thing",
+      "target": "su-11",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-10-playful",
+      "label": "Let the moment be playful",
+      "target": "su-11",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-10-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-11",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "Greg took me to the overlook after midnight because the stars were brighter when Beach City stopped pretending it owned the sky.\n\nThe van climbed the narrow road with a familiar cough. I sat in the passenger seat, my feet tucked beneath the blanket Greg had insisted I bring. The radio was off. His hand rested on the center console, palm up, waiting.\n\nI placed my hand in it.\n\nThe contact made the van feel less like a vehicle and more like a small room traveling through darkness. The dashboard lights painted Greg's face green and gold. Every so often, he glanced at I as though checking that I was still there.\n\n“You’re staring,” he said.\n\n“You’re driving.”\n\n“That’s not a defense either.”\n\n“You keep giving me opportunities to practice.”\n\nHe smiled. “I’m generous.”\n\nThe overlook was empty. Greg parked beneath a stand of trees, turned off the engine, and opened the back doors. The night air rushed in, cool and scented with pine. He spread a blanket across the floor of the van and arranged two thermoses, a box of pastries, and a small battery-powered lamp.\n\n“You planned this,” I said.\n\n“I planned several versions. One included a telescope. The telescope was too judgmental.”\n\n“How can a telescope be judgmental?”\n\n“It kept pointing out that I didn’t know how to use it.”\n\nI climbed into the back. Greg followed, pulling the doors nearly closed. The stars appeared through the gap overhead, sharp and innumerable.\n\nFor a while, I lay shoulder to shoulder and said nothing.\n\nThe quiet was different from the quiet in my apartment. There were no pipes, no bakery, no phones vibrating with the demands of people who believed they were entitled to my immediate response. There was only the small hum of the lamp and Greg's breathing.\n\n“I used to think the stars were too far away to matter,” I said.\n\n“They’re very dramatic. They like being perceived from a distance.”\n\n“You would say that about stars.”\n\n“I’m a romantic.”\n\n“You’re a man who bought a bookshelf without legs.”\n\n“A romantic with flaws.”\n\nHis shoulder moved against mine when he laughed.\n\n“What did you think when you first saw me?” Greg asked.\n\nI turned my head. “At the boardwalk?”\n\n“Yeah.”\n\n“I thought you were going to sell me something.”\n\n“I was selling friendship.”\n\n“That’s suspicious.”\n\n“I discounted the first pancake.”\n\nI smiled at the ceiling. “I thought you were too cheerful.”\n\n“I get that a lot.”\n\n“Not as a compliment.”\n\n“I know.”\n\n“You looked like someone who had decided the worst thing that could happen was being embarrassed.”\n\nGreg was quiet.\n\n“Was I wrong?”\n\n“No.” He picked at a loose thread in the blanket. “I got very good at turning fear into a joke. It made people comfortable.”\n\n“Did it make you comfortable?”\n\n“Sometimes.”\n\n“And now?”\n\nHe looked at me. “Now I try to tell the truth before I make it funny.”\n\nThe stars shone through the open doors.\n\n“I thought you were going to leave,” I said.\n\n“The first night?”\n\n“Every night.”\n\nGreg's hand stopped moving.\n\n“I thought I was temporary,” I continued. “That you were kind because kindness is easy for you, and eventually you’d get bored or realize I was not what you wanted.”\n\n“You’re not temporary.”\n\n“You can’t know that.”\n\n“I know what I want tonight.”\n\n“Tonight is not forever.”\n\n“No.” He turned toward I fully. “But forever is made out of nights we choose to keep showing up for. I don’t need to swear I’ll never change. I need to tell you that I’m here now, and that I’ll be honest when now changes.”\n\nI could not look away.\n\n“You make honesty sound like a love language,” I whispered.\n\n“It is.”\n\n“That’s inconvenient.”\n\n“Love usually is.”\n\nHe lifted his hand, stopping before touching my face.\n\n“Can I?”\n\nI nodded.\n\nGreg brushed his fingers along my cheek. The touch was warm and unhurried. He kissed me beneath the open sky, tasting faintly of coffee and sugar.\n\nI shifted closer, one hand sliding beneath his shirt to the warmth of his back. His breath caught. He held my waist, firm enough to tell me he wanted me, gentle enough to leave room for I to move away.\n\n“Still okay?” he murmured.\n\n“Yes.”\n\n“Tell me if—”\n\nI kissed him to interrupt the sentence.\n\nGreg smiled against my mouth. “You’re becoming very assertive.”\n\n“I’m learning from a professional.”\n\n“I’m not sure I deserve that title.”\n\n“You are very good at asking.”\n\n“That is different from knowing what I’m doing.”\n\n“Then keep asking.”\n\nHis eyes darkened with affection. He kissed the corner of my mouth, then my jaw. His hands moved slowly, pausing whenever my body changed beneath them. I answered with touch, with small sounds, with the way I stayed.\n\nThe lamp cast a pool of gold across the blankets. The stars watched without judgment.\n\nWhen the warmth became too much for words, Greg drew the blanket around both of I. The doors closed. The night kept the rest private.\n\nLater, I lay against his chest while the van cooled around I. Greg's heartbeat was steady beneath my cheek. His fingers traced absent circles over my shoulder.\n\n“Are you awake?” he asked.\n\n“Unfortunately.”\n\n“I have a question.”\n\n“You always have a question.”\n\n“Do you regret moving here?”\n\nI thought about the suitcase, the motel curtains, the phone calls. I thought about the bakery downstairs, the new chair, the metal pick in my pocket, and the man whose voice had become a place I could rest.\n\n“No,” I said.\n\nGreg kissed my hair.\n\n“Do you regret meeting me?”\n\n“Ask a better question.”\n\n“Do you regret kissing me?”\n\n“Still not better.”\n\nHis chest moved beneath my cheek as he laughed.\n\n“I don’t regret you,” I said.\n\nThe laughter faded. His hand stilled.\n\n“That’s a good answer,” he whispered.\n\n“You sound surprised.”\n\n“I’m trying not to cry in my own van.”\n\n“It’s a house with wheels. You’re allowed.”\n\nHe turned his face toward mine. The dashboard clock glowed 2:17 a.m.\n\n“I love you,” he said.\n\n“You already told me.”\n\n“I’m telling you again.”\n\nI kissed him once, softly. “I love you too.”\n\n“Again?”\n\n“I love you.”\n\nHis eyes closed. He pressed his forehead against mine.\n\n“Thank you,” he said.\n\n“For what?”\n\n“For saying it like it’s something you’re choosing, not something you’re trapped inside.”\n\nMy fingers curled around his.\n\nOutside, the wind moved through the trees. The ocean was invisible from the overlook, but I could hear it far below, patient and persistent.\n\nGreg fell asleep first. I stayed awake for a little while longer, watching the stars through the narrow gap in the doors.\n\nThe future remained unwritten. That did not make it empty.\n\nBeside I, Greg breathed in and out. The van held me both. The night did not ask me to promise forever.\n\nIt only asked me to stay until morning.\n\nI did.\n\nAt dawn, Greg woke with his cheek pressed to my shoulder. He blinked at the pale sky, then at the position of his arm around I.\n\n“Good morning,” he whispered.\n\n“You’re drooling.”\n\n“That’s how I say I care.”\n\n“It’s very moving.”\n\nHe shifted carefully, trying not to jostle the blankets. The movement made the van creak.\n\n“The house is complaining,” I said.\n\n“It has strong opinions about morning.”\n\nGreg opened the doors. Cold air spilled inside. The stars were fading, but the horizon had begun to turn lavender. Below the overlook, the ocean caught the first light.\n\nI sat beside him, wrapped in the blanket. His shoulder pressed against mine.\n\n“Do you ever get tired of this view?” I asked.\n\n“No.”\n\n“Even though you’ve seen it a thousand times?”\n\n“Especially because I’ve seen it a thousand times. Familiar things can still be beautiful.”\n\nI thought about the studio, the bakery, the same streets I had walked every day since arriving. Familiarity had once felt like a threat, proof that life was narrowing around I. With Greg, it was beginning to feel like a place where I could set something down.\n\n“I want to show you something,” he said.\n\nHe reached beneath the bed and pulled out a paper map. It was marked with colored lines, small stars, and notes in the margins.\n\n“Road trips,” he said. “The good ones.”\n\n“How many are there?”\n\n“Enough to make the van nervous.”\n\nI traced one of the routes. It followed the coast north, then turned inland toward mountains.\n\n“What’s there?”\n\n“A little town with an excellent bakery and a lake that reflects the stars.”\n\n“You’re trying to seduce me with pastries and astronomy.”\n\n“It’s a proven strategy.”\n\n“When would we go?”\n\nGreg looked at me. “When you want.”\n\nI folded the map along its old creases.\n\n“Soon,” I said.\n\nHis smile came slowly. “Soon is better than maybe.”\n\n“Don’t get used to it.”\n\nHe kissed me in the morning light. The kiss was softer than the ones before, but it held the same promise: not forever guaranteed, not perfect, simply chosen again.\n\nI packed the blankets and thermoses. Greg made coffee. The van started on the first try, which he treated as a personal victory.\n\nOn the drive down the mountain, I rested my hand on his thigh. He covered it with his own.\n\n“We’re going to need more pastries,” he said.\n\n“We have a whole box.”\n\n“That’s not the same as more pastries.”\n\n“You’re going to bankrupt us with baked goods.”\n\n“I’ll write a song about it.”\n\n“That won’t pay for anything.”\n\n“It might pay in emotional currency.”\n\nThe road curved toward home. The sun rose behind I, turning the van windows gold.\n\nFor once, the future did not feel like an alarm.\n\nIt felt like a road with somewhere to go.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-10",
+  "choice_count": 3
+}

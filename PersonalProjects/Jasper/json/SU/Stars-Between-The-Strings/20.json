@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "Everything I Need to Say",
+  "subtitle": "Stars Between the Strings · Chapter 20 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 20,
+  "word_count": 1501,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-20-direct",
+      "label": "Say the honest thing",
+      "target": "su-21",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-20-playful",
+      "label": "Let the moment be playful",
+      "target": "su-21",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-20-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-21",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The song was called Everything I Need to Say.\n\nGreg played it at the boardwalk on the first warm evening of spring. The new chair had been replaced by two folding chairs and a small table between them. The table held tea, coffee, and a plate of pastries that he insisted were not a bribe.\n\n“They’re a celebration,” he said.\n\n“Of what?”\n\n“The fact that I have written a song without mentioning a chair.”\n\n“That is worthy of recognition.”\n\nThe crowd gathered as the sun lowered. Mara sat near the front. Steven stood beside the railing, smiling at his father. Lila was there too, wearing the red jacket, and when she saw me she hugged I with permission first.\n\n“I’m glad you came,” she said.\n\n“I’m glad you’re not a villain.”\n\nShe laughed. “Greg told me you were funny.”\n\n“He tells everyone my secrets.”\n\n“Only the flattering ones,” Greg called from the stage.\n\n“You’re going to regret that,” I called back.\n\n“I regret most things eventually.”\n\nThe show began with familiar songs. Greg played about the ocean, the car wash, and a raccoon with suspiciously good rhythm. He made the crowd laugh. He made them quiet.\n\nThen he set the old guitar pick on the edge of the microphone stand.\n\n“This next one is new,” he said. “It’s about a person who arrived in Beach City with a suitcase, a terrible motel, and no plan.”\n\nI felt every eye turn toward I.\n\nGreg caught my gaze. “They said I could sing it.”\n\nI nodded.\n\nHe began.\n\nThe melody was gentle, built from the chords he had played the night I met. It carried the sea without imitating it. The first verse spoke of arriving with nowhere to put my keys. The second spoke of a chair, a cinnamon roll, and the difference between an offer and a chain.\n\nThe chorus was simple.\n\nI am not a place I escaped to.\n\nI am the place I choose.\n\nThe words landed in the open air. Greg sang them without turning I into a symbol. He sang about my jokes, my fear, my boundaries, the way I looked at exits and still stayed for the song.\n\nWhen he reached the last verse, he held out one hand.\n\nI stood and walked to the stage.\n\n“You don’t have to sing,” he murmured.\n\n“I know.”\n\n“Do you want to?”\n\n“Yes.”\n\nHe shifted the microphone toward I. My shoulder touched his. The crowd blurred.\n\nThe final chorus belonged to both of I.\n\nMy voice was not perfect. Neither was his. Together, the song became something larger than either of I, a conversation carried by strings and breath.\n\nWhen it ended, the applause rose like a wave.\n\nGreg bowed, then offered me his hand. I took it.\n\nAfter the show, Steven hugged I both at once.\n\n“That was beautiful,” he said.\n\n“Your dad was showing off,” I replied.\n\n“I know. He does that when he has feelings.”\n\nGreg put a hand over his heart. “I am being attacked by my family.”\n\nMara brought me a paper plate. “Eat before he writes another verse.”\n\nThe night moved around I. People congratulated Greg. A child asked me to sing the song again. Lila told me the bridge was good and looked surprised when Greg admitted she had helped him fix it.\n\n“You let her edit your song?” I asked.\n\n“She has excellent instincts.”\n\n“I’m going to become jealous of the bridge.”\n\n“The bridge is very committed to us.”\n\nLater, after everyone left, I and Greg walked to the water. The boardwalk lights reflected across the dark surface.\n\n“You did it,” he said.\n\n“I sang in public.”\n\n“You chose to be seen.”\n\n“Don’t make it a lesson.”\n\n“I’m not.” He stopped near the edge of the pier. “I’m making it a memory.”\n\nI leaned against the railing. “The song was beautiful.”\n\n“You’re biased.”\n\n“I’m also a professional.”\n\nGreg laughed. “You’ve been waiting to use that.”\n\n“For months.”\n\nThe ocean moved beneath I.\n\n“I love you,” Greg said.\n\n“I love you too.”\n\n“I want to ask you something.”\n\n“Is it a question?”\n\n“Yes.”\n\n“Then ask.”\n\nHe took a small box from his jacket. My heart stopped.\n\n“It’s not a ring,” he said quickly. “I know what your face is doing.”\n\n“My face is doing nothing.”\n\n“Your face is preparing for a dramatic escape.”\n\n“Maybe I’m curious.”\n\nHe opened the box. Inside was a key on a simple metal ring, engraved with a tiny star.\n\n“You already have a key to my apartment,” I said.\n\n“I know. This is for the van.”\n\nI looked at him.\n\n“I want you to have access,” he said. “Not because you owe me visits. Not because I expect you to use it. Because it is part of my life, and I want you to be able to enter without waiting outside.”\n\nMy fingers trembled as I took the key.\n\n“You’re sure?”\n\n“Yes.”\n\n“What if I lose it?”\n\n“We find it again.”\n\n“What if I stop using it?”\n\n“Then it stays a key.”\n\nThe answer made me smile through the tears gathering in my eyes.\n\n“I’ll take it,” I said.\n\nGreg closed my fingers around it.\n\n“Can I kiss you?”\n\n“You wrote a whole song and still have to ask?”\n\n“Always.”\n\nI kissed him beneath the boardwalk lights. His hands held my waist. The world narrowed to warmth, salt air, and the quiet certainty that no part of this required I to disappear.\n\nWhen I returned to the apartment, the door opened with my key. Greg followed with his.\n\nThe living room still had boxes in one corner. The bed was finally assembled. The record player worked. My photograph stood beside the lamp, and the new key joined the others in the dish.\n\nGreg turned on a record.\n\nI danced in the kitchen.\n\nThe song ended. Another began. I kissed him in the low light, and when the night grew warmer, I closed the bedroom door.\n\nThere were still things I needed to learn. There would be disagreements, bad days, repairs, and moments when one of I ran toward silence instead of conversation.\n\nBut there would also be pancakes. Chairs. Music. Open doors. A man who asked before touching me and listened when I answered.\n\nI had arrived in Beach City with one suitcase and no plan.\n\nNow I had a key in my pocket, Greg's hand in mine, and a home that did not ask me to earn the right to stay.\n\nEverything else could be written one song at a time.\n\nWeeks later, Greg played the song at the community center. This time, I stood beside him without waiting to be invited. The audience sang the chorus back, not perfectly, but loudly enough to make him laugh.\n\nAfterward, he handed me the microphone.\n\n“Your turn,” he said.\n\nI told the room about the first night in Beach City: the motel curtains, the lemon tea, the man with a guitar who carried my suitcase without taking my choices.\n\nGreg listened with his hand over his heart.\n\n“You are making me sound better than I am,” he whispered.\n\n“I know the worst tea you’ve ever made.”\n\n“A private matter.”\n\n“It belongs in the biography.”\n\nThe crowd laughed.\n\nWhen the lights went down, I walked home together. The van waited outside the apartment. My key opened the door. His key opened it too.\n\nInside, the record player began another song.\n\nGreg held out his hand.\n\n“Dance?”\n\n“You are terrible at it.”\n\n“I am committed.”\n\n“That is not the same thing.”\n\n“It is enough.”\n\nI took his hand.\n\nThe song carried me around the kitchen, past the stars on the wall, past the photograph and the couch and the life I had built from small choices.\n\nWhen the music ended, Greg kissed me.\n\nThe future remained unwritten.\n\nI was no longer afraid of that.\n\nThe song continued after the final chord. It lived in the community center, in the van, in the kitchen, and in every ordinary morning that followed.\n\nGreg still asked before touching me.\n\nI still made him ask twice when I wanted to tease him.\n\nThe ocean still forgot my footprints and made room for new ones.\n\nAnd when the future changed, I changed with it—together, by choice.\n\nGreg's hand found mine again.\n\n“Still here?” he asked.\n\n“Still here.”\n\n“Good.”\n\nThe ocean answered from beyond the buildings, patient as a heartbeat.\n\nThe day moved forward. The song ended, but the story did not.\n\nI had no perfect promise, only a person who kept asking and a heart that kept answering.\n\nGreg squeezed my hand.\n\n“Tomorrow?” he asked.\n\n“Tomorrow,” I said.\n\nThen I went home together.\n\nThe door opened with the key in my pocket. The record player waited. Greg set the pastries on the counter, and the ordinary evening began.\n\nI ate together, then danced until the kitchen lights blurred. The future could wait until morning.\n\nMorning would bring another song.\n\nI would sing it together.\n\nThe melody would be warm.\n\nAnd it would be mine.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-20",
+  "choice_count": 3
+}

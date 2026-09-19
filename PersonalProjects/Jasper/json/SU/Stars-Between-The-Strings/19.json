@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Door Left Open",
+  "subtitle": "Stars Between the Strings · Chapter 19 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 19,
+  "word_count": 1501,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-19-direct",
+      "label": "Say the honest thing",
+      "target": "su-20",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-19-playful",
+      "label": "Let the moment be playful",
+      "target": "su-20",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-19-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-20",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The door to Greg's van had always been open.\n\nIt was a metaphor, a practical feature, and occasionally a problem when the wind blew sand across the floor. After his long drive, he replaced the faulty latch and installed a small brass hook so it would stay open without banging against the frame.\n\n“You fixed the door,” I said.\n\n“I repaired it.”\n\n“What’s the difference?”\n\n“Fixing sounds like it was broken forever. Repairing means it gets another chance.”\n\nI looked at him. “That sounds like a song.”\n\n“Everything sounds like a song if you’re emotionally unstable enough.”\n\nThe two of I stood outside the van in the early morning. Greg had spent the last week making small changes: a second key, a new mattress, an extra shelf, and a lockbox for documents. None of it made the van a house. It made it more honest about what it was.\n\nI had spent the same week looking at apartments.\n\nNot because I wanted to leave Greg. Because I wanted a place that belonged entirely to I. A studio with a better window. A kitchen that did not share a wall with a bakery mixer. A door I could lock and unlock without anyone else’s permission.\n\nThe apartment I found was three blocks from the car wash.\n\n“You’re moving,” Greg said when I told him.\n\n“I’m moving closer.”\n\n“Those are different things.”\n\n“I know.”\n\nHe smiled. “I’m proud of you.”\n\nThe words made my chest warm, but not as much as they would have once. I was learning to receive pride without turning it into a debt.\n\nOn moving day, Greg carried boxes. Mara supervised. Steven appeared with a roll of tape and immediately taped his own sleeve to a box.\n\n“Do you need help?” I asked.\n\n“No,” he said, trying to pull free. “I have a system.”\n\n“Your system is attached to the cardboard.”\n\n“It’s a very secure system.”\n\nGreg cut him loose with a pocketknife.\n\nThe new apartment had two windows and a patch of sunlight that crossed the floor in the afternoon. The kitchen was tiny but functional. The bedroom door closed properly. The walls were bare except for the photograph I had brought from the studio.\n\nI placed it on a shelf.\n\nGreg stood behind I. “That looks good.”\n\n“It’s not finished.”\n\n“Neither am I.”\n\n“You’re not allowed to make everything profound.”\n\n“I’ll try being annoying instead.”\n\nHe kissed my temple.\n\nThe move ended with pizza on the floor. Steven told stories about traveling. Mara argued with Greg about whether the living room needed a plant. I leaned against Greg's shoulder while he ate a slice folded in half.\n\nWhen everyone left, the apartment became quiet.\n\nThere were still boxes in the hallway. The bed had not been assembled. My curtains were folded on the floor. But the air belonged to I.\n\nGreg stood by the door with his jacket on.\n\n“You can stay,” I said.\n\nHe looked at me. “Are you sure?”\n\n“Yes.”\n\n“I have a van.”\n\n“You do.”\n\n“And a perfectly adequate mattress.”\n\n“You are allowed to sleep in a bed.”\n\n“I know. I’m just making sure you’re not inviting me because the apartment feels empty.”\n\nI crossed the room. “It does feel empty.”\n\n“That’s normal.”\n\n“But I’m inviting you because I want you here.”\n\nHe lowered his gaze. “With your own key?”\n\nI reached into my pocket and held it out.\n\nGreg stared at the key.\n\n“You don’t have to take it,” I said.\n\n“I want to.”\n\nHe accepted it. His fingers curled around mine for a moment.\n\n“You can come in without knocking,” I said. “But you still have to knock if the door is closed.”\n\n“That’s fair.”\n\n“You can leave things here.”\n\n“I’ll bring a record player.”\n\n“You can leave one record player here.”\n\n“Two.”\n\n“One and a half.”\n\n“Deal.”\n\nGreg slipped the key onto his ring. It looked small among the others.\n\n“I’m not moving in,” he said.\n\n“I know.”\n\n“But I want this to be somewhere we both choose.”\n\n“It is.”\n\nHe took off his jacket and set it over the back of the couch. Then he walked to the boxes and picked one up.\n\n“What’s in this?”\n\n“Books.”\n\n“The dangerous kind?”\n\n“The ones that make you think.”\n\n“I may need supervision.”\n\nI opened the box. He sat on the floor beside I, and the two of I began sorting.\n\nThe first book went on the shelf. The second went on the nightstand. The third Greg claimed for the van.\n\n“You have a house with wheels,” I said.\n\n“Now you have a house with books.”\n\n“It’s a better metaphor.”\n\n“I’m jealous.”\n\nThe evening became a collection of small touches: Greg's knee against mine, my hand brushing his shoulder, the way he leaned closer whenever I laughed.\n\nWhen the last box was sealed, he stood and offered his hand.\n\n“Dance with me?”\n\n“There’s no music.”\n\n“I can hum.”\n\n“That is not music.”\n\n“You’re cruel.”\n\nHe began to hum anyway. It was one of his unfinished melodies, the one about an open door. I put my hands on his shoulders. He placed his at my waist.\n\nI swayed between the boxes.\n\n“You’re a terrible dancer,” I said.\n\n“I’m a good dancer in low light.”\n\n“We are in low light.”\n\n“Then I’m thriving.”\n\nHe kissed me. The apartment had not yet learned my sounds, but the walls held the warmth of them. Greg's hands moved slowly. I answered with my body, choosing each step instead of being carried by it.\n\nThe bedroom door remained open.\n\nLater, beneath the half-assembled bed, I laughed into his shoulder.\n\n“We’re going to have to finish this tomorrow,” I said.\n\n“The bed or the boxes?”\n\n“Both.”\n\n“I’m very tired.”\n\n“You chose this.”\n\n“I choose you.”\n\nThe words were quiet, but they filled the room.\n\nOutside, Beach City settled into night. The bakery would begin work before dawn. The car wash sign would flicker. The van would wait three blocks away.\n\nAnd my door would be open.\n\nThe following week, Greg left a small box in my apartment.\n\n“What is it?” I asked.\n\n“A housewarming gift.”\n\nInside was a set of hooks shaped like tiny stars. They matched the moon-shaped hooks in the van.\n\n“You are putting your emotional furniture everywhere,” I said.\n\n“I am creating continuity.”\n\n“You are creating a hook empire.”\n\n“A noble empire.”\n\nI installed the hooks beside the door. Greg hung his jacket on one. I hung my scarf on another.\n\n“That is symbolic,” he said.\n\n“It is a hook.”\n\n“Both can be true.”\n\nI looked at him. “You are going to keep coming here?”\n\n“If you want me to.”\n\n“I do.”\n\n“Even when the van is parked outside?”\n\n“Especially then.”\n\nHe kissed me in the new living room. The apartment still held the faint scent of cardboard and paint. The couch was slightly too large. The bedroom door stuck when it rained.\n\nIt was mine.\n\nWhen I pulled back, Greg rested his forehead against mine.\n\n“Thank you for making a place for me,” he said.\n\n“Thank you for not trying to fill every room.”\n\n“I brought one record player.”\n\n“And one box of pastries.”\n\n“The pastries are separate.”\n\n“They can stay.”\n\nHe smiled. “Then I will.”\n\nThe two of I finished assembling the bed the next morning. It took three attempts and one argument with the instructions.\n\n“The diagram is wrong,” Greg said.\n\n“The diagram is upside down.”\n\n“That is a type of wrong.”\n\nI laughed until the bed finally stood.\n\nThe room looked ridiculous when it was finished. The bed leaned slightly. The hooks were uneven. The record player sat on a crate because the table had not arrived.\n\nGreg stood in the doorway. “It is perfect.”\n\n“It is functional.”\n\n“That is a form of perfect.”\n\nI walked to him. “You can come here whenever you want.”\n\n“Even if I bring the wrong pastries?”\n\n“Then you will sleep on the couch.”\n\n“A fair system.”\n\nHe kissed me slowly, and the new apartment learned the sound of both my laughter.\n\nThe next morning, Greg left before the bakery opened. He kissed my forehead, collected his jacket from the star-shaped hook, and promised to return after the car wash.\n\n“You have a key,” I reminded him.\n\n“I know.”\n\n“Use it.”\n\n“I will.”\n\nWhen he came back, he carried a chair for the bedroom and a pastry for each of I. The chair was sturdy. The pastry was sweet. The arrangement was imperfect and entirely mine.\n\nI placed a second mug beside the first. Greg filled it with coffee and complained that my tea was too hot.\n\n“It is always too hot,” I said.\n\n“You could wait.”\n\n“Waiting is a strategy.”\n\nHe looked pleased. “You remembered.”\n\n“I remember a lot about you,” I said.\n\n“I know.”\n\nHe kissed me beside the new chair.\n\nThe chair did not complain. The room held its own quiet, warm with the evidence that love could be invited in without surrendering the key.\n\nI slept easily that night.\n\nThe room held me both.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-19",
+  "choice_count": 3
+}

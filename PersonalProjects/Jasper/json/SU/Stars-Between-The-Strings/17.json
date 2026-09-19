@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Almost Goodbye",
+  "subtitle": "Stars Between the Strings · Chapter 17 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 17,
+  "word_count": 1500,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-17-direct",
+      "label": "Say the honest thing",
+      "target": "su-18",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-17-playful",
+      "label": "Let the moment be playful",
+      "target": "su-18",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-17-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-18",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The almost goodbye arrived in an email with a subject line that said: WE WOULD LIKE TO OFFER me THE POSITION.\n\nI read it three times before telling Greg.\n\nThe job was in another city. It paid more than the community center. It came with a stable schedule, health benefits, and a small apartment included for the first six months. It was the sort of opportunity people were supposed to be grateful for.\n\nI sat at the kitchen table with my laptop open. Greg stood at the counter, slicing an apple into uneven pieces.\n\n“That’s good,” he said.\n\n“Yes.”\n\n“It sounds good.”\n\n“It does.”\n\nHe finished cutting the apple and set the knife down.\n\n“When do they need an answer?”\n\n“Friday.”\n\n“That’s soon.”\n\n“Yes.”\n\nGreg sat across from I. He looked at the email, then at my face.\n\n“Do you want it?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“It would be good for me.”\n\n“Good is not the same as wanted.”\n\n“You always say things like that when I’m trying to be practical.”\n\n“Practical is important. It just shouldn’t be the only voice in the room.”\n\nI closed the laptop. “What if I take it?”\n\nGreg's fingers curled around the edge of the table.\n\n“Then we figure out what that means.”\n\n“You would do long distance?”\n\n“I would try.”\n\n“You might hate it.”\n\n“I might.”\n\n“You might meet someone else.”\n\n“I might.”\n\nI looked away.\n\nGreg reached across the table but stopped before touching me. “I’m not going to tell you not to take the job.”\n\n“Would you want me to stay?”\n\n“Yes.”\n\nThe word hurt.\n\n“Then why aren’t you asking me to?”\n\n“Because I want you to stay because you want this life, not because I made leaving painful.”\n\n“You make everything sound simple.”\n\n“It isn’t simple. It’s just clear.”\n\nThe email waited behind the closed laptop.\n\nFor three days, I tried to decide. I went to work. I answered questions. I played music with Greg. I slept beside him and woke before he did, watching dawn move across his face.\n\nEverywhere, the choice followed.\n\nAt the community center, Mara found me staring at a box of drumsticks.\n\n“You’re leaving,” she said.\n\nI blinked. “I haven’t decided.”\n\n“That wasn’t what I asked.”\n\n“I don’t know.”\n\n“You’re using Greg's word now.”\n\n“He doesn’t own it.”\n\n“Neither do you.”\n\nI laughed despite myself.\n\nMara leaned against the supply cabinet. “Do you want the job?”\n\n“It would be stable.”\n\n“That is not what I asked.”\n\n“It would be good for my future.”\n\n“That is also not what I asked.”\n\nI turned the drumstick in my hand. “I don’t know how to want something without proving it makes sense.”\n\nMara's expression softened. “Then start with whether you want to wake up there.”\n\nThe question stayed with I all the way home.\n\nThat evening, I found Greg in the van, replacing one of the moon-shaped hooks. He looked up when I climbed inside.\n\n“The hook is not broken,” I said.\n\n“It was emotionally loose.”\n\nI sat on the bed. “I got the email.”\n\n“The answer is due tomorrow.”\n\n“Yes.”\n\nGreg put down the screwdriver.\n\n“I think I want to take it,” I said.\n\nHe inhaled slowly. “Okay.”\n\n“You’re not going to say anything?”\n\n“What do you want me to say?”\n\n“I don’t know.”\n\n“There’s that word again.”\n\nI looked toward the open doors. “I want you to ask me to stay.”\n\nGreg's face changed.\n\n“I want you to tell me I’m making a mistake,” I continued. “I want you to make it impossible for me to leave so I can blame you if I do.”\n\nHe moved closer. “I won’t.”\n\n“I know.”\n\n“I love you.”\n\n“I know.”\n\n“I want you here.”\n\n“I know.”\n\n“But I don’t want to become another person who decides that my fear is more important than your freedom.”\n\nThe tears came before I could stop them.\n\nGreg crouched in front of I. “Can I touch you?”\n\nI nodded.\n\nHe took my hands. “If you go, I will miss you. I will be scared. I will probably write an extremely embarrassing song about highway exits.”\n\n“That sounds terrible.”\n\n“It will be.”\n\n“You might not wait.”\n\n“I can’t promise I’ll stay exactly the same. I can promise I won’t pretend I’m fine if I’m not.”\n\n“And if I stay?”\n\n“Then I’ll still ask what you want next month. You don’t have to turn staying into a lifetime sentence.”\n\nI looked at the space I had made in the van: my books, my scarf, the metal pick.\n\n“I’m afraid that if I stay, I’m choosing you instead of myself.”\n\n“Then don’t choose me,” Greg said. “Choose the life that lets you be yourself. If I’m in it, I’ll be grateful. If I’m not, I’ll survive.”\n\nThe kindness felt like a blade.\n\nI leaned forward and pressed my forehead to his.\n\n“I don’t want to go,” I whispered.\n\nGreg closed his eyes.\n\n“I want the job because it’s good,” I continued. “But I want to wake up here. I want the bakery noise. I want the community center. I want your terrible songs.”\n\n“They’re not all terrible.”\n\n“Most.”\n\n“That’s fair.”\n\n“I want you.”\n\nHis hands tightened around mine. “Are you sure?”\n\n“Yes.”\n\n“You can still change your mind.”\n\n“I know.”\n\nHe kissed me. The van was quiet except for the ocean and the soft creak of the mattress.\n\nThe kiss became warmer. Greg asked. I answered. He moved slowly, giving I every chance to stop, and I held him closer instead.\n\nThe doors closed. The email waited, unanswered, while the two of I chose the present with open eyes.\n\nIn the morning, I declined the job.\n\nNot because Greg had asked me to stay.\n\nBecause I had finally asked myself where I wanted to wake up.\n\nThe answer was Beach City.\n\nFor now.\n\nThe next morning, I went to the community center and told Mara I had declined the position.\n\nShe listened while arranging a box of percussion instruments.\n\n“Do you regret it?” she asked.\n\n“Not today.”\n\n“That is the answer you have.”\n\n“I’m trying to stop demanding answers from the future.”\n\nMara handed me a tambourine. “A sensible policy.”\n\nGreg arrived at noon with pastries and a paper map.\n\n“I have a proposal,” he announced.\n\n“Is it about a road trip?”\n\n“It is about several road trips, one festival, and an emergency pastry reserve.”\n\n“You are responding to my career decision with baked goods.”\n\n“I am responding with joy.”\n\nHe spread the map across the table. There were stars drawn beside towns, beaches, and music halls.\n\n“You don’t have to plan my life,” I said.\n\n“I’m planning experiences. You can reject all of them.”\n\n“Why are you doing this?”\n\n“Because I want a future with you that has more than one shape.”\n\nThe words made me quiet.\n\nGreg tapped one of the stars. “You can work here. You can travel. You can change your mind. We can be together without making your whole life fit inside my van.”\n\n“That is a very good plan.”\n\n“I have been practicing.”\n\nI folded the map. “I choose the lake.”\n\nHis smile appeared immediately. “The lake it is.”\n\n“And the festival.”\n\n“Both?”\n\n“I contain multitudes.”\n\nHe kissed me in the empty hallway.\n\nThe job offer did not vanish. It remained in my email, a reminder that opportunity could exist without being accepted. Beach City was not the only possible future.\n\nIt was the one I wanted now.\n\nThat distinction made staying feel like freedom instead of fear.\n\nThat night, I wrote my own list. Reasons to stay. Reasons to travel. Things I wanted independent of Greg. Things I wanted with him.\n\nThe list was messy. Some reasons contradicted each other. I wanted roots and roads. Stability and surprise. A room of my own and a place beside his.\n\nGreg read it only when I offered.\n\n“This is a good life,” he said.\n\n“It is a complicated one.”\n\n“Those are not opposites.”\n\nI folded the paper. “I am not choosing you instead of myself.”\n\n“I know.”\n\n“I am choosing a self that includes you.”\n\nHis eyes softened. “That is the best kind of choice.”\n\nI put the list on the refrigerator. Greg added a magnet shaped like a pancake.\n\n“This is not a serious household system,” I said.\n\n“It is a flexible household system.”\n\n“You are hiding wisdom behind breakfast.”\n\n“Breakfast has carried me through many difficult decisions.”\n\nI kissed him in the kitchen. The future remained complicated, but it was no longer a single road with Greg standing at the end of it.\n\nIt was a map I could both hold.\n\nI placed it beneath the pancake magnet. Greg stood behind I with his arms around my waist.\n\n“I like this,” he said.\n\n“The map?”\n\n“The way you stay without disappearing.”\n\nI turned and kissed him.\n\nThe pancake magnet held the map in place.\n\nIt stayed there through breakfast, through the afternoon, and through another quiet conversation about what I wanted next.\n\nI both listened.\n\nThe map stayed.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-17",
+  "choice_count": 3
+}

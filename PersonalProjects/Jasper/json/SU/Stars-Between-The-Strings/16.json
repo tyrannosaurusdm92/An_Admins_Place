@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "When the Van Breaks Down",
+  "subtitle": "Stars Between the Strings · Chapter 16 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 16,
+  "word_count": 1500,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-16-direct",
+      "label": "Say the honest thing",
+      "target": "su-17",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-16-playful",
+      "label": "Let the moment be playful",
+      "target": "su-17",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-16-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-17",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The van broke down again in front of the bakery, which Greg claimed was an improvement because at least the pastries were nearby.\n\nThe engine made one sharp cough and went silent. Greg turned the key twice more. Nothing happened.\n\n“It’s thinking,” he said.\n\n“It’s dead.”\n\n“It’s considering its options.”\n\n“It has chosen death.”\n\nGreg rested his head against the steering wheel. “The van has a flair for drama.”\n\nI climbed out and opened the hood. The belt looked worse than it had on the cow road. A dark stain spread beneath the engine.\n\n“You said the last repair was mostly compatible.”\n\n“It was compatible with optimism.”\n\n“That is not a mechanical category.”\n\n“It should be.”\n\nThe mechanic quoted Greg a price that made his shoulders tense. The van needed more than a belt. It needed patience, money, and a part that had not been manufactured in this century.\n\n“We can sell it,” Greg said afterward.\n\nI stood beside him on the sidewalk. “You don’t want to.”\n\n“No.”\n\n“Then don’t.”\n\n“It’s expensive.”\n\n“So is every object you love.”\n\nHe gave me a wounded look.\n\n“That was affectionate,” I said.\n\n“I’m not sure my wallet understands affection.”\n\nThe mechanic offered them a temporary ride. Greg declined. He called a friend instead, and the two of I walked to the car wash while waiting.\n\n“I can pay for part of the repair,” I said.\n\nGreg stopped. “No.”\n\n“You didn’t let me finish.”\n\n“I know where this is going.”\n\n“You don’t.”\n\n“I know I love you, and I know I don’t want you feeling responsible for keeping my life intact.”\n\n“I’m not responsible for your life. I’m your partner.”\n\nThe word stopped him.\n\n“Partner,” he repeated.\n\n“Is that wrong?”\n\n“No.” He looked down at the pavement. “It’s just bigger than girlfriend or boyfriend.”\n\n“We’re bigger than a label.”\n\n“That’s a very romantic thing to say.”\n\n“I’m a romantic.”\n\n“You learned from me.”\n\n“I’m improving on the source material.”\n\nHe laughed, but the worry returned.\n\n“I want to help,” I said. “Not because I’m obligated. Because I choose you.”\n\n“You could use the money for your studio.”\n\n“I can do both.”\n\n“What if this is the start of you carrying me?”\n\n“Then we talk before it becomes that.”\n\nGreg looked at me for a long moment. “You make partnership sound like a conversation instead of a trap.”\n\n“It is a conversation.”\n\n“I’m not used to that.”\n\n“Then we can practice.”\n\nI paid for half the repair. Greg argued. I argued better. The mechanic agreed that my argument had structural integrity and accepted the money.\n\nWhile the van was in the shop, Greg stayed with I in the studio. The room felt smaller with both of I inside it, but not in a bad way. He cooked pasta in the kitchenette. I sat on the counter and read the instructions aloud even though he did not need them.\n\n“The sauce says simmer,” I said.\n\n“I know what simmer means.”\n\n“Do you?”\n\n“I have met a pot before.”\n\n“Your van would disagree.”\n\nHe stirred the sauce. I watched the line of his shoulders, the way he moved around the kitchen without assuming which cabinets belonged to him.\n\n“What?” he asked.\n\n“Nothing.”\n\n“You’re doing the face.”\n\n“I’m thinking.”\n\n“Dangerous.”\n\n“How do you know when a place is yours?”\n\nGreg turned off the burner.\n\n“That’s a big question for pasta.”\n\n“The pasta can handle it.”\n\nHe leaned against the counter. “Maybe when you stop measuring how much of yourself you’re allowed to leave there.”\n\nI looked around the studio. My books rested on the shelf. My clothes hung in the closet. Greg's guitar pick sat in the dish beside my keys.\n\n“I’m still measuring,” I said.\n\n“I know.”\n\n“I don’t want to.”\n\n“Then leave something.”\n\n“What?”\n\n“Anything.”\n\nI considered the room. Then I took the small framed photograph from my bag. It showed a place I had once called home, before the word became complicated.\n\nI placed it on the shelf beside the records.\n\nGreg did not ask who was in it.\n\n“That’s important,” he said.\n\n“It’s a memory.”\n\n“Those can be important.”\n\nI stepped closer. “What did you leave in the van?”\n\n“Several scarves, a pick, two books, and my heart.”\n\n“Your heart is not an object.”\n\n“It is when I’m writing a song.”\n\n“What song?”\n\nHe touched my photograph, then looked at me. “The one about staying.”\n\nThe kiss began softly. Greg's hand found my waist. I leaned into him, and the kitchen filled with the scent of tomato and basil.\n\n“The pasta,” I whispered.\n\n“It has had a good life.”\n\n“Greg.”\n\nHe turned off the lights. “I’ll save it.”\n\nThe door closed between the kitchen and the rest of the world. Dinner waited. The van waited. The future waited.\n\nFor a while, I did not.\n\nThe next afternoon, the van returned with a new belt, a repaired hose, and a receipt that made Greg physically ill.\n\nHe started the engine. It purred.\n\n“It lives,” he said.\n\n“It has chosen a temporary reprieve.”\n\n“You’re learning.”\n\nHe drove to the beach. I sat beside him, my hand in his.\n\n“Thank you,” he said.\n\n“For paying for the van?”\n\n“For arguing with me.”\n\n“That’s free.”\n\n“It’s not.”\n\nHe parked near the boardwalk and turned to I.\n\n“I don’t want to be saved,” he said. “But I do want to be helped.”\n\nI nodded. “Those are different.”\n\n“I’m learning.”\n\n“We both are.”\n\nGreg kissed my hand. “Partner?”\n\n“Partner.”\n\nThe van carried me home, one repaired part at a time.\n\nThe next week, the mechanic called to say the replacement part had failed.\n\nGreg stared at the phone. “It has betrayed me.”\n\n“It was compatible with optimism,” I reminded him.\n\n“You are enjoying this.”\n\n“A little.”\n\nHe sat on the edge of the new couch in my apartment. The van was parked outside, silent and expensive. The two of I had spent the afternoon listing possible repairs, costs, and alternatives.\n\n“We could sell it,” Greg said.\n\n“You could.”\n\n“I don’t want to.”\n\n“Then repair it.”\n\n“What if repairing it is irresponsible?”\n\n“Then decide what the van is worth to you.”\n\n“You make it sound easy.”\n\n“It’s not easy. It’s just a choice.”\n\nGreg looked down at his hands. “I’m afraid that if I let it go, I’ll lose the last proof that I am still the person who drove away.”\n\n“Do you want to be that person?”\n\n“Sometimes.”\n\n“Why?”\n\n“Because he did not need anyone.”\n\nThe answer was so sad that I moved closer.\n\n“He also had nowhere to come back to,” I said.\n\nGreg's eyes lifted.\n\n“You don’t have to keep the van to prove you survived,” I continued. “You can keep it because you love it. Or let it go because you are allowed to become someone new.”\n\nHe leaned into my shoulder.\n\n“I hate when you are right,” he murmured.\n\n“I am very difficult to argue with.”\n\n“You are very easy to love.”\n\nThe words softened the room.\n\nThe van was repaired again. Not because it was the only home Greg had, but because it was part of a life he still wanted. He painted the repaired shelf blue. He added my name to a small list of emergency contacts. He put a second blanket in the back.\n\n“For lumbar support?” I asked.\n\n“For emotional lumbar support.”\n\n“Of course.”\n\nI took him by the hand and kissed him in the open van door.\n\nThe city moved around I. The road remained available. The difference was that Greg no longer needed to run every time he felt afraid.\n\nNeither did I.\n\nAt the car wash, Greg played a new song about repairs. The chorus compared a broken belt to a wounded heart. Mara threw a towel at him.\n\n“Too obvious,” she said.\n\n“People like obvious.”\n\n“People like working brakes.”\n\nI laughed from the front row. Greg looked at me while he sang the final verse.\n\nAfterward, he asked whether the song was terrible.\n\n“It is sincere.”\n\n“That is not an answer.”\n\n“It is a kind answer.”\n\n“I’ll take it.”\n\nHe kissed me beside the soap dispensers.\n\n“That was a terrible song,” Mara called.\n\n“You listened to the whole thing,” Greg replied.\n\n“I was trapped by the chorus.”\n\nI smiled at him. “She is jealous of the bridge.”\n\n“Everyone is jealous of the bridge.”\n\n“The bridge is innocent.”\n\n“The bridge knows what it did.”\n\nHe took my hand as the car wash lights came on. The van waited at the curb, repaired and stubborn. I walked home together instead.\n\nThe road could wait until tomorrow.\n\nAt home, Greg wrote the repair date on the calendar. I circled it twice and added a note: BRING SNACKS.\n\nHe added: BRING MORE SNACKS.\n\nThe plan was sound.\n\nEspecially the snacks.\n\nGreg circled the date in blue ink. I added a small star beside it. Neither of I pretended the appointment was more important than the relationship, but both of I intended to keep it.\n\nThe calendar was enough.\n\nI kept the appointment.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-16",
+  "choice_count": 3
+}

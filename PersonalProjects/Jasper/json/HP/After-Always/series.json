@@ -1,0 +1,386 @@
+{
+  "schema_version": "5.0",
+  "work_type": "fanfic_series",
+  "fandom": "Harry Potter",
+  "series_title": "After Always",
+  "series_slug": "after-always",
+  "series_folder": "After-Always",
+  "series_path": "HP/After-Always",
+  "pairing": "Severus Snape / Adult Reader",
+  "reader_character": "Adult self-insert reader-proxy, written in first person",
+  "rating": "PG-13 / fade to black",
+  "chapter_count": 40,
+  "chapters": [
+    {
+      "number": 1,
+      "file": "01.json",
+      "title": "The Man Who Was Supposed to Be Dead",
+      "word_count": 1395,
+      "choice_count": 3,
+      "id": "after-always-01"
+    },
+    {
+      "number": 2,
+      "file": "02.json",
+      "title": "Bitter Root",
+      "word_count": 1392,
+      "choice_count": 3,
+      "id": "after-always-02"
+    },
+    {
+      "number": 3,
+      "file": "03.json",
+      "title": "Terms of Recovery",
+      "word_count": 1400,
+      "choice_count": 3,
+      "id": "after-always-03"
+    },
+    {
+      "number": 4,
+      "file": "04.json",
+      "title": "The Dungeons Remember",
+      "word_count": 1486,
+      "choice_count": 3,
+      "id": "after-always-04"
+    },
+    {
+      "number": 5,
+      "file": "05.json",
+      "title": "Instructions in the Margin",
+      "word_count": 1482,
+      "choice_count": 3,
+      "id": "after-always-05"
+    },
+    {
+      "number": 6,
+      "file": "06.json",
+      "title": "A Question of Antidotes",
+      "word_count": 1498,
+      "choice_count": 3,
+      "id": "after-always-06"
+    },
+    {
+      "number": 7,
+      "file": "07.json",
+      "title": "The Scar at His Throat",
+      "word_count": 1380,
+      "choice_count": 3,
+      "id": "after-always-07"
+    },
+    {
+      "number": 8,
+      "file": "08.json",
+      "title": "Spinner's End",
+      "word_count": 1403,
+      "choice_count": 3,
+      "id": "after-always-08"
+    },
+    {
+      "number": 9,
+      "file": "09.json",
+      "title": "A Cup of Tea, Unpoisoned",
+      "word_count": 1378,
+      "choice_count": 3,
+      "id": "after-always-09"
+    },
+    {
+      "number": 10,
+      "file": "10.json",
+      "title": "The Room Behind the Office",
+      "word_count": 1490,
+      "choice_count": 3,
+      "id": "after-always-10"
+    },
+    {
+      "number": 11,
+      "file": "11.json",
+      "title": "The First Argument",
+      "word_count": 1424,
+      "choice_count": 3,
+      "id": "after-always-11"
+    },
+    {
+      "number": 12,
+      "file": "12.json",
+      "title": "What He Does Not Say",
+      "word_count": 1496,
+      "choice_count": 3,
+      "id": "after-always-12"
+    },
+    {
+      "number": 13,
+      "file": "13.json",
+      "title": "A Patronus in the Corridor",
+      "word_count": 1420,
+      "choice_count": 3,
+      "id": "after-always-13"
+    },
+    {
+      "number": 14,
+      "file": "14.json",
+      "title": "Night Work",
+      "word_count": 1323,
+      "choice_count": 3,
+      "id": "after-always-14"
+    },
+    {
+      "number": 15,
+      "file": "15.json",
+      "title": "The Half-Blood Prince",
+      "word_count": 1233,
+      "choice_count": 3,
+      "id": "after-always-15"
+    },
+    {
+      "number": 16,
+      "file": "16.json",
+      "title": "For Enemies",
+      "word_count": 1283,
+      "choice_count": 3,
+      "id": "after-always-16"
+    },
+    {
+      "number": 17,
+      "file": "17.json",
+      "title": "The Language of Hands",
+      "word_count": 1206,
+      "choice_count": 3,
+      "id": "after-always-17"
+    },
+    {
+      "number": 18,
+      "file": "18.json",
+      "title": "Hogsmeade in Rain",
+      "word_count": 1340,
+      "choice_count": 3,
+      "id": "after-always-18"
+    },
+    {
+      "number": 19,
+      "file": "19.json",
+      "title": "The Apology He Hates",
+      "word_count": 1432,
+      "choice_count": 3,
+      "id": "after-always-19"
+    },
+    {
+      "number": 20,
+      "file": "20.json",
+      "title": "A Door Left Open",
+      "word_count": 1196,
+      "choice_count": 3,
+      "id": "after-always-20"
+    },
+    {
+      "number": 21,
+      "file": "21.json",
+      "title": "Christmas Without Ghosts",
+      "word_count": 1355,
+      "choice_count": 3,
+      "id": "after-always-21"
+    },
+    {
+      "number": 22,
+      "file": "22.json",
+      "title": "The Mark",
+      "word_count": 1116,
+      "choice_count": 3,
+      "id": "after-always-22"
+    },
+    {
+      "number": 23,
+      "file": "23.json",
+      "title": "Occlumency",
+      "word_count": 1243,
+      "choice_count": 3,
+      "id": "after-always-23"
+    },
+    {
+      "number": 24,
+      "file": "24.json",
+      "title": "The Memory He Offers",
+      "word_count": 1394,
+      "choice_count": 3,
+      "id": "after-always-24"
+    },
+    {
+      "number": 25,
+      "file": "25.json",
+      "title": "The One I Refuse to Pity",
+      "word_count": 1117,
+      "choice_count": 3,
+      "id": "after-always-25"
+    },
+    {
+      "number": 26,
+      "file": "26.json",
+      "title": "A Different Kind of Loyalty",
+      "word_count": 912,
+      "choice_count": 3,
+      "id": "after-always-26"
+    },
+    {
+      "number": 27,
+      "file": "27.json",
+      "title": "The Kiss in the Storeroom",
+      "word_count": 1106,
+      "choice_count": 3,
+      "id": "after-always-27"
+    },
+    {
+      "number": 28,
+      "file": "28.json",
+      "title": "After",
+      "word_count": 718,
+      "choice_count": 3,
+      "id": "after-always-28"
+    },
+    {
+      "number": 29,
+      "file": "29.json",
+      "title": "The Hearing",
+      "word_count": 1202,
+      "choice_count": 3,
+      "id": "after-always-29"
+    },
+    {
+      "number": 30,
+      "file": "30.json",
+      "title": "A Name Cleared Poorly",
+      "word_count": 958,
+      "choice_count": 3,
+      "id": "after-always-30"
+    },
+    {
+      "number": 31,
+      "file": "31.json",
+      "title": "A House That Still Stands",
+      "word_count": 1097,
+      "choice_count": 3,
+      "id": "after-always-31"
+    },
+    {
+      "number": 32,
+      "file": "32.json",
+      "title": "What Lily Was and Was Not",
+      "word_count": 1098,
+      "choice_count": 3,
+      "id": "after-always-32"
+    },
+    {
+      "number": 33,
+      "file": "33.json",
+      "title": "The First Morning",
+      "word_count": 925,
+      "choice_count": 3,
+      "id": "after-always-33"
+    },
+    {
+      "number": 34,
+      "file": "34.json",
+      "title": "The Potion He Cannot Brew",
+      "word_count": 1006,
+      "choice_count": 3,
+      "id": "after-always-34"
+    },
+    {
+      "number": 35,
+      "file": "35.json",
+      "title": "The Letter from Hogwarts",
+      "word_count": 887,
+      "choice_count": 3,
+      "id": "after-always-35"
+    },
+    {
+      "number": 36,
+      "file": "36.json",
+      "title": "A Better Kind of Classroom",
+      "word_count": 1395,
+      "choice_count": 3,
+      "id": "after-always-36"
+    },
+    {
+      "number": 37,
+      "file": "37.json",
+      "title": "The Laboratory at Spinner's End",
+      "word_count": 1270,
+      "choice_count": 3,
+      "id": "after-always-37"
+    },
+    {
+      "number": 38,
+      "file": "38.json",
+      "title": "The Shape of Light",
+      "word_count": 1225,
+      "choice_count": 3,
+      "id": "after-always-38"
+    },
+    {
+      "number": 39,
+      "file": "39.json",
+      "title": "What We Choose to Keep",
+      "word_count": 1425,
+      "choice_count": 3,
+      "id": "after-always-39"
+    },
+    {
+      "number": 40,
+      "file": "40.json",
+      "title": "After Always",
+      "word_count": 1858,
+      "choice_count": 3,
+      "id": "after-always-40"
+    }
+  ],
+  "total_word_count": 50964,
+  "key": "after-always",
+  "title": "After Always",
+  "folder": "HP",
+  "fandom_folder": "HP",
+  "story_folder": "After-Always",
+  "story_type": "cyoa_fanfiction",
+  "chapter_files": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json"
+  ],
+  "description": "After the war, an adult reader helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
+  "choice_count": 3
+}

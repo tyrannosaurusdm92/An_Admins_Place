@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Place to Sit",
+  "subtitle": "Stars Between the Strings · Chapter 2 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 2,
+  "word_count": 1570,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-02-direct",
+      "label": "Say the honest thing",
+      "target": "su-03",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-02-playful",
+      "label": "Let the moment be playful",
+      "target": "su-03",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-02-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-03",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The next morning, the curtain did not attack I, but the air conditioner made a convincing attempt.\n\nI woke to a metallic groan, a burst of cold air, and the unmistakable sound of something small rolling across the floor. For several seconds, I lay still and stared at the ceiling, trying to remember where I was. Then the motel room returned around I: the crooked painting, the stained carpet, the suitcase half-open near the door.\n\nBeach City.\n\nThe word felt like a dare.\n\nI dressed, checked my phone, and answered none of the messages. That was not bravery. It was triage. I had learned that sometimes survival began with deciding which emergencies could wait until after breakfast.\n\nGreg's card sat on the nightstand. The ink from his number had bled slightly where my tea-stained fingers had touched it. I turned it over twice before putting it in my pocket.\n\nThe laundromat was easy to find. It occupied the ground floor of a narrow building painted a color that had once been yellow and had since surrendered to the weather. The rental office upstairs had a hand-lettered sign: ROOMS, STUDIOS, NO DRAMA.\n\nI knocked.\n\n“If you’re selling something, I’m asleep,” a voice called.\n\n“It’s ten in the morning.”\n\n“Then I’m spiritually asleep.”\n\nThe door opened. A woman with cropped gray hair peered at I over square glasses. “You’re the one Greg told me about.”\n\n“He told you about me?”\n\n“He told me there was a person with a suitcase, a sense of humor, and the facial expression of a stray cat deciding whether to bite.” She opened the door wider. “Come in.”\n\nThe office was less an office than a room that had accumulated paperwork. A desk leaned beneath a stack of folders. A fan rotated lazily in the corner. On the wall, a framed photograph showed the building before the paint had begun to peel.\n\n“Mara,” she said.\n\nI introduced myself.\n\n“Greg also said you might need a place quickly.”\n\n“He’s observant.”\n\n“He’s nosy.” Mara tapped a pen against the desk. “Different skill set.”\n\nThe studio was small, affordable, and above a bakery that began work at four in the morning. It had one room, a kitchenette, a bathroom with a stubborn faucet, and a window that looked toward the water if I leaned far enough to the left.\n\n“The lease is month to month,” Mara said. “No surprise fees. If the plumbing breaks, you tell me. If you break the plumbing, you tell me faster.”\n\n“What counts as breaking it?”\n\n“If you have to ask, I’m already worried.”\n\nI signed before fear could invent a better reason not to. Mara handed me the keys and a sheet of paper with a list of local numbers. At the bottom, someone had written in blue marker: GREG UNIVERSE — ASK HIM ABOUT MUSIC, NOT TAXES.\n\n“He helped paint the hallway,” Mara said when she noticed me looking.\n\n“Was that a mistake?”\n\n“The hallway is now three different shades of blue, so yes. But he brought donuts.”\n\nDownstairs, the bakery filled the street with the smell of cinnamon and yeast. I bought a roll as a housewarming gift to myself and carried it to the boardwalk. The morning was bright enough to make the water look like polished glass.\n\nGreg was there, sitting on the sea wall with his guitar. He had a thermos beside him and a notebook balanced on one thigh. When he spotted I, his entire face changed.\n\n“The curtains let you live,” he said.\n\n“Barely.”\n\n“I knew you were tough.”\n\nI held out the bakery bag. “Peace offering.”\n\nGreg accepted it with exaggerated reverence. “For me?”\n\n“For the man who provided dangerous amounts of citrus and a landlord recommendation.”\n\nHe opened the bag. “You got the good ones.”\n\n“I was told you helped paint a hallway.”\n\n“I was young.”\n\n“Yesterday?”\n\n“Emotionally young.”\n\nHe tore the roll in half and offered me a piece before taking one himself. The cinnamon was warm and the icing melted against my fingers.\n\n“So,” Greg said, “you found a place.”\n\n“A studio. Above a bakery.”\n\n“That’s not a place. That’s a strategic victory.”\n\nI sat beside him. The stone was already warm from the sun. A little farther down the boardwalk, a musician played a tune that had been popular enough to be familiar but not popular enough to be good.\n\n“What made you come here?” Greg asked.\n\nHis tone was casual, but he did not pretend the question was meaningless. He had learned how to make room around a question, giving I a way to step around it if I needed to.\n\n“I needed somewhere that didn’t know me.”\n\nGreg nodded slowly. “That’s a pretty good reason.”\n\n“You think so?”\n\n“I think there are worse reasons. Some people move for jobs. Some move for love. Some move because they’re running from a version of themselves they don’t recognize anymore.”\n\nI glanced at him. “Which one were you?”\n\n“Yes.”\n\nThe answer made me laugh, though it carried a sadness underneath. Greg looked down at the cinnamon roll in his hands.\n\n“I was a musician,” he said. “Still am, technically. But there was a time when I thought if I kept moving, I’d eventually become the person I was supposed to be. Turns out you can drive a van across half the country and still be in the same argument with yourself.”\n\n“Did you win?”\n\n“I negotiated a ceasefire.”\n\nThe ocean folded against the shore. I wanted to ask what the argument had been about. I wanted to ask who had hurt him and whether they knew what they had done. Instead, I said, “That sounds exhausting.”\n\n“It was.” He looked at me, eyes bright with something unguarded. “You don’t have to tell me yours.”\n\n“I know.”\n\n“Good.”\n\n“But I might eventually.”\n\nHis smile was small and genuine. “I’m very patient.”\n\n“Are you?”\n\n“No. But I’m learning.”\n\nHe showed me the notebook. The page held a progression of chords, crossed-out lyrics, and one line written three times in different handwriting: YOU CAN STAY.\n\nI pointed at it. “Is that the song?”\n\n“Maybe.”\n\n“You use that word a lot.”\n\n“It’s a flexible word.”\n\n“It’s doing a lot of emotional labor.”\n\nGreg laughed, and the sound was lower than I expected. He closed the notebook.\n\n“I’m playing at the car wash tonight,” he said. “Small thing. A few songs. A few people who will complain about the volume even though they asked me to play.”\n\n“Do you want me there?”\n\nThe question left my mouth before I could decide whether it was too direct.\n\nGreg did not look away. “Yes.”\n\nThe simple answer landed harder than a flirtation would have. He seemed to understand that asking someone to be present could be its own kind of intimacy.\n\n“Then I’ll come.”\n\n“Great.” He took a pen from behind his ear and wrote an address on the back of the bakery receipt. “The car wash is hard to miss. It has a giant sign and a hose that sprays people when they aren’t paying attention.”\n\n“Is that intentional?”\n\n“Not always.”\n\n“How many lawsuits?”\n\n“That’s a tax question.”\n\nFor the rest of the morning, Greg gave me a tour of Beach City. He showed me the pier, the little convenience store where the owner kept a jar of free candy for children, and the park where someone had painted a mural of a smiling sun over a wall that had once been gray.\n\nAt the park, I stopped in front of the mural. The colors were bright and slightly uneven. The sun wore sunglasses. Beneath it, in looping letters, someone had written: KEEP GOING.\n\n“Did you paint this?” I asked.\n\n“No. But I know the person who did.”\n\n“Do you know everyone who has ever held a paintbrush in this town?”\n\n“Only the important ones.”\n\n“And who decides that?”\n\n“The donuts.”\n\nMy smile came easily now. It surprised I every time.\n\nGreg leaned against the fence, watching I. “You look different today.”\n\n“That’s ominous.”\n\n“No, I mean—less like you’re waiting for somebody to tell you to leave.”\n\nThe words pressed gently against a bruise I had not told him about. I looked toward the mural instead.\n\n“I’m still waiting,” I said.\n\n“For somebody to tell you to leave?”\n\n“For it to turn out that I’m not allowed to stay.”\n\nGreg was quiet for a moment. Then he lifted his guitar case and set it on the grass. He sat on the low curb, leaving space beside him.\n\n“I can’t promise the whole town,” he said. “I don’t have that kind of authority. I’m barely trusted with the hose.”\n\nI sat beside him.\n\n“But I can promise you a chair at the car wash tonight,” he continued. “And if you want, another cinnamon roll tomorrow. And if the studio turns out to be terrible, I’ll help you find something better.”\n\n“Why?”\n\nHe looked at me as though the answer were obvious. “Because you’re here.”\n\nIt was not a grand promise. It did not erase my past or guarantee a future. It was only a chair, a pastry, and a man willing to help me carry a suitcase over uneven boards.\n\nStill, when the sun began to lower, I found myself thinking that maybe a place to sit was how a person began to build a home.\n\nThat evening, I walked toward the car wash with Greg’s song waiting somewhere ahead.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-02",
+  "choice_count": 3
+}

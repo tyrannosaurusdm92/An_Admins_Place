@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Old Song",
+  "subtitle": "Stars Between the Strings · Chapter 15 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 15,
+  "word_count": 1500,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-15-direct",
+      "label": "Say the honest thing",
+      "target": "su-16",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-15-playful",
+      "label": "Let the moment be playful",
+      "target": "su-16",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-15-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-16",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The old song lived on a cassette tape.\n\nGreg found it in a box beneath the bed of the van while searching for a spare tire. He sat on the floor with the tape balanced between his fingers, his expression distant.\n\n“What is it?” I asked.\n\n“A song I wrote a long time ago.”\n\n“Is it good?”\n\n“It’s honest.”\n\n“That wasn’t the question.”\n\n“It can be both.”\n\nThe cassette case was scratched. A label on the front held two words in faded ink: FOR ROSE.\n\nI saw the name. Greg saw me see it.\n\n“Do you want to listen?” he asked.\n\nThe question was not casual. The tape belonged to a life before I, a piece of him that had survived because he had not been able to throw it away.\n\n“Do you?”\n\n“I don’t know.”\n\nI waited.\n\nGreg looked toward the open van doors. The ocean moved beyond the parking lot, white in the afternoon sun.\n\n“I wrote it when I thought love meant becoming unforgettable,” he said. “I wanted to write something so beautiful that nobody could ever leave me behind.”\n\n“Did it work?”\n\n“No.”\n\n“Was it beautiful?”\n\n“Maybe.”\n\nI gave him a look.\n\n“I know,” he said. “I’m trying not to hide behind the word.”\n\nHe put the cassette into an old player. The machine clicked, whirred, and began to play.\n\nGreg's younger voice filled the van.\n\nIt was rougher than the voice I knew. More urgent. The melody climbed and fell in bright, aching lines. The lyrics were about a woman made of light, a heart too large to hold, and the fear of being ordinary beside something miraculous.\n\nI listened without interrupting.\n\nThe song was beautiful.\n\nIt was also full of worship. Greg had turned Rose into a star so bright that there was no room for either of them to be human.\n\nWhen the tape ended, the player clicked into silence.\n\nGreg did not move.\n\n“It’s beautiful,” I said.\n\n“It’s a little embarrassing.”\n\n“It sounds like you loved her.”\n\n“I did.”\n\n“And like you were afraid she could only love you if you made yourself worth keeping.”\n\nHis mouth tightened.\n\n“That too.”\n\nThe honesty hung in the van.\n\n“Do you still want to be unforgettable?” I asked.\n\nGreg looked at me. “No.”\n\n“Why not?”\n\n“Because I don’t want you to stay because I made leaving impossible.”\n\nThe answer moved through I like a current.\n\nHe set the cassette aside. “I used to think love was a performance. If I sang the right song, made the right sacrifice, became the right version of myself, then love would choose me back.”\n\n“That sounds exhausting.”\n\n“It was.”\n\n“What changed?”\n\nGreg smiled faintly. “My son. Therapy. Getting older. Realizing that the people I loved were not prizes I could win by being useful.”\n\nI touched the cassette case. “Do you want to keep it?”\n\n“I think so.”\n\n“Then keep it.”\n\n“You’re not angry?”\n\n“Why would I be angry?”\n\n“Because it’s a love song for someone else.”\n\n“It’s a memory.”\n\n“You make that sound easy.”\n\n“It isn’t. But I don’t want to punish your past for existing.”\n\nGreg's eyes shone.\n\n“You’re allowed to have loved before me,” I said. “I don’t need to be the first person who mattered. I need to know I matter now.”\n\nHe reached for my hand and pressed it to his chest.\n\n“You do,” he said. “Not because you replaced anybody. Because you are the person I am choosing today.”\n\nHis heartbeat was steady beneath my palm.\n\n“Play it again,” I said.\n\nGreg blinked. “The tape?”\n\n“Yes.”\n\n“Why?”\n\n“I want to hear the song without pretending it makes me smaller.”\n\nHe watched me for a moment, then restarted the tape.\n\nThe old melody filled the van again. This time, Greg sang along softly, his voice older and warmer than the one on the recording. He changed a chord halfway through. The song shifted beneath his hands, becoming less like a monument and more like a road.\n\nWhen it ended, he picked up the guitar.\n\n“I want to write another version,” he said.\n\n“About Rose?”\n\n“About who I was when I wrote it. About who I am now.”\n\n“Will I be in it?”\n\n“Only if you want to be.”\n\n“You can put me in it.”\n\n“What should it say?”\n\nI looked through the open doors at the ocean.\n\n“Something about not needing to be a star to be worth staying for.”\n\nGreg's fingers found the first chord.\n\nThe new song began quietly. It did not reach for the sky. It stayed close to the ground, where two people could hear each other breathe.\n\nI listened while he wrote. Sometimes he asked for a word. Sometimes I suggested a line. He crossed out most of them. One stayed.\n\nYOU ARE NOT A PLACE I ESCAPED TO. YOU ARE THE PLACE I CHOSE.\n\n“That’s too much,” I said.\n\n“It’s honest.”\n\n“It’s very dramatic.”\n\n“I’m a songwriter.”\n\n“You’re a man in a van with an emotionally complicated cassette.”\n\n“Both can be true.”\n\nHe set the guitar aside and leaned toward I.\n\n“Can I kiss you?”\n\n“Yes.”\n\nThe kiss held the past without letting it stand between I. Greg's hand rested against my cheek. My fingers curled into the worn fabric of his shirt.\n\nWhen he pulled back, he rested his forehead against mine.\n\n“Thank you,” he said.\n\n“For what?”\n\n“For letting me be a person instead of a song.”\n\nI kissed his nose. “You’re still going to write songs.”\n\n“Absolutely.”\n\n“Then I’m going to make sure you eat.”\n\n“That is the most romantic threat anyone has ever made.”\n\nThe sun began to set beyond the parking lot. Greg placed the cassette back in its box, then stored it carefully beneath the bed.\n\nHe did not throw away the past.\n\nHe made room beside it.\n\nAnd when he took my hand, he did not ask me to compete with anything that came before.\n\nHe only asked me to stay for the next song.\n\nI stayed for the next song, and the one after that.\n\nGreg recorded the new version on his phone. The first take included a dog barking, the second included a truck reversing, and the third included Greg forgetting the words because I had kissed him between verses.\n\n“That one is the best,” I said.\n\n“It’s unusable.”\n\n“It sounds real.”\n\n“Real is not always marketable.”\n\n“You are not selling it.”\n\n“I might.”\n\n“To whom?”\n\n“The emotionally unstable public.”\n\n“They have enough music.”\n\n“Not about kisses interrupting important lyrics.”\n\nI took the phone from him and played the recording again. Greg's voice stumbled on the chorus, then laughed. My own laughter followed.\n\n“That’s the one,” I said.\n\n“You really like it.”\n\n“I like that you forgot the line.”\n\n“I was distracted.”\n\n“By me?”\n\n“Professionally.”\n\nThe teasing eased the heaviness, but the tape remained between I.\n\n“Do you ever wish you could go back?” I asked.\n\nGreg's expression turned thoughtful. “To the beginning?”\n\n“To before you knew how it ended.”\n\n“Sometimes. But I would lose what came after.”\n\n“Even the painful parts?”\n\n“Especially those. They taught me what I didn’t want to repeat.”\n\nHe set the guitar down and faced I.\n\n“I don’t want to love you by turning you into a perfect idea,” he said. “I want to know the annoying parts. The stubborn parts. The parts that change their mind and need different things on different days.”\n\n“That sounds like a lot of work.”\n\n“It is.”\n\n“You still want it?”\n\n“Yes.”\n\nI touched his cheek. “I’m afraid I’ll disappoint you.”\n\n“You will.”\n\nI pulled back.\n\nHe caught my hand. “So will I. Disappointment is not the same as abandonment.”\n\nThe distinction settled somewhere deep.\n\n“Say that again.”\n\n“Disappointment is not abandonment.”\n\n“Again.”\n\n“Disappointment is not abandonment.”\n\nI leaned against him. Greg wrapped both arms around I.\n\n“You can keep the tape,” I said.\n\n“I will.”\n\n“And you can write about Rose.”\n\n“I will.”\n\n“And you can write about me.”\n\n“Only if you keep approving the lyrics.”\n\n“I will reject any line that compares me to a celestial body.”\n\n“What if it’s a very ordinary celestial body?”\n\n“No.”\n\n“A small moon?”\n\n“Greg.”\n\n“Fine.”\n\nHe kissed me. The old song waited in its box. The new song waited in his phone. Both could exist without competing.\n\nWhen evening came, I walked to the beach with the guitar. Greg played the new version while I sat in the sand.\n\nThe melody was still unfinished, but the ending had changed. It no longer begged anyone to stay. It gave thanks for the people who did.\n\nI listened until the last chord faded.\n\n“That’s the one,” I said.\n\nGreg smiled. “You’re biased.”\n\n“I’m also a professional.”\n\n“At judging throats?”\n\n“At knowing what I love.”\n\nHe leaned over and kissed me beneath the first stars.\n\nThe kiss tasted like salt and the promise of another unfinished song.\n\nNeither of I hurried back to the road.\n\nThe ocean kept time. Greg's fingers found mine, and the unfinished melody waited patiently beside I.\n\nI listened.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-15",
+  "choice_count": 3
+}

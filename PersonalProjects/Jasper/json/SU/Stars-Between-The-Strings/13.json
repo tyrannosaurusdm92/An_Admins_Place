@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "A Little Jealousy",
+  "subtitle": "Stars Between the Strings · Chapter 13 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 13,
+  "word_count": 1502,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-13-direct",
+      "label": "Say the honest thing",
+      "target": "su-14",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-13-playful",
+      "label": "Let the moment be playful",
+      "target": "su-14",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-13-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-14",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The woman at the car wash called Greg handsome and touched his arm when she said it.\n\nI knew, intellectually, that this was not a crime. Greg was handsome. People were allowed to notice. The woman was probably not trying to create an emotional catastrophe between the vacuum stations.\n\nStill, my stomach tightened.\n\nShe had come to hear him play, dressed in a red jacket and expensive boots. She knew the lyrics to his songs. She laughed before the punch lines arrived. When Greg finished, she hugged him without asking, and he hugged her back.\n\nI stood behind the snack table with a paper cup in my hand.\n\n“That’s Lila,” Mara said beside I. “She and Greg used to play together.”\n\n“Used to?”\n\n“Before he became domesticated.”\n\nI nearly dropped the cup.\n\nMara glanced at I. “I didn’t mean—”\n\n“No, it’s fine.”\n\n“That phrase is doing a lot of work.”\n\nI looked toward Greg. Lila was telling a story. Greg was listening, head tipped toward her. They had the ease of people who shared memories I could not enter.\n\n“They dated,” Mara said.\n\nI turned. “What?”\n\n“For six months. A long time ago.”\n\n“Why are you telling me?”\n\n“Because you’re making the face.”\n\n“What face?”\n\n“The one where you pretend not to care while planning a dramatic exit.”\n\n“I am not planning an exit.”\n\n“You looked at the door three times.”\n\nI hated that she was right.\n\nLila left an hour later. Before she went, she kissed Greg's cheek and invited him to a music festival in another city. He said he would think about it.\n\nI heard the words from across the lot.\n\nThe rest of the evening, Greg tried to talk to I, but I answered with half-sentences. I helped pack the chairs. I counted the cash box. I made myself useful enough not to be questioned.\n\nAt the end, Greg found me near the back of the car wash.\n\n“You’re quiet,” he said.\n\n“I’m tired.”\n\n“Are you angry?”\n\n“No.”\n\n“That was fast.”\n\nI folded a chair. “You should go to the festival.”\n\nGreg's hands stopped. “Do you want me to?”\n\n“It sounds like you want to.”\n\n“I might.”\n\n“Then you should.”\n\n“You’re not answering me.”\n\n“I’m not sure what you’re asking.”\n\n“I’m asking whether you’re upset that Lila was here.”\n\n“Why would I be upset?”\n\n“Because you’ve been folding the same chair for five minutes.”\n\nI looked down. The chair was already closed.\n\n“She knows you,” I said.\n\n“Yes.”\n\n“She knows your songs. She knows how to make you laugh. She has a history with you.”\n\n“Yes.”\n\n“I don’t.”\n\nGreg crossed the space between I, but stopped an arm’s length away.\n\n“You know me now,” he said.\n\n“That’s not the same.”\n\n“No. It isn’t.”\n\nThe agreement made my anger lose its footing.\n\n“I don’t want to compete with your past,” I said.\n\n“You’re not.”\n\n“You told her you’d think about going.”\n\n“I might go.”\n\n“Then go.”\n\n“Would you want to come?”\n\nThe question struck a different nerve. “I don’t want to be the person you bring because I’m insecure.”\n\n“I’m not asking you to come because you’re insecure. I’m asking because I like being with you.”\n\n“You liked being with her too.”\n\n“I did.”\n\nI turned away. My eyes burned, which made the whole thing worse.\n\n“I’m not asking you to erase her,” I said. “I’m asking whether there’s room for me that isn’t just the empty space left by someone else.”\n\nGreg was silent for a long time.\n\n“There is room,” he said.\n\nI did not turn around.\n\n“I’m not with you because Lila left. I’m with you because you are you. I don’t compare your laugh to hers. I don’t look at you and see a replacement, or a second chance, or a person who is supposed to make my life less lonely.”\n\nHis voice moved closer.\n\n“I look at you and see the person who argues with furniture. The person who brings cinnamon rolls to a fight about chairs. The person who sings when they think nobody is listening.”\n\nMy face crumpled before I could stop it.\n\nGreg did not touch me. “Do you want me to come closer?”\n\nI nodded.\n\nHe stood behind I, not touching until I reached back and took his hand.\n\n“I’m sorry,” I whispered.\n\n“For what?”\n\n“For being jealous.”\n\n“Jealousy is information. It’s not a moral failure.”\n\n“It felt ugly.”\n\n“It felt scared.”\n\nI leaned against his chest. His arms came around I slowly.\n\n“I’m scared you’ll realize your life makes more sense with someone who already knows the songs,” I said.\n\n“My life didn’t make sense with Lila. It made music.”\n\n“That is a very songwriter answer.”\n\n“It’s also true.”\n\nHe kissed the top of my head.\n\n“There are parts of my past you can’t enter,” Greg continued. “There are parts of yours I can’t. That doesn’t mean we’re locked out of each other. It means we bring what we can and stop pretending love requires a complete history.”\n\nI turned in his arms. “Do you want to go to the festival?”\n\n“Yes.”\n\nThe answer was clear.\n\n“Do you want me to come?”\n\n“Yes.”\n\n“Not because I’m jealous?”\n\n“No. Because I want you beside me when I hear music. Because you make bad festival food more bearable. Because I like the way you complain about crowded parking lots.”\n\n“Those are all excellent reasons.”\n\n“I have more.”\n\n“Tell me one.”\n\nGreg touched my cheek. “Because you’re the person I want to look for in a crowd.”\n\nThe jealousy did not vanish. It changed shape, becoming something I could hold without letting it steer.\n\nI kissed him beneath the awning. His hands settled at my waist. When the kiss deepened, he paused.\n\n“Still okay?”\n\n“Yes.”\n\n“Do you want to go home?”\n\nI smiled. “Which one?”\n\nGreg's breath caught, and then he laughed.\n\n“That was dangerous,” he said.\n\n“I’m learning.”\n\nThe car wash lights flickered overhead. The chairs were stacked. The last customers had gone.\n\nGreg kissed me again, slower this time, and the rest of the night belonged to the two of I and the conversations I still needed to have.\n\nThe next morning, Greg made a point of asking what would help when jealousy returned.\n\n“You’re planning for it?” I asked.\n\n“I’m a songwriter. I plan for emotional weather.”\n\n“That sounds exhausting.”\n\n“It’s less exhausting than pretending weather does not exist.”\n\nI sat at the kitchen table. He placed two mugs between I, tea for I and coffee for him.\n\n“I don’t want you to stop having friends,” I said. “I don’t want you to stop playing music with people you used to know. I don’t want to be the reason your world gets smaller.”\n\n“Good.”\n\n“But I need to know where I stand.”\n\n“You stand beside me.”\n\n“That sounds nice. It’s not specific.”\n\nGreg nodded. “Lila is part of my musical history. I care about her. I’m not pursuing her. If we go to the festival, I’ll go with you because I want you there. If we’re affectionate in front of her, it won’t be a performance. It will be because I’m affectionate with you.”\n\nThe clarity eased something in my chest.\n\n“And if I’m insecure?”\n\n“You tell me without making me prove I love you every five minutes.”\n\n“That seems fair.”\n\n“If I’m defensive, you tell me without making me guess what I did wrong.”\n\n“Also fair.”\n\n“If either of us needs space, we say how long.”\n\n“And we come back.”\n\nGreg reached across the table. “We come back.”\n\nI held his hand.\n\nThe promise was not that nobody else would ever be attractive, interesting, or important. It was that the two of I would not turn every outside connection into a test of who deserved to stay.\n\nLater, I packed for the festival. Greg watched me choose a jacket.\n\n“That one,” he said.\n\n“Why?”\n\n“It makes your eyes look dangerous.”\n\n“My eyes always look dangerous.”\n\n“Exactly. I’m honored you point them at me.”\n\nI kissed him in the hallway. He held my waist, smiling against my mouth.\n\n“We are going to be unbearable,” I said.\n\n“We already are.”\n\n“Good.”\n\nThe festival was loud, crowded, and full of music. I still felt jealousy flicker when Lila took the stage. This time, I told Greg.\n\nHe squeezed my hand and stayed beside I.\n\nThe feeling passed without becoming a weapon.\n\nOn the drive home, Greg kept the radio low. My fingers remained linked over the center console.\n\n“Thank you for telling me,” he said.\n\n“I almost didn’t.”\n\n“I know.”\n\n“I wanted to be easy.”\n\n“You don’t have to be easy.”\n\nI looked at him. “You keep saying that.”\n\n“I’m going to keep saying it until I believe it about myself too.”\n\nI squeezed his hand. “Then we have work to do.”\n\n“I like work that ends with kissing.”\n\n“You’re predictable.”\n\n“Only in the best ways.”\n\nAt home, he put on the record I liked and pulled me into the kitchen. I danced badly on purpose until I was laughing again.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-13",
+  "choice_count": 3
+}

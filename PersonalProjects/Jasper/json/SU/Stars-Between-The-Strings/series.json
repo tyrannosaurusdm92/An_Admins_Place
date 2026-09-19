@@ -1,0 +1,392 @@
+{
+  "schema_version": "5.0",
+  "work_type": "fanfic_series",
+  "fandom": "Steven Universe",
+  "series_title": "Stars Between the Strings",
+  "series_slug": "stars-between-the-strings",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy",
+  "rating": "PG-13 / fade to black",
+  "description": "Music, Beach City, second chances, and Greg Universe learning that being wanted does not have to feel temporary.",
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "chapter_count": 40,
+  "private_continuation": {
+    "available": true,
+    "mode": "local_only",
+    "explicit_text": false
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "id": "su-01",
+      "file": "01.json",
+      "title": "The Song at the Boardwalk",
+      "word_count": 1699,
+      "choice_count": 3
+    },
+    {
+      "number": 2,
+      "id": "su-02",
+      "file": "02.json",
+      "title": "A Place to Sit",
+      "word_count": 1570,
+      "choice_count": 3
+    },
+    {
+      "number": 3,
+      "id": "su-03",
+      "file": "03.json",
+      "title": "Two Chords",
+      "word_count": 1610,
+      "choice_count": 3
+    },
+    {
+      "number": 4,
+      "id": "su-04",
+      "file": "04.json",
+      "title": "The Things You Do Not Say",
+      "word_count": 1593,
+      "choice_count": 3
+    },
+    {
+      "number": 5,
+      "id": "su-05",
+      "file": "05.json",
+      "title": "A House with Wheels",
+      "word_count": 1608,
+      "choice_count": 3
+    },
+    {
+      "number": 6,
+      "id": "su-06",
+      "file": "06.json",
+      "title": "Do Not Make Me Guess",
+      "word_count": 1612,
+      "choice_count": 3
+    },
+    {
+      "number": 7,
+      "id": "su-07",
+      "file": "07.json",
+      "title": "The Ocean Remembers",
+      "word_count": 1746,
+      "choice_count": 3
+    },
+    {
+      "number": 8,
+      "id": "su-08",
+      "file": "08.json",
+      "title": "Jam Session",
+      "word_count": 1782,
+      "choice_count": 3
+    },
+    {
+      "number": 9,
+      "id": "su-09",
+      "file": "09.json",
+      "title": "A Bad Day in G Major",
+      "word_count": 1657,
+      "choice_count": 3
+    },
+    {
+      "number": 10,
+      "id": "su-10",
+      "file": "10.json",
+      "title": "Under the Same Stars",
+      "word_count": 1620,
+      "choice_count": 3
+    },
+    {
+      "number": 11,
+      "id": "su-11",
+      "file": "11.json",
+      "title": "Morning After Moonlight",
+      "word_count": 1633,
+      "choice_count": 3
+    },
+    {
+      "number": 12,
+      "id": "su-12",
+      "file": "12.json",
+      "title": "The Shape of Home",
+      "word_count": 1508,
+      "choice_count": 3
+    },
+    {
+      "number": 13,
+      "id": "su-13",
+      "file": "13.json",
+      "title": "A Little Jealousy",
+      "word_count": 1502,
+      "choice_count": 3
+    },
+    {
+      "number": 14,
+      "id": "su-14",
+      "file": "14.json",
+      "title": "The Long Way Back",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 15,
+      "id": "su-15",
+      "file": "15.json",
+      "title": "The Old Song",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 16,
+      "id": "su-16",
+      "file": "16.json",
+      "title": "When the Van Breaks Down",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 17,
+      "id": "su-17",
+      "file": "17.json",
+      "title": "The Almost Goodbye",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 18,
+      "id": "su-18",
+      "file": "18.json",
+      "title": "No More Running",
+      "word_count": 1500,
+      "choice_count": 3
+    },
+    {
+      "number": 19,
+      "id": "su-19",
+      "file": "19.json",
+      "title": "The Door Left Open",
+      "word_count": 1501,
+      "choice_count": 3
+    },
+    {
+      "number": 20,
+      "id": "su-20",
+      "file": "20.json",
+      "title": "Everything I Need to Say",
+      "word_count": 1501,
+      "choice_count": 3
+    },
+    {
+      "number": 21,
+      "id": "su-21",
+      "file": "21.json",
+      "title": "The House We Do Not Name",
+      "word_count": 1589,
+      "choice_count": 3
+    },
+    {
+      "number": 22,
+      "id": "su-22",
+      "file": "22.json",
+      "title": "Soundcheck",
+      "word_count": 1575,
+      "choice_count": 3
+    },
+    {
+      "number": 23,
+      "id": "su-23",
+      "file": "23.json",
+      "title": "The Price of Being Seen",
+      "word_count": 1561,
+      "choice_count": 3
+    },
+    {
+      "number": 24,
+      "id": "su-24",
+      "file": "24.json",
+      "title": "A Little More Honest",
+      "word_count": 1542,
+      "choice_count": 3
+    },
+    {
+      "number": 25,
+      "id": "su-25",
+      "file": "25.json",
+      "title": "The Car Wash in Winter",
+      "word_count": 1554,
+      "choice_count": 3
+    },
+    {
+      "number": 26,
+      "id": "su-26",
+      "file": "26.json",
+      "title": "Second Verse",
+      "word_count": 1549,
+      "choice_count": 3
+    },
+    {
+      "number": 27,
+      "id": "su-27",
+      "file": "27.json",
+      "title": "The Shape of Sorry",
+      "word_count": 1570,
+      "choice_count": 3
+    },
+    {
+      "number": 28,
+      "id": "su-28",
+      "file": "28.json",
+      "title": "A Song for Nobody Else",
+      "word_count": 1556,
+      "choice_count": 3
+    },
+    {
+      "number": 29,
+      "id": "su-29",
+      "file": "29.json",
+      "title": "No Map for This",
+      "word_count": 1558,
+      "choice_count": 3
+    },
+    {
+      "number": 30,
+      "id": "su-30",
+      "file": "30.json",
+      "title": "The Brightest Room",
+      "word_count": 1551,
+      "choice_count": 3
+    },
+    {
+      "number": 31,
+      "id": "su-31",
+      "file": "31.json",
+      "title": "Bad Timing",
+      "word_count": 1538,
+      "choice_count": 3
+    },
+    {
+      "number": 32,
+      "id": "su-32",
+      "file": "32.json",
+      "title": "The Work of Staying",
+      "word_count": 1557,
+      "choice_count": 3
+    },
+    {
+      "number": 33,
+      "id": "su-33",
+      "file": "33.json",
+      "title": "A Door in the Wall",
+      "word_count": 1561,
+      "choice_count": 3
+    },
+    {
+      "number": 34,
+      "id": "su-34",
+      "file": "34.json",
+      "title": "Everyday Magic",
+      "word_count": 1547,
+      "choice_count": 3
+    },
+    {
+      "number": 35,
+      "id": "su-35",
+      "file": "35.json",
+      "title": "The Note in the Glovebox",
+      "word_count": 1548,
+      "choice_count": 3
+    },
+    {
+      "number": 36,
+      "id": "su-36",
+      "file": "36.json",
+      "title": "When We Choose Each Other",
+      "word_count": 1532,
+      "choice_count": 3
+    },
+    {
+      "number": 37,
+      "id": "su-37",
+      "file": "37.json",
+      "title": "The Quiet Encore",
+      "word_count": 1521,
+      "choice_count": 3
+    },
+    {
+      "number": 38,
+      "id": "su-38",
+      "file": "38.json",
+      "title": "A Future with Windows",
+      "word_count": 1547,
+      "choice_count": 3
+    },
+    {
+      "number": 39,
+      "id": "su-39",
+      "file": "39.json",
+      "title": "The Song We Keep",
+      "word_count": 1525,
+      "choice_count": 3
+    },
+    {
+      "number": 40,
+      "id": "su-40",
+      "file": "40.json",
+      "title": "Stars Between the Strings",
+      "word_count": 1521,
+      "choice_count": 3
+    }
+  ],
+  "total_word_count": 62644,
+  "key": "stars-between-the-strings",
+  "title": "Stars Between the Strings",
+  "folder": "SU",
+  "fandom_folder": "SU",
+  "story_folder": "Stars-Between-The-Strings",
+  "story_type": "cyoa_fanfiction",
+  "chapter_files": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json"
+  ],
+  "choice_count": 3
+}

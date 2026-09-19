@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "Do Not Make Me Guess",
+  "subtitle": "Stars Between the Strings · Chapter 6 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 6,
+  "word_count": 1612,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-06-direct",
+      "label": "Say the honest thing",
+      "target": "su-07",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-06-playful",
+      "label": "Let the moment be playful",
+      "target": "su-07",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-06-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-07",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "In the morning, Greg made coffee as though nothing in the world had changed.\n\nHe stood in my kitchenette wearing the same T-shirt from yesterday and a pair of borrowed sweatpants that were too short in the legs. His hair was sleep-tousled. One hand held a mug; the other tried to operate the ancient coffee maker without making eye contact with the machine.\n\n“It’s judging me,” he said.\n\nI was still in bed, wrapped in the blankets that had seemed perfectly ordinary before the night became something else. “It knows what you did.”\n\nGreg looked over his shoulder. “I made coffee.”\n\n“That’s not what I meant.”\n\n“Oh.” His ears turned pink. “Right.”\n\nThe night returned in fragments: the careful questions, my yes, the way Greg had kissed me as if there were nowhere else he needed to be. There had been laughter, warmth, and an afternoon that ended with the two of I tangled in blankets while the bakery below prepared for the next day.\n\nNothing about it had felt rushed. Nothing had felt taken.\n\nStill, morning had a way of making every decision look larger.\n\nGreg carried two mugs to the bed and sat on the edge, leaving enough room for I to decide whether to close it. I accepted mine. The coffee was sweet and slightly too strong.\n\n“I’m sorry,” he said.\n\nI blinked. “For the coffee?”\n\n“No.” He looked at the mug. “For not asking whether you wanted me to stay.”\n\nI held the coffee between both hands. “You didn’t have to ask.”\n\n“I know. But I should have.”\n\nThe admission was disarming. I had expected him to be cheerful, maybe embarrassed, perhaps distant. I had not expected him to offer an apology before I knew me needed one.\n\n“I wanted you to stay,” I said.\n\nGreg looked up.\n\n“I still want you here,” I continued. “I just don’t know what this is supposed to look like.”\n\n“Neither do I.”\n\n“You seem like somebody who would know.”\n\n“I look very confident from a distance.”\n\n“That’s because your hair has authority.”\n\nHe smiled, then sobered. “We can decide one piece at a time.”\n\n“What piece are we deciding now?”\n\n“Whether you want breakfast.”\n\nThe question made me laugh. Greg looked pleased, but he did not use the moment to avoid the larger conversation.\n\n“Yes,” I said. “I want breakfast.”\n\n“Great. I can make pancakes.”\n\n“Do you know how?”\n\n“I know several shapes.”\n\nHe got up. The room felt different when he moved away, emptier in a way that was not yet painful but could become so if I stared at it.\n\n“Greg.”\n\nHe turned.\n\n“Are you going to disappear?”\n\nThe question came out smaller than I intended.\n\nHe set the mug down. “No.”\n\n“You don’t know that.”\n\n“I know what I’m choosing.”\n\n“People choose things and then change their minds.”\n\n“They do.”\n\n“You might.”\n\n“I might.” He walked back to the bed and crouched so I was looking at each other. “If I change my mind, I’ll tell you. I won’t punish you with silence and call it kindness.”\n\nMy chest tightened.\n\n“And if you change yours,” he said, “you tell me. You don’t have to stay because we kissed. You don’t owe me a relationship because I bought a chair.”\n\n“The chair was very nice.”\n\n“It was.”\n\n“I might owe you a little.”\n\n“A cinnamon roll would settle the debt.”\n\nThe tension loosened enough for I to breathe.\n\nGreg stood again and began making pancakes. He hummed while he worked, the melody slipping in and out of tune. I watched his shoulders move beneath the shirt, the easy confidence of his hands, the way he checked the pan before adding batter.\n\n“You’re staring,” he said without turning.\n\n“You’re making breakfast in my kitchen.”\n\n“That’s not a defense.”\n\n“It’s my best one.”\n\n“I accept.”\n\nThe first pancake was too pale. The second was shaped vaguely like a crescent moon. The third landed halfway on the plate.\n\n“You said several shapes,” I reminded him.\n\n“I didn’t say they were edible shapes.”\n\nI ate all three.\n\nAfter breakfast, Greg washed the dishes. He did not put my things away without asking. When he picked up a mug, he paused and looked at me.\n\n“Cabinet or counter?”\n\n“Counter.”\n\n“Good to know.”\n\nThe tiny question touched me more than it should have. I had lived with people who moved through my space as if my preferences were clutter. Greg treated a mug like a negotiation.\n\nWhen he finished, he dried his hands on a towel and faced I.\n\n“There’s something I want to say.”\n\n“That sounds serious.”\n\n“It is, but not bad serious.”\n\nHe leaned against the counter. “I’m attracted to you. I like you. I like what happened yesterday, and I would like it to happen again. But I don’t want you to feel like you have to be easy for me. You can ask for space. You can say no. You can change the plan halfway through.”\n\n“You’re giving me a lot of instructions for someone who just burned a pancake.”\n\n“I contain contradictions.”\n\n“So do I.”\n\n“I know.”\n\nThe warmth returned to his eyes.\n\nI stepped closer. “What if I don’t know what I want until I’m already doing it?”\n\n“Then we check in while we’re doing it.”\n\n“What if I say yes and then panic?”\n\n“Then we stop and panic together, or separately, depending on what you want.”\n\n“What if I don’t say anything?”\n\n“Then I ask.”\n\nI was close enough now to smell coffee and clean soap. Greg did not reach for I.\n\n“What if I want you to kiss me?”\n\n“Then you can tell me.”\n\n“You could ask.”\n\nHis smile was gentle. “Do you want me to?”\n\n“Yes.”\n\n“Can I kiss you?”\n\n“Yes.”\n\nThe kiss was not like yesterday. It did not carry the nervous rush of a first crossing. It was slower, more knowing. Greg's hand settled at my waist only after I touched his shoulder. When I leaned back against the counter, he followed without pressing I there.\n\n“Still okay?” he whispered.\n\n“Yes.”\n\n“Tell me if that changes.”\n\n“I will.”\n\nHe kissed the corner of my mouth. Then my cheek. Then the place beneath my ear that made my breath catch.\n\n“Still okay?”\n\nI pulled him closer by the front of his shirt. “Ask me one more time and I’m going to start charging you for repetition.”\n\n“I can pay in muffins.”\n\n“Then continue.”\n\nThe morning unfolded in a softer rhythm. There were kisses and laughter, hands resting where they were welcome, and a moment when Greg's forehead pressed against mine while both of I tried to remember how breathing worked.\n\nThe rest belonged to the closed door and the language I was learning together.\n\nLater, I woke beneath the blankets with Greg asleep beside I. His arm lay across the mattress, not holding me, only near enough that I could reach it. Sunlight moved across the wall.\n\nI had expected regret. Instead, I felt the quiet shock of being safe after wanting something.\n\nGreg woke when I shifted. “Hey.”\n\n“Hey.”\n\n“Did I talk in my sleep?”\n\n“You apologized to the pancakes.”\n\n“They were under a lot of pressure.”\n\nI turned toward him. “What happens now?”\n\nHe looked at the ceiling. “We keep talking. We keep asking. We see if we like each other when we’re tired and annoying.”\n\n“You’re already annoying.”\n\n“Excellent. We’re ahead of schedule.”\n\nI smiled, but the question remained.\n\n“Do you want to call this dating?” I asked.\n\nGreg considered I. “Do you?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“You’re not going to make me guess?”\n\n“No.” He touched the back of my hand. “I want to date you. If you want to date me. If you don’t, I still want to be someone you can call. But I’m not going to pretend I only want friendship if that isn’t true.”\n\nHis directness made my heart beat harder.\n\n“I want to date you,” I said.\n\n“Okay.”\n\n“That’s all?”\n\n“I’m trying to remain calm.”\n\n“You’re failing.”\n\n“I’m doing my best.”\n\nHe kissed my hand. The gesture was almost old-fashioned, and yet it felt less like a performance than a promise to keep showing up.\n\nThat evening, I walked with him to the boardwalk. Greg carried the new chair. I carried the guitar case. The division of weight was not equal, but it was agreed upon. When I reached the sea wall, he set the chair down and waited for I to sit before taking the space beside I.\n\n“I’m going to write a song about this,” he said.\n\n“About the chair?”\n\n“About the way you keep making me ask.”\n\n“That sounds threatening.”\n\n“It’s affectionate.”\n\nThe sunset spread pink and orange across the water. Greg's shoulder rested against mine.\n\n“You know,” I said, “you can tell me what you want too.”\n\nHe looked at me.\n\n“You keep making space for me,” I continued. “But you’re allowed to take up some.”\n\nThe expression on his face was so tender that I nearly looked away.\n\n“I want to,” he said.\n\n“Then do.”\n\nGreg shifted closer. His hand found mine between the chairs.\n\n“I want to be here,” he said. “With you. I want to learn what your good days look like. I want to make breakfast badly and hear you complain about my furniture. I want to know whether you ever stop looking at exits.”\n\n“Do you want the honest answer?”\n\n“Always.”\n\n“No.”\n\n“Then I’ll sit where you can see the door.”\n\nI squeezed his hand.\n\nThe ocean did not promise anything. The future remained uncertain. But Greg was beside I, asking instead of assuming, making room instead of taking it.\n\nFor that evening, it was enough.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-06",
+  "choice_count": 3
+}

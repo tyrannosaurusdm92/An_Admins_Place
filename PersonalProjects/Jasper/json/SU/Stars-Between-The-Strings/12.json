@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "work_type": "fanfic_chapter",
+  "format": "choice_enriched_first_person_reader_insert",
+  "title": "The Shape of Home",
+  "subtitle": "Stars Between the Strings · Chapter 12 of 40",
+  "author": "William Saville",
+  "dedication": "Written for Jasper",
+  "date_written": "September 19, 2026",
+  "date_revised": null,
+  "fandom": "Steven Universe",
+  "pairing": "Greg Universe / Adult Reader",
+  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
+  "rating": "PG-13 / fade to black",
+  "content_notes": [
+    "All principal romantic characters and the reader-proxy are adults",
+    "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
+    "Intimate scenes fade to black",
+    "No explicit sexual content is supplied",
+    "A local-only private continuation editor is available from the choice menu"
+  ],
+  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "series_slug": "stars-between-the-strings",
+  "series_title": "Stars Between the Strings",
+  "chapter_number": 12,
+  "word_count": 1508,
+  "research_alignment": [
+    "Greg's music, warmth, humor, and respect for reader boundaries",
+    "Beach City and road-trip slice of life"
+  ],
+  "path_variants": {
+    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
+    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
+    "private": "I returned from my private continuation with the story still mine. Whatever I wrote there stayed local to my copy of the book."
+  },
+  "choices": [
+    {
+      "id": "su-12-direct",
+      "label": "Say the honest thing",
+      "target": "su-13",
+      "path_key": "direct",
+      "effect": {
+        "trust": 1,
+        "honesty": 1
+      },
+      "description": "Choose clarity, even when it makes the moment vulnerable.",
+      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+    },
+    {
+      "id": "su-12-playful",
+      "label": "Let the moment be playful",
+      "target": "su-13",
+      "path_key": "playful",
+      "effect": {
+        "warmth": 1,
+        "playfulness": 1
+      },
+      "description": "Choose humor and softness without pretending the feeling is not real.",
+      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+    },
+    {
+      "id": "su-12-private",
+      "label": "Write my own private continuation",
+      "target": "@private",
+      "return_to": "su-13",
+      "path_key": "private",
+      "effect": {
+        "privacy": 1
+      },
+      "description": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied.",
+      "generation_hint": "Open a local-only writing slot for Jasper's own continuation; no explicit text is supplied."
+    }
+  ],
+  "content": "The shape of home changed when I started leaving things in two places.\n\nAt first, it was accidental. A spare shirt ended up in Greg's van after a sudden rainstorm. Then my toothbrush appeared in the small bathroom cabinet because Greg had bought one and said it looked lonely in the package.\n\n“You can take it back,” he said when I noticed it.\n\n“It’s a toothbrush.”\n\n“A toothbrush with choices.”\n\n“You are projecting.”\n\n“I do that with household objects.”\n\nThe toothbrush stayed.\n\nMy scarf remained on the moon-shaped hook. My tea found a permanent place beside Greg's coffee. A stack of my books leaned against the record shelf, and one of my mugs occupied the corner of his kitchenette as though it had always belonged there.\n\nI told myself not to read too much into it.\n\nThen Mara offered me work at the community center.\n\nThe job was part-time, mostly organizing supplies, answering questions, and helping coordinate the evening music sessions. It was not a grand career. It paid enough to keep the bakery from swallowing my entire budget. More importantly, it gave my days a shape that belonged to I.\n\nWhen I told Greg, he lifted I off the ground.\n\n“Put me down,” I said, laughing.\n\n“I’m celebrating.”\n\n“You’re celebrating with my spine.”\n\nHe set I down immediately. “Sorry.”\n\n“You may celebrate with a kiss.”\n\n“That sounds like a reward.”\n\n“It is a mutually beneficial arrangement.”\n\nHe kissed me in the middle of the community center hallway while Mara watched from behind a stack of folding chairs.\n\n“Get a room,” she called.\n\nGreg pulled back. “We have several.”\n\n“That was not an invitation to discuss them.”\n\nI buried my face in Greg's shoulder.\n\nThe weeks that followed were gentle in the way a new routine could be gentle. I worked mornings at the center. Greg played afternoon sets at the car wash or helped Steven with errands. Evenings belonged to shared meals, bad television, and music that spilled through the apartment until the neighbors threatened to complain.\n\nI learned the small geography of his life. Which drawer held the good utensils. Which record made him dance while cooking. How he became quiet when he was worried about Steven. How he sang nonsense lyrics when he could not find the right words.\n\nGreg learned mine. He learned when I needed company and when company meant sitting in another room. He learned which jokes helped and which ones cut too close. He learned that I hated being surprised by touch from behind, and he never forgot.\n\nThe first time he remembered without being reminded, I cried in the grocery store.\n\nGreg stood beside the cart, holding a package of tea. “Did I do something?”\n\n“No.”\n\n“That’s usually not the answer people give while crying near the cereal.”\n\nI wiped my face. “You remembered.”\n\nHe understood. “Oh.”\n\n“You remembered.”\n\n“Of course I did.”\n\nThe words were not dismissive. They were baffled. As if remembering the shape of my comfort was the easiest thing in the world.\n\nI leaned against him. He placed one hand on my shoulder, giving I time to move away.\n\n“I’m going to buy the tea,” I whispered.\n\n“I support this.”\n\n“Then I’m going to buy the expensive cereal.”\n\n“I support this less.”\n\n“You can make up the difference with music.”\n\n“I accept.”\n\nWhen I returned to the apartment, Greg had rearranged the living room. The record shelf stood against the wall. The old chair was gone. In its place was a small couch with enough room for two people and a lamp that cast warm light instead of making the ceiling look haunted.\n\nI stopped in the doorway.\n\n“What is this?”\n\n“A couch.”\n\n“I can see that.”\n\n“I was told I needed to be more precise.”\n\nI walked into the room. The couch was deep and soft. One end held a folded blanket. The other held a pillow in the color I liked.\n\n“You bought a couch.”\n\n“It was on sale.”\n\n“Greg.”\n\n“Mara said the old chair was becoming a safety concern.”\n\n“So you bought a couch.”\n\n“A chair is just a couch with fewer opportunities.”\n\nI touched the armrest. “How much did it cost?”\n\n“Less than the emotional value of the record shelf.”\n\n“That is not an answer.”\n\n“I used money I saved from a gig.”\n\nMy throat tightened. “You didn’t have to do that.”\n\n“I wanted a place where you could sit without judging the furniture.”\n\n“I’m still going to judge it.”\n\n“I know.”\n\nI turned toward him. “Are you trying to make me move in?”\n\nThe question changed the air.\n\nGreg's smile faded. “No.”\n\n“You have my toothbrush. My books. My scarf. Now a couch.”\n\n“I bought a couch because I wanted a couch.”\n\n“For us?”\n\n“For the room.”\n\n“That’s not what I asked.”\n\nGreg stepped closer, then stopped. “I want a life with you. I don’t want to lure you into one with furniture.”\n\nMy chest hurt.\n\n“I’m not saying no,” I said.\n\n“I know.”\n\n“I’m saying I need to know that this is a choice.”\n\n“It is.”\n\n“For both of us.”\n\n“Yes.”\n\nThe room was quiet except for the refrigerator. Greg looked nervous now, not charming, not amused. The sincerity made him seem younger and older at once.\n\n“I don’t want to replace your life,” he said. “I don’t want to be the reason you stop having your own place, your own work, your own friends. I want to be the person you come home to because you have chosen me, not because you have nowhere else to go.”\n\nI had no defense against that.\n\n“I want to choose you,” I said.\n\nHe swallowed. “Then we’ll keep making choices.”\n\nI crossed the space between I. “Can I sit on the couch?”\n\n“Please.”\n\nI sat. The cushions gave beneath I. Greg sat beside I, close enough that my thighs touched.\n\n“It’s nice,” I said.\n\n“I’m relieved.”\n\n“It could use a blanket.”\n\nHe pulled the folded one over both my laps.\n\n“Better.”\n\n“I am a man of solutions.”\n\n“You’re a man of blankets.”\n\n“That’s more accurate.”\n\nI leaned into him. Greg wrapped one arm around my shoulders. His mouth brushed my hair.\n\n“Do you want to stay tonight?” he asked.\n\n“I live upstairs.”\n\n“I know.”\n\n“Do you want me to?”\n\n“Yes.”\n\n“Then yes.”\n\nHe kissed me slowly. The couch held me both. The lamp glowed. The new room did not feel like a trap.\n\nIt felt like space being made.\n\nLater, when I woke from a nap with Greg's arm around I, my phone rested on the table beside his. Two lives, still separate, touching at the edges.\n\nI had not moved in.\n\nBut I had stayed.\n\nThat evening, I returned to my own studio and opened every cabinet. The room looked different because I did. The mug on the counter was mine. The scarf in the van was mine. The photograph on Greg's shelf was mine. None of those things required I to surrender the rest of myself.\n\nI called Greg while I folded laundry.\n\n“Are you calling to complain about the couch?” he asked.\n\n“I’m calling to inform you that it has survived another day.”\n\n“A brave piece of furniture.”\n\n“It has also acquired a blanket.”\n\n“Did you leave it there?”\n\n“Maybe.”\n\nHe laughed. “You’re doing it again.”\n\n“I’m allowed to have range.”\n\nI folded a shirt and placed it in the drawer. “I’m scared of how easy it is to be with you.”\n\nGreg's voice softened. “Why?”\n\n“Because easy things have never stayed easy.”\n\n“Then we’ll pay attention when they change.”\n\n“You make it sound like maintenance.”\n\n“Love is maintenance. Also music and pastries and occasional dramatic staring.”\n\n“You’re very committed to the pastries.”\n\n“They have never abandoned me.”\n\n“You have been abandoned by a pastry.”\n\n“Once. It was a danish.”\n\nI smiled and sat on the edge of my bed.\n\n“Do you want to come over?” he asked.\n\n“I thought you wanted me to choose.”\n\n“I’m asking, not deciding.”\n\nI looked around my own room. “I’ll come after I finish this.”\n\n“I’ll leave the door open.”\n\n“You have a lock now.”\n\n“I can leave it unlocked.”\n\n“That is not the same thing.”\n\n“I know.”\n\nI finished folding the laundry. Then I walked downstairs, crossed the street, and entered Greg's apartment with my own key.\n\nThe couch was waiting. So was he.\n\nThe ease between I was not proof that nothing would change.\n\nIt was proof that I had learned how to speak when it did.\n\nI stayed until midnight, then walked back upstairs with my own key in my hand and Greg's laughter following I through the stairwell. The studio was still small. The bakery still woke I before dawn. Nothing about the lease had changed.\n\nBut I placed the photograph on my own shelf beside the empty space where the tea belonged, and the room answered with a quiet sense of recognition.\n\nHome, I was learning, did not have to be a single address. It could be a pattern of places where my body stopped preparing to leave.",
+  "fandom_folder": "SU",
+  "series_folder": "Stars-Between-The-Strings",
+  "series_path": "SU/Stars-Between-The-Strings",
+  "id": "su-12",
+  "choice_count": 3
+}
