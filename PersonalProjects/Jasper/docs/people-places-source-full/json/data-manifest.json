@@ -1,0 +1,84 @@
+{
+  "schema": "people-places-data-manifest-v2",
+  "scope": "Text-first people and locations only. Physical traits are descriptive person data; visual-generation recipe data is excluded.",
+  "core": [
+    {
+      "id": "core-catalogs",
+      "path": "json/core-catalogs.json",
+      "eager": true
+    },
+    {
+      "id": "name-context-policy",
+      "path": "json/name-context-policy.json",
+      "eager": false
+    },
+    {
+      "id": "name-structure-policy",
+      "path": "json/name-structure-policy.json",
+      "eager": false
+    },
+    {
+      "id": "name-pairing-research",
+      "path": "json/name-pairing-research.json",
+      "eager": false
+    }
+  ],
+  "banks": [
+    {
+      "id": "name-us-statistics",
+      "path": "json/name-us-statistics.json",
+      "eager": false,
+      "purpose": "Realistic-name frequency and era evidence.",
+      "bytes": 19450254
+    },
+    {
+      "id": "name-locales",
+      "path": "json/name-locales.json",
+      "eager": false,
+      "purpose": "Locale/language-aware realistic naming pools.",
+      "bytes": 1676167
+    },
+    {
+      "id": "name-preserved-sources",
+      "path": "json/name-preserved-sources.json",
+      "eager": false,
+      "purpose": "Preserved public-source name data used by the realistic naming system.",
+      "bytes": 3198943
+    },
+    {
+      "id": "sentient-types",
+      "path": "json/sentient-types.json",
+      "eager": false,
+      "purpose": "Fantasy and science-fiction sapient person types.",
+      "bytes": 80698
+    },
+    {
+      "id": "speculative-place-types",
+      "path": "json/speculative-place-types.json",
+      "eager": false,
+      "purpose": "Fantasy and science-fiction location categories.",
+      "bytes": 50905
+    },
+    {
+      "id": "speculative-name-profiles",
+      "path": "json/speculative-name-profiles.json",
+      "eager": false,
+      "purpose": "Original fictional phonotactic profiles for speculative person names.",
+      "bytes": 34569
+    },
+    {
+      "id": "speculative-place-words",
+      "path": "json/speculative-place-words.json",
+      "eager": false,
+      "purpose": "Original word components for speculative place names.",
+      "bytes": 6947
+    },
+    {
+      "id": "speculative-family-name-words",
+      "path": "json/speculative-family-name-words.json",
+      "eager": false,
+      "purpose": "Original fictional family-name components.",
+      "bytes": 655
+    }
+  ]
+}

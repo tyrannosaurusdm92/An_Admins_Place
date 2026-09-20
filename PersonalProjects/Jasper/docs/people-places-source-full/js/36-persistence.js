@@ -1,0 +1,7 @@
+(function(g){"use strict";const P=g.PeoplePlaces;
+const DB='people-places-generator',STORE='worlds';function open(){return new Promise((resolve,reject)=>{const req=indexedDB.open(DB,1);req.onupgradeneeded=()=>{const db=req.result;if(!db.objectStoreNames.contains(STORE))db.createObjectStore(STORE,{keyPath:'id'})};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
+async function save(world){const db=await open();world.updatedAt=new Date().toISOString();await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).put(world);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)});return world.id}
+async function load(id){const db=await open();return new Promise((resolve,reject)=>{const q=db.transaction(STORE).objectStore(STORE).get(id);q.onsuccess=()=>resolve(q.result||null);q.onerror=()=>reject(q.error)})}
+async function list(){const db=await open();return new Promise((resolve,reject)=>{const q=db.transaction(STORE).objectStore(STORE).getAll();q.onsuccess=()=>resolve(q.result||[]);q.onerror=()=>reject(q.error)})}
+async function remove(id){const db=await open();return new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).delete(id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)})}
+P.register('Persistence',{save,load,list,remove});})(window);

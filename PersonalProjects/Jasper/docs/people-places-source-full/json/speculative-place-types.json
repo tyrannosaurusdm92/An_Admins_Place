@@ -1,0 +1,2282 @@
+{
+  "genres": [
+    {
+      "id": "fantasy",
+      "name": "Fantasy"
+    },
+    {
+      "id": "scifi",
+      "name": "Science Fiction"
+    }
+  ],
+  "locations": [
+    {
+      "id": "forest",
+      "name": "Forest",
+      "category": "Woodlands",
+      "generics": [
+        "Forest",
+        "Woods",
+        "Woodland"
+      ],
+      "texture": "woodlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "grove",
+      "name": "Grove",
+      "category": "Woodlands",
+      "generics": [
+        "Grove",
+        "Copse",
+        "Glade"
+      ],
+      "texture": "woodlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle",
+      "category": "Woodlands",
+      "generics": [
+        "Jungle",
+        "Rainforest",
+        "Wildwood"
+      ],
+      "texture": "woodlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "thicket",
+      "name": "Thicket",
+      "category": "Woodlands",
+      "generics": [
+        "Thicket",
+        "Bramble",
+        "Brush"
+      ],
+      "texture": "woodlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "swamp",
+      "name": "Swamp",
+      "category": "Wetlands",
+      "generics": [
+        "Swamp",
+        "Marsh",
+        "Mire"
+      ],
+      "texture": "wetlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "bog",
+      "name": "Bog",
+      "category": "Wetlands",
+      "generics": [
+        "Bog",
+        "Fen",
+        "Moor"
+      ],
+      "texture": "wetlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "mangrove",
+      "name": "Mangrove",
+      "category": "Wetlands",
+      "generics": [
+        "Mangrove",
+        "Tidal Marsh",
+        "Reedland"
+      ],
+      "texture": "wetlands",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "grassland",
+      "name": "Grassland",
+      "category": "Plains & Wilds",
+      "generics": [
+        "Grassland",
+        "Prairie",
+        "Steppe"
+      ],
+      "texture": "plains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "heath",
+      "name": "Heath",
+      "category": "Plains & Wilds",
+      "generics": [
+        "Heath",
+        "Moor",
+        "Open Wilds"
+      ],
+      "texture": "plains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "tundra",
+      "name": "Tundra",
+      "category": "Plains & Wilds",
+      "generics": [
+        "Tundra",
+        "Cold Plain",
+        "Frostfield"
+      ],
+      "texture": "frozen",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "desert",
+      "name": "Desert",
+      "category": "Arid Lands",
+      "generics": [
+        "Desert",
+        "Waste",
+        "Duneland"
+      ],
+      "texture": "arid",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "badlands",
+      "name": "Badlands",
+      "category": "Arid Lands",
+      "generics": [
+        "Badlands",
+        "Wastes",
+        "Barrens"
+      ],
+      "texture": "arid",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "oasis",
+      "name": "Oasis",
+      "category": "Arid Lands",
+      "generics": [
+        "Oasis",
+        "Spring",
+        "Watering Hollow"
+      ],
+      "texture": "arid",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Mountain",
+        "Mount",
+        "Massif"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "peak",
+      "name": "Peak",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Peak",
+        "Crown",
+        "Summit"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "pass",
+      "name": "Pass",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Pass",
+        "Gap",
+        "Notch"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "valley",
+      "name": "Valley",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Valley",
+        "Vale",
+        "Hollow"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "canyon",
+      "name": "Canyon",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Canyon",
+        "Gorge",
+        "Ravine"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "cliff",
+      "name": "Cliff",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Cliff",
+        "Escarpment",
+        "Crag"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "plateau",
+      "name": "Plateau",
+      "category": "Mountains & Stone",
+      "generics": [
+        "Plateau",
+        "Tableland",
+        "Highland"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "volcano",
+      "name": "Volcano",
+      "category": "Volcanic",
+      "generics": [
+        "Volcano",
+        "Firepeak",
+        "Caldera"
+      ],
+      "texture": "volcanic",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "lava-field",
+      "name": "Lava Field",
+      "category": "Volcanic",
+      "generics": [
+        "Lava Field",
+        "Cinderfield",
+        "Basalt Waste"
+      ],
+      "texture": "volcanic",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "glacier",
+      "name": "Glacier",
+      "category": "Frozen Lands",
+      "generics": [
+        "Glacier",
+        "Icefield",
+        "Frozen Shelf"
+      ],
+      "texture": "frozen",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "fjord",
+      "name": "Fjord",
+      "category": "Frozen Lands",
+      "generics": [
+        "Fjord",
+        "Ice Inlet",
+        "Glacial Sound"
+      ],
+      "texture": "frozen",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "snowfield",
+      "name": "Snowfield",
+      "category": "Frozen Lands",
+      "generics": [
+        "Snowfield",
+        "White Expanse",
+        "Frostplain"
+      ],
+      "texture": "frozen",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "river",
+      "name": "River",
+      "category": "Rivers & Lakes",
+      "generics": [
+        "River",
+        "Watercourse",
+        "Flow"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "stream",
+      "name": "Stream",
+      "category": "Rivers & Lakes",
+      "generics": [
+        "Stream",
+        "Brook",
+        "Creek"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "waterfall",
+      "name": "Waterfall",
+      "category": "Rivers & Lakes",
+      "generics": [
+        "Falls",
+        "Cascade",
+        "Waterfall"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "lake",
+      "name": "Lake",
+      "category": "Rivers & Lakes",
+      "generics": [
+        "Lake",
+        "Mere",
+        "Loch"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "spring",
+      "name": "Spring",
+      "category": "Rivers & Lakes",
+      "generics": [
+        "Spring",
+        "Well",
+        "Source"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "coast",
+      "name": "Coast",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Coast",
+        "Shore",
+        "Seaboard"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "beach",
+      "name": "Beach",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Beach",
+        "Strand",
+        "Shingle"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "bay",
+      "name": "Bay",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Bay",
+        "Bight",
+        "Cove"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "reef",
+      "name": "Reef",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Reef",
+        "Shoal",
+        "Coral Shelf"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "strait",
+      "name": "Strait",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Strait",
+        "Narrows",
+        "Channel"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "island",
+      "name": "Island",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Island",
+        "Isle",
+        "Atoll"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "archipelago",
+      "name": "Archipelago",
+      "category": "Coasts & Seas",
+      "generics": [
+        "Archipelago",
+        "Island Chain",
+        "Scatter Isles"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "cave",
+      "name": "Cave",
+      "category": "Underground",
+      "generics": [
+        "Cave",
+        "Den",
+        "Grotto"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "cavern",
+      "name": "Cavern",
+      "category": "Underground",
+      "generics": [
+        "Cavern",
+        "Deep Hall",
+        "Hollow"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "chasm",
+      "name": "Chasm",
+      "category": "Underground",
+      "generics": [
+        "Chasm",
+        "Abyss",
+        "Rift"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "sinkhole",
+      "name": "Sinkhole",
+      "category": "Underground",
+      "generics": [
+        "Sinkhole",
+        "Doline",
+        "Pit"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "crystal-cave",
+      "name": "Crystal Cave",
+      "category": "Underground",
+      "generics": [
+        "Crystal Cave",
+        "Crystal Grotto",
+        "Gem Cavern"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "lava-tube",
+      "name": "Lava Tube",
+      "category": "Underground",
+      "generics": [
+        "Lava Tube",
+        "Basalt Tunnel",
+        "Fire Tunnel"
+      ],
+      "texture": "volcanic",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "ruin",
+      "name": "Ruin",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Ruins",
+        "Remains",
+        "Fallen Halls"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "abandoned-tower",
+      "name": "Abandoned Tower",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Tower Ruin",
+        "Broken Tower",
+        "Fallen Spire"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "forgotten-temple",
+      "name": "Forgotten Temple",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Temple Ruin",
+        "Forgotten Temple",
+        "Old Sanctuary"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "shrine",
+      "name": "Shrine",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Shrine",
+        "Wayside Shrine",
+        "Old Altar"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "standing-stones",
+      "name": "Standing Stones",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Standing Stones",
+        "Stone Circle",
+        "Menhirs"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "mausoleum",
+      "name": "Mausoleum",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Mausoleum",
+        "Tomb",
+        "Sepulcher"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "graveyard",
+      "name": "Graveyard",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Graveyard",
+        "Burial Ground",
+        "Necropolis"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "battlefield",
+      "name": "Battlefield",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Battlefield",
+        "Old Field",
+        "Field of Echoes"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "ancient-bridge",
+      "name": "Ancient Bridge",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Ancient Bridge",
+        "Broken Bridge",
+        "Old Crossing"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "labyrinth",
+      "name": "Labyrinth",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Labyrinth",
+        "Maze",
+        "Winding Halls"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "dungeon",
+      "name": "Dungeon",
+      "category": "Ruins & Ancient Sites",
+      "generics": [
+        "Dungeon",
+        "Delve",
+        "Underhalls"
+      ],
+      "texture": "underground",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "enchanted-glade",
+      "name": "Enchanted Glade",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Enchanted Glade",
+        "Moon Glade",
+        "Hidden Glade"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "faerie-ring",
+      "name": "Faerie Ring",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Faerie Ring",
+        "Mushroom Ring",
+        "Dancing Ring"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "portal",
+      "name": "Portal",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Portal",
+        "Gate",
+        "Threshold"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "elemental-rift",
+      "name": "Elemental Rift",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Elemental Rift",
+        "Primal Rift",
+        "Elemental Scar"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "floating-island",
+      "name": "Floating Island",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Floating Island",
+        "Sky Isle",
+        "Cloud Rock"
+      ],
+      "texture": "sky",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "dreamscape",
+      "name": "Dreamscape",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Dreamscape",
+        "Dreaming Vale",
+        "Oneiric Expanse"
+      ],
+      "texture": "sky",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "shadow-realm",
+      "name": "Shadow Realm",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Shadow Realm",
+        "Gloam",
+        "Umbral Expanse"
+      ],
+      "texture": "shadow",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "moon-pool",
+      "name": "Moon Pool",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Moon Pool",
+        "Silver Pool",
+        "Night Spring"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "crystal-field",
+      "name": "Crystal Field",
+      "category": "Magical & Otherworldly",
+      "generics": [
+        "Crystal Field",
+        "Prism Field",
+        "Glass Expanse"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "none"
+    },
+    {
+      "id": "tavern",
+      "name": "Tavern",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Tavern",
+        "Alehouse",
+        "Public House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "tavern"
+    },
+    {
+      "id": "inn",
+      "name": "Inn",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Inn",
+        "Guesthouse",
+        "Wayhouse"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "inn"
+    },
+    {
+      "id": "apartment",
+      "name": "Apartment",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Apartment",
+        "Flat",
+        "Residence"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "apartment"
+    },
+    {
+      "id": "boarding-house",
+      "name": "Boarding House",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Boarding House",
+        "Lodging House",
+        "Guest House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "inn"
+    },
+    {
+      "id": "manor",
+      "name": "Manor",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Manor",
+        "House",
+        "Estate House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "manor"
+    },
+    {
+      "id": "castle",
+      "name": "Castle",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Castle",
+        "Keep",
+        "Citadel"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "castle"
+    },
+    {
+      "id": "watchtower",
+      "name": "Watchtower",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Watchtower",
+        "Tower",
+        "Lookout"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "tower"
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Library",
+        "Archive",
+        "Scriptorium"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "library"
+    },
+    {
+      "id": "apothecary",
+      "name": "Apothecary",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Apothecary",
+        "Herbal Shop",
+        "Remedy House"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "shop"
+    },
+    {
+      "id": "smithy",
+      "name": "Smithy",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Smithy",
+        "Forge",
+        "Workshop"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "shop"
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Bakery",
+        "Bakehouse",
+        "Oven House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "shop"
+    },
+    {
+      "id": "teahouse",
+      "name": "Tea House",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Tea House",
+        "Tea Room",
+        "Refreshment House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "tavern"
+    },
+    {
+      "id": "bathhouse",
+      "name": "Bathhouse",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Bathhouse",
+        "Baths",
+        "Steam House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "bathhouse"
+    },
+    {
+      "id": "theater",
+      "name": "Theater",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Theater",
+        "Playhouse",
+        "Performance Hall"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "hall"
+    },
+    {
+      "id": "music-hall",
+      "name": "Music Hall",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Music Hall",
+        "Concert Hall",
+        "Song House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "hall"
+    },
+    {
+      "id": "academy",
+      "name": "Academy",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Academy",
+        "Schoolhouse",
+        "College Hall"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "academy"
+    },
+    {
+      "id": "healer-house",
+      "name": "Healer House",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Healer House",
+        "Infirmary",
+        "Clinic"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "clinic"
+    },
+    {
+      "id": "alchemist-lab",
+      "name": "Alchemist Laboratory",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Laboratory",
+        "Alchemical Lab",
+        "Experiment Room"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "lab"
+    },
+    {
+      "id": "observatory-fantasy",
+      "name": "Observatory",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Observatory",
+        "Star Tower",
+        "Skywatch"
+      ],
+      "texture": "sky",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "tower"
+    },
+    {
+      "id": "temple-building",
+      "name": "Temple",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Temple",
+        "Sanctuary",
+        "Sacred Hall"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "hall"
+    },
+    {
+      "id": "monastery",
+      "name": "Monastery",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Monastery",
+        "Cloister",
+        "Abbey House"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "hall"
+    },
+    {
+      "id": "warehouse",
+      "name": "Warehouse",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Warehouse",
+        "Storehouse",
+        "Depot"
+      ],
+      "texture": "ruins",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "warehouse"
+    },
+    {
+      "id": "stable",
+      "name": "Stable",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Stable",
+        "Livery",
+        "Horse House"
+      ],
+      "texture": "plains",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "stable"
+    },
+    {
+      "id": "dockhouse",
+      "name": "Dockhouse",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Dockhouse",
+        "Boathouse",
+        "Harbor House"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy-building",
+      "assignment": "dock"
+    },
+    {
+      "id": "fantasy-ship",
+      "name": "Sailing Ship",
+      "category": "Travel Locations",
+      "generics": [
+        "Ship",
+        "Sailing Vessel",
+        "Sea Vessel"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy-vessel",
+      "assignment": "ship"
+    },
+    {
+      "id": "riverboat",
+      "name": "Riverboat",
+      "category": "Travel Locations",
+      "generics": [
+        "Riverboat",
+        "Barge",
+        "River Vessel"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy-vessel",
+      "assignment": "ship"
+    },
+    {
+      "id": "airship",
+      "name": "Fantasy Airship",
+      "category": "Travel Locations",
+      "generics": [
+        "Airship",
+        "Skyship",
+        "Flying Vessel"
+      ],
+      "texture": "sky",
+      "genre": "fantasy",
+      "scheme": "fantasy-vessel",
+      "assignment": "airship"
+    },
+    {
+      "id": "caravan-wagon",
+      "name": "Caravan Wagon",
+      "category": "Travel Locations",
+      "generics": [
+        "Caravan Wagon",
+        "Travel Wagon",
+        "Coach"
+      ],
+      "texture": "plains",
+      "genre": "fantasy",
+      "scheme": "fantasy-vessel",
+      "assignment": "wagon"
+    },
+    {
+      "id": "exploration-starship",
+      "name": "Exploration Starship",
+      "category": "Spacecraft",
+      "generics": [
+        "Exploration Vessel",
+        "Survey Ship",
+        "Starship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "research-vessel",
+      "name": "Research Vessel",
+      "category": "Spacecraft",
+      "generics": [
+        "Research Vessel",
+        "Science Ship",
+        "Laboratory Ship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "freighter",
+      "name": "Freighter",
+      "category": "Spacecraft",
+      "generics": [
+        "Freighter",
+        "Cargo Vessel",
+        "Hauler"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "passenger-liner",
+      "name": "Passenger Liner",
+      "category": "Spacecraft",
+      "generics": [
+        "Passenger Liner",
+        "Starliner",
+        "Transit Vessel"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "courier-ship",
+      "name": "Courier Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Courier",
+        "Packet Ship",
+        "Dispatch Vessel"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "salvage-vessel",
+      "name": "Salvage Vessel",
+      "category": "Spacecraft",
+      "generics": [
+        "Salvage Vessel",
+        "Recovery Ship",
+        "Wrecker"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "hospital-ship",
+      "name": "Hospital Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Hospital Ship",
+        "Medical Vessel",
+        "Care Ship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "colony-ship",
+      "name": "Colony Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Colony Ship",
+        "Ark Ship",
+        "Habitat Transport"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "generation-ship",
+      "name": "Generation Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Generation Ship",
+        "Long-Voyage Ark",
+        "Habitat Ship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "diplomatic-vessel",
+      "name": "Diplomatic Vessel",
+      "category": "Spacecraft",
+      "generics": [
+        "Diplomatic Vessel",
+        "Embassy Ship",
+        "Courier Diplomat"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "survey-cutter",
+      "name": "Survey Cutter",
+      "category": "Spacecraft",
+      "generics": [
+        "Survey Cutter",
+        "Scout Vessel",
+        "Reconnaissance Ship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "mining-ship",
+      "name": "Mining Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Mining Ship",
+        "Ore Vessel",
+        "Extractor Ship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "tug",
+      "name": "Space Tug",
+      "category": "Spacecraft",
+      "generics": [
+        "Space Tug",
+        "Orbital Tug",
+        "Tow Vessel"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "shuttle",
+      "name": "Shuttle",
+      "category": "Spacecraft",
+      "generics": [
+        "Shuttle",
+        "Transfer Craft",
+        "Orbital Shuttle"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "megastructure-ship",
+      "name": "Megastructure Ship",
+      "category": "Spacecraft",
+      "generics": [
+        "Megaship",
+        "Mobile Habitat",
+        "Worldship"
+      ],
+      "texture": "starship",
+      "genre": "scifi",
+      "scheme": "vessel",
+      "assignment": "starship"
+    },
+    {
+      "id": "orbital-station",
+      "name": "Orbital Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Orbital Station",
+        "Space Station",
+        "Orbital Platform"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "deep-space-station",
+      "name": "Deep-Space Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Deep-Space Station",
+        "Remote Station",
+        "Relay Station"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "ring-habitat",
+      "name": "Ring Habitat",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Ring Habitat",
+        "Orbital Ring Habitat",
+        "Habitat Ring"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "cylinder-habitat",
+      "name": "Cylinder Habitat",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Cylinder Habitat",
+        "Rotating Habitat",
+        "Orbital Cylinder"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "asteroid-habitat",
+      "name": "Asteroid Habitat",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Asteroid Habitat",
+        "Rock Habitat",
+        "Excavated Habitat"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "research-station",
+      "name": "Research Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Research Station",
+        "Science Station",
+        "Research Platform"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "medical-station",
+      "name": "Medical Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Medical Station",
+        "Care Station",
+        "Hospital Station"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "observatory-station",
+      "name": "Observatory Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Observatory Station",
+        "Telescope Platform",
+        "Astronomy Station"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "mining-platform",
+      "name": "Mining Platform",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Mining Platform",
+        "Extraction Station",
+        "Ore Platform"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "refueling-station",
+      "name": "Refueling Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Refueling Station",
+        "Fuel Depot",
+        "Propellant Station"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "shipyard-station",
+      "name": "Orbital Shipyard",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Orbital Shipyard",
+        "Shipyard",
+        "Construction Dock"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "trade-station",
+      "name": "Trade Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Trade Station",
+        "Exchange Station",
+        "Transit Hub"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "relay-station",
+      "name": "Communications Relay",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Relay Station",
+        "Communications Relay",
+        "Signal Platform"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "lunar-station",
+      "name": "Lunar Station",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Lunar Station",
+        "Moonbase",
+        "Lunar Habitat"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "planetary-orbit-habitat",
+      "name": "Planetary Orbit Habitat",
+      "category": "Stations & Habitats",
+      "generics": [
+        "Orbital Habitat",
+        "Residential Station",
+        "Habitat Platform"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "planetary-research-base",
+      "name": "Planetary Research Base",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Research Base",
+        "Field Laboratory",
+        "Science Base"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "habitat-dome",
+      "name": "Habitat Dome",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Habitat Dome",
+        "Pressure Dome",
+        "Residential Dome"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "subsurface-habitat",
+      "name": "Subsurface Habitat",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Subsurface Habitat",
+        "Buried Habitat",
+        "Underground Complex"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "terraforming-facility",
+      "name": "Terraforming Facility",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Terraforming Facility",
+        "Atmosphere Plant",
+        "Climate Facility"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "sensor-array",
+      "name": "Sensor Array",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Sensor Array",
+        "Detection Complex",
+        "Survey Array"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "planetary-observatory",
+      "name": "Planetary Observatory",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Observatory",
+        "Telescope Complex",
+        "Survey Observatory"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "surface-port",
+      "name": "Surface Spaceport",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Spaceport",
+        "Landing Port",
+        "Surface Port"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "orbital-dock",
+      "name": "Orbital Dock",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Orbital Dock",
+        "Docking Complex",
+        "Transfer Dock"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "science-laboratory",
+      "name": "Science Laboratory",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Laboratory",
+        "Research Lab",
+        "Science Facility"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "medical-complex",
+      "name": "Medical Complex",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Medical Complex",
+        "Clinic",
+        "Care Facility"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "residential-block",
+      "name": "Residential Block",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Residential Block",
+        "Habitation Block",
+        "Living Module"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "industrial-complex",
+      "name": "Industrial Complex",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Industrial Complex",
+        "Fabrication Facility",
+        "Manufacturing Plant"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "planet",
+      "name": "Planet",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Planet",
+        "World",
+        "Exoplanet"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Moon",
+        "Satellite",
+        "Natural Satellite"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "dwarf-planet",
+      "name": "Dwarf Planet",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Dwarf Planet",
+        "Minor Planet",
+        "Planetoid"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "asteroid",
+      "name": "Asteroid",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Asteroid",
+        "Minor Body",
+        "Rock"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "comet",
+      "name": "Comet",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Comet",
+        "Long-Period Comet",
+        "Ice Body"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "star",
+      "name": "Star",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Star",
+        "Sun",
+        "Primary"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "binary-star",
+      "name": "Binary Star System",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Binary System",
+        "Twin-Star System",
+        "Binary Stars"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "star-system",
+      "name": "Star System",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Star System",
+        "Solar System",
+        "Planetary System"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Nebula",
+        "Emission Cloud",
+        "Stellar Cloud"
+      ],
+      "texture": "cosmic",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "galaxy",
+      "name": "Galaxy",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Galaxy",
+        "Spiral Galaxy",
+        "Stellar Island"
+      ],
+      "texture": "cosmic",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "star-cluster",
+      "name": "Star Cluster",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Star Cluster",
+        "Open Cluster",
+        "Globular Cluster"
+      ],
+      "texture": "cosmic",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "rogue-planet",
+      "name": "Rogue Planet",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Rogue Planet",
+        "Free-Floating World",
+        "Interstellar Planet"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "asteroid-field",
+      "name": "Asteroid Field",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Asteroid Field",
+        "Debris Field",
+        "Rock Belt"
+      ],
+      "texture": "space",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "planetary-rings",
+      "name": "Planetary Ring System",
+      "category": "Astronomical Locations",
+      "generics": [
+        "Ring System",
+        "Planetary Rings",
+        "Debris Rings"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "celestial",
+      "assignment": "sector"
+    },
+    {
+      "id": "enchanted-village",
+      "name": "Enchanted Village",
+      "category": "Settlements & Communities",
+      "generics": [
+        "Village",
+        "Hamlet",
+        "Settlement"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "apartment"
+    },
+    {
+      "id": "market-town",
+      "name": "Market Town",
+      "category": "Settlements & Communities",
+      "generics": [
+        "Town",
+        "Market Town",
+        "Borough"
+      ],
+      "texture": "plains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "apartment"
+    },
+    {
+      "id": "river-town",
+      "name": "River Town",
+      "category": "Settlements & Communities",
+      "generics": [
+        "River Town",
+        "Waterside Town",
+        "Settlement"
+      ],
+      "texture": "waters",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "apartment"
+    },
+    {
+      "id": "mountain-town",
+      "name": "Mountain Town",
+      "category": "Settlements & Communities",
+      "generics": [
+        "Mountain Town",
+        "Highland Town",
+        "Settlement"
+      ],
+      "texture": "mountains",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "apartment"
+    },
+    {
+      "id": "port-town",
+      "name": "Port Town",
+      "category": "Settlements & Communities",
+      "generics": [
+        "Port",
+        "Harbor Town",
+        "Seaside Town"
+      ],
+      "texture": "coastal",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "apartment"
+    },
+    {
+      "id": "guild-hall",
+      "name": "Guild Hall",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Guild Hall",
+        "Guildhouse",
+        "Hall"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "hall"
+    },
+    {
+      "id": "artisan-guild",
+      "name": "Artisan Guild",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Artisan Guild",
+        "Craft Hall",
+        "Guildhouse"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "hall"
+    },
+    {
+      "id": "scholars-guild",
+      "name": "Scholars Guild",
+      "category": "Buildings & Interiors",
+      "generics": [
+        "Scholars Guild",
+        "Archive Hall",
+        "Learned Hall"
+      ],
+      "texture": "magical",
+      "genre": "fantasy",
+      "scheme": "fantasy",
+      "assignment": "library"
+    },
+    {
+      "id": "planetary-colony",
+      "name": "Planetary Colony",
+      "category": "Colonies & Settlements",
+      "generics": [
+        "Colony",
+        "Settlement",
+        "Habitat"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "lunar-colony",
+      "name": "Lunar Colony",
+      "category": "Colonies & Settlements",
+      "generics": [
+        "Lunar Colony",
+        "Moon Settlement",
+        "Habitat"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "orbital-colony",
+      "name": "Orbital Colony",
+      "category": "Colonies & Settlements",
+      "generics": [
+        "Orbital Colony",
+        "Orbital Habitat",
+        "Settlement"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "asteroid-colony",
+      "name": "Asteroid Colony",
+      "category": "Colonies & Settlements",
+      "generics": [
+        "Asteroid Colony",
+        "Rock Habitat",
+        "Mining Colony"
+      ],
+      "texture": "cosmic",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "frontier-colony",
+      "name": "Frontier Colony",
+      "category": "Colonies & Settlements",
+      "generics": [
+        "Frontier Colony",
+        "Outpost Settlement",
+        "Habitat"
+      ],
+      "texture": "planetary",
+      "genre": "scifi",
+      "scheme": "station",
+      "assignment": "station"
+    },
+    {
+      "id": "colony-learning-center",
+      "name": "Colony Learning Center",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Learning Center",
+        "Academy",
+        "Education Complex"
+      ],
+      "texture": "facility",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    },
+    {
+      "id": "station-academy",
+      "name": "Station Academy",
+      "category": "Facilities & Interiors",
+      "generics": [
+        "Station Academy",
+        "Training Institute",
+        "Learning Module"
+      ],
+      "texture": "station",
+      "genre": "scifi",
+      "scheme": "facility",
+      "assignment": "facility"
+    }
+  ]
+}

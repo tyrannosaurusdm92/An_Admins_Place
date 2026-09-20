@@ -1,0 +1,4 @@
+(function(g){"use strict";const P=g.PeoplePlaces,U=P.Utils,M=P.MemoryStore;
+function score(rec,query,ctx={}){const qt=U.tokens(query),st=U.tokens(rec.summary+' '+rec.tags.join(' ')),semantic=U.overlap(qt,st),entity=(ctx.entityIds||[]).some(x=>rec.entities.includes(x))?.3:0,ageDays=(Date.now()-new Date(rec.lastRecalledAt||rec.createdAt))/86400000,recency=Math.exp(-ageDays/180),privacy=rec.privacy==='secret'&&!ctx.allowSecrets?.2:1;return (semantic*.42+rec.salience*.2+rec.confidence*.15+rec.emotionalWeight*.1+recency*.13+entity)*privacy}
+function retrieve(person,query,ctx={}){const rows=M.ensure(person).records.map(r=>({record:r,score:score(r,query,ctx)})).filter(x=>x.score>(ctx.minScore??.08)).sort((a,b)=>b.score-a.score).slice(0,ctx.limit||5);for(const x of rows)M.reinforce(person,x.record.id,.015);return rows}
+P.register('MemoryRetrieval',{score,retrieve});})(window);

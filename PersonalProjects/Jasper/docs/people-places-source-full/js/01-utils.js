@@ -1,0 +1,26 @@
+(function(g){"use strict";const P=g.PeoplePlaces;
+const U={
+ clamp:(n,a=0,b=1)=>Math.max(a,Math.min(b,Number(n)||0)),
+ clamp100:(n)=>Math.max(0,Math.min(100,Math.round(Number(n)||0))),
+ slug:s=>String(s||"").normalize("NFKD").replace(/[^\w\s-]/g,"").trim().toLowerCase().replace(/[\s_]+/g,"-").replace(/-+/g,"-"),
+ words:s=>String(s||"").toLowerCase().match(/[\p{L}\p{N}']+/gu)||[],
+ tokens:s=>new Set(U.words(s).filter(x=>x.length>2)),
+ unique:a=>[...new Set((a||[]).filter(x=>x!==undefined&&x!==null))],
+ sample:(a,n,r=Math.random)=>{const x=[...(a||[])],o=[];while(x.length&&o.length<n)o.push(x.splice(Math.floor(r()*x.length),1)[0]);return o},
+ pick:(a,r=Math.random)=>a&&a.length?a[Math.floor(r()*a.length)]:null,
+ weighted:(rows,r=Math.random,key="weight")=>{const a=(rows||[]).filter(Boolean),sum=a.reduce((s,x)=>s+Math.max(0,Number(x[key]??1)),0);if(!a.length)return null;if(sum<=0)return U.pick(a,r);let n=r()*sum;for(const x of a){n-=Math.max(0,Number(x[key]??1));if(n<=0)return x}return a[a.length-1]},
+ int:(a,b,r=Math.random)=>Math.floor(r()*(b-a+1))+a,
+ float:(a,b,r=Math.random)=>a+r()*(b-a),
+ chance:(p,r=Math.random)=>r()<p,
+ nowISO:()=>new Date().toISOString(),
+ deepClone:o=>o==null?o:JSON.parse(JSON.stringify(o)),
+ title:s=>String(s||"").replace(/[-_]/g," ").replace(/\b\w/g,c=>c.toUpperCase()),
+ sentence:s=>{s=String(s||"").trim();return s?s[0].toUpperCase()+s.slice(1)+( /[.!?]$/.test(s)?"":"."):""},
+ joinNatural:a=>{a=(a||[]).filter(Boolean);return a.length<2?(a[0]||""):a.length===2?`${a[0]} and ${a[1]}`:`${a.slice(0,-1).join(", ")}, and ${a.at(-1)}`},
+ overlap:(a,b)=>{a=a instanceof Set?a:U.tokens(a);b=b instanceof Set?b:U.tokens(b);if(!a.size||!b.size)return 0;let n=0;for(const x of a)if(b.has(x))n++;return n/Math.max(a.size,b.size)},
+ escapeHTML:s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])),
+ pathGet:(o,path,fallback)=>{for(const k of String(path).split('.')){if(o==null)return fallback;o=o[k]}return o===undefined?fallback:o},
+ stableSort:(a,fn)=>a.map((v,i)=>({v,i})).sort((x,y)=>fn(x.v,y.v)||x.i-y.i).map(x=>x.v),
+ uid:(prefix="id")=>`${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,9)}`,
+ normalizeText:s=>String(s||"").normalize("NFKC").trim().replace(/\s+/g," ")
+};P.register("Utils",U);})(window);

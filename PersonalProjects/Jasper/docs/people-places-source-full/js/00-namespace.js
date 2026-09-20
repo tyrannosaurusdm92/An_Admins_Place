@@ -1,0 +1,1 @@
+(function(g){"use strict";const P=g.PeoplePlaces=g.PeoplePlaces||{};P.VERSION="2.1.0-trimode-hierarchy-audit";P.modules=P.modules||{};P.state=P.state||{world:null,selection:{personId:null,placeId:null},ui:{}};P.register=function(name,value){P.modules[name]=value;P[name]=value;return value};P.get=function(name){return P.modules[name]};})(window);

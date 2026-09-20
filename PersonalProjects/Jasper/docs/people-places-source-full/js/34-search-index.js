@@ -1,0 +1,4 @@
+(function(g){"use strict";const P=g.PeoplePlaces,U=P.Utils;
+function build(world){const docs=[];for(const p of world.people)docs.push({type:'person',id:p.id,title:p.name.full,text:[p.name.full,p.identity.genderIdentity,p.identity.pronouns.display,P.PhysicalDescriptionEngine.describe(p.physicalDescription),p.personality.traits.join(' '),p.personality.values.join(' '),p.interests.hobbies.join(' '),p.life.workEducation.work.occupation].join(' ')});for(const x of world.places)docs.push({type:'place',id:x.id,title:x.name,text:[x.name,x.kind,x.geography.city,x.geography.neighborhood,x.descriptors.join(' ')].join(' ')});return docs.map(d=>({...d,tokens:U.tokens(d.text)}))}
+function query(index,q,limit=20){const t=U.tokens(q);return index.map(d=>({d,score:U.overlap(t,d.tokens)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,limit).map(x=>({...x.d,score:x.score}))}
+P.register('SearchIndex',{build,query});})(window);

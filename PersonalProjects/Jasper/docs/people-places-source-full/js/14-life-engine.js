@@ -1,0 +1,5 @@
+(function(g){"use strict";const P=g.PeoplePlaces,C=P.Catalogs;
+function stageFor(age){return C.lifeStages.find(x=>age>=x.min&&age<=x.max)||C.lifeStages.at(-1)}
+function age(random,requested){if(Number.isFinite(Number(requested)))return Math.max(0,Math.min(100,Math.round(Number(requested))));const r=random.fork('age'),roll=r.next();if(roll<.06)return r.int(0,5);if(roll<.18)return r.int(6,17);if(roll<.42)return r.int(18,29);if(roll<.74)return r.int(30,49);if(roll<.92)return r.int(50,69);return r.int(70,95)}
+function generate(random,requested){const years=age(random,requested),stage=stageFor(years),month=random.fork('birth').int(1,12),day=random.fork('birth-day').int(1,28);return{age:years,stage,birthMonth:month,birthDay:day,isAdult:years>=18,isMinor:years<18}}
+P.register('LifeEngine',{generate,stageFor});})(window);

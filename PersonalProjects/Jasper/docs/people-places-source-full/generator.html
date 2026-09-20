@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>People & Places Generator</title><link rel="stylesheet" href="css/app.css"></head><body>
+<header class="topbar"><div><h1>People & Places Generator</h1><p>Project-neutral realistic, fantasy, and science-fiction people, relationships, places, routines, memory, and conversations.</p><p id="world-mode-summary" class="mode-summary"></p></div><div class="clock">World time: <strong id="world-clock"></strong></div></header>
+<section class="controls"><label>Seed <input id="seed" value="demo-people-places"></label><label>People <input id="people-count" type="number" min="1" max="500" value="24"></label><fieldset class="mode-picker" aria-describedby="mode-help"><legend>World modes — choose 1, 2, or all 3</legend><label class="mode-choice scifi-choice"><input id="mode-scifi" type="checkbox" checked> <span><strong>Sci-Fi / Aliens</strong><small>Dominant whenever selected: space, stations, starships, colonies, asteroid belts, alien and synthetic populations.</small></span></label><label class="mode-choice fantasy-choice"><input id="mode-fantasy" type="checkbox" checked> <span><strong>Fantasy</strong><small>Secondary dominant: magical towns, taverns, guilds, academies, realms, ruins, and enchanted places.</small></span></label><label class="mode-choice realistic-choice"><input id="mode-realistic" type="checkbox" checked> <span><strong>Realistic</strong><small>Dominant only when selected by itself; otherwise it remains the grounded minority layer.</small></span></label><small id="mode-help" class="mode-help">Hierarchy: Sci-Fi / Aliens → Fantasy → Realistic. If all three are unchecked, Realistic is restored automatically.</small></fieldset><button id="generate-world">Generate world</button><button id="advance-hour">+1 hour</button><button id="advance-day">+1 day</button><button id="save-world">Save</button><button id="export-world">Export JSON</button><label class="file">Import JSON<input id="import-world" type="file" accept="application/json"></label><input id="search" placeholder="Search people…"></section>
+<main class="layout"><aside class="panel"><h2>People</h2><div id="person-list" class="list"></div></aside><section class="workspace"><nav class="tabs"><a href="#profile">Profile</a><a href="#relationships-panel">Relationships</a><a href="#memory-panel">Memory</a><a href="#conversation-panel">Conversation</a><a href="#statistics-panel">World stats</a></nav><article id="profile" class="card"><div id="person-profile"></div></article><article id="relationships-panel" class="card"><h2>Relationships</h2><div id="relationships"></div></article><article id="memory-panel" class="card"><h2>Memory</h2><div id="memory-list" class="memory-grid"></div></article><article id="conversation-panel" class="card"><h2>Conversation / text commands</h2><div id="chat-log" class="chat-log"></div><form id="chat-form"><input id="chat-input" autocomplete="off" placeholder="Talk normally, or try /help"><button>Send</button></form></article><article id="statistics-panel" class="card"><h2>World statistics</h2><pre id="stats"></pre></article></section><aside class="panel"><h2>Places</h2><div id="place-list" class="list compact"></div><div id="place-profile" class="place-card"></div></aside></main>
+<footer><p>Text-first people and location generation only. No avatar creator, portrait system, sprite system, or visual body renderer is included. Fantasy and sci-fi species/type templates never determine personality, morality, gender identity, relationships, or competence.</p></footer>
+  <script defer src="js/00-namespace.js"></script>
+  <script defer src="js/01-utils.js"></script>
+  <script defer src="js/02-random.js"></script>
+  <script defer src="js/03-data-loader.js"></script>
+  <script defer src="js/04-core-catalogs.js"></script>
+  <script defer src="js/05-name-data.js"></script>
+  <script defer src="js/06v-speculative-data.js"></script>
+  <script defer src="js/06v1-world-mode-engine.js"></script>
+  <script defer src="js/06v2-speculative-name-engine.js"></script>
+  <script defer src="js/06w-name-pairing-data.js"></script>
+  <script defer src="js/06x-name-structure-data.js"></script>
+  <script defer src="js/06y-name-flow-engine.js"></script>
+  <script defer src="js/06y2-name-structure-engine.js"></script>
+  <script defer src="js/06-physical-description-data.js"></script>
+  <script defer src="js/06z-name-context-engine.js"></script>
+  <script defer src="js/07-name-engine.js"></script>
+  <script defer src="js/08-pronoun-engine.js"></script>
+  <script defer src="js/09-identity-engine.js"></script>
+  <script defer src="js/10-physical-description-engine.js"></script>
+  <script defer src="js/10a-speculative-person-engine.js"></script>
+  <script defer src="js/11-personality-engine.js"></script>
+  <script defer src="js/12-interest-skill-engine.js"></script>
+  <script defer src="js/13-mood-engine.js"></script>
+  <script defer src="js/14-life-engine.js"></script>
+  <script defer src="js/15-work-education-engine.js"></script>
+  <script defer src="js/16-location-engine.js"></script>
+  <script defer src="js/16a-speculative-location-engine.js"></script>
+  <script defer src="js/16b-genre-coverage-expansion.js"></script>
+  <script defer src="js/17-routine-engine.js"></script>
+  <script defer src="js/18-relationship-engine.js"></script>
+  <script defer src="js/19-social-graph-engine.js"></script>
+  <script defer src="js/20-memory-store.js"></script>
+  <script defer src="js/21-memory-retrieval.js"></script>
+  <script defer src="js/22-knowledge-ledger.js"></script>
+  <script defer src="js/23-conversation-intent.js"></script>
+  <script defer src="js/24-conversation-planner.js"></script>
+  <script defer src="js/25-dialogue-renderer.js"></script>
+  <script defer src="js/26-group-conversation.js"></script>
+  <script defer src="js/28-event-engine.js"></script>
+  <script defer src="js/29-world-model.js"></script>
+  <script defer src="js/30-person-generator.js"></script>
+  <script defer src="js/31-world-generator.js"></script>
+  <script defer src="js/32-world-simulator.js"></script>
+  <script defer src="js/33-command-parser.js"></script>
+  <script defer src="js/34-search-index.js"></script>
+  <script defer src="js/35-statistics.js"></script>
+  <script defer src="js/36-persistence.js"></script>
+  <script defer src="js/37-export-import.js"></script>
+  <script defer src="js/38-ui.js"></script>
+  <script defer src="js/39-app.js"></script>
+</body></html>

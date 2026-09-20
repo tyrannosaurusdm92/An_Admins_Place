@@ -1,0 +1,5 @@
+(function(g){"use strict";const P=g.PeoplePlaces,U=P.Utils;
+function hash(s){let h=2166136261>>>0;for(const ch of String(s)){h^=ch.codePointAt(0);h=Math.imul(h,16777619)}return h>>>0}
+function mulberry(seed){let a=hash(seed);return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+class Random{constructor(seed="people-places"){this.seed=String(seed);this.r=mulberry(this.seed)}fork(label){return new Random(`${this.seed}|${label}`)}next(){return this.r()}chance(p){return this.next()<p}int(a,b){return U.int(a,b,()=>this.next())}float(a,b){return U.float(a,b,()=>this.next())}pick(a){return U.pick(a,()=>this.next())}sample(a,n){return U.sample(a,n,()=>this.next())}weighted(a,key="weight"){return U.weighted(a,()=>this.next(),key)}shuffle(a){a=[...(a||[])];for(let i=a.length-1;i>0;i--){const j=this.int(0,i);[a[i],a[j]]=[a[j],a[i]]}return a}}
+P.register("Random",Random);})(window);

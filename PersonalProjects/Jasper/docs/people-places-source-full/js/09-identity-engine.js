@@ -1,0 +1,4 @@
+(function(g){"use strict";const P=g.PeoplePlaces,C=P.Catalogs;
+const orientation=['straight','gay','lesbian','bisexual','pansexual','asexual','demisexual','queer','questioning','self-described','not specified'];
+function generate(random,age,opts={}){const r=random.fork('identity'),gender=opts.genderIdentity||r.pick(C.genderIdentities);let p=opts.pronouns?C.pronouns.find(x=>x.id===opts.pronouns||x.display===opts.pronouns):null;if(!p){if(/woman|girl|female/.test(gender)&&r.chance(.78))p=C.pronouns.find(x=>x.id==='she');else if(/man|boy|male/.test(gender)&&r.chance(.78))p=C.pronouns.find(x=>x.id==='he');else p=r.pick(C.pronouns)}return{genderIdentity:gender,pronouns:p,orientation:age>=13?(opts.orientation||r.pick(orientation)):'not assigned',relationshipFramework:age>=18?(opts.relationshipFramework||r.pick(C.relationshipFrameworks).id):'not applicable',identityNotes:opts.identityNotes||''}}
+P.register('IdentityEngine',{generate});})(window);

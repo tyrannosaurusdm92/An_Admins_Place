@@ -1,0 +1,4 @@
+(function(g){"use strict";const P=g.PeoplePlaces,U=P.Utils;
+function relContext(world,person){const links=P.RelationshipEngine.linksFor(world,person.id),rom=links.filter(x=>x.romantic&&x.kind!=='ex-partner');return{links,romanticCount:rom.length,romanticNames:rom.map(e=>world.people.find(x=>x.id===P.RelationshipEngine.other(e,person.id))?.name?.first).filter(Boolean)}}
+function plan(world,person,text){const intent=P.ConversationIntent.detect(text),fact=P.ConversationIntent.extractFacts(text),memories=P.MemoryRetrieval.retrieve(person,text,{limit:3}),ctx=relContext(world,person),place=world.places.find(x=>x.id===person.currentPlaceId)||world.places.find(x=>x.id===person.life.homePlaceId);return{intent,fact,memories,relationshipContext:ctx,place,mood:person.mood,style:person.personality.communicationStyles[0]||'casual',topic:U.words(text).slice(0,8).join(' ')}}
+P.register('ConversationPlanner',{plan});})(window);

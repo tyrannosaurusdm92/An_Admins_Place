@@ -1,0 +1,16 @@
+(function(g){"use strict";g.PEOPLE_PHYSICAL_DESCRIPTION_DATA={
+"skinTones":["very light with cool undertones","very light with warm undertones","light with neutral undertones","light-medium with warm undertones","medium with neutral undertones","medium with olive undertones","medium-deep with neutral undertones","medium-deep with warm undertones","deep with neutral undertones","deep with cool undertones","very deep with neutral undertones","very deep with warm undertones"],
+"notableFeatures":["freckles","dimples","birthmark","visible scar","minor facial asymmetry","pronounced laugh lines","under-eye circles","distinctive smile","strong cheekbones","soft cheeks","visible wrinkles"],
+"hairTextures":["straight","slightly wavy","wavy","loose curls","curly","tight curls","coily","tightly coiled"],
+"hairStyles":["bald or shaved","buzz cut","close crop","short layered","side-parted short","chin-length bob","shoulder-length","long layered","long straight","long wavy","curly crop","natural curls","afro","locs","braids","cornrows","bun","ponytail","shaved sides with longer top","undercut"],
+"hairColorsNatural":["black","soft black","dark brown","brown","light brown","dark blonde","blonde","strawberry blonde","auburn","red","gray","silver-white","white"],
+"hairColorsDyed":["black","platinum","copper","burgundy","pink","rose","red","orange","yellow","green","teal","cyan","blue","purple","lavender","multicolored"],
+"facialHair":["none","light stubble","heavy stubble","short beard","full beard","goatee","mustache","mustache and beard","sideburns"],
+"faceShapes":["oval","round","square","heart-shaped","diamond-shaped","oblong","triangular","soft-square","tapered","broad","narrow","angular"],
+"eyeShapes":["almond-shaped","round","hooded","upturned","downturned","narrow","wide-set","deep-set","monolid","soft","sharp","large"],
+"eyeColors":["dark brown","brown","light brown","hazel","amber","green","gray","blue","blue-gray"],
+"builds":["slender","lean","average","soft","stocky","broad","muscular","compact","lanky","curvy"],
+"clothingStyles":["casual layered clothing","practical everyday clothing","athletic casual clothing","formal professional clothing","business-casual clothing","academic or bookish clothing","workwear chosen for durability","artistic eclectic clothing","minimalist clothing","vintage-inspired clothing","streetwear-inspired clothing","outdoor-oriented clothing","soft comfortable clothing","bright expressive clothing","dark understated clothing","traditional or culturally specific clothing chosen from the person's own context"],
+"accessibility":["none","glasses","hearing aid","cane","manual wheelchair","power wheelchair","walker or rollator","prosthetic limb","communication device","service animal","orthotic brace","portable oxygen equipment"],
+"presentationDetails":["keeps accessories minimal","often wears practical layers","usually dresses for comfort","tends to coordinate outfits carefully","mixes old and new clothing","prefers durable materials","likes expressive accessories","keeps a consistent everyday style","changes style by activity or setting"]
+};})(window);

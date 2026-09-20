@@ -1,0 +1,543 @@
+{
+  "schema": "people-places-name-structure-policy-v1",
+  "default": {
+    "id": "single-given-family",
+    "order": [
+      "given",
+      "family"
+    ],
+    "secondGiven": {
+      "min": 0,
+      "max": 0
+    },
+    "familyCount": {
+      "min": 1,
+      "max": 1
+    },
+    "lineageCount": {
+      "min": 0,
+      "max": 0
+    },
+    "middleRole": null,
+    "phoneticProfile": "light"
+  },
+  "localeRules": {
+    "en_US": {
+      "id": "english-us",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.22,
+        "1": 0.74,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "en_GB": {
+      "id": "english-gb",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.27,
+        "1": 0.69,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "en_AU": {
+      "id": "english-au",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.27,
+        "1": 0.69,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "en_NZ": {
+      "id": "english-nz",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.28,
+        "1": 0.68,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "en_CA": {
+      "id": "english-ca",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.25,
+        "1": 0.71,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "en_IE": {
+      "id": "english-ie",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.28,
+        "1": 0.68,
+        "2": 0.04
+      },
+      "familyCount": {
+        "min": 1,
+        "max": 1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "english"
+    },
+    "es_ES": {
+      "id": "spanish",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.48,
+        "1": 0.52
+      },
+      "familyCountWeights": {
+        "1": 0.08,
+        "2": 0.92
+      },
+      "middleRole": "second-given",
+      "phoneticProfile": "romance-light"
+    },
+    "es_MX": {
+      "id": "spanish-latin-american",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.52,
+        "1": 0.48
+      },
+      "familyCountWeights": {
+        "1": 0.12,
+        "2": 0.88
+      },
+      "middleRole": "second-given",
+      "phoneticProfile": "romance-light"
+    },
+    "pt_PT": {
+      "id": "portuguese",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.48,
+        "1": 0.47,
+        "2": 0.05
+      },
+      "familyCountWeights": {
+        "1": 0.1,
+        "2": 0.72,
+        "3": 0.18
+      },
+      "middleRole": "second-given",
+      "phoneticProfile": "romance-light"
+    },
+    "pt_BR": {
+      "id": "brazilian-portuguese",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.45,
+        "1": 0.5,
+        "2": 0.05
+      },
+      "familyCountWeights": {
+        "1": 0.1,
+        "2": 0.78,
+        "3": 0.12
+      },
+      "middleRole": "second-given",
+      "phoneticProfile": "romance-light"
+    },
+    "zh_CN": {
+      "id": "chinese",
+      "order": [
+        "family",
+        "given"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": null,
+      "phoneticProfile": "none"
+    },
+    "zh_TW": {
+      "id": "chinese",
+      "order": [
+        "family",
+        "given"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": null,
+      "phoneticProfile": "none"
+    },
+    "ja_JP": {
+      "id": "japanese",
+      "order": [
+        "family",
+        "given"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": null,
+      "phoneticProfile": "none"
+    },
+    "ko_KR": {
+      "id": "korean",
+      "order": [
+        "family",
+        "given"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": null,
+      "phoneticProfile": "none"
+    },
+    "vi_VN": {
+      "id": "vietnamese",
+      "order": [
+        "family",
+        "middle",
+        "given"
+      ],
+      "secondGivenWeights": {
+        "1": 0.86,
+        "0": 0.14
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "cultural-middle",
+      "phoneticProfile": "none",
+      "preferExplicitMiddlePool": true
+    },
+    "ru_RU": {
+      "id": "russian",
+      "order": [
+        "given",
+        "patronymic",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "1": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "patronymic",
+      "phoneticProfile": "none",
+      "requireExplicitMiddlePool": true
+    },
+    "uk_UA": {
+      "id": "ukrainian",
+      "order": [
+        "given",
+        "patronymic",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "1": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "patronymic",
+      "phoneticProfile": "none",
+      "requireExplicitMiddlePool": true
+    },
+    "is_IS": {
+      "id": "icelandic",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.62,
+        "1": 0.34,
+        "2": 0.04
+      },
+      "familyCountWeights": {
+        "1": 0.9,
+        "2": 0.1
+      },
+      "middleRole": "middle",
+      "phoneticProfile": "light",
+      "icelandicPatronymic": true
+    },
+    "or_IN": {
+      "id": "odia-source-middle",
+      "order": [
+        "given",
+        "middle",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.55,
+        "1": 0.45
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "additional-name",
+      "phoneticProfile": "none",
+      "preferExplicitMiddlePool": true
+    }
+  },
+  "languageRules": {
+    "de": {
+      "id": "germanic-multiple-forenames",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.62,
+        "1": 0.34,
+        "2": 0.04
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "additional-forename",
+      "phoneticProfile": "light"
+    },
+    "fr": {
+      "id": "french-multiple-forenames",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.58,
+        "1": 0.38,
+        "2": 0.04
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "additional-forename",
+      "phoneticProfile": "light"
+    },
+    "nl": {
+      "id": "dutch-multiple-forenames",
+      "order": [
+        "given",
+        "second-given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 0.64,
+        "1": 0.33,
+        "2": 0.03
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "additional-forename",
+      "phoneticProfile": "light"
+    },
+    "ar": {
+      "id": "arabic-lineage",
+      "order": [
+        "given",
+        "lineage",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "lineageCountWeights": {
+        "1": 0.7,
+        "2": 0.3
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "lineage",
+      "phoneticProfile": "none"
+    }
+  },
+  "countryRules": {
+    "AE": {
+      "id": "uae-lineage",
+      "order": [
+        "given",
+        "lineage",
+        "family"
+      ],
+      "lineageCountWeights": {
+        "2": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "lineage",
+      "phoneticProfile": "none"
+    },
+    "JO": {
+      "id": "jordan-lineage",
+      "order": [
+        "given",
+        "lineage",
+        "family"
+      ],
+      "lineageCountWeights": {
+        "2": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "lineage",
+      "phoneticProfile": "none"
+    },
+    "KW": {
+      "id": "kuwait-lineage",
+      "order": [
+        "given",
+        "lineage",
+        "family"
+      ],
+      "lineageCountWeights": {
+        "2": 0.65,
+        "3": 0.35
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "lineage",
+      "phoneticProfile": "none"
+    },
+    "IQ": {
+      "id": "iraq-lineage",
+      "order": [
+        "given",
+        "lineage",
+        "family"
+      ],
+      "lineageCountWeights": {
+        "1": 0.7,
+        "2": 0.3
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": "lineage",
+      "phoneticProfile": "none"
+    },
+    "IN": {
+      "id": "india-conservative",
+      "order": [
+        "given",
+        "family"
+      ],
+      "secondGivenWeights": {
+        "0": 1
+      },
+      "familyCountWeights": {
+        "1": 1
+      },
+      "middleRole": null,
+      "phoneticProfile": "none",
+      "note": "India is too structurally diverse for one generic middle-name rule; locale-specific source rules are preferred."
+    }
+  },
+  "methodology": {
+    "probabilitiesAreGeneratorHeuristics": true,
+    "notDemographicPrevalence": true,
+    "principle": "Structure rules prevent culturally distinct components from being forced into a universal English first-middle-last model. Optional-component weights create generator variety and are not claims about real-world population frequencies.",
+    "sourceIds": [
+      "uk-spain",
+      "uk-portugal",
+      "uk-brazil",
+      "uk-japan",
+      "uk-korea",
+      "familysearch-china",
+      "uk-russia",
+      "uk-uae",
+      "uk-india",
+      "iceland-official"
+    ]
+  }
+}

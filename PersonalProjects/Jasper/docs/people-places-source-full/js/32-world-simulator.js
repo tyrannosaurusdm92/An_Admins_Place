@@ -1,0 +1,5 @@
+(function(g){"use strict";const P=g.PeoplePlaces;
+function moveByRoutine(world,person,date){const act=P.RoutineEngine.activityAt(person.routine,date);if(act?.placeId)person.currentPlaceId=act.placeId;return act}
+function advance(world,minutes=60){const start=new Date(world.clock),end=new Date(start.getTime()+Math.max(1,minutes)*60000),r=new P.Random(`${world.seed}|sim|${end.toISOString()}`);world.clock=end.toISOString();for(const p of world.people){moveByRoutine(world,p,end);if(r.chance(Math.min(.35,minutes/1440*.9))){const e=P.EventEngine.generate(world,p,r.fork(p.id));P.EventEngine.apply(world,e)}P.MemoryStore.decay(p,end)}world.updatedAt=new Date().toISOString();return world}
+function runDays(world,days=1){for(let i=0;i<days;i++)advance(world,1440);return world}
+P.register('WorldSimulator',{advance,runDays,moveByRoutine});})(window);

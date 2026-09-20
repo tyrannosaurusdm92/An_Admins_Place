@@ -1,0 +1,52 @@
+{
+  "schema": "people-places-scope-audit-v1",
+  "scope": "people-and-locations",
+  "topLevelEntries": [
+    "css",
+    "docs",
+    "generator.html",
+    "js",
+    "json"
+  ],
+  "htmlFiles": [
+    "generator.html"
+  ],
+  "nestedDirectories": [],
+  "javascriptFiles": 50,
+  "jsonFilesBeforeAudit": 13,
+  "excludedVisualRecipeBanks": 7,
+  "removedNarrativeBranchingModules": 3,
+  "runtimeChecks": {
+    "realistic120": {
+      "people": 120,
+      "places": 118,
+      "validationIssues": 0
+    },
+    "fantasy120": {
+      "people": 120,
+      "places": 119,
+      "validationIssues": 0
+    },
+    "scifi120": {
+      "people": 120,
+      "places": 115,
+      "validationIssues": 0
+    },
+    "allModes120": {
+      "people": 120,
+      "places": 129,
+      "modeCounts": {
+        "scifi": 86,
+        "fantasy": 28,
+        "realistic": 6
+      },
+      "validationIssues": 0
+    }
+  },
+  "runtimeScopeChecks": {
+    "visualCreatorRoleTerms": 0,
+    "projectRoleTerms": 0,
+    "visualRecipeFieldTerms": 0,
+    "oldProjectTerms": 0
+  }
+}

@@ -1,0 +1,10 @@
+(function(g){"use strict";const P=g.PeoplePlaces,D=g.PEOPLE_NAME_STRUCTURE_DATA||{};
+function clone(x){return JSON.parse(JSON.stringify(x||{}))}
+function baseLanguage(v){return String(v||'').split(/[-_]/)[0]}
+function resolve(context={},row={},opts={}){const locale=context.locale||opts.locale||'',country=context.countryCode||opts.countryCode||'',language=baseLanguage(context.language||row.language||opts.language);let rule=D.localeRules?.[locale]||D.countryRules?.[country]||D.languageRules?.[language]||D.default||{};rule=clone(rule);rule.locale=locale||null;rule.countryCode=country||null;rule.language=language||null;return rule}
+function weightedCount(random,weights,fallback=0){if(!weights)return fallback;const rows=Object.entries(weights).map(([value,weight])=>({value:Number(value),weight:Number(weight)})).filter(x=>Number.isFinite(x.value)&&x.weight>0);return random.weighted(rows)?.value??fallback}
+function secondGivenCount(random,structure,opts={}){if(opts.includeMiddleName===false||opts.includeAdditionalGivenName===false)return 0;if(Number.isFinite(opts.middleNameCount))return Math.max(0,Math.floor(opts.middleNameCount));if(opts.middleName!==undefined&&opts.middleName!==null)return 1;if(Array.isArray(opts.additionalGivenNames))return opts.additionalGivenNames.length;if(Number.isFinite(opts.middleNameChance)){return random.chance(opts.middleNameChance)?1:0}return weightedCount(random,structure.secondGivenWeights,structure.secondGiven?.min||0)}
+function familyCount(random,structure,opts={}){if(Array.isArray(opts.familyNames)&&opts.familyNames.length)return opts.familyNames.length;if(opts.lastName!==undefined&&opts.lastName!==null)return 1;return Math.max(1,weightedCount(random,structure.familyCountWeights,structure.familyCount?.min||1))}
+function lineageCount(random,structure,opts={}){if(Array.isArray(opts.lineageNames))return opts.lineageNames.length;return weightedCount(random,structure.lineageCountWeights,0)}
+function join(parts,separator=' '){return parts.filter(Boolean).join(separator)}
+P.register('NameStructureEngine',{resolve,weightedCount,secondGivenCount,familyCount,lineageCount,join});})(window);

@@ -1,0 +1,2912 @@
+{
+  "humanic": {
+    "label": "Broad fantasy human",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "br",
+      "c",
+      "d",
+      "dr",
+      "f",
+      "g",
+      "h",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "t",
+      "v",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ia",
+      "eo"
+    ],
+    "coda": [
+      "",
+      "n",
+      "r",
+      "s",
+      "l",
+      "m",
+      "th",
+      "nd",
+      "rk"
+    ],
+    "masc": [
+      "an",
+      "or",
+      "en",
+      "ric",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "elle",
+      "ena",
+      "ora"
+    ],
+    "neut": [
+      "en",
+      "is",
+      "ryn",
+      "el",
+      "ari"
+    ]
+  },
+  "elven": {
+    "label": "Melodic high-fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "l",
+      "s",
+      "v",
+      "th",
+      "f",
+      "m",
+      "n",
+      "r",
+      "c",
+      "ael",
+      "eir",
+      "sil",
+      "vael"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ia",
+      "ie",
+      "ei",
+      "y"
+    ],
+    "coda": [
+      "",
+      "l",
+      "n",
+      "r",
+      "s",
+      "th",
+      "v",
+      "riel",
+      "wyn"
+    ],
+    "masc": [
+      "ion",
+      "ar",
+      "eth",
+      "iel",
+      "or"
+    ],
+    "fem": [
+      "iel",
+      "ara",
+      "eth",
+      "wyn",
+      "ira"
+    ],
+    "neut": [
+      "ael",
+      "ien",
+      "ryn",
+      "iel",
+      "ith"
+    ]
+  },
+  "dwarven": {
+    "label": "Dense, stone-and-forge fantasy",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "br",
+      "d",
+      "dr",
+      "g",
+      "gr",
+      "k",
+      "kr",
+      "m",
+      "r",
+      "th",
+      "v",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "o",
+      "u",
+      "ai",
+      "au",
+      "or"
+    ],
+    "coda": [
+      "g",
+      "k",
+      "m",
+      "n",
+      "r",
+      "rd",
+      "rn",
+      "rk",
+      "th",
+      "ld"
+    ],
+    "masc": [
+      "gar",
+      "grim",
+      "dur",
+      "rik",
+      "orn"
+    ],
+    "fem": [
+      "hild",
+      "disa",
+      "ora",
+      "run",
+      "bryn"
+    ],
+    "neut": [
+      "drin",
+      "kar",
+      "rum",
+      "ven",
+      "dor"
+    ]
+  },
+  "gnomish": {
+    "label": "Bright, nimble fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "b",
+      "f",
+      "g",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "qu",
+      "r",
+      "s",
+      "t",
+      "w",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ee",
+      "io"
+    ],
+    "coda": [
+      "",
+      "b",
+      "d",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "t",
+      "zz"
+    ],
+    "masc": [
+      "bin",
+      "wick",
+      "dor",
+      "kin",
+      "lo"
+    ],
+    "fem": [
+      "belle",
+      "ina",
+      "etta",
+      "lili",
+      "ora"
+    ],
+    "neut": [
+      "pip",
+      "lin",
+      "ren",
+      "nik",
+      "zi"
+    ]
+  },
+  "halfling": {
+    "label": "Warm pastoral fantasy",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "t",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ie"
+    ],
+    "coda": [
+      "",
+      "b",
+      "d",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "t",
+      "y"
+    ],
+    "masc": [
+      "bo",
+      "bin",
+      "ton",
+      "wick",
+      "per"
+    ],
+    "fem": [
+      "belle",
+      "ella",
+      "nora",
+      "wyn",
+      "lily"
+    ],
+    "neut": [
+      "by",
+      "lin",
+      "ren",
+      "lo",
+      "pip"
+    ]
+  },
+  "orcish": {
+    "label": "Heavy consonants and compact vowels",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "g",
+      "gr",
+      "k",
+      "kr",
+      "m",
+      "r",
+      "sh",
+      "th",
+      "ug",
+      "v",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "o",
+      "u",
+      "aa",
+      "ou"
+    ],
+    "coda": [
+      "g",
+      "k",
+      "m",
+      "n",
+      "r",
+      "sh",
+      "th",
+      "zg",
+      "rk"
+    ],
+    "masc": [
+      "gar",
+      "mok",
+      "ruk",
+      "thar",
+      "zug"
+    ],
+    "fem": [
+      "gra",
+      "mara",
+      "naka",
+      "ruga",
+      "zha"
+    ],
+    "neut": [
+      "guk",
+      "rak",
+      "mok",
+      "zhar",
+      "urn"
+    ]
+  },
+  "goblinoid": {
+    "label": "Quick, clipped, mischievous",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "b",
+      "g",
+      "gr",
+      "k",
+      "kr",
+      "n",
+      "r",
+      "sk",
+      "sn",
+      "t",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "coda": [
+      "g",
+      "k",
+      "t",
+      "z",
+      "sh",
+      "n",
+      "x",
+      "gg"
+    ],
+    "masc": [
+      "nik",
+      "gob",
+      "rek",
+      "tik",
+      "zag"
+    ],
+    "fem": [
+      "ika",
+      "zzi",
+      "nara",
+      "esha",
+      "uga"
+    ],
+    "neut": [
+      "ix",
+      "uk",
+      "zun",
+      "tik",
+      "esh"
+    ]
+  },
+  "ogre": {
+    "label": "Large, blunt, guttural",
+    "syllables": [
+      1,
+      2
+    ],
+    "onset": [
+      "b",
+      "br",
+      "g",
+      "gr",
+      "k",
+      "kr",
+      "m",
+      "og",
+      "r",
+      "th",
+      "ug"
+    ],
+    "nucleus": [
+      "a",
+      "o",
+      "u",
+      "aa"
+    ],
+    "coda": [
+      "g",
+      "k",
+      "m",
+      "n",
+      "r",
+      "th",
+      "gg",
+      "rk"
+    ],
+    "masc": [
+      "og",
+      "ruk",
+      "gar",
+      "thok",
+      "um"
+    ],
+    "fem": [
+      "oga",
+      "mara",
+      "ugra",
+      "runa",
+      "asha"
+    ],
+    "neut": [
+      "og",
+      "uk",
+      "rag",
+      "um",
+      "ok"
+    ]
+  },
+  "giant": {
+    "label": "Broad, resonant, archaic fantasy",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "d",
+      "f",
+      "g",
+      "h",
+      "j",
+      "k",
+      "m",
+      "r",
+      "st",
+      "th",
+      "v"
+    ],
+    "nucleus": [
+      "a",
+      "o",
+      "u",
+      "ae",
+      "au",
+      "io"
+    ],
+    "coda": [
+      "n",
+      "r",
+      "m",
+      "th",
+      "nd",
+      "ld",
+      "rg",
+      "rn"
+    ],
+    "masc": [
+      "mund",
+      "gar",
+      "thor",
+      "vald",
+      "rik"
+    ],
+    "fem": [
+      "hild",
+      "mara",
+      "vara",
+      "dis",
+      "thra"
+    ],
+    "neut": [
+      "rum",
+      "var",
+      "ryn",
+      "dor",
+      "arn"
+    ]
+  },
+  "classical": {
+    "label": "Classical myth-inspired, original forms",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "i",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "s",
+      "t",
+      "x"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "y",
+      "ai",
+      "eo",
+      "io"
+    ],
+    "coda": [
+      "",
+      "s",
+      "n",
+      "r",
+      "os",
+      "on",
+      "is",
+      "as"
+    ],
+    "masc": [
+      "os",
+      "on",
+      "ius",
+      "es",
+      "ion"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "ene",
+      "ora",
+      "issa"
+    ],
+    "neut": [
+      "is",
+      "en",
+      "ion",
+      "ai",
+      "ys"
+    ]
+  },
+  "fey": {
+    "label": "Whimsical, airy, woodland",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "b",
+      "f",
+      "fl",
+      "gl",
+      "l",
+      "m",
+      "n",
+      "p",
+      "s",
+      "th",
+      "wh",
+      "y"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ee",
+      "ia"
+    ],
+    "coda": [
+      "",
+      "l",
+      "n",
+      "r",
+      "s",
+      "th",
+      "w",
+      "y"
+    ],
+    "masc": [
+      "ren",
+      "wick",
+      "lor",
+      "thorn",
+      "el"
+    ],
+    "fem": [
+      "belle",
+      "lina",
+      "wyn",
+      "ria",
+      "petal"
+    ],
+    "neut": [
+      "pix",
+      "ryn",
+      "lin",
+      "ari",
+      "whim"
+    ]
+  },
+  "nymphic": {
+    "label": "Lyrical nature-spirit, classical inspired",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "i",
+      "l",
+      "m",
+      "n",
+      "o",
+      "r",
+      "s",
+      "th"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "y",
+      "ae",
+      "io"
+    ],
+    "coda": [
+      "",
+      "a",
+      "e",
+      "n",
+      "s",
+      "r",
+      "th"
+    ],
+    "masc": [
+      "ion",
+      "os",
+      "es",
+      "or",
+      "is"
+    ],
+    "fem": [
+      "a",
+      "ea",
+      "ia",
+      "one",
+      "yra"
+    ],
+    "neut": [
+      "is",
+      "ae",
+      "ion",
+      "en",
+      "ys"
+    ]
+  },
+  "aquatic": {
+    "label": "Flowing, tidal, liquid sounds",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "b",
+      "c",
+      "d",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "wh"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ai",
+      "eo",
+      "ua"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "th"
+    ],
+    "masc": [
+      "mar",
+      "ion",
+      "drin",
+      "cor",
+      "thal"
+    ],
+    "fem": [
+      "lia",
+      "mara",
+      "nami",
+      "rill",
+      "sira"
+    ],
+    "neut": [
+      "tide",
+      "ryn",
+      "cor",
+      "ven",
+      "ael"
+    ]
+  },
+  "draconic": {
+    "label": "Sibilant, resonant, draconic fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "d",
+      "dr",
+      "k",
+      "kh",
+      "r",
+      "rh",
+      "s",
+      "ss",
+      "th",
+      "v",
+      "x",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "aa",
+      "ia"
+    ],
+    "coda": [
+      "k",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "th",
+      "x",
+      "z"
+    ],
+    "masc": [
+      "rax",
+      "thar",
+      "zor",
+      "kan",
+      "vyr"
+    ],
+    "fem": [
+      "thra",
+      "zara",
+      "kira",
+      "vessa",
+      "nyx"
+    ],
+    "neut": [
+      "zun",
+      "vyr",
+      "kith",
+      "rath",
+      "ssek"
+    ]
+  },
+  "serpentine": {
+    "label": "Sibilant serpent-folk fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "s",
+      "ss",
+      "sh",
+      "z",
+      "zh",
+      "x",
+      "k",
+      "th",
+      "v"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ia",
+      "ae"
+    ],
+    "coda": [
+      "s",
+      "sh",
+      "ss",
+      "th",
+      "x",
+      "z",
+      "n",
+      "r"
+    ],
+    "masc": [
+      "ssar",
+      "zek",
+      "thas",
+      "xor",
+      "ran"
+    ],
+    "fem": [
+      "sira",
+      "zha",
+      "thra",
+      "essa",
+      "ix"
+    ],
+    "neut": [
+      "iss",
+      "zun",
+      "esh",
+      "thil",
+      "xen"
+    ]
+  },
+  "beast": {
+    "label": "Earthy, agile fantasy folk",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "c",
+      "d",
+      "f",
+      "g",
+      "h",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "th"
+    ],
+    "masc": [
+      "gar",
+      "len",
+      "dor",
+      "rik",
+      "fang"
+    ],
+    "fem": [
+      "ra",
+      "lina",
+      "mara",
+      "wyn",
+      "essa"
+    ],
+    "neut": [
+      "ryn",
+      "ren",
+      "ari",
+      "tuft",
+      "ven"
+    ]
+  },
+  "avian": {
+    "label": "Light, sharp, windlike",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "c",
+      "f",
+      "h",
+      "k",
+      "kr",
+      "l",
+      "r",
+      "s",
+      "sk",
+      "t",
+      "v"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ai"
+    ],
+    "coda": [
+      "",
+      "k",
+      "l",
+      "n",
+      "r",
+      "s",
+      "t",
+      "w"
+    ],
+    "masc": [
+      "ren",
+      "tal",
+      "vor",
+      "drin",
+      "kaw"
+    ],
+    "fem": [
+      "ria",
+      "lina",
+      "elle",
+      "thra",
+      "vessa"
+    ],
+    "neut": [
+      "ryn",
+      "tal",
+      "ae",
+      "quill",
+      "wing"
+    ]
+  },
+  "undead": {
+    "label": "Sepulchral, dark fantasy",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "d",
+      "gr",
+      "h",
+      "m",
+      "n",
+      "r",
+      "s",
+      "v",
+      "w",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "m",
+      "n",
+      "r",
+      "s",
+      "th",
+      "v",
+      "rk",
+      "rn"
+    ],
+    "masc": [
+      "ric",
+      "van",
+      "dor",
+      "mir",
+      "rek"
+    ],
+    "fem": [
+      "mora",
+      "vessa",
+      "lith",
+      "nara",
+      "thra"
+    ],
+    "neut": [
+      "ren",
+      "vek",
+      "ryn",
+      "mourn",
+      "eth"
+    ]
+  },
+  "vampiric": {
+    "label": "Dark aristocratic fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "c",
+      "d",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "v",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ia",
+      "eo"
+    ],
+    "coda": [
+      "",
+      "l",
+      "n",
+      "r",
+      "s",
+      "th",
+      "v"
+    ],
+    "masc": [
+      "ian",
+      "or",
+      "ius",
+      "en",
+      "ard"
+    ],
+    "fem": [
+      "ia",
+      "essa",
+      "ora",
+      "ine",
+      "ara"
+    ],
+    "neut": [
+      "is",
+      "ien",
+      "ren",
+      "ael",
+      "eth"
+    ]
+  },
+  "lycan": {
+    "label": "Human-rooted with wild, lunar overtones",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "d",
+      "f",
+      "g",
+      "h",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th",
+      "w"
+    ],
+    "masc": [
+      "an",
+      "or",
+      "en",
+      "ric",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "elle",
+      "ena",
+      "ora"
+    ],
+    "neut": [
+      "en",
+      "is",
+      "ryn",
+      "el",
+      "ari"
+    ]
+  },
+  "fiendish": {
+    "label": "Infernal, harsh and ornate fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "b",
+      "d",
+      "g",
+      "k",
+      "m",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "v",
+      "x",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "k",
+      "l",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "th",
+      "x",
+      "z"
+    ],
+    "masc": [
+      "zar",
+      "vek",
+      "oth",
+      "kar",
+      "iel"
+    ],
+    "fem": [
+      "ara",
+      "essa",
+      "ira",
+      "yss",
+      "thra"
+    ],
+    "neut": [
+      "ryn",
+      "iel",
+      "ven",
+      "zai",
+      "ith"
+    ]
+  },
+  "celestial": {
+    "label": "Radiant, vowel-rich fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "a",
+      "c",
+      "el",
+      "i",
+      "l",
+      "m",
+      "n",
+      "or",
+      "s",
+      "ser",
+      "v"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ia",
+      "io"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th"
+    ],
+    "masc": [
+      "iel",
+      "ion",
+      "ael",
+      "or",
+      "ius"
+    ],
+    "fem": [
+      "ielle",
+      "ara",
+      "ia",
+      "essa",
+      "iel"
+    ],
+    "neut": [
+      "ael",
+      "iel",
+      "ryn",
+      "en",
+      "is"
+    ]
+  },
+  "djinn": {
+    "label": "Desert-wind fantasy, original forms",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "d",
+      "f",
+      "h",
+      "j",
+      "k",
+      "m",
+      "n",
+      "q",
+      "r",
+      "s",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "aa",
+      "ai",
+      "ou"
+    ],
+    "coda": [
+      "",
+      "d",
+      "m",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "q"
+    ],
+    "masc": [
+      "ir",
+      "an",
+      "ad",
+      "im",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ira",
+      "ara",
+      "iya",
+      "esh"
+    ],
+    "neut": [
+      "in",
+      "ar",
+      "im",
+      "esh",
+      "ai"
+    ]
+  },
+  "construct": {
+    "label": "Forged, artificial fantasy",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "br",
+      "c",
+      "g",
+      "k",
+      "r",
+      "st",
+      "t",
+      "v",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "coda": [
+      "g",
+      "k",
+      "n",
+      "r",
+      "t",
+      "x",
+      "ld",
+      "rk"
+    ],
+    "masc": [
+      "ton",
+      "rik",
+      "mar",
+      "drin",
+      "bolt"
+    ],
+    "fem": [
+      "ella",
+      "mina",
+      "dora",
+      "tria",
+      "vessa"
+    ],
+    "neut": [
+      "rix",
+      "ren",
+      "ven",
+      "cog",
+      "unit"
+    ]
+  },
+  "elemental": {
+    "label": "Elemental, natural-force fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "e",
+      "f",
+      "l",
+      "m",
+      "p",
+      "r",
+      "s",
+      "t",
+      "v",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "io"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th",
+      "x"
+    ],
+    "masc": [
+      "ron",
+      "kan",
+      "thos",
+      "mir",
+      "zar"
+    ],
+    "fem": [
+      "ra",
+      "ella",
+      "mora",
+      "thra",
+      "sira"
+    ],
+    "neut": [
+      "ion",
+      "ryn",
+      "ael",
+      "dra",
+      "ven"
+    ]
+  },
+  "plant": {
+    "label": "Root, leaf and blossom fantasy",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "b",
+      "f",
+      "g",
+      "l",
+      "m",
+      "r",
+      "s",
+      "th",
+      "v"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "coda": [
+      "",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th"
+    ],
+    "masc": [
+      "thorn",
+      "root",
+      "bark",
+      "ren",
+      "grove"
+    ],
+    "fem": [
+      "bloom",
+      "petal",
+      "mora",
+      "wyn",
+      "fern"
+    ],
+    "neut": [
+      "spore",
+      "leaf",
+      "ryn",
+      "root",
+      "moss"
+    ]
+  },
+  "insectoid": {
+    "label": "Chittering, precise fantasy",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "ch",
+      "k",
+      "kr",
+      "s",
+      "sk",
+      "t",
+      "th",
+      "v",
+      "x",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ix"
+    ],
+    "coda": [
+      "k",
+      "n",
+      "r",
+      "s",
+      "t",
+      "x",
+      "z",
+      "kt"
+    ],
+    "masc": [
+      "kik",
+      "zar",
+      "thrax",
+      "vek",
+      "drin"
+    ],
+    "fem": [
+      "kira",
+      "vessa",
+      "zzi",
+      "thra",
+      "mora"
+    ],
+    "neut": [
+      "rax",
+      "ryn",
+      "zith",
+      "ix",
+      "vek"
+    ]
+  },
+  "spectral": {
+    "label": "Breathy, echoing spirit names",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "h",
+      "l",
+      "m",
+      "n",
+      "s",
+      "sh",
+      "v",
+      "w"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ei"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th"
+    ],
+    "masc": [
+      "en",
+      "or",
+      "eth",
+      "ion",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "elle",
+      "ora",
+      "eth"
+    ],
+    "neut": [
+      "is",
+      "ryn",
+      "ael",
+      "en",
+      "iel"
+    ]
+  },
+  "posthuman": {
+    "label": "Future-human, smooth and adaptable",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "z",
+      "ka",
+      "ly",
+      "nov",
+      "sa"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "io",
+      "ei"
+    ],
+    "coda": [
+      "",
+      "n",
+      "r",
+      "s",
+      "x",
+      "l",
+      "v",
+      "nd"
+    ],
+    "masc": [
+      "an",
+      "or",
+      "en",
+      "ix",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "elle",
+      "ira",
+      "yn"
+    ],
+    "neut": [
+      "en",
+      "is",
+      "ryn",
+      "ae",
+      "ix"
+    ]
+  },
+  "cybernetic": {
+    "label": "Organic-cybernetic hybrid",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "a",
+      "c",
+      "d",
+      "j",
+      "k",
+      "m",
+      "n",
+      "r",
+      "s",
+      "v",
+      "x",
+      "z",
+      "cy",
+      "syn",
+      "tek"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ai",
+      "io"
+    ],
+    "coda": [
+      "",
+      "n",
+      "r",
+      "x",
+      "k",
+      "s",
+      "v"
+    ],
+    "masc": [
+      "on",
+      "ek",
+      "ar",
+      "ix"
+    ],
+    "fem": [
+      "a",
+      "ix",
+      "ira",
+      "yn"
+    ],
+    "neut": [
+      "ix",
+      "en",
+      "ai",
+      "os"
+    ]
+  },
+  "alien-balanced": {
+    "label": "Balanced pronounceable alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "b",
+      "d",
+      "g",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "z",
+      "kh",
+      "sh",
+      "th",
+      "vr"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "aa",
+      "ae",
+      "io",
+      "ou"
+    ],
+    "coda": [
+      "",
+      "n",
+      "r",
+      "s",
+      "k",
+      "th",
+      "v",
+      "x"
+    ],
+    "masc": [
+      "ar",
+      "ok",
+      "en",
+      "ir",
+      "ath"
+    ],
+    "fem": [
+      "a",
+      "ira",
+      "eth",
+      "ae",
+      "ora"
+    ],
+    "neut": [
+      "en",
+      "ix",
+      "ai",
+      "or",
+      "uth"
+    ]
+  },
+  "alien-melodic": {
+    "label": "Melodic alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "v",
+      "y",
+      "th",
+      "sh",
+      "ae",
+      "eli",
+      "ori"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ai",
+      "ei",
+      "ia",
+      "io"
+    ],
+    "coda": [
+      "",
+      "l",
+      "n",
+      "r",
+      "s",
+      "v",
+      "th"
+    ],
+    "masc": [
+      "iel",
+      "or",
+      "ain",
+      "eth"
+    ],
+    "fem": [
+      "ia",
+      "ara",
+      "elle",
+      "ae"
+    ],
+    "neut": [
+      "ael",
+      "ien",
+      "ori",
+      "ys"
+    ]
+  },
+  "alien-guttural": {
+    "label": "Dense guttural alien",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "g",
+      "gr",
+      "k",
+      "kr",
+      "q",
+      "r",
+      "t",
+      "tr",
+      "v",
+      "vr",
+      "x",
+      "z",
+      "zh",
+      "kh"
+    ],
+    "nucleus": [
+      "a",
+      "o",
+      "u",
+      "aa",
+      "ou",
+      "ui"
+    ],
+    "coda": [
+      "k",
+      "q",
+      "r",
+      "g",
+      "x",
+      "th",
+      "rk",
+      "zg",
+      ""
+    ],
+    "masc": [
+      "ak",
+      "or",
+      "uk",
+      "rax"
+    ],
+    "fem": [
+      "a",
+      "ara",
+      "ukh",
+      "exa"
+    ],
+    "neut": [
+      "ok",
+      "ix",
+      "ur",
+      "ath"
+    ]
+  },
+  "alien-sibilant": {
+    "label": "Sibilant alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "s",
+      "ss",
+      "sh",
+      "z",
+      "zh",
+      "x",
+      "th",
+      "v",
+      "r",
+      "sz"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ia"
+    ],
+    "coda": [
+      "",
+      "s",
+      "sh",
+      "z",
+      "th",
+      "ss",
+      "x"
+    ],
+    "masc": [
+      "esh",
+      "zar",
+      "iss",
+      "oth"
+    ],
+    "fem": [
+      "essa",
+      "ira",
+      "asha",
+      "ith"
+    ],
+    "neut": [
+      "is",
+      "esh",
+      "yth",
+      "ax"
+    ]
+  },
+  "alien-click": {
+    "label": "Clipped / percussive alien",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "k",
+      "q",
+      "t",
+      "x",
+      "z",
+      "kt",
+      "qx",
+      "tz",
+      "kr",
+      "ch",
+      "tk"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "k",
+      "q",
+      "t",
+      "x",
+      "z",
+      "kt",
+      "",
+      "ch"
+    ],
+    "masc": [
+      "ak",
+      "tek",
+      "qor",
+      "ix"
+    ],
+    "fem": [
+      "ika",
+      "exa",
+      "ati",
+      "qae"
+    ],
+    "neut": [
+      "ik",
+      "qt",
+      "ax",
+      "et"
+    ]
+  },
+  "alien-aquatic": {
+    "label": "Fluid aquatic alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "m",
+      "n",
+      "l",
+      "r",
+      "v",
+      "s",
+      "th",
+      "ph",
+      "wh",
+      "na",
+      "lu"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "oa",
+      "ui",
+      "ia"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th"
+    ],
+    "masc": [
+      "or",
+      "an",
+      "iel",
+      "um"
+    ],
+    "fem": [
+      "ara",
+      "ia",
+      "elle",
+      "una"
+    ],
+    "neut": [
+      "ae",
+      "in",
+      "ori",
+      "ul"
+    ]
+  },
+  "alien-avian": {
+    "label": "Airy avian alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "a",
+      "e",
+      "i",
+      "k",
+      "l",
+      "r",
+      "s",
+      "t",
+      "v",
+      "y",
+      "kr",
+      "tr",
+      "sk"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ei"
+    ],
+    "coda": [
+      "",
+      "k",
+      "l",
+      "r",
+      "s",
+      "t",
+      "v"
+    ],
+    "masc": [
+      "ar",
+      "ik",
+      "or",
+      "et"
+    ],
+    "fem": [
+      "a",
+      "ira",
+      "eli",
+      "ae"
+    ],
+    "neut": [
+      "ir",
+      "ae",
+      "en",
+      "ys"
+    ]
+  },
+  "alien-cephalopod": {
+    "label": "Soft consonant / cephalopod alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "th",
+      "vl",
+      "ph",
+      "ul"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "oa",
+      "ui",
+      "ae"
+    ],
+    "coda": [
+      "",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "ph"
+    ],
+    "masc": [
+      "ul",
+      "or",
+      "em",
+      "ath"
+    ],
+    "fem": [
+      "ula",
+      "ira",
+      "eia",
+      "oma"
+    ],
+    "neut": [
+      "um",
+      "ae",
+      "ori",
+      "en"
+    ]
+  },
+  "alien-botanical": {
+    "label": "Botanical alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "f",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "th",
+      "v",
+      "fl",
+      "br",
+      "vr"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ia"
+    ],
+    "coda": [
+      "",
+      "l",
+      "n",
+      "r",
+      "s",
+      "th",
+      "m"
+    ],
+    "masc": [
+      "or",
+      "en",
+      "al",
+      "ith"
+    ],
+    "fem": [
+      "a",
+      "ella",
+      "ira",
+      "yn"
+    ],
+    "neut": [
+      "el",
+      "ae",
+      "ryn",
+      "um"
+    ]
+  },
+  "alien-fungal": {
+    "label": "Fungal alien",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "m",
+      "my",
+      "n",
+      "sp",
+      "th",
+      "v",
+      "z",
+      "sh",
+      "gr",
+      "ph"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ou"
+    ],
+    "coda": [
+      "",
+      "m",
+      "n",
+      "r",
+      "s",
+      "sh",
+      "th"
+    ],
+    "masc": [
+      "on",
+      "or",
+      "um",
+      "esh"
+    ],
+    "fem": [
+      "a",
+      "ora",
+      "ira",
+      "my"
+    ],
+    "neut": [
+      "um",
+      "en",
+      "ys",
+      "or"
+    ]
+  },
+  "alien-crystalline": {
+    "label": "Crystalline alien",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "c",
+      "k",
+      "q",
+      "x",
+      "z",
+      "v",
+      "cr",
+      "kr",
+      "zr",
+      "gl"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "yi"
+    ],
+    "coda": [
+      "",
+      "k",
+      "x",
+      "z",
+      "r",
+      "th",
+      "n"
+    ],
+    "masc": [
+      "ax",
+      "or",
+      "ek",
+      "ith"
+    ],
+    "fem": [
+      "ixa",
+      "ara",
+      "eia",
+      "yn"
+    ],
+    "neut": [
+      "yx",
+      "ae",
+      "on",
+      "ir"
+    ]
+  },
+  "alien-silicon": {
+    "label": "Mineral / silicon alien",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "k",
+      "q",
+      "x",
+      "z",
+      "t",
+      "v",
+      "kr",
+      "qr",
+      "tr",
+      "zr"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae"
+    ],
+    "coda": [
+      "k",
+      "x",
+      "q",
+      "t",
+      "r",
+      "n",
+      "",
+      "th"
+    ],
+    "masc": [
+      "ek",
+      "or",
+      "ax",
+      "un"
+    ],
+    "fem": [
+      "eka",
+      "ixa",
+      "ara",
+      "un"
+    ],
+    "neut": [
+      "ex",
+      "on",
+      "ir",
+      "aq"
+    ]
+  },
+  "alien-gaseous": {
+    "label": "Breathy gaseous alien",
+    "syllables": [
+      2,
+      4
+    ],
+    "onset": [
+      "",
+      "h",
+      "s",
+      "sh",
+      "v",
+      "wh",
+      "f",
+      "th",
+      "z"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ou",
+      "ui"
+    ],
+    "coda": [
+      "",
+      "h",
+      "s",
+      "sh",
+      "v",
+      "th"
+    ],
+    "masc": [
+      "os",
+      "ar",
+      "ush",
+      "eth"
+    ],
+    "fem": [
+      "ia",
+      "asha",
+      "ae",
+      "ora"
+    ],
+    "neut": [
+      "ae",
+      "ush",
+      "en",
+      "oh"
+    ]
+  },
+  "alien-energy": {
+    "label": "Energy-form alien",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "v",
+      "x",
+      "z",
+      "ph",
+      "ly",
+      "ra"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "io",
+      "yi"
+    ],
+    "coda": [
+      "",
+      "x",
+      "v",
+      "s",
+      "l",
+      "r"
+    ],
+    "masc": [
+      "ion",
+      "ex",
+      "or",
+      "ael"
+    ],
+    "fem": [
+      "ia",
+      "exa",
+      "ara",
+      "iel"
+    ],
+    "neut": [
+      "ix",
+      "ae",
+      "ion",
+      "ys"
+    ]
+  },
+  "alien-void": {
+    "label": "Void / field-form alien",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "v",
+      "x",
+      "z",
+      "q",
+      "r",
+      "n",
+      "vr",
+      "xr",
+      "zh"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "ou"
+    ],
+    "coda": [
+      "",
+      "x",
+      "r",
+      "v",
+      "q",
+      "th",
+      "z"
+    ],
+    "masc": [
+      "or",
+      "ax",
+      "ur",
+      "eth"
+    ],
+    "fem": [
+      "ara",
+      "ixa",
+      "ae",
+      "ora"
+    ],
+    "neut": [
+      "ix",
+      "ae",
+      "or",
+      "um"
+    ]
+  },
+  "collective": {
+    "label": "Collective intelligence designation",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "c",
+      "h",
+      "k",
+      "m",
+      "n",
+      "s",
+      "v",
+      "x",
+      "z",
+      "syn",
+      "uni",
+      "chor"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "io"
+    ],
+    "coda": [
+      "",
+      "m",
+      "n",
+      "r",
+      "s",
+      "x"
+    ],
+    "masc": [
+      "on",
+      "ar",
+      "ix"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "yn"
+    ],
+    "neut": [
+      "um",
+      "ix",
+      "en",
+      "ae"
+    ]
+  },
+  "synthetic": {
+    "label": "Machine / robot personal designation",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "k",
+      "n",
+      "r",
+      "s",
+      "t",
+      "v",
+      "x",
+      "z",
+      "mech",
+      "syn"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ai",
+      "io"
+    ],
+    "coda": [
+      "",
+      "k",
+      "n",
+      "r",
+      "x",
+      "t"
+    ],
+    "masc": [
+      "on",
+      "ex",
+      "ar"
+    ],
+    "fem": [
+      "a",
+      "ixa",
+      "ira"
+    ],
+    "neut": [
+      "ix",
+      "en",
+      "unit"
+    ]
+  },
+  "android": {
+    "label": "Humanoid synthetic naming",
+    "syllables": [
+      2,
+      3
+    ],
+    "onset": [
+      "a",
+      "e",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "r",
+      "s",
+      "v",
+      "x"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "ae",
+      "io"
+    ],
+    "coda": [
+      "",
+      "n",
+      "r",
+      "s",
+      "x",
+      "l"
+    ],
+    "masc": [
+      "an",
+      "or",
+      "ix"
+    ],
+    "fem": [
+      "a",
+      "ia",
+      "elle"
+    ],
+    "neut": [
+      "en",
+      "ix",
+      "ari"
+    ]
+  },
+  "digital": {
+    "label": "Digital consciousness handle",
+    "syllables": [
+      1,
+      3
+    ],
+    "onset": [
+      "a",
+      "c",
+      "e",
+      "i",
+      "n",
+      "q",
+      "r",
+      "s",
+      "v",
+      "x",
+      "z",
+      "neo",
+      "sys"
+    ],
+    "nucleus": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u",
+      "io",
+      "ai"
+    ],
+    "coda": [
+      "",
+      "x",
+      "n",
+      "r",
+      "s",
+      "v"
+    ],
+    "masc": [
+      "ex",
+      "on",
+      "ar"
+    ],
+    "fem": [
+      "ia",
+      "exa",
+      "ae"
+    ],
+    "neut": [
+      "ix",
+      "os",
+      "en",
+      "io"
+    ]
+  }
+}
