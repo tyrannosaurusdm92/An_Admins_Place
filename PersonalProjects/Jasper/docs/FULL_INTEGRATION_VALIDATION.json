@@ -1,0 +1,82 @@
+{
+  "schema": "jasper.full-integration.validation.v1",
+  "date": "2026-09-20",
+  "ok": true,
+  "counts": {
+    "unified_character_profiles": 159,
+    "research_profiles": 134,
+    "runtime_guide_sections": 33,
+    "people_places_non_ui_runtime_modules": 48,
+    "json_files": 564,
+    "javascript_files": 39,
+    "html_script_tags": 39
+  },
+  "integration_checks": {
+    "new_fic_creation_uses_creation_source_enrichment": true,
+    "canonical_character_resolver_fandom_qualified": true,
+    "material_hub_in_normal_generation_path": true,
+    "material_hub_in_direct_bridge_path": true,
+    "direct_explicit_bridge_defaults_private_mode": true,
+    "private_output_validation_and_repair": true,
+    "cyoa_branch_builder_called_by_engine": true,
+    "private_chapter_returns_with_one_resume_choice": true,
+    "william_writer_reference_available": true,
+    "writing_style_runtime_called": true,
+    "continuity_runtime_called": true,
+    "story_graph_runtime_available": false,
+    "people_places_runtime_available": true,
+    "hard_explicit_guide_is_runtime_material": true,
+    "grammar_validator_active": true,
+    "normal_writer_and_private_bridge_have_separate_boundaries": true,
+    "backend_material_payload_fields": true,
+    "backend_endpoint_preserved": [
+      "https://script.google.com/macros/s/AKfycbwyy_jft1QFTh14LK77gmD32Ttow-dMsZBRW0NUEIslkvOZC_G0D7sAlRrspsnpa_G1/exec"
+    ]
+  },
+  "offline_harness_results": {
+    "direct_bridge": {
+      "ok": true,
+      "profiles": 159,
+      "research": 134,
+      "resolved_example": "palia-hodari-pavel",
+      "support_people": 16,
+      "support_places": 21,
+      "cyoa_choices": 4,
+      "provider_calls": 1,
+      "material_prompt_chars": 26000,
+      "private_runtime_spec_chars": 14479,
+      "writer_reference_present": true,
+      "direct_bridge_mode": "explicit_detailed",
+      "deliberate_bad_fade_sample_problems_detected": 2
+    },
+    "full_flow": {
+      "ok": true,
+      "provider_calls": 3,
+      "sequence": [
+        "new story opening (mature_on_page)",
+        "private CYOA handoff (explicit_detailed)",
+        "return to story (mature_on_page)"
+      ],
+      "opening_choice_paths": [
+        "direct",
+        "playful",
+        "plot",
+        "private-handoff"
+      ],
+      "private_return_choice": {
+        "label": "Return to the story",
+        "path_key": "resume_story",
+        "target": "@generate"
+      },
+      "relevant_guide_sections_loaded_for_private_request": 24,
+      "runtime_session_turns": 5,
+      "story_graph_nodes": 3
+    }
+  },
+  "validation_scope": {
+    "javascript": "All 39 top-level JS files passed node --check after final patches.",
+    "json": "All 564 JSON files parsed successfully.",
+    "script_references": "All 39 local script tags resolve to existing files.",
+    "network": "No live Apps Script generation request was sent during this pass; backend transport/payload construction was tested with a local fake provider."
+  }
+}

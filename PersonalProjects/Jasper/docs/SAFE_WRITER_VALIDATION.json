@@ -1,0 +1,34 @@
+{
+  "build": "Jasper_Fanfic_CYOA_ChatGPT_SafeWriter_PrivateBridge_2026-09-19",
+  "validated_on": "2026-09-19",
+  "architecture": {
+    "normal_writer_boundary": "before nudity or sexual action",
+    "single_private_bridge": "js/explicit-bridge.js",
+    "single_user_placeholder": true,
+    "ordinary_generation_mode": "mature_on_page",
+    "private_handoff_compatibility_target": "@generate-explicit-detailed",
+    "return_to_story_after_private_interlude": true
+  },
+  "checks": {
+    "javascript_files_syntax_checked": 32,
+    "javascript_syntax_errors": 0,
+    "json_files_parsed": 213,
+    "json_parse_errors": 0,
+    "series": 5,
+    "chapters": 200,
+    "private_handoff_choices": 210,
+    "private_choice_metadata_errors": 0,
+    "exact_llama_placeholder_occurrences": 1,
+    "literotica_reference_objects": 1,
+    "duplicate_html_ids": 0,
+    "missing_local_html_references": 0,
+    "runtime_module_load_test": "pass",
+    "ordinary_provider_story_first_test": "pass",
+    "unchanged_placeholder_blocks_private_route": "pass",
+    "configured_placeholder_reaches_private_provider": "pass",
+    "private_literotica_reference_forwarded": "pass",
+    "normal_writer_boundary_validator": "pass",
+    "source_story_json_files": 207
+  },
+  "browser_note": "A container Chromium headless launch was attempted but the container's Chromium process did not complete its headless render because of environment-level DBus/zygote issues. Browser interaction is therefore not claimed by this validation file; static and runtime VM checks passed."
+}

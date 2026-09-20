@@ -1,17 +1,7 @@
-# Validation record
+# Validation
 
-Validated September 19, 2026 before packaging.
+Current authoritative validation is `SAFE_WRITER_VALIDATION.json`.
 
-- Python build-time augmentation completed for five routes and 200 chapter JSON files.
-- Every bundled route has 40 chapters and every chapter includes an optional generator-backed explicit adult branch.
-- Legacy `avatar-*` and `su-*` targets were repaired to stable route chapter IDs.
-- `js/fanfic-data.js` is a complete direct-file/offline mirror of the JSON routes.
-- `node --check` passed for `js/app.js`, `js/cyoa-story-engine.js`, and `js/fanfic-data.js`.
-- Engine smoke test passed: offline bundle loading, route start, existing-chapter choice, undo, named branch creation, and branch restoration.
-- New route folder calculation preserves the requested shape `json/<Fandom>/<Dashed-Story-Name>/`.
-- The book opens from the Jasper cover asset, page-flip audio is set to lower volume and slightly slower playback, and the reference book's content is absent.
-- Reader typography and controls were compacted, and every rendered page now measures its natural content and scales it down to the paper bounds before clipping; the fit recalculates on render, resize, and zoom.
-- Bundled chapters contain no fade-to-black instructions or private-editor branches; optional adult intimacy choices use generator-backed continuations.
+The safe-writer/private-bridge pass validates all JavaScript syntax, all JSON parsing, the five-series/200-chapter library, private-handoff choice metadata, the single searchable placeholder, the single Literotica reference object, local HTML references/IDs, and a Node VM runtime smoke test of both ordinary generation and private-handoff behavior.
 
-The five source routes remain separate JSON files so Jasper can inspect or
-edit them directly in GitHub.
+A Chromium headless render was attempted in the container, but that Chromium process did not complete because of environment-level DBus/zygote behavior. This build therefore does **not** claim a fresh browser-interaction test from this pass. The prior reader UI remains structurally unchanged apart from cache-busting script versions and text labels.

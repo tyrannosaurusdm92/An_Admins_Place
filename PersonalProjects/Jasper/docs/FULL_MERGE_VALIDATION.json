@@ -1,0 +1,73 @@
+{
+  "json_files": 211,
+  "json_errors": [],
+  "fanfic_chapters": 200,
+  "fanfic_series": 5,
+  "duplicate_html_ids": [],
+  "missing_local_html_refs": [],
+  "script_count": 32,
+  "scripts": [
+    "js/fanfic-data.js?v=20260919-5",
+    "js/jasper-fanfiction-adult-contract.js?v=20260919-5",
+    "js/jasper-fanfiction-reader-profile.js?v=20260919-5",
+    "js/jasper-fanfiction-canon-era.js?v=20260919-5",
+    "js/jasper-fanfiction-writing-style.js?v=20260919-5",
+    "js/jasper-fanfiction-scene-beats.js?v=20260919-5",
+    "js/jasper-fanfiction-output-validator.js?v=20260919-5",
+    "js/jasper-fanfiction-character-reactions.js",
+    "js/jasper-fanfiction-relationship-engine.js",
+    "js/jasper-fanfiction-continuity-memory.js",
+    "js/jasper-fanfiction-session-memory.js",
+    "js/jasper-fanfiction-story-graph.js",
+    "js/jasper-fanfiction-branch-builder.js?v=20260919-5",
+    "js/jasper-fanfiction-setting-generator.js",
+    "js/jasper-fanfiction-fandom-context.js",
+    "js/jasper-fanfiction-lore-library.js",
+    "js/jasper-fanfiction-dialogue-parser.js",
+    "js/jasper-fanfiction-character-context.js",
+    "js/jasper-fanfiction-character-prompt.js?v=20260919-5",
+    "js/jasper-fanfiction-generation-stream.js",
+    "js/jasper-fanfiction-intent-fallback.js?v=20260919-5",
+    "js/jasper-fanfiction-runtime.js",
+    "js/writer-reference.js?v=20260919-storyfirst",
+    "js/story-continuity.js?v=20260919-storyfirst",
+    "js/writer-memory.js?v=20260919-storyfirst",
+    "js/plot-hole-defeater.js?v=20260919-storyfirst",
+    "js/fiction-writer.js?v=20260919-storyfirst",
+    "js/jasper-fanfiction-backend-provider.js?v=20260919-5",
+    "js/explicit-bridge.js?v=20260919-storyfirst",
+    "js/jasper-fanfiction-character-dialogue.js?v=20260919-5",
+    "js/cyoa-story-engine.js?v=20260919-storyfirst",
+    "js/app.js?v=20260919-storyfirst"
+  ],
+  "single_placeholder_declarations": 1,
+  "old_placeholder_occurrences": 0,
+  "bridge_js_files": [
+    "js/explicit-bridge.js"
+  ],
+  "writer_modules_have_es_import_export": {
+    "fiction-writer.js": false,
+    "story-continuity.js": false,
+    "writer-memory.js": false,
+    "plot-hole-defeater.js": false,
+    "writer-reference.js": false
+  },
+  "writer_module_sizes_bytes": {
+    "fiction-writer.js": 21556,
+    "story-continuity.js": 19073,
+    "writer-memory.js": 15147,
+    "plot-hole-defeater.js": 17377,
+    "writer-reference.js": 340770
+  },
+  "static_explicit_choice_targets": 210,
+  "static_ordinary_generate_targets": 0,
+  "old_json_chapter_positions": 200,
+  "current_json_chapter_positions": 200,
+  "old_positions_missing_current": [],
+  "story_first_markers": {
+    "ordinary_resolve_mature": true,
+    "return_to_story": true,
+    "backend_story_first": true,
+    "bridge_story_first": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "errors": [],
+  "counts": {
+    "unified_character_profiles": 159,
+    "latest_research_profiles": 134,
+    "people_places_runtime_modules": 48,
+    "people_places_json_banks": 14,
+    "all_project_json_files": 562,
+    "all_project_js_files": 87
+  },
+  "checks": {
+    "all_json_parsed": true,
+    "javascript_syntax": {
+      "jasper-fanfiction-people-places-source.js": true,
+      "jasper-fanfiction-character-library.js": true,
+      "jasper-fanfiction-creation-sources.js": true,
+      "jasper-fanfiction-material-hub.js": true,
+      "cyoa-story-engine.js": true,
+      "explicit-bridge.js": true,
+      "jasper-fanfiction-backend-provider.js": true,
+      "jasper-fanfiction-runtime.js": true,
+      "app.js": true,
+      "jasper-fanfiction-character-context.js": true
+    },
+    "script_order_ok": true,
+    "research_profiles_fully_reconciled": true,
+    "people_places_json_byte_identical": true,
+    "bridge_has_material_hydration": true,
+    "backend_persists_materials": true,
+    "normal_and_bridge_share_hub": true
+  }
+}

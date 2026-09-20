@@ -1,0 +1,42 @@
+{
+  "pass": "expand_correct_pass3_character_library",
+  "profile_count": 40,
+  "character_index": "json/characters/index.json",
+  "series_profile_counts": [
+    {
+      "series": "Stars Between the Strings",
+      "slug": "stars-between-the-strings",
+      "profiles": 6
+    },
+    {
+      "series": "What the Armor Leaves Behind",
+      "slug": "what-the-armor-leaves-behind",
+      "profiles": 13
+    },
+    {
+      "series": "Love & Duty",
+      "slug": "love-and-duty",
+      "profiles": 9
+    },
+    {
+      "series": "Jasmine After Rain",
+      "slug": "jasmine-after-rain",
+      "profiles": 5
+    },
+    {
+      "series": "After Always",
+      "slug": "after-always",
+      "profiles": 11
+    }
+  ],
+  "json_parse_errors": 0,
+  "js_syntax_errors": 0,
+  "authored_series": 5,
+  "authored_chapters": 200,
+  "bridge_sha256": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+  "bridge_modified": false,
+  "new_runtime_module": "js/jasper-fanfiction-character-library.js",
+  "writer_reference_character_integration": true,
+  "engine_awaits_character_context": true,
+  "story_original_same_name_collision_handled": true
+}

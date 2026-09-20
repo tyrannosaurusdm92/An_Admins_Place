@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "character_profiles": 159,
+  "duplicates_merged": 15,
+  "people_places_bundle_bytes": 2392608,
+  "people_places_json_files": 14,
+  "explicit_bridge_sha256_before": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+  "explicit_bridge_sha256_after": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+  "explicit_bridge_unchanged": true,
+  "javascript_syntax": {
+    "jasper-fanfiction-character-library.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "jasper-fanfiction-creation-sources.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "jasper-fanfiction-people-places-source.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "app.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "cyoa-story-engine.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "jasper-fanfiction-runtime.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "jasper-fanfiction-character-context.js": {
+      "ok": true,
+      "stderr": ""
+    }
+  },
+  "errors": []
+}

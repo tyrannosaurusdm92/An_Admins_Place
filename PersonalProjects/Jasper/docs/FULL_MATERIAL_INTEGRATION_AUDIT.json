@@ -1,0 +1,59 @@
+{
+  "schema": "jasper.full-material-integration-audit.v1",
+  "date": "2026-09-20",
+  "inputs": {
+    "merged_generator": "Jasper_Fanfic_CYOA_Merged_Characters_PeoplePlaces_2026-09-20(1).zip",
+    "expanded_character_research": "Jasper_Fanfiction_Character_Library_EXPANDED_Research_Pass(2).zip",
+    "people_places": "People_Places_Generator_People_Locations_Clean(1).zip",
+    "pass3_reference": "Jasper_Fanfic_CYOA_Expanded_Corrected_Pass3_Characters_2026-09-20(1).zip"
+  },
+  "character_library": {
+    "unified_profiles": 159,
+    "latest_research_profiles": 134,
+    "latest_research_profiles_resolved_into_unified_library": 134,
+    "latest_research_unmatched": [],
+    "records_with_embedded_research_profile": 134,
+    "story_original_records": 5,
+    "dedupe_policy": "fandom + fictional character identity"
+  },
+  "people_places": {
+    "source_json_count": 14,
+    "runtime_json_count": 14,
+    "runtime_json_byte_identical_to_source": true,
+    "source_js_count": 50,
+    "runtime_non_ui_modules_bundled": 48,
+    "preserved_ui_modules": [
+      "38-ui.js",
+      "39-app.js"
+    ],
+    "all_original_source_preserved_under": "docs/people-places-source-full"
+  },
+  "provider_paths": {
+    "normal_story_engine": "StoryGenerator.generate -> wrapped provider -> MaterialHub.hydrateRequest -> backend provider",
+    "explicit_bridge": "JasperExplicitBridge.create/continue/branch -> MaterialHub.hydrateRequest -> wrapped provider -> backend provider",
+    "backend_create": "fanfic.create receives synced series with character_library, creation_sources, materials_context, story_bible material prompt and character_bible material",
+    "backend_continue": "fanfic.save stores same synced material context; fanfic.continue/branch direction also includes relevance-filtered material prompt"
+  },
+  "materials_exposed": [
+    "159 unified fandom-qualified character records",
+    "latest 134-profile research layer",
+    "character library rules",
+    "continuation context template",
+    "People+Places 48-module non-UI runtime",
+    "all People+Places JSON banks",
+    "optional generated adult supporting cast and locations",
+    "People+Places relationships/social graph/routines/events/simulation/search/statistics",
+    "authored library continuity",
+    "reader/adult/canon-era contracts",
+    "William writer-reference and writing-style material",
+    "story continuity/writer memory",
+    "scene beats",
+    "fandom context",
+    "setting context",
+    "lore",
+    "character context",
+    "relationship state",
+    "plot-hole/quality-gate availability"
+  ],
+  "payload_strategy": "All systems are available, but requests receive a relevant packet rather than all 159 profiles and every data bank at once."
+}

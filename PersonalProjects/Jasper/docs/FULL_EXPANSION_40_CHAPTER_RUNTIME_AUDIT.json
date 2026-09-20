@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "series_count": 5,
+  "authored_chapters": 200,
+  "chapters_per_series": {
+    "After Always": 40,
+    "Love & Duty": 40,
+    "Jasmine After Rain": 40,
+    "What the Armor Leaves Behind": 40,
+    "Stars Between the Strings": 40
+  },
+  "total_authored_words": 300007,
+  "minimum_chapter_words_by_series": {
+    "HP/After-Always": 1006,
+    "Avatar/Love-And-Duty": 1501,
+    "Avatar/Jasmine-After-Rain": 1495,
+    "FO4/What-The-Armor-Leaves-Behind": 1500,
+    "SU/Stars-Between-The-Strings": 1495
+  },
+  "private_handoff_choices": 200,
+  "normal_authored_choices": 400,
+  "legacy_fade_prose_hits": 0,
+  "placeholder_prose_hits": 0,
+  "grammar_case_hits": 0,
+  "js_files": 33,
+  "js_syntax_failures": 0,
+  "json_files_total": 216,
+  "json_parse_failures": 0,
+  "backend_endpoint_files": [
+    "js/jasper-fanfiction-backend-provider.js"
+  ],
+  "backend_source_files": [],
+  "backend_endpoint_in_html": false,
+  "explicit_bridge_sha256": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+  "explicit_bridge_matches_uploaded": true,
+  "runtime_capabilities": {
+    "original_series": 5,
+    "original_chapters_per_series": 40,
+    "original_chapters_total": 200,
+    "continue_beyond_original_endings": true,
+    "branch_from_choices": true,
+    "save_restore_branches": true,
+    "create_new_fanfiction": true,
+    "private_handoff_via_bridge": true,
+    "private_handoff_visual_transition": "fade_to_black",
+    "backend_endpoint_location": "js/jasper-fanfiction-backend-provider.js only; not HTML or JSON metadata",
+    "backend_source_in_frontend": false,
+    "original_series_count": 5,
+    "authored_chapters_per_original_series": 40,
+    "original_authored_chapters_total": 200,
+    "continue_beyond_authored_ending": true,
+    "private_handoff_via_explicit_bridge": true,
+    "private_handoff_returns_to_story": true
+  },
+  "issues": []
+}

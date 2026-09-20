@@ -1,0 +1,197 @@
+{
+  "audit": "expand-correct-pass2-final",
+  "date": "2026-09-20",
+  "schema_target": "6.4",
+  "library": {
+    "series": 5,
+    "chapters": 200,
+    "authored_words": 300058,
+    "chapters_per_series": {
+      "after-always": 40,
+      "love-and-duty": 40,
+      "jasmine-after-rain": 40,
+      "what-the-armor-leaves-behind": 40,
+      "stars-between-the-strings": 40
+    }
+  },
+  "schema_coverage": {
+    "format": 200,
+    "canon_window": 200,
+    "research_alignment": 200,
+    "continuity_snapshot": 200,
+    "writer_reference": 200,
+    "generation_contract": 200,
+    "private_handoff_eligibility": 200
+  },
+  "choice_integrity": {
+    "all_chapters_two_story_one_private": true,
+    "private_ready": 125,
+    "private_hidden_early": 75,
+    "missing_path_variants": [],
+    "duplicate_path_keys": []
+  },
+  "prose_lint": {
+    "targeted_object_case_hits_outside_dialogue": [],
+    "targeted_second_person_narration_hits": [],
+    "legacy_fade_censorship_hits": []
+  },
+  "code_integrity": {
+    "javascript_files": 33,
+    "javascript_syntax_errors": [],
+    "json_files_total": 218,
+    "json_parse_errors": [],
+    "duplicate_html_ids": [],
+    "missing_local_html_refs": [],
+    "backend_gs_files": [],
+    "backend_endpoint_files": [
+      "js/jasper-fanfiction-backend-provider.js"
+    ]
+  },
+  "preservation": {
+    "baseline_files": 274,
+    "current_files": 276,
+    "removed_files": [],
+    "added_files": [
+      "docs/EXPAND_CORRECT_PASS2_AUDIT.json",
+      "json/authored-library-index.json"
+    ]
+  },
+  "bridge": {
+    "sha256": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+    "expected_sha256": "cd4c7f3658a044fdec4a5e1ef83f9b48dcb07a4d950842b563896f72b7165e12",
+    "unchanged": true
+  },
+  "runtime_smoke": {
+    "series": [
+      {
+        "key": "after-always",
+        "count": 40,
+        "ch1Choices": 2,
+        "ch20Choices": 3,
+        "ch40Choices": 3,
+        "private20Target": "@generate-explicit-detailed",
+        "private20Variant": true,
+        "ch40Targets": [
+          "@generate",
+          "@generate",
+          "@generate-explicit-detailed"
+        ]
+      },
+      {
+        "key": "jasmine-after-rain",
+        "count": 40,
+        "ch1Choices": 2,
+        "ch20Choices": 3,
+        "ch40Choices": 3,
+        "private20Target": "@generate-explicit-detailed",
+        "private20Variant": true,
+        "ch40Targets": [
+          "@generate",
+          "@generate",
+          "@generate-explicit-detailed"
+        ]
+      },
+      {
+        "key": "love-and-duty",
+        "count": 40,
+        "ch1Choices": 2,
+        "ch20Choices": 3,
+        "ch40Choices": 3,
+        "private20Target": "@generate-explicit-detailed",
+        "private20Variant": true,
+        "ch40Targets": [
+          "@generate",
+          "@generate",
+          "@generate-explicit-detailed"
+        ]
+      },
+      {
+        "key": "stars-between-the-strings",
+        "count": 40,
+        "ch1Choices": 2,
+        "ch20Choices": 3,
+        "ch40Choices": 3,
+        "private20Target": "@generate-explicit-detailed",
+        "private20Variant": true,
+        "ch40Targets": [
+          "@generate",
+          "@generate",
+          "@generate-explicit-detailed"
+        ]
+      },
+      {
+        "key": "what-the-armor-leaves-behind",
+        "count": 40,
+        "ch1Choices": 2,
+        "ch20Choices": 3,
+        "ch40Choices": 3,
+        "private20Target": "@generate-explicit-detailed",
+        "private20Variant": true,
+        "ch40Targets": [
+          "@generate",
+          "@generate",
+          "@generate-explicit-detailed"
+        ]
+      }
+    ],
+    "staticNavigation": {
+      "from": 1,
+      "to": 2,
+      "bridge": "From “The Man Who Was Supposed to Be Dead,” I carried forward the choice “Answer Snape plainly.” Meet precision with precision and refuse to hide behind softer wording. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem."
+    }
+  },
+  "generated_continuation_smoke": {
+    "chapter41": {
+      "number": 41,
+      "stage": "integrated_trust",
+      "privateReady": true,
+      "writerRef": "StoryTools.JasperWriterReference",
+      "continuityClosing": true
+    },
+    "chapter42": {
+      "number": 42,
+      "stage": "integrated_trust",
+      "sourceAuthored": "I laughed when the tension deserved laughter, then let the humor settle instead of using i"
+    },
+    "secondRequest": {
+      "parentNumber": 41,
+      "authoredLibraryNumber": 41,
+      "authoredStage": "integrated_trust",
+      "hasClosingAnchor": true,
+      "writerReferenceSchema": "jasper.writer.bridge-influence.v2"
+    }
+  },
+  "new_story_smoke": {
+    "seriesKey": "fresh-slow-burn",
+    "chapter": 1,
+    "stage": "chemistry",
+    "privateReady": false,
+    "visibleChoices": [
+      {
+        "label": "Tell the truth",
+        "target": "@generate"
+      },
+      {
+        "label": "Make them laugh",
+        "target": "@generate"
+      }
+    ],
+    "allChoices": [
+      {
+        "label": "Tell the truth",
+        "target": "@generate"
+      },
+      {
+        "label": "Make them laugh",
+        "target": "@generate"
+      }
+    ]
+  },
+  "generated_continuity_persistence": {
+    "chapter_41_stores_relationship_stage": true,
+    "chapter_41_stores_closing_anchor": true,
+    "chapter_41_stores_writer_reference_lineage": true,
+    "chapter_42_receives_chapter_41_as_authored_library_context": true,
+    "writer_reference_packet": "jasper.writer.bridge-influence.v2"
+  }
+}

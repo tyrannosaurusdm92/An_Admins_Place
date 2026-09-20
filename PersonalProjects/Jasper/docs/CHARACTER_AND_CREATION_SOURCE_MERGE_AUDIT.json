@@ -1,0 +1,118 @@
+{
+  "schema": "jasper.character-merge-audit.v1",
+  "date": "2026-09-20",
+  "inputs": {
+    "generator": "Jasper_Fanfic_CYOA_Expanded_Corrected_Pass3_Characters_2026-09-20.zip",
+    "character_library": "Jasper_Fanfiction_Character_Library_EXPANDED_Research_Pass(1).zip",
+    "people_places": "People_Places_Generator_People_Locations_Clean.zip"
+  },
+  "counts": {
+    "pass3_existing_character_profiles": 40,
+    "expanded_research_profiles": 134,
+    "same_fandom_same_character_duplicates_merged": 15,
+    "final_canonical_character_profiles": 159,
+    "people_places_runtime_modules_bundled": 42
+  },
+  "duplicate_merges": [
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Zuko",
+      "canonical_id": "avatar-zuko",
+      "canonical_name": "Zuko"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Aang",
+      "canonical_id": "avatar-aang",
+      "canonical_name": "Aang"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Sokka",
+      "canonical_id": "avatar-sokka",
+      "canonical_name": "Sokka"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Iroh",
+      "canonical_id": "avatar-iroh",
+      "canonical_name": "Iroh"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Hakoda",
+      "canonical_id": "avatar-hakoda",
+      "canonical_name": "Hakoda"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Katara",
+      "canonical_id": "avatar-katara",
+      "canonical_name": "Katara"
+    },
+    {
+      "fandom": "Avatar: The Last Airbender",
+      "research_name": "Toph Beifong",
+      "canonical_id": "avatar-toph",
+      "canonical_name": "Toph Beifong"
+    },
+    {
+      "fandom": "Fallout 4",
+      "research_name": "Paladin Danse",
+      "canonical_id": "fo4-danse",
+      "canonical_name": "Paladin Danse"
+    },
+    {
+      "fandom": "Fallout 4",
+      "research_name": "Nick Valentine",
+      "canonical_id": "fo4-nick-valentine",
+      "canonical_name": "Nick Valentine"
+    },
+    {
+      "fandom": "Steven Universe",
+      "research_name": "Rose Quartz / Pink Diamond",
+      "canonical_id": "su-rose",
+      "canonical_name": "Rose Quartz"
+    },
+    {
+      "fandom": "Steven Universe",
+      "research_name": "Greg Universe",
+      "canonical_id": "su-greg",
+      "canonical_name": "Greg Universe"
+    },
+    {
+      "fandom": "Harry Potter",
+      "research_name": "Minerva McGonagall",
+      "canonical_id": "hp-mcgonagall",
+      "canonical_name": "Minerva McGonagall"
+    },
+    {
+      "fandom": "Harry Potter",
+      "research_name": "Rubeus Hagrid",
+      "canonical_id": "hp-hagrid",
+      "canonical_name": "Rubeus Hagrid"
+    },
+    {
+      "fandom": "Harry Potter",
+      "research_name": "Severus Snape",
+      "canonical_id": "hp-snape",
+      "canonical_name": "Severus Snape"
+    },
+    {
+      "fandom": "Harry Potter",
+      "research_name": "Kingsley Shacklebolt",
+      "canonical_id": "hp-kingsley",
+      "canonical_name": "Kingsley Shacklebolt"
+    }
+  ],
+  "dedupe_rule": "fandom + fictional character identity",
+  "same_name_different_fandom_rule": "keep separate; resolver uses fandom-qualified alias records",
+  "people_places_integration": {
+    "bundle": "js/jasper-fanfiction-people-places-source.js",
+    "adapter": "js/jasper-fanfiction-creation-sources.js",
+    "json_data_folder": "json/people-places",
+    "use": "optional original supporting cast and original setting inspiration during new-fic creation",
+    "canon_priority": "named canon characters always use the unified character library first"
+  },
+  "explicit_bridge_modified": false
+}

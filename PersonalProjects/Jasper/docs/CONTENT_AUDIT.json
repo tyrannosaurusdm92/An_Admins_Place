@@ -1,73 +1,36 @@
 {
-  "project": "Jasper's Fanfiction Spot — mobile CYOA merge",
-  "generated": "September 19, 2026",
-  "fanfiction_only": true,
-  "jasper_only": true,
-  "route_count": 5,
-  "chapter_count": 200,
-  "total_word_count": 297274,
-  "first_person": true,
-  "reader_proxy": "Adult unnamed first-person; appearance and legal name undefined.",
-  "choice_count_per_bundled_chapter": 3,
-  "explicit_branching": {
-    "available": true,
-    "target": "@generate-explicit",
-    "adult_characters_required": true,
-    "configured_story_provider_required": true,
-    "legacy_private_targets": 0
-  },
-  "bundled_explicit_scene_text": false,
-  "reference_book_content_imported": false,
-  "series": [
-    {
-      "folder": "Avatar/Jasmine-After-Rain",
-      "title": "Jasmine After Rain",
-      "chapters": 40,
-      "words": 60941,
-      "word_range": [
-        1500,
-        1563
-      ]
-    },
-    {
-      "folder": "Avatar/Love-And-Duty",
-      "title": "Love & Duty",
-      "chapters": 40,
-      "words": 60873,
-      "word_range": [
-        1498,
-        1698
-      ]
-    },
-    {
-      "folder": "FO4/What-The-Armor-Leaves-Behind",
-      "title": "What the Armor Leaves Behind",
-      "chapters": 40,
-      "words": 61856,
-      "word_range": [
-        1499,
-        1680
-      ]
-    },
-    {
-      "folder": "HP/After-Always",
-      "title": "After Always",
-      "chapters": 40,
-      "words": 50951,
-      "word_range": [
-        718,
-        1859
-      ]
-    },
-    {
-      "folder": "SU/Stars-Between-The-Strings",
-      "title": "Stars Between the Strings",
-      "chapters": 40,
-      "words": 62653,
-      "word_range": [
-        1500,
-        1782
-      ]
-    }
-  ]
+  "project": "Jasper Fanfiction Spot — Story-First + Private Interlude Bridge",
+  "schema_version": "6.3",
+  "sole_reader": "Jasper",
+  "jasper_birth_year": 1999,
+  "private_project": true,
+  "series_count": 5,
+  "bundled_chapter_count": 200,
+  "generation_content_mode": "mature_on_page for ordinary story; explicit_detailed only for selected private bridge handoff",
+  "rating_display": "18+ Private Story / Private Interlude Handoff",
+  "generation_endpoint": "provider-managed in js/jasper-fanfiction-backend-provider.js; not duplicated into HTML/JSON metadata",
+  "explicit_detailed_generator_targets": 200,
+  "other_generator_targets": 400,
+  "participant_age_list_required": false,
+  "repeated_adult_confirmation_required": false,
+  "adult_gate_mode": "automatic_project_invariant",
+  "explicit_under_18_prompt_blocks_generation": true,
+  "younger_canon_versions_use_adult_era": true,
+  "generated_explicit_scene_minor_reference_linter": true,
+  "fade_cutaway_linter": true,
+  "speaker_specific_lexicon_linter": true,
+  "first_person_pov_linter": true,
+  "local_safe_generation_fallback": false,
+  "original_authored_chapters": 200,
+  "original_series_count": 5,
+  "chapters_per_original_series": 40,
+  "backend_source_in_frontend": false,
+  "backend_endpoint_exposed_in_html": false,
+  "private_handoff_targets": 200,
+  "ordinary_authored_choice_targets": 400,
+  "visual_private_handoff": "fade_to_black before bridge; fade_to_black back into story after bridge",
+  "original_40_chapter_series_complete": true,
+  "chapter_40_continuation_enabled": true,
+  "create_continue_branch_enabled": true,
+  "explicit_bridge_modified_in_full_expansion": false
 }
