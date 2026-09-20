@@ -1,28 +1,31 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Fallout 4",
-  "pairing": "Paladin Danse / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy; identity and appearance intentionally under-specified",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Paladin Danse / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters are adults",
     "Canon-typical violence and post-apocalyptic danger",
     "Themes of identity, dehumanization, grief, and survivor guilt",
     "Romantic intimacy and sensual tension",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
   "series_slug": "what-the-armor-leaves-behind",
   "series_title": "What the Armor Leaves Behind",
   "title": "The Deep Range",
   "subtitle": "What the Armor Leaves Behind · Chapter 4 of 40",
   "chapter_number": 4,
-  "word_count": 1648,
+  "word_count": 1650,
   "content": "The transmitter was lodged inside a synth that had tried very hard to kill us.\n\nThat felt appropriate.\n\nDanse pried the component from the ruined torso with the methodical focus of a mechanic dismantling an appliance. I stood nearby with my weapon ready, watching the corridor and trying not to stare at the black scorch marks across his armor.\n\nThe engine blast had burned away old paint. Beneath it, bare metal showed through like exposed bone.\n\nEvery time I looked at it, I remembered the moment he disappeared inside the fire.\n\nApparently my face was not subtle.\n\n“You can stop checking,” he said.\n\n“I’m watching the hallway.”\n\n“You’ve looked at my armor six times in the last minute.”\n\n“You counted?”\n\n“I notice patterns.”\n\n“That sounds exhausting.”\n\n“It keeps me alive.”\n\nHe freed the transmitter and placed it in a hard case.\n\n“So does power armor, evidently.”\n\nHe looked at me.\n\n“You’re still angry.”\n\n“No.”\n\n“You are.”\n\n“I’m thrilled. I love activating rocket engines under people I met an hour ago.”\n\n“That was a tactical decision.”\n\n“It was a terrible tactical decision.”\n\n“It worked.”\n\n“That does not retroactively make it smart.”\n\nHis jaw shifted.\n\nFor a moment I expected another order.\n\nInstead he said, “Fair.”\n\nI blinked.\n\n“What?”\n\n“You had incomplete information. From your perspective, the risk was unreasonable.”\n\n“You’re apologizing.”\n\n“I’m acknowledging your concern.”\n\n“That is the most militarized apology I’ve ever received.”\n\n“It wasn’t an apology.”\n\n“Of course not.”\n\nWe took the elevator back toward the surface.\n\nThe ride was close and loud. Danse’s armor occupied most of the small compartment. I stood beside him with my shoulder nearly against one metal elbow while ancient cables groaned above us.\n\nThe silence felt different now.\n\nBefore the engine room, I had known him as a competent stranger with a command problem.\n\nNow I knew what his face looked like after surviving something that should have killed him.\n\nThat seemed dangerously personal.\n\nHe broke the silence first.\n\n“You did well in there.”\n\n“Is this where I get the sticker?”\n\n“No.”\n\n“Shame.”\n\n“I’m serious.”\n\nThe elevator rattled.\n\nDanse looked straight ahead.\n\n“You followed instructions under pressure. You adapted when circumstances changed. You covered my flank without needing to be told.”\n\n“I also argued with you repeatedly.”\n\n“That part needs work.”\n\nI smiled.\n\n“There he is.”\n\nHis eyes flicked toward me.\n\n“Who?”\n\n“The man who cannot deliver a compliment without attaching corrective feedback.”\n\n“That’s how people improve.”\n\n“Have you ever considered just saying something nice and then stopping?”\n\nHe actually seemed to think about it.\n\n“No.”\n\nThe elevator doors opened.\n\nWe stepped into daylight that looked too gentle for what had happened underground.\n\nOutside ArcJet, Danse finally removed his helmet and took a long breath of cold air.\n\nI leaned against a concrete barrier.\n\n“What now?”\n\n“We return to Cambridge. Haylen should be able to use the transmitter to boost our signal.”\n\n“And then?”\n\n“If we establish contact, command decides our next move.”\n\n“You sound excited.”\n\n“I am.”\n\nThat surprised me.\n\nHe noticed.\n\n“The Brotherhood is more than an organization,” he said. “For some of us, it’s the closest thing we have to a home.”\n\nThere was no performance in his voice this time. No recruitment speech.\n\nI studied him.\n\n“You’ve been out here a long time.”\n\n“Long enough.”\n\n“With people dying.”\n\nHis expression closed immediately.\n\nI regretted it.\n\n“I saw the list,” I said.\n\nDanse looked toward the road.\n\n“Four members of my squad are dead.”\n\nNo names. No details.\n\nBut the words were heavy.\n\n“I’m sorry.”\n\n“So am I.”\n\nThere was something terrible about the simplicity of that answer.\n\nHe resealed the helmet.\n\n“We should move.”\n\nThe subject was over.\n\nI let it be.\n\nHalfway back to Cambridge we found a trader pinned behind a delivery truck by raiders. Danse spotted the muzzle flashes first.\n\n“Two on the roof. One behind the blue sedan.”\n\n“You want to get involved?”\n\n“They’re attacking a civilian.”\n\nThat was apparently sufficient explanation.\n\nHe went left. I went right.\n\nThe fight lasted less than a minute.\n\nAfterward, the trader crawled from cover with both hands raised.\n\n“I don’t have much,” she said quickly. “Take whatever. Just—thanks.”\n\nDanse lowered his rifle.\n\n“We’re not robbing you.”\n\nShe stared at the Brotherhood symbol on his armor.\n\n“I heard things.”\n\n“I’m sure you have.”\n\nHis tone cooled, but not at her.\n\nHe looked at the damaged wheel on her cart.\n\n“Axle’s bent.”\n\n“I know.”\n\n“You’ll lose the wheel before you reach Diamond City.”\n\n“I know.”\n\nDanse set his rifle against the truck and crouched.\n\nI watched in amazement as he pulled a compact toolkit from a storage compartment on his armor.\n\n“What?” he asked without looking up.\n\n“You carry tools.”\n\n“Everyone should carry tools.”\n\n“That might be the first thing we completely agree on.”\n\nHe grunted.\n\nTogether we braced the axle well enough to get the trader moving. She tried to pay us again. Danse refused.\n\nWhen she was gone, I crossed my arms.\n\n“Brotherhood policy?”\n\n“Basic decency.”\n\n“Careful. You’re ruining your image.”\n\n“What image?”\n\n“Terrifying machine in terrifying machine.”\n\nHe turned his helmet toward me.\n\n“I’m not a machine.”\n\nThe response was immediate. Sharper than the joke deserved.\n\nI raised my hands.\n\n“Figure of speech.”\n\nHe looked away.\n\n“Right.”\n\nThe moment passed.\n\nAt the time, I thought nothing of it.\n\nLater, I would remember it with painful clarity.\n\nBack at Cambridge, Haylen nearly hugged the transmitter case.\n\nRhys looked at me as though disappointed I had survived.\n\nDanse disappeared into the garage and returned carrying a laser rifle.\n\nHe held it out to me.\n\nI stared at the weapon.\n\n“What’s this?”\n\n“Payment.”\n\n“That is worth more than the caps you offered.”\n\n“Yes.”\n\nThe rifle was beautifully maintained. Custom optics. Modified internals. The kind of weapon someone cared for, not merely used.\n\nI looked up.\n\n“This was yours.”\n\n“It was.”\n\n“You’re giving me your rifle?”\n\n“I have another.”\n\n“That is not the point.”\n\nDanse’s expression tightened with the particular discomfort he seemed to experience whenever a conversation threatened to become personal.\n\n“You earned it.”\n\nI took the rifle.\n\nOur hands did not touch. He was still wearing gloves.\n\nStill, something about the exchange felt intimate.\n\n“Does it have a name?” I asked.\n\n“Righteous Authority.”\n\nI stared at him.\n\nHe stared back.\n\n“You named your gun Righteous Authority.”\n\n“I didn’t ask for commentary.”\n\n“Oh, you’re getting commentary.”\n\nHaylen laughed from across the room.\n\nDanse closed his eyes briefly.\n\nFor the first time since meeting him, I realized I had found a weapon more effective than a laser rifle.\n\nI could embarrass Paladin Danse.\n\nThat knowledge was going to be dangerous.\n\nThe trip back to Cambridge should have been easier.\n\nWe had what we came for. The signal booster sat wrapped in cloth inside my pack, ArcJet burned behind us, and the road was familiar enough that Danse relaxed his pace by a fraction.\n\nThen rain started.\n\nNot clean rain. Commonwealth rain that smelled faintly metallic and made both of us check our dosimeters before deciding it was ordinary misery rather than radioactive misery.\n\nWe took shelter beneath the remains of a Red Rocket canopy.\n\nDanse stepped out of his armor to clear grit from the damaged knee actuator. Without the suit he seemed simultaneously larger and more human—broad shoulders, fatigues dark with sweat, movements missing the hydraulic certainty I had already begun associating with him.\n\n“You’re limping,” I said.\n\n“I am not.”\n\n“You absolutely are.”\n\n“The suit was compensating for uneven ground.”\n\n“You are currently not wearing the suit.”\n\nHe looked down at his own leg as if betrayed by evidence.\n\n“Minor strain.”\n\n“Sit.”\n\nHis head came up.\n\n“That was an order,” I added.\n\n“You are not authorized to issue me orders.”\n\n“Partnership. Remember?”\n\nHe stared at me long enough that I expected a lecture.\n\nInstead he sat on an overturned bucket.\n\nI crouched and checked the knee through his fatigues. No swelling worth panicking over, but the muscle was tight.\n\n“Probably from compensating for the actuator.”\n\n“I’m aware.”\n\n“Then why didn’t you fix it?”\n\n“The mission took priority.”\n\n“Your leg came with us on the mission.”\n\nDanse opened his mouth.\n\nClosed it.\n\n“That is an irritatingly valid point.”\n\n“I have those occasionally.”\n\nI found a strip of clean cloth and wrapped the joint enough to support it until we returned.\n\nHe watched my hands.\n\n“You’ve done field medicine.”\n\n“I’ve done Commonwealth medicine. Mostly that means deciding whether something needs a bandage, a stimpak, or a very convincing lie.”\n\n“What does the lie treat?”\n\n“Panic.”\n\nHe considered that with surprising seriousness.\n\n“Morale management.”\n\n“Sure. We’ll call it that.”\n\nRain hammered the rusted canopy.\n\nFor a few minutes there was nowhere useful to go and nothing trying to kill us. Danse seemed almost uncomfortable with the absence of a task.\n\nHis gaze tracked the road anyway.\n\n“You never stop, do you?” I asked.\n\n“Stop what?”\n\n“Being on watch.”\n\n“Someone should be.”\n\n“Even when someone else is?”\n\nHis eyes shifted to me.\n\nI had meant myself.\n\nHe understood.\n\nThe next answer took longer.\n\n“Habit.”\n\nIt was becoming one of his words. A place he stored explanations he did not want to unpack.\n\nI leaned back against a support pillar and looked out at the rain.\n\n“Well. For five minutes, I’m on watch.”\n\n“That’s unnecessary.”\n\n“Probably.”\n\nHe frowned.\n\nThen, with visible effort, he let his shoulders drop against the wall behind him.\n\nNot much.\n\nEnough.\n\nWhen the rain eased, he stood and climbed back into the armor.\n\nThe left knee moved smoothly after I cleaned the housing.\n\nDanse took two steps, stopped, and looked down at me.\n\n“Your assessment was correct.”\n\n“That sounded painful.”\n\n“It was.”\n\n“Want me to pretend I didn’t hear it?”\n\n“No.”\n\nA pause.\n\n“Thank you.”\n\nI had not expected that either.\n\nBy the time Cambridge came into view, I was starting to understand that Paladin Danse had more ways to surprise me than he had ways to smile.\n",
   "fandom_folder": "FO4",
   "series_folder": "What-The-Armor-Leaves-Behind",
@@ -31,8 +34,8 @@
   "choices": [
     {
       "path_key": "follow-orders",
-      "label": "Follow Danse's plan exactly",
-      "description": "Trust his field judgment and learn what the mission reveals when discipline leads.",
+      "label": "Do it by the book—for now",
+      "description": "Use the plan he trusts while keeping my own judgment awake.",
       "effect": {
         "trust": 1,
         "discipline": 1,
@@ -40,12 +43,40 @@
       },
       "id": "what-the-armor-leaves-behind-04-follow-orders",
       "target": "what-the-armor-leaves-behind-05",
-      "generation_hint": "Trust his field judgment and learn what the mission reveals when discipline leads."
+      "generation_hint": "Use the plan he trusts while keeping my own judgment awake.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Deep Range · Paladin Danse / Jasper · Do it by the book—for now · Use the plan he trusts while keeping my own judgment awake. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "path_key": "question-order",
-      "label": "Question the order and protect the civilians",
-      "description": "Put the human cost in the room, even if Danse would rather keep moving.",
+      "label": "Make Danse explain the order to me",
+      "description": "Demand reasoning rather than authority and let the disagreement become specific.",
       "effect": {
         "courage": 1,
         "empathy": 1,
@@ -53,29 +84,363 @@
       },
       "id": "what-the-armor-leaves-behind-04-question-order",
       "target": "what-the-armor-leaves-behind-05",
-      "generation_hint": "Put the human cost in the room, even if Danse would rather keep moving."
+      "generation_hint": "Demand reasoning rather than authority and let the disagreement become specific.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Deep Range · Paladin Danse / Jasper · Make Danse explain the order to me · Demand reasoning rather than authority and let the disagreement become specific. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
-      "path_key": "intimate",
-      "label": "Take the intimate route",
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "path_key": "private-handoff",
+      "label": "Take the private route",
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
       "private": true,
       "id": "what-the-armor-leaves-behind-04-private-fear",
-      "target": "@generate-explicit",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "target": "@generate-explicit-detailed",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Deep Range,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to what-the-armor-leaves-behind-05 and continue the larger story rather than resetting it.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Deep Range · Paladin Danse / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "what-the-armor-leaves-behind-05",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "what-the-armor-leaves-behind-05"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "chemistry",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
   "choice_count": 3,
   "path_variants": {
-    "follow-orders": "Carry forward the concrete consequence of choosing “Follow Danse's plan exactly,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
-    "question-order": "Carry forward the concrete consequence of choosing “Question the order and protect the civilians,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
-    "private-fear": "Carry forward the concrete consequence of choosing “Tell Danse what I am afraid of,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem."
+    "follow-orders": "From “The Deep Range,” I carried forward the choice “Do it by the book—for now.” Use the plan he trusts while keeping my own judgment awake. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "question-order": "From “The Deep Range,” I carried forward the choice “Make Danse explain the order to me.” Demand reasoning rather than authority and let the disagreement become specific. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Deep Range.” The story state with Danse remains binding: same room/location, same unfinished dialogue, same relationship stage (chemistry), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at what-the-armor-leaves-behind-05 without resetting the scene or relationship."
   },
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "danse",
+      "voice": "formal, disciplined, direct, duty-shaped, protective, gradually softer",
+      "humor": "literalism, controlled exasperation, reluctant appreciation of loopholes"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "chemistry",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Deep Range · Paladin Danse / Jasper · chemistry",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 4,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "what-the-armor-leaves-behind-05",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "what-the-armor-leaves-behind-05",
+    "private_handoff_resume_target": "what-the-armor-leaves-behind-05"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "what-the-armor-leaves-behind-05",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "format": "choice_enriched_first_person_reader_insert",
+  "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+  "research_alignment": [
+    "Paladin Danse duty, structure, Brotherhood identity, Blind Betrayal, and post-rank vulnerability",
+    "Commonwealth survival pressures, missions, civilians, equipment, and institutional conflict",
+    "Jasper remains the named first-person adult protagonist with agency outside Danse’s command structure"
+  ],
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "chemistry",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "chemistry",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "what-the-armor-leaves-behind-04",
+    "chapter_number": 4,
+    "title": "The Deep Range",
+    "relationship_stage": "chemistry",
+    "opening_anchor": "The transmitter was lodged inside a synth that had tried very hard to kill us.",
+    "closing_anchor": "I had not expected that either. By the time Cambridge came into view, I was starting to understand that Paladin Danse had more ways to surprise me than he had ways to smile.",
+    "next_story_target": "what-the-armor-leaves-behind-05",
+    "private_resume_target": "what-the-armor-leaves-behind-05",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Fallout 4 · What the Armor Leaves Behind · The Deep Range · Paladin Danse / Jasper · chemistry",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys",
+      "fo4-maxson",
+      "fo4-cutler",
+      "fo4-ingram",
+      "fo4-kells",
+      "fo4-quinlan",
+      "fo4-brandis",
+      "fo4-nick-valentine",
+      "fo4-amos",
+      "fo4-lena",
+      "fo4-mara"
+    ],
+    "active_profile_ids": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

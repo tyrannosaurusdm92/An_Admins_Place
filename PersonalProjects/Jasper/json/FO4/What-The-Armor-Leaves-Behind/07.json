@@ -1,21 +1,24 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Fallout 4",
-  "pairing": "Paladin Danse / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy; identity and appearance intentionally under-specified",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Paladin Danse / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
     "All principal romantic characters are adults",
     "Canon-typical violence and post-apocalyptic danger",
     "Themes of identity, dehumanization, grief, and survivor guilt",
     "Romantic intimacy and sensual tension",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
   "series_slug": "what-the-armor-leaves-behind",
   "series_title": "What the Armor Leaves Behind",
@@ -31,8 +34,8 @@
   "choices": [
     {
       "path_key": "follow-orders",
-      "label": "Follow Danse's plan exactly",
-      "description": "Trust his field judgment and learn what the mission reveals when discipline leads.",
+      "label": "Take the clean tactical route",
+      "description": "Choose discipline and efficiency, then carry the emotional cost instead of pretending there was none.",
       "effect": {
         "trust": 1,
         "discipline": 1,
@@ -40,12 +43,40 @@
       },
       "id": "what-the-armor-leaves-behind-07-follow-orders",
       "target": "what-the-armor-leaves-behind-08",
-      "generation_hint": "Trust his field judgment and learn what the mission reveals when discipline leads."
+      "generation_hint": "Choose discipline and efficiency, then carry the emotional cost instead of pretending there was none.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Dead on the Roster · Paladin Danse / Jasper · Take the clean tactical route · Choose discipline and efficiency, then carry the emotional cost instead of pretending there was none. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "path_key": "question-order",
-      "label": "Question the order and protect the civilians",
-      "description": "Put the human cost in the room, even if Danse would rather keep moving.",
+      "label": "Push back on the part that feels wrong",
+      "description": "Challenge the plan without turning disagreement into contempt.",
       "effect": {
         "courage": 1,
         "empathy": 1,
@@ -53,29 +84,363 @@
       },
       "id": "what-the-armor-leaves-behind-07-question-order",
       "target": "what-the-armor-leaves-behind-08",
-      "generation_hint": "Put the human cost in the room, even if Danse would rather keep moving."
+      "generation_hint": "Challenge the plan without turning disagreement into contempt.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Dead on the Roster · Paladin Danse / Jasper · Push back on the part that feels wrong · Challenge the plan without turning disagreement into contempt. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
-      "path_key": "intimate",
-      "label": "Take the intimate route",
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
+      "path_key": "private-handoff",
+      "label": "Take the private route",
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
       "private": true,
       "id": "what-the-armor-leaves-behind-07-private-fear",
-      "target": "@generate-explicit",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "target": "@generate-explicit-detailed",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Dead on the Roster,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to what-the-armor-leaves-behind-08 and continue the larger story rather than resetting it.",
+      "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Dead on the Roster · Paladin Danse / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "what-the-armor-leaves-behind-08",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "what-the-armor-leaves-behind-08"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "flirting",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
   "choice_count": 3,
   "path_variants": {
-    "follow-orders": "Carry forward the concrete consequence of choosing “Follow Danse's plan exactly,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
-    "question-order": "Carry forward the concrete consequence of choosing “Question the order and protect the civilians,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem.",
-    "private-fear": "Carry forward the concrete consequence of choosing “Tell Danse what I am afraid of,” including its effect on trust, knowledge, boundaries, location, and the immediate unresolved problem."
+    "follow-orders": "From “The Dead on the Roster,” I carried forward the choice “Take the clean tactical route.” Choose discipline and efficiency, then carry the emotional cost instead of pretending there was none. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "question-order": "From “The Dead on the Roster,” I carried forward the choice “Push back on the part that feels wrong.” Challenge the plan without turning disagreement into contempt. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Dead on the Roster.” The story state with Danse remains binding: same room/location, same unfinished dialogue, same relationship stage (flirting), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at what-the-armor-leaves-behind-08 without resetting the scene or relationship."
   },
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "danse",
+      "voice": "formal, disciplined, direct, duty-shaped, protective, gradually softer",
+      "humor": "literalism, controlled exasperation, reluctant appreciation of loopholes"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "flirting",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Fallout 4 · What the Armor Leaves Behind · The Dead on the Roster · Paladin Danse / Jasper · flirting",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 7,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "what-the-armor-leaves-behind-08",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "what-the-armor-leaves-behind-08",
+    "private_handoff_resume_target": "what-the-armor-leaves-behind-08"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "what-the-armor-leaves-behind-08",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "format": "choice_enriched_first_person_reader_insert",
+  "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+  "research_alignment": [
+    "Paladin Danse duty, structure, Brotherhood identity, Blind Betrayal, and post-rank vulnerability",
+    "Commonwealth survival pressures, missions, civilians, equipment, and institutional conflict",
+    "Jasper remains the named first-person adult protagonist with agency outside Danse’s command structure"
+  ],
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "flirting",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "flirting",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "what-the-armor-leaves-behind-07",
+    "chapter_number": 7,
+    "title": "The Dead on the Roster",
+    "relationship_stage": "flirting",
+    "opening_anchor": "The dead had lockers.",
+    "closing_anchor": "But he left the list on the wall. And below it, tucked beneath the fresh tape, he placed one of Keane’s battered baseball cards.",
+    "next_story_target": "what-the-armor-leaves-behind-08",
+    "private_resume_target": "what-the-armor-leaves-behind-08",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Fallout 4 · What the Armor Leaves Behind · The Dead on the Roster · Paladin Danse / Jasper · flirting",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys",
+      "fo4-maxson",
+      "fo4-cutler",
+      "fo4-ingram",
+      "fo4-kells",
+      "fo4-quinlan",
+      "fo4-brandis",
+      "fo4-nick-valentine",
+      "fo4-amos",
+      "fo4-lena",
+      "fo4-mara"
+    ],
+    "active_profile_ids": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

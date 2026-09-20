@@ -1,12 +1,12 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "fandom": "Fallout 4",
   "series_title": "What the Armor Leaves Behind",
   "series_slug": "what-the-armor-leaves-behind",
   "series_folder": "What-The-Armor-Leaves-Behind",
   "series_path": "FO4/What-The-Armor-Leaves-Behind",
-  "pairing": "Paladin Danse / Adult Reader",
-  "description": "An adult unnamed first-person reader-proxy falls for Paladin Danse through Brotherhood missions, grief, hard arguments, Blind Betrayal, and the difficult work of building a life after rank and certainty are stripped away.",
+  "pairing": "Paladin Danse / Jasper",
+  "description": "Jasper, the adult named first-person protagonist falls for Paladin Danse through Brotherhood missions, grief, hard arguments, Blind Betrayal, and the difficult work of building a life after rank and certainty are stripped away.",
   "chapter_count": 40,
   "chapters": [
     {
@@ -15,7 +15,9 @@
       "title": "Check Your Fire",
       "word_count": 1687,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-01"
+      "id": "what-the-armor-leaves-behind-01",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 2,
@@ -23,7 +25,9 @@
       "title": "Orders and Ammunition",
       "word_count": 1581,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-02"
+      "id": "what-the-armor-leaves-behind-02",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 3,
@@ -31,7 +35,9 @@
       "title": "ArcJet",
       "word_count": 1617,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-03"
+      "id": "what-the-armor-leaves-behind-03",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 4,
@@ -39,7 +45,9 @@
       "title": "The Deep Range",
       "word_count": 1650,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-04"
+      "id": "what-the-armor-leaves-behind-04",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 5,
@@ -47,7 +55,9 @@
       "title": "Righteous Authority",
       "word_count": 1530,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-05"
+      "id": "what-the-armor-leaves-behind-05",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 6,
@@ -55,7 +65,9 @@
       "title": "Steel and Scrap",
       "word_count": 1533,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-06"
+      "id": "what-the-armor-leaves-behind-06",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 7,
@@ -63,7 +75,9 @@
       "title": "The Dead on the Roster",
       "word_count": 1593,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-07"
+      "id": "what-the-armor-leaves-behind-07",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 8,
@@ -71,7 +85,9 @@
       "title": "Off the Record",
       "word_count": 1517,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-08"
+      "id": "what-the-armor-leaves-behind-08",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 9,
@@ -79,7 +95,9 @@
       "title": "Power Armor",
       "word_count": 1562,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-09"
+      "id": "what-the-armor-leaves-behind-09",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 10,
@@ -87,7 +105,9 @@
       "title": "A Signal in the Sky",
       "word_count": 1605,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-10"
+      "id": "what-the-armor-leaves-behind-10",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 11,
@@ -95,7 +115,9 @@
       "title": "The Prydwen",
       "word_count": 1625,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-11"
+      "id": "what-the-armor-leaves-behind-11",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 12,
@@ -103,7 +125,9 @@
       "title": "Vertibird Weather",
       "word_count": 1548,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-12"
+      "id": "what-the-armor-leaves-behind-12",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 13,
@@ -111,7 +135,9 @@
       "title": "Fort Strong",
       "word_count": 1507,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-13"
+      "id": "what-the-armor-leaves-behind-13",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 14,
@@ -119,7 +145,9 @@
       "title": "Cutler",
       "word_count": 1559,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-14"
+      "id": "what-the-armor-leaves-behind-14",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 15,
@@ -127,7 +155,9 @@
       "title": "The Lost Patrol",
       "word_count": 1580,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-15"
+      "id": "what-the-armor-leaves-behind-15",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 16,
@@ -135,7 +165,9 @@
       "title": "What Counts as Human",
       "word_count": 1559,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-16"
+      "id": "what-the-armor-leaves-behind-16",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 17,
@@ -143,7 +175,9 @@
       "title": "Benchwork",
       "word_count": 1509,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-17"
+      "id": "what-the-armor-leaves-behind-17",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 18,
@@ -151,7 +185,9 @@
       "title": "The Weight of Command",
       "word_count": 1527,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-18"
+      "id": "what-the-armor-leaves-behind-18",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 19,
@@ -159,7 +195,9 @@
       "title": "Under the Tanks",
       "word_count": 1555,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-19"
+      "id": "what-the-armor-leaves-behind-19",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 20,
@@ -167,7 +205,9 @@
       "title": "Permission to Speak Freely",
       "word_count": 1528,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-20"
+      "id": "what-the-armor-leaves-behind-20",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 21,
@@ -175,7 +215,9 @@
       "title": "Orders I Can't Follow",
       "word_count": 1566,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-21"
+      "id": "what-the-armor-leaves-behind-21",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 22,
@@ -183,7 +225,9 @@
       "title": "A Machine with a Name",
       "word_count": 1509,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-22"
+      "id": "what-the-armor-leaves-behind-22",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 23,
@@ -191,7 +235,9 @@
       "title": "Liberty",
       "word_count": 1531,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-23"
+      "id": "what-the-armor-leaves-behind-23",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 24,
@@ -199,7 +245,9 @@
       "title": "The List",
       "word_count": 1504,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-24"
+      "id": "what-the-armor-leaves-behind-24",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 25,
@@ -207,7 +255,9 @@
       "title": "Missing",
       "word_count": 1500,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-25"
+      "id": "what-the-armor-leaves-behind-25",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 26,
@@ -215,7 +265,9 @@
       "title": "Listening Post Bravo",
       "word_count": 1506,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-26"
+      "id": "what-the-armor-leaves-behind-26",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 27,
@@ -223,7 +275,9 @@
       "title": "The Example",
       "word_count": 1555,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-27"
+      "id": "what-the-armor-leaves-behind-27",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 28,
@@ -231,7 +285,9 @@
       "title": "No Rank",
       "word_count": 1531,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-28"
+      "id": "what-the-armor-leaves-behind-28",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 29,
@@ -239,7 +295,9 @@
       "title": "Nothing",
       "word_count": 1504,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-29"
+      "id": "what-the-armor-leaves-behind-29",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 30,
@@ -247,7 +305,9 @@
       "title": "The Things That Remain",
       "word_count": 1507,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-30"
+      "id": "what-the-armor-leaves-behind-30",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 31,
@@ -255,7 +315,9 @@
       "title": "A Different Kind of Orders",
       "word_count": 1501,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-31"
+      "id": "what-the-armor-leaves-behind-31",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 32,
@@ -263,7 +325,9 @@
       "title": "Civilian Clothes",
       "word_count": 1514,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-32"
+      "id": "what-the-armor-leaves-behind-32",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 33,
@@ -271,15 +335,19 @@
       "title": "Heart and Mind",
       "word_count": 1512,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-33"
+      "id": "what-the-armor-leaves-behind-33",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 34,
       "file": "34.json",
       "title": "Patient",
-      "word_count": 1511,
+      "word_count": 1507,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-34"
+      "id": "what-the-armor-leaves-behind-34",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 35,
@@ -287,7 +355,9 @@
       "title": "A Home That Isn't a Bunker",
       "word_count": 1520,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-35"
+      "id": "what-the-armor-leaves-behind-35",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 36,
@@ -295,7 +365,9 @@
       "title": "Three Chords",
       "word_count": 1516,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-36"
+      "id": "what-the-armor-leaves-behind-36",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 37,
@@ -303,7 +375,9 @@
       "title": "The Name He Chose",
       "word_count": 1509,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-37"
+      "id": "what-the-armor-leaves-behind-37",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 38,
@@ -311,15 +385,19 @@
       "title": "No Exceptions",
       "word_count": 1509,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-38"
+      "id": "what-the-armor-leaves-behind-38",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 39,
       "file": "39.json",
       "title": "To Victory",
-      "word_count": 1521,
+      "word_count": 1534,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-39"
+      "id": "what-the-armor-leaves-behind-39",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 40,
@@ -327,10 +405,12 @@
       "title": "What the Armor Leaves Behind",
       "word_count": 1678,
       "choice_count": 3,
-      "id": "what-the-armor-leaves-behind-40"
+      "id": "what-the-armor-leaves-behind-40",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     }
   ],
-  "total_word_count": 61856,
+  "total_word_count": 61885,
   "work_type": "fanfic_series",
   "key": "what-the-armor-leaves-behind",
   "title": "What the Armor Leaves Behind",
@@ -381,14 +461,611 @@
     "40.json"
   ],
   "choice_count": 3,
-  "rating": "Explicit-capable CYOA — adults only",
-  "content_mode": "romance",
+  "rating": "18+ Private Story / Private Interlude Handoff",
+  "content_mode": "mature_on_page",
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "explicit_branching": {
-    "available": true,
-    "target": "@generate-explicit",
-    "requires_story_provider": true,
-    "adult_characters_only": true
+  "explicit_branching": true,
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "private_interlude_branching": true,
+  "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "danse",
+      "voice": "formal, disciplined, direct, duty-shaped, protective, gradually softer",
+      "humor": "literalism, controlled exasperation, reluctant appreciation of loopholes"
+    }
+  },
+  "jasper_tailoring": {
+    "named_protagonist": true,
+    "first_person": true,
+    "birth_year": 1999,
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "personality": [
+      "goofy/chaotic surface energy",
+      "kind",
+      "compassionate",
+      "intelligent",
+      "well-spoken",
+      "empathic",
+      "fiercely loyal",
+      "observant",
+      "remembers small details",
+      "loves hard"
+    ],
+    "relationship_rule": "slow build through plot, routines, conflict/repair, callbacks, shared obligations, private jokes, remembered details, and changed behavior",
+    "bridge_rule": "feed exact voice/style/memory/plot state to the existing bridge; do not modify bridge instructions"
+  },
+  "relationship_pacing": {
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "private_interlude_quota": false,
+    "stages": [
+      "chemistry",
+      "flirting",
+      "boundary_conversations",
+      "testing_power_play",
+      "established_dynamic",
+      "integrated_trust"
+    ],
+    "advancement_rule": "advance because story events and changed behavior earn it, never because a chapter number says intimacy is due"
+  },
+  "bridge_writer_context": {
+    "bridge_file": "js/explicit-bridge.js",
+    "bridge_is_user_owned": true,
+    "modify_bridge": false,
+    "writer_reference_engine": "StoryTools.JasperWriterReference",
+    "send": [
+      "William style DNA",
+      "selected reference passages",
+      "canon voice lane",
+      "Jasper profile lock",
+      "dialogue thread",
+      "memory/callbacks",
+      "relationship stage",
+      "open plot threads",
+      "boundaries",
+      "scene state"
+    ],
+    "resume": [
+      "reconnection/aftercare",
+      "humor/banter",
+      "memory updates",
+      "relationship consequences",
+      "next plot beat"
+    ]
+  },
+  "date_revised": "2026-09-20",
+  "original_authored_chapter_count": 40,
+  "original_fanfiction_complete": true,
+  "continuation_supported": true,
+  "branching_supported": true,
+  "new_story_creation_supported": true,
+  "continuation_after_original_finale": {
+    "enabled": true,
+    "from_chapter": 40,
+    "target": "@generate",
+    "rule": "Chapter 40 is a completed original ending, not a dead end. Jasper may continue into generated chapter 41+ while carrying the full 40-chapter memory and writer-reference context."
+  },
+  "private_handoff_flow": {
+    "enabled": true,
+    "bridge": "js/explicit-bridge.js",
+    "visual_transition": "fade_to_black",
+    "backend_generation": true,
+    "return_to_story": true,
+    "rule": "Fade-to-black is a UI handoff transition only. The normal writer stops at the seam, the private bridge/generator owns the bounded interlude, and the story resumes afterward without losing memory, dialogue state, character voice, or plot threads."
+  },
+  "story_bible": [
+    "The romance grows through missions, competence, moral disagreement, loyalty under pressure, Blind Betrayal, and the slow reconstruction of identity after rank and certainty fail.",
+    "Danse is formal, disciplined, literal, duty-shaped, protective, and uncomfortable with vulnerability; warmth should emerge through behavior before eloquent confession.",
+    "Jasper can respect Danse without treating military authority as relationship authority. Orders and consent are separate systems.",
+    "External Fallout plot matters: civilians, supplies, faction consequences, radiation, travel, equipment, settlements, and Brotherhood politics should continue to create pressure on the relationship.",
+    "After chapter 40, do not reset Danse to early-game emotional distance or restore lost institutional certainty without narrative cause."
+  ],
+  "character_bible": [
+    "Jasper — adult named first-person protagonist; capable, compassionate, sarcastic when nervous, morally engaged, and unwilling to surrender civilian ethics just because a superior gives an order.",
+    "Paladin Danse — formal, disciplined, mission-focused, protective, precise, slow to joke, often expressing care through logistics, readiness, repair, and watchfulness rather than florid language.",
+    "Their strongest conflict lane is duty versus personhood; their strongest repair lane is clear action, reciprocal trust, and choosing each other outside institutional approval."
+  ],
+  "narrative_tense": "first_person_past",
+  "generated_continuation_contract": {
+    "start_after_authored_chapter": 40,
+    "first_generated_chapter_number": 41,
+    "target_words": 1800,
+    "minimum_acceptable_words": 1200,
+    "carry_full_authored_arc": true,
+    "never_restart_relationship": true,
+    "never_repeat_first_meeting": true,
+    "preserve_unresolved_threads": true,
+    "preserve_choice_history": true,
+    "preserve_writer_reference": true,
+    "preserve_jasper_profile": true,
+    "preserve_canon_voice": true,
+    "private_handoff_optional_only": true
+  },
+  "branching_policy": {
+    "authored_choices_per_chapter": 3,
+    "ordinary_choices": 2,
+    "private_choice_retained_in_json": true,
+    "private_choice_visibility": "contextual_after_testing_power_play_stage",
+    "same_next_authored_chapter_allowed": true,
+    "branch_difference_carried_by": "path variant bridge + memory effects + later generated continuation",
+    "generated_choices_must_be_materially_distinct": true
+  },
+  "writer_reference_policy": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile": "json/william-writing-style.json",
+    "use_on_every_generated_chapter": true,
+    "use_on_every_choice": true,
+    "feed_private_bridge_context_without_modifying_bridge": true,
+    "include_recent_authored_closing_anchor": true,
+    "include_open_dialogue_and_plot_threads": true,
+    "include_character_voice_lane": true,
+    "copy_source_sentences": false
+  },
+  "quality_gate": {
+    "first_person_jasper_required": true,
+    "narrative_tense": "first_person_past",
+    "quote_aware_second_person_lint": true,
+    "object_case_lint": true,
+    "mind_reading_warning": true,
+    "canon_window_required": true,
+    "writer_reference_required": true,
+    "continuity_snapshot_required": true,
+    "choice_path_variant_required": true,
+    "private_handoff_requires_relationship_stage": true
+  },
+  "authored_arc_index": [
+    {
+      "id": "what-the-armor-leaves-behind-01",
+      "chapter_number": 1,
+      "title": "Check Your Fire",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "In the Commonwealth, small things were often what made strangers stop being strangers. I adjusted my pack and caught up to him.",
+      "next_story_target": "what-the-armor-leaves-behind-02"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-02",
+      "chapter_number": 2,
+      "title": "Orders and Ammunition",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "Danse sealed his helmet and headed for the doors. This time, when his fist came up, I stopped before he had to tell me.",
+      "next_story_target": "what-the-armor-leaves-behind-03"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-03",
+      "chapter_number": 3,
+      "title": "ArcJet",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "His shoulders moved once. This time I knew exactly what the sound inside the helmet meant.",
+      "next_story_target": "what-the-armor-leaves-behind-04"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-04",
+      "chapter_number": 4,
+      "title": "The Deep Range",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I had not expected that either. By the time Cambridge came into view, I was starting to understand that Paladin Danse had more ways to surprise me than he had ways to smile.",
+      "next_story_target": "what-the-armor-leaves-behind-05"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-05",
+      "chapter_number": 5,
+      "title": "Righteous Authority",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "He finished his ration, but his ears stayed red for the rest of the meal. That was the day I learned the Brotherhood’s power armor had less defensive value against flirting than advertised.",
+      "next_story_target": "what-the-armor-leaves-behind-06"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-06",
+      "chapter_number": 6,
+      "title": "Steel and Scrap",
+      "relationship_stage": "flirting",
+      "closing_anchor": "Trust did not always arrive as a confession. Sometimes it arrived as the decision that one would be safe when it came.",
+      "next_story_target": "what-the-armor-leaves-behind-07"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-07",
+      "chapter_number": 7,
+      "title": "The Dead on the Roster",
+      "relationship_stage": "flirting",
+      "closing_anchor": "But he left the list on the wall. And below it, tucked beneath the fresh tape, he placed one of Keane’s battered baseball cards.",
+      "next_story_target": "what-the-armor-leaves-behind-08"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-08",
+      "chapter_number": 8,
+      "title": "Off the Record",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The argument mattered anyway. It was the first time Danse let me choose danger after he had admitted I mattered enough for the choice to frighten him.",
+      "next_story_target": "what-the-armor-leaves-behind-09"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-09",
+      "chapter_number": 9,
+      "title": "Power Armor",
+      "relationship_stage": "flirting",
+      "closing_anchor": "This time the smile came openly. “Again.”",
+      "next_story_target": "what-the-armor-leaves-behind-10"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-10",
+      "chapter_number": 10,
+      "title": "A Signal in the Sky",
+      "relationship_stage": "flirting",
+      "closing_anchor": "But I had seen the moment before the armor settled. I carried it with me when the side door opened.",
+      "next_story_target": "what-the-armor-leaves-behind-11"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-11",
+      "chapter_number": 11,
+      "title": "The Prydwen",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "He did not assume people stayed. He merely hoped they would and tried very hard not to make the hope visible.",
+      "next_story_target": "what-the-armor-leaves-behind-12"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-12",
+      "chapter_number": 12,
+      "title": "Vertibird Weather",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "“Clearly.” Neither of us moved our hands until the landing gear touched the deck.",
+      "next_story_target": "what-the-armor-leaves-behind-13"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-13",
+      "chapter_number": 13,
+      "title": "Fort Strong",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "Inside, Danse took a breath that seemed to come from years ago. “His name was Cutler.”",
+      "next_story_target": "what-the-armor-leaves-behind-14"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-14",
+      "chapter_number": 14,
+      "title": "Cutler",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "The laugh that came out of him was quiet and tired and real. He did not release my hand until his coffee had gone cold.",
+      "next_story_target": "what-the-armor-leaves-behind-15"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-15",
+      "chapter_number": 15,
+      "title": "The Lost Patrol",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "It was also strangely tender. He kept hold of me all the way to the road.",
+      "next_story_target": "what-the-armor-leaves-behind-16"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-16",
+      "chapter_number": 16,
+      "title": "What Counts as Human",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "It was a crack. Sometimes that was how light got in.",
+      "next_story_target": "what-the-armor-leaves-behind-17"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-17",
+      "chapter_number": 17,
+      "title": "Benchwork",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "The rifle took another twenty minutes. The conversation took considerably longer.",
+      "next_story_target": "what-the-armor-leaves-behind-18"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-18",
+      "chapter_number": 18,
+      "title": "The Weight of Command",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "“Obviously.” We walked the rest of the way holding hands like it was a tactical necessity.",
+      "next_story_target": "what-the-armor-leaves-behind-19"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-19",
+      "chapter_number": 19,
+      "title": "Under the Tanks",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "Outside, the radstorm had passed. Inside, something else had not.",
+      "next_story_target": "what-the-armor-leaves-behind-20"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-20",
+      "chapter_number": 20,
+      "title": "Permission to Speak Freely",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "There it was: our first romantic negotiation. Naturally, Danse had turned it into a treaty.",
+      "next_story_target": "what-the-armor-leaves-behind-21"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-21",
+      "chapter_number": 21,
+      "title": "Orders I Can't Follow",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The argument was not over. Neither were we.",
+      "next_story_target": "what-the-armor-leaves-behind-22"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-22",
+      "chapter_number": 22,
+      "title": "A Machine with a Name",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Then we kept walking. Neither of us understood yet how cruelly literal that promise would become.",
+      "next_story_target": "what-the-armor-leaves-behind-23"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-23",
+      "chapter_number": 23,
+      "title": "Liberty",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "For once, Danse had made the joke first. I decided that counted as a successful repair too.",
+      "next_story_target": "what-the-armor-leaves-behind-24"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-24",
+      "chapter_number": 24,
+      "title": "The List",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "I closed my fingers around the code. “That’s the one thing I’m sure of.”",
+      "next_story_target": "what-the-armor-leaves-behind-25"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-25",
+      "chapter_number": 25,
+      "title": "Missing",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "I had asked Danse to learn that. Now it was my turn.",
+      "next_story_target": "what-the-armor-leaves-behind-26"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-26",
+      "chapter_number": 26,
+      "title": "Listening Post Bravo",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Not because he believed he deserved it. Because, for twenty minutes at a time, he trusted me enough to postpone the verdict.",
+      "next_story_target": "what-the-armor-leaves-behind-27"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-27",
+      "chapter_number": 27,
+      "title": "The Example",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "He looked down at me. This time the smile stayed.",
+      "next_story_target": "what-the-armor-leaves-behind-28"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-28",
+      "chapter_number": 28,
+      "title": "No Rank",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "There was a book on his side of the bed. I liked that better.",
+      "next_story_target": "what-the-armor-leaves-behind-29"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-29",
+      "chapter_number": 29,
+      "title": "Nothing",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "None cancelled the others. That was becoming one of the hardest lessons Danse had ever learned.",
+      "next_story_target": "what-the-armor-leaves-behind-30"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-30",
+      "chapter_number": 30,
+      "title": "The Things That Remain",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The list was becoming less about proving what had always been inside him and more about recording what he chose now. That was better evidence anyway.",
+      "next_story_target": "what-the-armor-leaves-behind-31"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-31",
+      "chapter_number": 31,
+      "title": "A Different Kind of Orders",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "He was learning how to fail harmlessly. That might have been the strangest kind of freedom yet.",
+      "next_story_target": "what-the-armor-leaves-behind-32"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-32",
+      "chapter_number": 32,
+      "title": "Civilian Clothes",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "He kissed me before I could get worse. I considered this positive reinforcement.",
+      "next_story_target": "what-the-armor-leaves-behind-33"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-33",
+      "chapter_number": 33,
+      "title": "Heart and Mind",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Less like a discovery. More like a choice he had decided to keep making.",
+      "next_story_target": "what-the-armor-leaves-behind-34"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-34",
+      "chapter_number": 34,
+      "title": "Patient",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "“That’s on the list.” “It is now.”",
+      "next_story_target": "what-the-armor-leaves-behind-35"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-35",
+      "chapter_number": 35,
+      "title": "A Home That Isn't a Bunker",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "It held. So did we.",
+      "next_story_target": "what-the-armor-leaves-behind-36"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-36",
+      "chapter_number": 36,
+      "title": "Three Chords",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Behind us the settlement noise faded. Ahead, our house waited with a porch large enough for two people, one guitar, and as many imperfect songs as he wanted to learn.",
+      "next_story_target": "what-the-armor-leaves-behind-37"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-37",
+      "chapter_number": 37,
+      "title": "The Name He Chose",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Not the name the Brotherhood revoked. The name he kept answering to because every day he chose to.",
+      "next_story_target": "what-the-armor-leaves-behind-38"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-38",
+      "chapter_number": 38,
+      "title": "No Exceptions",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Both his. No exception required.",
+      "next_story_target": "what-the-armor-leaves-behind-39"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-39",
+      "chapter_number": 39,
+      "title": "To Victory",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Not away from it either. To the life that kept becoming larger than the rules he had inherited.",
+      "next_story_target": "what-the-armor-leaves-behind-40"
+    },
+    {
+      "id": "what-the-armor-leaves-behind-40",
+      "chapter_number": 40,
+      "title": "What the Armor Leaves Behind",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "I took it. We went home.",
+      "next_story_target": "@generate"
+    }
+  ],
+  "character_library": {
+    "folder": "json/characters",
+    "index": "json/characters/index.json",
+    "profile_ids": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys",
+      "fo4-maxson",
+      "fo4-cutler",
+      "fo4-ingram",
+      "fo4-kells",
+      "fo4-quinlan",
+      "fo4-brandis",
+      "fo4-nick-valentine",
+      "fo4-amos",
+      "fo4-lena",
+      "fo4-mara"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "rule": "Generator should load relevant profiles and preserve distinct canon/story-original voices."
   }
 }

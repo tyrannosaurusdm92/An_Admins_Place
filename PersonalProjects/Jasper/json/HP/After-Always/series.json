@@ -1,14 +1,14 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_series",
   "fandom": "Harry Potter",
   "series_title": "After Always",
   "series_slug": "after-always",
   "series_folder": "After-Always",
   "series_path": "HP/After-Always",
-  "pairing": "Severus Snape / Adult Reader",
-  "reader_character": "Adult self-insert reader-proxy, written in first person",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Severus Snape / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "chapter_count": 40,
   "chapters": [
     {
@@ -17,7 +17,9 @@
       "title": "The Man Who Was Supposed to Be Dead",
       "word_count": 1395,
       "choice_count": 3,
-      "id": "after-always-01"
+      "id": "after-always-01",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 2,
@@ -25,7 +27,9 @@
       "title": "Bitter Root",
       "word_count": 1392,
       "choice_count": 3,
-      "id": "after-always-02"
+      "id": "after-always-02",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 3,
@@ -33,7 +37,9 @@
       "title": "Terms of Recovery",
       "word_count": 1400,
       "choice_count": 3,
-      "id": "after-always-03"
+      "id": "after-always-03",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 4,
@@ -41,7 +47,9 @@
       "title": "The Dungeons Remember",
       "word_count": 1486,
       "choice_count": 3,
-      "id": "after-always-04"
+      "id": "after-always-04",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 5,
@@ -49,7 +57,9 @@
       "title": "Instructions in the Margin",
       "word_count": 1482,
       "choice_count": 3,
-      "id": "after-always-05"
+      "id": "after-always-05",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 6,
@@ -57,7 +67,9 @@
       "title": "A Question of Antidotes",
       "word_count": 1498,
       "choice_count": 3,
-      "id": "after-always-06"
+      "id": "after-always-06",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 7,
@@ -65,7 +77,9 @@
       "title": "The Scar at His Throat",
       "word_count": 1380,
       "choice_count": 3,
-      "id": "after-always-07"
+      "id": "after-always-07",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 8,
@@ -73,7 +87,9 @@
       "title": "Spinner's End",
       "word_count": 1403,
       "choice_count": 3,
-      "id": "after-always-08"
+      "id": "after-always-08",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 9,
@@ -81,7 +97,9 @@
       "title": "A Cup of Tea, Unpoisoned",
       "word_count": 1378,
       "choice_count": 3,
-      "id": "after-always-09"
+      "id": "after-always-09",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 10,
@@ -89,7 +107,9 @@
       "title": "The Room Behind the Office",
       "word_count": 1490,
       "choice_count": 3,
-      "id": "after-always-10"
+      "id": "after-always-10",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 11,
@@ -97,7 +117,9 @@
       "title": "The First Argument",
       "word_count": 1424,
       "choice_count": 3,
-      "id": "after-always-11"
+      "id": "after-always-11",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 12,
@@ -105,7 +127,9 @@
       "title": "What He Does Not Say",
       "word_count": 1496,
       "choice_count": 3,
-      "id": "after-always-12"
+      "id": "after-always-12",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 13,
@@ -113,15 +137,19 @@
       "title": "A Patronus in the Corridor",
       "word_count": 1420,
       "choice_count": 3,
-      "id": "after-always-13"
+      "id": "after-always-13",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 14,
       "file": "14.json",
       "title": "Night Work",
-      "word_count": 1323,
+      "word_count": 1327,
       "choice_count": 3,
-      "id": "after-always-14"
+      "id": "after-always-14",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 15,
@@ -129,7 +157,9 @@
       "title": "The Half-Blood Prince",
       "word_count": 1233,
       "choice_count": 3,
-      "id": "after-always-15"
+      "id": "after-always-15",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 16,
@@ -137,7 +167,9 @@
       "title": "For Enemies",
       "word_count": 1283,
       "choice_count": 3,
-      "id": "after-always-16"
+      "id": "after-always-16",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 17,
@@ -145,7 +177,9 @@
       "title": "The Language of Hands",
       "word_count": 1206,
       "choice_count": 3,
-      "id": "after-always-17"
+      "id": "after-always-17",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 18,
@@ -153,7 +187,9 @@
       "title": "Hogsmeade in Rain",
       "word_count": 1340,
       "choice_count": 3,
-      "id": "after-always-18"
+      "id": "after-always-18",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 19,
@@ -161,7 +197,9 @@
       "title": "The Apology He Hates",
       "word_count": 1432,
       "choice_count": 3,
-      "id": "after-always-19"
+      "id": "after-always-19",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 20,
@@ -169,7 +207,9 @@
       "title": "A Door Left Open",
       "word_count": 1196,
       "choice_count": 3,
-      "id": "after-always-20"
+      "id": "after-always-20",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 21,
@@ -177,7 +217,9 @@
       "title": "Christmas Without Ghosts",
       "word_count": 1355,
       "choice_count": 3,
-      "id": "after-always-21"
+      "id": "after-always-21",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 22,
@@ -185,7 +227,9 @@
       "title": "The Mark",
       "word_count": 1116,
       "choice_count": 3,
-      "id": "after-always-22"
+      "id": "after-always-22",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 23,
@@ -193,7 +237,9 @@
       "title": "Occlumency",
       "word_count": 1243,
       "choice_count": 3,
-      "id": "after-always-23"
+      "id": "after-always-23",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 24,
@@ -201,7 +247,9 @@
       "title": "The Memory He Offers",
       "word_count": 1394,
       "choice_count": 3,
-      "id": "after-always-24"
+      "id": "after-always-24",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 25,
@@ -209,15 +257,19 @@
       "title": "The One I Refuse to Pity",
       "word_count": 1117,
       "choice_count": 3,
-      "id": "after-always-25"
+      "id": "after-always-25",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 26,
       "file": "26.json",
       "title": "A Different Kind of Loyalty",
-      "word_count": 912,
+      "word_count": 1473,
       "choice_count": 3,
-      "id": "after-always-26"
+      "id": "after-always-26",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 27,
@@ -225,15 +277,19 @@
       "title": "The Kiss in the Storeroom",
       "word_count": 1106,
       "choice_count": 3,
-      "id": "after-always-27"
+      "id": "after-always-27",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 28,
       "file": "28.json",
       "title": "After",
-      "word_count": 718,
+      "word_count": 1290,
       "choice_count": 3,
-      "id": "after-always-28"
+      "id": "after-always-28",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 29,
@@ -241,15 +297,19 @@
       "title": "The Hearing",
       "word_count": 1202,
       "choice_count": 3,
-      "id": "after-always-29"
+      "id": "after-always-29",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 30,
       "file": "30.json",
       "title": "A Name Cleared Poorly",
-      "word_count": 958,
+      "word_count": 1631,
       "choice_count": 3,
-      "id": "after-always-30"
+      "id": "after-always-30",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 31,
@@ -257,7 +317,9 @@
       "title": "A House That Still Stands",
       "word_count": 1097,
       "choice_count": 3,
-      "id": "after-always-31"
+      "id": "after-always-31",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 32,
@@ -265,15 +327,19 @@
       "title": "What Lily Was and Was Not",
       "word_count": 1098,
       "choice_count": 3,
-      "id": "after-always-32"
+      "id": "after-always-32",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 33,
       "file": "33.json",
       "title": "The First Morning",
-      "word_count": 925,
+      "word_count": 1640,
       "choice_count": 3,
-      "id": "after-always-33"
+      "id": "after-always-33",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 34,
@@ -281,15 +347,19 @@
       "title": "The Potion He Cannot Brew",
       "word_count": 1006,
       "choice_count": 3,
-      "id": "after-always-34"
+      "id": "after-always-34",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 35,
       "file": "35.json",
       "title": "The Letter from Hogwarts",
-      "word_count": 887,
+      "word_count": 1653,
       "choice_count": 3,
-      "id": "after-always-35"
+      "id": "after-always-35",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 36,
@@ -297,7 +367,9 @@
       "title": "A Better Kind of Classroom",
       "word_count": 1395,
       "choice_count": 3,
-      "id": "after-always-36"
+      "id": "after-always-36",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 37,
@@ -305,7 +377,9 @@
       "title": "The Laboratory at Spinner's End",
       "word_count": 1270,
       "choice_count": 3,
-      "id": "after-always-37"
+      "id": "after-always-37",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 38,
@@ -313,7 +387,9 @@
       "title": "The Shape of Light",
       "word_count": 1225,
       "choice_count": 3,
-      "id": "after-always-38"
+      "id": "after-always-38",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 39,
@@ -321,7 +397,9 @@
       "title": "What We Choose to Keep",
       "word_count": 1425,
       "choice_count": 3,
-      "id": "after-always-39"
+      "id": "after-always-39",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 40,
@@ -329,10 +407,12 @@
       "title": "After Always",
       "word_count": 1858,
       "choice_count": 3,
-      "id": "after-always-40"
+      "id": "after-always-40",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     }
   ],
-  "total_word_count": 50951,
+  "total_word_count": 54255,
   "key": "after-always",
   "title": "After Always",
   "folder": "HP",
@@ -381,15 +461,609 @@
     "39.json",
     "40.json"
   ],
-  "description": "After the war, an adult reader helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
+  "description": "After the war, Jasper helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
   "choice_count": 3,
-  "content_mode": "romance",
+  "content_mode": "mature_on_page",
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "explicit_branching": {
-    "available": true,
-    "target": "@generate-explicit",
-    "requires_story_provider": true,
-    "adult_characters_only": true
+  "explicit_branching": true,
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "private_interlude_branching": true,
+  "canon_window": "Postwar adult timeline only: adult Jasper and adult Severus Snape rebuilding life after the war; no school-age version of any romantic/private-interlude participant is used.",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "snape",
+      "voice": "precise, dry, restrained, verbally sharp, emotionally economical",
+      "humor": "deadpan correction, exact wording, reluctant amusement"
+    }
+  },
+  "jasper_tailoring": {
+    "named_protagonist": true,
+    "first_person": true,
+    "birth_year": 1999,
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "personality": [
+      "goofy/chaotic surface energy",
+      "kind",
+      "compassionate",
+      "intelligent",
+      "well-spoken",
+      "empathic",
+      "fiercely loyal",
+      "observant",
+      "remembers small details",
+      "loves hard"
+    ],
+    "relationship_rule": "slow build through plot, routines, conflict/repair, callbacks, shared obligations, private jokes, remembered details, and changed behavior",
+    "bridge_rule": "feed exact voice/style/memory/plot state to the existing bridge; do not modify bridge instructions"
+  },
+  "relationship_pacing": {
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "private_interlude_quota": false,
+    "stages": [
+      "chemistry",
+      "flirting",
+      "boundary_conversations",
+      "testing_power_play",
+      "established_dynamic",
+      "integrated_trust"
+    ],
+    "advancement_rule": "advance because story events and changed behavior earn it, never because a chapter number says intimacy is due"
+  },
+  "bridge_writer_context": {
+    "bridge_file": "js/explicit-bridge.js",
+    "bridge_is_user_owned": true,
+    "modify_bridge": false,
+    "writer_reference_engine": "StoryTools.JasperWriterReference",
+    "send": [
+      "William style DNA",
+      "selected reference passages",
+      "canon voice lane",
+      "Jasper profile lock",
+      "dialogue thread",
+      "memory/callbacks",
+      "relationship stage",
+      "open plot threads",
+      "boundaries",
+      "scene state"
+    ],
+    "resume": [
+      "reconnection/aftercare",
+      "humor/banter",
+      "memory updates",
+      "relationship consequences",
+      "next plot beat"
+    ]
+  },
+  "date_revised": "2026-09-20",
+  "original_authored_chapter_count": 40,
+  "original_fanfiction_complete": true,
+  "continuation_supported": true,
+  "branching_supported": true,
+  "new_story_creation_supported": true,
+  "continuation_after_original_finale": {
+    "enabled": true,
+    "from_chapter": 40,
+    "target": "@generate",
+    "rule": "Chapter 40 is a completed original ending, not a dead end. Jasper may continue into generated chapter 41+ while carrying the full 40-chapter memory and writer-reference context."
+  },
+  "private_handoff_flow": {
+    "enabled": true,
+    "bridge": "js/explicit-bridge.js",
+    "visual_transition": "fade_to_black",
+    "backend_generation": true,
+    "return_to_story": true,
+    "rule": "Fade-to-black is a UI handoff transition only. The normal writer stops at the seam, the private bridge/generator owns the bounded interlude, and the story resumes afterward without losing memory, dialogue state, character voice, or plot threads."
+  },
+  "story_bible": [
+    "The story is about surviving the life neither person expected after the war: difficult truths, potions, work, grief, accountability, and quiet acts of chosen care.",
+    "Snape remains sharp, private, exact, dry, suspicious of sentimentality, and capable of cruelty when wounded; tenderness should never make him suddenly verbose, sunny, or generic.",
+    "Jasper does not exist to redeem Snape. They can challenge him, leave a room, demand accountability, laugh at him, care for him, and choose him without excusing harm.",
+    "Lily, the war, the Dark Mark, teaching, Spinner’s End, and Snape’s history are continuity pressures rather than buttons to press for instant vulnerability.",
+    "Generated chapter 41+ must treat the authored forty-chapter relationship as established history and preserve the specific repairs already earned."
+  ],
+  "character_bible": [
+    "Jasper — adult named first-person protagonist; witty, compassionate, observant, articulate, stubborn, and unwilling to confuse understanding someone with surrendering boundaries.",
+    "Severus Snape — controlled, exact, dry, private, defensive, intellectually sharp, often speaking in economical barbs or precise statements. Rare approval carries weight because it is rare.",
+    "Their relationship works through precision: exact questions, exact apologies, difficult silence, competence, practical care, and the difference between pity and chosen love."
+  ],
+  "narrative_tense": "first_person_past",
+  "generated_continuation_contract": {
+    "start_after_authored_chapter": 40,
+    "first_generated_chapter_number": 41,
+    "target_words": 1800,
+    "minimum_acceptable_words": 1200,
+    "carry_full_authored_arc": true,
+    "never_restart_relationship": true,
+    "never_repeat_first_meeting": true,
+    "preserve_unresolved_threads": true,
+    "preserve_choice_history": true,
+    "preserve_writer_reference": true,
+    "preserve_jasper_profile": true,
+    "preserve_canon_voice": true,
+    "private_handoff_optional_only": true
+  },
+  "branching_policy": {
+    "authored_choices_per_chapter": 3,
+    "ordinary_choices": 2,
+    "private_choice_retained_in_json": true,
+    "private_choice_visibility": "contextual_after_testing_power_play_stage",
+    "same_next_authored_chapter_allowed": true,
+    "branch_difference_carried_by": "path variant bridge + memory effects + later generated continuation",
+    "generated_choices_must_be_materially_distinct": true
+  },
+  "writer_reference_policy": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile": "json/william-writing-style.json",
+    "use_on_every_generated_chapter": true,
+    "use_on_every_choice": true,
+    "feed_private_bridge_context_without_modifying_bridge": true,
+    "include_recent_authored_closing_anchor": true,
+    "include_open_dialogue_and_plot_threads": true,
+    "include_character_voice_lane": true,
+    "copy_source_sentences": false
+  },
+  "quality_gate": {
+    "first_person_jasper_required": true,
+    "narrative_tense": "first_person_past",
+    "quote_aware_second_person_lint": true,
+    "object_case_lint": true,
+    "mind_reading_warning": true,
+    "canon_window_required": true,
+    "writer_reference_required": true,
+    "continuity_snapshot_required": true,
+    "choice_path_variant_required": true,
+    "private_handoff_requires_relationship_stage": true
+  },
+  "authored_arc_index": [
+    {
+      "id": "after-always-01",
+      "chapter_number": 1,
+      "title": "The Man Who Was Supposed to Be Dead",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "The audit had been underway for less than two hours. Already, I knew I would not be leaving Hogwarts on schedule.",
+      "next_story_target": "after-always-02"
+    },
+    {
+      "id": "after-always-02",
+      "chapter_number": 2,
+      "title": "Bitter Root",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "His mouth twitched. “Finally,” he said, “you have identified a genuine failing.”",
+      "next_story_target": "after-always-03"
+    },
+    {
+      "id": "after-always-03",
+      "chapter_number": 3,
+      "title": "Terms of Recovery",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I did not write it on the list. Some things, I was learning, did not need to become evidence.",
+      "next_story_target": "after-always-04"
+    },
+    {
+      "id": "after-always-04",
+      "chapter_number": 4,
+      "title": "The Dungeons Remember",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "Then he looked down the stairs again, and this time the doorway seemed less like something waiting to swallow him. For the first time, I wondered what it would mean if Snape learned he was allowed to remember without living there.",
+      "next_story_target": "after-always-05"
+    },
+    {
+      "id": "after-always-05",
+      "chapter_number": 5,
+      "title": "Instructions in the Margin",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I read because the mind in those pages was fierce, impatient, inventive, wounded, arrogant, and alive. And because, for reasons I was not yet willing to name, he had trusted me with it.",
+      "next_story_target": "after-always-06"
+    },
+    {
+      "id": "after-always-06",
+      "chapter_number": 6,
+      "title": "A Question of Antidotes",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The past was not finished. Neither, apparently, was he.",
+      "next_story_target": "after-always-07"
+    },
+    {
+      "id": "after-always-07",
+      "chapter_number": 7,
+      "title": "The Scar at His Throat",
+      "relationship_stage": "flirting",
+      "closing_anchor": "I pretended not to notice. Some things did not need to become evidence.",
+      "next_story_target": "after-always-08"
+    },
+    {
+      "id": "after-always-08",
+      "chapter_number": 8,
+      "title": "Spinner's End",
+      "relationship_stage": "flirting",
+      "closing_anchor": "So I walked beside him in the rain. This time, silence did not feel like distance.",
+      "next_story_target": "after-always-09"
+    },
+    {
+      "id": "after-always-09",
+      "chapter_number": 9,
+      "title": "A Cup of Tea, Unpoisoned",
+      "relationship_stage": "flirting",
+      "closing_anchor": "“Yes,” he said. “It is.” I carried it back to Hogwarts with the journals.",
+      "next_story_target": "after-always-10"
+    },
+    {
+      "id": "after-always-10",
+      "chapter_number": 10,
+      "title": "The Room Behind the Office",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The room was still private after I had seen it. That mattered. Being invited inside did not make me its owner. Less empty.",
+      "next_story_target": "after-always-11"
+    },
+    {
+      "id": "after-always-11",
+      "chapter_number": 11,
+      "title": "The First Argument",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "Something eased between us. Not peace. Terms. Because he had been wrong, had known it, and stayed in the room.",
+      "next_story_target": "after-always-12"
+    },
+    {
+      "id": "after-always-12",
+      "chapter_number": 12,
+      "title": "What He Does Not Say",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "He looked almost offended, which was better than looking hollow. Sometimes it sounded very much like change.",
+      "next_story_target": "after-always-13"
+    },
+    {
+      "id": "after-always-13",
+      "chapter_number": 13,
+      "title": "A Patronus in the Corridor",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "For some reason, that one word felt better than applause. Tomorrow, he was going to teach me how to do the same for myself.",
+      "next_story_target": "after-always-14"
+    },
+    {
+      "id": "after-always-14",
+      "chapter_number": 14,
+      "title": "Night Work",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "The next night, he was the one who ended work first. That was definitely a problem.",
+      "next_story_target": "after-always-15"
+    },
+    {
+      "id": "after-always-15",
+      "chapter_number": 15,
+      "title": "The Half-Blood Prince",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "It was enough to make the room feel brighter. That silence had a new language too.",
+      "next_story_target": "after-always-16"
+    },
+    {
+      "id": "after-always-16",
+      "chapter_number": 16,
+      "title": "For Enemies",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "For once, we did not need to argue the difference. And another.",
+      "next_story_target": "after-always-17"
+    },
+    {
+      "id": "after-always-17",
+      "chapter_number": 17,
+      "title": "The Language of Hands",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "That night, the language of hands gained sarcasm too. This time neither of us pretended it was accidental.",
+      "next_story_target": "after-always-18"
+    },
+    {
+      "id": "after-always-18",
+      "chapter_number": 18,
+      "title": "Hogsmeade in Rain",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "From Severus, it felt dangerously close to flowers. My new boots did not leak at all.",
+      "next_story_target": "after-always-19"
+    },
+    {
+      "id": "after-always-19",
+      "chapter_number": 19,
+      "title": "The Apology He Hates",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "The apology, I realized, was not the sentence. It was the changed behavior after it. Repair.",
+      "next_story_target": "after-always-20"
+    },
+    {
+      "id": "after-always-20",
+      "chapter_number": 20,
+      "title": "A Door Left Open",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "By the end of the week, I understood that intimacy with Severus was not constant access. It was knowing a boundary would survive being used. Behind me, he did not close the office door.",
+      "next_story_target": "after-always-21"
+    },
+    {
+      "id": "after-always-21",
+      "chapter_number": 21,
+      "title": "Christmas Without Ghosts",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "“May we survive the boredom.” There was a difference.",
+      "next_story_target": "after-always-22"
+    },
+    {
+      "id": "after-always-22",
+      "chapter_number": 22,
+      "title": "The Mark",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "He left his arm where it was. I stopped wishing it would.",
+      "next_story_target": "after-always-23"
+    },
+    {
+      "id": "after-always-23",
+      "chapter_number": 23,
+      "title": "Occlumency",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "More importantly, he had brought me back without taking control away from me. This time he allowed it.",
+      "next_story_target": "after-always-24"
+    },
+    {
+      "id": "after-always-24",
+      "chapter_number": 24,
+      "title": "The Memory He Offers",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "That was how I learned the difference between information extracted and memory shared. We walked back to the dungeon together.",
+      "next_story_target": "after-always-25"
+    },
+    {
+      "id": "after-always-25",
+      "chapter_number": 25,
+      "title": "The One I Refuse to Pity",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Not yet, I understood, was not the same as no. The man remained.",
+      "next_story_target": "after-always-26"
+    },
+    {
+      "id": "after-always-26",
+      "chapter_number": 26,
+      "title": "A Different Kind of Loyalty",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "When I left, they were alphabetical. I did not mention it.\\n\\nI reached the door before he spoke again.\\n\\n“Jasper.”\\n\\nI turned.\\n\\nSnape had not moved from the worktable. One hand rested beside the newly alphabetized bottles, fingers spread against the wood as if he needed the contact to keep the room still.\\n\\n“Yes?”\\n\\nHis eyes went to the door, then back to me.\\n\\n“If tomorrow becomes unpleasant—”\\n\\n“It will.”\\n\\nHis expression sharpened. “I had intended to finish the sentence.”\\n\\n“Sorry. Continue your prophecy.”\\n\\n“If tomorrow becomes unpleasant,” he repeated, “you are not required to remain.”\\n\\nThe careful phrasing told me he had been thinking about it for a while. Not whether I would come. Whether I would leave once the room became cruel.\\n\\nI leaned one shoulder against the doorframe. “Are you asking me to leave?”\\n\\n“No.”\\n\\n“Are you telling me to?”\\n\\n“No.”\\n\\n“Then what are you doing?”\\n\\nHis mouth tightened.\\n\\n“Providing an exit.”\\n\\nThe answer made something in my chest ache.\\n\\nI crossed back to the table. “You know what is interesting about exits?”\\n\\n“I am certain you intend to tell me.”\\n\\n“They work in both directions.”\\n\\nHe frowned.\\n\\n“If I need to…",
+      "next_story_target": "after-always-27"
+    },
+    {
+      "id": "after-always-27",
+      "chapter_number": 27,
+      "title": "The Kiss in the Storeroom",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The powdered unicorn horn stayed on the rejection pile. Some standards, apparently, remained non-negotiable.",
+      "next_story_target": "after-always-28"
+    },
+    {
+      "id": "after-always-28",
+      "chapter_number": 28,
+      "title": "After",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "It did not feel like distance. It felt like a promise.\\n\\nThe lift stopped two floors below the hearing chamber.\\n\\nA witch from the Department of Magical Law Enforcement stepped inside carrying three folders and the exhausted expression of someone who had spent the morning being shouted at by people with inherited seats. She recognized Snape immediately.\\n\\nHer eyes widened.\\n\\nThen, to her credit, she looked at the floor numbers instead of staring.\\n\\nSnape became so still beside me that I could feel the effort of it.\\n\\nI did not reach for his hand. Not because I did not want to. Because he had chosen distance in the atrium, and I wanted that choice to remain his instead of becoming something he had to defend.\\n\\nThe witch got off one floor later.\\n\\nThe doors closed.\\n\\nSnape exhaled.\\n\\n“You are thinking very loudly,” he said.\\n\\n“I thought that was your specialty.”\\n\\n“Yours is more obvious.”\\n\\nI looked at him. “Do you want me farther away?”\\n\\nHis head turned sharply.\\n\\n“No.”\\n\\n“Closer?”\\n\\nHe glanced at the brass doors, as though the Ministry itself might file a report on the answer.\\n\\n“Not here.”\\n\\n“Okay.”\\n\\nThat was all.\\n\\nNo punishment. No sulking. No test hidden…",
+      "next_story_target": "after-always-29"
+    },
+    {
+      "id": "after-always-29",
+      "chapter_number": 29,
+      "title": "The Hearing",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "“After.” This time, before the lift doors opened, his hand found mine.",
+      "next_story_target": "after-always-30"
+    },
+    {
+      "id": "after-always-30",
+      "chapter_number": 30,
+      "title": "A Name Cleared Poorly",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "He had been allowed to leave. And this time, he chose where to go next.\\n\\nMuch later, after the castle had gone quiet and the Prophet had been folded face-down under a stack of inventory sheets, Snape made tea.\\n\\nThat alone told me the day had broken something loose. He usually treated tea as a beverage for people who lacked access to competent coffee.\\n\\nHe put too many leaves in the pot.\\n\\nI drank it anyway.\\n\\n“What happens now?” I asked.\\n\\nSnape stood by the worktable with his cup untouched. “An appalling number of forms.”\\n\\n“I meant after the forms.”\\n\\n“I am aware.”\\n\\nHe looked around the dungeon. The evidence seals were mostly gone now. Shelves had been repaired. Student cauldrons waited in orderly stacks for a school year that would begin whether anyone felt ready or not.\\n\\n“You could stay here,” I said.\\n\\n“I could.”\\n\\n“Do you want to?”\\n\\nHis gaze dropped to his tea. “I don't know.”\\n\\nThat answer no longer startled me. It had become one of the strangest signs of trust between us.\\n\\n“Spinner's End?” I asked.\\n\\nHis expression closed slightly.\\n\\n“The house remains.”\\n\\n“That's not the same as wanting to live there.”\\n\\n“No.”\\n\\n“Do you need to go back?”\\n\\nHe…",
+      "next_story_target": "after-always-31"
+    },
+    {
+      "id": "after-always-31",
+      "chapter_number": 31,
+      "title": "A House That Still Stands",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "So did he. For the moment, that was enough.",
+      "next_story_target": "after-always-32"
+    },
+    {
+      "id": "after-always-32",
+      "chapter_number": 32,
+      "title": "What Lily Was and Was Not",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Those facts did not need to destroy each other. Both could be true.",
+      "next_story_target": "after-always-33"
+    },
+    {
+      "id": "after-always-33",
+      "chapter_number": 33,
+      "title": "The First Morning",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "It gave us breakfast, bad hair, careful questions, and a door we could leave separately. For me, that was more romantic than destiny.\\n\\nWe ate breakfast at the small table by the window.\\n\\nSnape had toast. I had tea strong enough to qualify as disciplinary action. Neither of us commented on the fact that he had remembered exactly how I took it.\\n\\nFor several minutes, the most intimate thing in the room was butter.\\n\\nI liked that.\\n\\nIt gave the night before somewhere ordinary to land.\\n\\nSnape opened the newspaper, read two paragraphs, and lowered it again.\\n\\n“You are watching me.”\\n\\n“You're holding the paper upside down.”\\n\\nHe looked at it.\\n\\nTurned it around.\\n\\n“I was testing the print quality.”\\n\\n“Obviously.”\\n\\n“Do not become smug before nine.”\\n\\n“What time is smugness permitted?”\\n\\n“Never. I was attempting compromise.”\\n\\nI laughed, and some of the remaining tension left his shoulders.\\n\\nThat was when I understood that he was waiting for the bill.\\n\\nNot money. Meaning. Expectation. The invisible invoice people sometimes handed each other after vulnerability: I gave you this, therefore you owe me that.\\n\\nI set my cup down.\\n\\n“Nothing changed that I didn't agree…",
+      "next_story_target": "after-always-34"
+    },
+    {
+      "id": "after-always-34",
+      "chapter_number": 34,
+      "title": "The Potion He Cannot Brew",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "There are no potions that make the past stop being true. Maybe that was mercy too.",
+      "next_story_target": "after-always-35"
+    },
+    {
+      "id": "after-always-35",
+      "chapter_number": 35,
+      "title": "The Letter from Hogwarts",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Not escape. Try.\\n\\nThe signature did not end the argument.\\n\\nIt started a new one.\\n\\n“You cannot simply sign their terms unchanged,” I said.\\n\\nSnape looked up from the parchment. “I have just done precisely that.”\\n\\n“You wrote three objections in the margins.”\\n\\n“Observations.”\\n\\n“One says, ‘This clause was clearly drafted by someone who has never entered a classroom.’”\\n\\n“An observation.”\\n\\n“Another says, ‘Define public disparagement.’”\\n\\n“A necessary legal clarification.”\\n\\n“The third just says, ‘No.’”\\n\\n“The clearest of the three.”\\n\\nI pulled the letter toward me. “If you're going back because you want to teach differently, make them give you conditions you can actually follow.”\\n\\nHis eyes narrowed. “You propose I negotiate for stricter oversight?”\\n\\n“I propose you negotiate for useful oversight.”\\n\\n“That sounds suspiciously like governance.”\\n\\n“Terrible, I know.”\\n\\nSnape stared at the fire.\\n\\nThen, slowly, he took a fresh sheet of parchment.\\n\\n“What would you change?” he asked.\\n\\nI tried not to look too pleased.\\n\\n“First, classroom observation should include feedback, not just surveillance.”\\n\\nHe wrote.\\n\\n“Second, student complaints need a process that…",
+      "next_story_target": "after-always-36"
+    },
+    {
+      "id": "after-always-36",
+      "chapter_number": 36,
+      "title": "A Better Kind of Classroom",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "His eyes narrowed. I had never enjoyed policy so much in my life.",
+      "next_story_target": "after-always-37"
+    },
+    {
+      "id": "after-always-37",
+      "chapter_number": 37,
+      "title": "The Laboratory at Spinner's End",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "He complained all the way to the door. He did not let go of my hand.",
+      "next_story_target": "after-always-38"
+    },
+    {
+      "id": "after-always-38",
+      "chapter_number": 38,
+      "title": "The Shape of Light",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "He was right. The Patronus burst into silver anyway.",
+      "next_story_target": "after-always-39"
+    },
+    {
+      "id": "after-always-39",
+      "chapter_number": 39,
+      "title": "What We Choose to Keep",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "He let me. That went in KEEP too.",
+      "next_story_target": "after-always-40"
+    },
+    {
+      "id": "after-always-40",
+      "chapter_number": 40,
+      "title": "After Always",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "More than enough. It was after always.",
+      "next_story_target": "@generate"
+    }
+  ],
+  "character_library": {
+    "folder": "json/characters",
+    "index": "json/characters/index.json",
+    "profile_ids": [
+      "hp-snape",
+      "hp-harry",
+      "hp-mcgonagall",
+      "hp-voldemort",
+      "hp-pomfrey",
+      "hp-lily",
+      "hp-james",
+      "hp-dumbledore",
+      "hp-hagrid",
+      "hp-lucius",
+      "hp-kingsley"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "rule": "Generator should load relevant profiles and preserve distinct canon/story-original voices."
   }
 }
