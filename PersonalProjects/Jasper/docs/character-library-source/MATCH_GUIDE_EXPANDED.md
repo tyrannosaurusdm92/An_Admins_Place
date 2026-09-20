@@ -1,0 +1,154 @@
+# Expanded Jasper Match Guide
+
+Total detailed fictional-character profiles: **134**
+
+The match guide is a retrieval shortcut. Full profiles contain canon grounding, voice, romance/explicit inference, brat-tamer compatibility, adult gates, continuation rules, and source URLs.
+
+## Older / wiser / lived-in
+- **Aang** — Avatar: The Last Airbender
+- **Hakoda** — Avatar: The Last Airbender
+- **Iroh** — Avatar: The Last Airbender
+- **Katara** — Avatar: The Last Airbender
+- **King Bumi** — Avatar: The Last Airbender
+- **Piandao** — Avatar: The Last Airbender
+- **Wataru** — Coral Island
+- **Yuri** — Coral Island
+- **Alfred Pennyworth** — DC Movies
+- **Black Adam / Teth-Adam** — DC Movies
+- **James Gordon** — DC Movies
+- **Kent Nelson / Doctor Fate** — DC Movies
+- **Wonder Woman / Diana Prince** — DC Movies
+- **King Triton** — Disney Movies
+- **Pacha** — Disney Movies
+- **Deacon** — Fallout 4
+- **John Hancock** — Fallout 4
+- **Nick Valentine** — Fallout 4
+- **Old Longfellow** — Fallout 4
+- **Aries** — Fallout 76
+- **Leo Petrov** — Fallout 76
+- **Solomon Hardy** — Fallout 76
+- **Vernon Dodge** — Fallout 76
+- **Arthur Weasley** — Harry Potter
+- **Kingsley Shacklebolt** — Harry Potter
+- **Minerva McGonagall** — Harry Potter
+- **Remus Lupin** — Harry Potter
+- **Sirius Black** — Harry Potter
+- **Carmilla Carmine** — Hazbin Hotel
+- **Husk** — Hazbin Hotel
+- **Rosie** — Hazbin Hotel
+- **Zestial** — Hazbin Hotel
+- **Alexei Shostakov / Red Guardian** — Marvel Movies
+- **Bruce Banner / Hulk** — Marvel Movies
+- **Bucky Barnes / Winter Soldier** — Marvel Movies
+- **Loki** — Marvel Movies
+- **M'Baku** — Marvel Movies
+- **Nick Fury** — Marvel Movies
+- **Stephen Strange / Doctor Strange** — Marvel Movies
+- **Wong** — Marvel Movies
+- **Ashura** — Palia
+- **Chayne** — Palia
+- **Hodari Pavel** — Palia
+- **Sifuu** — Palia
+- **Subira** — Palia
+- **Tamala** — Palia
+- **Zeki** — Palia
+- **Ada Wong** — Resident Evil
+- **Jill Valentine** — Resident Evil
+- **Karl Heisenberg** — Resident Evil
+- **Leon S. Kennedy** — Resident Evil
+- **Blue Diamond** — Steven Universe
+- **Pearl** — Steven Universe
+- **Rose Quartz / Pink Diamond** — Steven Universe
+- **Yellow Diamond** — Steven Universe
+
+## Goofy / affectionate / sweetheart
+- **Aang** — Avatar: The Last Airbender
+- **Sokka** — Avatar: The Last Airbender
+- **Ben** — Coral Island
+- **Pablo Sanchez** — Coral Island
+- **Scott** — Coral Island
+- **Theo** — Coral Island
+- **Arthur Curry / Aquaman** — DC Movies
+- **Clark Kent / Superman** — DC Movies
+- **Steve Trevor** — DC Movies
+- **Captain Phoebus** — Disney Movies
+- **Flynn Rider / Eugene Fitzherbert** — Disney Movies
+- **Genie** — Disney Movies
+- **King Fergus** — Disney Movies
+- **Kristoff** — Disney Movies
+- **Kronk** — Disney Movies
+- **Pacha** — Disney Movies
+- **Prince Naveen** — Disney Movies
+- **John Hancock** — Fallout 4
+- **Adelaide** — Fallout 76
+- **Beckett** — Fallout 76
+- **Joey Bello** — Fallout 76
+- **Raider Punk** — Fallout 76
+- **Arthur Weasley** — Harry Potter
+- **Rubeus Hagrid** — Harry Potter
+- **Angel Dust** — Hazbin Hotel
+- **Lucifer Morningstar** — Hazbin Hotel
+- **Sir Pentious** — Hazbin Hotel
+- **Happy Hogan** — Marvel Movies
+- **Peter Quill / Star-Lord** — Marvel Movies
+- **Scott Lang / Ant-Man** — Marvel Movies
+- **Thor Odinson** — Marvel Movies
+- **Badruu** — Palia
+- **Einar** — Palia
+- **Reth** — Palia
+- **Sifuu** — Palia
+- **Barry Burton** — Resident Evil
+- **Carlos Oliveira** — Resident Evil
+- **Bismuth** — Steven Universe
+- **Greg Universe** — Steven Universe
+- **Rose Quartz / Pink Diamond** — Steven Universe
+
+## Precision / dry-wit / brat-compatible
+- **Piandao** — Avatar: The Last Airbender
+- **Suki** — Avatar: The Last Airbender
+- **Toph Beifong** — Avatar: The Last Airbender
+- **Zuko** — Avatar: The Last Airbender
+- **Alfred Pennyworth** — DC Movies
+- **Arthur Curry / Aquaman** — DC Movies
+- **Black Adam / Teth-Adam** — DC Movies
+- **Bruce Wayne / Batman** — DC Movies
+- **James Gordon** — DC Movies
+- **Rick Flag** — DC Movies
+- **Wonder Woman / Diana Prince** — DC Movies
+- **King Fergus** — Disney Movies
+- **Li Shang** — Disney Movies
+- **Maui** — Disney Movies
+- **Robert Philip** — Disney Movies
+- **Deacon** — Fallout 4
+- **Nick Valentine** — Fallout 4
+- **Aries** — Fallout 76
+- **Katherine Swan** — Fallout 76
+- **Vinny Costa** — Fallout 76
+- **Kingsley Shacklebolt** — Harry Potter
+- **Minerva McGonagall** — Harry Potter
+- **Severus Snape** — Harry Potter
+- **Alastor** — Hazbin Hotel
+- **Carmilla Carmine** — Hazbin Hotel
+- **Husk** — Hazbin Hotel
+- **Vaggie** — Hazbin Hotel
+- **Bucky Barnes / Winter Soldier** — Marvel Movies
+- **Clint Barton / Hawkeye** — Marvel Movies
+- **James 'Rhodey' Rhodes / War Machine** — Marvel Movies
+- **Loki** — Marvel Movies
+- **Matt Murdock / Daredevil** — Marvel Movies
+- **Nick Fury** — Marvel Movies
+- **Stephen Strange / Doctor Strange** — Marvel Movies
+- **Thor Odinson** — Marvel Movies
+- **Tony Stark / Iron Man** — Marvel Movies
+- **Wong** — Marvel Movies
+- **Kenyatta** — Palia
+- **Subira** — Palia
+- **Ada Wong** — Resident Evil
+- **Albert Wesker** — Resident Evil
+- **Leon S. Kennedy** — Resident Evil
+- **Pearl** — Steven Universe
+- **Yellow Diamond** — Steven Universe
+
+## Continuation use
+
+Load the chosen character JSON plus `continuation_context_template.json`. Character JSON supplies stable canon voice; the continuation ledger supplies what this specific fic has already earned.
