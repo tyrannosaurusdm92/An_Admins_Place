@@ -1,0 +1,213 @@
+{
+  "schema_version": "jasper.character-profile.v1",
+  "research_date": "2026-09-20",
+  "identity": {
+    "name": "Tony Stark / Iron Man",
+    "franchise": "Marvel Movies",
+    "continuity_scope": "MCU pre-death or canon-divergent AU",
+    "fictional_only": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "character_id": "marvel-movies:tony-stark-iron-man"
+  },
+  "adult_gate": {
+    "status": "confirmed adult; post-Endgame ongoing romance requires canon divergence",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "jasper_match": {
+    "seed_character_matches": [
+      "Greg Universe",
+      "Severus Snape"
+    ],
+    "archetypes": [
+      "dry_wit",
+      "romantic_showman",
+      "competence",
+      "brat_compatible"
+    ],
+    "why_this_matches": "Greg’s performative humor crossed with Snape’s verbal sharpness: brilliant, exhausting, funny, controlling at times, traumatized and prone to expressing care through engineering.",
+    "archetype_writing_notes": [
+      "Use understatement and exact one-liners instead of constant quipping.",
+      "Grand gestures should eventually strip down to something emotionally simple and specific.",
+      "Attraction should grow from watching the character do what they are actually good at.",
+      "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
+    ]
+  },
+  "canon_grounding": {
+    "core_traits": [
+      "genius inventor/industrialist turned hero",
+      "brash and sarcastic",
+      "uses humor as armor",
+      "love often appears through building/fixing/planning",
+      "control issues are real conflict"
+    ],
+    "canon_relationship_or_romance_state": "Pepper relationship/death require explicit AU/poly/canon-divergence.",
+    "continuity_note": "MCU pre-death or canon-divergent AU"
+  },
+  "voice_profile": {
+    "summary": "fast, reference-heavy and sarcastic",
+    "dialogue_priority": [
+      "recognizable cadence before generic erotic phrasing",
+      "retain humor style during intimacy",
+      "retain flaws and coping mechanisms",
+      "do not convert into Generic Dom"
+    ],
+    "relationship_dynamics": [
+      "deadpan, economical, observant",
+      "performative then sincere",
+      "capable, grounded, reliable",
+      "teasing, responsive, attentive"
+    ]
+  },
+  "romance_writer_profile": {
+    "courtship_and_sappy_core": "gadgets, workshop time, overdesigned gifts and banter",
+    "required_emotional_logic": [
+      "attraction grows from specific behavior",
+      "intimacy changes trust or vulnerability",
+      "canon grief/relationships are not silently erased",
+      "Jasper remains active rather than a passenger"
+    ]
+  },
+  "brat_tamer_profile": {
+    "style": "Verbal-chaos tamer: tries to outtalk Jasper, then becomes extremely precise when the joke ends.",
+    "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+    "preferred_loop": [
+      "Jasper provokes or finds a loophole",
+      "character recognizes play in a pre-negotiated context",
+      "character answers in their own voice",
+      "Jasper chooses whether to yield",
+      "specific praise or affectionate payoff",
+      "Jasper keeps their personality and may get the last smart remark"
+    ]
+  },
+  "adult_intimacy_voice": {
+    "generator_inference_not_canon": true,
+    "hard_explicit_compatible": true,
+    "no_fade_to_black": true,
+    "no_hidden_nudity_censorship": true,
+    "character_specific_diction": "fast, direct and innuendo-friendly; never use surveillance/tech as romantic coercion",
+    "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+    "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+  },
+  "aftercare_profile": {
+    "character_specific_aftercare": "food/water delivered practically, blanket, workshop decompression and rare unguarded reassurance",
+    "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+  },
+  "first_person_jasper_contract": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "story_engines": [
+    "Stark workshop romance",
+    "post-IM3 healing AU",
+    "Avengers Tower domesticity",
+    "survival canon divergence"
+  ],
+  "do_not_flatten_into": [
+    "pure narcissist",
+    "perfect genius",
+    "nonstop quips"
+  ],
+  "research_boundary": {
+    "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+    "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+  },
+  "retrieval": {
+    "franchise": "Marvel Movies",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Greg Universe",
+      "Severus Snape"
+    ],
+    "tags": [
+      "dry_wit",
+      "romantic_showman",
+      "competence",
+      "brat_compatible"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "url": "https://www.marvel.com/ironman3",
+      "purpose": "canon/personality grounding"
+    }
+  ],
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  }
+}

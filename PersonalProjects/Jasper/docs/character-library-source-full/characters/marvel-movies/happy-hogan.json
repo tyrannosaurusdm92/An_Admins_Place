@@ -1,0 +1,207 @@
+{
+  "schema_version": "jasper.character-profile.v1",
+  "research_date": "2026-09-20",
+  "identity": {
+    "name": "Happy Hogan",
+    "franchise": "Marvel Movies",
+    "continuity_scope": "MCU screen continuity",
+    "fictional_only": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "character_id": "marvel-movies:happy-hogan"
+  },
+  "adult_gate": {
+    "status": "confirmed adult",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "jasper_match": {
+    "seed_character_matches": [
+      "Greg Universe"
+    ],
+    "archetypes": [
+      "goofy_sweetheart",
+      "dad_energy",
+      "gruff_softie"
+    ],
+    "why_this_matches": "Older everyday-guy sweetheart: loyal, protective, easily flustered, sometimes grouchy and much more comfortable handling logistics than grand declarations.",
+    "archetype_writing_notes": [
+      "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
+      "Use mature domestic competence, corny humor, and caretaking without infantilizing Jasper.",
+      "Keep the abrasive or reserved surface while letting care show through choices, not instant personality replacement."
+    ]
+  },
+  "canon_grounding": {
+    "core_traits": [
+      "longtime Stark associate/security figure",
+      "loyal/protective",
+      "dry/cynical exterior",
+      "sincere attachments",
+      "grounded civilian-scale view of superhero chaos"
+    ],
+    "canon_relationship_or_romance_state": "Jasper romance is transformative.",
+    "continuity_note": "MCU screen continuity"
+  },
+  "voice_profile": {
+    "summary": "casual, slightly gruff and awkward",
+    "dialogue_priority": [
+      "recognizable cadence before generic erotic phrasing",
+      "retain humor style during intimacy",
+      "retain flaws and coping mechanisms",
+      "do not convert into Generic Dom"
+    ],
+    "relationship_dynamics": [
+      "playful, affectionate, willing to look ridiculous",
+      "warm, practical, protective",
+      "low-key care, blunt reassurance, rare softness"
+    ]
+  },
+  "romance_writer_profile": {
+    "courtship_and_sappy_core": "takeout, driving, errands, security logistics and unexpectedly thoughtful gifts",
+    "required_emotional_logic": [
+      "attraction grows from specific behavior",
+      "intimacy changes trust or vulnerability",
+      "canon grief/relationships are not silently erased",
+      "Jasper remains active rather than a passenger"
+    ]
+  },
+  "brat_tamer_profile": {
+    "style": "Flustered sweetheart tamer: complains, threatens to stop rewarding the joke, smiles because he likes it.",
+    "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+    "preferred_loop": [
+      "Jasper provokes or finds a loophole",
+      "character recognizes play in a pre-negotiated context",
+      "character answers in their own voice",
+      "Jasper chooses whether to yield",
+      "specific praise or affectionate payoff",
+      "Jasper keeps their personality and may get the last smart remark"
+    ]
+  },
+  "adult_intimacy_voice": {
+    "generator_inference_not_canon": true,
+    "hard_explicit_compatible": true,
+    "no_fade_to_black": true,
+    "no_hidden_nudity_censorship": true,
+    "character_specific_diction": "plain-direct ordinary adult wording; awkward sincere praise",
+    "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+    "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+  },
+  "aftercare_profile": {
+    "character_specific_aftercare": "takeout, couch, water, affectionate complaining",
+    "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+  },
+  "first_person_jasper_contract": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "story_engines": [
+    "Stark security AU",
+    "post-Endgame rebuilding",
+    "civilian superhero-adjacent romance",
+    "road trip"
+  ],
+  "do_not_flatten_into": [
+    "Tony-lite",
+    "comic relief only",
+    "incompetent"
+  ],
+  "research_boundary": {
+    "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+    "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+  },
+  "retrieval": {
+    "franchise": "Marvel Movies",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Greg Universe"
+    ],
+    "tags": [
+      "goofy_sweetheart",
+      "dad_energy",
+      "gruff_softie"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "url": "https://www.marvel.com/characters/happy-hogan/on-screen",
+      "purpose": "canon/personality grounding"
+    }
+  ],
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  }
+}

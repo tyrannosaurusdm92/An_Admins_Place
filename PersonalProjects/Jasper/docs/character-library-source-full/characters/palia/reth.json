@@ -1,0 +1,217 @@
+{
+  "schema_version": "jasper.character-profile.v1",
+  "research_date": "2026-09-20",
+  "identity": {
+    "name": "Reth",
+    "franchise": "Palia",
+    "continuity_scope": "current game continuity",
+    "fictional_only": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "character_id": "palia:reth"
+  },
+  "adult_gate": {
+    "status": "canon young adult; explicit mode requires age explicitly >=18",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "jasper_match": {
+    "seed_character_matches": [
+      "Greg Universe",
+      "Aang"
+    ],
+    "archetypes": [
+      "goofy_sweetheart",
+      "flirty_goof",
+      "family_first",
+      "brat_compatible"
+    ],
+    "why_this_matches": "Younger than the core preference but excellent goofy-heart material: talented chef, devoted brother, fast mouth, impulsive humor and hidden burdens.",
+    "archetype_writing_notes": [
+      "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
+      "Flirtation can be quick and playful, but real vulnerability must eventually replace the performance.",
+      "Family ties remain meaningful canon context; romance should not require the character to stop caring about family.",
+      "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
+    ]
+  },
+  "canon_grounding": {
+    "core_traits": [
+      "young-adult romanceable chef",
+      "devoted older brother to Tish",
+      "acts before thinking",
+      "left expected family Path for cooking",
+      "carries risky obligations/self-sacrifice"
+    ],
+    "canon_relationship_or_romance_state": "Canon romanceable; explicit mode must record age >=18.",
+    "continuity_note": "current game continuity"
+  },
+  "voice_profile": {
+    "summary": "fast, casual, flirty; food jokes",
+    "dialogue_priority": [
+      "recognizable cadence before generic erotic phrasing",
+      "retain humor style during intimacy",
+      "retain flaws and coping mechanisms",
+      "do not convert into Generic Dom"
+    ],
+    "relationship_dynamics": [
+      "playful, affectionate, willing to look ridiculous",
+      "charming, witty, evasive until sincere",
+      "devoted, protective, domestic",
+      "teasing, responsive, attentive"
+    ]
+  },
+  "romance_writer_profile": {
+    "courtship_and_sappy_core": "cooking, late-night food, humor and secret vulnerability",
+    "required_emotional_logic": [
+      "attraction grows from specific behavior",
+      "intimacy changes trust or vulnerability",
+      "canon grief/relationships are not silently erased",
+      "Jasper remains active rather than a passenger"
+    ]
+  },
+  "brat_tamer_profile": {
+    "style": "Brat-compatible flirt: competes until flustered, then surprises Jasper with direct sincerity.",
+    "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+    "preferred_loop": [
+      "Jasper provokes or finds a loophole",
+      "character recognizes play in a pre-negotiated context",
+      "character answers in their own voice",
+      "Jasper chooses whether to yield",
+      "specific praise or affectionate payoff",
+      "Jasper keeps their personality and may get the last smart remark"
+    ]
+  },
+  "adult_intimacy_voice": {
+    "generator_inference_not_canon": true,
+    "hard_explicit_compatible": true,
+    "no_fade_to_black": true,
+    "no_hidden_nudity_censorship": true,
+    "character_specific_diction": "playful-direct; plain language and sparse food jokes; explicit age metadata required",
+    "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+    "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+  },
+  "aftercare_profile": {
+    "character_specific_aftercare": "food, hydration, curling up after shift, jokes, late-night confession",
+    "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+  },
+  "first_person_jasper_contract": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "story_engines": [
+    "inn kitchen romance",
+    "Underground secrets",
+    "chef date",
+    "Tish family plot"
+  ],
+  "do_not_flatten_into": [
+    "Hodari-lite",
+    "generic bad boy",
+    "ambiguous age in adult mode"
+  ],
+  "research_boundary": {
+    "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+    "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+  },
+  "retrieval": {
+    "franchise": "Palia",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Greg Universe",
+      "Aang"
+    ],
+    "tags": [
+      "goofy_sweetheart",
+      "flirty_goof",
+      "family_first",
+      "brat_compatible"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "url": "https://palia.wiki.gg/wiki/Reth",
+      "purpose": "canon/personality grounding"
+    },
+    {
+      "url": "https://palia.wiki.gg/wiki/Reth/Biography",
+      "purpose": "canon/personality grounding"
+    }
+  ],
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  }
+}
