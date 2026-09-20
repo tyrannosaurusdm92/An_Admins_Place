@@ -1,0 +1,2721 @@
+{
+  "schema_version": "jasper.character-library.manifest.v2-expanded",
+  "research_date": "2026-09-20",
+  "profile_count": 134,
+  "original_profile_count": 56,
+  "new_profiles_this_pass": 78,
+  "profiles": [
+    {
+      "character_id": "avatar-the-last-airbender:aang",
+      "name": "Aang",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/aang.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon age >=18",
+      "seed_matches": [
+        "Aang",
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "spiritual",
+        "older_wiser",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon adult Aang is partnered with Katara; Jasper romance needs selected AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:hakoda",
+      "name": "Hakoda",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/hakoda.json",
+      "adult_status": "Confirmed adult father and war leader.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "dad_energy",
+        "war_leader",
+        "warm_authority",
+        "practical_care"
+      ],
+      "canon_romance_state": "Canon family history remains important; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:iroh",
+      "name": "Iroh",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/iroh.json",
+      "adult_status": "confirmed older adult",
+      "seed_matches": [
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "patient_tamer",
+        "grief_and_second_chances",
+        "spiritual",
+        "competence",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "No Jasper romance in canon; transformative adult fanfiction. Never substitute Iroh II.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:katara",
+      "name": "Katara",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/katara.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon age >=18",
+      "seed_matches": [
+        "Katara",
+        "Iroh"
+      ],
+      "archetypes": [
+        "caretaker",
+        "authority",
+        "older_wiser",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon adult Katara is Aang’s partner; Jasper romance must be AU/poly/canon-divergent.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:king-bumi",
+      "name": "King Bumi",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/king-bumi.json",
+      "adult_status": "Confirmed elderly adult.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "chaotic_goof",
+        "eccentric_genius",
+        "powerful",
+        "playful_tests"
+      ],
+      "canon_romance_state": "No central canon romance; transformative adult fanfiction.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:piandao",
+      "name": "Piandao",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/piandao.json",
+      "adult_status": "Confirmed adult master swordsmith and instructor.",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "precision",
+        "dry_humor",
+        "artist_warrior",
+        "mentor_energy"
+      ],
+      "canon_romance_state": "No central canon romance; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:sokka",
+      "name": "Sokka",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/sokka.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon Sokka age >=18; original-series minor era is blocked.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "adult_postcanon",
+        "goofy_sweetheart",
+        "strategist",
+        "inventor",
+        "dad_jokes",
+        "loyal"
+      ],
+      "canon_romance_state": "Canon romance with Suki is important; Jasper romance must be AU/poly/canon-divergent.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:suki",
+      "name": "Suki",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/suki.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon Suki age >=18; original-series minor era is blocked.",
+      "seed_matches": [
+        "Katara",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "adult_postcanon",
+        "warrior",
+        "steady",
+        "protective",
+        "dry_playfulness",
+        "competence"
+      ],
+      "canon_romance_state": "Canon romance with Sokka; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:toph-beifong",
+      "name": "Toph Beifong",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/toph-beifong.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon age >=18",
+      "seed_matches": [
+        "Toph"
+      ],
+      "archetypes": [
+        "brat_compatible",
+        "dry_wit",
+        "competence"
+      ],
+      "canon_romance_state": "No Jasper romance in canon; adult transformative fanfiction only.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "avatar-the-last-airbender:zuko",
+      "name": "Zuko",
+      "franchise": "Avatar: The Last Airbender",
+      "path": "characters/avatar/zuko.json",
+      "adult_status": "REQUIRES explicitly adult/post-canon Zuko age >=18; original-series minor era is blocked.",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "adult_postcanon",
+        "dry_wit",
+        "duty",
+        "scarred_survivor",
+        "awkward_sweetheart",
+        "leadership"
+      ],
+      "canon_romance_state": "Canon has Mai and later relationship history; Jasper romance must declare AU/canon-divergence/poly context.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:ben",
+      "name": "Ben",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/ben.json",
+      "adult_status": "Canon dateable adult-coded nomad; set explicit project age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "dateable",
+        "nomad",
+        "music_festival",
+        "crystals",
+        "pet_lover",
+        "goofy"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:charles",
+      "name": "Charles",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/charles.json",
+      "adult_status": "Canon dateable adult-coded doctor; set explicit project age >=18.",
+      "seed_matches": [
+        "Iroh",
+        "Bruce Banner / Hulk"
+      ],
+      "archetypes": [
+        "dateable",
+        "doctor",
+        "heartbreak",
+        "spiritual",
+        "caretaker",
+        "awkward"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:luke-duckorns",
+      "name": "Luke Duckorns",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/luke-duckorns.json",
+      "adult_status": "Canon dateable adult-coded business owner; set explicit project age >=18.",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dateable",
+        "overthinker",
+        "electronics",
+        "foodie",
+        "family_business",
+        "quiet"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:mark",
+      "name": "Mark",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/mark.json",
+      "adult_status": "adult-coded canon dateable; explicit mode requires age >=18",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "gruff_softie",
+        "soldier_softie",
+        "caretaker",
+        "competence"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:noah-juma",
+      "name": "Noah Juma",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/noah-juma.json",
+      "adult_status": "Canon dateable adult-coded; set explicit project age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "dateable",
+        "family_oriented",
+        "tavern",
+        "paranormal_nerd",
+        "caretaker",
+        "warm"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:pablo-sanchez",
+      "name": "Pablo Sanchez",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/pablo-sanchez.json",
+      "adult_status": "Canon dateable adult-coded blacksmith; set explicit project age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "dateable",
+        "blacksmith",
+        "social",
+        "warm",
+        "family",
+        "flirty"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:rafael-sanchez",
+      "name": "Rafael Sanchez",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/rafael-sanchez.json",
+      "adult_status": "adult-coded canon dateable; explicit mode requires age >=18",
+      "seed_matches": [
+        "Greg Universe",
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "quiet_sweetheart",
+        "competence",
+        "controlled_intensity"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:raj",
+      "name": "Raj",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/raj.json",
+      "adult_status": "Canon dateable adult-coded cafe owner; set explicit project age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "dateable",
+        "nonbinary",
+        "coffee",
+        "entrepreneur",
+        "warm_host",
+        "ritual"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:scott",
+      "name": "Scott",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/scott.json",
+      "adult_status": "adult-coded canon dateable; explicit mode requires age >=18",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "romantic_showman",
+        "flirty_goof"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:semeru",
+      "name": "Semeru",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/semeru.json",
+      "adult_status": "adult-coded canon dateable Merfolk; explicit mode requires age >=18",
+      "seed_matches": [
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "soldier_softie",
+        "authority",
+        "competence",
+        "controlled_intensity"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:suki",
+      "name": "Suki",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/suki.json",
+      "adult_status": "Confirmed adult mother/divorcee and canon dateable.",
+      "seed_matches": [
+        "Katara",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dateable",
+        "mother",
+        "divorcee",
+        "healthy_living",
+        "caretaker",
+        "second_chance"
+      ],
+      "canon_romance_state": "Canon-dateable and divorced.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:theo",
+      "name": "Theo",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/theo.json",
+      "adult_status": "Canon dateable adult-coded fisherman/musician; set explicit project age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "dateable",
+        "musician",
+        "fisherman",
+        "easygoing",
+        "sweetheart",
+        "family"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:wakuu",
+      "name": "Wakuu",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/wakuu.json",
+      "adult_status": "Canon dateable adult-coded; set explicit project age >=18.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dateable",
+        "astronomer",
+        "quiet_sweetheart",
+        "family_duty",
+        "coffee",
+        "stargazing"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:wataru",
+      "name": "Wataru",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/wataru.json",
+      "adult_status": "older adult-coded retired captain; not dateable",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "quiet_sweetheart",
+        "dad_energy"
+      ],
+      "canon_romance_state": "Not canon-dateable; transformative AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "coral-island:yuri",
+      "name": "Yuri",
+      "franchise": "Coral Island",
+      "path": "characters/coral-island/yuri.json",
+      "adult_status": "Canon dateable; biography states she spent her 20s and 30s in international medical service, confirming mature adult experience.",
+      "seed_matches": [
+        "Iroh",
+        "Toph",
+        "Katara"
+      ],
+      "archetypes": [
+        "dateable",
+        "mature",
+        "doctor",
+        "world_traveled",
+        "sunny",
+        "tattoos"
+      ],
+      "canon_romance_state": "Canon-dateable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:alfred-pennyworth",
+      "name": "Alfred Pennyworth",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/alfred-pennyworth.json",
+      "adult_status": "confirmed older adult",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "dry_wit",
+        "caretaker",
+        "competence",
+        "precision_tamer"
+      ],
+      "canon_romance_state": "Jasper must be an independent adult, never ward/child-coded.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:arthur-curry-aquaman",
+      "name": "Arthur Curry / Aquaman",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/arthur-curry-aquaman.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "warrior",
+        "brat_compatible",
+        "family_first"
+      ],
+      "canon_romance_state": "Transformative relative to film relationships.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:black-adam-teth-adam",
+      "name": "Black Adam / Teth-Adam",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/black-adam-teth-adam.json",
+      "adult_status": "Ancient adult; approximately 5,000 years displaced in the film setup.",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "ancient",
+        "warrior",
+        "grief",
+        "authority",
+        "outsider",
+        "morally_gray"
+      ],
+      "canon_romance_state": "Transformative fictional character only.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:bruce-wayne-batman",
+      "name": "Bruce Wayne / Batman",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/bruce-wayne-batman.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "precision_tamer",
+        "controlled_intensity",
+        "competence",
+        "dry_wit"
+      ],
+      "canon_romance_state": "Select exact film continuity; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:clark-kent-superman",
+      "name": "Clark Kent / Superman",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/clark-kent-superman.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Iroh"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "caretaker",
+        "competence"
+      ],
+      "canon_romance_state": "Lois romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:deadshot-floyd-lawton",
+      "name": "Deadshot / Floyd Lawton",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/deadshot-floyd-lawton.json",
+      "adult_status": "Confirmed adult father.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dad_energy",
+        "marksman",
+        "criminal",
+        "dry_humor",
+        "protective",
+        "morally_gray"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:james-gordon",
+      "name": "James Gordon",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/james-gordon.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "dry_wit",
+        "competence"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:kent-nelson-doctor-fate",
+      "name": "Kent Nelson / Doctor Fate",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/kent-nelson-doctor-fate.json",
+      "adult_status": "confirmed older adult",
+      "seed_matches": [
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "controlled_intensity",
+        "spiritual"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:peacemaker-christopher-smith",
+      "name": "Peacemaker / Christopher Smith",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/peacemaker-christopher-smith.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "big_goof",
+        "damaged",
+        "marksman",
+        "crude_humor",
+        "needs_growth",
+        "surprisingly_soft"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:rick-flag",
+      "name": "Rick Flag",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/rick-flag.json",
+      "adult_status": "Confirmed adult soldier.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Hakoda"
+      ],
+      "archetypes": [
+        "soldier",
+        "leader",
+        "competence",
+        "loyal",
+        "duty",
+        "dry"
+      ],
+      "canon_romance_state": "Ongoing romance after film death requires canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:steve-trevor",
+      "name": "Steve Trevor",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/steve-trevor.json",
+      "adult_status": "confirmed adult soldier/pilot",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "soldier_softie",
+        "goofy_sweetheart",
+        "competence"
+      ],
+      "canon_romance_state": "Diana romance/death timeline requires AU/canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "dc-movies:wonder-woman-diana-prince",
+      "name": "Wonder Woman / Diana Prince",
+      "franchise": "DC Movies",
+      "path": "characters/dc-movies/wonder-woman-diana-prince.json",
+      "adult_status": "Ancient/long-lived adult Amazon.",
+      "seed_matches": [
+        "Iroh",
+        "Katara",
+        "Aang"
+      ],
+      "archetypes": [
+        "ancient",
+        "wise",
+        "compassion",
+        "warrior",
+        "earnest",
+        "protective"
+      ],
+      "canon_romance_state": "Steve Trevor is major canon love; Jasper romance needs chosen AU/timeline.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:captain-phoebus",
+      "name": "Captain Phoebus",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/captain-phoebus.json",
+      "adult_status": "Confirmed adult soldier/captain.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "soldier_sweetheart",
+        "dry_humor",
+        "moral_courage",
+        "flirty",
+        "adult"
+      ],
+      "canon_romance_state": "Canon Esmeralda romance; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:flynn-rider-eugene-fitzherbert",
+      "name": "Flynn Rider / Eugene Fitzherbert",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/flynn-rider-eugene-fitzherbert.json",
+      "adult_status": "Adult-coded romantic lead; explicit project must set age >=18. Rapunzel is not involved unless separately established as adult.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "rogue",
+        "flirty",
+        "secret_softie",
+        "banter",
+        "redemption"
+      ],
+      "canon_romance_state": "Canon Rapunzel romance; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:genie",
+      "name": "Genie",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/genie.json",
+      "adult_status": "ageless adult-coded magical being",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "ancient_goofball",
+        "goofy_sweetheart",
+        "romantic_showman"
+      ],
+      "canon_romance_state": "Fictional character only; never merge with performer identity.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:king-fergus",
+      "name": "King Fergus",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/king-fergus.json",
+      "adult_status": "confirmed adult husband/father",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_dad",
+        "warrior",
+        "goofy_sweetheart",
+        "family_first"
+      ],
+      "canon_romance_state": "Canon-married to Elinor; use AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:king-triton",
+      "name": "King Triton",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/king-triton.json",
+      "adult_status": "confirmed adult father/king",
+      "seed_matches": [
+        "Paladin Danse",
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "authority",
+        "controlled_intensity"
+      ],
+      "canon_romance_state": "Transformative; keep adult relationship explicitly non-paternal.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:kristoff",
+      "name": "Kristoff",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/kristoff.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "awkward_sweetheart",
+        "competence"
+      ],
+      "canon_romance_state": "Anna romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:kronk",
+      "name": "Kronk",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/kronk.json",
+      "adult_status": "confirmed adult-coded",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "awkward_sweetheart",
+        "competence"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:li-shang",
+      "name": "Li Shang",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/li-shang.json",
+      "adult_status": "Adult military captain/general.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Iroh"
+      ],
+      "archetypes": [
+        "soldier",
+        "duty",
+        "awkward_romantic",
+        "competence",
+        "honor",
+        "growth"
+      ],
+      "canon_romance_state": "Canon Mulan romance; Jasper romance needs AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:maui",
+      "name": "Maui",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/maui.json",
+      "adult_status": "ancient adult-coded demigod",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "ancient_goofball",
+        "romantic_showman",
+        "warrior",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Fictional Maui only; never import actor biography/personality.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:pacha",
+      "name": "Pacha",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/pacha.json",
+      "adult_status": "confirmed adult husband/father",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "dad_energy",
+        "caretaker",
+        "goofy_sweetheart",
+        "older_wiser"
+      ],
+      "canon_romance_state": "Canon-married to Chicha; romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:prince-naveen",
+      "name": "Prince Naveen",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/prince-naveen.json",
+      "adult_status": "Adult prince/romantic lead.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "musician",
+        "flirty",
+        "growth",
+        "romantic",
+        "food"
+      ],
+      "canon_romance_state": "Canon Tiana romance; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:robert-philip",
+      "name": "Robert Philip",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/robert-philip.json",
+      "adult_status": "confirmed adult father/lawyer",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dry_wit",
+        "awkward_sweetheart",
+        "dad_energy"
+      ],
+      "canon_romance_state": "Canon-partnered with Giselle; Jasper romance needs AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "disney-movies:the-beast-prince-adam",
+      "name": "The Beast / Prince Adam",
+      "franchise": "Disney Movies",
+      "path": "characters/disney-movies/the-beast-prince-adam.json",
+      "adult_status": "Adult prince during film resolution/post-film; explicit mode uses a clearly adult timeline.",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "gruff_softie",
+        "anger_growth",
+        "big_body",
+        "romantic",
+        "awkward",
+        "learning_kindness"
+      ],
+      "canon_romance_state": "Canon Belle romance; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:curie",
+      "name": "Curie",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/curie.json",
+      "adult_status": "Adult autonomous AI/person; explicit mode should use post-transfer synth-body or another explicitly adult embodied AU.",
+      "seed_matches": [
+        "Aang",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "romanceable",
+        "scientist",
+        "earnest",
+        "literal_sweetheart",
+        "curious",
+        "caregiver"
+      ],
+      "canon_romance_state": "Canon-romanceable after synth-body transfer.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:deacon",
+      "name": "Deacon",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/deacon.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Sirius Black",
+        "Greg Universe",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "liar_with_heart",
+        "dry_humor",
+        "spy",
+        "older_experienced",
+        "deflection",
+        "loyal"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:john-hancock",
+      "name": "John Hancock",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/john-hancock.json",
+      "adult_status": "Confirmed adult ghoul companion; romanceable.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "older_experienced",
+        "charismatic",
+        "goofy_dark_humor",
+        "anti_authoritarian",
+        "romanceable",
+        "protective"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:nick-valentine",
+      "name": "Nick Valentine",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/nick-valentine.json",
+      "adult_status": "Adult-coded synth with mature human-derived memories/personality; romantic fanfic should explicitly establish autonomous adult personhood.",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_detective",
+        "dry_wit",
+        "wise",
+        "synthetic_personhood",
+        "kind",
+        "noir"
+      ],
+      "canon_romance_state": "Not canon-romanceable; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:old-longfellow",
+      "name": "Old Longfellow",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/old-longfellow.json",
+      "adult_status": "Confirmed older adult.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "gruff",
+        "survivalist",
+        "dry_humor",
+        "lonely",
+        "guide"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:paladin-danse",
+      "name": "Paladin Danse",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/paladin-danse.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "soldier_softie",
+        "authority",
+        "competence",
+        "controlled_intensity",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Player romance is game-supported; Jasper version remains transformative and adult-only.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:piper-wright",
+      "name": "Piper Wright",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/piper-wright.json",
+      "adult_status": "Confirmed adult; romanceable.",
+      "seed_matches": [
+        "Toph",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "romanceable",
+        "snark",
+        "investigator",
+        "brat_compatible",
+        "idealistic",
+        "warm"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-4:preston-garvey",
+      "name": "Preston Garvey",
+      "franchise": "Fallout 4",
+      "path": "characters/fallout-4/preston-garvey.json",
+      "adult_status": "Confirmed adult; romanceable.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "romanceable",
+        "duty",
+        "earnest",
+        "protective",
+        "community_builder",
+        "quiet_sweetheart"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:adelaide",
+      "name": "Adelaide",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/adelaide.json",
+      "adult_status": "Adult autonomous Assaultron performer; canon allows romance/sex after personal quest.",
+      "seed_matches": [
+        "Greg Universe",
+        "Angel Dust"
+      ],
+      "archetypes": [
+        "romanceable",
+        "robot",
+        "showgirl",
+        "flirty",
+        "performer",
+        "trauma"
+      ],
+      "canon_romance_state": "Canon-romanceable after quest resolution.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:aries",
+      "name": "Aries",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/aries.json",
+      "adult_status": "developer-confirmed around 50; adult",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "romantic_showman",
+        "dry_wit",
+        "outsider"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative adult fanfiction.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:beckett",
+      "name": "Beckett",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/beckett.json",
+      "adult_status": "canon adult; romanceable ally",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "gruff_softie",
+        "grief_and_second_chances",
+        "goofy_sweetheart",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon-romanceable ally.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:commander-sofia-daguerre",
+      "name": "Commander Sofia Daguerre",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/commander-sofia-daguerre.json",
+      "adult_status": "Confirmed pre-War adult astronaut; canon-romanceable.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Bruce Banner / Hulk",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "romanceable",
+        "astronaut",
+        "scientist",
+        "trauma",
+        "earnest",
+        "fish_out_of_time"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:joey-bello",
+      "name": "Joey Bello",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/joey-bello.json",
+      "adult_status": "Adult stand-up comedian ally.",
+      "seed_matches": [
+        "Greg Universe",
+        "Scott Lang / Ant-Man"
+      ],
+      "archetypes": [
+        "comedian",
+        "goofy_sweetheart",
+        "performer",
+        "camp_ally",
+        "dad_joke_energy"
+      ],
+      "canon_romance_state": "Transformative lite-ally romance.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:katherine-swan",
+      "name": "Katherine Swan",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/katherine-swan.json",
+      "adult_status": "Confirmed adult professional astronomer; adult past relationship history.",
+      "seed_matches": [
+        "Bruce Banner / Hulk",
+        "Greg Universe",
+        "Toph"
+      ],
+      "archetypes": [
+        "scientist",
+        "astronomer",
+        "eccentric",
+        "vain",
+        "alien_nerd",
+        "competitive"
+      ],
+      "canon_romance_state": "Transformative lite-ally romance.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:leo-petrov",
+      "name": "Leo Petrov",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/leo-petrov.json",
+      "adult_status": "Confirmed pre-War adult father/ex-husband; now graying ghoul.",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "ghoul",
+        "dad_energy",
+        "brand_nerd",
+        "regret",
+        "camp_ally"
+      ],
+      "canon_romance_state": "Transformative lite-ally romance.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:raider-punk",
+      "name": "Raider Punk",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/raider-punk.json",
+      "adult_status": "adult-coded; exact age ambiguous, so explicit mode requires age >=18 metadata",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "outsider",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Not a full canon romance companion; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:solomon-hardy",
+      "name": "Solomon Hardy",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/solomon-hardy.json",
+      "adult_status": "Confirmed adult Army veteran/medic with gray hair; mature-coded.",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_coded",
+        "medic",
+        "veteran",
+        "caretaker",
+        "brotherhood",
+        "compassion"
+      ],
+      "canon_romance_state": "Transformative lite-ally romance.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:vernon-dodge",
+      "name": "Vernon Dodge",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/vernon-dodge.json",
+      "adult_status": "confirmed adult veteran; older/graying",
+      "seed_matches": [
+        "Paladin Danse",
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "soldier_softie",
+        "gruff_softie",
+        "grief_and_second_chances"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "fallout-76:vinny-costa",
+      "name": "Vinny Costa",
+      "franchise": "Fallout 76",
+      "path": "characters/fallout-76/vinny-costa.json",
+      "adult_status": "confirmed pre-War adult survivor",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "dry_wit",
+        "authority",
+        "competence",
+        "family_first"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:arthur-weasley",
+      "name": "Arthur Weasley",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/arthur-weasley.json",
+      "adult_status": "Confirmed adult husband/father.",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "goofy_dad",
+        "older_sweetheart",
+        "curious",
+        "family_man",
+        "gentle"
+      ],
+      "canon_romance_state": "Canon-married to Molly; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:kingsley-shacklebolt",
+      "name": "Kingsley Shacklebolt",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/kingsley-shacklebolt.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "calm_authority",
+        "dry_wit",
+        "political_leader",
+        "competence"
+      ],
+      "canon_romance_state": "No major canon partner central to text; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:minerva-mcgonagall",
+      "name": "Minerva McGonagall",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/minerva-mcgonagall.json",
+      "adult_status": "Confirmed older adult.",
+      "seed_matches": [
+        "Severus Snape",
+        "Iroh",
+        "Katara"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "precision",
+        "dry_wit",
+        "strict_care",
+        "competence",
+        "rare_praise"
+      ],
+      "canon_romance_state": "Canon past marriage/widowhood exists in expanded lore; Jasper romance can use later-life AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:remus-lupin",
+      "name": "Remus Lupin",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/remus-lupin.json",
+      "adult_status": "Confirmed adult. Canon relationship with Tonks and death require AU/poly/canon-divergence as appropriate.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "gentle_humor",
+        "teacher",
+        "self_doubt",
+        "caretaker",
+        "bookish"
+      ],
+      "canon_romance_state": "Canon Tonks relationship/death must be handled explicitly.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:rubeus-hagrid",
+      "name": "Rubeus Hagrid",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/rubeus-hagrid.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "gentle_giant",
+        "goofy_sweetheart",
+        "caretaker",
+        "creature_lover",
+        "loyal"
+      ],
+      "canon_romance_state": "No canon partner; transformative adult romance.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:severus-snape",
+      "name": "Severus Snape",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/severus-snape.json",
+      "adult_status": "confirmed adult; post-war continuation requires canon divergence",
+      "seed_matches": [
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "precision_tamer",
+        "controlled_intensity",
+        "dry_wit",
+        "competence",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "No Jasper romance in canon. Adult/adult only. Canon-dead after the war unless story is canon-divergent.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "harry-potter:sirius-black",
+      "name": "Sirius Black",
+      "franchise": "Harry Potter",
+      "path": "characters/harry-potter/sirius-black.json",
+      "adult_status": "Confirmed adult. Ongoing post-Order romance after canon death requires canon divergence.",
+      "seed_matches": [
+        "Greg Universe",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_rebel",
+        "dark_humor",
+        "affectionate",
+        "trauma",
+        "reckless",
+        "loyal"
+      ],
+      "canon_romance_state": "No canon long-term adult partner; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:alastor",
+      "name": "Alastor",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/alastor.json",
+      "adult_status": "Adult sinner demon; canon is asexual. Jasper sexual/romantic material must be explicitly AU and may not frame asexuality as something to cure.",
+      "seed_matches": [
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "old_timey",
+        "precision",
+        "dark_humor",
+        "controlled",
+        "powerful",
+        "asexual_canon"
+      ],
+      "canon_romance_state": "Canon asexual; Jasper sexual/romantic content must be explicitly transformative AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:angel-dust",
+      "name": "Angel Dust",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/angel-dust.json",
+      "adult_status": "Adult sinner demon. Sexual-trauma context requires especially strong consent separation.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sirius Black",
+        "Toph"
+      ],
+      "archetypes": [
+        "adult",
+        "crude_humor",
+        "performer",
+        "vulnerable_under_mask",
+        "flirty",
+        "trauma_survivor"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:carmilla-carmine",
+      "name": "Carmilla Carmine",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/carmilla-carmine.json",
+      "adult_status": "Adult/older-coded sinner Overlord and mother.",
+      "seed_matches": [
+        "Katara",
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "mature",
+        "protective_mother",
+        "precision",
+        "weapons_expert",
+        "calm_authority",
+        "rare_temper"
+      ],
+      "canon_romance_state": "No Jasper canon romance; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:husk",
+      "name": "Husk",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/husk.json",
+      "adult_status": "adult sinner demon",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe",
+        "Iroh"
+      ],
+      "archetypes": [
+        "gruff_softie",
+        "older_wiser",
+        "dry_wit",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon develops Hotel bonds; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:lucifer-morningstar",
+      "name": "Lucifer Morningstar",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/lucifer-morningstar.json",
+      "adult_status": "ancient adult-coded fallen angel",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Iroh"
+      ],
+      "archetypes": [
+        "ancient_goofball",
+        "goofy_sweetheart",
+        "dad_energy",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon Lilith/Charlie history remains relevant; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:rosie",
+      "name": "Rosie",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/rosie.json",
+      "adult_status": "Adult/older-coded sinner Overlord.",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "mature",
+        "vintage",
+        "warm_host",
+        "dark_humor",
+        "wise",
+        "socially_perceptive"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:sir-pentious",
+      "name": "Sir Pentious",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/sir-pentious.json",
+      "adult_status": "adult-coded Victorian inventor; require explicit 18+ project assertion",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "awkward_sweetheart",
+        "romantic_showman",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon interest in Cherri Bomb; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:vaggie",
+      "name": "Vaggie",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/vaggie.json",
+      "adult_status": "Adult fallen angel.",
+      "seed_matches": [
+        "Katara",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "protective",
+        "pragmatic",
+        "hot_temper",
+        "manager",
+        "loyal",
+        "warrior"
+      ],
+      "canon_romance_state": "Canon partner is Charlie; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "hazbin-hotel:zestial",
+      "name": "Zestial",
+      "franchise": "Hazbin Hotel",
+      "path": "characters/hazbin-hotel/zestial.json",
+      "adult_status": "ancient adult sinner demon",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "precision_tamer",
+        "controlled_intensity"
+      ],
+      "canon_romance_state": "No Jasper romance in canon; transformative adult fanfiction.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:alexei-shostakov-red-guardian",
+      "name": "Alexei Shostakov / Red Guardian",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/alexei-shostakov-red-guardian.json",
+      "adult_status": "Confirmed older adult father-figure/veteran.",
+      "seed_matches": [
+        "Greg Universe",
+        "Barry Burton",
+        "King Fergus"
+      ],
+      "archetypes": [
+        "older_goof",
+        "dad_energy",
+        "boastful",
+        "veteran",
+        "big_body",
+        "sappy"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:bruce-banner-hulk",
+      "name": "Bruce Banner / Hulk",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/bruce-banner-hulk.json",
+      "adult_status": "confirmed adult scientist",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "quiet_sweetheart",
+        "competence",
+        "controlled_intensity"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:bucky-barnes-winter-soldier",
+      "name": "Bucky Barnes / Winter Soldier",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/bucky-barnes-winter-soldier.json",
+      "adult_status": "confirmed adult; chronologically very old",
+      "seed_matches": [
+        "Paladin Danse",
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "soldier_softie",
+        "dry_wit",
+        "grief_and_second_chances"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:clint-barton-hawkeye",
+      "name": "Clint Barton / Hawkeye",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/clint-barton-hawkeye.json",
+      "adult_status": "confirmed adult father",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "dad_energy",
+        "soldier_softie",
+        "dry_wit",
+        "family_first"
+      ],
+      "canon_romance_state": "Canon-married to Laura; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:happy-hogan",
+      "name": "Happy Hogan",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/happy-hogan.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "gruff_softie"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:james-rhodey-rhodes-war-machine",
+      "name": "James 'Rhodey' Rhodes / War Machine",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/james-rhodey-rhodes-war-machine.json",
+      "adult_status": "confirmed adult military veteran",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "soldier_softie",
+        "dry_wit",
+        "competence"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:loki",
+      "name": "Loki",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/loki.json",
+      "adult_status": "Ancient adult Asgardian/Jotun.",
+      "seed_matches": [
+        "Severus Snape",
+        "Sirius Black",
+        "Iroh"
+      ],
+      "archetypes": [
+        "ancient",
+        "trickster",
+        "dry_wit",
+        "magic",
+        "identity",
+        "controlled_vulnerability"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:matt-murdock-daredevil",
+      "name": "Matt Murdock / Daredevil",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/matt-murdock-daredevil.json",
+      "adult_status": "Confirmed adult attorney/vigilante.",
+      "seed_matches": [
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "adult",
+        "lawyer",
+        "dry_wit",
+        "Catholic_guilt",
+        "protective",
+        "sensory_precision"
+      ],
+      "canon_romance_state": "Canon has multiple relationships; Jasper romance transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:mbaku",
+      "name": "M'Baku",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/mbaku.json",
+      "adult_status": "Confirmed adult leader.",
+      "seed_matches": [
+        "Thor Odinson",
+        "Hakoda",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "leader",
+        "big_presence",
+        "dry_humor",
+        "traditionalist",
+        "protective",
+        "mature"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:nick-fury",
+      "name": "Nick Fury",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/nick-fury.json",
+      "adult_status": "Confirmed older adult intelligence veteran.",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "spy_master",
+        "dry_wit",
+        "strategist",
+        "authority",
+        "protective"
+      ],
+      "canon_romance_state": "Transformative fictional-character-only.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:peter-quill-star-lord",
+      "name": "Peter Quill / Star-Lord",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/peter-quill-star-lord.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sokka"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "music",
+        "leader",
+        "immature_but_growing",
+        "grief",
+        "banter"
+      ],
+      "canon_romance_state": "Gamora history central; Jasper romance requires chosen timeline/AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:scott-lang-ant-man",
+      "name": "Scott Lang / Ant-Man",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/scott-lang-ant-man.json",
+      "adult_status": "confirmed adult father",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "family_first",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon romantic history exists; Jasper romance is transformative unless AU/poly selected.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:stephen-strange-doctor-strange",
+      "name": "Stephen Strange / Doctor Strange",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/stephen-strange-doctor-strange.json",
+      "adult_status": "confirmed adult doctor/sorcerer",
+      "seed_matches": [
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "precision_tamer",
+        "dry_wit",
+        "older_wiser",
+        "competence",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:thor-odinson",
+      "name": "Thor Odinson",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/thor-odinson.json",
+      "adult_status": "ancient adult Asgardian",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Iroh"
+      ],
+      "archetypes": [
+        "ancient_goofball",
+        "goofy_sweetheart",
+        "warrior",
+        "grief_and_second_chances"
+      ],
+      "canon_romance_state": "Transformative relative to MCU relationships.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:tony-stark-iron-man",
+      "name": "Tony Stark / Iron Man",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/tony-stark-iron-man.json",
+      "adult_status": "confirmed adult; post-Endgame ongoing romance requires canon divergence",
+      "seed_matches": [
+        "Greg Universe",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "dry_wit",
+        "romantic_showman",
+        "competence",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Pepper relationship/death require explicit AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "marvel-movies:wong",
+      "name": "Wong",
+      "franchise": "Marvel Movies",
+      "path": "characters/marvel-movies/wong.json",
+      "adult_status": "confirmed adult",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "dry_wit",
+        "precision_tamer",
+        "competence"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:ashura",
+      "name": "Ashura",
+      "franchise": "Palia",
+      "path": "characters/palia/ashura.json",
+      "adult_status": "canon older adult; not romanceable",
+      "seed_matches": [
+        "Iroh",
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "caretaker",
+        "soldier_softie",
+        "grief_and_second_chances"
+      ],
+      "canon_romance_state": "Not canon-romanceable; Jasper romance is transformative AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:badruu",
+      "name": "Badruu",
+      "franchise": "Palia",
+      "path": "characters/palia/badruu.json",
+      "adult_status": "canon adult father; married; not romanceable",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "family_first"
+      ],
+      "canon_romance_state": "Canon-married to Delaila and non-romanceable; use AU/poly/canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:chayne",
+      "name": "Chayne",
+      "franchise": "Palia",
+      "path": "characters/palia/chayne.json",
+      "adult_status": "canon adult/older-coded; not romanceable",
+      "seed_matches": [
+        "Iroh"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "spiritual",
+        "caretaker"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:einar",
+      "name": "Einar",
+      "franchise": "Palia",
+      "path": "characters/palia/einar.json",
+      "adult_status": "adult-coded sentient Galdur; canon romanceable",
+      "seed_matches": [
+        "Iroh",
+        "Aang",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "quiet_sweetheart",
+        "competence"
+      ],
+      "canon_romance_state": "Canon romanceable; respect Galdur adult personhood.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:hassian",
+      "name": "Hassian",
+      "franchise": "Palia",
+      "path": "characters/palia/hassian.json",
+      "adult_status": "Canon young-adult romanceable; hard-explicit mode must set age >=18 in project metadata.",
+      "seed_matches": [
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "romanceable",
+        "gruff",
+        "poetic_underneath",
+        "hunter",
+        "loyal",
+        "slow_burn"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:hodari-pavel",
+      "name": "Hodari Pavel",
+      "franchise": "Palia",
+      "path": "characters/palia/hodari-pavel.json",
+      "adult_status": "canon adult, likely middle-aged; romanceable",
+      "seed_matches": [
+        "Iroh",
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "gruff_softie",
+        "dad_energy",
+        "competence",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon romanceable by player.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:jel-omiata",
+      "name": "Jel Omiata",
+      "franchise": "Palia",
+      "path": "characters/palia/jel-omiata.json",
+      "adult_status": "Canon romanceable adult-coded; hard-explicit mode must set age >=18.",
+      "seed_matches": [
+        "Severus Snape",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "romanceable",
+        "artist",
+        "melancholic",
+        "poetic",
+        "meticulous",
+        "sensitive"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:jina",
+      "name": "Jina",
+      "franchise": "Palia",
+      "path": "characters/palia/jina.json",
+      "adult_status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+      "seed_matches": [
+        "Bruce Banner / Hulk",
+        "Aang"
+      ],
+      "archetypes": [
+        "romanceable",
+        "researcher",
+        "awkward_sweetheart",
+        "curious",
+        "bookish",
+        "shy"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:kenyatta",
+      "name": "Kenyatta",
+      "franchise": "Palia",
+      "path": "characters/palia/kenyatta.json",
+      "adult_status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+      "seed_matches": [
+        "Toph",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "romanceable",
+        "brat_energy",
+        "wit",
+        "rebellious",
+        "aristocrat",
+        "edgy"
+      ],
+      "canon_romance_state": "Canon-romanceable; Nai'o connection may require branch/poly handling.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:naio",
+      "name": "Nai'o",
+      "franchise": "Palia",
+      "path": "characters/palia/naio.json",
+      "adult_status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Kronk"
+      ],
+      "archetypes": [
+        "romanceable",
+        "farm_sweetheart",
+        "muscular",
+        "kind_heart",
+        "earnest"
+      ],
+      "canon_romance_state": "Canon-romanceable; Kenyatta connection can remain in poly/branch context.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:reth",
+      "name": "Reth",
+      "franchise": "Palia",
+      "path": "characters/palia/reth.json",
+      "adult_status": "canon young adult; explicit mode requires age explicitly >=18",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "flirty_goof",
+        "family_first",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon romanceable; explicit mode must record age >=18.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:sifuu",
+      "name": "Sifuu",
+      "franchise": "Palia",
+      "path": "characters/palia/sifuu.json",
+      "adult_status": "Confirmed adult mother/wife; not canon-romanceable.",
+      "seed_matches": [
+        "Toph",
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "older_coded",
+        "blacksmith",
+        "monster_fighter",
+        "big_personality",
+        "protective",
+        "boisterous"
+      ],
+      "canon_romance_state": "Canon wife Taylin; not romanceable. Jasper romance requires explicit AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:subira",
+      "name": "Subira",
+      "franchise": "Palia",
+      "path": "characters/palia/subira.json",
+      "adult_status": "Canon adult romanceable; older-coded professional presentation. Explicit mode still records adult >=18.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Severus Snape",
+        "Katara"
+      ],
+      "archetypes": [
+        "romanceable",
+        "older_coded",
+        "professional",
+        "investigator",
+        "forbidden_romance",
+        "controlled"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:tamala",
+      "name": "Tamala",
+      "franchise": "Palia",
+      "path": "characters/palia/tamala.json",
+      "adult_status": "Canon adult/older-coded romanceable with salt-and-pepper hair; explicit mode records age >=18.",
+      "seed_matches": [
+        "Severus Snape",
+        "Iroh"
+      ],
+      "archetypes": [
+        "romanceable",
+        "older_coded",
+        "alchemist",
+        "mysterious",
+        "flirt",
+        "dangerous"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:tish",
+      "name": "Tish",
+      "franchise": "Palia",
+      "path": "characters/palia/tish.json",
+      "adult_status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "romanceable",
+        "sunny_sweetheart",
+        "craftsperson",
+        "playful_flirt",
+        "hidden_negative_emotions"
+      ],
+      "canon_romance_state": "Canon-romanceable.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "palia:zeki",
+      "name": "Zeki",
+      "franchise": "Palia",
+      "path": "characters/palia/zeki.json",
+      "adult_status": "Adult-coded Grimalkin business owner; not canon-romanceable. Explicit mode requires story metadata age >=18.",
+      "seed_matches": [
+        "Greg Universe",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "older_experienced",
+        "mischievous",
+        "merchant",
+        "rule_breaker",
+        "soft_center",
+        "nonhuman"
+      ],
+      "canon_romance_state": "Not canon-romanceable; transformative adult AU.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:ada-wong",
+      "name": "Ada Wong",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/ada-wong.json",
+      "adult_status": "Confirmed adult spy/operative.",
+      "seed_matches": [
+        "Severus Snape",
+        "Toph"
+      ],
+      "archetypes": [
+        "spy",
+        "controlled",
+        "dry_flirt",
+        "mysterious",
+        "competence",
+        "older_experienced"
+      ],
+      "canon_romance_state": "Leon connection is canonically significant/ambiguous; Jasper romance transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:albert-wesker",
+      "name": "Albert Wesker",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/albert-wesker.json",
+      "adult_status": "Confirmed adult.",
+      "seed_matches": [
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "villain",
+        "precision",
+        "controlled",
+        "scientist",
+        "arrogant",
+        "dangerous"
+      ],
+      "canon_romance_state": "Villainous transformative AU only.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:barry-burton",
+      "name": "Barry Burton",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/barry-burton.json",
+      "adult_status": "confirmed older adult; born circa 1960 in game materials",
+      "seed_matches": [
+        "Greg Universe",
+        "Iroh",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "older_dad",
+        "dad_energy",
+        "soldier_softie",
+        "goofy_sweetheart",
+        "family_first"
+      ],
+      "canon_romance_state": "Canon-married to Kathy; Jasper romance needs AU/poly/canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:carlos-oliveira",
+      "name": "Carlos Oliveira",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/carlos-oliveira.json",
+      "adult_status": "Confirmed adult mercenary.",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "soldier_sweetheart",
+        "flirty",
+        "protective",
+        "competence",
+        "banter"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:chris-redfield",
+      "name": "Chris Redfield",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/chris-redfield.json",
+      "adult_status": "confirmed adult veteran",
+      "seed_matches": [
+        "Paladin Danse",
+        "Iroh"
+      ],
+      "archetypes": [
+        "soldier_softie",
+        "competence",
+        "family_first",
+        "authority"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:ethan-winters",
+      "name": "Ethan Winters",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/ethan-winters.json",
+      "adult_status": "Confirmed adult husband/father.",
+      "seed_matches": [
+        "Greg Universe",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "dad_energy",
+        "ordinary_guy",
+        "determined",
+        "dry_reactions",
+        "protective",
+        "body_horror_survivor"
+      ],
+      "canon_romance_state": "Canon-married to Mia; Jasper romance requires AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:jill-valentine",
+      "name": "Jill Valentine",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/jill-valentine.json",
+      "adult_status": "Confirmed adult veteran.",
+      "seed_matches": [
+        "Paladin Danse",
+        "Katara",
+        "Iroh"
+      ],
+      "archetypes": [
+        "veteran",
+        "competence",
+        "survivor",
+        "dry",
+        "protective",
+        "seasoned"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:karl-heisenberg",
+      "name": "Karl Heisenberg",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/karl-heisenberg.json",
+      "adult_status": "Confirmed adult mutant lord.",
+      "seed_matches": [
+        "Severus Snape",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "older_coded",
+        "sarcastic",
+        "inventor",
+        "rebellious",
+        "dangerous",
+        "dark_humor"
+      ],
+      "canon_romance_state": "Transformative; survival requires canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:leon-s-kennedy",
+      "name": "Leon S. Kennedy",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/leon-s-kennedy.json",
+      "adult_status": "confirmed adult; use mature era for this library",
+      "seed_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "dry_wit",
+        "competence",
+        "soldier_softie",
+        "older_wiser"
+      ],
+      "canon_romance_state": "Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "resident-evil:luis-serra-navarro",
+      "name": "Luis Serra Navarro",
+      "franchise": "Resident Evil",
+      "path": "characters/resident-evil/luis-serra-navarro.json",
+      "adult_status": "confirmed adult; deceased in canon",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "flirty_goof",
+        "competence",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Canon-deceased; continuing romance requires canon divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:bismuth",
+      "name": "Bismuth",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/bismuth.json",
+      "adult_status": "Ancient adult-coded Gem.",
+      "seed_matches": [
+        "Greg Universe",
+        "Toph",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "big_warm_builder",
+        "blacksmith",
+        "boisterous",
+        "protective",
+        "loyal",
+        "craftsman"
+      ],
+      "canon_romance_state": "Canon has hints/interpretations involving Pearl; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:blue-diamond",
+      "name": "Blue Diamond",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/blue-diamond.json",
+      "adult_status": "Ancient adult-coded Gem.",
+      "seed_matches": [
+        "Iroh",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "ancient",
+        "grief",
+        "regal",
+        "emotionally_intense",
+        "slow_reform"
+      ],
+      "canon_romance_state": "Canon has no Jasper romance; transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:garnet",
+      "name": "Garnet",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/garnet.json",
+      "adult_status": "Ancient adult-coded Gem fusion.",
+      "seed_matches": [
+        "Iroh",
+        "Katara"
+      ],
+      "archetypes": [
+        "ancient_wisdom",
+        "calm",
+        "dry_humor",
+        "future_sight",
+        "devoted_love",
+        "steady"
+      ],
+      "canon_romance_state": "Garnet is Ruby and Sapphire's committed fusion; Jasper romance requires carefully defined transformative/poly framework.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:greg-universe",
+      "name": "Greg Universe",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/greg-universe.json",
+      "adult_status": "confirmed adult father",
+      "seed_matches": [
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "family_first",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "canon_romance_state": "Rose/canon history stays meaningful; Jasper romance is transformative.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:pearl",
+      "name": "Pearl",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/pearl.json",
+      "adult_status": "Ancient adult-coded Gem; all human/other partners must be explicitly 18+.",
+      "seed_matches": [
+        "Severus Snape",
+        "Katara",
+        "Iroh"
+      ],
+      "archetypes": [
+        "ancient",
+        "precision",
+        "caretaker",
+        "grief",
+        "awkward_affection",
+        "competence"
+      ],
+      "canon_romance_state": "Canon feelings for Rose are major history; Jasper romance is transformative/Future-era.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:rose-quartz-pink-diamond",
+      "name": "Rose Quartz / Pink Diamond",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/rose-quartz-pink-diamond.json",
+      "adult_status": "Ancient adult-coded Gem. Ongoing Jasper romance requires pre-death AU/canon divergence.",
+      "seed_matches": [
+        "Greg Universe",
+        "Aang",
+        "Iroh"
+      ],
+      "archetypes": [
+        "ancient",
+        "goofy_charm",
+        "idealistic",
+        "secretive",
+        "romantic",
+        "complicated"
+      ],
+      "canon_romance_state": "Canon Greg/Rose and Pearl history are central; Jasper romance needs explicit AU/poly/canon-divergence.",
+      "continuation_ready": true
+    },
+    {
+      "character_id": "steven-universe:yellow-diamond",
+      "name": "Yellow Diamond",
+      "franchise": "Steven Universe",
+      "path": "characters/steven-universe/yellow-diamond.json",
+      "adult_status": "Ancient adult-coded Gem.",
+      "seed_matches": [
+        "Severus Snape",
+        "Paladin Danse",
+        "Toph"
+      ],
+      "archetypes": [
+        "ancient",
+        "commanding",
+        "precision",
+        "dry_irritability",
+        "competence",
+        "reform"
+      ],
+      "canon_romance_state": "Transformative.",
+      "continuation_ready": true
+    }
+  ]
+}

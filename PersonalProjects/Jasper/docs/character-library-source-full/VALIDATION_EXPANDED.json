@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "profile_count": 134,
+  "original_count": 56,
+  "added_count": 78,
+  "fandom_counts": {
+    "Avatar: The Last Airbender": 10,
+    "Coral Island": 15,
+    "DC Movies": 12,
+    "Disney Movies": 13,
+    "Fallout 4": 8,
+    "Fallout 76": 11,
+    "Harry Potter": 7,
+    "Hazbin Hotel": 9,
+    "Marvel Movies": 16,
+    "Palia": 16,
+    "Resident Evil": 10,
+    "Steven Universe": 7
+  },
+  "unique_character_ids": 134,
+  "errors": [],
+  "checks": {
+    "all_fictional_only": true,
+    "all_real_person_guarded": true,
+    "all_continuation_ready": true,
+    "all_no_fade": true
+  }
+}

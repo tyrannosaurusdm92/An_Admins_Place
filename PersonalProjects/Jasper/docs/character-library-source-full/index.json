@@ -1,0 +1,5026 @@
+{
+  "schema_version": "jasper.character-library.index.v2-expanded",
+  "profile_count": 134,
+  "by_franchise": {
+    "Avatar: The Last Airbender": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "avatar-the-last-airbender:toph-beifong",
+        "name": "Toph Beifong"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "Coral Island": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      },
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "DC Movies": [
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "dc-movies:kent-nelson-doctor-fate",
+        "name": "Kent Nelson / Doctor Fate"
+      },
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "Disney Movies": [
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "Fallout 4": [
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      }
+    ],
+    "Fallout 76": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      },
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      }
+    ],
+    "Harry Potter": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "Hazbin Hotel": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      }
+    ],
+    "Marvel Movies": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      },
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "marvel-movies:happy-hogan",
+        "name": "Happy Hogan"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      }
+    ],
+    "Palia": [
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "palia:chayne",
+        "name": "Chayne"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      },
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      },
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      },
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      },
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "Resident Evil": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      }
+    ],
+    "Steven Universe": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      },
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ]
+  },
+  "by_seed_similarity": {
+    "Aang": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "Angel Dust": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      }
+    ],
+    "Barry Burton": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      }
+    ],
+    "Bruce Banner / Hulk": [
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "Greg Universe": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      },
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      },
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      },
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "marvel-movies:happy-hogan",
+        "name": "Happy Hogan"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      },
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      },
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      },
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "Hakoda": [
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      }
+    ],
+    "Iroh": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      },
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      },
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "palia:chayne",
+        "name": "Chayne"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "dc-movies:kent-nelson-doctor-fate",
+        "name": "Kent Nelson / Doctor Fate"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      },
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "Katara": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "King Fergus": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      }
+    ],
+    "Kronk": [
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      }
+    ],
+    "Paladin Danse": [
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "Scott Lang / Ant-Man": [
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      }
+    ],
+    "Severus Snape": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      },
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "Sirius Black": [
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "Sokka": [
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      }
+    ],
+    "Thor Odinson": [
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      }
+    ],
+    "Toph": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      },
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "avatar-the-last-airbender:toph-beifong",
+        "name": "Toph Beifong"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ]
+  },
+  "by_archetype": {
+    "Catholic_guilt": [
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      }
+    ],
+    "adult": [
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      }
+    ],
+    "adult_postcanon": [
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "affectionate": [
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "alchemist": [
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      }
+    ],
+    "alien_nerd": [
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "ancient": [
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "ancient_goofball": [
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      }
+    ],
+    "ancient_wisdom": [
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      }
+    ],
+    "anger_growth": [
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "anti_authoritarian": [
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      }
+    ],
+    "aristocrat": [
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      }
+    ],
+    "arrogant": [
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      }
+    ],
+    "artist": [
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      }
+    ],
+    "artist_warrior": [
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      }
+    ],
+    "asexual_canon": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      }
+    ],
+    "astronaut": [
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      }
+    ],
+    "astronomer": [
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      }
+    ],
+    "authority": [
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      }
+    ],
+    "awkward": [
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "awkward_affection": [
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      }
+    ],
+    "awkward_romantic": [
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      }
+    ],
+    "awkward_sweetheart": [
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "banter": [
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      }
+    ],
+    "big_body": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "big_goof": [
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "big_personality": [
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      }
+    ],
+    "big_presence": [
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      }
+    ],
+    "big_warm_builder": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      }
+    ],
+    "blacksmith": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      }
+    ],
+    "boastful": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      }
+    ],
+    "body_horror_survivor": [
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      }
+    ],
+    "boisterous": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      }
+    ],
+    "bookish": [
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      }
+    ],
+    "brand_nerd": [
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      }
+    ],
+    "brat_compatible": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "avatar-the-last-airbender:toph-beifong",
+        "name": "Toph Beifong"
+      }
+    ],
+    "brat_energy": [
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      }
+    ],
+    "brotherhood": [
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      }
+    ],
+    "calm": [
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      }
+    ],
+    "calm_authority": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      }
+    ],
+    "camp_ally": [
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      }
+    ],
+    "caregiver": [
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      }
+    ],
+    "caretaker": [
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "palia:chayne",
+        "name": "Chayne"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      }
+    ],
+    "chaotic_goof": [
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      }
+    ],
+    "charismatic": [
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      }
+    ],
+    "coffee": [
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      }
+    ],
+    "comedian": [
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      }
+    ],
+    "commanding": [
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "community_builder": [
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      }
+    ],
+    "compassion": [
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "competence": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "avatar-the-last-airbender:toph-beifong",
+        "name": "Toph Beifong"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "competitive": [
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "complicated": [
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      }
+    ],
+    "controlled": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      }
+    ],
+    "controlled_intensity": [
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "dc-movies:kent-nelson-doctor-fate",
+        "name": "Kent Nelson / Doctor Fate"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      }
+    ],
+    "controlled_vulnerability": [
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      }
+    ],
+    "craftsman": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      }
+    ],
+    "craftsperson": [
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      }
+    ],
+    "creature_lover": [
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      }
+    ],
+    "criminal": [
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      }
+    ],
+    "crude_humor": [
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "crystals": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      }
+    ],
+    "curious": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      }
+    ],
+    "dad_energy": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "marvel-movies:happy-hogan",
+        "name": "Happy Hogan"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      }
+    ],
+    "dad_joke_energy": [
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      }
+    ],
+    "dad_jokes": [
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      }
+    ],
+    "damaged": [
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "dangerous": [
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      }
+    ],
+    "dark_humor": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "dateable": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      },
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      },
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "deflection": [
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      }
+    ],
+    "determined": [
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      }
+    ],
+    "devoted_love": [
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      }
+    ],
+    "divorcee": [
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "dry": [
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      }
+    ],
+    "dry_flirt": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      }
+    ],
+    "dry_humor": [
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      },
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      }
+    ],
+    "dry_irritability": [
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "dry_playfulness": [
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      }
+    ],
+    "dry_reactions": [
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      }
+    ],
+    "dry_wit": [
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "disney-movies:robert-philip",
+        "name": "Robert Philip"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      },
+      {
+        "id": "avatar-the-last-airbender:toph-beifong",
+        "name": "Toph Beifong"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "duty": [
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      },
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "earnest": [
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "easygoing": [
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      }
+    ],
+    "eccentric": [
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "eccentric_genius": [
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      }
+    ],
+    "edgy": [
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      }
+    ],
+    "electronics": [
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      }
+    ],
+    "emotionally_intense": [
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      }
+    ],
+    "entrepreneur": [
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      }
+    ],
+    "family": [
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      }
+    ],
+    "family_business": [
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      }
+    ],
+    "family_duty": [
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      }
+    ],
+    "family_first": [
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "fallout-76:vinny-costa",
+        "name": "Vinny Costa"
+      }
+    ],
+    "family_man": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      }
+    ],
+    "family_oriented": [
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      }
+    ],
+    "farm_sweetheart": [
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      }
+    ],
+    "fish_out_of_time": [
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      }
+    ],
+    "fisherman": [
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      }
+    ],
+    "flirt": [
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      }
+    ],
+    "flirty": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      }
+    ],
+    "flirty_goof": [
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      }
+    ],
+    "food": [
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      }
+    ],
+    "foodie": [
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      }
+    ],
+    "forbidden_romance": [
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      }
+    ],
+    "future_sight": [
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      }
+    ],
+    "gentle": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      }
+    ],
+    "gentle_giant": [
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      }
+    ],
+    "gentle_humor": [
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      }
+    ],
+    "ghoul": [
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      }
+    ],
+    "goofy": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      }
+    ],
+    "goofy_charm": [
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      }
+    ],
+    "goofy_dad": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      }
+    ],
+    "goofy_dark_humor": [
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      }
+    ],
+    "goofy_sweetheart": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "palia:badruu",
+        "name": "Badruu"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "dc-movies:clark-kent-superman",
+        "name": "Clark Kent / Superman"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      },
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "marvel-movies:happy-hogan",
+        "name": "Happy Hogan"
+      },
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "disney-movies:kristoff",
+        "name": "Kristoff"
+      },
+      {
+        "id": "disney-movies:kronk",
+        "name": "Kronk"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      },
+      {
+        "id": "palia:reth",
+        "name": "Reth"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      },
+      {
+        "id": "marvel-movies:scott-lang-ant-man",
+        "name": "Scott Lang / Ant-Man"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      }
+    ],
+    "grief": [
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      }
+    ],
+    "grief_and_second_chances": [
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "steven-universe:greg-universe",
+        "name": "Greg Universe"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "hazbin-hotel:lucifer-morningstar",
+        "name": "Lucifer Morningstar"
+      },
+      {
+        "id": "resident-evil:luis-serra-navarro",
+        "name": "Luis Serra Navarro"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      }
+    ],
+    "growth": [
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      }
+    ],
+    "gruff": [
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      }
+    ],
+    "gruff_softie": [
+      {
+        "id": "fallout-76:beckett",
+        "name": "Beckett"
+      },
+      {
+        "id": "marvel-movies:happy-hogan",
+        "name": "Happy Hogan"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      }
+    ],
+    "guide": [
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      }
+    ],
+    "healthy_living": [
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      }
+    ],
+    "heartbreak": [
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      }
+    ],
+    "hidden_negative_emotions": [
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      }
+    ],
+    "honor": [
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      }
+    ],
+    "hot_temper": [
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      }
+    ],
+    "hunter": [
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      }
+    ],
+    "idealistic": [
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      }
+    ],
+    "identity": [
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      }
+    ],
+    "immature_but_growing": [
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      }
+    ],
+    "inventor": [
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      }
+    ],
+    "kind": [
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      }
+    ],
+    "kind_heart": [
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      }
+    ],
+    "lawyer": [
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      }
+    ],
+    "leader": [
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      }
+    ],
+    "leadership": [
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "learning_kindness": [
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "liar_with_heart": [
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      }
+    ],
+    "literal_sweetheart": [
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      }
+    ],
+    "lonely": [
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      }
+    ],
+    "loyal": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      },
+      {
+        "id": "harry-potter:rubeus-hagrid",
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      }
+    ],
+    "magic": [
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      }
+    ],
+    "manager": [
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      }
+    ],
+    "marksman": [
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "mature": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "medic": [
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      }
+    ],
+    "melancholic": [
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      }
+    ],
+    "mentor_energy": [
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      }
+    ],
+    "merchant": [
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "meticulous": [
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      }
+    ],
+    "mischievous": [
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "monster_fighter": [
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      }
+    ],
+    "moral_courage": [
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      }
+    ],
+    "morally_gray": [
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      }
+    ],
+    "mother": [
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      }
+    ],
+    "muscular": [
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      }
+    ],
+    "music": [
+      {
+        "id": "marvel-movies:peter-quill-star-lord",
+        "name": "Peter Quill / Star-Lord"
+      }
+    ],
+    "music_festival": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      }
+    ],
+    "musician": [
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      }
+    ],
+    "mysterious": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      }
+    ],
+    "needs_growth": [
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "noir": [
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      }
+    ],
+    "nomad": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      }
+    ],
+    "nonbinary": [
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      }
+    ],
+    "nonhuman": [
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "old_timey": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      }
+    ],
+    "older_coded": [
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      }
+    ],
+    "older_dad": [
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      }
+    ],
+    "older_detective": [
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      }
+    ],
+    "older_experienced": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "older_goof": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      }
+    ],
+    "older_rebel": [
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "older_sweetheart": [
+      {
+        "id": "harry-potter:arthur-weasley",
+        "name": "Arthur Weasley"
+      }
+    ],
+    "older_wiser": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "palia:chayne",
+        "name": "Chayne"
+      },
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      },
+      {
+        "id": "palia:hodari-pavel",
+        "name": "Hodari Pavel"
+      },
+      {
+        "id": "hazbin-hotel:husk",
+        "name": "Husk"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "dc-movies:james-gordon",
+        "name": "James Gordon"
+      },
+      {
+        "id": "avatar-the-last-airbender:katara",
+        "name": "Katara"
+      },
+      {
+        "id": "dc-movies:kent-nelson-doctor-fate",
+        "name": "Kent Nelson / Doctor Fate"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      },
+      {
+        "id": "disney-movies:king-triton",
+        "name": "King Triton"
+      },
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      },
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      },
+      {
+        "id": "disney-movies:pacha",
+        "name": "Pacha"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      },
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      }
+    ],
+    "ordinary_guy": [
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      }
+    ],
+    "outsider": [
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "fallout-76:raider-punk",
+        "name": "Raider Punk"
+      }
+    ],
+    "overthinker": [
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      }
+    ],
+    "paranormal_nerd": [
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      }
+    ],
+    "patient_tamer": [
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      }
+    ],
+    "performer": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      },
+      {
+        "id": "fallout-76:joey-bello",
+        "name": "Joey Bello"
+      }
+    ],
+    "pet_lover": [
+      {
+        "id": "coral-island:ben",
+        "name": "Ben"
+      }
+    ],
+    "playful_flirt": [
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      }
+    ],
+    "playful_tests": [
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      }
+    ],
+    "poetic": [
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      }
+    ],
+    "poetic_underneath": [
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      }
+    ],
+    "political_leader": [
+      {
+        "id": "harry-potter:kingsley-shacklebolt",
+        "name": "Kingsley Shacklebolt"
+      }
+    ],
+    "powerful": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "avatar-the-last-airbender:king-bumi",
+        "name": "King Bumi"
+      }
+    ],
+    "practical_care": [
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      }
+    ],
+    "pragmatic": [
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      }
+    ],
+    "precision": [
+      {
+        "id": "hazbin-hotel:alastor",
+        "name": "Alastor"
+      },
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      },
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      },
+      {
+        "id": "steven-universe:pearl",
+        "name": "Pearl"
+      },
+      {
+        "id": "avatar-the-last-airbender:piandao",
+        "name": "Piandao"
+      },
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "precision_tamer": [
+      {
+        "id": "dc-movies:alfred-pennyworth",
+        "name": "Alfred Pennyworth"
+      },
+      {
+        "id": "dc-movies:bruce-wayne-batman",
+        "name": "Bruce Wayne / Batman"
+      },
+      {
+        "id": "harry-potter:severus-snape",
+        "name": "Severus Snape"
+      },
+      {
+        "id": "marvel-movies:stephen-strange-doctor-strange",
+        "name": "Stephen Strange / Doctor Strange"
+      },
+      {
+        "id": "marvel-movies:wong",
+        "name": "Wong"
+      },
+      {
+        "id": "hazbin-hotel:zestial",
+        "name": "Zestial"
+      }
+    ],
+    "professional": [
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      }
+    ],
+    "protective": [
+      {
+        "id": "steven-universe:bismuth",
+        "name": "Bismuth"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      },
+      {
+        "id": "dc-movies:deadshot-floyd-lawton",
+        "name": "Deadshot / Floyd Lawton"
+      },
+      {
+        "id": "resident-evil:ethan-winters",
+        "name": "Ethan Winters"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      },
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      },
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "palia:sifuu",
+        "name": "Sifuu"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "protective_mother": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      }
+    ],
+    "quiet": [
+      {
+        "id": "coral-island:luke-duckorns",
+        "name": "Luke Duckorns"
+      }
+    ],
+    "quiet_sweetheart": [
+      {
+        "id": "marvel-movies:bruce-banner-hulk",
+        "name": "Bruce Banner / Hulk"
+      },
+      {
+        "id": "palia:einar",
+        "name": "Einar"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "coral-island:rafael-sanchez",
+        "name": "Rafael Sanchez"
+      },
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      },
+      {
+        "id": "coral-island:wataru",
+        "name": "Wataru"
+      }
+    ],
+    "rare_praise": [
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      }
+    ],
+    "rare_temper": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      }
+    ],
+    "rebellious": [
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      },
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      }
+    ],
+    "reckless": [
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "redemption": [
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      }
+    ],
+    "reform": [
+      {
+        "id": "steven-universe:yellow-diamond",
+        "name": "Yellow Diamond"
+      }
+    ],
+    "regal": [
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      }
+    ],
+    "regret": [
+      {
+        "id": "fallout-76:leo-petrov",
+        "name": "Leo Petrov"
+      }
+    ],
+    "researcher": [
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      }
+    ],
+    "ritual": [
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      }
+    ],
+    "robot": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      }
+    ],
+    "rogue": [
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      }
+    ],
+    "romanceable": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      },
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      },
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      },
+      {
+        "id": "fallout-4:john-hancock",
+        "name": "John Hancock"
+      },
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      },
+      {
+        "id": "palia:naio",
+        "name": "Nai'o"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      },
+      {
+        "id": "fallout-4:preston-garvey",
+        "name": "Preston Garvey"
+      },
+      {
+        "id": "palia:subira",
+        "name": "Subira"
+      },
+      {
+        "id": "palia:tamala",
+        "name": "Tamala"
+      },
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      }
+    ],
+    "romantic": [
+      {
+        "id": "disney-movies:prince-naveen",
+        "name": "Prince Naveen"
+      },
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      },
+      {
+        "id": "disney-movies:the-beast-prince-adam",
+        "name": "The Beast / Prince Adam"
+      }
+    ],
+    "romantic_showman": [
+      {
+        "id": "fallout-76:aries",
+        "name": "Aries"
+      },
+      {
+        "id": "disney-movies:genie",
+        "name": "Genie"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "coral-island:scott",
+        "name": "Scott"
+      },
+      {
+        "id": "hazbin-hotel:sir-pentious",
+        "name": "Sir Pentious"
+      },
+      {
+        "id": "marvel-movies:tony-stark-iron-man",
+        "name": "Tony Stark / Iron Man"
+      }
+    ],
+    "rule_breaker": [
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "sappy": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      }
+    ],
+    "sarcastic": [
+      {
+        "id": "resident-evil:karl-heisenberg",
+        "name": "Karl Heisenberg"
+      }
+    ],
+    "scarred_survivor": [
+      {
+        "id": "avatar-the-last-airbender:zuko",
+        "name": "Zuko"
+      }
+    ],
+    "scientist": [
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "fallout-4:curie",
+        "name": "Curie"
+      },
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "seasoned": [
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      }
+    ],
+    "second_chance": [
+      {
+        "id": "coral-island:suki",
+        "name": "Suki"
+      }
+    ],
+    "secret_softie": [
+      {
+        "id": "disney-movies:flynn-rider-eugene-fitzherbert",
+        "name": "Flynn Rider / Eugene Fitzherbert"
+      }
+    ],
+    "secretive": [
+      {
+        "id": "steven-universe:rose-quartz-pink-diamond",
+        "name": "Rose Quartz / Pink Diamond"
+      }
+    ],
+    "self_doubt": [
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      }
+    ],
+    "sensitive": [
+      {
+        "id": "palia:jel-omiata",
+        "name": "Jel Omiata"
+      }
+    ],
+    "sensory_precision": [
+      {
+        "id": "marvel-movies:matt-murdock-daredevil",
+        "name": "Matt Murdock / Daredevil"
+      }
+    ],
+    "showgirl": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      }
+    ],
+    "shy": [
+      {
+        "id": "palia:jina",
+        "name": "Jina"
+      }
+    ],
+    "slow_burn": [
+      {
+        "id": "palia:hassian",
+        "name": "Hassian"
+      }
+    ],
+    "slow_reform": [
+      {
+        "id": "steven-universe:blue-diamond",
+        "name": "Blue Diamond"
+      }
+    ],
+    "snark": [
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      }
+    ],
+    "social": [
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      }
+    ],
+    "socially_perceptive": [
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      }
+    ],
+    "soft_center": [
+      {
+        "id": "palia:zeki",
+        "name": "Zeki"
+      }
+    ],
+    "soldier": [
+      {
+        "id": "disney-movies:li-shang",
+        "name": "Li Shang"
+      },
+      {
+        "id": "dc-movies:rick-flag",
+        "name": "Rick Flag"
+      }
+    ],
+    "soldier_softie": [
+      {
+        "id": "palia:ashura",
+        "name": "Ashura"
+      },
+      {
+        "id": "resident-evil:barry-burton",
+        "name": "Barry Burton"
+      },
+      {
+        "id": "marvel-movies:bucky-barnes-winter-soldier",
+        "name": "Bucky Barnes / Winter Soldier"
+      },
+      {
+        "id": "resident-evil:chris-redfield",
+        "name": "Chris Redfield"
+      },
+      {
+        "id": "marvel-movies:clint-barton-hawkeye",
+        "name": "Clint Barton / Hawkeye"
+      },
+      {
+        "id": "marvel-movies:james-rhodey-rhodes-war-machine",
+        "name": "James 'Rhodey' Rhodes / War Machine"
+      },
+      {
+        "id": "resident-evil:leon-s-kennedy",
+        "name": "Leon S. Kennedy"
+      },
+      {
+        "id": "coral-island:mark",
+        "name": "Mark"
+      },
+      {
+        "id": "fallout-4:paladin-danse",
+        "name": "Paladin Danse"
+      },
+      {
+        "id": "coral-island:semeru",
+        "name": "Semeru"
+      },
+      {
+        "id": "dc-movies:steve-trevor",
+        "name": "Steve Trevor"
+      },
+      {
+        "id": "fallout-76:vernon-dodge",
+        "name": "Vernon Dodge"
+      }
+    ],
+    "soldier_sweetheart": [
+      {
+        "id": "disney-movies:captain-phoebus",
+        "name": "Captain Phoebus"
+      },
+      {
+        "id": "resident-evil:carlos-oliveira",
+        "name": "Carlos Oliveira"
+      }
+    ],
+    "spiritual": [
+      {
+        "id": "avatar-the-last-airbender:aang",
+        "name": "Aang"
+      },
+      {
+        "id": "coral-island:charles",
+        "name": "Charles"
+      },
+      {
+        "id": "palia:chayne",
+        "name": "Chayne"
+      },
+      {
+        "id": "avatar-the-last-airbender:iroh",
+        "name": "Iroh"
+      },
+      {
+        "id": "dc-movies:kent-nelson-doctor-fate",
+        "name": "Kent Nelson / Doctor Fate"
+      }
+    ],
+    "spy": [
+      {
+        "id": "resident-evil:ada-wong",
+        "name": "Ada Wong"
+      },
+      {
+        "id": "fallout-4:deacon",
+        "name": "Deacon"
+      }
+    ],
+    "spy_master": [
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      }
+    ],
+    "stargazing": [
+      {
+        "id": "coral-island:wakuu",
+        "name": "Wakuu"
+      }
+    ],
+    "steady": [
+      {
+        "id": "steven-universe:garnet",
+        "name": "Garnet"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      }
+    ],
+    "strategist": [
+      {
+        "id": "marvel-movies:nick-fury",
+        "name": "Nick Fury"
+      },
+      {
+        "id": "avatar-the-last-airbender:sokka",
+        "name": "Sokka"
+      }
+    ],
+    "strict_care": [
+      {
+        "id": "harry-potter:minerva-mcgonagall",
+        "name": "Minerva McGonagall"
+      }
+    ],
+    "sunny": [
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "sunny_sweetheart": [
+      {
+        "id": "palia:tish",
+        "name": "Tish"
+      }
+    ],
+    "surprisingly_soft": [
+      {
+        "id": "dc-movies:peacemaker-christopher-smith",
+        "name": "Peacemaker / Christopher Smith"
+      }
+    ],
+    "survivalist": [
+      {
+        "id": "fallout-4:old-longfellow",
+        "name": "Old Longfellow"
+      }
+    ],
+    "survivor": [
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      }
+    ],
+    "sweetheart": [
+      {
+        "id": "coral-island:theo",
+        "name": "Theo"
+      }
+    ],
+    "synthetic_personhood": [
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      }
+    ],
+    "tattoos": [
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ],
+    "tavern": [
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      }
+    ],
+    "teacher": [
+      {
+        "id": "harry-potter:remus-lupin",
+        "name": "Remus Lupin"
+      }
+    ],
+    "traditionalist": [
+      {
+        "id": "marvel-movies:mbaku",
+        "name": "M'Baku"
+      }
+    ],
+    "trauma": [
+      {
+        "id": "fallout-76:adelaide",
+        "name": "Adelaide"
+      },
+      {
+        "id": "fallout-76:commander-sofia-daguerre",
+        "name": "Commander Sofia Daguerre"
+      },
+      {
+        "id": "harry-potter:sirius-black",
+        "name": "Sirius Black"
+      }
+    ],
+    "trauma_survivor": [
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      }
+    ],
+    "trickster": [
+      {
+        "id": "marvel-movies:loki",
+        "name": "Loki"
+      }
+    ],
+    "vain": [
+      {
+        "id": "fallout-76:katherine-swan",
+        "name": "Katherine Swan"
+      }
+    ],
+    "veteran": [
+      {
+        "id": "marvel-movies:alexei-shostakov-red-guardian",
+        "name": "Alexei Shostakov / Red Guardian"
+      },
+      {
+        "id": "resident-evil:jill-valentine",
+        "name": "Jill Valentine"
+      },
+      {
+        "id": "fallout-76:solomon-hardy",
+        "name": "Solomon Hardy"
+      }
+    ],
+    "villain": [
+      {
+        "id": "resident-evil:albert-wesker",
+        "name": "Albert Wesker"
+      }
+    ],
+    "vintage": [
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      }
+    ],
+    "vulnerable_under_mask": [
+      {
+        "id": "hazbin-hotel:angel-dust",
+        "name": "Angel Dust"
+      }
+    ],
+    "war_leader": [
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      }
+    ],
+    "warm": [
+      {
+        "id": "coral-island:noah-juma",
+        "name": "Noah Juma"
+      },
+      {
+        "id": "coral-island:pablo-sanchez",
+        "name": "Pablo Sanchez"
+      },
+      {
+        "id": "fallout-4:piper-wright",
+        "name": "Piper Wright"
+      }
+    ],
+    "warm_authority": [
+      {
+        "id": "avatar-the-last-airbender:hakoda",
+        "name": "Hakoda"
+      }
+    ],
+    "warm_host": [
+      {
+        "id": "coral-island:raj",
+        "name": "Raj"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      }
+    ],
+    "warrior": [
+      {
+        "id": "dc-movies:arthur-curry-aquaman",
+        "name": "Arthur Curry / Aquaman"
+      },
+      {
+        "id": "dc-movies:black-adam-teth-adam",
+        "name": "Black Adam / Teth-Adam"
+      },
+      {
+        "id": "disney-movies:king-fergus",
+        "name": "King Fergus"
+      },
+      {
+        "id": "disney-movies:maui",
+        "name": "Maui"
+      },
+      {
+        "id": "avatar-the-last-airbender:suki",
+        "name": "Suki"
+      },
+      {
+        "id": "marvel-movies:thor-odinson",
+        "name": "Thor Odinson"
+      },
+      {
+        "id": "hazbin-hotel:vaggie",
+        "name": "Vaggie"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "weapons_expert": [
+      {
+        "id": "hazbin-hotel:carmilla-carmine",
+        "name": "Carmilla Carmine"
+      }
+    ],
+    "wise": [
+      {
+        "id": "fallout-4:nick-valentine",
+        "name": "Nick Valentine"
+      },
+      {
+        "id": "hazbin-hotel:rosie",
+        "name": "Rosie"
+      },
+      {
+        "id": "dc-movies:wonder-woman-diana-prince",
+        "name": "Wonder Woman / Diana Prince"
+      }
+    ],
+    "wit": [
+      {
+        "id": "palia:kenyatta",
+        "name": "Kenyatta"
+      }
+    ],
+    "world_traveled": [
+      {
+        "id": "coral-island:yuri",
+        "name": "Yuri"
+      }
+    ]
+  }
+}

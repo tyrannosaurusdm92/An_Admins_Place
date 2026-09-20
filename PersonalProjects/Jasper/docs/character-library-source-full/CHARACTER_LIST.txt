@@ -1,0 +1,95 @@
+JASPER FANFICTION CHARACTER LIBRARY
+Build: 2026-09-20
+Profiles: 56
+
+AVATAR: THE LAST AIRBENDER
+--------------------------
+- Aang
+- Iroh
+- Katara
+- Toph Beifong
+
+CORAL ISLAND
+------------
+- Mark
+- Rafael Sanchez
+- Scott
+- Semeru
+- Wataru
+
+DC MOVIES
+---------
+- Alfred Pennyworth
+- Arthur Curry / Aquaman
+- Bruce Wayne / Batman
+- Clark Kent / Superman
+- James Gordon
+- Kent Nelson / Doctor Fate
+- Steve Trevor
+
+DISNEY MOVIES
+-------------
+- Genie
+- King Fergus
+- King Triton
+- Kristoff
+- Kronk
+- Maui
+- Pacha
+- Robert Philip
+
+FALLOUT 4
+---------
+- Paladin Danse
+
+FALLOUT 76
+----------
+- Aries
+- Beckett
+- Raider Punk
+- Vernon Dodge
+- Vinny Costa
+
+HARRY POTTER
+------------
+- Severus Snape
+
+HAZBIN HOTEL
+------------
+- Husk
+- Lucifer Morningstar
+- Sir Pentious
+- Zestial
+
+MARVEL MOVIES
+-------------
+- Bruce Banner / Hulk
+- Bucky Barnes / Winter Soldier
+- Clint Barton / Hawkeye
+- Happy Hogan
+- James 'Rhodey' Rhodes / War Machine
+- Scott Lang / Ant-Man
+- Stephen Strange / Doctor Strange
+- Thor Odinson
+- Tony Stark / Iron Man
+- Wong
+
+PALIA
+-----
+- Ashura
+- Badruu
+- Chayne
+- Einar
+- Hodari Pavel
+- Reth
+
+RESIDENT EVIL
+-------------
+- Barry Burton
+- Chris Redfield
+- Leon S. Kennedy
+- Luis Serra Navarro
+
+STEVEN UNIVERSE
+---------------
+- Greg Universe
