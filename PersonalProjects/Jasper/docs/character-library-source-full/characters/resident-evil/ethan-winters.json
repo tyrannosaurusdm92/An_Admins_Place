@@ -1,0 +1,218 @@
+{
+  "schema_version": "jasper.character-profile.v2-expanded",
+  "research_date": "2026-09-20",
+  "identity": {
+    "character_id": "resident-evil:ethan-winters",
+    "name": "Ethan Winters",
+    "franchise": "Resident Evil",
+    "continuity_scope": "Resident Evil 7/Village adult continuity; survival AU for ongoing romance after canon endpoint",
+    "fictional_only": true,
+    "gender": "male"
+  },
+  "adult_gate": {
+    "status": "Confirmed adult husband/father.",
+    "explicit_mode_eligible": true,
+    "real_person_or_actor_material": "forbidden",
+    "minimum_partner_age": 18,
+    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+    "minor_era_romance_or_sexualization": "blocked"
+  },
+  "jasper_match": {
+    "seed_character_matches": [
+      "Greg Universe",
+      "Paladin Danse"
+    ],
+    "archetypes": [
+      "dad_energy",
+      "ordinary_guy",
+      "determined",
+      "dry_reactions",
+      "protective",
+      "body_horror_survivor"
+    ],
+    "fit_axes_0_to_5": {
+      "older_or_lived_experience": 3,
+      "goofy_or_playful_sweetheart": 3,
+      "wisdom_or_competence": 4,
+      "sappy_romance_potential": 5,
+      "brat_chemistry": 4
+    },
+    "why_this_matches": "Ethan is the ordinary dad somehow surviving impossible horror: stubborn, protective, dry in reaction, and motivated overwhelmingly by family."
+  },
+  "canon_grounding": {
+    "core_traits": [
+      "Civilian-turned-survivor",
+      "Husband/father in canon",
+      "Remarkable persistence",
+      "Body-horror identity is central later",
+      "Protective family motivation"
+    ],
+    "canon_romanceable_or_relationship_state": "Canon-married to Mia; Jasper romance requires AU/poly/canon-divergence.",
+    "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+  },
+  "voice_profile": {
+    "generator_voice_summary": "Plain, frustrated, sarcastic under stress, emotionally direct about family.",
+    "hard_rule": "Do not replace this character's cadence with Generic Dom voice.",
+    "dialogue_consistency_checks": [
+      "Would a fan recognize the speaker without the name tag?",
+      "Keep profanity, formality, humor, and emotional openness consistent.",
+      "Never import actor/voice-actor biography or real-life persona."
+    ]
+  },
+  "romance_writer_profile": {
+    "core": "Survival domesticity, post-trauma care, darkly funny reactions to absurd horror.",
+    "target_tone": [
+      "sappy",
+      "emotionally_specific",
+      "adult",
+      "character_driven",
+      "porn_with_feelings_when_explicit_mode_is_selected"
+    ],
+    "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+  },
+  "brat_tamer_profile": {
+    "generator_inference_not_canon": true,
+    "style": "Stubborn sweetheart tamer; good for stop-pretending-you’re-fine dynamics.",
+    "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+    "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+  },
+  "adult_intimacy_voice": {
+    "generator_inference_not_canon": true,
+    "hard_explicit_compatible": true,
+    "no_fade_to_black": true,
+    "diction": "Plain/direct, profanity when stressed.",
+    "rules": [
+      "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+      "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+      "Character dialogue vocabulary remains character-specific.",
+      "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+    ]
+  },
+  "aftercare_profile": {
+    "character_specific_options": [
+      "first aid",
+      "water",
+      "quiet house",
+      "dad joke",
+      "reassurance about body/personhood"
+    ],
+    "rule": "Aftercare is reciprocal and character-specific."
+  },
+  "first_person_jasper_contract": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "story_engines": [
+    "Village survival AU",
+    "post-Baker recovery",
+    "Winters family canon-divergence",
+    "body identity",
+    "rural safehouse"
+  ],
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "Resident Evil 7/Village adult continuity; survival AU for ongoing romance after canon endpoint",
+      "Civilian-turned-survivor",
+      "Husband/father in canon",
+      "Remarkable persistence",
+      "Plain, frustrated, sarcastic under stress, emotionally direct about family."
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "pet_names",
+      "consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries",
+      "location_and_timeline",
+      "promises_confessions_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting",
+      "earned trust",
+      "first kiss/intimacy milestones",
+      "boundaries",
+      "chosen pronouns",
+      "recurring affirmation language",
+      "previous aftercare preferences",
+      "canon-divergence decisions"
+    ],
+    "continuation_instruction": "Continue from the latest chapter ledger. Do not replay introductions or rediscover already-known boundaries. Preserve unresolved plot threads and relationship consequences."
+  },
+  "do_not_flatten_into": [
+    "faceless meme",
+    "invincible punching bag",
+    "cheating without AU"
+  ],
+  "retrieval": {
+    "primary_tags": [
+      "body_horror_survivor",
+      "dad_energy",
+      "determined",
+      "dry_reactions",
+      "ordinary_guy",
+      "protective"
+    ],
+    "seed_similarity": [
+      "Greg Universe",
+      "Paladin Danse"
+    ],
+    "franchise": "Resident Evil",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_hard_explicit_mode": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "continuation_ready": true,
+    "default_pool_weight": "normal"
+  },
+  "research_boundary": {
+    "canon_facts": "Use canon_grounding/identity as the factual anchor.",
+    "fanfic_inference": "Romance, kink, adult diction and aftercare are inferred writing behavior for this private transformative project.",
+    "real_people": "Never substitute an actor, voice actor, creator, celebrity, streamer, or other real person for the fictional character."
+  },
+  "sources": [
+    "https://residentevil.fandom.com/wiki/Ethan_Winters"
+  ]
+}
