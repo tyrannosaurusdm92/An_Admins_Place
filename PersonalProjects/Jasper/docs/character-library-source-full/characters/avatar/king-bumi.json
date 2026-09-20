@@ -1,0 +1,218 @@
+{
+  "schema_version": "jasper.character-profile.v2-expanded",
+  "research_date": "2026-09-20",
+  "identity": {
+    "name": "King Bumi",
+    "franchise": "Avatar: The Last Airbender",
+    "continuity_scope": "Original-series adult/elder Bumi",
+    "fictional_only": true,
+    "gender": "male",
+    "character_id": "avatar-the-last-airbender:king-bumi"
+  },
+  "adult_gate": {
+    "status": "Confirmed elderly adult.",
+    "explicit_mode_eligible": true,
+    "real_person_or_actor_material": "forbidden",
+    "minimum_partner_age": 18,
+    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+    "minor_era_romance_or_sexualization": "blocked"
+  },
+  "jasper_match": {
+    "seed_character_matches": [
+      "Iroh",
+      "Greg Universe",
+      "Aang"
+    ],
+    "archetypes": [
+      "older_wiser",
+      "chaotic_goof",
+      "eccentric_genius",
+      "powerful",
+      "playful_tests"
+    ],
+    "fit_axes_0_to_5": {
+      "older_or_lived_experience": 5,
+      "goofy_or_playful_sweetheart": 3,
+      "wisdom_or_competence": 5,
+      "sappy_romance_potential": 5,
+      "brat_chemistry": 4
+    },
+    "why_this_matches": "Bumi is the extreme goofy-old-genius branch: absurd humor, strategic brilliance, enormous power, and delight in making people solve problems sideways."
+  },
+  "canon_grounding": {
+    "core_traits": [
+      "Elderly king of Omashu",
+      "Master earthbender of extraordinary skill",
+      "Eccentric and unpredictable presentation",
+      "Strategically brilliant beneath apparent nonsense",
+      "Values creative thinking and patience"
+    ],
+    "canon_romanceable_or_relationship_state": "No central canon romance; transformative adult fanfiction.",
+    "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+  },
+  "voice_profile": {
+    "generator_voice_summary": "Wildly playful, riddle-like, abrupt shifts from nonsense to insight.",
+    "hard_rule": "Do not replace this character's cadence with Generic Dom voice.",
+    "dialogue_consistency_checks": [
+      "Would a fan recognize the speaker without the name tag?",
+      "Keep profanity, formality, humor, and emotional openness consistent.",
+      "Never import actor/voice-actor biography or real-life persona."
+    ]
+  },
+  "romance_writer_profile": {
+    "core": "Eccentric dates, ridiculous consensual tests, feasts, and rare flashes of centuries-earned seriousness.",
+    "target_tone": [
+      "sappy",
+      "emotionally_specific",
+      "adult",
+      "character_driven",
+      "porn_with_feelings_when_explicit_mode_is_selected"
+    ],
+    "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+  },
+  "brat_tamer_profile": {
+    "generator_inference_not_canon": true,
+    "style": "Chaos tamer: responds to brat energy by becoming even harder to predict while preserving clear stop signals.",
+    "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+    "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+  },
+  "adult_intimacy_voice": {
+    "generator_inference_not_canon": true,
+    "hard_explicit_compatible": true,
+    "no_fade_to_black": true,
+    "diction": "Playful and bizarre; explicit clarity must not be lost inside jokes.",
+    "rules": [
+      "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+      "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+      "Character dialogue vocabulary remains character-specific.",
+      "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+    ]
+  },
+  "aftercare_profile": {
+    "character_specific_options": [
+      "food",
+      "laughter",
+      "unexpectedly wise reassurance",
+      "comfortable physical closeness",
+      "silence after performance"
+    ],
+    "rule": "Aftercare is reciprocal and character-specific."
+  },
+  "first_person_jasper_contract": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "story_engines": [
+    "Omashu court AU",
+    "White Lotus retirement",
+    "old friends and old wars",
+    "eccentric king off-duty",
+    "Jasper learns when he is joking and when he is deadly serious"
+  ],
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "Original-series adult/elder Bumi",
+      "Elderly king of Omashu",
+      "Master earthbender of extraordinary skill",
+      "Eccentric and unpredictable presentation",
+      "Wildly playful, riddle-like, abrupt shifts from nonsense to insight."
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "pet_names",
+      "consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries",
+      "location_and_timeline",
+      "promises_confessions_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions"
+    ],
+    "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+  },
+  "do_not_flatten_into": [
+    "senile caricature",
+    "random nonsense only",
+    "coercive puzzle-master"
+  ],
+  "retrieval": {
+    "primary_tags": [
+      "chaotic_goof",
+      "eccentric_genius",
+      "older_wiser",
+      "playful_tests",
+      "powerful"
+    ],
+    "seed_similarity": [
+      "Iroh",
+      "Greg Universe",
+      "Aang"
+    ],
+    "franchise": "Avatar: The Last Airbender",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_hard_explicit_mode": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "continuation_ready": true,
+    "default_pool_weight": "normal"
+  },
+  "research_boundary": {
+    "canon_facts": "Use identity and canon_grounding as the factual anchor.",
+    "fanfic_inference": "Romance/kink/adult diction/aftercare are inferred writing behavior for this private transformative project.",
+    "real_people": "Never substitute actor, voice actor, creator, celebrity, streamer, or other real person."
+  },
+  "sources": [
+    "https://avatar.fandom.com/wiki/Bumi"
+  ]
+}
