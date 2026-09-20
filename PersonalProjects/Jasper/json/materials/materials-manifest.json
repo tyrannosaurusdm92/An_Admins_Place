@@ -1,0 +1,230 @@
+{
+  "schema_version": "jasper.fanfiction.material-manifest.v2-full-integration",
+  "build_date": "2026-09-20",
+  "purpose": "Runtime map of all source systems available to normal generation and explicit bridge requests.",
+  "character_library": {
+    "unified_profile_count": 159,
+    "latest_research_profile_count": 134,
+    "index": "json/characters/index.json",
+    "rules": "json/materials/character-library-rules.json",
+    "continuation_template": "json/materials/continuation-context-template.json",
+    "research_manifest": "json/materials/research-character-manifest.json",
+    "resolver_global": "JasperFanfictionCharacterLibrary"
+  },
+  "people_places": {
+    "json_folder": "json/people-places",
+    "json_files": [
+      "core-catalogs.json",
+      "data-manifest.json",
+      "name-context-policy.json",
+      "name-locales.json",
+      "name-pairing-research.json",
+      "name-preserved-sources.json",
+      "name-structure-policy.json",
+      "name-us-statistics.json",
+      "scope-audit.json",
+      "sentient-types.json",
+      "speculative-family-name-words.json",
+      "speculative-name-profiles.json",
+      "speculative-place-types.json",
+      "speculative-place-words.json"
+    ],
+    "runtime_bundle": "js/jasper-fanfiction-people-places-source.js",
+    "runtime_module_count": 48,
+    "runtime_modules": [
+      "00-namespace.js",
+      "01-utils.js",
+      "02-random.js",
+      "03-data-loader.js",
+      "04-core-catalogs.js",
+      "05-name-data.js",
+      "06v-speculative-data.js",
+      "06v1-world-mode-engine.js",
+      "06v2-speculative-name-engine.js",
+      "06w-name-pairing-data.js",
+      "06x-name-structure-data.js",
+      "06y-name-flow-engine.js",
+      "06y2-name-structure-engine.js",
+      "06-physical-description-data.js",
+      "06z-name-context-engine.js",
+      "07-name-engine.js",
+      "08-pronoun-engine.js",
+      "09-identity-engine.js",
+      "10-physical-description-engine.js",
+      "10a-speculative-person-engine.js",
+      "11-personality-engine.js",
+      "12-interest-skill-engine.js",
+      "13-mood-engine.js",
+      "14-life-engine.js",
+      "15-work-education-engine.js",
+      "16-location-engine.js",
+      "16a-speculative-location-engine.js",
+      "16b-genre-coverage-expansion.js",
+      "17-routine-engine.js",
+      "18-relationship-engine.js",
+      "19-social-graph-engine.js",
+      "20-memory-store.js",
+      "21-memory-retrieval.js",
+      "22-knowledge-ledger.js",
+      "23-conversation-intent.js",
+      "24-conversation-planner.js",
+      "25-dialogue-renderer.js",
+      "26-group-conversation.js",
+      "28-event-engine.js",
+      "29-world-model.js",
+      "30-person-generator.js",
+      "31-world-generator.js",
+      "32-world-simulator.js",
+      "33-command-parser.js",
+      "34-search-index.js",
+      "35-statistics.js",
+      "36-persistence.js",
+      "37-export-import.js"
+    ],
+    "standalone_ui_modules_preserved_not_executed": [
+      "38-ui.js",
+      "39-app.js"
+    ],
+    "adapter_global": "JasperFanfictionCreationSources"
+  },
+  "authored_story_material": {
+    "index": "json/authored-library-index.json",
+    "fandom_roots": [
+      "json/Avatar",
+      "json/FO4",
+      "json/HP",
+      "json/SU"
+    ],
+    "role": "Binding authored chapter history for continuation when a story comes from the supplied library."
+  },
+  "project_profiles": {
+    "private_generator_profile": "json/private-generator-profile.json",
+    "william_writing_style": "json/william-writing-style.json"
+  },
+  "runtime_specialists": [
+    {
+      "global": "JasperFanfictionAdultContract",
+      "script": "js/jasper-fanfiction-adult-contract.js"
+    },
+    {
+      "global": "JasperFanfictionReader",
+      "script": "js/jasper-fanfiction-reader-profile.js"
+    },
+    {
+      "global": "JasperFanfictionCanonEra",
+      "script": "js/jasper-fanfiction-canon-era.js"
+    },
+    {
+      "global": "JasperFanfictionWriting",
+      "script": "js/jasper-fanfiction-writing-style.js"
+    },
+    {
+      "global": "JasperFanfictionSceneBeats",
+      "script": "js/jasper-fanfiction-scene-beats.js"
+    },
+    {
+      "global": "JasperFanfictionOutputValidator",
+      "script": "js/jasper-fanfiction-output-validator.js"
+    },
+    {
+      "global": "JasperFanfictionCharacterReactions",
+      "script": "js/jasper-fanfiction-character-reactions.js"
+    },
+    {
+      "global": "JasperFanfictionRelationshipEngine",
+      "script": "js/jasper-fanfiction-relationship-engine.js"
+    },
+    {
+      "global": "JasperFanfictionContinuityMemory",
+      "script": "js/jasper-fanfiction-continuity-memory.js"
+    },
+    {
+      "global": "JasperFanfictionSessionMemory",
+      "script": "js/jasper-fanfiction-session-memory.js"
+    },
+    {
+      "global": "JasperFanfictionStoryGraph",
+      "script": "js/jasper-fanfiction-story-graph.js"
+    },
+    {
+      "global": "JasperFanfictionBranches",
+      "script": "js/jasper-fanfiction-branch-builder.js"
+    },
+    {
+      "global": "JasperFanfictionSetting",
+      "script": "js/jasper-fanfiction-setting-generator.js"
+    },
+    {
+      "global": "JasperFanfictionFandomContext",
+      "script": "js/jasper-fanfiction-fandom-context.js"
+    },
+    {
+      "global": "JasperFanfictionLore",
+      "script": "js/jasper-fanfiction-lore-library.js"
+    },
+    {
+      "global": "JasperFanfictionDialogueParser",
+      "script": "js/jasper-fanfiction-dialogue-parser.js"
+    },
+    {
+      "global": "JasperFanfictionCharacterContext",
+      "script": "js/jasper-fanfiction-character-context.js"
+    },
+    {
+      "global": "JasperFanfictionCharacterPrompt",
+      "script": "js/jasper-fanfiction-character-prompt.js"
+    },
+    {
+      "global": "JasperFanfictionGenerationStream",
+      "script": "js/jasper-fanfiction-generation-stream.js"
+    },
+    {
+      "global": "StoryTools.JasperWriterReference",
+      "script": "js/writer-reference.js"
+    },
+    {
+      "global": "StoryTools.JasperContinuity",
+      "script": "js/story-continuity.js"
+    },
+    {
+      "global": "StoryTools.JasperMemory",
+      "script": "js/writer-memory.js"
+    },
+    {
+      "global": "StoryTools.JasperQualityGates",
+      "script": "js/plot-hole-defeater.js"
+    },
+    {
+      "global": "StoryTools.FictionalJasperFanfic",
+      "script": "js/fiction-writer.js"
+    }
+  ],
+  "request_policy": {
+    "all_materials_accessible": true,
+    "all_materials_sent_every_request": false,
+    "reason": "Large libraries remain searchable; each provider request receives the relevant resolved subset plus source/rule metadata so the backend is not flooded with irrelevant profiles.",
+    "normal_generator_and_explicit_bridge_share_material_hub": true,
+    "guide_runtime_sections_are_relevance_selected": true
+  },
+  "hard_explicit_runtime_guide": {
+    "json_index": "json/materials/hard-explicit-brat-grammar-guide.json",
+    "full_text": "json/materials/hard-explicit-brat-grammar-guide.txt",
+    "runtime_module": "js/jasper-fanfiction-private-spec.js",
+    "section_count": 33,
+    "source": "user-supplied research/specification guide"
+  },
+  "integration_runtime": {
+    "material_hub": "js/jasper-fanfiction-material-hub.js",
+    "normal_and_private_share_hub": true,
+    "writing_style": "js/jasper-fanfiction-writing-style.js",
+    "writer_reference": "js/writer-reference.js",
+    "cyoa_branch_builder": "js/jasper-fanfiction-branch-builder.js",
+    "story_graph": "js/jasper-fanfiction-story-graph.js",
+    "relationship_engine": "js/jasper-fanfiction-relationship-engine.js",
+    "session_memory": "js/jasper-fanfiction-session-memory.js",
+    "continuity_memory": "js/jasper-fanfiction-continuity-memory.js",
+    "output_validator": "js/jasper-fanfiction-output-validator.js",
+    "explicit_bridge": "js/explicit-bridge.js",
+    "backend_provider": "js/jasper-fanfiction-backend-provider.js"
+  }
+}

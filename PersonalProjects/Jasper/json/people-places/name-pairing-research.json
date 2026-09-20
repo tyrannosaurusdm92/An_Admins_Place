@@ -1,0 +1,241 @@
+{
+  "schema": "people-places-name-pairing-research-v1",
+  "principle": "There is no authoritative universal first-to-middle compatibility table. The runtime treats public lists/surveys as directional evidence and combines them with phonetic and structural rules. It does not call any pairing objectively correct or incorrect.",
+  "sources": [
+    {
+      "id": "ssa-popularity",
+      "title": "Social Security Administration — Popular Baby Names / research files",
+      "url": "https://www.ssa.gov/oact/babynames/limits.html",
+      "use": "era/popularity context only; SSA does not provide first-middle pair frequencies"
+    },
+    {
+      "id": "nameourbaby-flow",
+      "title": "Name Our Baby — Middle Name Generator tips",
+      "url": "https://www.nameourbaby.net/middle-name-generator",
+      "use": "syllable contrast and full-name flow guidance"
+    },
+    {
+      "id": "namememoir-flow",
+      "title": "NameMemoir — How to Pick Middle Names That Flow",
+      "url": "https://namememoir.com/blog/how-to-pick-middle-names-that-flow",
+      "use": "syllable contrast, stress, and seam guidance"
+    },
+    {
+      "id": "babynamebuilder-flow",
+      "title": "Baby Name Builder — Middle Name Ideas",
+      "url": "https://www.babynamebuilder.com/middle-name-ideas/",
+      "use": "flow guidance and directional examples"
+    },
+    {
+      "id": "namenerds-survey",
+      "title": "Name Nerds — Great Middle Name Survey",
+      "url": "https://www.namenerds.com/uucn/midsurvey.html",
+      "use": "historical survey prevalence for common English-language middle names; not scientific and never used as gender identity inference"
+    },
+    {
+      "id": "kyle-1",
+      "title": "MomsWhoThink — Kyle",
+      "url": "https://www.momswhothink.com/baby-name/kyle/",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "kyle-2",
+      "title": "Mom Loves Best — Kyle",
+      "url": "https://momlovesbest.com/kyle-name-meaning",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "kyle-community-2026",
+      "title": "r/namenerds — Middle Name for Kyle (boy)",
+      "url": "https://www.reddit.com/r/namenerds/comments/1rswl0l/middle_name_for_kyle_boy/",
+      "use": "directional community suggestion signal for Kyle → Jonathan and other longer traditional middles; community evidence is weighted below stronger editorial/public datasets"
+    },
+    {
+      "id": "sean-1",
+      "title": "Mom Loves Best — Sean",
+      "url": "https://momlovesbest.com/sean-name-meaning",
+      "use": "directional Sean→middle recommendations"
+    },
+    {
+      "id": "christopher-1",
+      "title": "Mom Loves Best — Christopher",
+      "url": "https://momlovesbest.com/christopher-name-meaning",
+      "use": "directional Christopher→middle recommendations"
+    },
+    {
+      "id": "christopher-poll",
+      "title": "Behind the Name poll — Middle names for Christopher",
+      "url": "https://www.behindthename.com/polls/439941",
+      "use": "directional public preference signal"
+    },
+    {
+      "id": "stephen-1",
+      "title": "Mom Loves Best — Stephen",
+      "url": "https://momlovesbest.com/stephen-name-meaning",
+      "use": "directional Stephen→middle recommendations"
+    },
+    {
+      "id": "iceland-official",
+      "title": "Ísland.is — Icelandic naming convention: surnames",
+      "url": "https://island.is/en/name-giving/icelandic-naming-convention-surnames",
+      "use": "patronymic/matronymic/neutral-form structure"
+    },
+    {
+      "id": "uk-spain",
+      "title": "HM Passport Office — Spain Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/spain-knowledge-base-profile/spain-knowledge-base-profile",
+      "use": "up to two forenames and two family surnames"
+    },
+    {
+      "id": "uk-portugal",
+      "title": "HM Passport Office — Portugal Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/portugal-knowledge-base-profile/portugal-knowledge-base-profile",
+      "use": "multiple forenames and maternal/paternal surnames"
+    },
+    {
+      "id": "uk-brazil",
+      "title": "HM Passport Office — Brazil Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/brazil-knowledge-base-profile/brazil-knowledge-base-profile",
+      "use": "one or more forenames and maternal/paternal surnames"
+    },
+    {
+      "id": "uk-japan",
+      "title": "HM Passport Office — Japan Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/japan-knowledge-base-profile/japan-knowledge-base-profile",
+      "use": "forename + surname; no Western middle-name assumption"
+    },
+    {
+      "id": "uk-korea",
+      "title": "HM Passport Office — South Korea Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/south-korea-knowledge-base-profile/south-korea-knowledge-base-profile",
+      "use": "one forename + one surname; no middle name"
+    },
+    {
+      "id": "familysearch-china",
+      "title": "FamilySearch — Understanding Chinese Names",
+      "url": "https://www.familysearch.org/en/chinese/research/about-names",
+      "use": "surname-first structure and one/two-person given-name concept"
+    },
+    {
+      "id": "uk-russia",
+      "title": "HM Passport Office — Russia Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/russia-knowledge-base-profile/russia-knowledge-base-profile",
+      "use": "forename + patronymic + surname"
+    },
+    {
+      "id": "uk-uae",
+      "title": "HM Passport Office — United Arab Emirates Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/united-arab-emirates-knowledge-base-profile/united-arab-emirates-knowledge-base-profile",
+      "use": "forename + parent/grandparent lineage names + family surname"
+    },
+    {
+      "id": "uk-india",
+      "title": "HM Passport Office — India Knowledge Base profile",
+      "url": "https://www.gov.uk/government/publications/india-knowledge-base-profile/india-knowledge-base-profile",
+      "use": "regional/religious diversity; conservative locale-specific handling instead of one India-wide rule"
+    },
+    {
+      "id": "name-flow-guides",
+      "title": "NameMemoir / Baby Name Studio — full-name flow guidance",
+      "url": "https://namememoir.com/blog/how-to-pick-middle-names-that-flow",
+      "use": "syllable contrast, sound seams, rhythm; heuristic guidance only"
+    },
+    {
+      "id": "name-library-flow-guide",
+      "title": "The Name Library — Middle Names That Actually Matter",
+      "url": "https://www.thenamelibrary.com/blog/middle-names-that-actually-matter-perfect-pairing",
+      "use": "syllable contrast, repeated-ending avoidance, directional examples"
+    },
+    {
+      "id": "namespop-flow-guide",
+      "title": "NamesPop — Middle Name Ideas",
+      "url": "https://namespop.com/blog/middle-name-ideas-how-to-find-the-perfect-pair",
+      "use": "syllable and sound-transition guidance plus directional examples"
+    },
+    {
+      "id": "kyle-editorial-list-1",
+      "title": "Mom Loves Best — Kyle name meaning and middle-name ideas",
+      "url": "https://momlovesbest.com/kyle-name-meaning",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "kyle-editorial-list-2",
+      "title": "BoyNames.net — Kyle",
+      "url": "https://boynames.net/kyle/",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "kyle-editorial-list-3",
+      "title": "Mommy and Love — Middle Names for Kyle",
+      "url": "https://mommyandlove.com/middle-names-for-kyle/",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "kyle-editorial-list-4",
+      "title": "MomsWhoThink — Kyle",
+      "url": "https://www.momswhothink.com/baby-name/kyle/",
+      "use": "directional Kyle→middle recommendations"
+    },
+    {
+      "id": "sean-editorial-list-1",
+      "title": "Mom Loves Best — Sean name meaning and middle-name ideas",
+      "url": "https://momlovesbest.com/sean-name-meaning",
+      "use": "directional Sean→middle recommendations"
+    },
+    {
+      "id": "sean-editorial-list-2",
+      "title": "BoyNames.net — Sean",
+      "url": "https://boynames.net/sean/",
+      "use": "directional Sean→middle recommendations"
+    },
+    {
+      "id": "christopher-editorial-list-1",
+      "title": "Mom Loves Best — Christopher name meaning and middle-name ideas",
+      "url": "https://momlovesbest.com/christopher-name-meaning",
+      "use": "directional Christopher→middle recommendations"
+    },
+    {
+      "id": "christopher-public-poll",
+      "title": "Behind the Name — Middle names for Christopher poll",
+      "url": "https://www.behindthename.com/polls/439941",
+      "use": "directional public preference signal; small poll"
+    },
+    {
+      "id": "christopher-community-suggestions",
+      "title": "Nameberry forum — Middle Names for Christopher",
+      "url": "https://forum.nameberry.com/t/middle-names-for-christopher/246862",
+      "use": "directional community suggestions; weak evidence class"
+    },
+    {
+      "id": "christopher-editorial-list-2",
+      "title": "MyBump2Baby — Middle Names for Christopher",
+      "url": "https://www.mybump2baby.com/middle-names-for-christopher/",
+      "use": "directional Christopher→middle recommendations"
+    },
+    {
+      "id": "public-attested-usage",
+      "title": "Public-record attestations of Christopher Stephen as a full-name sequence",
+      "url": "https://www.dignitymemorial.com/obituaries/name/stephen/christian",
+      "use": "existence/attestation only; weak evidence, not a popularity estimate"
+    },
+    {
+      "id": "public-attested-and-community-usage",
+      "title": "Christopher Sean public attestation",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Sean",
+      "use": "existence/attestation only; birth name includes Christopher Sean; weak evidence, not a recommendation"
+    },
+    {
+      "id": "stephen-editorial-list",
+      "title": "Mom Loves Best — Stephen name meaning and middle-name ideas",
+      "url": "https://momlovesbest.com/stephen-name-meaning",
+      "use": "directional Stephen→middle recommendations"
+    },
+    {
+      "id": "stephen-as-middle-list",
+      "title": "PatPat — Stephen name combinations",
+      "url": "https://www.patpat.com/blogs/baby-names/stephen",
+      "use": "public examples of Stephen in middle-name position; secondary evidence"
+    }
+  ],
+  "privacyNote": "User-provided family examples were used only as conversational design guidance and are not stored in this research file or runtime pairing corpus."
+}

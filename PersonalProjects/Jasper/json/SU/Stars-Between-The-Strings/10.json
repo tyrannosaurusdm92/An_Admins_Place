@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Under the Same Stars",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 10,
-  "word_count": 1622,
+  "word_count": 1624,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “Under the Same Stars,” I carried forward the choice “Say it before either of us can ramble around it.” Choose directness and see what happens when neither of us gets an escape hatch. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “Under the Same Stars,” I carried forward the choice “Let the ridiculous version be true too.” Choose silliness without treating sincerity like something embarrassing. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “Under the Same Stars.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (flirting), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-11 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-10-direct",
-      "label": "Say the honest thing",
+      "label": "Say it before either of us can ramble around it",
       "target": "su-11",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Choose directness and see what happens when neither of us gets an escape hatch.",
+      "generation_hint": "Choose directness and see what happens when neither of us gets an escape hatch.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Under the Same Stars · Greg Universe / Jasper · Say it before either of us can ramble around it · Choose directness and see what happens when neither of us gets an escape hatch. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-10-playful",
-      "label": "Let the moment be playful",
+      "label": "Let the ridiculous version be true too",
       "target": "su-11",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Choose silliness without treating sincerity like something embarrassing.",
+      "generation_hint": "Choose silliness without treating sincerity like something embarrassing.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Under the Same Stars · Greg Universe / Jasper · Let the ridiculous version be true too · Choose silliness without treating sincerity like something embarrassing. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-10-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “Under the Same Stars,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-11 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Under the Same Stars · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-11",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-11"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "flirting",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "Greg took me to the overlook after midnight because the stars were brighter when Beach City stopped pretending it owned the sky.\n\nThe van climbed the narrow road with a familiar cough. I sat in the passenger seat, my feet tucked beneath the blanket Greg had insisted I bring. The radio was off. His hand rested on the center console, palm up, waiting.\n\nI placed my hand in it.\n\nThe contact made the van feel less like a vehicle and more like a small room traveling through darkness. The dashboard lights painted Greg's face green and gold. Every so often, he glanced at I as though checking that I was still there.\n\n“You’re staring,” he said.\n\n“You’re driving.”\n\n“That’s not a defense either.”\n\n“You keep giving me opportunities to practice.”\n\nHe smiled. “I’m generous.”\n\nThe overlook was empty. Greg parked beneath a stand of trees, turned off the engine, and opened the back doors. The night air rushed in, cool and scented with pine. He spread a blanket across the floor of the van and arranged two thermoses, a box of pastries, and a small battery-powered lamp.\n\n“You planned this,” I said.\n\n“I planned several versions. One included a telescope. The telescope was too judgmental.”\n\n“How can a telescope be judgmental?”\n\n“It kept pointing out that I didn’t know how to use it.”\n\nI climbed into the back. Greg followed, pulling the doors nearly closed. The stars appeared through the gap overhead, sharp and innumerable.\n\nFor a while, I lay shoulder to shoulder and said nothing.\n\nThe quiet was different from the quiet in my apartment. There were no pipes, no bakery, no phones vibrating with the demands of people who believed they were entitled to my immediate response. There was only the small hum of the lamp and Greg's breathing.\n\n“I used to think the stars were too far away to matter,” I said.\n\n“They’re very dramatic. They like being perceived from a distance.”\n\n“You would say that about stars.”\n\n“I’m a romantic.”\n\n“You’re a man who bought a bookshelf without legs.”\n\n“A romantic with flaws.”\n\nHis shoulder moved against mine when he laughed.\n\n“What did you think when you first saw me?” Greg asked.\n\nI turned my head. “At the boardwalk?”\n\n“Yeah.”\n\n“I thought you were going to sell me something.”\n\n“I was selling friendship.”\n\n“That’s suspicious.”\n\n“I discounted the first pancake.”\n\nI smiled at the ceiling. “I thought you were too cheerful.”\n\n“I get that a lot.”\n\n“Not as a compliment.”\n\n“I know.”\n\n“You looked like someone who had decided the worst thing that could happen was being embarrassed.”\n\nGreg was quiet.\n\n“Was I wrong?”\n\n“No.” He picked at a loose thread in the blanket. “I got very good at turning fear into a joke. It made people comfortable.”\n\n“Did it make you comfortable?”\n\n“Sometimes.”\n\n“And now?”\n\nHe looked at me. “Now I try to tell the truth before I make it funny.”\n\nThe stars shone through the open doors.\n\n“I thought you were going to leave,” I said.\n\n“The first night?”\n\n“Every night.”\n\nGreg's hand stopped moving.\n\n“I thought I was temporary,” I continued. “That you were kind because kindness is easy for you, and eventually you’d get bored or realize I was not what you wanted.”\n\n“You’re not temporary.”\n\n“You can’t know that.”\n\n“I know what I want tonight.”\n\n“Tonight is not forever.”\n\n“No.” He turned toward I fully. “But forever is made out of nights we choose to keep showing up for. I don’t need to swear I’ll never change. I need to tell you that I’m here now, and that I’ll be honest when now changes.”\n\nI could not look away.\n\n“You make honesty sound like a love language,” I whispered.\n\n“It is.”\n\n“That’s inconvenient.”\n\n“Love usually is.”\n\nHe lifted his hand, stopping before touching my face.\n\n“Can I?”\n\nI nodded.\n\nGreg brushed his fingers along my cheek. The touch was warm and unhurried. He kissed me beneath the open sky, tasting faintly of coffee and sugar.\n\nI shifted closer, one hand sliding beneath his shirt to the warmth of his back. His breath caught. He held my waist, firm enough to tell me he wanted me, gentle enough to leave room for I to move away.\n\n“Still okay?” he murmured.\n\n“Yes.”\n\n“Tell me if—”\n\nI kissed him to interrupt the sentence.\n\nGreg smiled against my mouth. “You’re becoming very assertive.”\n\n“I’m learning from a professional.”\n\n“I’m not sure I deserve that title.”\n\n“You are very good at asking.”\n\n“That is different from knowing what I’m doing.”\n\n“Then keep asking.”\n\nHis eyes darkened with affection. He kissed the corner of my mouth, then my jaw. His hands moved slowly, pausing whenever my body changed beneath them. I answered with touch, with small sounds, with the way I stayed.\n\nThe lamp cast a pool of gold across the blankets. The stars watched without judgment.\n\nWhen the warmth became too much for words, Greg drew the blanket around both of I. The doors closed. The night let the next decision remain ours to make.\n\nLater, I lay against his chest while the van cooled around I. Greg's heartbeat was steady beneath my cheek. His fingers traced absent circles over my shoulder.\n\n“Are you awake?” he asked.\n\n“Unfortunately.”\n\n“I have a question.”\n\n“You always have a question.”\n\n“Do you regret moving here?”\n\nI thought about the suitcase, the motel curtains, the phone calls. I thought about the bakery downstairs, the new chair, the metal pick in my pocket, and the man whose voice had become a place I could rest.\n\n“No,” I said.\n\nGreg kissed my hair.\n\n“Do you regret meeting me?”\n\n“Ask a better question.”\n\n“Do you regret kissing me?”\n\n“Still not better.”\n\nHis chest moved beneath my cheek as he laughed.\n\n“I don’t regret you,” I said.\n\nThe laughter faded. His hand stilled.\n\n“That’s a good answer,” he whispered.\n\n“You sound surprised.”\n\n“I’m trying not to cry in my own van.”\n\n“It’s a house with wheels. You’re allowed.”\n\nHe turned his face toward mine. The dashboard clock glowed 2:17 a.m.\n\n“I love you,” he said.\n\n“You already told me.”\n\n“I’m telling you again.”\n\nI kissed him once, softly. “I love you too.”\n\n“Again?”\n\n“I love you.”\n\nHis eyes closed. He pressed his forehead against mine.\n\n“Thank you,” he said.\n\n“For what?”\n\n“For saying it like it’s something you’re choosing, not something you’re trapped inside.”\n\nMy fingers curled around his.\n\nOutside, the wind moved through the trees. The ocean was invisible from the overlook, but I could hear it far below, patient and persistent.\n\nGreg fell asleep first. I stayed awake for a little while longer, watching the stars through the narrow gap in the doors.\n\nThe future remained unwritten. That did not make it empty.\n\nBeside I, Greg breathed in and out. The van held me both. The night did not ask me to promise forever.\n\nIt only asked me to stay until morning.\n\nI did.\n\nAt dawn, Greg woke with his cheek pressed to my shoulder. He blinked at the pale sky, then at the position of his arm around I.\n\n“Good morning,” he whispered.\n\n“You’re drooling.”\n\n“That’s how I say I care.”\n\n“It’s very moving.”\n\nHe shifted carefully, trying not to jostle the blankets. The movement made the van creak.\n\n“The house is complaining,” I said.\n\n“It has strong opinions about morning.”\n\nGreg opened the doors. Cold air spilled inside. The stars were fading, but the horizon had begun to turn lavender. Below the overlook, the ocean caught the first light.\n\nI sat beside him, wrapped in the blanket. His shoulder pressed against mine.\n\n“Do you ever get tired of this view?” I asked.\n\n“No.”\n\n“Even though you’ve seen it a thousand times?”\n\n“Especially because I’ve seen it a thousand times. Familiar things can still be beautiful.”\n\nI thought about the studio, the bakery, the same streets I had walked every day since arriving. Familiarity had once felt like a threat, proof that life was narrowing around I. With Greg, it was beginning to feel like a place where I could set something down.\n\n“I want to show you something,” he said.\n\nHe reached beneath the bed and pulled out a paper map. It was marked with colored lines, small stars, and notes in the margins.\n\n“Road trips,” he said. “The good ones.”\n\n“How many are there?”\n\n“Enough to make the van nervous.”\n\nI traced one of the routes. It followed the coast north, then turned inland toward mountains.\n\n“What’s there?”\n\n“A little town with an excellent bakery and a lake that reflects the stars.”\n\n“You’re trying to seduce me with pastries and astronomy.”\n\n“It’s a proven strategy.”\n\n“When would we go?”\n\nGreg looked at me. “When you want.”\n\nI folded the map along its old creases.\n\n“Soon,” I said.\n\nHis smile came slowly. “Soon is better than maybe.”\n\n“Don’t get used to it.”\n\nHe kissed me in the morning light. The kiss was softer than the ones before, but it held the same promise: not forever guaranteed, not perfect, simply chosen again.\n\nI packed the blankets and thermoses. Greg made coffee. The van started on the first try, which he treated as a personal victory.\n\nOn the drive down the mountain, I rested my hand on his thigh. He covered it with his own.\n\n“We’re going to need more pastries,” he said.\n\n“We have a whole box.”\n\n“That’s not the same as more pastries.”\n\n“You’re going to bankrupt us with baked goods.”\n\n“I’ll write a song about it.”\n\n“That won’t pay for anything.”\n\n“It might pay in emotional currency.”\n\nThe road curved toward home. The sun rose behind I, turning the van windows gold.\n\nFor once, the future did not feel like an alarm.\n\nIt felt like a road with somewhere to go.",
+  "content": "Greg took me to the overlook after midnight because the stars were brighter when Beach City stopped pretending it owned the sky.\n\nThe van climbed the narrow road with a familiar cough. I sat in the passenger seat, my feet tucked beneath the blanket Greg had insisted I bring. The radio was off. His hand rested on the center console, palm up, waiting.\n\nI placed my hand in it.\n\nThe contact made the van feel less like a vehicle and more like a small room traveling through darkness. The dashboard lights painted Greg's face green and gold. Every so often, he glanced at me as though checking that I was still there.\n\n“You’re staring,” he said.\n\n“You’re driving.”\n\n“That’s not a defense either.”\n\n“You keep giving me opportunities to practice.”\n\nHe smiled. “I’m generous.”\n\nThe overlook was empty. Greg parked beneath a stand of trees, turned off the engine, and opened the back doors. The night air rushed in, cool and scented with pine. He spread a blanket across the floor of the van and arranged two thermoses, a box of pastries, and a small battery-powered lamp.\n\n“You planned this,” I said.\n\n“I planned several versions. One included a telescope. The telescope was too judgmental.”\n\n“How can a telescope be judgmental?”\n\n“It kept pointing out that I didn’t know how to use it.”\n\nI climbed into the back. Greg followed, pulling the doors nearly closed. The stars appeared through the gap overhead, sharp and innumerable.\n\nFor a while, I lay shoulder to shoulder and said nothing.\n\nThe quiet was different from the quiet in my apartment. There were no pipes, no bakery, no phones vibrating with the demands of people who believed they were entitled to my immediate response. There was only the small hum of the lamp and Greg's breathing.\n\n“I used to think the stars were too far away to matter,” I said.\n\n“They’re very dramatic. They like being perceived from a distance.”\n\n“You would say that about stars.”\n\n“I’m a romantic.”\n\n“You’re a man who bought a bookshelf without legs.”\n\n“A romantic with flaws.”\n\nHis shoulder moved against mine when he laughed.\n\n“What did you think when you first saw me?” Greg asked.\n\nI turned my head. “At the boardwalk?”\n\n“Yeah.”\n\n“I thought you were going to sell me something.”\n\n“I was selling friendship.”\n\n“That’s suspicious.”\n\n“I discounted the first pancake.”\n\nI smiled at the ceiling. “I thought you were too cheerful.”\n\n“I get that a lot.”\n\n“Not as a compliment.”\n\n“I know.”\n\n“You looked like someone who had decided the worst thing that could happen was being embarrassed.”\n\nGreg was quiet.\n\n“Was I wrong?”\n\n“No.” He picked at a loose thread in the blanket. “I got very good at turning fear into a joke. It made people comfortable.”\n\n“Did it make you comfortable?”\n\n“Sometimes.”\n\n“And now?”\n\nHe looked at me. “Now I try to tell the truth before I make it funny.”\n\nThe stars shone through the open doors.\n\n“I thought you were going to leave,” I said.\n\n“The first night?”\n\n“Every night.”\n\nGreg's hand stopped moving.\n\n“I thought I was temporary,” I continued. “That you were kind because kindness is easy for you, and eventually you’d get bored or realize I was not what you wanted.”\n\n“You’re not temporary.”\n\n“You can’t know that.”\n\n“I know what I want tonight.”\n\n“Tonight is not forever.”\n\n“No.” He turned toward me fully. “But forever is made out of nights we choose to keep showing up for. I don’t need to swear I’ll never change. I need to tell you that I’m here now, and that I’ll be honest when now changes.”\n\nI could not look away.\n\n“You make honesty sound like a love language,” I whispered.\n\n“It is.”\n\n“That’s inconvenient.”\n\n“Love usually is.”\n\nHe lifted his hand, stopping before touching my face.\n\n“Can I?”\n\nI nodded.\n\nGreg brushed his fingers along my cheek. The touch was warm and unhurried. He kissed me beneath the open sky, tasting faintly of coffee and sugar.\n\nI shifted closer, one hand sliding beneath his shirt to the warmth of his back. His breath caught. He held my waist, firm enough to tell me he wanted me, gentle enough to leave room for me to move away.\n\n“Still okay?” he murmured.\n\n“Yes.”\n\n“Tell me if—”\n\nI kissed him to interrupt the sentence.\n\nGreg smiled against my mouth. “You’re becoming very assertive.”\n\n“I’m learning from a professional.”\n\n“I’m not sure I deserve that title.”\n\n“You are very good at asking.”\n\n“That is different from knowing what I’m doing.”\n\n“Then keep asking.”\n\nHis eyes darkened with affection. He kissed the corner of my mouth, then my jaw. His hands moved slowly, pausing whenever my body changed beneath them. I answered with touch, with small sounds, with the way I stayed.\n\nThe lamp cast a pool of gold across the blankets. The stars watched without judgment.\n\nWhen the warmth became too much for words, Greg drew the blanket around both of us. The doors closed. The night let the next decision remain ours to make.\n\nLater, I lay against his chest while the van cooled around me. Greg's heartbeat was steady beneath my cheek. His fingers traced absent circles over my shoulder.\n\n“Are you awake?” he asked.\n\n“Unfortunately.”\n\n“I have a question.”\n\n“You always have a question.”\n\n“Do you regret moving here?”\n\nI thought about the suitcase, the motel curtains, the phone calls. I thought about the bakery downstairs, the new chair, the metal pick in my pocket, and the man whose voice had become a place I could rest.\n\n“No,” I said.\n\nGreg kissed my hair.\n\n“Do you regret meeting me?”\n\n“Ask a better question.”\n\n“Do you regret kissing me?”\n\n“Still not better.”\n\nHis chest moved beneath my cheek as he laughed.\n\n“I don’t regret you,” I said.\n\nThe laughter faded. His hand stilled.\n\n“That’s a good answer,” he whispered.\n\n“You sound surprised.”\n\n“I’m trying not to cry in my own van.”\n\n“It’s a house with wheels. You’re allowed.”\n\nHe turned his face toward mine. The dashboard clock glowed 2:17 a.m.\n\n“I love you,” he said.\n\n“You already told me.”\n\n“I’m telling you again.”\n\nI kissed him once, softly. “I love you too.”\n\n“Again?”\n\n“I love you.”\n\nHis eyes closed. He pressed his forehead against mine.\n\n“Thank you,” he said.\n\n“For what?”\n\n“For saying it like it’s something you’re choosing, not something you’re trapped inside.”\n\nMy fingers curled around his.\n\nOutside, the wind moved through the trees. The ocean was invisible from the overlook, but I could hear it far below, patient and persistent.\n\nGreg fell asleep first. I stayed awake for a little while longer, watching the stars through the narrow gap in the doors.\n\nThe future remained unwritten. That did not make it empty.\n\nbeside me, Greg breathed in and out. The van held us both. The night did not ask me to promise forever.\n\nIt only asked me to stay until morning.\n\nI did.\n\nAt dawn, Greg woke with his cheek pressed to my shoulder. He blinked at the pale sky, then at the position of his arm around me.\n\n“Good morning,” he whispered.\n\n“You’re drooling.”\n\n“That’s how I say I care.”\n\n“It’s very moving.”\n\nHe shifted carefully, trying not to jostle the blankets. The movement made the van creak.\n\n“The house is complaining,” I said.\n\n“It has strong opinions about morning.”\n\nGreg opened the doors. Cold air spilled inside. The stars were fading, but the horizon had begun to turn lavender. Below the overlook, the ocean caught the first light.\n\nI sat beside him, wrapped in the blanket. His shoulder pressed against mine.\n\n“Do you ever get tired of this view?” I asked.\n\n“No.”\n\n“Even though you’ve seen it a thousand times?”\n\n“Especially because I’ve seen it a thousand times. Familiar things can still be beautiful.”\n\nI thought about the studio, the bakery, the same streets I had walked every day since arriving. Familiarity had once felt like a threat, proof that life was narrowing around me. With Greg, it was beginning to feel like a place where I could set something down.\n\n“I want to show you something,” he said.\n\nHe reached beneath the bed and pulled out a paper map. It was marked with colored lines, small stars, and notes in the margins.\n\n“Road trips,” he said. “The good ones.”\n\n“How many are there?”\n\n“Enough to make the van nervous.”\n\nI traced one of the routes. It followed the coast north, then turned inland toward mountains.\n\n“What’s there?”\n\n“A little town with an excellent bakery and a lake that reflects the stars.”\n\n“You’re trying to seduce me with pastries and astronomy.”\n\n“It’s a proven strategy.”\n\n“When would we go?”\n\nGreg looked at me. “When you want.”\n\nI folded the map along its old creases.\n\n“Soon,” I said.\n\nHis smile came slowly. “Soon is better than maybe.”\n\n“Don’t get used to it.”\n\nHe kissed me in the morning light. The kiss was softer than the ones before, but it held the same promise: not forever guaranteed, not perfect, simply chosen again.\n\nI packed the blankets and thermoses. Greg made coffee. The van started on the first try, which he treated as a personal victory.\n\nOn the drive down the mountain, I rested my hand on his thigh. He covered it with his own.\n\n“We’re going to need more pastries,” he said.\n\n“We have a whole box.”\n\n“That’s not the same as more pastries.”\n\n“You’re going to bankrupt us with baked goods.”\n\n“I’ll write a song about it.”\n\n“That won’t pay for anything.”\n\n“It might pay in emotional currency.”\n\nThe road curved toward home. The sun rose behind me, turning the van windows gold.\n\nFor once, the future did not feel like an alarm.\n\nIt felt like a road with somewhere to go.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,258 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "flirting",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · Under the Same Stars · Greg Universe / Jasper · flirting · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 10,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-11",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-11",
+    "private_handoff_resume_target": "su-11"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-11",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "flirting",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "flirting",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-10",
+    "chapter_number": 10,
+    "title": "Under the Same Stars",
+    "relationship_stage": "flirting",
+    "opening_anchor": "Greg took me to the overlook after midnight because the stars were brighter when Beach City stopped pretending it owned the sky.",
+    "closing_anchor": "For once, the future did not feel like an alarm. It felt like a road with somewhere to go.",
+    "next_story_target": "su-11",
+    "private_resume_target": "su-11",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · Under the Same Stars · Greg Universe / Jasper · flirting · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-rose"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

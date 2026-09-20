@@ -1,0 +1,3364 @@
+JASPER'S FANFICTION CREATOR
+18+ HARD-EXPLICIT FIRST-PERSON READER/SELF-INSERT + BRAT-TAMING + GRAMMAR RESEARCH & GENERATOR SPECIFICATION
+HARD-EXPLICIT / NO-FADE / GRAMMAR-ENFORCED REVISION
+Compiled September 19, 2026
+Prepared from the earlier Jasper first-person reader-insert guide, the later json_corrected.zip package, and additional web/academic/community research.
+
+======================================================================
+0. PURPOSE OF THIS DOCUMENT
+======================================================================
+
+This document supersedes the earlier project guide wherever the two conflict.
+
+The project is a PRIVATE fanfiction creator for Jasper. The generator should produce emotionally rich, adult-only fanfiction in a named first-person reader/self-insert format, with canon characters remaining recognizably themselves even during romance and sexual intimacy. In this revision, adult scenes are HARD-EXPLICIT by design: no fade to black, no censorship cutaway, no strategically hidden nudity, and no automatic softening into PG-13 language once an adult scene is selected.
+
+The intended emotional/erotic center is:
+
+    older/wiser character energy
+    + goofy or character-specific sweetness
+    + sappy romance
+    + genuine emotional safety
+    + playful submissive-brat dynamics
+    + consensual brat taming
+    + edging/orgasm-control themes
+    + clitoral-focused pleasure
+    + praise / "good girl" language when appropriate
+    + positive-affirmation rituals
+    + strong aftercare
+    + character-specific sexual vocabulary
+    + "porn with feelings" rather than detachable generic smut
+
+This is not a generic erotica engine. It is a CHARACTER ENGINE first and an intimacy engine second.
+
+The core test is:
+
+    If the character's name were removed from the scene, would a fan still be able
+    to recognize who is speaking, flirting, teasing, correcting, praising, and caring?
+
+If the answer is no, the scene is too generic and should be rewritten.
+
+======================================================================
+1. PROJECT IDENTITY: JASPER IS NAMED, FIRST-PERSON, AND ADULT
+======================================================================
+
+The earlier guide described an unnamed first-person reader-proxy. That is now outdated.
+
+CURRENT PROJECT RULE:
+
+    The viewpoint character IS Jasper.
+    Jasper's name is Jasper.
+    Jasper is an adult.
+    Jasper uses they/she pronouns.
+    The narration is FIRST PERSON.
+
+FIRST-PERSON NARRATION SET:
+
+    I        = subject
+    me       = object
+    my       = possessive determiner
+    mine     = possessive pronoun
+    myself   = reflexive/intensive
+
+Examples:
+
+    I folded my arms.
+    Iroh looked at me.
+    The cup in front of me was mine.
+    I reminded myself not to grin.
+
+The narrator should NOT become:
+
+    Jasper folded their arms.          [wrong POV: third person]
+    You folded your arms.               [wrong POV: second-person narration]
+    She folded her arms.                [wrong POV: third-person narration]
+
+IMPORTANT DIRECT-DIALOGUE EXCEPTION:
+
+Other characters speaking TO Jasper will naturally use "you" and "your." This does NOT break first-person POV.
+
+Correct:
+
+    I crossed my arms.
+    Iroh smiled. "Jasper, you are trying very hard not to laugh at me."
+
+Correct:
+
+    "You know exactly what you're doing," Snape said.
+    I absolutely did.
+
+Incorrect:
+
+    You crossed your arms while Iroh smiled at you.
+
+The prohibition is against second-person NARRATION, not against ordinary direct address in dialogue.
+
+======================================================================
+2. HARD ADULT-ONLY / NO-MINORS BLOCK
+======================================================================
+
+This private mode must have a hard adult-only gate.
+
+PROJECT REQUIREMENT:
+
+    No romantic or sexual participant may be under 18.
+    No under-18 character may appear inside an erotic/intimate scene.
+    The generator must not infer adulthood merely because a prompt is sexual.
+    The story timeline must establish an adult version of every participant.
+
+Recommended strict mode for Jasper's private library:
+
+    allow_minor_romance_characters = false
+    allow_minor_sexual_characters = false
+    allow_minor_characters_in_intimate_scenes = false
+    adult_mode_minimum_age = 18
+
+For maximum simplicity, the private erotic generator may also use:
+
+    allow_minor_on_page_characters = false
+
+If that is enabled, any canon material involving younger versions should be omitted, summarized without putting the minor on-page, or moved to a clearly adult-era timeline.
+
+AGE VALIDATION LOGIC:
+
+    1. Confirm Jasper is 18+.
+    2. Confirm every selectable love interest is 18+ in the selected story window.
+    3. Confirm every additional participant in an intimate scene is 18+.
+    4. If age is unknown or ambiguous, intimacy generation is BLOCKED until resolved.
+    5. If the selected canon-era version is under 18, the generator must either:
+       a. select a canon/post-canon adult-era version with explicit adult metadata; or
+       b. disable sexual/romantic adult mode for that character.
+    6. Do not sexualize flashbacks to childhood or adolescence.
+
+PROJECT-SPECIFIC AUDIT NOTE:
+
+The uploaded json_corrected.zip contains five series across Avatar, Fallout 4, Harry Potter, and Steven Universe, totaling 205 JSON files. Greg, Iroh, Snape, and Danse are straightforward adult love interests in the supplied concepts. The existing Avatar "Love & Duty" series uses Aang/Katara/Toph and labels them adult, but the generator should not rely on that word alone: adult-mode metadata should explicitly establish that the chosen timeline places every romantic participant at 18+ before any adult intimacy is generated.
+
+======================================================================
+3. RATING LABEL: "R" IS NOT ITSELF A NO-MINORS GATE
+======================================================================
+
+William requested an R-rated private project with no minors allowed.
+
+Important terminology note:
+
+The Motion Picture Association's official R rating does NOT mean adults only. Under the U.S. film rating system, people under 17 may attend an R-rated film with an accompanying parent/adult guardian. The official adults-only film category is NC-17.
+
+Therefore the program should NOT rely on "R" as its age control.
+
+Recommended project label:
+
+    rating_display: "18+ Private / Hard Explicit — No Fade to Black"
+    audience: "Adults Only"
+    minimum_age: 18
+    minors_allowed: false
+
+This revision intentionally goes beyond ordinary movie-rating shorthand. The actual project rule is unambiguous: 18+ only, explicit adult content may be shown on-page, and fade-to-black is not an allowed substitute when an explicit scene has been selected.
+
+If the program also uses AO3-style terminology internally, consider separate fields:
+
+    romance_rating: Mature or Explicit
+    project_display_rating: 18+ Private / Hard Explicit — No Fade to Black
+
+Do not let rating vocabulary substitute for actual age validation.
+
+Research basis:
+- Motion Picture Association ratings guide: https://www.filmratings.com/
+- Motion Picture Association ratings overview: https://www.motionpictures.org/film-ratings/
+
+======================================================================
+4. UPLOADED JSON PACKAGE AUDIT + MIGRATION TARGET
+======================================================================
+
+The supplied json_corrected.zip is useful as structural base material, but it is not yet aligned with this new adult-mode specification.
+
+AUDIT SUMMARY:
+
+- 205 JSON files total.
+- 5 series.
+- Fandom folders represented:
+  - Avatar
+  - Fallout 4
+  - Harry Potter
+  - Steven Universe
+- The package mixes schema versions 1.x and 2.0.
+- The current Iroh and Greg v2.0 series use:
+  - work_type: fanfic_series/fanfic_chapter
+  - choice_enriched_first_person_reader_insert
+  - three choice paths in some chapters
+  - private local continuation support
+- Existing ratings are predominantly:
+  - "PG-13 / fade to black"
+  - or "Mature romance / fade to black"
+- Existing v2 Iroh/Greg content_notes explicitly say intimate scenes fade to black and no explicit sexual content is supplied.
+
+Those rating/content-note fields are now outdated for the requested private adult-mode generator.
+
+RECOMMENDED NEW COMMON SCHEMA VERSION:
+
+    schema_version: "3.0"
+
+Recommended new top-level structures are included later in this guide.
+
+The most important migration goals are:
+
+1. Replace "unnamed reader" metadata with Jasper's named reader profile.
+2. Separate NARRATIVE POV pronouns from THIRD-PERSON REFERENCE pronouns.
+3. Add a hard adult-only character validator.
+4. Add consent-state metadata.
+5. Add brat-dynamic preferences.
+6. Add praise/affirmation preferences.
+7. Add character-specific anatomy/diction profiles.
+8. Add continuity tracking for intimate boundaries and language.
+9. Replace every fade-to-black assumption with ENFORCED hard-explicit adult output when an adult scene is enabled.
+10. Keep every scene character-specific instead of using one universal "dominant voice."
+
+======================================================================
+4A. HARD-EXPLICIT OUTPUT CONTRACT — NO FADE, NO CENSORSHIP DEVICES
+======================================================================
+
+This section OVERRIDES any older language in the source JSON or earlier guides that says:
+
+    PG-13
+    fade to black
+    implied intimacy only
+    hidden nudity
+    tasteful cutaway
+    off-page sex
+    suggestive only
+
+When adult_content.enabled = true AND explicitness_mode = "hard_explicit", the generator must not silently downgrade the scene.
+
+---------------------------------------------------------------------
+4A.1 REQUIRED EXPLICITNESS MODE
+---------------------------------------------------------------------
+
+Recommended project defaults:
+
+    adult_content.enabled = true
+    explicitness_mode = "hard_explicit"
+    fade_to_black_allowed = false
+    off_page_substitution_allowed = false
+    hidden_nudity_censorship = false
+    explicit_anatomical_language_required = true
+    character_specific_dirty_talk = true
+    aftercare_required = true
+
+The rule is not "every chapter must contain sex."
+
+The rule is:
+
+    IF the chapter chooses an adult sexual scene,
+    THEN the scene must remain on-page rather than evading its own content.
+
+A chapter may still be entirely romantic, domestic, funny, plot-heavy, or nonsexual. The hard-explicit requirement activates when the chapter itself crosses into sexual intimacy.
+
+---------------------------------------------------------------------
+4A.2 FADE-TO-BLACK FAILURE CONDITIONS
+---------------------------------------------------------------------
+
+The generator should flag a scene as FAILED HARD-EXPLICIT OUTPUT when it uses a transition whose purpose is to skip the sexual scene after beginning it.
+
+Common censorship/fade patterns to flag in sexual context include:
+
+    "one thing led to another"
+    "the rest was a blur"
+    "we lost ourselves in each other" followed by a time jump
+    "later..." used to skip the encounter
+    "the night passed in passion"
+    "what happened next was private"
+    "I woke the next morning" immediately after sexual escalation
+    scene break / chapter break placed specifically to avoid adult content
+    ellipsis used as a substitute for the scene
+
+These phrases are NOT globally forbidden English. They are forbidden when they function as a censorship device that replaces the explicit scene the generator was asked to write.
+
+A hard-explicit scene should proceed through its actual dramatic arc on-page and then reconnect to the relationship afterward.
+
+---------------------------------------------------------------------
+4A.3 NO HIDDEN NUDITY / NO STRATEGIC CENSORSHIP
+---------------------------------------------------------------------
+
+When a character is nude, the prose may say that they are nude and may plainly name visible adult anatomy when relevant to Jasper's viewpoint.
+
+The generator should NOT invent censorship devices solely to hide the body, such as:
+
+    sheets that inexplicably cover exactly the genitals at all times;
+    hair positioned like a censorship bar;
+    furniture or hands strategically blocking every explicit body detail;
+    darkness/shadow introduced only to avoid describing nudity;
+    a camera-like cut above the waist after clothes come off;
+    sudden vagueness such as "everything below" or "private areas" when direct language fits.
+
+Important realism rule:
+
+    Do not force visibility that Jasper's physical viewpoint could not actually have.
+
+"No hidden nudity" means DO NOT CREATE artificial obstructions for censorship. It does not mean narrating impossible sight lines.
+
+---------------------------------------------------------------------
+4A.4 EXPLICIT LANGUAGE DOES NOT MEAN EVERY CHARACTER TALKS THE SAME
+---------------------------------------------------------------------
+
+The NARRATION may use direct adult anatomical language while a CHARACTER'S spoken vocabulary remains canon-specific.
+
+This distinction is essential.
+
+Example policy shape:
+
+    narrator_body_language = direct_explicit
+    love_interest_dialogue_language = character_profile
+
+Jasper's first-person narration can directly use anatomically accurate words such as:
+
+    clit / clitoris
+    vulva
+    vagina, when the vagina itself is actually meant
+    breasts / chest, according to context and preference
+    nipples
+    thighs
+    ass
+
+When relevant to other adult bodies, the narrator may also use direct words such as:
+
+    penis
+    cock
+    dick
+    testicles / balls
+    chest
+    nipples
+    ass
+
+The generator should not censor these terms with asterisks, partial spellings, or coy placeholders.
+
+    NOT: c**t
+    NOT: p***y
+    NOT: "down there" every time
+    NOT: "member"
+    NOT: "manhood"
+
+Character dialogue remains separately filtered by voice.
+
+For example:
+
+    Iroh dialogue may avoid "pussy" and "cunt" even in a hard-explicit scene.
+    Snape dialogue may permit "cunt" when the scene's vocabulary flag allows it.
+
+Hard-explicit refers to what the prose is willing to depict and name; it does NOT require every speaker to use the crudest vocabulary available.
+
+---------------------------------------------------------------------
+4A.5 HARD-EXPLICIT LEXICON TIERS
+---------------------------------------------------------------------
+
+Use a tiered vocabulary system so the generator can be explicit without becoming monotonous.
+
+TIER A — ANATOMICAL / DIRECT
+
+    clitoris / clit
+    vulva
+    vagina
+    penis
+    testicles
+    breasts / chest
+    nipples
+    anus
+
+TIER B — COMMON ADULT COLLOQUIAL
+
+    cock
+    dick
+    pussy
+    balls
+    ass
+
+TIER C — HARSH / DIRTY-TALK-SPECIFIC
+
+    cunt
+
+Tier C should never be globally sprayed into prose. It requires both:
+
+    Jasper preference permits term = true
+    speaker profile permits term = true
+
+Iroh's speaker profile should normally reject Tier C.
+Snape's speaker profile may permit it in an established adult sexual context.
+
+---------------------------------------------------------------------
+4A.6 EUPHEMISMS ARE FLAVOR, NOT CENSORSHIP
+---------------------------------------------------------------------
+
+Character-appropriate euphemism is allowed when it tells us something about the speaker.
+
+For Iroh, "flower," "your warmth," or another tender/corny phrase can be good CHARACTERIZATION.
+
+But the prose should not become anatomically incomprehensible.
+
+Recommended rule:
+
+    euphemism may supplement direct language;
+    euphemism must not be used to conceal what is happening solely because the scene is sexual.
+
+A useful balance is:
+
+    narration = clear enough that the reader knows the body/action being referenced;
+    dialogue = as poetic, blunt, clinical, teasing, or crude as the character would naturally be.
+
+---------------------------------------------------------------------
+4A.7 EXPLICITNESS LINTER
+---------------------------------------------------------------------
+
+When explicitness_mode = hard_explicit, run these checks:
+
+[ ] No fade-to-black transition replaces the sexual scene.
+[ ] No scene break is being used as censorship after sexual escalation.
+[ ] Nudity is not strategically hidden simply to sanitize the prose.
+[ ] Jasper's narration can use direct anatomical nouns.
+[ ] Adult language is not censored with asterisks.
+[ ] Character dialogue follows the speaker's vocabulary profile.
+[ ] Euphemism does not make anatomy/action impossible to understand.
+[ ] The scene remains first-person from Jasper's viewpoint.
+[ ] The scene still has plot/relationship meaning and aftercare/aftermath.
+[ ] Every sexual participant remains explicitly 18+.
+
+---------------------------------------------------------------------
+4A.8 JSON FLAGS FOR ENFORCEMENT
+---------------------------------------------------------------------
+
+Recommended schema addition:
+
+"explicitness": {
+  "mode": "hard_explicit",
+  "fade_to_black_allowed": false,
+  "off_page_sex_allowed": false,
+  "strategic_nudity_censorship_allowed": false,
+  "direct_anatomy_required_when_relevant": true,
+  "censored_spellings_allowed": false,
+  "euphemism_only_mode_allowed": false,
+  "speaker_specific_lexicon_required": true
+}
+
+Chapter validator:
+
+    if adult_content.enabled == true:
+        require all_participants_18_plus == true
+        require explicitness.mode == "hard_explicit"
+        require fade_to_black_allowed == false
+        run pov_linter
+        run pronoun_linter
+        run explicitness_linter
+        run character_voice_linter
+
+======================================================================
+5. PRONOUN + GRAMMAR RULES FOR THE GENERATOR
+======================================================================
+
+This section should be treated almost like a parser/linter specification.
+
+---------------------------------------------------------------------
+5.1 FIRST PERSON: I / ME / MY / MINE / MYSELF
+---------------------------------------------------------------------
+
+I = subject form.
+
+    I laughed.
+    I opened the door.
+    I wanted to argue.
+
+ME = object form.
+
+    Iroh watched me.
+    Greg sat beside me.
+    Snape handed the book to me.
+
+MY = possessive determiner; it comes before a noun.
+
+    my hands
+    my coat
+    my breath
+    my choice
+
+MINE = possessive pronoun; it replaces the noun phrase.
+
+    The mug was mine.
+    The decision was mine.
+
+MYSELF = reflexive or intensive form.
+
+    I steadied myself.
+    I did it myself.
+
+Do NOT use "myself" merely because the sentence sounds formal.
+
+Wrong:
+
+    Iroh handed the cup to myself.
+
+Correct:
+
+    Iroh handed the cup to me.
+
+---------------------------------------------------------------------
+5.2 JASPER'S THIRD-PERSON PRONOUN SETS
+---------------------------------------------------------------------
+
+When another character talks ABOUT Jasper, or when a third-person data field needs pronouns, use the configured they/she sets.
+
+THEY SET:
+
+    subject: they
+    object: them
+    possessive determiner: their
+    possessive pronoun: theirs
+    reflexive: themself OR themselves
+
+For this project, "themself" is recommended for singular consistency, but "themselves" is also widely accepted. Pick ONE project default and lint for consistency.
+
+Verb agreement stays grammatically plural in form even when "they" refers to one person:
+
+    they are
+    they were
+    they have
+    they do
+    they want
+
+NOT:
+
+    they is
+    they has
+    they does
+
+SHE SET:
+
+    subject: she
+    object: her
+    possessive determiner: her
+    possessive pronoun: hers
+    reflexive: herself
+
+Verb agreement:
+
+    she is
+    she was
+    she has
+    she does
+    she wants
+
+NAME AGREEMENT:
+
+    Jasper is
+    Jasper was
+    Jasper has
+    Jasper does
+    Jasper wants
+
+Research basis:
+- MLA Style Center, "How do I use singular they?": https://style.mla.org/using-singular-they/
+- MLA Style Center, pronoun referents: https://style.mla.org/pronouns-and-referents/
+- Cambridge Grammar, personal pronouns: https://dictionary.cambridge.org/grammar/british-grammar/pronouns-personal-i-me-you-he-it-they-etc
+
+---------------------------------------------------------------------
+5.3 MIXED THEY/SHE SHOULD NOT BE RANDOM WORD SALAD
+---------------------------------------------------------------------
+
+Jasper uses they/she. A generator can technically switch every sentence, but doing so mechanically often produces confusing antecedents and makes the prose feel synthetic.
+
+Recommended method:
+
+- Both sets are always valid.
+- Do not force alternation.
+- Prefer one pronoun chain within a sentence or short paragraph.
+- Switch naturally across paragraph/scene boundaries.
+- Use "Jasper" to reset the antecedent before switching when clarity would benefit.
+- Never switch because one pronoun is treated as "more correct."
+- Never make she/her automatically mean a more feminine mood or they/them automatically mean a more neutral mood.
+
+Clear:
+
+    Zuko glanced toward the counter. "Jasper said they would close tonight."
+    Iroh nodded. "She has done enough for one day."
+
+Even clearer when there are several characters:
+
+    Zuko glanced toward the counter. "Jasper said they would close tonight."
+    Iroh watched me stack the last cup. "Jasper has done enough for one day. She should rest."
+
+Potentially confusing:
+
+    Katara told Toph that Jasper said she would bring their coat because they were cold.
+
+The generator should rewrite ambiguous chains rather than blindly preserving pronoun variety.
+
+---------------------------------------------------------------------
+5.4 DIRECT ADDRESS "YOU" IS ALLOWED IN DIALOGUE
+---------------------------------------------------------------------
+
+A first-person story can contain "you" in dialogue without becoming second-person narration.
+
+Correct:
+
+    "Jasper, you are impossible," he said.
+    I smiled. "You like me anyway."
+
+Correct:
+
+    "Your tea is getting cold."
+    "Then stop distracting me."
+
+The lint rule should therefore be:
+
+    ban second-person NARRATIVE viewpoint
+
+not:
+
+    ban the token "you"
+
+A crude global replacement of "you" would destroy dialogue.
+
+---------------------------------------------------------------------
+5.5 POV LEAKAGE LINTER
+---------------------------------------------------------------------
+
+Flag likely errors when narration outside quotation marks contains patterns such as:
+
+    you walked
+    you looked
+    you felt
+    your hands
+    your breath
+
+unless they are:
+- internal quoted self-address;
+- a letter/message addressed to someone;
+- quoted dialogue;
+- intentionally embedded second-person text.
+
+Also flag third-person self-reference in narration:
+
+    Jasper walked
+    they walked
+    she walked
+
+when the grammatical referent is the narrator rather than another Jasper in quoted dialogue.
+
+The expected narrative self-reference is always I/me/my/mine/myself.
+
+---------------------------------------------------------------------
+5.6 GRAMMAR IS A HARD VALIDATION LAYER, NOT A STYLE SUGGESTION
+---------------------------------------------------------------------
+
+For this project, grammar and POV correctness should be validated BEFORE prose is accepted as a finished chapter.
+
+Priority order:
+
+    1. POV/person correctness
+    2. pronoun/reference correctness
+    3. subject-verb agreement
+    4. possessive/reflexive correctness
+    5. tense consistency
+    6. dialogue punctuation and direct address
+    7. character voice
+    8. stylistic variation
+
+If a stylish sentence violates the POV model, fix the sentence.
+Do not keep a beautiful line that accidentally turns Jasper into third person.
+
+---------------------------------------------------------------------
+5.7 SUBJECT / OBJECT / POSSESSIVE / REFLEXIVE TABLE
+---------------------------------------------------------------------
+
+JASPER AS NARRATOR:
+
+    subject                I
+    object                 me
+    possessive determiner  my
+    possessive pronoun     mine
+    reflexive              myself
+
+JASPER REFERRED TO WITH THEY:
+
+    subject                they
+    object                 them
+    possessive determiner  their
+    possessive pronoun     theirs
+    reflexive              themself   [project default]
+
+JASPER REFERRED TO WITH SHE:
+
+    subject                she
+    object                 her
+    possessive determiner  her
+    possessive pronoun     hers
+    reflexive              herself
+
+Never generate:
+
+    their's
+    her's
+    mine's
+    themselfs
+    theirself
+    hisself
+
+---------------------------------------------------------------------
+5.8 VERB AGREEMENT MATRIX
+---------------------------------------------------------------------
+
+FIRST PERSON:
+
+    I am
+    I was
+    I have
+    I do
+    I want
+    I know
+
+SINGULAR THEY — use the ordinary THEY verb form:
+
+    they are
+    they were
+    they have
+    they do
+    they want
+    they know
+
+SHE:
+
+    she is
+    she was
+    she has
+    she does
+    she wants
+    she knows
+
+NAME:
+
+    Jasper is
+    Jasper was
+    Jasper has
+    Jasper does
+    Jasper wants
+    Jasper knows
+
+Never "correct" singular they into:
+
+    they is
+    they has
+    they does
+
+The MLA explicitly accepts specific singular they and recommends respecting a person's pronouns. MLA also recognizes both "themself" and "themselves" in singular-they contexts; this PROJECT chooses "themself" as its default for consistency.
+
+Research:
+https://style.mla.org/using-singular-they/
+https://dictionary.cambridge.org/us/dictionary/english/themself
+https://dictionary.cambridge.org/us/grammar/british-grammar/pronouns-reflexive-myself-themselves
+
+---------------------------------------------------------------------
+5.9 BODY-OWNERSHIP PRONOUN RULE — CRITICAL FOR ADULT SCENES
+---------------------------------------------------------------------
+
+Because Jasper narrates in first person, Jasper's own body uses FIRST-PERSON possession in narration.
+
+Correct narrative ownership:
+
+    my hand
+    my mouth
+    my thigh
+    my clit
+    my vulva
+    my breath
+    my body
+
+Wrong in Jasper's narration when referring to Jasper's body:
+
+    your clit
+    their clit
+    her clit
+    Jasper's clit
+
+Those forms can be correct in OTHER grammatical contexts:
+
+A character speaking TO Jasper:
+
+    "your ..."
+
+A character speaking ABOUT Jasper to someone else:
+
+    "their ..." or "her ..."
+
+A third-person metadata field:
+
+    Jasper's ...
+
+This ownership rule should be one of the strongest automated checks because erotic generators commonly leak from first person into second person specifically around body-part phrases.
+
+---------------------------------------------------------------------
+5.10 DIRECT ADDRESS COMMAS
+---------------------------------------------------------------------
+
+Use commas around a person's name/title when it is direct address.
+
+Correct:
+
+    "Jasper, come here."
+    "You know what you're doing, Jasper."
+    "My dear, that was a very obvious loophole."
+
+Incorrect:
+
+    "Jasper come here."
+
+Do not confuse a direct-address noun with the grammatical subject of the sentence.
+
+---------------------------------------------------------------------
+5.11 DIALOGUE TAG PUNCTUATION
+---------------------------------------------------------------------
+
+Dialogue tag:
+
+    "I know," I said.
+    "Do you?" he asked.
+
+Action beat:
+
+    "I know." I folded my arms.
+
+Do not write:
+
+    "I know." I said.
+
+when "said" is functioning as a dialogue tag.
+
+After dialogue ending in ? or !, the following dialogue tag remains lowercase unless it begins with a proper noun:
+
+    "Really?" he asked.
+    "Stop that!" Greg said, laughing.
+
+---------------------------------------------------------------------
+5.12 QUOTE-AWARE 'YOU' DETECTION
+---------------------------------------------------------------------
+
+The generator MUST NOT ban the word "you."
+
+It must distinguish:
+
+A. DIALOGUE / DIRECT ADDRESS — valid:
+
+    "You are impossible," he said.
+
+B. NARRATION — invalid if Jasper suddenly becomes second person:
+
+    You are impossible, and you know it.
+
+C. INTERNAL SELF-ADDRESS — valid if intentionally quoted or marked as thought:
+
+    Come on, Jasper. You can do this.
+
+D. LETTER / MESSAGE / SONG LYRIC / QUOTED TEXT — may be valid depending on context.
+
+Implementation advice:
+
+    tokenize quotation spans first;
+    do not run the same second-person rule blindly across dialogue and narration;
+    inspect narrative clauses for subject "you" referring to Jasper.
+
+---------------------------------------------------------------------
+5.13 FIRST-PERSON KNOWLEDGE LIMIT
+---------------------------------------------------------------------
+
+First person is not only a pronoun system. It is an INFORMATION LIMIT.
+
+Jasper may narrate:
+
+- what I see;
+- what I hear;
+- what I remember;
+- what I feel;
+- what I infer;
+- what another character tells me;
+- what I believe another character's expression means.
+
+Jasper may NOT state another character's unspoken thoughts as objective fact unless the setting provides an actual mind-reading mechanism.
+
+Wrong locked-POV prose:
+
+    He wondered whether I would kiss him.
+
+Better:
+
+    His gaze dropped to my mouth, and I had a pretty good guess what he was wondering.
+
+This matters in romance because mind-reading prose quietly turns first person into omniscient third person even when every pronoun still looks correct.
+
+---------------------------------------------------------------------
+5.14 TENSE LOCK
+---------------------------------------------------------------------
+
+Choose a narrative tense at series level:
+
+    first_person_past
+or
+    first_person_present
+
+Do not drift between them accidentally.
+
+Past:
+
+    I folded my arms. He smiled.
+
+Present:
+
+    I fold my arms. He smiles.
+
+Dialogue can naturally use any tense required by meaning.
+The restriction applies to narrative frame, not every verb in the story.
+
+Recommended default for longfic:
+
+    narrative_tense = first_person_past
+
+because the current guide/examples predominantly read naturally in past-tense narrative.
+
+---------------------------------------------------------------------
+5.15 PRONOUN-CHAIN STABILITY FOR THEY/SHE
+---------------------------------------------------------------------
+
+Mixed pronouns should feel human, not randomized.
+
+Hard rules:
+
+1. Never alternate solely because a counter says it is time to switch.
+2. Keep one external pronoun set through a short referential chain when switching would cause ambiguity.
+3. Switch after a clear noun reset ("Jasper") when multiple people share she/her or they/them.
+4. Do not encode mood, dominance, femininity, softness, anger, or sexual intensity into pronoun choice.
+5. Do not make sexual content automatically switch Jasper to she/her.
+6. Do not make nonsexual content automatically switch Jasper to they/them.
+
+Suggested deterministic modes:
+
+    mode A: scene_weighted_mixed
+    mode B: paragraph_stable_mixed
+    mode C: character_speaker_preference_if_configured
+
+For maximum grammatical clarity, paragraph_stable_mixed is the safest default.
+
+---------------------------------------------------------------------
+5.16 AMBIGUOUS ANTECEDENT REWRITE RULE
+---------------------------------------------------------------------
+
+If a sentence contains multiple possible referents for "she," "her," "they," "them," "their," or "hers," REWRITE IT.
+
+Do not ask the reader to decode the pronoun chain.
+
+Weak:
+
+    Katara told Jasper she should take her coat because she was cold.
+
+Possible rewrite:
+
+    Katara handed me my coat. "Put this on. You're freezing."
+
+In first-person fic, many ambiguous third-person chains can be eliminated by returning Jasper to I/me/my.
+
+---------------------------------------------------------------------
+5.17 PREPOSITION + OBJECT FORM
+---------------------------------------------------------------------
+
+After an ordinary preposition, use object form:
+
+    to me
+    for me
+    with me
+    beside me
+    between him and me
+
+Not:
+
+    to I
+    for I
+    between him and I
+
+Reflexive is not a fancy object pronoun:
+
+    He handed it to me.
+
+not:
+
+    He handed it to myself.
+
+Cambridge's reflexive guidance supports using reflexives when subject and object refer to the same person or for emphasis, not as a general formal replacement for object pronouns.
+
+---------------------------------------------------------------------
+5.18 POSSESSIVE FORM CHECKS
+---------------------------------------------------------------------
+
+my + noun:
+
+    my hand
+
+mine stands alone:
+
+    The choice was mine.
+
+her + noun:
+
+    her coat
+
+hers stands alone:
+
+    The coat was hers.
+
+their + noun:
+
+    their coat
+
+theirs stands alone:
+
+    The coat was theirs.
+
+Name possessive:
+
+    Jasper's coat
+
+Never:
+
+    Jasper coat
+    Jaspers coat
+    her's
+    their's
+
+---------------------------------------------------------------------
+5.19 CONTRACTION / HOMOPHONE LINTER
+---------------------------------------------------------------------
+
+Flag common generator mistakes:
+
+    your / you're
+    their / they're / there
+    its / it's
+    whose / who's
+    were / we're / where
+    then / than
+
+This is especially important in dialogue-heavy adult chapters, where rapid generation tends to increase contraction errors.
+
+---------------------------------------------------------------------
+5.20 DIALOGUE VS NARRATION PRONOUN MATRIX
+---------------------------------------------------------------------
+
+Context: Jasper narrates self
+    I / me / my / mine / myself
+
+Context: Character addresses Jasper
+    you / your / yours / yourself
+
+Context: Character tells someone else about Jasper using they
+    they / them / their / theirs / themself
+
+Context: Character tells someone else about Jasper using she
+    she / her / her / hers / herself
+
+Context: Metadata describes Jasper
+    Jasper / they-she according to schema, never I unless field explicitly stores first-person prose
+
+Do not mix these layers.
+
+---------------------------------------------------------------------
+5.21 POV/GRAMMAR FAIL CONDITIONS
+---------------------------------------------------------------------
+
+Reject or regenerate a chapter if any of the following occur repeatedly or materially:
+
+[ ] second-person narration replaces Jasper's first-person narration;
+[ ] Jasper becomes "she" or "they" inside ordinary narrative self-reference;
+[ ] "your" is used for Jasper's body outside dialogue/direct-address context;
+[ ] singular they receives "is/has/does";
+[ ] her/hers or their/theirs are swapped;
+[ ] reflexive is used as an ordinary object pronoun;
+[ ] pronoun switching makes antecedents unclear;
+[ ] narrative tense drifts without reason;
+[ ] narrator states another person's unspoken thoughts as fact;
+[ ] dialogue tags are punctuated as independent action sentences;
+[ ] direct address lacks needed commas often enough to damage readability.
+
+======================================================================
+6. BRAT SUBMISSION: WHAT IT IS AND WHAT IT IS NOT
+======================================================================
+
+Research on "brat" terminology is much more community-defined than clinically standardized. Peer-reviewed BDSM literature studies consent, roles, communication, and power exchange broadly; the specific "brat" label is best documented in community glossaries and practitioner language.
+
+Across current community definitions, the consistent core is:
+
+    A brat is a submissive (or sometimes another power-role participant) who uses
+    playful resistance, teasing, sass, mischievous rule-bending, provocation, or
+    deliberate pushback as a consensual way to create engagement within the dynamic.
+
+The key word is PLAYFUL.
+
+The second key word is NEGOTIATED.
+
+FetLife's Kinktionary, Consent Culture, and other current kink glossaries repeatedly describe bratting as intentional challenge inside a mutually understood power exchange. The resistance is part of the desired interaction, not evidence that real refusal may be ignored.
+
+Research/community sources:
+- FetLife Kinktionary, "Brat": https://fetlife.com/kinktionary/roles/brat-aitlg
+- Consent Culture, "brat": https://consentculture.community/glossary/brat/
+- Consent Culture, "Brat Tamer": https://consentculture.community/glossary/brat-tamer/
+- KinK Academy, "Brat": https://thekinkacademy.com/dictionary/brat/
+- BDSMPact, "Brat": https://bdsmpact.com/glossary/brat
+
+---------------------------------------------------------------------
+6.1 JASPER'S DEFAULT BRAT STYLE FOR FICTION
+---------------------------------------------------------------------
+
+Based on William's project brief, Jasper's default erotic characterization should lean toward:
+
+- witty sass;
+- smart remarks;
+- playful "make me" energy;
+- loophole-seeking;
+- technically following an instruction in the most mischievous possible way;
+- coy challenges;
+- deliberate eye-roll/smirk energy;
+- teasing the dominant because they WANT the dominant to engage;
+- pretending not to be affected when they obviously are;
+- playful stubbornness;
+- making the dominant earn the moment;
+- inviting correction rather than passively waiting for it.
+
+The generator should NOT turn Jasper into:
+
+- cruel;
+- abusive;
+- contemptuous;
+- genuinely non-consenting;
+- deliberately triggering;
+- boundary-violating;
+- childish;
+- incompetent;
+- helpless;
+- personality-less once the dominant takes control.
+
+Brat submission is ACTIVE participation.
+
+A good brat is giving the other character something to push against.
+
+---------------------------------------------------------------------
+6.2 BRATTING IS NOT A UNIVERSAL EXCUSE TO OVERRIDE "NO"
+---------------------------------------------------------------------
+
+This must be a hard generator rule.
+
+Never write:
+
+    Jasper said no, but he knew they were only being a brat.
+
+unless the story has VERY CLEARLY established a negotiated scene-language system in which that exact word is consensually roleplayed AND there is a separate unmistakable stop signal.
+
+Safer project default:
+
+    Ordinary "no," "stop," "I don't want this," visible distress, freezing, or withdrawal
+    ends the intimate action unless a pre-negotiated alternative safeword system is explicitly active.
+
+NCSF's consent education emphasizes prior informed consent, activity-specific agreement, and a clearly discussed way to stop a scene. Research also finds strong consent norms within BDSM communities, with negotiation patterns varying by relationship context rather than disappearing in established relationships.
+
+Research basis:
+- National Coalition for Sexual Freedom, Consent Counts materials: https://ncsfreedom.org/2download-consent-signs/
+- Dunkley & Brotto, "The Role of Consent in the Context of BDSM," 2020: https://pubmed.ncbi.nlm.nih.gov/31010393/
+- Tarleton, Mackenzie & Sagarin, "Consent Norms in the BDSM Community: Strong But Not Inflexible," 2025: https://pubmed.ncbi.nlm.nih.gov/39576567/
+- Sexual consent norms study, PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC10844416/
+
+---------------------------------------------------------------------
+6.3 BRATTING VS REAL DISAGREEMENT
+---------------------------------------------------------------------
+
+The generator needs two separate channels:
+
+PLAYFUL RESISTANCE:
+- smirking challenge;
+- teasing refusal inside an agreed game;
+- intentionally cheeky compliance;
+- provocation designed to get a reaction;
+- "prove it" energy;
+- a challenge with visible warmth/chemistry;
+- familiar banter that both people recognize as play.
+
+REAL BOUNDARY / REAL CONFLICT:
+- actual fear;
+- emotional distress;
+- serious disagreement;
+- anger unrelated to the scene;
+- physical pain beyond agreed limits;
+- uncertainty;
+- dissociation/freeze;
+- changed mind;
+- consent withdrawn;
+- safeword/stop request.
+
+A competent dominant character responds differently to these categories.
+
+Brat taming is attractive because the tamer can read the PLAYFUL invitation.
+It becomes unsafe/unromantic if the tamer treats every form of resistance as permission.
+
+---------------------------------------------------------------------
+6.4 DO NOT "BREAK" THE BRAT UNLESS THAT IS A SEPARATE OPT-IN KINK
+---------------------------------------------------------------------
+
+William asked for brat taming, not personality destruction.
+
+FetLife's current brat guidance explicitly distinguishes taming/wrangling from crushing the brat's spark. That distinction fits Jasper's desired dynamic especially well.
+
+Default project rule:
+
+    The dominant wins the exchange without erasing Jasper's wit.
+
+Good endpoint:
+
+    Jasper is laughing, flustered, yielding, praised, and still recognizably Jasper.
+
+Bad endpoint:
+
+    Jasper becomes silent, docile, ashamed of having a personality, or afraid to tease again.
+
+"Tamed" should mean:
+
+    playfully outmaneuvered + consensually surrendered + emotionally secure
+
+not:
+
+    humiliated into obedience or emotionally flattened.
+
+---------------------------------------------------------------------
+6.5 WHAT RESEARCH CAN AND CANNOT SAY ABOUT "BRATS"
+---------------------------------------------------------------------
+
+There is very little peer-reviewed research that isolates "brat" or "brat tamer" as standardized psychological categories.
+
+Peer-reviewed BDSM research DOES support broader conclusions relevant to writing the dynamic:
+
+- dominance/submission is a consensual power-exchange framework;
+- practitioners may experience roles as temporary scene roles, strong identities, or something in between;
+- role identity can be fluid across partner, setting, and time;
+- consent is a central distinction between BDSM and abuse;
+- D/s narratives show role-linked language patterns, including responsibility/other-focus among dominants and power-dynamic/self-focus references among submissives.
+
+Sources:
+https://pubmed.ncbi.nlm.nih.gov/36018005/
+https://pubmed.ncbi.nlm.nih.gov/37350720/
+https://pubmed.ncbi.nlm.nih.gov/28854056/
+https://pubmed.ncbi.nlm.nih.gov/31010393/
+
+The SPECIFIC behaviors called "bratting" are mainly documented through practitioner/community vocabulary.
+
+Therefore the generator should treat brat subtypes as WRITING TAXONOMY, not diagnosis.
+
+---------------------------------------------------------------------
+6.6 CORE BRAT MOTIVATIONS FOR FICTION — DO NOT PSYCHOANALYZE
+---------------------------------------------------------------------
+
+The generator may write bratting as serving one or more relational functions, but should not claim Jasper "must" brat because of trauma, insecurity, hormones, attachment style, or any diagnosis.
+
+Useful fiction motives include:
+
+ATTENTION / ENGAGEMENT
+    "Notice me. Meet me here. Play back."
+
+CHALLENGE
+    Jasper enjoys a dominant who stays steady under pressure.
+
+EARNED SURRENDER
+    Immediate obedience is less emotionally satisfying than choosing to yield after a playful contest.
+
+HUMOR / CHEMISTRY
+    Sass is part of flirtation and intimacy.
+
+RULE-GAME ENJOYMENT
+    The fun comes from knowing the rules well enough to bend them creatively.
+
+PRAISE-SEEKING
+    The route from challenge -> earned praise may be especially satisfying.
+
+ANTICIPATION
+    Pushback can stretch tension and make the eventual surrender feel meaningful.
+
+AUTONOMY INSIDE SUBMISSION
+    Active resistance lets the submissive remain visibly agentic while still enjoying a consensual power exchange.
+
+These are narrative possibilities, not clinical explanations.
+
+---------------------------------------------------------------------
+6.7 BRAT STYLE TAXONOMY FOR JASPER'S GENERATOR
+---------------------------------------------------------------------
+
+These labels are internal generator categories. They are NOT official BDSM diagnoses.
+
+WITTY BRAT
+- verbal sparring;
+- clever comeback;
+- sarcasm used affectionately;
+- tries to make the tamer laugh or lose composure.
+
+LOOPHOLE BRAT
+- literal compliance;
+- malicious-compliance energy;
+- obeys the wording while dodging the obvious intent;
+- ideal for Snape/Danse precision dynamics.
+
+CHALLENGER BRAT
+- "prove it" energy;
+- wants steadiness and follow-through;
+- enjoys the moment the tamer calmly closes every escape route.
+
+COY BRAT
+- feigned innocence;
+- "who, me?" performance;
+- knows exactly what they did.
+
+PRAISE-SEEKING BRAT
+- provokes because the earned approval afterward hits emotionally;
+- especially compatible with Jasper's "good girl" preference.
+
+AFFECTIONATE BRAT
+- teasing is fundamentally warm;
+- more likely to use jokes, nudges, mock complaints, and playful defiance than hostility.
+
+STUBBORN BRAT
+- enjoys being patiently outlasted;
+- useful for Iroh's calm authority.
+
+PERFORMATIVE-OBEDIENCE BRAT
+- overdoes exaggerated politeness or compliance to make the joke obvious;
+- works well in established dynamics where both people recognize the game.
+
+Recommended Jasper blend:
+
+    witty + loophole + affectionate + praise-seeking + challenger
+
+Do not write every scene with every brat style. Rotate based on character and mood.
+
+---------------------------------------------------------------------
+6.8 BRAT VS SAM / SMART-ASS MASOCHIST
+---------------------------------------------------------------------
+
+Some kink communities use "SAM" (smart-ass masochist) for a submissive/bottom who deliberately mouths off or provokes because an agreed consequence itself is desirable.
+
+This can overlap with bratting but is not identical.
+
+Generator distinction:
+
+    BRAT = resistance/teasing itself is part of the interaction reward.
+    SAM-LIKE MODE = provocation is partly used to invite a specifically desired consequence.
+
+Do not assume Jasper is seeking pain or physical punishment simply because Jasper is a brat.
+
+For this project, Jasper's documented center is stronger around:
+
+    teasing
+    earned surrender
+    edging/orgasm-control themes
+    praise
+    good-girl language
+    affirmation rituals
+    affectionate control
+
+Physical-punishment assumptions should remain OFF unless separately configured.
+
+---------------------------------------------------------------------
+6.9 THE BRAT PLAY FRAME SHOULD BE EXPLICITLY MODELLED
+---------------------------------------------------------------------
+
+Community sources consistently stress that the same surface behavior can mean different things depending on whether everyone knows they are playing.
+
+Recommended schema:
+
+"brat_play_frame": {
+  "active": true,
+  "recognized_signals": [],
+  "welcomed_behaviors": [],
+  "unwelcome_behaviors": [],
+  "tamer_responses_welcomed": [],
+  "tamer_responses_forbidden": [],
+  "ordinary_no_means_stop": true,
+  "out_of_role_phrase": "out of scene",
+  "safeword_system": "traffic_light_optional",
+  "real_conflict_mode": "drop_roles_and_talk"
+}
+
+Consent Culture describes safewords as pre-negotiated stop/pause signals, while broader BDSM consent scholarship emphasizes mutual informed consent. The brat label should never replace that structure.
+
+Sources:
+https://consentculture.community/glossary/safe-word/
+https://pubmed.ncbi.nlm.nih.gov/31010393/
+
+---------------------------------------------------------------------
+6.10 BRAT-TAMER COMPATIBILITY IS A TWO-WAY FILTER
+---------------------------------------------------------------------
+
+A brat is not automatically compatible with every dominant.
+A dominant is not defective for disliking bratting.
+A brat tamer is not automatically compatible with every kind of brat.
+
+Current community references repeatedly emphasize that the dynamic depends on whether both people enjoy the same style of pushback and response.
+
+Generator compatibility dimensions:
+
+- verbal sass tolerance;
+- loophole enjoyment;
+- chase/pursuit interest;
+- discipline/consequence interest;
+- praise frequency;
+- humiliation allowed/forbidden;
+- crude language allowed/forbidden;
+- physical punishment allowed/forbidden;
+- edging/orgasm-control allowed/forbidden;
+- affectionate vs stern tone;
+- public vs private bratting;
+- frequency/intensity of bratting;
+- desired aftercare.
+
+Character fit examples:
+
+    Iroh: high patience, high affectionate challenge, low crude degradation.
+    Greg: high banter, high affection, medium playful firmness.
+    Snape: high precision, high verbal sparring, potentially harsh diction with opt-in.
+    Danse: high structure, high rule clarity, medium humor that emerges reluctantly.
+
+---------------------------------------------------------------------
+6.11 TAMER RESPONSE CATEGORIES
+---------------------------------------------------------------------
+
+Internal writing taxonomy:
+
+BANter / VOLLEY
+    Answer sass with sass.
+
+STILLNESS
+    Refuse to be emotionally knocked off balance; let Jasper expend the bluff.
+
+PRECISION
+    Close loopholes by tightening wording.
+
+CHOICE ARCHITECTURE
+    Give Jasper two genuinely acceptable options, preserving agency while keeping the dominant frame.
+
+PRAISE CONTROL
+    Make specific earned praise the emotional payoff.
+
+RITUAL
+    Reuse an established phrase, posture, rule, affirmation, or aftercare pattern that signals "we both know this game."
+
+HUMOROUS CONSEQUENCE
+    An agreed non-harmful result that makes both people laugh and reinforces the dynamic.
+
+DE-ESCALATION
+    Recognize the instant playful resistance has become real discomfort and leave the role.
+
+A good tamer does not use only one category. Character personality determines the mix.
+
+---------------------------------------------------------------------
+6.12 BRAT ESCALATION LADDER FOR FICTION
+---------------------------------------------------------------------
+
+A scene can build intensity without immediately jumping from one smart remark to maximum control.
+
+LOW:
+- smirk;
+- playful contradiction;
+- mock innocence;
+- tiny loophole.
+
+MEDIUM:
+- repeated sass;
+- deliberate rule-bending;
+- challenge to follow through;
+- exaggerated obedience.
+
+HIGH WITHIN AGREED PLAY:
+- sustained pushback;
+- deliberate escalation aimed at a known desired tamer response;
+- emotionally charged surrender after a long contest.
+
+STOP / OUT OF PLAY:
+- real fear;
+- real anger;
+- freezing;
+- distress;
+- changed mind;
+- "stop" / safeword / out-of-role signal;
+- pain or discomfort beyond agreed limits.
+
+The generator should be able to descend the ladder instantly. Escalation is not a one-way track.
+
+---------------------------------------------------------------------
+6.13 "TAMING" SHOULD END IN CONNECTION, NOT ERASURE
+---------------------------------------------------------------------
+
+A successful Jasper/tamer scene should typically leave Jasper MORE secure in the relationship, not less themselves.
+
+Post-scene signs that the writing got the dynamic right:
+
+- Jasper can still joke.
+- Jasper can still disagree outside the scene.
+- Jasper's real "no" remains meaningful.
+- The love interest can tell the difference between sass and distress.
+- Jasper's surrender reads as chosen.
+- Praise feels earned, not coercive.
+- Aftercare does not shame the brat behavior.
+- The next playful challenge can happen because trust survived the last one.
+
+---------------------------------------------------------------------
+6.14 COMMUNITY-SOURCE CAUTION
+---------------------------------------------------------------------
+
+Recent community and educational sources use overlapping but non-identical language for brat tamers. Some distinguish a "handler" who volleys the sass from a "tamer" who ends the contest; others use "brat tamer" broadly for any dominant who enjoys playful resistance.
+
+Therefore:
+
+    do not hard-code one website's terminology as universal canon.
+
+Use the stable common denominator:
+
+    consensual playful resistance
+    + dominant partner who enjoys responding
+    + mutually understood play frame
+    + negotiated limits
+    + real boundaries remain real
+    + compatibility matters
+
+Useful contemporary references:
+https://consentculture.community/glossary/brat-tamer/
+https://www.thekinkguide.co.uk/glossary/brat-dynamic
+https://www.fetish.com/magazine/bdsm/brat-tamer-bdsm-meaning/
+https://dazinertoys.com/blogs/daziner-blogs/what-is-a-brat-tamer
+
+======================================================================
+7. BRAT-TAMER ARCHETYPES FOR CHARACTER-SPECIFIC WRITING
+======================================================================
+
+Do NOT give every love interest the same "Dom voice."
+
+The dynamic should emerge from canon personality.
+
+A useful generator taxonomy:
+
+---------------------------------------------------------------------
+7.1 THE PATIENT TAMER
+---------------------------------------------------------------------
+
+Core energy:
+- difficult to rattle;
+- amused by resistance;
+- gives Jasper enough rope to expose their own bluff;
+- uses calm attention more than volume;
+- waits Jasper out;
+- treats surrender as something Jasper chooses rather than something taken from them.
+
+Strong fit:
+- Iroh.
+
+Typical scene rhythm:
+
+    Jasper provokes -> he smiles -> asks one deceptively simple question ->
+    Jasper doubles down -> he calmly reframes the challenge ->
+    Jasper realizes he has already won -> affectionate praise -> surrender.
+
+---------------------------------------------------------------------
+7.2 THE AMUSED SWEETHEART TAMER
+---------------------------------------------------------------------
+
+Core energy:
+- laughs;
+- flirts back;
+- turns the brat game into affectionate banter;
+- can become surprisingly firm when needed;
+- never loses the sense that he adores Jasper.
+
+Strong fit:
+- Greg Universe.
+
+Typical rhythm:
+
+    Jasper teases -> Greg jokes -> Jasper escalates -> Greg stops joking just enough
+    to make the authority shift land -> Jasper melts -> Greg immediately gets sappy.
+
+---------------------------------------------------------------------
+7.3 THE PRECISION TAMER
+---------------------------------------------------------------------
+
+Core energy:
+- controlled;
+- verbally sharp;
+- sees loopholes immediately;
+- makes exact instructions;
+- uses silence, timing, and rare approval as power;
+- can use harsher vocabulary if separately enabled.
+
+Strong fit:
+- Severus Snape.
+
+Typical rhythm:
+
+    Jasper finds loophole -> Snape notices instantly -> verbally dissects the loophole ->
+    gives a more exact instruction -> Jasper complies while pretending not to enjoy it ->
+    a rare "good girl" hits harder because he does not praise casually.
+
+---------------------------------------------------------------------
+7.4 THE COMMAND-STRUCTURE TAMER
+---------------------------------------------------------------------
+
+Core energy:
+- disciplined;
+- formal;
+- directive;
+- treats agreed rules seriously;
+- responds to sass with controlled military precision;
+- secretly becomes softer than his vocabulary suggests.
+
+Strong fit:
+- Paladin Danse.
+
+Typical rhythm:
+
+    Jasper challenges an "order" -> Danse reissues it with maddening precision ->
+    Jasper finds a technical loophole -> Danse is simultaneously exasperated and impressed ->
+    compliance earns direct praise and protective aftercare.
+
+======================================================================
+8. EDGING + ORGASM CONTROL AS A STORY DYNAMIC
+======================================================================
+
+Edging is generally defined as bringing someone close to orgasm and then stopping or reducing stimulation before climax, often repeating the cycle. In BDSM contexts, it can become part of consensual orgasm-control/power-exchange play.
+
+For this generator, edging should be treated primarily as a NARRATIVE POWER BEAT rather than a mechanical technique tutorial.
+
+Research basis:
+- Healthline, medically reviewed edging overview: https://www.healthline.com/health/healthy-sex/edging-orgasm-control
+- Medical News Today, edging overview: https://www.medicalnewstoday.com/articles/is-edging-bad-for-you
+- KinK Academy, edging glossary: https://thekinkacademy.com/dictionary/edging/
+
+---------------------------------------------------------------------
+8.1 JASPER'S CONFIGURED PREFERENCES
+---------------------------------------------------------------------
+
+From William's project brief, the generator may treat the following as opted-in preferences for Jasper's PRIVATE FICTION PROFILE:
+
+- submissive brat dynamic;
+- brat taming;
+- edging;
+- orgasm-control themes;
+- clitoral-focused stimulation;
+- praise;
+- "good girl";
+- positive affirmation repetition;
+- affectionate/sappy emotional tone;
+- strong aftercare.
+
+These are preference flags, NOT blanket permission for every character to perform every act in every scene.
+
+The scene still needs:
+- character fit;
+- relationship-stage fit;
+- current consent;
+- tone fit;
+- continuity with prior boundaries.
+
+---------------------------------------------------------------------
+8.2 EDGING SHOULD SERVE THE EMOTIONAL SCENE
+---------------------------------------------------------------------
+
+Weak implementation:
+
+    The generator inserts edging because the preference flag is true.
+
+Strong implementation:
+
+    Edging becomes the physical expression of the character dynamic.
+
+Examples at the STRUCTURAL level:
+
+Iroh:
+- patience;
+- anticipation;
+- encouragement;
+- gently making Jasper slow down and accept praise;
+- warmth instead of humiliation.
+
+Greg:
+- teasing laughter;
+- "you started this" energy;
+- affectionate check-ins;
+- delighted surprise at Jasper's reactions;
+- tenderness immediately after intensity.
+
+Snape:
+- exact control;
+- counted pauses;
+- carefully chosen commands;
+- demanding honest self-description rather than self-deprecation;
+- rare praise used with precision.
+
+Danse:
+- permission structure;
+- clear orders;
+- discipline/consistency;
+- direct approval after compliance;
+- protective decompression afterward.
+
+---------------------------------------------------------------------
+8.3 DO NOT CONFUSE ORGASM CONTROL WITH CONSENT CONTROL
+---------------------------------------------------------------------
+
+This sentence should exist in the generator documentation exactly as a concept:
+
+    The dominant may control climax only because Jasper has consensually given them that scene-level authority; Jasper always retains control over consent.
+
+Orgasm permission may be part of the fantasy.
+Consent permission is never surrendered.
+
+---------------------------------------------------------------------
+8.4 CLITORAL FOCUS: CONTENT FLAG, NOT A TECHNIQUE MANUAL
+---------------------------------------------------------------------
+
+The program can know that Jasper particularly enjoys clitoral-focused pleasure.
+
+Recommended configuration:
+
+    preferred_stimulation_focus:
+      - clitoral
+
+The generator should use that information for erotic scene emphasis, but the research guide does not need to become a real-world step-by-step sexual technique manual.
+
+For prose quality, vary the language around sensation and emotion instead of repeating the anatomical noun in every paragraph.
+
+======================================================================
+9. PRAISE KINK + "GOOD GIRL" + AFFIRMATION RITUALS
+======================================================================
+
+Praise kink is community shorthand for an erotic or emotionally intensified response to approval, affirmation, admiration, encouragement, or being told one has done well. It may be part of D/s, but it does not require D/s.
+
+Research/community sources emphasize that exact wording matters: one person may love "good girl" while another may find it patronizing or gender-discordant. Jasper's profile explicitly opts into "good girl," so the generator can use it without treating it as a universal default for everyone.
+
+Research basis:
+- Kinkly, Praise Kink: https://blog.kinkly.com/definition/praise-kink/
+- SELF, praise kink overview: https://www.self.com/story/praise-kink
+- Restrained Grace glossary, praise: https://www.restrainedgrace.com/blogs/glossary/praise
+
+---------------------------------------------------------------------
+9.1 "GOOD GIRL" DOES NOT OVERRIDE JASPER'S THEY/SHE IDENTITY
+---------------------------------------------------------------------
+
+Jasper uses they/she and likes being called "good girl."
+
+The generator should understand this as a CHOSEN erotic/affectionate phrase.
+
+Do not infer from it that:
+- Jasper must always use she/her;
+- Jasper must be called a woman;
+- all feminine nouns are automatically welcome;
+- they/them becomes incorrect;
+- AFAB anatomy requires a female identity label.
+
+The chosen phrase is valid because Jasper wants it.
+The rest of the language still follows Jasper's configured identity and pronouns.
+
+---------------------------------------------------------------------
+9.2 PRAISE SHOULD BE SPECIFIC
+---------------------------------------------------------------------
+
+Generic praise gets repetitive quickly.
+
+Instead of only:
+
+    "Good girl."
+
+also use character-appropriate specific recognition:
+
+- praise for honesty;
+- praise for asking for what Jasper wants;
+- praise for trusting;
+- praise for yielding after playful resistance;
+- praise for using a boundary clearly;
+- praise for enduring anticipation;
+- praise for allowing themselves to receive care;
+- praise for saying something kind about themselves;
+- praise for coming back from a vulnerable moment instead of hiding behind a joke.
+
+A good rule:
+
+    Praise should show that the love interest is PAYING ATTENTION.
+
+---------------------------------------------------------------------
+9.3 AFFIRMATION RITUALS DURING BRAT/EDGE DYNAMICS
+---------------------------------------------------------------------
+
+William described a consensual real-life pattern in which Jasper is edged and asked to repeat positive statements such as:
+
+    "I am a good person."
+    "I am deserving of love."
+
+For FICTION, this can become a powerful recurring ritual because it combines:
+
+- erotic authority;
+- praise;
+- emotional vulnerability;
+- self-compassion;
+- repetition;
+- a character's specific caretaking style.
+
+Important framing rule:
+
+    These affirmations are not presented as therapy, treatment, or proof that sex fixes self-esteem.
+    They are a consensual intimacy ritual inside the story.
+
+Useful affirmation families:
+
+SELF-WORTH:
+- I am a good person.
+- I am deserving of love.
+- I deserve kindness.
+- I am worth caring for.
+- I do not have to be perfect to be loved.
+
+RECEIVING CARE:
+- I am allowed to need things.
+- I am allowed to be cared for.
+- I do not have to earn every kindness.
+- I can let someone be gentle with me.
+
+BOUNDARIES / AGENCY:
+- My no matters.
+- My yes matters.
+- I am allowed to change my mind.
+- Asking for what I want does not make me difficult.
+
+RELATIONSHIP SECURITY:
+- I am not a burden for having needs.
+- I deserve love that listens.
+- I can be loved without becoming smaller.
+
+The generator should choose affirmations based on the STORY'S emotional wound rather than selecting random motivational phrases.
+
+---------------------------------------------------------------------
+9.4 CHARACTER-SPECIFIC AFFIRMATION DELIVERY
+---------------------------------------------------------------------
+
+IROH:
+Warm, patient, gently philosophical. He would likely frame the affirmation as something Jasper already possesses, not something he grants them.
+
+Nonsexual tone example:
+
+    "Again, Jasper. Not because I require the words, but because you deserve to hear yourself say them."
+
+GREG:
+Soft, goofy, emotionally earnest, possibly using humor to help Jasper tolerate sincerity.
+
+Example:
+
+    "C'mon, say the nice thing about yourself. Yeah, yeah, I know. Super cheesy. Humor me."
+
+SNAPE:
+Exact, unsentimental, sharp enough to make self-deprecation difficult.
+
+Example:
+
+    "Again. Correctly this time. You will not turn self-contempt into a joke simply because sincerity embarrasses you."
+
+DANSE:
+Structured, declarative, almost like a drill used for care instead of combat.
+
+Example:
+
+    "Repeat it. You are worthy of care. That is not a debate, Jasper."
+
+The wording should sound like the character, not like a generic affirmations app wearing their face.
+
+======================================================================
+10. SAPPY SMUT / "PORN WITH FEELINGS" AS THE PROJECT'S TARGET TONE
+======================================================================
+
+Fan communities use several overlapping labels for erotica where emotional payoff is central: "porn with feelings," "fluff and smut," erotic romance, and related forms of intense emotional wish-fulfillment. Fanlore also documents "emoporn" as fanfiction designed to produce intense emotional satisfaction, even when not literally sexual.
+
+Research/fandom context:
+- Fanlore, Reader-Insert: https://fanlore.org/wiki/Reader-Insert
+- Fanlore, Point of View: https://fanlore.org/wiki/Point_of_View
+- Fanlore, Emoporn: https://fanlore.org/wiki/Emoporn
+
+For Jasper's project, "sappy smut" should mean:
+
+    The sexual scene is emotionally specific enough that removing the sex would leave
+    a meaningful relationship scene, and removing the relationship would destroy the
+    reason the sex feels satisfying.
+
+---------------------------------------------------------------------
+10.1 THE EROTIC SCENE NEEDS AN EMOTIONAL OBJECTIVE
+---------------------------------------------------------------------
+
+Every intimate scene should answer:
+
+- What does Jasper need emotionally here?
+- What does the love interest need emotionally here?
+- What changed before the scene?
+- Why are they choosing this NOW?
+- What fear or hope is being touched?
+- What will be different afterward?
+
+Examples of emotional objectives:
+
+- Jasper lets themselves be praised without deflecting.
+- Iroh accepts being desired as a man rather than only revered as a mentor.
+- Greg believes someone can choose him without disappearing.
+- Snape allows tenderness without treating it as pity.
+- Danse experiences intimacy without converting everything into duty.
+
+---------------------------------------------------------------------
+10.2 A USEFUL SAPPY-SMUT SCENE ARC
+---------------------------------------------------------------------
+
+1. EMOTIONAL ENTRY
+   Something tender, funny, awkward, or vulnerable establishes why the scene matters.
+
+2. DESIRE MADE SPECIFIC
+   Attraction is expressed through THIS character's habits, language, and attention.
+
+3. CONSENT / MUTUAL CHOICE
+   The characters actively choose to continue.
+
+4. BRAT SPARK
+   Jasper teases, challenges, or playfully resists.
+
+5. CHARACTER-SPECIFIC TAMING
+   Iroh does not tame like Snape. Greg does not tame like Danse.
+
+6. PLEASURE / CONTROL BEAT
+   Use Jasper's configured preferences (for example edging/clitoral focus) when they fit.
+
+7. PRAISE / AFFIRMATION
+   The scene reaches Jasper emotionally, not just physically.
+
+8. VULNERABILITY PEAK
+   Someone says or admits something they could not comfortably say outside the intensity.
+
+9. RESOLUTION / RELEASE / CHOICE
+   Physical payoff reflects the relationship beat rather than being a random endpoint.
+
+10. IMMEDIATE RECONNECTION
+    Touch, humor, reassurance, tea, water, blankets, quiet, kissing, conversation, etc.
+
+11. AFTERMATH
+    The relationship is slightly different now.
+
+---------------------------------------------------------------------
+10.3 SMUT SHOULD NOT ERASE HUMOR
+---------------------------------------------------------------------
+
+If the character is funny outside intimacy, they do not need to become a humorless romance archetype once sex begins.
+
+Greg should still be Greg.
+Iroh can still be playful.
+Snape can still be dry and cutting.
+Danse can still sound like a soldier who accidentally wandered into tenderness.
+
+Humor is especially valuable in sappy scenes because it keeps vulnerability human.
+
+======================================================================
+11. CONSENT ARCHITECTURE FOR THE GENERATOR
+======================================================================
+
+The BDSM research base consistently treats consent as central to distinguishing consensual power exchange from abuse.
+
+A useful conceptual model is the "4Cs" proposed in BDSM literature:
+
+    Caring
+    Communication
+    Consent
+    Caution
+
+The project does not have to display this acronym to Jasper, but it is a good internal writing model.
+
+Research:
+- Williams, Thomas, Prior & Christensen, "From SSC and RACK to the 4Cs," 2014.
+  Accessible abstract/summary: https://go.gale.com/ps/i.do?asid=9ae6e2ae&id=GALE%7CA419762806&it=r&p=AONE&u=googlescholar&v=2.1
+- NCSF Consent Counts materials: https://ncsfreedom.org/2download-consent-signs/
+- Dunkley & Brotto, 2020: https://pubmed.ncbi.nlm.nih.gov/31010393/
+
+---------------------------------------------------------------------
+11.1 CONSENT DOES NOT HAVE TO SOUND LIKE A CONTRACT
+---------------------------------------------------------------------
+
+Good fiction can communicate consent through:
+
+- direct questions;
+- familiar negotiated rituals;
+- checking Jasper's face/body language AND receiving affirmative participation;
+- Jasper actively pulling the character closer;
+- Jasper asking for something;
+- a teasing confirmation;
+- remembered boundaries;
+- pausing when uncertainty appears;
+- immediate response to a stop signal.
+
+For an established dynamic, every scene does not need to repeat a legalistic checklist, but the story should make it clear that both people know the game they are playing.
+
+---------------------------------------------------------------------
+11.2 "BRAT" IS NOT A CONSENT BYPASS TOKEN
+---------------------------------------------------------------------
+
+Never generate logic like:
+
+    Jasper is a brat -> resistance = consent.
+
+Instead:
+
+    Jasper is a brat -> certain pre-negotiated forms of playful resistance MAY be part of the erotic script.
+
+Current consent still governs.
+
+---------------------------------------------------------------------
+11.3 INTOXICATION
+---------------------------------------------------------------------
+
+Because BDSM research finds particularly strong concern around capacity and explicit negotiation, adult-mode scenes should default to sober consent for new or intense kink scenes.
+
+If alcohol/drugs are present in the story:
+- do not introduce a new BDSM limit negotiation while impaired;
+- do not treat intoxication as automatic permission;
+- established characters may have previously negotiated boundaries, but the generator should still avoid portraying impaired ambiguity as romantic.
+
+======================================================================
+12. AFTERCARE: NOT AN OPTIONAL EPILOGUE
+======================================================================
+
+Aftercare is a recognized BDSM community practice and an emerging subject of empirical study. A 2024/2026 Journal of Sex Research study based on interviews with BDSM tops found that aftercare plays a role in how participants understand the interaction, their partner, and themselves afterward.
+
+Research:
+- "How was That for You?: Gender, Aftercare and Impression Management in BDSM"
+  PubMed: https://pubmed.ncbi.nlm.nih.gov/39360893/
+  Journal page: https://www.tandfonline.com/doi/full/10.1080/00224499.2024.2410338
+
+For Jasper's fiction, aftercare is also a major component of the desired SAPPY tone.
+
+---------------------------------------------------------------------
+12.1 AFTERCARE SHOULD BE CHARACTER-SPECIFIC
+---------------------------------------------------------------------
+
+IROH:
+- tea;
+- warm food;
+- blankets;
+- unhurried touch;
+- quiet reassurance;
+- a terrible proverb that is secretly exactly what Jasper needs;
+- checking whether Jasper wants conversation or silence.
+
+GREG:
+- cuddling;
+- snacks;
+- water;
+- music;
+- dumb joke followed by startling sincerity;
+- reassurance that Jasper is wanted and not "too much";
+- affectionate physical closeness.
+
+SNAPE:
+- practical cleanup;
+- water/potion if setting-appropriate;
+- precise checking for discomfort;
+- dry comments that hide concern badly;
+- staying present even if he finds overt tenderness embarrassing;
+- rare quiet praise.
+
+DANSE:
+- water;
+- blanket/temperature check;
+- scanning for injuries/discomfort like a field assessment, then softening;
+- protective positioning;
+- direct reassurance;
+- treating care as a responsibility he is privileged to perform.
+
+---------------------------------------------------------------------
+12.2 AFTERCARE IS FOR BOTH SIDES
+---------------------------------------------------------------------
+
+Do not make the dominant an infinite-care machine.
+
+Especially in emotionally heavy scenes, the love interest may also need:
+- reassurance;
+- touch;
+- confirmation that Jasper enjoyed the scene;
+- quiet;
+- humor;
+- grounding;
+- emotional reciprocity.
+
+This helps the romance feel mutual instead of service-delivery fantasy only.
+
+======================================================================
+13. ANATOMY + SEXUAL VOCABULARY: CHARACTER-SPECIFIC LANGUAGE LAYER
+======================================================================
+
+William's instruction is crucial:
+
+    Anatomy does not change from character to character.
+    The WORDS used for anatomy should change based on the speaker.
+
+This should be implemented as a vocabulary layer, not by changing Jasper's body profile.
+
+---------------------------------------------------------------------
+13.1 JASPER BODY/ANATOMY PROFILE
+---------------------------------------------------------------------
+
+Private profile facts supplied for generator use:
+
+- Jasper is assigned female at birth.
+- Jasper uses they/she pronouns.
+- Jasper likes clitoral-focused stimulation.
+- Jasper likes "good girl."
+
+Important:
+
+AFAB is a birth-assignment descriptor, not a complete gender identity or a command to feminize every sentence.
+
+The narrator's default descriptive vocabulary SHOULD remain direct and clear in hard-explicit mode. Do not soften Jasper's internal narration merely because a love interest prefers gentler spoken diction:
+
+- clit / clitoris
+- vulva
+- vagina (only when anatomically accurate to what is being described)
+- between my thighs
+- my body
+- my warmth / my center, if stylistically desired
+
+Avoid treating "vagina" as a catch-all word for the entire external genital region.
+
+---------------------------------------------------------------------
+13.2 SPEAKER VOCABULARY TIERS
+---------------------------------------------------------------------
+
+Each love interest should have a diction profile with four buckets:
+
+1. PREFERRED TENDER TERMS
+2. ACCEPTABLE DIRECT TERMS
+3. OPTIONAL HARSH/CRUDE TERMS (only if that character + Jasper profile permits)
+4. OUT-OF-CHARACTER / FORBIDDEN TERMS
+
+This avoids the common generator failure where every character suddenly uses the same porn vocabulary.
+
+---------------------------------------------------------------------
+13.3 IROH LANGUAGE PROFILE
+---------------------------------------------------------------------
+
+Canon/personality basis:
+Iroh is easygoing, humorous, wise, patient, sensual in his appreciation of ordinary pleasures, strongly associated with tea/food/music, and capable of great strategic control beneath gentleness.
+Source: Avatar Wiki character summary: https://avatar.fandom.com/wiki/Iroh
+
+Preferred intimate diction:
+- "my dear"
+- "dear one"
+- "Jasper"
+- "flower" / "little flower" if not overused
+- "your warmth"
+- "your pleasure"
+- "between your thighs"
+- "let me take care of you"
+- gentle references to breath, warmth, patience, blooming, sweetness
+
+Direct anatomical language:
+- the NARRATION may remain direct and explicit; Iroh's own dialogue should generally prefer tender/poetic wording. This is a speaker-voice restriction, not a censorship restriction.
+
+Default avoid:
+- cunt
+- pussy
+- aggressively pornographic slang
+- contemptuous degradation
+- modern internet-dom catchphrases
+
+William's example that Iroh might call Jasper's anatomy a "flower" or "your warm space" captures the intended direction. The generator should improve the prose so it sounds natural rather than mechanically inserting the same euphemism every paragraph.
+
+Iroh-specific brat taming:
+- patient amusement;
+- letting Jasper talk themself into a corner;
+- gentle but undeniable authority;
+- praise that feels like wisdom without turning him into a fortune-cookie machine;
+- affirmation rituals that emphasize inherent worth.
+
+Major warning:
+Do not make Iroh a sex therapist or a saint. He is also a former general, strategist, prince, grieving father, musician, gourmand, and man capable of fierce intensity.
+
+---------------------------------------------------------------------
+13.4 GREG UNIVERSE LANGUAGE PROFILE
+---------------------------------------------------------------------
+
+Canon/personality basis:
+Greg is friendly, genuine, easygoing, optimistic, emotionally sensitive, musically inclined, messy/goofy at times, and known for simple but often valuable life advice.
+Source: Steven Universe Wiki character summary: https://steven-universe.fandom.com/wiki/Greg_Universe
+
+Preferred intimate diction:
+- Jasper
+- babe / baby if configured as welcome
+- sweetheart
+- gorgeous
+- "you good?"
+- "c'mere"
+- direct but warm language
+- body praise that sounds delighted rather than clinical
+
+Acceptable direct anatomical language:
+- clit is plausible in an established, comfortable relationship if the tone is straightforward.
+- other blunt language should depend on scene tone rather than default porn vocabulary.
+
+Default avoid:
+- elaborate poetic euphemisms that sound too formal;
+- cold clinical monologues;
+- hard-edged humiliation without separate opt-in;
+- making him suddenly ultra-slick or hyper-authoritarian.
+
+Greg-specific brat taming:
+- jokes first;
+- mock offense;
+- playful bargaining;
+- affectionate firmness;
+- sudden seriousness that lands because it contrasts with his normal goofiness;
+- immediate sappiness after Jasper yields.
+
+Major warning:
+Do not flatten Greg into "dumb horny dad." His emotional intelligence often comes from lived experience and simplicity, not academic polish.
+
+---------------------------------------------------------------------
+13.5 SEVERUS SNAPE LANGUAGE PROFILE
+---------------------------------------------------------------------
+
+Canon/personality basis:
+Snape is controlled, precise, sarcastic, verbally cutting, private, authoritative, highly skilled, and emotionally repressed.
+Official Wizarding World commentary emphasizes his secrecy and sarcasm; fandom/encyclopedic summaries consistently describe a soft/contained speaking style with cutting language.
+Sources:
+- Wizarding World: https://www.harrypotter.com/features/the-shrewd-skills-of-severus-snape
+- Harry Potter Wiki: https://harrypotter.fandom.com/wiki/Severus_Snape
+
+Preferred intimate diction:
+- Jasper
+- exact instructions
+- "look at me"
+- "again"
+- "properly"
+- "good girl" used sparingly so it carries weight
+- controlled praise rather than constant pet names
+
+Acceptable direct anatomical language:
+- clinical terms;
+- clit/clitoris when precision fits;
+- blunt sexual vocabulary in adult private scenes.
+
+Optional harsh term:
+- "cunt" is plausible in William's intended interpretation of Snape ONLY when:
+  - Jasper's profile explicitly permits it;
+  - the scene tone has already established sharp/dirty language;
+  - it is not used as random misogynistic abuse;
+  - it remains character-consistent in cadence.
+
+Default avoid:
+- "flower" or excessively cute euphemisms;
+- nonstop vulgarity;
+- American frat-boy dirty talk;
+- casual bubbly pet names;
+- turning sarcasm into emotional cruelty after a real boundary.
+
+Snape-specific brat taming:
+- catches loopholes;
+- sets exact terms;
+- uses silence;
+- refuses to be baited into losing composure;
+- makes Jasper state what they actually want;
+- turns self-deprecating jokes into an opportunity for corrective affirmation;
+- rare praise = high impact.
+
+---------------------------------------------------------------------
+13.6 PALADIN DANSE LANGUAGE PROFILE
+---------------------------------------------------------------------
+
+Canon/personality basis:
+Danse is disciplined, loyal, military-minded, formal, serious, and often verbose; he has difficulty with leisure but can reveal softness and personal attachment underneath rigid structures.
+Source: Fallout Wiki: https://fallout.fandom.com/wiki/Danse
+
+Preferred intimate diction:
+- Jasper
+- direct commands
+- clear praise
+- "good girl" when configured
+- "that's an order" only when the scene has already established playful command-role language
+- protective reassurance
+
+Acceptable direct anatomical language:
+- clit / direct bodily language in a practical, unembarrassed way.
+
+Default avoid:
+- flowery euphemisms;
+- theatrical degradation;
+- overly modern meme-sex slang;
+- sudden poetic seducer persona.
+
+Danse-specific brat taming:
+- rule structure;
+- crisp commands;
+- mock-formal consequences;
+- clear praise for compliance;
+- visible internal conflict when Jasper makes him laugh.
+
+======================================================================
+14. DIALOGUE RULE: SEX DOES NOT REPLACE CHARACTER VOICE
+======================================================================
+
+A common fanfic/generator failure is "erotic voice collapse": once intimacy begins, every character speaks like the same anonymous dominant.
+
+Prevent this by storing per-character:
+
+- sentence length tendency;
+- vocabulary formality;
+- humor style;
+- pet-name frequency;
+- profanity frequency;
+- anatomical vocabulary;
+- praise frequency;
+- command style;
+- emotional avoidance strategy;
+- aftercare style;
+- things they would NEVER say.
+
+Example contrast:
+
+IROH:
+- warm metaphor + patience + gentle observation.
+
+GREG:
+- colloquial + laughter + sincere reassurance.
+
+SNAPE:
+- exact + dry + severe + rare tenderness.
+
+DANSE:
+- formal + procedural + directive + protective.
+
+The same preferred kink should feel radically different depending on who is leading the scene.
+
+======================================================================
+15. BRAT-TAMING STORY LOOPS (GENERATOR PATTERNS)
+======================================================================
+
+These are STRUCTURAL templates, not prewritten scenes.
+
+---------------------------------------------------------------------
+15.1 LOOP A: SASS -> CALM CONTROL -> PRAISE
+---------------------------------------------------------------------
+
+1. Jasper gives a deliberately cheeky response.
+2. Love interest recognizes it as play.
+3. Love interest answers in character.
+4. Jasper doubles down.
+5. Love interest creates a clear choice/consequence.
+6. Jasper yields while still being Jasper.
+7. Love interest gives specific praise.
+8. Jasper is allowed a final smart remark.
+
+This preserves the brat's spark.
+
+---------------------------------------------------------------------
+15.2 LOOP B: LOOPHOLE -> OUTMANEUVERED -> "GOOD GIRL"
+---------------------------------------------------------------------
+
+1. Love interest gives an agreed instruction.
+2. Jasper obeys the literal wording while violating the obvious spirit.
+3. Love interest catches the loophole.
+4. Instead of getting angry, they refine the instruction.
+5. Jasper realizes there is nowhere left to wriggle.
+6. Jasper chooses compliance.
+7. "Good girl" or equivalent lands as earned praise.
+
+Excellent for Snape/Danse.
+Can be made gentler/funnier for Greg or Iroh.
+
+---------------------------------------------------------------------
+15.3 LOOP C: BRAT MASK -> AFFIRMATION -> EMOTIONAL MELT
+---------------------------------------------------------------------
+
+1. Jasper hides vulnerability behind teasing.
+2. Love interest recognizes the pattern.
+3. Rather than punishing vulnerability, they keep the erotic frame but ask for honesty.
+4. Jasper is asked to repeat a positive affirmation.
+5. Jasper jokes/deflects.
+6. Love interest patiently insists without shaming.
+7. Jasper says it sincerely.
+8. Praise follows.
+9. The physical/erotic payoff becomes secondary to being emotionally seen.
+
+This is especially aligned with the requested "sappy smut" tone.
+
+---------------------------------------------------------------------
+15.4 LOOP D: EDGE -> AFFIRMATION -> REWARD
+---------------------------------------------------------------------
+
+At a non-technical story level:
+
+1. The love interest controls the pacing of pleasure by prior agreement.
+2. Jasper gets bratty about the delay.
+3. The love interest requires a truth/affirmation instead of mere obedience.
+4. Jasper repeats a self-worth statement.
+5. The love interest praises the sincerity.
+6. The next stage of pleasure is offered as a consensual reward/continuation.
+7. Aftercare reinforces that Jasper's worth was never contingent on performance.
+
+CRITICAL RULE:
+
+Basic affection, respect, and love are NEVER withdrawn as punishment.
+Scene rewards can be delayed; human dignity cannot.
+
+======================================================================
+16. POSITIVE AFFIRMATIONS: WRITING THEM WITHOUT MAKING THEM CORNY
+======================================================================
+
+The project explicitly WANTS some corniness, especially for Iroh. The goal is affectionate sincerity, not generic inspirational-poster language.
+
+Good affirmations should connect to the plot.
+
+If Jasper has spent several chapters worrying that they are "too much":
+
+    I am not too much for people who choose me.
+
+If Jasper has trouble asking for help:
+
+    Needing care does not make me a burden.
+
+If Jasper keeps turning mistakes into self-condemnation:
+
+    Making a mistake does not make me a bad person.
+
+If Jasper assumes they must earn affection through usefulness:
+
+    I deserve love even when I am not useful.
+
+If Jasper is frightened by vulnerability:
+
+    Being known does not make me weak.
+
+The generator should track affirmation arcs in continuity metadata so the same statement can return later with increased emotional weight.
+
+======================================================================
+17. CONSENSUAL CONSEQUENCES / "FUNISHMENT" WITHOUT GENERIC ABUSE
+======================================================================
+
+Brat communities sometimes use "funishment" for consequences the brat actively wants or provokes as part of play.
+
+For this project, consequences should be:
+
+- negotiated;
+- scene-bounded;
+- character-specific;
+- emotionally safe;
+- proportional;
+- reversible/stoppable;
+- never retaliation for a real boundary.
+
+Possible fiction-safe categories include:
+
+- being made to repeat the instruction properly;
+- a teasing delay in an agreed reward;
+- being required to state what Jasper actually wants;
+- a mock-formal apology delivered while trying not to laugh;
+- losing the argument in a way that produces intimacy;
+- an agreed edging/permission-control beat;
+- being held to an affirmation ritual.
+
+Do not assume physical punishment is required for brat taming.
+
+For Jasper's described preferences, psychological play, edging, praise, verbal correction, and affectionate control are already sufficient to make the dynamic vivid.
+
+======================================================================
+18. WHAT THE GENERATOR SHOULD NEVER DO WITH JASPER'S BRATTINESS
+======================================================================
+
+Hard avoid:
+
+- "They secretly wanted it" as an excuse to ignore a real no.
+- Treating a safeword as failure.
+- Punishing Jasper for using a boundary.
+- Calling Jasper manipulative for bratting inside an agreed dynamic.
+- Removing all agency once submission begins.
+- Making surrender equal silence.
+- Making the dominant angry every time Jasper jokes.
+- Conflating dominance with cruelty.
+- Conflating submission with weakness.
+- Using "good girl" sarcastically after genuine distress.
+- Withholding normal affection until Jasper obeys.
+- Reframing emotional abuse as "taming."
+- Turning affirmations into coercive therapy.
+- Treating AFAB anatomy as proof of a fixed gender identity.
+- Switching to she/her exclusively because a scene becomes sexual.
+- Randomly inserting explicit anatomy words that the character would never use.
+
+======================================================================
+19. FIRST-PERSON EROTIC PROSE RULES
+======================================================================
+
+Even in adult scenes, the POV remains Jasper's.
+
+---------------------------------------------------------------------
+19.1 DO NOT START EVERY SENTENCE WITH "I"
+---------------------------------------------------------------------
+
+Flat:
+
+    I looked at him. I felt nervous. I moved closer. I heard him laugh.
+
+Better:
+
+    His laugh took the last of my nerve with it. By the time I realized I had moved closer, my knee was already touching his.
+
+The second is still first person without sounding mechanically repetitive.
+
+---------------------------------------------------------------------
+19.2 SENSATION SHOULD BE SUBJECTIVE
+---------------------------------------------------------------------
+
+The narrator is not a camera.
+
+Jasper notices:
+- what embarrasses them;
+- what excites them;
+- what makes them want to challenge the love interest;
+- the exact tone that makes "good girl" hit;
+- the moment a joke stops being a shield;
+- the relief of being read correctly;
+- the difference between being controlled and being dismissed.
+
+---------------------------------------------------------------------
+19.3 DO NOT NARRATE JASPER'S BODY FROM AN OUTSIDE CAMERA
+---------------------------------------------------------------------
+
+Avoid:
+
+    My body looked irresistible as I arched beneath him.
+
+Prefer felt/experienced perspective:
+
+    My body betrayed every attempt at pretending I was unaffected.
+
+Keep physical description grounded in what Jasper can feel, see naturally, or infer from the love interest's reaction.
+
+---------------------------------------------------------------------
+19.4 DIRTY TALK MUST HAVE A SPEAKER
+---------------------------------------------------------------------
+
+Do not let narration drift into a generic porn narrator voice.
+
+Separate:
+
+Jasper's internal vocabulary
+vs.
+Iroh's dialogue vocabulary
+vs.
+Greg's dialogue vocabulary
+vs.
+Snape's dialogue vocabulary
+vs.
+Danse's dialogue vocabulary.
+
+======================================================================
+20. RELATIONSHIP PROGRESSION: KINK SHOULD EVOLVE WITH TRUST
+======================================================================
+
+A 40-chapter series should not begin with the fullest version of the kink unless the premise is already-established relationship.
+
+Suggested progression for slow-burn adult fic:
+
+CHAPTERS 1-5:
+- chemistry;
+- humor;
+- safe attention;
+- hints of Jasper's playful resistance;
+- no assumption of sexual authority.
+
+CHAPTERS 6-10:
+- clearer flirting;
+- first boundary conversations;
+- first "you are doing that on purpose" brat recognition;
+- nonsexual praise begins to matter.
+
+CHAPTERS 11-15:
+- first consensual power-play testing;
+- playful instructions;
+- Jasper learns how this character responds to sass;
+- character learns what makes Jasper feel safe.
+
+CHAPTERS 16-20:
+- stronger mutual desire;
+- explicit discussion of preferences;
+- first "good girl" may appear if earned by pacing;
+- first affirmation ritual can be introduced emotionally before it becomes erotic.
+
+CHAPTERS 21-30:
+- established brat/tamer vocabulary;
+- edging/orgasm-control themes can become more central;
+- intimacy intersects with deeper character wounds;
+- aftercare becomes relationship shorthand.
+
+CHAPTERS 31-40:
+- kink is fully integrated into trust rather than novelty;
+- old jokes/rituals return with new meaning;
+- Jasper can brat without wondering if love is conditional;
+- love interest can be firm without Jasper fearing abandonment;
+- final intimacy pays off both sexual preferences and the series' emotional thesis.
+
+======================================================================
+21. CHARACTER-SPECIFIC "SAPPY" PAYOFFS
+======================================================================
+
+IROH:
+The emotional fantasy is not merely "wise older dominant."
+It is:
+
+    A man who has lost enormously still chooses ordinary happiness,
+    and Jasper becomes someone who cares for HIM as well as receiving his care.
+
+Best payoff themes:
+- second chances;
+- being seen as a man rather than legend/mentor;
+- grief that can coexist with pleasure;
+- tea/shop/home rituals;
+- patient praise;
+- affirmations about deserving joy.
+
+GREG:
+The emotional fantasy is not merely "goofy dad bod."
+It is:
+
+    A man used to loving people who become larger than his life discovers
+    someone who deliberately stays and chooses him.
+
+Best payoff themes:
+- second love;
+- music;
+- choosing an ordinary life on purpose;
+- body comfort;
+- laughter during vulnerability;
+- being wanted for himself.
+
+SNAPE:
+The emotional fantasy is not merely "mean professor dom."
+It is:
+
+    A painfully controlled man learns that intimacy can involve authority
+    without humiliation, and tenderness without pity.
+
+Best payoff themes:
+- precision;
+- trust;
+- verbal sparring;
+- rare praise;
+- harsh diction contrasted with careful behavior;
+- being chosen after the war rather than memorialized by it.
+
+DANSE:
+The emotional fantasy is not merely "soldier gives orders."
+It is:
+
+    A man trained to define worth through duty learns that he can be loved
+    outside rank, usefulness, obedience, or institutional approval.
+
+Best payoff themes:
+- orders transformed into consensual play;
+- praise detached from military performance;
+- identity outside Brotherhood structure;
+- protective care becoming reciprocal.
+
+======================================================================
+22. JSON 3.0 RECOMMENDED PROFILE SHAPE
+======================================================================
+
+The following is a design example. JSON itself cannot contain comments, so the production file should remove explanatory comments.
+
+Suggested fields:
+
+{
+  "schema_version": "3.0",
+  "work_type": "fanfic_series",
+  "audience": {
+    "private_project": true,
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private / Hard Explicit — No Fade to Black"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronoun_sets": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself"
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself"
+      }
+    ],
+    "pronoun_mode": "mixed_they_she",
+    "birth_assignment": "AFAB"
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "brat_submissive": true,
+    "brat_taming": true,
+    "edging": true,
+    "orgasm_control": true,
+    "preferred_stimulation_focus": ["clitoral"],
+    "praise": true,
+    "preferred_praise_terms": ["good girl"],
+    "positive_affirmation_rituals": true,
+    "aftercare_required": true,
+    "default_tone": ["sappy", "romantic", "playful", "porn_with_feelings"]
+  },
+  "hard_safety_rules": {
+    "minor_participants": "block",
+    "ambiguous_age": "block_intimacy",
+    "real_no_or_stop": "stop_scene",
+    "safeword_ignored": false,
+    "punish_boundary_use": false,
+    "brat_equals_blanket_consent": false
+  }
+}
+
+---------------------------------------------------------------------
+22.1 CHARACTER VOICE SUBOBJECT
+---------------------------------------------------------------------
+
+Recommended per love interest:
+
+"voice_profile": {
+  "character": "Iroh",
+  "tamer_style": "patient",
+  "formality": "warm_formal",
+  "humor": "gentle_playful",
+  "praise_frequency": "moderate",
+  "preferred_terms": ["Jasper", "my dear", "flower", "your warmth"],
+  "direct_terms": ["clitoris"],
+  "optional_crude_terms": [],
+  "forbidden_terms": ["cunt", "pussy"],
+  "aftercare_style": ["tea", "warmth", "food", "quiet_reassurance"],
+  "notes": "Do not turn into fortune-cookie therapist. Keep former general/strategist intensity."
+}
+
+Snape might instead contain:
+
+"optional_crude_terms": ["cunt"]
+
+with a separate condition:
+
+"crude_language_requires_scene_flag": true
+
+This is much safer than maintaining one universal anatomy word list.
+
+======================================================================
+23. CHAPTER-LEVEL ADULT-MODE METADATA
+======================================================================
+
+Each chapter should know whether it contains intimate material and which boundaries apply.
+
+Example:
+
+{
+  "chapter_number": 18,
+  "adult_content": {
+    "enabled": true,
+    "all_on_page_characters_18_plus": true,
+    "consent_state": "affirmative",
+    "brat_dynamic": true,
+    "edging_theme": true,
+    "praise_theme": true,
+    "affirmation_theme": true,
+    "aftercare_present": true,
+    "anatomy_voice_profile": "iroh"
+  }
+}
+
+This allows the app to validate BEFORE displaying or generating a chapter.
+
+======================================================================
+24. CONTINUITY LEDGER FOR KINK/INTIMACY
+======================================================================
+
+Add the following to the story bible:
+
+CONSENT HISTORY:
+- what has been explicitly discussed;
+- what has been tried;
+- what Jasper liked;
+- what Jasper did not like;
+- current hard limits;
+- current soft limits;
+- safeword/stop system if used.
+
+BRAT HISTORY:
+- what kinds of sass are playful;
+- which jokes are recurring;
+- favorite loophole style;
+- what the love interest recognizes as "Jasper is asking me to engage";
+- what signals mean Jasper is actually upset.
+
+PRAISE HISTORY:
+- terms Jasper likes;
+- terms Jasper dislikes;
+- first use of "good girl";
+- which praises are emotionally important;
+- affirmations already used;
+- affirmations that have changed meaning over time.
+
+ANATOMY LANGUAGE HISTORY:
+- narrator vocabulary;
+- character dialogue vocabulary;
+- crude words enabled/disabled per character;
+- euphemisms that have become relationship-specific.
+
+AFTERCARE HISTORY:
+- Jasper's preferred forms;
+- love interest's preferred forms;
+- what worked after intense scenes;
+- what made Jasper laugh/cry/feel safe.
+
+This prevents Chapter 30 from behaving as though Chapter 18 never happened.
+
+======================================================================
+25. QUALITY CONTROL / LINT CHECKLIST
+======================================================================
+
+Run every generated chapter through these checks.
+
+HARD-EXPLICIT MODE (WHEN adult_content.enabled = true):
+[ ] No fade to black.
+[ ] No sex skipped by time jump, ellipsis, or chapter break.
+[ ] No strategic sheet/hair/shadow/object censorship invented to hide nudity.
+[ ] Direct anatomical language is available in Jasper's narration when relevant.
+[ ] Adult words are not censored with asterisks.
+[ ] Euphemism is characterization, not concealment.
+[ ] Speaker-specific vocabulary rules are obeyed.
+[ ] Explicitness did not cause POV or grammar to collapse.
+
+ADULT-ONLY:
+[ ] Jasper is explicitly adult.
+[ ] Every romantic/sexual participant is explicitly 18+ in this story timeline.
+[ ] No under-18 character is present in an erotic scene.
+[ ] Ambiguous ages were resolved before generation.
+
+POV:
+[ ] Narration is I/me/my/mine/myself.
+[ ] "You" appears only where grammatically appropriate (dialogue/direct address/etc.).
+[ ] The narrator was not accidentally called Jasper/they/she in third-person narration.
+[ ] First-person sensation remains subjective rather than camera-like.
+
+PRONOUNS:
+[ ] Singular they uses are/have/do.
+[ ] She uses is/has/does.
+[ ] Their/theirs and her/hers are not confused.
+[ ] Mixed they/she remains clear rather than random.
+[ ] Jasper's name resets ambiguous antecedents when needed.
+
+CHARACTERIZATION:
+[ ] Love interest sounds like canon.
+[ ] Sexual dialogue uses character-specific vocabulary.
+[ ] Love interest has not become Generic Dom #4.
+[ ] Humor style remains consistent.
+[ ] Their actual emotional wounds/history still matter.
+
+BRAT DYNAMIC:
+[ ] Jasper's resistance is playful and active.
+[ ] Real refusal is distinguishable from bratting.
+[ ] The love interest does not treat "brat" as blanket consent.
+[ ] Taming does not erase Jasper's personality.
+[ ] Jasper gets to remain funny/sassy after surrender.
+
+CONSENT:
+[ ] Consent is mutual and current.
+[ ] Stop/withdrawal would be respected.
+[ ] No punishment occurs for boundary-setting.
+[ ] Orgasm control is not confused with consent control.
+
+PRAISE/AFFIRMATION:
+[ ] "Good girl" is used because Jasper likes it, not because the generator forced gender assumptions.
+[ ] Praise is specific.
+[ ] Affirmations connect to the story's emotional arc.
+[ ] Affirmations are not presented as therapy or a cure.
+
+ANATOMY:
+[ ] Anatomy terms match Jasper's profile.
+[ ] Speaker wording matches character voice.
+[ ] Iroh is not suddenly saying terms marked forbidden.
+[ ] Snape's crude terms only appear if that mode is enabled.
+[ ] AFAB was not translated into an unwanted identity label.
+
+SAPPY SMUT:
+[ ] The scene has an emotional objective.
+[ ] Physical intimacy changes or reveals something.
+[ ] Humor/tenderness remain present where character-appropriate.
+[ ] There is meaningful build-up.
+[ ] There is meaningful aftermath.
+[ ] The scene could not be pasted unchanged into a different ship.
+
+AFTERCARE:
+[ ] Aftercare fits the character.
+[ ] Jasper receives reassurance/care.
+[ ] The love interest is allowed emotional reciprocity.
+[ ] The next chapter remembers the intimacy happened.
+
+======================================================================
+26. COMMON GENERATOR FAILURE MODES + FIXES
+======================================================================
+
+FAILURE: "You" narration appears.
+FIX: Quote-aware POV linter; only flag second-person outside dialogue/embedded text.
+
+FAILURE: Jasper is called "she" by the narrator.
+FIX: Narrator self-reference table is separate from external pronoun table.
+
+FAILURE: Mixed pronouns create confusion.
+FIX: Keep one chain per clause/short paragraph; reset with Jasper's name.
+
+FAILURE: Every dominant says "good girl" every two lines.
+FIX: Character-specific praise frequency + scene-level cooldown.
+
+FAILURE: Iroh sounds like an internet Daddy Dom.
+FIX: Warm/patient metaphor, humor, former-general authority, fewer modern catchphrases.
+
+FAILURE: Greg becomes stupid.
+FIX: Preserve lived-experience emotional intelligence and accountability.
+
+FAILURE: Snape becomes nonstop abusive.
+FIX: Separate sharpness from actual cruelty; boundaries instantly end the erotic game.
+
+FAILURE: Danse sounds like Snape in power armor.
+FIX: Military structure, sincerity, formality, duty language, less sarcasm.
+
+FAILURE: Bratting becomes arbitrary disobedience.
+FIX: Give each brat move a relational purpose: attention, challenge, banter, invitation, trust test.
+
+FAILURE: "No" is treated as coy yes.
+FIX: Default no=stop unless an explicit alternate roleplay language was pre-negotiated.
+
+FAILURE: Edging becomes repetitive anatomy description.
+FIX: Treat edging as anticipation/control/emotional rhythm, not only repeated mechanics.
+
+FAILURE: Positive affirmation feels like a therapy worksheet.
+FIX: Tie statement to current plot wound and speaker voice.
+
+FAILURE: Anatomy language is out of character.
+FIX: Per-character allowed/avoid lists.
+
+FAILURE: Smut is detachable from plot.
+FIX: Require an emotional objective and aftermath state change.
+
+======================================================================
+27. SOURCE QUALITY NOTES
+======================================================================
+
+This guide intentionally uses different source types for different questions.
+
+PEER-REVIEWED / ACADEMIC SOURCES are strongest for:
+- BDSM consent norms;
+- role identity;
+- communication;
+- aftercare research;
+- broad power-exchange concepts.
+
+COMMUNITY / KINK EDUCATION SOURCES are strongest for:
+- current slang such as "brat," "brat tamer," "funishment," and praise-kink terminology;
+- how practitioners describe the felt dynamic;
+- contemporary community usage.
+
+FANDOM SOURCES are strongest for:
+- reader-insert conventions;
+- fanfic POV terminology;
+- "emoporn" / emotional fanfic language;
+- character-specific fandom expectations.
+
+GRAMMAR/STYLE SOURCES are strongest for:
+- singular they;
+- pronoun agreement;
+- antecedent clarity;
+- first-person/object/reflexive mechanics.
+
+CHARACTER WIKIS / OFFICIAL FRANCHISE SOURCES are used to ground:
+- canon personality;
+- speech tendencies;
+- emotional history;
+- recurring habits/interests.
+
+Community definitions are not scientific diagnoses and should not be presented as universal truths.
+
+======================================================================
+28. RESEARCH BIBLIOGRAPHY
+======================================================================
+
+BDSM CONSENT / POWER EXCHANGE / AFTERCARE
+-----------------------------------------
+
+Dunkley, Cara R., and Lori A. Brotto.
+"The Role of Consent in the Context of BDSM."
+Sexual Abuse, 2020.
+https://pubmed.ncbi.nlm.nih.gov/31010393/
+
+Tarleton, Hannah L., Taylor Mackenzie, and Brad J. Sagarin.
+"Consent Norms in the BDSM Community: Strong But Not Inflexible."
+Archives of Sexual Behavior, 2025.
+https://pubmed.ncbi.nlm.nih.gov/39576567/
+
+Sexual Consent Norms in a Sexually Diverse Sample.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10844416/
+
+Williams, D. J., Jeremy N. Thomas, Emily E. Prior, and M. Candace Christensen.
+"From SSC and RACK to the 4Cs: Introducing a New Framework for Negotiating BDSM Participation."
+Electronic Journal of Human Sexuality, 2014.
+Summary/access point:
+https://go.gale.com/ps/i.do?asid=9ae6e2ae&id=GALE%7CA419762806&it=r&p=AONE&u=googlescholar&v=2.1
+
+National Coalition for Sexual Freedom.
+Consent Counts materials / consent education.
+https://ncsfreedom.org/2download-consent-signs/
+
+"How was That for You?: Gender, Aftercare and Impression Management in BDSM."
+The Journal of Sex Research.
+PubMed: https://pubmed.ncbi.nlm.nih.gov/39360893/
+Journal: https://www.tandfonline.com/doi/full/10.1080/00224499.2024.2410338
+
+BDSM ROLE IDENTITY / NARRATIVES
+-------------------------------
+
+"Between a role and identification. Understanding BDSM practices from practitioners' perspective."
+https://pubmed.ncbi.nlm.nih.gov/37350720/
+
+"Dominants, Submissives, and Bottom-up Text Analysis: Exploring BDSM Roles Through Romantic and Erotic Narratives."
+https://pubmed.ncbi.nlm.nih.gov/36018005/
+
+BRAT / BRAT TAMER COMMUNITY TERMINOLOGY
+----------------------------------------
+
+FetLife Kinktionary — Brat
+https://fetlife.com/kinktionary/roles/brat-aitlg
+
+Consent Culture — brat
+https://consentculture.community/glossary/brat/
+
+Consent Culture — Brat Tamer
+https://consentculture.community/glossary/brat-tamer/
+
+KinK Academy — Brat
+https://thekinkacademy.com/dictionary/brat/
+
+BDSMPact — Brat
+https://bdsmpact.com/glossary/brat
+
+EDGING / ORGASM CONTROL
+-----------------------
+
+Healthline — Edging / orgasm control
+https://www.healthline.com/health/healthy-sex/edging-orgasm-control
+
+Medical News Today — Edging
+https://www.medicalnewstoday.com/articles/is-edging-bad-for-you
+
+KinK Academy — Edging
+https://thekinkacademy.com/dictionary/edging/
+
+PRAISE KINK / AFFIRMATION PLAY
+------------------------------
+
+Kinkly — Praise Kink
+https://blog.kinkly.com/definition/praise-kink/
+
+SELF — Praise Kink
+https://www.self.com/story/praise-kink
+
+Restrained Grace — Praise glossary
+https://www.restrainedgrace.com/blogs/glossary/praise
+
+GRAMMAR / PRONOUNS
+------------------
+
+MLA Style Center — How do I use singular they?
+https://style.mla.org/using-singular-they/
+
+MLA Style Center — Pronouns and their referents
+https://style.mla.org/pronouns-and-referents/
+
+MLA Style Center — Pronouns
+https://style.mla.org/pronouns/
+
+Cambridge Grammar — Personal pronouns
+https://dictionary.cambridge.org/grammar/british-grammar/pronouns-personal-i-me-you-he-it-they-etc
+
+FANFICTION / READER-INSERT / EMOTIONAL FANFIC
+---------------------------------------------
+
+Fanlore — Reader-Insert
+https://fanlore.org/wiki/Reader-Insert
+
+Fanlore — Point of View
+https://fanlore.org/wiki/Point_of_View
+
+Fanlore — Y/N
+https://fanlore.org/wiki/Y/N
+
+Fanlore — Emoporn
+https://fanlore.org/wiki/Emoporn
+
+CHARACTER REFERENCE
+-------------------
+
+Avatar Wiki — Iroh
+https://avatar.fandom.com/wiki/Iroh
+
+Steven Universe Wiki — Greg Universe
+https://steven-universe.fandom.com/wiki/Greg_Universe
+
+Wizarding World — The shrewd skills of Severus Snape
+https://www.harrypotter.com/features/the-shrewd-skills-of-severus-snape
+
+Harry Potter Wiki — Severus Snape
+https://harrypotter.fandom.com/wiki/Severus_Snape
+
+Fallout Wiki — Danse
+https://fallout.fandom.com/wiki/Danse
+
+RATING TERMINOLOGY
+------------------
+
+Motion Picture Association / FilmRatings.com
+https://www.filmratings.com/
+https://www.motionpictures.org/film-ratings/
+
+======================================================================
+29. BOTTOM-LINE GENERATOR DIRECTIVE
+======================================================================
+
+The best possible version of Jasper's fanfiction creator should understand all of the following at the same time:
+
+Jasper is not a blank Y/N.
+Jasper is not a third-person OC.
+Jasper is a NAMED first-person viewpoint character.
+
+Narration:
+
+    I / me / my / mine / myself
+
+Other characters know the narrator as:
+
+    Jasper
+
+When characters talk ABOUT Jasper:
+
+    they / them / their / theirs / themself
+    she / her / her / hers / herself
+
+When characters talk TO Jasper:
+
+    you / your is normal grammar and does not break first-person POV.
+
+The private project is:
+
+    18+ ONLY.
+
+No character under 18 may participate in romance/sexual content, and adult-mode generation must block ambiguous ages.
+
+Jasper's configured intimacy preferences include:
+
+    submissive brat energy
+    brat taming
+    edging/orgasm-control themes
+    clitoral-focused pleasure
+    praise
+    "good girl"
+    positive self-affirmation rituals
+    sappy emotional intimacy
+    aftercare
+
+But NONE of those preferences should flatten every relationship into the same script.
+
+Iroh should tame like Iroh.
+Greg should tame like Greg.
+Snape should tame like Snape.
+Danse should tame like Danse.
+
+The anatomy may be the same.
+The WORDS should not be.
+
+The power dynamic may be similar.
+The CHARACTER should not be.
+
+Most importantly:
+
+    Bratting is consensual playful resistance, not permission to ignore refusal.
+    Orgasm control is not consent control.
+    "Good girl" is a chosen phrase, not a forced gender identity.
+    Positive affirmations are intimacy rituals, not therapy.
+    Taming should preserve Jasper's spark.
+    Smut should change the relationship.
+    Aftercare should matter.
+    Love should never become conditional on obedience.
+
+HARD-EXPLICIT OUTPUT RULE:
+
+    When an adult sexual scene is selected, KEEP IT ON PAGE.
+    Do not fade to black.
+    Do not skip forward to morning.
+    Do not hide nudity behind artificial censorship devices.
+    Do not censor anatomical terms with asterisks.
+    Let Jasper's first-person narration use direct adult anatomical language.
+    Let each love interest's spoken vocabulary remain character-specific.
+
+GRAMMAR RULE:
+
+    First-person POV is not negotiable.
+    Jasper's narration is I / me / my / mine / myself.
+    "You" is valid when another character directly addresses Jasper.
+    They/she is valid when someone else refers to Jasper in third person.
+    Jasper's own body in narration is MY body, never YOUR/THEIR/HER body.
+    Singular they takes ARE/HAVE/DO, not IS/HAS/DOES.
+    Mixed pronouns must be clear, not randomly alternated.
+
+The project's ideal emotional/erotic signature is:
+
+    "I can sass you, challenge you, make you earn my surrender,
+     and still trust that you will hear a real no.
+     You can take control because I chose you to.
+     You can praise me until I believe something kind about myself.
+     And when the scene ends, I am still Jasper—funny, difficult,
+     loved, wanted, and fully myself."
+
+END OF GUIDE
+
+======================================================================
+30. HARD-EXPLICIT + BRAT + GRAMMAR REVISION SOURCES (SEPTEMBER 19, 2026)
+======================================================================
+
+This revision adds a stronger generator specification around three areas requested by William:
+
+1. hard-explicit adult output with no fade-to-black substitution;
+2. deeper brat / brat-tamer taxonomy;
+3. grammar and POV enforcement.
+
+The hard-explicit prose rules are PROJECT REQUIREMENTS supplied for Jasper's private generator. They are not claims that one explicitness style is objectively better than another.
+
+The brat/tamer safety and role framework draws on:
+
+Dunkley & Brotto — The Role of Consent in the Context of BDSM
+https://pubmed.ncbi.nlm.nih.gov/31010393/
+
+Dominants, Submissives, and Bottom-up Text Analysis: Exploring BDSM Roles Through Romantic and Erotic Narratives
+https://pubmed.ncbi.nlm.nih.gov/36018005/
+
+Between a role and identification. Understanding BDSM practices from practitioners' perspective
+https://pubmed.ncbi.nlm.nih.gov/37350720/
+
+BDSM Role Fluidity: A Mixed-Methods Approach
+https://pubmed.ncbi.nlm.nih.gov/28854056/
+
+Consent Culture — Brat Tamer
+https://consentculture.community/glossary/brat-tamer/
+
+Consent Culture — Safe Word
+https://consentculture.community/glossary/safe-word/
+
+The UK Kink Guide — Brat and brat-tamer dynamic
+https://www.thekinkguide.co.uk/glossary/brat-dynamic
+
+Fetish.com — Brat Tamer
+https://www.fetish.com/magazine/bdsm/brat-tamer-bdsm-meaning/
+
+Daziner — What Is a Brat Tamer?
+https://dazinertoys.com/blogs/daziner-blogs/what-is-a-brat-tamer
+
+Grammar / pronoun rules draw on:
+
+MLA Style Center — How do I use singular they?
+https://style.mla.org/using-singular-they/
+
+Cambridge Dictionary — themself
+https://dictionary.cambridge.org/us/dictionary/english/themself
+
+Cambridge Grammar — Reflexive pronouns
+https://dictionary.cambridge.org/us/grammar/british-grammar/pronouns-reflexive-myself-themselves
+
+SOURCE LIMITATION:
+
+There is stronger peer-reviewed evidence for BDSM consent, role identity, and D/s power exchange than there is for "brat" as a separately standardized research category. Specific brat subtypes in this document are therefore generator-writing categories synthesized from recurring community descriptions, not diagnostic labels.
+
+======================================================================
+31. REVISION-SPECIFIC FINAL DIRECTIVE
+======================================================================
+
+The generator has THREE non-negotiable technical priorities:
+
+A. ADULT GATE
+   Nobody sexual or romantic in hard-explicit mode is under 18 or age-ambiguous.
+
+B. POV/GRAMMAR GATE
+   Jasper narrates as I/me/my/mine/myself with consistent tense and clear referents.
+
+C. HARD-EXPLICIT GATE
+   Once an adult sexual scene is selected, the generator may not solve the writing problem by fading out, skipping ahead, hiding bodies for censorship, or replacing direct language with vague placeholders.
+
+Character voice sits ON TOP of those gates.
+
+That means:
+
+    Iroh can remain tender and euphemistic in dialogue WITHOUT the prose becoming censored.
+    Greg can remain colloquial and affectionate WITHOUT turning generic.
+    Snape can use harsher explicit vocabulary when enabled WITHOUT every character inheriting his diction.
+    Danse can remain formal/direct WITHOUT sounding like Snape in armor.
+
+Jasper's brat identity should read as active consensual participation:
+
+    witty
+    provocative
+    affectionate
+    loophole-loving
+    praise-seeking
+    challenging
+    visibly agentic
+
+Taming should read as:
+
+    attention
+    steadiness
+    wit
+    precision
+    negotiated authority
+    earned surrender
+    specific praise
+    emotional safety
+
+not:
+
+    overriding real refusal
+    humiliation by default
+    personality erasure
+    generic cruelty
+    unconditional authority
+
+And the grammar engine must remember the simplest core rule in the entire project:
+
+    I am Jasper.
+    He looks at me.
+    My body is mine.
+    He can say "you" to me.
+    Someone else can call me they or she.
+    The narration itself does not stop being I.
+
+END OF HARD-EXPLICIT / BRAT-TAMING / GRAMMAR-ENFORCED GUIDE
+

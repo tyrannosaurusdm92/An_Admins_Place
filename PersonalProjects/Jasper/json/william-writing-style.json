@@ -1,0 +1,52 @@
+{
+  "schema_version": "william.style.v2",
+  "source": "William_Saville_Writing_JSON_FORMATTING_FIXED(6).zip",
+  "author": "William Saville",
+  "works_analyzed": 33,
+  "short_stories": 15,
+  "poems": 18,
+  "metrics": {
+    "short_story_words": 28164,
+    "short_story_sentences": 2021,
+    "avg_sentence_words": 13.94,
+    "avg_paragraph_words": 55.88,
+    "dialogue_word_ratio": 0.1324,
+    "semicolons": 128,
+    "questions": 66,
+    "exclamations": 39
+  },
+  "prose_fingerprint": [
+    "emotionally direct without flattening emotion into exposition",
+    "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+    "alternate compact emotional beats with fuller reflective paragraphs",
+    "let dialogue carry relationship pressure while narration carries interior consequence",
+    "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+    "favor character-specific reactions and small remembered details over generic declarations",
+    "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+    "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+    "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+    "use semicolons selectively for linked thoughts rather than mechanically"
+  ],
+  "dialogue_fingerprint": [
+    "continuous dialogue should sound conversational rather than like alternating speeches",
+    "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+    "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+    "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+  ],
+  "relationship_fingerprint": [
+    "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+    "attraction should not erase plot, outside obligations, individual goals, or conflict",
+    "vulnerability is strongest when it changes later behavior",
+    "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+  ],
+  "anti_imitation_rule": "Use corpus-level tendencies and selected reference passages as guidance. Do not copy distinctive sentences or reproduce supplied works verbatim.",
+  "retrieval_policy": {
+    "use_all_works_as_corpus": true,
+    "select_passages_by_scene_goal_character_and_theme": true,
+    "prefer_short_story_prose_for_scene_cadence": true,
+    "use_poetry_for_theme_image_and_emotional_compression": true,
+    "never_copy_distinctive_sentences": true,
+    "writer_reference_precedes_generic_genre_habits": true,
+    "bridge_receives_same_style_packet_without_bridge_modification": true
+  }
+}

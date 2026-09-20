@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Morning After Moonlight",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 11,
   "word_count": 1633,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “Morning After Moonlight,” I carried forward the choice “Tell Greg what I actually mean.” Let the joke fall away long enough to say the thing I want him to remember. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “Morning After Moonlight,” I carried forward the choice “Make Greg laugh and keep going.” Use the joke to stay connected, then carry the real feeling through it instead of dodging. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “Morning After Moonlight.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (boundary_conversations), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-12 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-11-direct",
-      "label": "Say the honest thing",
+      "label": "Tell Greg what I actually mean",
       "target": "su-12",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "generation_hint": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Morning After Moonlight · Greg Universe / Jasper · Tell Greg what I actually mean · Let the joke fall away long enough to say the thing I want him to remember. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-11-playful",
-      "label": "Let the moment be playful",
+      "label": "Make Greg laugh and keep going",
       "target": "su-12",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "generation_hint": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Morning After Moonlight · Greg Universe / Jasper · Make Greg laugh and keep going · Use the joke to stay connected, then carry the real feeling through it instead of dodging. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-11-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “Morning After Moonlight,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-12 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Morning After Moonlight · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-12",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-12"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "boundary_conversations",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "Morning arrived with a stiff neck, cold coffee, and Greg's arm wrapped around my waist.\n\nThe van was warmer than the night had been, but not by much. My cheek rested against the worn fabric of his shirt. His heartbeat moved beneath it, steady and unhurried. For a few minutes, I stayed still and let myself believe that waking beside someone could be ordinary.\n\nThen Greg's phone rang.\n\nHe groaned, reached blindly across I, and knocked a thermos onto the floor. It rolled beneath the front seats.\n\n“If that is a telemarketer,” he muttered, “I am going to sell them a van.”\n\nThe phone rang again.\n\nI lifted my head. “You should answer.”\n\n“I should do many things.”\n\n“Like retrieving the coffee.”\n\n“The coffee has made its choice.”\n\nHe found the phone beneath the seat and squinted at the screen. His expression shifted from sleepy affection to startled panic.\n\n“It’s Steven,” he said.\n\n“Your son?”\n\n“Yes.”\n\n“Do you want me to—”\n\n“No, stay.”\n\nThe request came too quickly to be casual. Greg answered.\n\n“Hey, buddy.”\n\nThe voice on the other end was muffled, but bright. Greg's shoulders relaxed.\n\n“No, I’m not in trouble.” He glanced at I. “I’m at the overlook.”\n\nSteven said something that made Greg rub his face.\n\n“I did not forget. I told you I would call after the gig.”\n\nAnother pause.\n\n“I know. I’m sorry.”\n\nThe tenderness in his voice was different from the way he spoke to I, but not separate from it. I listened to the care he gave freely, the ease with which he admitted fault.\n\n“I’ll call tonight,” Greg promised. “Love you too.”\n\nHe ended the call and exhaled.\n\n“He’s okay?” I asked.\n\n“Yeah. He’s visiting a friend and wanted to hear about the show.” Greg put the phone down. “He knows about you.”\n\nI sat up. “What?”\n\n“Not everything.” His ears went pink. “I told him I met someone.”\n\n“When?”\n\n“A few days ago.”\n\n“You told your son about me before I knew you had told anyone?”\n\n“I didn’t mean to make it weird.”\n\n“I’m not sure you get to decide whether it’s weird.”\n\nGreg's face fell. I immediately regretted the sharpness, but the feeling underneath it remained.\n\n“I’m sorry,” I said. “I’m not angry that he knows. I’m surprised.”\n\n“I was excited.”\n\nThe simple confession disarmed I.\n\n“You were excited?”\n\n“I wanted someone to know I was happy.”\n\nThe van became very quiet.\n\nI looked at him. He had spent so much of his life turning pain into music, but happiness still seemed to make him nervous. As though naming it might invite the universe to take it back.\n\n“I’m happy too,” I said.\n\nHis eyes searched mine. “You are?”\n\n“Yes.”\n\n“Even though I told your existence to my son before asking permission?”\n\n“I’m going to continue being annoyed about that for at least another hour.”\n\n“Fair.”\n\n“But yes.”\n\nGreg reached for my hand. “Would you want to meet him?”\n\nThe question carried more weight than the words showed. It was not a demand. It was a door he was opening.\n\n“Do you want me to?”\n\n“Yes.”\n\n“Why?”\n\n“Because he’s important to me. And you are.”\n\nI looked out through the open van doors. Morning had begun to color the horizon.\n\n“I’m nervous,” I admitted.\n\n“Steven is very friendly.”\n\n“That might be worse.”\n\n“He also talks a lot when he’s nervous.”\n\n“Is he like you?”\n\n“He is like himself.” Greg smiled. “But he got the talking from me.”\n\n“What if he doesn’t like me?”\n\n“Then we give him time. He doesn’t have to like you immediately. Neither did you.”\n\n“I liked you at breakfast.”\n\n“You liked the pancakes.”\n\n“The pancakes were influential.”\n\nGreg's thumb moved over my knuckles.\n\n“He’ll be okay,” Greg said. “And if it’s too much, we leave. You don’t have to perform being comfortable.”\n\nI looked at him. “Do you tell everyone that?”\n\n“Only people I want to keep.”\n\nThe words made the morning softer.\n\nI spent the day in Beach City instead of returning to the studio. Greg brought me to the car wash, where he introduced I to the hose as though it were a respected colleague. I helped him replace the broken leg on the record shelf. The repair was uneven, but the shelf stood.\n\n“A triumph,” Greg said.\n\n“A warning.”\n\n“Both can be true.”\n\nThat evening, Steven arrived at the boardwalk carrying a backpack and a smile bright enough to compete with the sunset. He was taller than I expected, with the same kind eyes as the boy in the photograph, though his face had grown into itself.\n\n“Hi!” he said.\n\nI said hello.\n\nSteven hugged I before asking, then stopped halfway and lifted both hands. “Sorry. Is hugging okay?”\n\nThe question made me smile.\n\n“Yes,” I said.\n\nHe hugged I carefully, briefly, and stepped back.\n\n“Dad has been talking about you,” Steven said.\n\nGreg groaned. “Have I?”\n\n“You said they laugh at your worst jokes.”\n\n“That was private.”\n\n“You also said they make tea too hot.”\n\n“That was observational.”\n\n“And that they think the van is a house with delusions.”\n\nSteven turned to I. “I like you.”\n\nI laughed. Greg covered his face.\n\nThe three of I walked the boardwalk. Steven asked about my move, my favorite music, and whether I had seen the lighthouse. He listened to every answer. When I asked about him, he gave me stories that were stranger than anything I could have imagined and somehow told them with complete sincerity.\n\nGreg watched the two of I talk. Pride softened his whole body.\n\nAt the pier, Steven bought three ice creams. One melted down his wrist before he could eat it.\n\n“You have to lick it faster,” Greg advised.\n\n“I know how ice cream works, Dad.”\n\n“I’m offering support.”\n\n“You’re making it worse.”\n\n“That’s my specialty.”\n\nI wiped a drop of melting ice cream from my hand. Steven offered me a napkin. Greg offered me his sleeve. I chose the napkin.\n\n“Wise,” Steven said.\n\n“I’m learning.”\n\nAs the sun went down, Steven received a message and prepared to leave. He hugged Greg first, then turned to I.\n\n“I’m glad Dad found you,” he said.\n\nMy chest tightened. “You barely know me.”\n\n“I know he smiles differently.”\n\nI looked at Greg. He was pretending to study the horizon.\n\n“He’s always smiled,” I said.\n\n“Not like that.”\n\nSteven hugged I again, then walked toward the road.\n\nGreg waited until his son was out of earshot. “I’m sorry.”\n\n“For what?”\n\n“He’s very perceptive.”\n\n“That’s not a crime.”\n\n“It should be. He uses it against me.”\n\nI slipped my hand into Greg's. “Your son is wonderful.”\n\nGreg's fingers tightened around mine.\n\n“Thank you for meeting him,” he said.\n\n“Thank you for asking.”\n\n“I should have asked before telling him.”\n\n“Yes.”\n\n“I’m still going to be happy about it.”\n\n“You’re allowed.”\n\nHe looked at me, sunlight fading across his face. “Can I kiss you?”\n\n“Your son is still on the boardwalk.”\n\n“That was not an answer.”\n\nI leaned closer. “Later.”\n\nGreg smiled. “I can work with later.”\n\nThey walked home beneath the first stars. Greg's hand stayed in mine, and for once, the future did not feel like a door I had to open alone.\n\nThe next morning, Steven sent me a message from somewhere with too much sunlight.\n\nHI! DAD SAYS YOU LIKE TEA. I FOUND A TEA SHOP THAT SELLS TEA THAT CHANGES COLOR. I THINK IT MIGHT BE MAGIC BUT IT COULD ALSO BE FOOD DYE. DO YOU WANT SOME?\n\nI showed Greg.\n\n“He gets that enthusiasm from me,” Greg said.\n\n“He gets the all-caps from you too?”\n\n“No. That’s new.”\n\nI typed back: YES, PLEASE. TELL YOUR DAD TO STOP TELLING PEOPLE MY TEA HABITS.\n\nSteven answered almost immediately: HE SAYS HE WILL NOT.\n\nGreg took the phone from I and typed: TRAITOR.\n\nThe three of I exchanged messages for nearly an hour. Steven sent pictures of the tea. Greg sent a picture of the terrible pancake he had attempted to make in the motel kitchenette. I sent a photograph of the crooked bookshelf.\n\nSteven replied: IT LOOKS LIKE IT HAS STORIES.\n\n“He’s very kind,” I said.\n\n“He gets that from his mother.”\n\nThe words were not bitter. They were tender, carrying the memory of someone absent without turning the absence into a wound I had to manage.\n\nI put the phone down. “Thank you for letting me meet him.”\n\n“Thank you for wanting to.”\n\nGreg's hand found mine beneath the blanket.\n\n“I was afraid,” I said.\n\n“I know.”\n\n“I’m still afraid.”\n\n“I know.”\n\n“But I’m glad I did it.”\n\nHe kissed my knuckles. “That’s usually how courage works.”\n\n“You’re going to make it a lesson.”\n\n“I’m going to make it breakfast.”\n\nHe attempted pancakes again. The first was burnt. The second was raw. The third was shaped like a star and tasted surprisingly good.\n\n“You made a star,” I said.\n\n“It happened naturally.”\n\n“It’s an omen.”\n\n“It’s breakfast.”\n\nI ate it together, the two of I sitting on the motel bed while sunlight filled the room.\n\nLater, when Greg drove I home, Steven called. I listened as they argued about whether a magical lion could be trained to stop sitting on the passenger seat. Greg put the call on speaker. When Steven asked me to take his side, I refused on the grounds that I had insufficient evidence.\n\n“You’re learning family politics,” Greg said.\n\n“I’m learning not to get between you and the lion.”\n\n“Very wise.”\n\nThe van rolled into Beach City. Greg's hand rested on my knee.\n\nI had not planned to meet his son when I arrived with my suitcase. I had not planned to fall in love with a man who carried a guitar like a second heartbeat.\n\nThe best parts of my life had begun without plans.",
+  "content": "Morning arrived with a stiff neck, cold coffee, and Greg's arm wrapped around my waist.\n\nThe van was warmer than the night had been, but not by much. My cheek rested against the worn fabric of his shirt. His heartbeat moved beneath it, steady and unhurried. For a few minutes, I stayed still and let myself believe that waking beside someone could be ordinary.\n\nThen Greg's phone rang.\n\nHe groaned, reached blindly across me, and knocked a thermos onto the floor. It rolled beneath the front seats.\n\n“If that is a telemarketer,” he muttered, “I am going to sell them a van.”\n\nThe phone rang again.\n\nI lifted my head. “You should answer.”\n\n“I should do many things.”\n\n“Like retrieving the coffee.”\n\n“The coffee has made its choice.”\n\nHe found the phone beneath the seat and squinted at the screen. His expression shifted from sleepy affection to startled panic.\n\n“It’s Steven,” he said.\n\n“Your son?”\n\n“Yes.”\n\n“Do you want me to—”\n\n“No, stay.”\n\nThe request came too quickly to be casual. Greg answered.\n\n“Hey, buddy.”\n\nThe voice on the other end was muffled, but bright. Greg's shoulders relaxed.\n\n“No, I’m not in trouble.” He glanced at me. “I’m at the overlook.”\n\nSteven said something that made Greg rub his face.\n\n“I did not forget. I told you I would call after the gig.”\n\nAnother pause.\n\n“I know. I’m sorry.”\n\nThe tenderness in his voice was different from the way he spoke to me, but not separate from it. I listened to the care he gave freely, the ease with which he admitted fault.\n\n“I’ll call tonight,” Greg promised. “Love you too.”\n\nHe ended the call and exhaled.\n\n“He’s okay?” I asked.\n\n“Yeah. He’s visiting a friend and wanted to hear about the show.” Greg put the phone down. “He knows about you.”\n\nI sat up. “What?”\n\n“Not everything.” His ears went pink. “I told him I met someone.”\n\n“When?”\n\n“A few days ago.”\n\n“You told your son about me before I knew you had told anyone?”\n\n“I didn’t mean to make it weird.”\n\n“I’m not sure you get to decide whether it’s weird.”\n\nGreg's face fell. I immediately regretted the sharpness, but the feeling underneath it remained.\n\n“I’m sorry,” I said. “I’m not angry that he knows. I’m surprised.”\n\n“I was excited.”\n\nThe simple confession disarmed me.\n\n“You were excited?”\n\n“I wanted someone to know I was happy.”\n\nThe van became very quiet.\n\nI looked at him. He had spent so much of his life turning pain into music, but happiness still seemed to make him nervous. As though naming it might invite the universe to take it back.\n\n“I’m happy too,” I said.\n\nHis eyes searched mine. “You are?”\n\n“Yes.”\n\n“Even though I told your existence to my son before asking permission?”\n\n“I’m going to continue being annoyed about that for at least another hour.”\n\n“Fair.”\n\n“But yes.”\n\nGreg reached for my hand. “Would you want to meet him?”\n\nThe question carried more weight than the words showed. It was not a demand. It was a door he was opening.\n\n“Do you want me to?”\n\n“Yes.”\n\n“Why?”\n\n“Because he’s important to me. And you are.”\n\nI looked out through the open van doors. Morning had begun to color the horizon.\n\n“I’m nervous,” I admitted.\n\n“Steven is very friendly.”\n\n“That might be worse.”\n\n“He also talks a lot when he’s nervous.”\n\n“Is he like you?”\n\n“He is like himself.” Greg smiled. “But he got the talking from me.”\n\n“What if he doesn’t like me?”\n\n“Then we give him time. He doesn’t have to like you immediately. Neither did you.”\n\n“I liked you at breakfast.”\n\n“You liked the pancakes.”\n\n“The pancakes were influential.”\n\nGreg's thumb moved over my knuckles.\n\n“He’ll be okay,” Greg said. “And if it’s too much, we leave. You don’t have to perform being comfortable.”\n\nI looked at him. “Do you tell everyone that?”\n\n“Only people I want to keep.”\n\nThe words made the morning softer.\n\nI spent the day in Beach City instead of returning to the studio. Greg brought me to the car wash, where he introduced me to the hose as though it were a respected colleague. I helped him replace the broken leg on the record shelf. The repair was uneven, but the shelf stood.\n\n“A triumph,” Greg said.\n\n“A warning.”\n\n“Both can be true.”\n\nThat evening, Steven arrived at the boardwalk carrying a backpack and a smile bright enough to compete with the sunset. He was taller than I expected, with the same kind eyes as the boy in the photograph, though his face had grown into itself.\n\n“Hi!” he said.\n\nI said hello.\n\nSteven hugged me before asking, then stopped halfway and lifted both hands. “Sorry. Is hugging okay?”\n\nThe question made me smile.\n\n“Yes,” I said.\n\nHe hugged me carefully, briefly, and stepped back.\n\n“Dad has been talking about you,” Steven said.\n\nGreg groaned. “Have I?”\n\n“You said they laugh at your worst jokes.”\n\n“That was private.”\n\n“You also said they make tea too hot.”\n\n“That was observational.”\n\n“And that they think the van is a house with delusions.”\n\nSteven turned to me. “I like you.”\n\nI laughed. Greg covered his face.\n\nThe three of us walked the boardwalk. Steven asked about my move, my favorite music, and whether I had seen the lighthouse. He listened to every answer. When I asked about him, he gave me stories that were stranger than anything I could have imagined and somehow told them with complete sincerity.\n\nGreg watched the two of us talk. Pride softened his whole body.\n\nAt the pier, Steven bought three ice creams. One melted down his wrist before he could eat it.\n\n“You have to lick it faster,” Greg advised.\n\n“I know how ice cream works, Dad.”\n\n“I’m offering support.”\n\n“You’re making it worse.”\n\n“That’s my specialty.”\n\nI wiped a drop of melting ice cream from my hand. Steven offered me a napkin. Greg offered me his sleeve. I chose the napkin.\n\n“Wise,” Steven said.\n\n“I’m learning.”\n\nAs the sun went down, Steven received a message and prepared to leave. He hugged Greg first, then turned to me.\n\n“I’m glad Dad found you,” he said.\n\nMy chest tightened. “You barely know me.”\n\n“I know he smiles differently.”\n\nI looked at Greg. He was pretending to study the horizon.\n\n“He’s always smiled,” I said.\n\n“Not like that.”\n\nSteven hugged me again, then walked toward the road.\n\nGreg waited until his son was out of earshot. “I’m sorry.”\n\n“For what?”\n\n“He’s very perceptive.”\n\n“That’s not a crime.”\n\n“It should be. He uses it against me.”\n\nI slipped my hand into Greg's. “Your son is wonderful.”\n\nGreg's fingers tightened around mine.\n\n“Thank you for meeting him,” he said.\n\n“Thank you for asking.”\n\n“I should have asked before telling him.”\n\n“Yes.”\n\n“I’m still going to be happy about it.”\n\n“You’re allowed.”\n\nHe looked at me, sunlight fading across his face. “Can I kiss you?”\n\n“Your son is still on the boardwalk.”\n\n“That was not an answer.”\n\nI leaned closer. “Later.”\n\nGreg smiled. “I can work with later.”\n\nThey walked home beneath the first stars. Greg's hand stayed in mine, and for once, the future did not feel like a door I had to open alone.\n\nThe next morning, Steven sent me a message from somewhere with too much sunlight.\n\nHI! DAD SAYS YOU LIKE TEA. I FOUND A TEA SHOP THAT SELLS TEA THAT CHANGES COLOR. I THINK IT MIGHT BE MAGIC BUT IT COULD ALSO BE FOOD DYE. DO YOU WANT SOME?\n\nI showed Greg.\n\n“He gets that enthusiasm from me,” Greg said.\n\n“He gets the all-caps from you too?”\n\n“No. That’s new.”\n\nI typed back: YES, PLEASE. TELL YOUR DAD TO STOP TELLING PEOPLE MY TEA HABITS.\n\nSteven answered almost immediately: HE SAYS HE WILL NOT.\n\nGreg took the phone from me and typed: TRAITOR.\n\nThe three of us exchanged messages for nearly an hour. Steven sent pictures of the tea. Greg sent a picture of the terrible pancake he had attempted to make in the motel kitchenette. I sent a photograph of the crooked bookshelf.\n\nSteven replied: IT LOOKS LIKE IT HAS STORIES.\n\n“He’s very kind,” I said.\n\n“He gets that from his mother.”\n\nThe words were not bitter. They were tender, carrying the memory of someone absent without turning the absence into a wound I had to manage.\n\nI put the phone down. “Thank you for letting me meet him.”\n\n“Thank you for wanting to.”\n\nGreg's hand found mine beneath the blanket.\n\n“I was afraid,” I said.\n\n“I know.”\n\n“I’m still afraid.”\n\n“I know.”\n\n“But I’m glad I did it.”\n\nHe kissed my knuckles. “That’s usually how courage works.”\n\n“You’re going to make it a lesson.”\n\n“I’m going to make it breakfast.”\n\nHe attempted pancakes again. The first was burnt. The second was raw. The third was shaped like a star and tasted surprisingly good.\n\n“You made a star,” I said.\n\n“It happened naturally.”\n\n“It’s an omen.”\n\n“It’s breakfast.”\n\nWe ate it together, the two of us sitting on the motel bed while sunlight filled the room.\n\nLater, when Greg drove I home, Steven called. I listened as they argued about whether a magical lion could be trained to stop sitting on the passenger seat. Greg put the call on speaker. When Steven asked me to take his side, I refused on the grounds that I had insufficient evidence.\n\n“You’re learning family politics,” Greg said.\n\n“I’m learning not to get between you and the lion.”\n\n“Very wise.”\n\nThe van rolled into Beach City. Greg's hand rested on my knee.\n\nI had not planned to meet his son when I arrived with my suitcase. I had not planned to fall in love with a man who carried a guitar like a second heartbeat.\n\nThe best parts of my life had begun without plans.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,259 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "boundary_conversations",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · Morning After Moonlight · Greg Universe / Jasper · boundary_conversations · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 11,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-12",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-12",
+    "private_handoff_resume_target": "su-12"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-12",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "boundary_conversations",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "boundary_conversations",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-11",
+    "chapter_number": 11,
+    "title": "Morning After Moonlight",
+    "relationship_stage": "boundary_conversations",
+    "opening_anchor": "Morning arrived with a stiff neck, cold coffee, and Greg's arm wrapped around my waist.",
+    "closing_anchor": "I had not planned to meet his son when I arrived with my suitcase. I had not planned to fall in love with a man who carried a guitar like a second heartbeat. The best parts of my life had begun without plans.",
+    "next_story_target": "su-12",
+    "private_resume_target": "su-12",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · Morning After Moonlight · Greg Universe / Jasper · boundary_conversations · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-lion"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

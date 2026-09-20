@@ -1,0 +1,1993 @@
+{
+  "schema_version": "jasper.authored-library-index.v2",
+  "generated_at": "2026-09-20",
+  "series": [
+    {
+      "key": "after-always",
+      "title": "After Always",
+      "fandom": "Harry Potter",
+      "canon_window": "Postwar adult timeline only: adult Jasper and adult Severus Snape rebuilding life after the war; no school-age version of any romantic/private-interlude participant is used.",
+      "chapter_count": 40,
+      "total_word_count": 54255,
+      "story_bible": [
+        "The story is about surviving the life neither person expected after the war: difficult truths, potions, work, grief, accountability, and quiet acts of chosen care.",
+        "Snape remains sharp, private, exact, dry, suspicious of sentimentality, and capable of cruelty when wounded; tenderness should never make him suddenly verbose, sunny, or generic.",
+        "Jasper does not exist to redeem Snape. They can challenge him, leave a room, demand accountability, laugh at him, care for him, and choose him without excusing harm.",
+        "Lily, the war, the Dark Mark, teaching, Spinner’s End, and Snape’s history are continuity pressures rather than buttons to press for instant vulnerability.",
+        "Generated chapter 41+ must treat the authored forty-chapter relationship as established history and preserve the specific repairs already earned."
+      ],
+      "character_bible": [
+        "Jasper — adult named first-person protagonist; witty, compassionate, observant, articulate, stubborn, and unwilling to confuse understanding someone with surrendering boundaries.",
+        "Severus Snape — controlled, exact, dry, private, defensive, intellectually sharp, often speaking in economical barbs or precise statements. Rare approval carries weight because it is rare.",
+        "Their relationship works through precision: exact questions, exact apologies, difficult silence, competence, practical care, and the difference between pity and chosen love."
+      ],
+      "generated_continuation_contract": {
+        "start_after_authored_chapter": 40,
+        "first_generated_chapter_number": 41,
+        "target_words": 1800,
+        "minimum_acceptable_words": 1200,
+        "carry_full_authored_arc": true,
+        "never_restart_relationship": true,
+        "never_repeat_first_meeting": true,
+        "preserve_unresolved_threads": true,
+        "preserve_choice_history": true,
+        "preserve_writer_reference": true,
+        "preserve_jasper_profile": true,
+        "preserve_canon_voice": true,
+        "private_handoff_optional_only": true
+      },
+      "chapters": [
+        {
+          "id": "after-always-01",
+          "chapter_number": 1,
+          "title": "The Man Who Was Supposed to Be Dead",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "The audit had been underway for less than two hours. Already, I knew I would not be leaving Hogwarts on schedule.",
+          "next_story_target": "after-always-02",
+          "private_resume_target": "after-always-02"
+        },
+        {
+          "id": "after-always-02",
+          "chapter_number": 2,
+          "title": "Bitter Root",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "His mouth twitched. “Finally,” he said, “you have identified a genuine failing.”",
+          "next_story_target": "after-always-03",
+          "private_resume_target": "after-always-03"
+        },
+        {
+          "id": "after-always-03",
+          "chapter_number": 3,
+          "title": "Terms of Recovery",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I did not write it on the list. Some things, I was learning, did not need to become evidence.",
+          "next_story_target": "after-always-04",
+          "private_resume_target": "after-always-04"
+        },
+        {
+          "id": "after-always-04",
+          "chapter_number": 4,
+          "title": "The Dungeons Remember",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Then he looked down the stairs again, and this time the doorway seemed less like something waiting to swallow him. For the first time, I wondered what it would mean if Snape learned he was allowed to remember without living there.",
+          "next_story_target": "after-always-05",
+          "private_resume_target": "after-always-05"
+        },
+        {
+          "id": "after-always-05",
+          "chapter_number": 5,
+          "title": "Instructions in the Margin",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I read because the mind in those pages was fierce, impatient, inventive, wounded, arrogant, and alive. And because, for reasons I was not yet willing to name, he had trusted me with it.",
+          "next_story_target": "after-always-06",
+          "private_resume_target": "after-always-06"
+        },
+        {
+          "id": "after-always-06",
+          "chapter_number": 6,
+          "title": "A Question of Antidotes",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The past was not finished. Neither, apparently, was he.",
+          "next_story_target": "after-always-07",
+          "private_resume_target": "after-always-07"
+        },
+        {
+          "id": "after-always-07",
+          "chapter_number": 7,
+          "title": "The Scar at His Throat",
+          "relationship_stage": "flirting",
+          "closing_anchor": "I pretended not to notice. Some things did not need to become evidence.",
+          "next_story_target": "after-always-08",
+          "private_resume_target": "after-always-08"
+        },
+        {
+          "id": "after-always-08",
+          "chapter_number": 8,
+          "title": "Spinner's End",
+          "relationship_stage": "flirting",
+          "closing_anchor": "So I walked beside him in the rain. This time, silence did not feel like distance.",
+          "next_story_target": "after-always-09",
+          "private_resume_target": "after-always-09"
+        },
+        {
+          "id": "after-always-09",
+          "chapter_number": 9,
+          "title": "A Cup of Tea, Unpoisoned",
+          "relationship_stage": "flirting",
+          "closing_anchor": "“Yes,” he said. “It is.” I carried it back to Hogwarts with the journals.",
+          "next_story_target": "after-always-10",
+          "private_resume_target": "after-always-10"
+        },
+        {
+          "id": "after-always-10",
+          "chapter_number": 10,
+          "title": "The Room Behind the Office",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The room was still private after I had seen it. That mattered. Being invited inside did not make me its owner. Less empty.",
+          "next_story_target": "after-always-11",
+          "private_resume_target": "after-always-11"
+        },
+        {
+          "id": "after-always-11",
+          "chapter_number": 11,
+          "title": "The First Argument",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "Something eased between us. Not peace. Terms. Because he had been wrong, had known it, and stayed in the room.",
+          "next_story_target": "after-always-12",
+          "private_resume_target": "after-always-12"
+        },
+        {
+          "id": "after-always-12",
+          "chapter_number": 12,
+          "title": "What He Does Not Say",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "He looked almost offended, which was better than looking hollow. Sometimes it sounded very much like change.",
+          "next_story_target": "after-always-13",
+          "private_resume_target": "after-always-13"
+        },
+        {
+          "id": "after-always-13",
+          "chapter_number": 13,
+          "title": "A Patronus in the Corridor",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "For some reason, that one word felt better than applause. Tomorrow, he was going to teach me how to do the same for myself.",
+          "next_story_target": "after-always-14",
+          "private_resume_target": "after-always-14"
+        },
+        {
+          "id": "after-always-14",
+          "chapter_number": 14,
+          "title": "Night Work",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "The next night, he was the one who ended work first. That was definitely a problem.",
+          "next_story_target": "after-always-15",
+          "private_resume_target": "after-always-15"
+        },
+        {
+          "id": "after-always-15",
+          "chapter_number": 15,
+          "title": "The Half-Blood Prince",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "It was enough to make the room feel brighter. That silence had a new language too.",
+          "next_story_target": "after-always-16",
+          "private_resume_target": "after-always-16"
+        },
+        {
+          "id": "after-always-16",
+          "chapter_number": 16,
+          "title": "For Enemies",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "For once, we did not need to argue the difference. And another.",
+          "next_story_target": "after-always-17",
+          "private_resume_target": "after-always-17"
+        },
+        {
+          "id": "after-always-17",
+          "chapter_number": 17,
+          "title": "The Language of Hands",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "That night, the language of hands gained sarcasm too. This time neither of us pretended it was accidental.",
+          "next_story_target": "after-always-18",
+          "private_resume_target": "after-always-18"
+        },
+        {
+          "id": "after-always-18",
+          "chapter_number": 18,
+          "title": "Hogsmeade in Rain",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "From Severus, it felt dangerously close to flowers. My new boots did not leak at all.",
+          "next_story_target": "after-always-19",
+          "private_resume_target": "after-always-19"
+        },
+        {
+          "id": "after-always-19",
+          "chapter_number": 19,
+          "title": "The Apology He Hates",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "The apology, I realized, was not the sentence. It was the changed behavior after it. Repair.",
+          "next_story_target": "after-always-20",
+          "private_resume_target": "after-always-20"
+        },
+        {
+          "id": "after-always-20",
+          "chapter_number": 20,
+          "title": "A Door Left Open",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "By the end of the week, I understood that intimacy with Severus was not constant access. It was knowing a boundary would survive being used. Behind me, he did not close the office door.",
+          "next_story_target": "after-always-21",
+          "private_resume_target": "after-always-21"
+        },
+        {
+          "id": "after-always-21",
+          "chapter_number": 21,
+          "title": "Christmas Without Ghosts",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "“May we survive the boredom.” There was a difference.",
+          "next_story_target": "after-always-22",
+          "private_resume_target": "after-always-22"
+        },
+        {
+          "id": "after-always-22",
+          "chapter_number": 22,
+          "title": "The Mark",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "He left his arm where it was. I stopped wishing it would.",
+          "next_story_target": "after-always-23",
+          "private_resume_target": "after-always-23"
+        },
+        {
+          "id": "after-always-23",
+          "chapter_number": 23,
+          "title": "Occlumency",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "More importantly, he had brought me back without taking control away from me. This time he allowed it.",
+          "next_story_target": "after-always-24",
+          "private_resume_target": "after-always-24"
+        },
+        {
+          "id": "after-always-24",
+          "chapter_number": 24,
+          "title": "The Memory He Offers",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "That was how I learned the difference between information extracted and memory shared. We walked back to the dungeon together.",
+          "next_story_target": "after-always-25",
+          "private_resume_target": "after-always-25"
+        },
+        {
+          "id": "after-always-25",
+          "chapter_number": 25,
+          "title": "The One I Refuse to Pity",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Not yet, I understood, was not the same as no. The man remained.",
+          "next_story_target": "after-always-26",
+          "private_resume_target": "after-always-26"
+        },
+        {
+          "id": "after-always-26",
+          "chapter_number": 26,
+          "title": "A Different Kind of Loyalty",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "When I left, they were alphabetical. I did not mention it.\\n\\nI reached the door before he spoke again.\\n\\n“Jasper.”\\n\\nI turned.\\n\\nSnape had not moved from the worktable. One hand rested beside the newly alphabetized bottles, fingers spread against the wood as if he needed the contact to keep the room still.\\n\\n“Yes?”\\n\\nHis eyes went to the door, then back to me.\\n\\n“If tomorrow becomes unpleasant—”\\n\\n“It will.”\\n\\nHis expression sharpened. “I had intended to finish the sentence.”\\n\\n“Sorry. Continue your prophecy.”\\n\\n“If tomorrow becomes unpleasant,” he repeated, “you are not required to remain.”\\n\\nThe careful phrasing told me he had been thinking about it for a while. Not whether I would come. Whether I would leave once the room became cruel.\\n\\nI leaned one shoulder against the doorframe. “Are you asking me to leave?”\\n\\n“No.”\\n\\n“Are you telling me to?”\\n\\n“No.”\\n\\n“Then what are you doing?”\\n\\nHis mouth tightened.\\n\\n“Providing an exit.”\\n\\nThe answer made something in my chest ache.\\n\\nI crossed back to the table. “You know what is interesting about exits?”\\n\\n“I am certain you intend to tell me.”\\n\\n“They work in both directions.”\\n\\nHe frowned.\\n\\n“If I need to…",
+          "next_story_target": "after-always-27",
+          "private_resume_target": "after-always-27"
+        },
+        {
+          "id": "after-always-27",
+          "chapter_number": 27,
+          "title": "The Kiss in the Storeroom",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The powdered unicorn horn stayed on the rejection pile. Some standards, apparently, remained non-negotiable.",
+          "next_story_target": "after-always-28",
+          "private_resume_target": "after-always-28"
+        },
+        {
+          "id": "after-always-28",
+          "chapter_number": 28,
+          "title": "After",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "It did not feel like distance. It felt like a promise.\\n\\nThe lift stopped two floors below the hearing chamber.\\n\\nA witch from the Department of Magical Law Enforcement stepped inside carrying three folders and the exhausted expression of someone who had spent the morning being shouted at by people with inherited seats. She recognized Snape immediately.\\n\\nHer eyes widened.\\n\\nThen, to her credit, she looked at the floor numbers instead of staring.\\n\\nSnape became so still beside me that I could feel the effort of it.\\n\\nI did not reach for his hand. Not because I did not want to. Because he had chosen distance in the atrium, and I wanted that choice to remain his instead of becoming something he had to defend.\\n\\nThe witch got off one floor later.\\n\\nThe doors closed.\\n\\nSnape exhaled.\\n\\n“You are thinking very loudly,” he said.\\n\\n“I thought that was your specialty.”\\n\\n“Yours is more obvious.”\\n\\nI looked at him. “Do you want me farther away?”\\n\\nHis head turned sharply.\\n\\n“No.”\\n\\n“Closer?”\\n\\nHe glanced at the brass doors, as though the Ministry itself might file a report on the answer.\\n\\n“Not here.”\\n\\n“Okay.”\\n\\nThat was all.\\n\\nNo punishment. No sulking. No test hidden…",
+          "next_story_target": "after-always-29",
+          "private_resume_target": "after-always-29"
+        },
+        {
+          "id": "after-always-29",
+          "chapter_number": 29,
+          "title": "The Hearing",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "“After.” This time, before the lift doors opened, his hand found mine.",
+          "next_story_target": "after-always-30",
+          "private_resume_target": "after-always-30"
+        },
+        {
+          "id": "after-always-30",
+          "chapter_number": 30,
+          "title": "A Name Cleared Poorly",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "He had been allowed to leave. And this time, he chose where to go next.\\n\\nMuch later, after the castle had gone quiet and the Prophet had been folded face-down under a stack of inventory sheets, Snape made tea.\\n\\nThat alone told me the day had broken something loose. He usually treated tea as a beverage for people who lacked access to competent coffee.\\n\\nHe put too many leaves in the pot.\\n\\nI drank it anyway.\\n\\n“What happens now?” I asked.\\n\\nSnape stood by the worktable with his cup untouched. “An appalling number of forms.”\\n\\n“I meant after the forms.”\\n\\n“I am aware.”\\n\\nHe looked around the dungeon. The evidence seals were mostly gone now. Shelves had been repaired. Student cauldrons waited in orderly stacks for a school year that would begin whether anyone felt ready or not.\\n\\n“You could stay here,” I said.\\n\\n“I could.”\\n\\n“Do you want to?”\\n\\nHis gaze dropped to his tea. “I don't know.”\\n\\nThat answer no longer startled me. It had become one of the strangest signs of trust between us.\\n\\n“Spinner's End?” I asked.\\n\\nHis expression closed slightly.\\n\\n“The house remains.”\\n\\n“That's not the same as wanting to live there.”\\n\\n“No.”\\n\\n“Do you need to go back?”\\n\\nHe…",
+          "next_story_target": "after-always-31",
+          "private_resume_target": "after-always-31"
+        },
+        {
+          "id": "after-always-31",
+          "chapter_number": 31,
+          "title": "A House That Still Stands",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "So did he. For the moment, that was enough.",
+          "next_story_target": "after-always-32",
+          "private_resume_target": "after-always-32"
+        },
+        {
+          "id": "after-always-32",
+          "chapter_number": 32,
+          "title": "What Lily Was and Was Not",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Those facts did not need to destroy each other. Both could be true.",
+          "next_story_target": "after-always-33",
+          "private_resume_target": "after-always-33"
+        },
+        {
+          "id": "after-always-33",
+          "chapter_number": 33,
+          "title": "The First Morning",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "It gave us breakfast, bad hair, careful questions, and a door we could leave separately. For me, that was more romantic than destiny.\\n\\nWe ate breakfast at the small table by the window.\\n\\nSnape had toast. I had tea strong enough to qualify as disciplinary action. Neither of us commented on the fact that he had remembered exactly how I took it.\\n\\nFor several minutes, the most intimate thing in the room was butter.\\n\\nI liked that.\\n\\nIt gave the night before somewhere ordinary to land.\\n\\nSnape opened the newspaper, read two paragraphs, and lowered it again.\\n\\n“You are watching me.”\\n\\n“You're holding the paper upside down.”\\n\\nHe looked at it.\\n\\nTurned it around.\\n\\n“I was testing the print quality.”\\n\\n“Obviously.”\\n\\n“Do not become smug before nine.”\\n\\n“What time is smugness permitted?”\\n\\n“Never. I was attempting compromise.”\\n\\nI laughed, and some of the remaining tension left his shoulders.\\n\\nThat was when I understood that he was waiting for the bill.\\n\\nNot money. Meaning. Expectation. The invisible invoice people sometimes handed each other after vulnerability: I gave you this, therefore you owe me that.\\n\\nI set my cup down.\\n\\n“Nothing changed that I didn't agree…",
+          "next_story_target": "after-always-34",
+          "private_resume_target": "after-always-34"
+        },
+        {
+          "id": "after-always-34",
+          "chapter_number": 34,
+          "title": "The Potion He Cannot Brew",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "There are no potions that make the past stop being true. Maybe that was mercy too.",
+          "next_story_target": "after-always-35",
+          "private_resume_target": "after-always-35"
+        },
+        {
+          "id": "after-always-35",
+          "chapter_number": 35,
+          "title": "The Letter from Hogwarts",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Not escape. Try.\\n\\nThe signature did not end the argument.\\n\\nIt started a new one.\\n\\n“You cannot simply sign their terms unchanged,” I said.\\n\\nSnape looked up from the parchment. “I have just done precisely that.”\\n\\n“You wrote three objections in the margins.”\\n\\n“Observations.”\\n\\n“One says, ‘This clause was clearly drafted by someone who has never entered a classroom.’”\\n\\n“An observation.”\\n\\n“Another says, ‘Define public disparagement.’”\\n\\n“A necessary legal clarification.”\\n\\n“The third just says, ‘No.’”\\n\\n“The clearest of the three.”\\n\\nI pulled the letter toward me. “If you're going back because you want to teach differently, make them give you conditions you can actually follow.”\\n\\nHis eyes narrowed. “You propose I negotiate for stricter oversight?”\\n\\n“I propose you negotiate for useful oversight.”\\n\\n“That sounds suspiciously like governance.”\\n\\n“Terrible, I know.”\\n\\nSnape stared at the fire.\\n\\nThen, slowly, he took a fresh sheet of parchment.\\n\\n“What would you change?” he asked.\\n\\nI tried not to look too pleased.\\n\\n“First, classroom observation should include feedback, not just surveillance.”\\n\\nHe wrote.\\n\\n“Second, student complaints need a process that…",
+          "next_story_target": "after-always-36",
+          "private_resume_target": "after-always-36"
+        },
+        {
+          "id": "after-always-36",
+          "chapter_number": 36,
+          "title": "A Better Kind of Classroom",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "His eyes narrowed. I had never enjoyed policy so much in my life.",
+          "next_story_target": "after-always-37",
+          "private_resume_target": "after-always-37"
+        },
+        {
+          "id": "after-always-37",
+          "chapter_number": 37,
+          "title": "The Laboratory at Spinner's End",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "He complained all the way to the door. He did not let go of my hand.",
+          "next_story_target": "after-always-38",
+          "private_resume_target": "after-always-38"
+        },
+        {
+          "id": "after-always-38",
+          "chapter_number": 38,
+          "title": "The Shape of Light",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "He was right. The Patronus burst into silver anyway.",
+          "next_story_target": "after-always-39",
+          "private_resume_target": "after-always-39"
+        },
+        {
+          "id": "after-always-39",
+          "chapter_number": 39,
+          "title": "What We Choose to Keep",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "He let me. That went in KEEP too.",
+          "next_story_target": "after-always-40",
+          "private_resume_target": "after-always-40"
+        },
+        {
+          "id": "after-always-40",
+          "chapter_number": 40,
+          "title": "After Always",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "More than enough. It was after always.",
+          "next_story_target": "@generate",
+          "private_resume_target": "@generate"
+        }
+      ]
+    },
+    {
+      "key": "jasmine-after-rain",
+      "title": "Jasmine After Rain",
+      "fandom": "Avatar: The Last Airbender",
+      "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+      "chapter_count": 40,
+      "total_word_count": 60989,
+      "story_bible": [
+        "The central romance grows through tea-shop routines, repair after grief, private jokes, practical care, and the difference between being admired as a legend and loved as a person.",
+        "Iroh remains a former general and strategist as well as a warm tea-shop owner; wisdom must not flatten him into a fortune-cookie therapist.",
+        "Jasper is funny, observant, affectionate, stubborn, detail-oriented about loved ones, and capable of direct vulnerability once trust is earned.",
+        "Slow burn means repeated choices, routines, conflict repair, remembered preferences, and changed behavior matter more than chapter count.",
+        "After the authored chapter 40 ending, generated chapter 41+ must continue the life already built instead of restarting the courtship or summarizing the forty-chapter arc."
+      ],
+      "character_bible": [
+        "Jasper — adult named first-person protagonist; narration uses I/me/my/mine/myself; other characters may use they/she. Goofy and chaotic surface energy coexists with empathy, intelligence, loyalty, careful observation, and hidden fears of being a burden.",
+        "Iroh — warm, patient, amused, observant, strategic, food/tea/Pai Sho oriented, capable of former-general intensity. Gentle humor and deceptively simple questions fit him; generic therapist speech does not.",
+        "Their relationship should preserve mutuality: Jasper notices and cares for Iroh too. He is not only a caretaker or teacher."
+      ],
+      "generated_continuation_contract": {
+        "start_after_authored_chapter": 40,
+        "first_generated_chapter_number": 41,
+        "target_words": 1800,
+        "minimum_acceptable_words": 1200,
+        "carry_full_authored_arc": true,
+        "never_restart_relationship": true,
+        "never_repeat_first_meeting": true,
+        "preserve_unresolved_threads": true,
+        "preserve_choice_history": true,
+        "preserve_writer_reference": true,
+        "preserve_jasper_profile": true,
+        "preserve_canon_voice": true,
+        "private_handoff_optional_only": true
+      },
+      "chapters": [
+        {
+          "id": "avatar-01",
+          "chapter_number": 1,
+          "title": "The Table in the Corner",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I told myself it was because he had asked. The lie was comforting enough to keep for one night.",
+          "next_story_target": "avatar-02",
+          "private_resume_target": "avatar-02"
+        },
+        {
+          "id": "avatar-02",
+          "chapter_number": 2,
+          "title": "Jasmine and Rain",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I noticed him noticing. Somewhere between the first cup and the closing bell, the job became a reason to remain.",
+          "next_story_target": "avatar-03",
+          "private_resume_target": "avatar-03"
+        },
+        {
+          "id": "avatar-03",
+          "chapter_number": 3,
+          "title": "A Guest with No Destination",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "In the morning, the shop smelled like jasmine and bread. Iroh had already placed a cup beside the register. I carried it upstairs, then returned before he could pretend not to be waiting.",
+          "next_story_target": "avatar-04",
+          "private_resume_target": "avatar-04"
+        },
+        {
+          "id": "avatar-04",
+          "chapter_number": 4,
+          "title": "The First Lesson",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I kept the key warm beneath my shirt. When I reached the shop, Iroh looked at the cord around my neck and smiled as though the morning had offered him a private answer.",
+          "next_story_target": "avatar-05",
+          "private_resume_target": "avatar-05"
+        },
+        {
+          "id": "avatar-05",
+          "chapter_number": 5,
+          "title": "The City's Quiet Scars",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "The city was waiting too. I opened the door beside Iroh. The first light entered the shop, touching the repaired wall and the jasmine leaves.",
+          "next_story_target": "avatar-06",
+          "private_resume_target": "avatar-06"
+        },
+        {
+          "id": "avatar-06",
+          "chapter_number": 6,
+          "title": "A Game of Pai Sho",
+          "relationship_stage": "flirting",
+          "closing_anchor": "Patiently. As I learned.",
+          "next_story_target": "avatar-07",
+          "private_resume_target": "avatar-07"
+        },
+        {
+          "id": "avatar-07",
+          "chapter_number": 7,
+          "title": "The Weight of a Name",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The moment remained. So did I.",
+          "next_story_target": "avatar-08",
+          "private_resume_target": "avatar-08"
+        },
+        {
+          "id": "avatar-08",
+          "chapter_number": 8,
+          "title": "A Walk Along the Wall",
+          "relationship_stage": "flirting",
+          "closing_anchor": "“Only in the best ways.” He smiled as if I had given the correct answer.",
+          "next_story_target": "avatar-09",
+          "private_resume_target": "avatar-09"
+        },
+        {
+          "id": "avatar-09",
+          "chapter_number": 9,
+          "title": "Tea for Two",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The cup stayed safe. So did the trust between us.",
+          "next_story_target": "avatar-10",
+          "private_resume_target": "avatar-10"
+        },
+        {
+          "id": "avatar-10",
+          "chapter_number": 10,
+          "title": "The Night Market",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The lanterns remained in memory. I carried them into every ordinary morning afterward.",
+          "next_story_target": "avatar-11",
+          "private_resume_target": "avatar-11"
+        },
+        {
+          "id": "avatar-11",
+          "chapter_number": 11,
+          "title": "When the Past Knocks",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "Iroh followed beside me. The tea chests bumped against the cart. The road smelled of wet stone and green leaves.",
+          "next_story_target": "avatar-12",
+          "private_resume_target": "avatar-12"
+        },
+        {
+          "id": "avatar-12",
+          "chapter_number": 12,
+          "title": "The Dragon's Breath",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "The road opened ahead. Iroh adjusted the pack on his shoulder and offered me his hand. I took it without hesitation.",
+          "next_story_target": "avatar-13",
+          "private_resume_target": "avatar-13"
+        },
+        {
+          "id": "avatar-13",
+          "chapter_number": 13,
+          "title": "A Journey North",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "So did his smile. The cart waited beneath the tree.",
+          "next_story_target": "avatar-14",
+          "private_resume_target": "avatar-14"
+        },
+        {
+          "id": "avatar-14",
+          "chapter_number": 14,
+          "title": "The Road Through the Hills",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "The flowers kept their color in the fading light. Iroh placed one beside my notebook before I returned to the cart.",
+          "next_story_target": "avatar-15",
+          "private_resume_target": "avatar-15"
+        },
+        {
+          "id": "avatar-15",
+          "chapter_number": 15,
+          "title": "The Storm",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "I remembered it anyway. And I kept going.",
+          "next_story_target": "avatar-16",
+          "private_resume_target": "avatar-16"
+        },
+        {
+          "id": "avatar-16",
+          "chapter_number": 16,
+          "title": "What We Choose",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "Iroh welcomed them in. Iroh set the cup down and kissed my forehead. Then the two of us went downstairs to meet the morning.",
+          "next_story_target": "avatar-17",
+          "private_resume_target": "avatar-17"
+        },
+        {
+          "id": "avatar-17",
+          "chapter_number": 17,
+          "title": "Return to Ba Sing Se",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "“Then let us go upstairs.” We climbed together, carrying the day with me and leaving the letters below.",
+          "next_story_target": "avatar-18",
+          "private_resume_target": "avatar-18"
+        },
+        {
+          "id": "avatar-18",
+          "chapter_number": 18,
+          "title": "The Shop After Closing",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "The quiet followed me to the shop door and waited while Iroh found the key. The night was quiet around me.",
+          "next_story_target": "avatar-19",
+          "private_resume_target": "avatar-19"
+        },
+        {
+          "id": "avatar-19",
+          "chapter_number": 19,
+          "title": "A Room Above the Tea Shop",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "I stood beneath them with Iroh's hand in mine, watching the new room become a place. It was a good place.",
+          "next_story_target": "avatar-20",
+          "private_resume_target": "avatar-20"
+        },
+        {
+          "id": "avatar-20",
+          "chapter_number": 20,
+          "title": "The Tea That Stays",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "And We welcomed it together. The courtyard filled with light.",
+          "next_story_target": "avatar-21",
+          "private_resume_target": "avatar-21"
+        },
+        {
+          "id": "avatar-21",
+          "chapter_number": 21,
+          "title": "The Lotus Opens",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. A home built after war could still fear permanence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He gave me the second key without a speech. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-22",
+          "private_resume_target": "avatar-22"
+        },
+        {
+          "id": "avatar-22",
+          "chapter_number": 22,
+          "title": "A Place at the Table",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He accepted being served without turning it into a lesson remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The empty chair stayed in the circle. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-23",
+          "private_resume_target": "avatar-23"
+        },
+        {
+          "id": "avatar-23",
+          "chapter_number": 23,
+          "title": "The White Lotus Does Not Whisper",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He introduced me as someone whose judgment he trusted remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The White Lotus left a stone as a welcome. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-24",
+          "private_resume_target": "avatar-24"
+        },
+        {
+          "id": "avatar-24",
+          "chapter_number": 24,
+          "title": "A Question Worth Asking",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He asked me to call him iroh without titles when we were alone remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The title disappeared between us. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-25",
+          "private_resume_target": "avatar-25"
+        },
+        {
+          "id": "avatar-25",
+          "chapter_number": 25,
+          "title": "The Garden Behind the Shop",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He allowed me to know something he did not remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The vine received a new label: not tea. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-26",
+          "private_resume_target": "avatar-26"
+        },
+        {
+          "id": "avatar-26",
+          "chapter_number": 26,
+          "title": "When Tea Goes Cold",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He offered a boundary with the white lotus remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The second cup stayed warm. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-27",
+          "private_resume_target": "avatar-27"
+        },
+        {
+          "id": "avatar-27",
+          "chapter_number": 27,
+          "title": "The Shape of Forgiveness",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He thanked me for staying when there was nothing to fix remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. We returned without leaving the hill behind. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-28",
+          "private_resume_target": "avatar-28"
+        },
+        {
+          "id": "avatar-28",
+          "chapter_number": 28,
+          "title": "The Game We Change",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He enjoyed being outplayed by someone who stayed remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The game ended in a knowing draw. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-29",
+          "private_resume_target": "avatar-29"
+        },
+        {
+          "id": "avatar-29",
+          "chapter_number": 29,
+          "title": "A Road of Our Own",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He feared leisure because it left room for memories remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He slept with one hand over mine. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-30",
+          "private_resume_target": "avatar-30"
+        },
+        {
+          "id": "avatar-30",
+          "chapter_number": 30,
+          "title": "The Fire Beneath the Kettle",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let himself be proud of life after the sword remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The kettle sang before either of us spoke. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-31",
+          "private_resume_target": "avatar-31"
+        },
+        {
+          "id": "avatar-31",
+          "chapter_number": 31,
+          "title": "A Letter from the Palace",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He answered with a question instead of a command remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The letter left room for both men to breathe. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-32",
+          "private_resume_target": "avatar-32"
+        },
+        {
+          "id": "avatar-32",
+          "chapter_number": 32,
+          "title": "The Things Iroh Cannot Carry",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He agreed to speak with someone about the nightmares remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. Morning found us holding the same blanket. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-33",
+          "private_resume_target": "avatar-33"
+        },
+        {
+          "id": "avatar-33",
+          "chapter_number": 33,
+          "title": "A Small Rebellion",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He was proud the shop belonged to both of us remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The next customer asked for jasmine. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-34",
+          "private_resume_target": "avatar-34"
+        },
+        {
+          "id": "avatar-34",
+          "chapter_number": 34,
+          "title": "Under the Same Lantern",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. Being desired still surprised him after a lifetime of being admired remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He bought a turtleduck as a strategic investment. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-35",
+          "private_resume_target": "avatar-35"
+        },
+        {
+          "id": "avatar-35",
+          "chapter_number": 35,
+          "title": "The General and the Gardener",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let the garden be a place where he was only present remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The first flower opened when we stopped watching. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-36",
+          "private_resume_target": "avatar-36"
+        },
+        {
+          "id": "avatar-36",
+          "chapter_number": 36,
+          "title": "A Promise with No Audience",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He wanted my particular company, not rescue from loneliness remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The city slept unaware that our lives changed. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-37",
+          "private_resume_target": "avatar-37"
+        },
+        {
+          "id": "avatar-37",
+          "chapter_number": 37,
+          "title": "The Day We Return",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He wanted lu ten in our story without making him its final sentence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. We carried the empty bowl down. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-38",
+          "private_resume_target": "avatar-38"
+        },
+        {
+          "id": "avatar-38",
+          "chapter_number": 38,
+          "title": "Jasmine in Winter",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He accepted being fussed over without calling it indulgence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The shop opened late and nobody died of it. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-39",
+          "private_resume_target": "avatar-39"
+        },
+        {
+          "id": "avatar-39",
+          "chapter_number": 39,
+          "title": "The Tea We Make",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He named the tea after a private joke remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The first jar had both our handwriting. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "avatar-40",
+          "private_resume_target": "avatar-40"
+        },
+        {
+          "id": "avatar-40",
+          "chapter_number": 40,
+          "title": "Jasmine After Rain",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let happiness exist without turning it into advice remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The rain stopped. The tea stayed warm. We stayed too. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+          "next_story_target": "@generate",
+          "private_resume_target": "@generate"
+        }
+      ]
+    },
+    {
+      "key": "love-and-duty",
+      "title": "Love & Duty",
+      "fandom": "Avatar: The Last Airbender",
+      "canon_window": "Adult postwar timeline only: Jasper, Aang, Katara, and Toph are explicitly adults before romance/private-interlude content. Their original minor-era canon versions are never used for adult intimacy.",
+      "chapter_count": 40,
+      "total_word_count": 60906,
+      "story_bible": [
+        "This is an adult postwar polycule story built through reconstruction work, public responsibility, cultural difference, arguments, chosen boundaries, and ordinary domestic labor.",
+        "Aang, Katara, and Toph must remain three distinct people with separate needs, humor, histories, responsibilities, and relationships with Jasper; never collapse them into one collective partner voice.",
+        "Jasper is not absorbed into the group. Their own needs, boundaries, work, humor, and point of view continue to matter.",
+        "Polycule stability comes from explicit communication, unequal moments of closeness being discussed rather than hidden, conflict repair, and room for one-on-one bonds as well as group bonds.",
+        "After chapter 40, generated continuation must treat the forty authored chapters as established history, not an origin story to repeat."
+      ],
+      "character_bible": [
+        "Jasper — adult named first-person protagonist; observant, funny, loyal, compassionate, stubborn, and willing to ask hard relational questions once trust exists.",
+        "Aang — warm, playful, spiritually minded, conflict-averse at times, carrying public duty and a desire to preserve culture without becoming only a symbol.",
+        "Katara — emotionally perceptive, practical, caring, politically and morally engaged, capable of anger and boundaries rather than endless maternal patience.",
+        "Toph — blunt, funny, fiercely independent, physically confident, allergic to pity, and emotionally revealing through action more often than speeches.",
+        "Each pair bond must have its own texture; group scenes should contain distinct reactions rather than unanimous responses."
+      ],
+      "generated_continuation_contract": {
+        "start_after_authored_chapter": 40,
+        "first_generated_chapter_number": 41,
+        "target_words": 1800,
+        "minimum_acceptable_words": 1200,
+        "carry_full_authored_arc": true,
+        "never_restart_relationship": true,
+        "never_repeat_first_meeting": true,
+        "preserve_unresolved_threads": true,
+        "preserve_choice_history": true,
+        "preserve_writer_reference": true,
+        "preserve_jasper_profile": true,
+        "preserve_canon_voice": true,
+        "private_handoff_optional_only": true
+      },
+      "chapters": [
+        {
+          "id": "Love-And-Duty-01",
+          "chapter_number": 1,
+          "title": "The Ground Under My Feet",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "For the first time since I had arrived, I wondered what it might feel like to stop treating it as a place I was passing through. The thought stayed with me.",
+          "next_story_target": "Love-And-Duty-02",
+          "private_resume_target": "Love-And-Duty-02"
+        },
+        {
+          "id": "Love-And-Duty-02",
+          "chapter_number": 2,
+          "title": "A Seat at the Table",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Aang groaned as if this were a genuine threat. Katara smiled over her tea. For once, I did not mind the possibility.",
+          "next_story_target": "Love-And-Duty-03",
+          "private_resume_target": "Love-And-Duty-03"
+        },
+        {
+          "id": "Love-And-Duty-03",
+          "chapter_number": 3,
+          "title": "Sugar Queen and the Blind Bandit",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Then she left me alone with a sugar flower, a metal stem, and absolutely no ability to pretend my problem involved only one person. The next morning, the sugar flower had cracked along one petal. The metal stem held. I decided that counted as symbolism only if nobody told Toph.",
+          "next_story_target": "Love-And-Duty-04",
+          "private_resume_target": "Love-And-Duty-04"
+        },
+        {
+          "id": "Love-And-Duty-04",
+          "chapter_number": 4,
+          "title": "Air Between Us",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "His thumb brushed mine once, light as moving air. The mountain wind tugged at our clothes, Appa snored in the grass, and nobody asked the moment to become larger than it was. When we joined the others, Aang let go only after asking with his eyes. I answered by squeezing once before I did. The choice made the distance feel intimate instead of empty.",
+          "next_story_target": "Love-And-Duty-05",
+          "private_resume_target": "Love-And-Duty-05"
+        },
+        {
+          "id": "Love-And-Duty-05",
+          "chapter_number": 5,
+          "title": "No One Carries Everyone",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Toph said, “You’re welcome.” Katara laughed until she had to sit down.",
+          "next_story_target": "Love-And-Duty-06",
+          "private_resume_target": "Love-And-Duty-06"
+        },
+        {
+          "id": "Love-And-Duty-06",
+          "chapter_number": 6,
+          "title": "What the Ground Knows",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The ground had a language. So did Toph. Both required paying attention to what happened underneath the obvious thing. “Again,” Toph said, and this time I laughed before I moved.",
+          "next_story_target": "Love-And-Duty-07",
+          "private_resume_target": "Love-And-Duty-07"
+        },
+        {
+          "id": "Love-And-Duty-07",
+          "chapter_number": 7,
+          "title": "Four Bowls, One Table",
+          "relationship_stage": "flirting",
+          "closing_anchor": "Toph broke the mood by stealing Aang’s dessert. He had not yet learned to guard it.",
+          "next_story_target": "Love-And-Duty-08",
+          "private_resume_target": "Love-And-Duty-08"
+        },
+        {
+          "id": "Love-And-Duty-08",
+          "chapter_number": 8,
+          "title": "The Kiss That Lifted Me",
+          "relationship_stage": "flirting",
+          "closing_anchor": "This time I felt it before it moved. This time I chose to stay inside it.",
+          "next_story_target": "Love-And-Duty-09",
+          "private_resume_target": "Love-And-Duty-09"
+        },
+        {
+          "id": "Love-And-Duty-09",
+          "chapter_number": 9,
+          "title": "Water Remembers",
+          "relationship_stage": "flirting",
+          "closing_anchor": "For once, neither of us made sacrifice into a competition. Katara smiled like she knew exactly how hard that tiny request had been. She did not praise me for it. Somehow that made it easier to do again.",
+          "next_story_target": "Love-And-Duty-10",
+          "private_resume_target": "Love-And-Duty-10"
+        },
+        {
+          "id": "Love-And-Duty-10",
+          "chapter_number": 10,
+          "title": "Toph Does Not Do Poetry",
+          "relationship_stage": "flirting",
+          "closing_anchor": "I kept the metal directions in my pocket until the edges warmed from my body. Toph never admitted making them. I never asked her to. The little piece stayed warm in my pocket all the way home.",
+          "next_story_target": "Love-And-Duty-11",
+          "private_resume_target": "Love-And-Duty-11"
+        },
+        {
+          "id": "Love-And-Duty-11",
+          "chapter_number": 11,
+          "title": "Terms We Choose",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "We never treated the page as law. It was a map drawn by four people who expected themselves to change, and therefore left space in the margins for new roads. We kept adding to it, one choice at a time.",
+          "next_story_target": "Love-And-Duty-12",
+          "private_resume_target": "Love-And-Duty-12"
+        },
+        {
+          "id": "Love-And-Duty-12",
+          "chapter_number": 12,
+          "title": "Public Faces",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "Eventually the hallway wall became a joke only we understood: evidence that public certainty could be loud, wrong, and still less important than what happened at our table. That mattered more than anything they printed.",
+          "next_story_target": "Love-And-Duty-13",
+          "private_resume_target": "Love-And-Duty-13"
+        },
+        {
+          "id": "Love-And-Duty-13",
+          "chapter_number": 13,
+          "title": "Fault Lines",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "A week later, one of those inspection schedules prevented another overloaded platform from collapsing. Nobody called that heroic. I thought about it all day. Quiet prevention became its own kind of victory.",
+          "next_story_target": "Love-And-Duty-14",
+          "private_resume_target": "Love-And-Duty-14"
+        },
+        {
+          "id": "Love-And-Duty-14",
+          "chapter_number": 14,
+          "title": "The Price of Being the Avatar",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "He laughed and stole food from my plate only after I nodded. The world had survived without every sacrifice he could possibly offer it. For one evening, he let that be good news. He came home tired, but he came home by choice.",
+          "next_story_target": "Love-And-Duty-15",
+          "private_resume_target": "Love-And-Duty-15"
+        },
+        {
+          "id": "Love-And-Duty-15",
+          "chapter_number": 15,
+          "title": "No Pity",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "Toph’s grin widened. “No promises.” Toph took three steps, then five, then crossed the room without help. We watched without hovering. That was harder than it sounded.",
+          "next_story_target": "Love-And-Duty-16",
+          "private_resume_target": "Love-And-Duty-16"
+        },
+        {
+          "id": "Love-And-Duty-16",
+          "chapter_number": 16,
+          "title": "Home Is a Verb",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "It was the place where leaving a room did not threaten love. It was the place we returned to because the doors opened both ways.",
+          "next_story_target": "Love-And-Duty-17",
+          "private_resume_target": "Love-And-Duty-17"
+        },
+        {
+          "id": "Love-And-Duty-17",
+          "chapter_number": 17,
+          "title": "The Festival That Wasn’t There",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "Not replacement. Something living.",
+          "next_story_target": "Love-And-Duty-18",
+          "private_resume_target": "Love-And-Duty-18"
+        },
+        {
+          "id": "Love-And-Duty-18",
+          "chapter_number": 18,
+          "title": "Roots and Wings",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "We could love the living man without demanding that he become a monument to the dead. For that night, it was enough.",
+          "next_story_target": "Love-And-Duty-19",
+          "private_resume_target": "Love-And-Duty-19"
+        },
+        {
+          "id": "Love-And-Duty-19",
+          "chapter_number": 19,
+          "title": "The Wrong Kind of Silence",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "Eventually, rest stopped feeling like stolen time. Not always. Enough that I could close my eyes without first earning permission from an imaginary judge. Some nights I still apologized. The difference was that now I heard myself doing it, and sometimes I could stop halfway through.",
+          "next_story_target": "Love-And-Duty-20",
+          "private_resume_target": "Love-And-Duty-20"
+        },
+        {
+          "id": "Love-And-Duty-20",
+          "chapter_number": 20,
+          "title": "What Katara Does With Anger",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "On the walk home, Katara did not look calmer. She looked clearer. I was starting to understand those were not the same thing, and only one of them was actually the goal. The water kept moving. So did she. Anger came with us, but it did not get to choose the route alone.",
+          "next_story_target": "Love-And-Duty-21",
+          "private_resume_target": "Love-And-Duty-21"
+        },
+        {
+          "id": "Love-And-Duty-21",
+          "chapter_number": 21,
+          "title": "Metal Keeps Its Shape",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Metal keeps its shape under pressure only until enough force changes it. After that, it does not become less metal. It becomes something new.",
+          "next_story_target": "Love-And-Duty-22",
+          "private_resume_target": "Love-And-Duty-22"
+        },
+        {
+          "id": "Love-And-Duty-22",
+          "chapter_number": 22,
+          "title": "People Who Stay",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Apparently neither could love. People who stayed did not always stand inside the house. Sometimes they lived three doors down and knew how to repair a hinge.",
+          "next_story_target": "Love-And-Duty-23",
+          "private_resume_target": "Love-And-Duty-23"
+        },
+        {
+          "id": "Love-And-Duty-23",
+          "chapter_number": 23,
+          "title": "The Space Between Touches",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The room was not safe because danger had ceased to exist. It was safe because fear was allowed to exist here without becoming the only thing we could feel.",
+          "next_story_target": "Love-And-Duty-24",
+          "private_resume_target": "Love-And-Duty-24"
+        },
+        {
+          "id": "Love-And-Duty-24",
+          "chapter_number": 24,
+          "title": "Aang’s Terrible, Wonderful Idea",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "“I can feel the lack of talent.” Wonderful, unfortunately, survived another meeting.",
+          "next_story_target": "Love-And-Duty-25",
+          "private_resume_target": "Love-And-Duty-25"
+        },
+        {
+          "id": "Love-And-Duty-25",
+          "chapter_number": 25,
+          "title": "South",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Change had held. So had we.",
+          "next_story_target": "Love-And-Duty-26",
+          "private_resume_target": "Love-And-Duty-26"
+        },
+        {
+          "id": "Love-And-Duty-26",
+          "chapter_number": 26,
+          "title": "A Family With More Than One Shape",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Family with more than one shape did not mean nobody outside it had questions. Sometimes the good questions were the ones that did not demand a particular answer.",
+          "next_story_target": "Love-And-Duty-27",
+          "private_resume_target": "Love-And-Duty-27"
+        },
+        {
+          "id": "Love-And-Duty-27",
+          "chapter_number": 27,
+          "title": "Ice Does Not Mean Cold",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "By the time the village roofs came back into view, I had learned three new ways not to fall through ice and one more way Katara loved: preparation so thorough it could masquerade as inevitability. At the door, Katara knocked snow from my sleeves and said, “Next time, better boots.” I told her next time she was carrying me. She considered it far too seriously.",
+          "next_story_target": "Love-And-Duty-28",
+          "private_resume_target": "Love-And-Duty-28"
+        },
+        {
+          "id": "Love-And-Duty-28",
+          "chapter_number": 28,
+          "title": "The Things Toph Will Not Say",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The document box stayed in Toph’s room. So did the paper crown. I learned that respecting her privacy included pretending not to know either fact. I never told her I knew. She never asked whether I knew. That became another kind of trust.",
+          "next_story_target": "Love-And-Duty-29",
+          "private_resume_target": "Love-And-Duty-29"
+        },
+        {
+          "id": "Love-And-Duty-29",
+          "chapter_number": 29,
+          "title": "The Air Between Generations",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The school grew around that distinction, imperfectly and on purpose. That was enough for now.",
+          "next_story_target": "Love-And-Duty-30",
+          "private_resume_target": "Love-And-Duty-30"
+        },
+        {
+          "id": "Love-And-Duty-30",
+          "chapter_number": 30,
+          "title": "Four Directions, One Storm",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "I surrendered immediately. Somewhere between the storm and the soap, my body finally believed the emergency was over.",
+          "next_story_target": "Love-And-Duty-31",
+          "private_resume_target": "Love-And-Duty-31"
+        },
+        {
+          "id": "Love-And-Duty-31",
+          "chapter_number": 31,
+          "title": "What I Cannot Bend",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "I carried that home with me. For once, that felt like enough.",
+          "next_story_target": "Love-And-Duty-32",
+          "private_resume_target": "Love-And-Duty-32"
+        },
+        {
+          "id": "Love-And-Duty-32",
+          "chapter_number": 32,
+          "title": "The Vote",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "I kept it anyway. I used that pen at the next meeting. We still argued. This time, losing was no longer the only ending I could imagine.",
+          "next_story_target": "Love-And-Duty-33",
+          "private_resume_target": "Love-And-Duty-33"
+        },
+        {
+          "id": "Love-And-Duty-33",
+          "chapter_number": 33,
+          "title": "The Night We Almost Broke",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Downstairs, the four of us finished the conversation. It took hours. Nobody won. The house felt more secure for it. Nobody mistook that for failure again.",
+          "next_story_target": "Love-And-Duty-34",
+          "private_resume_target": "Love-And-Duty-34"
+        },
+        {
+          "id": "Love-And-Duty-34",
+          "chapter_number": 34,
+          "title": "Repair Work",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "We were getting better at doors. We practiced again the next day, because repair turned out to be something we did, not something we finished.",
+          "next_story_target": "Love-And-Duty-35",
+          "private_resume_target": "Love-And-Duty-35"
+        },
+        {
+          "id": "Love-And-Duty-35",
+          "chapter_number": 35,
+          "title": "The Question No One Owes",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Nobody at our table disagreed. For that night, that answer was enough.",
+          "next_story_target": "Love-And-Duty-36",
+          "private_resume_target": "Love-And-Duty-36"
+        },
+        {
+          "id": "Love-And-Duty-36",
+          "chapter_number": 36,
+          "title": "A Future We Choose",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "And we did, one journey at a time. We chose the return as deliberately as the leaving.",
+          "next_story_target": "Love-And-Duty-37",
+          "private_resume_target": "Love-And-Duty-37"
+        },
+        {
+          "id": "Love-And-Duty-37",
+          "chapter_number": 37,
+          "title": "The Charter",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "It mattered. Then we kept going together, in all the boring ways that lasted.",
+          "next_story_target": "Love-And-Duty-38",
+          "private_resume_target": "Love-And-Duty-38"
+        },
+        {
+          "id": "Love-And-Duty-38",
+          "chapter_number": 38,
+          "title": "A House Built for Four",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Home had arrived before perfection did. By then, lived-in was exactly what we wanted.",
+          "next_story_target": "Love-And-Duty-39",
+          "private_resume_target": "Love-And-Duty-39"
+        },
+        {
+          "id": "Love-And-Duty-39",
+          "chapter_number": 39,
+          "title": "Love and Duty",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "We added the messenger rule to our household agreement that night. Toph complained about bureaucracy in romance while insisting the wording be precise. That contradiction felt exactly like us.",
+          "next_story_target": "Love-And-Duty-40",
+          "private_resume_target": "Love-And-Duty-40"
+        },
+        {
+          "id": "Love-And-Duty-40",
+          "chapter_number": 40,
+          "title": "Four Bowls, Still",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Tomorrow would ask again. So would we.",
+          "next_story_target": "@generate",
+          "private_resume_target": "@generate"
+        }
+      ]
+    },
+    {
+      "key": "stars-between-the-strings",
+      "title": "Stars Between the Strings",
+      "fandom": "Steven Universe",
+      "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+      "chapter_count": 40,
+      "total_word_count": 62023,
+      "story_bible": [
+        "The relationship grows through music, Beach City routines, family history, second chances, awkward honesty, money/work realities, and the fear that good things are temporary.",
+        "Greg is warm, rambling, musical, self-deprecating, openly affectionate, and capable of surprising firmness; he should not become a generic laid-back stoner stereotype or effortless therapist.",
+        "Jasper remembers small details and turns them into later care or surprises; Greg’s response to being remembered should matter because he is used to improvising around loss and instability.",
+        "Steven and the larger family/history can matter without making every chapter about Gem crises. Ordinary adult life is part of the emotional fantasy.",
+        "After chapter 40, continuation must move forward from established trust instead of repeating first-date insecurity."
+      ],
+      "character_bible": [
+        "Jasper — adult named first-person protagonist; goofy, compassionate, intelligent, observant, teasing, loyal, and prone to hiding vulnerability behind humor until the relationship feels safe enough for directness.",
+        "Greg Universe — warm, musical, self-deprecating, casually funny, sometimes rambling, emotionally sincere when pushed past deflection, and more perceptive than his relaxed presentation suggests.",
+        "Their chemistry should alternate silliness with unexpectedly serious truth; practical care and music can carry emotion without replacing dialogue."
+      ],
+      "generated_continuation_contract": {
+        "start_after_authored_chapter": 40,
+        "first_generated_chapter_number": 41,
+        "target_words": 1800,
+        "minimum_acceptable_words": 1200,
+        "carry_full_authored_arc": true,
+        "never_restart_relationship": true,
+        "never_repeat_first_meeting": true,
+        "preserve_unresolved_threads": true,
+        "preserve_choice_history": true,
+        "preserve_writer_reference": true,
+        "preserve_jasper_profile": true,
+        "preserve_canon_voice": true,
+        "private_handoff_optional_only": true
+      },
+      "chapters": [
+        {
+          "id": "su-01",
+          "chapter_number": 1,
+          "title": "The Song at the Boardwalk",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Outside, somewhere beyond the buildings, a guitar began to play. The melody was unfinished. It wandered, paused, and found its way forward anyway.",
+          "next_story_target": "su-02",
+          "private_resume_target": "su-02"
+        },
+        {
+          "id": "su-02",
+          "chapter_number": 2,
+          "title": "A Place to Sit",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Still, when the sun began to lower, I found myself thinking that maybe a place to sit was how a person began to build a home. That evening, I walked toward the car wash with Greg’s song waiting somewhere ahead.",
+          "next_story_target": "su-03",
+          "private_resume_target": "su-03"
+        },
+        {
+          "id": "su-03",
+          "chapter_number": 3,
+          "title": "Two Chords",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "But when I closed my eyes, I heard Greg's voice singing about a door left open. For the first time in a long while, the future sounded like a melody instead of an alarm.",
+          "next_story_target": "su-04",
+          "private_resume_target": "su-04"
+        },
+        {
+          "id": "su-04",
+          "chapter_number": 4,
+          "title": "The Things You Do Not Say",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "neither of us spoke for a while. It was not silence like abandonment. It was silence with someone on the other side.",
+          "next_story_target": "su-05",
+          "private_resume_target": "su-05"
+        },
+        {
+          "id": "su-05",
+          "chapter_number": 5,
+          "title": "A House with Wheels",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "But when Greg parked outside my building and walked me upstairs, when he kissed me again beneath the crooked hallway light, when the lock turned and the door closed behind me, home stopped feeling like a place I had to earn. The rest of the afternoon belonged to the two of us, the ocean, and easy conversation that did not ask either of us to perform for anyone.",
+          "next_story_target": "su-06",
+          "private_resume_target": "su-06"
+        },
+        {
+          "id": "su-06",
+          "chapter_number": 6,
+          "title": "Do Not Make Me Guess",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The ocean did not promise anything. The future remained uncertain. But Greg was beside me, asking instead of assuming, making room instead of taking it. For that evening, it was enough.",
+          "next_story_target": "su-07",
+          "private_resume_target": "su-07"
+        },
+        {
+          "id": "su-07",
+          "chapter_number": 7,
+          "title": "The Ocean Remembers",
+          "relationship_stage": "flirting",
+          "closing_anchor": "“I’ll try to answer.” I stayed until the lemonade was gone and the night air turned cold. Then Greg wrapped his jacket around my shoulders and walked me home, his hand holding mine all the way.",
+          "next_story_target": "su-08",
+          "private_resume_target": "su-08"
+        },
+        {
+          "id": "su-08",
+          "chapter_number": 8,
+          "title": "Jam Session",
+          "relationship_stage": "flirting",
+          "closing_anchor": "“I do.” I kissed him under the community center awning while the last of the musicians carried instruments past me. The kiss was not a performance. It was simply another note in the conversation.",
+          "next_story_target": "su-09",
+          "private_resume_target": "su-09"
+        },
+        {
+          "id": "su-09",
+          "chapter_number": 9,
+          "title": "A Bad Day in G Major",
+          "relationship_stage": "flirting",
+          "closing_anchor": "“They are not enough.” I smiled. The day was not perfect, but it had a map now.",
+          "next_story_target": "su-10",
+          "private_resume_target": "su-10"
+        },
+        {
+          "id": "su-10",
+          "chapter_number": 10,
+          "title": "Under the Same Stars",
+          "relationship_stage": "flirting",
+          "closing_anchor": "For once, the future did not feel like an alarm. It felt like a road with somewhere to go.",
+          "next_story_target": "su-11",
+          "private_resume_target": "su-11"
+        },
+        {
+          "id": "su-11",
+          "chapter_number": 11,
+          "title": "Morning After Moonlight",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "I had not planned to meet his son when I arrived with my suitcase. I had not planned to fall in love with a man who carried a guitar like a second heartbeat. The best parts of my life had begun without plans.",
+          "next_story_target": "su-12",
+          "private_resume_target": "su-12"
+        },
+        {
+          "id": "su-12",
+          "chapter_number": 12,
+          "title": "The Shape of Home",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "But I placed the photograph on my own shelf beside the empty space where the tea belonged, and the room answered with a quiet sense of recognition. Home, I was learning, did not have to be a single address. It could be a pattern of places where my body stopped preparing to leave.",
+          "next_story_target": "su-13",
+          "private_resume_target": "su-13"
+        },
+        {
+          "id": "su-13",
+          "chapter_number": 13,
+          "title": "A Little Jealousy",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "“Only in the best ways.” At home, he put on the record I liked and pulled me into the kitchen. I danced badly on purpose until I was laughing again.",
+          "next_story_target": "su-14",
+          "private_resume_target": "su-14"
+        },
+        {
+          "id": "su-14",
+          "chapter_number": 14,
+          "title": "The Long Way Back",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "We ate it together. Slowly.",
+          "next_story_target": "su-15",
+          "private_resume_target": "su-15"
+        },
+        {
+          "id": "su-15",
+          "chapter_number": 15,
+          "title": "The Old Song",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "The ocean kept time. Greg's fingers found mine, and the unfinished melody waited patiently beside me. I listened.",
+          "next_story_target": "su-16",
+          "private_resume_target": "su-16"
+        },
+        {
+          "id": "su-16",
+          "chapter_number": 16,
+          "title": "When the Van Breaks Down",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "The calendar was enough. I kept the appointment.",
+          "next_story_target": "su-17",
+          "private_resume_target": "su-17"
+        },
+        {
+          "id": "su-17",
+          "chapter_number": 17,
+          "title": "The Almost Goodbye",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "I both listened. The map stayed.",
+          "next_story_target": "su-18",
+          "private_resume_target": "su-18"
+        },
+        {
+          "id": "su-18",
+          "chapter_number": 18,
+          "title": "No More Running",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "That was sufficient. The plan could wait.",
+          "next_story_target": "su-19",
+          "private_resume_target": "su-19"
+        },
+        {
+          "id": "su-19",
+          "chapter_number": 19,
+          "title": "The Door Left Open",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "I slept easily that night. The room held us both.",
+          "next_story_target": "su-20",
+          "private_resume_target": "su-20"
+        },
+        {
+          "id": "su-20",
+          "chapter_number": 20,
+          "title": "Everything I Need to Say",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "The melody would be warm. And it would be mine.",
+          "next_story_target": "su-21",
+          "private_resume_target": "su-21"
+        },
+        {
+          "id": "su-21",
+          "chapter_number": 21,
+          "title": "The House We Do Not Name",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: I put my toothbrush beside his and listened to the house learn the shape of two people. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-22",
+          "private_resume_target": "su-22"
+        },
+        {
+          "id": "su-22",
+          "chapter_number": 22,
+          "title": "Soundcheck",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: He handed me the set list with my name beside the last song. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-23",
+          "private_resume_target": "su-23"
+        },
+        {
+          "id": "su-23",
+          "chapter_number": 23,
+          "title": "The Price of Being Seen",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: We left the article with one sentence crossed out and another in my handwriting. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-24",
+          "private_resume_target": "su-24"
+        },
+        {
+          "id": "su-24",
+          "chapter_number": 24,
+          "title": "A Little More Honest",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: He kept the follow-up card instead of throwing it away. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-25",
+          "private_resume_target": "su-25"
+        },
+        {
+          "id": "su-25",
+          "chapter_number": 25,
+          "title": "The Car Wash in Winter",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The sign flickered back on, and he looked at me as if I had repaired more than a pump. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-26",
+          "private_resume_target": "su-26"
+        },
+        {
+          "id": "su-26",
+          "chapter_number": 26,
+          "title": "Second Verse",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The new verse began with a note neither of us expected. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-27",
+          "private_resume_target": "su-27"
+        },
+        {
+          "id": "su-27",
+          "chapter_number": 27,
+          "title": "The Shape of Sorry",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: We ate the ruined pasta and called it a successful second attempt. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-28",
+          "private_resume_target": "su-28"
+        },
+        {
+          "id": "su-28",
+          "chapter_number": 28,
+          "title": "A Song for Nobody Else",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The notebook stayed closed while we watched the ocean darken. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-29",
+          "private_resume_target": "su-29"
+        },
+        {
+          "id": "su-29",
+          "chapter_number": 29,
+          "title": "No Map for This",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: At dawn, he drew a crooked star beside our route. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-30",
+          "private_resume_target": "su-30"
+        },
+        {
+          "id": "su-30",
+          "chapter_number": 30,
+          "title": "The Brightest Room",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The room was unfinished, but its windows were lit from inside. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-31",
+          "private_resume_target": "su-31"
+        },
+        {
+          "id": "su-31",
+          "chapter_number": 31,
+          "title": "Bad Timing",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: He set a new date before we finished the noodles. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-32",
+          "private_resume_target": "su-32"
+        },
+        {
+          "id": "su-32",
+          "chapter_number": 32,
+          "title": "The Work of Staying",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: I put the application in the drawer beside my toothbrush. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-33",
+          "private_resume_target": "su-33"
+        },
+        {
+          "id": "su-33",
+          "chapter_number": 33,
+          "title": "A Door in the Wall",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The hidden door stayed open overnight. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-34",
+          "private_resume_target": "su-34"
+        },
+        {
+          "id": "su-34",
+          "chapter_number": 34,
+          "title": "Everyday Magic",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The list began with breakfast and ended with no end date. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-35",
+          "private_resume_target": "su-35"
+        },
+        {
+          "id": "su-35",
+          "chapter_number": 35,
+          "title": "The Note in the Glovebox",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The new map covered the old receipt. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-36",
+          "private_resume_target": "su-36"
+        },
+        {
+          "id": "su-36",
+          "chapter_number": 36,
+          "title": "When We Choose Each Other",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The lights stayed on after everyone went home. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-37",
+          "private_resume_target": "su-37"
+        },
+        {
+          "id": "su-37",
+          "chapter_number": 37,
+          "title": "The Quiet Encore",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The last light went out over both of us. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-38",
+          "private_resume_target": "su-38"
+        },
+        {
+          "id": "su-38",
+          "chapter_number": 38,
+          "title": "A Future with Windows",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The window became our favorite place to disagree. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-39",
+          "private_resume_target": "su-39"
+        },
+        {
+          "id": "su-39",
+          "chapter_number": 39,
+          "title": "The Song We Keep",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: We left the final note unresolved on purpose. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "su-40",
+          "private_resume_target": "su-40"
+        },
+        {
+          "id": "su-40",
+          "chapter_number": 40,
+          "title": "Stars Between the Strings",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: The stars looked like notes waiting for us. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+          "next_story_target": "@generate",
+          "private_resume_target": "@generate"
+        }
+      ]
+    },
+    {
+      "key": "what-the-armor-leaves-behind",
+      "title": "What the Armor Leaves Behind",
+      "fandom": "Fallout 4",
+      "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+      "chapter_count": 40,
+      "total_word_count": 61885,
+      "story_bible": [
+        "The romance grows through missions, competence, moral disagreement, loyalty under pressure, Blind Betrayal, and the slow reconstruction of identity after rank and certainty fail.",
+        "Danse is formal, disciplined, literal, duty-shaped, protective, and uncomfortable with vulnerability; warmth should emerge through behavior before eloquent confession.",
+        "Jasper can respect Danse without treating military authority as relationship authority. Orders and consent are separate systems.",
+        "External Fallout plot matters: civilians, supplies, faction consequences, radiation, travel, equipment, settlements, and Brotherhood politics should continue to create pressure on the relationship.",
+        "After chapter 40, do not reset Danse to early-game emotional distance or restore lost institutional certainty without narrative cause."
+      ],
+      "character_bible": [
+        "Jasper — adult named first-person protagonist; capable, compassionate, sarcastic when nervous, morally engaged, and unwilling to surrender civilian ethics just because a superior gives an order.",
+        "Paladin Danse — formal, disciplined, mission-focused, protective, precise, slow to joke, often expressing care through logistics, readiness, repair, and watchfulness rather than florid language.",
+        "Their strongest conflict lane is duty versus personhood; their strongest repair lane is clear action, reciprocal trust, and choosing each other outside institutional approval."
+      ],
+      "generated_continuation_contract": {
+        "start_after_authored_chapter": 40,
+        "first_generated_chapter_number": 41,
+        "target_words": 1800,
+        "minimum_acceptable_words": 1200,
+        "carry_full_authored_arc": true,
+        "never_restart_relationship": true,
+        "never_repeat_first_meeting": true,
+        "preserve_unresolved_threads": true,
+        "preserve_choice_history": true,
+        "preserve_writer_reference": true,
+        "preserve_jasper_profile": true,
+        "preserve_canon_voice": true,
+        "private_handoff_optional_only": true
+      },
+      "chapters": [
+        {
+          "id": "what-the-armor-leaves-behind-01",
+          "chapter_number": 1,
+          "title": "Check Your Fire",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "In the Commonwealth, small things were often what made strangers stop being strangers. I adjusted my pack and caught up to him.",
+          "next_story_target": "what-the-armor-leaves-behind-02",
+          "private_resume_target": "what-the-armor-leaves-behind-02"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-02",
+          "chapter_number": 2,
+          "title": "Orders and Ammunition",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "Danse sealed his helmet and headed for the doors. This time, when his fist came up, I stopped before he had to tell me.",
+          "next_story_target": "what-the-armor-leaves-behind-03",
+          "private_resume_target": "what-the-armor-leaves-behind-03"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-03",
+          "chapter_number": 3,
+          "title": "ArcJet",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "His shoulders moved once. This time I knew exactly what the sound inside the helmet meant.",
+          "next_story_target": "what-the-armor-leaves-behind-04",
+          "private_resume_target": "what-the-armor-leaves-behind-04"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-04",
+          "chapter_number": 4,
+          "title": "The Deep Range",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "I had not expected that either. By the time Cambridge came into view, I was starting to understand that Paladin Danse had more ways to surprise me than he had ways to smile.",
+          "next_story_target": "what-the-armor-leaves-behind-05",
+          "private_resume_target": "what-the-armor-leaves-behind-05"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-05",
+          "chapter_number": 5,
+          "title": "Righteous Authority",
+          "relationship_stage": "chemistry",
+          "closing_anchor": "He finished his ration, but his ears stayed red for the rest of the meal. That was the day I learned the Brotherhood’s power armor had less defensive value against flirting than advertised.",
+          "next_story_target": "what-the-armor-leaves-behind-06",
+          "private_resume_target": "what-the-armor-leaves-behind-06"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-06",
+          "chapter_number": 6,
+          "title": "Steel and Scrap",
+          "relationship_stage": "flirting",
+          "closing_anchor": "Trust did not always arrive as a confession. Sometimes it arrived as the decision that one would be safe when it came.",
+          "next_story_target": "what-the-armor-leaves-behind-07",
+          "private_resume_target": "what-the-armor-leaves-behind-07"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-07",
+          "chapter_number": 7,
+          "title": "The Dead on the Roster",
+          "relationship_stage": "flirting",
+          "closing_anchor": "But he left the list on the wall. And below it, tucked beneath the fresh tape, he placed one of Keane’s battered baseball cards.",
+          "next_story_target": "what-the-armor-leaves-behind-08",
+          "private_resume_target": "what-the-armor-leaves-behind-08"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-08",
+          "chapter_number": 8,
+          "title": "Off the Record",
+          "relationship_stage": "flirting",
+          "closing_anchor": "The argument mattered anyway. It was the first time Danse let me choose danger after he had admitted I mattered enough for the choice to frighten him.",
+          "next_story_target": "what-the-armor-leaves-behind-09",
+          "private_resume_target": "what-the-armor-leaves-behind-09"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-09",
+          "chapter_number": 9,
+          "title": "Power Armor",
+          "relationship_stage": "flirting",
+          "closing_anchor": "This time the smile came openly. “Again.”",
+          "next_story_target": "what-the-armor-leaves-behind-10",
+          "private_resume_target": "what-the-armor-leaves-behind-10"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-10",
+          "chapter_number": 10,
+          "title": "A Signal in the Sky",
+          "relationship_stage": "flirting",
+          "closing_anchor": "But I had seen the moment before the armor settled. I carried it with me when the side door opened.",
+          "next_story_target": "what-the-armor-leaves-behind-11",
+          "private_resume_target": "what-the-armor-leaves-behind-11"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-11",
+          "chapter_number": 11,
+          "title": "The Prydwen",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "He did not assume people stayed. He merely hoped they would and tried very hard not to make the hope visible.",
+          "next_story_target": "what-the-armor-leaves-behind-12",
+          "private_resume_target": "what-the-armor-leaves-behind-12"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-12",
+          "chapter_number": 12,
+          "title": "Vertibird Weather",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "“Clearly.” Neither of us moved our hands until the landing gear touched the deck.",
+          "next_story_target": "what-the-armor-leaves-behind-13",
+          "private_resume_target": "what-the-armor-leaves-behind-13"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-13",
+          "chapter_number": 13,
+          "title": "Fort Strong",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "Inside, Danse took a breath that seemed to come from years ago. “His name was Cutler.”",
+          "next_story_target": "what-the-armor-leaves-behind-14",
+          "private_resume_target": "what-the-armor-leaves-behind-14"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-14",
+          "chapter_number": 14,
+          "title": "Cutler",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "The laugh that came out of him was quiet and tired and real. He did not release my hand until his coffee had gone cold.",
+          "next_story_target": "what-the-armor-leaves-behind-15",
+          "private_resume_target": "what-the-armor-leaves-behind-15"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-15",
+          "chapter_number": 15,
+          "title": "The Lost Patrol",
+          "relationship_stage": "boundary_conversations",
+          "closing_anchor": "It was also strangely tender. He kept hold of me all the way to the road.",
+          "next_story_target": "what-the-armor-leaves-behind-16",
+          "private_resume_target": "what-the-armor-leaves-behind-16"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-16",
+          "chapter_number": 16,
+          "title": "What Counts as Human",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "It was a crack. Sometimes that was how light got in.",
+          "next_story_target": "what-the-armor-leaves-behind-17",
+          "private_resume_target": "what-the-armor-leaves-behind-17"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-17",
+          "chapter_number": 17,
+          "title": "Benchwork",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "The rifle took another twenty minutes. The conversation took considerably longer.",
+          "next_story_target": "what-the-armor-leaves-behind-18",
+          "private_resume_target": "what-the-armor-leaves-behind-18"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-18",
+          "chapter_number": 18,
+          "title": "The Weight of Command",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "“Obviously.” We walked the rest of the way holding hands like it was a tactical necessity.",
+          "next_story_target": "what-the-armor-leaves-behind-19",
+          "private_resume_target": "what-the-armor-leaves-behind-19"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-19",
+          "chapter_number": 19,
+          "title": "Under the Tanks",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "Outside, the radstorm had passed. Inside, something else had not.",
+          "next_story_target": "what-the-armor-leaves-behind-20",
+          "private_resume_target": "what-the-armor-leaves-behind-20"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-20",
+          "chapter_number": 20,
+          "title": "Permission to Speak Freely",
+          "relationship_stage": "testing_power_play",
+          "closing_anchor": "There it was: our first romantic negotiation. Naturally, Danse had turned it into a treaty.",
+          "next_story_target": "what-the-armor-leaves-behind-21",
+          "private_resume_target": "what-the-armor-leaves-behind-21"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-21",
+          "chapter_number": 21,
+          "title": "Orders I Can't Follow",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The argument was not over. Neither were we.",
+          "next_story_target": "what-the-armor-leaves-behind-22",
+          "private_resume_target": "what-the-armor-leaves-behind-22"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-22",
+          "chapter_number": 22,
+          "title": "A Machine with a Name",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Then we kept walking. Neither of us understood yet how cruelly literal that promise would become.",
+          "next_story_target": "what-the-armor-leaves-behind-23",
+          "private_resume_target": "what-the-armor-leaves-behind-23"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-23",
+          "chapter_number": 23,
+          "title": "Liberty",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "For once, Danse had made the joke first. I decided that counted as a successful repair too.",
+          "next_story_target": "what-the-armor-leaves-behind-24",
+          "private_resume_target": "what-the-armor-leaves-behind-24"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-24",
+          "chapter_number": 24,
+          "title": "The List",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "I closed my fingers around the code. “That’s the one thing I’m sure of.”",
+          "next_story_target": "what-the-armor-leaves-behind-25",
+          "private_resume_target": "what-the-armor-leaves-behind-25"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-25",
+          "chapter_number": 25,
+          "title": "Missing",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "I had asked Danse to learn that. Now it was my turn.",
+          "next_story_target": "what-the-armor-leaves-behind-26",
+          "private_resume_target": "what-the-armor-leaves-behind-26"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-26",
+          "chapter_number": 26,
+          "title": "Listening Post Bravo",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "Not because he believed he deserved it. Because, for twenty minutes at a time, he trusted me enough to postpone the verdict.",
+          "next_story_target": "what-the-armor-leaves-behind-27",
+          "private_resume_target": "what-the-armor-leaves-behind-27"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-27",
+          "chapter_number": 27,
+          "title": "The Example",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "He looked down at me. This time the smile stayed.",
+          "next_story_target": "what-the-armor-leaves-behind-28",
+          "private_resume_target": "what-the-armor-leaves-behind-28"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-28",
+          "chapter_number": 28,
+          "title": "No Rank",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "There was a book on his side of the bed. I liked that better.",
+          "next_story_target": "what-the-armor-leaves-behind-29",
+          "private_resume_target": "what-the-armor-leaves-behind-29"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-29",
+          "chapter_number": 29,
+          "title": "Nothing",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "None cancelled the others. That was becoming one of the hardest lessons Danse had ever learned.",
+          "next_story_target": "what-the-armor-leaves-behind-30",
+          "private_resume_target": "what-the-armor-leaves-behind-30"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-30",
+          "chapter_number": 30,
+          "title": "The Things That Remain",
+          "relationship_stage": "established_dynamic",
+          "closing_anchor": "The list was becoming less about proving what had always been inside him and more about recording what he chose now. That was better evidence anyway.",
+          "next_story_target": "what-the-armor-leaves-behind-31",
+          "private_resume_target": "what-the-armor-leaves-behind-31"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-31",
+          "chapter_number": 31,
+          "title": "A Different Kind of Orders",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "He was learning how to fail harmlessly. That might have been the strangest kind of freedom yet.",
+          "next_story_target": "what-the-armor-leaves-behind-32",
+          "private_resume_target": "what-the-armor-leaves-behind-32"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-32",
+          "chapter_number": 32,
+          "title": "Civilian Clothes",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "He kissed me before I could get worse. I considered this positive reinforcement.",
+          "next_story_target": "what-the-armor-leaves-behind-33",
+          "private_resume_target": "what-the-armor-leaves-behind-33"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-33",
+          "chapter_number": 33,
+          "title": "Heart and Mind",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Less like a discovery. More like a choice he had decided to keep making.",
+          "next_story_target": "what-the-armor-leaves-behind-34",
+          "private_resume_target": "what-the-armor-leaves-behind-34"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-34",
+          "chapter_number": 34,
+          "title": "Patient",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "“That’s on the list.” “It is now.”",
+          "next_story_target": "what-the-armor-leaves-behind-35",
+          "private_resume_target": "what-the-armor-leaves-behind-35"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-35",
+          "chapter_number": 35,
+          "title": "A Home That Isn't a Bunker",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "It held. So did we.",
+          "next_story_target": "what-the-armor-leaves-behind-36",
+          "private_resume_target": "what-the-armor-leaves-behind-36"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-36",
+          "chapter_number": 36,
+          "title": "Three Chords",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Behind us the settlement noise faded. Ahead, our house waited with a porch large enough for two people, one guitar, and as many imperfect songs as he wanted to learn.",
+          "next_story_target": "what-the-armor-leaves-behind-37",
+          "private_resume_target": "what-the-armor-leaves-behind-37"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-37",
+          "chapter_number": 37,
+          "title": "The Name He Chose",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Not the name the Brotherhood revoked. The name he kept answering to because every day he chose to.",
+          "next_story_target": "what-the-armor-leaves-behind-38",
+          "private_resume_target": "what-the-armor-leaves-behind-38"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-38",
+          "chapter_number": 38,
+          "title": "No Exceptions",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Both his. No exception required.",
+          "next_story_target": "what-the-armor-leaves-behind-39",
+          "private_resume_target": "what-the-armor-leaves-behind-39"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-39",
+          "chapter_number": 39,
+          "title": "To Victory",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "Not away from it either. To the life that kept becoming larger than the rules he had inherited.",
+          "next_story_target": "what-the-armor-leaves-behind-40",
+          "private_resume_target": "what-the-armor-leaves-behind-40"
+        },
+        {
+          "id": "what-the-armor-leaves-behind-40",
+          "chapter_number": 40,
+          "title": "What the Armor Leaves Behind",
+          "relationship_stage": "integrated_trust",
+          "closing_anchor": "I took it. We went home.",
+          "next_story_target": "@generate",
+          "private_resume_target": "@generate"
+        }
+      ]
+    }
+  ]
+}

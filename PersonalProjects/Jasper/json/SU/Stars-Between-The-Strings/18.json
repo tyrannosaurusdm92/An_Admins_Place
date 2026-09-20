@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "No More Running",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 18,
   "word_count": 1500,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “No More Running,” I carried forward the choice “Ask Greg the question underneath the song.” Follow the feeling the music opened instead of letting the song answer for us. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “No More Running,” I carried forward the choice “Turn the moment into a bit and see if he follows.” Invite the shared joke without losing the emotional thread underneath it. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “No More Running.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (testing_power_play), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-19 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-18-direct",
-      "label": "Say the honest thing",
+      "label": "Ask Greg the question underneath the song",
       "target": "su-19",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Follow the feeling the music opened instead of letting the song answer for us.",
+      "generation_hint": "Follow the feeling the music opened instead of letting the song answer for us.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · No More Running · Greg Universe / Jasper · Ask Greg the question underneath the song · Follow the feeling the music opened instead of letting the song answer for us. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-18-playful",
-      "label": "Let the moment be playful",
+      "label": "Turn the moment into a bit and see if he follows",
       "target": "su-19",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Invite the shared joke without losing the emotional thread underneath it.",
+      "generation_hint": "Invite the shared joke without losing the emotional thread underneath it.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · No More Running · Greg Universe / Jasper · Turn the moment into a bit and see if he follows · Invite the shared joke without losing the emotional thread underneath it. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-18-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “No More Running,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-19 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · No More Running · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-19",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-19"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "testing_power_play",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "Greg ran when he was afraid.\n\nI learned this on a Tuesday afternoon, when he stopped answering messages after a disagreement about the future.\n\nThe disagreement had begun with a question about the van. I had asked whether he would ever consider selling it and moving into a real house. He had turned the question into a joke. I had asked again. He had gone quiet.\n\n“I’m not asking you to give up your life,” I said.\n\n“It’s not a life. It’s a van.”\n\n“You know what I mean.”\n\n“Do I?”\n\nThe tone sharpened.\n\n“I want to know whether you can imagine a future that isn’t built around leaving,” I said.\n\nGreg had looked away.\n\nThat was when I knew the question had reached somewhere real.\n\n“I need time,” he said.\n\n“Time to think or time to disappear?”\n\nHe flinched.\n\n“That was unfair,” I admitted.\n\n“It was accurate.”\n\nThen he left.\n\nAt first, I assumed he was taking a walk. Then an hour passed. Then two. His phone went to voicemail. The van was gone from the curb.\n\nI sat in the studio with the lights off and tried not to build a story from the silence.\n\nHe had left me. He had gotten tired. He had decided that love was easier when it stayed inside songs.\n\nBy evening, the story had become unbearable.\n\nI went to the car wash. The doors were locked. The community center was dark. Mara was not home. I walked to the overlook and stood beneath the trees, staring at the road.\n\nThe van appeared after midnight.\n\nGreg parked without turning off the engine. He climbed out and closed the door. His hair was windblown, his face exhausted.\n\n“You’re angry,” he said.\n\n“Yes.”\n\n“You have every right.”\n\n“That doesn’t fix it.”\n\n“No.”\n\nI crossed my arms. “Where were you?”\n\n“Driving.”\n\n“For ten hours?”\n\n“I stopped twice.”\n\n“Did you tell me?”\n\n“No.”\n\n“Did you think about telling me?”\n\n“Yes.”\n\n“And?”\n\n“I didn’t.”\n\nThe honesty did not make the answer easier.\n\n“You don’t get to vanish because a question scares you,” I said.\n\n“I know.”\n\n“You don’t get to make me sit in an empty room and guess whether I still have a relationship.”\n\n“I know.”\n\n“Then why did you?”\n\nGreg looked toward the road. “Because I thought if I left before you asked me to change, I could decide that the ending was mine.”\n\nThe anger shifted into something more painful.\n\n“I wasn’t asking you to stop being yourself,” I said.\n\n“I know.”\n\n“I was asking whether there was room for me in the future.”\n\n“I know.”\n\n“You keep saying you know.”\n\n“Because I do now.”\n\nI looked at him. “What did you figure out on the road?”\n\nHe rubbed a hand over his face. “I don’t know how to be asked to stay without hearing it as a demand to become someone else.”\n\n“And I don’t know how to ask for a future without hearing your silence as rejection.”\n\n“That’s a bad combination.”\n\n“It is.”\n\nThe night wind moved between I.\n\nGreg stepped closer. “I’m sorry.”\n\n“I know.”\n\n“No. I need to say it better. I’m sorry I made my fear your problem. I’m sorry I left without telling you. I’m sorry I used distance to avoid a conversation I was supposed to have with you.”\n\nMy eyes burned.\n\n“I’m sorry I made it sound like you were failing because you wanted your life to stay recognizable,” I said. “I love the van. I love the way you make a home out of things other people overlook. I just need to know whether the home has room for me.”\n\nGreg's face crumpled into tenderness.\n\n“It does,” he said.\n\n“How do you know?”\n\n“Because when I drove away, every road looked wrong without you in the passenger seat.”\n\nI wanted to forgive him immediately. The wanting was not enough.\n\n“That’s romantic,” I said. “It’s not a plan.”\n\n“You’re right.”\n\nHe pulled a folded paper from his pocket. It was a receipt covered in handwriting.\n\n“I stopped at a diner and made a list,” he said. “Not a very good one.”\n\nI took it.\n\nThe list held small ideas. A better mattress. A second key. A savings account for repairs and emergencies. A way to spend part of each month in one place without treating the van like a prison. A promise to answer the phone when he needed space.\n\nAt the bottom, in larger letters, he had written: ASK, DO NOT RUN.\n\nI looked up.\n\n“I don’t need you to solve everything tonight,” I said.\n\n“Good. I’m very tired.”\n\n“I need you to come home.”\n\n“I’m here.”\n\n“I need you to stay long enough to talk tomorrow.”\n\n“I can do that.”\n\nI moved closer. “I need to know you’ll tell me before you leave next time.”\n\n“I will.”\n\n“And if you don’t?”\n\n“You get to be angry. You get to leave. You get to decide what you can live with.”\n\nThe answer was not a guarantee. It was accountability.\n\nI touched his cheek. “Can I kiss you?”\n\nHis eyes closed beneath my hand. “Yes.”\n\nThe kiss was not an eraser. It was an acknowledgment that love could survive a mistake without pretending the mistake had not happened.\n\nGreg held me carefully. When I pulled away, he kept his forehead against mine.\n\n“I love you,” he said.\n\n“I love you too.”\n\n“I’m going to say that before I do something stupid.”\n\n“You should try saying it before you drive for ten hours.”\n\n“That’s more advanced.”\n\nI laughed against his mouth.\n\nThe van was still parked beneath the trees. The road was still open behind it. Nothing had become magically safe.\n\nBut Greg had come back.\n\nThis time, he stayed.\n\nThe next day, Greg returned to the overlook with a notebook. He sat beneath the trees and wrote down the time he had left, the places he had stopped, and the moments when he could have called but did not.\n\n“You are documenting your crimes,” I said.\n\n“I am documenting my patterns.”\n\n“That sounds less dramatic.”\n\n“I can call it a crime if it helps me remember.”\n\nI sat beside him. “What do you want to do with the list?”\n\n“Show it to my therapist.”\n\n“Good.”\n\n“And to you, if you want.”\n\n“I want the plan, not the punishment.”\n\nGreg nodded. “Then the plan is: when I need space, I say where I am going and when I will contact you. If I cannot talk, I send a message. If I break the plan, I tell you what happened instead of pretending it did not.”\n\n“And if I panic?”\n\n“You tell me you are panicking, not that I am evil.”\n\n“That is a high standard.”\n\n“I am willing to be ambitious.”\n\nI leaned into him. “I will try.”\n\n“Honestly?”\n\n“Honestly.”\n\nHe reached for my hand. The notebook lay open between I, the paper fluttering in the wind.\n\n“I don’t want to become the person who makes you monitor every silence,” Greg said.\n\n“Then keep coming back before silence becomes a story.”\n\n“I will.”\n\n“And I will tell you when I need reassurance.”\n\n“I will give it without making you apologize for needing it.”\n\nThe agreement was small. It did not guarantee perfection. It gave the future a direction.\n\nGreg closed the notebook and put it away.\n\n“Can I kiss you?” he asked.\n\n“You can.”\n\nHe kissed me beneath the trees. The road remained open behind the van, but neither of I needed to take it that day.\n\nWhen I returned to Beach City, Greg put the notebook in a drawer beside the new key.\n\n“You are not going to hide it?” I asked.\n\n“No. But I am not going to make it the center of our home.”\n\n“Good.”\n\nHe opened the drawer again. “Would you like to add anything?”\n\nI wrote one line beneath his: ASK BEFORE ASSUMING THE DOOR IS CLOSED FOREVER.\n\nGreg read it twice.\n\n“That is a good rule,” he said.\n\n“It is a difficult one.”\n\n“Most good rules are.”\n\nI closed the drawer together.\n\nGreg did not open it again that night. Instead, he made dinner and let me choose the music.\n\nI chose something loud. He complained. I danced while he cooked.\n\n“You are distracting the chef,” he said.\n\n“The chef is very resilient.”\n\n“The chef is making soup.”\n\n“The soup will survive.”\n\nHe turned from the stove and kissed me. The argument became a memory before it could become a wall.\n\nLater, the notebook stayed closed in the drawer, and both of I slept.\n\nIn the morning, Greg opened the drawer only long enough to place the new key beside the notebook.\n\nThe two objects rested together without competing.\n\nI made coffee. He made pancakes.\n\nNeither of I ran.\n\nThe road remained available, but home was closer.\n\nI sat together on the couch until the light changed. Greg played a melody with one hand while I rested against his shoulder.\n\nIt was enough.\n\nFor now.\n\nThat was sufficient.\n\nThe plan could wait.",
+  "content": "Greg ran when he was afraid.\n\nI learned this on a Tuesday afternoon, when he stopped answering messages after a disagreement about the future.\n\nThe disagreement had begun with a question about the van. I had asked whether he would ever consider selling it and moving into a real house. He had turned the question into a joke. I had asked again. He had gone quiet.\n\n“I’m not asking you to give up your life,” I said.\n\n“It’s not a life. It’s a van.”\n\n“You know what I mean.”\n\n“Do I?”\n\nThe tone sharpened.\n\n“I want to know whether you can imagine a future that isn’t built around leaving,” I said.\n\nGreg had looked away.\n\nThat was when I knew the question had reached somewhere real.\n\n“I need time,” he said.\n\n“Time to think or time to disappear?”\n\nHe flinched.\n\n“That was unfair,” I admitted.\n\n“It was accurate.”\n\nThen he left.\n\nAt first, I assumed he was taking a walk. Then an hour passed. Then two. His phone went to voicemail. The van was gone from the curb.\n\nI sat in the studio with the lights off and tried not to build a story from the silence.\n\nHe had left me. He had gotten tired. He had decided that love was easier when it stayed inside songs.\n\nBy evening, the story had become unbearable.\n\nI went to the car wash. The doors were locked. The community center was dark. Mara was not home. I walked to the overlook and stood beneath the trees, staring at the road.\n\nThe van appeared after midnight.\n\nGreg parked without turning off the engine. He climbed out and closed the door. His hair was windblown, his face exhausted.\n\n“You’re angry,” he said.\n\n“Yes.”\n\n“You have every right.”\n\n“That doesn’t fix it.”\n\n“No.”\n\nI crossed my arms. “Where were you?”\n\n“Driving.”\n\n“For ten hours?”\n\n“I stopped twice.”\n\n“Did you tell me?”\n\n“No.”\n\n“Did you think about telling me?”\n\n“Yes.”\n\n“And?”\n\n“I didn’t.”\n\nThe honesty did not make the answer easier.\n\n“You don’t get to vanish because a question scares you,” I said.\n\n“I know.”\n\n“You don’t get to make me sit in an empty room and guess whether I still have a relationship.”\n\n“I know.”\n\n“Then why did you?”\n\nGreg looked toward the road. “Because I thought if I left before you asked me to change, I could decide that the ending was mine.”\n\nThe anger shifted into something more painful.\n\n“I wasn’t asking you to stop being yourself,” I said.\n\n“I know.”\n\n“I was asking whether there was room for me in the future.”\n\n“I know.”\n\n“You keep saying you know.”\n\n“Because I do now.”\n\nI looked at him. “What did you figure out on the road?”\n\nHe rubbed a hand over his face. “I don’t know how to be asked to stay without hearing it as a demand to become someone else.”\n\n“And I don’t know how to ask for a future without hearing your silence as rejection.”\n\n“That’s a bad combination.”\n\n“It is.”\n\nThe night wind moved between us.\n\nGreg stepped closer. “I’m sorry.”\n\n“I know.”\n\n“No. I need to say it better. I’m sorry I made my fear your problem. I’m sorry I left without telling you. I’m sorry I used distance to avoid a conversation I was supposed to have with you.”\n\nMy eyes burned.\n\n“I’m sorry I made it sound like you were failing because you wanted your life to stay recognizable,” I said. “I love the van. I love the way you make a home out of things other people overlook. I just need to know whether the home has room for me.”\n\nGreg's face crumpled into tenderness.\n\n“It does,” he said.\n\n“How do you know?”\n\n“Because when I drove away, every road looked wrong without you in the passenger seat.”\n\nI wanted to forgive him immediately. The wanting was not enough.\n\n“That’s romantic,” I said. “It’s not a plan.”\n\n“You’re right.”\n\nHe pulled a folded paper from his pocket. It was a receipt covered in handwriting.\n\n“I stopped at a diner and made a list,” he said. “Not a very good one.”\n\nI took it.\n\nThe list held small ideas. A better mattress. A second key. A savings account for repairs and emergencies. A way to spend part of each month in one place without treating the van like a prison. A promise to answer the phone when he needed space.\n\nAt the bottom, in larger letters, he had written: ASK, DO NOT RUN.\n\nI looked up.\n\n“I don’t need you to solve everything tonight,” I said.\n\n“Good. I’m very tired.”\n\n“I need you to come home.”\n\n“I’m here.”\n\n“I need you to stay long enough to talk tomorrow.”\n\n“I can do that.”\n\nI moved closer. “I need to know you’ll tell me before you leave next time.”\n\n“I will.”\n\n“And if you don’t?”\n\n“You get to be angry. You get to leave. You get to decide what you can live with.”\n\nThe answer was not a guarantee. It was accountability.\n\nI touched his cheek. “Can I kiss you?”\n\nHis eyes closed beneath my hand. “Yes.”\n\nThe kiss was not an eraser. It was an acknowledgment that love could survive a mistake without pretending the mistake had not happened.\n\nGreg held me carefully. When I pulled away, he kept his forehead against mine.\n\n“I love you,” he said.\n\n“I love you too.”\n\n“I’m going to say that before I do something stupid.”\n\n“You should try saying it before you drive for ten hours.”\n\n“That’s more advanced.”\n\nI laughed against his mouth.\n\nThe van was still parked beneath the trees. The road was still open behind it. Nothing had become magically safe.\n\nBut Greg had come back.\n\nThis time, he stayed.\n\nThe next day, Greg returned to the overlook with a notebook. He sat beneath the trees and wrote down the time he had left, the places he had stopped, and the moments when he could have called but did not.\n\n“You are documenting your crimes,” I said.\n\n“I am documenting my patterns.”\n\n“That sounds less dramatic.”\n\n“I can call it a crime if it helps me remember.”\n\nI sat beside him. “What do you want to do with the list?”\n\n“Show it to my therapist.”\n\n“Good.”\n\n“And to you, if you want.”\n\n“I want the plan, not the punishment.”\n\nGreg nodded. “Then the plan is: when I need space, I say where I am going and when I will contact you. If I cannot talk, I send a message. If I break the plan, I tell you what happened instead of pretending it did not.”\n\n“And if I panic?”\n\n“You tell me you are panicking, not that I am evil.”\n\n“That is a high standard.”\n\n“I am willing to be ambitious.”\n\nI leaned into him. “I will try.”\n\n“Honestly?”\n\n“Honestly.”\n\nHe reached for my hand. The notebook lay open between us, the paper fluttering in the wind.\n\n“I don’t want to become the person who makes you monitor every silence,” Greg said.\n\n“Then keep coming back before silence becomes a story.”\n\n“I will.”\n\n“And I will tell you when I need reassurance.”\n\n“I will give it without making you apologize for needing it.”\n\nThe agreement was small. It did not guarantee perfection. It gave the future a direction.\n\nGreg closed the notebook and put it away.\n\n“Can I kiss you?” he asked.\n\n“You can.”\n\nHe kissed me beneath the trees. The road remained open behind the van, but neither of us needed to take it that day.\n\nWhen I returned to Beach City, Greg put the notebook in a drawer beside the new key.\n\n“You are not going to hide it?” I asked.\n\n“No. But I am not going to make it the center of our home.”\n\n“Good.”\n\nHe opened the drawer again. “Would you like to add anything?”\n\nI wrote one line beneath his: ASK BEFORE ASSUMING THE DOOR IS CLOSED FOREVER.\n\nGreg read it twice.\n\n“That is a good rule,” he said.\n\n“It is a difficult one.”\n\n“Most good rules are.”\n\nWe closed the drawer together.\n\nGreg did not open it again that night. Instead, he made dinner and let me choose the music.\n\nI chose something loud. He complained. I danced while he cooked.\n\n“You are distracting the chef,” he said.\n\n“The chef is very resilient.”\n\n“The chef is making soup.”\n\n“The soup will survive.”\n\nHe turned from the stove and kissed me. The argument became a memory before it could become a wall.\n\nLater, the notebook stayed closed in the drawer, and both of us slept.\n\nIn the morning, Greg opened the drawer only long enough to place the new key beside the notebook.\n\nThe two objects rested together without competing.\n\nI made coffee. He made pancakes.\n\nneither of us ran.\n\nThe road remained available, but home was closer.\n\nWe sat together on the couch until the light changed. Greg played a melody with one hand while I rested against his shoulder.\n\nIt was enough.\n\nFor now.\n\nThat was sufficient.\n\nThe plan could wait.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,258 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "testing_power_play",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · No More Running · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 18,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-19",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-19",
+    "private_handoff_resume_target": "su-19"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-19",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "testing_power_play",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "testing_power_play",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-18",
+    "chapter_number": 18,
+    "title": "No More Running",
+    "relationship_stage": "testing_power_play",
+    "opening_anchor": "Greg ran when he was afraid.",
+    "closing_anchor": "That was sufficient. The plan could wait.",
+    "next_story_target": "su-19",
+    "private_resume_target": "su-19",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · No More Running · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-mara"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

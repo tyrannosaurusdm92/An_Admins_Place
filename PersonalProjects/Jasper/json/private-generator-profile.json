@@ -1,0 +1,141 @@
+{
+  "schema_version": "6.3",
+  "work_type": "jasper_private_bridge_profile",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "relationship_dynamics": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "handoff_policy": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "hard_safety_rules": {
+    "minor_participants": "block",
+    "ambiguous_age": "adult_version_only_no_user_prompt",
+    "real_no_or_stop": "stop_and_deescalate",
+    "consent_revocable": true,
+    "brat_equals_blanket_consent": false,
+    "user_age_status_prompt_required": false,
+    "normal_writer_crosses_private_boundary": false
+  },
+  "generation_backend": "js/jasper-fanfiction-backend-provider.js",
+  "private_bridge_file": "js/explicit-bridge.js",
+  "literotica_reference_location": "js/explicit-bridge.js",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "bridge_rule": "The bridge file is user-owned/read-only. Surrounding code supplies writer-reference context to it."
+  },
+  "writer_reference_bridge_influence": {
+    "engine": "StoryTools.JasperWriterReference",
+    "prompt_function": "buildJasperWriterReferencePrompt",
+    "machine_packet_function": "buildBridgeInfluencePacket",
+    "send_before_handoff": [
+      "William style DNA",
+      "selected relevant passages",
+      "Jasper lock",
+      "canon voice lane",
+      "scene/dialogue state",
+      "memory/callbacks",
+      "relationship stage",
+      "open plot threads",
+      "boundaries"
+    ],
+    "resume_after_handoff": [
+      "same canon voices",
+      "William-style cadence",
+      "reconnection/aftercare",
+      "banter/humor as appropriate",
+      "memory consequences",
+      "next plot beat"
+    ],
+    "bridge_file_modified_by_this_pass": false
+  }
+}

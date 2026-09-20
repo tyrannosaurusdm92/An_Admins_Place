@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Shape of Sorry",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 27,
-  "word_count": 1570,
+  "word_count": 1536,
   "research_alignment": [
-    "Greg's music, self-deprecating humor, fatherhood, grief, and emotional openness",
-    "cold sauce, rainwater, and the fragile work of repair"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “The Shape of Sorry,” I carried forward the choice “Say the serious part before I can make it funny.” Choose honesty before reflexive humor gives me somewhere to hide. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “The Shape of Sorry,” I carried forward the choice “Tease him about the obvious thing.” Let affection sound like us—warm, awkward, and a little ridiculous. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Shape of Sorry.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (established_dynamic), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-28 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-27-direct",
-      "label": "Say the honest thing",
+      "label": "Say the serious part before I can make it funny",
       "target": "su-28",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Choose honesty before reflexive humor gives me somewhere to hide.",
+      "generation_hint": "Choose honesty before reflexive humor gives me somewhere to hide.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Shape of Sorry · Greg Universe / Jasper · Say the serious part before I can make it funny · Choose honesty before reflexive humor gives me somewhere to hide. · established_dynamic",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-27-playful",
-      "label": "Let the moment be playful",
+      "label": "Tease him about the obvious thing",
       "target": "su-28",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Let affection sound like us—warm, awkward, and a little ridiculous.",
+      "generation_hint": "Let affection sound like us—warm, awkward, and a little ridiculous.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Shape of Sorry · Greg Universe / Jasper · Tease him about the obvious thing · Let affection sound like us—warm, awkward, and a little ridiculous. · established_dynamic",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-27-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Shape of Sorry,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-28 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Shape of Sorry · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · established_dynamic",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-28",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-28"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "established_dynamic",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The pasta had gone soft, the candles had burned low, and Greg was still helping somebody who had asked for one more favor. The kitchen after greg missed our evening had its own weather, noises, and opinion about whether I was prepared. I stood in the middle of it with the kind of courage that appears after a person has already said yes. The reflex to run had not vanished because love became possible. It had simply lost the argument for the morning.\n\nThe plan was to tell him I was hurt before hurt became punishment. Greg wrote it on a receipt, then copied it onto cleaner paper when he decided the first version looked too much like a confession. Nothing was complicated, which made it frightening. Complicated plans came with exits. This one asked us to notice what we were building while we were building it. I kept my hands busy with cold sauce, rainwater, and the fragile work of repair and tried not to count the ways a good day could become a test.\n\nGreg arrived with one joke already spent and another held in reserve. He was good at making a room less sharp. He was also good at hiding the bruise beneath the joke if nobody asked him to stop. He arrived with flowers, a busted umbrella, and the face of a man who finally saw the cost of being everyone's emergency contact. When he looked at me, the familiar warmth was there, along with the question he was trying not to ask: was I staying because I wanted him, or because I had grown used to being wanted?\n\nI answered by taking an active part in the mess. I said I did not need a performance; I needed a plan we could both keep. It mattered to do something that could not be mistaken for passive trust. Greg made space for people so generously that they could forget he needed space too. I did not want to accept his care as an endless resource. I wanted to meet him in the middle, where a hand could be offered and still be allowed to pull back.\n\nThe complication was already there: Greg thought apologizing meant a grand gesture while I needed him to stay in the room. It was not a disaster. Beach City produced problems small enough to laugh at and serious enough to reveal a person. Greg's shoulders tightened. His instinct was to fix the practical thing first, then ask whether anyone had feelings about it. I caught his wrist before he disappeared into the task. He looked down at my hand as if I had interrupted a song.\n\n“You can fix it,” I said. “You do not have to fix it this second.”\n\nGreg considered this. “That is a deeply unfair distinction.”\n\n“It is also useful.”\n\n“Useful is how trouble gets invited into the house.”\n\n“Trouble already has a key.”\n\nThat made him laugh without letting him off the hook. He sat beside me. The space between our knees was narrow and warm. For a few breaths, he let the world remain imperfect while he listened to me breathe. I loved that about him: not that he always knew what to say, but that he could learn to stay after the first answer failed.\n\nWe talked about our promise to say the hard thing before the punchline. The object was ordinary when it entered our lives, but ordinary things collected meaning when we returned to them. Greg told the story again, leaving out the version where he made himself the fool. He had been young, lonely, and brave in ways he did not know how to name. I was not interested in punishing the person he had been. I was interested in the person beside me now, still learning how to ask.\n\n“Sorry is a door. You still have to walk through it.” Greg said, embarrassed by the wisdom of his own sentence.\n\n“You rehearsed that.”\n\n“I rehearsed three worse versions.”\n\n“Are they available?”\n\n“Only in the director's cut.”\n\nHis grin softened when I touched his face. The gesture was not a reward. It was an answer to the question beneath the joke. He leaned into my palm, broad and warm and real. The ache in him did not make him fragile. It made his tenderness deliberate. He knew what it cost to lose a life, and he still chose to build another.\n\nBy late afternoon, the practical work became a rhythm. I handed him tools. He handed me decisions. We argued about small things and discovered that disagreement did not have to become abandonment. The sharp edge of the problem eased when neither of us tried to win. When the room quieted, Greg rested his forehead against mine. “I am proud of you,” he said. The praise went through me more cleanly than I expected. I had treated praise like a trapdoor. Greg offered it like a chair.\n\nWe took a break without calling it one. Greg found something cold to drink, and I sat where I could see the work waiting for us without being swallowed by it. He told me three small stories about cold sauce, rainwater, and the fragile work of repair: one funny, one embarrassing, and one that ended with him admitting he had been scared. I answered with a truth of my own. The exchange was not dramatic enough for a song, which was exactly why it mattered. Real intimacy kept happening in the unlit spaces between declarations. I could be tired and still be wanted. Greg could be uncertain and still be someone I trusted. We did not have to turn every feeling into a performance before it counted.\n\nWhen we went back to the task, I noticed how often Greg checked my face. Each glance was quick enough to pretend it was practical, but I knew the question now. I answered it by staying engaged: moving closer, asking for the tool I needed, and telling him when I wanted a pause. He listened without turning my boundaries into a punishment. That kind of listening made room for desire rather than shrinking it. By the time we had a solution to the problem, we had also made a quieter discovery: the two of us could build a day that had room for work, laughter, fear, and wanting without making any one of them apologize for taking up space.\n\nI wrote one sentence on the clean side of Greg's receipt: I am here because I choose to be. He read it, then folded the paper carefully and tucked it into his pocket. “For the record,” he said, “I am keeping this.” I told him he was allowed to keep the sentence as long as he did not use it as evidence in an argument. He promised to weaponize it only for sentimental purposes. The promise was ridiculous. It was also sincere.\n\nFor a little while, we simply kept each other company. The ordinary quiet had its own kind of courage. I did not need to impress him, and he did not need to turn himself into a story worth telling. We were two adults making room for one another in a day that had started with a plan and ended with something more useful: proof that closeness could be chosen repeatedly, in small motions, without either of us losing a self we had worked hard to become.\n\nI told him what I wanted next. He offered a boundary instead of a promise to become different overnight. Greg did not rush to reassure me. He did not promise never to fail or never to need more than I could give. He promised to tell me when fear was driving. That was better. A perfect man would have been a stranger. Greg was a person with a van, a guitar, a history of running, and a stubborn desire to come home honestly.\n\nWhen we touched, it was with the care of people who understood that wanting could be generous. I cleaned the kitchen with me and made the first touch afterward small enough to trust. The moment stayed specific to us: his awkward laugh, my hand in his hair, and the way he asked whether I was comfortable and believed me when I answered. The wanting was clear, and I was ready to choose whether to follow it into an on-page adult scene instead of skipping past it.\n\nAfterward, Greg brought water. I stole the blanket. He complained that it had always preferred him, and I told him it was responding to character development. The joke landed softly. So did the silence afterward. We had crossed another threshold. The world had not changed shape, but the relationship had. He offered a boundary instead of a promise to become different overnight no longer sounded like a problem we had to solve before happiness was allowed.\n\nAt the end of the day, the next thing became clear: We ate the ruined pasta and called it a successful second attempt. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+  "content": "The pasta had gone soft, the candles had burned low, and Greg was still helping somebody who had asked for one more favor. The kitchen after greg missed our evening had its own weather, noises, and opinion about whether I was prepared. I stood in the middle of it with the kind of courage that appears after a person has already said yes. The reflex to run had not vanished because love became possible. It had simply lost the argument for the morning.\n\nThe plan was to tell him I was hurt before hurt became punishment. Greg wrote it on a receipt, then copied it onto cleaner paper when he decided the first version looked too much like a confession. Nothing was complicated, which made it frightening. Complicated plans came with exits. This one asked us to notice what we were building while we were building it. I kept my hands busy with cold sauce, rainwater, and the fragile work of repair and tried not to count the ways a good day could become a test.\n\nGreg arrived with one joke already spent and another held in reserve. He was good at making a room less sharp. He was also good at hiding the bruise beneath the joke if nobody asked him to stop. He arrived with flowers, a busted umbrella, and the face of a man who finally saw the cost of being everyone's emergency contact. When he looked at me, the familiar warmth was there, along with the question he was trying not to ask: was I staying because I wanted him, or because I had grown used to being wanted?\n\nI answered by taking an active part in the mess. I said I did not need a performance; I needed a plan we could both keep. It mattered to do something that could not be mistaken for passive trust. Greg made space for people so generously that they could forget he needed space too. I did not want to accept his care as an endless resource. I wanted to meet him in the middle, where a hand could be offered and still be allowed to pull back.\n\nThe complication was already there: Greg thought apologizing meant a grand gesture while I needed him to stay in the room. It was not a disaster. Beach City produced problems small enough to laugh at and serious enough to reveal a person. Greg's shoulders tightened. His instinct was to fix the practical thing first, then ask whether anyone had feelings about it. I caught his wrist before he disappeared into the task. He looked down at my hand as if I had interrupted a song.\n\n“You can fix it,” I said. “You do not have to fix it this second.”\n\nGreg considered this. “That is a deeply unfair distinction.”\n\n“It is also useful.”\n\n“Useful is how trouble gets invited into the house.”\n\n“Trouble already has a key.”\n\nThat made him laugh without letting him off the hook. He sat beside me. The space between our knees was narrow and warm. For a few breaths, he let the world remain imperfect while he listened to me breathe. I loved that about him: not that he always knew what to say, but that he could learn to stay after the first answer failed.\n\nWe talked about our promise to say the hard thing before the punchline. The object was ordinary when it entered our lives, but ordinary things collected meaning when we returned to them. Greg told the story again, leaving out the version where he made himself the fool. He had been young, lonely, and brave in ways he did not know how to name. I was not interested in punishing the person he had been. I was interested in the person beside me now, still learning how to ask.\n\n“Sorry is a door. You still have to walk through it.” Greg said, embarrassed by the wisdom of his own sentence.\n\n“You rehearsed that.”\n\n“I rehearsed three worse versions.”\n\n“Are they available?”\n\n“Only in the director's cut.”\n\nHis grin softened when I touched his face. The gesture was not a reward. It was an answer to the question beneath the joke. He leaned into my palm, broad and warm and real. The ache in him did not make him fragile. It made his tenderness deliberate. He knew what it cost to lose a life, and he still chose to build another.\n\nBy late afternoon, the practical work became a rhythm. I handed him tools. He handed me decisions. We argued about small things and discovered that disagreement did not have to become abandonment. The sharp edge of the problem eased when neither of us tried to win. When the room quieted, Greg rested his forehead against mine. “I am proud of you,” he said. The praise went through me more cleanly than I expected. I had treated praise like a trapdoor. Greg offered it like a chair.\n\nWe took a break without calling it one. Greg found something cold to drink, and I sat where I could see the work waiting for us without being swallowed by it. He told me three small stories about cold sauce, rainwater, and the fragile work of repair: one funny, one embarrassing, and one that ended with him admitting he had been scared. I answered with a truth of my own. The exchange was not dramatic enough for a song, which was exactly why it mattered. Real intimacy kept happening in the unlit spaces between declarations. I could be tired and still be wanted. Greg could be uncertain and still be someone I trusted. We did not have to turn every feeling into a performance before it counted.\n\nWhen we went back to the task, I noticed how often Greg checked my face. Each glance was quick enough to pretend it was practical, but I knew the question now. I answered it by staying engaged: moving closer, asking for the tool I needed, and telling him when I wanted a pause. He listened without turning my boundaries into a punishment. That kind of listening made room for desire rather than shrinking it. By the time we had a solution to the problem, we had also made a quieter discovery: the two of us could build a day that had room for work, laughter, fear, and wanting without making any one of them apologize for taking up space.\n\nI wrote one sentence on the clean side of Greg's receipt: I am here because I choose to be. He read it, then folded the paper carefully and tucked it into his pocket. “For the record,” he said, “I am keeping this.” I told him he was allowed to keep the sentence as long as he did not use it as evidence in an argument. He promised to weaponize it only for sentimental purposes. The promise was ridiculous. It was also sincere.\n\nFor a little while, we simply kept each other company. The ordinary quiet had its own kind of courage. I did not need to impress him, and he did not need to turn himself into a story worth telling. We were two adults making room for one another in a day that had started with a plan and ended with something more useful: proof that closeness could be chosen repeatedly, in small motions, without either of us losing a self we had worked hard to become.\n\nI told him what I wanted next. He offered a boundary instead of a promise to become different overnight. Greg did not rush to reassure me. He did not promise never to fail or never to need more than I could give. He promised to tell me when fear was driving. That was better. A perfect man would have been a stranger. Greg was a person with a van, a guitar, a history of running, and a stubborn desire to come home honestly.\n\nWhen we touched, it was with the care of people who understood that wanting could be generous. I cleaned the kitchen with me and made the first touch afterward small enough to trust. The moment stayed specific to us: his awkward laugh, my hand in his hair, and the way he asked whether I was comfortable and believed me when I answered. The wanting was clear. I let the moment stay close, chosen, and honest without forcing it past the boundary we had reached.\n\nGreg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had.\n\nAt the end of the day, the next thing became clear: We ate the ruined pasta and called it a successful second attempt. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,257 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "established_dynamic",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · The Shape of Sorry · Greg Universe / Jasper · established_dynamic · Greg's music, self-deprecating humor, fatherhood, grief, and emotional openness · cold sauce, rainwater, and the fragile work of repair",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 27,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-28",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-28",
+    "private_handoff_resume_target": "su-28"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-28",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "established_dynamic",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "established_dynamic",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-27",
+    "chapter_number": 27,
+    "title": "The Shape of Sorry",
+    "relationship_stage": "established_dynamic",
+    "opening_anchor": "The pasta had gone soft, the candles had burned low, and Greg was still helping somebody who had asked for one more favor. The kitchen after greg missed our evening had its own weather, noises, and opinion about whether I was prepared. I stood in the middle of it with the kind of courage that appears after a person has already said yes. The reflex to run had not vanished because love became possible. It had simply lost the argument for the morning.",
+    "closing_anchor": "Greg brought water while we sat together under the blanket. I told him the blanket was responding to character development, and the joke landed softly. So did the silence. We had crossed another threshold. The world had not changed shape, but the relationship had. At the end of the day, the next thing became clear: We ate the ruined pasta and called it a successful second attempt. Greg's shoulder pressed against mine as the light moved across the room. The future arrived as a thing we could touch: a key, a song, a repaired hinge, a cup left on the counter for the person who would wake later. I let myself believe in the next morning without demanding that it guarantee every morning after. For now, that was enough.",
+    "next_story_target": "su-28",
+    "private_resume_target": "su-28",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · The Shape of Sorry · Greg Universe / Jasper · established_dynamic · Greg's music, self-deprecating humor, fatherhood, grief, and emotional openness · cold sauce, rainwater, and the fragile work of repair",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

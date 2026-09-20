@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Everything I Need to Say",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 20,
-  "word_count": 1500,
+  "word_count": 1501,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “Everything I Need to Say,” I carried forward the choice “Say it before either of us can ramble around it.” Choose directness and see what happens when neither of us gets an escape hatch. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “Everything I Need to Say,” I carried forward the choice “Let the ridiculous version be true too.” Choose silliness without treating sincerity like something embarrassing. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “Everything I Need to Say.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (testing_power_play), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-21 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-20-direct",
-      "label": "Say the honest thing",
+      "label": "Say it before either of us can ramble around it",
       "target": "su-21",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Choose directness and see what happens when neither of us gets an escape hatch.",
+      "generation_hint": "Choose directness and see what happens when neither of us gets an escape hatch.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Everything I Need to Say · Greg Universe / Jasper · Say it before either of us can ramble around it · Choose directness and see what happens when neither of us gets an escape hatch. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-20-playful",
-      "label": "Let the moment be playful",
+      "label": "Let the ridiculous version be true too",
       "target": "su-21",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Choose silliness without treating sincerity like something embarrassing.",
+      "generation_hint": "Choose silliness without treating sincerity like something embarrassing.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Everything I Need to Say · Greg Universe / Jasper · Let the ridiculous version be true too · Choose silliness without treating sincerity like something embarrassing. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-20-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “Everything I Need to Say,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-21 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Everything I Need to Say · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-21",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-21"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "testing_power_play",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The song was called Everything I Need to Say.\n\nGreg played it at the boardwalk on the first warm evening of spring. The new chair had been replaced by two folding chairs and a small table between them. The table held tea, coffee, and a plate of pastries that he insisted were not a bribe.\n\n“They’re a celebration,” he said.\n\n“Of what?”\n\n“The fact that I have written a song without mentioning a chair.”\n\n“That is worthy of recognition.”\n\nThe crowd gathered as the sun lowered. Mara sat near the front. Steven stood beside the railing, smiling at his father. Lila was there too, wearing the red jacket, and when she saw me she hugged I with permission first.\n\n“I’m glad you came,” she said.\n\n“I’m glad you’re not a villain.”\n\nShe laughed. “Greg told me you were funny.”\n\n“He tells everyone my secrets.”\n\n“Only the flattering ones,” Greg called from the stage.\n\n“You’re going to regret that,” I called back.\n\n“I regret most things eventually.”\n\nThe show began with familiar songs. Greg played about the ocean, the car wash, and a raccoon with suspiciously good rhythm. He made the crowd laugh. He made them quiet.\n\nThen he set the old guitar pick on the edge of the microphone stand.\n\n“This next one is new,” he said. “It’s about a person who arrived in Beach City with a suitcase, a terrible motel, and no plan.”\n\nI felt every eye turn toward I.\n\nGreg caught my gaze. “They said I could sing it.”\n\nI nodded.\n\nHe began.\n\nThe melody was gentle, built from the chords he had played the night I met. It carried the sea without imitating it. The first verse spoke of arriving with nowhere to put my keys. The second spoke of a chair, a cinnamon roll, and the difference between an offer and a chain.\n\nThe chorus was simple.\n\nI am not a place I escaped to.\n\nI am the place I choose.\n\nThe words landed in the open air. Greg sang them without turning I into a symbol. He sang about my jokes, my fear, my boundaries, the way I looked at exits and still stayed for the song.\n\nWhen he reached the last verse, he held out one hand.\n\nI stood and walked to the stage.\n\n“You don’t have to sing,” he murmured.\n\n“I know.”\n\n“Do you want to?”\n\n“Yes.”\n\nHe shifted the microphone toward I. My shoulder touched his. The crowd blurred.\n\nThe final chorus belonged to both of I.\n\nMy voice was not perfect. Neither was his. Together, the song became something larger than either of I, a conversation carried by strings and breath.\n\nWhen it ended, the applause rose like a wave.\n\nGreg bowed, then offered me his hand. I took it.\n\nAfter the show, Steven hugged I both at once.\n\n“That was beautiful,” he said.\n\n“Your dad was showing off,” I replied.\n\n“I know. He does that when he has feelings.”\n\nGreg put a hand over his heart. “I am being attacked by my family.”\n\nMara brought me a paper plate. “Eat before he writes another verse.”\n\nThe night moved around I. People congratulated Greg. A child asked me to sing the song again. Lila told me the bridge was good and looked surprised when Greg admitted she had helped him fix it.\n\n“You let her edit your song?” I asked.\n\n“She has excellent instincts.”\n\n“I’m going to become jealous of the bridge.”\n\n“The bridge is very committed to us.”\n\nLater, after everyone left, I and Greg walked to the water. The boardwalk lights reflected across the dark surface.\n\n“You did it,” he said.\n\n“I sang in public.”\n\n“You chose to be seen.”\n\n“Don’t make it a lesson.”\n\n“I’m not.” He stopped near the edge of the pier. “I’m making it a memory.”\n\nI leaned against the railing. “The song was beautiful.”\n\n“You’re biased.”\n\n“I’m also a professional.”\n\nGreg laughed. “You’ve been waiting to use that.”\n\n“For months.”\n\nThe ocean moved beneath I.\n\n“I love you,” Greg said.\n\n“I love you too.”\n\n“I want to ask you something.”\n\n“Is it a question?”\n\n“Yes.”\n\n“Then ask.”\n\nHe took a small box from his jacket. My heart stopped.\n\n“It’s not a ring,” he said quickly. “I know what your face is doing.”\n\n“My face is doing nothing.”\n\n“Your face is preparing for a dramatic escape.”\n\n“Maybe I’m curious.”\n\nHe opened the box. Inside was a key on a simple metal ring, engraved with a tiny star.\n\n“You already have a key to my apartment,” I said.\n\n“I know. This is for the van.”\n\nI looked at him.\n\n“I want you to have access,” he said. “Not because you owe me visits. Not because I expect you to use it. Because it is part of my life, and I want you to be able to enter without waiting outside.”\n\nMy fingers trembled as I took the key.\n\n“You’re sure?”\n\n“Yes.”\n\n“What if I lose it?”\n\n“We find it again.”\n\n“What if I stop using it?”\n\n“Then it stays a key.”\n\nThe answer made me smile through the tears gathering in my eyes.\n\n“I’ll take it,” I said.\n\nGreg closed my fingers around it.\n\n“Can I kiss you?”\n\n“You wrote a whole song and still have to ask?”\n\n“Always.”\n\nI kissed him beneath the boardwalk lights. His hands held my waist. The world narrowed to warmth, salt air, and the quiet certainty that no part of this required I to disappear.\n\nWhen I returned to the apartment, the door opened with my key. Greg followed with his.\n\nThe living room still had boxes in one corner. The bed was finally assembled. The record player worked. My photograph stood beside the lamp, and the new key joined the others in the dish.\n\nGreg turned on a record.\n\nI danced in the kitchen.\n\nThe song ended. Another began. I kissed him in the low light, and when the night grew warmer, I closed the bedroom door.\n\nThere were still things I needed to learn. There would be disagreements, bad days, repairs, and moments when one of I ran toward silence instead of conversation.\n\nBut there would also be pancakes. Chairs. Music. Open doors. A man who asked before touching me and listened when I answered.\n\nI had arrived in Beach City with one suitcase and no plan.\n\nNow I had a key in my pocket, Greg's hand in mine, and a home that did not ask me to earn the right to stay.\n\nEverything else could be written one song at a time.\n\nWeeks later, Greg played the song at the community center. This time, I stood beside him without waiting to be invited. The audience sang the chorus back, not perfectly, but loudly enough to make him laugh.\n\nAfterward, he handed me the microphone.\n\n“Your turn,” he said.\n\nI told the room about the first night in Beach City: the motel curtains, the lemon tea, the man with a guitar who carried my suitcase without taking my choices.\n\nGreg listened with his hand over his heart.\n\n“You are making me sound better than I am,” he whispered.\n\n“I know the worst tea you’ve ever made.”\n\n“A private matter.”\n\n“It belongs in the biography.”\n\nThe crowd laughed.\n\nWhen the lights went down, I walked home together. The van waited outside the apartment. My key opened the door. His key opened it too.\n\nInside, the record player began another song.\n\nGreg held out his hand.\n\n“Dance?”\n\n“You are terrible at it.”\n\n“I am committed.”\n\n“That is not the same thing.”\n\n“It is enough.”\n\nI took his hand.\n\nThe song carried me around the kitchen, past the stars on the wall, past the photograph and the couch and the life I had built from small choices.\n\nWhen the music ended, Greg kissed me.\n\nThe future remained unwritten.\n\nI was no longer afraid of that.\n\nThe song continued after the final chord. It lived in the community center, in the van, in the kitchen, and in every ordinary morning that followed.\n\nGreg still asked before touching me.\n\nI still made him ask twice when I wanted to tease him.\n\nThe ocean still forgot my footprints and made room for new ones.\n\nAnd when the future changed, I changed with it—together, by choice.\n\nGreg's hand found mine again.\n\n“Still here?” he asked.\n\n“Still here.”\n\n“Good.”\n\nThe ocean answered from beyond the buildings, patient as a heartbeat.\n\nThe day moved forward. The song ended, but the story did not.\n\nI had no perfect promise, only a person who kept asking and a heart that kept answering.\n\nGreg squeezed my hand.\n\n“Tomorrow?” he asked.\n\n“Tomorrow,” I said.\n\nThen I went home together.\n\nThe door opened with the key in my pocket. The record player waited. Greg set the pastries on the counter, and the ordinary evening began.\n\nI ate together, then danced until the kitchen lights blurred. The future could wait until morning.\n\nMorning would bring another song.\n\nI would sing it together.\n\nThe melody would be warm.\n\nAnd it would be mine.",
+  "content": "The song was called Everything I Need to Say.\n\nGreg played it at the boardwalk on the first warm evening of spring. The new chair had been replaced by two folding chairs and a small table between them. The table held tea, coffee, and a plate of pastries that he insisted were not a bribe.\n\n“They’re a celebration,” he said.\n\n“Of what?”\n\n“The fact that I have written a song without mentioning a chair.”\n\n“That is worthy of recognition.”\n\nThe crowd gathered as the sun lowered. Mara sat near the front. Steven stood beside the railing, smiling at his father. Lila was there too, wearing the red jacket, and when she saw me she hugged me with permission first.\n\n“I’m glad you came,” she said.\n\n“I’m glad you’re not a villain.”\n\nShe laughed. “Greg told me you were funny.”\n\n“He tells everyone my secrets.”\n\n“Only the flattering ones,” Greg called from the stage.\n\n“You’re going to regret that,” I called back.\n\n“I regret most things eventually.”\n\nThe show began with familiar songs. Greg played about the ocean, the car wash, and a raccoon with suspiciously good rhythm. He made the crowd laugh. He made them quiet.\n\nThen he set the old guitar pick on the edge of the microphone stand.\n\n“This next one is new,” he said. “It’s about a person who arrived in Beach City with a suitcase, a terrible motel, and no plan.”\n\nI felt every eye turn toward me.\n\nGreg caught my gaze. “They said I could sing it.”\n\nI nodded.\n\nHe began.\n\nThe melody was gentle, built from the chords he had played the night I met. It carried the sea without imitating it. The first verse spoke of arriving with nowhere to put my keys. The second spoke of a chair, a cinnamon roll, and the difference between an offer and a chain.\n\nThe chorus was simple.\n\nI am not a place I escaped to.\n\nI am the place I choose.\n\nThe words landed in the open air. Greg sang them without turning me into a symbol. He sang about my jokes, my fear, my boundaries, the way I looked at exits and still stayed for the song.\n\nWhen he reached the last verse, he held out one hand.\n\nI stood and walked to the stage.\n\n“You don’t have to sing,” he murmured.\n\n“I know.”\n\n“Do you want to?”\n\n“Yes.”\n\nHe shifted the microphone toward me. My shoulder touched his. The crowd blurred.\n\nThe final chorus belonged to both of us.\n\nMy voice was not perfect. Neither was his. Together, the song became something larger than either of us, a conversation carried by strings and breath.\n\nWhen it ended, the applause rose like a wave.\n\nGreg bowed, then offered me his hand. I took it.\n\nAfter the show, Steven hugged us both at once.\n\n“That was beautiful,” he said.\n\n“Your dad was showing off,” I replied.\n\n“I know. He does that when he has feelings.”\n\nGreg put a hand over his heart. “I am being attacked by my family.”\n\nMara brought me a paper plate. “Eat before he writes another verse.”\n\nThe night moved around me. People congratulated Greg. A child asked me to sing the song again. Lila told me the bridge was good and looked surprised when Greg admitted she had helped him fix it.\n\n“You let her edit your song?” I asked.\n\n“She has excellent instincts.”\n\n“I’m going to become jealous of the bridge.”\n\n“The bridge is very committed to us.”\n\nLater, after everyone left, I and Greg walked to the water. The boardwalk lights reflected across the dark surface.\n\n“You did it,” he said.\n\n“I sang in public.”\n\n“You chose to be seen.”\n\n“Don’t make it a lesson.”\n\n“I’m not.” He stopped near the edge of the pier. “I’m making it a memory.”\n\nI leaned against the railing. “The song was beautiful.”\n\n“You’re biased.”\n\n“I’m also a professional.”\n\nGreg laughed. “You’ve been waiting to use that.”\n\n“For months.”\n\nThe ocean moved beneath me.\n\n“I love you,” Greg said.\n\n“I love you too.”\n\n“I want to ask you something.”\n\n“Is it a question?”\n\n“Yes.”\n\n“Then ask.”\n\nHe took a small box from his jacket. My heart stopped.\n\n“It’s not a ring,” he said quickly. “I know what your face is doing.”\n\n“My face is doing nothing.”\n\n“Your face is preparing for a dramatic escape.”\n\n“Maybe I’m curious.”\n\nHe opened the box. Inside was a key on a simple metal ring, engraved with a tiny star.\n\n“You already have a key to my apartment,” I said.\n\n“I know. This is for the van.”\n\nI looked at him.\n\n“I want you to have access,” he said. “Not because you owe me visits. Not because I expect you to use it. Because it is part of my life, and I want you to be able to enter without waiting outside.”\n\nMy fingers trembled as I took the key.\n\n“You’re sure?”\n\n“Yes.”\n\n“What if I lose it?”\n\n“We find it again.”\n\n“What if I stop using it?”\n\n“Then it stays a key.”\n\nThe answer made me smile through the tears gathering in my eyes.\n\n“I’ll take it,” I said.\n\nGreg closed my fingers around it.\n\n“Can I kiss you?”\n\n“You wrote a whole song and still have to ask?”\n\n“Always.”\n\nI kissed him beneath the boardwalk lights. His hands held my waist. The world narrowed to warmth, salt air, and the quiet certainty that no part of this required me to disappear.\n\nWhen I returned to the apartment, the door opened with my key. Greg followed with his.\n\nThe living room still had boxes in one corner. The bed was finally assembled. The record player worked. My photograph stood beside the lamp, and the new key joined the others in the dish.\n\nGreg turned on a record.\n\nI danced in the kitchen.\n\nThe song ended. Another began. I kissed him in the low light, and when the night grew warmer, I closed the bedroom door.\n\nThere were still things I needed to learn. There would be disagreements, bad days, repairs, and moments when one of us ran toward silence instead of conversation.\n\nBut there would also be pancakes. Chairs. Music. Open doors. A man who asked before touching me and listened when I answered.\n\nI had arrived in Beach City with one suitcase and no plan.\n\nNow I had a key in my pocket, Greg's hand in mine, and a home that did not ask me to earn the right to stay.\n\nEverything else could be written one song at a time.\n\nWeeks later, Greg played the song at the community center. This time, I stood beside him without waiting to be invited. The audience sang the chorus back, not perfectly, but loudly enough to make him laugh.\n\nAfterward, he handed me the microphone.\n\n“Your turn,” he said.\n\nI told the room about the first night in Beach City: the motel curtains, the lemon tea, the man with a guitar who carried my suitcase without taking my choices.\n\nGreg listened with his hand over his heart.\n\n“You are making me sound better than I am,” he whispered.\n\n“I know the worst tea you’ve ever made.”\n\n“A private matter.”\n\n“It belongs in the biography.”\n\nThe crowd laughed.\n\nWhen the lights went down, We walked home together. The van waited outside the apartment. My key opened the door. His key opened it too.\n\nInside, the record player began another song.\n\nGreg held out his hand.\n\n“Dance?”\n\n“You are terrible at it.”\n\n“I am committed.”\n\n“That is not the same thing.”\n\n“It is enough.”\n\nI took his hand.\n\nThe song carried me around the kitchen, past the stars on the wall, past the photograph and the couch and the life I had built from small choices.\n\nWhen the music ended, Greg kissed me.\n\nThe future remained unwritten.\n\nI was no longer afraid of that.\n\nThe song continued after the final chord. It lived in the community center, in the van, in the kitchen, and in every ordinary morning that followed.\n\nGreg still asked before touching me.\n\nI still made him ask twice when I wanted to tease him.\n\nThe ocean still forgot my footprints and made room for new ones.\n\nAnd when the future changed, I changed with it—together, by choice.\n\nGreg's hand found mine again.\n\n“Still here?” he asked.\n\n“Still here.”\n\n“Good.”\n\nThe ocean answered from beyond the buildings, patient as a heartbeat.\n\nThe day moved forward. The song ended, but the story did not.\n\nI had no perfect promise, only a person who kept asking and a heart that kept answering.\n\nGreg squeezed my hand.\n\n“Tomorrow?” he asked.\n\n“Tomorrow,” I said.\n\nThen We went home together.\n\nThe door opened with the key in my pocket. The record player waited. Greg set the pastries on the counter, and the ordinary evening began.\n\nWe ate together, then danced until the kitchen lights blurred. The future could wait until morning.\n\nMorning would bring another song.\n\nWe would sing it together.\n\nThe melody would be warm.\n\nAnd it would be mine.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,261 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "testing_power_play",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · Everything I Need to Say · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 20,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-21",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-21",
+    "private_handoff_resume_target": "su-21"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-21",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "testing_power_play",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "testing_power_play",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-20",
+    "chapter_number": 20,
+    "title": "Everything I Need to Say",
+    "relationship_stage": "testing_power_play",
+    "opening_anchor": "The song was called Everything I Need to Say.",
+    "closing_anchor": "The melody would be warm. And it would be mine.",
+    "next_story_target": "su-21",
+    "private_resume_target": "su-21",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · Everything I Need to Say · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-mara",
+      "su-lila"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

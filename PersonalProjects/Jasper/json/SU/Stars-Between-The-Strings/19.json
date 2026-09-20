@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Door Left Open",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 19,
   "word_count": 1501,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “The Door Left Open,” I carried forward the choice “Tell him what changed for me.” Put the emotional shift into words and let his reaction be messy and real. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “The Door Left Open,” I carried forward the choice “Answer with music-brain nonsense.” Meet Greg in the kind of humor that can turn into honesty two sentences later. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Door Left Open.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (testing_power_play), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-20 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-19-direct",
-      "label": "Say the honest thing",
+      "label": "Tell him what changed for me",
       "target": "su-20",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Put the emotional shift into words and let his reaction be messy and real.",
+      "generation_hint": "Put the emotional shift into words and let his reaction be messy and real.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Door Left Open · Greg Universe / Jasper · Tell him what changed for me · Put the emotional shift into words and let his reaction be messy and real. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-19-playful",
-      "label": "Let the moment be playful",
+      "label": "Answer with music-brain nonsense",
       "target": "su-20",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Meet Greg in the kind of humor that can turn into honesty two sentences later.",
+      "generation_hint": "Meet Greg in the kind of humor that can turn into honesty two sentences later.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Door Left Open · Greg Universe / Jasper · Answer with music-brain nonsense · Meet Greg in the kind of humor that can turn into honesty two sentences later. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-19-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Door Left Open,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-20 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Door Left Open · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-20",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-20"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "testing_power_play",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The door to Greg's van had always been open.\n\nIt was a metaphor, a practical feature, and occasionally a problem when the wind blew sand across the floor. After his long drive, he replaced the faulty latch and installed a small brass hook so it would stay open without banging against the frame.\n\n“You fixed the door,” I said.\n\n“I repaired it.”\n\n“What’s the difference?”\n\n“Fixing sounds like it was broken forever. Repairing means it gets another chance.”\n\nI looked at him. “That sounds like a song.”\n\n“Everything sounds like a song if you’re emotionally unstable enough.”\n\nThe two of I stood outside the van in the early morning. Greg had spent the last week making small changes: a second key, a new mattress, an extra shelf, and a lockbox for documents. None of it made the van a house. It made it more honest about what it was.\n\nI had spent the same week looking at apartments.\n\nNot because I wanted to leave Greg. Because I wanted a place that belonged entirely to I. A studio with a better window. A kitchen that did not share a wall with a bakery mixer. A door I could lock and unlock without anyone else’s permission.\n\nThe apartment I found was three blocks from the car wash.\n\n“You’re moving,” Greg said when I told him.\n\n“I’m moving closer.”\n\n“Those are different things.”\n\n“I know.”\n\nHe smiled. “I’m proud of you.”\n\nThe words made my chest warm, but not as much as they would have once. I was learning to receive pride without turning it into a debt.\n\nOn moving day, Greg carried boxes. Mara supervised. Steven appeared with a roll of tape and immediately taped his own sleeve to a box.\n\n“Do you need help?” I asked.\n\n“No,” he said, trying to pull free. “I have a system.”\n\n“Your system is attached to the cardboard.”\n\n“It’s a very secure system.”\n\nGreg cut him loose with a pocketknife.\n\nThe new apartment had two windows and a patch of sunlight that crossed the floor in the afternoon. The kitchen was tiny but functional. The bedroom door closed properly. The walls were bare except for the photograph I had brought from the studio.\n\nI placed it on a shelf.\n\nGreg stood behind I. “That looks good.”\n\n“It’s not finished.”\n\n“Neither am I.”\n\n“You’re not allowed to make everything profound.”\n\n“I’ll try being annoying instead.”\n\nHe kissed my temple.\n\nThe move ended with pizza on the floor. Steven told stories about traveling. Mara argued with Greg about whether the living room needed a plant. I leaned against Greg's shoulder while he ate a slice folded in half.\n\nWhen everyone left, the apartment became quiet.\n\nThere were still boxes in the hallway. The bed had not been assembled. My curtains were folded on the floor. But the air belonged to I.\n\nGreg stood by the door with his jacket on.\n\n“You can stay,” I said.\n\nHe looked at me. “Are you sure?”\n\n“Yes.”\n\n“I have a van.”\n\n“You do.”\n\n“And a perfectly adequate mattress.”\n\n“You are allowed to sleep in a bed.”\n\n“I know. I’m just making sure you’re not inviting me because the apartment feels empty.”\n\nI crossed the room. “It does feel empty.”\n\n“That’s normal.”\n\n“But I’m inviting you because I want you here.”\n\nHe lowered his gaze. “With your own key?”\n\nI reached into my pocket and held it out.\n\nGreg stared at the key.\n\n“You don’t have to take it,” I said.\n\n“I want to.”\n\nHe accepted it. His fingers curled around mine for a moment.\n\n“You can come in without knocking,” I said. “But you still have to knock if the door is closed.”\n\n“That’s fair.”\n\n“You can leave things here.”\n\n“I’ll bring a record player.”\n\n“You can leave one record player here.”\n\n“Two.”\n\n“One and a half.”\n\n“Deal.”\n\nGreg slipped the key onto his ring. It looked small among the others.\n\n“I’m not moving in,” he said.\n\n“I know.”\n\n“But I want this to be somewhere we both choose.”\n\n“It is.”\n\nHe took off his jacket and set it over the back of the couch. Then he walked to the boxes and picked one up.\n\n“What’s in this?”\n\n“Books.”\n\n“The dangerous kind?”\n\n“The ones that make you think.”\n\n“I may need supervision.”\n\nI opened the box. He sat on the floor beside I, and the two of I began sorting.\n\nThe first book went on the shelf. The second went on the nightstand. The third Greg claimed for the van.\n\n“You have a house with wheels,” I said.\n\n“Now you have a house with books.”\n\n“It’s a better metaphor.”\n\n“I’m jealous.”\n\nThe evening became a collection of small touches: Greg's knee against mine, my hand brushing his shoulder, the way he leaned closer whenever I laughed.\n\nWhen the last box was sealed, he stood and offered his hand.\n\n“Dance with me?”\n\n“There’s no music.”\n\n“I can hum.”\n\n“That is not music.”\n\n“You’re cruel.”\n\nHe began to hum anyway. It was one of his unfinished melodies, the one about an open door. I put my hands on his shoulders. He placed his at my waist.\n\nI swayed between the boxes.\n\n“You’re a terrible dancer,” I said.\n\n“I’m a good dancer in low light.”\n\n“We are in low light.”\n\n“Then I’m thriving.”\n\nHe kissed me. The apartment had not yet learned my sounds, but the walls held the warmth of them. Greg's hands moved slowly. I answered with my body, choosing each step instead of being carried by it.\n\nThe bedroom door remained open.\n\nLater, beneath the half-assembled bed, I laughed into his shoulder.\n\n“We’re going to have to finish this tomorrow,” I said.\n\n“The bed or the boxes?”\n\n“Both.”\n\n“I’m very tired.”\n\n“You chose this.”\n\n“I choose you.”\n\nThe words were quiet, but they filled the room.\n\nOutside, Beach City settled into night. The bakery would begin work before dawn. The car wash sign would flicker. The van would wait three blocks away.\n\nAnd my door would be open.\n\nThe following week, Greg left a small box in my apartment.\n\n“What is it?” I asked.\n\n“A housewarming gift.”\n\nInside was a set of hooks shaped like tiny stars. They matched the moon-shaped hooks in the van.\n\n“You are putting your emotional furniture everywhere,” I said.\n\n“I am creating continuity.”\n\n“You are creating a hook empire.”\n\n“A noble empire.”\n\nI installed the hooks beside the door. Greg hung his jacket on one. I hung my scarf on another.\n\n“That is symbolic,” he said.\n\n“It is a hook.”\n\n“Both can be true.”\n\nI looked at him. “You are going to keep coming here?”\n\n“If you want me to.”\n\n“I do.”\n\n“Even when the van is parked outside?”\n\n“Especially then.”\n\nHe kissed me in the new living room. The apartment still held the faint scent of cardboard and paint. The couch was slightly too large. The bedroom door stuck when it rained.\n\nIt was mine.\n\nWhen I pulled back, Greg rested his forehead against mine.\n\n“Thank you for making a place for me,” he said.\n\n“Thank you for not trying to fill every room.”\n\n“I brought one record player.”\n\n“And one box of pastries.”\n\n“The pastries are separate.”\n\n“They can stay.”\n\nHe smiled. “Then I will.”\n\nThe two of I finished assembling the bed the next morning. It took three attempts and one argument with the instructions.\n\n“The diagram is wrong,” Greg said.\n\n“The diagram is upside down.”\n\n“That is a type of wrong.”\n\nI laughed until the bed finally stood.\n\nThe room looked ridiculous when it was finished. The bed leaned slightly. The hooks were uneven. The record player sat on a crate because the table had not arrived.\n\nGreg stood in the doorway. “It is perfect.”\n\n“It is functional.”\n\n“That is a form of perfect.”\n\nI walked to him. “You can come here whenever you want.”\n\n“Even if I bring the wrong pastries?”\n\n“Then you will sleep on the couch.”\n\n“A fair system.”\n\nHe kissed me slowly, and the new apartment learned the sound of both my laughter.\n\nThe next morning, Greg left before the bakery opened. He kissed my forehead, collected his jacket from the star-shaped hook, and promised to return after the car wash.\n\n“You have a key,” I reminded him.\n\n“I know.”\n\n“Use it.”\n\n“I will.”\n\nWhen he came back, he carried a chair for the bedroom and a pastry for each of I. The chair was sturdy. The pastry was sweet. The arrangement was imperfect and entirely mine.\n\nI placed a second mug beside the first. Greg filled it with coffee and complained that my tea was too hot.\n\n“It is always too hot,” I said.\n\n“You could wait.”\n\n“Waiting is a strategy.”\n\nHe looked pleased. “You remembered.”\n\n“I remember a lot about you,” I said.\n\n“I know.”\n\nHe kissed me beside the new chair.\n\nThe chair did not complain. The room held its own quiet, warm with the evidence that love could be invited in without surrendering the key.\n\nI slept easily that night.\n\nThe room held me both.",
+  "content": "The door to Greg's van had always been open.\n\nIt was a metaphor, a practical feature, and occasionally a problem when the wind blew sand across the floor. After his long drive, he replaced the faulty latch and installed a small brass hook so it would stay open without banging against the frame.\n\n“You fixed the door,” I said.\n\n“I repaired it.”\n\n“What’s the difference?”\n\n“Fixing sounds like it was broken forever. Repairing means it gets another chance.”\n\nI looked at him. “That sounds like a song.”\n\n“Everything sounds like a song if you’re emotionally unstable enough.”\n\nthe two of us stood outside the van in the early morning. Greg had spent the last week making small changes: a second key, a new mattress, an extra shelf, and a lockbox for documents. None of it made the van a house. It made it more honest about what it was.\n\nI had spent the same week looking at apartments.\n\nNot because I wanted to leave Greg. Because I wanted a place that belonged entirely to me. A studio with a better window. A kitchen that did not share a wall with a bakery mixer. A door I could lock and unlock without anyone else’s permission.\n\nThe apartment I found was three blocks from the car wash.\n\n“You’re moving,” Greg said when I told him.\n\n“I’m moving closer.”\n\n“Those are different things.”\n\n“I know.”\n\nHe smiled. “I’m proud of you.”\n\nThe words made my chest warm, but not as much as they would have once. I was learning to receive pride without turning it into a debt.\n\nOn moving day, Greg carried boxes. Mara supervised. Steven appeared with a roll of tape and immediately taped his own sleeve to a box.\n\n“Do you need help?” I asked.\n\n“No,” he said, trying to pull free. “I have a system.”\n\n“Your system is attached to the cardboard.”\n\n“It’s a very secure system.”\n\nGreg cut him loose with a pocketknife.\n\nThe new apartment had two windows and a patch of sunlight that crossed the floor in the afternoon. The kitchen was tiny but functional. The bedroom door closed properly. The walls were bare except for the photograph I had brought from the studio.\n\nI placed it on a shelf.\n\nGreg stood behind me. “That looks good.”\n\n“It’s not finished.”\n\n“Neither am I.”\n\n“You’re not allowed to make everything profound.”\n\n“I’ll try being annoying instead.”\n\nHe kissed my temple.\n\nThe move ended with pizza on the floor. Steven told stories about traveling. Mara argued with Greg about whether the living room needed a plant. I leaned against Greg's shoulder while he ate a slice folded in half.\n\nWhen everyone left, the apartment became quiet.\n\nThere were still boxes in the hallway. The bed had not been assembled. My curtains were folded on the floor. But the air belonged to me.\n\nGreg stood by the door with his jacket on.\n\n“You can stay,” I said.\n\nHe looked at me. “Are you sure?”\n\n“Yes.”\n\n“I have a van.”\n\n“You do.”\n\n“And a perfectly adequate mattress.”\n\n“You are allowed to sleep in a bed.”\n\n“I know. I’m just making sure you’re not inviting me because the apartment feels empty.”\n\nI crossed the room. “It does feel empty.”\n\n“That’s normal.”\n\n“But I’m inviting you because I want you here.”\n\nHe lowered his gaze. “With your own key?”\n\nI reached into my pocket and held it out.\n\nGreg stared at the key.\n\n“You don’t have to take it,” I said.\n\n“I want to.”\n\nHe accepted it. His fingers curled around mine for a moment.\n\n“You can come in without knocking,” I said. “But you still have to knock if the door is closed.”\n\n“That’s fair.”\n\n“You can leave things here.”\n\n“I’ll bring a record player.”\n\n“You can leave one record player here.”\n\n“Two.”\n\n“One and a half.”\n\n“Deal.”\n\nGreg slipped the key onto his ring. It looked small among the others.\n\n“I’m not moving in,” he said.\n\n“I know.”\n\n“But I want this to be somewhere we both choose.”\n\n“It is.”\n\nHe took off his jacket and set it over the back of the couch. Then he walked to the boxes and picked one up.\n\n“What’s in this?”\n\n“Books.”\n\n“The dangerous kind?”\n\n“The ones that make you think.”\n\n“I may need supervision.”\n\nI opened the box. He sat on the floor beside me, and the two of us began sorting.\n\nThe first book went on the shelf. The second went on the nightstand. The third Greg claimed for the van.\n\n“You have a house with wheels,” I said.\n\n“Now you have a house with books.”\n\n“It’s a better metaphor.”\n\n“I’m jealous.”\n\nThe evening became a collection of small touches: Greg's knee against mine, my hand brushing his shoulder, the way he leaned closer whenever I laughed.\n\nWhen the last box was sealed, he stood and offered his hand.\n\n“Dance with me?”\n\n“There’s no music.”\n\n“I can hum.”\n\n“That is not music.”\n\n“You’re cruel.”\n\nHe began to hum anyway. It was one of his unfinished melodies, the one about an open door. I put my hands on his shoulders. He placed his at my waist.\n\nI swayed between the boxes.\n\n“You’re a terrible dancer,” I said.\n\n“I’m a good dancer in low light.”\n\n“We are in low light.”\n\n“Then I’m thriving.”\n\nHe kissed me. The apartment had not yet learned my sounds, but the walls held the warmth of them. Greg's hands moved slowly. I answered with my body, choosing each step instead of being carried by it.\n\nThe bedroom door remained open.\n\nLater, beneath the half-assembled bed, I laughed into his shoulder.\n\n“We’re going to have to finish this tomorrow,” I said.\n\n“The bed or the boxes?”\n\n“Both.”\n\n“I’m very tired.”\n\n“You chose this.”\n\n“I choose you.”\n\nThe words were quiet, but they filled the room.\n\nOutside, Beach City settled into night. The bakery would begin work before dawn. The car wash sign would flicker. The van would wait three blocks away.\n\nAnd my door would be open.\n\nThe following week, Greg left a small box in my apartment.\n\n“What is it?” I asked.\n\n“A housewarming gift.”\n\nInside was a set of hooks shaped like tiny stars. They matched the moon-shaped hooks in the van.\n\n“You are putting your emotional furniture everywhere,” I said.\n\n“I am creating continuity.”\n\n“You are creating a hook empire.”\n\n“A noble empire.”\n\nI installed the hooks beside the door. Greg hung his jacket on one. I hung my scarf on another.\n\n“That is symbolic,” he said.\n\n“It is a hook.”\n\n“Both can be true.”\n\nI looked at him. “You are going to keep coming here?”\n\n“If you want me to.”\n\n“I do.”\n\n“Even when the van is parked outside?”\n\n“Especially then.”\n\nHe kissed me in the new living room. The apartment still held the faint scent of cardboard and paint. The couch was slightly too large. The bedroom door stuck when it rained.\n\nIt was mine.\n\nWhen I pulled back, Greg rested his forehead against mine.\n\n“Thank you for making a place for me,” he said.\n\n“Thank you for not trying to fill every room.”\n\n“I brought one record player.”\n\n“And one box of pastries.”\n\n“The pastries are separate.”\n\n“They can stay.”\n\nHe smiled. “Then I will.”\n\nthe two of us finished assembling the bed the next morning. It took three attempts and one argument with the instructions.\n\n“The diagram is wrong,” Greg said.\n\n“The diagram is upside down.”\n\n“That is a type of wrong.”\n\nI laughed until the bed finally stood.\n\nThe room looked ridiculous when it was finished. The bed leaned slightly. The hooks were uneven. The record player sat on a crate because the table had not arrived.\n\nGreg stood in the doorway. “It is perfect.”\n\n“It is functional.”\n\n“That is a form of perfect.”\n\nI walked to him. “You can come here whenever you want.”\n\n“Even if I bring the wrong pastries?”\n\n“Then you will sleep on the couch.”\n\n“A fair system.”\n\nHe kissed me slowly, and the new apartment learned the sound of both my laughter.\n\nThe next morning, Greg left before the bakery opened. He kissed my forehead, collected his jacket from the star-shaped hook, and promised to return after the car wash.\n\n“You have a key,” I reminded him.\n\n“I know.”\n\n“Use it.”\n\n“I will.”\n\nWhen he came back, he carried a chair for the bedroom and a pastry for each of us. The chair was sturdy. The pastry was sweet. The arrangement was imperfect and entirely mine.\n\nI placed a second mug beside the first. Greg filled it with coffee and complained that my tea was too hot.\n\n“It is always too hot,” I said.\n\n“You could wait.”\n\n“Waiting is a strategy.”\n\nHe looked pleased. “You remembered.”\n\n“I remember a lot about you,” I said.\n\n“I know.”\n\nHe kissed me beside the new chair.\n\nThe chair did not complain. The room held its own quiet, warm with the evidence that love could be invited in without surrendering the key.\n\nI slept easily that night.\n\nThe room held us both.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,259 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "testing_power_play",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · The Door Left Open · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 19,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-20",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-20",
+    "private_handoff_resume_target": "su-20"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-20",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "testing_power_play",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "testing_power_play",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-19",
+    "chapter_number": 19,
+    "title": "The Door Left Open",
+    "relationship_stage": "testing_power_play",
+    "opening_anchor": "The door to Greg's van had always been open.",
+    "closing_anchor": "I slept easily that night. The room held us both.",
+    "next_story_target": "su-20",
+    "private_resume_target": "su-20",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · The Door Left Open · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-mara"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

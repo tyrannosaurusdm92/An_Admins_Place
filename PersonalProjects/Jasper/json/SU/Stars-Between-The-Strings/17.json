@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Almost Goodbye",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 17,
   "word_count": 1500,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “The Almost Goodbye,” I carried forward the choice “Say the serious part before I can make it funny.” Choose honesty before reflexive humor gives me somewhere to hide. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “The Almost Goodbye,” I carried forward the choice “Tease him about the obvious thing.” Let affection sound like us—warm, awkward, and a little ridiculous. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Almost Goodbye.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (testing_power_play), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-18 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-17-direct",
-      "label": "Say the honest thing",
+      "label": "Say the serious part before I can make it funny",
       "target": "su-18",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Choose honesty before reflexive humor gives me somewhere to hide.",
+      "generation_hint": "Choose honesty before reflexive humor gives me somewhere to hide.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Almost Goodbye · Greg Universe / Jasper · Say the serious part before I can make it funny · Choose honesty before reflexive humor gives me somewhere to hide. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-17-playful",
-      "label": "Let the moment be playful",
+      "label": "Tease him about the obvious thing",
       "target": "su-18",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Let affection sound like us—warm, awkward, and a little ridiculous.",
+      "generation_hint": "Let affection sound like us—warm, awkward, and a little ridiculous.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Almost Goodbye · Greg Universe / Jasper · Tease him about the obvious thing · Let affection sound like us—warm, awkward, and a little ridiculous. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-17-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Almost Goodbye,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-18 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Almost Goodbye · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-18",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-18"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "testing_power_play",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The almost goodbye arrived in an email with a subject line that said: WE WOULD LIKE TO OFFER me THE POSITION.\n\nI read it three times before telling Greg.\n\nThe job was in another city. It paid more than the community center. It came with a stable schedule, health benefits, and a small apartment included for the first six months. It was the sort of opportunity people were supposed to be grateful for.\n\nI sat at the kitchen table with my laptop open. Greg stood at the counter, slicing an apple into uneven pieces.\n\n“That’s good,” he said.\n\n“Yes.”\n\n“It sounds good.”\n\n“It does.”\n\nHe finished cutting the apple and set the knife down.\n\n“When do they need an answer?”\n\n“Friday.”\n\n“That’s soon.”\n\n“Yes.”\n\nGreg sat across from I. He looked at the email, then at my face.\n\n“Do you want it?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“It would be good for me.”\n\n“Good is not the same as wanted.”\n\n“You always say things like that when I’m trying to be practical.”\n\n“Practical is important. It just shouldn’t be the only voice in the room.”\n\nI closed the laptop. “What if I take it?”\n\nGreg's fingers curled around the edge of the table.\n\n“Then we figure out what that means.”\n\n“You would do long distance?”\n\n“I would try.”\n\n“You might hate it.”\n\n“I might.”\n\n“You might meet someone else.”\n\n“I might.”\n\nI looked away.\n\nGreg reached across the table but stopped before touching me. “I’m not going to tell you not to take the job.”\n\n“Would you want me to stay?”\n\n“Yes.”\n\nThe word hurt.\n\n“Then why aren’t you asking me to?”\n\n“Because I want you to stay because you want this life, not because I made leaving painful.”\n\n“You make everything sound simple.”\n\n“It isn’t simple. It’s just clear.”\n\nThe email waited behind the closed laptop.\n\nFor three days, I tried to decide. I went to work. I answered questions. I played music with Greg. I slept beside him and woke before he did, watching dawn move across his face.\n\nEverywhere, the choice followed.\n\nAt the community center, Mara found me staring at a box of drumsticks.\n\n“You’re leaving,” she said.\n\nI blinked. “I haven’t decided.”\n\n“That wasn’t what I asked.”\n\n“I don’t know.”\n\n“You’re using Greg's word now.”\n\n“He doesn’t own it.”\n\n“Neither do you.”\n\nI laughed despite myself.\n\nMara leaned against the supply cabinet. “Do you want the job?”\n\n“It would be stable.”\n\n“That is not what I asked.”\n\n“It would be good for my future.”\n\n“That is also not what I asked.”\n\nI turned the drumstick in my hand. “I don’t know how to want something without proving it makes sense.”\n\nMara's expression softened. “Then start with whether you want to wake up there.”\n\nThe question stayed with I all the way home.\n\nThat evening, I found Greg in the van, replacing one of the moon-shaped hooks. He looked up when I climbed inside.\n\n“The hook is not broken,” I said.\n\n“It was emotionally loose.”\n\nI sat on the bed. “I got the email.”\n\n“The answer is due tomorrow.”\n\n“Yes.”\n\nGreg put down the screwdriver.\n\n“I think I want to take it,” I said.\n\nHe inhaled slowly. “Okay.”\n\n“You’re not going to say anything?”\n\n“What do you want me to say?”\n\n“I don’t know.”\n\n“There’s that word again.”\n\nI looked toward the open doors. “I want you to ask me to stay.”\n\nGreg's face changed.\n\n“I want you to tell me I’m making a mistake,” I continued. “I want you to make it impossible for me to leave so I can blame you if I do.”\n\nHe moved closer. “I won’t.”\n\n“I know.”\n\n“I love you.”\n\n“I know.”\n\n“I want you here.”\n\n“I know.”\n\n“But I don’t want to become another person who decides that my fear is more important than your freedom.”\n\nThe tears came before I could stop them.\n\nGreg crouched in front of I. “Can I touch you?”\n\nI nodded.\n\nHe took my hands. “If you go, I will miss you. I will be scared. I will probably write an extremely embarrassing song about highway exits.”\n\n“That sounds terrible.”\n\n“It will be.”\n\n“You might not wait.”\n\n“I can’t promise I’ll stay exactly the same. I can promise I won’t pretend I’m fine if I’m not.”\n\n“And if I stay?”\n\n“Then I’ll still ask what you want next month. You don’t have to turn staying into a lifetime sentence.”\n\nI looked at the space I had made in the van: my books, my scarf, the metal pick.\n\n“I’m afraid that if I stay, I’m choosing you instead of myself.”\n\n“Then don’t choose me,” Greg said. “Choose the life that lets you be yourself. If I’m in it, I’ll be grateful. If I’m not, I’ll survive.”\n\nThe kindness felt like a blade.\n\nI leaned forward and pressed my forehead to his.\n\n“I don’t want to go,” I whispered.\n\nGreg closed his eyes.\n\n“I want the job because it’s good,” I continued. “But I want to wake up here. I want the bakery noise. I want the community center. I want your terrible songs.”\n\n“They’re not all terrible.”\n\n“Most.”\n\n“That’s fair.”\n\n“I want you.”\n\nHis hands tightened around mine. “Are you sure?”\n\n“Yes.”\n\n“You can still change your mind.”\n\n“I know.”\n\nHe kissed me. The van was quiet except for the ocean and the soft creak of the mattress.\n\nThe kiss became warmer. Greg asked. I answered. He moved slowly, giving I every chance to stop, and I held him closer instead.\n\nThe doors closed. The email waited, unanswered, while the two of I chose the present with open eyes.\n\nIn the morning, I declined the job.\n\nNot because Greg had asked me to stay.\n\nBecause I had finally asked myself where I wanted to wake up.\n\nThe answer was Beach City.\n\nFor now.\n\nThe next morning, I went to the community center and told Mara I had declined the position.\n\nShe listened while arranging a box of percussion instruments.\n\n“Do you regret it?” she asked.\n\n“Not today.”\n\n“That is the answer you have.”\n\n“I’m trying to stop demanding answers from the future.”\n\nMara handed me a tambourine. “A sensible policy.”\n\nGreg arrived at noon with pastries and a paper map.\n\n“I have a proposal,” he announced.\n\n“Is it about a road trip?”\n\n“It is about several road trips, one festival, and an emergency pastry reserve.”\n\n“You are responding to my career decision with baked goods.”\n\n“I am responding with joy.”\n\nHe spread the map across the table. There were stars drawn beside towns, beaches, and music halls.\n\n“You don’t have to plan my life,” I said.\n\n“I’m planning experiences. You can reject all of them.”\n\n“Why are you doing this?”\n\n“Because I want a future with you that has more than one shape.”\n\nThe words made me quiet.\n\nGreg tapped one of the stars. “You can work here. You can travel. You can change your mind. We can be together without making your whole life fit inside my van.”\n\n“That is a very good plan.”\n\n“I have been practicing.”\n\nI folded the map. “I choose the lake.”\n\nHis smile appeared immediately. “The lake it is.”\n\n“And the festival.”\n\n“Both?”\n\n“I contain multitudes.”\n\nHe kissed me in the empty hallway.\n\nThe job offer did not vanish. It remained in my email, a reminder that opportunity could exist without being accepted. Beach City was not the only possible future.\n\nIt was the one I wanted now.\n\nThat distinction made staying feel like freedom instead of fear.\n\nThat night, I wrote my own list. Reasons to stay. Reasons to travel. Things I wanted independent of Greg. Things I wanted with him.\n\nThe list was messy. Some reasons contradicted each other. I wanted roots and roads. Stability and surprise. A room of my own and a place beside his.\n\nGreg read it only when I offered.\n\n“This is a good life,” he said.\n\n“It is a complicated one.”\n\n“Those are not opposites.”\n\nI folded the paper. “I am not choosing you instead of myself.”\n\n“I know.”\n\n“I am choosing a self that includes you.”\n\nHis eyes softened. “That is the best kind of choice.”\n\nI put the list on the refrigerator. Greg added a magnet shaped like a pancake.\n\n“This is not a serious household system,” I said.\n\n“It is a flexible household system.”\n\n“You are hiding wisdom behind breakfast.”\n\n“Breakfast has carried me through many difficult decisions.”\n\nI kissed him in the kitchen. The future remained complicated, but it was no longer a single road with Greg standing at the end of it.\n\nIt was a map I could both hold.\n\nI placed it beneath the pancake magnet. Greg stood behind I with his arms around my waist.\n\n“I like this,” he said.\n\n“The map?”\n\n“The way you stay without disappearing.”\n\nI turned and kissed him.\n\nThe pancake magnet held the map in place.\n\nIt stayed there through breakfast, through the afternoon, and through another quiet conversation about what I wanted next.\n\nI both listened.\n\nThe map stayed.",
+  "content": "The almost goodbye arrived in an email with a subject line that said: WE WOULD LIKE TO OFFER me THE POSITION.\n\nI read it three times before telling Greg.\n\nThe job was in another city. It paid more than the community center. It came with a stable schedule, health benefits, and a small apartment included for the first six months. It was the sort of opportunity people were supposed to be grateful for.\n\nI sat at the kitchen table with my laptop open. Greg stood at the counter, slicing an apple into uneven pieces.\n\n“That’s good,” he said.\n\n“Yes.”\n\n“It sounds good.”\n\n“It does.”\n\nHe finished cutting the apple and set the knife down.\n\n“When do they need an answer?”\n\n“Friday.”\n\n“That’s soon.”\n\n“Yes.”\n\nGreg sat across from me. He looked at the email, then at my face.\n\n“Do you want it?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“It would be good for me.”\n\n“Good is not the same as wanted.”\n\n“You always say things like that when I’m trying to be practical.”\n\n“Practical is important. It just shouldn’t be the only voice in the room.”\n\nI closed the laptop. “What if I take it?”\n\nGreg's fingers curled around the edge of the table.\n\n“Then we figure out what that means.”\n\n“You would do long distance?”\n\n“I would try.”\n\n“You might hate it.”\n\n“I might.”\n\n“You might meet someone else.”\n\n“I might.”\n\nI looked away.\n\nGreg reached across the table but stopped before touching me. “I’m not going to tell you not to take the job.”\n\n“Would you want me to stay?”\n\n“Yes.”\n\nThe word hurt.\n\n“Then why aren’t you asking me to?”\n\n“Because I want you to stay because you want this life, not because I made leaving painful.”\n\n“You make everything sound simple.”\n\n“It isn’t simple. It’s just clear.”\n\nThe email waited behind the closed laptop.\n\nFor three days, I tried to decide. I went to work. I answered questions. I played music with Greg. I slept beside him and woke before he did, watching dawn move across his face.\n\nEverywhere, the choice followed.\n\nAt the community center, Mara found me staring at a box of drumsticks.\n\n“You’re leaving,” she said.\n\nI blinked. “I haven’t decided.”\n\n“That wasn’t what I asked.”\n\n“I don’t know.”\n\n“You’re using Greg's word now.”\n\n“He doesn’t own it.”\n\n“Neither do you.”\n\nI laughed despite myself.\n\nMara leaned against the supply cabinet. “Do you want the job?”\n\n“It would be stable.”\n\n“That is not what I asked.”\n\n“It would be good for my future.”\n\n“That is also not what I asked.”\n\nI turned the drumstick in my hand. “I don’t know how to want something without proving it makes sense.”\n\nMara's expression softened. “Then start with whether you want to wake up there.”\n\nThe question stayed with me all the way home.\n\nThat evening, I found Greg in the van, replacing one of the moon-shaped hooks. He looked up when I climbed inside.\n\n“The hook is not broken,” I said.\n\n“It was emotionally loose.”\n\nI sat on the bed. “I got the email.”\n\n“The answer is due tomorrow.”\n\n“Yes.”\n\nGreg put down the screwdriver.\n\n“I think I want to take it,” I said.\n\nHe inhaled slowly. “Okay.”\n\n“You’re not going to say anything?”\n\n“What do you want me to say?”\n\n“I don’t know.”\n\n“There’s that word again.”\n\nI looked toward the open doors. “I want you to ask me to stay.”\n\nGreg's face changed.\n\n“I want you to tell me I’m making a mistake,” I continued. “I want you to make it impossible for me to leave so I can blame you if I do.”\n\nHe moved closer. “I won’t.”\n\n“I know.”\n\n“I love you.”\n\n“I know.”\n\n“I want you here.”\n\n“I know.”\n\n“But I don’t want to become another person who decides that my fear is more important than your freedom.”\n\nThe tears came before I could stop them.\n\nGreg crouched in front of me. “Can I touch you?”\n\nI nodded.\n\nHe took my hands. “If you go, I will miss you. I will be scared. I will probably write an extremely embarrassing song about highway exits.”\n\n“That sounds terrible.”\n\n“It will be.”\n\n“You might not wait.”\n\n“I can’t promise I’ll stay exactly the same. I can promise I won’t pretend I’m fine if I’m not.”\n\n“And if I stay?”\n\n“Then I’ll still ask what you want next month. You don’t have to turn staying into a lifetime sentence.”\n\nI looked at the space I had made in the van: my books, my scarf, the metal pick.\n\n“I’m afraid that if I stay, I’m choosing you instead of myself.”\n\n“Then don’t choose me,” Greg said. “Choose the life that lets you be yourself. If I’m in it, I’ll be grateful. If I’m not, I’ll survive.”\n\nThe kindness felt like a blade.\n\nI leaned forward and pressed my forehead to his.\n\n“I don’t want to go,” I whispered.\n\nGreg closed his eyes.\n\n“I want the job because it’s good,” I continued. “But I want to wake up here. I want the bakery noise. I want the community center. I want your terrible songs.”\n\n“They’re not all terrible.”\n\n“Most.”\n\n“That’s fair.”\n\n“I want you.”\n\nHis hands tightened around mine. “Are you sure?”\n\n“Yes.”\n\n“You can still change your mind.”\n\n“I know.”\n\nHe kissed me. The van was quiet except for the ocean and the soft creak of the mattress.\n\nThe kiss became warmer. Greg asked. I answered. He moved slowly, giving me every chance to stop, and I held him closer instead.\n\nThe doors closed. The email waited, unanswered, while the two of us chose the present with open eyes.\n\nIn the morning, I declined the job.\n\nNot because Greg had asked me to stay.\n\nBecause I had finally asked myself where I wanted to wake up.\n\nThe answer was Beach City.\n\nFor now.\n\nThe next morning, I went to the community center and told Mara I had declined the position.\n\nShe listened while arranging a box of percussion instruments.\n\n“Do you regret it?” she asked.\n\n“Not today.”\n\n“That is the answer you have.”\n\n“I’m trying to stop demanding answers from the future.”\n\nMara handed me a tambourine. “A sensible policy.”\n\nGreg arrived at noon with pastries and a paper map.\n\n“I have a proposal,” he announced.\n\n“Is it about a road trip?”\n\n“It is about several road trips, one festival, and an emergency pastry reserve.”\n\n“You are responding to my career decision with baked goods.”\n\n“I am responding with joy.”\n\nHe spread the map across the table. There were stars drawn beside towns, beaches, and music halls.\n\n“You don’t have to plan my life,” I said.\n\n“I’m planning experiences. You can reject all of them.”\n\n“Why are you doing this?”\n\n“Because I want a future with you that has more than one shape.”\n\nThe words made me quiet.\n\nGreg tapped one of the stars. “You can work here. You can travel. You can change your mind. We can be together without making your whole life fit inside my van.”\n\n“That is a very good plan.”\n\n“I have been practicing.”\n\nI folded the map. “I choose the lake.”\n\nHis smile appeared immediately. “The lake it is.”\n\n“And the festival.”\n\n“Both?”\n\n“I contain multitudes.”\n\nHe kissed me in the empty hallway.\n\nThe job offer did not vanish. It remained in my email, a reminder that opportunity could exist without being accepted. Beach City was not the only possible future.\n\nIt was the one I wanted now.\n\nThat distinction made staying feel like freedom instead of fear.\n\nThat night, I wrote my own list. Reasons to stay. Reasons to travel. Things I wanted independent of Greg. Things I wanted with him.\n\nThe list was messy. Some reasons contradicted each other. I wanted roots and roads. Stability and surprise. A room of my own and a place beside his.\n\nGreg read it only when I offered.\n\n“This is a good life,” he said.\n\n“It is a complicated one.”\n\n“Those are not opposites.”\n\nI folded the paper. “I am not choosing you instead of myself.”\n\n“I know.”\n\n“I am choosing a self that includes you.”\n\nHis eyes softened. “That is the best kind of choice.”\n\nI put the list on the refrigerator. Greg added a magnet shaped like a pancake.\n\n“This is not a serious household system,” I said.\n\n“It is a flexible household system.”\n\n“You are hiding wisdom behind breakfast.”\n\n“Breakfast has carried me through many difficult decisions.”\n\nI kissed him in the kitchen. The future remained complicated, but it was no longer a single road with Greg standing at the end of it.\n\nIt was a map I could both hold.\n\nI placed it beneath the pancake magnet. Greg stood behind me with his arms around my waist.\n\n“I like this,” he said.\n\n“The map?”\n\n“The way you stay without disappearing.”\n\nI turned and kissed him.\n\nThe pancake magnet held the map in place.\n\nIt stayed there through breakfast, through the afternoon, and through another quiet conversation about what I wanted next.\n\nI both listened.\n\nThe map stayed.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,258 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "testing_power_play",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · The Almost Goodbye · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 17,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-18",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-18",
+    "private_handoff_resume_target": "su-18"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-18",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "testing_power_play",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "testing_power_play",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-17",
+    "chapter_number": 17,
+    "title": "The Almost Goodbye",
+    "relationship_stage": "testing_power_play",
+    "opening_anchor": "The almost goodbye arrived in an email with a subject line that said: WE WOULD LIKE TO OFFER me THE POSITION.",
+    "closing_anchor": "I both listened. The map stayed.",
+    "next_story_target": "su-18",
+    "private_resume_target": "su-18",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · The Almost Goodbye · Greg Universe / Jasper · testing_power_play · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-mara"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

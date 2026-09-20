@@ -1,0 +1,102 @@
+{
+  "schema_version": "jasper.character-library.rules.v2-expanded",
+  "research_date": "2026-09-20",
+  "fictional_only": {
+    "required": true,
+    "real_people": "BLOCK",
+    "actors_and_voice_actors": "BLOCK as romantic/sexual identities",
+    "instruction": "A live-action character remains the fictional character. Do not import performer biography, relationships, real-world mannerisms or identity."
+  },
+  "adult_only": {
+    "minimum_age": 18,
+    "ambiguous_age": "BLOCK explicit mode",
+    "minor_era": "BLOCK",
+    "special_blocks": [
+      "Original-series Aang",
+      "Original-series Toph",
+      "Original-series Katara",
+      "Billy Batson/Shazam: adult-looking transformed body does not change child mind/personhood"
+    ]
+  },
+  "jasper_pov": {
+    "narration": {
+      "person": "first",
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "jasper_name": "Jasper",
+    "external_pronouns": [
+      {
+        "subject": "they",
+        "object": "them",
+        "possessive_determiner": "their",
+        "possessive_pronoun": "theirs",
+        "reflexive": "themself",
+        "agreement": [
+          "they are",
+          "they have",
+          "they do"
+        ]
+      },
+      {
+        "subject": "she",
+        "object": "her",
+        "possessive_determiner": "her",
+        "possessive_pronoun": "hers",
+        "reflexive": "herself",
+        "agreement": [
+          "she is",
+          "she has",
+          "she does"
+        ]
+      }
+    ],
+    "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+    "lint": [
+      "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+      "Do not mechanically alternate they/she every sentence.",
+      "Use Jasper to reset an ambiguous third-person antecedent."
+    ]
+  },
+  "hard_explicit": {
+    "enabled_when_selected": true,
+    "no_fade_to_black": true,
+    "no_hidden_nudity": true,
+    "no_censoring_asterisks": true,
+    "no_time_skip_used_to_avoid_selected_sex_scene": true,
+    "rule": "Explicitness must become more concrete without collapsing every character into the same porn vocabulary."
+  },
+  "canon_state_handling": [
+    "Canon-married/partnered characters require AU, canon divergence or consensual poly setup as selected.",
+    "Canon-deceased characters require pre-death era or canon divergence for ongoing romance.",
+    "Non-romanceable game NPCs are clearly labeled transformative rather than quietly treated as canon romance options."
+  ],
+  "retrieval_order": [
+    "fictional-only gate",
+    "adult gate",
+    "fandom/continuity",
+    "seed similarity/archetype",
+    "voice compatibility",
+    "relationship stage",
+    "brat/explicit voice",
+    "POV/grammar lint"
+  ],
+  "continuation_engine_rules": [
+    "Load selected character profile(s) plus latest continuation-context ledger before writing a continuation.",
+    "Never restart courtship milestones already completed.",
+    "Preserve canon-divergence choices.",
+    "Preserve character-specific diction through explicit scenes.",
+    "Track who knows each secret and never grant off-page knowledge without cause.",
+    "Carry emotional/physical aftermath and aftercare forward where relevant."
+  ],
+  "pool_selection_rules": [
+    "Use index.json to diversify retrieval rather than repeatedly choosing the same famous characters.",
+    "Prioritize strong fit but allow adjacent archetypes to keep the pool varied.",
+    "Lower default weight for dark/villain profiles unless the prompt requests that tone.",
+    "Canon-romanceable status is not required for transformative fanfiction, but married/partnered/deceased/non-romanceable status must remain visible to planning.",
+    "Use character_id rather than display name as the unique key because different fandoms can contain characters with the same name."
+  ]
+}

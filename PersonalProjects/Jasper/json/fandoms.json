@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.3",
   "work_type": "fanfiction_library_catalog",
   "title": "Jasper's Fanfiction Spot",
   "series_count": 5,
@@ -16,15 +16,21 @@
       "story_folder": "Jasmine-After-Rain",
       "series_path": "Avatar/Jasmine-After-Rain",
       "series_manifest": "Avatar/Jasmine-After-Rain/series.json",
-      "pairing": "Iroh / Adult Reader",
+      "pairing": "Iroh / Jasper",
       "description": "Tea, Pai Sho, grief, and ordinary happiness make room for original-series Uncle Iroh to be a man instead of only a legend.",
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 60941,
+      "total_word_count": 60938,
       "adult_characters_confirmed": true,
       "consenting_adults_confirmed": true,
-      "explicit_branching": true
+      "explicit_branching": true,
+      "content_mode": "mature_on_page",
+      "rating": "18+ Private Story / Private Interlude Handoff",
+      "private_interlude_branching": true,
+      "reader_character": "Jasper — adult named first-person reader-protagonist",
+      "writer_style_profile": "json/william-writing-style.json",
+      "character_style_lane": "iroh"
     },
     {
       "key": "love-and-duty",
@@ -38,15 +44,21 @@
       "story_folder": "Love-And-Duty",
       "series_path": "Avatar/Love-And-Duty",
       "series_manifest": "Avatar/Love-And-Duty/series.json",
-      "pairing": "Aang / Katara / Toph Beifong / Adult Reader (consensual polycule)",
+      "pairing": "Aang / Katara / Toph Beifong / Jasper (consensual adult polycule)",
       "description": "In a postwar Cranefish Town becoming something new, an adult nonbender reader finds themself drawn into Aang, Katara, and Toph’s complicated orbit. Love grows through reconstruction work, public scrutiny, cultural preservation, arguments, chosen boundaries, and the daily work of building a home where nobody has to disappear to belong.",
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 60873,
+      "total_word_count": 60906,
       "adult_characters_confirmed": true,
       "consenting_adults_confirmed": true,
-      "explicit_branching": true
+      "explicit_branching": true,
+      "content_mode": "mature_on_page",
+      "rating": "18+ Private Story / Private Interlude Handoff",
+      "private_interlude_branching": true,
+      "reader_character": "Jasper — adult named first-person reader-protagonist",
+      "writer_style_profile": "json/william-writing-style.json",
+      "character_style_lane": "polycule"
     },
     {
       "key": "what-the-armor-leaves-behind",
@@ -60,15 +72,21 @@
       "story_folder": "What-The-Armor-Leaves-Behind",
       "series_path": "FO4/What-The-Armor-Leaves-Behind",
       "series_manifest": "FO4/What-The-Armor-Leaves-Behind/series.json",
-      "pairing": "Paladin Danse / Adult Reader",
-      "description": "An adult unnamed first-person reader-proxy falls for Paladin Danse through Brotherhood missions, grief, hard arguments, Blind Betrayal, and the difficult work of building a life after rank and certainty are stripped away.",
+      "pairing": "Paladin Danse / Jasper",
+      "description": "Jasper, the adult named first-person protagonist falls for Paladin Danse through Brotherhood missions, grief, hard arguments, Blind Betrayal, and the difficult work of building a life after rank and certainty are stripped away.",
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 61856,
+      "total_word_count": 61885,
       "adult_characters_confirmed": true,
       "consenting_adults_confirmed": true,
-      "explicit_branching": true
+      "explicit_branching": true,
+      "content_mode": "mature_on_page",
+      "rating": "18+ Private Story / Private Interlude Handoff",
+      "private_interlude_branching": true,
+      "reader_character": "Jasper — adult named first-person reader-protagonist",
+      "writer_style_profile": "json/william-writing-style.json",
+      "character_style_lane": "danse"
     },
     {
       "key": "after-always",
@@ -82,15 +100,21 @@
       "story_folder": "After-Always",
       "series_path": "HP/After-Always",
       "series_manifest": "HP/After-Always/series.json",
-      "pairing": "Severus Snape / Adult Reader",
-      "description": "After the war, an adult reader helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
+      "pairing": "Severus Snape / Jasper",
+      "description": "After the war, Jasper helps Severus Snape survive the life he was never expected to have, one difficult truth, potion, and quiet kindness at a time.",
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 50951,
+      "total_word_count": 54255,
       "adult_characters_confirmed": true,
       "consenting_adults_confirmed": true,
-      "explicit_branching": true
+      "explicit_branching": true,
+      "content_mode": "mature_on_page",
+      "rating": "18+ Private Story / Private Interlude Handoff",
+      "private_interlude_branching": true,
+      "reader_character": "Jasper — adult named first-person reader-protagonist",
+      "writer_style_profile": "json/william-writing-style.json",
+      "character_style_lane": "snape"
     },
     {
       "key": "stars-between-the-strings",
@@ -104,16 +128,83 @@
       "story_folder": "Stars-Between-The-Strings",
       "series_path": "SU/Stars-Between-The-Strings",
       "series_manifest": "SU/Stars-Between-The-Strings/series.json",
-      "pairing": "Greg Universe / Adult Reader",
+      "pairing": "Greg Universe / Jasper",
       "description": "Music, Beach City, second chances, and Greg Universe learning that being wanted does not have to feel temporary.",
       "story_type": "cyoa_fanfiction",
       "chapter_count": 40,
       "choice_count": 3,
-      "total_word_count": 62653,
+      "total_word_count": 62023,
       "adult_characters_confirmed": true,
       "consenting_adults_confirmed": true,
-      "explicit_branching": true
+      "explicit_branching": true,
+      "content_mode": "mature_on_page",
+      "rating": "18+ Private Story / Private Interlude Handoff",
+      "private_interlude_branching": true,
+      "reader_character": "Jasper — adult named first-person reader-protagonist",
+      "writer_style_profile": "json/william-writing-style.json",
+      "character_style_lane": "greg"
     }
   ],
-  "total_word_count": 297274
+  "total_word_count": 300007,
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "content_mode": "mature_on_page",
+  "generation_backend": "js/jasper-fanfiction-backend-provider.js",
+  "writer_style_profile": "json/william-writing-style.json",
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "writer_reference_engine": "StoryTools.JasperWriterReference",
+  "bridge_policy": {
+    "bridge_file": "js/explicit-bridge.js",
+    "user_owned": true,
+    "modify_bridge": false,
+    "influence_via": [
+      "writer-reference prompt",
+      "machine writer influence packet",
+      "runtime memory/continuity context",
+      "backend story bible/direction"
+    ]
+  },
+  "runtime_capabilities": {
+    "original_series": 5,
+    "original_chapters_per_series": 40,
+    "original_chapters_total": 200,
+    "continue_beyond_original_endings": true,
+    "branch_from_choices": true,
+    "save_restore_branches": true,
+    "create_new_fanfiction": true,
+    "private_handoff_via_bridge": true,
+    "private_handoff_visual_transition": "fade_to_black",
+    "backend_endpoint_location": "js/jasper-fanfiction-backend-provider.js only; not HTML or JSON metadata",
+    "backend_source_in_frontend": false,
+    "original_series_count": 5,
+    "authored_chapters_per_original_series": 40,
+    "original_authored_chapters_total": 200,
+    "continue_beyond_authored_ending": true,
+    "private_handoff_via_explicit_bridge": true,
+    "private_handoff_returns_to_story": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Song at the Boardwalk",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 1,
   "word_count": 1699,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “The Song at the Boardwalk,” I carried forward the choice “Tell Greg what I actually mean.” Let the joke fall away long enough to say the thing I want him to remember. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “The Song at the Boardwalk,” I carried forward the choice “Make Greg laugh and keep going.” Use the joke to stay connected, then carry the real feeling through it instead of dodging. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Song at the Boardwalk.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (chemistry), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-02 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-01-direct",
-      "label": "Say the honest thing",
+      "label": "Tell Greg what I actually mean",
       "target": "su-02",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "generation_hint": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Song at the Boardwalk · Greg Universe / Jasper · Tell Greg what I actually mean · Let the joke fall away long enough to say the thing I want him to remember. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-01-playful",
-      "label": "Let the moment be playful",
+      "label": "Make Greg laugh and keep going",
       "target": "su-02",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "generation_hint": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Song at the Boardwalk · Greg Universe / Jasper · Make Greg laugh and keep going · Use the joke to stay connected, then carry the real feeling through it instead of dodging. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-01-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Song at the Boardwalk,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-02 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · The Song at the Boardwalk · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · chemistry",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-02",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-02"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "chemistry",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The first thing I noticed about Beach City was that the ocean did not care what I had left behind.\n\nIt rolled against the shore with the same patient rhythm, lifting silver foam and drawing it back into itself. It did not ask why I had arrived with one overstuffed suitcase, a backpack that pinched my shoulder, and a phone full of unanswered messages. It did not ask whether I had a plan. It simply kept breathing beneath the afternoon sun.\n\nI stood at the edge of the boardwalk and let the wind tangle my hair. Somewhere behind I, a child laughed. A gull cried from the roof of a snack stand. The smell of salt, fried dough, and hot pavement settled around I like an unfamiliar blanket.\n\n“You look like somebody who got lost on purpose.”\n\nThe voice came from my left. It was warm and rough around the edges, the kind of voice that had spent years singing in small rooms and larger ones, always without losing the ability to sound close. I turned and found a man sitting on the low sea wall with an acoustic guitar balanced across his knee.\n\nGreg Universe looked exactly like someone who would speak to a stranger on a boardwalk. His hair was silver, his beard neatly untidy, and his faded T-shirt advertised a band I vaguely recognized from a record collection I had not opened in months. His smile was easy, but his eyes were observant. He had noticed the suitcase. He had noticed the way I kept checking the street behind I.\n\nI glanced at the water. “Does it show?”\n\n“Only if you’re looking.”\n\n“And are you?”\n\n“I’m a musician. We’re professionally nosy.” He gave the guitar a thoughtful strum. “Also, I’ve been sitting here for twenty minutes waiting for a chord to tell me what it wants to be. It hasn’t. I’m bored.”\n\nThat startled a laugh out of I. It felt rusty, as though it had been sitting in a drawer with the rest of the things I had not used lately.\n\nGreg’s expression softened when he heard it. “There it is.”\n\n“There what is?”\n\n“Proof you’re not a ghost.”\n\nThe answer should have been ridiculous. Instead, it landed somewhere under my ribs, gentle and inconvenient. I adjusted the strap of my backpack and looked down at my suitcase. The wheel had collected a ribbon of sand, and one of the zippers had begun to open itself.\n\n“I’m looking for a place to stay,” I admitted.\n\nGreg tilted his head. “In Beach City?”\n\n“That’s the idea.”\n\n“You have a place lined up?”\n\nI gave him a look.\n\n“Right,” he said. “That was a silly question. Sorry.” He set the guitar aside and stood, moving with the careful looseness of somebody who had learned which joints complained before they actually did. “There’s a motel on the other side of town. It’s clean enough if you don’t look directly at the curtains.”\n\n“That is a powerful endorsement.”\n\n“I contain multitudes.”\n\nHe offered his hand, then paused before touching me. “Greg.”\n\nI gave him my name, or rather, the name I used when I did not have the energy to explain the history of any other one. His handshake was brief and warm. He let go immediately, as if he understood that a stranger did not owe him more contact than they had offered.\n\n“Nice to meet you,” he said. “Do you need help with the suitcase?”\n\nThe question nearly made me say no. I was accustomed to no meaning no, but I was also accustomed to people asking only so they could insist afterward. Greg waited without leaning toward the handle.\n\n“Maybe,” I said.\n\n“Excellent. I’m very good at maybe.”\n\nHe took the suitcase when I nodded. Not before. The wheel bumped over the uneven boards, and Greg lifted the bag over the worst cracks while I walked beside him. He did not fill the silence with questions. He pointed out a bakery with cinnamon rolls the size of saucers, a record shop that stayed open too late, and a little wash-and-fold place where the owner would let me use the phone if mine died.\n\n“You know everyone here?” I asked.\n\n“Not everyone. Just the people who have forgiven me for being late.”\n\n“That sounds like a large group.”\n\n“It’s a work in progress.”\n\nThe motel was exactly as advertised. The curtains were technically clean, the ice machine made a noise like a distressed animal, and the front desk clerk looked at my suitcase with the exhausted sympathy of someone who had seen many people arrive without a plan.\n\nGreg set the bag down. “I can leave you here.”\n\nI looked through the glass doors at the narrow lobby, then back at him. The ocean was still visible between the buildings, bright and indifferent. The thought of sitting alone in a room with one bed and no familiar object except my phone made my throat tighten.\n\nGreg noticed. Of course he did.\n\n“Or,” he said, “I know a diner where the coffee is bad but the pancakes are honest. You can eat, charge your phone, and decide whether you want to fight the curtains tonight.”\n\n“Are you always this good at collecting strays?”\n\n“Only the ones who make jokes when they’re scared.”\n\nThe truth of it left me briefly speechless.\n\nGreg’s smile faded into something less performative. “That was too personal. Sorry.”\n\n“No. It was accurate.”\n\n“Accurate can still be a little personal.”\n\n“You’re allowed to notice things.”\n\nHe studied I for a moment, and something passed between I that was not yet attraction, not quite trust, but the first thin thread of both. “So are you,” he said.\n\nThe diner smelled like coffee, syrup, and old vinyl booths warmed by years of sunlight. Greg chose a table near the window. He did not sit across from I until I sat first. When the waitress came over, he ordered pancakes and coffee, then looked at me.\n\n“Tea,” I said. “If they have anything that isn’t black.”\n\n“They have a packet of lemon.”\n\n“A true culinary adventure.”\n\n“I’ll protect you from the danger.”\n\nHe ordered the tea with a solemnity that made me smile again. While I waited, Greg told me about the town in fragments. The best place to watch the sunset. The grocery store that had surprisingly good fruit. The fact that the beach was beautiful until the tide exposed a collection of objects nobody wanted to discuss.\n\nHe did not tell me about the Gems. He did not tell me about his son, or the wars, or the ways he had once run from one life because another seemed more honest. Maybe those stories would come later. Maybe they would not. For that evening, he was a man with a guitar and a generous supply of pancakes.\n\nWhen my tea arrived, Greg pushed the little packet of lemon toward I. “There. Protected.”\n\nI squeezed it into the cup. “I feel safer already.”\n\n“That’s the power of citrus.”\n\nThe pancakes arrived stacked high, butter melting down the sides. I had not realized how hungry I was until the first bite. Greg pretended not to notice how quickly I ate. He simply slid the syrup closer and started telling a story about the time he played an outdoor festival where a raccoon stole his capo.\n\n“Did you get it back?”\n\n“No. But the raccoon had excellent timing.”\n\nI laughed so hard I had to put my fork down. Greg leaned back, satisfied, like he had accomplished something important.\n\nWhen the sky turned violet, my phone finally came alive with a charge. Messages waited for I. Some were worried. Some were angry. One was simply a string of question marks. I stared at them until the words blurred.\n\n“You don’t have to answer tonight,” Greg said.\n\n“I probably should.”\n\n“Probably is a word people use when they want to turn a choice into a punishment.”\n\nI looked up.\n\nHe shrugged, suddenly self-conscious. “I’ve used it a lot.”\n\nThe diner had emptied around I. Outside, the boardwalk lights flickered on one by one, little gold stars along the shore. Greg’s guitar rested in its case beside him. There was a softness in the way he watched the darkening ocean, a kind of practiced loneliness that did not feel like a threat.\n\n“Do you play here often?” I asked.\n\n“The boardwalk? Sometimes. The diner? Only when I’m trying to annoy the staff.”\n\n“You could play somewhere with a stage.”\n\n“I do.” He smiled. “But stages are for being listened to. This is for figuring out what I want to say.”\n\nThe words stayed with I while Greg walked me back to the motel. At the entrance, he handed over my suitcase and pointed down the street.\n\n“Tomorrow morning, there’s a rental office above the laundromat. The landlord is grouchy but fair. Ask for Mara. Tell her Greg sent you.”\n\n“Will that help?”\n\n“It might. If it doesn’t, tell her I sent you twice.”\n\n“And if the curtains attack?”\n\n“Call me.”\n\nHe pulled a business card from his pocket. It was bent at one corner and printed with a cartoonish drawing of a car. On the back, he wrote a number in thick black ink.\n\n“You don’t have to call,” he added. “No pressure. I mean it.”\n\nI folded the card carefully and put it in my wallet. “I might.”\n\n“I’m very good at maybe,” he reminded me.\n\nThe door began to close behind I. Before it did, I looked back at him. Greg stood beneath the motel sign, silver hair bright in the fluorescent light, hands tucked into his pockets as if he did not want to make leaving harder.\n\n“Greg?”\n\n“Yeah?”\n\n“Thank you for the pancakes.”\n\nHis smile returned, slow and warm. “Anytime.”\n\nI carried my suitcase into the room. The curtains remained harmless. The bed was lumpy. The air conditioner made a rattling sound that suggested it had secrets. Still, when I placed the business card on the nightstand, the room felt a fraction less temporary.\n\nOutside, somewhere beyond the buildings, a guitar began to play.\n\nThe melody was unfinished. It wandered, paused, and found its way forward anyway.",
+  "content": "The first thing I noticed about Beach City was that the ocean did not care what I had left behind.\n\nIt rolled against the shore with the same patient rhythm, lifting silver foam and drawing it back into itself. It did not ask why I had arrived with one overstuffed suitcase, a backpack that pinched my shoulder, and a phone full of unanswered messages. It did not ask whether I had a plan. It simply kept breathing beneath the afternoon sun.\n\nI stood at the edge of the boardwalk and let the wind tangle my hair. Somewhere behind me, a child laughed. A gull cried from the roof of a snack stand. The smell of salt, fried dough, and hot pavement settled around me like an unfamiliar blanket.\n\n“You look like somebody who got lost on purpose.”\n\nThe voice came from my left. It was warm and rough around the edges, the kind of voice that had spent years singing in small rooms and larger ones, always without losing the ability to sound close. I turned and found a man sitting on the low sea wall with an acoustic guitar balanced across his knee.\n\nGreg Universe looked exactly like someone who would speak to a stranger on a boardwalk. His hair was silver, his beard neatly untidy, and his faded T-shirt advertised a band I vaguely recognized from a record collection I had not opened in months. His smile was easy, but his eyes were observant. He had noticed the suitcase. He had noticed the way I kept checking the street behind me.\n\nI glanced at the water. “Does it show?”\n\n“Only if you’re looking.”\n\n“And are you?”\n\n“I’m a musician. We’re professionally nosy.” He gave the guitar a thoughtful strum. “Also, I’ve been sitting here for twenty minutes waiting for a chord to tell me what it wants to be. It hasn’t. I’m bored.”\n\nThat startled a laugh out of me. It felt rusty, as though it had been sitting in a drawer with the rest of the things I had not used lately.\n\nGreg’s expression softened when he heard it. “There it is.”\n\n“There what is?”\n\n“Proof you’re not a ghost.”\n\nThe answer should have been ridiculous. Instead, it landed somewhere under my ribs, gentle and inconvenient. I adjusted the strap of my backpack and looked down at my suitcase. The wheel had collected a ribbon of sand, and one of the zippers had begun to open itself.\n\n“I’m looking for a place to stay,” I admitted.\n\nGreg tilted his head. “In Beach City?”\n\n“That’s the idea.”\n\n“You have a place lined up?”\n\nI gave him a look.\n\n“Right,” he said. “That was a silly question. Sorry.” He set the guitar aside and stood, moving with the careful looseness of somebody who had learned which joints complained before they actually did. “There’s a motel on the other side of town. It’s clean enough if you don’t look directly at the curtains.”\n\n“That is a powerful endorsement.”\n\n“I contain multitudes.”\n\nHe offered his hand, then paused before touching me. “Greg.”\n\nI gave him my name, or rather, the name I used when I did not have the energy to explain the history of any other one. His handshake was brief and warm. He let go immediately, as if he understood that a stranger did not owe him more contact than they had offered.\n\n“Nice to meet you,” he said. “Do you need help with the suitcase?”\n\nThe question nearly made me say no. I was accustomed to no meaning no, but I was also accustomed to people asking only so they could insist afterward. Greg waited without leaning toward the handle.\n\n“Maybe,” I said.\n\n“Excellent. I’m very good at maybe.”\n\nHe took the suitcase when I nodded. Not before. The wheel bumped over the uneven boards, and Greg lifted the bag over the worst cracks while I walked beside him. He did not fill the silence with questions. He pointed out a bakery with cinnamon rolls the size of saucers, a record shop that stayed open too late, and a little wash-and-fold place where the owner would let me use the phone if mine died.\n\n“You know everyone here?” I asked.\n\n“Not everyone. Just the people who have forgiven me for being late.”\n\n“That sounds like a large group.”\n\n“It’s a work in progress.”\n\nThe motel was exactly as advertised. The curtains were technically clean, the ice machine made a noise like a distressed animal, and the front desk clerk looked at my suitcase with the exhausted sympathy of someone who had seen many people arrive without a plan.\n\nGreg set the bag down. “I can leave you here.”\n\nI looked through the glass doors at the narrow lobby, then back at him. The ocean was still visible between the buildings, bright and indifferent. The thought of sitting alone in a room with one bed and no familiar object except my phone made my throat tighten.\n\nGreg noticed. Of course he did.\n\n“Or,” he said, “I know a diner where the coffee is bad but the pancakes are honest. You can eat, charge your phone, and decide whether you want to fight the curtains tonight.”\n\n“Are you always this good at collecting strays?”\n\n“Only the ones who make jokes when they’re scared.”\n\nThe truth of it left me briefly speechless.\n\nGreg’s smile faded into something less performative. “That was too personal. Sorry.”\n\n“No. It was accurate.”\n\n“Accurate can still be a little personal.”\n\n“You’re allowed to notice things.”\n\nHe studied me for a moment, and something passed between us that was not yet attraction, not quite trust, but the first thin thread of both. “So are you,” he said.\n\nThe diner smelled like coffee, syrup, and old vinyl booths warmed by years of sunlight. Greg chose a table near the window. He did not sit across from me until I sat first. When the waitress came over, he ordered pancakes and coffee, then looked at me.\n\n“Tea,” I said. “If they have anything that isn’t black.”\n\n“They have a packet of lemon.”\n\n“A true culinary adventure.”\n\n“I’ll protect you from the danger.”\n\nHe ordered the tea with a solemnity that made me smile again. While I waited, Greg told me about the town in fragments. The best place to watch the sunset. The grocery store that had surprisingly good fruit. The fact that the beach was beautiful until the tide exposed a collection of objects nobody wanted to discuss.\n\nHe did not tell me about the Gems. He did not tell me about his son, or the wars, or the ways he had once run from one life because another seemed more honest. Maybe those stories would come later. Maybe they would not. For that evening, he was a man with a guitar and a generous supply of pancakes.\n\nWhen my tea arrived, Greg pushed the little packet of lemon toward me. “There. Protected.”\n\nI squeezed it into the cup. “I feel safer already.”\n\n“That’s the power of citrus.”\n\nThe pancakes arrived stacked high, butter melting down the sides. I had not realized how hungry I was until the first bite. Greg pretended not to notice how quickly I ate. He simply slid the syrup closer and started telling a story about the time he played an outdoor festival where a raccoon stole his capo.\n\n“Did you get it back?”\n\n“No. But the raccoon had excellent timing.”\n\nI laughed so hard I had to put my fork down. Greg leaned back, satisfied, like he had accomplished something important.\n\nWhen the sky turned violet, my phone finally came alive with a charge. Messages waited for me. Some were worried. Some were angry. One was simply a string of question marks. I stared at them until the words blurred.\n\n“You don’t have to answer tonight,” Greg said.\n\n“I probably should.”\n\n“Probably is a word people use when they want to turn a choice into a punishment.”\n\nI looked up.\n\nHe shrugged, suddenly self-conscious. “I’ve used it a lot.”\n\nThe diner had emptied around me. Outside, the boardwalk lights flickered on one by one, little gold stars along the shore. Greg’s guitar rested in its case beside him. There was a softness in the way he watched the darkening ocean, a kind of practiced loneliness that did not feel like a threat.\n\n“Do you play here often?” I asked.\n\n“The boardwalk? Sometimes. The diner? Only when I’m trying to annoy the staff.”\n\n“You could play somewhere with a stage.”\n\n“I do.” He smiled. “But stages are for being listened to. This is for figuring out what I want to say.”\n\nThe words stayed with me while Greg walked me back to the motel. At the entrance, he handed over my suitcase and pointed down the street.\n\n“Tomorrow morning, there’s a rental office above the laundromat. The landlord is grouchy but fair. Ask for Mara. Tell her Greg sent you.”\n\n“Will that help?”\n\n“It might. If it doesn’t, tell her I sent you twice.”\n\n“And if the curtains attack?”\n\n“Call me.”\n\nHe pulled a business card from his pocket. It was bent at one corner and printed with a cartoonish drawing of a car. On the back, he wrote a number in thick black ink.\n\n“You don’t have to call,” he added. “No pressure. I mean it.”\n\nI folded the card carefully and put it in my wallet. “I might.”\n\n“I’m very good at maybe,” he reminded me.\n\nThe door began to close behind me. Before it did, I looked back at him. Greg stood beneath the motel sign, silver hair bright in the fluorescent light, hands tucked into his pockets as if he did not want to make leaving harder.\n\n“Greg?”\n\n“Yeah?”\n\n“Thank you for the pancakes.”\n\nHis smile returned, slow and warm. “Anytime.”\n\nI carried my suitcase into the room. The curtains remained harmless. The bed was lumpy. The air conditioner made a rattling sound that suggested it had secrets. Still, when I placed the business card on the nightstand, the room felt a fraction less temporary.\n\nOutside, somewhere beyond the buildings, a guitar began to play.\n\nThe melody was unfinished. It wandered, paused, and found its way forward anyway.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,258 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "chemistry",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · The Song at the Boardwalk · Greg Universe / Jasper · chemistry · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 1,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-02",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-02",
+    "private_handoff_resume_target": "su-02"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-02",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "chemistry",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "chemistry",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-01",
+    "chapter_number": 1,
+    "title": "The Song at the Boardwalk",
+    "relationship_stage": "chemistry",
+    "opening_anchor": "The first thing I noticed about Beach City was that the ocean did not care what I had left behind.",
+    "closing_anchor": "Outside, somewhere beyond the buildings, a guitar began to play. The melody was unfinished. It wandered, paused, and found its way forward anyway.",
+    "next_story_target": "su-02",
+    "private_resume_target": "su-02",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · The Song at the Boardwalk · Greg Universe / Jasper · chemistry · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg",
+      "su-mara"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

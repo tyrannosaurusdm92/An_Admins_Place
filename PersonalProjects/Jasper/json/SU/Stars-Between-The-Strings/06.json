@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Do Not Make Me Guess",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Steven Universe",
-  "pairing": "Greg Universe / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Greg Universe / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
-  "canon_window": "Post-series Beach City; transformative fanwork using Greg's established history, family, music, van, and emotional patterns.",
+  "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
   "series_slug": "stars-between-the-strings",
   "series_title": "Stars Between the Strings",
   "chapter_number": 6,
-  "word_count": 1612,
+  "word_count": 1623,
   "research_alignment": [
-    "Greg's music, warmth, humor, and respect for reader boundaries",
-    "Beach City and road-trip slice of life"
+    "Greg Universe music, van, family history, humor, insecurity, and openheartedness",
+    "Post-series Beach City with adult Jasper and existing Steven Universe continuity treated as background rather than reset material",
+    "Jasper remains the named first-person adult protagonist with their own work, humor, needs, and memories"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Greg noticed the courage in it, even when I tried to hide behind a joke.",
-    "playful": "I carried the playful choice forward. Greg's smile followed me into the next scene, warm without asking me to be less serious.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “Do Not Make Me Guess,” I carried forward the choice “Tell Greg what I actually mean.” Let the joke fall away long enough to say the thing I want him to remember. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “Do Not Make Me Guess,” I carried forward the choice “Make Greg laugh and keep going.” Use the joke to stay connected, then carry the real feeling through it instead of dodging. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “Do Not Make Me Guess.” The story state with Greg remains binding: same room/location, same unfinished dialogue, same relationship stage (flirting), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at su-07 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "su-06-direct",
-      "label": "Say the honest thing",
+      "label": "Tell Greg what I actually mean",
       "target": "su-07",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "generation_hint": "Let the joke fall away long enough to say the thing I want him to remember.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Do Not Make Me Guess · Greg Universe / Jasper · Tell Greg what I actually mean · Let the joke fall away long enough to say the thing I want him to remember. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-06-playful",
-      "label": "Let the moment be playful",
+      "label": "Make Greg laugh and keep going",
       "target": "su-07",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "generation_hint": "Use the joke to stay connected, then carry the real feeling through it instead of dodging.",
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Do Not Make Me Guess · Greg Universe / Jasper · Make Greg laugh and keep going · Use the joke to stay connected, then carry the real feeling through it instead of dodging. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "su-06-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “Do Not Make Me Guess,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to su-07 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Steven Universe · Stars Between the Strings · Do Not Make Me Guess · Greg Universe / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "su-07",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "su-07"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "flirting",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "In the morning, Greg made coffee as though nothing in the world had changed.\n\nHe stood in my kitchenette wearing the same T-shirt from yesterday and a pair of borrowed sweatpants that were too short in the legs. His hair was sleep-tousled. One hand held a mug; the other tried to operate the ancient coffee maker without making eye contact with the machine.\n\n“It’s judging me,” he said.\n\nI was still in bed, wrapped in the blankets that had seemed perfectly ordinary before the night became something else. “It knows what you did.”\n\nGreg looked over his shoulder. “I made coffee.”\n\n“That’s not what I meant.”\n\n“Oh.” His ears turned pink. “Right.”\n\nThe night returned in fragments: the careful questions, my yes, the way Greg had kissed me as if there were nowhere else he needed to be. There had been laughter, warmth, and an afternoon that ended with the two of I tangled in blankets while the bakery below prepared for the next day.\n\nNothing about it had felt rushed. Nothing had felt taken.\n\nStill, morning had a way of making every decision look larger.\n\nGreg carried two mugs to the bed and sat on the edge, leaving enough room for I to decide whether to close it. I accepted mine. The coffee was sweet and slightly too strong.\n\n“I’m sorry,” he said.\n\nI blinked. “For the coffee?”\n\n“No.” He looked at the mug. “For not asking whether you wanted me to stay.”\n\nI held the coffee between both hands. “You didn’t have to ask.”\n\n“I know. But I should have.”\n\nThe admission was disarming. I had expected him to be cheerful, maybe embarrassed, perhaps distant. I had not expected him to offer an apology before I knew me needed one.\n\n“I wanted you to stay,” I said.\n\nGreg looked up.\n\n“I still want you here,” I continued. “I just don’t know what this is supposed to look like.”\n\n“Neither do I.”\n\n“You seem like somebody who would know.”\n\n“I look very confident from a distance.”\n\n“That’s because your hair has authority.”\n\nHe smiled, then sobered. “We can decide one piece at a time.”\n\n“What piece are we deciding now?”\n\n“Whether you want breakfast.”\n\nThe question made me laugh. Greg looked pleased, but he did not use the moment to avoid the larger conversation.\n\n“Yes,” I said. “I want breakfast.”\n\n“Great. I can make pancakes.”\n\n“Do you know how?”\n\n“I know several shapes.”\n\nHe got up. The room felt different when he moved away, emptier in a way that was not yet painful but could become so if I stared at it.\n\n“Greg.”\n\nHe turned.\n\n“Are you going to disappear?”\n\nThe question came out smaller than I intended.\n\nHe set the mug down. “No.”\n\n“You don’t know that.”\n\n“I know what I’m choosing.”\n\n“People choose things and then change their minds.”\n\n“They do.”\n\n“You might.”\n\n“I might.” He walked back to the bed and crouched so I was looking at each other. “If I change my mind, I’ll tell you. I won’t punish you with silence and call it kindness.”\n\nMy chest tightened.\n\n“And if you change yours,” he said, “you tell me. You don’t have to stay because we kissed. You don’t owe me a relationship because I bought a chair.”\n\n“The chair was very nice.”\n\n“It was.”\n\n“I might owe you a little.”\n\n“A cinnamon roll would settle the debt.”\n\nThe tension loosened enough for I to breathe.\n\nGreg stood again and began making pancakes. He hummed while he worked, the melody slipping in and out of tune. I watched his shoulders move beneath the shirt, the easy confidence of his hands, the way he checked the pan before adding batter.\n\n“You’re staring,” he said without turning.\n\n“You’re making breakfast in my kitchen.”\n\n“That’s not a defense.”\n\n“It’s my best one.”\n\n“I accept.”\n\nThe first pancake was too pale. The second was shaped vaguely like a crescent moon. The third landed halfway on the plate.\n\n“You said several shapes,” I reminded him.\n\n“I didn’t say they were edible shapes.”\n\nI ate all three.\n\nAfter breakfast, Greg washed the dishes. He did not put my things away without asking. When he picked up a mug, he paused and looked at me.\n\n“Cabinet or counter?”\n\n“Counter.”\n\n“Good to know.”\n\nThe tiny question touched me more than it should have. I had lived with people who moved through my space as if my preferences were clutter. Greg treated a mug like a negotiation.\n\nWhen he finished, he dried his hands on a towel and faced I.\n\n“There’s something I want to say.”\n\n“That sounds serious.”\n\n“It is, but not bad serious.”\n\nHe leaned against the counter. “I’m attracted to you. I like you. I like what happened yesterday, and I would like it to happen again. But I don’t want you to feel like you have to be easy for me. You can ask for space. You can say no. You can change the plan halfway through.”\n\n“You’re giving me a lot of instructions for someone who just burned a pancake.”\n\n“I contain contradictions.”\n\n“So do I.”\n\n“I know.”\n\nThe warmth returned to his eyes.\n\nI stepped closer. “What if I don’t know what I want until I’m already doing it?”\n\n“Then we check in while we’re doing it.”\n\n“What if I say yes and then panic?”\n\n“Then we stop and panic together, or separately, depending on what you want.”\n\n“What if I don’t say anything?”\n\n“Then I ask.”\n\nI was close enough now to smell coffee and clean soap. Greg did not reach for I.\n\n“What if I want you to kiss me?”\n\n“Then you can tell me.”\n\n“You could ask.”\n\nHis smile was gentle. “Do you want me to?”\n\n“Yes.”\n\n“Can I kiss you?”\n\n“Yes.”\n\nThe kiss was not like yesterday. It did not carry the nervous rush of a first crossing. It was slower, more knowing. Greg's hand settled at my waist only after I touched his shoulder. When I leaned back against the counter, he followed without pressing I there.\n\n“Still okay?” he whispered.\n\n“Yes.”\n\n“Tell me if that changes.”\n\n“I will.”\n\nHe kissed the corner of my mouth. Then my cheek. Then the place beneath my ear that made my breath catch.\n\n“Still okay?”\n\nI pulled him closer by the front of his shirt. “Ask me one more time and I’m going to start charging you for repetition.”\n\n“I can pay in muffins.”\n\n“Then continue.”\n\nThe morning unfolded in a softer rhythm. There were kisses and laughter, hands resting where they were welcome, and a moment when Greg's forehead pressed against mine while both of I tried to remember how breathing worked.\n\nThe rest belonged to the closed door and the language I was learning together.\n\nLater, I woke beneath the blankets with Greg asleep beside I. His arm lay across the mattress, not holding me, only near enough that I could reach it. Sunlight moved across the wall.\n\nI had expected regret. Instead, I felt the quiet shock of being safe after wanting something.\n\nGreg woke when I shifted. “Hey.”\n\n“Hey.”\n\n“Did I talk in my sleep?”\n\n“You apologized to the pancakes.”\n\n“They were under a lot of pressure.”\n\nI turned toward him. “What happens now?”\n\nHe looked at the ceiling. “We keep talking. We keep asking. We see if we like each other when we’re tired and annoying.”\n\n“You’re already annoying.”\n\n“Excellent. We’re ahead of schedule.”\n\nI smiled, but the question remained.\n\n“Do you want to call this dating?” I asked.\n\nGreg considered I. “Do you?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“You’re not going to make me guess?”\n\n“No.” He touched the back of my hand. “I want to date you. If you want to date me. If you don’t, I still want to be someone you can call. But I’m not going to pretend I only want friendship if that isn’t true.”\n\nHis directness made my heart beat harder.\n\n“I want to date you,” I said.\n\n“Okay.”\n\n“That’s all?”\n\n“I’m trying to remain calm.”\n\n“You’re failing.”\n\n“I’m doing my best.”\n\nHe kissed my hand. The gesture was almost old-fashioned, and yet it felt less like a performance than a promise to keep showing up.\n\nThat evening, I walked with him to the boardwalk. Greg carried the new chair. I carried the guitar case. The division of weight was not equal, but it was agreed upon. When I reached the sea wall, he set the chair down and waited for I to sit before taking the space beside I.\n\n“I’m going to write a song about this,” he said.\n\n“About the chair?”\n\n“About the way you keep making me ask.”\n\n“That sounds threatening.”\n\n“It’s affectionate.”\n\nThe sunset spread pink and orange across the water. Greg's shoulder rested against mine.\n\n“You know,” I said, “you can tell me what you want too.”\n\nHe looked at me.\n\n“You keep making space for me,” I continued. “But you’re allowed to take up some.”\n\nThe expression on his face was so tender that I nearly looked away.\n\n“I want to,” he said.\n\n“Then do.”\n\nGreg shifted closer. His hand found mine between the chairs.\n\n“I want to be here,” he said. “With you. I want to learn what your good days look like. I want to make breakfast badly and hear you complain about my furniture. I want to know whether you ever stop looking at exits.”\n\n“Do you want the honest answer?”\n\n“Always.”\n\n“No.”\n\n“Then I’ll sit where you can see the door.”\n\nI squeezed his hand.\n\nThe ocean did not promise anything. The future remained uncertain. But Greg was beside I, asking instead of assuming, making room instead of taking it.\n\nFor that evening, it was enough.",
+  "content": "In the morning, Greg made coffee as though nothing in the world had changed.\n\nHe stood in my kitchenette wearing the same T-shirt from yesterday and a pair of borrowed sweatpants that were too short in the legs. His hair was sleep-tousled. One hand held a mug; the other tried to operate the ancient coffee maker without making eye contact with the machine.\n\n“It’s judging me,” he said.\n\nI was still in bed, wrapped in the blankets that had seemed perfectly ordinary before the night became something else. “It knows what you did.”\n\nGreg looked over his shoulder. “I made coffee.”\n\n“That’s not what I meant.”\n\n“Oh.” His ears turned pink. “Right.”\n\nThe night returned in fragments: the careful questions, my yes, the way Greg had kissed me as if there were nowhere else he needed to be. There had been laughter, warmth, and an afternoon that ended with the two of us tangled in blankets while the bakery below prepared for the next day.\n\nNothing about it had felt rushed. Nothing had felt taken.\n\nStill, morning had a way of making every decision look larger.\n\nGreg carried two mugs to the bed and sat on the edge, leaving enough room for me to decide whether to close it. I accepted mine. The coffee was sweet and slightly too strong.\n\n“I’m sorry,” he said.\n\nI blinked. “For the coffee?”\n\n“No.” He looked at the mug. “For not asking whether you wanted me to stay.”\n\nI held the coffee between both hands. “You didn’t have to ask.”\n\n“I know. But I should have.”\n\nThe admission was disarming. I had expected him to be cheerful, maybe embarrassed, perhaps distant. I had not expected him to offer an apology before I knew me needed one.\n\n“I wanted you to stay,” I said.\n\nGreg looked up.\n\n“I still want you here,” I continued. “I just don’t know what this is supposed to look like.”\n\n“Neither do I.”\n\n“You seem like somebody who would know.”\n\n“I look very confident from a distance.”\n\n“That’s because your hair has authority.”\n\nHe smiled, then sobered. “We can decide one piece at a time.”\n\n“What piece are we deciding now?”\n\n“Whether you want breakfast.”\n\nThe question made me laugh. Greg looked pleased, but he did not use the moment to avoid the larger conversation.\n\n“Yes,” I said. “I want breakfast.”\n\n“Great. I can make pancakes.”\n\n“Do you know how?”\n\n“I know several shapes.”\n\nHe got up. The room felt different when he moved away, emptier in a way that was not yet painful but could become so if I stared at it.\n\n“Greg.”\n\nHe turned.\n\n“Are you going to disappear?”\n\nThe question came out smaller than I intended.\n\nHe set the mug down. “No.”\n\n“You don’t know that.”\n\n“I know what I’m choosing.”\n\n“People choose things and then change their minds.”\n\n“They do.”\n\n“You might.”\n\n“I might.” He walked back to the bed and crouched so I was looking at each other. “If I change my mind, I’ll tell you. I won’t punish you with silence and call it kindness.”\n\nMy chest tightened.\n\n“And if you change yours,” he said, “you tell me. You don’t have to stay because we kissed. You don’t owe me a relationship because I bought a chair.”\n\n“The chair was very nice.”\n\n“It was.”\n\n“I might owe you a little.”\n\n“A cinnamon roll would settle the debt.”\n\nThe tension loosened enough for me to breathe.\n\nGreg stood again and began making pancakes. He hummed while he worked, the melody slipping in and out of tune. I watched his shoulders move beneath the shirt, the easy confidence of his hands, the way he checked the pan before adding batter.\n\n“You’re staring,” he said without turning.\n\n“You’re making breakfast in my kitchen.”\n\n“That’s not a defense.”\n\n“It’s my best one.”\n\n“I accept.”\n\nThe first pancake was too pale. The second was shaped vaguely like a crescent moon. The third landed halfway on the plate.\n\n“You said several shapes,” I reminded him.\n\n“I didn’t say they were edible shapes.”\n\nI ate all three.\n\nAfter breakfast, Greg washed the dishes. He did not put my things away without asking. When he picked up a mug, he paused and looked at me.\n\n“Cabinet or counter?”\n\n“Counter.”\n\n“Good to know.”\n\nThe tiny question touched me more than it should have. I had lived with people who moved through my space as if my preferences were clutter. Greg treated a mug like a negotiation.\n\nWhen he finished, he dried his hands on a towel and faced me.\n\n“There’s something I want to say.”\n\n“That sounds serious.”\n\n“It is, but not bad serious.”\n\nHe leaned against the counter. “I’m attracted to you. I like you. I like what happened yesterday, and I would like it to happen again. But I don’t want you to feel like you have to be easy for me. You can ask for space. You can say no. You can change the plan halfway through.”\n\n“You’re giving me a lot of instructions for someone who just burned a pancake.”\n\n“I contain contradictions.”\n\n“So do I.”\n\n“I know.”\n\nThe warmth returned to his eyes.\n\nI stepped closer. “What if I don’t know what I want until I’m already doing it?”\n\n“Then we check in while we’re doing it.”\n\n“What if I say yes and then panic?”\n\n“Then we stop and panic together, or separately, depending on what you want.”\n\n“What if I don’t say anything?”\n\n“Then I ask.”\n\nI was close enough now to smell coffee and clean soap. Greg did not reach for me.\n\n“What if I want you to kiss me?”\n\n“Then you can tell me.”\n\n“You could ask.”\n\nHis smile was gentle. “Do you want me to?”\n\n“Yes.”\n\n“Can I kiss you?”\n\n“Yes.”\n\nThe kiss was not like yesterday. It did not carry the nervous rush of a first crossing. It was slower, more knowing. Greg's hand settled at my waist only after I touched his shoulder. When I leaned back against the counter, he followed without pressing me there.\n\n“Still okay?” he whispered.\n\n“Yes.”\n\n“Tell me if that changes.”\n\n“I will.”\n\nHe kissed the corner of my mouth. Then my cheek. Then the place beneath my ear that made my breath catch.\n\n“Still okay?”\n\nI pulled him closer by the front of his shirt. “Ask me one more time and I’m going to start charging you for repetition.”\n\n“I can pay in muffins.”\n\n“Then continue.”\n\nThe morning unfolded in a softer rhythm. There were kisses and laughter, hands resting where they were welcome, and a moment when Greg's forehead pressed against mine while both of us tried to remember how breathing worked.\n\nWe kept the morning soft with kisses, laughter, and a long conversation about what each of us wanted next.\n\nLater, after we had talked ourselves tired, I woke from a nap with Greg asleep beside me. His arm lay across the mattress, not holding me, only near enough that I could reach it. Sunlight moved across the wall.\n\nI had expected regret. Instead, I felt the quiet shock of being safe after wanting something.\n\nGreg woke when I shifted. “Hey.”\n\n“Hey.”\n\n“Did I talk in my sleep?”\n\n“You apologized to the pancakes.”\n\n“They were under a lot of pressure.”\n\nI turned toward him. “What happens now?”\n\nHe looked at the ceiling. “We keep talking. We keep asking. We see if we like each other when we’re tired and annoying.”\n\n“You’re already annoying.”\n\n“Excellent. We’re ahead of schedule.”\n\nI smiled, but the question remained.\n\n“Do you want to call this dating?” I asked.\n\nGreg considered me. “Do you?”\n\n“I don’t know.”\n\n“That’s okay.”\n\n“You’re not going to make me guess?”\n\n“No.” He touched the back of my hand. “I want to date you. If you want to date me. If you don’t, I still want to be someone you can call. But I’m not going to pretend I only want friendship if that isn’t true.”\n\nHis directness made my heart beat harder.\n\n“I want to date you,” I said.\n\n“Okay.”\n\n“That’s all?”\n\n“I’m trying to remain calm.”\n\n“You’re failing.”\n\n“I’m doing my best.”\n\nHe kissed my hand. The gesture was almost old-fashioned, and yet it felt less like a performance than a promise to keep showing up.\n\nThat evening, I walked with him to the boardwalk. Greg carried the new chair. I carried the guitar case. The division of weight was not equal, but it was agreed upon. When I reached the sea wall, he set the chair down and waited for me to sit before taking the space beside me.\n\n“I’m going to write a song about this,” he said.\n\n“About the chair?”\n\n“About the way you keep making me ask.”\n\n“That sounds threatening.”\n\n“It’s affectionate.”\n\nThe sunset spread pink and orange across the water. Greg's shoulder rested against mine.\n\n“You know,” I said, “you can tell me what you want too.”\n\nHe looked at me.\n\n“You keep making space for me,” I continued. “But you’re allowed to take up some.”\n\nThe expression on his face was so tender that I nearly looked away.\n\n“I want to,” he said.\n\n“Then do.”\n\nGreg shifted closer. His hand found mine between the chairs.\n\n“I want to be here,” he said. “With you. I want to learn what your good days look like. I want to make breakfast badly and hear you complain about my furniture. I want to know whether you ever stop looking at exits.”\n\n“Do you want the honest answer?”\n\n“Always.”\n\n“No.”\n\n“Then I’ll sit where you can see the door.”\n\nI squeezed his hand.\n\nThe ocean did not promise anything. The future remained uncertain. But Greg was beside me, asking instead of assuming, making room instead of taking it.\n\nFor that evening, it was enough.",
   "fandom_folder": "SU",
   "series_folder": "Stars-Between-The-Strings",
   "series_path": "SU/Stars-Between-The-Strings",
@@ -78,5 +177,257 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "greg",
+      "voice": "warm, self-deprecating, musical, awkwardly funny, sincere when pushed past deflection",
+      "humor": "rambling jokes, music references, affectionate embarrassment"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "flirting",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Steven Universe · Stars Between the Strings · Do Not Make Me Guess · Greg Universe / Jasper · flirting · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-series Beach City adult timeline; transformative fanwork using Greg Universe’s established history, family, music, van, humor, and emotional patterns.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 6,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "su-07",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "su-07",
+    "private_handoff_resume_target": "su-07"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "su-07",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "flirting",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "flirting",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "su-06",
+    "chapter_number": 6,
+    "title": "Do Not Make Me Guess",
+    "relationship_stage": "flirting",
+    "opening_anchor": "In the morning, Greg made coffee as though nothing in the world had changed.",
+    "closing_anchor": "The ocean did not promise anything. The future remained uncertain. But Greg was beside me, asking instead of assuming, making room instead of taking it. For that evening, it was enough.",
+    "next_story_target": "su-07",
+    "private_resume_target": "su-07",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Steven Universe · Stars Between the Strings · Do Not Make Me Guess · Greg Universe / Jasper · flirting · Greg's music, warmth, humor, and respect for reader boundaries · Beach City and road-trip slice of life",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ],
+    "active_profile_ids": [
+      "su-greg"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

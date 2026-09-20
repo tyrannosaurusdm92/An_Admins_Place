@@ -1,0 +1,39 @@
+{
+  "schema": "people-places-name-context-policy-v2",
+  "scope": "naming-source selection only",
+  "principles": [
+    "Use a single compatible language/locale source for a generated name unless the caller explicitly supplies another structure.",
+    "Do not infer race, ethnicity, religion, nationality, citizenship, gender identity, sexuality, personality, class, education, occupation, appearance, disability, relationships, values, or behavior from a name source.",
+    "Do not infer a name source from appearance, personality, work, education, wealth, hobbies, relationship style, pronouns, or gender identity.",
+    "Treat country and language inputs as routing constraints for name data, not as complete descriptions of a person.",
+    "Mark regional-language fallbacks honestly and never present them as exact country-specific coverage.",
+    "If a requested country has no compatible vetted pool, return an uncovered result rather than silently substituting an unrelated culture."
+  ],
+  "defaultBehavior": {
+    "unspecifiedContext": "choose one bundled source locale, then keep all automatically generated name parts inside that locale",
+    "genderIdentityControlsName": false,
+    "appearanceControlsName": false,
+    "occupationControlsName": false,
+    "personalityControlsName": false,
+    "religionControlsName": false,
+    "crossLocaleSurnameFallback": false
+  },
+  "explicitOptions": [
+    "locale",
+    "country",
+    "countryCode",
+    "language",
+    "nameLocales",
+    "nameCountries",
+    "namePresentation",
+    "romanizedNames",
+    "nameOrder",
+    "middleNameChance",
+    "includeMiddleName"
+  ],
+  "notes": [
+    "namePresentation is optional and never derived from a person's gender identity or pronouns.",
+    "Some source locales use an independent grammatical name form to keep inflected given/family/patronymic pieces internally consistent; that form is not treated as the person's gender identity.",
+    "Detailed mixed-heritage, diaspora, adoption, marriage, chosen-name, multilingual, and family naming histories should be authored as person facts rather than guessed from generated names."
+  ]
+}

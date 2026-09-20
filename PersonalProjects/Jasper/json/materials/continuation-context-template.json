@@ -1,0 +1,70 @@
+{
+  "schema_version": "jasper.story-continuation-context.v1",
+  "instructions": [
+    "Populate after every generated chapter and feed back before continuing.",
+    "Do not infer that a missing key means the event never happened; consult prior chapter JSON first.",
+    "Never reset pronouns, adult gates, relationship milestones, boundaries, or canon-divergence flags."
+  ],
+  "story_identity": {
+    "fandom": "",
+    "series_id": "",
+    "chapter_number": 0,
+    "timeline_or_au": "",
+    "selected_character_ids": []
+  },
+  "jasper_state": {
+    "pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "pov": "first_person",
+    "location": "",
+    "physical_state": [],
+    "emotional_state": [],
+    "current_goal": ""
+  },
+  "relationship_state": {
+    "stage": "",
+    "first_meeting_complete": false,
+    "first_kiss_complete": false,
+    "first_intimacy_complete": false,
+    "declared_relationship": false,
+    "pet_names": [],
+    "shared_jokes": [],
+    "rituals": [],
+    "affirmations": [],
+    "unresolved_conflicts": []
+  },
+  "consent_and_intimacy_continuity": {
+    "all_participants_18_plus": false,
+    "hard_limits": [],
+    "soft_limits": [],
+    "established_yeses": [],
+    "brat_play_signals": [],
+    "real_stop_signals": [
+      "no",
+      "stop",
+      "safeword",
+      "visible distress/freeze/withdrawal"
+    ],
+    "preferred_praise": [],
+    "character_specific_diction_profile": "",
+    "aftercare_preferences": []
+  },
+  "plot_continuity": {
+    "open_threads": [],
+    "promises": [],
+    "secrets": [],
+    "who_knows_what": {},
+    "injuries": [],
+    "objects": [],
+    "locations": []
+  },
+  "last_scene": {
+    "summary": "",
+    "emotional_turn": "",
+    "physical_aftermath": "",
+    "last_spoken_promise": "",
+    "next_hook": ""
+  }
+}
