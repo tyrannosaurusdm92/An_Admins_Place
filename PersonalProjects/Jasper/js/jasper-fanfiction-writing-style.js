@@ -73,7 +73,7 @@
 
   function normalizeMode(value) {
     const key = String(value || 'romance').toLowerCase();
-    if (key === 'mature_on_page' || key === 'explicit' || key === 'nsfw') return STORY_CONTENT_MODES.adult_explicit;
+    if (key === 'mature_on_page' || key === 'explicit' || key === 'explicit_detailed' || key === 'adult_explicit' || key === 'nsfw') return STORY_CONTENT_MODES.adult_explicit;
     return STORY_CONTENT_MODES[key] || STORY_CONTENT_MODES.romance;
   }
 
@@ -86,7 +86,7 @@
   }
 
   function adultsEligible(series={}) {
-    if (!series.adult_characters_confirmed) return false;
+    if (!series.adult_characters_confirmed || !series.consenting_adults_confirmed) return false;
     const ages = series.character_ages && typeof series.character_ages === 'object' ? Object.values(series.character_ages) : [];
     return !ages.some(age => Number.isFinite(Number(age)) && Number(age) < 18);
   }

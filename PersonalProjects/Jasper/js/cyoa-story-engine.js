@@ -1053,9 +1053,10 @@
       const eligible = chapters.filter(ch => !parent || ch.chapter_number <= parent.chapter_number);
       const recentChapters = eligible.slice(-6);
       const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode);
-      const effectiveMode = requestedMode.adult_required && !series.adult_characters_confirmed
-        ? CONTENT_MODES.romance
-        : requestedMode;
+      if (requestedMode.adult_required && !(series.adult_characters_confirmed && series.consenting_adults_confirmed)) {
+        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      }
+      const effectiveMode = requestedMode;
       const style = buildStyleProfile(series, recentChapters);
       const targetWords = clamp(num(series.target_words, series.story_type === 'short_story' ? 2500 : 1600), 600, 10000);
       const context = {
@@ -1096,7 +1097,7 @@
           tags: normalizeTags(series.content_tags),
           taxonomy_source: STORY_TAG_TAXONOMY.source,
           taxonomy_categories: STORY_TAG_TAXONOMY.categories,
-          note: requestedMode.id !== effectiveMode.id ? 'Adult-only mode was reduced to romance because consenting adult status was not confirmed.' : ''
+          note: requestedMode.adult_required ? 'Adult-only mode validated for consenting adults (18+).' : ''
         },
         continuity: {
           memory: clone(memory || {}),
@@ -1203,7 +1204,8 @@
     }
 
     providers() {
-      return [
+      const candidates = [
+        global.JASPER_FANFIC_BACKEND_PROVIDER,
         global.JASPER_FANFIC_STORY_PROVIDER,
         global.JASPER_FANFIC_PROVIDER,
         global.CYOA_STORY_PROVIDER,
@@ -1212,6 +1214,7 @@
         global.AIBrain?.generateStoryContinuation,
         global.StoryAI?.generate
       ].filter(fn => typeof fn === 'function');
+      return [...new Set(candidates)];
     }
 
     parseProviderResult(result) {
@@ -1263,7 +1266,14 @@
 
     async callExternal(context) {
       const basePrompt = this.promptFromContext(context);
-      for (const provider of this.providers()) {
+      const providers = this.providers();
+      if (!providers.length) {
+        const error = new Error('Jasper fanfiction generation backend is not connected.');
+        error.code = 'JASPER_BACKEND_PROVIDER_REQUIRED';
+        throw error;
+      }
+      let lastError = null;
+      for (const provider of providers) {
         try {
           const raw = await provider({ prompt: basePrompt, context, mode: context.requested?.mode, schema: context.schema });
           const parsed = this.parseProviderResult(raw);
@@ -1280,14 +1290,17 @@
             const repaired = this.parseProviderResult(repairedRaw);
             if (!this.validateProviderChapter(repaired, context).length) return repaired;
           } catch (repairError) {
-            console.warn('CYOA story provider repair attempt failed.', repairError);
+            lastError = repairError;
+            console.warn('CYOA story backend repair attempt failed.', repairError);
           }
           if (parsed?.content) return parsed;
+          lastError = new Error(`Jasper fanfiction backend returned an invalid chapter: ${problems.join('; ')}`);
         } catch (error) {
-          console.warn('CYOA story provider failed; trying fallback.', error);
+          lastError = error;
+          console.warn('Jasper fanfiction backend generation failed.', error);
         }
       }
-      return null;
+      throw lastError || new Error('Jasper fanfiction backend did not return a chapter.');
     }
 
     defaultChoices(series, chapterNumber, seed) {
@@ -1327,12 +1340,12 @@
       const nextNumber = extra.chapterNumber || (Math.max(0, ...series.chapters.map(ch => num(ch.chapter_number))) + 1);
       const seed = `${series.key}:${parent?.id || 'opening'}:${choice?.id || extra.direction || 'continue'}:${nextNumber}`;
       const requestedGenerationMode = resolveContentMode(context.content?.effective_mode || series.content_mode);
-      if (!provider && (requestedGenerationMode.id === 'explicit' || requestedGenerationMode.id === 'explicit_detailed')) {
-        const error = new Error('This explicit branch needs a configured story-generation provider. The scene was not faded out or replaced with non-explicit prose.');
-        error.code = 'EXPLICIT_PROVIDER_REQUIRED';
+      if (!provider) {
+        const error = new Error('Jasper fanfiction generation must come from the configured Apps Script backend; local safe fallback is disabled.');
+        error.code = 'JASPER_BACKEND_PROVIDER_REQUIRED';
         throw error;
       }
-      const localContent = provider ? '' : this.local.compose({ series: { ...series, content_mode: requestedGenerationMode.id }, parent, choice, memory, ...extra });
+      const localContent = '';
       const titleSeeds = extra.opening
         ? ['The First Door', 'Where It Begins', 'Before the World Changes', 'The First Step']
         : ['What the Choice Changed', 'After the Answer', 'The Next Honest Thing', 'Consequences in Motion', 'A Different Kind of Quiet', 'The Road Narrows'];
@@ -1606,8 +1619,11 @@
       const fandomFolder = safeFolder(spec.fandom_folder || spec.folder || existingFandom?.fandom_folder || existingFandom?.folder || dashedFolder(spec.fandom || 'Original'));
       const storyFolder = dashedFolder(spec.series_folder || spec.story_folder || title, sentenceCase(key));
       const requestedMode = resolveContentMode(spec.content_mode || spec.rating_mode || 'romance');
-      const adultConfirmed = Boolean(spec.adult_characters_confirmed || spec.consenting_adults_confirmed);
-      const contentMode = requestedMode.adult_required && !adultConfirmed ? 'romance' : requestedMode.id;
+      const adultConfirmed = Boolean(spec.adult_characters_confirmed && (spec.consenting_adults_confirmed ?? spec.adult_characters_confirmed));
+      if (requestedMode.adult_required && !adultConfirmed) {
+        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      }
+      const contentMode = requestedMode.id;
       const storyType = String(spec.story_type || 'cyoa_fanfiction').toLowerCase() === 'short_story' ? 'short_story' : 'cyoa_fanfiction';
       const series = this.registerSeries({
         key,
@@ -1655,9 +1671,12 @@
       if (!series) throw new Error('Story route not found.');
       const requested = resolveContentMode(patch.content_mode ?? series.content_mode);
       const adultConfirmed = patch.adult_characters_confirmed == null
-        ? Boolean(series.adult_characters_confirmed)
+        ? Boolean(series.adult_characters_confirmed && series.consenting_adults_confirmed)
         : Boolean(patch.adult_characters_confirmed);
-      const contentMode = requested.adult_required && !adultConfirmed ? 'romance' : requested.id;
+      if (requested.adult_required && !adultConfirmed) {
+        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      }
+      const contentMode = requested.id;
       const settings = {
         style_mode: patch.style_mode || series.style_mode || 'story_adaptive',
         style_profile: patch.style_profile && typeof patch.style_profile === 'object' ? clone(patch.style_profile) : clone(series.style_profile || {}),
