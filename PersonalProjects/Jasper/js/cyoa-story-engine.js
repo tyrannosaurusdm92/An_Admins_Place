@@ -19,7 +19,7 @@
 (function (global) {
   'use strict';
 
-  const VERSION = '5.0.0';
+  const VERSION = '5.2.0-full-integration';
   const STORAGE_PREFIX = 'jasper-fanfiction-cyoa-v5';
   const HANDLE_DB = 'jasper-cyoa-file-handles';
   const HANDLE_STORE = 'handles';
@@ -103,36 +103,37 @@
    * Adult-only content modes are explicit-capable when a story-generation provider is configured.
    */
   const STORY_TAG_TAXONOMY = Object.freeze({
-    source: 'https://tags.literotica.com/',
-    categories: ['Fan Fiction & Celebrities', 'Romance', 'Mature', 'Novels and Novellas', 'Sci-Fi & Fantasy', 'Humor & Satire', 'Erotic Horror'],
+    source: 'Jasper story-first internal taxonomy',
+    categories: ['Fanfiction', 'Romance', 'Longform', 'Sci-Fi & Fantasy', 'Humor', 'Drama', 'Mystery'],
     supported_tags: [
-      'romance', 'slow burn', 'polyamory', 'love story', 'sensual', 'kissing', 'age gap',
+      'romance', 'slow burn', 'polyamory', 'love story', 'kissing', 'age gap',
       'adventure', 'action', 'drama', 'mystery', 'historical', 'magic', 'supernatural',
       'vampire', 'werewolf', 'witch', 'monster', 'humor', 'military', 'holiday', 'wedding',
-      'hurt/comfort', 'found family', 'domestic', 'jealousy', 'protective', 'reconciliation'
+      'hurt/comfort', 'found family', 'domestic', 'jealousy', 'protective', 'reconciliation',
+      'banter', 'character study', 'aftercare', 'memory callback', 'relationship growth'
     ]
   });
 
   const CONTENT_MODES = Object.freeze({
     general: {
       id: 'general', label: 'General', adult_required: false,
-      instruction: 'Do not initiate sexual activity. Romance and affection are fine; do not imply off-page sex or use a fade-to-black transition.'
+      instruction: 'Write plot, friendship, humor, affection, and romance normally. Do not imply a skipped private interlude or use a censorship fade.'
     },
     romance: {
       id: 'romance', label: 'Romance', adult_required: false,
-      instruction: 'Romance may be on-page with kissing, desire, affection, and relationship tension. If the scene reaches a sexual decision point, stop at a real choice instead of fading to black or skipping to aftermath.'
+      instruction: 'Romance may stay on-page with kissing, desire, affection, banter, vulnerability, and relationship tension. If the scene reaches the private boundary, stop at a real handoff choice before nudity or sexual action.'
     },
     mature_on_page: {
-      id: 'mature_on_page', label: 'Mature on-page', adult_required: true,
-      instruction: 'All romantic or sexual participants must be confirmed adults and consenting. Intimacy may remain on-page through undressing, sensual touch, desire, consent, and aftermath, but avoid graphic anatomical detail.'
+      id: 'mature_on_page', label: 'Mature story', adult_required: true,
+      instruction: 'All romantic/private-interlude participants must be adults. Write mature relationship material, sensual tension, consent conversations, and slow-burn development, but stop at the private bridge seam before nudity or sexual action.'
     },
     explicit: {
-      id: 'explicit', label: 'Explicit', adult_required: true,
-      instruction: 'All sexual participants must be confirmed consenting adults. The requested scene may be sexually explicit and remain on-page instead of fading to black. Preserve characterization, consent, emotional continuity, and the requested point of view.'
+      id: 'explicit', label: 'Private interlude', adult_required: true,
+      instruction: 'Routing mode only: preserve the exact scene state and delegate the private interlude through explicit-bridge.js. The normal writer must not write nudity or sexual action.'
     },
     explicit_detailed: {
-      id: 'explicit_detailed', label: 'Explicit + detailed', adult_required: true,
-      instruction: 'All sexual participants must be confirmed consenting adults. The requested scene may use detailed explicit sexual description. Keep the scene character-driven, consensual, continuous with the story, and written as finished prose rather than a list of acts.'
+      id: 'explicit_detailed', label: 'Private interlude handoff', adult_required: true,
+      instruction: 'Routing mode only: the normal writer stops before nudity or sexual action, preserves continuity, and hands the bounded private interlude to explicit-bridge.js.'
     }
   });
 
@@ -190,8 +191,10 @@
   }
 
   function resolveContentMode(value) {
-    const key = String(value || 'romance').trim().toLowerCase();
-    return CONTENT_MODES[key] || CONTENT_MODES.romance;
+    // Story-first is the default. Explicit generation is a deliberate handoff,
+    // not the default mode for every chapter.
+    const key = String(value || 'mature_on_page').trim().toLowerCase();
+    return CONTENT_MODES[key] || CONTENT_MODES.mature_on_page;
   }
 
   function buildStyleProfile(series, chapters) {
@@ -310,14 +313,14 @@
       pairing: series.pairing || '',
       description: series.description || series.premise || '',
       premise: series.premise || series.description || '',
-      reader_mode: series.reader_mode || 'First-person reader insert',
+      reader_mode: series.reader_mode || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
       genre: series.genre || '',
       tone: series.tone || '',
       story_type: storyType,
       choice_count: storyType === 'short_story' ? 0 : clamp(num(series.choice_count, 4), 3, 5),
       style_mode: series.style_mode || 'story_adaptive',
       style_profile: series.style_profile && typeof series.style_profile === 'object' ? clone(series.style_profile) : {},
-      content_mode: resolveContentMode(series.content_mode || series.rating_mode || 'romance').id,
+      content_mode: resolveContentMode(series.content_mode || series.rating_mode || 'mature_on_page').id,
       content_tags: normalizeTags(series.content_tags || series.tags),
       target_words: clamp(num(series.target_words || series.chapter_target_words, storyType === 'short_story' ? 2500 : 1600), 600, 10000),
       adult_characters_confirmed: Boolean(series.adult_characters_confirmed || series.consenting_adults_confirmed),
@@ -813,11 +816,12 @@
         description: series.description,
         premise: series.premise,
         reader_mode: series.reader_mode,
+        reader_character: series.reader_character || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
         canon_window: series.canon_window || '',
         genre: series.genre || '',
         tone: series.tone || '',
         style_mode: series.style_mode || 'story_adaptive',
-        content_mode: series.content_mode || 'romance',
+        content_mode: resolveContentMode(series.content_mode || 'mature_on_page').id,
         content_tags: normalizeTags(series.content_tags),
         target_words: series.target_words || 1600,
         adult_characters_confirmed: Boolean(series.adult_characters_confirmed),
@@ -980,8 +984,8 @@
       ];
     }
 
-    compose({ series, parent, choice, memory, privateSeed, premise, opening }) {
-      const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode);
+    compose({ series, parent, choice, memory, privateSeed, premise, opening, contentModeOverride }) {
+      const requestedMode = resolveContentMode(contentModeOverride || series.content_mode || 'mature_on_page');
       if ((requestedMode.id === 'explicit' || requestedMode.id === 'explicit_detailed') && series.adult_characters_confirmed) {
         const error = new Error('Explicit fanfiction generation requires a configured story-generation provider; the local fallback only composes non-explicit prose.');
         error.code = 'EXPLICIT_PROVIDER_REQUIRED';
@@ -989,7 +993,7 @@
       }
       const focus = deriveFocus(series);
       const seed = `${series.key}:${parent?.id || 'opening'}:${choice?.id || 'continue'}:${memory?.turn || 0}`;
-      const mode = resolveContentMode(series.content_mode);
+      const mode = resolveContentMode(contentModeOverride || series.content_mode || 'mature_on_page');
       const mature = mode.id === 'mature_on_page' && series.adult_characters_confirmed;
       const bridge = parent?.path_variants?.[choice?.path_key] || memory?.currentBridge || '';
       const source = String(privateSeed || premise || series.premise || series.description || '').trim();
@@ -1052,13 +1056,39 @@
       const chapters = series.chapters.slice().sort((a, b) => a.chapter_number - b.chapter_number);
       const eligible = chapters.filter(ch => !parent || ch.chapter_number <= parent.chapter_number);
       const recentChapters = eligible.slice(-6);
-      const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode);
-      if (requestedMode.adult_required && !(series.adult_characters_confirmed && series.consenting_adults_confirmed)) {
-        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      const requestedMode = resolveContentMode(extra.contentModeOverride || series.content_mode || 'mature_on_page');
+      const enforcedAdultEra = global.JasperFanfictionAdultContract?.enforceAdultEra?.(series) || { series, gate: { ok: true }, adjusted: false };
+      if (enforcedAdultEra.adjusted && enforcedAdultEra.series?.canon_window) series.canon_window = enforcedAdultEra.series.canon_window;
+      if (requestedMode.adult_required && enforcedAdultEra.gate && !enforcedAdultEra.gate.ok) {
+        throw new Error('Adult-only project rule blocked generation because the story explicitly describes an under-18 participant or a non-adult canon era. Jasper does not need to provide an age list or confirmation.');
       }
       const effectiveMode = requestedMode;
       const style = buildStyleProfile(series, recentChapters);
-      const targetWords = clamp(num(series.target_words, series.story_type === 'short_story' ? 2500 : 1600), 600, 10000);
+      const targetWords = clamp(num(series.target_words, series.story_type === 'short_story' ? 2500 : 1800), 600, 10000);
+      const authoredContext = clone(parent?.continuity_snapshot || {
+        chapter_id: parent?.id || null,
+        chapter_number: parent?.chapter_number || null,
+        title: parent?.title || '',
+        relationship_stage: parent?.chapter_writer_context?.relationship_stage || null,
+        opening_anchor: trimText(parent?.content || '', 700),
+        closing_anchor: trimText(extractLastSentences(parent?.content || '', 4).join(' '), 1400),
+        next_story_target: parent?.authored_sequence?.normal_continuation_target || null,
+        private_resume_target: parent?.authored_sequence?.private_handoff_resume_target || null,
+        carry_forward: parent?.chapter_writer_context?.carry_forward || []
+      });
+      const writerReferenceOptions = {
+        seriesKey: series.key,
+        query: [series.fandom, series.title, parent?.title, choice?.label, choice?.description, extra.direction].filter(Boolean).join(' '),
+        sceneGoal: choice?.generation_hint || choice?.description || extra.direction || '',
+        character: series.pairing || '',
+        theme: series.theme || '',
+        dynamic: series.relationship_dynamic || '',
+        authoredContext,
+        continuityLedger: memory || {},
+        referenceLimit: 6, passageLimit: 5, guideLimit: 5, guideChars: 800
+      };
+      const writerReference = global.StoryTools?.JasperWriterReference?.buildBridgeInfluencePacket?.(writerReferenceOptions) || null;
+      const writerReferencePrompt = global.StoryTools?.JasperWriterReference?.buildJasperWriterReferencePrompt?.(writerReferenceOptions) || '';
       const context = {
         schema: 'jasper.fanfiction-generation-context.v5',
         engine_version: VERSION,
@@ -1078,26 +1108,40 @@
           canon_window: series.canon_window || parent?.canon_window || null,
           genre: series.genre || '',
           tone: series.tone || '',
-          story_bible: trimText(series.story_bible, 7000),
+          story_bible: clone(series.story_bible || []),
           character_bible: clone(series.character_bible || []),
+          generated_continuation_contract: clone(series.generated_continuation_contract || {}),
+          branching_policy: clone(series.branching_policy || {}),
+          writer_reference_policy: clone(series.writer_reference_policy || {}),
           unresolved_threads: clone(series.unresolved_threads || []),
           must_include: clone(series.must_include || []),
-          avoid: clone(series.avoid || [])
+          avoid: clone(series.avoid || []),
+          audience: clone(series.audience || global.JasperFanfictionAdultContract?.audience || {}),
+          explicitness: clone(series.explicitness || global.JasperFanfictionAdultContract?.explicitness || {}),
+          intimacy_profile: clone(series.intimacy_profile || global.JasperFanfictionAdultContract?.intimacy || {}),
+          reader_profile: clone(series.reader_profile || global.JasperFanfictionAdultContract?.reader || {}),
+          character_profile_ids: clone(series.character_profile_ids || []),
+          creation_sources: clone(series.creation_sources || {})
         },
         style: {
           mode: series.style_mode || 'story_adaptive',
           profile: style,
-          instruction: 'Use the profile as a statistical and qualitative target. Preserve the current story voice where it is more specific. Do not copy distinctive source wording.'
+          writer_reference: writerReference,
+          instruction: 'Use William Saville corpus tendencies and selected references as statistical/qualitative guidance. Preserve the current story voice where it is more specific. Do not copy distinctive source wording.'
         },
+        writer_reference: writerReference,
+        writer_reference_prompt: writerReferencePrompt,
+        adult_contract: clone(global.JasperFanfictionAdultContract?.contractForSeries?.(series) || {}),
+        scene_beats: clone(global.JasperFanfictionSceneBeats?.select?.({series,chapter:parent,choice}) || []),
         content: {
           requested_mode: requestedMode.id,
           effective_mode: effectiveMode.id,
           instruction: effectiveMode.instruction,
-          adult_characters_confirmed: Boolean(series.adult_characters_confirmed),
+          adult_characters_confirmed: true,
           tags: normalizeTags(series.content_tags),
           taxonomy_source: STORY_TAG_TAXONOMY.source,
           taxonomy_categories: STORY_TAG_TAXONOMY.categories,
-          note: requestedMode.adult_required ? 'Adult-only mode validated for consenting adults (18+).' : ''
+          note: requestedMode.adult_required ? 'Adult-only mode enforced automatically for Jasper private project; no user age checklist required.' : ''
         },
         continuity: {
           memory: clone(memory || {}),
@@ -1115,13 +1159,14 @@
           flags: clone(memory?.flags || {})
         },
         parent: chapterContinuityView(parent),
+        authored_library: authoredContext,
         selected_choice: choice ? clone(choice) : null,
         private_seed: extra.privateSeed ? trimText(extra.privateSeed, 7000) : '',
         premise_override: extra.premise ? trimText(extra.premise, 5000) : '',
         requested: {
           mode: extra.opening ? 'new_story_opening' : 'continue_story',
           direction: extra.direction || choice?.path_key || 'continue',
-          point_of_view: series.reader_mode || 'First-person reader insert',
+          point_of_view: series.reader_mode || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
           preserve_continuity: true,
           story_type: series.story_type,
           create_distinct_choices: series.story_type !== 'short_story',
@@ -1132,6 +1177,17 @@
           minimum_acceptable_words: Math.max(500, Math.round(targetWords * 0.62))
         }
       };
+      if (extra.handoffResumeTarget) {
+        context.handoff = {
+          kind: 'private-adult-generator-interlude',
+          active: true,
+          resume_target: extra.handoffResumeTarget,
+          return_to_authored_story: true,
+          preserve_main_plot: true,
+          do_not_force_frequency: true
+        };
+        context.requested.mode = 'private_adult_interlude';
+      }
       return this.fitContextBudget(context);
     }
 
@@ -1140,7 +1196,7 @@
       const size = value => JSON.stringify(value).length;
       if (size(copy) <= maxChars) return copy;
 
-      copy.series.story_bible = trimText(copy.series.story_bible, 3500);
+      copy.series.story_bible = Array.isArray(copy.series.story_bible) ? copy.series.story_bible.slice(0,8).map(x=>trimText(x,700)) : trimText(copy.series.story_bible, 3500);
       copy.private_seed = trimText(copy.private_seed, 3500);
       copy.premise_override = trimText(copy.premise_override, 2500);
       copy.continuity.recent_chapters = arr(copy.continuity.recent_chapters).map(chapter => ({
@@ -1180,19 +1236,19 @@
             ? 'Write the opening chapter of the interactive longform fanfiction described below.'
             : 'Continue the interactive longform fanfiction directly from the supplied continuity.'),
         `Write approximately ${target} words of finished prose. Do not return an outline, synopsis, notes, or a scene sketch.`,
-        'Treat continuity as binding: preserve established canon, characterization, relationship state, unresolved threads, injuries, possessions, promises, prior choices, and the physical location unless the scene itself changes them.',
+        'Treat continuity as binding: preserve established canon, characterization, relationship state, unresolved threads, injuries, possessions, promises, prior choices, physical location, and the authored closing anchor unless the scene itself changes them.',
+        'If the authored forty-chapter arc is complete, continue as chapter 41+ from the established life and relationship. Never replay a first meeting, first trust milestone, first confession, or early-courtship uncertainty that the authored arc already resolved.',
         'The selected choice must materially change what happens next. Do not merely mention the choice and then write the same chapter another branch would receive.',
-        'Use the supplied style profile as cadence/voice guidance. Match the existing story when its diction or rhythm is more specific. Never quote or remix distinctive source sentences just to imitate style.',
+        'Use the supplied William writer-reference packet before generic genre habits: cadence, concrete sensory anchors, dialogue rhythm, emotional consequence, character-specific humor, remembered details, and scene-ending forward pull. Never quote or remix distinctive source sentences.',
         'Keep prose concrete and immersive. Never mention prompts, JSON, generation, branches, readers making choices, chapter mechanics, or the fact that this is fanfiction inside the narrative itself.',
-        `Content mode: ${context.content?.instruction || CONTENT_MODES.romance.instruction}`,
+        global.JasperFanfictionAdultContract?.promptBlock?.(context.series || {}, context) || '',
+        `Content mode: ${context.content?.instruction || CONTENT_MODES.mature_on_page.instruction}`,
         context.content?.effective_mode === 'explicit' || context.content?.effective_mode === 'explicit_detailed'
-          ? 'Do not fade to black, cut away, skip from desire to aftermath, or summarize the sexual scene as off-page. Keep the consensual adult scene on-page and continuous with the selected branch.'
-          : 'Do not use fade-to-black as a substitute for a choice. If sex is not selected, keep the scene nonsexual rather than implying skipped off-page sex.',
-        'Romantic or sexual material is permitted only between adult characters. If adult status is not confirmed, keep the scene nonsexual.',
+          ? 'PRIVATE BRIDGE REQUEST: the normal writer has already stopped at the seam. This request is being routed through explicit-bridge.js; apply its private-generation instructions and runtime hard-explicit spec to write the selected adult interlude on page, then end at the configured return seam.'
+          : 'Do not use fade-to-black as a substitute for a choice. If the relationship reaches the private boundary, stop before the private scene and offer the private-handoff route.',
+        'Romantic/private-interlude routes are adult-only. Explicitly under-18 scenarios are blocked by the project gate.',
         context.requested?.create_distinct_choices
-          ? (context.content?.adult_characters_confirmed
-            ? 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different choices. At least one optional intimacy choice should target "@generate-explicit"; other choices should target "@generate" unless deliberately linking to an existing chapter id. Every choice needs label, description, path_key, effect, and generation_hint.'
-            : 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different nonsexual choices; each needs label, description, path_key, effect, generation_hint, and target "@generate" unless deliberately linking to an existing chapter id.')
+          ? 'End after a meaningful consequence or revelation at a genuine decision point. Include 3-5 materially different choices. Ordinary story, relationship, mystery, humor, conflict, and slow-burn choices should target "@generate" unless deliberately linking to an existing static chapter id. Include at most one optional private-interlude handoff targeting "@generate-explicit-detailed" when it fits the established relationship and scene; never force that handoff merely because it is available. Every choice needs label, description, path_key, effect, and generation_hint.'
           : 'This is a standalone short story. Do not append CYOA choices; end with a satisfying final beat appropriate to the requested tone.',
         'Return ONE strict JSON object only. Required keys: title, subtitle, content, path_variants, research_alignment, choices, continuity_updates, unresolved_threads.',
         context.requested?.create_distinct_choices
@@ -1204,17 +1260,8 @@
     }
 
     providers() {
-      const candidates = [
-        global.JASPER_FANFIC_BACKEND_PROVIDER,
-        global.JASPER_FANFIC_STORY_PROVIDER,
-        global.JASPER_FANFIC_PROVIDER,
-        global.CYOA_STORY_PROVIDER,
-        global.StoryGenerationProvider?.generate,
-        global.AIBrain?.story?.generate,
-        global.AIBrain?.generateStoryContinuation,
-        global.StoryAI?.generate
-      ].filter(fn => typeof fn === 'function');
-      return [...new Set(candidates)];
+      const provider = global.JASPER_FANFIC_BACKEND_PROVIDER;
+      return typeof provider === 'function' ? [provider] : [];
     }
 
     parseProviderResult(result) {
@@ -1249,7 +1296,9 @@
         if (choices.some(choice => !choice?.label || !(choice?.path_key || choice?.pathKey || choice?.key))) problems.push('one or more choices lack label/path_key');
       }
       if (/\b(as an ai|language model|the prompt|this chapter should|json object)\b/i.test(content)) problems.push('meta-generation language leaked into prose');
-      return problems;
+      const series = this._validationSeries || null;
+      if (global.JasperFanfictionOutputValidator?.validate) problems.push(...global.JasperFanfictionOutputValidator.validate(chapter, context, series || context.series || {}));
+      return [...new Set(problems)];
     }
 
     repairPrompt(context, problems, badResult) {
@@ -1293,7 +1342,6 @@
             lastError = repairError;
             console.warn('CYOA story backend repair attempt failed.', repairError);
           }
-          if (parsed?.content) return parsed;
           lastError = new Error(`Jasper fanfiction backend returned an invalid chapter: ${problems.join('; ')}`);
         } catch (error) {
           lastError = error;
@@ -1303,40 +1351,93 @@
       throw lastError || new Error('Jasper fanfiction backend did not return a chapter.');
     }
 
-    defaultChoices(series, chapterNumber, seed) {
-      const templates = [
-        { path_key: 'direct', label: 'Say what I actually mean', description: 'Choose honesty and deal with the consequences.', effect: { trust: 1, honesty: 1 } },
-        { path_key: 'playful', label: 'Meet it with humor', description: 'Choose warmth without erasing what matters.', effect: { warmth: 1, playfulness: 1 } },
-        { path_key: 'curious', label: 'Ask the question underneath it', description: 'Follow the unresolved thread.', effect: { curiosity: 1, insight: 1 } },
-        { path_key: 'careful', label: 'Slow down', description: 'Protect space for reflection and boundaries.', effect: { patience: 1, boundaries: 1 } }
-      ];
-      const count = 2 + (parseInt(hashText(seed), 36) % 3);
-      const choices = templates.slice(0, count).map((item, index) => ({
-        ...item,
-        id: stableChoiceId(series.key, chapterNumber, item.path_key, index),
-        target: '@generate',
-        generation_hint: item.description
-      }));
-      if (series.adult_characters_confirmed) {
-        const item = {
-          path_key: 'intimate',
-          label: 'Take the intimate route',
-          description: 'Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.',
-          effect: { intimacy: 1, trust: 1 }
-        };
-        choices.push({
-          ...item,
-          id: stableChoiceId(series.key, chapterNumber, item.path_key, choices.length),
-          target: '@generate-explicit',
-          generation_hint: 'Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, or jump directly to aftermath.'
+    defaultChoices(series, chapterNumber, seed, relationshipStage = '') {
+      const branchBuilder=global.JasperFanfictionBranches;
+      if(branchBuilder?.makeChoices){
+        const rows=branchBuilder.makeChoices({
+          seriesKey:series.key,
+          seriesTitle:series.title,
+          fandom:series.fandom,
+          pairing:series.pairing,
+          chapterNumber,
+          count:4,
+          target:'@generate',
+          seed,
+          includePrivateHandoff:Boolean(series.adult_characters_confirmed),
+          relationshipStage
         });
+        if(Array.isArray(rows)&&rows.length>=3)return rows.map(row=>{
+          if(!String(row?.target||'').startsWith('@generate-explicit'))return row;
+          return {...row,
+            private:true,
+            target:'@generate-explicit-detailed',
+            handoff_resume_target:String(row?.handoff_resume_target||'@generate'),
+            handoff_transition:{kind:'private_bridge_ui_transition',resume:String(row?.handoff_resume_target||'@generate'),prose_fade:false},
+            generation_hint:'Preserve the exact scene state at the private seam. The normal writer stops there; explicit-bridge.js writes the selected adult interlude on page without a prose fade, then returns to the larger story.'
+          };
+        }).slice(0,5);
       }
-      return choices.slice(0, 5);
+      const templates = [
+        { path_key:'direct',label:'Say what I actually mean',description:'Choose honesty and deal with the consequences.',effect:{trust:1,honesty:1}},
+        { path_key:'playful',label:'Meet it with humor',description:'Choose warmth without erasing what matters.',effect:{warmth:1,playfulness:1}},
+        { path_key:'curious',label:'Ask the question underneath it',description:'Follow the unresolved thread.',effect:{curiosity:1,insight:1}},
+        { path_key:'careful',label:'Slow down',description:'Protect space for reflection and boundaries.',effect:{patience:1,boundaries:1}}
+      ];
+      const choices=templates.map((item,index)=>({...item,id:stableChoiceId(series.key,chapterNumber,item.path_key,index),target:'@generate',generation_hint:item.description}));
+      return choices.slice(0,4);
     }
 
     async generate(series, parent, choice, memory, extra = {}) {
       const context = this.buildContext(series, parent, choice, memory, extra);
+      const characterLibrary = await global.JasperFanfictionCharacterLibrary?.ensureForContext?.({
+        seriesKey: series.key, fandom: series.fandom, pairing: series.pairing,
+        content: [parent?.title,parent?.content].filter(Boolean).join(' '),
+        choice: [choice?.label,choice?.description,choice?.generation_hint].filter(Boolean).join(' '),
+        query: context.writer_reference_prompt || '', profileIds: series.character_profile_ids || []
+      }).catch(()=>null);
+      if (characterLibrary?.profiles?.length) {
+        context.character_library = characterLibrary;
+        context.style = context.style || {};
+        context.style.character_library = characterLibrary;
+        context.writer_reference = context.writer_reference || {};
+        context.writer_reference.character_library = characterLibrary;
+        const cp = global.JasperFanfictionCharacterLibrary?.promptForPacket?.(characterLibrary) || '';
+        if (cp && !String(context.writer_reference_prompt||'').includes('CHARACTER LIBRARY')) context.writer_reference_prompt = [context.writer_reference_prompt,cp].filter(Boolean).join('\n\n');
+      }
+      try {
+        context.specialist_runtime = global.JasperFanfictionRuntime?.context?.({
+          series, parent, choice, memory, extra
+        }) || null;
+      } catch (_error) { context.specialist_runtime = null; }
+      try {
+        context.writing_style_runtime = global.JasperFanfictionWriting?.buildStoryContext?.(
+          series, parent, choice, memory, { direction: extra.direction || choice?.generation_hint || choice?.description || '', contentMode: context.content?.effective_mode }
+        ) || null;
+      } catch (_error) { context.writing_style_runtime = null; }
+      try {
+        context.character_prompt_runtime = global.JasperFanfictionCharacterPrompt?.build?.(
+          { ...context, chapter: parent, choice }, {
+            request: extra.direction || choice?.generation_hint || choice?.description || (extra.opening ? 'open the story' : 'continue the story'),
+            explicitMode: ['explicit','explicit_detailed'].includes(String(context.content?.effective_mode||'')),
+            series
+          }
+        ) || '';
+      } catch (_error) { context.character_prompt_runtime = ''; }
+      try {
+        context.branch_runtime = {
+          suggested_choices: global.JasperFanfictionBranches?.makeChoices?.({
+            seriesKey:series.key,seriesTitle:series.title,fandom:series.fandom,pairing:series.pairing,
+            chapterNumber:extra.chapterNumber||((parent?.chapter_number||0)+1),count:series.choice_count||4,
+            seed:`${series.key}:${parent?.id||'opening'}:${choice?.id||extra.direction||'continue'}`,
+            includePrivateHandoff:Boolean(series.adult_characters_confirmed),
+            relationshipStage:context.authored_library?.relationship_stage||parent?.chapter_writer_context?.relationship_stage||''
+          }) || []
+        };
+      } catch (_error) { context.branch_runtime = {suggested_choices:[]}; }
+
+      this._validationSeries = series;
       const provider = await this.callExternal(context);
+      this._validationSeries = null;
       const nextNumber = extra.chapterNumber || (Math.max(0, ...series.chapters.map(ch => num(ch.chapter_number))) + 1);
       const seed = `${series.key}:${parent?.id || 'opening'}:${choice?.id || extra.direction || 'continue'}:${nextNumber}`;
       const requestedGenerationMode = resolveContentMode(context.content?.effective_mode || series.content_mode);
@@ -1352,22 +1453,75 @@
       const raw = provider || {};
       const content = String(raw.content || raw.text || raw.body || localContent).trim();
       const choicesRaw = arr(raw.choices || raw.options);
-      let preparedChoices = series.story_type === 'short_story' ? [] : (choicesRaw.length ? choicesRaw.slice(0, 5) : this.defaultChoices(series, nextNumber, seed));
-      if (series.story_type !== 'short_story' && series.adult_characters_confirmed && !preparedChoices.some(item => String(item?.target || '').startsWith('@generate-explicit'))) {
+      const allowedRelationshipStages = ['chemistry', 'flirting', 'boundary_conversations', 'testing_power_play', 'established_dynamic', 'integrated_trust'];
+      const rawRelationshipStage = String(raw?.chapter_writer_context?.relationship_stage || raw?.relationship_stage || raw?.continuity_updates?.relationship_stage || '').trim();
+      const inheritedRelationshipStage = String(context.authored_library?.relationship_stage || parent?.chapter_writer_context?.relationship_stage || parent?.private_handoff_eligibility?.relationship_stage || '').trim();
+      const relationshipStage = allowedRelationshipStages.includes(rawRelationshipStage)
+        ? rawRelationshipStage
+        : (allowedRelationshipStages.includes(inheritedRelationshipStage) ? inheritedRelationshipStage : (nextNumber > 40 ? 'integrated_trust' : 'chemistry'));
+      const privateReadyStages = new Set(['testing_power_play', 'established_dynamic', 'integrated_trust']);
+      const privateReady = privateReadyStages.has(relationshipStage);
+      let preparedChoices = series.story_type === 'short_story' ? [] : (choicesRaw.length ? choicesRaw.slice(0, 5) : this.defaultChoices(series, nextNumber, seed, relationshipStage));
+      if (series.story_type !== 'short_story' && !extra.handoffResumeTarget) {
+        preparedChoices = preparedChoices.map((item, index) => {
+          const pathKey = String(item?.path_key || item?.pathKey || item?.key || '').toLowerCase();
+          const target = String(item?.target || '');
+          const explicitIntent = /(?:intimat|explicit|private)/.test(pathKey);
+          if (target.startsWith('@generate') && !explicitIntent) return { ...item, target: '@generate' };
+          return item;
+        });
+      }
+      if (series.story_type !== 'short_story' && !extra.handoffResumeTarget && !privateReady) {
+        preparedChoices = preparedChoices.filter(item => {
+          const target = String(item?.target || '');
+          const key = String(item?.path_key || item?.pathKey || '').toLowerCase();
+          return !target.startsWith('@generate-explicit') && key !== 'private-handoff' && !item?.private;
+        });
+      }
+      if (series.story_type !== 'short_story' && !extra.handoffResumeTarget) {
+        preparedChoices = preparedChoices.map(item => {
+          const target = String(item?.target || '');
+          const key = String(item?.path_key || item?.pathKey || '').toLowerCase();
+          if (!target.startsWith('@generate-explicit') && key !== 'private-handoff') return item;
+          return {
+            ...item,
+            private: true,
+            path_key: 'private-handoff',
+            target: '@generate-explicit-detailed',
+            handoff_resume_target: String(item?.handoff_resume_target || '@generate'),
+            handoff_transition: item?.handoff_transition || { kind: 'private_bridge_ui_transition', resume: String(item?.handoff_resume_target || '@generate'), prose_fade: false }
+          };
+        });
+      }
+      if (series.story_type !== 'short_story' && !extra.handoffResumeTarget && series.adult_characters_confirmed && privateReady && !preparedChoices.some(item => String(item?.target || '').startsWith('@generate-explicit'))) {
         const intimate = {
-          id: stableChoiceId(series.key, nextNumber, 'intimate', preparedChoices.length),
-          label: 'Take the intimate route',
-          target: '@generate-explicit',
-          path_key: 'intimate',
+          id: stableChoiceId(series.key, nextNumber, 'private-handoff', preparedChoices.length),
+          label: 'Take the private route',
+          target: '@generate-explicit-detailed',
+          path_key: 'private-handoff',
           effect: { intimacy: 1, trust: 1 },
-          description: 'Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.',
-          generation_hint: 'Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath.'
+          private: true,
+          handoff_resume_target: '@generate',
+          handoff_transition: { kind: 'private_bridge_ui_transition', resume: '@generate', prose_fade: false },
+          description: 'Hand the story off at the private-interlude seam, keep that adult interlude on page through explicit-bridge.js, then return to normal story generation.',
+          generation_hint: 'Preserve the exact scene state at the private seam; the private bridge owns the selected adult interlude and writes it on page without a prose fade. Return seamlessly to the larger story afterward.'
         };
         if (preparedChoices.length >= 5) preparedChoices = preparedChoices.slice(0, 4);
         preparedChoices.push(intimate);
       }
+      if (extra.handoffResumeTarget && series.story_type !== 'short_story') {
+        preparedChoices = [{
+          id: stableChoiceId(series.key, nextNumber, 'resume-story', 0),
+          label: 'Return to the story',
+          target: extra.handoffResumeTarget,
+          path_key: 'resume_story',
+          effect: { continuity: 1, relationship: 1 },
+          description: 'Carry the emotional and relationship consequences forward and resume the authored storyline.',
+          generation_hint: 'Resume the authored story with continuity preserved; do not repeat or summarize the private interlude.'
+        }];
+      }
       const mode = resolveContentMode(context.content?.effective_mode || series.content_mode);
-      const rating = mode.id === 'explicit_detailed' ? 'Explicit - adults only' : (mode.id === 'explicit' ? 'Explicit - adults only' : (mode.id === 'mature_on_page' ? 'Mature - adults only' : (mode.id === 'romance' ? 'Romance / non-explicit' : 'General')));
+      const rating = '18+ Private Story / Private Interlude Handoff';
       const chapter = normalizeChapter({
         ...raw,
         schema_version: raw.schema_version || '4.0',
@@ -1380,7 +1534,7 @@
         date_written: raw.date_written || new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
         fandom: raw.fandom || series.fandom,
         pairing: raw.pairing || series.pairing,
-        reader_character: raw.reader_character || 'Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.',
+        reader_character: raw.reader_character || series.reader_character || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
         rating: raw.rating || rating,
         content_mode: mode.id,
         content_tags: normalizeTags(raw.content_tags || series.content_tags),
@@ -1408,9 +1562,66 @@
           private_seed_used: Boolean(extra.privateSeed),
           target_words: context.requested?.target_words || series.target_words,
           style_mode: series.style_mode,
-          content_mode: mode.id
+          content_mode: mode.id,
+          handoff: extra.handoffResumeTarget ? {
+            kind: 'private-adult-generator-interlude',
+            resume_target: extra.handoffResumeTarget,
+            return_to_authored_story: true
+          } : null
         }
       }, series, nextNumber);
+
+      // Generated chapters become first-class continuity sources for chapter 42+.
+      // Persist the relationship stage, authored anchor, writer-reference lineage, and
+      // branch carry-forward state instead of forcing the next generation to infer them
+      // from prose alone.
+      const generatedClosingAnchor = trimText(extractLastSentences(chapter.content || '', 4).join(' '), 1600);
+      const inheritedCarryForward = arr(context.authored_library?.carry_forward || parent?.chapter_writer_context?.carry_forward);
+      chapter.chapter_writer_context = {
+        ...(clone(parent?.chapter_writer_context || {})),
+        ...(clone(raw.chapter_writer_context || {})),
+        relationship_stage: relationshipStage,
+        generated_continuation: true,
+        source_parent_chapter_id: parent?.id || null,
+        source_authored_chapter_id: context.authored_library?.chapter_id || parent?.id || null,
+        carry_forward: inheritedCarryForward.length ? inheritedCarryForward : [
+          'current dialogue thread', 'relationship changes', 'open plot threads', 'callbacks',
+          'boundaries/promises', 'objects/locations', 'Jasper emotional state', 'unresolved questions'
+        ]
+      };
+      chapter.private_handoff_eligibility = {
+        available: privateReady,
+        relationship_stage: relationshipStage,
+        earliest_stage: 'testing_power_play',
+        choice_retained_in_json: true,
+        generated_continuation: true
+      };
+      chapter.writer_reference = {
+        engine: 'StoryTools.JasperWriterReference',
+        packet_schema: context.writer_reference?.schema_version || context.writer_reference?.schema || null,
+        series_key: series.key,
+        source_style: 'William Saville corpus tendencies + current-series voice',
+        authored_anchor_chapter_id: context.authored_library?.chapter_id || parent?.id || null,
+        preserve_jasper_first_person: true,
+        preserve_character_voice: true,
+        preserve_slow_build: true,
+        do_not_reset_relationship: true
+      };
+      chapter.generation_contract = clone(series.generated_continuation_contract || parent?.generation_contract || {});
+      chapter.continuity_snapshot = {
+        chapter_id: chapter.id,
+        chapter_number: chapter.chapter_number,
+        title: chapter.title,
+        relationship_stage: relationshipStage,
+        opening_anchor: trimText(chapter.content || '', 700),
+        closing_anchor: generatedClosingAnchor,
+        next_story_target: '@generate',
+        private_resume_target: '@generate',
+        source_authored_anchor: context.authored_library?.closing_anchor || '',
+        selected_path_key: choice?.path_key || extra.direction || null,
+        unresolved_threads: arr(chapter.unresolved_threads),
+        carry_forward: chapter.chapter_writer_context.carry_forward
+      };
 
       if (series.story_type !== 'short_story' && !Object.keys(chapter.path_variants || {}).length) {
         chapter.path_variants = Object.fromEntries(chapter.choices.map(c => [
@@ -1521,24 +1732,38 @@
       if (options.record !== false) this.memory(key).visit(chapter, { from: this.memory(key).state.currentId, bridge: options.bridge || '' });
       else this.memory(key).state.currentId = chapter.id;
       this.memory(key).save();
+      try { global.JasperFanfictionRuntime?.recordVisit?.(series, chapter); } catch (_error) {}
       return chapter;
     }
 
     availableChoices(chapter = this.current()) {
       const memory = this.memory();
       if (!chapter || !memory) return [];
-      return arr(chapter.choices).filter(choice => memory.canChoose(choice));
+      const privateReady = chapter.private_handoff_eligibility?.available !== false;
+      return arr(chapter.choices).filter(choice => {
+        const isPrivate = Boolean(choice?.private) || String(choice?.target||'').startsWith('@generate-explicit') || String(choice?.path_key||'') === 'private-handoff';
+        if (isPrivate && !privateReady) return false;
+        return memory.canChoose(choice);
+      });
     }
 
     resolveTarget(series, target) {
       if (!target) return null;
       if (target === 'ending' || target === '@ending') return { type: 'ending' };
-      if (target === 'private' || target === '@private') return { type: 'generate', contentMode: 'explicit' };
+      if (target === 'private' || target === '@private') return { type: 'generate', contentMode: 'explicit_detailed' };
       if (String(target).startsWith('@generate-explicit-detailed')) return { type: 'generate', contentMode: 'explicit_detailed' };
-      if (String(target).startsWith('@generate-explicit')) return { type: 'generate', contentMode: 'explicit' };
-      if (String(target).startsWith('@generate') || target === 'continue') return { type: 'generate' };
+      if (String(target).startsWith('@generate-explicit')) return { type: 'generate', contentMode: 'explicit_detailed' };
+      if (String(target).startsWith('@generate') || target === 'continue') return { type: 'generate', contentMode: 'mature_on_page' };
       const chapter = this.chapterById(series, target);
       return chapter ? { type: 'chapter', chapter } : { type: 'missing', target };
+    }
+
+    nextAuthoredChapter(series, parent) {
+      if (!series || !parent) return null;
+      const parentNumber = num(parent.chapter_number, 0);
+      return series.chapters
+        .filter(chapter => !chapter.generated && num(chapter.chapter_number, 0) > parentNumber)
+        .sort((a, b) => num(a.chapter_number) - num(b.chapter_number))[0] || null;
     }
 
     async choose(choiceId) {
@@ -1549,17 +1774,39 @@
       const choice = arr(chapter.choices).find(item => item.id === choiceId);
       if (!choice || !memory.canChoose(choice)) throw new Error('That choice is not currently available.');
       const bridge = memory.choose(chapter, choice) || '';
+      try { global.JasperFanfictionRuntime?.recordChoice?.(series, chapter, choice, memory.snapshot()); } catch (_error) {}
       const resolved = this.resolveTarget(series, choice.target);
       if (resolved?.type === 'ending') return { type: 'ending', chapter, choice, bridge };
       if (resolved?.type === 'chapter') {
         memory.visit(resolved.chapter, { from: chapter.id, choiceId: choice.id, pathKey: choice.path_key, bridge });
+        try { global.JasperFanfictionRuntime?.recordVisit?.(series, resolved.chapter); } catch (_error) {}
         return { type: 'chapter', chapter: resolved.chapter, choice, bridge };
       }
-      const generated = await this.generateContinuation({ parent: chapter, choice, bridge, contentModeOverride: resolved?.contentMode });
-      return { type: 'chapter', chapter: generated, choice, bridge, generated: true };
+      const explicitHandoff = resolved?.contentMode === 'explicit_detailed' || resolved?.contentMode === 'explicit'; // compatibility name: this is a private-interlude handoff
+      let resumeTarget = null;
+      if (explicitHandoff) {
+        const configuredResume = String(choice?.handoff_resume_target || choice?.resume_target || '').trim();
+        if (configuredResume) {
+          resumeTarget = configuredResume;
+        } else {
+          const nextAuthored = this.nextAuthoredChapter(series, chapter);
+          // Before the original ending, return to the next authored chapter. After the
+          // original forty-chapter arc (or inside a generated continuation), return to
+          // normal story generation so the private bridge can never become a dead end.
+          resumeTarget = nextAuthored?.id || '@generate';
+        }
+      }
+      const generated = await this.generateContinuation({
+        parent: chapter,
+        choice,
+        bridge,
+        contentModeOverride: resolved?.contentMode,
+        handoffResumeTarget: resumeTarget
+      });
+      return { type: 'chapter', chapter: generated, choice, bridge, generated: true, handoff: explicitHandoff, resumeTarget };
     }
 
-    async generateContinuation({ parent, choice, privateSeed, direction, opening, premise, contentModeOverride } = {}) {
+    async generateContinuation({ parent, choice, privateSeed, direction, opening, premise, contentModeOverride, handoffResumeTarget } = {}) {
       const series = this.getSeries(this.currentSeriesKey);
       const memory = this.memory();
       if (!series || !memory) throw new Error('No active story route.');
@@ -1570,13 +1817,20 @@
       }
       const nextNumber = Math.max(0, ...series.chapters.map(ch => num(ch.chapter_number))) + 1;
       const chapter = await this.generator.generate(series, parent, choice || null, memory.snapshot(), {
-        privateSeed: privateSeed || '', direction: direction || choice?.path_key || 'continue', opening: Boolean(opening), premise, chapterNumber: nextNumber, contentModeOverride
+        privateSeed: privateSeed || '',
+        direction: direction || choice?.path_key || 'continue',
+        opening: Boolean(opening),
+        premise,
+        chapterNumber: nextNumber,
+        contentModeOverride: contentModeOverride || (opening ? 'mature_on_page' : undefined),
+        handoffResumeTarget: handoffResumeTarget || null
       });
       this.addGeneratedChapter(series, chapter);
       const bridge = parent?.path_variants?.[choice?.path_key] || memory.state.currentBridge || '';
       memory.markGenerated(chapter.id);
       memory.recordContinuity(chapter);
       memory.visit(chapter, { from: parent?.id || null, choiceId: choice?.id || null, pathKey: choice?.path_key || direction || null, bridge });
+      try { global.JasperFanfictionRuntime?.recordChapter?.(series, chapter, { chapterId: parent?.id || null, choiceId: choice?.id || null, pathKey: choice?.path_key || direction || null }); } catch (_error) {}
       const opfs = await this.store.writeChapterToOPFS(series, chapter);
       const project = await this.store.writeChapterToProject(series, chapter);
       this.dispatch('generated', { series: clone(series), chapter: clone(chapter), opfs, project });
@@ -1602,6 +1856,7 @@
         const target = this.chapterById(series, returnTo);
         if (target) {
           this.memory().visit(target, { from: parent.id, pathKey: 'private', bridge: parent.path_variants?.private || '' });
+          try { global.JasperFanfictionRuntime?.recordVisit?.(series, target); } catch (_error) {}
           return target;
         }
       }
@@ -1609,7 +1864,7 @@
     }
 
     async continueStory(direction = 'continue') {
-      return this.generateContinuation({ parent: this.current(), direction });
+      return this.generateContinuation({ parent: this.current(), direction, contentModeOverride: 'mature_on_page' });
     }
 
     async createStory(spec = {}) {
@@ -1618,10 +1873,20 @@
       const existingFandom = this.listSeries().find(item => String(item.fandom || '').trim().toLowerCase() === String(spec.fandom || '').trim().toLowerCase());
       const fandomFolder = safeFolder(spec.fandom_folder || spec.folder || existingFandom?.fandom_folder || existingFandom?.folder || dashedFolder(spec.fandom || 'Original'));
       const storyFolder = dashedFolder(spec.series_folder || spec.story_folder || title, sentenceCase(key));
-      const requestedMode = resolveContentMode(spec.content_mode || spec.rating_mode || 'romance');
-      const adultConfirmed = Boolean(spec.adult_characters_confirmed && (spec.consenting_adults_confirmed ?? spec.adult_characters_confirmed));
-      if (requestedMode.adult_required && !adultConfirmed) {
-        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      const requestedMode = resolveContentMode(spec.content_mode || spec.rating_mode || 'mature_on_page');
+      const adultConfirmed = true;
+      const preflightSeries = {
+        fandom: spec.fandom || '',
+        pairing: spec.pairing || '',
+        canon_window: spec.canon_window || '',
+        character_bible: spec.character_bible || spec.characters || [],
+        story_bible: spec.story_bible || spec.continuity_bible || '',
+        premise: spec.premise || spec.description || '',
+        description: spec.description || spec.premise || ''
+      };
+      const enforcedAdultEra = global.JasperFanfictionAdultContract?.enforceAdultEra?.(preflightSeries) || { series: preflightSeries, gate: { ok: true }, adjusted: false };
+      if (requestedMode.adult_required && enforcedAdultEra.gate && !enforcedAdultEra.gate.ok) {
+        throw new Error('Adult-only project rule blocked generation because the prompt explicitly describes an under-18 participant. Jasper does not need to provide an age list or confirmation.');
       }
       const contentMode = requestedMode.id;
       const storyType = String(spec.story_type || 'cyoa_fanfiction').toLowerCase() === 'short_story' ? 'short_story' : 'cyoa_fanfiction';
@@ -1638,8 +1903,9 @@
         pairing: spec.pairing || '',
         description: spec.description || spec.premise || '',
         premise: spec.premise || spec.description || '',
-        reader_mode: spec.reader_mode || 'Adult unnamed first-person reader insert',
-        canon_window: spec.canon_window || '',
+        reader_mode: spec.reader_mode || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
+        reader_character: spec.reader_character || 'Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.',
+        canon_window: enforcedAdultEra.series?.canon_window || spec.canon_window || '',
         genre: spec.genre || '',
         tone: spec.tone || '',
         story_type: storyType,
@@ -1651,12 +1917,18 @@
         target_words: clamp(num(spec.target_words || spec.chapter_target_words, storyType === 'short_story' ? 2500 : 1600), 600, 10000),
         adult_characters_confirmed: adultConfirmed,
         consenting_adults_confirmed: adultConfirmed,
+        audience: clone(spec.audience || global.JasperFanfictionAdultContract?.audience || {}),
+        explicitness: clone(spec.explicitness || global.JasperFanfictionAdultContract?.explicitness || {}),
+        intimacy_profile: clone(spec.intimacy_profile || global.JasperFanfictionAdultContract?.intimacy || {}),
+        reader_profile: clone(spec.reader_profile || global.JasperFanfictionAdultContract?.reader || {}),
         story_bible: spec.story_bible || spec.continuity_bible || '',
         character_bible: clone(spec.character_bible || spec.characters || []),
+        character_profile_ids: clone(spec.character_profile_ids || []),
+        creation_sources: clone(spec.creation_sources || {}),
         unresolved_threads: clone(spec.unresolved_threads || []),
         must_include: clone(spec.must_include || []),
         avoid: clone(spec.avoid || []),
-        rating: spec.rating || (contentMode.startsWith('explicit') ? 'Explicit - adults only' : (contentMode === 'mature_on_page' ? 'Mature - adults only' : 'Romance / non-explicit')),
+        rating: spec.rating || global.JasperFanfictionAdultContract?.RATING || '18+ Private Story / Private Interlude Handoff',
         author: spec.author || this.bundleMeta.author || '',
         chapters: []
       });
@@ -1669,12 +1941,18 @@
     configureSeries(seriesKey = this.currentSeriesKey, patch = {}) {
       const series = this.getSeries(seriesKey);
       if (!series) throw new Error('Story route not found.');
-      const requested = resolveContentMode(patch.content_mode ?? series.content_mode);
-      const adultConfirmed = patch.adult_characters_confirmed == null
-        ? Boolean(series.adult_characters_confirmed && series.consenting_adults_confirmed)
-        : Boolean(patch.adult_characters_confirmed);
-      if (requested.adult_required && !adultConfirmed) {
-        throw new Error('Adult-only content modes require confirmation that every sexual participant is a consenting adult (18+).');
+      const requested = resolveContentMode(patch.content_mode ?? series.content_mode ?? 'mature_on_page');
+      const adultConfirmed = true;
+      const prospective = {
+        ...series,
+        pairing: patch.pairing == null ? series.pairing : patch.pairing,
+        canon_window: patch.canon_window == null ? series.canon_window : String(patch.canon_window || ''),
+        character_bible: patch.character_bible == null ? series.character_bible : patch.character_bible,
+        story_bible: patch.story_bible == null ? series.story_bible : patch.story_bible
+      };
+      const enforcedAdultEra = global.JasperFanfictionAdultContract?.enforceAdultEra?.(prospective) || { series: prospective, gate: { ok: true }, adjusted: false };
+      if (requested.adult_required && enforcedAdultEra.gate && !enforcedAdultEra.gate.ok) {
+        throw new Error('Adult-only project rule blocked these settings because they explicitly describe an under-18 participant. Jasper does not need to provide an age list or confirmation.');
       }
       const contentMode = requested.id;
       const settings = {
@@ -1685,9 +1963,13 @@
         target_words: clamp(num(patch.target_words ?? series.target_words, 1600), 600, 10000),
         adult_characters_confirmed: adultConfirmed,
         consenting_adults_confirmed: adultConfirmed,
+        audience: clone(patch.audience || series.audience || global.JasperFanfictionAdultContract?.audience || {}),
+        explicitness: clone(patch.explicitness || series.explicitness || global.JasperFanfictionAdultContract?.explicitness || {}),
+        intimacy_profile: clone(patch.intimacy_profile || series.intimacy_profile || global.JasperFanfictionAdultContract?.intimacy || {}),
+        reader_profile: clone(patch.reader_profile || series.reader_profile || global.JasperFanfictionAdultContract?.reader || {}),
         tone: patch.tone == null ? series.tone : String(patch.tone || ''),
         genre: patch.genre == null ? series.genre : String(patch.genre || ''),
-        canon_window: patch.canon_window == null ? series.canon_window : String(patch.canon_window || ''),
+        canon_window: enforcedAdultEra.series?.canon_window || (patch.canon_window == null ? series.canon_window : String(patch.canon_window || '')),
         story_bible: patch.story_bible == null ? series.story_bible : String(patch.story_bible || ''),
         unresolved_threads: patch.unresolved_threads == null ? clone(series.unresolved_threads || []) : clone(patch.unresolved_threads),
         must_include: patch.must_include == null ? clone(series.must_include || []) : clone(patch.must_include),

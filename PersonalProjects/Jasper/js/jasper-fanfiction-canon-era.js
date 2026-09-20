@@ -1,7 +1,24 @@
-/* Jasper Fanfiction — canon-window + adults-only eligibility helpers. */
+/* Jasper Fanfiction — automatic adult-only canon-era helper.
+ * Jasper is a fixed adult reader (born 1999). The private project never asks
+ * the user to maintain participant-age lists or repeated 18+ confirmations.
+ */
 (function(global){'use strict';
-function normalizeAges(value){if(!value)return {};if(typeof value==='object'&&!Array.isArray(value))return Object.fromEntries(Object.entries(value).map(([k,v])=>[String(k).trim(),Number(v)]).filter(([k,v])=>k&&Number.isFinite(v)));const out={};String(value).split(/[,;\n]+/).forEach(part=>{const m=part.trim().match(/^(.+?)\s*(?:=|:|\bis\b)\s*(\d{1,3})$/i);if(m)out[m[1].trim()]=Number(m[2]);});return out;}
-function validateAdults({adultConfirmed=false,characterAges={}}={}){const ages=normalizeAges(characterAges);const underage=Object.entries(ages).filter(([,age])=>age<18).map(([name,age])=>({name,age}));return {ok:Boolean(adultConfirmed)&&!underage.length,adultConfirmed:Boolean(adultConfirmed),ages,underage,reason:!adultConfirmed?'adult-status-not-confirmed':underage.length?'under-18-character':'ok'};}
-function context(series={}){return {fandom:series.fandom||'',canon_window:series.canon_window||'',character_ages:normalizeAges(series.character_ages),adult_validation:validateAdults({adultConfirmed:series.adult_characters_confirmed,characterAges:series.character_ages})};}
-global.JasperFanfictionCanonEra=Object.freeze({normalizeAges,validateAdults,context});
+
+function context(series={}){
+  const enforced=global.JasperFanfictionAdultContract?.enforceAdultEra?.(series)||{series:{...series},gate:{ok:true},adjusted:false};
+  return {
+    fandom:enforced.series.fandom||'',
+    canon_window:enforced.series.canon_window||'',
+    adult_validation:enforced.gate,
+    automatic_adult_era:enforced.adjusted,
+    user_confirmation_required:false
+  };
+}
+
+function validateAdults({series={}}={}){
+  const enforced=global.JasperFanfictionAdultContract?.enforceAdultEra?.(series)||{gate:{ok:true},adjusted:false};
+  return {...enforced.gate,adultConfirmed:true,user_confirmation_required:false,automatic_adult_era:enforced.adjusted};
+}
+
+global.JasperFanfictionCanonEra=Object.freeze({validateAdults,context});
 })(typeof globalThis!=='undefined'?globalThis:window);

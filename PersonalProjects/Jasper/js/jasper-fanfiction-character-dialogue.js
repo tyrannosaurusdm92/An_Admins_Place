@@ -1,6 +1,13 @@
-/* Jasper Fanfiction — dialogue-provider adapter. */
+/* Jasper Fanfiction — dialogue-provider adapter. All generation uses Apps Script and carries writer-reference context. */
 (function(global){'use strict';
-function providers(){return [...new Set([global.JASPER_FANFIC_BACKEND_PROVIDER,global.JASPER_FANFIC_DIALOGUE_PROVIDER,global.JASPER_FANFIC_PROVIDER].filter(fn=>typeof fn==='function'))];}
-async function generate(context,options={}){const prompt=global.JasperFanfictionCharacterPrompt?.build?.(context,options)||JSON.stringify(context);const list=providers();if(!list.length)throw new Error('Jasper fanfiction backend provider is not connected.');let last=null;for(const provider of list){try{const result=await provider({prompt,context,mode:'jasper_fanfiction_dialogue'});if(result!=null)return result;}catch(error){last=error;console.warn('Jasper fanfiction backend dialogue generation failed.',error);}}throw last||new Error('Jasper fanfiction backend returned no dialogue generation result.');}
+function providers(){const fn=global.JASPER_FANFIC_BACKEND_PROVIDER;return typeof fn==='function'?[fn]:[];}
+async function generate(context,options={}){
+  const prompt=global.JasperFanfictionCharacterPrompt?.build?.(context,options)||JSON.stringify(context);
+  const provider=providers()[0];if(!provider)throw new Error('Jasper fanfiction Apps Script backend provider is not connected.');
+  const active=options.series||context?.series||{};
+  const refOptions=global.JasperFanfictionCharacterPrompt?.referenceOptions?.(context,active,options.request||'continue dialogue')||{query:prompt,character:active.pairing||''};
+  const influence=global.StoryTools?.JasperWriterReference?.buildBridgeInfluencePacket?.(refOptions)||context?.writer_reference||null;
+  return provider({prompt,context:{...(context||{}),writer_reference:influence},writerReferenceInfluence:influence,mode:'jasper_fanfiction_dialogue'});
+}
 global.JasperFanfictionCharacterDialogue=Object.freeze({providers,generate});
 })(typeof globalThis!=='undefined'?globalThis:window);

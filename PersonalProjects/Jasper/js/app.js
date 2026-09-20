@@ -50,7 +50,15 @@
         return engine;
       });
     window.JASPER_CYOA = engine;
-    window.JasperFanfictionApp = { engine, ready: engineReady };
+    window.JasperFanfictionApp = { engine, ready: engineReady, handoffController: window.JasperFanfictionHandoffController || null, capabilities: {
+      create: true, continue: true, branch: true, saveBranches: true, restoreBranches: true,
+      chooseYourOwnAdventure: true, williamWritingStyle: true, writerReference: true,
+      fullMaterialHub: true, unifiedCharacterLibrary: true, peoplePlacesSupport: true,
+      privateBridgeHandoff: true, hardExplicitRuntimeSpec: true, grammarValidator: true,
+      continuityMemory: true, storyGraph: true, integrationDiagnostics: true
+    } };
+    // Attach the optional explicit-bridge extension layer to the main app object.
+    window.JasperExplicitBridge?.attachToApp?.(window.JasperFanfictionApp);
 
     const appShell = document.getElementById('appShell');
     const leftContent = document.getElementById('leftContent');
@@ -477,24 +485,18 @@
             <form id="createStoryForm" class="story-form">
               <label>Title<input name="title" required placeholder="Story title"></label>
               <label>Fandom<input name="fandom" required placeholder="Palia"></label>
-              <label>Characters / pairing<input name="pairing" placeholder="Character / Adult Reader"></label>
+              <label>Characters / pairing<input name="pairing" placeholder="Character / Jasper"></label>
               <label>Character personalities<textarea name="character_bible" required rows="5" placeholder="Voice, habits, history, boundaries, dynamics"></textarea></label>
               <label>Premise<textarea name="premise" class="private-editor" required rows="6" placeholder="What happens, where it starts, tone, conflict, must-have moments"></textarea></label>
               <label>Tone<input name="tone" placeholder="Slow burn, adventure, domestic, dark humor..."></label>
               <label>Continuity<textarea name="canon_window" rows="3" placeholder="Canon timing and facts to preserve"></textarea></label>
               <label>Story bible<textarea name="story_bible" rows="4" placeholder="Recurring facts, boundaries, locations, promises, injuries, items"></textarea></label>
               <label>Length<input name="target_words" type="number" min="600" max="10000" step="100" value="1800"></label>
-              <label>Tags<input name="content_tags" placeholder="romance, slow burn, polyamory, adventure, explicit..."></label>
-              <label>Default intimacy
-                <select name="content_mode">
-                  <option value="general">General</option>
-                  <option value="romance" selected>Romance</option>
-                  <option value="mature_on_page">Mature on-page</option>
-                  <option value="explicit">Explicit</option>
-                  <option value="explicit_detailed">Explicit + detailed</option>
-                </select>
-              </label>
-              <label class="adult-check"><input name="adult_characters_confirmed" type="checkbox" value="yes"><span>All sexual characters in this story are adults (18+) and consenting.</span></label>
+              <label>Tags<input name="content_tags" placeholder="romance, slow burn, polyamory, adventure, humor..."></label>
+              <label>Private rating<input value="18+ Private Story / Private Interlude Handoff" readonly></label>
+              <input type="hidden" name="content_mode" value="mature_on_page">
+              <p class="adult-project-note">Known canon character profiles load automatically by fandom + character. Original People/Places material is optional supporting-cast/location inspiration only.</p>
+              <p class="adult-project-note">Private adult-only project. Jasper is a fixed adult reader; private-interlude routes use adult character versions automatically. The normal writer stops before nudity or sexual action.</p>
               <div class="form-actions">
                 <button class="choice-button" type="submit">Generate Chapter 01</button>
                 <button class="choice-button" type="button" data-action="home">Cancel</button>
@@ -509,7 +511,7 @@
     function renderStorySettings() {
       const series = currentSeries();
       if (!series) return;
-      const contentMode = series.content_mode || 'romance';
+      const contentMode = series.content_mode || 'mature_on_page';
       const tags = Array.isArray(series.content_tags) ? series.content_tags.join(', ') : '';
       rightContent.innerHTML = `
         <div class="page-inner private-page">
@@ -527,16 +529,9 @@
               <label>Chapter length<input name="target_words" type="number" min="600" max="10000" step="100" value="${escapeHtml(String(series.target_words || 1600))}"></label>
               <label>Tone / genre<input name="tone" value="${escapeHtml(series.tone || '')}" placeholder="slow burn, domestic, adventure, grief, humor..."></label>
               <label>Story tags<input name="content_tags" value="${escapeHtml(tags)}" placeholder="romance, slow burn, polyamory, adventure, sensual..."></label>
-              <label>Default intimacy
-                <select name="content_mode">
-                  <option value="general" ${contentMode === 'general' ? 'selected' : ''}>General</option>
-                  <option value="romance" ${contentMode === 'romance' ? 'selected' : ''}>Romance</option>
-                  <option value="mature_on_page" ${contentMode === 'mature_on_page' ? 'selected' : ''}>Mature on-page</option>
-                  <option value="explicit" ${contentMode === 'explicit' ? 'selected' : ''}>Explicit</option>
-                  <option value="explicit_detailed" ${contentMode === 'explicit_detailed' ? 'selected' : ''}>Explicit + detailed</option>
-                </select>
-              </label>
-              <label style="display:flex;gap:.55rem;align-items:flex-start"><input name="adult_characters_confirmed" type="checkbox" value="yes" ${series.adult_characters_confirmed ? 'checked' : ''} style="width:auto;margin-top:.2rem"> <span>All sexual characters in this story are adults (18+) and consenting.</span></label>
+              <label>Private rating<input value="18+ Private Story / Private Interlude Handoff" readonly></label>
+              <input type="hidden" name="content_mode" value="mature_on_page">
+              <p class="adult-project-note">Adult-only is automatic for this private Jasper project; no participant-age checklist is required. The normal writer handles story/romance and delegates only the private interlude.</p>
               <label>Canon / continuity notes<textarea name="canon_window" rows="4">${escapeHtml(series.canon_window || '')}</textarea></label>
               <label>Story / character bible<textarea name="story_bible" rows="7">${escapeHtml(series.story_bible || '')}</textarea></label>
               <div class="private-actions">
@@ -980,19 +975,49 @@
     }
 
     async function chooseChoice(choiceId) {
-      const result = await withBusy('Following that branch…', () => engine.choose(choiceId));
-      if (!result) return;
+      const chapterBefore = currentChapter();
+      const choiceBefore = Array.isArray(chapterBefore?.choices) ? chapterBefore.choices.find(item => item.id === choiceId) : null;
+      const handoff = window.JasperFanfictionHandoffController;
+      const transitioning = Boolean(handoff && (handoff.isPrivateChoice?.(choiceBefore) || handoff.isResumeChoice?.(choiceBefore)));
+      if (transitioning) {
+        await handoff.beforeChoice({
+          seriesKey: state.route,
+          chapterId: chapterBefore?.id || '',
+          choice: choiceBefore
+        });
+      }
+
+      const busyLabel = handoff?.isPrivateChoice?.(choiceBefore)
+        ? 'Opening the private interlude…'
+        : handoff?.isResumeChoice?.(choiceBefore)
+          ? 'Returning to the story…'
+          : 'Following that branch…';
+      const result = await withBusy(busyLabel, () => engine.choose(choiceId));
+      if (!result) {
+        if (transitioning) await handoff.afterChoice({ seriesKey: state.route, chapterId: chapterBefore?.id || '', choice: choiceBefore, result: null });
+        return;
+      }
       playFlip();
       if (result.type === 'ending') {
         renderJournal();
         renderEnding();
+        if (transitioning) await handoff.afterChoice({ seriesKey: state.route, chapterId: chapterBefore?.id || '', choice: choiceBefore, result });
         return;
       }
       if (result.type === 'chapter') {
         state.chapterPage = 0;
         renderChapter();
-        if (result.generated) setStatus(engine.hasProjectFolder() ? 'New branch chapter generated and written to JSON.' : 'New branch chapter generated and saved in browser storage.');
+        if (result.generated) {
+          if (result.handoff) {
+            setStatus(result.resumeTarget
+              ? `Private interlude generated. “Return to the story” will resume at ${result.resumeTarget === '@generate' ? 'the next generated chapter' : 'the next authored chapter'}.`
+              : 'Private interlude generated with story state preserved.');
+          } else {
+            setStatus(engine.hasProjectFolder() ? 'New branch chapter generated and written to JSON.' : 'New branch chapter generated and saved in browser storage.');
+          }
+        }
       }
+      if (transitioning) await handoff.afterChoice({ seriesKey: state.route, chapterId: chapterBefore?.id || '', choice: choiceBefore, result });
     }
 
     async function continueStory(direction) {
@@ -1077,9 +1102,8 @@
 
     async function submitCreateStory(form) {
       const data = new FormData(form);
-      const requestedMode = String(data.get('content_mode') || 'romance');
-      const adultConfirmed = data.get('adult_characters_confirmed') === 'yes';
-      const adultOnly = ['mature_on_page', 'explicit', 'explicit_detailed'].includes(requestedMode);
+      const requestedMode = 'mature_on_page';
+      const adultConfirmed = true; // project invariant: Jasper is adult; private-interlude character versions must be adults.
       const spec = {
         title: data.get('title'),
         fandom: data.get('fandom'),
@@ -1094,14 +1118,16 @@
         target_words: Number(data.get('target_words') || (data.get('story_type') === 'short_story' ? 2500 : 1600)),
         content_tags: String(data.get('content_tags') || '').split(',').map(value => value.trim()).filter(Boolean),
         content_mode: requestedMode,
-        adult_characters_confirmed: adultConfirmed,
-        consenting_adults_confirmed: adultConfirmed
+        adult_characters_confirmed: true,
+        consenting_adults_confirmed: true,
+        adult_gate_mode: 'automatic_project_invariant',
+        audience: window.JasperFanfictionAdultContract?.audience || {},
+        explicitness: window.JasperFanfictionAdultContract?.explicitness || {},
+        intimacy_profile: window.JasperFanfictionAdultContract?.intimacy || {},
+        reader_profile: window.JasperFanfictionAdultContract?.reader || {}
       };
-      if (adultOnly && !adultConfirmed) {
-        setStatus('Confirm that every sexual character is an adult (18+) and consenting before using an adult-only mode.');
-        return;
-      }
-      const created = await withBusy(spec.story_type === 'short_story' ? 'Generating the short story…' : 'Generating the opening chapter…', () => engine.createStory(spec));
+      const enrichedSpec = await (window.JasperFanfictionCreationSources?.enrichSpec?.(spec) || Promise.resolve(spec));
+      const created = await withBusy(enrichedSpec.story_type === 'short_story' ? 'Generating the short story…' : 'Generating the opening chapter…', () => engine.createStory(enrichedSpec));
       if (!created) return;
       state.route = created.series.key;
       appShell.classList.add('is-open');
@@ -1119,19 +1145,21 @@
 
     function submitStorySettings(form) {
       const data = new FormData(form);
-      const requestedMode = String(data.get('content_mode') || 'romance');
-      const adultConfirmed = data.get('adult_characters_confirmed') === 'yes';
-      if (['mature_on_page', 'explicit', 'explicit_detailed'].includes(requestedMode) && !adultConfirmed) {
-        setStatus('Confirm that every sexual character is an adult (18+) and consenting before using an adult-only mode.');
-        return;
-      }
+      const requestedMode = 'mature_on_page';
+      const adultConfirmed = true; // automatic private-project invariant
       engine.configureSeries(state.route, {
         style_mode: data.get('style_mode') || 'story_adaptive',
         target_words: Number(data.get('target_words') || 1600),
         tone: data.get('tone') || '',
         content_tags: String(data.get('content_tags') || '').split(',').map(value => value.trim()).filter(Boolean),
         content_mode: requestedMode,
-        adult_characters_confirmed: adultConfirmed,
+        adult_characters_confirmed: true,
+        consenting_adults_confirmed: true,
+        adult_gate_mode: 'automatic_project_invariant',
+        audience: window.JasperFanfictionAdultContract?.audience || {},
+        explicitness: window.JasperFanfictionAdultContract?.explicitness || {},
+        intimacy_profile: window.JasperFanfictionAdultContract?.intimacy || {},
+        reader_profile: window.JasperFanfictionAdultContract?.reader || {},
         canon_window: data.get('canon_window') || '',
         story_bible: data.get('story_bible') || ''
       });

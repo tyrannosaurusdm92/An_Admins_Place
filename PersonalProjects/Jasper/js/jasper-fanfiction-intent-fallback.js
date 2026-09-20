@@ -1,5 +1,20 @@
-/* Jasper Fanfiction — interprets freeform reader directions into continuation intent. */
+/* Jasper Fanfiction — lightweight intent fallback. */
 (function(global){'use strict';
-function analyze(text){const v=String(text||'').trim();const lower=v.toLowerCase();const tags=[];if(/slow\s*burn/.test(lower))tags.push('slow burn');if(/poly|polycule/.test(lower))tags.push('polyamory');if(/flirt|kiss|romance|date/.test(lower))tags.push('romance');if(/fight|battle|attack|danger/.test(lower))tags.push('action');if(/mystery|investigate|secret/.test(lower))tags.push('mystery');if(/sex|explicit|nsfw|smut|oral|penetrat|orgasm|masturbat/.test(lower))tags.push('adult-explicit');return {raw:v,intent:tags.includes('adult-explicit')?'adult-intimacy':(/continue|next|after/.test(lower)?'continue':'direction'),tags,requiresAdultGate:tags.includes('adult-explicit')};}
-global.JasperFanfictionIntent=Object.freeze({analyze});
+function analyze(text){
+ const v=String(text||'').trim();const lower=v.toLowerCase();const tags=[];
+ if(/brat|teas|sass|loophole/.test(lower))tags.push('playful-brat-dynamic');
+ if(/praise|good girl|affirm/.test(lower))tags.push('praise');
+ if(/aftercare|cuddle|water|blanket|reconnect/.test(lower))tags.push('aftercare-reconnection');
+ const privateHandoff=/(private interlude|intimacy|explicit|nsfw|smut|sex|nudity)/.test(lower);
+ if(privateHandoff)tags.push('private-handoff');
+ return {
+   raw:v,
+   intent:privateHandoff?'private-handoff':'story-continuation',
+   tags,
+   requiresAdultGate:privateHandoff,
+   contentMode:privateHandoff?'explicit_detailed':'mature_on_page',
+   normalWriterBoundary:'before nudity or sexual action'
+ };
+}
+global.JasperFanfictionIntentFallback=Object.freeze({analyze});
 })(typeof globalThis!=='undefined'?globalThis:window);

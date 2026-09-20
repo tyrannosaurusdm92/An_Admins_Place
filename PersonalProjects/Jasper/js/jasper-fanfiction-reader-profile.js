@@ -1,15 +1,19 @@
-/* Jasper Fanfiction — fixed private reader profile. */
+/* Jasper Fanfiction — sole private reader profile. */
 (function(global){'use strict';
-  const profile = Object.freeze({
-    id:'jasper-private-reader-v1', name:'Jasper', birth_year:1999, legal_adult_confirmed:true,
-    gender:'nonbinary', pronouns:Object.freeze({subject:'they',object:'them',possessive_adjective:'their',possessive_pronoun:'theirs',reflexive:'themself'}),
-    assigned_sex_at_birth:'AFAB', point_of_view:'first-person reader protagonist using I / me / my / myself',
-    anatomy:Object.freeze({profile:'AFAB',chest:'chest',external_genitals:['vulva','clitoris'],internal_genitals:['vagina'],reproductive_anatomy:['uterus'],rule:'Use only anatomy established as applicable to Jasper; never infer anatomy from gender stereotypes.'}),
-    privacy:'private single-reader project'
-  });
-  const clone=v=>v==null?v:JSON.parse(JSON.stringify(v));
-  function get(){return clone(profile);}
-  function promptSummary(){return 'Reader-protagonist: Jasper, legal adult born in 1999, nonbinary, they/them when referenced by others, first-person I/me narration, AFAB anatomy. Other characters may address the protagonist as Jasper.';}
-  function assertAdult(){return profile.legal_adult_confirmed===true && Number(profile.birth_year)<=new Date().getFullYear()-18;}
-  global.JasperFanfictionReader=Object.freeze({profile,get,promptSummary,assertAdult});
+const base=global.JasperFanfictionAdultContract?.reader||{};
+const profile=Object.freeze({...base,
+  id:'jasper-private-reader-v4',name:'Jasper',birth_year:1999,legal_adult_confirmed:true,adult:true,
+  gender:'nonbinary',pronouns:Object.freeze(['they/them','she/her']),birth_assignment:'AFAB',pov:'first_person',
+  relationship_profile:global.JasperFanfictionAdultContract?.intimacy||{},
+  private_interlude_policy:Object.freeze({normal_writer_boundary:'before nudity or sexual action',bridge:'explicit-bridge.js'})
+});
+function get(){return profile;}
+function promptSummary(){return [
+  'The viewpoint character is Jasper, the sole adult reader of this private project.',
+  'Narration is locked first person: I/me/my/mine/myself. Other characters may address Jasper as you/your and may refer to Jasper with they/she.',
+  'Jasper is a confirmed adult born in 1999.',
+  'For the normal writer, emphasize Jasper’s witty/loophole-loving playful brat energy, praise preferences including “good girl,” positive affirmations, humor, emotional safety, clear consent, strong aftercare/reconnection, and character-specific relationship dynamics.',
+  'The normal writer does not generate nudity or sexual action. If the story reaches that private boundary, preserve the exact scene state and hand off through explicit-bridge.js; resume afterward with dialogue, consequences, memory, and plot.'
+].join(' ')}
+global.JasperFanfictionReader=Object.freeze({profile,get,promptSummary});
 })(typeof globalThis!=='undefined'?globalThis:window);

@@ -497,3 +497,46 @@ body{overscroll-behavior:none}
 }
 @media(min-width:701px){.hud-fanfic-dropdown>summary{height:30px}}
 @media(min-width:981px){.hud-fanfic-dropdown>summary{height:31px;font-size:.66rem}.hud-fanfic-menu{width:min(420px,42vw)}}
+
+/* Private Jasper adult-only project note: informational, not an age-confirmation form. */
+.adult-project-note{
+  margin:.25rem 0 .55rem;padding:.45rem .55rem;border:1px solid rgba(0,255,255,.28);
+  border-radius:8px;background:rgba(0,255,255,.045);color:inherit;
+  font:600 .62rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+/* Private-interlude visual handoff. This is a UI transition, not prose censorship. */
+.private-handoff-fade {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display: grid;
+  place-items: center;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+.private-handoff-fade.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.private-handoff-fade__label {
+  max-width: min(78vw, 32rem);
+  padding: .65rem 1rem;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: .7rem;
+  color: #fff;
+  background: rgba(0,0,0,.82);
+  font: 700 clamp(.8rem, 2.8vw, 1rem)/1.2 system-ui, sans-serif;
+  letter-spacing: .02em;
+  text-align: center;
+  opacity: .86;
+}
+html.private-handoff-running,
+html.private-handoff-running body {
+  overflow: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .private-handoff-fade { transition-duration: 1ms; }
+}

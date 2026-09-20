@@ -16,7 +16,19 @@
     const intent=global.JasperFanfictionIntent?.analyze?.(extra.privateSeed||choice?.generation_hint||choice?.description||'')||null;
     const relEngine=relationship(key,memory?.values||{});if(relEngine&&memory?.values)for(const [name,value] of Object.entries(memory.values))relEngine.set(name,value);const rel=relEngine?.snapshot?.()||clone(memory?.values||{});
     const continuityStory=continuity?.story?.(key)||null;
-    return {reader:global.JasperFanfictionReader?.get?.()||null,fandom,character,setting,lore,intent,relationship:rel,session:session?.recent?.(16)||[],continuity:clone(continuityStory)};
+    const refOptions={query:[extra.direction,choice?.generation_hint,choice?.description,parent?.title,series.title].filter(Boolean).join(' '),sceneGoal:extra.direction||choice?.description||'',character:String(series.pairing||''),theme:series.theme||'',dynamic:series.relationship_dynamic||'',guideLimit:5,guideChars:900,referenceLimit:6,passageLimit:5};
+    const writerReference=global.StoryTools?.JasperWriterReference?.buildBridgeInfluencePacket?.(refOptions)||null;
+    const writerPrompt=global.StoryTools?.JasperWriterReference?.buildJasperWriterReferencePrompt?.(refOptions)||'';
+    return {
+      reader:global.JasperFanfictionReader?.get?.()||null,fandom,character,setting,lore,intent,relationship:rel,
+      creation_sources:global.JasperFanfictionCreationSources?.contextPacket?.(series)||clone(series.creation_sources||null),
+      character_profile_ids:clone(series.character_profile_ids||[]),
+      material_hub_available:Boolean(global.JasperFanfictionMaterialHub),
+      people_places_available:Boolean(global.PeoplePlaces),
+      session:session?.recent?.(24)||[],continuity:clone(continuityStory),
+      writer_reference:writerReference,writer_reference_prompt:writerPrompt,
+      story_carry:{seriesKey:key,parentId:parent?.id||null,parentTitle:parent?.title||'',selectedChoice:clone(choice||null),direction:extra.direction||'',openThreads:clone(continuityStory?.open_threads||continuityStory?.openThreads||[])}
+    };
   }
   function recordChoice(series,chapter,choice,memory){if(!series||!choice)return;const key=series.key||series.series_slug||'story';continuity?.rememberChoice?.(key,choice);const rel=relationship(key,memory?.values||{});if(rel&&memory?.values)for(const [name,value] of Object.entries(memory.values))rel.set(name,value);session?.add?.({type:'choice',seriesKey:key,chapterId:chapter?.id||null,choiceId:choice.id||null,label:choice.label||'',pathKey:choice.path_key||null});graph(key)?.event?.({type:'choice',seriesKey:key,chapterId:chapter?.id||null,choiceId:choice.id||null,pathKey:choice.path_key||null});}
   function recordChapter(series,chapter,from={}){if(!series||!chapter)return;const key=series.key||series.series_slug||'story';continuity?.rememberChapter?.(key,chapter);session?.add?.({type:'chapter',seriesKey:key,chapterId:chapter.id||null,chapterNumber:chapter.chapter_number||null,title:chapter.title||'',generated:Boolean(chapter.generated)});graph(key)?.ingestChapter?.(chapter,{seriesKey:key,choiceFrom:from});}
