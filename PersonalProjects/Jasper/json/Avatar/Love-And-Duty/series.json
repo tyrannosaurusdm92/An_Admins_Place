@@ -1,13 +1,13 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "fandom": "Avatar: The Last Airbender",
   "series_title": "Love & Duty",
   "series_slug": "love-and-duty",
   "series_folder": "Love-And-Duty",
   "series_path": "Avatar/Love-And-Duty",
-  "pairing": "Aang / Katara / Toph Beifong / Adult Reader (consensual polycule)",
-  "reader_character": "Adult unnamed first-person self-insert reader (I / me / my / myself); nonbender; appearance and gender intentionally unspecified",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Aang / Katara / Toph Beifong / Jasper (consensual adult polycule)",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "description": "In a postwar Cranefish Town becoming something new, an adult nonbender reader finds themself drawn into Aang, Katara, and Toph’s complicated orbit. Love grows through reconstruction work, public scrutiny, cultural preservation, arguments, chosen boundaries, and the daily work of building a home where nobody has to disappear to belong.",
   "chapter_count": 40,
   "chapters": [
@@ -16,323 +16,403 @@
       "file": "01.json",
       "title": "The Ground Under My Feet",
       "word_count": 1501,
+      "choice_count": 3,
       "id": "Love-And-Duty-01",
-      "choice_count": 3
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 2,
       "file": "02.json",
       "title": "A Seat at the Table",
       "word_count": 1535,
+      "choice_count": 3,
       "id": "Love-And-Duty-02",
-      "choice_count": 3
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 3,
       "file": "03.json",
       "title": "Sugar Queen and the Blind Bandit",
       "word_count": 1504,
+      "choice_count": 3,
       "id": "Love-And-Duty-03",
-      "choice_count": 3
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 4,
       "file": "04.json",
       "title": "Air Between Us",
       "word_count": 1504,
+      "choice_count": 3,
       "id": "Love-And-Duty-04",
-      "choice_count": 3
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 5,
       "file": "05.json",
       "title": "No One Carries Everyone",
       "word_count": 1505,
+      "choice_count": 3,
       "id": "Love-And-Duty-05",
-      "choice_count": 3
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 6,
       "file": "06.json",
       "title": "What the Ground Knows",
       "word_count": 1510,
+      "choice_count": 3,
       "id": "Love-And-Duty-06",
-      "choice_count": 3
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 7,
       "file": "07.json",
       "title": "Four Bowls, One Table",
       "word_count": 1546,
+      "choice_count": 3,
       "id": "Love-And-Duty-07",
-      "choice_count": 3
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 8,
       "file": "08.json",
       "title": "The Kiss That Lifted Me",
       "word_count": 1531,
+      "choice_count": 3,
       "id": "Love-And-Duty-08",
-      "choice_count": 3
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 9,
       "file": "09.json",
       "title": "Water Remembers",
       "word_count": 1510,
+      "choice_count": 3,
       "id": "Love-And-Duty-09",
-      "choice_count": 3
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 10,
       "file": "10.json",
       "title": "Toph Does Not Do Poetry",
       "word_count": 1511,
+      "choice_count": 3,
       "id": "Love-And-Duty-10",
-      "choice_count": 3
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 11,
       "file": "11.json",
       "title": "Terms We Choose",
       "word_count": 1506,
+      "choice_count": 3,
       "id": "Love-And-Duty-11",
-      "choice_count": 3
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 12,
       "file": "12.json",
       "title": "Public Faces",
       "word_count": 1506,
+      "choice_count": 3,
       "id": "Love-And-Duty-12",
-      "choice_count": 3
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 13,
       "file": "13.json",
       "title": "Fault Lines",
       "word_count": 1503,
+      "choice_count": 3,
       "id": "Love-And-Duty-13",
-      "choice_count": 3
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 14,
       "file": "14.json",
       "title": "The Price of Being the Avatar",
       "word_count": 1502,
+      "choice_count": 3,
       "id": "Love-And-Duty-14",
-      "choice_count": 3
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 15,
       "file": "15.json",
       "title": "No Pity",
       "word_count": 1501,
+      "choice_count": 3,
       "id": "Love-And-Duty-15",
-      "choice_count": 3
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 16,
       "file": "16.json",
       "title": "Home Is a Verb",
       "word_count": 1521,
+      "choice_count": 3,
       "id": "Love-And-Duty-16",
-      "choice_count": 3
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 17,
       "file": "17.json",
       "title": "The Festival That Wasn’t There",
       "word_count": 1519,
+      "choice_count": 3,
       "id": "Love-And-Duty-17",
-      "choice_count": 3
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 18,
       "file": "18.json",
       "title": "Roots and Wings",
       "word_count": 1512,
+      "choice_count": 3,
       "id": "Love-And-Duty-18",
-      "choice_count": 3
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 19,
       "file": "19.json",
       "title": "The Wrong Kind of Silence",
       "word_count": 1506,
+      "choice_count": 3,
       "id": "Love-And-Duty-19",
-      "choice_count": 3
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 20,
       "file": "20.json",
       "title": "What Katara Does With Anger",
       "word_count": 1511,
+      "choice_count": 3,
       "id": "Love-And-Duty-20",
-      "choice_count": 3
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 21,
       "file": "21.json",
       "title": "Metal Keeps Its Shape",
       "word_count": 1585,
+      "choice_count": 3,
       "id": "Love-And-Duty-21",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 22,
       "file": "22.json",
       "title": "People Who Stay",
       "word_count": 1698,
+      "choice_count": 3,
       "id": "Love-And-Duty-22",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 23,
       "file": "23.json",
       "title": "The Space Between Touches",
       "word_count": 1515,
+      "choice_count": 3,
       "id": "Love-And-Duty-23",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 24,
       "file": "24.json",
       "title": "Aang’s Terrible, Wonderful Idea",
       "word_count": 1590,
+      "choice_count": 3,
       "id": "Love-And-Duty-24",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 25,
       "file": "25.json",
       "title": "South",
       "word_count": 1501,
+      "choice_count": 3,
       "id": "Love-And-Duty-25",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 26,
       "file": "26.json",
       "title": "A Family With More Than One Shape",
       "word_count": 1578,
+      "choice_count": 3,
       "id": "Love-And-Duty-26",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 27,
       "file": "27.json",
       "title": "Ice Does Not Mean Cold",
       "word_count": 1502,
+      "choice_count": 3,
       "id": "Love-And-Duty-27",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 28,
       "file": "28.json",
       "title": "The Things Toph Will Not Say",
       "word_count": 1501,
+      "choice_count": 3,
       "id": "Love-And-Duty-28",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 29,
       "file": "29.json",
       "title": "The Air Between Generations",
       "word_count": 1502,
+      "choice_count": 3,
       "id": "Love-And-Duty-29",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 30,
       "file": "30.json",
       "title": "Four Directions, One Storm",
       "word_count": 1546,
+      "choice_count": 3,
       "id": "Love-And-Duty-30",
-      "choice_count": 3
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 31,
       "file": "31.json",
       "title": "What I Cannot Bend",
       "word_count": 1505,
+      "choice_count": 3,
       "id": "Love-And-Duty-31",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 32,
       "file": "32.json",
       "title": "The Vote",
       "word_count": 1502,
+      "choice_count": 3,
       "id": "Love-And-Duty-32",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 33,
       "file": "33.json",
       "title": "The Night We Almost Broke",
       "word_count": 1501,
+      "choice_count": 3,
       "id": "Love-And-Duty-33",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 34,
       "file": "34.json",
       "title": "Repair Work",
       "word_count": 1515,
+      "choice_count": 3,
       "id": "Love-And-Duty-34",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 35,
       "file": "35.json",
       "title": "The Question No One Owes",
-      "word_count": 1506,
+      "word_count": 1512,
+      "choice_count": 3,
       "id": "Love-And-Duty-35",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 36,
       "file": "36.json",
       "title": "A Future We Choose",
       "word_count": 1506,
+      "choice_count": 3,
       "id": "Love-And-Duty-36",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 37,
       "file": "37.json",
       "title": "The Charter",
       "word_count": 1508,
+      "choice_count": 3,
       "id": "Love-And-Duty-37",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 38,
       "file": "38.json",
       "title": "A House Built for Four",
       "word_count": 1503,
+      "choice_count": 3,
       "id": "Love-And-Duty-38",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 39,
       "file": "39.json",
       "title": "Love and Duty",
       "word_count": 1504,
+      "choice_count": 3,
       "id": "Love-And-Duty-39",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 40,
       "file": "40.json",
       "title": "Four Bowls, Still",
       "word_count": 1588,
+      "choice_count": 3,
       "id": "Love-And-Duty-40",
-      "choice_count": 3
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     }
   ],
-  "total_word_count": 60873,
+  "total_word_count": 60906,
   "work_type": "fanfic_series",
   "key": "love-and-duty",
   "title": "Love & Duty",
@@ -383,14 +463,607 @@
     "40.json"
   ],
   "choice_count": 3,
-  "content_mode": "romance",
+  "content_mode": "mature_on_page",
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "explicit_branching": {
-    "available": true,
-    "target": "@generate-explicit",
-    "requires_story_provider": true,
-    "adult_characters_only": true
+  "explicit_branching": true,
+  "canon_window": "Adult postwar timeline only: Jasper, Aang, Katara, and Toph are explicitly adults before romance/private-interlude content. Their original minor-era canon versions are never used for adult intimacy.",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
   },
-  "canon_window": "Adult postwar timeline: Aang, Katara, Toph, and the reader-proxy are all adults (18+) before any sexual content can occur."
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "private_interlude_branching": true,
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "polycule",
+      "voice": "Aang, Katara, and Toph stay individually recognizable; never a collective romance voice",
+      "humor": "Aang hopeful/playful; Katara observant/firm; Toph blunt/dry/provocative"
+    }
+  },
+  "jasper_tailoring": {
+    "named_protagonist": true,
+    "first_person": true,
+    "birth_year": 1999,
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "personality": [
+      "goofy/chaotic surface energy",
+      "kind",
+      "compassionate",
+      "intelligent",
+      "well-spoken",
+      "empathic",
+      "fiercely loyal",
+      "observant",
+      "remembers small details",
+      "loves hard"
+    ],
+    "relationship_rule": "slow build through plot, routines, conflict/repair, callbacks, shared obligations, private jokes, remembered details, and changed behavior",
+    "bridge_rule": "feed exact voice/style/memory/plot state to the existing bridge; do not modify bridge instructions"
+  },
+  "relationship_pacing": {
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "private_interlude_quota": false,
+    "stages": [
+      "chemistry",
+      "flirting",
+      "boundary_conversations",
+      "testing_power_play",
+      "established_dynamic",
+      "integrated_trust"
+    ],
+    "advancement_rule": "advance because story events and changed behavior earn it, never because a chapter number says intimacy is due"
+  },
+  "bridge_writer_context": {
+    "bridge_file": "js/explicit-bridge.js",
+    "bridge_is_user_owned": true,
+    "modify_bridge": false,
+    "writer_reference_engine": "StoryTools.JasperWriterReference",
+    "send": [
+      "William style DNA",
+      "selected reference passages",
+      "canon voice lane",
+      "Jasper profile lock",
+      "dialogue thread",
+      "memory/callbacks",
+      "relationship stage",
+      "open plot threads",
+      "boundaries",
+      "scene state"
+    ],
+    "resume": [
+      "reconnection/aftercare",
+      "humor/banter",
+      "memory updates",
+      "relationship consequences",
+      "next plot beat"
+    ]
+  },
+  "date_revised": "2026-09-20",
+  "original_authored_chapter_count": 40,
+  "original_fanfiction_complete": true,
+  "continuation_supported": true,
+  "branching_supported": true,
+  "new_story_creation_supported": true,
+  "continuation_after_original_finale": {
+    "enabled": true,
+    "from_chapter": 40,
+    "target": "@generate",
+    "rule": "Chapter 40 is a completed original ending, not a dead end. Jasper may continue into generated chapter 41+ while carrying the full 40-chapter memory and writer-reference context."
+  },
+  "private_handoff_flow": {
+    "enabled": true,
+    "bridge": "js/explicit-bridge.js",
+    "visual_transition": "fade_to_black",
+    "backend_generation": true,
+    "return_to_story": true,
+    "rule": "Fade-to-black is a UI handoff transition only. The normal writer stops at the seam, the private bridge/generator owns the bounded interlude, and the story resumes afterward without losing memory, dialogue state, character voice, or plot threads."
+  },
+  "story_bible": [
+    "This is an adult postwar polycule story built through reconstruction work, public responsibility, cultural difference, arguments, chosen boundaries, and ordinary domestic labor.",
+    "Aang, Katara, and Toph must remain three distinct people with separate needs, humor, histories, responsibilities, and relationships with Jasper; never collapse them into one collective partner voice.",
+    "Jasper is not absorbed into the group. Their own needs, boundaries, work, humor, and point of view continue to matter.",
+    "Polycule stability comes from explicit communication, unequal moments of closeness being discussed rather than hidden, conflict repair, and room for one-on-one bonds as well as group bonds.",
+    "After chapter 40, generated continuation must treat the forty authored chapters as established history, not an origin story to repeat."
+  ],
+  "character_bible": [
+    "Jasper — adult named first-person protagonist; observant, funny, loyal, compassionate, stubborn, and willing to ask hard relational questions once trust exists.",
+    "Aang — warm, playful, spiritually minded, conflict-averse at times, carrying public duty and a desire to preserve culture without becoming only a symbol.",
+    "Katara — emotionally perceptive, practical, caring, politically and morally engaged, capable of anger and boundaries rather than endless maternal patience.",
+    "Toph — blunt, funny, fiercely independent, physically confident, allergic to pity, and emotionally revealing through action more often than speeches.",
+    "Each pair bond must have its own texture; group scenes should contain distinct reactions rather than unanimous responses."
+  ],
+  "narrative_tense": "first_person_past",
+  "generated_continuation_contract": {
+    "start_after_authored_chapter": 40,
+    "first_generated_chapter_number": 41,
+    "target_words": 1800,
+    "minimum_acceptable_words": 1200,
+    "carry_full_authored_arc": true,
+    "never_restart_relationship": true,
+    "never_repeat_first_meeting": true,
+    "preserve_unresolved_threads": true,
+    "preserve_choice_history": true,
+    "preserve_writer_reference": true,
+    "preserve_jasper_profile": true,
+    "preserve_canon_voice": true,
+    "private_handoff_optional_only": true
+  },
+  "branching_policy": {
+    "authored_choices_per_chapter": 3,
+    "ordinary_choices": 2,
+    "private_choice_retained_in_json": true,
+    "private_choice_visibility": "contextual_after_testing_power_play_stage",
+    "same_next_authored_chapter_allowed": true,
+    "branch_difference_carried_by": "path variant bridge + memory effects + later generated continuation",
+    "generated_choices_must_be_materially_distinct": true
+  },
+  "writer_reference_policy": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile": "json/william-writing-style.json",
+    "use_on_every_generated_chapter": true,
+    "use_on_every_choice": true,
+    "feed_private_bridge_context_without_modifying_bridge": true,
+    "include_recent_authored_closing_anchor": true,
+    "include_open_dialogue_and_plot_threads": true,
+    "include_character_voice_lane": true,
+    "copy_source_sentences": false
+  },
+  "quality_gate": {
+    "first_person_jasper_required": true,
+    "narrative_tense": "first_person_past",
+    "quote_aware_second_person_lint": true,
+    "object_case_lint": true,
+    "mind_reading_warning": true,
+    "canon_window_required": true,
+    "writer_reference_required": true,
+    "continuity_snapshot_required": true,
+    "choice_path_variant_required": true,
+    "private_handoff_requires_relationship_stage": true
+  },
+  "authored_arc_index": [
+    {
+      "id": "Love-And-Duty-01",
+      "chapter_number": 1,
+      "title": "The Ground Under My Feet",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "For the first time since I had arrived, I wondered what it might feel like to stop treating it as a place I was passing through. The thought stayed with me.",
+      "next_story_target": "Love-And-Duty-02"
+    },
+    {
+      "id": "Love-And-Duty-02",
+      "chapter_number": 2,
+      "title": "A Seat at the Table",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "Aang groaned as if this were a genuine threat. Katara smiled over her tea. For once, I did not mind the possibility.",
+      "next_story_target": "Love-And-Duty-03"
+    },
+    {
+      "id": "Love-And-Duty-03",
+      "chapter_number": 3,
+      "title": "Sugar Queen and the Blind Bandit",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "Then she left me alone with a sugar flower, a metal stem, and absolutely no ability to pretend my problem involved only one person. The next morning, the sugar flower had cracked along one petal. The metal stem held. I decided that counted as symbolism only if nobody told Toph.",
+      "next_story_target": "Love-And-Duty-04"
+    },
+    {
+      "id": "Love-And-Duty-04",
+      "chapter_number": 4,
+      "title": "Air Between Us",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "His thumb brushed mine once, light as moving air. The mountain wind tugged at our clothes, Appa snored in the grass, and nobody asked the moment to become larger than it was. When we joined the others, Aang let go only after asking with his eyes. I answered by squeezing once before I did. The choice made the distance feel intimate instead of empty.",
+      "next_story_target": "Love-And-Duty-05"
+    },
+    {
+      "id": "Love-And-Duty-05",
+      "chapter_number": 5,
+      "title": "No One Carries Everyone",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "Toph said, “You’re welcome.” Katara laughed until she had to sit down.",
+      "next_story_target": "Love-And-Duty-06"
+    },
+    {
+      "id": "Love-And-Duty-06",
+      "chapter_number": 6,
+      "title": "What the Ground Knows",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The ground had a language. So did Toph. Both required paying attention to what happened underneath the obvious thing. “Again,” Toph said, and this time I laughed before I moved.",
+      "next_story_target": "Love-And-Duty-07"
+    },
+    {
+      "id": "Love-And-Duty-07",
+      "chapter_number": 7,
+      "title": "Four Bowls, One Table",
+      "relationship_stage": "flirting",
+      "closing_anchor": "Toph broke the mood by stealing Aang’s dessert. He had not yet learned to guard it.",
+      "next_story_target": "Love-And-Duty-08"
+    },
+    {
+      "id": "Love-And-Duty-08",
+      "chapter_number": 8,
+      "title": "The Kiss That Lifted Me",
+      "relationship_stage": "flirting",
+      "closing_anchor": "This time I felt it before it moved. This time I chose to stay inside it.",
+      "next_story_target": "Love-And-Duty-09"
+    },
+    {
+      "id": "Love-And-Duty-09",
+      "chapter_number": 9,
+      "title": "Water Remembers",
+      "relationship_stage": "flirting",
+      "closing_anchor": "For once, neither of us made sacrifice into a competition. Katara smiled like she knew exactly how hard that tiny request had been. She did not praise me for it. Somehow that made it easier to do again.",
+      "next_story_target": "Love-And-Duty-10"
+    },
+    {
+      "id": "Love-And-Duty-10",
+      "chapter_number": 10,
+      "title": "Toph Does Not Do Poetry",
+      "relationship_stage": "flirting",
+      "closing_anchor": "I kept the metal directions in my pocket until the edges warmed from my body. Toph never admitted making them. I never asked her to. The little piece stayed warm in my pocket all the way home.",
+      "next_story_target": "Love-And-Duty-11"
+    },
+    {
+      "id": "Love-And-Duty-11",
+      "chapter_number": 11,
+      "title": "Terms We Choose",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "We never treated the page as law. It was a map drawn by four people who expected themselves to change, and therefore left space in the margins for new roads. We kept adding to it, one choice at a time.",
+      "next_story_target": "Love-And-Duty-12"
+    },
+    {
+      "id": "Love-And-Duty-12",
+      "chapter_number": 12,
+      "title": "Public Faces",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "Eventually the hallway wall became a joke only we understood: evidence that public certainty could be loud, wrong, and still less important than what happened at our table. That mattered more than anything they printed.",
+      "next_story_target": "Love-And-Duty-13"
+    },
+    {
+      "id": "Love-And-Duty-13",
+      "chapter_number": 13,
+      "title": "Fault Lines",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "A week later, one of those inspection schedules prevented another overloaded platform from collapsing. Nobody called that heroic. I thought about it all day. Quiet prevention became its own kind of victory.",
+      "next_story_target": "Love-And-Duty-14"
+    },
+    {
+      "id": "Love-And-Duty-14",
+      "chapter_number": 14,
+      "title": "The Price of Being the Avatar",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "He laughed and stole food from my plate only after I nodded. The world had survived without every sacrifice he could possibly offer it. For one evening, he let that be good news. He came home tired, but he came home by choice.",
+      "next_story_target": "Love-And-Duty-15"
+    },
+    {
+      "id": "Love-And-Duty-15",
+      "chapter_number": 15,
+      "title": "No Pity",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "Toph’s grin widened. “No promises.” Toph took three steps, then five, then crossed the room without help. We watched without hovering. That was harder than it sounded.",
+      "next_story_target": "Love-And-Duty-16"
+    },
+    {
+      "id": "Love-And-Duty-16",
+      "chapter_number": 16,
+      "title": "Home Is a Verb",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "It was the place where leaving a room did not threaten love. It was the place we returned to because the doors opened both ways.",
+      "next_story_target": "Love-And-Duty-17"
+    },
+    {
+      "id": "Love-And-Duty-17",
+      "chapter_number": 17,
+      "title": "The Festival That Wasn’t There",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "Not replacement. Something living.",
+      "next_story_target": "Love-And-Duty-18"
+    },
+    {
+      "id": "Love-And-Duty-18",
+      "chapter_number": 18,
+      "title": "Roots and Wings",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "We could love the living man without demanding that he become a monument to the dead. For that night, it was enough.",
+      "next_story_target": "Love-And-Duty-19"
+    },
+    {
+      "id": "Love-And-Duty-19",
+      "chapter_number": 19,
+      "title": "The Wrong Kind of Silence",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "Eventually, rest stopped feeling like stolen time. Not always. Enough that I could close my eyes without first earning permission from an imaginary judge. Some nights I still apologized. The difference was that now I heard myself doing it, and sometimes I could stop halfway through.",
+      "next_story_target": "Love-And-Duty-20"
+    },
+    {
+      "id": "Love-And-Duty-20",
+      "chapter_number": 20,
+      "title": "What Katara Does With Anger",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "On the walk home, Katara did not look calmer. She looked clearer. I was starting to understand those were not the same thing, and only one of them was actually the goal. The water kept moving. So did she. Anger came with us, but it did not get to choose the route alone.",
+      "next_story_target": "Love-And-Duty-21"
+    },
+    {
+      "id": "Love-And-Duty-21",
+      "chapter_number": 21,
+      "title": "Metal Keeps Its Shape",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Metal keeps its shape under pressure only until enough force changes it. After that, it does not become less metal. It becomes something new.",
+      "next_story_target": "Love-And-Duty-22"
+    },
+    {
+      "id": "Love-And-Duty-22",
+      "chapter_number": 22,
+      "title": "People Who Stay",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Apparently neither could love. People who stayed did not always stand inside the house. Sometimes they lived three doors down and knew how to repair a hinge.",
+      "next_story_target": "Love-And-Duty-23"
+    },
+    {
+      "id": "Love-And-Duty-23",
+      "chapter_number": 23,
+      "title": "The Space Between Touches",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The room was not safe because danger had ceased to exist. It was safe because fear was allowed to exist here without becoming the only thing we could feel.",
+      "next_story_target": "Love-And-Duty-24"
+    },
+    {
+      "id": "Love-And-Duty-24",
+      "chapter_number": 24,
+      "title": "Aang’s Terrible, Wonderful Idea",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "“I can feel the lack of talent.” Wonderful, unfortunately, survived another meeting.",
+      "next_story_target": "Love-And-Duty-25"
+    },
+    {
+      "id": "Love-And-Duty-25",
+      "chapter_number": 25,
+      "title": "South",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Change had held. So had we.",
+      "next_story_target": "Love-And-Duty-26"
+    },
+    {
+      "id": "Love-And-Duty-26",
+      "chapter_number": 26,
+      "title": "A Family With More Than One Shape",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Family with more than one shape did not mean nobody outside it had questions. Sometimes the good questions were the ones that did not demand a particular answer.",
+      "next_story_target": "Love-And-Duty-27"
+    },
+    {
+      "id": "Love-And-Duty-27",
+      "chapter_number": 27,
+      "title": "Ice Does Not Mean Cold",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "By the time the village roofs came back into view, I had learned three new ways not to fall through ice and one more way Katara loved: preparation so thorough it could masquerade as inevitability. At the door, Katara knocked snow from my sleeves and said, “Next time, better boots.” I told her next time she was carrying me. She considered it far too seriously.",
+      "next_story_target": "Love-And-Duty-28"
+    },
+    {
+      "id": "Love-And-Duty-28",
+      "chapter_number": 28,
+      "title": "The Things Toph Will Not Say",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The document box stayed in Toph’s room. So did the paper crown. I learned that respecting her privacy included pretending not to know either fact. I never told her I knew. She never asked whether I knew. That became another kind of trust.",
+      "next_story_target": "Love-And-Duty-29"
+    },
+    {
+      "id": "Love-And-Duty-29",
+      "chapter_number": 29,
+      "title": "The Air Between Generations",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "The school grew around that distinction, imperfectly and on purpose. That was enough for now.",
+      "next_story_target": "Love-And-Duty-30"
+    },
+    {
+      "id": "Love-And-Duty-30",
+      "chapter_number": 30,
+      "title": "Four Directions, One Storm",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "I surrendered immediately. Somewhere between the storm and the soap, my body finally believed the emergency was over.",
+      "next_story_target": "Love-And-Duty-31"
+    },
+    {
+      "id": "Love-And-Duty-31",
+      "chapter_number": 31,
+      "title": "What I Cannot Bend",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "I carried that home with me. For once, that felt like enough.",
+      "next_story_target": "Love-And-Duty-32"
+    },
+    {
+      "id": "Love-And-Duty-32",
+      "chapter_number": 32,
+      "title": "The Vote",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "I kept it anyway. I used that pen at the next meeting. We still argued. This time, losing was no longer the only ending I could imagine.",
+      "next_story_target": "Love-And-Duty-33"
+    },
+    {
+      "id": "Love-And-Duty-33",
+      "chapter_number": 33,
+      "title": "The Night We Almost Broke",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Downstairs, the four of us finished the conversation. It took hours. Nobody won. The house felt more secure for it. Nobody mistook that for failure again.",
+      "next_story_target": "Love-And-Duty-34"
+    },
+    {
+      "id": "Love-And-Duty-34",
+      "chapter_number": 34,
+      "title": "Repair Work",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "We were getting better at doors. We practiced again the next day, because repair turned out to be something we did, not something we finished.",
+      "next_story_target": "Love-And-Duty-35"
+    },
+    {
+      "id": "Love-And-Duty-35",
+      "chapter_number": 35,
+      "title": "The Question No One Owes",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Nobody at our table disagreed. For that night, that answer was enough.",
+      "next_story_target": "Love-And-Duty-36"
+    },
+    {
+      "id": "Love-And-Duty-36",
+      "chapter_number": 36,
+      "title": "A Future We Choose",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "And we did, one journey at a time. We chose the return as deliberately as the leaving.",
+      "next_story_target": "Love-And-Duty-37"
+    },
+    {
+      "id": "Love-And-Duty-37",
+      "chapter_number": 37,
+      "title": "The Charter",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "It mattered. Then we kept going together, in all the boring ways that lasted.",
+      "next_story_target": "Love-And-Duty-38"
+    },
+    {
+      "id": "Love-And-Duty-38",
+      "chapter_number": 38,
+      "title": "A House Built for Four",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Home had arrived before perfection did. By then, lived-in was exactly what we wanted.",
+      "next_story_target": "Love-And-Duty-39"
+    },
+    {
+      "id": "Love-And-Duty-39",
+      "chapter_number": 39,
+      "title": "Love and Duty",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "We added the messenger rule to our household agreement that night. Toph complained about bureaucracy in romance while insisting the wording be precise. That contradiction felt exactly like us.",
+      "next_story_target": "Love-And-Duty-40"
+    },
+    {
+      "id": "Love-And-Duty-40",
+      "chapter_number": 40,
+      "title": "Four Bowls, Still",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Tomorrow would ask again. So would we.",
+      "next_story_target": "@generate"
+    }
+  ],
+  "character_library": {
+    "folder": "json/characters",
+    "index": "json/characters/index.json",
+    "profile_ids": [
+      "avatar-aang",
+      "avatar-katara",
+      "avatar-toph",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo",
+      "avatar-gran-gran",
+      "avatar-hakoda"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "rule": "Generator should load relevant profiles and preserve distinct canon/story-original voices."
+  }
 }

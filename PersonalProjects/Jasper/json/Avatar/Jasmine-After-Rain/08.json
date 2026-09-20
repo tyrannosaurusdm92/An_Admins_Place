@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "A Walk Along the Wall",
@@ -7,16 +7,19 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Avatar: The Last Airbender",
-  "pairing": "Iroh / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Iroh / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -24,53 +27,149 @@
   "chapter_number": 8,
   "word_count": 1507,
   "research_alignment": [
-    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
-    "Post-war Ba Sing Se and original-series Iroh"
+    "Iroh's tea, food, Pai Sho, patience, strategy, humor, grief, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh",
+    "Jasper remains the named first-person adult protagonist"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
-    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “A Walk Along the Wall,” I carried forward the choice “Name what changed between us.” Put the change into words instead of pretending the old distance still exists. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “A Walk Along the Wall,” I carried forward the choice “Challenge his patience gently.” Push just enough to invite his amused steadiness without turning the moment cruel. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “A Walk Along the Wall.” The story state with Iroh remains binding: same room/location, same unfinished dialogue, same relationship stage (flirting), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at avatar-09 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "avatar-08-direct",
-      "label": "Say the honest thing",
+      "label": "Name what changed between us",
       "target": "avatar-09",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Put the change into words instead of pretending the old distance still exists.",
+      "generation_hint": "Put the change into words instead of pretending the old distance still exists.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · A Walk Along the Wall · Iroh / Jasper · Name what changed between us · Put the change into words instead of pretending the old distance still exists. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-08-playful",
-      "label": "Let the moment be playful",
+      "label": "Challenge his patience gently",
       "target": "avatar-09",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Push just enough to invite his amused steadiness without turning the moment cruel.",
+      "generation_hint": "Push just enough to invite his amused steadiness without turning the moment cruel.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · A Walk Along the Wall · Iroh / Jasper · Challenge his patience gently · Push just enough to invite his amused steadiness without turning the moment cruel. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-08-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “A Walk Along the Wall,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to avatar-09 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · A Walk Along the Wall · Iroh / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · flirting",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "avatar-09",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "avatar-09"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "flirting",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "Iroh took me walking along the wall because he believed cities should be seen from the places built to protect them.\n\n“That is a poetic way to say we are climbing stairs,” I said.\n\n“I am a poetic man.”\n\n“You are a man who carries snacks in his sleeves.”\n\n“A poetic man with priorities.”\n\nThe wall rose above the city, broad enough for two carts to pass. Wind moved along the stone. Below, Ba Sing Se unfolded in layers: markets, gardens, tiled roofs, narrow alleys, and the distant palace shining beneath the morning sun.\n\nIroh walked beside I with a small basket over one arm. He had packed tea, fruit, and a blanket. I suspected he could turn any errand into a picnic if given enough time.\n\n“Do you ever get tired of looking at the city?” I asked.\n\n“No. It changes even when it appears still.”\n\n“You say that about people too.”\n\n“People change more dramatically. They simply hide it better.”\n\nI stopped near a watchtower. Below, a group of children chased one another through a courtyard. Their laughter rose on the wind.\n\n“When I first arrived, I thought this city would swallow me,” I said.\n\n“It has a large appetite.”\n\n“I didn’t know where anything was. I didn’t know who to trust. I kept expecting someone to ask what I was doing here.”\n\n“Did they?”\n\n“You did.”\n\nIroh considered. “I asked what you were seeking.”\n\n“That was worse.”\n\n“Questions can be doors.”\n\n“They can also be traps.”\n\nHe nodded. “That is why the person asking must be willing to accept the answer.”\n\nI leaned against the stone railing. The wind pulled at my clothes.\n\n“What answer were you hoping for?” he asked.\n\n“I didn’t know.”\n\n“And now?”\n\nI looked at the Jasmine Dragon's green sign far below. It was tiny from the wall, but visible.\n\n“A place where I don’t have to explain why I need to rest.”\n\nIroh's expression softened.\n\n“A place where I can be useful without being used,” I continued. “A place where people can want me without needing to own me.”\n\n“These are good things to seek.”\n\n“Are they?”\n\n“They are necessary things.”\n\nHe unwrapped the blanket beneath the tower. I sat together with the basket between I. Iroh poured tea into two cups. The blend was light and green, with a faint citrus scent.\n\n“What is this?”\n\n“A tea for clear weather.”\n\n“The sky is clear.”\n\n“The sky is not the only weather.”\n\nI took a sip. The flavor was bright enough to make me sit straighter.\n\nIroh passed I a slice of pear.\n\n“You feed me whenever I become emotional,” I said.\n\n“Food helps the body remember it is alive.”\n\n“And tea?”\n\n“Tea helps the heart slow down enough to notice.”\n\nI looked at him. “Did you learn that before or after the war?”\n\n“During.”\n\nThe answer carried no ornament.\n\nIroh looked over the wall. “In the army, every day was loud. Orders, metal, horses, fire. I learned to make tea in a small pot because the act of pouring water gave my hands something gentle to do.”\n\n“Did it help?”\n\n“Not at first.”\n\n“What changed?”\n\n“I stopped asking it to erase anything.”\n\nI turned the cup in my hands.\n\n“I want to stop asking you to erase things,” I said.\n\nIroh looked at me. “You have not asked.”\n\n“Not with words.”\n\n“Then let us be precise. I am not a cure for your past. You are not a cure for mine.”\n\n“That sounds very romantic.”\n\n“I am a man of many talents.”\n\n“You’re an emotional physician.”\n\n“I prefer tea master.”\n\nI laughed. He touched the back of my hand with two fingers.\n\n“You may want me,” he said. “You may love me. You may sit beside me while I remember painful things. But neither of us should make the other responsible for becoming whole.”\n\nThe wind moved around the tower.\n\n“What if I want you anyway?”\n\n“Then want me.”\n\n“That easy?”\n\n“No.”\n\n“You have a talent for making difficult things sound simple.”\n\n“I have a talent for saying difficult things while holding fruit.”\n\nHe offered me another slice of pear.\n\nI took it, then turned my hand beneath his. My fingers linked.\n\n“I want you,” I said.\n\nIroh's breath caught.\n\n“I know,” he replied.\n\n“You’re supposed to say it back.”\n\n“I want you too.”\n\nThe words were quiet but unmistakable.\n\nI leaned toward him. The kiss took place with the city spread below I, with wind in my hair and tea cooling beside my knee.\n\nIroh kissed slowly, as though he had all the time in the world. His hand rested at the side of my neck. When I moved closer, his thumb brushed beneath my ear.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“Do you wish to continue?”\n\n“Yes.”\n\n“Then we should return to the shop before I forget the tea kettle.”\n\nI pulled back. “You are blaming the kettle?”\n\n“It has poor timing.”\n\n“You’re the one who brought me to the wall.”\n\n“The wall is very persuasive.”\n\nI kissed him once more, then packed the blanket.\n\nOn the walk down, his hand stayed in mine. The city below seemed less like a maze. I still did not know every road. I still did not know what the future would ask.\n\nBut I knew where the Jasmine Dragon was.\n\nAnd I knew who would be listening for my footsteps.\n\nThe walk along the wall became something I repeated even after returning to the shop. On busy days, I and Iroh climbed before opening. On quiet days, I climbed after closing and carried tea in a flask.\n\nThe city looked different from above depending on the weather. In bright sun, the roofs formed a sea of green and gold. In rain, the streets became ribbons of silver. At night, the lanterns made the city seem less like a fortress and more like a constellation someone had built by hand.\n\nOne morning, Iroh took me to a section of the wall where several stones had been replaced. The new blocks were pale against the old ones.\n\n“This is where the siege damaged it,” he said.\n\n“Were you here?”\n\n“Yes.”\n\nHe rested his hand on one of the old stones.\n\n“I stood on the other side,” he continued. “I believed the wall was an obstacle between my army and victory.”\n\n“And now?”\n\n“Now I see a structure built by people who wanted to protect a home.”\n\nI touched the new stone. “Can a wall be both protection and prison?”\n\n“Most things can be both. It depends on whether there is a door.”\n\n“And who has the key.”\n\nIroh glanced at I. “Exactly.”\n\nI took the key to the tea shop from beneath my shirt. It rested warm against my skin.\n\n“You gave me one,” I said.\n\n“I did.”\n\n“That does not make the shop mine.”\n\n“No.”\n\n“But it means I can enter.”\n\n“Yes.”\n\n“And leave.”\n\n“Always.”\n\nThe certainty eased I.\n\n“You are not afraid I will use the key to disappear?” I asked.\n\n“I would be sad if you did.”\n\n“That is not the same as afraid.”\n\n“I am afraid of many things. I do not want fear to choose our locks.”\n\nI leaned my back against the wall. Iroh stood beside I.\n\n“You are very different here,” he said.\n\n“Here?”\n\n“Above the city. You watch every road.”\n\n“You watch roads too.”\n\n“I have had more years to disguise it.”\n\nI looked over the edge. “I am afraid of being trapped.”\n\n“By the city?”\n\n“By any place that begins to feel like home.”\n\nIroh waited.\n\n“If I care about it, someone can use it against me,” I said. “If I need it, leaving becomes a loss instead of a choice.”\n\nHe nodded slowly. “Then home must include the ability to leave.”\n\n“That sounds contradictory.”\n\n“It is a difficult balance. A bird may rest on a branch because it knows it can fly.”\n\n“You’re comparing me to a bird.”\n\n“A very determined bird.”\n\n“And you?”\n\n“I am more of a turtleduck.”\n\nI laughed. He looked pleased.\n\nAt the base of the wall, he bought two cups of tea from a street vendor. The vendor recognized him but did not say the title.\n\n“You are becoming anonymous,” I said.\n\n“It is peaceful.”\n\n“Do you miss being known?”\n\n“Sometimes. But being known and being watched are different things.”\n\nI drank the tea. “I know that.”\n\nHe took my cup when I finished and carried both.\n\n“I can carry my own,” I said.\n\n“I know.”\n\n“You are going to say that again.”\n\n“I am.”\n\n“Then I am going to say I want you to carry them.”\n\nIroh looked at me. “Very well.”\n\nHe walked with both cups in one hand and took my other hand in his.\n\nThe city gate opened ahead.\n\nI had a key, a road, and the right to leave.\n\nI entered the tea shop anyway.\n\nIroh held the door for I.\n\n“You are becoming predictable,” he said.\n\n“Only in the best ways.”\n\nHe smiled as if I had given the correct answer.",
+  "content": "Iroh took me walking along the wall because he believed cities should be seen from the places built to protect them.\n\n“That is a poetic way to say we are climbing stairs,” I said.\n\n“I am a poetic man.”\n\n“You are a man who carries snacks in his sleeves.”\n\n“A poetic man with priorities.”\n\nThe wall rose above the city, broad enough for two carts to pass. Wind moved along the stone. Below, Ba Sing Se unfolded in layers: markets, gardens, tiled roofs, narrow alleys, and the distant palace shining beneath the morning sun.\n\nIroh walked beside me with a small basket over one arm. He had packed tea, fruit, and a blanket. I suspected he could turn any errand into a picnic if given enough time.\n\n“Do you ever get tired of looking at the city?” I asked.\n\n“No. It changes even when it appears still.”\n\n“You say that about people too.”\n\n“People change more dramatically. They simply hide it better.”\n\nI stopped near a watchtower. Below, a group of children chased one another through a courtyard. Their laughter rose on the wind.\n\n“When I first arrived, I thought this city would swallow me,” I said.\n\n“It has a large appetite.”\n\n“I didn’t know where anything was. I didn’t know who to trust. I kept expecting someone to ask what I was doing here.”\n\n“Did they?”\n\n“You did.”\n\nIroh considered. “I asked what you were seeking.”\n\n“That was worse.”\n\n“Questions can be doors.”\n\n“They can also be traps.”\n\nHe nodded. “That is why the person asking must be willing to accept the answer.”\n\nI leaned against the stone railing. The wind pulled at my clothes.\n\n“What answer were you hoping for?” he asked.\n\n“I didn’t know.”\n\n“And now?”\n\nI looked at the Jasmine Dragon's green sign far below. It was tiny from the wall, but visible.\n\n“A place where I don’t have to explain why I need to rest.”\n\nIroh's expression softened.\n\n“A place where I can be useful without being used,” I continued. “A place where people can want me without needing to own me.”\n\n“These are good things to seek.”\n\n“Are they?”\n\n“They are necessary things.”\n\nHe unwrapped the blanket beneath the tower. We sat together with the basket between us. Iroh poured tea into two cups. The blend was light and green, with a faint citrus scent.\n\n“What is this?”\n\n“A tea for clear weather.”\n\n“The sky is clear.”\n\n“The sky is not the only weather.”\n\nI took a sip. The flavor was bright enough to make me sit straighter.\n\nIroh passed me a slice of pear.\n\n“You feed me whenever I become emotional,” I said.\n\n“Food helps the body remember it is alive.”\n\n“And tea?”\n\n“Tea helps the heart slow down enough to notice.”\n\nI looked at him. “Did you learn that before or after the war?”\n\n“During.”\n\nThe answer carried no ornament.\n\nIroh looked over the wall. “In the army, every day was loud. Orders, metal, horses, fire. I learned to make tea in a small pot because the act of pouring water gave my hands something gentle to do.”\n\n“Did it help?”\n\n“Not at first.”\n\n“What changed?”\n\n“I stopped asking it to erase anything.”\n\nI turned the cup in my hands.\n\n“I want to stop asking you to erase things,” I said.\n\nIroh looked at me. “You have not asked.”\n\n“Not with words.”\n\n“Then let us be precise. I am not a cure for your past. You are not a cure for mine.”\n\n“That sounds very romantic.”\n\n“I am a man of many talents.”\n\n“You’re an emotional physician.”\n\n“I prefer tea master.”\n\nI laughed. He touched the back of my hand with two fingers.\n\n“You may want me,” he said. “You may love me. You may sit beside me while I remember painful things. But neither of us should make the other responsible for becoming whole.”\n\nThe wind moved around the tower.\n\n“What if I want you anyway?”\n\n“Then want me.”\n\n“That easy?”\n\n“No.”\n\n“You have a talent for making difficult things sound simple.”\n\n“I have a talent for saying difficult things while holding fruit.”\n\nHe offered me another slice of pear.\n\nI took it, then turned my hand beneath his. My fingers linked.\n\n“I want you,” I said.\n\nIroh's breath caught.\n\n“I know,” he replied.\n\n“You’re supposed to say it back.”\n\n“I want you too.”\n\nThe words were quiet but unmistakable.\n\nI leaned toward him. The kiss took place with the city spread below me, with wind in my hair and tea cooling beside my knee.\n\nIroh kissed slowly, as though he had all the time in the world. His hand rested at the side of my neck. When I moved closer, his thumb brushed beneath my ear.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“Do you wish to continue?”\n\n“Yes.”\n\n“Then we should return to the shop before I forget the tea kettle.”\n\nI pulled back. “You are blaming the kettle?”\n\n“It has poor timing.”\n\n“You’re the one who brought me to the wall.”\n\n“The wall is very persuasive.”\n\nI kissed him once more, then packed the blanket.\n\nOn the walk down, his hand stayed in mine. The city below seemed less like a maze. I still did not know every road. I still did not know what the future would ask.\n\nBut I knew where the Jasmine Dragon was.\n\nAnd I knew who would be listening for my footsteps.\n\nThe walk along the wall became something I repeated even after returning to the shop. On busy days, I and Iroh climbed before opening. On quiet days, I climbed after closing and carried tea in a flask.\n\nThe city looked different from above depending on the weather. In bright sun, the roofs formed a sea of green and gold. In rain, the streets became ribbons of silver. At night, the lanterns made the city seem less like a fortress and more like a constellation someone had built by hand.\n\nOne morning, Iroh took me to a section of the wall where several stones had been replaced. The new blocks were pale against the old ones.\n\n“This is where the siege damaged it,” he said.\n\n“Were you here?”\n\n“Yes.”\n\nHe rested his hand on one of the old stones.\n\n“I stood on the other side,” he continued. “I believed the wall was an obstacle between my army and victory.”\n\n“And now?”\n\n“Now I see a structure built by people who wanted to protect a home.”\n\nI touched the new stone. “Can a wall be both protection and prison?”\n\n“Most things can be both. It depends on whether there is a door.”\n\n“And who has the key.”\n\nIroh glanced at me. “Exactly.”\n\nI took the key to the tea shop from beneath my shirt. It rested warm against my skin.\n\n“You gave me one,” I said.\n\n“I did.”\n\n“That does not make the shop mine.”\n\n“No.”\n\n“But it means I can enter.”\n\n“Yes.”\n\n“And leave.”\n\n“Always.”\n\nThe certainty eased me.\n\n“You are not afraid I will use the key to disappear?” I asked.\n\n“I would be sad if you did.”\n\n“That is not the same as afraid.”\n\n“I am afraid of many things. I do not want fear to choose our locks.”\n\nI leaned my back against the wall. Iroh stood beside me.\n\n“You are very different here,” he said.\n\n“Here?”\n\n“Above the city. You watch every road.”\n\n“You watch roads too.”\n\n“I have had more years to disguise it.”\n\nI looked over the edge. “I am afraid of being trapped.”\n\n“By the city?”\n\n“By any place that begins to feel like home.”\n\nIroh waited.\n\n“If I care about it, someone can use it against me,” I said. “If I need it, leaving becomes a loss instead of a choice.”\n\nHe nodded slowly. “Then home must include the ability to leave.”\n\n“That sounds contradictory.”\n\n“It is a difficult balance. A bird may rest on a branch because it knows it can fly.”\n\n“You’re comparing me to a bird.”\n\n“A very determined bird.”\n\n“And you?”\n\n“I am more of a turtleduck.”\n\nI laughed. He looked pleased.\n\nAt the base of the wall, he bought two cups of tea from a street vendor. The vendor recognized him but did not say the title.\n\n“You are becoming anonymous,” I said.\n\n“It is peaceful.”\n\n“Do you miss being known?”\n\n“Sometimes. But being known and being watched are different things.”\n\nI drank the tea. “I know that.”\n\nHe took my cup when I finished and carried both.\n\n“I can carry my own,” I said.\n\n“I know.”\n\n“You are going to say that again.”\n\n“I am.”\n\n“Then I am going to say I want you to carry them.”\n\nIroh looked at me. “Very well.”\n\nHe walked with both cups in one hand and took my other hand in his.\n\nThe city gate opened ahead.\n\nI had a key, a road, and the right to leave.\n\nI entered the tea shop anyway.\n\nIroh held the door for me.\n\n“You are becoming predictable,” he said.\n\n“Only in the best ways.”\n\nHe smiled as if I had given the correct answer.",
   "fandom_folder": "Avatar",
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
@@ -78,5 +177,256 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "iroh",
+      "voice": "patient, warm, observant, lightly corny; philosophical without turning every line into a proverb",
+      "humor": "gentle teasing, tea/food practicality, affectionate misdirection"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "flirting",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · A Walk Along the Wall · Iroh / Jasper · flirting · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 8,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "avatar-09",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "avatar-09",
+    "private_handoff_resume_target": "avatar-09"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "avatar-09",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "flirting",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "flirting",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "avatar-08",
+    "chapter_number": 8,
+    "title": "A Walk Along the Wall",
+    "relationship_stage": "flirting",
+    "opening_anchor": "Iroh took me walking along the wall because he believed cities should be seen from the places built to protect them.",
+    "closing_anchor": "“Only in the best ways.” He smiled as if I had given the correct answer.",
+    "next_story_target": "avatar-09",
+    "private_resume_target": "avatar-09",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Avatar: The Last Airbender · Jasmine After Rain · A Walk Along the Wall · Iroh / Jasper · flirting · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "avatar-iroh",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo"
+    ],
+    "active_profile_ids": [
+      "avatar-iroh"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

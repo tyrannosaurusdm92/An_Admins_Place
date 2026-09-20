@@ -1,340 +1,420 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_series",
   "fandom": "Avatar: The Last Airbender",
   "series_title": "Jasmine After Rain",
   "series_slug": "jasmine-after-rain",
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
-  "pairing": "Iroh / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Iroh / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "description": "Tea, Pai Sho, grief, and ordinary happiness make room for original-series Uncle Iroh to be a man instead of only a legend.",
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "chapter_count": 40,
   "chapters": [
     {
       "number": 1,
-      "id": "avatar-01",
       "file": "01.json",
       "title": "The Table in the Corner",
       "word_count": 1531,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-01",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 2,
-      "id": "avatar-02",
       "file": "02.json",
       "title": "Jasmine and Rain",
       "word_count": 1523,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-02",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 3,
-      "id": "avatar-03",
       "file": "03.json",
       "title": "A Guest with No Destination",
       "word_count": 1507,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-03",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 4,
-      "id": "avatar-04",
       "file": "04.json",
       "title": "The First Lesson",
       "word_count": 1508,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-04",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 5,
-      "id": "avatar-05",
       "file": "05.json",
       "title": "The City's Quiet Scars",
       "word_count": 1517,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-05",
+      "relationship_stage": "chemistry",
+      "private_handoff_available": false
     },
     {
       "number": 6,
-      "id": "avatar-06",
       "file": "06.json",
       "title": "A Game of Pai Sho",
       "word_count": 1501,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-06",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 7,
-      "id": "avatar-07",
       "file": "07.json",
       "title": "The Weight of a Name",
       "word_count": 1502,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-07",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 8,
-      "id": "avatar-08",
       "file": "08.json",
       "title": "A Walk Along the Wall",
       "word_count": 1507,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-08",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 9,
-      "id": "avatar-09",
       "file": "09.json",
       "title": "Tea for Two",
       "word_count": 1500,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-09",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 10,
-      "id": "avatar-10",
       "file": "10.json",
       "title": "The Night Market",
-      "word_count": 1502,
-      "choice_count": 3
+      "word_count": 1503,
+      "choice_count": 3,
+      "id": "avatar-10",
+      "relationship_stage": "flirting",
+      "private_handoff_available": false
     },
     {
       "number": 11,
-      "id": "avatar-11",
       "file": "11.json",
       "title": "When the Past Knocks",
       "word_count": 1512,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-11",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 12,
-      "id": "avatar-12",
       "file": "12.json",
       "title": "The Dragon's Breath",
       "word_count": 1512,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-12",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 13,
-      "id": "avatar-13",
       "file": "13.json",
       "title": "A Journey North",
       "word_count": 1505,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-13",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 14,
-      "id": "avatar-14",
       "file": "14.json",
       "title": "The Road Through the Hills",
       "word_count": 1509,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-14",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 15,
-      "id": "avatar-15",
       "file": "15.json",
       "title": "The Storm",
-      "word_count": 1503,
-      "choice_count": 3
+      "word_count": 1502,
+      "choice_count": 3,
+      "id": "avatar-15",
+      "relationship_stage": "boundary_conversations",
+      "private_handoff_available": false
     },
     {
       "number": 16,
-      "id": "avatar-16",
       "file": "16.json",
       "title": "What We Choose",
       "word_count": 1503,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-16",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 17,
-      "id": "avatar-17",
       "file": "17.json",
       "title": "Return to Ba Sing Se",
-      "word_count": 1500,
-      "choice_count": 3
+      "word_count": 1495,
+      "choice_count": 3,
+      "id": "avatar-17",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 18,
-      "id": "avatar-18",
       "file": "18.json",
       "title": "The Shop After Closing",
       "word_count": 1507,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-18",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 19,
-      "id": "avatar-19",
       "file": "19.json",
       "title": "A Room Above the Tea Shop",
       "word_count": 1503,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-19",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 20,
-      "id": "avatar-20",
       "file": "20.json",
       "title": "The Tea That Stays",
       "word_count": 1504,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-20",
+      "relationship_stage": "testing_power_play",
+      "private_handoff_available": true
     },
     {
       "number": 21,
-      "id": "avatar-21",
       "file": "21.json",
       "title": "The Lotus Opens",
-      "word_count": 1569,
-      "choice_count": 3
+      "word_count": 1563,
+      "choice_count": 3,
+      "id": "avatar-21",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 22,
-      "id": "avatar-22",
       "file": "22.json",
       "title": "A Place at the Table",
-      "word_count": 1560,
-      "choice_count": 3
+      "word_count": 1554,
+      "choice_count": 3,
+      "id": "avatar-22",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 23,
-      "id": "avatar-23",
       "file": "23.json",
       "title": "The White Lotus Does Not Whisper",
-      "word_count": 1554,
-      "choice_count": 3
+      "word_count": 1548,
+      "choice_count": 3,
+      "id": "avatar-23",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 24,
-      "id": "avatar-24",
       "file": "24.json",
       "title": "A Question Worth Asking",
-      "word_count": 1558,
-      "choice_count": 3
+      "word_count": 1552,
+      "choice_count": 3,
+      "id": "avatar-24",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 25,
-      "id": "avatar-25",
       "file": "25.json",
       "title": "The Garden Behind the Shop",
-      "word_count": 1538,
-      "choice_count": 3
+      "word_count": 1532,
+      "choice_count": 3,
+      "id": "avatar-25",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 26,
-      "id": "avatar-26",
       "file": "26.json",
       "title": "When Tea Goes Cold",
-      "word_count": 1545,
-      "choice_count": 3
+      "word_count": 1539,
+      "choice_count": 3,
+      "id": "avatar-26",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 27,
-      "id": "avatar-27",
       "file": "27.json",
       "title": "The Shape of Forgiveness",
-      "word_count": 1546,
-      "choice_count": 3
+      "word_count": 1540,
+      "choice_count": 3,
+      "id": "avatar-27",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 28,
-      "id": "avatar-28",
       "file": "28.json",
       "title": "The Game We Change",
-      "word_count": 1536,
-      "choice_count": 3
+      "word_count": 1530,
+      "choice_count": 3,
+      "id": "avatar-28",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 29,
-      "id": "avatar-29",
       "file": "29.json",
       "title": "A Road of Our Own",
       "word_count": 1543,
-      "choice_count": 3
+      "choice_count": 3,
+      "id": "avatar-29",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 30,
-      "id": "avatar-30",
       "file": "30.json",
       "title": "The Fire Beneath the Kettle",
-      "word_count": 1536,
-      "choice_count": 3
+      "word_count": 1530,
+      "choice_count": 3,
+      "id": "avatar-30",
+      "relationship_stage": "established_dynamic",
+      "private_handoff_available": true
     },
     {
       "number": 31,
-      "id": "avatar-31",
       "file": "31.json",
       "title": "A Letter from the Palace",
-      "word_count": 1549,
-      "choice_count": 3
+      "word_count": 1543,
+      "choice_count": 3,
+      "id": "avatar-31",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 32,
-      "id": "avatar-32",
       "file": "32.json",
       "title": "The Things Iroh Cannot Carry",
-      "word_count": 1539,
-      "choice_count": 3
+      "word_count": 1533,
+      "choice_count": 3,
+      "id": "avatar-32",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 33,
-      "id": "avatar-33",
       "file": "33.json",
       "title": "A Small Rebellion",
-      "word_count": 1542,
-      "choice_count": 3
+      "word_count": 1536,
+      "choice_count": 3,
+      "id": "avatar-33",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 34,
-      "id": "avatar-34",
       "file": "34.json",
       "title": "Under the Same Lantern",
-      "word_count": 1544,
-      "choice_count": 3
+      "word_count": 1538,
+      "choice_count": 3,
+      "id": "avatar-34",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 35,
-      "id": "avatar-35",
       "file": "35.json",
       "title": "The General and the Gardener",
-      "word_count": 1541,
-      "choice_count": 3
+      "word_count": 1535,
+      "choice_count": 3,
+      "id": "avatar-35",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 36,
-      "id": "avatar-36",
       "file": "36.json",
       "title": "A Promise with No Audience",
-      "word_count": 1537,
-      "choice_count": 3
+      "word_count": 1532,
+      "choice_count": 3,
+      "id": "avatar-36",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 37,
-      "id": "avatar-37",
       "file": "37.json",
       "title": "The Day We Return",
-      "word_count": 1541,
-      "choice_count": 3
+      "word_count": 1535,
+      "choice_count": 3,
+      "id": "avatar-37",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 38,
-      "id": "avatar-38",
       "file": "38.json",
       "title": "Jasmine in Winter",
-      "word_count": 1541,
-      "choice_count": 3
+      "word_count": 1535,
+      "choice_count": 3,
+      "id": "avatar-38",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 39,
-      "id": "avatar-39",
       "file": "39.json",
       "title": "The Tea We Make",
-      "word_count": 1534,
-      "choice_count": 3
+      "word_count": 1528,
+      "choice_count": 3,
+      "id": "avatar-39",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     },
     {
       "number": 40,
-      "id": "avatar-40",
       "file": "40.json",
       "title": "Jasmine After Rain",
-      "word_count": 1543,
-      "choice_count": 3
+      "word_count": 1541,
+      "choice_count": 3,
+      "id": "avatar-40",
+      "relationship_stage": "integrated_trust",
+      "private_handoff_available": true
     }
   ],
-  "total_word_count": 60941,
+  "total_word_count": 60989,
   "key": "jasmine-after-rain",
   "title": "Jasmine After Rain",
   "folder": "Avatar",
@@ -384,13 +464,600 @@
     "40.json"
   ],
   "choice_count": 3,
-  "content_mode": "romance",
+  "content_mode": "mature_on_page",
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "explicit_branching": {
-    "available": true,
-    "target": "@generate-explicit",
-    "requires_story_provider": true,
-    "adult_characters_only": true
+  "explicit_branching": true,
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "private_interlude_branching": true,
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "iroh",
+      "voice": "patient, warm, observant, lightly corny; philosophical without turning every line into a proverb",
+      "humor": "gentle teasing, tea/food practicality, affectionate misdirection"
+    }
+  },
+  "jasper_tailoring": {
+    "named_protagonist": true,
+    "first_person": true,
+    "birth_year": 1999,
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "personality": [
+      "goofy/chaotic surface energy",
+      "kind",
+      "compassionate",
+      "intelligent",
+      "well-spoken",
+      "empathic",
+      "fiercely loyal",
+      "observant",
+      "remembers small details",
+      "loves hard"
+    ],
+    "relationship_rule": "slow build through plot, routines, conflict/repair, callbacks, shared obligations, private jokes, remembered details, and changed behavior",
+    "bridge_rule": "feed exact voice/style/memory/plot state to the existing bridge; do not modify bridge instructions"
+  },
+  "relationship_pacing": {
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "private_interlude_quota": false,
+    "stages": [
+      "chemistry",
+      "flirting",
+      "boundary_conversations",
+      "testing_power_play",
+      "established_dynamic",
+      "integrated_trust"
+    ],
+    "advancement_rule": "advance because story events and changed behavior earn it, never because a chapter number says intimacy is due"
+  },
+  "bridge_writer_context": {
+    "bridge_file": "js/explicit-bridge.js",
+    "bridge_is_user_owned": true,
+    "modify_bridge": false,
+    "writer_reference_engine": "StoryTools.JasperWriterReference",
+    "send": [
+      "William style DNA",
+      "selected reference passages",
+      "canon voice lane",
+      "Jasper profile lock",
+      "dialogue thread",
+      "memory/callbacks",
+      "relationship stage",
+      "open plot threads",
+      "boundaries",
+      "scene state"
+    ],
+    "resume": [
+      "reconnection/aftercare",
+      "humor/banter",
+      "memory updates",
+      "relationship consequences",
+      "next plot beat"
+    ]
+  },
+  "date_revised": "2026-09-20",
+  "original_authored_chapter_count": 40,
+  "original_fanfiction_complete": true,
+  "continuation_supported": true,
+  "branching_supported": true,
+  "new_story_creation_supported": true,
+  "continuation_after_original_finale": {
+    "enabled": true,
+    "from_chapter": 40,
+    "target": "@generate",
+    "rule": "Chapter 40 is a completed original ending, not a dead end. Jasper may continue into generated chapter 41+ while carrying the full 40-chapter memory and writer-reference context."
+  },
+  "private_handoff_flow": {
+    "enabled": true,
+    "bridge": "js/explicit-bridge.js",
+    "visual_transition": "fade_to_black",
+    "backend_generation": true,
+    "return_to_story": true,
+    "rule": "Fade-to-black is a UI handoff transition only. The normal writer stops at the seam, the private bridge/generator owns the bounded interlude, and the story resumes afterward without losing memory, dialogue state, character voice, or plot threads."
+  },
+  "story_bible": [
+    "The central romance grows through tea-shop routines, repair after grief, private jokes, practical care, and the difference between being admired as a legend and loved as a person.",
+    "Iroh remains a former general and strategist as well as a warm tea-shop owner; wisdom must not flatten him into a fortune-cookie therapist.",
+    "Jasper is funny, observant, affectionate, stubborn, detail-oriented about loved ones, and capable of direct vulnerability once trust is earned.",
+    "Slow burn means repeated choices, routines, conflict repair, remembered preferences, and changed behavior matter more than chapter count.",
+    "After the authored chapter 40 ending, generated chapter 41+ must continue the life already built instead of restarting the courtship or summarizing the forty-chapter arc."
+  ],
+  "character_bible": [
+    "Jasper — adult named first-person protagonist; narration uses I/me/my/mine/myself; other characters may use they/she. Goofy and chaotic surface energy coexists with empathy, intelligence, loyalty, careful observation, and hidden fears of being a burden.",
+    "Iroh — warm, patient, amused, observant, strategic, food/tea/Pai Sho oriented, capable of former-general intensity. Gentle humor and deceptively simple questions fit him; generic therapist speech does not.",
+    "Their relationship should preserve mutuality: Jasper notices and cares for Iroh too. He is not only a caretaker or teacher."
+  ],
+  "narrative_tense": "first_person_past",
+  "generated_continuation_contract": {
+    "start_after_authored_chapter": 40,
+    "first_generated_chapter_number": 41,
+    "target_words": 1800,
+    "minimum_acceptable_words": 1200,
+    "carry_full_authored_arc": true,
+    "never_restart_relationship": true,
+    "never_repeat_first_meeting": true,
+    "preserve_unresolved_threads": true,
+    "preserve_choice_history": true,
+    "preserve_writer_reference": true,
+    "preserve_jasper_profile": true,
+    "preserve_canon_voice": true,
+    "private_handoff_optional_only": true
+  },
+  "branching_policy": {
+    "authored_choices_per_chapter": 3,
+    "ordinary_choices": 2,
+    "private_choice_retained_in_json": true,
+    "private_choice_visibility": "contextual_after_testing_power_play_stage",
+    "same_next_authored_chapter_allowed": true,
+    "branch_difference_carried_by": "path variant bridge + memory effects + later generated continuation",
+    "generated_choices_must_be_materially_distinct": true
+  },
+  "writer_reference_policy": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile": "json/william-writing-style.json",
+    "use_on_every_generated_chapter": true,
+    "use_on_every_choice": true,
+    "feed_private_bridge_context_without_modifying_bridge": true,
+    "include_recent_authored_closing_anchor": true,
+    "include_open_dialogue_and_plot_threads": true,
+    "include_character_voice_lane": true,
+    "copy_source_sentences": false
+  },
+  "quality_gate": {
+    "first_person_jasper_required": true,
+    "narrative_tense": "first_person_past",
+    "quote_aware_second_person_lint": true,
+    "object_case_lint": true,
+    "mind_reading_warning": true,
+    "canon_window_required": true,
+    "writer_reference_required": true,
+    "continuity_snapshot_required": true,
+    "choice_path_variant_required": true,
+    "private_handoff_requires_relationship_stage": true
+  },
+  "authored_arc_index": [
+    {
+      "id": "avatar-01",
+      "chapter_number": 1,
+      "title": "The Table in the Corner",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I told myself it was because he had asked. The lie was comforting enough to keep for one night.",
+      "next_story_target": "avatar-02"
+    },
+    {
+      "id": "avatar-02",
+      "chapter_number": 2,
+      "title": "Jasmine and Rain",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I noticed him noticing. Somewhere between the first cup and the closing bell, the job became a reason to remain.",
+      "next_story_target": "avatar-03"
+    },
+    {
+      "id": "avatar-03",
+      "chapter_number": 3,
+      "title": "A Guest with No Destination",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "In the morning, the shop smelled like jasmine and bread. Iroh had already placed a cup beside the register. I carried it upstairs, then returned before he could pretend not to be waiting.",
+      "next_story_target": "avatar-04"
+    },
+    {
+      "id": "avatar-04",
+      "chapter_number": 4,
+      "title": "The First Lesson",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "I kept the key warm beneath my shirt. When I reached the shop, Iroh looked at the cord around my neck and smiled as though the morning had offered him a private answer.",
+      "next_story_target": "avatar-05"
+    },
+    {
+      "id": "avatar-05",
+      "chapter_number": 5,
+      "title": "The City's Quiet Scars",
+      "relationship_stage": "chemistry",
+      "closing_anchor": "The city was waiting too. I opened the door beside Iroh. The first light entered the shop, touching the repaired wall and the jasmine leaves.",
+      "next_story_target": "avatar-06"
+    },
+    {
+      "id": "avatar-06",
+      "chapter_number": 6,
+      "title": "A Game of Pai Sho",
+      "relationship_stage": "flirting",
+      "closing_anchor": "Patiently. As I learned.",
+      "next_story_target": "avatar-07"
+    },
+    {
+      "id": "avatar-07",
+      "chapter_number": 7,
+      "title": "The Weight of a Name",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The moment remained. So did I.",
+      "next_story_target": "avatar-08"
+    },
+    {
+      "id": "avatar-08",
+      "chapter_number": 8,
+      "title": "A Walk Along the Wall",
+      "relationship_stage": "flirting",
+      "closing_anchor": "“Only in the best ways.” He smiled as if I had given the correct answer.",
+      "next_story_target": "avatar-09"
+    },
+    {
+      "id": "avatar-09",
+      "chapter_number": 9,
+      "title": "Tea for Two",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The cup stayed safe. So did the trust between us.",
+      "next_story_target": "avatar-10"
+    },
+    {
+      "id": "avatar-10",
+      "chapter_number": 10,
+      "title": "The Night Market",
+      "relationship_stage": "flirting",
+      "closing_anchor": "The lanterns remained in memory. I carried them into every ordinary morning afterward.",
+      "next_story_target": "avatar-11"
+    },
+    {
+      "id": "avatar-11",
+      "chapter_number": 11,
+      "title": "When the Past Knocks",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "Iroh followed beside me. The tea chests bumped against the cart. The road smelled of wet stone and green leaves.",
+      "next_story_target": "avatar-12"
+    },
+    {
+      "id": "avatar-12",
+      "chapter_number": 12,
+      "title": "The Dragon's Breath",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "The road opened ahead. Iroh adjusted the pack on his shoulder and offered me his hand. I took it without hesitation.",
+      "next_story_target": "avatar-13"
+    },
+    {
+      "id": "avatar-13",
+      "chapter_number": 13,
+      "title": "A Journey North",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "So did his smile. The cart waited beneath the tree.",
+      "next_story_target": "avatar-14"
+    },
+    {
+      "id": "avatar-14",
+      "chapter_number": 14,
+      "title": "The Road Through the Hills",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "The flowers kept their color in the fading light. Iroh placed one beside my notebook before I returned to the cart.",
+      "next_story_target": "avatar-15"
+    },
+    {
+      "id": "avatar-15",
+      "chapter_number": 15,
+      "title": "The Storm",
+      "relationship_stage": "boundary_conversations",
+      "closing_anchor": "I remembered it anyway. And I kept going.",
+      "next_story_target": "avatar-16"
+    },
+    {
+      "id": "avatar-16",
+      "chapter_number": 16,
+      "title": "What We Choose",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "Iroh welcomed them in. Iroh set the cup down and kissed my forehead. Then the two of us went downstairs to meet the morning.",
+      "next_story_target": "avatar-17"
+    },
+    {
+      "id": "avatar-17",
+      "chapter_number": 17,
+      "title": "Return to Ba Sing Se",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "“Then let us go upstairs.” We climbed together, carrying the day with me and leaving the letters below.",
+      "next_story_target": "avatar-18"
+    },
+    {
+      "id": "avatar-18",
+      "chapter_number": 18,
+      "title": "The Shop After Closing",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "The quiet followed me to the shop door and waited while Iroh found the key. The night was quiet around me.",
+      "next_story_target": "avatar-19"
+    },
+    {
+      "id": "avatar-19",
+      "chapter_number": 19,
+      "title": "A Room Above the Tea Shop",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "I stood beneath them with Iroh's hand in mine, watching the new room become a place. It was a good place.",
+      "next_story_target": "avatar-20"
+    },
+    {
+      "id": "avatar-20",
+      "chapter_number": 20,
+      "title": "The Tea That Stays",
+      "relationship_stage": "testing_power_play",
+      "closing_anchor": "And We welcomed it together. The courtyard filled with light.",
+      "next_story_target": "avatar-21"
+    },
+    {
+      "id": "avatar-21",
+      "chapter_number": 21,
+      "title": "The Lotus Opens",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. A home built after war could still fear permanence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He gave me the second key without a speech. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-22"
+    },
+    {
+      "id": "avatar-22",
+      "chapter_number": 22,
+      "title": "A Place at the Table",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He accepted being served without turning it into a lesson remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The empty chair stayed in the circle. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-23"
+    },
+    {
+      "id": "avatar-23",
+      "chapter_number": 23,
+      "title": "The White Lotus Does Not Whisper",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He introduced me as someone whose judgment he trusted remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The White Lotus left a stone as a welcome. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-24"
+    },
+    {
+      "id": "avatar-24",
+      "chapter_number": 24,
+      "title": "A Question Worth Asking",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He asked me to call him iroh without titles when we were alone remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The title disappeared between us. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-25"
+    },
+    {
+      "id": "avatar-25",
+      "chapter_number": 25,
+      "title": "The Garden Behind the Shop",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He allowed me to know something he did not remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The vine received a new label: not tea. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-26"
+    },
+    {
+      "id": "avatar-26",
+      "chapter_number": 26,
+      "title": "When Tea Goes Cold",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He offered a boundary with the white lotus remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The second cup stayed warm. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-27"
+    },
+    {
+      "id": "avatar-27",
+      "chapter_number": 27,
+      "title": "The Shape of Forgiveness",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He thanked me for staying when there was nothing to fix remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. We returned without leaving the hill behind. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-28"
+    },
+    {
+      "id": "avatar-28",
+      "chapter_number": 28,
+      "title": "The Game We Change",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He enjoyed being outplayed by someone who stayed remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The game ended in a knowing draw. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-29"
+    },
+    {
+      "id": "avatar-29",
+      "chapter_number": 29,
+      "title": "A Road of Our Own",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He feared leisure because it left room for memories remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He slept with one hand over mine. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-30"
+    },
+    {
+      "id": "avatar-30",
+      "chapter_number": 30,
+      "title": "The Fire Beneath the Kettle",
+      "relationship_stage": "established_dynamic",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let himself be proud of life after the sword remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The kettle sang before either of us spoke. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-31"
+    },
+    {
+      "id": "avatar-31",
+      "chapter_number": 31,
+      "title": "A Letter from the Palace",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He answered with a question instead of a command remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The letter left room for both men to breathe. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-32"
+    },
+    {
+      "id": "avatar-32",
+      "chapter_number": 32,
+      "title": "The Things Iroh Cannot Carry",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He agreed to speak with someone about the nightmares remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. Morning found us holding the same blanket. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-33"
+    },
+    {
+      "id": "avatar-33",
+      "chapter_number": 33,
+      "title": "A Small Rebellion",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He was proud the shop belonged to both of us remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The next customer asked for jasmine. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-34"
+    },
+    {
+      "id": "avatar-34",
+      "chapter_number": 34,
+      "title": "Under the Same Lantern",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. Being desired still surprised him after a lifetime of being admired remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. He bought a turtleduck as a strategic investment. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-35"
+    },
+    {
+      "id": "avatar-35",
+      "chapter_number": 35,
+      "title": "The General and the Gardener",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let the garden be a place where he was only present remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The first flower opened when we stopped watching. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-36"
+    },
+    {
+      "id": "avatar-36",
+      "chapter_number": 36,
+      "title": "A Promise with No Audience",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He wanted my particular company, not rescue from loneliness remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The city slept unaware that our lives changed. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-37"
+    },
+    {
+      "id": "avatar-37",
+      "chapter_number": 37,
+      "title": "The Day We Return",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He wanted lu ten in our story without making him its final sentence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. We carried the empty bowl down. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-38"
+    },
+    {
+      "id": "avatar-38",
+      "chapter_number": 38,
+      "title": "Jasmine in Winter",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He accepted being fussed over without calling it indulgence remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The shop opened late and nobody died of it. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-39"
+    },
+    {
+      "id": "avatar-39",
+      "chapter_number": 39,
+      "title": "The Tea We Make",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He named the tea after a private joke remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The first jar had both our handwriting. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "avatar-40"
+    },
+    {
+      "id": "avatar-40",
+      "chapter_number": 40,
+      "title": "Jasmine After Rain",
+      "relationship_stage": "integrated_trust",
+      "closing_anchor": "Afterward, Iroh prepared food because romance should include practical care. I told him his definition of seduction involved an unreasonable number of dishes. He replied that a person could not build a lasting relationship on poetry alone. I refused to say he was right immediately. We ate together. His ankle touched mine beneath the table. The city moved beyond the shutters. He let happiness exist without turning it into advice remained between us, no longer an ache I had to carry on his behalf. Before sleep, we returned to the question beneath the day. Iroh offered no prophecy. He offered a choice. I made mine aloud. He answered in kind. The rain stopped. The tea stayed warm. We stayed too. The road still held old grief, family obligations, and the ordinary irritations of two people sharing a life. It also held tea in the morning. Iroh's hand found mine beneath the blanket. Neither of us needed to turn the gesture into a lesson. It was enough to let it be love.",
+      "next_story_target": "@generate"
+    }
+  ],
+  "character_library": {
+    "folder": "json/characters",
+    "index": "json/characters/index.json",
+    "profile_ids": [
+      "avatar-iroh",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "rule": "Generator should load relevant profiles and preserve distinct canon/story-original voices."
   }
 }

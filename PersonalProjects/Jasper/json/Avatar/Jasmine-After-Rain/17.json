@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "Return to Ba Sing Se",
@@ -7,70 +7,169 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Avatar: The Last Airbender",
-  "pairing": "Iroh / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Iroh / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
   "series_title": "Jasmine After Rain",
   "chapter_number": 17,
-  "word_count": 1500,
+  "word_count": 1495,
   "research_alignment": [
-    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
-    "Post-war Ba Sing Se and original-series Iroh"
+    "Iroh's tea, food, Pai Sho, patience, strategy, humor, grief, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh",
+    "Jasper remains the named first-person adult protagonist"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
-    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “Return to Ba Sing Se,” I carried forward the choice “Ask Iroh the question I keep circling.” Stop orbiting the real issue and trust him with the question underneath it. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “Return to Ba Sing Se,” I carried forward the choice “Turn the tension into a private joke.” Let the shared joke carry warmth without pretending the underlying feeling vanished. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “Return to Ba Sing Se.” The story state with Iroh remains binding: same room/location, same unfinished dialogue, same relationship stage (testing_power_play), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at avatar-18 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "avatar-17-direct",
-      "label": "Say the honest thing",
+      "label": "Ask Iroh the question I keep circling",
       "target": "avatar-18",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Stop orbiting the real issue and trust him with the question underneath it.",
+      "generation_hint": "Stop orbiting the real issue and trust him with the question underneath it.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · Return to Ba Sing Se · Iroh / Jasper · Ask Iroh the question I keep circling · Stop orbiting the real issue and trust him with the question underneath it. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-17-playful",
-      "label": "Let the moment be playful",
+      "label": "Turn the tension into a private joke",
       "target": "avatar-18",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Let the shared joke carry warmth without pretending the underlying feeling vanished.",
+      "generation_hint": "Let the shared joke carry warmth without pretending the underlying feeling vanished.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · Return to Ba Sing Se · Iroh / Jasper · Turn the tension into a private joke · Let the shared joke carry warmth without pretending the underlying feeling vanished. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-17-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “Return to Ba Sing Se,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to avatar-18 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · Return to Ba Sing Se · Iroh / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · testing_power_play",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "avatar-18",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "avatar-18"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": true,
+        "relationship_stage": "testing_power_play",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "Ba Sing Se greeted I with noise.\n\nThe market had expanded while I was gone. New signs hung over old shops. Children ran between carts. The walls still bore scars, but jasmine had climbed higher.\n\nIroh stood beside I at the city gate, looking toward the tea shop.\n\n“Do you want to go directly there?” I asked.\n\n“Yes.”\n\n“Do you want to stop for food?”\n\n“Also yes.”\n\n“You can have both.”\n\n“This is why I brought you.”\n\nThe cart returned to the Jasmine Dragon by afternoon. The shop sign had been repainted. The windows were clean. A new shelf stood behind the counter.\n\nThe substitute tea master greeted Iroh with a bow and immediately complained about the kettle.\n\n“It has become impossible,” she said.\n\n“It has always been impossible,” Iroh replied.\n\nShe looked at me. “You are in charge of it now.”\n\n“I was afraid of that.”\n\nThe shop filled with customers who wanted to hear about the journey. Iroh told them only what they needed to know. I served tea, answered questions, and watched his shoulders lower as the familiar rhythm returned.\n\nThat evening, after closing, he stood behind the counter with both hands resting on the wood.\n\n“I missed this,” he said.\n\n“The shop?”\n\n“The ordinary parts.”\n\nI stepped beside him. “I missed your tea.”\n\n“You made tea while I was gone.”\n\n“It was not the same.”\n\n“Practice.”\n\n“You are going to make me do it again.”\n\n“I am.”\n\nHe poured two cups. The jasmine scent filled the room.\n\n“I received your letters,” I said.\n\n“I wrote them.”\n\n“You wrote five.”\n\n“I was busy.”\n\n“The first one was a report about a governor.”\n\n“A fascinating governor.”\n\n“The second was a complaint about rice.”\n\n“Bad rice deserves documentation.”\n\n“The third said you missed me.”\n\nIroh's ears turned pink.\n\n“It did,” he admitted.\n\n“The fourth said you wished I were there.”\n\n“Also true.”\n\n“The fifth said you had learned how to sleep late.”\n\n“A triumph.”\n\nI lifted my cup. “You forgot to say you loved me.”\n\n“I was saving it for your return.”\n\nHe moved around the counter. “I love you.”\n\nThe words were simple enough to fill the shop.\n\nI placed my cup down. “I love you too.”\n\nHis hands found my waist. The kiss was warm with the relief of returning. He held me as if he had been careful for weeks and had finally reached the place where care could become desire again.\n\nWhen he paused, I touched his cheek.\n\n“Still comfortable?”\n\n“Yes.”\n\n“Still certain?”\n\n“Ask me tomorrow.”\n\nHis smile became bright. “You have learned to use my own lessons against me.”\n\n“It was inevitable.”\n\nThe shop door rattled in the wind. Neither of I moved.\n\n“The sign is still turned to closed,” I said.\n\n“It has excellent manners.”\n\nHe kissed me again. The counter pressed lightly against my back. Iroh's hand moved slowly, asking through every pause. I answered by drawing him closer.\n\nThe lanterns outside blurred. The tea cooled. The shop became a private space at last.\n\nThe rest of the night passed above the shop, behind a locked door, with the sound of rain beginning against the balcony.\n\nIn the morning, the jasmine plant had flowered.\n\nIroh found me standing by the window.\n\n“It is showing off,” he said.\n\n“It missed you.”\n\n“It has been cared for.”\n\n“So have you.”\n\nHe came behind I and wrapped his arms around my waist.\n\n“Yes,” he said. “I have.”\n\nThe shop opened at sunrise.\n\nI went downstairs together.\n\nThe first customer arrived before the doors were fully open. Then came another, and another. News of Iroh's return had traveled faster than the cart. People wanted stories, explanations, and reassurance that the world outside the walls had not changed beyond recognition.\n\nIroh offered tea.\n\nI offered the truth when I had it and silence when I did not.\n\nThe former soldier, Ren, arrived before noon. He stood outside until I opened the door for him.\n\n“You came back,” he said to Iroh.\n\n“I said I would.”\n\nRen looked at me. “You too.”\n\n“I said I would.”\n\nHe nodded as if the two promises belonged together.\n\n“The list helped,” Ren said. “Some families received word. Some did not. It was better than waiting without a name.”\n\nIroh's hands tightened around the cup he was holding.\n\n“Thank you for carrying it,” Ren continued.\n\n“You carried it first.”\n\nThe two men bowed to one another. Ren sat at the corner table and drank tea.\n\nBy afternoon, the shop had become crowded enough that I worked shoulder to shoulder with Iroh. Every time I reached for a cup, my fingers brushed. Every time he passed behind I, he warned I before coming close.\n\n“You are still asking,” I whispered.\n\n“I am still learning.”\n\n“You are allowed to become comfortable.”\n\n“Comfort does not replace respect.”\n\nThe answer made me look at him.\n\n“That is a good line,” I said.\n\n“You may write it down.”\n\n“I may steal it.”\n\n“Then I will charge you in pastries.”\n\nThe woman with the bright scarves returned near sunset. She looked at the two of I behind the counter and smiled.\n\n“I was wondering when you would stop pretending,” she said.\n\nIroh poured her tea. “We have never pretended.”\n\n“You have been discreet.”\n\n“There is a difference.”\n\nShe looked at me. “Are you happy?”\n\nThe question was direct enough to feel kind.\n\nI looked at Iroh. He did not answer for I.\n\n“Yes,” I said.\n\n“Good.” She lifted her cup. “Then the city may gossip if it needs exercise.”\n\nIroh's smile widened.\n\nAfter closing, I found a stack of letters on the counter. They were from people Iroh had met on the road. A governor asking for clarification. A village elder sending dried herbs. A child’s drawing of a dragon drinking tea.\n\n“You have brought the road home,” I said.\n\n“It followed me.”\n\n“Are you going to answer every letter?”\n\n“Eventually.”\n\n“You need rest.”\n\n“I will rest after—”\n\n“No.”\n\nHe stopped.\n\n“You are allowed to be a person before you are a resource,” I said.\n\nIroh looked at me with a mixture of surprise and pride.\n\n“You are becoming very authoritative.”\n\n“I have a chair behind the counter.”\n\n“A dangerous position.”\n\n“Sit.”\n\nHe sat.\n\nI poured tea. Then I sat beside him instead of returning to work.\n\nFor a while, the two of I answered no letters.\n\nIroh leaned his head against my shoulder.\n\n“I missed this,” he said.\n\n“The chair?”\n\n“The silence.”\n\nI turned my face toward his hair. “I missed you.”\n\nHe reached for my hand.\n\n“I love you,” he said.\n\n“I love you too.”\n\nThe shop was closed. The city moved outside. The letters could wait until morning.\n\nI kissed him beneath the warm lights, and the distance of the road fell away.\n\nThe next morning, Iroh found the letters from the journey spread across the counter. I had sorted them into three piles: urgent, important, and needs tea before answering.\n\n“The third pile is the largest,” he said.\n\n“It is the most honest.”\n\n“You have created a system.”\n\n“I have created a boundary.”\n\nHe touched the edge of the pile. “I approve.”\n\n“You are not allowed to answer all of them today.”\n\n“I was not planning to.”\n\n“You were looking at the urgent pile.”\n\n“It was looking at me.”\n\n“Then both of you need rest.”\n\nIroh sat. I poured two cups and moved the letters aside.\n\n“Tell me about the road,” he said.\n\nI told him about the flower valley, the broken latch, the storm, and the child who asked whether he was a dragon. He laughed at the right places and went quiet at the others.\n\n“You made tea for strangers,” he said.\n\n“You taught me.”\n\n“You improved the lesson.”\n\n“Do not become jealous.”\n\n“I am very proud.”\n\nThe shop door opened. A customer waited outside with a tired child. Iroh stood, but I caught his sleeve.\n\n“Ask,” I said.\n\nHe looked at me, then nodded. “May I?”\n\n“Yes.”\n\nHe opened the door.\n\nThe day began again, not as a return to the old routine, but as a continuation of the one I had built together.\n\nAt the end of the day, Iroh closed the door beside I. The lock clicked. His fingers found mine in the dark.\n\n“Home?” he asked.\n\nI looked up at the room above the shop.\n\n“Home,” I said.\n\nIroh's smile answered before his voice did.\n\n“Then let us go upstairs.”\n\nI climbed together, carrying the day with I and leaving the letters below.\n\nThe room above the shop waited with clean blankets and a balcony full of evening air.\n\nThe tea cooled on the counter.\n\nThe stairs creaked. Iroh laughed softly when I complained about the third step.\n\n“It has been repaired,” he said.\n\n“It still complains.”\n\n“It has character.”\n\n“It learned from you.”\n\nIroh kissed my forehead before opening the bedroom door.\n\nIroh's smile answered before his voice did.\n\n“Then let us go upstairs.”\n\nI climbed together, carrying the day with I and leaving the letters below.",
+  "content": "Ba Sing Se greeted me with noise.\n\nThe market had expanded while I was gone. New signs hung over old shops. Children ran between carts. The walls still bore scars, but jasmine had climbed higher.\n\nIroh stood beside me at the city gate, looking toward the tea shop.\n\n“Do you want to go directly there?” I asked.\n\n“Yes.”\n\n“Do you want to stop for food?”\n\n“Also yes.”\n\n“You can have both.”\n\n“This is why I brought you.”\n\nThe cart returned to the Jasmine Dragon by afternoon. The shop sign had been repainted. The windows were clean. A new shelf stood behind the counter.\n\nThe substitute tea master greeted meroh with a bow and immediately complained about the kettle.\n\n“It has become impossible,” she said.\n\n“It has always been impossible,” Iroh replied.\n\nShe looked at me. “You are in charge of it now.”\n\n“I was afraid of that.”\n\nThe shop filled with customers who wanted to hear about the journey. Iroh told them only what they needed to know. I served tea, answered questions, and watched his shoulders lower as the familiar rhythm returned.\n\nThat evening, after closing, he stood behind the counter with both hands resting on the wood.\n\n“I missed this,” he said.\n\n“The shop?”\n\n“The ordinary parts.”\n\nI stepped beside him. “I missed your tea.”\n\n“You made tea while I was gone.”\n\n“It was not the same.”\n\n“Practice.”\n\n“You are going to make me do it again.”\n\n“I am.”\n\nHe poured two cups. The jasmine scent filled the room.\n\n“I received your letters,” I said.\n\n“I wrote them.”\n\n“You wrote five.”\n\n“I was busy.”\n\n“The first one was a report about a governor.”\n\n“A fascinating governor.”\n\n“The second was a complaint about rice.”\n\n“Bad rice deserves documentation.”\n\n“The third said you missed me.”\n\nIroh's ears turned pink.\n\n“It did,” he admitted.\n\n“The fourth said you wished I were there.”\n\n“Also true.”\n\n“The fifth said you had learned how to sleep late.”\n\n“A triumph.”\n\nI lifted my cup. “You forgot to say you loved me.”\n\n“I was saving it for your return.”\n\nHe moved around the counter. “I love you.”\n\nThe words were simple enough to fill the shop.\n\nI placed my cup down. “I love you too.”\n\nHis hands found my waist. The kiss was warm with the relief of returning. He held me as if he had been careful for weeks and had finally reached the place where care could become desire again.\n\nWhen he paused, I touched his cheek.\n\n“Still comfortable?”\n\n“Yes.”\n\n“Still certain?”\n\n“Ask me tomorrow.”\n\nHis smile became bright. “You have learned to use my own lessons against me.”\n\n“It was inevitable.”\n\nThe shop door rattled in the wind. neither of us moved.\n\n“The sign is still turned to closed,” I said.\n\n“It has excellent manners.”\n\nHe kissed me again. The counter pressed lightly against my back. Iroh's hand moved slowly, asking through every pause. I answered by drawing him closer.\n\nThe lanterns outside blurred. The tea cooled. The shop became a private space at last.\n\nWe stayed above the shop until late, talking through the journey while rain began against the balcony.\n\nIn the morning, the jasmine plant had flowered.\n\nIroh found me standing by the window.\n\n“It is showing off,” he said.\n\n“It missed you.”\n\n“It has been cared for.”\n\n“So have you.”\n\nHe came behind me and wrapped his arms around my waist.\n\n“Yes,” he said. “I have.”\n\nThe shop opened at sunrise.\n\nWe went downstairs together.\n\nThe first customer arrived before the doors were fully open. Then came another, and another. News of Iroh's return had traveled faster than the cart. People wanted stories, explanations, and reassurance that the world outside the walls had not changed beyond recognition.\n\nIroh offered tea.\n\nI offered the truth when I had it and silence when I did not.\n\nThe former soldier, Ren, arrived before noon. He stood outside until I opened the door for him.\n\n“You came back,” he said to Iroh.\n\n“I said I would.”\n\nRen looked at me. “You too.”\n\n“I said I would.”\n\nHe nodded as if the two promises belonged together.\n\n“The list helped,” Ren said. “Some families received word. Some did not. It was better than waiting without a name.”\n\nIroh's hands tightened around the cup he was holding.\n\n“Thank you for carrying it,” Ren continued.\n\n“You carried it first.”\n\nThe two men bowed to one another. Ren sat at the corner table and drank tea.\n\nBy afternoon, the shop had become crowded enough that I worked shoulder to shoulder with Iroh. Every time I reached for a cup, my fingers brushed. Every time he passed behind me, he warned me before coming close.\n\n“You are still asking,” I whispered.\n\n“I am still learning.”\n\n“You are allowed to become comfortable.”\n\n“Comfort does not replace respect.”\n\nThe answer made me look at him.\n\n“That is a good line,” I said.\n\n“You may write it down.”\n\n“I may steal it.”\n\n“Then I will charge you in pastries.”\n\nThe woman with the bright scarves returned near sunset. She looked at the two of us behind the counter and smiled.\n\n“I was wondering when you would stop pretending,” she said.\n\nIroh poured her tea. “We have never pretended.”\n\n“You have been discreet.”\n\n“There is a difference.”\n\nShe looked at me. “Are you happy?”\n\nThe question was direct enough to feel kind.\n\nI looked at Iroh. He did not answer for me.\n\n“Yes,” I said.\n\n“Good.” She lifted her cup. “Then the city may gossip if it needs exercise.”\n\nIroh's smile widened.\n\nAfter closing, I found a stack of letters on the counter. They were from people Iroh had met on the road. A governor asking for clarification. A village elder sending dried herbs. A child’s drawing of a dragon drinking tea.\n\n“You have brought the road home,” I said.\n\n“It followed me.”\n\n“Are you going to answer every letter?”\n\n“Eventually.”\n\n“You need rest.”\n\n“I will rest after—”\n\n“No.”\n\nHe stopped.\n\n“You are allowed to be a person before you are a resource,” I said.\n\nIroh looked at me with a mixture of surprise and pride.\n\n“You are becoming very authoritative.”\n\n“I have a chair behind the counter.”\n\n“A dangerous position.”\n\n“Sit.”\n\nHe sat.\n\nI poured tea. Then I sat beside him instead of returning to work.\n\nFor a while, the two of us answered no letters.\n\nIroh leaned his head against my shoulder.\n\n“I missed this,” he said.\n\n“The chair?”\n\n“The silence.”\n\nI turned my face toward his hair. “I missed you.”\n\nHe reached for my hand.\n\n“I love you,” he said.\n\n“I love you too.”\n\nThe shop was closed. The city moved outside. The letters could wait until morning.\n\nI kissed him beneath the warm lights, and the distance of the road fell away.\n\nThe next morning, Iroh found the letters from the journey spread across the counter. I had sorted them into three piles: urgent, important, and needs tea before answering.\n\n“The third pile is the largest,” he said.\n\n“It is the most honest.”\n\n“You have created a system.”\n\n“I have created a boundary.”\n\nHe touched the edge of the pile. “I approve.”\n\n“You are not allowed to answer all of them today.”\n\n“I was not planning to.”\n\n“You were looking at the urgent pile.”\n\n“It was looking at me.”\n\n“Then both of you need rest.”\n\nIroh sat. I poured two cups and moved the letters aside.\n\n“Tell me about the road,” he said.\n\nI told him about the flower valley, the broken latch, the storm, and the child who asked whether he was a dragon. He laughed at the right places and went quiet at the others.\n\n“You made tea for strangers,” he said.\n\n“You taught me.”\n\n“You improved the lesson.”\n\n“Do not become jealous.”\n\n“I am very proud.”\n\nThe shop door opened. A customer waited outside with a tired child. Iroh stood, but I caught his sleeve.\n\n“Ask,” I said.\n\nHe looked at me, then nodded. “May I?”\n\n“Yes.”\n\nHe opened the door.\n\nThe day began again, not as a return to the old routine, but as a continuation of the one we had built together.\n\nAt the end of the day, Iroh closed the door beside me. The lock clicked. His fingers found mine in the dark.\n\n“Home?” he asked.\n\nI looked up at the room above the shop.\n\n“Home,” I said.\n\nIroh's smile answered before his voice did.\n\n“Then let us go upstairs.”\n\nWe climbed together, carrying the day with me and leaving the letters below.\n\nThe room above the shop waited with clean blankets and a balcony full of evening air.\n\nThe tea cooled on the counter.\n\nThe stairs creaked. Iroh laughed softly when I complained about the third step.\n\n“It has been repaired,” he said.\n\n“It still complains.”\n\n“It has character.”\n\n“It learned from you.”\n\nIroh kissed my forehead before opening the bedroom door.\n\nIroh's smile answered before his voice did.\n\n“Then let us go upstairs.”\n\nWe climbed together, carrying the day with me and leaving the letters below.",
   "fandom_folder": "Avatar",
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
@@ -78,5 +177,256 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "iroh",
+      "voice": "patient, warm, observant, lightly corny; philosophical without turning every line into a proverb",
+      "humor": "gentle teasing, tea/food practicality, affectionate misdirection"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "testing_power_play",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · Return to Ba Sing Se · Iroh / Jasper · testing_power_play · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+    "private_interlude_ready": true,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 17,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "avatar-18",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "avatar-18",
+    "private_handoff_resume_target": "avatar-18"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "avatar-18",
+    "available": true,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": true,
+    "relationship_stage": "testing_power_play",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": true,
+    "relationship_stage": "testing_power_play",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "avatar-17",
+    "chapter_number": 17,
+    "title": "Return to Ba Sing Se",
+    "relationship_stage": "testing_power_play",
+    "opening_anchor": "Ba Sing Se greeted me with noise.",
+    "closing_anchor": "“Then let us go upstairs.” We climbed together, carrying the day with me and leaving the letters below.",
+    "next_story_target": "avatar-18",
+    "private_resume_target": "avatar-18",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Avatar: The Last Airbender · Jasmine After Rain · Return to Ba Sing Se · Iroh / Jasper · testing_power_play · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "avatar-iroh",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo"
+    ],
+    "active_profile_ids": [
+      "avatar-iroh"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }

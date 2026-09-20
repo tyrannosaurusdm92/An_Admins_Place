@@ -1,5 +1,5 @@
 {
-  "schema_version": "5.2",
+  "schema_version": "6.4",
   "work_type": "fanfic_chapter",
   "format": "choice_enriched_first_person_reader_insert",
   "title": "The Road Through the Hills",
@@ -7,16 +7,19 @@
   "author": "William Saville",
   "dedication": "Written for Jasper",
   "date_written": "September 19, 2026",
-  "date_revised": null,
+  "date_revised": "2026-09-20",
   "fandom": "Avatar: The Last Airbender",
-  "pairing": "Iroh / Adult Reader",
-  "reader_character": "Adult unnamed first-person reader-proxy written in I / me / my / myself; appearance and legal name intentionally undefined.",
-  "rating": "Explicit-capable CYOA — adults only",
+  "pairing": "Iroh / Jasper",
+  "reader_character": "Jasper — adult named first-person reader-protagonist; narration uses I/me/my/mine/myself; external references may use they/she.",
+  "rating": "18+ Private Story / Private Interlude Handoff",
   "content_notes": [
-    "All romantic and sexual participants are adults (18+).",
-    "All principal romantic characters and the reader-proxy are adults",
+    "All principal romantic characters and Jasper are adults",
     "Romantic intimacy, sensual tension, praise, cuddling, and aftercare",
-    "Optional intimacy choices generate on-page explicit adult continuations through the configured story provider."
+    "Private adult-only project for Jasper.",
+    "Character dialogue follows speaker-specific intimate vocabulary.",
+    "The normal writer handles plot, banter, humor, slow burn, characterization, grammar, memory, continuity, and relationship consequences.",
+    "When a deliberately selected private interlude is reached, authored prose stops at a clean handoff seam before nudity or sexual action.",
+    "explicit-bridge.js owns the bounded private interlude; the normal writer resumes afterward with reconnection, dialogue, consequences, memory, and plot."
   ],
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "series_slug": "jasmine-after-rain",
@@ -24,53 +27,149 @@
   "chapter_number": 14,
   "word_count": 1509,
   "research_alignment": [
-    "Iroh's tea, food, Pai Sho, patience, and reciprocal care",
-    "Post-war Ba Sing Se and original-series Iroh"
+    "Iroh's tea, food, Pai Sho, patience, strategy, humor, grief, and reciprocal care",
+    "Post-war Ba Sing Se and original-series Iroh",
+    "Jasper remains the named first-person adult protagonist"
   ],
   "path_variants": {
-    "direct": "I carried the honest choice forward. Iroh listened for the truth beneath my words and met it without rushing me.",
-    "playful": "I carried the playful choice forward. Iroh's eyes warmed with the private joke, but he did not mistake humor for distance.",
-    "intimate": "Carry forward the decision to follow the intimacy on-page. Preserve consent, characterization, physical continuity, and the emotional consequences of the explicit adult scene."
+    "direct": "From “The Road Through the Hills,” I carried forward the choice “Let Iroh hear the part I nearly swallowed.” Choose honesty even if it makes the room feel smaller and more vulnerable. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "playful": "From “The Road Through the Hills,” I carried forward the choice “Let the tea cool while I make him laugh.” Choose ordinary warmth and banter, letting affection live in the practical details. The next chapter must remember its effect on trust, knowledge, boundaries, location, current dialogue, and the immediate unresolved problem.",
+    "private-handoff": "I chose the private handoff after “The Road Through the Hills.” The story state with Iroh remains binding: same room/location, same unfinished dialogue, same relationship stage (boundary_conversations), same boundaries, same memories, and the same unresolved plot pressure. When the private interlude returns, carry its emotional consequences forward and resume at avatar-15 without resetting the scene or relationship."
   },
   "choices": [
     {
       "id": "avatar-14-direct",
-      "label": "Say the honest thing",
+      "label": "Let Iroh hear the part I nearly swallowed",
       "target": "avatar-15",
       "path_key": "direct",
       "effect": {
         "trust": 1,
         "honesty": 1
       },
-      "description": "Choose clarity, even when it makes the moment vulnerable.",
-      "generation_hint": "Choose clarity, even when it makes the moment vulnerable."
+      "description": "Choose honesty even if it makes the room feel smaller and more vulnerable.",
+      "generation_hint": "Choose honesty even if it makes the room feel smaller and more vulnerable.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · The Road Through the Hills · Iroh / Jasper · Let Iroh hear the part I nearly swallowed · Choose honesty even if it makes the room feel smaller and more vulnerable. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-14-playful",
-      "label": "Let the moment be playful",
+      "label": "Let the tea cool while I make him laugh",
       "target": "avatar-15",
       "path_key": "playful",
       "effect": {
         "warmth": 1,
         "playfulness": 1
       },
-      "description": "Choose humor and softness without pretending the feeling is not real.",
-      "generation_hint": "Choose humor and softness without pretending the feeling is not real."
+      "description": "Choose ordinary warmth and banter, letting affection live in the practical details.",
+      "generation_hint": "Choose ordinary warmth and banter, letting affection live in the practical details.",
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · The Road Through the Hills · Iroh / Jasper · Let the tea cool while I make him laugh · Choose ordinary warmth and banter, letting affection live in the practical details. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "continuation_kind": "authored_next_chapter",
+      "continuity_bridge_required": true,
+      "material_branch_rule": "The selected choice must affect the carried-forward bridge state even when both authored paths enter the same next chapter."
     },
     {
       "id": "avatar-14-private",
-      "label": "Take the intimate route",
-      "target": "@generate-explicit",
-      "path_key": "intimate",
+      "label": "Take the private route",
+      "target": "@generate-explicit-detailed",
+      "path_key": "private-handoff",
       "effect": {
         "intimacy": 1,
         "trust": 1
       },
-      "description": "Continue on-page into a consensual adult explicit scene that follows this branch and stays in character.",
-      "generation_hint": "Move naturally from the current emotional and physical context into an on-page consensual adult explicit scene. Do not fade out, cut away, summarize the sex off-page, or jump directly to aftermath."
+      "description": "Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story.",
+      "generation_hint": "Stop the normal writer before nudity or sexual action. Carry the exact closing state of “The Road Through the Hills,” Jasper POV, canon voice, dialogue thread, boundaries, memories, relationship stage, and unresolved plot into explicit-bridge.js; when the private interlude is complete, return to avatar-15 and continue the larger story rather than resetting it.",
+      "private": true,
+      "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · The Road Through the Hills · Iroh / Jasper · Take the private route · Pause at the earned private-interlude seam, preserve the exact story state, hand only that bounded interlude to explicit-bridge.js, then return to the larger story. · boundary_conversations",
+      "style_requirements": [
+        "William-style scene craft/cadence without copying",
+        "Jasper first-person POV",
+        "canon-specific dialogue voice",
+        "slow-build continuity",
+        "concrete sensory/physical anchoring",
+        "emotional consequence and forward pull",
+        "carry the exact last authored scene state into generation",
+        "do not reset established relationship history"
+      ],
+      "memory_requirements": [
+        "selected choice",
+        "current dialogue thread",
+        "relationship changes",
+        "open plot threads",
+        "callbacks",
+        "favorite details",
+        "boundaries/promises",
+        "objects/locations",
+        "Jasper emotional state",
+        "last authored closing image",
+        "unresolved questions",
+        "relationship-stage continuity"
+      ],
+      "handoff_resume_target": "avatar-15",
+      "handoff_transition": {
+        "before": "fade_to_black",
+        "after": "fade_to_black",
+        "resume": "avatar-15"
+      },
+      "continuation_kind": "private_bridge_interlude",
+      "availability": {
+        "mode": "relationship_stage",
+        "available": false,
+        "relationship_stage": "boundary_conversations",
+        "rule": "Private interlude becomes selectable only after the authored slow burn has reached testing_power_play or later."
+      }
     }
   ],
-  "content": "The road through the hills was beautiful in the way difficult things sometimes were.\n\nPine trees covered the slopes. Water rushed through narrow valleys. Mist collected in the mornings and turned the world silver. The cart wheels complained over stone, and Iroh insisted the sound was a form of music.\n\n“Then the cart is a very unhappy musician,” I said.\n\n“It has experienced hardship.”\n\n“It needs a lesson in maintenance.”\n\n“Perhaps you should teach it.”\n\n“Perhaps you should stop arguing with objects.”\n\n“The cart began the argument.”\n\nI had been traveling for four days. The work was going well in small, exhausting pieces. Two governors had agreed to share water routes. A former commander had signed a proposal to return seized land. Another had refused to meet and sent a messenger who threw a stone at the tea chest.\n\n“Did you expect it to be easy?” I asked while repairing the broken latch.\n\n“No.”\n\n“Did you expect to fix everything?”\n\nIroh knelt beside I. “I hoped to help with something.”\n\n“That is different.”\n\n“I am aware.”\n\nThe latch refused to close. I tightened the screw.\n\n“Hold it,” I said.\n\nIroh held it.\n\n“No, not like that.”\n\nHe adjusted his hand.\n\n“Still wrong.”\n\n“I am doing my best.”\n\n“Your best is currently holding a piece of metal upside down.”\n\n“It is a complicated piece of metal.”\n\nI laughed. The sound echoed against the hills.\n\nIroh smiled at I, and the frustration left the morning.\n\nThat afternoon, the rain returned. The path became slick. The cart tilted when a wheel slipped into mud.\n\nIroh jumped down to push. I climbed beside him.\n\n“Stay in the cart,” he said.\n\n“No.”\n\n“The ground is dangerous.”\n\n“So is carrying everything alone.”\n\nHe looked at me, then nodded.\n\nTogether, I pushed until the wheel came free. Mud covered my clothes. Iroh's hair had fallen from its tie. He looked nothing like a general and everything like a man trying to move a stubborn cart through the weather.\n\n“You are laughing,” he said.\n\n“You have mud on your nose.”\n\n“You also have mud on your nose.”\n\n“That makes it fair.”\n\nThe nearest shelter was an abandoned way station. The roof held. The walls did not leak too badly. I built a fire while Iroh changed into dry clothes from the trunk.\n\nWhen he returned, he carried two cups of tea.\n\n“You brought tea into a storm,” I said.\n\n“Some priorities must survive.”\n\nI accepted the cup. Steam warmed my face.\n\nThe rain hammered the roof. The way station smelled of wet wool and smoke.\n\n“Do you regret bringing me?” I asked.\n\nIroh sat beside I on the blanket. “No.”\n\n“You answer quickly.”\n\n“Some questions deserve a quick answer.”\n\n“What if I am slowing you down?”\n\n“Then we will travel more slowly.”\n\n“What if I am a liability?”\n\n“Then we will plan more carefully.”\n\n“What if I am only here because you did not want to leave me behind?”\n\nIroh turned toward I. “I asked you to come because your judgment is valuable. I asked because I enjoy your company. I asked because I wanted to see what you would choose when the road became inconvenient.”\n\n“And what did I choose?”\n\n“You climbed into the mud.”\n\n“That is not very romantic.”\n\n“It was deeply romantic to me.”\n\nI leaned against his shoulder. He wrapped his cloak around both of I.\n\n“You do not have to earn your place beside me by being useful,” he said.\n\n“I know.”\n\n“Do you?”\n\n“I’m working on it.”\n\n“Then work slowly.”\n\nThe storm lasted through the night. I and Iroh took turns feeding the fire. At some point, I fell asleep with my head in his lap.\n\nWhen I woke, his hand was resting in my hair.\n\n“You were awake?” I asked.\n\n“For part of the night.”\n\n“Why didn’t you move?”\n\n“You looked comfortable.”\n\n“You could have woken me.”\n\n“I considered it.”\n\n“And?”\n\n“I decided the world could wait.”\n\nThe rain had stopped. Morning light entered through the broken shutters.\n\nI sat up. Iroh's hand fell away.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“Still wish to continue?”\n\nI touched his face. “Yes.”\n\nHe kissed me in the quiet way station. His mouth was warm. His hands held me close beneath the cloak.\n\nWhen the kiss deepened, he paused to ask. I answered. He smiled against my mouth.\n\nThe rest of the morning remained private, hidden from the road and the rain.\n\nAfterward, I repaired the latch.\n\nIt closed on the first attempt.\n\nIroh stared at it. “You have performed a miracle.”\n\n“I tightened a screw.”\n\n“Miracles are often misunderstood.”\n\nI packed the tea chests. He hitched the cart.\n\nThe road through the hills continued north.\n\nThe two of I followed it together, muddy, tired, and laughing.\n\nAfter the storm, the road became quiet for several miles. The trees dripped. Water ran in bright threads along the stones. Iroh drove the cart while I sat beside him with the repaired latch in my lap.\n\n“You are holding it like a trophy,” he said.\n\n“It defeated us.”\n\n“It was a latch.”\n\n“A stubborn latch.”\n\n“You are very loyal to objects once they annoy you.”\n\n“You are very loyal to people once they hurt you.”\n\nIroh glanced at I. “That was a sharper observation.”\n\n“I am practicing.”\n\n“I am proud.”\n\nI looked at the road. “Do you think loyalty is always good?”\n\n“No. Loyalty without judgment can become another form of fear.”\n\n“What should it be?”\n\n“A choice renewed. Not a chain inherited.”\n\nThe cart rolled over a bridge. The stream beneath it was swollen from the storm.\n\n“Would you still choose me if I stopped being useful?” I asked.\n\nIroh did not answer immediately.\n\n“Yes,” he said.\n\n“Why?”\n\n“Because you are not useful to me. You are beloved.”\n\nThe words were so direct that I forgot the road for a moment.\n\n“That sounds like a line you have been saving.”\n\n“I have been waiting for the right weather.”\n\n“The weather is muddy.”\n\n“It is honest.”\n\nI leaned my head against his shoulder.\n\nAt the next village, I stopped to replace the damaged tea leaves. The shopkeeper asked why Iroh was traveling with so many chests. He explained the negotiations. The shopkeeper offered directions to a mountain spring and a warning about the bridge ahead.\n\n“The bridge is out,” she said. “Take the forest path.”\n\nIroh thanked her and bought three bundles of tea.\n\n“You did not need more,” I said.\n\n“She gave us useful information.”\n\n“You are bribing every person with leaves.”\n\n“It is not bribery if everyone enjoys the exchange.”\n\nThe forest path was narrow but dry. I walked beside the cart, guiding the wheel around roots. Iroh let me choose the pace.\n\n“You trust me with the road,” I said.\n\n“I trust you to tell me when the road is unsafe.”\n\n“That is different.”\n\n“It is.”\n\n“You could trust me more.”\n\nIroh smiled. “I could.”\n\n“Will you?”\n\n“I am.”\n\nThe answer was enough.\n\nAt sunset, the forest opened onto a valley full of wildflowers. I stopped the cart. Iroh climbed down.\n\n“This is beautiful,” I said.\n\n“It is.”\n\n“You knew it was here.”\n\n“I hoped.”\n\nHe took my hand. The two of I walked into the flowers, leaving the cart behind.\n\nIroh kissed me beneath the evening sky. There was no storm, no argument, no urgent decision. Only the quiet pleasure of finding something beautiful after difficulty.\n\nWhen I returned to the cart, he tucked a small flower behind my ear.\n\n“You are showing off,” I said.\n\n“I am making a memory.”\n\nI kept the flower until it dried.\n\nWhen the night grew colder, I returned to the cart and built a small fire. Iroh wrapped the spare blanket around my shoulders. I protested that he was giving I all the warmth.\n\n“I have firebending,” he said.\n\n“That is not a substitute for a blanket.”\n\n“It is a very effective substitute.”\n\n“You are not allowed to set yourself on fire for romance.”\n\n“I had not planned to.”\n\n“Good.”\n\nHe sat beside I, close enough that my arms touched.\n\n“You are worried about my safety,” he said.\n\n“You are traveling through a politically unstable region with a cart full of tea.”\n\n“A dangerous combination.”\n\n“You say that like it is funny.”\n\n“It is a little funny.”\n\n“You are impossible.”\n\n“You have said this before.”\n\n“I am consistent.”\n\n“A valuable quality.”\n\nThe fire snapped. Iroh looked at the flower in my notebook.\n\n“You kept it,” he said.\n\n“It is evidence.”\n\n“Of what?”\n\n“That you can find something beautiful after a difficult day.”\n\nHe touched the page. “You are learning to keep the right evidence.”\n\nI leaned into him. The night settled around the camp. Neither of I hurried toward sleep.\n\nThe road could wait until sunrise.\n\nI was not in a hurry.\n\nThe flowers waited in the notebook, the cart waited on the road, and Iroh waited beside I.\n\nTogether, I watched night arrive.\n\nThe flowers kept their color in the fading light.\n\nIroh placed one beside my notebook before I returned to the cart.",
+  "content": "The road through the hills was beautiful in the way difficult things sometimes were.\n\nPine trees covered the slopes. Water rushed through narrow valleys. Mist collected in the mornings and turned the world silver. The cart wheels complained over stone, and Iroh insisted the sound was a form of music.\n\n“Then the cart is a very unhappy musician,” I said.\n\n“It has experienced hardship.”\n\n“It needs a lesson in maintenance.”\n\n“Perhaps you should teach it.”\n\n“Perhaps you should stop arguing with objects.”\n\n“The cart began the argument.”\n\nI had been traveling for four days. The work was going well in small, exhausting pieces. Two governors had agreed to share water routes. A former commander had signed a proposal to return seized land. Another had refused to meet and sent a messenger who threw a stone at the tea chest.\n\n“Did you expect it to be easy?” I asked while repairing the broken latch.\n\n“No.”\n\n“Did you expect to fix everything?”\n\nIroh knelt beside me. “I hoped to help with something.”\n\n“That is different.”\n\n“I am aware.”\n\nThe latch refused to close. I tightened the screw.\n\n“Hold it,” I said.\n\nIroh held it.\n\n“No, not like that.”\n\nHe adjusted his hand.\n\n“Still wrong.”\n\n“I am doing my best.”\n\n“Your best is currently holding a piece of metal upside down.”\n\n“It is a complicated piece of metal.”\n\nI laughed. The sound echoed against the hills.\n\nIroh smiled at me, and the frustration left the morning.\n\nThat afternoon, the rain returned. The path became slick. The cart tilted when a wheel slipped into mud.\n\nIroh jumped down to push. I climbed beside him.\n\n“Stay in the cart,” he said.\n\n“No.”\n\n“The ground is dangerous.”\n\n“So is carrying everything alone.”\n\nHe looked at me, then nodded.\n\nTogether, I pushed until the wheel came free. Mud covered my clothes. Iroh's hair had fallen from its tie. He looked nothing like a general and everything like a man trying to move a stubborn cart through the weather.\n\n“You are laughing,” he said.\n\n“You have mud on your nose.”\n\n“You also have mud on your nose.”\n\n“That makes it fair.”\n\nThe nearest shelter was an abandoned way station. The roof held. The walls did not leak too badly. I built a fire while Iroh changed into dry clothes from the trunk.\n\nWhen he returned, he carried two cups of tea.\n\n“You brought tea into a storm,” I said.\n\n“Some priorities must survive.”\n\nI accepted the cup. Steam warmed my face.\n\nThe rain hammered the roof. The way station smelled of wet wool and smoke.\n\n“Do you regret bringing me?” I asked.\n\nIroh sat beside me on the blanket. “No.”\n\n“You answer quickly.”\n\n“Some questions deserve a quick answer.”\n\n“What if I am slowing you down?”\n\n“Then we will travel more slowly.”\n\n“What if I am a liability?”\n\n“Then we will plan more carefully.”\n\n“What if I am only here because you did not want to leave me behind?”\n\nIroh turned toward me. “I asked you to come because your judgment is valuable. I asked because I enjoy your company. I asked because I wanted to see what you would choose when the road became inconvenient.”\n\n“And what did I choose?”\n\n“You climbed into the mud.”\n\n“That is not very romantic.”\n\n“It was deeply romantic to me.”\n\nI leaned against his shoulder. He wrapped his cloak around both of us.\n\n“You do not have to earn your place beside me by being useful,” he said.\n\n“I know.”\n\n“Do you?”\n\n“I’m working on it.”\n\n“Then work slowly.”\n\nThe storm lasted through the night. I and Iroh took turns feeding the fire. At some point, I fell asleep with my head in his lap.\n\nWhen I woke, his hand was resting in my hair.\n\n“You were awake?” I asked.\n\n“For part of the night.”\n\n“Why didn’t you move?”\n\n“You looked comfortable.”\n\n“You could have woken me.”\n\n“I considered it.”\n\n“And?”\n\n“I decided the world could wait.”\n\nThe rain had stopped. Morning light entered through the broken shutters.\n\nI sat up. Iroh's hand fell away.\n\n“Still comfortable?” he asked.\n\n“Yes.”\n\n“Still wish to continue?”\n\nI touched his face. “Yes.”\n\nHe kissed me in the quiet way station. His mouth was warm. His hands held me close beneath the cloak.\n\nWhen the kiss deepened, he paused to ask. I answered. He smiled against my mouth.\n\nThe rest of the morning remained private, hidden from the road and the rain.\n\nAfterward, I repaired the latch.\n\nIt closed on the first attempt.\n\nIroh stared at it. “You have performed a miracle.”\n\n“I tightened a screw.”\n\n“Miracles are often misunderstood.”\n\nI packed the tea chests. He hitched the cart.\n\nThe road through the hills continued north.\n\nthe two of us followed it together, muddy, tired, and laughing.\n\nAfter the storm, the road became quiet for several miles. The trees dripped. Water ran in bright threads along the stones. Iroh drove the cart while I sat beside him with the repaired latch in my lap.\n\n“You are holding it like a trophy,” he said.\n\n“It defeated us.”\n\n“It was a latch.”\n\n“A stubborn latch.”\n\n“You are very loyal to objects once they annoy you.”\n\n“You are very loyal to people once they hurt you.”\n\nIroh glanced at me. “That was a sharper observation.”\n\n“I am practicing.”\n\n“I am proud.”\n\nI looked at the road. “Do you think loyalty is always good?”\n\n“No. Loyalty without judgment can become another form of fear.”\n\n“What should it be?”\n\n“A choice renewed. Not a chain inherited.”\n\nThe cart rolled over a bridge. The stream beneath it was swollen from the storm.\n\n“Would you still choose me if I stopped being useful?” I asked.\n\nIroh did not answer immediately.\n\n“Yes,” he said.\n\n“Why?”\n\n“Because you are not useful to me. You are beloved.”\n\nThe words were so direct that I forgot the road for a moment.\n\n“That sounds like a line you have been saving.”\n\n“I have been waiting for the right weather.”\n\n“The weather is muddy.”\n\n“It is honest.”\n\nI leaned my head against his shoulder.\n\nAt the next village, I stopped to replace the damaged tea leaves. The shopkeeper asked why Iroh was traveling with so many chests. He explained the negotiations. The shopkeeper offered directions to a mountain spring and a warning about the bridge ahead.\n\n“The bridge is out,” she said. “Take the forest path.”\n\nIroh thanked her and bought three bundles of tea.\n\n“You did not need more,” I said.\n\n“She gave us useful information.”\n\n“You are bribing every person with leaves.”\n\n“It is not bribery if everyone enjoys the exchange.”\n\nThe forest path was narrow but dry. I walked beside the cart, guiding the wheel around roots. Iroh let me choose the pace.\n\n“You trust me with the road,” I said.\n\n“I trust you to tell me when the road is unsafe.”\n\n“That is different.”\n\n“It is.”\n\n“You could trust me more.”\n\nIroh smiled. “I could.”\n\n“Will you?”\n\n“I am.”\n\nThe answer was enough.\n\nAt sunset, the forest opened onto a valley full of wildflowers. I stopped the cart. Iroh climbed down.\n\n“This is beautiful,” I said.\n\n“It is.”\n\n“You knew it was here.”\n\n“I hoped.”\n\nHe took my hand. the two of us walked into the flowers, leaving the cart behind.\n\nIroh kissed me beneath the evening sky. There was no storm, no argument, no urgent decision. Only the quiet pleasure of finding something beautiful after difficulty.\n\nWhen I returned to the cart, he tucked a small flower behind my ear.\n\n“You are showing off,” I said.\n\n“I am making a memory.”\n\nI kept the flower until it dried.\n\nWhen the night grew colder, I returned to the cart and built a small fire. Iroh wrapped the spare blanket around my shoulders. I protested that he was giving me all the warmth.\n\n“I have firebending,” he said.\n\n“That is not a substitute for a blanket.”\n\n“It is a very effective substitute.”\n\n“You are not allowed to set yourself on fire for romance.”\n\n“I had not planned to.”\n\n“Good.”\n\nHe sat beside me, close enough that my arms touched.\n\n“You are worried about my safety,” he said.\n\n“You are traveling through a politically unstable region with a cart full of tea.”\n\n“A dangerous combination.”\n\n“You say that like it is funny.”\n\n“It is a little funny.”\n\n“You are impossible.”\n\n“You have said this before.”\n\n“I am consistent.”\n\n“A valuable quality.”\n\nThe fire snapped. Iroh looked at the flower in my notebook.\n\n“You kept it,” he said.\n\n“It is evidence.”\n\n“Of what?”\n\n“That you can find something beautiful after a difficult day.”\n\nHe touched the page. “You are learning to keep the right evidence.”\n\nI leaned into him. The night settled around the camp. neither of us hurried toward sleep.\n\nThe road could wait until sunrise.\n\nI was not in a hurry.\n\nThe flowers waited in the notebook, the cart waited on the road, and Iroh waited beside me.\n\nTogether, I watched night arrive.\n\nThe flowers kept their color in the fading light.\n\nIroh placed one beside my notebook before I returned to the cart.",
   "fandom_folder": "Avatar",
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
@@ -78,5 +177,256 @@
   "choice_count": 3,
   "adult_characters_confirmed": true,
   "consenting_adults_confirmed": true,
-  "content_mode": "romance"
+  "content_mode": "mature_on_page",
+  "audience": {
+    "private_project": true,
+    "sole_reader": "Jasper",
+    "minimum_age": 18,
+    "minors_allowed": false,
+    "rating_display": "18+ Private Story / Private Interlude Handoff"
+  },
+  "explicitness": {
+    "mode": "private_handoff",
+    "normal_writer_maximum": "romance/sensual tension before nudity or sexual action",
+    "private_interlude_route": "explicit-bridge.js",
+    "private_bridge_owns_interlude": true,
+    "return_to_normal_writer_after_interlude": true,
+    "authored_fade_as_censorship_allowed": false,
+    "clean_handoff_seam_allowed": true
+  },
+  "intimacy_profile": {
+    "adult_only": true,
+    "consent_required": true,
+    "consent_revocable": true,
+    "slow_build": true,
+    "playful_brattiness": true,
+    "brat_style": [
+      "witty",
+      "loophole",
+      "affectionate",
+      "praise-seeking",
+      "challenger"
+    ],
+    "praise": true,
+    "preferred_praise_terms": [
+      "good girl"
+    ],
+    "positive_affirmation_rituals": true,
+    "preferred_affirmations": [
+      "I am a good person.",
+      "I am deserving of love."
+    ],
+    "aftercare_and_reconnection": true,
+    "private_interlude_optional": true,
+    "private_interlude_never_required_by_chapter": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "reader_profile": {
+    "name": "Jasper",
+    "adult": true,
+    "birth_year": 1999,
+    "pov": "first_person",
+    "narrative_pronouns": {
+      "subject": "I",
+      "object": "me",
+      "possessive_determiner": "my",
+      "possessive_pronoun": "mine",
+      "reflexive": "myself"
+    },
+    "external_pronouns": [
+      "they/them",
+      "she/her"
+    ],
+    "birth_assignment": "AFAB",
+    "private_reader_project": true,
+    "normal_writer_boundary": "before nudity or sexual action"
+  },
+  "adult_gate_mode": "automatic_project_invariant",
+  "writer_style": {
+    "source": "William Saville supplied writing corpus",
+    "profile_file": "json/william-writing-style.json",
+    "reference_engine": "StoryTools.JasperWriterReference",
+    "apply_to": [
+      "plot",
+      "scene craft",
+      "dialogue",
+      "banter",
+      "humor",
+      "slow burn",
+      "interiority",
+      "memory callbacks",
+      "continuity",
+      "pre-handoff state",
+      "post-handoff reconnection"
+    ],
+    "bridge_relationship": "Feed style/cadence, canon voice, Jasper profile, scene state, memory, continuity, and selected reference passages into the existing bridge without changing the bridge.",
+    "copy_rule": "Study tendencies and relevant passages; do not copy supplied writing verbatim.",
+    "prose_fingerprint": [
+      "emotionally direct without flattening emotion into exposition",
+      "ground abstract feelings in concrete physical details, objects, weather, rooms, gestures, and sensory anchors",
+      "alternate compact emotional beats with fuller reflective paragraphs",
+      "let dialogue carry relationship pressure while narration carries interior consequence",
+      "use humor and ordinary practical actions to make vulnerable scenes feel lived-in rather than staged",
+      "favor character-specific reactions and small remembered details over generic declarations",
+      "allow grief, identity, survival, belonging, home, change, vulnerability, care, and autonomy to recur as thematic pressure",
+      "end scenes or chapters on an emotional consequence, changed understanding, concrete image, callback, or forward pull",
+      "preserve first-person immediacy and avoid omniscient knowledge outside Jasper's perception",
+      "use semicolons selectively for linked thoughts rather than mechanically"
+    ],
+    "dialogue_fingerprint": [
+      "continuous dialogue should sound conversational rather than like alternating speeches",
+      "interrupt dialogue with gestures, environment, hesitation, humor, and internal reaction",
+      "let characters dodge, misunderstand, tease, repair, and return to earlier wording",
+      "do not make every character equally eloquent, equally dominant, or equally emotionally transparent"
+    ],
+    "relationship_fingerprint": [
+      "slow burn must accumulate evidence: remembered preferences, repaired conflict, shared routines, private jokes, and practical care",
+      "attraction should not erase plot, outside obligations, individual goals, or conflict",
+      "vulnerability is strongest when it changes later behavior",
+      "after an intense/private interlude, resume with reconnection, humor, care, consequences, memory updates, and the next plot beat rather than treating intimacy as a reset"
+    ],
+    "character_lane": {
+      "id": "iroh",
+      "voice": "patient, warm, observant, lightly corny; philosophical without turning every line into a proverb",
+      "humor": "gentle teasing, tea/food practicality, affectionate misdirection"
+    }
+  },
+  "chapter_writer_context": {
+    "relationship_stage": "boundary_conversations",
+    "slow_build": true,
+    "story_first": true,
+    "private_interlude_optional": true,
+    "writer_reference_query": "Avatar: The Last Airbender · Jasmine After Rain · The Road Through the Hills · Iroh / Jasper · boundary_conversations · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "carry_forward": [
+      "current dialogue thread",
+      "relationship state",
+      "open plot threads",
+      "choice consequences",
+      "remembered favorite details",
+      "callbacks and objects",
+      "character-specific diction",
+      "Jasper emotional state",
+      "boundaries and promises",
+      "location/time continuity"
+    ],
+    "bridge_influence": [
+      "William-style cadence/scene craft",
+      "canon-specific voice",
+      "Jasper profile",
+      "exact pre-handoff scene state",
+      "memory and callbacks",
+      "relationship stage",
+      "open plot threads"
+    ],
+    "post_bridge_resume": [
+      "reconnection/aftercare",
+      "banter or humor when character-appropriate",
+      "memory update",
+      "relationship consequence",
+      "callback/payoff",
+      "next plot beat",
+      "William-style cadence"
+    ],
+    "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
+    "private_interlude_ready": false,
+    "continuity_snapshot_required": true,
+    "writer_reference_packet_required": true
+  },
+  "authored_sequence": {
+    "original_authored_chapter": true,
+    "chapter_number": 14,
+    "original_chapter_count": 40,
+    "next_authored_chapter": "avatar-15",
+    "continuation_after_original_finale": false,
+    "normal_continuation_target": "avatar-15",
+    "private_handoff_resume_target": "avatar-15"
+  },
+  "visual_private_handoff": {
+    "transition": "fade_to_black",
+    "meaning": "UI transition into/out of the user-owned private bridge; not a prose censorship device",
+    "fade_before_bridge": true,
+    "fade_after_bridge": true,
+    "preserve_exact_story_state": true,
+    "resume_target": "avatar-15",
+    "available": false,
+    "availability_rule": "testing_power_play or later"
+  },
+  "narrative_tense": "first_person_past",
+  "adult_content": {
+    "private_project": true,
+    "all_romantic_private_participants_adult": true,
+    "normal_writer_boundary": "before nudity or sexual action",
+    "private_interlude_bridge_required": true,
+    "private_interlude_available": false,
+    "relationship_stage": "boundary_conversations",
+    "consent_and_boundaries_carry_forward": true,
+    "post_interlude_reconnection_required": true
+  },
+  "private_handoff_eligibility": {
+    "available": false,
+    "relationship_stage": "boundary_conversations",
+    "earliest_stage": "testing_power_play",
+    "reason": "Slow-burn pacing: private interludes are optional and only become selectable after the authored relationship has established enough trust/boundary context.",
+    "choice_retained_in_json": true
+  },
+  "continuity_snapshot": {
+    "chapter_id": "avatar-14",
+    "chapter_number": 14,
+    "title": "The Road Through the Hills",
+    "relationship_stage": "boundary_conversations",
+    "opening_anchor": "The road through the hills was beautiful in the way difficult things sometimes were.",
+    "closing_anchor": "The flowers kept their color in the fading light. Iroh placed one beside my notebook before I returned to the cart.",
+    "next_story_target": "avatar-15",
+    "private_resume_target": "avatar-15",
+    "carry_forward": [
+      "unfinished dialogue",
+      "relationship state",
+      "choice effects",
+      "open plot threads",
+      "promises and boundaries",
+      "current location/time",
+      "objects/injuries/tasks",
+      "remembered personal details and callbacks",
+      "closing emotional image"
+    ]
+  },
+  "writer_reference": {
+    "engine": "StoryTools.JasperWriterReference",
+    "style_profile_file": "json/william-writing-style.json",
+    "query": "Avatar: The Last Airbender · Jasmine After Rain · The Road Through the Hills · Iroh / Jasper · boundary_conversations · Iroh's tea, food, Pai Sho, patience, and reciprocal care · Post-war Ba Sing Se and original-series Iroh",
+    "priority": "before_generic_genre_habits",
+    "required_for_generation": true,
+    "required_for_bridge_context": true,
+    "preserve_jasper_lock": true,
+    "preserve_character_lane": true,
+    "copy_source_sentences": false
+  },
+  "generation_contract": {
+    "authored_chapter": true,
+    "authored_total": 40,
+    "continue_beyond_authored_finale": true,
+    "generated_continuation_minimum_words": 1200,
+    "generated_continuation_target_words": 1800,
+    "never_restart_relationship": true,
+    "never_recap_as_substitute_for_scene": true,
+    "ordinary_choices_materially_affect_branch_state": true,
+    "private_handoff_is_optional": true,
+    "private_handoff_does_not_replace_main_plot": true,
+    "return_to_story_after_private_handoff": true
+  },
+  "character_library": {
+    "index": "json/characters/index.json",
+    "series_profile_ids": [
+      "avatar-iroh",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo"
+    ],
+    "active_profile_ids": [
+      "avatar-iroh"
+    ],
+    "resolver": "JasperFanfictionCharacterLibrary",
+    "continuity_rule": "Load active profiles for this chapter and preserve voice, motivation, relationships, and story-specific continuity."
+  }
 }
