@@ -1,0 +1,431 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "hazbin-zestial",
+  "name": "Zestial",
+  "fandom": "Hazbin Hotel",
+  "provenance": "canon_researched_expanded",
+  "aliases": [],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "ancient adult sinner demon",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "identity": {
+    "role": "one of the oldest feared Overlords; archaic sophisticated speech; patient and cautious; likes tea/books",
+    "fictional_character": true,
+    "species_or_type": "Sinner demon",
+    "gender": "male",
+    "continuity_scope": "television continuity through current 2026 material"
+  },
+  "personality": {
+    "core_traits": [
+      "one of the oldest feared Overlords",
+      "archaic sophisticated speech",
+      "patient and cautious",
+      "likes tea/books",
+      "compassionate to close associates while morally dark",
+      "older_wiser",
+      "precision_tamer",
+      "controlled_intensity"
+    ],
+    "motivations": [
+      "Overlord politics slow burn",
+      "tea-room confidant",
+      "ancient being amused by Jasper’s nerve",
+      "old-monster domesticity"
+    ],
+    "contradictions": [
+      "High-formality Iroh/Snape option: ancient, calm, tea-drinking, cautious, terrifyingly powerful, and capable of genuine concern for a small trusted circle."
+    ]
+  },
+  "voice": {
+    "register": "",
+    "dialogue_tendencies": [],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "one of the oldest feared Overlords",
+    "archaic sophisticated speech",
+    "patient and cautious",
+    "likes tea/books",
+    "compassionate to close associates while morally dark"
+  ],
+  "relationships": {
+    "Jasper": "Transformative adult relationship must preserve canon characterization.",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Sinner demon",
+  "generator_use": {
+    "best_story_functions": [
+      "Overlord politics slow burn",
+      "tea-room confidant",
+      "ancient being amused by Jasper’s nerve",
+      "old-monster domesticity",
+      "older_wiser",
+      "precision_tamer",
+      "controlled_intensity"
+    ],
+    "continuity_priorities": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "good-aligned saint",
+      "Iroh clone",
+      "bad faux-Shakespeare"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "style": "Immovable formal tamer: barely reacts, answers exactly, lets composure do the work.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "tea, books, long conversation and deliberate gifts; terrifying figure chooses gentleness without becoming harmless",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "formal and old-fashioned; clarity still required in explicit mode; modern crude slang is usually out of voice",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "tea, quiet presence, formal reassurance, prepared comforts",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "retrieval": {
+    "franchise": "Hazbin Hotel",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Iroh",
+      "Severus Snape"
+    ],
+    "tags": [
+      "older_wiser",
+      "precision_tamer",
+      "controlled_intensity"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "title": "https://hazbinhotel.fandom.com/wiki/Zestial",
+      "url": "https://hazbinhotel.fandom.com/wiki/Zestial"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Zestial",
+      "franchise": "Hazbin Hotel",
+      "continuity_scope": "television continuity through current 2026 material",
+      "fictional_only": true,
+      "species_or_type": "Sinner demon",
+      "gender": "male",
+      "character_id": "hazbin-hotel:zestial"
+    },
+    "adult_gate": {
+      "status": "ancient adult sinner demon",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Iroh",
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "older_wiser",
+        "precision_tamer",
+        "controlled_intensity"
+      ],
+      "why_this_matches": "High-formality Iroh/Snape option: ancient, calm, tea-drinking, cautious, terrifyingly powerful, and capable of genuine concern for a small trusted circle.",
+      "archetype_writing_notes": [
+        "Seasoned perspective should appear through decisions and lived habits, not constant advice speeches.",
+        "The character wins brat exchanges through exact wording, timing, and attention rather than volume.",
+        "Keep intensity beneath composure; the character should not become loud merely because a scene becomes sexual."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "one of the oldest feared Overlords",
+        "archaic sophisticated speech",
+        "patient and cautious",
+        "likes tea/books",
+        "compassionate to close associates while morally dark"
+      ],
+      "canon_relationship_or_romance_state": "No Jasper romance in canon; transformative adult fanfiction.",
+      "continuity_note": "television continuity through current 2026 material"
+    },
+    "voice_profile": {
+      "summary": "archaic, elegant, measured; subtle pettiness; very low modern profanity",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "patient, observant, difficult to rattle",
+        "precise, restrained, high-impact praise",
+        "measured, deliberate, focused"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "tea, books, long conversation and deliberate gifts; terrifying figure chooses gentleness without becoming harmless",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Immovable formal tamer: barely reacts, answers exactly, lets composure do the work.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "formal and old-fashioned; clarity still required in explicit mode; modern crude slang is usually out of voice",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "tea, quiet presence, formal reassurance, prepared comforts",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "Overlord politics slow burn",
+      "tea-room confidant",
+      "ancient being amused by Jasper’s nerve",
+      "old-monster domesticity"
+    ],
+    "do_not_flatten_into": [
+      "good-aligned saint",
+      "Iroh clone",
+      "bad faux-Shakespeare"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "Hazbin Hotel",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Iroh",
+        "Severus Snape"
+      ],
+      "tags": [
+        "older_wiser",
+        "precision_tamer",
+        "controlled_intensity"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://hazbinhotel.fandom.com/wiki/Zestial",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "hazbinhotel::zestial",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

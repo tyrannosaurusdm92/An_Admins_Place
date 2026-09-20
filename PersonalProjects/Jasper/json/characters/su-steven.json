@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "su-steven",
+  "name": "Steven Universe",
+  "fandom": "Steven Universe",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Steven"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Human-Gem hybrid and Greg’s son; young adult by Steven Universe Future ending",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "empathetic",
+      "helpful",
+      "idealistic",
+      "burdened",
+      "emotionally intense",
+      "learning boundaries"
+    ],
+    "motivations": [
+      "family scenes",
+      "Greg history",
+      "legacy consequences"
+    ],
+    "contradictions": [
+      "boundary conversations"
+    ]
+  },
+  "voice": {
+    "register": "earnest, emotionally transparent",
+    "dialogue_tendencies": [
+      "tries to help quickly",
+      "can overfunction for others",
+      "adult/post-Future version should reflect growth and need for boundaries"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "Gem powers",
+    "healing",
+    "shield",
+    "music",
+    "mediation"
+  ],
+  "relationships": {
+    "Greg": "father",
+    "Rose Quartz": "mother/legacy"
+  },
+  "appearance_and_presence": "Curly dark hair, star motifs; adult/post-Future context when appearing later",
+  "generator_use": {
+    "best_story_functions": [
+      "family scenes",
+      "Greg history",
+      "legacy consequences",
+      "boundary conversations"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "making him a child in adult-era story",
+      "therapist for everyone"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Steven Universe character overview",
+      "url": "https://en.wikipedia.org/wiki/Steven_Universe_(character)"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "stevenuniverse::steven universe",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

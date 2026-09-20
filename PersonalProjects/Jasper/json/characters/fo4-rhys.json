@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-rhys",
+  "name": "Knight Rhys",
+  "fandom": "Fallout 4",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Rhys"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Brotherhood knight in Recon Squad Gladius",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "abrasive",
+      "doctrinaire",
+      "dutiful",
+      "suspicious",
+      "brave"
+    ],
+    "motivations": [
+      "ideological friction",
+      "old-squad continuity",
+      "contrast with Danse’s growth"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "blunt, hostile-formal",
+    "dialogue_tendencies": [
+      "defaults to Brotherhood categories",
+      "respect must be earned",
+      "softness should be rare and context-specific"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "combat",
+    "Brotherhood operations"
+  ],
+  "relationships": {
+    "Danse": "commanding officer",
+    "Haylen": "former sponsor relationship with emotional ambiguity"
+  },
+  "appearance_and_presence": "Wounded, hardened knight presence at Cambridge Police Station",
+  "generator_use": {
+    "best_story_functions": [
+      "ideological friction",
+      "old-squad continuity",
+      "contrast with Danse’s growth"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "sudden friendly warmth without cause",
+      "making him secretly progressive"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Fallout Wiki — Rhys",
+      "url": "https://fallout.fandom.com/wiki/Rhys"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4::knight rhys",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

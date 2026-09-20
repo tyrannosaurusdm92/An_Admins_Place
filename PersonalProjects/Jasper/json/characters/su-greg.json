@@ -1,0 +1,503 @@
+{
+  "schema_version": "2.0-merged-pass3-research",
+  "profile_type": "generator_character_profile",
+  "id": "su-greg",
+  "name": "Greg Universe",
+  "fandom": "Steven Universe",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Greg",
+    "Greg DeMayo",
+    "Mr. Universe",
+    "Greg Universe"
+  ],
+  "age_status": "explicitly_adult",
+  "identity": {
+    "role": "Steven’s human father, former traveling musician and car-wash owner",
+    "fictional_character": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "continuity_scope": "Steven Universe / Steven Universe Future adult era"
+  },
+  "personality": {
+    "core_traits": [
+      "goofy",
+      "warm",
+      "self-deprecating",
+      "musical",
+      "emotionally sincere",
+      "avoidant about parts of his past",
+      "supportive",
+      "friendly, genuine and easygoing",
+      "musician and former manager",
+      "fatherhood is central",
+      "Rose and grief remain meaningful history",
+      "often uses simple lived-experience wisdom",
+      "goofy_sweetheart",
+      "dad_energy",
+      "family_first",
+      "grief_and_second_chances",
+      "brat_compatible"
+    ],
+    "motivations": [
+      "sappy romance",
+      "goofy banter",
+      "music as emotional language",
+      "Beach City slice-of-life",
+      "van road trip",
+      "music collaboration",
+      "post-Future second chance",
+      "domestic life beside Gem chaos"
+    ],
+    "contradictions": [
+      "older sweetheart energy",
+      "parent/family complexity",
+      "learning not to self-deprecate away his worth",
+      "The pure goofy-sweetheart branch: warm, funny, musical, unconventional, emotionally sincere, and far more perceptive than a bumbling-dad caricature."
+    ]
+  },
+  "voice": {
+    "register": "casual, goofy, sincere",
+    "dialogue_tendencies": [
+      "bad jokes and music references feel natural",
+      "can pivot from clowning to surprising emotional clarity",
+      "does not posture as sophisticated",
+      "care is often practical and verbally affirming"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "music/guitar",
+    "mechanical/car-wash work",
+    "parenting",
+    "improvised domestic care",
+    "friendly, genuine and easygoing",
+    "musician and former manager",
+    "fatherhood is central",
+    "Rose and grief remain meaningful history",
+    "often uses simple lived-experience wisdom"
+  ],
+  "relationships": {
+    "Steven": "son and central family bond",
+    "Rose Quartz": "late partner and formative love",
+    "Jasper": "adult post-series relationship in current fic",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Long hair/balding, beard, casual clothes; musician/van/car-wash imagery",
+  "generator_use": {
+    "best_story_functions": [
+      "sappy romance",
+      "goofy banter",
+      "music as emotional language",
+      "older sweetheart energy",
+      "parent/family complexity",
+      "learning not to self-deprecate away his worth",
+      "Beach City slice-of-life",
+      "van road trip",
+      "music collaboration",
+      "post-Future second chance",
+      "domestic life beside Gem chaos",
+      "goofy_sweetheart",
+      "dad_energy",
+      "family_first",
+      "grief_and_second_chances",
+      "brat_compatible"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones.",
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "turning him into a suave rockstar",
+      "constant incompetence",
+      "forgetting his capacity for serious emotional insight",
+      "dumb horny dad",
+      "passive pushover",
+      "perfect therapist",
+      "generic dominant"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume.",
+    "brat_tamer_profile": {
+      "style": "Amused sweetheart tamer: jokes back until one sudden firm line changes the temperature, then gets sappy when Jasper yields.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "music, rides, food, long talks, laughter and unflashy caretaking; being deliberately chosen matters",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "warm-direct contemporary language; direct anatomy can fit; praise is frequent and delighted; avoid hyper-formal euphemism or cold degradation",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "cuddling, snacks/water, music, dumb joke followed by startling sincerity",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "sources": [
+    {
+      "title": "Steven Universe Wiki — Greg Universe",
+      "url": "https://steven-universe.fandom.com/wiki/Greg_Universe"
+    },
+    {
+      "title": "Steven Universe Wiki — Greg Universe history",
+      "url": "https://steven-universe.fandom.com/wiki/Greg_Universe/History"
+    },
+    {
+      "title": "https://steven-universe.fandom.com/wiki/Greg_Universe",
+      "url": "https://steven-universe.fandom.com/wiki/Greg_Universe"
+    }
+  ],
+  "research_notes": "Pass-3 story-facing canon profile merged with the expanded research profile; neither source was discarded.",
+  "merged_profile": {
+    "canonical_key": "stevenuniverse::greg universe",
+    "sources_combined": [
+      "pass3_generator_profile",
+      "expanded_research_profile"
+    ],
+    "duplicate_policy": "same fandom + same fictional character merged into one resolver record"
+  },
+  "adult_gate": {
+    "status": "confirmed adult father",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "retrieval": {
+    "franchise": "Steven Universe",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Greg Universe"
+    ],
+    "tags": [
+      "goofy_sweetheart",
+      "dad_energy",
+      "family_first",
+      "grief_and_second_chances",
+      "brat_compatible"
+    ],
+    "continuation_ready": true
+  },
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Greg Universe",
+      "franchise": "Steven Universe",
+      "continuity_scope": "Steven Universe / Steven Universe Future adult era",
+      "fictional_only": true,
+      "species_or_type": "Human",
+      "gender": "male",
+      "character_id": "steven-universe:greg-universe"
+    },
+    "adult_gate": {
+      "status": "confirmed adult father",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "family_first",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "why_this_matches": "The pure goofy-sweetheart branch: warm, funny, musical, unconventional, emotionally sincere, and far more perceptive than a bumbling-dad caricature.",
+      "archetype_writing_notes": [
+        "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
+        "Use mature domestic competence, corny humor, and caretaking without infantilizing Jasper.",
+        "Family ties remain meaningful canon context; romance should not require the character to stop caring about family.",
+        "Let grief coexist with new desire; romance is not a cure or replacement for prior love.",
+        "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "friendly, genuine and easygoing",
+        "musician and former manager",
+        "fatherhood is central",
+        "Rose and grief remain meaningful history",
+        "often uses simple lived-experience wisdom"
+      ],
+      "canon_relationship_or_romance_state": "Rose/canon history stays meaningful; Jasper romance is transformative.",
+      "continuity_note": "Steven Universe / Steven Universe Future adult era"
+    },
+    "voice_profile": {
+      "summary": "casual, warm, dad-jokey, musically expressive; low-to-moderate profanity",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "playful, affectionate, willing to look ridiculous",
+        "warm, practical, protective",
+        "devoted, protective, domestic",
+        "tender, cautious, emotionally layered",
+        "teasing, responsive, attentive"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "music, rides, food, long talks, laughter and unflashy caretaking; being deliberately chosen matters",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Amused sweetheart tamer: jokes back until one sudden firm line changes the temperature, then gets sappy when Jasper yields.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "warm-direct contemporary language; direct anatomy can fit; praise is frequent and delighted; avoid hyper-formal euphemism or cold degradation",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "cuddling, snacks/water, music, dumb joke followed by startling sincerity",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "Beach City slice-of-life",
+      "van road trip",
+      "music collaboration",
+      "post-Future second chance",
+      "domestic life beside Gem chaos"
+    ],
+    "do_not_flatten_into": [
+      "dumb horny dad",
+      "passive pushover",
+      "perfect therapist",
+      "generic dominant"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "Steven Universe",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Greg Universe"
+      ],
+      "tags": [
+        "goofy_sweetheart",
+        "dad_energy",
+        "family_first",
+        "grief_and_second_chances",
+        "brat_compatible"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://steven-universe.fandom.com/wiki/Greg_Universe",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

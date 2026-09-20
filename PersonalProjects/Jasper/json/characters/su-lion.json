@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "su-lion",
+  "name": "Lion",
+  "fandom": "Steven Universe",
+  "provenance": "canon_researched",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Magical pink lion and guardian connected to Rose/Steven",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "independent",
+      "protective",
+      "mysterious",
+      "affectionate on own terms"
+    ],
+    "motivations": [
+      "family continuity",
+      "Rose secrets",
+      "visual comedy"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "nonverbal animal communication",
+    "dialogue_tendencies": [
+      "acts, ignores, nudges, portals, naps; no human speech"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "portal roar",
+    "pocket-dimension mane",
+    "transport",
+    "guardian behavior"
+  ],
+  "relationships": {
+    "Steven": "primary companion",
+    "Rose": "former trusted companion",
+    "Greg": "family-adjacent ally"
+  },
+  "appearance_and_presence": "Large magical pink lion",
+  "generator_use": {
+    "best_story_functions": [
+      "family continuity",
+      "Rose secrets",
+      "visual comedy"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "human dialogue",
+      "ordinary pet logic"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Steven Universe Wiki — Lion",
+      "url": "https://steven-universe.fandom.com/wiki/Lion"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "stevenuniverse::lion",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

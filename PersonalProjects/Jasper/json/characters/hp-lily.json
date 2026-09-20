@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "hp-lily",
+  "name": "Lily Potter",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Lily Evans",
+    "Lily"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Snape’s childhood friend and Harry’s mother; deceased before primary canon",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "compassionate",
+      "principled",
+      "talented",
+      "capable of sharp anger at cruelty"
+    ],
+    "motivations": [
+      "memory",
+      "grief",
+      "Snape’s unresolved history"
+    ],
+    "contradictions": [
+      "Harry family legacy"
+    ]
+  },
+  "voice": {
+    "register": "memory-dependent, warm but firm",
+    "dialogue_tendencies": [
+      "because she is deceased in current postwar setting, appearances should be memory/letters/Patronus associations unless AU explicitly says otherwise"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "magic",
+    "Potions talent in school",
+    "protective sacrificial magic"
+  ],
+  "relationships": {
+    "Snape": "childhood friendship broken by his choices/prejudice",
+    "James": "husband",
+    "Harry": "son"
+  },
+  "appearance_and_presence": "Red hair and green eyes are important memory anchors",
+  "generator_use": {
+    "best_story_functions": [
+      "memory",
+      "grief",
+      "Snape’s unresolved history",
+      "Harry family legacy"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "turning her into a reward/object",
+      "inventing posthumous approval for everything Snape does"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Official Harry Potter Encyclopedia — Severus Snape",
+      "url": "https://www.harrypotter.com/fact-file/characters-and-pets/severus-snape"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::lily potter",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "schema_version": "2.0-merged-pass3-research",
+  "profile_type": "generator_character_profile",
+  "id": "hp-snape",
+  "name": "Severus Snape",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Snape",
+    "Professor Snape",
+    "Severus Snape"
+  ],
+  "age_status": "explicitly_adult",
+  "identity": {
+    "role": "Former Hogwarts Potions Master, Head of Slytherin, spy and postwar survivor in current fic",
+    "fictional_character": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "continuity_scope": "adult Hogwarts-era or adult canon-divergent/post-war AU only"
+  },
+  "personality": {
+    "core_traits": [
+      "controlled",
+      "acerbic",
+      "intelligent",
+      "private",
+      "resentful",
+      "loyal in narrow intense ways",
+      "self-punishing",
+      "Potions and Occlumency expertise",
+      "sarcastic, private and controlled",
+      "capable of cruelty; do not sanitize",
+      "patient enough for long-term double-agent work",
+      "speech is exact and cutting",
+      "precision_tamer",
+      "controlled_intensity",
+      "dry_wit",
+      "competence",
+      "brat_compatible"
+    ],
+    "motivations": [
+      "slow trust",
+      "postwar guilt",
+      "domestic competence",
+      "post-war survival AU",
+      "adult colleague/researcher",
+      "Potions collaboration",
+      "spy aftermath",
+      "slow trust after institutional collapse"
+    ],
+    "contradictions": [
+      "verbal sparring",
+      "rare praise",
+      "learning to live instead of merely atone",
+      "The controlled/intellectual end of the taste profile: exact, sarcastic, private, highly competent, and emotionally difficult, making rare praise unusually powerful."
+    ]
+  },
+  "voice": {
+    "register": "precise, dry, cutting",
+    "dialogue_tendencies": [
+      "economical insults",
+      "exact wording",
+      "silence carries meaning",
+      "approval is rare and therefore significant",
+      "emotion usually leaks through control rather than speeches"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "Potions",
+    "Occlumency",
+    "Legilimency",
+    "duelling",
+    "Dark Arts knowledge",
+    "Potions and Occlumency expertise",
+    "sarcastic, private and controlled",
+    "capable of cruelty; do not sanitize",
+    "patient enough for long-term double-agent work",
+    "speech is exact and cutting"
+  ],
+  "relationships": {
+    "Lily Potter": "formative childhood bond and lifelong fixation/grief",
+    "Harry Potter": "fraught relationship shaped by James/Lily and war",
+    "McGonagall": "colleague with mutual competence/friction",
+    "Jasper": "postwar adult relationship in current story",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Tall/thin, black hair, dark robes, controlled physicality; postwar setting may show exhaustion/scars",
+  "generator_use": {
+    "best_story_functions": [
+      "slow trust",
+      "postwar guilt",
+      "domestic competence",
+      "verbal sparring",
+      "rare praise",
+      "learning to live instead of merely atone",
+      "post-war survival AU",
+      "adult colleague/researcher",
+      "Potions collaboration",
+      "spy aftermath",
+      "slow trust after institutional collapse",
+      "precision_tamer",
+      "controlled_intensity",
+      "dry_wit",
+      "competence",
+      "brat_compatible"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones.",
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "softening him into a cuddly generic professor",
+      "constant cruelty with no context",
+      "flowery romance voice",
+      "forgetting class prejudice/history",
+      "secretly harmless softie",
+      "generic cruel dom",
+      "student/minor sexualization",
+      "constant shouting"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume.",
+    "brat_tamer_profile": {
+      "style": "Precision tamer: spots loopholes, refines instructions, uses silence/timing, and makes Jasper state what they actually want.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "intellectual respect, repeated competence, private trust, verbal sparring; tenderness should remain difficult and deliberate",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "formal-direct to harsh-direct when explicitly opted in; direct clinical anatomy fits; harsher words such as cunt may appear only as a Jasper-enabled, scene-specific choice; avoid cute floral language",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "practical cleanup, water/potion if appropriate, exact discomfort check, quiet presence, rare praise",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "sources": [
+    {
+      "title": "Official Harry Potter Encyclopedia — Severus Snape",
+      "url": "https://www.harrypotter.com/fact-file/characters-and-pets/severus-snape"
+    },
+    {
+      "title": "https://www.harrypotter.com/features/the-shrewd-skills-of-severus-snape",
+      "url": "https://www.harrypotter.com/features/the-shrewd-skills-of-severus-snape"
+    },
+    {
+      "title": "https://harrypotter.fandom.com/wiki/Severus_Snape",
+      "url": "https://harrypotter.fandom.com/wiki/Severus_Snape"
+    }
+  ],
+  "research_notes": "Pass-3 story-facing canon profile merged with the expanded research profile; neither source was discarded.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::severus snape",
+    "sources_combined": [
+      "pass3_generator_profile",
+      "expanded_research_profile"
+    ],
+    "duplicate_policy": "same fandom + same fictional character merged into one resolver record"
+  },
+  "adult_gate": {
+    "status": "confirmed adult; post-war continuation requires canon divergence",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "retrieval": {
+    "franchise": "Harry Potter",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Severus Snape"
+    ],
+    "tags": [
+      "precision_tamer",
+      "controlled_intensity",
+      "dry_wit",
+      "competence",
+      "brat_compatible"
+    ],
+    "continuation_ready": true
+  },
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Severus Snape",
+      "franchise": "Harry Potter",
+      "continuity_scope": "adult Hogwarts-era or adult canon-divergent/post-war AU only",
+      "fictional_only": true,
+      "species_or_type": "Human",
+      "gender": "male",
+      "character_id": "harry-potter:severus-snape"
+    },
+    "adult_gate": {
+      "status": "confirmed adult; post-war continuation requires canon divergence",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Severus Snape"
+      ],
+      "archetypes": [
+        "precision_tamer",
+        "controlled_intensity",
+        "dry_wit",
+        "competence",
+        "brat_compatible"
+      ],
+      "why_this_matches": "The controlled/intellectual end of the taste profile: exact, sarcastic, private, highly competent, and emotionally difficult, making rare praise unusually powerful.",
+      "archetype_writing_notes": [
+        "The character wins brat exchanges through exact wording, timing, and attention rather than volume.",
+        "Keep intensity beneath composure; the character should not become loud merely because a scene becomes sexual.",
+        "Use understatement and exact one-liners instead of constant quipping.",
+        "Attraction should grow from watching the character do what they are actually good at.",
+        "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "Potions and Occlumency expertise",
+        "sarcastic, private and controlled",
+        "capable of cruelty; do not sanitize",
+        "patient enough for long-term double-agent work",
+        "speech is exact and cutting"
+      ],
+      "canon_relationship_or_romance_state": "No Jasper romance in canon. Adult/adult only. Canon-dead after the war unless story is canon-divergent.",
+      "continuity_note": "adult Hogwarts-era or adult canon-divergent/post-war AU only"
+    },
+    "voice_profile": {
+      "summary": "precise, economical, formal, cutting; selective profanity",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "precise, restrained, high-impact praise",
+        "measured, deliberate, focused",
+        "deadpan, economical, observant",
+        "capable, grounded, reliable",
+        "teasing, responsive, attentive"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "intellectual respect, repeated competence, private trust, verbal sparring; tenderness should remain difficult and deliberate",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Precision tamer: spots loopholes, refines instructions, uses silence/timing, and makes Jasper state what they actually want.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "formal-direct to harsh-direct when explicitly opted in; direct clinical anatomy fits; harsher words such as cunt may appear only as a Jasper-enabled, scene-specific choice; avoid cute floral language",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "practical cleanup, water/potion if appropriate, exact discomfort check, quiet presence, rare praise",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "post-war survival AU",
+      "adult colleague/researcher",
+      "Potions collaboration",
+      "spy aftermath",
+      "slow trust after institutional collapse"
+    ],
+    "do_not_flatten_into": [
+      "secretly harmless softie",
+      "generic cruel dom",
+      "student/minor sexualization",
+      "constant shouting"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "Harry Potter",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Severus Snape"
+      ],
+      "tags": [
+        "precision_tamer",
+        "controlled_intensity",
+        "dry_wit",
+        "competence",
+        "brat_compatible"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://www.harrypotter.com/features/the-shrewd-skills-of-severus-snape",
+        "purpose": "canon/personality grounding"
+      },
+      {
+        "url": "https://harrypotter.fandom.com/wiki/Severus_Snape",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

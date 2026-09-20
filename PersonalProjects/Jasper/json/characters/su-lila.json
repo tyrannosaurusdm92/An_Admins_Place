@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "su-lila",
+  "name": "Lila",
+  "fandom": "Steven Universe / Stars Between the Strings",
+  "provenance": "story_original",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Story-original musician from Greg’s past who once played with him",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "comfortable",
+      "musical",
+      "familiar",
+      "socially confident"
+    ],
+    "motivations": [
+      "past-life callback",
+      "jealousy/insecurity test handled maturely",
+      "music-world continuity"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "easy, history-rich",
+    "dialogue_tendencies": [
+      "speaks with the ease of someone who already shares stories with Greg",
+      "should not automatically be framed as romantic threat"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "music/performance"
+  ],
+  "relationships": {
+    "Greg": "former music collaborator",
+    "Jasper": "meets her through Greg/community"
+  },
+  "appearance_and_presence": "Not canon-specified",
+  "generator_use": {
+    "best_story_functions": [
+      "past-life callback",
+      "jealousy/insecurity test handled maturely",
+      "music-world continuity"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "villainizing her for prior closeness with Greg",
+      "inventing affair"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Existing authored chapter continuity",
+      "path": "SU/Stars-Between-The-Strings"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "stevenuniversestarsbetweenthestrings::lila",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

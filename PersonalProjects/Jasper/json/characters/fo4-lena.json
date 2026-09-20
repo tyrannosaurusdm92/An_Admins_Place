@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-lena",
+  "name": "Lena",
+  "fandom": "Fallout 4 / What the Armor Leaves Behind",
+  "provenance": "story_original",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Story-original escaped synth seeking autonomy and safety",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "cautious",
+      "exhausted",
+      "determined",
+      "self-defining"
+    ],
+    "motivations": [
+      "Danse identity payoff",
+      "autonomy",
+      "small-scale victory"
+    ],
+    "contradictions": [
+      "proof of changed behavior"
+    ]
+  },
+  "voice": {
+    "register": "guarded, sparse",
+    "dialogue_tendencies": [
+      "answers carefully until trust is established",
+      "choice of her own name matters",
+      "agency is central"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "survival",
+    "evading pursuit"
+  ],
+  "relationships": {
+    "Danse": "personhood mirror; he helps her escape rather than enforce Brotherhood doctrine",
+    "Jasper": "ally by continuity"
+  },
+  "appearance_and_presence": "Not canon-specified beyond being an escaped synth",
+  "generator_use": {
+    "best_story_functions": [
+      "Danse identity payoff",
+      "autonomy",
+      "small-scale victory",
+      "proof of changed behavior"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "using her only as metaphor",
+      "removing her agency",
+      "making Danse her savior in every scene"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Existing authored chapter continuity",
+      "path": "FO4/What-The-Armor-Leaves-Behind"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4whatthearmorleavesbehind::lena",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

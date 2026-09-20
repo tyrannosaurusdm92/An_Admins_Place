@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "su-garnet",
+  "name": "Garnet",
+  "fandom": "Steven Universe",
+  "provenance": "canon_researched_expanded",
+  "aliases": [],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "Ancient adult-coded Gem fusion.",
+    "explicit_mode_eligible": true,
+    "real_person_or_actor_material": "forbidden",
+    "minimum_partner_age": 18,
+    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+    "minor_era_romance_or_sexualization": "blocked"
+  },
+  "identity": {
+    "role": "Permanent fusion of Ruby and Sapphire; Future vision and formidable combat skill; Calm, confident, and deadpan; Embodies a relationship while remaining Garnet as a person",
+    "fictional_character": true,
+    "species_or_type": null,
+    "gender": "female",
+    "continuity_scope": "Steven Universe / Future Garnet"
+  },
+  "personality": {
+    "core_traits": [
+      "Permanent fusion of Ruby and Sapphire",
+      "Future vision and formidable combat skill",
+      "Calm, confident, and deadpan",
+      "Embodies a relationship while remaining Garnet as a person",
+      "Values choice and love over imposed roles",
+      "ancient_wisdom",
+      "calm",
+      "dry_humor",
+      "future_sight",
+      "devoted_love",
+      "steady"
+    ],
+    "motivations": [
+      "Future-era relationship AU",
+      "Gem missions",
+      "fusion ethics",
+      "Little Homeschool",
+      "future vision complicates surprise"
+    ],
+    "contradictions": [
+      "Garnet has Iroh-level calm with deadpan humor and enormous relationship wisdom, but her identity as Ruby-and-Sapphire means romance must respect fusion personhood.",
+      "Garnet is Ruby and Sapphire's committed fusion; Jasper romance requires carefully defined transformative/poly framework."
+    ]
+  },
+  "voice": {
+    "register": "Economical, calm, deadpan; warmth often arrives in very few words.",
+    "dialogue_tendencies": [
+      "Do not replace this character's cadence with Generic Dom voice.",
+      "Would a fan recognize the speaker without the name tag?",
+      "Keep profanity, formality, humor, and emotional openness consistent.",
+      "Never import actor/voice-actor biography or real-life persona."
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "Permanent fusion of Ruby and Sapphire",
+    "Future vision and formidable combat skill",
+    "Calm, confident, and deadpan",
+    "Embodies a relationship while remaining Garnet as a person",
+    "Values choice and love over imposed roles"
+  ],
+  "relationships": {
+    "Jasper": "Consent, choice, dancing, future possibilities, and Jasper learning that certainty does not mean emotional omniscience.",
+    "canon_state": "Garnet is Ruby and Sapphire's committed fusion; Jasper romance requires carefully defined transformative/poly framework."
+  },
+  "appearance_and_presence": "",
+  "generator_use": {
+    "best_story_functions": [
+      "Future-era relationship AU",
+      "Gem missions",
+      "fusion ethics",
+      "Little Homeschool",
+      "future vision complicates surprise",
+      "ancient_wisdom",
+      "calm",
+      "dry_humor",
+      "future_sight",
+      "devoted_love",
+      "steady"
+    ],
+    "continuity_priorities": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "omniscient therapist",
+      "future sight as mind reading",
+      "ignoring Ruby/Sapphire personhood"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Serene tamer; nearly impossible to rattle, but future vision must never become consent mind-reading.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "romance_writer_profile": {
+      "core": "Consent, choice, dancing, future possibilities, and Jasper learning that certainty does not mean emotional omniscience.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, minimalist, emotionally resonant.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "quiet holding",
+        "music",
+        "simple reassurance",
+        "space when wanted",
+        "check-in without overexplaining"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Steven Universe / Future Garnet",
+        "Permanent fusion of Ruby and Sapphire",
+        "Future vision and formidable combat skill",
+        "Calm, confident, and deadpan",
+        "Economical, calm, deadpan; warmth often arrives in very few words."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    }
+  },
+  "retrieval": {
+    "primary_tags": [
+      "ancient_wisdom",
+      "calm",
+      "devoted_love",
+      "dry_humor",
+      "future_sight",
+      "steady"
+    ],
+    "seed_similarity": [
+      "Iroh",
+      "Katara"
+    ],
+    "franchise": "Steven Universe",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_hard_explicit_mode": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "continuation_ready": true,
+    "default_pool_weight": "normal"
+  },
+  "sources": [
+    {
+      "title": "https://steven-universe.fandom.com/wiki/Garnet",
+      "url": "https://steven-universe.fandom.com/wiki/Garnet"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v2-expanded",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Garnet",
+      "franchise": "Steven Universe",
+      "continuity_scope": "Steven Universe / Future Garnet",
+      "fictional_only": true,
+      "gender": "female",
+      "character_id": "steven-universe:garnet"
+    },
+    "adult_gate": {
+      "status": "Ancient adult-coded Gem fusion.",
+      "explicit_mode_eligible": true,
+      "real_person_or_actor_material": "forbidden",
+      "minimum_partner_age": 18,
+      "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+      "minor_era_romance_or_sexualization": "blocked"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Iroh",
+        "Katara"
+      ],
+      "archetypes": [
+        "ancient_wisdom",
+        "calm",
+        "dry_humor",
+        "future_sight",
+        "devoted_love",
+        "steady"
+      ],
+      "fit_axes_0_to_5": {
+        "older_or_lived_experience": 3,
+        "goofy_or_playful_sweetheart": 3,
+        "wisdom_or_competence": 4,
+        "sappy_romance_potential": 5,
+        "brat_chemistry": 4
+      },
+      "why_this_matches": "Garnet has Iroh-level calm with deadpan humor and enormous relationship wisdom, but her identity as Ruby-and-Sapphire means romance must respect fusion personhood."
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "Permanent fusion of Ruby and Sapphire",
+        "Future vision and formidable combat skill",
+        "Calm, confident, and deadpan",
+        "Embodies a relationship while remaining Garnet as a person",
+        "Values choice and love over imposed roles"
+      ],
+      "canon_romanceable_or_relationship_state": "Garnet is Ruby and Sapphire's committed fusion; Jasper romance requires carefully defined transformative/poly framework.",
+      "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+    },
+    "voice_profile": {
+      "generator_voice_summary": "Economical, calm, deadpan; warmth often arrives in very few words.",
+      "hard_rule": "Do not replace this character's cadence with Generic Dom voice.",
+      "dialogue_consistency_checks": [
+        "Would a fan recognize the speaker without the name tag?",
+        "Keep profanity, formality, humor, and emotional openness consistent.",
+        "Never import actor/voice-actor biography or real-life persona."
+      ]
+    },
+    "romance_writer_profile": {
+      "core": "Consent, choice, dancing, future possibilities, and Jasper learning that certainty does not mean emotional omniscience.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Serene tamer; nearly impossible to rattle, but future vision must never become consent mind-reading.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, minimalist, emotionally resonant.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "quiet holding",
+        "music",
+        "simple reassurance",
+        "space when wanted",
+        "check-in without overexplaining"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "Future-era relationship AU",
+      "Gem missions",
+      "fusion ethics",
+      "Little Homeschool",
+      "future vision complicates surprise"
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Steven Universe / Future Garnet",
+        "Permanent fusion of Ruby and Sapphire",
+        "Future vision and formidable combat skill",
+        "Calm, confident, and deadpan",
+        "Economical, calm, deadpan; warmth often arrives in very few words."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    },
+    "do_not_flatten_into": [
+      "omniscient therapist",
+      "future sight as mind reading",
+      "ignoring Ruby/Sapphire personhood"
+    ],
+    "retrieval": {
+      "primary_tags": [
+        "ancient_wisdom",
+        "calm",
+        "devoted_love",
+        "dry_humor",
+        "future_sight",
+        "steady"
+      ],
+      "seed_similarity": [
+        "Iroh",
+        "Katara"
+      ],
+      "franchise": "Steven Universe",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_hard_explicit_mode": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "continuation_ready": true,
+      "default_pool_weight": "normal"
+    },
+    "research_boundary": {
+      "canon_facts": "Use identity and canon_grounding as the factual anchor.",
+      "fanfic_inference": "Romance/kink/adult diction/aftercare are inferred writing behavior for this private transformative project.",
+      "real_people": "Never substitute actor, voice actor, creator, celebrity, streamer, or other real person."
+    },
+    "sources": [
+      "https://steven-universe.fandom.com/wiki/Garnet"
+    ]
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "stevenuniverse::garnet",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "Steven Universe / Future Garnet",
+      "Permanent fusion of Ruby and Sapphire",
+      "Future vision and formidable combat skill",
+      "Calm, confident, and deadpan",
+      "Economical, calm, deadpan; warmth often arrives in very few words."
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "pet_names",
+      "consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries",
+      "location_and_timeline",
+      "promises_confessions_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions"
+    ],
+    "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "hp-harry",
+  "name": "Harry Potter",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Harry"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "War survivor, former student and central figure of Voldemort’s defeat",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "brave",
+      "impulsive",
+      "loyal",
+      "stubborn",
+      "dryly funny",
+      "trauma-shaped"
+    ],
+    "motivations": [
+      "postwar accountability",
+      "awkward reconciliation",
+      "war memory"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "plainspoken, sarcastic under pressure",
+    "dialogue_tendencies": [
+      "adult postwar Harry should be direct and impatient with mystique",
+      "can challenge Snape without becoming schoolboy caricature"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "defensive magic",
+    "duelling",
+    "flying",
+    "leadership"
+  ],
+  "relationships": {
+    "Snape": "complex posthumous/revised understanding; current fic may extend postwar interactions",
+    "Lily": "mother",
+    "James": "father"
+  },
+  "appearance_and_presence": "Adult postwar version only when present in current timeline",
+  "generator_use": {
+    "best_story_functions": [
+      "postwar accountability",
+      "awkward reconciliation",
+      "war memory"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "replaying school rivalry unchanged forever",
+      "saintly hero voice"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "HarryPotter.com — Hogwarts teachers",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-hogwarts-teachers"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::harry potter",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

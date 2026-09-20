@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "su-mara",
+  "name": "Mara",
+  "fandom": "Steven Universe / Stars Between the Strings",
+  "provenance": "story_original",
+  "aliases": [
+    "Mara"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Story-original Beach City community friend/acquaintance around Greg and Jasper",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "blunt",
+      "perceptive",
+      "funny",
+      "supportive",
+      "willing to ask the question Jasper is avoiding"
+    ],
+    "motivations": [
+      "confidante",
+      "comic truth-teller",
+      "choice pressure without coercion"
+    ],
+    "contradictions": [
+      "community continuity"
+    ]
+  },
+  "voice": {
+    "register": "casual, sharp, teasing",
+    "dialogue_tendencies": [
+      "short direct observations",
+      "calls out evasions without becoming cruel",
+      "humor sounds like established community familiarity"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "social perception",
+    "community organizing/support"
+  ],
+  "relationships": {
+    "Greg": "longstanding community familiarity",
+    "Jasper": "friend/confidante who notices relationship decisions"
+  },
+  "appearance_and_presence": "Not canon-specified; do not invent fixed physical traits unless story establishes them",
+  "generator_use": {
+    "best_story_functions": [
+      "confidante",
+      "comic truth-teller",
+      "choice pressure without coercion",
+      "community continuity"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "turning into therapist",
+      "inventing canon Gem ties",
+      "overusing as exposition device"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Existing authored chapter continuity",
+      "path": "SU/Stars-Between-The-Strings"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "stevenuniversestarsbetweenthestrings::mara",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

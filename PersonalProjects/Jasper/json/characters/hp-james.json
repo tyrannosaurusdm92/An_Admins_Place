@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "hp-james",
+  "name": "James Potter",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "James"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Harry’s father; Marauder and Order member, deceased before primary canon",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "confident",
+      "reckless in youth",
+      "loyal",
+      "brave",
+      "capable of bullying behavior when young"
+    ],
+    "motivations": [
+      "complicated memory",
+      "Snape conflict",
+      "Harry family history"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "memory-dependent",
+    "dialogue_tendencies": [
+      "current fic should distinguish school-age memories from adult wartime father/husband period"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "Transfiguration",
+    "duelling",
+    "Animagus"
+  ],
+  "relationships": {
+    "Lily": "wife",
+    "Harry": "son",
+    "Snape": "school enemy"
+  },
+  "appearance_and_presence": "Black-haired Potter resemblance",
+  "generator_use": {
+    "best_story_functions": [
+      "complicated memory",
+      "Snape conflict",
+      "Harry family history"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "flattening into pure villain or pure saint"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "HarryPotter.com — Hogwarts teachers",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-hogwarts-teachers"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::james potter",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

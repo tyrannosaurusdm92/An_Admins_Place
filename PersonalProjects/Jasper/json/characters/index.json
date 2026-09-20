@@ -1,0 +1,3465 @@
+{
+  "schema_version": "2.0-merged",
+  "library": "Jasper fanfiction unified character library",
+  "profile_count": 159,
+  "profiles": [
+    {
+      "id": "avatar-aang",
+      "name": "Aang",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-aang.json",
+      "canonical_key": "avatar::aang"
+    },
+    {
+      "id": "avatar-appa",
+      "name": "Appa",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-appa.json",
+      "canonical_key": "avatar::appa"
+    },
+    {
+      "id": "avatar-hakoda",
+      "name": "Hakoda",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-hakoda.json",
+      "canonical_key": "avatar::hakoda"
+    },
+    {
+      "id": "avatar-iroh",
+      "name": "Iroh",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-iroh.json",
+      "canonical_key": "avatar::iroh"
+    },
+    {
+      "id": "avatar-gran-gran",
+      "name": "Kanna (Gran Gran)",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-gran-gran.json",
+      "canonical_key": "avatar::kanna"
+    },
+    {
+      "id": "avatar-katara",
+      "name": "Katara",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-katara.json",
+      "canonical_key": "avatar::katara"
+    },
+    {
+      "id": "avatar-king-bumi",
+      "name": "King Bumi",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched_expanded",
+      "file": "avatar-king-bumi.json",
+      "canonical_key": "avatar::king bumi"
+    },
+    {
+      "id": "avatar-momo",
+      "name": "Momo",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-momo.json",
+      "canonical_key": "avatar::momo"
+    },
+    {
+      "id": "avatar-piandao",
+      "name": "Piandao",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched_expanded",
+      "file": "avatar-piandao.json",
+      "canonical_key": "avatar::piandao"
+    },
+    {
+      "id": "avatar-sokka",
+      "name": "Sokka",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-sokka.json",
+      "canonical_key": "avatar::sokka"
+    },
+    {
+      "id": "avatar-suki",
+      "name": "Suki",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched_expanded",
+      "file": "avatar-suki.json",
+      "canonical_key": "avatar::suki"
+    },
+    {
+      "id": "avatar-toph",
+      "name": "Toph Beifong",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-toph.json",
+      "canonical_key": "avatar::toph beifong"
+    },
+    {
+      "id": "avatar-zuko",
+      "name": "Zuko",
+      "fandom": "Avatar: The Last Airbender",
+      "provenance": "canon_researched",
+      "file": "avatar-zuko.json",
+      "canonical_key": "avatar::zuko"
+    },
+    {
+      "id": "coral-ben",
+      "name": "Ben",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-ben.json",
+      "canonical_key": "coralisland::ben"
+    },
+    {
+      "id": "coral-charles",
+      "name": "Charles",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-charles.json",
+      "canonical_key": "coralisland::charles"
+    },
+    {
+      "id": "coral-luke-duckorns",
+      "name": "Luke Duckorns",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-luke-duckorns.json",
+      "canonical_key": "coralisland::luke duckorns"
+    },
+    {
+      "id": "coral-mark",
+      "name": "Mark",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-mark.json",
+      "canonical_key": "coralisland::mark"
+    },
+    {
+      "id": "coral-noah-juma",
+      "name": "Noah Juma",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-noah-juma.json",
+      "canonical_key": "coralisland::noah juma"
+    },
+    {
+      "id": "coral-pablo-sanchez",
+      "name": "Pablo Sanchez",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-pablo-sanchez.json",
+      "canonical_key": "coralisland::pablo sanchez"
+    },
+    {
+      "id": "coral-rafael-sanchez",
+      "name": "Rafael Sanchez",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-rafael-sanchez.json",
+      "canonical_key": "coralisland::rafael sanchez"
+    },
+    {
+      "id": "coral-raj",
+      "name": "Raj",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-raj.json",
+      "canonical_key": "coralisland::raj"
+    },
+    {
+      "id": "coral-scott",
+      "name": "Scott",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-scott.json",
+      "canonical_key": "coralisland::scott"
+    },
+    {
+      "id": "coral-semeru",
+      "name": "Semeru",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-semeru.json",
+      "canonical_key": "coralisland::semeru"
+    },
+    {
+      "id": "coral-suki",
+      "name": "Suki",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-suki.json",
+      "canonical_key": "coralisland::suki"
+    },
+    {
+      "id": "coral-theo",
+      "name": "Theo",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-theo.json",
+      "canonical_key": "coralisland::theo"
+    },
+    {
+      "id": "coral-wakuu",
+      "name": "Wakuu",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-wakuu.json",
+      "canonical_key": "coralisland::wakuu"
+    },
+    {
+      "id": "coral-wataru",
+      "name": "Wataru",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-wataru.json",
+      "canonical_key": "coralisland::wataru"
+    },
+    {
+      "id": "coral-yuri",
+      "name": "Yuri",
+      "fandom": "Coral Island",
+      "provenance": "canon_researched_expanded",
+      "file": "coral-yuri.json",
+      "canonical_key": "coralisland::yuri"
+    },
+    {
+      "id": "dc-alfred-pennyworth",
+      "name": "Alfred Pennyworth",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-alfred-pennyworth.json",
+      "canonical_key": "dcmovies::alfred pennyworth"
+    },
+    {
+      "id": "dc-arthur-curry-aquaman",
+      "name": "Arthur Curry / Aquaman",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-arthur-curry-aquaman.json",
+      "canonical_key": "dcmovies::arthur curry aquaman"
+    },
+    {
+      "id": "dc-black-adam-teth-adam",
+      "name": "Black Adam / Teth-Adam",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-black-adam-teth-adam.json",
+      "canonical_key": "dcmovies::black adam teth adam"
+    },
+    {
+      "id": "dc-bruce-wayne-batman",
+      "name": "Bruce Wayne / Batman",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-bruce-wayne-batman.json",
+      "canonical_key": "dcmovies::bruce wayne batman"
+    },
+    {
+      "id": "dc-clark-kent-superman",
+      "name": "Clark Kent / Superman",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-clark-kent-superman.json",
+      "canonical_key": "dcmovies::clark kent superman"
+    },
+    {
+      "id": "dc-deadshot-floyd-lawton",
+      "name": "Deadshot / Floyd Lawton",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-deadshot-floyd-lawton.json",
+      "canonical_key": "dcmovies::deadshot floyd lawton"
+    },
+    {
+      "id": "dc-james-gordon",
+      "name": "James Gordon",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-james-gordon.json",
+      "canonical_key": "dcmovies::james gordon"
+    },
+    {
+      "id": "dc-kent-nelson-doctor-fate",
+      "name": "Kent Nelson / Doctor Fate",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-kent-nelson-doctor-fate.json",
+      "canonical_key": "dcmovies::kent nelson doctor fate"
+    },
+    {
+      "id": "dc-peacemaker-christopher-smith",
+      "name": "Peacemaker / Christopher Smith",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-peacemaker-christopher-smith.json",
+      "canonical_key": "dcmovies::peacemaker christopher smith"
+    },
+    {
+      "id": "dc-rick-flag",
+      "name": "Rick Flag",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-rick-flag.json",
+      "canonical_key": "dcmovies::rick flag"
+    },
+    {
+      "id": "dc-steve-trevor",
+      "name": "Steve Trevor",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-steve-trevor.json",
+      "canonical_key": "dcmovies::steve trevor"
+    },
+    {
+      "id": "dc-wonder-woman-diana-prince",
+      "name": "Wonder Woman / Diana Prince",
+      "fandom": "DC Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "dc-wonder-woman-diana-prince.json",
+      "canonical_key": "dcmovies::wonder woman diana prince"
+    },
+    {
+      "id": "disney-captain-phoebus",
+      "name": "Captain Phoebus",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-captain-phoebus.json",
+      "canonical_key": "disneymovies::captain phoebus"
+    },
+    {
+      "id": "disney-flynn-rider-eugene-fitzherbert",
+      "name": "Flynn Rider / Eugene Fitzherbert",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-flynn-rider-eugene-fitzherbert.json",
+      "canonical_key": "disneymovies::flynn rider eugene fitzherbert"
+    },
+    {
+      "id": "disney-genie",
+      "name": "Genie",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-genie.json",
+      "canonical_key": "disneymovies::genie"
+    },
+    {
+      "id": "disney-king-fergus",
+      "name": "King Fergus",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-king-fergus.json",
+      "canonical_key": "disneymovies::king fergus"
+    },
+    {
+      "id": "disney-king-triton",
+      "name": "King Triton",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-king-triton.json",
+      "canonical_key": "disneymovies::king triton"
+    },
+    {
+      "id": "disney-kristoff",
+      "name": "Kristoff",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-kristoff.json",
+      "canonical_key": "disneymovies::kristoff"
+    },
+    {
+      "id": "disney-kronk",
+      "name": "Kronk",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-kronk.json",
+      "canonical_key": "disneymovies::kronk"
+    },
+    {
+      "id": "disney-li-shang",
+      "name": "Li Shang",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-li-shang.json",
+      "canonical_key": "disneymovies::li shang"
+    },
+    {
+      "id": "disney-maui",
+      "name": "Maui",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-maui.json",
+      "canonical_key": "disneymovies::maui"
+    },
+    {
+      "id": "disney-pacha",
+      "name": "Pacha",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-pacha.json",
+      "canonical_key": "disneymovies::pacha"
+    },
+    {
+      "id": "disney-prince-naveen",
+      "name": "Prince Naveen",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-prince-naveen.json",
+      "canonical_key": "disneymovies::prince naveen"
+    },
+    {
+      "id": "disney-robert-philip",
+      "name": "Robert Philip",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-robert-philip.json",
+      "canonical_key": "disneymovies::robert philip"
+    },
+    {
+      "id": "disney-the-beast-prince-adam",
+      "name": "The Beast / Prince Adam",
+      "fandom": "Disney Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "disney-the-beast-prince-adam.json",
+      "canonical_key": "disneymovies::the beast prince adam"
+    },
+    {
+      "id": "fo4-maxson",
+      "name": "Arthur Maxson",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-maxson.json",
+      "canonical_key": "fallout4::arthur maxson"
+    },
+    {
+      "id": "fo4-curie",
+      "name": "Curie",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-curie.json",
+      "canonical_key": "fallout4::curie"
+    },
+    {
+      "id": "fo4-cutler",
+      "name": "Cutler",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-cutler.json",
+      "canonical_key": "fallout4::cutler"
+    },
+    {
+      "id": "fo4-deacon",
+      "name": "Deacon",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-deacon.json",
+      "canonical_key": "fallout4::deacon"
+    },
+    {
+      "id": "fo4-john-hancock",
+      "name": "John Hancock",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-john-hancock.json",
+      "canonical_key": "fallout4::john hancock"
+    },
+    {
+      "id": "fo4-rhys",
+      "name": "Knight Rhys",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-rhys.json",
+      "canonical_key": "fallout4::knight rhys"
+    },
+    {
+      "id": "fo4-kells",
+      "name": "Lancer-Captain Kells",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-kells.json",
+      "canonical_key": "fallout4::lancer captain kells"
+    },
+    {
+      "id": "fo4-nick-valentine",
+      "name": "Nick Valentine",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-nick-valentine.json",
+      "canonical_key": "fallout4::nick valentine"
+    },
+    {
+      "id": "fo4-old-longfellow",
+      "name": "Old Longfellow",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-old-longfellow.json",
+      "canonical_key": "fallout4::old longfellow"
+    },
+    {
+      "id": "fo4-brandis",
+      "name": "Paladin Brandis",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-brandis.json",
+      "canonical_key": "fallout4::paladin brandis"
+    },
+    {
+      "id": "fo4-danse",
+      "name": "Paladin Danse",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-danse.json",
+      "canonical_key": "fallout4::paladin danse"
+    },
+    {
+      "id": "fo4-piper-wright",
+      "name": "Piper Wright",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-piper-wright.json",
+      "canonical_key": "fallout4::piper wright"
+    },
+    {
+      "id": "fo4-preston-garvey",
+      "name": "Preston Garvey",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched_expanded",
+      "file": "fo4-preston-garvey.json",
+      "canonical_key": "fallout4::preston garvey"
+    },
+    {
+      "id": "fo4-ingram",
+      "name": "Proctor Ingram",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-ingram.json",
+      "canonical_key": "fallout4::proctor ingram"
+    },
+    {
+      "id": "fo4-quinlan",
+      "name": "Proctor Quinlan",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-quinlan.json",
+      "canonical_key": "fallout4::proctor quinlan"
+    },
+    {
+      "id": "fo4-haylen",
+      "name": "Scribe Haylen",
+      "fandom": "Fallout 4",
+      "provenance": "canon_researched",
+      "file": "fo4-haylen.json",
+      "canonical_key": "fallout4::scribe haylen"
+    },
+    {
+      "id": "fo4-amos",
+      "name": "Amos",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind",
+      "provenance": "story_original",
+      "file": "fo4-amos.json",
+      "canonical_key": "fallout4whatthearmorleavesbehind::amos"
+    },
+    {
+      "id": "fo4-lena",
+      "name": "Lena",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind",
+      "provenance": "story_original",
+      "file": "fo4-lena.json",
+      "canonical_key": "fallout4whatthearmorleavesbehind::lena"
+    },
+    {
+      "id": "fo4-mara",
+      "name": "Mara",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind",
+      "provenance": "story_original",
+      "file": "fo4-mara.json",
+      "canonical_key": "fallout4whatthearmorleavesbehind::mara"
+    },
+    {
+      "id": "fo76-adelaide",
+      "name": "Adelaide",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-adelaide.json",
+      "canonical_key": "fallout76::adelaide"
+    },
+    {
+      "id": "fo76-aries",
+      "name": "Aries",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-aries.json",
+      "canonical_key": "fallout76::aries"
+    },
+    {
+      "id": "fo76-beckett",
+      "name": "Beckett",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-beckett.json",
+      "canonical_key": "fallout76::beckett"
+    },
+    {
+      "id": "fo76-commander-sofia-daguerre",
+      "name": "Commander Sofia Daguerre",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-commander-sofia-daguerre.json",
+      "canonical_key": "fallout76::commander sofia daguerre"
+    },
+    {
+      "id": "fo76-joey-bello",
+      "name": "Joey Bello",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-joey-bello.json",
+      "canonical_key": "fallout76::joey bello"
+    },
+    {
+      "id": "fo76-katherine-swan",
+      "name": "Katherine Swan",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-katherine-swan.json",
+      "canonical_key": "fallout76::katherine swan"
+    },
+    {
+      "id": "fo76-leo-petrov",
+      "name": "Leo Petrov",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-leo-petrov.json",
+      "canonical_key": "fallout76::leo petrov"
+    },
+    {
+      "id": "fo76-raider-punk",
+      "name": "Raider Punk",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-raider-punk.json",
+      "canonical_key": "fallout76::raider punk"
+    },
+    {
+      "id": "fo76-solomon-hardy",
+      "name": "Solomon Hardy",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-solomon-hardy.json",
+      "canonical_key": "fallout76::solomon hardy"
+    },
+    {
+      "id": "fo76-vernon-dodge",
+      "name": "Vernon Dodge",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-vernon-dodge.json",
+      "canonical_key": "fallout76::vernon dodge"
+    },
+    {
+      "id": "fo76-vinny-costa",
+      "name": "Vinny Costa",
+      "fandom": "Fallout 76",
+      "provenance": "canon_researched_expanded",
+      "file": "fo76-vinny-costa.json",
+      "canonical_key": "fallout76::vinny costa"
+    },
+    {
+      "id": "hp-dumbledore",
+      "name": "Albus Dumbledore",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-dumbledore.json",
+      "canonical_key": "harrypotter::albus dumbledore"
+    },
+    {
+      "id": "hp-arthur-weasley",
+      "name": "Arthur Weasley",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched_expanded",
+      "file": "hp-arthur-weasley.json",
+      "canonical_key": "harrypotter::arthur weasley"
+    },
+    {
+      "id": "hp-harry",
+      "name": "Harry Potter",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-harry.json",
+      "canonical_key": "harrypotter::harry potter"
+    },
+    {
+      "id": "hp-james",
+      "name": "James Potter",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-james.json",
+      "canonical_key": "harrypotter::james potter"
+    },
+    {
+      "id": "hp-kingsley",
+      "name": "Kingsley Shacklebolt",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-kingsley.json",
+      "canonical_key": "harrypotter::kingsley shacklebolt"
+    },
+    {
+      "id": "hp-lily",
+      "name": "Lily Potter",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-lily.json",
+      "canonical_key": "harrypotter::lily potter"
+    },
+    {
+      "id": "hp-voldemort",
+      "name": "Lord Voldemort",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-voldemort.json",
+      "canonical_key": "harrypotter::lord voldemort"
+    },
+    {
+      "id": "hp-lucius",
+      "name": "Lucius Malfoy",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-lucius.json",
+      "canonical_key": "harrypotter::lucius malfoy"
+    },
+    {
+      "id": "hp-mcgonagall",
+      "name": "Minerva McGonagall",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-mcgonagall.json",
+      "canonical_key": "harrypotter::minerva mcgonagall"
+    },
+    {
+      "id": "hp-pomfrey",
+      "name": "Poppy Pomfrey",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-pomfrey.json",
+      "canonical_key": "harrypotter::poppy pomfrey"
+    },
+    {
+      "id": "hp-remus-lupin",
+      "name": "Remus Lupin",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched_expanded",
+      "file": "hp-remus-lupin.json",
+      "canonical_key": "harrypotter::remus lupin"
+    },
+    {
+      "id": "hp-hagrid",
+      "name": "Rubeus Hagrid",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-hagrid.json",
+      "canonical_key": "harrypotter::rubeus hagrid"
+    },
+    {
+      "id": "hp-snape",
+      "name": "Severus Snape",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched",
+      "file": "hp-snape.json",
+      "canonical_key": "harrypotter::severus snape"
+    },
+    {
+      "id": "hp-sirius-black",
+      "name": "Sirius Black",
+      "fandom": "Harry Potter",
+      "provenance": "canon_researched_expanded",
+      "file": "hp-sirius-black.json",
+      "canonical_key": "harrypotter::sirius black"
+    },
+    {
+      "id": "hazbin-alastor",
+      "name": "Alastor",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-alastor.json",
+      "canonical_key": "hazbinhotel::alastor"
+    },
+    {
+      "id": "hazbin-angel-dust",
+      "name": "Angel Dust",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-angel-dust.json",
+      "canonical_key": "hazbinhotel::angel dust"
+    },
+    {
+      "id": "hazbin-carmilla-carmine",
+      "name": "Carmilla Carmine",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-carmilla-carmine.json",
+      "canonical_key": "hazbinhotel::carmilla carmine"
+    },
+    {
+      "id": "hazbin-husk",
+      "name": "Husk",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-husk.json",
+      "canonical_key": "hazbinhotel::husk"
+    },
+    {
+      "id": "hazbin-lucifer-morningstar",
+      "name": "Lucifer Morningstar",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-lucifer-morningstar.json",
+      "canonical_key": "hazbinhotel::lucifer morningstar"
+    },
+    {
+      "id": "hazbin-rosie",
+      "name": "Rosie",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-rosie.json",
+      "canonical_key": "hazbinhotel::rosie"
+    },
+    {
+      "id": "hazbin-sir-pentious",
+      "name": "Sir Pentious",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-sir-pentious.json",
+      "canonical_key": "hazbinhotel::sir pentious"
+    },
+    {
+      "id": "hazbin-vaggie",
+      "name": "Vaggie",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-vaggie.json",
+      "canonical_key": "hazbinhotel::vaggie"
+    },
+    {
+      "id": "hazbin-zestial",
+      "name": "Zestial",
+      "fandom": "Hazbin Hotel",
+      "provenance": "canon_researched_expanded",
+      "file": "hazbin-zestial.json",
+      "canonical_key": "hazbinhotel::zestial"
+    },
+    {
+      "id": "marvel-alexei-shostakov-red-guardian",
+      "name": "Alexei Shostakov / Red Guardian",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-alexei-shostakov-red-guardian.json",
+      "canonical_key": "marvelmovies::alexei shostakov red guardian"
+    },
+    {
+      "id": "marvel-bruce-banner-hulk",
+      "name": "Bruce Banner / Hulk",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-bruce-banner-hulk.json",
+      "canonical_key": "marvelmovies::bruce banner hulk"
+    },
+    {
+      "id": "marvel-bucky-barnes-winter-soldier",
+      "name": "Bucky Barnes / Winter Soldier",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-bucky-barnes-winter-soldier.json",
+      "canonical_key": "marvelmovies::bucky barnes winter soldier"
+    },
+    {
+      "id": "marvel-clint-barton-hawkeye",
+      "name": "Clint Barton / Hawkeye",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-clint-barton-hawkeye.json",
+      "canonical_key": "marvelmovies::clint barton hawkeye"
+    },
+    {
+      "id": "marvel-happy-hogan",
+      "name": "Happy Hogan",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-happy-hogan.json",
+      "canonical_key": "marvelmovies::happy hogan"
+    },
+    {
+      "id": "marvel-james-rhodey-rhodes-war-machine",
+      "name": "James 'Rhodey' Rhodes / War Machine",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-james-rhodey-rhodes-war-machine.json",
+      "canonical_key": "marvelmovies::james rhodey rhodes war machine"
+    },
+    {
+      "id": "marvel-loki",
+      "name": "Loki",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-loki.json",
+      "canonical_key": "marvelmovies::loki"
+    },
+    {
+      "id": "marvel-m-baku",
+      "name": "M'Baku",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-m-baku.json",
+      "canonical_key": "marvelmovies::m baku"
+    },
+    {
+      "id": "marvel-matt-murdock-daredevil",
+      "name": "Matt Murdock / Daredevil",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-matt-murdock-daredevil.json",
+      "canonical_key": "marvelmovies::matt murdock daredevil"
+    },
+    {
+      "id": "marvel-nick-fury",
+      "name": "Nick Fury",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-nick-fury.json",
+      "canonical_key": "marvelmovies::nick fury"
+    },
+    {
+      "id": "marvel-peter-quill-star-lord",
+      "name": "Peter Quill / Star-Lord",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-peter-quill-star-lord.json",
+      "canonical_key": "marvelmovies::peter quill star lord"
+    },
+    {
+      "id": "marvel-scott-lang-ant-man",
+      "name": "Scott Lang / Ant-Man",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-scott-lang-ant-man.json",
+      "canonical_key": "marvelmovies::scott lang ant man"
+    },
+    {
+      "id": "marvel-stephen-strange-doctor-strange",
+      "name": "Stephen Strange / Doctor Strange",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-stephen-strange-doctor-strange.json",
+      "canonical_key": "marvelmovies::stephen strange doctor strange"
+    },
+    {
+      "id": "marvel-thor-odinson",
+      "name": "Thor Odinson",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-thor-odinson.json",
+      "canonical_key": "marvelmovies::thor odinson"
+    },
+    {
+      "id": "marvel-tony-stark-iron-man",
+      "name": "Tony Stark / Iron Man",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-tony-stark-iron-man.json",
+      "canonical_key": "marvelmovies::tony stark iron man"
+    },
+    {
+      "id": "marvel-wong",
+      "name": "Wong",
+      "fandom": "Marvel Movies",
+      "provenance": "canon_researched_expanded",
+      "file": "marvel-wong.json",
+      "canonical_key": "marvelmovies::wong"
+    },
+    {
+      "id": "palia-ashura",
+      "name": "Ashura",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-ashura.json",
+      "canonical_key": "palia::ashura"
+    },
+    {
+      "id": "palia-badruu",
+      "name": "Badruu",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-badruu.json",
+      "canonical_key": "palia::badruu"
+    },
+    {
+      "id": "palia-chayne",
+      "name": "Chayne",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-chayne.json",
+      "canonical_key": "palia::chayne"
+    },
+    {
+      "id": "palia-einar",
+      "name": "Einar",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-einar.json",
+      "canonical_key": "palia::einar"
+    },
+    {
+      "id": "palia-hassian",
+      "name": "Hassian",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-hassian.json",
+      "canonical_key": "palia::hassian"
+    },
+    {
+      "id": "palia-hodari-pavel",
+      "name": "Hodari Pavel",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-hodari-pavel.json",
+      "canonical_key": "palia::hodari pavel"
+    },
+    {
+      "id": "palia-jel-omiata",
+      "name": "Jel Omiata",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-jel-omiata.json",
+      "canonical_key": "palia::jel omiata"
+    },
+    {
+      "id": "palia-jina",
+      "name": "Jina",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-jina.json",
+      "canonical_key": "palia::jina"
+    },
+    {
+      "id": "palia-kenyatta",
+      "name": "Kenyatta",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-kenyatta.json",
+      "canonical_key": "palia::kenyatta"
+    },
+    {
+      "id": "palia-nai-o",
+      "name": "Nai'o",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-nai-o.json",
+      "canonical_key": "palia::nai o"
+    },
+    {
+      "id": "palia-reth",
+      "name": "Reth",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-reth.json",
+      "canonical_key": "palia::reth"
+    },
+    {
+      "id": "palia-sifuu",
+      "name": "Sifuu",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-sifuu.json",
+      "canonical_key": "palia::sifuu"
+    },
+    {
+      "id": "palia-subira",
+      "name": "Subira",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-subira.json",
+      "canonical_key": "palia::subira"
+    },
+    {
+      "id": "palia-tamala",
+      "name": "Tamala",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-tamala.json",
+      "canonical_key": "palia::tamala"
+    },
+    {
+      "id": "palia-tish",
+      "name": "Tish",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-tish.json",
+      "canonical_key": "palia::tish"
+    },
+    {
+      "id": "palia-zeki",
+      "name": "Zeki",
+      "fandom": "Palia",
+      "provenance": "canon_researched_expanded",
+      "file": "palia-zeki.json",
+      "canonical_key": "palia::zeki"
+    },
+    {
+      "id": "re-ada-wong",
+      "name": "Ada Wong",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-ada-wong.json",
+      "canonical_key": "residentevil::ada wong"
+    },
+    {
+      "id": "re-albert-wesker",
+      "name": "Albert Wesker",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-albert-wesker.json",
+      "canonical_key": "residentevil::albert wesker"
+    },
+    {
+      "id": "re-barry-burton",
+      "name": "Barry Burton",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-barry-burton.json",
+      "canonical_key": "residentevil::barry burton"
+    },
+    {
+      "id": "re-carlos-oliveira",
+      "name": "Carlos Oliveira",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-carlos-oliveira.json",
+      "canonical_key": "residentevil::carlos oliveira"
+    },
+    {
+      "id": "re-chris-redfield",
+      "name": "Chris Redfield",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-chris-redfield.json",
+      "canonical_key": "residentevil::chris redfield"
+    },
+    {
+      "id": "re-ethan-winters",
+      "name": "Ethan Winters",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-ethan-winters.json",
+      "canonical_key": "residentevil::ethan winters"
+    },
+    {
+      "id": "re-jill-valentine",
+      "name": "Jill Valentine",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-jill-valentine.json",
+      "canonical_key": "residentevil::jill valentine"
+    },
+    {
+      "id": "re-karl-heisenberg",
+      "name": "Karl Heisenberg",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-karl-heisenberg.json",
+      "canonical_key": "residentevil::karl heisenberg"
+    },
+    {
+      "id": "re-leon-s-kennedy",
+      "name": "Leon S. Kennedy",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-leon-s-kennedy.json",
+      "canonical_key": "residentevil::leon s kennedy"
+    },
+    {
+      "id": "re-luis-serra-navarro",
+      "name": "Luis Serra Navarro",
+      "fandom": "Resident Evil",
+      "provenance": "canon_researched_expanded",
+      "file": "re-luis-serra-navarro.json",
+      "canonical_key": "residentevil::luis serra navarro"
+    },
+    {
+      "id": "su-bismuth",
+      "name": "Bismuth",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched_expanded",
+      "file": "su-bismuth.json",
+      "canonical_key": "stevenuniverse::bismuth"
+    },
+    {
+      "id": "su-blue-diamond",
+      "name": "Blue Diamond",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched_expanded",
+      "file": "su-blue-diamond.json",
+      "canonical_key": "stevenuniverse::blue diamond"
+    },
+    {
+      "id": "su-garnet",
+      "name": "Garnet",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched_expanded",
+      "file": "su-garnet.json",
+      "canonical_key": "stevenuniverse::garnet"
+    },
+    {
+      "id": "su-greg",
+      "name": "Greg Universe",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched",
+      "file": "su-greg.json",
+      "canonical_key": "stevenuniverse::greg universe"
+    },
+    {
+      "id": "su-lion",
+      "name": "Lion",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched",
+      "file": "su-lion.json",
+      "canonical_key": "stevenuniverse::lion"
+    },
+    {
+      "id": "su-pearl",
+      "name": "Pearl",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched_expanded",
+      "file": "su-pearl.json",
+      "canonical_key": "stevenuniverse::pearl"
+    },
+    {
+      "id": "su-rose",
+      "name": "Rose Quartz",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched",
+      "file": "su-rose.json",
+      "canonical_key": "stevenuniverse::rose quartz"
+    },
+    {
+      "id": "su-steven",
+      "name": "Steven Universe",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched",
+      "file": "su-steven.json",
+      "canonical_key": "stevenuniverse::steven universe"
+    },
+    {
+      "id": "su-yellow-diamond",
+      "name": "Yellow Diamond",
+      "fandom": "Steven Universe",
+      "provenance": "canon_researched_expanded",
+      "file": "su-yellow-diamond.json",
+      "canonical_key": "stevenuniverse::yellow diamond"
+    },
+    {
+      "id": "su-lila",
+      "name": "Lila",
+      "fandom": "Steven Universe / Stars Between the Strings",
+      "provenance": "story_original",
+      "file": "su-lila.json",
+      "canonical_key": "stevenuniversestarsbetweenthestrings::lila"
+    },
+    {
+      "id": "su-mara",
+      "name": "Mara",
+      "fandom": "Steven Universe / Stars Between the Strings",
+      "provenance": "story_original",
+      "file": "su-mara.json",
+      "canonical_key": "stevenuniversestarsbetweenthestrings::mara"
+    }
+  ],
+  "aliases": {
+    "aang": "avatar-aang",
+    "avatar aang": "avatar-aang",
+    "appa": "avatar-appa",
+    "kanna": "avatar-gran-gran",
+    "gran gran": "avatar-gran-gran",
+    "hakoda": "avatar-hakoda",
+    "iroh": "avatar-iroh",
+    "uncle iroh": "avatar-iroh",
+    "general iroh": "avatar-iroh",
+    "dragon of the west": "avatar-iroh",
+    "katara": "avatar-katara",
+    "king bumi": "avatar-king-bumi",
+    "momo": "avatar-momo",
+    "piandao": "avatar-piandao",
+    "sokka": "avatar-sokka",
+    "toph beifong": "avatar-toph",
+    "toph": "avatar-toph",
+    "zuko": "avatar-zuko",
+    "fire lord zuko": "avatar-zuko",
+    "ben": "coral-ben",
+    "charles": "coral-charles",
+    "luke duckorns": "coral-luke-duckorns",
+    "mark": "coral-mark",
+    "noah juma": "coral-noah-juma",
+    "pablo sanchez": "coral-pablo-sanchez",
+    "rafael sanchez": "coral-rafael-sanchez",
+    "raj": "coral-raj",
+    "scott": "coral-scott",
+    "semeru": "coral-semeru",
+    "theo": "coral-theo",
+    "wakuu": "coral-wakuu",
+    "wataru": "coral-wataru",
+    "yuri": "coral-yuri",
+    "alfred pennyworth": "dc-alfred-pennyworth",
+    "arthur curry aquaman": "dc-arthur-curry-aquaman",
+    "arthur curry": "dc-arthur-curry-aquaman",
+    "aquaman": "dc-arthur-curry-aquaman",
+    "black adam teth adam": "dc-black-adam-teth-adam",
+    "black adam": "dc-black-adam-teth-adam",
+    "teth adam": "dc-black-adam-teth-adam",
+    "bruce wayne batman": "dc-bruce-wayne-batman",
+    "bruce wayne": "dc-bruce-wayne-batman",
+    "batman": "dc-bruce-wayne-batman",
+    "clark kent superman": "dc-clark-kent-superman",
+    "clark kent": "dc-clark-kent-superman",
+    "superman": "dc-clark-kent-superman",
+    "deadshot floyd lawton": "dc-deadshot-floyd-lawton",
+    "deadshot": "dc-deadshot-floyd-lawton",
+    "floyd lawton": "dc-deadshot-floyd-lawton",
+    "james gordon": "dc-james-gordon",
+    "kent nelson doctor fate": "dc-kent-nelson-doctor-fate",
+    "kent nelson": "dc-kent-nelson-doctor-fate",
+    "doctor fate": "dc-kent-nelson-doctor-fate",
+    "peacemaker christopher smith": "dc-peacemaker-christopher-smith",
+    "peacemaker": "dc-peacemaker-christopher-smith",
+    "christopher smith": "dc-peacemaker-christopher-smith",
+    "rick flag": "dc-rick-flag",
+    "steve trevor": "dc-steve-trevor",
+    "wonder woman diana prince": "dc-wonder-woman-diana-prince",
+    "wonder woman": "dc-wonder-woman-diana-prince",
+    "diana prince": "dc-wonder-woman-diana-prince",
+    "captain phoebus": "disney-captain-phoebus",
+    "flynn rider eugene fitzherbert": "disney-flynn-rider-eugene-fitzherbert",
+    "flynn rider": "disney-flynn-rider-eugene-fitzherbert",
+    "eugene fitzherbert": "disney-flynn-rider-eugene-fitzherbert",
+    "genie": "disney-genie",
+    "king fergus": "disney-king-fergus",
+    "king triton": "disney-king-triton",
+    "kristoff": "disney-kristoff",
+    "kronk": "disney-kronk",
+    "li shang": "disney-li-shang",
+    "maui": "disney-maui",
+    "pacha": "disney-pacha",
+    "prince naveen": "disney-prince-naveen",
+    "robert philip": "disney-robert-philip",
+    "the beast prince adam": "disney-the-beast-prince-adam",
+    "the beast": "disney-the-beast-prince-adam",
+    "prince adam": "disney-the-beast-prince-adam",
+    "amos": "fo4-amos",
+    "paladin brandis": "fo4-brandis",
+    "brandis": "fo4-brandis",
+    "curie": "fo4-curie",
+    "cutler": "fo4-cutler",
+    "paladin danse": "fo4-danse",
+    "danse": "fo4-danse",
+    "m7 97": "fo4-danse",
+    "deacon": "fo4-deacon",
+    "scribe haylen": "fo4-haylen",
+    "haylen": "fo4-haylen",
+    "proctor ingram": "fo4-ingram",
+    "ingram": "fo4-ingram",
+    "john hancock": "fo4-john-hancock",
+    "lancer captain kells": "fo4-kells",
+    "kells": "fo4-kells",
+    "lena": "fo4-lena",
+    "arthur maxson": "fo4-maxson",
+    "elder maxson": "fo4-maxson",
+    "maxson": "fo4-maxson",
+    "nick valentine": "fo4-nick-valentine",
+    "nick": "fo4-nick-valentine",
+    "old longfellow": "fo4-old-longfellow",
+    "piper wright": "fo4-piper-wright",
+    "preston garvey": "fo4-preston-garvey",
+    "proctor quinlan": "fo4-quinlan",
+    "quinlan": "fo4-quinlan",
+    "knight rhys": "fo4-rhys",
+    "rhys": "fo4-rhys",
+    "adelaide": "fo76-adelaide",
+    "aries": "fo76-aries",
+    "beckett": "fo76-beckett",
+    "commander sofia daguerre": "fo76-commander-sofia-daguerre",
+    "joey bello": "fo76-joey-bello",
+    "katherine swan": "fo76-katherine-swan",
+    "leo petrov": "fo76-leo-petrov",
+    "raider punk": "fo76-raider-punk",
+    "solomon hardy": "fo76-solomon-hardy",
+    "vernon dodge": "fo76-vernon-dodge",
+    "vinny costa": "fo76-vinny-costa",
+    "alastor": "hazbin-alastor",
+    "angel dust": "hazbin-angel-dust",
+    "carmilla carmine": "hazbin-carmilla-carmine",
+    "husk": "hazbin-husk",
+    "lucifer morningstar": "hazbin-lucifer-morningstar",
+    "rosie": "hazbin-rosie",
+    "sir pentious": "hazbin-sir-pentious",
+    "vaggie": "hazbin-vaggie",
+    "zestial": "hazbin-zestial",
+    "arthur weasley": "hp-arthur-weasley",
+    "albus dumbledore": "hp-dumbledore",
+    "dumbledore": "hp-dumbledore",
+    "rubeus hagrid": "hp-hagrid",
+    "hagrid": "hp-hagrid",
+    "harry potter": "hp-harry",
+    "harry": "hp-harry",
+    "james potter": "hp-james",
+    "james": "hp-james",
+    "kingsley shacklebolt": "hp-kingsley",
+    "kingsley": "hp-kingsley",
+    "lily potter": "hp-lily",
+    "lily evans": "hp-lily",
+    "lily": "hp-lily",
+    "lucius malfoy": "hp-lucius",
+    "lucius": "hp-lucius",
+    "minerva mcgonagall": "hp-mcgonagall",
+    "professor mcgonagall": "hp-mcgonagall",
+    "mcgonagall": "hp-mcgonagall",
+    "poppy pomfrey": "hp-pomfrey",
+    "madam pomfrey": "hp-pomfrey",
+    "pomfrey": "hp-pomfrey",
+    "remus lupin": "hp-remus-lupin",
+    "sirius black": "hp-sirius-black",
+    "severus snape": "hp-snape",
+    "snape": "hp-snape",
+    "professor snape": "hp-snape",
+    "lord voldemort": "hp-voldemort",
+    "voldemort": "hp-voldemort",
+    "tom riddle": "hp-voldemort",
+    "alexei shostakov red guardian": "marvel-alexei-shostakov-red-guardian",
+    "alexei shostakov": "marvel-alexei-shostakov-red-guardian",
+    "red guardian": "marvel-alexei-shostakov-red-guardian",
+    "bruce banner hulk": "marvel-bruce-banner-hulk",
+    "bruce banner": "marvel-bruce-banner-hulk",
+    "hulk": "marvel-bruce-banner-hulk",
+    "bucky barnes winter soldier": "marvel-bucky-barnes-winter-soldier",
+    "bucky barnes": "marvel-bucky-barnes-winter-soldier",
+    "winter soldier": "marvel-bucky-barnes-winter-soldier",
+    "clint barton hawkeye": "marvel-clint-barton-hawkeye",
+    "clint barton": "marvel-clint-barton-hawkeye",
+    "hawkeye": "marvel-clint-barton-hawkeye",
+    "happy hogan": "marvel-happy-hogan",
+    "james rhodey rhodes war machine": "marvel-james-rhodey-rhodes-war-machine",
+    "james rhodey rhodes": "marvel-james-rhodey-rhodes-war-machine",
+    "war machine": "marvel-james-rhodey-rhodes-war-machine",
+    "loki": "marvel-loki",
+    "m baku": "marvel-m-baku",
+    "matt murdock daredevil": "marvel-matt-murdock-daredevil",
+    "matt murdock": "marvel-matt-murdock-daredevil",
+    "daredevil": "marvel-matt-murdock-daredevil",
+    "nick fury": "marvel-nick-fury",
+    "peter quill star lord": "marvel-peter-quill-star-lord",
+    "peter quill": "marvel-peter-quill-star-lord",
+    "star lord": "marvel-peter-quill-star-lord",
+    "scott lang ant man": "marvel-scott-lang-ant-man",
+    "scott lang": "marvel-scott-lang-ant-man",
+    "ant man": "marvel-scott-lang-ant-man",
+    "stephen strange doctor strange": "marvel-stephen-strange-doctor-strange",
+    "stephen strange": "marvel-stephen-strange-doctor-strange",
+    "doctor strange": "marvel-stephen-strange-doctor-strange",
+    "thor odinson": "marvel-thor-odinson",
+    "tony stark iron man": "marvel-tony-stark-iron-man",
+    "tony stark": "marvel-tony-stark-iron-man",
+    "iron man": "marvel-tony-stark-iron-man",
+    "wong": "marvel-wong",
+    "ashura": "palia-ashura",
+    "badruu": "palia-badruu",
+    "chayne": "palia-chayne",
+    "einar": "palia-einar",
+    "hassian": "palia-hassian",
+    "hodari pavel": "palia-hodari-pavel",
+    "jel omiata": "palia-jel-omiata",
+    "jina": "palia-jina",
+    "kenyatta": "palia-kenyatta",
+    "nai o": "palia-nai-o",
+    "reth": "palia-reth",
+    "sifuu": "palia-sifuu",
+    "subira": "palia-subira",
+    "tamala": "palia-tamala",
+    "tish": "palia-tish",
+    "zeki": "palia-zeki",
+    "ada wong": "re-ada-wong",
+    "albert wesker": "re-albert-wesker",
+    "barry burton": "re-barry-burton",
+    "carlos oliveira": "re-carlos-oliveira",
+    "chris redfield": "re-chris-redfield",
+    "ethan winters": "re-ethan-winters",
+    "jill valentine": "re-jill-valentine",
+    "karl heisenberg": "re-karl-heisenberg",
+    "leon s kennedy": "re-leon-s-kennedy",
+    "luis serra navarro": "re-luis-serra-navarro",
+    "bismuth": "su-bismuth",
+    "blue diamond": "su-blue-diamond",
+    "garnet": "su-garnet",
+    "greg universe": "su-greg",
+    "greg": "su-greg",
+    "greg demayo": "su-greg",
+    "mr universe": "su-greg",
+    "lila": "su-lila",
+    "lion": "su-lion",
+    "pearl": "su-pearl",
+    "rose quartz": "su-rose",
+    "rose": "su-rose",
+    "pink diamond": "su-rose",
+    "rose quartz pink diamond": "su-rose",
+    "steven universe": "su-steven",
+    "steven": "su-steven",
+    "yellow diamond": "su-yellow-diamond"
+  },
+  "alias_records": [
+    {
+      "alias": "Aang",
+      "normalized": "aang",
+      "id": "avatar-aang",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Avatar Aang",
+      "normalized": "avatar aang",
+      "id": "avatar-aang",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Appa",
+      "normalized": "appa",
+      "id": "avatar-appa",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Kanna (Gran Gran)",
+      "normalized": "kanna",
+      "id": "avatar-gran-gran",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Gran Gran",
+      "normalized": "gran gran",
+      "id": "avatar-gran-gran",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Kanna",
+      "normalized": "kanna",
+      "id": "avatar-gran-gran",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Hakoda",
+      "normalized": "hakoda",
+      "id": "avatar-hakoda",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Iroh",
+      "normalized": "iroh",
+      "id": "avatar-iroh",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Uncle Iroh",
+      "normalized": "uncle iroh",
+      "id": "avatar-iroh",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "General Iroh",
+      "normalized": "general iroh",
+      "id": "avatar-iroh",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Dragon of the West",
+      "normalized": "dragon of the west",
+      "id": "avatar-iroh",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Katara",
+      "normalized": "katara",
+      "id": "avatar-katara",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "King Bumi",
+      "normalized": "king bumi",
+      "id": "avatar-king-bumi",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Momo",
+      "normalized": "momo",
+      "id": "avatar-momo",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Piandao",
+      "normalized": "piandao",
+      "id": "avatar-piandao",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Sokka",
+      "normalized": "sokka",
+      "id": "avatar-sokka",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Suki",
+      "normalized": "suki",
+      "id": "avatar-suki",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Toph Beifong",
+      "normalized": "toph beifong",
+      "id": "avatar-toph",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Toph",
+      "normalized": "toph",
+      "id": "avatar-toph",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Zuko",
+      "normalized": "zuko",
+      "id": "avatar-zuko",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Fire Lord Zuko",
+      "normalized": "fire lord zuko",
+      "id": "avatar-zuko",
+      "fandom_key": "avatar",
+      "fandom": "Avatar: The Last Airbender"
+    },
+    {
+      "alias": "Ben",
+      "normalized": "ben",
+      "id": "coral-ben",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Charles",
+      "normalized": "charles",
+      "id": "coral-charles",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Luke Duckorns",
+      "normalized": "luke duckorns",
+      "id": "coral-luke-duckorns",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Mark",
+      "normalized": "mark",
+      "id": "coral-mark",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Noah Juma",
+      "normalized": "noah juma",
+      "id": "coral-noah-juma",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Pablo Sanchez",
+      "normalized": "pablo sanchez",
+      "id": "coral-pablo-sanchez",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Rafael Sanchez",
+      "normalized": "rafael sanchez",
+      "id": "coral-rafael-sanchez",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Raj",
+      "normalized": "raj",
+      "id": "coral-raj",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Scott",
+      "normalized": "scott",
+      "id": "coral-scott",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Semeru",
+      "normalized": "semeru",
+      "id": "coral-semeru",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Suki",
+      "normalized": "suki",
+      "id": "coral-suki",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Theo",
+      "normalized": "theo",
+      "id": "coral-theo",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Wakuu",
+      "normalized": "wakuu",
+      "id": "coral-wakuu",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Wataru",
+      "normalized": "wataru",
+      "id": "coral-wataru",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Yuri",
+      "normalized": "yuri",
+      "id": "coral-yuri",
+      "fandom_key": "coralisland",
+      "fandom": "Coral Island"
+    },
+    {
+      "alias": "Alfred Pennyworth",
+      "normalized": "alfred pennyworth",
+      "id": "dc-alfred-pennyworth",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Arthur Curry / Aquaman",
+      "normalized": "arthur curry aquaman",
+      "id": "dc-arthur-curry-aquaman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Arthur Curry",
+      "normalized": "arthur curry",
+      "id": "dc-arthur-curry-aquaman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Aquaman",
+      "normalized": "aquaman",
+      "id": "dc-arthur-curry-aquaman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Black Adam / Teth-Adam",
+      "normalized": "black adam teth adam",
+      "id": "dc-black-adam-teth-adam",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Black Adam",
+      "normalized": "black adam",
+      "id": "dc-black-adam-teth-adam",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Teth-Adam",
+      "normalized": "teth adam",
+      "id": "dc-black-adam-teth-adam",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Bruce Wayne / Batman",
+      "normalized": "bruce wayne batman",
+      "id": "dc-bruce-wayne-batman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Bruce Wayne",
+      "normalized": "bruce wayne",
+      "id": "dc-bruce-wayne-batman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Batman",
+      "normalized": "batman",
+      "id": "dc-bruce-wayne-batman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Clark Kent / Superman",
+      "normalized": "clark kent superman",
+      "id": "dc-clark-kent-superman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Clark Kent",
+      "normalized": "clark kent",
+      "id": "dc-clark-kent-superman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Superman",
+      "normalized": "superman",
+      "id": "dc-clark-kent-superman",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Deadshot / Floyd Lawton",
+      "normalized": "deadshot floyd lawton",
+      "id": "dc-deadshot-floyd-lawton",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Deadshot",
+      "normalized": "deadshot",
+      "id": "dc-deadshot-floyd-lawton",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Floyd Lawton",
+      "normalized": "floyd lawton",
+      "id": "dc-deadshot-floyd-lawton",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "James Gordon",
+      "normalized": "james gordon",
+      "id": "dc-james-gordon",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Kent Nelson / Doctor Fate",
+      "normalized": "kent nelson doctor fate",
+      "id": "dc-kent-nelson-doctor-fate",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Kent Nelson",
+      "normalized": "kent nelson",
+      "id": "dc-kent-nelson-doctor-fate",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Doctor Fate",
+      "normalized": "doctor fate",
+      "id": "dc-kent-nelson-doctor-fate",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Peacemaker / Christopher Smith",
+      "normalized": "peacemaker christopher smith",
+      "id": "dc-peacemaker-christopher-smith",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Peacemaker",
+      "normalized": "peacemaker",
+      "id": "dc-peacemaker-christopher-smith",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Christopher Smith",
+      "normalized": "christopher smith",
+      "id": "dc-peacemaker-christopher-smith",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Rick Flag",
+      "normalized": "rick flag",
+      "id": "dc-rick-flag",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Steve Trevor",
+      "normalized": "steve trevor",
+      "id": "dc-steve-trevor",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Wonder Woman / Diana Prince",
+      "normalized": "wonder woman diana prince",
+      "id": "dc-wonder-woman-diana-prince",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Wonder Woman",
+      "normalized": "wonder woman",
+      "id": "dc-wonder-woman-diana-prince",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Diana Prince",
+      "normalized": "diana prince",
+      "id": "dc-wonder-woman-diana-prince",
+      "fandom_key": "dcmovies",
+      "fandom": "DC Movies"
+    },
+    {
+      "alias": "Captain Phoebus",
+      "normalized": "captain phoebus",
+      "id": "disney-captain-phoebus",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Flynn Rider / Eugene Fitzherbert",
+      "normalized": "flynn rider eugene fitzherbert",
+      "id": "disney-flynn-rider-eugene-fitzherbert",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Flynn Rider",
+      "normalized": "flynn rider",
+      "id": "disney-flynn-rider-eugene-fitzherbert",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Eugene Fitzherbert",
+      "normalized": "eugene fitzherbert",
+      "id": "disney-flynn-rider-eugene-fitzherbert",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Genie",
+      "normalized": "genie",
+      "id": "disney-genie",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "King Fergus",
+      "normalized": "king fergus",
+      "id": "disney-king-fergus",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "King Triton",
+      "normalized": "king triton",
+      "id": "disney-king-triton",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Kristoff",
+      "normalized": "kristoff",
+      "id": "disney-kristoff",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Kronk",
+      "normalized": "kronk",
+      "id": "disney-kronk",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Li Shang",
+      "normalized": "li shang",
+      "id": "disney-li-shang",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Maui",
+      "normalized": "maui",
+      "id": "disney-maui",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Pacha",
+      "normalized": "pacha",
+      "id": "disney-pacha",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Prince Naveen",
+      "normalized": "prince naveen",
+      "id": "disney-prince-naveen",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Robert Philip",
+      "normalized": "robert philip",
+      "id": "disney-robert-philip",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "The Beast / Prince Adam",
+      "normalized": "the beast prince adam",
+      "id": "disney-the-beast-prince-adam",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "The Beast",
+      "normalized": "the beast",
+      "id": "disney-the-beast-prince-adam",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Prince Adam",
+      "normalized": "prince adam",
+      "id": "disney-the-beast-prince-adam",
+      "fandom_key": "disneymovies",
+      "fandom": "Disney Movies"
+    },
+    {
+      "alias": "Amos",
+      "normalized": "amos",
+      "id": "fo4-amos",
+      "fandom_key": "fallout4whatthearmorleavesbehind",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind"
+    },
+    {
+      "alias": "Paladin Brandis",
+      "normalized": "paladin brandis",
+      "id": "fo4-brandis",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Brandis",
+      "normalized": "brandis",
+      "id": "fo4-brandis",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Curie",
+      "normalized": "curie",
+      "id": "fo4-curie",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Cutler",
+      "normalized": "cutler",
+      "id": "fo4-cutler",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Paladin Danse",
+      "normalized": "paladin danse",
+      "id": "fo4-danse",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Danse",
+      "normalized": "danse",
+      "id": "fo4-danse",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "M7-97",
+      "normalized": "m7 97",
+      "id": "fo4-danse",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Deacon",
+      "normalized": "deacon",
+      "id": "fo4-deacon",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Scribe Haylen",
+      "normalized": "scribe haylen",
+      "id": "fo4-haylen",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Haylen",
+      "normalized": "haylen",
+      "id": "fo4-haylen",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Proctor Ingram",
+      "normalized": "proctor ingram",
+      "id": "fo4-ingram",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Ingram",
+      "normalized": "ingram",
+      "id": "fo4-ingram",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "John Hancock",
+      "normalized": "john hancock",
+      "id": "fo4-john-hancock",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Lancer-Captain Kells",
+      "normalized": "lancer captain kells",
+      "id": "fo4-kells",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Kells",
+      "normalized": "kells",
+      "id": "fo4-kells",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Lena",
+      "normalized": "lena",
+      "id": "fo4-lena",
+      "fandom_key": "fallout4whatthearmorleavesbehind",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind"
+    },
+    {
+      "alias": "Mara",
+      "normalized": "mara",
+      "id": "fo4-mara",
+      "fandom_key": "fallout4whatthearmorleavesbehind",
+      "fandom": "Fallout 4 / What the Armor Leaves Behind"
+    },
+    {
+      "alias": "Arthur Maxson",
+      "normalized": "arthur maxson",
+      "id": "fo4-maxson",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Elder Maxson",
+      "normalized": "elder maxson",
+      "id": "fo4-maxson",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Maxson",
+      "normalized": "maxson",
+      "id": "fo4-maxson",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Nick Valentine",
+      "normalized": "nick valentine",
+      "id": "fo4-nick-valentine",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Nick",
+      "normalized": "nick",
+      "id": "fo4-nick-valentine",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Old Longfellow",
+      "normalized": "old longfellow",
+      "id": "fo4-old-longfellow",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Piper Wright",
+      "normalized": "piper wright",
+      "id": "fo4-piper-wright",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Preston Garvey",
+      "normalized": "preston garvey",
+      "id": "fo4-preston-garvey",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Proctor Quinlan",
+      "normalized": "proctor quinlan",
+      "id": "fo4-quinlan",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Quinlan",
+      "normalized": "quinlan",
+      "id": "fo4-quinlan",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Knight Rhys",
+      "normalized": "knight rhys",
+      "id": "fo4-rhys",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Rhys",
+      "normalized": "rhys",
+      "id": "fo4-rhys",
+      "fandom_key": "fallout4",
+      "fandom": "Fallout 4"
+    },
+    {
+      "alias": "Adelaide",
+      "normalized": "adelaide",
+      "id": "fo76-adelaide",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Aries",
+      "normalized": "aries",
+      "id": "fo76-aries",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Beckett",
+      "normalized": "beckett",
+      "id": "fo76-beckett",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Commander Sofia Daguerre",
+      "normalized": "commander sofia daguerre",
+      "id": "fo76-commander-sofia-daguerre",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Joey Bello",
+      "normalized": "joey bello",
+      "id": "fo76-joey-bello",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Katherine Swan",
+      "normalized": "katherine swan",
+      "id": "fo76-katherine-swan",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Leo Petrov",
+      "normalized": "leo petrov",
+      "id": "fo76-leo-petrov",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Raider Punk",
+      "normalized": "raider punk",
+      "id": "fo76-raider-punk",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Solomon Hardy",
+      "normalized": "solomon hardy",
+      "id": "fo76-solomon-hardy",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Vernon Dodge",
+      "normalized": "vernon dodge",
+      "id": "fo76-vernon-dodge",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Vinny Costa",
+      "normalized": "vinny costa",
+      "id": "fo76-vinny-costa",
+      "fandom_key": "fallout76",
+      "fandom": "Fallout 76"
+    },
+    {
+      "alias": "Alastor",
+      "normalized": "alastor",
+      "id": "hazbin-alastor",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Angel Dust",
+      "normalized": "angel dust",
+      "id": "hazbin-angel-dust",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Carmilla Carmine",
+      "normalized": "carmilla carmine",
+      "id": "hazbin-carmilla-carmine",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Husk",
+      "normalized": "husk",
+      "id": "hazbin-husk",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Lucifer Morningstar",
+      "normalized": "lucifer morningstar",
+      "id": "hazbin-lucifer-morningstar",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Rosie",
+      "normalized": "rosie",
+      "id": "hazbin-rosie",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Sir Pentious",
+      "normalized": "sir pentious",
+      "id": "hazbin-sir-pentious",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Vaggie",
+      "normalized": "vaggie",
+      "id": "hazbin-vaggie",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Zestial",
+      "normalized": "zestial",
+      "id": "hazbin-zestial",
+      "fandom_key": "hazbinhotel",
+      "fandom": "Hazbin Hotel"
+    },
+    {
+      "alias": "Arthur Weasley",
+      "normalized": "arthur weasley",
+      "id": "hp-arthur-weasley",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Albus Dumbledore",
+      "normalized": "albus dumbledore",
+      "id": "hp-dumbledore",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Dumbledore",
+      "normalized": "dumbledore",
+      "id": "hp-dumbledore",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Rubeus Hagrid",
+      "normalized": "rubeus hagrid",
+      "id": "hp-hagrid",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Hagrid",
+      "normalized": "hagrid",
+      "id": "hp-hagrid",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Harry Potter",
+      "normalized": "harry potter",
+      "id": "hp-harry",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Harry",
+      "normalized": "harry",
+      "id": "hp-harry",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "James Potter",
+      "normalized": "james potter",
+      "id": "hp-james",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "James",
+      "normalized": "james",
+      "id": "hp-james",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Kingsley Shacklebolt",
+      "normalized": "kingsley shacklebolt",
+      "id": "hp-kingsley",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Kingsley",
+      "normalized": "kingsley",
+      "id": "hp-kingsley",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lily Potter",
+      "normalized": "lily potter",
+      "id": "hp-lily",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lily Evans",
+      "normalized": "lily evans",
+      "id": "hp-lily",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lily",
+      "normalized": "lily",
+      "id": "hp-lily",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lucius Malfoy",
+      "normalized": "lucius malfoy",
+      "id": "hp-lucius",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lucius",
+      "normalized": "lucius",
+      "id": "hp-lucius",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Minerva McGonagall",
+      "normalized": "minerva mcgonagall",
+      "id": "hp-mcgonagall",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Professor McGonagall",
+      "normalized": "professor mcgonagall",
+      "id": "hp-mcgonagall",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "McGonagall",
+      "normalized": "mcgonagall",
+      "id": "hp-mcgonagall",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Poppy Pomfrey",
+      "normalized": "poppy pomfrey",
+      "id": "hp-pomfrey",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Madam Pomfrey",
+      "normalized": "madam pomfrey",
+      "id": "hp-pomfrey",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Pomfrey",
+      "normalized": "pomfrey",
+      "id": "hp-pomfrey",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Remus Lupin",
+      "normalized": "remus lupin",
+      "id": "hp-remus-lupin",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Sirius Black",
+      "normalized": "sirius black",
+      "id": "hp-sirius-black",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Severus Snape",
+      "normalized": "severus snape",
+      "id": "hp-snape",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Snape",
+      "normalized": "snape",
+      "id": "hp-snape",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Professor Snape",
+      "normalized": "professor snape",
+      "id": "hp-snape",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Lord Voldemort",
+      "normalized": "lord voldemort",
+      "id": "hp-voldemort",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Voldemort",
+      "normalized": "voldemort",
+      "id": "hp-voldemort",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Tom Riddle",
+      "normalized": "tom riddle",
+      "id": "hp-voldemort",
+      "fandom_key": "harrypotter",
+      "fandom": "Harry Potter"
+    },
+    {
+      "alias": "Alexei Shostakov / Red Guardian",
+      "normalized": "alexei shostakov red guardian",
+      "id": "marvel-alexei-shostakov-red-guardian",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Alexei Shostakov",
+      "normalized": "alexei shostakov",
+      "id": "marvel-alexei-shostakov-red-guardian",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Red Guardian",
+      "normalized": "red guardian",
+      "id": "marvel-alexei-shostakov-red-guardian",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Bruce Banner / Hulk",
+      "normalized": "bruce banner hulk",
+      "id": "marvel-bruce-banner-hulk",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Bruce Banner",
+      "normalized": "bruce banner",
+      "id": "marvel-bruce-banner-hulk",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Hulk",
+      "normalized": "hulk",
+      "id": "marvel-bruce-banner-hulk",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Bucky Barnes / Winter Soldier",
+      "normalized": "bucky barnes winter soldier",
+      "id": "marvel-bucky-barnes-winter-soldier",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Bucky Barnes",
+      "normalized": "bucky barnes",
+      "id": "marvel-bucky-barnes-winter-soldier",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Winter Soldier",
+      "normalized": "winter soldier",
+      "id": "marvel-bucky-barnes-winter-soldier",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Clint Barton / Hawkeye",
+      "normalized": "clint barton hawkeye",
+      "id": "marvel-clint-barton-hawkeye",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Clint Barton",
+      "normalized": "clint barton",
+      "id": "marvel-clint-barton-hawkeye",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Hawkeye",
+      "normalized": "hawkeye",
+      "id": "marvel-clint-barton-hawkeye",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Happy Hogan",
+      "normalized": "happy hogan",
+      "id": "marvel-happy-hogan",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "James 'Rhodey' Rhodes / War Machine",
+      "normalized": "james rhodey rhodes war machine",
+      "id": "marvel-james-rhodey-rhodes-war-machine",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "James 'Rhodey' Rhodes",
+      "normalized": "james rhodey rhodes",
+      "id": "marvel-james-rhodey-rhodes-war-machine",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "War Machine",
+      "normalized": "war machine",
+      "id": "marvel-james-rhodey-rhodes-war-machine",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Loki",
+      "normalized": "loki",
+      "id": "marvel-loki",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "M'Baku",
+      "normalized": "m baku",
+      "id": "marvel-m-baku",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Matt Murdock / Daredevil",
+      "normalized": "matt murdock daredevil",
+      "id": "marvel-matt-murdock-daredevil",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Matt Murdock",
+      "normalized": "matt murdock",
+      "id": "marvel-matt-murdock-daredevil",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Daredevil",
+      "normalized": "daredevil",
+      "id": "marvel-matt-murdock-daredevil",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Nick Fury",
+      "normalized": "nick fury",
+      "id": "marvel-nick-fury",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Peter Quill / Star-Lord",
+      "normalized": "peter quill star lord",
+      "id": "marvel-peter-quill-star-lord",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Peter Quill",
+      "normalized": "peter quill",
+      "id": "marvel-peter-quill-star-lord",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Star-Lord",
+      "normalized": "star lord",
+      "id": "marvel-peter-quill-star-lord",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Scott Lang / Ant-Man",
+      "normalized": "scott lang ant man",
+      "id": "marvel-scott-lang-ant-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Scott Lang",
+      "normalized": "scott lang",
+      "id": "marvel-scott-lang-ant-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Ant-Man",
+      "normalized": "ant man",
+      "id": "marvel-scott-lang-ant-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Stephen Strange / Doctor Strange",
+      "normalized": "stephen strange doctor strange",
+      "id": "marvel-stephen-strange-doctor-strange",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Stephen Strange",
+      "normalized": "stephen strange",
+      "id": "marvel-stephen-strange-doctor-strange",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Doctor Strange",
+      "normalized": "doctor strange",
+      "id": "marvel-stephen-strange-doctor-strange",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Thor Odinson",
+      "normalized": "thor odinson",
+      "id": "marvel-thor-odinson",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Tony Stark / Iron Man",
+      "normalized": "tony stark iron man",
+      "id": "marvel-tony-stark-iron-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Tony Stark",
+      "normalized": "tony stark",
+      "id": "marvel-tony-stark-iron-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Iron Man",
+      "normalized": "iron man",
+      "id": "marvel-tony-stark-iron-man",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Wong",
+      "normalized": "wong",
+      "id": "marvel-wong",
+      "fandom_key": "marvelmovies",
+      "fandom": "Marvel Movies"
+    },
+    {
+      "alias": "Ashura",
+      "normalized": "ashura",
+      "id": "palia-ashura",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Badruu",
+      "normalized": "badruu",
+      "id": "palia-badruu",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Chayne",
+      "normalized": "chayne",
+      "id": "palia-chayne",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Einar",
+      "normalized": "einar",
+      "id": "palia-einar",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Hassian",
+      "normalized": "hassian",
+      "id": "palia-hassian",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Hodari Pavel",
+      "normalized": "hodari pavel",
+      "id": "palia-hodari-pavel",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Jel Omiata",
+      "normalized": "jel omiata",
+      "id": "palia-jel-omiata",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Jina",
+      "normalized": "jina",
+      "id": "palia-jina",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Kenyatta",
+      "normalized": "kenyatta",
+      "id": "palia-kenyatta",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Nai'o",
+      "normalized": "nai o",
+      "id": "palia-nai-o",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Reth",
+      "normalized": "reth",
+      "id": "palia-reth",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Sifuu",
+      "normalized": "sifuu",
+      "id": "palia-sifuu",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Subira",
+      "normalized": "subira",
+      "id": "palia-subira",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Tamala",
+      "normalized": "tamala",
+      "id": "palia-tamala",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Tish",
+      "normalized": "tish",
+      "id": "palia-tish",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Zeki",
+      "normalized": "zeki",
+      "id": "palia-zeki",
+      "fandom_key": "palia",
+      "fandom": "Palia"
+    },
+    {
+      "alias": "Ada Wong",
+      "normalized": "ada wong",
+      "id": "re-ada-wong",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Albert Wesker",
+      "normalized": "albert wesker",
+      "id": "re-albert-wesker",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Barry Burton",
+      "normalized": "barry burton",
+      "id": "re-barry-burton",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Carlos Oliveira",
+      "normalized": "carlos oliveira",
+      "id": "re-carlos-oliveira",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Chris Redfield",
+      "normalized": "chris redfield",
+      "id": "re-chris-redfield",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Ethan Winters",
+      "normalized": "ethan winters",
+      "id": "re-ethan-winters",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Jill Valentine",
+      "normalized": "jill valentine",
+      "id": "re-jill-valentine",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Karl Heisenberg",
+      "normalized": "karl heisenberg",
+      "id": "re-karl-heisenberg",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Leon S. Kennedy",
+      "normalized": "leon s kennedy",
+      "id": "re-leon-s-kennedy",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Luis Serra Navarro",
+      "normalized": "luis serra navarro",
+      "id": "re-luis-serra-navarro",
+      "fandom_key": "residentevil",
+      "fandom": "Resident Evil"
+    },
+    {
+      "alias": "Bismuth",
+      "normalized": "bismuth",
+      "id": "su-bismuth",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Blue Diamond",
+      "normalized": "blue diamond",
+      "id": "su-blue-diamond",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Garnet",
+      "normalized": "garnet",
+      "id": "su-garnet",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Greg Universe",
+      "normalized": "greg universe",
+      "id": "su-greg",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Greg",
+      "normalized": "greg",
+      "id": "su-greg",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Greg DeMayo",
+      "normalized": "greg demayo",
+      "id": "su-greg",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Mr. Universe",
+      "normalized": "mr universe",
+      "id": "su-greg",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Lila",
+      "normalized": "lila",
+      "id": "su-lila",
+      "fandom_key": "stevenuniversestarsbetweenthestrings",
+      "fandom": "Steven Universe / Stars Between the Strings"
+    },
+    {
+      "alias": "Lion",
+      "normalized": "lion",
+      "id": "su-lion",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Mara",
+      "normalized": "mara",
+      "id": "su-mara",
+      "fandom_key": "stevenuniversestarsbetweenthestrings",
+      "fandom": "Steven Universe / Stars Between the Strings"
+    },
+    {
+      "alias": "Pearl",
+      "normalized": "pearl",
+      "id": "su-pearl",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Rose Quartz",
+      "normalized": "rose quartz",
+      "id": "su-rose",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Rose",
+      "normalized": "rose",
+      "id": "su-rose",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Pink Diamond",
+      "normalized": "pink diamond",
+      "id": "su-rose",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Rose Quartz / Pink Diamond",
+      "normalized": "rose quartz pink diamond",
+      "id": "su-rose",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Steven Universe",
+      "normalized": "steven universe",
+      "id": "su-steven",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Steven",
+      "normalized": "steven",
+      "id": "su-steven",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    },
+    {
+      "alias": "Yellow Diamond",
+      "normalized": "yellow diamond",
+      "id": "su-yellow-diamond",
+      "fandom_key": "stevenuniverse",
+      "fandom": "Steven Universe"
+    }
+  ],
+  "fandom_profiles": {
+    "avatar": [
+      "avatar-aang",
+      "avatar-appa",
+      "avatar-gran-gran",
+      "avatar-hakoda",
+      "avatar-iroh",
+      "avatar-katara",
+      "avatar-king-bumi",
+      "avatar-momo",
+      "avatar-piandao",
+      "avatar-sokka",
+      "avatar-suki",
+      "avatar-toph",
+      "avatar-zuko"
+    ],
+    "coralisland": [
+      "coral-ben",
+      "coral-charles",
+      "coral-luke-duckorns",
+      "coral-mark",
+      "coral-noah-juma",
+      "coral-pablo-sanchez",
+      "coral-rafael-sanchez",
+      "coral-raj",
+      "coral-scott",
+      "coral-semeru",
+      "coral-suki",
+      "coral-theo",
+      "coral-wakuu",
+      "coral-wataru",
+      "coral-yuri"
+    ],
+    "dcmovies": [
+      "dc-alfred-pennyworth",
+      "dc-arthur-curry-aquaman",
+      "dc-black-adam-teth-adam",
+      "dc-bruce-wayne-batman",
+      "dc-clark-kent-superman",
+      "dc-deadshot-floyd-lawton",
+      "dc-james-gordon",
+      "dc-kent-nelson-doctor-fate",
+      "dc-peacemaker-christopher-smith",
+      "dc-rick-flag",
+      "dc-steve-trevor",
+      "dc-wonder-woman-diana-prince"
+    ],
+    "disneymovies": [
+      "disney-captain-phoebus",
+      "disney-flynn-rider-eugene-fitzherbert",
+      "disney-genie",
+      "disney-king-fergus",
+      "disney-king-triton",
+      "disney-kristoff",
+      "disney-kronk",
+      "disney-li-shang",
+      "disney-maui",
+      "disney-pacha",
+      "disney-prince-naveen",
+      "disney-robert-philip",
+      "disney-the-beast-prince-adam"
+    ],
+    "fallout4": [
+      "fo4-brandis",
+      "fo4-curie",
+      "fo4-cutler",
+      "fo4-danse",
+      "fo4-deacon",
+      "fo4-haylen",
+      "fo4-ingram",
+      "fo4-john-hancock",
+      "fo4-kells",
+      "fo4-maxson",
+      "fo4-nick-valentine",
+      "fo4-old-longfellow",
+      "fo4-piper-wright",
+      "fo4-preston-garvey",
+      "fo4-quinlan",
+      "fo4-rhys"
+    ],
+    "fallout4whatthearmorleavesbehind": [
+      "fo4-amos",
+      "fo4-lena",
+      "fo4-mara"
+    ],
+    "fallout76": [
+      "fo76-adelaide",
+      "fo76-aries",
+      "fo76-beckett",
+      "fo76-commander-sofia-daguerre",
+      "fo76-joey-bello",
+      "fo76-katherine-swan",
+      "fo76-leo-petrov",
+      "fo76-raider-punk",
+      "fo76-solomon-hardy",
+      "fo76-vernon-dodge",
+      "fo76-vinny-costa"
+    ],
+    "harrypotter": [
+      "hp-arthur-weasley",
+      "hp-dumbledore",
+      "hp-hagrid",
+      "hp-harry",
+      "hp-james",
+      "hp-kingsley",
+      "hp-lily",
+      "hp-lucius",
+      "hp-mcgonagall",
+      "hp-pomfrey",
+      "hp-remus-lupin",
+      "hp-sirius-black",
+      "hp-snape",
+      "hp-voldemort"
+    ],
+    "hazbinhotel": [
+      "hazbin-alastor",
+      "hazbin-angel-dust",
+      "hazbin-carmilla-carmine",
+      "hazbin-husk",
+      "hazbin-lucifer-morningstar",
+      "hazbin-rosie",
+      "hazbin-sir-pentious",
+      "hazbin-vaggie",
+      "hazbin-zestial"
+    ],
+    "marvelmovies": [
+      "marvel-alexei-shostakov-red-guardian",
+      "marvel-bruce-banner-hulk",
+      "marvel-bucky-barnes-winter-soldier",
+      "marvel-clint-barton-hawkeye",
+      "marvel-happy-hogan",
+      "marvel-james-rhodey-rhodes-war-machine",
+      "marvel-loki",
+      "marvel-m-baku",
+      "marvel-matt-murdock-daredevil",
+      "marvel-nick-fury",
+      "marvel-peter-quill-star-lord",
+      "marvel-scott-lang-ant-man",
+      "marvel-stephen-strange-doctor-strange",
+      "marvel-thor-odinson",
+      "marvel-tony-stark-iron-man",
+      "marvel-wong"
+    ],
+    "palia": [
+      "palia-ashura",
+      "palia-badruu",
+      "palia-chayne",
+      "palia-einar",
+      "palia-hassian",
+      "palia-hodari-pavel",
+      "palia-jel-omiata",
+      "palia-jina",
+      "palia-kenyatta",
+      "palia-nai-o",
+      "palia-reth",
+      "palia-sifuu",
+      "palia-subira",
+      "palia-tamala",
+      "palia-tish",
+      "palia-zeki"
+    ],
+    "residentevil": [
+      "re-ada-wong",
+      "re-albert-wesker",
+      "re-barry-burton",
+      "re-carlos-oliveira",
+      "re-chris-redfield",
+      "re-ethan-winters",
+      "re-jill-valentine",
+      "re-karl-heisenberg",
+      "re-leon-s-kennedy",
+      "re-luis-serra-navarro"
+    ],
+    "stevenuniverse": [
+      "su-bismuth",
+      "su-blue-diamond",
+      "su-garnet",
+      "su-greg",
+      "su-lion",
+      "su-pearl",
+      "su-rose",
+      "su-steven",
+      "su-yellow-diamond"
+    ],
+    "stevenuniversestarsbetweenthestrings": [
+      "su-lila",
+      "su-mara"
+    ]
+  },
+  "series_cast": {
+    "jasmine-after-rain": [
+      "avatar-iroh",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo"
+    ],
+    "love-and-duty": [
+      "avatar-aang",
+      "avatar-katara",
+      "avatar-toph",
+      "avatar-zuko",
+      "avatar-sokka",
+      "avatar-appa",
+      "avatar-momo",
+      "avatar-gran-gran",
+      "avatar-hakoda"
+    ],
+    "what-the-armor-leaves-behind": [
+      "fo4-danse",
+      "fo4-haylen",
+      "fo4-rhys",
+      "fo4-maxson",
+      "fo4-cutler",
+      "fo4-ingram",
+      "fo4-kells",
+      "fo4-quinlan",
+      "fo4-brandis",
+      "fo4-nick-valentine",
+      "fo4-amos",
+      "fo4-lena",
+      "fo4-mara"
+    ],
+    "after-always": [
+      "hp-snape",
+      "hp-harry",
+      "hp-mcgonagall",
+      "hp-voldemort",
+      "hp-pomfrey",
+      "hp-lily",
+      "hp-james",
+      "hp-dumbledore",
+      "hp-hagrid",
+      "hp-lucius",
+      "hp-kingsley"
+    ],
+    "stars-between-the-strings": [
+      "su-greg",
+      "su-steven",
+      "su-rose",
+      "su-lion",
+      "su-mara",
+      "su-lila"
+    ]
+  },
+  "merge_summary": {
+    "pass3_profiles": 40,
+    "research_profiles": 134,
+    "same_fandom_character_duplicates_merged": 15,
+    "final_canonical_profiles": 159
+  },
+  "rules": [
+    "Resolve characters by fandom + character identity, not display name alone.",
+    "Same-fandom duplicates are one canonical profile with Pass-3 and research layers merged.",
+    "Same names in different fandoms remain separate (for example Avatar Suki and Coral Island Suki).",
+    "Story-original characters remain scoped to their authored continuity.",
+    "Real people and performers are never valid character substitutions.",
+    "Adult-only generation must use explicitly adult character versions."
+  ]
+}

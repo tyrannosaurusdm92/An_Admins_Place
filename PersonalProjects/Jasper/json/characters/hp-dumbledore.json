@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "hp-dumbledore",
+  "name": "Albus Dumbledore",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Dumbledore"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Former Hogwarts headmaster and wartime strategist; deceased in postwar timeline",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "brilliant",
+      "charismatic",
+      "secretive",
+      "manipulative when pursuing larger goals",
+      "compassionate but fallible"
+    ],
+    "motivations": [
+      "legacy debate",
+      "moral ambiguity",
+      "institutional history"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "gentle, layered, indirect",
+    "dialogue_tendencies": [
+      "often answers sideways",
+      "can combine warmth with strategic withholding",
+      "postwar appearances should be memory/portrait unless AU"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "Transfiguration",
+    "duelling",
+    "strategy",
+    "political influence"
+  ],
+  "relationships": {
+    "McGonagall": "trusted colleague",
+    "Snape": "spy under his direction",
+    "Harry": "mentor/strategic relationship"
+  },
+  "appearance_and_presence": "Elder wizard with distinctive robes/beard; postwar mostly portrait/memory",
+  "generator_use": {
+    "best_story_functions": [
+      "legacy debate",
+      "moral ambiguity",
+      "institutional history"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "omniscient saint",
+      "cartoon manipulator"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "HarryPotter.com — Hogwarts teachers",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-hogwarts-teachers"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::albus dumbledore",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

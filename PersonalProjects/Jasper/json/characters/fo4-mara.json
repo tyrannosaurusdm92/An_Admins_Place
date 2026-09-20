@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-mara",
+  "name": "Mara",
+  "fandom": "Fallout 4 / What the Armor Leaves Behind",
+  "provenance": "story_original",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Story-original trusted settlement contact who helps vulnerable travelers and escaped synths",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "reliable",
+      "discreet",
+      "practical",
+      "community-minded"
+    ],
+    "motivations": [
+      "keep people safe",
+      "help without demanding ownership of their story",
+      "maintain trusted local networks"
+    ],
+    "contradictions": [
+      "important to the community despite limited on-page presence"
+    ]
+  },
+  "voice": {
+    "register": "practical, grounded",
+    "dialogue_tendencies": [
+      "Use concise community-level language rather than grand speeches.",
+      "Her reliability should be demonstrated through actions and referrals."
+    ],
+    "writer_rules": [
+      "Do not import the Steven Universe Mara profile; this is a different story-original character.",
+      "Do not overdefine unestablished biography."
+    ]
+  },
+  "capabilities": [
+    "community networking",
+    "safe-route assistance",
+    "practical aid"
+  ],
+  "relationships": {
+    "Danse": "trusted enough that he sends Lena to her for safety",
+    "Lena": "helps Lena after her escape",
+    "Jasper": "community ally by continuity"
+  },
+  "appearance_and_presence": "Not firmly established in authored prose; do not invent fixed physical traits unless later chapters establish them.",
+  "generator_use": {
+    "best_story_functions": [
+      "safe-contact continuity",
+      "settlement/community texture",
+      "evidence that Danse has built trustworthy civilian connections"
+    ],
+    "continuity_priorities": [
+      "Preserve that Danse trusted Mara with Lena’s safety.",
+      "Do not merge her with any same-name character from another fandom."
+    ],
+    "avoid": [
+      "inventing unrelated canon history",
+      "turning her into a plot device with no agency"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person.",
+    "slow_burn_rule": "Use Mara as community continuity, not as a romance shortcut.",
+    "private_handoff_rule": "If present around a private handoff, preserve established trust and community context."
+  },
+  "sources": [
+    {
+      "title": "Existing authored chapter continuity",
+      "path": "FO4/What-The-Armor-Leaves-Behind/37.json"
+    }
+  ],
+  "research_notes": "Story-original profile reconstructed only from the authored fanfic. External canon research intentionally not applied.",
+  "merged_profile": {
+    "canonical_key": "fallout4whatthearmorleavesbehind::mara",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

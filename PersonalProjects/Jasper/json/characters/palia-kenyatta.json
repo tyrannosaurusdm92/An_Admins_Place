@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "palia-kenyatta",
+  "name": "Kenyatta",
+  "fandom": "Palia",
+  "provenance": "canon_researched_expanded",
+  "aliases": [],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+    "explicit_mode_eligible": true,
+    "real_person_or_actor_material": "forbidden",
+    "minimum_partner_age": 18,
+    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+    "minor_era_romance_or_sexualization": "blocked"
+  },
+  "identity": {
+    "role": "Romanceable mayor's daughter; Known for wit and rebelliousness; Pushes against Eshe's expectations; Young adult",
+    "fictional_character": true,
+    "species_or_type": null,
+    "gender": "female",
+    "continuity_scope": "Current Palia continuity"
+  },
+  "personality": {
+    "core_traits": [
+      "Romanceable mayor's daughter",
+      "Known for wit and rebelliousness",
+      "Pushes against Eshe's expectations",
+      "Young adult",
+      "Has romantic interest in Nai'o depending player choices",
+      "romanceable",
+      "brat_energy",
+      "wit",
+      "rebellious",
+      "aristocrat",
+      "edgy"
+    ],
+    "motivations": [
+      "Town Hall rebellion",
+      "Eshe conflict",
+      "Nai'o poly/branch handling",
+      "Underground",
+      "choosing a Path"
+    ],
+    "contradictions": [
+      "Kenyatta is a built-in brat foil: witty, rebellious, likes annoying her mother, hard to impress, and perfect for mutual challenge rather than one-way taming.",
+      "Canon-romanceable; Nai'o connection may require branch/poly handling."
+    ]
+  },
+  "voice": {
+    "register": "Sharp, sarcastic, irreverent, performatively unimpressed.",
+    "dialogue_tendencies": [
+      "Do not replace this character's cadence with Generic Dom voice.",
+      "Would a fan recognize the speaker without the name tag?",
+      "Keep profanity, formality, humor, and emotional openness consistent.",
+      "Never import actor/voice-actor biography or real-life persona."
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "Romanceable mayor's daughter",
+    "Known for wit and rebelliousness",
+    "Pushes against Eshe's expectations",
+    "Young adult",
+    "Has romantic interest in Nai'o depending player choices"
+  ],
+  "relationships": {
+    "Jasper": "Sneaking out, town gossip, rebellion becoming genuine choice, banter.",
+    "canon_state": "Canon-romanceable; Nai'o connection may require branch/poly handling."
+  },
+  "appearance_and_presence": "",
+  "generator_use": {
+    "best_story_functions": [
+      "Town Hall rebellion",
+      "Eshe conflict",
+      "Nai'o poly/branch handling",
+      "Underground",
+      "choosing a Path",
+      "romanceable",
+      "brat_energy",
+      "wit",
+      "rebellious",
+      "aristocrat",
+      "edgy"
+    ],
+    "continuity_priorities": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "minor ambiguity",
+      "mean-girl only",
+      "rebellion without consequences"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Brat-versus-brat; generator should allow Jasper and Kenyatta to trade wins.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "romance_writer_profile": {
+      "core": "Sneaking out, town gossip, rebellion becoming genuine choice, banter.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, cheeky, slang-friendly within Palia tone.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "snacks",
+        "laughing debrief",
+        "quiet honesty",
+        "mocking the scene affectionately",
+        "cuddle"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Current Palia continuity",
+        "Romanceable mayor's daughter",
+        "Known for wit and rebelliousness",
+        "Pushes against Eshe's expectations",
+        "Sharp, sarcastic, irreverent, performatively unimpressed."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    }
+  },
+  "retrieval": {
+    "primary_tags": [
+      "aristocrat",
+      "brat_energy",
+      "edgy",
+      "rebellious",
+      "romanceable",
+      "wit"
+    ],
+    "seed_similarity": [
+      "Toph",
+      "Sirius Black"
+    ],
+    "franchise": "Palia",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_hard_explicit_mode": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "continuation_ready": true,
+    "default_pool_weight": "normal"
+  },
+  "sources": [
+    {
+      "title": "https://palia.wiki.gg/wiki/Kenyatta",
+      "url": "https://palia.wiki.gg/wiki/Kenyatta"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v2-expanded",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Kenyatta",
+      "franchise": "Palia",
+      "continuity_scope": "Current Palia continuity",
+      "fictional_only": true,
+      "gender": "female",
+      "character_id": "palia:kenyatta"
+    },
+    "adult_gate": {
+      "status": "Canon young-adult romanceable; hard-explicit mode must set age >=18.",
+      "explicit_mode_eligible": true,
+      "real_person_or_actor_material": "forbidden",
+      "minimum_partner_age": 18,
+      "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+      "minor_era_romance_or_sexualization": "blocked"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Toph",
+        "Sirius Black"
+      ],
+      "archetypes": [
+        "romanceable",
+        "brat_energy",
+        "wit",
+        "rebellious",
+        "aristocrat",
+        "edgy"
+      ],
+      "fit_axes_0_to_5": {
+        "older_or_lived_experience": 3,
+        "goofy_or_playful_sweetheart": 3,
+        "wisdom_or_competence": 4,
+        "sappy_romance_potential": 5,
+        "brat_chemistry": 5
+      },
+      "why_this_matches": "Kenyatta is a built-in brat foil: witty, rebellious, likes annoying her mother, hard to impress, and perfect for mutual challenge rather than one-way taming."
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "Romanceable mayor's daughter",
+        "Known for wit and rebelliousness",
+        "Pushes against Eshe's expectations",
+        "Young adult",
+        "Has romantic interest in Nai'o depending player choices"
+      ],
+      "canon_romanceable_or_relationship_state": "Canon-romanceable; Nai'o connection may require branch/poly handling.",
+      "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+    },
+    "voice_profile": {
+      "generator_voice_summary": "Sharp, sarcastic, irreverent, performatively unimpressed.",
+      "hard_rule": "Do not replace this character's cadence with Generic Dom voice.",
+      "dialogue_consistency_checks": [
+        "Would a fan recognize the speaker without the name tag?",
+        "Keep profanity, formality, humor, and emotional openness consistent.",
+        "Never import actor/voice-actor biography or real-life persona."
+      ]
+    },
+    "romance_writer_profile": {
+      "core": "Sneaking out, town gossip, rebellion becoming genuine choice, banter.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Brat-versus-brat; generator should allow Jasper and Kenyatta to trade wins.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, cheeky, slang-friendly within Palia tone.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "snacks",
+        "laughing debrief",
+        "quiet honesty",
+        "mocking the scene affectionately",
+        "cuddle"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "Town Hall rebellion",
+      "Eshe conflict",
+      "Nai'o poly/branch handling",
+      "Underground",
+      "choosing a Path"
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Current Palia continuity",
+        "Romanceable mayor's daughter",
+        "Known for wit and rebelliousness",
+        "Pushes against Eshe's expectations",
+        "Sharp, sarcastic, irreverent, performatively unimpressed."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    },
+    "do_not_flatten_into": [
+      "minor ambiguity",
+      "mean-girl only",
+      "rebellion without consequences"
+    ],
+    "retrieval": {
+      "primary_tags": [
+        "aristocrat",
+        "brat_energy",
+        "edgy",
+        "rebellious",
+        "romanceable",
+        "wit"
+      ],
+      "seed_similarity": [
+        "Toph",
+        "Sirius Black"
+      ],
+      "franchise": "Palia",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_hard_explicit_mode": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "continuation_ready": true,
+      "default_pool_weight": "normal"
+    },
+    "research_boundary": {
+      "canon_facts": "Use identity and canon_grounding as the factual anchor.",
+      "fanfic_inference": "Romance/kink/adult diction/aftercare are inferred writing behavior for this private transformative project.",
+      "real_people": "Never substitute actor, voice actor, creator, celebrity, streamer, or other real person."
+    },
+    "sources": [
+      "https://palia.wiki.gg/wiki/Kenyatta"
+    ]
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "palia::kenyatta",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "Current Palia continuity",
+      "Romanceable mayor's daughter",
+      "Known for wit and rebelliousness",
+      "Pushes against Eshe's expectations",
+      "Sharp, sarcastic, irreverent, performatively unimpressed."
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "pet_names",
+      "consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries",
+      "location_and_timeline",
+      "promises_confessions_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions"
+    ],
+    "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

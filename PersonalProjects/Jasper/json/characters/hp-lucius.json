@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "hp-lucius",
+  "name": "Lucius Malfoy",
+  "fandom": "Harry Potter",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Lucius"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Pure-blood aristocrat and former Death Eater",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "status-conscious",
+      "controlled",
+      "self-preserving",
+      "prejudiced",
+      "politically calculating"
+    ],
+    "motivations": [
+      "postwar political friction",
+      "old-network pressure"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "formal, aristocratic, cutting",
+    "dialogue_tendencies": [
+      "threats are polished rather than loud",
+      "postwar position should reflect consequences and lost power"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "political maneuvering",
+    "Dark Arts familiarity"
+  ],
+  "relationships": {
+    "Snape": "Slytherin/Death Eater social history"
+  },
+  "appearance_and_presence": "Elegant aristocratic presentation",
+  "generator_use": {
+    "best_story_functions": [
+      "postwar political friction",
+      "old-network pressure"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "friendly banter without reason",
+      "ignoring blood-purity ideology"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "HarryPotter.com — Hogwarts teachers",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-hogwarts-teachers"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "harrypotter::lucius malfoy",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}
