@@ -1,0 +1,436 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "coral-mark",
+  "name": "Mark",
+  "fandom": "Coral Island",
+  "provenance": "canon_researched_expanded",
+  "aliases": [],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "adult-coded canon dateable; explicit mode requires age >=18",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "identity": {
+    "role": "dateable townie; Band of Smiles cavern hunter; animal-shelter volunteer; cares deeply for strays",
+    "fictional_character": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "continuity_scope": "current game continuity"
+  },
+  "personality": {
+    "core_traits": [
+      "dateable townie",
+      "Band of Smiles cavern hunter",
+      "animal-shelter volunteer",
+      "cares deeply for strays",
+      "heart events reveal vulnerability and awkward affection",
+      "gruff_softie",
+      "soldier_softie",
+      "caretaker",
+      "competence"
+    ],
+    "motivations": [
+      "animal shelter romance",
+      "cavern rescue",
+      "kayak competition",
+      "gruff neighbor slow burn"
+    ],
+    "contradictions": [
+      "Intimidating cavern hunter and gruff presence whose softness is clearest around stray animals, family and the person he slowly trusts."
+    ]
+  },
+  "voice": {
+    "register": "",
+    "dialogue_tendencies": [],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "dateable townie",
+    "Band of Smiles cavern hunter",
+    "animal-shelter volunteer",
+    "cares deeply for strays",
+    "heart events reveal vulnerability and awkward affection"
+  ],
+  "relationships": {
+    "Jasper": "Transformative adult relationship must preserve canon characterization.",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Human",
+  "generator_use": {
+    "best_story_functions": [
+      "animal shelter romance",
+      "cavern rescue",
+      "kayak competition",
+      "gruff neighbor slow burn",
+      "gruff_softie",
+      "soldier_softie",
+      "caretaker",
+      "competence"
+    ],
+    "continuity_priorities": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "generic bear dom",
+      "emotionless hunter"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "style": "Gruff tamer: calls out the sass bluntly and gives Jasper a challenge rather than a lecture.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "animal shelter, hikes, cavern safety and practical acts",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "plain direct language; short sincere praise; low-flourish",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "water, checking aches, animal cuddle mood reset and quiet touch",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "retrieval": {
+    "franchise": "Coral Island",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Paladin Danse",
+      "Greg Universe"
+    ],
+    "tags": [
+      "gruff_softie",
+      "soldier_softie",
+      "caretaker",
+      "competence"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "title": "https://coralisland.wiki/wiki/Mark",
+      "url": "https://coralisland.wiki/wiki/Mark"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Mark",
+      "franchise": "Coral Island",
+      "continuity_scope": "current game continuity",
+      "fictional_only": true,
+      "species_or_type": "Human",
+      "gender": "male",
+      "character_id": "coral-island:mark"
+    },
+    "adult_gate": {
+      "status": "adult-coded canon dateable; explicit mode requires age >=18",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "archetypes": [
+        "gruff_softie",
+        "soldier_softie",
+        "caretaker",
+        "competence"
+      ],
+      "why_this_matches": "Intimidating cavern hunter and gruff presence whose softness is clearest around stray animals, family and the person he slowly trusts.",
+      "archetype_writing_notes": [
+        "Keep the abrasive or reserved surface while letting care show through choices, not instant personality replacement.",
+        "Duty and competence should shape the voice, while private affection reveals a softer register.",
+        "Care is romantic because Jasper keeps agency; do not convert attentiveness into parental treatment.",
+        "Attraction should grow from watching the character do what they are actually good at."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "dateable townie",
+        "Band of Smiles cavern hunter",
+        "animal-shelter volunteer",
+        "cares deeply for strays",
+        "heart events reveal vulnerability and awkward affection"
+      ],
+      "canon_relationship_or_romance_state": "Canon-dateable.",
+      "continuity_note": "current game continuity"
+    },
+    "voice_profile": {
+      "summary": "short, blunt, guarded; dry competitive humor",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "low-key care, blunt reassurance, rare softness",
+        "structured, protective, direct",
+        "attentive, practical, reciprocal",
+        "capable, grounded, reliable"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "animal shelter, hikes, cavern safety and practical acts",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Gruff tamer: calls out the sass bluntly and gives Jasper a challenge rather than a lecture.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "plain direct language; short sincere praise; low-flourish",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "water, checking aches, animal cuddle mood reset and quiet touch",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "animal shelter romance",
+      "cavern rescue",
+      "kayak competition",
+      "gruff neighbor slow burn"
+    ],
+    "do_not_flatten_into": [
+      "generic bear dom",
+      "emotionless hunter"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "Coral Island",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Paladin Danse",
+        "Greg Universe"
+      ],
+      "tags": [
+        "gruff_softie",
+        "soldier_softie",
+        "caretaker",
+        "competence"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://coralisland.wiki/wiki/Mark",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "coralisland::mark",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

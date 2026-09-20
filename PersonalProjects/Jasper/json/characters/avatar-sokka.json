@@ -1,0 +1,521 @@
+{
+  "schema_version": "2.0-merged-pass3-research",
+  "profile_type": "generator_character_profile",
+  "id": "avatar-sokka",
+  "name": "Sokka",
+  "fandom": "Avatar: The Last Airbender",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Sokka"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Southern Water Tribe warrior, planner and strategist",
+    "fictional_character": true,
+    "gender": "male",
+    "continuity_scope": "Adult post-series Sokka only"
+  },
+  "personality": {
+    "core_traits": [
+      "sarcastic",
+      "inventive",
+      "practical",
+      "protective",
+      "self-deprecating",
+      "brave",
+      "resourceful",
+      "Nonbender strategist and inventor",
+      "Uses humor constantly but can lead soberly",
+      "Protective of friends and family",
+      "Learns from mistakes and respects expertise",
+      "Adult political/technical work can deepen rather than erase his silliness",
+      "adult_postcanon",
+      "goofy_sweetheart",
+      "strategist",
+      "inventor",
+      "dad_jokes",
+      "loyal"
+    ],
+    "motivations": [
+      "comic relief with competence",
+      "planning scenes",
+      "family scenes",
+      "adult councilman/engineer",
+      "Southern Water Tribe rebuilding",
+      "inventor workshop",
+      "diplomatic travel",
+      "boomerang joke becomes private relationship shorthand"
+    ],
+    "contradictions": [
+      "inventions",
+      "grounding magical problems in logistics",
+      "Adult Sokka is a prime goofy-competent match: ridiculous humor, tactical intelligence, insecurity hidden behind jokes, inventiveness, and fiercely practical loyalty.",
+      "Canon romance with Suki is important; Jasper romance must be AU/poly/canon-divergent."
+    ]
+  },
+  "voice": {
+    "register": "fast, sarcastic, tactical",
+    "dialogue_tendencies": [
+      "jokes during stress",
+      "thinks in plans, logistics and mechanisms",
+      "can be dramatic but notices concrete problems",
+      "adult version can mature without losing ridiculousness",
+      "Do not replace this character's cadence with Generic Dom voice.",
+      "Would a fan recognize the speaker without the name tag?",
+      "Keep profanity, formality, humor, and emotional openness consistent.",
+      "Never import actor/voice-actor biography or real-life persona."
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "strategy",
+    "engineering",
+    "swordsmanship",
+    "leadership",
+    "improvisation",
+    "Nonbender strategist and inventor",
+    "Uses humor constantly but can lead soberly",
+    "Protective of friends and family",
+    "Learns from mistakes and respects expertise",
+    "Adult political/technical work can deepen rather than erase his silliness"
+  ],
+  "relationships": {
+    "Katara": "sister",
+    "Aang": "friend",
+    "Toph": "friend/banter partner",
+    "Jasper": "Plans ridiculous dates, remembers practical details, makes Jasper laugh, then surprises them with emotionally precise honesty.",
+    "canon_state": "Canon romance with Suki is important; Jasper romance must be AU/poly/canon-divergent."
+  },
+  "appearance_and_presence": "Nonbender warrior; tools, plans and food often become comic texture",
+  "generator_use": {
+    "best_story_functions": [
+      "comic relief with competence",
+      "planning scenes",
+      "family scenes",
+      "inventions",
+      "grounding magical problems in logistics",
+      "adult councilman/engineer",
+      "Southern Water Tribe rebuilding",
+      "inventor workshop",
+      "diplomatic travel",
+      "boomerang joke becomes private relationship shorthand",
+      "adult_postcanon",
+      "goofy_sweetheart",
+      "strategist",
+      "inventor",
+      "dad_jokes",
+      "loyal"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones.",
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "making him only comic relief",
+      "making him stupid because he cannot bend",
+      "minor Sokka",
+      "idiot comic relief",
+      "sexist season-one reset",
+      "generic alpha"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume.",
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Playful competitive tamer; gets baited into games, then wins through cleverness rather than intimidation.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "romance_writer_profile": {
+      "core": "Plans ridiculous dates, remembers practical details, makes Jasper laugh, then surprises them with emotionally precise honesty.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, playful, fantasy-world contemporary; jokes should not obscure clarity.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "food",
+        "bad jokes",
+        "blanket",
+        "checking practical needs",
+        "quiet stargazing"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Adult post-series Sokka only",
+        "Nonbender strategist and inventor",
+        "Uses humor constantly but can lead soberly",
+        "Protective of friends and family",
+        "Fast, joking, metaphor-heavy, occasionally overexplained; serious statements land hardest after the humor drops."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    }
+  },
+  "sources": [
+    {
+      "title": "Paramount+ Avatar character guide",
+      "url": "https://www.paramountplus.com/sneak-peak/avatar-the-last-airbender-character-guide-cast/"
+    },
+    {
+      "title": "Avatar Wiki — series character overview",
+      "url": "https://avatar.fandom.com/wiki/Avatar:_The_Last_Airbender"
+    },
+    {
+      "title": "https://avatar.fandom.com/wiki/Sokka",
+      "url": "https://avatar.fandom.com/wiki/Sokka"
+    }
+  ],
+  "research_notes": "Pass-3 story-facing canon profile merged with the expanded research profile; neither source was discarded.",
+  "merged_profile": {
+    "canonical_key": "avatar::sokka",
+    "sources_combined": [
+      "pass3_generator_profile",
+      "expanded_research_profile"
+    ],
+    "duplicate_policy": "same fandom + same fictional character merged into one resolver record"
+  },
+  "adult_gate": {
+    "status": "REQUIRES explicitly adult/post-canon Sokka age >=18; original-series minor era is blocked.",
+    "explicit_mode_eligible": true,
+    "real_person_or_actor_material": "forbidden",
+    "minimum_partner_age": 18,
+    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+    "minor_era_romance_or_sexualization": "blocked"
+  },
+  "retrieval": {
+    "primary_tags": [
+      "adult_postcanon",
+      "dad_jokes",
+      "goofy_sweetheart",
+      "inventor",
+      "loyal",
+      "strategist"
+    ],
+    "seed_similarity": [
+      "Greg Universe",
+      "Aang"
+    ],
+    "franchise": "Avatar: The Last Airbender",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_hard_explicit_mode": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "continuation_ready": true,
+    "default_pool_weight": "normal"
+  },
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v2-expanded",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Sokka",
+      "franchise": "Avatar: The Last Airbender",
+      "continuity_scope": "Adult post-series Sokka only",
+      "fictional_only": true,
+      "gender": "male",
+      "character_id": "avatar-the-last-airbender:sokka"
+    },
+    "adult_gate": {
+      "status": "REQUIRES explicitly adult/post-canon Sokka age >=18; original-series minor era is blocked.",
+      "explicit_mode_eligible": true,
+      "real_person_or_actor_material": "forbidden",
+      "minimum_partner_age": 18,
+      "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
+      "minor_era_romance_or_sexualization": "blocked"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "adult_postcanon",
+        "goofy_sweetheart",
+        "strategist",
+        "inventor",
+        "dad_jokes",
+        "loyal"
+      ],
+      "fit_axes_0_to_5": {
+        "older_or_lived_experience": 3,
+        "goofy_or_playful_sweetheart": 5,
+        "wisdom_or_competence": 5,
+        "sappy_romance_potential": 5,
+        "brat_chemistry": 4
+      },
+      "why_this_matches": "Adult Sokka is a prime goofy-competent match: ridiculous humor, tactical intelligence, insecurity hidden behind jokes, inventiveness, and fiercely practical loyalty."
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "Nonbender strategist and inventor",
+        "Uses humor constantly but can lead soberly",
+        "Protective of friends and family",
+        "Learns from mistakes and respects expertise",
+        "Adult political/technical work can deepen rather than erase his silliness"
+      ],
+      "canon_romanceable_or_relationship_state": "Canon romance with Suki is important; Jasper romance must be AU/poly/canon-divergent.",
+      "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+    },
+    "voice_profile": {
+      "generator_voice_summary": "Fast, joking, metaphor-heavy, occasionally overexplained; serious statements land hardest after the humor drops.",
+      "hard_rule": "Do not replace this character's cadence with Generic Dom voice.",
+      "dialogue_consistency_checks": [
+        "Would a fan recognize the speaker without the name tag?",
+        "Keep profanity, formality, humor, and emotional openness consistent.",
+        "Never import actor/voice-actor biography or real-life persona."
+      ]
+    },
+    "romance_writer_profile": {
+      "core": "Plans ridiculous dates, remembers practical details, makes Jasper laugh, then surprises them with emotionally precise honesty.",
+      "target_tone": [
+        "sappy",
+        "emotionally_specific",
+        "adult",
+        "character_driven",
+        "porn_with_feelings_when_explicit_mode_is_selected"
+      ],
+      "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
+    },
+    "brat_tamer_profile": {
+      "generator_inference_not_canon": true,
+      "style": "Playful competitive tamer; gets baited into games, then wins through cleverness rather than intimidation.",
+      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
+      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "diction": "Direct, playful, fantasy-world contemporary; jokes should not obscure clarity.",
+      "rules": [
+        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
+        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
+        "Character dialogue vocabulary remains character-specific.",
+        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
+      ]
+    },
+    "aftercare_profile": {
+      "character_specific_options": [
+        "food",
+        "bad jokes",
+        "blanket",
+        "checking practical needs",
+        "quiet stargazing"
+      ],
+      "rule": "Aftercare is reciprocal and character-specific."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "adult councilman/engineer",
+      "Southern Water Tribe rebuilding",
+      "inventor workshop",
+      "diplomatic travel",
+      "boomerang joke becomes private relationship shorthand"
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "Adult post-series Sokka only",
+        "Nonbender strategist and inventor",
+        "Uses humor constantly but can lead soberly",
+        "Protective of friends and family",
+        "Fast, joking, metaphor-heavy, occasionally overexplained; serious statements land hardest after the humor drops."
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "pet_names",
+        "consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries",
+        "location_and_timeline",
+        "promises_confessions_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting",
+        "earned trust",
+        "relationship milestones",
+        "boundaries",
+        "pronouns",
+        "affirmation language",
+        "aftercare preferences",
+        "canon-divergence decisions"
+      ],
+      "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+    },
+    "do_not_flatten_into": [
+      "minor Sokka",
+      "idiot comic relief",
+      "sexist season-one reset",
+      "generic alpha"
+    ],
+    "retrieval": {
+      "primary_tags": [
+        "adult_postcanon",
+        "dad_jokes",
+        "goofy_sweetheart",
+        "inventor",
+        "loyal",
+        "strategist"
+      ],
+      "seed_similarity": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "franchise": "Avatar: The Last Airbender",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_hard_explicit_mode": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "continuation_ready": true,
+      "default_pool_weight": "normal"
+    },
+    "research_boundary": {
+      "canon_facts": "Use identity and canon_grounding as the factual anchor.",
+      "fanfic_inference": "Romance/kink/adult diction/aftercare are inferred writing behavior for this private transformative project.",
+      "real_people": "Never substitute actor, voice actor, creator, celebrity, streamer, or other real person."
+    },
+    "sources": [
+      "https://avatar.fandom.com/wiki/Sokka"
+    ]
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "Adult post-series Sokka only",
+      "Nonbender strategist and inventor",
+      "Uses humor constantly but can lead soberly",
+      "Protective of friends and family",
+      "Fast, joking, metaphor-heavy, occasionally overexplained; serious statements land hardest after the humor drops."
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "pet_names",
+      "consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries",
+      "location_and_timeline",
+      "promises_confessions_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting",
+      "earned trust",
+      "relationship milestones",
+      "boundaries",
+      "pronouns",
+      "affirmation language",
+      "aftercare preferences",
+      "canon-divergence decisions"
+    ],
+    "continuation_instruction": "Continue from the latest chapter ledger; do not replay introductions or rediscover already-known boundaries."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

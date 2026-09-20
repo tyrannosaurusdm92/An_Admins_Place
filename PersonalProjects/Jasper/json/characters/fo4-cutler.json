@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-cutler",
+  "name": "Cutler",
+  "fandom": "Fallout 4",
+  "provenance": "canon_researched",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Danse’s pre-Commonwealth friend and fellow Brotherhood recruit",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "loyal",
+      "remembered through grief",
+      "formative"
+    ],
+    "motivations": [
+      "grief callback",
+      "pre-story history",
+      "humanizing Danse"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "memory-fragment, soldierly",
+    "dialogue_tendencies": [
+      "primarily appears through Danse’s recollection; keep details consistent and avoid inventing large new canon history"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "Brotherhood soldier experience"
+  ],
+  "relationships": {
+    "Danse": "close old friend; loss was formative"
+  },
+  "appearance_and_presence": "Mostly a remembered figure in current fic",
+  "generator_use": {
+    "best_story_functions": [
+      "grief callback",
+      "pre-story history",
+      "humanizing Danse"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "resurrecting without AU justification",
+      "overdefining undocumented canon"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Fallout Wiki — Danse",
+      "url": "https://fallout.fandom.com/wiki/Danse"
+    },
+    {
+      "title": "Fallout Wiki — Blind Betrayal",
+      "url": "https://fallout.fandom.com/wiki/Blind_Betrayal"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4::cutler",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

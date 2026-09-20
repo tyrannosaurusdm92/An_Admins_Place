@@ -1,0 +1,431 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "disney-genie",
+  "name": "Genie",
+  "fandom": "Disney Movies",
+  "provenance": "canon_researched_expanded",
+  "aliases": [],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "ageless adult-coded magical being",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "identity": {
+    "role": "ageless magical Genie; joke-cracking/shape-changing motor mouth; great friend; massive power",
+    "fictional_character": true,
+    "species_or_type": "Genie",
+    "gender": "male",
+    "continuity_scope": "Aladdin animated-film fictional Genie only"
+  },
+  "personality": {
+    "core_traits": [
+      "ageless magical Genie",
+      "joke-cracking/shape-changing motor mouth",
+      "great friend",
+      "massive power",
+      "freedom central to arc",
+      "ancient_goofball",
+      "goofy_sweetheart",
+      "romantic_showman"
+    ],
+    "motivations": [
+      "post-freedom AU",
+      "travel romance",
+      "Agrabah domesticity",
+      "wish-loophole comedy"
+    ],
+    "contradictions": [
+      "Pure ancient-but-goofy sweetheart: joke-cracking, shape-changing, loyal and emotionally centered on freedom and chosen attachment."
+    ]
+  },
+  "voice": {
+    "register": "",
+    "dialogue_tendencies": [],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "ageless magical Genie",
+    "joke-cracking/shape-changing motor mouth",
+    "great friend",
+    "massive power",
+    "freedom central to arc"
+  ],
+  "relationships": {
+    "Jasper": "Transformative adult relationship must preserve canon characterization.",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Genie",
+  "generator_use": {
+    "best_story_functions": [
+      "post-freedom AU",
+      "travel romance",
+      "Agrabah domesticity",
+      "wish-loophole comedy",
+      "ancient_goofball",
+      "goofy_sweetheart",
+      "romantic_showman"
+    ],
+    "continuity_priorities": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "real-person performer fic",
+      "all-powerful coercion",
+      "only joke machine"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "style": "Chaotic playful tamer: turns brat exchange into spectacle, then stops all magic for one sincere sentence.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "showy magic and adventure that eventually strip down to simple sincerity",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "theatrical/playful yet explicit-clear; never use magic to compel affection",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "magic-free quiet, food, cuddling if form permits, jokes and freedom reassurance",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "retrieval": {
+    "franchise": "Disney Movies",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Greg Universe",
+      "Aang"
+    ],
+    "tags": [
+      "ancient_goofball",
+      "goofy_sweetheart",
+      "romantic_showman"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "title": "https://movies.disney.com/aladdin",
+      "url": "https://movies.disney.com/aladdin"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Genie",
+      "franchise": "Disney Movies",
+      "continuity_scope": "Aladdin animated-film fictional Genie only",
+      "fictional_only": true,
+      "species_or_type": "Genie",
+      "gender": "male",
+      "character_id": "disney-movies:genie"
+    },
+    "adult_gate": {
+      "status": "ageless adult-coded magical being",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "archetypes": [
+        "ancient_goofball",
+        "goofy_sweetheart",
+        "romantic_showman"
+      ],
+      "why_this_matches": "Pure ancient-but-goofy sweetheart: joke-cracking, shape-changing, loyal and emotionally centered on freedom and chosen attachment.",
+      "archetype_writing_notes": [
+        "Let immense age coexist with ridiculous humor and ordinary needs.",
+        "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
+        "Grand gestures should eventually strip down to something emotionally simple and specific."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "ageless magical Genie",
+        "joke-cracking/shape-changing motor mouth",
+        "great friend",
+        "massive power",
+        "freedom central to arc"
+      ],
+      "canon_relationship_or_romance_state": "Fictional character only; never merge with performer identity.",
+      "continuity_note": "Aladdin animated-film fictional Genie only"
+    },
+    "voice_profile": {
+      "summary": "rapid-fire, theatrical and reference-heavy",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "grand, playful, unexpectedly vulnerable",
+        "playful, affectionate, willing to look ridiculous",
+        "performative then sincere"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "showy magic and adventure that eventually strip down to simple sincerity",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Chaotic playful tamer: turns brat exchange into spectacle, then stops all magic for one sincere sentence.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "theatrical/playful yet explicit-clear; never use magic to compel affection",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "magic-free quiet, food, cuddling if form permits, jokes and freedom reassurance",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "post-freedom AU",
+      "travel romance",
+      "Agrabah domesticity",
+      "wish-loophole comedy"
+    ],
+    "do_not_flatten_into": [
+      "real-person performer fic",
+      "all-powerful coercion",
+      "only joke machine"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "Disney Movies",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Greg Universe",
+        "Aang"
+      ],
+      "tags": [
+        "ancient_goofball",
+        "goofy_sweetheart",
+        "romantic_showman"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://movies.disney.com/aladdin",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "disneymovies::genie",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}

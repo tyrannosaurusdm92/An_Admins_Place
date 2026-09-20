@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-amos",
+  "name": "Amos",
+  "fandom": "Fallout 4 / What the Armor Leaves Behind",
+  "provenance": "story_original",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Story-original non-feral ghoul living independently with a greenhouse made from bus windows",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "tough",
+      "wary",
+      "self-sufficient",
+      "dry",
+      "humanizing counterexample to Brotherhood prejudice"
+    ],
+    "motivations": [
+      "personhood conflict",
+      "Danse deprogramming",
+      "wasteland civilian texture"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "wasteland-practical, dry",
+    "dialogue_tendencies": [
+      "does not beg to be recognized as a person",
+      "pushes back against prejudice directly"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "survival",
+    "shotgun use",
+    "greenhouse growing"
+  ],
+  "relationships": {
+    "Danse": "initial ideological confrontation that becomes part of his growth",
+    "Jasper": "mediator/ally"
+  },
+  "appearance_and_presence": "Radiation-scarred ghoul; old man; shotgun; greenhouse",
+  "generator_use": {
+    "best_story_functions": [
+      "personhood conflict",
+      "Danse deprogramming",
+      "wasteland civilian texture"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "making him saintly solely to teach Danse",
+      "feral stereotypes"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Existing authored chapter continuity",
+      "path": "FO4/What-The-Armor-Leaves-Behind"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4whatthearmorleavesbehind::amos",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

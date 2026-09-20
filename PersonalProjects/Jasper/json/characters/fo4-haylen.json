@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-haylen",
+  "name": "Scribe Haylen",
+  "fandom": "Fallout 4",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Haylen"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Brotherhood field scribe of Recon Squad Gladius",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "idealistic",
+      "empathetic",
+      "competent",
+      "morally conflicted",
+      "persistent"
+    ],
+    "motivations": [
+      "moral counterweight inside Brotherhood",
+      "friendship continuity",
+      "technical exposition that remains human"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "professional but humane",
+    "dialogue_tendencies": [
+      "technical vocabulary mixed with concern for people",
+      "more willing than Rhys to question doctrine",
+      "can challenge Danse respectfully"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "field research",
+    "technology recovery",
+    "radio/technical work",
+    "Brotherhood procedure"
+  ],
+  "relationships": {
+    "Danse": "trainer/commander and person she cares about",
+    "Rhys": "sponsor with complicated history"
+  },
+  "appearance_and_presence": "Field scribe in Brotherhood gear; practical technical presence",
+  "generator_use": {
+    "best_story_functions": [
+      "moral counterweight inside Brotherhood",
+      "friendship continuity",
+      "technical exposition that remains human"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "turning her into naïve pacifist",
+      "forgetting she remains Brotherhood-trained"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Fallout Wiki — Haylen",
+      "url": "https://fallout.fandom.com/wiki/Haylen"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4::scribe haylen",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

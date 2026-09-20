@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-kells",
+  "name": "Lancer-Captain Kells",
+  "fandom": "Fallout 4",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Kells"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Prydwen commanding officer / lancer captain",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "formal",
+      "procedural",
+      "disciplined",
+      "mission-focused"
+    ],
+    "motivations": [
+      "orders",
+      "Prydwen operations",
+      "institutional pressure"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "crisp military command",
+    "dialogue_tendencies": [
+      "keeps conversation task-focused",
+      "uses rank and procedure naturally"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "airship command",
+    "operations"
+  ],
+  "relationships": {
+    "Maxson": "senior chain of command",
+    "Danse": "Brotherhood officer relationship"
+  },
+  "appearance_and_presence": "Command-deck military presence",
+  "generator_use": {
+    "best_story_functions": [
+      "orders",
+      "Prydwen operations",
+      "institutional pressure"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "casual slang-heavy voice"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Fallout Wiki — Fallout 4 characters",
+      "url": "https://fallout.fandom.com/wiki/Fallout_4_characters"
+    },
+    {
+      "title": "Fallout Wiki — East Coast Brotherhood characters",
+      "url": "https://fallout.fandom.com/wiki/East_Coast_Brotherhood_of_Steel_characters"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4::lancer captain kells",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

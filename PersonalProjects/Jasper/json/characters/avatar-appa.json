@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "avatar-appa",
+  "name": "Appa",
+  "fandom": "Avatar: The Last Airbender",
+  "provenance": "canon_researched",
+  "aliases": [],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Aang’s sky bison, animal guide and Team Avatar transport",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "loyal",
+      "protective",
+      "emotionally perceptive",
+      "gentle",
+      "stubborn when needed"
+    ],
+    "motivations": [
+      "travel scenes",
+      "comfort",
+      "physical comedy"
+    ],
+    "contradictions": [
+      "danger warning",
+      "home/family symbolism"
+    ]
+  },
+  "voice": {
+    "register": "nonverbal animal communication",
+    "dialogue_tendencies": [
+      "communicates through movement, vocalizations, nudges and choices",
+      "strong bonds should be shown behaviorally, not translated into human dialogue"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "flight/airbending",
+    "transport",
+    "protective strength"
+  ],
+  "relationships": {
+    "Aang": "deep lifelong bond",
+    "Team Avatar": "trusted family"
+  },
+  "appearance_and_presence": "Massive six-legged flying bison; expressive eyes and body language",
+  "generator_use": {
+    "best_story_functions": [
+      "travel scenes",
+      "comfort",
+      "physical comedy",
+      "danger warning",
+      "home/family symbolism"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "human speech",
+      "pet-level stupidity",
+      "forgetting trauma around captivity"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Avatar Wiki — Appa",
+      "url": "https://avatar.fandom.com/wiki/Appa"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "avatar::appa",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "profile_type": "generator_character_profile",
+  "id": "fo4-ingram",
+  "name": "Proctor Ingram",
+  "fandom": "Fallout 4",
+  "provenance": "canon_researched",
+  "aliases": [
+    "Ingram"
+  ],
+  "age_status": "canon_adult_or_nonromantic",
+  "identity": {
+    "role": "Brotherhood Proctor of the Order of the Shield",
+    "fictional_character": true
+  },
+  "personality": {
+    "core_traits": [
+      "practical",
+      "engineering-minded",
+      "direct",
+      "competent"
+    ],
+    "motivations": [
+      "technical scenes",
+      "Brotherhood logistics",
+      "pragmatic contrast"
+    ],
+    "contradictions": []
+  },
+  "voice": {
+    "register": "technical, no-nonsense",
+    "dialogue_tendencies": [
+      "focuses on systems, repair, logistics and results"
+    ],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance dialogue.",
+      "Let humor, avoidance, praise, anger, and care emerge from established personality."
+    ]
+  },
+  "capabilities": [
+    "engineering",
+    "power armor",
+    "Liberty Prime project"
+  ],
+  "relationships": {
+    "Brotherhood": "senior technical officer"
+  },
+  "appearance_and_presence": "Power-armor-frame mobility; workshop/engineering presence",
+  "generator_use": {
+    "best_story_functions": [
+      "technical scenes",
+      "Brotherhood logistics",
+      "pragmatic contrast"
+    ],
+    "continuity_priorities": [
+      "Remember prior choices and promises.",
+      "Carry recurring jokes, routines, conflicts, and repairs forward.",
+      "Preserve relationship stage; do not replay first-meeting milestones."
+    ],
+    "avoid": [
+      "pity framing around disability",
+      "generic scientist voice"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person; this character may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, and remembered details.",
+    "private_handoff_rule": "If a private handoff occurs, preserve this profile’s voice, boundaries, emotional state, and unresolved dialogue across the handoff and resume."
+  },
+  "sources": [
+    {
+      "title": "Fallout Wiki — Fallout 4 characters",
+      "url": "https://fallout.fandom.com/wiki/Fallout_4_characters"
+    },
+    {
+      "title": "Fallout Wiki — East Coast Brotherhood characters",
+      "url": "https://fallout.fandom.com/wiki/East_Coast_Brotherhood_of_Steel_characters"
+    }
+  ],
+  "research_notes": "Profile synthesizes canon research with the existing fanfic continuity. Canon facts should constrain characterization; story continuity may extend beyond canon where explicitly marked.",
+  "merged_profile": {
+    "canonical_key": "fallout4::proctor ingram",
+    "duplicate_policy": "same fandom + same fictional character"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": "2.0-merged-research",
+  "profile_type": "generator_character_profile",
+  "id": "dc-bruce-wayne-batman",
+  "name": "Bruce Wayne / Batman",
+  "fandom": "DC Movies",
+  "provenance": "canon_researched_expanded",
+  "aliases": [
+    "Bruce Wayne",
+    "Batman"
+  ],
+  "age_status": "explicitly_adult_or_requires_explicit_adult_version",
+  "adult_gate": {
+    "status": "confirmed adult",
+    "explicit_mode_eligible": true,
+    "minor_era_blocked": false,
+    "minimum_partner_age": 18,
+    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+    "real_person_actor_material": "FORBIDDEN",
+    "real_person_or_actor_material": "forbidden"
+  },
+  "identity": {
+    "role": "adult Gotham vigilante; highly trained/strategic; control/isolation/suspicion tendencies; Alfred often acts as conscience/support",
+    "fictional_character": true,
+    "species_or_type": "Human",
+    "gender": "male",
+    "continuity_scope": "mature live-action Batman; choose exact movie continuity per story"
+  },
+  "personality": {
+    "core_traits": [
+      "adult Gotham vigilante",
+      "highly trained/strategic",
+      "control/isolation/suspicion tendencies",
+      "Alfred often acts as conscience/support",
+      "care frequently expressed through action/resources",
+      "precision_tamer",
+      "controlled_intensity",
+      "competence",
+      "dry_wit"
+    ],
+    "motivations": [
+      "older Batman AU",
+      "Wayne Manor slow burn",
+      "case partners",
+      "retirement attempt"
+    ],
+    "contradictions": [
+      "Mature Bruce is the Snape/Danse corner: controlled, obsessive, hyper-competent, traumatized and difficult, with tenderness powerful precisely because it costs effort."
+    ]
+  },
+  "voice": {
+    "register": "",
+    "dialogue_tendencies": [],
+    "writer_rules": [
+      "Keep vocabulary and emotional logic character-specific.",
+      "Do not turn this character into generic romance or generic dominant dialogue.",
+      "Preserve canon cadence through new-fic creation and continuation."
+    ]
+  },
+  "capabilities": [
+    "adult Gotham vigilante",
+    "highly trained/strategic",
+    "control/isolation/suspicion tendencies",
+    "Alfred often acts as conscience/support",
+    "care frequently expressed through action/resources"
+  ],
+  "relationships": {
+    "Jasper": "Transformative adult relationship must preserve canon characterization.",
+    "canon_state": ""
+  },
+  "appearance_and_presence": "Human",
+  "generator_use": {
+    "best_story_functions": [
+      "older Batman AU",
+      "Wayne Manor slow burn",
+      "case partners",
+      "retirement attempt",
+      "precision_tamer",
+      "controlled_intensity",
+      "competence",
+      "dry_wit"
+    ],
+    "continuity_priorities": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made",
+      "Preserve relationship stage and previous choices.",
+      "Carry shared jokes, boundaries, promises, and aftermath forward."
+    ],
+    "avoid": [
+      "abusive control freak",
+      "perfect strategist",
+      "Snape with gadgets"
+    ]
+  },
+  "jasper_interaction": {
+    "reader": "Jasper",
+    "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
+    "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
+    "brat_tamer_profile": {
+      "style": "Precision/control tamer: plans for obvious loopholes, then has to adapt to Jasper being emotionally unpredictable.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "quiet meals, casework, secret-identity trust, equipment repair and rare free evenings",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "minimal, direct and low-flourish; no surveillance/intimidation as romance",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "medical kit, quiet contact, food and letting Jasper care for him",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "retrieval": {
+    "franchise": "DC Movies",
+    "adult_only": true,
+    "fictional_only": true,
+    "supports_sappy_smut": true,
+    "supports_brat_dynamic": true,
+    "seed_similarity": [
+      "Severus Snape",
+      "Paladin Danse"
+    ],
+    "tags": [
+      "precision_tamer",
+      "controlled_intensity",
+      "competence",
+      "dry_wit"
+    ],
+    "continuation_ready": true
+  },
+  "sources": [
+    {
+      "title": "https://www.dc.com/movies/batman-v-superman-dawn-of-justice-2016",
+      "url": "https://www.dc.com/movies/batman-v-superman-dawn-of-justice-2016"
+    },
+    {
+      "title": "https://www.dc.com/movies/the-batman-2022",
+      "url": "https://www.dc.com/movies/the-batman-2022"
+    }
+  ],
+  "research_profile": {
+    "schema_version": "jasper.character-profile.v1",
+    "research_date": "2026-09-20",
+    "identity": {
+      "name": "Bruce Wayne / Batman",
+      "franchise": "DC Movies",
+      "continuity_scope": "mature live-action Batman; choose exact movie continuity per story",
+      "fictional_only": true,
+      "species_or_type": "Human",
+      "gender": "male",
+      "character_id": "dc-movies:bruce-wayne-batman"
+    },
+    "adult_gate": {
+      "status": "confirmed adult",
+      "explicit_mode_eligible": true,
+      "minor_era_blocked": false,
+      "minimum_partner_age": 18,
+      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
+      "real_person_actor_material": "FORBIDDEN",
+      "real_person_or_actor_material": "forbidden"
+    },
+    "jasper_match": {
+      "seed_character_matches": [
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "archetypes": [
+        "precision_tamer",
+        "controlled_intensity",
+        "competence",
+        "dry_wit"
+      ],
+      "why_this_matches": "Mature Bruce is the Snape/Danse corner: controlled, obsessive, hyper-competent, traumatized and difficult, with tenderness powerful precisely because it costs effort.",
+      "archetype_writing_notes": [
+        "The character wins brat exchanges through exact wording, timing, and attention rather than volume.",
+        "Keep intensity beneath composure; the character should not become loud merely because a scene becomes sexual.",
+        "Attraction should grow from watching the character do what they are actually good at.",
+        "Use understatement and exact one-liners instead of constant quipping."
+      ]
+    },
+    "canon_grounding": {
+      "core_traits": [
+        "adult Gotham vigilante",
+        "highly trained/strategic",
+        "control/isolation/suspicion tendencies",
+        "Alfred often acts as conscience/support",
+        "care frequently expressed through action/resources"
+      ],
+      "canon_relationship_or_romance_state": "Select exact film continuity; Jasper romance is transformative.",
+      "continuity_note": "mature live-action Batman; choose exact movie continuity per story"
+    },
+    "voice_profile": {
+      "summary": "low, controlled and spare",
+      "dialogue_priority": [
+        "recognizable cadence before generic erotic phrasing",
+        "retain humor style during intimacy",
+        "retain flaws and coping mechanisms",
+        "do not convert into Generic Dom"
+      ],
+      "relationship_dynamics": [
+        "precise, restrained, high-impact praise",
+        "measured, deliberate, focused",
+        "capable, grounded, reliable",
+        "deadpan, economical, observant"
+      ]
+    },
+    "romance_writer_profile": {
+      "courtship_and_sappy_core": "quiet meals, casework, secret-identity trust, equipment repair and rare free evenings",
+      "required_emotional_logic": [
+        "attraction grows from specific behavior",
+        "intimacy changes trust or vulnerability",
+        "canon grief/relationships are not silently erased",
+        "Jasper remains active rather than a passenger"
+      ]
+    },
+    "brat_tamer_profile": {
+      "style": "Precision/control tamer: plans for obvious loopholes, then has to adapt to Jasper being emotionally unpredictable.",
+      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
+      "preferred_loop": [
+        "Jasper provokes or finds a loophole",
+        "character recognizes play in a pre-negotiated context",
+        "character answers in their own voice",
+        "Jasper chooses whether to yield",
+        "specific praise or affectionate payoff",
+        "Jasper keeps their personality and may get the last smart remark"
+      ]
+    },
+    "adult_intimacy_voice": {
+      "generator_inference_not_canon": true,
+      "hard_explicit_compatible": true,
+      "no_fade_to_black": true,
+      "no_hidden_nudity_censorship": true,
+      "character_specific_diction": "minimal, direct and low-flourish; no surveillance/intimidation as romance",
+      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
+      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
+    },
+    "aftercare_profile": {
+      "character_specific_aftercare": "medical kit, quiet contact, food and letting Jasper care for him",
+      "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
+    },
+    "first_person_jasper_contract": {
+      "narration": {
+        "person": "first",
+        "subject": "I",
+        "object": "me",
+        "possessive_determiner": "my",
+        "possessive_pronoun": "mine",
+        "reflexive": "myself"
+      },
+      "jasper_name": "Jasper",
+      "external_pronouns": [
+        {
+          "subject": "they",
+          "object": "them",
+          "possessive_determiner": "their",
+          "possessive_pronoun": "theirs",
+          "reflexive": "themself",
+          "agreement": [
+            "they are",
+            "they have",
+            "they do"
+          ]
+        },
+        {
+          "subject": "she",
+          "object": "her",
+          "possessive_determiner": "her",
+          "possessive_pronoun": "hers",
+          "reflexive": "herself",
+          "agreement": [
+            "she is",
+            "she has",
+            "she does"
+          ]
+        }
+      ],
+      "direct_address": "Other characters speaking to Jasper normally use you/your. This is dialogue grammar, not second-person narration.",
+      "lint": [
+        "Outside dialogue, Jasper narrates self only as I/me/my/mine/myself.",
+        "Do not mechanically alternate they/she every sentence.",
+        "Use Jasper to reset an ambiguous third-person antecedent."
+      ]
+    },
+    "story_engines": [
+      "older Batman AU",
+      "Wayne Manor slow burn",
+      "case partners",
+      "retirement attempt"
+    ],
+    "do_not_flatten_into": [
+      "abusive control freak",
+      "perfect strategist",
+      "Snape with gadgets"
+    ],
+    "research_boundary": {
+      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
+      "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
+    },
+    "retrieval": {
+      "franchise": "DC Movies",
+      "adult_only": true,
+      "fictional_only": true,
+      "supports_sappy_smut": true,
+      "supports_brat_dynamic": true,
+      "seed_similarity": [
+        "Severus Snape",
+        "Paladin Danse"
+      ],
+      "tags": [
+        "precision_tamer",
+        "controlled_intensity",
+        "competence",
+        "dry_wit"
+      ],
+      "continuation_ready": true
+    },
+    "sources": [
+      {
+        "url": "https://www.dc.com/movies/batman-v-superman-dawn-of-justice-2016",
+        "purpose": "canon/personality grounding"
+      },
+      {
+        "url": "https://www.dc.com/movies/the-batman-2022",
+        "purpose": "canon/personality grounding"
+      }
+    ],
+    "continuation_profile": {
+      "immutable_canon_anchors": [
+        "identity and selected continuity",
+        "core speech cadence and vocabulary",
+        "major canon history and loyalties",
+        "established skills/occupation",
+        "hard adult-only gate"
+      ],
+      "mutable_story_state": [
+        "relationship_stage_with_jasper",
+        "current_pet_names",
+        "established_consent_and_kink_vocabulary",
+        "shared_jokes_and_rituals",
+        "injuries_and_recovery_state",
+        "current_location_and_timeline",
+        "promises_confessions_and_unresolved_conflicts",
+        "what_each_character_knows",
+        "canon_divergence_flags",
+        "last_scene_emotional_state"
+      ],
+      "never_reset_on_continuation": [
+        "first meeting already occurred",
+        "relationship milestones already earned",
+        "boundaries already negotiated",
+        "previous intimate scenes happened",
+        "recurring affirmations and aftercare preferences",
+        "canon-divergence choices already made"
+      ],
+      "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+    }
+  },
+  "research_notes": "Expanded research-library profile mapped into the generator schema. Canon facts and transformative-writing inference remain separated inside research_profile.",
+  "merged_profile": {
+    "canonical_key": "dcmovies::bruce wayne batman",
+    "duplicate_policy": "same fandom + same fictional character"
+  },
+  "continuation_profile": {
+    "immutable_canon_anchors": [
+      "identity and selected continuity",
+      "core speech cadence and vocabulary",
+      "major canon history and loyalties",
+      "established skills/occupation",
+      "hard adult-only gate"
+    ],
+    "mutable_story_state": [
+      "relationship_stage_with_jasper",
+      "current_pet_names",
+      "established_consent_and_kink_vocabulary",
+      "shared_jokes_and_rituals",
+      "injuries_and_recovery_state",
+      "current_location_and_timeline",
+      "promises_confessions_and_unresolved_conflicts",
+      "what_each_character_knows",
+      "canon_divergence_flags",
+      "last_scene_emotional_state"
+    ],
+    "never_reset_on_continuation": [
+      "first meeting already occurred",
+      "relationship milestones already earned",
+      "boundaries already negotiated",
+      "previous intimate scenes happened",
+      "recurring affirmations and aftercare preferences",
+      "canon-divergence choices already made"
+    ],
+    "continuation_instruction": "Continue from the latest story state. Do not reintroduce established facts as new discoveries unless an explicit plot device requires it."
+  },
+  "latest_research_sync": "2026-09-20-full-material-hub"
+}
