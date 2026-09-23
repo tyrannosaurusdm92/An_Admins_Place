@@ -1,0 +1,23 @@
+FINAL PACKET WORKFLOW
+
+1. Open form.html with #admin at the end of the address.
+2. Sign in with the one-time code sent by the form system.
+3. Refresh the collected references. Select the references you want, or use all references.
+4. Drag the supporting-document rows into the exact order you want them to appear.
+5. Download the matching PDFs or images from Google Drive. Each row shows the attachment name to look for.
+6. Drop the files into the organizer, or attach them one at a time.
+7. Check that every included document shows as attached.
+8. Build the packet from the selected references or from all references.
+
+FINAL PDF ORDER
+
+1. Cover
+2. Character references
+3. Supporting-document summaries
+4. Full supporting PDFs and images in organizer order
+
+FORM BEHAVIOR
+
+The published form uses the existing Apps Script service. A reference writer can update the same response from the same browser while that browser still has its saved editing access. Reference writers cannot delete submissions. Private tools allow the administrator to review and delete responses, manage notification emails, manage the share link, and create a reference-only PDF.
+
+The combined packet is built in the browser. Supporting PDFs and images attached in the organizer are not uploaded to Apps Script.

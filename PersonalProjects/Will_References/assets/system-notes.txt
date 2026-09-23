@@ -1,0 +1,30 @@
+FORM SYSTEM NOTES
+
+Service version expected by this site: 2.0.0
+API version: 2026-09-23.forms.v2
+
+Public actions used
+- health
+- form.schema
+- form.submit
+- response.loadForEdit
+
+Private actions used after #admin sign-in
+- admin.requestCode
+- admin.verifyCode
+- admin.listResponses
+- admin.deleteResponse
+- admin.exportPdf
+- admin.shareLink.get
+- admin.shareLink.create
+- admin.shareLink.rotate
+- admin.settings.get
+- admin.settings.update
+- admin.logout
+
+Browser editing keys
+- gf.responseId
+- gf.editToken
+- gf.responseDraft
+
+The Apps Script source is not included in this folder. The form uses the existing deployment URL in js/reference-app.js, or the backend URL injected by the private share-link gateway.
