@@ -893,15 +893,22 @@ function bindPageLinks(){
   }));
 }
 
+function hasAdminHash(){
+  return location.hash.slice(1).split('#').some(part=>{
+    try{return decodeURIComponent(part).trim().toLowerCase()==='admin';}
+    catch(_){return part.trim().toLowerCase()==='admin';}
+  });
+}
+
 window.addEventListener('DOMContentLoaded',()=>{
   bindPageLinks();
   initCounters();
   initReferenceForm();
   initPacketOrganizer();
-  if(location.hash==='#admin')initAdmin();
+  if(hasAdminHash())initAdmin();
   checkBackend();
 });
 window.addEventListener('hashchange',()=>{
-  if(location.hash==='#admin')initAdmin();
+  if(hasAdminHash())initAdmin();
 });
 })();

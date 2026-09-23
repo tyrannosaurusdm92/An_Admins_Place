@@ -1,6 +1,6 @@
 FINAL PACKET WORKFLOW
 
-1. Open form.html with #admin at the end of the address.
+1. Open form.html with #admin at the end of the address. The nested form #resources#admin is also supported.
 2. Sign in with the one-time code sent by the form system.
 3. Refresh the collected references. Select the references you want, or use all references.
 4. Drag the supporting-document rows into the exact order you want them to appear.
