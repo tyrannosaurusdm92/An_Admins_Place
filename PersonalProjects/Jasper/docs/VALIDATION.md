@@ -1,7 +1,7 @@
-# Validation
+# Reader and content notes
 
-Current authoritative validation is `SAFE_WRITER_VALIDATION.json`.
+The reader uses the local story data in `js/fanfic-data.js`; it does not require a server or account. Each story is presented in its authored chapter order, with local reading progress.
 
-The safe-writer/private-bridge pass validates all JavaScript syntax, all JSON parsing, the five-series/200-chapter library, private-handoff choice metadata, the single searchable placeholder, the single Literotica reference object, local HTML references/IDs, and a Node VM runtime smoke test of both ordinary generation and private-handoff behavior.
+Editorial pass: all five series have Teen ratings and non-graphic romance notes. Choice and alternate-route fields were removed from chapter data. The two late arcs with repeated template scenes were revised to retain their individual events and endings.
 
-A Chromium headless render was attempted in the container, but that Chromium process did not complete because of environment-level DBus/zygote behavior. This build therefore does **not** claim a fresh browser-interaction test from this pass. The prior reader UI remains structurally unchanged apart from cache-busting script versions and text labels.
+This document records the intended package structure; it does not claim an automated test run.

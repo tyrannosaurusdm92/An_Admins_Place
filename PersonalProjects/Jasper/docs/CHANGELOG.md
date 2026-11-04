@@ -1,3 +1,11 @@
+# 2026-11-04 — Linear, Teen-rated reading pass
+
+- Reworked the reader to show completed stories in a single chapter order with previous/next navigation and local progress.
+- Removed choice routes, alternate path variants, adult-only handoff metadata, and the scripts that generated or branched stories.
+- Set all five series and 200 chapters to a Teen rating with fandom-appropriate content notes.
+- Rewrote romantic scene transitions to remain non-graphic, and removed repeated boilerplate from the final twenty chapters of *Jasmine After Rain* and *Stars Between the Strings* while preserving each chapter's individual plot beat.
+- Removed explicit-only writing guides and updated the retained character and continuity references for age-appropriate linear fiction.
+
 # 2026-09-20 — Expand + Correct Pass 2
 
 - Standardized all 200 authored chapters on schema 6.4 with canon window, research alignment, narrative tense, continuity snapshot, writer-reference packet, generation contract, and private-handoff eligibility.
