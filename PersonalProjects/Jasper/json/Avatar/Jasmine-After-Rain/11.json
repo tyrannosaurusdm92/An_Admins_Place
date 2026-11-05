@@ -21,7 +21,7 @@
   "series_folder": "Jasmine-After-Rain",
   "series_path": "Avatar/Jasmine-After-Rain",
   "id": "avatar-11",
-  "format": "choice_enriched_first_person_reader_insert",
+  "format": "linear_first_person_reader_insert",
   "canon_window": "Post-war Ba Sing Se; original-series Uncle Iroh only, explicitly excluding Iroh II from The Legend of Korra.",
   "research_alignment": [
     "Iroh's tea, food, Pai Sho, patience, strategy, humor, grief, and reciprocal care",
