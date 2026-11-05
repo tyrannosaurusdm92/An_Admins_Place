@@ -7,13 +7,10 @@
   "provenance": "canon_researched_expanded",
   "aliases": [],
   "age_status": "explicitly_adult_or_requires_explicit_adult_version",
-  "adult_gate": {
-    "status": "Confirmed pre-War adult astronaut; canon-romanceable.",
-    "explicit_mode_eligible": true,
-    "real_person_or_actor_material": "forbidden",
-    "minimum_partner_age": 18,
-    "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
-    "minor_era_romance_or_sexualization": "blocked"
+  "romance_age_guidance": {
+    "rating": "Teen",
+    "adult_timeline_only": true,
+    "protect_minors": true
   },
   "identity": {
     "role": "USSA astronaut awakened from cryostasis; Physics/graduate-school background; Severe temporal displacement and loss; Canon-romanceable regardless of player gender",
@@ -109,36 +106,17 @@
     "reader": "Jasper",
     "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
     "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
-    "brat_tamer_profile": {
-      "generator_inference_not_canon": true,
-      "style": "Gentle structured tamer; good with sass that masks overwhelm.",
-      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
-      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
-    },
     "romance_writer_profile": {
       "core": "Stargazing, camp domesticity, old-world memories, choosing Appalachia and Jasper as home.",
       "target_tone": [
         "sappy",
         "emotionally_specific",
         "adult",
-        "character_driven",
-        "porn_with_feelings_when_explicit_mode_is_selected"
+        "character_driven"
       ],
       "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
     },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "diction": "Clear, warm, scientific when natural.",
-      "rules": [
-        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
-        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
-        "Character dialogue vocabulary remains character-specific.",
-        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
-      ]
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_options": [
         "quiet stargazing",
         "water",
@@ -198,9 +176,6 @@
     "franchise": "Fallout 76",
     "adult_only": true,
     "fictional_only": true,
-    "supports_hard_explicit_mode": true,
-    "supports_sappy_smut": true,
-    "supports_brat_dynamic": true,
     "continuation_ready": true,
     "default_pool_weight": "normal"
   },
@@ -221,13 +196,10 @@
       "fictional_only": true,
       "gender": "female"
     },
-    "adult_gate": {
-      "status": "Confirmed pre-War adult astronaut; canon-romanceable.",
-      "explicit_mode_eligible": true,
-      "real_person_or_actor_material": "forbidden",
-      "minimum_partner_age": 18,
-      "ambiguous_age_rule": "block explicit generation until selected version is explicitly 18+",
-      "minor_era_romance_or_sexualization": "blocked"
+    "romance_age_guidance": {
+      "rating": "Teen",
+      "adult_timeline_only": true,
+      "protect_minors": true
     },
     "jasper_match": {
       "seed_character_matches": [
@@ -260,8 +232,7 @@
         "Canon-romanceable regardless of player gender",
         "Carries nightmares and questions about the new world"
       ],
-      "canon_romanceable_or_relationship_state": "Canon-romanceable.",
-      "evidence_note": "Identity/core traits are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative writing inference, not claims that canon depicts these kinks."
+      "canon_romanceable_or_relationship_state": "Canon-romanceable."
     },
     "voice_profile": {
       "generator_voice_summary": "Thoughtful, emotionally transparent, scientific, occasionally overwhelmed.",
@@ -278,30 +249,11 @@
         "sappy",
         "emotionally_specific",
         "adult",
-        "character_driven",
-        "porn_with_feelings_when_explicit_mode_is_selected"
+        "character_driven"
       ],
       "relationship_rule": "Intimacy must reveal or alter trust, vulnerability, attachment, conflict, or continuity state."
     },
-    "brat_tamer_profile": {
-      "generator_inference_not_canon": true,
-      "style": "Gentle structured tamer; good with sass that masks overwhelm.",
-      "consent_rule": "Bratting is negotiated playful resistance. A real no, stop, distress, freeze, or withdrawal exits the play frame immediately.",
-      "taming_goal": "Outmaneuver the playful challenge without erasing Jasper's wit, agency, or dignity."
-    },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "diction": "Clear, warm, scientific when natural.",
-      "rules": [
-        "No fade-to-black, hidden-nudity censorship, time-skip censorship, or euphemism-only prose in hard-explicit mode.",
-        "Jasper's first-person narration may use direct anatomy even if the character's spoken vocabulary is softer.",
-        "Character dialogue vocabulary remains character-specific.",
-        "Never use intoxication, magic, rank, mind control, programming, institutional authority, or supernatural power as a substitute for consent."
-      ]
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_options": [
         "quiet stargazing",
         "water",
@@ -414,15 +366,11 @@
       "franchise": "Fallout 76",
       "adult_only": true,
       "fictional_only": true,
-      "supports_hard_explicit_mode": true,
-      "supports_sappy_smut": true,
-      "supports_brat_dynamic": true,
       "continuation_ready": true,
       "default_pool_weight": "normal"
     },
     "research_boundary": {
       "canon_facts": "Use canon_grounding/identity as the factual anchor.",
-      "fanfic_inference": "Romance, kink, adult diction and aftercare are inferred writing behavior for this private transformative project.",
       "real_people": "Never substitute an actor, voice actor, creator, celebrity, streamer, or other real person for the fictional character."
     },
     "sources": [

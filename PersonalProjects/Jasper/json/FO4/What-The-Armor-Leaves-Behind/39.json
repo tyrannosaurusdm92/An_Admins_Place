@@ -21,8 +21,8 @@
   "series_folder": "What-The-Armor-Leaves-Behind",
   "series_path": "FO4/What-The-Armor-Leaves-Behind",
   "id": "what-the-armor-leaves-behind-39",
-  "format": "linear_first_person_reader_insert",
-  "canon_window": "Fallout 4 Commonwealth adult timeline centered on Paladin Danse and adult Jasper, including Brotherhood missions and the aftermath/consequences of Blind Betrayal; no under-18 romantic/private-interlude participants.",
+  "format": "choice_enriched_first_person_reader_insert",
+  "canon_window": "Fallout 4 Commonwealth: adult Jasper and Paladin Danse navigate Brotherhood missions, Blind Betrayal, loyalty, and non-graphic romance.",
   "research_alignment": [
     "Paladin Danse duty, structure, Brotherhood identity, Blind Betrayal, and post-rank vulnerability",
     "Commonwealth survival pressures, missions, civilians, equipment, and institutional conflict",

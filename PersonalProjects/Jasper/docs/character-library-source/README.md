@@ -1,55 +1,28 @@
 # Jasper Fanfiction Character Library
 
-Built: 2026-09-20
-
-This package contains **56 detailed fictional-character JSON profiles** for Jasper's private fanfiction generator.
+A reference collection of fictional characters for Jasper's five Teen-rated, linear fanfiction stories and any future non-graphic storytelling.
 
 ## Scope
 
-Seed profiles preserved/expanded: Severus Snape, Uncle Iroh, Greg Universe, adult Aang, adult Toph, adult Katara, and Paladin Danse.
+The research library grew from 56 to 134 detailed character profiles in September 2026. Core story characters include adult-era Aang, Katara, Toph, Iroh, Greg Universe, Paladin Danse, and Severus Snape. Further reference families include Hazbin Hotel, Palia, Coral Island, Resident Evil, Fallout 76, Marvel, DC, and Disney.
 
-Researched expansion fandoms: Hazbin Hotel, Palia, Coral Island, Resident Evil, Fallout 76, Marvel movie characters, DC movie characters, and Disney movie characters.
+## Research and editorial usage
 
-## Retrieval design
+Profiles preserve canonical identity and history, continuity period, personality, voice, relationships, character-specific humor, emotional strengths and flaws, character interaction with Jasper, and source links. Research/inference distinctions remain important; an imagined romance is not evidence of canon romance.
 
-Every profile includes identity/continuity, adult gate, seed-character similarity, archetypes, canon grounding, dialogue voice, romance logic, brat-tamer fit, hard-explicit diction guidance, aftercare, first-person Jasper grammar contract, plot engines, anti-flattening rules, canon-state notes, and sources.
+The stories use a named first-person Jasper protagonist. Established bonds and meaningful relationship milestones carry forward; affection, comfort, conflict, and consent are expressed non-graphically. Use only adults in romantic storylines, including adult post-canon versions of characters first depicted as minors. Billy Batson is a child regardless of magical appearance and is not a romance option.
 
-The target is **older/wiser or emotionally seasoned energy + goofy/character-specific sweetness + sappy explicit romance**, not a generic list of attractive characters.
+## Reference files
 
-## Fictional-only rule
+- `generator_character_rules.json`: Teen-rated character and narration guidance
+- `manifest.json`: character profile paths and research metadata
+- `index.json`: reference lookup by fandom and recognizable personality traits
+- `MATCH_GUIDE.md` and `MATCH_GUIDE_EXPANDED.md`: character matching and voice guidance
+- `characters/<fandom>/<character>.json`: detailed character research
+- `continuation_context_template.json`: editorial continuity reference
 
-No real people. Movie profiles refer only to the fictional character. Never pull the actor's real biography, relationships, interviews, off-screen behavior or identity into romantic/sexual text.
+Only fictional characters are used. Do not treat an actor's biography as a fictional character's history. Keep canon research distinct from invented events.
 
-## Adult-only rule
+## Sources
 
-Every romantic/sexual participant is 18+. Aang, Katara and Toph are included only as explicitly adult/post-canon versions. The library explicitly blocks Billy Batson/Shazam from adult erotic retrieval because magical adult appearance does not change child personhood.
-
-## Important files
-
-- `generator_character_rules.json` — global hard rules.
-- `manifest.json` — all profile paths.
-- `index.json` — reverse lookup by fandom, archetype and seed similarity.
-- `MATCH_GUIDE.md` — quick-match clusters.
-- `characters/<fandom>/<character>.json` — detailed generator profiles.
-
-## Canon vs. inference
-
-`canon_grounding` is source-oriented. `romance_writer_profile`, `brat_tamer_profile`, `adult_intimacy_voice`, `aftercare_profile`, and `story_engines` are generator inferences based on canon personality plus Jasper's private project preferences. They are not claims that canon depicts those characters practicing a particular kink.
-
-## Research families
-
-Palia profiles use the Official Palia Wiki, including current Build 0.206 pages for Hodari/Reth and romance/dialogue pages. Coral Island profiles use the current Coral Island Wiki. DC and Disney movie profiles prioritize official studio character/movie pages. Marvel profiles prioritize Marvel's on-screen/movie pages. Resident Evil uses Capcom's Resident Evil portal where available plus franchise reference pages. Fallout 76 and the original seed characters use current franchise reference sources listed per profile. Hazbin Hotel uses current character references, with continuity checked through 2026 material.
-
-# EXPANSION PASS — 2026-09-20
-
-This pass expands the character library from **56 to 134 detailed fictional-character profiles**.
-
-It also adds persistent fanfic-continuation support through stable `character_id` values, per-character `continuation_profile` data, and `continuation_context_template.json`.
-
-See:
-- `POOL_AUDIT.md`
-- `MATCH_GUIDE_EXPANDED.md`
-- `manifest.json`
-- `index.json`
-- `continuation_context_template.json`
-- `VALIDATION_EXPANDED.json`
+Palia, Coral Island, DC, Disney, Marvel, Resident Evil, Fallout, Hazbin Hotel, Avatar, Harry Potter, and Steven Universe references are recorded per character. The original research expanded in September 2026; current story prose remains in `json/<fandom>/<series>/` and is not generated through this reference collection.

@@ -7,14 +7,10 @@
   "provenance": "canon_researched_expanded",
   "aliases": [],
   "age_status": "explicitly_adult_or_requires_explicit_adult_version",
-  "adult_gate": {
-    "status": "adult-coded; exact age ambiguous, so explicit mode requires age >=18 metadata",
-    "explicit_mode_eligible": true,
-    "minor_era_blocked": false,
-    "minimum_partner_age": 18,
-    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
-    "real_person_actor_material": "FORBIDDEN",
-    "real_person_or_actor_material": "forbidden"
+  "romance_age_guidance": {
+    "rating": "Teen",
+    "adult_timeline_only": true,
+    "protect_minors": true
   },
   "identity": {
     "role": "Crater raider/potential camp ally; radio operator/cryptid enthusiast/cryptologist; raised among gangs; does not fit rough raider culture well",
@@ -31,8 +27,7 @@
       "does not fit rough raider culture well",
       "shows empathy toward people in need",
       "goofy_sweetheart",
-      "outsider",
-      "brat_compatible"
+      "outsider"
     ],
     "motivations": [
       "cryptid hunt",
@@ -72,8 +67,7 @@
       "C.A.M.P. domesticity",
       "raider identity conflict",
       "goofy_sweetheart",
-      "outsider",
-      "brat_compatible"
+      "outsider"
     ],
     "continuity_priorities": [
       "first meeting already occurred",
@@ -86,26 +80,13 @@
       "Carry shared jokes, boundaries, promises, and aftermath forward."
     ],
     "avoid": [
-      "violent raider stereotype",
-      "ambiguous-age explicit content"
+      "violent raider stereotype"
     ]
   },
   "jasper_interaction": {
     "reader": "Jasper",
     "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
     "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
-    "brat_tamer_profile": {
-      "style": "Playful tamer/fellow brat: converts the exchange into a game or cipher, then gets unexpectedly sincere.",
-      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
-      "preferred_loop": [
-        "Jasper provokes or finds a loophole",
-        "character recognizes play in a pre-negotiated context",
-        "character answers in their own voice",
-        "Jasper chooses whether to yield",
-        "specific praise or affectionate payoff",
-        "Jasper keeps their personality and may get the last smart remark"
-      ]
-    },
     "romance_writer_profile": {
       "courtship_and_sappy_core": "radio nights, cryptid hunts, code puzzles and camp routines",
       "required_emotional_logic": [
@@ -115,16 +96,7 @@
         "Jasper remains active rather than a passenger"
       ]
     },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "no_hidden_nudity_censorship": true,
-      "character_specific_diction": "casual-direct, joking possible; age must be resolved before adult mode",
-      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
-      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_aftercare": "camp food, radio quiet, cryptid story and mutual weirdness",
       "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
     },
@@ -163,16 +135,13 @@
     "franchise": "Fallout 76",
     "adult_only": true,
     "fictional_only": true,
-    "supports_sappy_smut": true,
-    "supports_brat_dynamic": true,
     "seed_similarity": [
       "Greg Universe",
       "Aang"
     ],
     "tags": [
       "goofy_sweetheart",
-      "outsider",
-      "brat_compatible"
+      "outsider"
     ],
     "continuation_ready": true
   },
@@ -194,14 +163,10 @@
       "gender": "male",
       "character_id": "fallout-76:raider-punk"
     },
-    "adult_gate": {
-      "status": "adult-coded; exact age ambiguous, so explicit mode requires age >=18 metadata",
-      "explicit_mode_eligible": true,
-      "minor_era_blocked": false,
-      "minimum_partner_age": 18,
-      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
-      "real_person_actor_material": "FORBIDDEN",
-      "real_person_or_actor_material": "forbidden"
+    "romance_age_guidance": {
+      "rating": "Teen",
+      "adult_timeline_only": true,
+      "protect_minors": true
     },
     "jasper_match": {
       "seed_character_matches": [
@@ -210,12 +175,10 @@
       ],
       "archetypes": [
         "goofy_sweetheart",
-        "outsider",
-        "brat_compatible"
+        "outsider"
       ],
       "why_this_matches": "Ham-radio cryptid nerd, codebreaker and self-described raider who does not fit raider cruelty and repeatedly shows empathy.",
       "archetype_writing_notes": [
-        "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
         "Build chemistry around being seen accurately rather than being fixed.",
         "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
       ]
@@ -234,7 +197,6 @@
     "voice_profile": {
       "summary": "casual, radio/conspiracy-nerd energy",
       "dialogue_priority": [
-        "recognizable cadence before generic erotic phrasing",
         "retain humor style during intimacy",
         "retain flaws and coping mechanisms",
         "do not convert into Generic Dom"
@@ -254,28 +216,7 @@
         "Jasper remains active rather than a passenger"
       ]
     },
-    "brat_tamer_profile": {
-      "style": "Playful tamer/fellow brat: converts the exchange into a game or cipher, then gets unexpectedly sincere.",
-      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
-      "preferred_loop": [
-        "Jasper provokes or finds a loophole",
-        "character recognizes play in a pre-negotiated context",
-        "character answers in their own voice",
-        "Jasper chooses whether to yield",
-        "specific praise or affectionate payoff",
-        "Jasper keeps their personality and may get the last smart remark"
-      ]
-    },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "no_hidden_nudity_censorship": true,
-      "character_specific_diction": "casual-direct, joking possible; age must be resolved before adult mode",
-      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
-      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_aftercare": "camp food, radio quiet, cryptid story and mutual weirdness",
       "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
     },
@@ -329,27 +270,22 @@
       "raider identity conflict"
     ],
     "do_not_flatten_into": [
-      "violent raider stereotype",
-      "ambiguous-age explicit content"
+      "violent raider stereotype"
     ],
     "research_boundary": {
-      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
       "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
     },
     "retrieval": {
       "franchise": "Fallout 76",
       "adult_only": true,
       "fictional_only": true,
-      "supports_sappy_smut": true,
-      "supports_brat_dynamic": true,
       "seed_similarity": [
         "Greg Universe",
         "Aang"
       ],
       "tags": [
         "goofy_sweetheart",
-        "outsider",
-        "brat_compatible"
+        "outsider"
       ],
       "continuation_ready": true
     },

@@ -67,8 +67,7 @@
   "jasper_interaction": {
     "reader": "Jasper",
     "pov_rule": "Jasper narrates in first person.",
-    "slow_burn_rule": "Use Mara as community continuity, not as a romance shortcut.",
-    "private_handoff_rule": "If present around a private handoff, preserve established trust and community context."
+    "slow_burn_rule": "Use Mara as community continuity, not as a romance shortcut."
   },
   "sources": [
     {

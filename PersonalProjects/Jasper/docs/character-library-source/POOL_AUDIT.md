@@ -30,11 +30,11 @@ Research/build date: 2026-09-20
 
 ## Adult-only / fictional-only safeguards
 
-- All romantic/sexual participants must be explicitly 18+.
+- All romantic participants must be explicitly 18+.
 - Original-series minor Avatar eras remain blocked; adult/post-canon versions must be selected.
-- Ambiguous young-adult game characters require story metadata age >=18 before hard-explicit generation.
+- Ambiguous young-adult game characters require story metadata age >=18 before non-graphic.
 - Actors, voice actors, creators, celebrities, streamers, and other real people remain blocked.
 
 ## Research boundary
 
-Canon/identity fields are source-grounded summaries. Romance, brat-tamer, explicit diction, and aftercare fields are transformative generator inference based on canon personality plus Jasper’s project specification.
+Canon/identity fields are source-grounded summaries. Romance, character-specific teasing, dialogue diction, and aftercare fields are transformative generator inference based on canon personality plus Jasper’s project specification.

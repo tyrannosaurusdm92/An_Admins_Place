@@ -7,14 +7,10 @@
   "provenance": "canon_researched_expanded",
   "aliases": [],
   "age_status": "explicitly_adult_or_requires_explicit_adult_version",
-  "adult_gate": {
-    "status": "adult-coded Victorian inventor; require explicit 18+ project assertion",
-    "explicit_mode_eligible": true,
-    "minor_era_blocked": false,
-    "minimum_partner_age": 18,
-    "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
-    "real_person_actor_material": "FORBIDDEN",
-    "real_person_or_actor_material": "forbidden"
+  "romance_age_guidance": {
+    "rating": "Teen",
+    "adult_timeline_only": true,
+    "protect_minors": true
   },
   "identity": {
     "role": "flamboyant emotional inventor; mechanical genius; lonely and initially distrustful of kindness; capable of remorse, honor and sacrifice",
@@ -32,8 +28,7 @@
       "often takes innuendo literally",
       "goofy_sweetheart",
       "awkward_sweetheart",
-      "romantic_showman",
-      "brat_compatible"
+      "romantic_showman"
     ],
     "motivations": [
       "Heaven/redemption-era romance",
@@ -74,8 +69,7 @@
       "grand gesture goes wrong then becomes sincere",
       "goofy_sweetheart",
       "awkward_sweetheart",
-      "romantic_showman",
-      "brat_compatible"
+      "romantic_showman"
     ],
     "continuity_priorities": [
       "first meeting already occurred",
@@ -97,18 +91,6 @@
     "reader": "Jasper",
     "pov_rule": "Jasper narrates in first person I/me/my/mine/myself; characters may address Jasper as you and refer to Jasper with they/she as context requires.",
     "slow_burn_rule": "Earn intimacy through plot, trust, routines, banter, conflict/repair, remembered details, and character-specific affection.",
-    "brat_tamer_profile": {
-      "style": "Flusterable tamer/switchy sweetheart: tries to regain control with an elaborate plan and melts when Jasper gets sincere.",
-      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
-      "preferred_loop": [
-        "Jasper provokes or finds a loophole",
-        "character recognizes play in a pre-negotiated context",
-        "character answers in their own voice",
-        "Jasper chooses whether to yield",
-        "specific praise or affectionate payoff",
-        "Jasper keeps their personality and may get the last smart remark"
-      ]
-    },
     "romance_writer_profile": {
       "courtship_and_sappy_core": "overengineered dates, gadgets, panicked confessions and wholehearted grand gestures",
       "required_emotional_logic": [
@@ -118,16 +100,7 @@
         "Jasper remains active rather than a passenger"
       ]
     },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "no_hidden_nudity_censorship": true,
-      "character_specific_diction": "ornate and theatrical but still explicit/clear; praise is effusive; avoid minimalist macho dirty talk",
-      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
-      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_aftercare": "blanket, invented comfort gadget, drink, rambling reassurance and receiving reassurance back",
       "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
     },
@@ -166,8 +139,6 @@
     "franchise": "Hazbin Hotel",
     "adult_only": true,
     "fictional_only": true,
-    "supports_sappy_smut": true,
-    "supports_brat_dynamic": true,
     "seed_similarity": [
       "Greg Universe",
       "Aang"
@@ -175,8 +146,7 @@
     "tags": [
       "goofy_sweetheart",
       "awkward_sweetheart",
-      "romantic_showman",
-      "brat_compatible"
+      "romantic_showman"
     ],
     "continuation_ready": true
   },
@@ -198,14 +168,10 @@
       "gender": "male",
       "character_id": "hazbin-hotel:sir-pentious"
     },
-    "adult_gate": {
-      "status": "adult-coded Victorian inventor; require explicit 18+ project assertion",
-      "explicit_mode_eligible": true,
-      "minor_era_blocked": false,
-      "minimum_partner_age": 18,
-      "ambiguous_age_action": "BLOCK explicit mode until selected story version is explicitly 18+",
-      "real_person_actor_material": "FORBIDDEN",
-      "real_person_or_actor_material": "forbidden"
+    "romance_age_guidance": {
+      "rating": "Teen",
+      "adult_timeline_only": true,
+      "protect_minors": true
     },
     "jasper_match": {
       "seed_character_matches": [
@@ -215,12 +181,10 @@
       "archetypes": [
         "goofy_sweetheart",
         "awkward_sweetheart",
-        "romantic_showman",
-        "brat_compatible"
+        "romantic_showman"
       ],
       "why_this_matches": "Bombastic villain posturing, mechanical brilliance, deep loneliness, literal-minded comedy, huge feelings and a very earnest capacity for attachment.",
       "archetype_writing_notes": [
-        "Humor should survive romantic and explicit scenes; silliness makes sincerity hit harder.",
         "Let romance be imperfectly expressed; a bungled declaration can feel more in-character than polished seduction.",
         "Grand gestures should eventually strip down to something emotionally simple and specific.",
         "Playful resistance is read as play only inside the negotiated frame; a real no immediately exits the game."
@@ -240,7 +204,6 @@
     "voice_profile": {
       "summary": "grandiose, Victorian-flavored, excitable",
       "dialogue_priority": [
-        "recognizable cadence before generic erotic phrasing",
         "retain humor style during intimacy",
         "retain flaws and coping mechanisms",
         "do not convert into Generic Dom"
@@ -261,28 +224,7 @@
         "Jasper remains active rather than a passenger"
       ]
     },
-    "brat_tamer_profile": {
-      "style": "Flusterable tamer/switchy sweetheart: tries to regain control with an elaborate plan and melts when Jasper gets sincere.",
-      "hard_rule": "Bratting is negotiated playful resistance. A real no/stop/distress leaves the play frame immediately.",
-      "preferred_loop": [
-        "Jasper provokes or finds a loophole",
-        "character recognizes play in a pre-negotiated context",
-        "character answers in their own voice",
-        "Jasper chooses whether to yield",
-        "specific praise or affectionate payoff",
-        "Jasper keeps their personality and may get the last smart remark"
-      ]
-    },
-    "adult_intimacy_voice": {
-      "generator_inference_not_canon": true,
-      "hard_explicit_compatible": true,
-      "no_fade_to_black": true,
-      "no_hidden_nudity_censorship": true,
-      "character_specific_diction": "ornate and theatrical but still explicit/clear; praise is effusive; avoid minimalist macho dirty talk",
-      "grammar_rule": "Explicitness never changes Jasper narration away from I/me/my/mine/myself. Character dialogue to Jasper may use you/your.",
-      "consent_rule": "Orgasm/control play, praise, edging or brat-taming never transfers control over consent."
-    },
-    "aftercare_profile": {
+    "comfort_and_reassurance": {
       "character_specific_aftercare": "blanket, invented comfort gadget, drink, rambling reassurance and receiving reassurance back",
       "reciprocity": "The love interest may also need reassurance, touch, quiet or emotional confirmation."
     },
@@ -341,15 +283,12 @@
       "only comic relief"
     ],
     "research_boundary": {
-      "canon_vs_inference": "Canon facts are separated from romance/kink writing inference. A listed brat-tamer or explicit style is not a claim that canon depicts that kink.",
       "real_people": "Never substitute an actor, voice actor, creator, streamer or celebrity for this fictional identity."
     },
     "retrieval": {
       "franchise": "Hazbin Hotel",
       "adult_only": true,
       "fictional_only": true,
-      "supports_sappy_smut": true,
-      "supports_brat_dynamic": true,
       "seed_similarity": [
         "Greg Universe",
         "Aang"
@@ -357,8 +296,7 @@
       "tags": [
         "goofy_sweetheart",
         "awkward_sweetheart",
-        "romantic_showman",
-        "brat_compatible"
+        "romantic_showman"
       ],
       "continuation_ready": true
     },

@@ -1,5 +1,13 @@
-# Attached source integration
+# ATTACHED SOURCE INTEGRATION — Superseded project note
 
-The supplied project was the runtime/UI base. The supplied Apps Script file defined the exact `fanfic.create`, `fanfic.save`, `fanfic.continue`, and `fanfic.branch` contract and accepted adult modes. The hard-explicit research guide supplied the adult gate, Jasper POV/pronoun rules, no-fade contract, character-specific diction, brat/praise/affirmation/aftercare profile, and output-lint requirements.
+This file previously documented an experimental build from September 2026. Its former runtime procedures are retired and are **not** part of the current Jasper fanfiction reader.
 
-The attached SexTurn project was reviewed for constrained action/category/level selection; the Jasper project uses an original deterministic scene-beat selector rather than copying its Python runtime. The generic Ren'Py project was reviewed for separation of options/save/menu concerns; its Ren'Py code was not copied into the browser project. The attached CYOA engines were reviewed for stateful branching, visit/history/backtracking concepts; Jasper keeps its existing browser-native branch memory/story graph and adds hard-explicit branch defaults.
+## Relevant preserved history
+
+Research sources were evaluated for general narration, continuity, characterization, and reader design. The current build does not depend on the former experimental modules.
+
+## Current authority
+
+The five 40-chapter fanfictions remain in `../json/<fandom>/<series>/`; the active offline library uses `../index.html`, `../js/app.js`, and `../js/fanfic-data.js`. Story continuity and age-appropriate romance guidance are in `STORY_BIBLE.md`, and current verification is in `CONTENT_AUDIT.json` and `STEP1_AUDIT.md`.
+
+These older build details are available through version control history rather than being restored as active instructions.

@@ -2142,98 +2142,6 @@
         "name": "Leo Petrov"
       }
     ],
-    "brat_compatible": [
-      {
-        "id": "avatar-the-last-airbender:aang",
-        "name": "Aang"
-      },
-      {
-        "id": "dc-movies:arthur-curry-aquaman",
-        "name": "Arthur Curry / Aquaman"
-      },
-      {
-        "id": "fallout-76:beckett",
-        "name": "Beckett"
-      },
-      {
-        "id": "steven-universe:greg-universe",
-        "name": "Greg Universe"
-      },
-      {
-        "id": "palia:hodari-pavel",
-        "name": "Hodari Pavel"
-      },
-      {
-        "id": "hazbin-hotel:husk",
-        "name": "Husk"
-      },
-      {
-        "id": "avatar-the-last-airbender:iroh",
-        "name": "Iroh"
-      },
-      {
-        "id": "avatar-the-last-airbender:katara",
-        "name": "Katara"
-      },
-      {
-        "id": "hazbin-hotel:lucifer-morningstar",
-        "name": "Lucifer Morningstar"
-      },
-      {
-        "id": "resident-evil:luis-serra-navarro",
-        "name": "Luis Serra Navarro"
-      },
-      {
-        "id": "disney-movies:maui",
-        "name": "Maui"
-      },
-      {
-        "id": "fallout-4:paladin-danse",
-        "name": "Paladin Danse"
-      },
-      {
-        "id": "fallout-4:piper-wright",
-        "name": "Piper Wright"
-      },
-      {
-        "id": "fallout-76:raider-punk",
-        "name": "Raider Punk"
-      },
-      {
-        "id": "palia:reth",
-        "name": "Reth"
-      },
-      {
-        "id": "marvel-movies:scott-lang-ant-man",
-        "name": "Scott Lang / Ant-Man"
-      },
-      {
-        "id": "harry-potter:severus-snape",
-        "name": "Severus Snape"
-      },
-      {
-        "id": "hazbin-hotel:sir-pentious",
-        "name": "Sir Pentious"
-      },
-      {
-        "id": "marvel-movies:stephen-strange-doctor-strange",
-        "name": "Stephen Strange / Doctor Strange"
-      },
-      {
-        "id": "marvel-movies:tony-stark-iron-man",
-        "name": "Tony Stark / Iron Man"
-      },
-      {
-        "id": "avatar-the-last-airbender:toph-beifong",
-        "name": "Toph Beifong"
-      }
-    ],
-    "brat_energy": [
-      {
-        "id": "palia:kenyatta",
-        "name": "Kenyatta"
-      }
-    ],
     "brotherhood": [
       {
         "id": "fallout-76:solomon-hardy",
@@ -4108,12 +4016,6 @@
         "name": "Noah Juma"
       }
     ],
-    "patient_tamer": [
-      {
-        "id": "avatar-the-last-airbender:iroh",
-        "name": "Iroh"
-      }
-    ],
     "performer": [
       {
         "id": "fallout-76:adelaide",
@@ -4214,32 +4116,6 @@
       {
         "id": "steven-universe:yellow-diamond",
         "name": "Yellow Diamond"
-      }
-    ],
-    "precision_tamer": [
-      {
-        "id": "dc-movies:alfred-pennyworth",
-        "name": "Alfred Pennyworth"
-      },
-      {
-        "id": "dc-movies:bruce-wayne-batman",
-        "name": "Bruce Wayne / Batman"
-      },
-      {
-        "id": "harry-potter:severus-snape",
-        "name": "Severus Snape"
-      },
-      {
-        "id": "marvel-movies:stephen-strange-doctor-strange",
-        "name": "Stephen Strange / Doctor Strange"
-      },
-      {
-        "id": "marvel-movies:wong",
-        "name": "Wong"
-      },
-      {
-        "id": "hazbin-hotel:zestial",
-        "name": "Zestial"
       }
     ],
     "professional": [

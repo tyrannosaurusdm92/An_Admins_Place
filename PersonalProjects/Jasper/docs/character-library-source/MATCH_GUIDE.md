@@ -51,7 +51,7 @@ Full JSON profiles separate canon grounding from fanfic/intimacy inference.
 - **Mark** — Intimidating cavern hunter and gruff presence whose softness is clearest around stray animals, family and the person he slowly trusts.
 - **James Gordon** — Grounded mature professional: skeptical, loyal, morally serious and capable of dry humor amid Gotham absurdity.
 
-## Best brat-compatible comic chemistry
+## Best playful, teasing comic chemistry
 - **Lucifer Morningstar** — Ancient power plus theatrical silliness, awkward dad energy, idealism damaged by despair, and intense affection that often comes out sideways.
 - **Husk** — A superb Snape/Greg bridge: foul-mouthed, sarcastic and observant, but patient, empathetic, protective, authenticity-driven and secretly cuddly.
 - **Tony Stark / Iron Man** — Greg’s performative humor crossed with Snape’s verbal sharpness: brilliant, exhausting, funny, controlling at times, traumatized and prone to expressing care through engineering.
@@ -72,9 +72,9 @@ Full JSON profiles separate canon grounding from fanfic/intimacy inference.
 
 ## Hard exclusions
 - Real people, actors, voice actors, creators, celebrities, streamers and performer personas.
-- Any romantic/sexual participant under 18.
-- Original-series minor Aang, Toph or Katara in romantic/sexual content.
-- Billy Batson/Shazam in adult sexual content: an adult-looking magical body does not make the child person/mind an adult participant.
+- Any romantic participants under 18.
+- Original-series minor Aang, Toph or Katara in romantic participants.
+- Billy Batson/Shazam in adult romantic stories: an adult-looking magical body does not make the child person/mind an adult participant.
 - Any genuinely ambiguous-age character until the selected story metadata explicitly establishes age 18+.
 
 ## Canon-state handling

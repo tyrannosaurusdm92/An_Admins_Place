@@ -2,7 +2,7 @@
 
 Total detailed fictional-character profiles: **134**
 
-The match guide is a retrieval shortcut. Full profiles contain canon grounding, voice, romance/explicit inference, brat-tamer compatibility, adult gates, continuation rules, and source URLs.
+The match guide is a retrieval shortcut. Full profiles contain canon grounding, voice, romance and characterization, character-specific teasing, adult gates, continuation rules, and source URLs.
 
 ## Older / wiser / lived-in
 - **Aang** — Avatar: The Last Airbender
@@ -103,7 +103,7 @@ The match guide is a retrieval shortcut. Full profiles contain canon grounding, 
 - **Greg Universe** — Steven Universe
 - **Rose Quartz / Pink Diamond** — Steven Universe
 
-## Precision / dry-wit / brat-compatible
+## Precision / dry-wit / playful, teasing
 - **Piandao** — Avatar: The Last Airbender
 - **Suki** — Avatar: The Last Airbender
 - **Toph Beifong** — Avatar: The Last Airbender
