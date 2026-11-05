@@ -21,7 +21,7 @@
   "series_folder": "After-Always",
   "series_path": "HP/After-Always",
   "id": "after-always-16",
-  "format": "choice_enriched_first_person_reader_insert",
+  "format": "linear_first_person_reader_insert",
   "canon_window": "Postwar adult timeline only: adult Jasper and adult Severus Snape rebuilding life after the war; no school-age version of any romantic/private-interlude participant is used.",
   "research_alignment": [
     "Postwar adult Severus Snape with bitterness, precision, privacy, guilt, potion expertise, and guarded care",
