@@ -21,7 +21,7 @@
   "series_folder": "After-Always",
   "series_path": "HP/After-Always",
   "id": "after-always-21",
-  "format": "choice_enriched_first_person_reader_insert",
+  "format": "linear_first_person_reader_insert",
   "canon_window": "Postwar Hogwarts: adult Jasper and a surviving Severus Snape navigate recovery, potions, grief, accountability, and non-graphic romance.",
   "research_alignment": [
     "Postwar adult Severus Snape with bitterness, precision, privacy, guilt, potion expertise, and guarded care",
